@@ -8,3 +8,8 @@
 @import "../public/assets/css/image-compare-viewer.min.css";
 @import "../public/assets/css/photoswipe.css";
 @import "../public/assets/css/drift-basic.min.css";
+
+/* Tailwind CSS — imported last + important:true in config so it
+   overrides Bootstrap and all other unlayered styles by default */
+@import "tailwindcss";
+@config "../tailwind.config.js";
