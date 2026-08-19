@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 2,
+  "id": 8258923135111,
+  "handle": "8ft-heavy-duty-folding-table",
+  "slug": "8ft-heavy-duty-folding-table",
+  "name": "8ft Heavy-Duty Folding Table \u2013 Extra Large, Durable & Portable",
+  "vendor": "Notion Worx",
+  "productType": null,
+  "primaryCategory": {
+    "handle": "table-cover",
+    "title": "TABLE COVER"
+  },
+  "categories": [
+    {
+      "handle": "table-cover",
+      "title": "TABLE COVER"
+    }
+  ],
+  "descriptionHtml": "<h3 data-start=\"1007\" data-end=\"1045\"><strong data-start=\"1011\" data-end=\"1043\">8ft Heavy-Duty Folding Table</strong></h3>\n<p data-start=\"1047\" data-end=\"1324\">Take your booth or event setup to the next level with our <strong data-start=\"1105\" data-end=\"1137\">8ft Heavy-Duty Folding Table</strong>, built for durability, stability, and convenience. Perfect for trade shows, food booths, catering, and outdoor events, this table provides extra space without compromising portability.</p>\n<p data-start=\"1326\" data-end=\"1480\">\ud83d\udcaa <strong data-start=\"1329\" data-end=\"1357\">Heavy-Duty Construction:</strong> Sturdy steel frame and reinforced high-density plastic tabletop designed to support heavy loads and withstand daily use.</p>\n<p data-start=\"1482\" data-end=\"1609\">\ud83d\udccf <strong data-start=\"1485\" data-end=\"1509\">Extra-Large Surface:</strong> 8ft length offers generous workspace for product displays, food service, or multi-purpose setups.</p>\n<p data-start=\"1611\" data-end=\"1691\">\u2699\ufe0f <strong data-start=\"1614\" data-end=\"1633\">Folding Design:</strong> Easily folds in half for compact storage and transport.</p>\n<p data-start=\"1693\" data-end=\"1790\">\ud83d\ude9a <strong data-start=\"1696\" data-end=\"1723\">Portable &amp; Lightweight:</strong> Despite its size, the table is easy to move and set up anywhere.</p>\n<p data-start=\"1792\" data-end=\"1873\">\ud83e\uddfd <strong data-start=\"1795\" data-end=\"1813\">Easy to Clean:</strong> Smooth, non-porous surface wipes clean quickly after use.</p>\n<p data-start=\"1875\" data-end=\"1998\">\ud83c\udfaf <strong data-start=\"1878\" data-end=\"1905\">Versatile Applications:</strong> Ideal for trade shows, food booths, vendor markets, catering services, and outdoor events.</p>\n<hr data-start=\"2000\" data-end=\"2003\">\n<p data-start=\"2005\" data-end=\"2085\"><strong data-start=\"2005\" data-end=\"2028\">Product Dimensions:</strong><br data-start=\"2028\" data-end=\"2031\">Size: 96\" L x 30\" W x 29\" H<br data-start=\"2058\" data-end=\"2061\">Weight: Approx. 40 lbs</p>\n<p data-start=\"2087\" data-end=\"2163\"><strong data-start=\"2087\" data-end=\"2101\">Materials:</strong><br data-start=\"2101\" data-end=\"2104\">Frame: Steel<br data-start=\"2116\" data-end=\"2119\">Tabletop: High-Density Polyethylene (HDPE)</p>\n<p data-start=\"2165\" data-end=\"2258\"><strong data-start=\"2165\" data-end=\"2183\">Primary Usage:</strong><br data-start=\"2183\" data-end=\"2186\">Trade shows, food booths, vendor markets, catering, and outdoor events</p>",
+  "descriptionText": "8ft Heavy-Duty Folding Table\nTake your booth or event setup to the next level with our 8ft Heavy-Duty Folding Table, built for durability, stability, and convenience. Perfect for trade shows, food booths, catering, and outdoor events, this table provides extra space without compromising portability.\n\ud83d\udcaa Heavy-Duty Construction: Sturdy steel frame and reinforced high-density plastic tabletop designed to support heavy loads and withstand daily use.\n\ud83d\udccf Extra-Large Surface: 8ft length offers generous workspace for product displays, food service, or multi-purpose setups.\n\u2699\ufe0f Folding Design: Easily folds in half for compact storage and transport.\n\ud83d\ude9a Portable & Lightweight: Despite its size, the table is easy to move and set up anywhere.\n\ud83e\uddfd Easy to Clean: Smooth, non-porous surface wipes clean quickly after use.\n\ud83c\udfaf Versatile Applications: Ideal for trade shows, food booths, vendor markets, catering services, and outdoor events.\nProduct Dimensions:\nSize: 96\" L x 30\" W x 29\" H\nWeight: Approx. 40 lbs\nMaterials:\nFrame: Steel\nTabletop: High-Density Polyethylene (HDPE)\nPrimary Usage:\nTrade shows, food booths, vendor markets, catering, and outdoor events",
+  "tags": [],
+  "skus": [
+    "ITEM #: FT8FT"
+  ],
+  "price": {
+    "min": 95.0,
+    "max": 95.0,
+    "compareAtMin": 115.0,
+    "compareAtMax": 115.0,
+    "variantCount": 1
+  },
+  "options": [
+    {
+      "name": "Title",
+      "position": 1,
+      "values": [
+        "Default Title"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 43431899988103,
+      "title": "Default Title",
+      "sku": "ITEM #: FT8FT",
+      "available": true,
+      "price": 95.0,
+      "compareAtPrice": 115.0,
+      "optionValues": [
+        "Default Title"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 0,
+      "position": 1
+    }
+  ],
+  "images": [
+    {
+      "localPath": "/assets/images/notionworx-inventory/table-cover/8ft-heavy-duty-folding-table/01.jpg",
+      "width": 1500,
+      "height": 1500,
+      "position": 1,
+      "variantIds": []
+    }
+  ],
+  "createdAt": "2025-11-04T14:07:24-07:00",
+  "updatedAt": "2026-08-18T21:24:27-06:00",
+  "publishedAt": "2025-11-04T14:07:26-07:00"
+}

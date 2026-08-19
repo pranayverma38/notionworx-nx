@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 2,
+  "id": 8258279538823,
+  "handle": "option-set-1265540-image-swatches-4",
+  "slug": "option-set-1265540-image-swatches-4",
+  "name": "Weighted",
+  "vendor": "Notion Worx",
+  "productType": null,
+  "primaryCategory": {
+    "handle": "uncategorized",
+    "title": "Uncategorized"
+  },
+  "categories": [
+    {
+      "handle": "uncategorized",
+      "title": "Uncategorized"
+    }
+  ],
+  "descriptionHtml": "",
+  "descriptionText": "",
+  "tags": [
+    "globo-product-options",
+    "option-set-1265540-image-swatches-4"
+  ],
+  "skus": [],
+  "price": {
+    "min": 150.0,
+    "max": 150.0,
+    "compareAtMin": null,
+    "compareAtMax": null,
+    "variantCount": 2
+  },
+  "options": [
+    {
+      "name": "Title",
+      "position": 1,
+      "values": [
+        "6 Pc Set",
+        "Weighted - 6 Pc Set"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 43429466243207,
+      "title": "6 Pc Set",
+      "sku": "None",
+      "available": true,
+      "price": 150.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "6 Pc Set"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 0,
+      "position": 1
+    },
+    {
+      "id": 43429466341511,
+      "title": "Weighted - 6 Pc Set",
+      "sku": "None",
+      "available": true,
+      "price": 150.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "Weighted - 6 Pc Set"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 0,
+      "position": 2
+    }
+  ],
+  "images": [],
+  "createdAt": "2025-11-03T13:37:45-07:00",
+  "updatedAt": "2026-08-18T21:26:13-06:00",
+  "publishedAt": "2025-11-03T13:37:45-07:00"
+}

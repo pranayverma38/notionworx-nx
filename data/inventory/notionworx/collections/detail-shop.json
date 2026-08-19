@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 2,
+  "handle": "detail-shop",
+  "title": "Detail Shop",
+  "description": "",
+  "image": {
+    "localPath": "/assets/images/notionworx-inventory/collections/detail-shop/01.jpg",
+    "width": null,
+    "height": null
+  },
+  "productsCount": 0,
+  "productHandles": []
+}

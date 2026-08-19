@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 2,
+  "handle": "headwear",
+  "title": "HEADWEAR",
+  "description": "",
+  "image": {
+    "localPath": "/assets/images/notionworx-inventory/collections/headwear/01.jpg",
+    "width": null,
+    "height": null
+  },
+  "productsCount": 1,
+  "productHandles": [
+    "sublimated-bucket-hat"
+  ]
+}

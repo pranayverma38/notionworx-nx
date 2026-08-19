@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 2,
+  "id": 8227678945415,
+  "handle": "belt-bag-dye-sublimated-1-38-strap-500060",
+  "slug": "belt-bag-dye-sublimated-1-38-strap-500060",
+  "name": "Belt Bag (Dye Sublimated) 1.38\" Strap #500060",
+  "vendor": "Notion Worx",
+  "productType": null,
+  "primaryCategory": {
+    "handle": "bag",
+    "title": "BAG"
+  },
+  "categories": [
+    {
+      "handle": "bag",
+      "title": "BAG"
+    }
+  ],
+  "descriptionHtml": "<p>600d oxford material\u00a0</p>\n<p>one layer black inside with strap 0.98'' width</p>\n<p>7.5'' x 5.5'' x 2''</p>\n<p>Webbing width: 1.38\"<br></p>",
+  "descriptionText": "600d oxford material\none layer black inside with strap 0.98'' width\n7.5'' x 5.5'' x 2''\nWebbing width: 1.38\"",
+  "tags": [],
+  "skus": [
+    "500060"
+  ],
+  "price": {
+    "min": 11.0,
+    "max": 11.0,
+    "compareAtMin": null,
+    "compareAtMax": null,
+    "variantCount": 1
+  },
+  "options": [
+    {
+      "name": "Title",
+      "position": 1,
+      "values": [
+        "Default Title"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 43238184288391,
+      "title": "Default Title",
+      "sku": "500060",
+      "available": true,
+      "price": 11.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "Default Title"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 454,
+      "position": 1
+    }
+  ],
+  "images": [
+    {
+      "localPath": "/assets/images/notionworx-inventory/bag/belt-bag-dye-sublimated-1-38-strap-500060/01.jpg",
+      "width": 1200,
+      "height": 1200,
+      "position": 1,
+      "variantIds": []
+    },
+    {
+      "localPath": "/assets/images/notionworx-inventory/bag/belt-bag-dye-sublimated-1-38-strap-500060/02.jpg",
+      "width": 1280,
+      "height": 1280,
+      "position": 2,
+      "variantIds": []
+    }
+  ],
+  "createdAt": "2025-09-25T12:38:16-06:00",
+  "updatedAt": "2026-08-18T21:25:51-06:00",
+  "publishedAt": "2025-09-28T20:18:35-06:00"
+}

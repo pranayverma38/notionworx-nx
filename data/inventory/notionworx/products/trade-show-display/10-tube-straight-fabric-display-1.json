@@ -1,0 +1,145 @@
+{
+  "schemaVersion": 2,
+  "id": 8227674783879,
+  "handle": "10-tube-straight-fabric-display-1",
+  "slug": "10-tube-straight-fabric-display-1",
+  "name": "10' Tube Straight Fabric Display",
+  "vendor": "Notion Worx",
+  "productType": null,
+  "primaryCategory": {
+    "handle": "trade-show-display",
+    "title": "BANNERS & DISPLAYS"
+  },
+  "categories": [
+    {
+      "handle": "trade-show-display",
+      "title": "BANNERS & DISPLAYS"
+    }
+  ],
+  "descriptionHtml": "<p data-mce-fragment=\"1\"><strong data-mce-fragment=\"1\">Features:\u00a0</strong><br data-mce-fragment=\"1\">This display is approximately 90\" tall<br data-mce-fragment=\"1\">Your artwork will be dye sublimated on polyester knit<br data-mce-fragment=\"1\">Double-sided graphic cover is viewable from both the front and back of the display<br data-mce-fragment=\"1\">Graphic cover slips over the frame like a pillowcase<br data-mce-fragment=\"1\">Fabric contours to the frame for a form-fitted look<br data-mce-fragment=\"1\">Lightweight aluminum frame<br data-mce-fragment=\"1\">Joints are labeled for step-by-step frame assembly<br data-mce-fragment=\"1\">Push-button connectors make it easy to assemble<br data-mce-fragment=\"1\">Slim swivel feet allow Walls to be paired at angles<br data-mce-fragment=\"1\">Imprint Method: Full-Color Dye Sublimation</p>\n<p data-mce-fragment=\"1\"><br data-mce-fragment=\"1\"><strong data-mce-fragment=\"1\">Materials</strong><br data-mce-fragment=\"1\">Graphic: Polyester Knit<br data-mce-fragment=\"1\">Hardware: Aluminum<br data-mce-fragment=\"1\">Carry Case: 600 Denier Polyester</p>\n<p data-mce-fragment=\"1\"><br data-mce-fragment=\"1\"><strong data-mce-fragment=\"1\">Primary Usage</strong><br data-mce-fragment=\"1\">Indoor</p>\n<p data-mce-fragment=\"1\"><strong data-mce-fragment=\"1\">Order Cutoff Time</strong><br data-mce-fragment=\"1\">12:00 PM Central Daylight Time</p>\n<div data-mce-fragment=\"1\">\n<strong data-mce-fragment=\"1\">Size and Weight</strong><strong data-mce-fragment=\"1\">:\u00a0</strong>\n</div>\n<div data-mce-fragment=\"1\">\n<ul data-mce-fragment=\"1\">\n<li data-mce-fragment=\"1\">Display Size: 112\u201dW x 89\u201dH</li>\n<li data-mce-fragment=\"1\">Graphic Size: 115\u201dW x 89.5\u201dH</li>\n<li data-mce-fragment=\"1\">Weight (w/ soft canvas bag): 34 lbs</li>\n<li data-mce-fragment=\"1\">Weight (w/ podium &amp; led lights):\u00a053 lbs</li>\n<li data-mce-fragment=\"1\">Package Size (soft canvas bag): 32\u201dW x 11\u201dH x 11\u201dD</li>\n<li data-mce-fragment=\"1\">Package Size (hard case): 40\u201dW x 21\u201dH x 17\u201dD</li>\n<li data-mce-fragment=\"1\">Podium Size: 37\"W x 37\"H x 20\"D</li>\n</ul>\n<p data-mce-fragment=\"1\"><strong data-mce-fragment=\"1\">Warranty</strong></p>\n<ul data-mce-fragment=\"1\">\n<li data-mce-fragment=\"1\">90 day graphic warranty with outdoor use - Outdoor usage is limited to a 90 day standard parts and labor warranty which warrants product against defects in material and workmanship. It does not cover damage due to accidents, abuse, or normal wear and tear. Products found to be defective will be replaced or repaired at factory's discretion.</li>\n<li data-mce-fragment=\"1\">1 year graphic warranty on indoor use - Indoor use is a 1 year standard parts and labor warranty which warrants product against defects in material and workmanship. It does not cover damage due to accidents, abuse, or normal wear and tear. Products found to be defective will be replaced or repaired at factory's discretion.</li>\n</ul>\n</div>",
+  "descriptionText": "Features:\nThis display is approximately 90\" tall\nYour artwork will be dye sublimated on polyester knit\nDouble-sided graphic cover is viewable from both the front and back of the display\nGraphic cover slips over the frame like a pillowcase\nFabric contours to the frame for a form-fitted look\nLightweight aluminum frame\nJoints are labeled for step-by-step frame assembly\nPush-button connectors make it easy to assemble\nSlim swivel feet allow Walls to be paired at angles\nImprint Method: Full-Color Dye Sublimation\nMaterials\nGraphic: Polyester Knit\nHardware: Aluminum\nCarry Case: 600 Denier Polyester\nPrimary Usage\nIndoor\nOrder Cutoff Time\n12:00 PM Central Daylight Time\nSize and Weight :\nDisplay Size: 112\u201dW x 89\u201dH\nGraphic Size: 115\u201dW x 89.5\u201dH\nWeight (w/ soft canvas bag): 34 lbs\nWeight (w/ podium & led lights): 53 lbs\nPackage Size (soft canvas bag): 32\u201dW x 11\u201dH x 11\u201dD\nPackage Size (hard case): 40\u201dW x 21\u201dH x 17\u201dD\nPodium Size: 37\"W x 37\"H x 20\"D\nWarranty\n90 day graphic warranty with outdoor use - Outdoor usage is limited to a 90 day standard parts and labor warranty which warrants product against defects in material and workmanship. It does not cover damage due to accidents, abuse, or normal wear and tear. Products found to be defective will be replaced or repaired at factory's discretion.\n1 year graphic warranty on indoor use - Indoor use is a 1 year standard parts and labor warranty which warrants product against defects in material and workmanship. It does not cover damage due to accidents, abuse, or normal wear and tear. Products found to be defective will be replaced or repaired at factory's discretion.",
+  "tags": [],
+  "skus": [
+    "406024",
+    "406026",
+    "406025",
+    "406027"
+  ],
+  "price": {
+    "min": 190.0,
+    "max": 525.0,
+    "compareAtMin": null,
+    "compareAtMax": null,
+    "variantCount": 4
+  },
+  "options": [
+    {
+      "name": "Display Option",
+      "position": 1,
+      "values": [
+        "Single-Sided",
+        "Double-Sided"
+      ]
+    },
+    {
+      "name": "Style",
+      "position": 2,
+      "values": [
+        "Kit 1(Frame+Printing)",
+        "Kit 2 ( Graphic Only)"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 43238164594823,
+      "title": "Single-Sided / Kit 1(Frame+Printing)",
+      "sku": "406024",
+      "available": true,
+      "price": 470.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "Single-Sided",
+        "Kit 1(Frame+Printing)"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 22680,
+      "position": 1
+    },
+    {
+      "id": 43238164627591,
+      "title": "Single-Sided / Kit 2 ( Graphic Only)",
+      "sku": "406026",
+      "available": true,
+      "price": 190.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "Single-Sided",
+        "Kit 2 ( Graphic Only)"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 22680,
+      "position": 2
+    },
+    {
+      "id": 43238164660359,
+      "title": "Double-Sided / Kit 1(Frame+Printing)",
+      "sku": "406025",
+      "available": true,
+      "price": 525.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "Double-Sided",
+        "Kit 1(Frame+Printing)"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 22680,
+      "position": 3
+    },
+    {
+      "id": 43238164693127,
+      "title": "Double-Sided / Kit 2 ( Graphic Only)",
+      "sku": "406027",
+      "available": true,
+      "price": 250.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "Double-Sided",
+        "Kit 2 ( Graphic Only)"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 22680,
+      "position": 4
+    }
+  ],
+  "images": [
+    {
+      "localPath": "/assets/images/notionworx-inventory/trade-show-display/10-tube-straight-fabric-display-1/01.jpg",
+      "width": 500,
+      "height": 500,
+      "position": 1,
+      "variantIds": []
+    },
+    {
+      "localPath": "/assets/images/notionworx-inventory/trade-show-display/10-tube-straight-fabric-display-1/02.jpg",
+      "width": 800,
+      "height": 600,
+      "position": 2,
+      "variantIds": []
+    },
+    {
+      "localPath": "/assets/images/notionworx-inventory/trade-show-display/10-tube-straight-fabric-display-1/03.jpg",
+      "width": 800,
+      "height": 600,
+      "position": 3,
+      "variantIds": []
+    }
+  ],
+  "createdAt": "2025-09-25T12:35:53-06:00",
+  "updatedAt": "2026-08-18T21:24:32-06:00",
+  "publishedAt": "2025-09-26T09:36:51-06:00"
+}

@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 2,
+  "id": 8227675537543,
+  "handle": "custom-sublimation-printed-chiffon-bandanna-scarf",
+  "slug": "custom-sublimation-printed-chiffon-bandanna-scarf",
+  "name": "Custom Sublimated Printed Chiffon bandanna scarf",
+  "vendor": "Notion Worx",
+  "productType": null,
+  "primaryCategory": {
+    "handle": "towel-blanket",
+    "title": "TOWEL & BLANKET"
+  },
+  "categories": [
+    {
+      "handle": "towel-blanket",
+      "title": "TOWEL & BLANKET"
+    }
+  ],
+  "descriptionHtml": "This is a great\u00a0custom bandanna/scarf with full color sublimation.<br data-mce-fragment=\"1\">Perfect for around your neck as an accessory or even around your head. <br data-mce-fragment=\"1\">Soft lightweight chiffon scarf, this is a great fashion piece. roll hemmed.<br data-mce-fragment=\"1\">Size: 24'' x 24''\n<h4>\n<br>\n</h4>",
+  "descriptionText": "This is a great custom bandanna/scarf with full color sublimation.\nPerfect for around your neck as an accessory or even around your head.\nSoft lightweight chiffon scarf, this is a great fashion piece. roll hemmed.\nSize: 24'' x 24''",
+  "tags": [],
+  "skus": [
+    "50086"
+  ],
+  "price": {
+    "min": 25.0,
+    "max": 25.0,
+    "compareAtMin": null,
+    "compareAtMax": null,
+    "variantCount": 1
+  },
+  "options": [
+    {
+      "name": "Title",
+      "position": 1,
+      "values": [
+        "Default Title"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 43238165741703,
+      "title": "Default Title",
+      "sku": "50086",
+      "available": true,
+      "price": 25.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "Default Title"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 454,
+      "position": 1
+    }
+  ],
+  "images": [
+    {
+      "localPath": "/assets/images/notionworx-inventory/towel-blanket/custom-sublimation-printed-chiffon-bandanna-scarf/01.jpg",
+      "width": 1000,
+      "height": 1000,
+      "position": 1,
+      "variantIds": []
+    },
+    {
+      "localPath": "/assets/images/notionworx-inventory/towel-blanket/custom-sublimation-printed-chiffon-bandanna-scarf/02.jpg",
+      "width": 1000,
+      "height": 1000,
+      "position": 2,
+      "variantIds": []
+    },
+    {
+      "localPath": "/assets/images/notionworx-inventory/towel-blanket/custom-sublimation-printed-chiffon-bandanna-scarf/03.jpg",
+      "width": 500,
+      "height": 448,
+      "position": 3,
+      "variantIds": []
+    }
+  ],
+  "createdAt": "2025-09-25T12:36:25-06:00",
+  "updatedAt": "2026-08-18T21:26:03-06:00",
+  "publishedAt": "2025-09-28T21:05:38-06:00"
+}

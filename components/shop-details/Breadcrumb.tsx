@@ -71,6 +71,9 @@ export default function Breadcrumb({ product }: { product: ProductCardItem }) {
     basePath && prevId != null ? `${basePath}/${prevId}` : undefined;
   const nextHref =
     basePath && nextId != null ? `${basePath}/${nextId}` : undefined;
+  const categoryHref = product.category
+    ? `/shop-default?category=${encodeURIComponent(product.category)}`
+    : "/shop-default";
 
   return (
     <div className="section-page-title-single flat-spacing-3">
@@ -81,9 +84,9 @@ export default function Breadcrumb({ product }: { product: ProductCardItem }) {
               Home
             </Link>
             <i className="icon icon-CaretRightThin cl-text-3" />
-            <a href="/shop-default" className="text-caption-01 cl-text-3 link">
-              Shop
-            </a>
+            <Link href={categoryHref} className="text-caption-01 cl-text-3 link">
+              {product.category ?? "Shop"}
+            </Link>
             <i className="icon icon-CaretRightThin cl-text-3" />
             <p className="text-caption-01">{product.name}</p>
           </div>
@@ -94,7 +97,7 @@ export default function Breadcrumb({ product }: { product: ProductCardItem }) {
               iconClass="icon-CaretLeft"
             />
             <Link
-              href="/shop-default"
+              href={categoryHref}
               className="link nav-all-post nav-post-link"
             >
               <i className="icon icon-SquaresFour" />

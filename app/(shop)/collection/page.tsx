@@ -4,8 +4,8 @@ import CollectionCategoriesClient from "@/components/shop/collection/CollectionC
 import { shopRouteMetadata } from "@/lib/metadata/shop";
 
 export const metadata = shopRouteMetadata(
-  "All categories",
-  "Explore every category — outerwear, dresses, footwear, bags, and accessories.",
+  "Collections",
+  "Explore storefront collections for canopies, displays, flags, apparel, and event essentials.",
 );
 
 export default function page() {
@@ -20,14 +20,14 @@ export default function page() {
                 Home
               </Link>
               <i className="icon icon-CaretRightThin cl-text-3" />
-              <p className="text-caption-01">All Categories</p>
+              <p className="text-caption-01">Collections</p>
             </div>
-            <h3>All Categories</h3>
+            <h3>Collections</h3>
             <p className="text-body-1 cl-text-2">
-              Step into our all categories, where elegance meets confidence in
-              styles that
+              Browse the migrated product collections now powering this
+              storefront, from custom canopies to trade show
               <br className="d-none d-lg-block" />
-              empower and inspire every moment.
+              displays, flags, apparel, and accessories.
             </p>
           </div>
         </div>

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 2,
+  "handle": "accesories",
+  "title": "Accessories",
+  "description": "",
+  "image": {
+    "localPath": "/assets/images/notionworx-inventory/collections/accesories/01.jpg",
+    "width": null,
+    "height": null
+  },
+  "productsCount": 7,
+  "productHandles": [
+    "10ft-canopy-awning",
+    "canopy-counter-bar-top",
+    "custom-lanyard-with-badge-holder",
+    "led-light-bars",
+    "portable-power-station-300w",
+    "premium-10-tent-top-square-banner",
+    "sandbag-ballast-kit-for-event-tent-legs-set-of-four"
+  ]
+}

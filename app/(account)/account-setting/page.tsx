@@ -4,8 +4,8 @@ import AccountPageTitle from "@/components/account/AccountPageTitle";
 import AccountSetting from "@/components/account/account-setting/AccountSetting";
 
 export const metadata: Metadata = {
-  title: "Setting | Amerce - Multipurpose eCommerce React Nextjs Template",
-  description: "Amerce - Multipurpose eCommerce React Nextjs Template",
+  title: "Account Settings | Notion Worx",
+  description: "Update your Notion Worx account preferences and profile settings.",
 };
 
 const AccountSettingPage = () => {

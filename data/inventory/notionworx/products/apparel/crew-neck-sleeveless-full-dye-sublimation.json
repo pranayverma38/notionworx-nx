@@ -1,0 +1,285 @@
+{
+  "schemaVersion": 2,
+  "id": 8227680157831,
+  "handle": "crew-neck-sleeveless-full-dye-sublimation",
+  "slug": "crew-neck-sleeveless-full-dye-sublimation",
+  "name": "150GSM Mesh Jersey Crew Neck Sleeveless (Full Dye Sublimation) #500005",
+  "vendor": "Notion Worx",
+  "productType": null,
+  "primaryCategory": {
+    "handle": "apparel",
+    "title": "APPAREL"
+  },
+  "categories": [
+    {
+      "handle": "apparel",
+      "title": "APPAREL"
+    }
+  ],
+  "descriptionHtml": "<p data-mce-fragment=\"1\">95% polyester 5% spandex 4.42oz\u00a0jersey mesh\u00a0\u00a0<span data-mce-fragment=\"1\">moisture wicking fabric</span></p>",
+  "descriptionText": "95% polyester 5% spandex 4.42oz jersey mesh moisture wicking fabric",
+  "tags": [],
+  "skus": [
+    "500005-S",
+    "500005-M",
+    "500005-L",
+    "500005-XL",
+    "500005-2XL",
+    "500005-3XL",
+    "500005-4XL",
+    "500005-YXS",
+    "500005-YS",
+    "500005-YM",
+    "500005-YL",
+    "500005-YXL"
+  ],
+  "price": {
+    "min": 12.5,
+    "max": 12.5,
+    "compareAtMin": null,
+    "compareAtMax": null,
+    "variantCount": 12
+  },
+  "options": [
+    {
+      "name": "Size",
+      "position": 1,
+      "values": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL",
+        "4XL",
+        "YXS",
+        "YS",
+        "YM",
+        "YL",
+        "YXL"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 43238193037447,
+      "title": "S",
+      "sku": "500005-S",
+      "available": true,
+      "price": 12.5,
+      "compareAtPrice": null,
+      "optionValues": [
+        "S"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 454,
+      "position": 1
+    },
+    {
+      "id": 43238193070215,
+      "title": "M",
+      "sku": "500005-M",
+      "available": true,
+      "price": 12.5,
+      "compareAtPrice": null,
+      "optionValues": [
+        "M"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 454,
+      "position": 2
+    },
+    {
+      "id": 43238193102983,
+      "title": "L",
+      "sku": "500005-L",
+      "available": true,
+      "price": 12.5,
+      "compareAtPrice": null,
+      "optionValues": [
+        "L"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 454,
+      "position": 3
+    },
+    {
+      "id": 43238193135751,
+      "title": "XL",
+      "sku": "500005-XL",
+      "available": true,
+      "price": 12.5,
+      "compareAtPrice": null,
+      "optionValues": [
+        "XL"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 454,
+      "position": 4
+    },
+    {
+      "id": 43238193168519,
+      "title": "2XL",
+      "sku": "500005-2XL",
+      "available": true,
+      "price": 12.5,
+      "compareAtPrice": null,
+      "optionValues": [
+        "2XL"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 454,
+      "position": 5
+    },
+    {
+      "id": 43238193201287,
+      "title": "3XL",
+      "sku": "500005-3XL",
+      "available": true,
+      "price": 12.5,
+      "compareAtPrice": null,
+      "optionValues": [
+        "3XL"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 454,
+      "position": 6
+    },
+    {
+      "id": 43238193234055,
+      "title": "4XL",
+      "sku": "500005-4XL",
+      "available": true,
+      "price": 12.5,
+      "compareAtPrice": null,
+      "optionValues": [
+        "4XL"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 454,
+      "position": 7
+    },
+    {
+      "id": 43238193266823,
+      "title": "YXS",
+      "sku": "500005-YXS",
+      "available": true,
+      "price": 12.5,
+      "compareAtPrice": null,
+      "optionValues": [
+        "YXS"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 454,
+      "position": 8
+    },
+    {
+      "id": 43238193299591,
+      "title": "YS",
+      "sku": "500005-YS",
+      "available": true,
+      "price": 12.5,
+      "compareAtPrice": null,
+      "optionValues": [
+        "YS"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 454,
+      "position": 9
+    },
+    {
+      "id": 43238193332359,
+      "title": "YM",
+      "sku": "500005-YM",
+      "available": true,
+      "price": 12.5,
+      "compareAtPrice": null,
+      "optionValues": [
+        "YM"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 454,
+      "position": 10
+    },
+    {
+      "id": 43238193365127,
+      "title": "YL",
+      "sku": "500005-YL",
+      "available": true,
+      "price": 12.5,
+      "compareAtPrice": null,
+      "optionValues": [
+        "YL"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 454,
+      "position": 11
+    },
+    {
+      "id": 43238193397895,
+      "title": "YXL",
+      "sku": "500005-YXL",
+      "available": true,
+      "price": 12.5,
+      "compareAtPrice": null,
+      "optionValues": [
+        "YXL"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 454,
+      "position": 12
+    }
+  ],
+  "images": [
+    {
+      "localPath": "/assets/images/notionworx-inventory/apparel/crew-neck-sleeveless-full-dye-sublimation/01.jpg",
+      "width": 1000,
+      "height": 1000,
+      "position": 1,
+      "variantIds": []
+    },
+    {
+      "localPath": "/assets/images/notionworx-inventory/apparel/crew-neck-sleeveless-full-dye-sublimation/02.jpg",
+      "width": 1000,
+      "height": 1000,
+      "position": 2,
+      "variantIds": []
+    },
+    {
+      "localPath": "/assets/images/notionworx-inventory/apparel/crew-neck-sleeveless-full-dye-sublimation/03.png",
+      "width": 938,
+      "height": 976,
+      "position": 3,
+      "variantIds": []
+    },
+    {
+      "localPath": "/assets/images/notionworx-inventory/apparel/crew-neck-sleeveless-full-dye-sublimation/04.png",
+      "width": 1038,
+      "height": 996,
+      "position": 4,
+      "variantIds": []
+    },
+    {
+      "localPath": "/assets/images/notionworx-inventory/apparel/crew-neck-sleeveless-full-dye-sublimation/05.png",
+      "width": 1070,
+      "height": 982,
+      "position": 5,
+      "variantIds": []
+    }
+  ],
+  "createdAt": "2025-09-25T12:38:59-06:00",
+  "updatedAt": "2026-08-18T21:24:55-06:00",
+  "publishedAt": "2025-09-26T09:33:58-06:00"
+}

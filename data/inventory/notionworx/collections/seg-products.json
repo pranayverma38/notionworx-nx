@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 2,
+  "handle": "seg-products",
+  "title": "SEG PRODUCTS",
+  "description": "",
+  "image": null,
+  "productsCount": 6,
+  "productHandles": [
+    "10ft-seg-backlit-fabric-display",
+    "10ft-seg-backlit-popup-display",
+    "10ft-seg-fabric-display",
+    "20ft-seg-fabric-display",
+    "3ft-seg-fabric-stand",
+    "8ft-seg-backlit-popup-display"
+  ]
+}

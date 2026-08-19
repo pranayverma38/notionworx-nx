@@ -3,7 +3,7 @@ import Image from "next/image";
 import { aboutStats } from "@/data/about_stats";
 import TfSwiper from "@/components/ui/TfSwiper";
 
-function MainAbout() {
+export default function MainAbout() {
   return (
     <section className="section-main-about flat-spacing pt-0">
       <div className="container">
@@ -13,23 +13,23 @@ function MainAbout() {
               loading="lazy"
               width={1410}
               height={600}
-              src="/assets/images/section/s-contact-1.jpg"
-              alt="Image"
+              src="/assets/images/notionworx-inventory/trade-show-display/10-fabric-pop-up-display-straight-copy/01.jpg"
+              alt="Notion Worx branded display"
             />
           </div>
         </div>
         <div className="row align-items-center gy-4">
           <div className="col-md-6">
             <h2 className="text-capitalize">
-              Design, attention to detail &amp; efficiency to delight the world
+              Built for events, trade shows, team gear, and branded activations
             </h2>
           </div>
           <div className="col-md-6">
             <p className="text-body-1">
-              From the moment it is conceived to the moment it is worn, every
-              one of our garments follows this path. We could do it at a fast
-              pace. However, at Mango, we choose to take care of all those who
-              are walking this path with us.
+              This storefront now runs from a unified local inventory feed so the
+              shopping experience stays consistent from homepage discovery to
+              collection browsing and product detail review. The result is a more
+              maintainable catalog with mirrored assets and cleaner merchandising.
             </p>
           </div>
         </div>
@@ -50,8 +50,8 @@ function MainAbout() {
               pagination={1}
               paginationClassName="sw-dot-default tf-sw-pagination"
             >
-              {aboutStats.map((item, index) => (
-                <div key={index} className="box-why couter-side">
+              {aboutStats.map((item) => (
+                <div key={item.title} className="box-why couter-side">
                   <p className="h1 fw-medium">
                     {item.prefix}
                     {item.number}
@@ -68,5 +68,3 @@ function MainAbout() {
     </section>
   );
 }
-
-export default MainAbout;

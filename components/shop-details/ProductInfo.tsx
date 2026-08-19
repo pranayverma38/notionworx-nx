@@ -25,7 +25,7 @@ export default function ProductInfo({ product }: { product: ProductCardItem }) {
           <div className="tf-product-info-heading">
             <ProductTitle product={product} />
             <ProductPrice product={product} />
-            <ProductShortDescription />
+            <ProductShortDescription product={product} />
             <ProductViews />
           </div>
           <div className="br-line" />

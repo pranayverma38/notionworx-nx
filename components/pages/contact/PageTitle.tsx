@@ -15,8 +15,8 @@ function PageTitle() {
             </div>
             <h3>Contact Us</h3>
             <p className="text-body-1 cl-text-2">
-              Get in touch with us for inquiries, support, or collaboration
-              we’re here to help you.
+              Tell us what you are building and we will point you toward the
+              right canopy, display, flag, apparel, or accessory setup.
             </p>
           </div>
         </div>

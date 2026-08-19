@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "id": 8227674030215,
+  "handle": "table-runner",
+  "slug": "table-runner",
+  "name": "Table Runner (Full-Color Dye Sublimation, Full Bleed)",
+  "vendor": "Notion Worx",
+  "productType": null,
+  "primaryCategory": {
+    "handle": "table-cover",
+    "title": "TABLE COVER"
+  },
+  "categories": [
+    {
+      "handle": "table-cover",
+      "title": "TABLE COVER"
+    }
+  ],
+  "descriptionHtml": "<p data-end=\"814\" data-start=\"529\">Enhance your table presentation with our <strong data-end=\"593\" data-start=\"570\">Custom Table Runner</strong>, designed to add bold branding and a professional touch to any event setup. Perfect for trade shows, vendor booths, conferences, and promotions, this runner delivers high-impact visuals without covering the entire table.</p>\n<p data-end=\"1036\" data-start=\"816\">Printed using <strong data-end=\"876\" data-start=\"830\">full-color dye sublimation with full bleed</strong>, your artwork appears vibrant, crisp, and long-lasting. The sleek runner design allows your brand to stand out while maintaining a clean, modern table display.</p>\n<h2 data-end=\"1057\" data-start=\"1038\">\ud83d\udd39 <strong data-end=\"1057\" data-start=\"1041\">Key Features</strong>\n</h2>\n<p data-end=\"1438\" data-start=\"1059\">\ud83c\udfa8 Full-Color Dye Sublimation \u2013 Sharp, vibrant, fade-resistant graphics<br data-end=\"1133\" data-start=\"1130\">\ud83d\uddbc\ufe0f Full Bleed Printing \u2013 Edge-to-edge custom branding<br data-end=\"1190\" data-start=\"1187\">\ud83e\uddf5 Display Polyester Fabric \u2013 Smooth finish with professional drape<br data-end=\"1260\" data-start=\"1257\">\u2699\ufe0f Easy Setup \u2013 Simply lay over any standard table<br data-end=\"1313\" data-start=\"1310\">\ud83e\uddf3 Lightweight &amp; Portable \u2013 Ideal for travel and events<br data-end=\"1371\" data-start=\"1368\">\ud83c\udff7\ufe0f Versatile Branding \u2013 Perfect accent for existing table covers</p>\n<h2 data-end=\"1462\" data-start=\"1440\">\ud83d\udd39 <strong data-end=\"1462\" data-start=\"1443\">Available Sizes</strong>\n</h2>\n<p data-end=\"1508\" data-start=\"1464\">\ud83d\udcd0 24\" \u00d7 80\"<br data-end=\"1479\" data-start=\"1476\">\ud83d\udcd0 34\" \u00d7 80\"<br data-end=\"1494\" data-start=\"1491\">\ud83d\udcd0 60\" \u00d7 80\"</p>\n<h2 data-end=\"1531\" data-start=\"1510\">\ud83d\udd39 <strong data-end=\"1531\" data-start=\"1513\">Imprint Method</strong>\n</h2>\n<p data-end=\"1576\" data-start=\"1533\">\ud83d\udda8\ufe0f Full-Color Dye Sublimation (Full Bleed)</p>\n<h2 data-end=\"1594\" data-start=\"1578\">\ud83d\udd39 <strong data-end=\"1594\" data-start=\"1581\">Materials</strong>\n</h2>\n<p data-end=\"1624\" data-start=\"1596\">\ud83e\uddf5 Fabric: Display Polyester</p>\n<h2 data-end=\"1646\" data-start=\"1626\">\ud83d\udd39 <strong data-end=\"1646\" data-start=\"1629\">Primary Usage</strong>\n</h2>\n<p data-end=\"1775\" data-start=\"1648\">Trade shows, exhibitions, vendor booths, conferences, retail promotions, pop-up shops, brand activations, and corporate events.</p>\n<h2><span size=\"2\"><span>Warranty</span></span></h2>\n<p>We stand behind the quality of our products. Our warranty covers any factory defects or damage that occurs during shipping. However, please note that we do not cover damage resulting from extreme weather conditions, misuse, or any circumstances beyond our control.</p>",
+  "descriptionText": "Enhance your table presentation with our Custom Table Runner, designed to add bold branding and a professional touch to any event setup. Perfect for trade shows, vendor booths, conferences, and promotions, this runner delivers high-impact visuals without covering the entire table.\nPrinted using full-color dye sublimation with full bleed, your artwork appears vibrant, crisp, and long-lasting. The sleek runner design allows your brand to stand out while maintaining a clean, modern table display.\n\ud83d\udd39 Key Features\n\ud83c\udfa8 Full-Color Dye Sublimation \u2013 Sharp, vibrant, fade-resistant graphics\n\ud83d\uddbc\ufe0f Full Bleed Printing \u2013 Edge-to-edge custom branding\n\ud83e\uddf5 Display Polyester Fabric \u2013 Smooth finish with professional drape\n\u2699\ufe0f Easy Setup \u2013 Simply lay over any standard table\n\ud83e\uddf3 Lightweight & Portable \u2013 Ideal for travel and events\n\ud83c\udff7\ufe0f Versatile Branding \u2013 Perfect accent for existing table covers\n\ud83d\udd39 Available Sizes\n\ud83d\udcd0 24\" \u00d7 80\"\n\ud83d\udcd0 34\" \u00d7 80\"\n\ud83d\udcd0 60\" \u00d7 80\"\n\ud83d\udd39 Imprint Method\n\ud83d\udda8\ufe0f Full-Color Dye Sublimation (Full Bleed)\n\ud83d\udd39 Materials\n\ud83e\uddf5 Fabric: Display Polyester\n\ud83d\udd39 Primary Usage\nTrade shows, exhibitions, vendor booths, conferences, retail promotions, pop-up shops, brand activations, and corporate events.\nWarranty\nWe stand behind the quality of our products. Our warranty covers any factory defects or damage that occurs during shipping. However, please note that we do not cover damage resulting from extreme weather conditions, misuse, or any circumstances beyond our control.",
+  "tags": [],
+  "skus": [
+    "TR24X80",
+    "TR34X80",
+    "TR60X80"
+  ],
+  "price": {
+    "min": 50.0,
+    "max": 80.0,
+    "compareAtMin": null,
+    "compareAtMax": null,
+    "variantCount": 3
+  },
+  "options": [
+    {
+      "name": "Size",
+      "position": 1,
+      "values": [
+        "24\"x80\"",
+        "34\"x80\"",
+        "60\"x80\""
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 43238159188103,
+      "title": "24\"x80\"",
+      "sku": "TR24X80",
+      "available": true,
+      "price": 50.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "24\"x80\""
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 907,
+      "position": 1
+    },
+    {
+      "id": 43238159220871,
+      "title": "34\"x80\"",
+      "sku": "TR34X80",
+      "available": true,
+      "price": 70.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "34\"x80\""
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 907,
+      "position": 2
+    },
+    {
+      "id": 43238159253639,
+      "title": "60\"x80\"",
+      "sku": "TR60X80",
+      "available": true,
+      "price": 80.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "60\"x80\""
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 907,
+      "position": 3
+    }
+  ],
+  "images": [
+    {
+      "localPath": "/assets/images/notionworx-inventory/table-cover/table-runner/01.jpg",
+      "width": 1500,
+      "height": 1500,
+      "position": 1,
+      "variantIds": []
+    }
+  ],
+  "createdAt": "2025-09-25T12:35:21-06:00",
+  "updatedAt": "2026-08-18T21:24:27-06:00",
+  "publishedAt": "2025-09-26T09:36:24-06:00"
+}

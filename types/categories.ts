@@ -4,6 +4,8 @@ export interface Category {
   img?: string;
   /** Optional product count label (e.g. "20 Products") */
   quantity?: string;
+  /** Optional storefront link for the category tile. */
+  href?: string;
   /** Icon class name (e.g. "icon-SealPercent"). When set, tile uses bg-primary and icon instead of image. */
   icon?: string;
   /** Sale tile label (e.g. "15%"). When set, tile shows cate-sale with " OFF" and no image. */

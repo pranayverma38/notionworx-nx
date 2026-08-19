@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 2,
+  "handle": "food",
+  "title": "Food",
+  "description": "<p><img src=\"\" alt=\"\"><img src=\"\" alt=\"\"><img src=\"\" alt=\"\"><img src=\"\" alt=\"\"><img alt=\"\" src=\"\"><img alt=\"\" src=\"\"><img alt=\"\" src=\"\"></p>",
+  "image": {
+    "localPath": "/assets/images/notionworx-inventory/collections/food/01.jpg",
+    "width": null,
+    "height": null
+  },
+  "productsCount": 0,
+  "productHandles": []
+}

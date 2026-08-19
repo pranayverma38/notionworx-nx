@@ -95,27 +95,24 @@ export default function QuickView({
           <div className="tf-product-quick_view tf-quick-prd_variant">
             <div className="tf-product-info-heading">
               <p className="product-infor-cate text-caption-01 mb-4">
-                {product.category ?? "Clothing"}
+                {product.category ?? "Catalog Product"}
               </p>
               <h3 className="product-infor-name mb-12 letter-space-0">
                 {product.name}
               </h3>
               <div className="product-infor-meta mb-20">
-                <div className="meta_rate">
-                  <div className="star-wrap normal d-flex align-items-center">
-                    {[...Array(5)].map((_, i) => (
-                      <i key={i} className="icon icon-Star" />
-                    ))}
-                  </div>
-                  <span className="text-caption-01 cl-text-2">
-                    {product.reviewsText ?? "(134 reviews)"}
-                  </span>
-                </div>
-                <div className="br-line type-vertical" />
+                {product.sku ? (
+                  <>
+                    <div className="meta_prd_code text-caption-01">
+                      <span className="cl-text-2">SKU:</span>
+                      <span>{product.sku}</span>
+                    </div>
+                    <div className="br-line type-vertical" />
+                  </>
+                ) : null}
                 <div className="meta_sold">
-                  <i className="icon icon-Lightning text-primary" />
                   <span className="text-caption-01 cl-text-2">
-                    {product.soldLabel ?? "18 sold in last 32 hours"}
+                    {product.inStock === false ? "Out of stock" : "Available to order"}
                   </span>
                 </div>
               </div>
@@ -137,7 +134,7 @@ export default function QuickView({
               </div>
               <p className="product-infor-desc cl-text-2 mb-12">
                 {product.description ??
-                  "The garments labelled as Committed are products that have been produced using sustainable fibres or processes, reducing their environmental impact."}
+                  "Review the details for this catalog item."}
               </p>
             </div>
             <div className="br-line" />

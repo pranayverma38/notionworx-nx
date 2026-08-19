@@ -66,7 +66,9 @@ export function ProductCardGridView() {
         >
           {product.name}
         </Link>
-        <ProductCardStars className={starWrapClassName} />
+        {product.rating != null && product.rating > 0 ? (
+          <ProductCardStars className={starWrapClassName} />
+        ) : null}
         <ProductCardPriceWrap
           price={product.price}
           priceOld={product.priceOld}

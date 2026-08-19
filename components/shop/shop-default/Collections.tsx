@@ -23,7 +23,10 @@ export default function Collections() {
         >
           {categories.map((category) => (
             <div key={category.name}>
-              <Link href={`/shop-default`} className="category-v01 hover-img">
+              <Link
+                href={category.href ?? "/shop-default"}
+                className="category-v01 hover-img"
+              >
                 <div className="cate-image img-style">
                   <Image
                     loading="lazy"
@@ -36,6 +39,11 @@ export default function Collections() {
                 <h5 className="cate-name text-center link link-underline">
                   {category.name}
                 </h5>
+                {category.quantity ? (
+                  <p className="text-caption-01 text-center cl-text-2 mt-4">
+                    {category.quantity}
+                  </p>
+                ) : null}
               </Link>
             </div>
           ))}

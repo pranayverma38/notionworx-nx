@@ -1,0 +1,244 @@
+{
+  "schemaVersion": 2,
+  "id": 8227679338631,
+  "handle": "120gsm-milk-silk-1-4-zipper-jacket-full-dye-sublimation-500059",
+  "slug": "120gsm-milk-silk-1-4-zipper-jacket-full-dye-sublimation-500059",
+  "name": "120GSM Milk Silk 1/4 Zipper Jacket (Full Dye Sublimation) #500059",
+  "vendor": "Notion Worx",
+  "productType": null,
+  "primaryCategory": {
+    "handle": "apparel",
+    "title": "APPAREL"
+  },
+  "categories": [
+    {
+      "handle": "apparel",
+      "title": "APPAREL"
+    }
+  ],
+  "descriptionHtml": "<h3>\n\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 (NOTE: Neck collar only can do solid color)\u00a0 \u00a0\n</h3>\n<p><span>95% polyester 5% spandex 120gsm 3.54oz\u00a0milk silk\u00a0moisture wicking fabric</span></p>",
+  "descriptionText": "(NOTE: Neck collar only can do solid color)\n95% polyester 5% spandex 120gsm 3.54oz milk silk moisture wicking fabric",
+  "tags": [],
+  "skus": [],
+  "price": {
+    "min": 29.0,
+    "max": 29.0,
+    "compareAtMin": null,
+    "compareAtMax": null,
+    "variantCount": 12
+  },
+  "options": [
+    {
+      "name": "Size",
+      "position": 1,
+      "values": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL",
+        "4XL",
+        "YXS",
+        "YS",
+        "YM",
+        "YL",
+        "YXL"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 43238185730183,
+      "title": "S",
+      "sku": "None",
+      "available": true,
+      "price": 29.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "S"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 454,
+      "position": 1
+    },
+    {
+      "id": 43238185762951,
+      "title": "M",
+      "sku": "None",
+      "available": true,
+      "price": 29.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "M"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 454,
+      "position": 2
+    },
+    {
+      "id": 43238185795719,
+      "title": "L",
+      "sku": "None",
+      "available": true,
+      "price": 29.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "L"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 454,
+      "position": 3
+    },
+    {
+      "id": 43238185828487,
+      "title": "XL",
+      "sku": "None",
+      "available": true,
+      "price": 29.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "XL"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 454,
+      "position": 4
+    },
+    {
+      "id": 43238185861255,
+      "title": "2XL",
+      "sku": "None",
+      "available": true,
+      "price": 29.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "2XL"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 454,
+      "position": 5
+    },
+    {
+      "id": 43238185894023,
+      "title": "3XL",
+      "sku": "None",
+      "available": true,
+      "price": 29.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "3XL"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 454,
+      "position": 6
+    },
+    {
+      "id": 43238185926791,
+      "title": "4XL",
+      "sku": "None",
+      "available": true,
+      "price": 29.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "4XL"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 454,
+      "position": 7
+    },
+    {
+      "id": 43238185959559,
+      "title": "YXS",
+      "sku": "None",
+      "available": true,
+      "price": 29.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "YXS"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 454,
+      "position": 8
+    },
+    {
+      "id": 43238185992327,
+      "title": "YS",
+      "sku": "None",
+      "available": true,
+      "price": 29.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "YS"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 454,
+      "position": 9
+    },
+    {
+      "id": 43238186025095,
+      "title": "YM",
+      "sku": "None",
+      "available": true,
+      "price": 29.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "YM"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 454,
+      "position": 10
+    },
+    {
+      "id": 43238186057863,
+      "title": "YL",
+      "sku": "None",
+      "available": true,
+      "price": 29.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "YL"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 454,
+      "position": 11
+    },
+    {
+      "id": 43238186090631,
+      "title": "YXL",
+      "sku": "None",
+      "available": true,
+      "price": 29.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "YXL"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 454,
+      "position": 12
+    }
+  ],
+  "images": [
+    {
+      "localPath": "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-1-4-zipper-jacket-full-dye-sublimation-500059/01.jpg",
+      "width": 1000,
+      "height": 1000,
+      "position": 1,
+      "variantIds": []
+    }
+  ],
+  "createdAt": "2025-09-25T12:38:28-06:00",
+  "updatedAt": "2026-08-18T21:24:55-06:00",
+  "publishedAt": "2025-09-28T20:31:21-06:00"
+}

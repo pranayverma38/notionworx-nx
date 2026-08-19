@@ -1,0 +1,194 @@
+{
+  "schemaVersion": 2,
+  "id": 8227672064135,
+  "handle": "grs-spf-50-150gsm-mesh-jersey-cycling-jerseys-full-dye-sublimation-500091",
+  "slug": "grs-spf-50-150gsm-mesh-jersey-cycling-jerseys-full-dye-sublimation-500091",
+  "name": "GRS/SPF 50+150GSM Mesh Jersey Cycling Jerseys (Full Dye Sublimation) #500091",
+  "vendor": "Notion Worx",
+  "productType": null,
+  "primaryCategory": {
+    "handle": "apparel",
+    "title": "APPAREL"
+  },
+  "categories": [
+    {
+      "handle": "apparel",
+      "title": "APPAREL"
+    }
+  ],
+  "descriptionHtml": "<p><span style=\"color: #2b00ff;\"><span style=\"color: #2b00ff;\"><strong><br></strong></span></span><br></p>\n<ul class=\"a-unordered-list a-vertical a-spacing-mini\">\n<li>\n<strong><span style=\"color: #ff2a00;\"><span class=\"a-list-item\">Premium &amp; comfortable - </span>Unisex Style</span></strong>\n</li>\n<li><span class=\"a-list-item\"><span>Made from 100% polyester,\u00a0<strong>150gsm - 4.42oz</strong> SPF Protected Jersey Mesh Material\u00a0</span></span></li>\n<li><span class=\"a-list-item\"><span>Athletic Stretch, Breathable, and moisture wicking fabric.</span></span></li>\n<li><span class=\"a-list-item\">Modern cycling style with 3 storage pockets located on the back.</span></li>\n<li><span class=\"a-list-item\">Silicone anti-skid band on the bottom of the cycling jersey to prevent the jersey from sliding up while riding. </span></li>\n<li><span class=\"a-list-item\">This fully customizable cyclist\u2019s jersey looks fantastic and is suitable for all levels of cyclists that participate in road, mountain, or exercise biking. This is a quick-dry material that wicks moisture away and breathes to keep you cool and comfortable while in motion. Great for short recreational rides or long distance treks there is ample storage to hold your phone keys, extra water bottles and other essentials.\u00a0</span></li>\n</ul>",
+  "descriptionText": "Premium & comfortable - Unisex Style\nMade from 100% polyester, 150gsm - 4.42oz SPF Protected Jersey Mesh Material\nAthletic Stretch, Breathable, and moisture wicking fabric.\nModern cycling style with 3 storage pockets located on the back.\nSilicone anti-skid band on the bottom of the cycling jersey to prevent the jersey from sliding up while riding.\nThis fully customizable cyclist\u2019s jersey looks fantastic and is suitable for all levels of cyclists that participate in road, mountain, or exercise biking. This is a quick-dry material that wicks moisture away and breathes to keep you cool and comfortable while in motion. Great for short recreational rides or long distance treks there is ample storage to hold your phone keys, extra water bottles and other essentials.",
+  "tags": [],
+  "skus": [
+    "500091"
+  ],
+  "price": {
+    "min": 84.0,
+    "max": 84.0,
+    "compareAtMin": null,
+    "compareAtMax": null,
+    "variantCount": 7
+  },
+  "options": [
+    {
+      "name": "Size",
+      "position": 1,
+      "values": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 43238150013063,
+      "title": "XS",
+      "sku": "None",
+      "available": true,
+      "price": 84.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "XS"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 454,
+      "position": 1
+    },
+    {
+      "id": 43238150045831,
+      "title": "S",
+      "sku": "500091",
+      "available": true,
+      "price": 84.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "S"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 454,
+      "position": 2
+    },
+    {
+      "id": 43238150078599,
+      "title": "M",
+      "sku": "500091",
+      "available": true,
+      "price": 84.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "M"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 454,
+      "position": 3
+    },
+    {
+      "id": 43238150111367,
+      "title": "L",
+      "sku": "500091",
+      "available": true,
+      "price": 84.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "L"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 454,
+      "position": 4
+    },
+    {
+      "id": 43238150144135,
+      "title": "XL",
+      "sku": "500091",
+      "available": true,
+      "price": 84.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "XL"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 454,
+      "position": 5
+    },
+    {
+      "id": 43238150176903,
+      "title": "2XL",
+      "sku": "500091",
+      "available": true,
+      "price": 84.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "2XL"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 454,
+      "position": 6
+    },
+    {
+      "id": 43238150209671,
+      "title": "3XL",
+      "sku": "500091",
+      "available": true,
+      "price": 84.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "3XL"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 454,
+      "position": 7
+    }
+  ],
+  "images": [
+    {
+      "localPath": "/assets/images/notionworx-inventory/apparel/grs-spf-50-150gsm-mesh-jersey-cycling-jerseys-full-dye-sublimation-500091/01.jpg",
+      "width": 1000,
+      "height": 1000,
+      "position": 1,
+      "variantIds": []
+    },
+    {
+      "localPath": "/assets/images/notionworx-inventory/apparel/grs-spf-50-150gsm-mesh-jersey-cycling-jerseys-full-dye-sublimation-500091/02.jpg",
+      "width": 3024,
+      "height": 4032,
+      "position": 2,
+      "variantIds": []
+    },
+    {
+      "localPath": "/assets/images/notionworx-inventory/apparel/grs-spf-50-150gsm-mesh-jersey-cycling-jerseys-full-dye-sublimation-500091/03.jpg",
+      "width": 3024,
+      "height": 4032,
+      "position": 3,
+      "variantIds": []
+    },
+    {
+      "localPath": "/assets/images/notionworx-inventory/apparel/grs-spf-50-150gsm-mesh-jersey-cycling-jerseys-full-dye-sublimation-500091/04.jpg",
+      "width": 3024,
+      "height": 4032,
+      "position": 4,
+      "variantIds": []
+    },
+    {
+      "localPath": "/assets/images/notionworx-inventory/apparel/grs-spf-50-150gsm-mesh-jersey-cycling-jerseys-full-dye-sublimation-500091/05.jpg",
+      "width": 4032,
+      "height": 3024,
+      "position": 5,
+      "variantIds": []
+    }
+  ],
+  "createdAt": "2025-09-25T12:33:47-06:00",
+  "updatedAt": "2026-08-18T21:24:55-06:00",
+  "publishedAt": "2025-09-26T09:33:42-06:00"
+}

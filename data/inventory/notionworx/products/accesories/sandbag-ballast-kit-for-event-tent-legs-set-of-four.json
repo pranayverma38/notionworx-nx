@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 2,
+  "id": 8525433503879,
+  "handle": "sandbag-ballast-kit-for-event-tent-legs-set-of-four",
+  "slug": "sandbag-ballast-kit-for-event-tent-legs-set-of-four",
+  "name": "Sandbag Ballast Kit for Event Tent Legs (Set of Four)",
+  "vendor": "Notion Worx",
+  "productType": null,
+  "primaryCategory": {
+    "handle": "accesories",
+    "title": "Accessories"
+  },
+  "categories": [
+    {
+      "handle": "accesories",
+      "title": "Accessories"
+    },
+    {
+      "handle": "5x5-custom-canopy",
+      "title": "5x5 Custom Canopies"
+    },
+    {
+      "handle": "10x15",
+      "title": "10x15 Custom Canopies"
+    },
+    {
+      "handle": "10x20",
+      "title": "10x20 Custom Canopies"
+    },
+    {
+      "handle": "10x10",
+      "title": "10x10 Custom Canopies"
+    }
+  ],
+  "descriptionHtml": "<h2 data-start=\"526\" data-end=\"551\">\ud83d\udce6 Sandbag Ballast Kit for Event Tent Legs (Set of Four)</h2>\n<ul class=\"a-unordered-list a-vertical a-spacing-mini\">\n<li class=\"a-spacing-mini\"><span>Keep your tent weighted down for stability. Compatible with all our tent frames. Straps around event tent legs to keep the tent weighted down. Set includes four ballasts. Each ballast has two zippered pockets for sand. Weighs 20.6 lbs. when filled with sand. Complies with Prop 65. 12.5\" D x 14.5\" W x 4.75\" H</span></li>\n</ul>",
+  "descriptionText": "\ud83d\udce6 Sandbag Ballast Kit for Event Tent Legs (Set of Four)\nKeep your tent weighted down for stability. Compatible with all our tent frames. Straps around event tent legs to keep the tent weighted down. Set includes four ballasts. Each ballast has two zippered pockets for sand. Weighs 20.6 lbs. when filled with sand. Complies with Prop 65. 12.5\" D x 14.5\" W x 4.75\" H",
+  "tags": [],
+  "skus": [
+    "240112"
+  ],
+  "price": {
+    "min": 100.0,
+    "max": 100.0,
+    "compareAtMin": null,
+    "compareAtMax": null,
+    "variantCount": 1
+  },
+  "options": [
+    {
+      "name": "Title",
+      "position": 1,
+      "values": [
+        "Default Title"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 44387877781639,
+      "title": "Default Title",
+      "sku": "240112",
+      "available": true,
+      "price": 100.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "Default Title"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 0,
+      "position": 1
+    }
+  ],
+  "images": [
+    {
+      "localPath": "/assets/images/notionworx-inventory/accesories/sandbag-ballast-kit-for-event-tent-legs-set-of-four/01.jpg",
+      "width": 1501,
+      "height": 1501,
+      "position": 1,
+      "variantIds": []
+    },
+    {
+      "localPath": "/assets/images/notionworx-inventory/accesories/sandbag-ballast-kit-for-event-tent-legs-set-of-four/02.jpg",
+      "width": 1501,
+      "height": 1501,
+      "position": 2,
+      "variantIds": []
+    }
+  ],
+  "createdAt": "2026-04-03T13:22:29-06:00",
+  "updatedAt": "2026-08-18T21:23:34-06:00",
+  "publishedAt": "2026-04-03T13:26:48-06:00"
+}

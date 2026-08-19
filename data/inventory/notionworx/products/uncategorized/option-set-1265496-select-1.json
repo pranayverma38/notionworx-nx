@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 2,
+  "id": 8249809731719,
+  "handle": "option-set-1265496-select-1",
+  "slug": "option-set-1265496-select-1",
+  "name": "Double Sided Walls",
+  "vendor": "Notion Worx",
+  "productType": null,
+  "primaryCategory": {
+    "handle": "uncategorized",
+    "title": "Uncategorized"
+  },
+  "categories": [
+    {
+      "handle": "uncategorized",
+      "title": "Uncategorized"
+    }
+  ],
+  "descriptionHtml": "",
+  "descriptionText": "",
+  "tags": [
+    "globo-product-options",
+    "option-set-1265496-select-1"
+  ],
+  "skus": [],
+  "price": {
+    "min": 130.0,
+    "max": 280.0,
+    "compareAtMin": null,
+    "compareAtMax": null,
+    "variantCount": 4
+  },
+  "options": [
+    {
+      "name": "Title",
+      "position": 1,
+      "values": [
+        "Double Sided 15ft Back Wall",
+        "Double Sided 15ft Back Wall & Half Side Walls",
+        "Double Sided 15ft Three Full Walls",
+        "Double Sided Half Side Walls"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 43405086654599,
+      "title": "Double Sided 15ft Back Wall",
+      "sku": "None",
+      "available": true,
+      "price": 130.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "Double Sided 15ft Back Wall"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 0,
+      "position": 1
+    },
+    {
+      "id": 43405086687367,
+      "title": "Double Sided 15ft Back Wall & Half Side Walls",
+      "sku": "None",
+      "available": true,
+      "price": 280.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "Double Sided 15ft Back Wall & Half Side Walls"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 0,
+      "position": 2
+    },
+    {
+      "id": 43405086720135,
+      "title": "Double Sided 15ft Three Full Walls",
+      "sku": "None",
+      "available": true,
+      "price": 280.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "Double Sided 15ft Three Full Walls"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 0,
+      "position": 3
+    },
+    {
+      "id": 43405464502407,
+      "title": "Double Sided Half Side Walls",
+      "sku": "None",
+      "available": true,
+      "price": 150.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "Double Sided Half Side Walls"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 0,
+      "position": 4
+    }
+  ],
+  "images": [],
+  "createdAt": "2025-10-28T00:23:04-06:00",
+  "updatedAt": "2026-08-18T21:26:13-06:00",
+  "publishedAt": "2025-10-28T00:23:05-06:00"
+}

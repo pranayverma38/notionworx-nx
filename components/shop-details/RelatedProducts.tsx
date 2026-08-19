@@ -2,7 +2,8 @@
 
 import { useMemo, useState } from "react";
 
-import { topPicsProducts } from "@/data/products/products";
+import { products, topPicsProducts } from "@/data/products/products";
+import type { ProductCardItem } from "@/types/productCard";
 import ProductCard from "../ui/ProductCard";
 import TfSwiper from "../ui/TfSwiper";
 
@@ -14,14 +15,37 @@ const RELATED_TABS = [
 
 const DEFAULT_TAB_ID = "related";
 
-export default function RelatedProducts() {
+export default function RelatedProducts({
+  currentProduct,
+}: {
+  currentProduct?: ProductCardItem;
+}) {
   const [activeTabId, setActiveTabId] = useState(DEFAULT_TAB_ID);
 
-  const visible = useMemo(
-    () =>
-      topPicsProducts.filter((p) => p.filterTabIds?.includes(activeTabId)),
+  const fallbackVisible = useMemo(
+    () => topPicsProducts.filter((p) => p.filterTabIds?.includes(activeTabId)),
     [activeTabId],
   );
+
+  const visible = useMemo(() => {
+    if (!currentProduct) {
+      return fallbackVisible;
+    }
+
+    const related = products.filter((product) => {
+      if (product.id === currentProduct.id) return false;
+      if (!currentProduct.category) return false;
+      return product.filterCategory?.includes(currentProduct.category);
+    });
+
+    if (!related.length) {
+      return fallbackVisible;
+    }
+
+    return activeTabId === "recently"
+      ? related.slice(4, 12)
+      : related.slice(0, 8);
+  }, [activeTabId, currentProduct, fallbackVisible]);
 
   return (
     <div className="flat-spacing flat-animate-tab pt-0">

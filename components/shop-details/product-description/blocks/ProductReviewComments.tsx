@@ -62,7 +62,7 @@ export function ProductReviewComments({
               </div>
               <div className="info_author">
                 <ReviewAuthorName as={authorNameElement}>
-                  Top-tier cookware designed for performance
+                  Great print quality and sturdy event setup
                 </ReviewAuthorName>
                 <p className="author_date text-caption-01 cl-text-3">
                   1 days ago
@@ -70,9 +70,8 @@ export function ProductReviewComments({
               </div>
             </div>
             <p className="comment_text text-body-1">
-              The set arrived quickly, and I was impressed with how sturdy and
-              sleek the pieces feel. The non-stick ceramic surface is excellent,
-              and it&apos;s easy to clean.
+              The graphics came out crisp, the hardware felt durable, and the
+              setup was straightforward for our event team.
             </p>
             <div className="comment_reply">
               <div className="comment_info">
@@ -87,7 +86,7 @@ export function ProductReviewComments({
                 </div>
                 <div className="info_author">
                   <ReviewAuthorName as={authorNameElement}>
-                    Reply from Amerce
+                    Reply from Notion Worx
                   </ReviewAuthorName>
                   <p className="author_date text-caption-01 cl-text-3">
                     1 days ago
@@ -95,8 +94,8 @@ export function ProductReviewComments({
                 </div>
               </div>
               <p className="comment_text text-body-1">
-                I bought this set as a gift. The craftsmanship is top-notch, and
-                customer service was super helpful with my inquiries.
+                Thanks for the feedback. We are glad the order arrived in good
+                shape and worked well for your event setup.
               </p>
             </div>
           </div>
@@ -113,7 +112,7 @@ export function ProductReviewComments({
               </div>
               <div className="info_author">
                 <ReviewAuthorName as={authorNameElement}>
-                  Top-tier cookware designed for performance
+                  Reliable ordering experience for branded displays
                 </ReviewAuthorName>
                 <p className="author_date text-caption-01 cl-text-3">
                   1 days ago
@@ -121,8 +120,8 @@ export function ProductReviewComments({
               </div>
             </div>
             <p className="comment_text text-body-1">
-              Great experience overall! Easy checkout process, fast shipping,
-              and the cookware was just as described.
+              Great experience overall. The product matched the listing, shipped
+              on time, and looked event-ready out of the box.
             </p>
           </div>
         </div>

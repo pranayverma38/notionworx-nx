@@ -1,0 +1,204 @@
+{
+  "schemaVersion": 2,
+  "id": 8227673833607,
+  "handle": "step-and-repeat-backdrop-copy",
+  "slug": "step-and-repeat-backdrop-copy",
+  "name": "Step and Repeat Backdrop- 8'x8' and 8'x10' Including Hardware and Carry Bag",
+  "vendor": "Notion Worx",
+  "productType": null,
+  "primaryCategory": {
+    "handle": "trade-show-display",
+    "title": "BANNERS & DISPLAYS"
+  },
+  "categories": [
+    {
+      "handle": "trade-show-display",
+      "title": "BANNERS & DISPLAYS"
+    }
+  ],
+  "descriptionHtml": "<p>Our Back Drop- Large Tube is portable and ideal for a background display for all types of indoor events such as trade show booths and photo shoots. These stands have telescoping 1.625\" diameter poles that extend out, meaning they are adjustable to certain sizes. Stand also includes travel bag. Insert are constructed with pole pockets. T<span>his kit includes the adjustable display stand hardware, full-color graphics on premium polyester knit fabric, and a soft carry case.</span></p>\n<div>\n<p><strong>Features:\u00a0</strong></p>\n<ul>\n<li>Digitally printed at 720 x 720 resolution</li>\n<li>Dye sublimation</li>\n<li>Scratch resistant\u00a0</li>\n<li>Washable</li>\n<li>Curl-free edge\u00a0\u00a0</li>\n<li>Easy to install &amp; replace graphic</li>\n<li>Indoor Display</li>\n</ul>\n</div>",
+  "descriptionText": "Our Back Drop- Large Tube is portable and ideal for a background display for all types of indoor events such as trade show booths and photo shoots. These stands have telescoping 1.625\" diameter poles that extend out, meaning they are adjustable to certain sizes. Stand also includes travel bag. Insert are constructed with pole pockets. This kit includes the adjustable display stand hardware, full-color graphics on premium polyester knit fabric, and a soft carry case.\nFeatures:\nDigitally printed at 720 x 720 resolution\nDye sublimation\nScratch resistant\nWashable\nCurl-free edge\nEasy to install & replace graphic\nIndoor Display",
+  "tags": [],
+  "skus": [
+    "406001",
+    "406002"
+  ],
+  "price": {
+    "min": 155.0,
+    "max": 275.0,
+    "compareAtMin": null,
+    "compareAtMax": null,
+    "variantCount": 6
+  },
+  "options": [
+    {
+      "name": "Size",
+      "position": 1,
+      "values": [
+        "8' x 8'",
+        "10' x 8'"
+      ]
+    },
+    {
+      "name": "Includes",
+      "position": 2,
+      "values": [
+        "Kit 1 (Banner + Frame + Carry Bag)",
+        "Kit 3 ( Graphic Only)",
+        "Kit 2 ( Frame Only)"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 43238158401671,
+      "title": "8' x 8' / Kit 1 (Banner + Frame + Carry Bag)",
+      "sku": "406001",
+      "available": true,
+      "price": 265.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "8' x 8'",
+        "Kit 1 (Banner + Frame + Carry Bag)"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 22680,
+      "position": 1
+    },
+    {
+      "id": 43238158434439,
+      "title": "8' x 8' / Kit 3 ( Graphic Only)",
+      "sku": "406001",
+      "available": true,
+      "price": 165.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "8' x 8'",
+        "Kit 3 ( Graphic Only)"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 22680,
+      "position": 2
+    },
+    {
+      "id": 43238158467207,
+      "title": "8' x 8' / Kit 2 ( Frame Only)",
+      "sku": "None",
+      "available": true,
+      "price": 155.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "8' x 8'",
+        "Kit 2 ( Frame Only)"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 22680,
+      "position": 3
+    },
+    {
+      "id": 43238158303367,
+      "title": "10' x 8' / Kit 1 (Banner + Frame + Carry Bag)",
+      "sku": "406002",
+      "available": true,
+      "price": 275.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "10' x 8'",
+        "Kit 1 (Banner + Frame + Carry Bag)"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 22680,
+      "position": 4
+    },
+    {
+      "id": 43238158336135,
+      "title": "10' x 8' / Kit 3 ( Graphic Only)",
+      "sku": "406002",
+      "available": true,
+      "price": 175.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "10' x 8'",
+        "Kit 3 ( Graphic Only)"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 22680,
+      "position": 5
+    },
+    {
+      "id": 43238158368903,
+      "title": "10' x 8' / Kit 2 ( Frame Only)",
+      "sku": "None",
+      "available": true,
+      "price": 165.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "10' x 8'",
+        "Kit 2 ( Frame Only)"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 22680,
+      "position": 6
+    }
+  ],
+  "images": [
+    {
+      "localPath": "/assets/images/notionworx-inventory/trade-show-display/step-and-repeat-backdrop-copy/01.jpg",
+      "width": 1800,
+      "height": 1800,
+      "position": 1,
+      "variantIds": []
+    },
+    {
+      "localPath": "/assets/images/notionworx-inventory/trade-show-display/step-and-repeat-backdrop-copy/02.jpg",
+      "width": 1001,
+      "height": 1001,
+      "position": 2,
+      "variantIds": []
+    },
+    {
+      "localPath": "/assets/images/notionworx-inventory/trade-show-display/step-and-repeat-backdrop-copy/03.jpg",
+      "width": 700,
+      "height": 700,
+      "position": 3,
+      "variantIds": []
+    },
+    {
+      "localPath": "/assets/images/notionworx-inventory/trade-show-display/step-and-repeat-backdrop-copy/04.jpg",
+      "width": 500,
+      "height": 500,
+      "position": 4,
+      "variantIds": []
+    },
+    {
+      "localPath": "/assets/images/notionworx-inventory/trade-show-display/step-and-repeat-backdrop-copy/05.jpg",
+      "width": 1000,
+      "height": 1000,
+      "position": 5,
+      "variantIds": []
+    },
+    {
+      "localPath": "/assets/images/notionworx-inventory/trade-show-display/step-and-repeat-backdrop-copy/06.jpg",
+      "width": 500,
+      "height": 500,
+      "position": 6,
+      "variantIds": []
+    },
+    {
+      "localPath": "/assets/images/notionworx-inventory/trade-show-display/step-and-repeat-backdrop-copy/07.jpg",
+      "width": 500,
+      "height": 500,
+      "position": 7,
+      "variantIds": []
+    }
+  ],
+  "createdAt": "2025-09-25T12:35:12-06:00",
+  "updatedAt": "2026-08-18T21:24:32-06:00",
+  "publishedAt": "2025-09-26T09:36:49-06:00"
+}

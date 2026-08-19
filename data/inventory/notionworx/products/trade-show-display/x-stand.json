@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 2,
+  "id": 8227678224519,
+  "handle": "x-stand",
+  "slug": "x-stand",
+  "name": "X-Stand",
+  "vendor": "Notion Worx",
+  "productType": null,
+  "primaryCategory": {
+    "handle": "trade-show-display",
+    "title": "BANNERS & DISPLAYS"
+  },
+  "categories": [
+    {
+      "handle": "trade-show-display",
+      "title": "BANNERS & DISPLAYS"
+    }
+  ],
+  "descriptionHtml": "<p><strong data-mce-fragment=\"1\">MADE IN USA.SHIP NEXT DAY 4:00PM FROM CALIFORNIA FACILITY</strong></p>\n<p><strong data-mce-fragment=\"1\"> 32''x71''. 24'' x63''</strong></p>\n<p>Showcase your promotional banner with the X-stand. It is durable and is the most cost effective display. Stand includes a free travel bag, making it easy to carry to trade show exhibits, lobby exhibits, and much more.\u00a0</p>\n<p>\u00a0<br></p>\n<p><strong>Features:</strong></p>\n<ul>\n<li>Durable and most cost effective display</li>\n<li>Includes a free travel bag</li>\n<li>High resolution digitally printed</li>\n</ul>\n<p><strong>Material Options:\u00a0</strong></p>\n<ul>\n<li>13 oz. Matte Vinyl Banner</li>\n</ul>",
+  "descriptionText": "MADE IN USA.SHIP NEXT DAY 4:00PM FROM CALIFORNIA FACILITY\n 32''x71''. 24'' x63''\nShowcase your promotional banner with the X-stand. It is durable and is the most cost effective display. Stand includes a free travel bag, making it easy to carry to trade show exhibits, lobby exhibits, and much more.\nFeatures:\nDurable and most cost effective display\nIncludes a free travel bag\nHigh resolution digitally printed\nMaterial Options:\n13 oz. Matte Vinyl Banner",
+  "tags": [],
+  "skus": [
+    "406030",
+    "606030"
+  ],
+  "price": {
+    "min": 79.0,
+    "max": 99.0,
+    "compareAtMin": null,
+    "compareAtMax": null,
+    "variantCount": 2
+  },
+  "options": [
+    {
+      "name": "Size",
+      "position": 1,
+      "values": [
+        "24\" x 63\"",
+        "32\" x 71\""
+      ]
+    },
+    {
+      "name": "Material",
+      "position": 2,
+      "values": [
+        "13 oz. Matte Vinyl Banner"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 43238180683911,
+      "title": "24\" x 63\" / 13 oz. Matte Vinyl Banner",
+      "sku": "406030",
+      "available": true,
+      "price": 79.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "24\" x 63\"",
+        "13 oz. Matte Vinyl Banner"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 4536,
+      "position": 1
+    },
+    {
+      "id": 43238180716679,
+      "title": "32\" x 71\" / 13 oz. Matte Vinyl Banner",
+      "sku": "606030",
+      "available": true,
+      "price": 99.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "32\" x 71\"",
+        "13 oz. Matte Vinyl Banner"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 4536,
+      "position": 2
+    }
+  ],
+  "images": [
+    {
+      "localPath": "/assets/images/notionworx-inventory/trade-show-display/x-stand/01.png",
+      "width": 720,
+      "height": 720,
+      "position": 1,
+      "variantIds": []
+    }
+  ],
+  "createdAt": "2025-09-25T12:37:48-06:00",
+  "updatedAt": "2026-08-18T21:24:32-06:00",
+  "publishedAt": "2025-09-26T09:36:53-06:00"
+}

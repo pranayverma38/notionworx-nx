@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 2,
+  "id": 8227670360199,
+  "handle": "premium-10-tent-top-square-banner",
+  "slug": "premium-10-tent-top-square-banner",
+  "name": "Premium 10' Tent Top Billboard Banner",
+  "vendor": "Notion Worx",
+  "productType": null,
+  "primaryCategory": {
+    "handle": "accesories",
+    "title": "Accessories"
+  },
+  "categories": [
+    {
+      "handle": "accesories",
+      "title": "Accessories"
+    },
+    {
+      "handle": "10x10",
+      "title": "10x10 Custom Canopies"
+    },
+    {
+      "handle": "tent",
+      "title": "Custom Canopy Tents \u2013 Personalized Pop Up Tents for Events"
+    }
+  ],
+  "descriptionHtml": "<p><span>The polyester will perfectly present your logo when it is stretched suitably to fit the frame. Each of our tent billboard banners is equipped with an aluminum tubing frame. When the frame and graphic are set up, just simply attach the banner to the tent legs and then secure it with the Flag Mount Holder (we have different types, please choose the correct one for your tent). You can adjust the banner height by sliding the clamps up or down.</span></p>\n<p><span>Included:</span></p>\n<p><span>1pc pole</span></p>\n<p><span>2pc base</span></p>\n<p><span>2pc Flag Holder Kits</span></p>\n<p><span>1pc single sided graphics</span></p>\n<h3><span size=\"2\"><span>Factory Warranty</span></span></h3>\n<ul>\n<li>We stand behind the quality of our products. Our warranty covers any factory defects or damage that occurs during shipping. However, please note that we do not cover damage resulting from extreme weather conditions, misuse, or any circumstances beyond our control.</li>\n</ul>",
+  "descriptionText": "The polyester will perfectly present your logo when it is stretched suitably to fit the frame. Each of our tent billboard banners is equipped with an aluminum tubing frame. When the frame and graphic are set up, just simply attach the banner to the tent legs and then secure it with the Flag Mount Holder (we have different types, please choose the correct one for your tent). You can adjust the banner height by sliding the clamps up or down.\nIncluded:\n1pc pole\n2pc base\n2pc Flag Holder Kits\n1pc single sided graphics\nFactory Warranty\nWe stand behind the quality of our products. Our warranty covers any factory defects or damage that occurs during shipping. However, please note that we do not cover damage resulting from extreme weather conditions, misuse, or any circumstances beyond our control.",
+  "tags": [],
+  "skus": [
+    "10-BB"
+  ],
+  "price": {
+    "min": 285.0,
+    "max": 285.0,
+    "compareAtMin": 313.5,
+    "compareAtMax": 313.5,
+    "variantCount": 1
+  },
+  "options": [
+    {
+      "name": "Title",
+      "position": 1,
+      "values": [
+        "Default Title"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 43238064259207,
+      "title": "Default Title",
+      "sku": "10-BB",
+      "available": true,
+      "price": 285.0,
+      "compareAtPrice": 313.5,
+      "optionValues": [
+        "Default Title"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 9072,
+      "position": 1
+    }
+  ],
+  "images": [
+    {
+      "localPath": "/assets/images/notionworx-inventory/accesories/premium-10-tent-top-square-banner/01.jpg",
+      "width": 1000,
+      "height": 1000,
+      "position": 1,
+      "variantIds": []
+    },
+    {
+      "localPath": "/assets/images/notionworx-inventory/accesories/premium-10-tent-top-square-banner/02.jpg",
+      "width": 1500,
+      "height": 1500,
+      "position": 2,
+      "variantIds": []
+    },
+    {
+      "localPath": "/assets/images/notionworx-inventory/accesories/premium-10-tent-top-square-banner/03.jpg",
+      "width": 474,
+      "height": 524,
+      "position": 3,
+      "variantIds": []
+    }
+  ],
+  "createdAt": "2025-09-25T12:32:14-06:00",
+  "updatedAt": "2026-08-18T21:23:22-06:00",
+  "publishedAt": "2025-09-26T09:36:33-06:00"
+}

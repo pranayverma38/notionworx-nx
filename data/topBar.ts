@@ -6,10 +6,10 @@ export interface TopBarSlide {
 
 export const topBarSlides: TopBarSlide[] = [
   {
-    text: "Midseason Sale: 20% Off - Auto Applied at Checkout - Limited Time Only",
+    text: "Notion Worx storefront now runs on local inventory and mirrored product images.",
     icon: "icon-SealPercent",
   },
   {
-    text: "20% Off - Auto Applied at Checkout - Limited Time Only",
+    text: "Request custom quotes for canopies, displays, flags, apparel, and event branding.",
   },
 ];

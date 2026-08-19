@@ -13,8 +13,9 @@ import Testimonial from "@/components/homes/home-1/Testimonial";
 import Gallery from "@/components/homes/home-1/Gallery";
 import Features from "@/components/homes/home-1/Features";
 export const metadata: Metadata = {
-  title: "Index | Amerce - Multipurpose eCommerce React Nextjs Template",
-  description: "Amerce - Multipurpose eCommerce React Nextjs Template",
+  title: "Home | Notion Worx",
+  description:
+    "Shop custom canopies, displays, flags, apparel, and event essentials from the migrated Notion Worx storefront.",
 };
 export default function IndexPage() {
   return (

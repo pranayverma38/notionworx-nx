@@ -1,0 +1,187 @@
+{
+  "schemaVersion": 2,
+  "id": 8227679436935,
+  "handle": "120gsm-milk-silk-racerback-tank-full-dye-sublimation-500031",
+  "slug": "120gsm-milk-silk-racerback-tank-full-dye-sublimation-500031",
+  "name": "120GSM Milk Silk Racerback Tank  (Full Dye Sublimation) #500031",
+  "vendor": "Notion Worx",
+  "productType": null,
+  "primaryCategory": {
+    "handle": "uncategorized",
+    "title": "Uncategorized"
+  },
+  "categories": [
+    {
+      "handle": "uncategorized",
+      "title": "Uncategorized"
+    }
+  ],
+  "descriptionHtml": "<p>120gsm milk silk polyester\u00a0<span data-mce-fragment=\"1\">moisture wicking fabric</span></p>",
+  "descriptionText": "120gsm milk silk polyester moisture wicking fabric",
+  "tags": [],
+  "skus": [],
+  "price": {
+    "min": 12.5,
+    "max": 12.5,
+    "compareAtMin": null,
+    "compareAtMax": null,
+    "variantCount": 8
+  },
+  "options": [
+    {
+      "name": "Size",
+      "position": 1,
+      "values": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL",
+        "4XL",
+        "XS"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 43238187040903,
+      "title": "S",
+      "sku": "None",
+      "available": true,
+      "price": 12.5,
+      "compareAtPrice": null,
+      "optionValues": [
+        "S"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 454,
+      "position": 1
+    },
+    {
+      "id": 43238187073671,
+      "title": "M",
+      "sku": "None",
+      "available": true,
+      "price": 12.5,
+      "compareAtPrice": null,
+      "optionValues": [
+        "M"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 454,
+      "position": 2
+    },
+    {
+      "id": 43238187106439,
+      "title": "L",
+      "sku": "None",
+      "available": true,
+      "price": 12.5,
+      "compareAtPrice": null,
+      "optionValues": [
+        "L"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 454,
+      "position": 3
+    },
+    {
+      "id": 43238187139207,
+      "title": "XL",
+      "sku": "None",
+      "available": true,
+      "price": 12.5,
+      "compareAtPrice": null,
+      "optionValues": [
+        "XL"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 454,
+      "position": 4
+    },
+    {
+      "id": 43238187171975,
+      "title": "2XL",
+      "sku": "None",
+      "available": true,
+      "price": 12.5,
+      "compareAtPrice": null,
+      "optionValues": [
+        "2XL"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 454,
+      "position": 5
+    },
+    {
+      "id": 43238187204743,
+      "title": "3XL",
+      "sku": "None",
+      "available": true,
+      "price": 12.5,
+      "compareAtPrice": null,
+      "optionValues": [
+        "3XL"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 454,
+      "position": 6
+    },
+    {
+      "id": 43238187237511,
+      "title": "4XL",
+      "sku": "None",
+      "available": true,
+      "price": 12.5,
+      "compareAtPrice": null,
+      "optionValues": [
+        "4XL"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 454,
+      "position": 7
+    },
+    {
+      "id": 43238187270279,
+      "title": "XS",
+      "sku": "None",
+      "available": true,
+      "price": 12.5,
+      "compareAtPrice": null,
+      "optionValues": [
+        "XS"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 454,
+      "position": 8
+    }
+  ],
+  "images": [
+    {
+      "localPath": "/assets/images/notionworx-inventory/uncategorized/120gsm-milk-silk-racerback-tank-full-dye-sublimation-500031/01.jpg",
+      "width": 950,
+      "height": 950,
+      "position": 1,
+      "variantIds": []
+    },
+    {
+      "localPath": "/assets/images/notionworx-inventory/uncategorized/120gsm-milk-silk-racerback-tank-full-dye-sublimation-500031/02.jpg",
+      "width": 500,
+      "height": 500,
+      "position": 2,
+      "variantIds": []
+    }
+  ],
+  "createdAt": "2025-09-25T12:38:31-06:00",
+  "updatedAt": "2026-08-18T21:26:13-06:00",
+  "publishedAt": "2025-09-28T21:01:26-06:00"
+}

@@ -2,6 +2,7 @@
 
 import { useEffect, useMemo, useState } from "react";
 import { products } from "@/data/products/products";
+import { categoriesCollection } from "@/data/categories";
 import ProductCard from "@/components/ui/ProductCard";
 import TfSwiper from "@/components/ui/TfSwiper";
 
@@ -21,12 +22,9 @@ export default function Search({
     return () => window.clearTimeout(timer);
   }, [query]);
 
-  const featuredKeywords = [
-    "Dresses",
-    "Dresses women",
-    "Dresses midi",
-    "Dress summer",
-  ];
+  const featuredKeywords = categoriesCollection
+    .slice(0, 6)
+    .map((category) => category.name);
 
   const filteredProducts = useMemo(() => {
     if (!debouncedQuery) return products.slice(0, 8);
@@ -65,7 +63,7 @@ export default function Search({
             <fieldset>
               <input
                 type="text"
-                placeholder="Searching..."
+                placeholder="Search the catalog..."
                 value={query}
                 onChange={(e) => setQuery(e.target.value)}
                 autoComplete="off"
@@ -76,7 +74,7 @@ export default function Search({
             </button>
           </form>
           <div className="search-feature">
-            <p className="h5 mb-16">Feature Keywords Today</p>
+            <p className="h5 mb-16">Suggested Collections</p>
             <div className="tf-list-tag">
               {featuredKeywords.map((keyword) => (
                 <button
@@ -92,7 +90,7 @@ export default function Search({
           </div>
           <div className="recently-view">
             <p className="h5 mb-16">
-              {debouncedQuery ? "Search Results" : "Recently Viewed Products"}
+              {debouncedQuery ? "Search Results" : "Featured Products"}
             </p>
             {filteredProducts.length > 0 ? (
               <TfSwiper

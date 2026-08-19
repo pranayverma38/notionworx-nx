@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 2,
+  "id": 8258916089991,
+  "handle": "option-set-1274048-select-2",
+  "slug": "option-set-1274048-select-2",
+  "name": "Double Sided Walls",
+  "vendor": "Notion Worx",
+  "productType": null,
+  "primaryCategory": {
+    "handle": "uncategorized",
+    "title": "Uncategorized"
+  },
+  "categories": [
+    {
+      "handle": "uncategorized",
+      "title": "Uncategorized"
+    }
+  ],
+  "descriptionHtml": "",
+  "descriptionText": "",
+  "tags": [
+    "globo-product-options",
+    "option-set-1274048-select-2"
+  ],
+  "skus": [],
+  "price": {
+    "min": 130.0,
+    "max": 130.0,
+    "compareAtMin": null,
+    "compareAtMax": null,
+    "variantCount": 1
+  },
+  "options": [
+    {
+      "name": "Title",
+      "position": 1,
+      "values": [
+        "Double Sided 15ft Back Wall"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 43431859290247,
+      "title": "Double Sided 15ft Back Wall",
+      "sku": "None",
+      "available": true,
+      "price": 130.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "Double Sided 15ft Back Wall"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 0,
+      "position": 1
+    }
+  ],
+  "images": [],
+  "createdAt": "2025-11-04T13:48:13-07:00",
+  "updatedAt": "2026-08-18T21:26:13-06:00",
+  "publishedAt": "2025-11-04T13:48:14-07:00"
+}

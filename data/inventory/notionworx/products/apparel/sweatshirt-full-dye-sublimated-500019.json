@@ -1,0 +1,162 @@
+{
+  "schemaVersion": 2,
+  "id": 8227678879879,
+  "handle": "sweatshirt-full-dye-sublimated-500019",
+  "slug": "sweatshirt-full-dye-sublimated-500019",
+  "name": "Sweatshirt Full Dye Sublimated #500019",
+  "vendor": "Notion Worx",
+  "productType": null,
+  "primaryCategory": {
+    "handle": "apparel",
+    "title": "APPAREL"
+  },
+  "categories": [
+    {
+      "handle": "apparel",
+      "title": "APPAREL"
+    }
+  ],
+  "descriptionHtml": "<p>\u00a0This trendy unisex sublimation sweatshirt features edge to edge imprint It is made of\u00a07.37 oz 95% polyester.5% spandex</p>",
+  "descriptionText": "This trendy unisex sublimation sweatshirt features edge to edge imprint It is made of 7.37 oz 95% polyester.5% spandex",
+  "tags": [],
+  "skus": [
+    "500019-S",
+    "500019-M",
+    "500019-L",
+    "500019-XL",
+    "500019-2XL",
+    "500019-3XL"
+  ],
+  "price": {
+    "min": 29.0,
+    "max": 29.0,
+    "compareAtMin": null,
+    "compareAtMax": null,
+    "variantCount": 6
+  },
+  "options": [
+    {
+      "name": "Size",
+      "position": 1,
+      "values": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 43238183600263,
+      "title": "S",
+      "sku": "500019-S",
+      "available": true,
+      "price": 29.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "S"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 1814,
+      "position": 1
+    },
+    {
+      "id": 43238183633031,
+      "title": "M",
+      "sku": "500019-M",
+      "available": true,
+      "price": 29.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "M"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 1814,
+      "position": 2
+    },
+    {
+      "id": 43238183665799,
+      "title": "L",
+      "sku": "500019-L",
+      "available": true,
+      "price": 29.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "L"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 1814,
+      "position": 3
+    },
+    {
+      "id": 43238183698567,
+      "title": "XL",
+      "sku": "500019-XL",
+      "available": true,
+      "price": 29.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "XL"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 1814,
+      "position": 4
+    },
+    {
+      "id": 43238183731335,
+      "title": "2XL",
+      "sku": "500019-2XL",
+      "available": true,
+      "price": 29.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "2XL"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 1814,
+      "position": 5
+    },
+    {
+      "id": 43238183764103,
+      "title": "3XL",
+      "sku": "500019-3XL",
+      "available": true,
+      "price": 29.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "3XL"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 1814,
+      "position": 6
+    }
+  ],
+  "images": [
+    {
+      "localPath": "/assets/images/notionworx-inventory/apparel/sweatshirt-full-dye-sublimated-500019/01.jpg",
+      "width": 1000,
+      "height": 1000,
+      "position": 1,
+      "variantIds": []
+    },
+    {
+      "localPath": "/assets/images/notionworx-inventory/apparel/sweatshirt-full-dye-sublimated-500019/02.jpg",
+      "width": 1200,
+      "height": 1200,
+      "position": 2,
+      "variantIds": []
+    }
+  ],
+  "createdAt": "2025-09-25T12:38:13-06:00",
+  "updatedAt": "2026-08-18T21:24:55-06:00",
+  "publishedAt": "2025-09-28T20:14:30-06:00"
+}

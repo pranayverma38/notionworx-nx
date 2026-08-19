@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 2,
+  "id": 8227681861767,
+  "handle": "premium-15-aluminum-tent-frame-silver",
+  "slug": "premium-15-aluminum-tent-frame-silver",
+  "name": "Premium 15' Aluminum Tent Frame (Silver)",
+  "vendor": "Notion Worx",
+  "productType": null,
+  "primaryCategory": {
+    "handle": "10x15",
+    "title": "10x15 Custom Canopies"
+  },
+  "categories": [
+    {
+      "handle": "10x15",
+      "title": "10x15 Custom Canopies"
+    }
+  ],
+  "descriptionHtml": "<p><strong>Features:</strong><br>Frame is constructed of 1.1 mm anodized aluminum<br>Frame features ABS glass-filled nylon joints<br>Hexagon-shaped legs are 1.75\" in diameter<br>Legs feature plastic levers for pinch-free height adjustment<br>Easy-Glide Tent Feet allow the tent frame to slide on dirt and grass, preventing the legs from catching<br>Frame must be secured to the ground to prevent wind damage (failure to secure the tent voids the warranty)</p>\n<p><br><strong>Product Dimensions</strong></p>\n<p><strong>15ft:</strong><br>Product Size: 175.5\" W x 139.25\" H x 126.75\" D<br>Collapsible Dimensions: 12.12\" W x 62.75\" H x 9.37\" D<br>Product Weight: 46 lbs</p>\n<p><br><strong>Kit Include</strong><br>1: Hardware (Frame)</p>\n<p><br><strong>Materials</strong><br>Hardware: ABS Nylon, Aluminum</p>\n<p><br><strong>Primary Usage</strong><br>Outdoor</p>\n<p><br><strong>Order Cutoff Time</strong><br>2:00 PM Central Daylight Time</p>\n<p><br><strong>Warranty</strong><br>lifetime hardware warranty - Standard warranty is a parts and labor warranty which warrants product against defects in material and workmanship. It does not cover damage due to accidents, abuse, or normal wear and tear. Products found to be defective will be replaced or repaired at factory's discretion.</p>",
+  "descriptionText": "Features:\nFrame is constructed of 1.1 mm anodized aluminum\nFrame features ABS glass-filled nylon joints\nHexagon-shaped legs are 1.75\" in diameter\nLegs feature plastic levers for pinch-free height adjustment\nEasy-Glide Tent Feet allow the tent frame to slide on dirt and grass, preventing the legs from catching\nFrame must be secured to the ground to prevent wind damage (failure to secure the tent voids the warranty)\nProduct Dimensions\n15ft:\nProduct Size: 175.5\" W x 139.25\" H x 126.75\" D\nCollapsible Dimensions: 12.12\" W x 62.75\" H x 9.37\" D\nProduct Weight: 46 lbs\nKit Include\n1: Hardware (Frame)\nMaterials\nHardware: ABS Nylon, Aluminum\nPrimary Usage\nOutdoor\nOrder Cutoff Time\n2:00 PM Central Daylight Time\nWarranty\nlifetime hardware warranty - Standard warranty is a parts and labor warranty which warrants product against defects in material and workmanship. It does not cover damage due to accidents, abuse, or normal wear and tear. Products found to be defective will be replaced or repaired at factory's discretion.",
+  "tags": [],
+  "skus": [
+    "206067"
+  ],
+  "price": {
+    "min": 445.0,
+    "max": 445.0,
+    "compareAtMin": null,
+    "compareAtMax": null,
+    "variantCount": 1
+  },
+  "options": [
+    {
+      "name": "Title",
+      "position": 1,
+      "values": [
+        "Default Title"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 43238200279175,
+      "title": "Default Title",
+      "sku": "206067",
+      "available": true,
+      "price": 445.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "Default Title"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 54431,
+      "position": 1
+    }
+  ],
+  "images": [
+    {
+      "localPath": "/assets/images/notionworx-inventory/10x15/premium-15-aluminum-tent-frame-silver/01.jpg",
+      "width": 500,
+      "height": 500,
+      "position": 1,
+      "variantIds": []
+    },
+    {
+      "localPath": "/assets/images/notionworx-inventory/10x15/premium-15-aluminum-tent-frame-silver/02.jpg",
+      "width": 500,
+      "height": 500,
+      "position": 2,
+      "variantIds": []
+    },
+    {
+      "localPath": "/assets/images/notionworx-inventory/10x15/premium-15-aluminum-tent-frame-silver/03.jpg",
+      "width": 500,
+      "height": 500,
+      "position": 3,
+      "variantIds": []
+    }
+  ],
+  "createdAt": "2025-09-25T12:39:55-06:00",
+  "updatedAt": "2026-08-18T21:23:41-06:00",
+  "publishedAt": "2025-09-28T21:06:25-06:00"
+}

@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 2,
+  "id": 8227673899143,
+  "handle": "8-fabric-pop-up-display-straight-copy",
+  "slug": "8-fabric-pop-up-display-straight-copy",
+  "name": "8' Fabric Pop Up Display (Straight)",
+  "vendor": "Notion Worx",
+  "productType": null,
+  "primaryCategory": {
+    "handle": "trade-show-display",
+    "title": "BANNERS & DISPLAYS"
+  },
+  "categories": [
+    {
+      "handle": "trade-show-display",
+      "title": "BANNERS & DISPLAYS"
+    }
+  ],
+  "descriptionHtml": "<p><strong><span style=\"color: #2b00ff;\">8' straight pop up design \u00a0 \u00a0</span><span color=\"#2b00ff\" style=\"color: #2b00ff;\">Hardcase .\u00a0</span></strong></p>\n<p>\u00a0<strong>Features:</strong></p>\n<p>Your artwork will be dye sublimated on polyester knit<br>Graphic panel covers the front and two sides of the display's frame; the back of the frame is not covered<br>Hook-and-loop fasteners make it easy to install graphic panels<br>Lightweight aluminum frame with nylon plastic hubs<br>Imprint Method: Full-Color Dye Sublimation<br>Single Sided Graphic</p>\n\n<h3><span style=\"color: #ff8000;\">8ft fabric pop up Includes:</span></h3>\n<ul>\n<li>(1) Single-Sided Dye-Sublimated Graphic (with Endcaps)</li>\n<li>(1) Aluminum Frame</li>\n<li>(1) Black Nylon Carry Bag</li>\n</ul>\n<ul>\n<li>\n<b>Display Size:</b>89\"W x 89\"H x 12\"D</li>\n<li>\n<b> Size:</b>114\"W x 88.5\"H</li>\n<li>\n<b>Endcaps:</b>11.81\" end panels on both sides)</li>\n<li>\n<b>Material:</b>Stretch Fabric</li>\n<li>\n<b>Shipping Dimensions:</b>12\"L x 12\"W x 35\"H</li>\n<li>\n<b>Shipping Weight:</b>24 lbs</li>\n</ul>",
+  "descriptionText": "8' straight pop up design Hardcase .\nFeatures:\nYour artwork will be dye sublimated on polyester knit\nGraphic panel covers the front and two sides of the display's frame; the back of the frame is not covered\nHook-and-loop fasteners make it easy to install graphic panels\nLightweight aluminum frame with nylon plastic hubs\nImprint Method: Full-Color Dye Sublimation\nSingle Sided Graphic\n8ft fabric pop up Includes:\n(1) Single-Sided Dye-Sublimated Graphic (with Endcaps)\n(1) Aluminum Frame\n(1) Black Nylon Carry Bag\nDisplay Size: 89\"W x 89\"H x 12\"D\n Size: 114\"W x 88.5\"H\nEndcaps: 11.81\" end panels on both sides)\nMaterial: Stretch Fabric\nShipping Dimensions: 12\"L x 12\"W x 35\"H\nShipping Weight: 24 lbs",
+  "tags": [],
+  "skus": [
+    "406055",
+    "406056"
+  ],
+  "price": {
+    "min": 167.0,
+    "max": 367.0,
+    "compareAtMin": null,
+    "compareAtMax": null,
+    "variantCount": 2
+  },
+  "options": [
+    {
+      "name": "Included",
+      "position": 1,
+      "values": [
+        "Kit 1 ( Frame +Printing)",
+        "Kit 2 ( Graphic Only)"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 43238158631047,
+      "title": "Kit 1 ( Frame +Printing)",
+      "sku": "406055",
+      "available": true,
+      "price": 367.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "Kit 1 ( Frame +Printing)"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 22680,
+      "position": 1
+    },
+    {
+      "id": 43238158663815,
+      "title": "Kit 2 ( Graphic Only)",
+      "sku": "406056",
+      "available": true,
+      "price": 167.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "Kit 2 ( Graphic Only)"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 22680,
+      "position": 2
+    }
+  ],
+  "images": [
+    {
+      "localPath": "/assets/images/notionworx-inventory/trade-show-display/8-fabric-pop-up-display-straight-copy/01.jpg",
+      "width": 500,
+      "height": 500,
+      "position": 1,
+      "variantIds": []
+    },
+    {
+      "localPath": "/assets/images/notionworx-inventory/trade-show-display/8-fabric-pop-up-display-straight-copy/02.jpg",
+      "width": 800,
+      "height": 600,
+      "position": 2,
+      "variantIds": []
+    },
+    {
+      "localPath": "/assets/images/notionworx-inventory/trade-show-display/8-fabric-pop-up-display-straight-copy/03.jpg",
+      "width": 3333,
+      "height": 2500,
+      "position": 3,
+      "variantIds": []
+    },
+    {
+      "localPath": "/assets/images/notionworx-inventory/trade-show-display/8-fabric-pop-up-display-straight-copy/04.jpg",
+      "width": 535,
+      "height": 597,
+      "position": 4,
+      "variantIds": []
+    }
+  ],
+  "createdAt": "2025-09-25T12:35:15-06:00",
+  "updatedAt": "2026-08-18T21:24:32-06:00",
+  "publishedAt": "2025-09-26T09:36:50-06:00"
+}

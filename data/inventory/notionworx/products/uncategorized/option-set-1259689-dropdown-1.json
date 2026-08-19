@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 2,
+  "id": 8243247710343,
+  "handle": "option-set-1259689-dropdown-1",
+  "slug": "option-set-1259689-dropdown-1",
+  "name": "theirlabel",
+  "vendor": "Notion Worx",
+  "productType": null,
+  "primaryCategory": {
+    "handle": "uncategorized",
+    "title": "Uncategorized"
+  },
+  "categories": [
+    {
+      "handle": "uncategorized",
+      "title": "Uncategorized"
+    }
+  ],
+  "descriptionHtml": "",
+  "descriptionText": "",
+  "tags": [
+    "globo-product-options",
+    "option-set-1259689-dropdown-1"
+  ],
+  "skus": [],
+  "price": {
+    "min": 5.0,
+    "max": 10.0,
+    "compareAtMin": null,
+    "compareAtMax": null,
+    "variantCount": 2
+  },
+  "options": [
+    {
+      "name": "Title",
+      "position": 1,
+      "values": [
+        "option_1",
+        "option_2"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 43357636100231,
+      "title": "option_1",
+      "sku": "None",
+      "available": true,
+      "price": 5.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "option_1"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 0,
+      "position": 1
+    },
+    {
+      "id": 43357636132999,
+      "title": "option_2",
+      "sku": "None",
+      "available": true,
+      "price": 10.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "option_2"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 0,
+      "position": 2
+    }
+  ],
+  "images": [],
+  "createdAt": "2025-10-20T13:37:30-06:00",
+  "updatedAt": "2026-08-18T21:26:13-06:00",
+  "publishedAt": "2025-10-20T13:37:30-06:00"
+}

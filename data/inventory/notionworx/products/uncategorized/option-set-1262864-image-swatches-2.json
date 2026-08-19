@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 2,
+  "id": 8245982986375,
+  "handle": "option-set-1262864-image-swatches-2",
+  "slug": "option-set-1262864-image-swatches-2",
+  "name": "Feather Flags",
+  "vendor": "Notion Worx",
+  "productType": null,
+  "primaryCategory": {
+    "handle": "uncategorized",
+    "title": "Uncategorized"
+  },
+  "categories": [
+    {
+      "handle": "uncategorized",
+      "title": "Uncategorized"
+    }
+  ],
+  "descriptionHtml": "",
+  "descriptionText": "",
+  "tags": [
+    "globo-product-options",
+    "option-set-1262864-image-swatches-2"
+  ],
+  "skus": [],
+  "price": {
+    "min": 140.0,
+    "max": 160.0,
+    "compareAtMin": null,
+    "compareAtMax": null,
+    "variantCount": 4
+  },
+  "options": [
+    {
+      "name": "Title",
+      "position": 1,
+      "values": [
+        "9ft Stand Alone Flag w/ Cross Base",
+        "9ft Mounted Flag w/ Mounting Kit",
+        "12ft Stand Alone Flag w/ Cross Base",
+        "15ft Stand Alone Flag w/ Cross Base"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 43368142798983,
+      "title": "9ft Stand Alone Flag w/ Cross Base",
+      "sku": "None",
+      "available": true,
+      "price": 140.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "9ft Stand Alone Flag w/ Cross Base"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 0,
+      "position": 1
+    },
+    {
+      "id": 43368142831751,
+      "title": "9ft Mounted Flag w/ Mounting Kit",
+      "sku": "None",
+      "available": true,
+      "price": 150.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "9ft Mounted Flag w/ Mounting Kit"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 0,
+      "position": 2
+    },
+    {
+      "id": 43368142864519,
+      "title": "12ft Stand Alone Flag w/ Cross Base",
+      "sku": "None",
+      "available": true,
+      "price": 150.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "12ft Stand Alone Flag w/ Cross Base"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 0,
+      "position": 3
+    },
+    {
+      "id": 43368142897287,
+      "title": "15ft Stand Alone Flag w/ Cross Base",
+      "sku": "None",
+      "available": true,
+      "price": 160.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "15ft Stand Alone Flag w/ Cross Base"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 0,
+      "position": 4
+    }
+  ],
+  "images": [],
+  "createdAt": "2025-10-24T00:20:29-06:00",
+  "updatedAt": "2026-08-18T21:26:13-06:00",
+  "publishedAt": "2025-10-24T00:20:30-06:00"
+}

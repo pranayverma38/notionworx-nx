@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 2,
+  "handle": "kennels",
+  "title": "Kennels",
+  "description": "<p style=\"text-align: center;\"><img alt=\"\" src=\"\"><img alt=\"\" src=\"\"><img alt=\"\" src=\"\"><img alt=\"\" src=\"\"></p>",
+  "image": {
+    "localPath": "/assets/images/notionworx-inventory/collections/kennels/01.jpg",
+    "width": null,
+    "height": null
+  },
+  "productsCount": 0,
+  "productHandles": []
+}

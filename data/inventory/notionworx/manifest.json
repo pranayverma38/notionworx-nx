@@ -1,0 +1,2718 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-08-19T03:30:56Z",
+  "collectionCount": 31,
+  "categoryFolderCount": 19,
+  "productCount": 219,
+  "uncategorizedProductCount": 64,
+  "imageCount": 607,
+  "collections": [
+    {
+      "handle": "10x10",
+      "title": "10x10 Custom Canopies",
+      "productsCount": 21,
+      "filePath": "data/inventory/notionworx/collections/10x10.json"
+    },
+    {
+      "handle": "10x15",
+      "title": "10x15 Custom Canopies",
+      "productsCount": 14,
+      "filePath": "data/inventory/notionworx/collections/10x15.json"
+    },
+    {
+      "handle": "10x20",
+      "title": "10x20 Custom Canopies",
+      "productsCount": 16,
+      "filePath": "data/inventory/notionworx/collections/10x20.json"
+    },
+    {
+      "handle": "5x5-custom-canopy",
+      "title": "5x5 Custom Canopies",
+      "productsCount": 8,
+      "filePath": "data/inventory/notionworx/collections/5x5-custom-canopy.json"
+    },
+    {
+      "handle": "accesories",
+      "title": "Accessories",
+      "productsCount": 7,
+      "filePath": "data/inventory/notionworx/collections/accesories.json"
+    },
+    {
+      "handle": "apparel",
+      "title": "APPAREL",
+      "productsCount": 45,
+      "filePath": "data/inventory/notionworx/collections/apparel.json"
+    },
+    {
+      "handle": "athletic",
+      "title": "Athletic",
+      "productsCount": 0,
+      "filePath": "data/inventory/notionworx/collections/athletic.json"
+    },
+    {
+      "handle": "bag",
+      "title": "BAG",
+      "productsCount": 7,
+      "filePath": "data/inventory/notionworx/collections/bag.json"
+    },
+    {
+      "handle": "best-selling-10x10-custom-canopy-tents",
+      "title": "Best Selling 10x10 Custom Canopy Tents \u2013 Tradeshow & Food Booth Essentials",
+      "productsCount": 12,
+      "filePath": "data/inventory/notionworx/collections/best-selling-10x10-custom-canopy-tents.json"
+    },
+    {
+      "handle": "car-club",
+      "title": "Car Club",
+      "productsCount": 0,
+      "filePath": "data/inventory/notionworx/collections/car-club.json"
+    },
+    {
+      "handle": "clothing-brand",
+      "title": "Clothing Brand",
+      "productsCount": 0,
+      "filePath": "data/inventory/notionworx/collections/clothing-brand.json"
+    },
+    {
+      "handle": "corporate",
+      "title": "Corporate",
+      "productsCount": 0,
+      "filePath": "data/inventory/notionworx/collections/corporate.json"
+    },
+    {
+      "handle": "custom-food-booths-canopy-tents",
+      "title": "Custom Food Booths \u2013 5x5, 10x10, 10x15 & 10x20 Canopy Tents",
+      "productsCount": 4,
+      "filePath": "data/inventory/notionworx/collections/custom-food-booths-canopy-tents.json"
+    },
+    {
+      "handle": "detail-shop",
+      "title": "Detail Shop",
+      "productsCount": 0,
+      "filePath": "data/inventory/notionworx/collections/detail-shop.json"
+    },
+    {
+      "handle": "dispensary",
+      "title": "Dispensary",
+      "productsCount": 0,
+      "filePath": "data/inventory/notionworx/collections/dispensary.json"
+    },
+    {
+      "handle": "flags",
+      "title": "FLAGS",
+      "productsCount": 20,
+      "filePath": "data/inventory/notionworx/collections/flags.json"
+    },
+    {
+      "handle": "food",
+      "title": "Food",
+      "productsCount": 0,
+      "filePath": "data/inventory/notionworx/collections/food.json"
+    },
+    {
+      "handle": "food-booth",
+      "title": "Food Booth",
+      "productsCount": 0,
+      "filePath": "data/inventory/notionworx/collections/food-booth.json"
+    },
+    {
+      "handle": "headwear",
+      "title": "HEADWEAR",
+      "productsCount": 1,
+      "filePath": "data/inventory/notionworx/collections/headwear.json"
+    },
+    {
+      "handle": "kennels",
+      "title": "Kennels",
+      "productsCount": 0,
+      "filePath": "data/inventory/notionworx/collections/kennels.json"
+    },
+    {
+      "handle": "mockups",
+      "title": "Mockups",
+      "productsCount": 0,
+      "filePath": "data/inventory/notionworx/collections/mockups.json"
+    },
+    {
+      "handle": "non-profit",
+      "title": "Non profit",
+      "productsCount": 0,
+      "filePath": "data/inventory/notionworx/collections/non-profit.json"
+    },
+    {
+      "handle": "retail-store",
+      "title": "Retail Store",
+      "productsCount": 0,
+      "filePath": "data/inventory/notionworx/collections/retail-store.json"
+    },
+    {
+      "handle": "seg-products",
+      "title": "SEG PRODUCTS",
+      "productsCount": 6,
+      "filePath": "data/inventory/notionworx/collections/seg-products.json"
+    },
+    {
+      "handle": "table-cover",
+      "title": "TABLE COVER",
+      "productsCount": 10,
+      "filePath": "data/inventory/notionworx/collections/table-cover.json"
+    },
+    {
+      "handle": "tent",
+      "title": "Custom Canopy Tents \u2013 Personalized Pop Up Tents for Events",
+      "productsCount": 31,
+      "filePath": "data/inventory/notionworx/collections/tent.json"
+    },
+    {
+      "handle": "towel-blanket",
+      "title": "TOWEL & BLANKET",
+      "productsCount": 6,
+      "filePath": "data/inventory/notionworx/collections/towel-blanket.json"
+    },
+    {
+      "handle": "trade-show-display",
+      "title": "BANNERS & DISPLAYS",
+      "productsCount": 13,
+      "filePath": "data/inventory/notionworx/collections/trade-show-display.json"
+    },
+    {
+      "handle": "trade-show-essentials",
+      "title": "Trade Show Essentials \u2013 10x10, 10x15 & 10x20 Custom Canopy Tents for Events & Exhibits",
+      "productsCount": 4,
+      "filePath": "data/inventory/notionworx/collections/trade-show-essentials.json"
+    },
+    {
+      "handle": "umbrella",
+      "title": "UMBRELLA",
+      "productsCount": 1,
+      "filePath": "data/inventory/notionworx/collections/umbrella.json"
+    },
+    {
+      "handle": "uncategorized",
+      "title": "Uncategorized",
+      "productsCount": 64,
+      "filePath": "data/inventory/notionworx/collections/uncategorized.json"
+    }
+  ],
+  "products": [
+    {
+      "handle": "1-4-zipper-jacket-full-dye-sublimation",
+      "name": "150GSM Mesh Jersey 1/4 Zipper Jacket (Full Dye Sublimation) #500024",
+      "primaryCategoryHandle": "apparel",
+      "primaryCategoryTitle": "APPAREL",
+      "dataPath": "data/inventory/notionworx/products/apparel/1-4-zipper-jacket-full-dye-sublimation.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/apparel/1-4-zipper-jacket-full-dye-sublimation/01.jpg"
+      ]
+    },
+    {
+      "handle": "10-fabric-pop-up-display-straight-copy",
+      "name": "10' Fabric Pop Up Display (Straight)",
+      "primaryCategoryHandle": "trade-show-display",
+      "primaryCategoryTitle": "BANNERS & DISPLAYS",
+      "dataPath": "data/inventory/notionworx/products/trade-show-display/10-fabric-pop-up-display-straight-copy.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/trade-show-display/10-fabric-pop-up-display-straight-copy/01.jpg",
+        "/assets/images/notionworx-inventory/trade-show-display/10-fabric-pop-up-display-straight-copy/02.jpg",
+        "/assets/images/notionworx-inventory/trade-show-display/10-fabric-pop-up-display-straight-copy/03.jpg",
+        "/assets/images/notionworx-inventory/trade-show-display/10-fabric-pop-up-display-straight-copy/04.jpg"
+      ]
+    },
+    {
+      "handle": "10-premium-rectangle-flag-pole",
+      "name": "10' Premium Rectangle Flag Pole",
+      "primaryCategoryHandle": "flags",
+      "primaryCategoryTitle": "FLAGS",
+      "dataPath": "data/inventory/notionworx/products/flags/10-premium-rectangle-flag-pole.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/flags/10-premium-rectangle-flag-pole/01.jpg"
+      ]
+    },
+    {
+      "handle": "10-tube-straight-fabric-display-1",
+      "name": "10' Tube Straight Fabric Display",
+      "primaryCategoryHandle": "trade-show-display",
+      "primaryCategoryTitle": "BANNERS & DISPLAYS",
+      "dataPath": "data/inventory/notionworx/products/trade-show-display/10-tube-straight-fabric-display-1.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/trade-show-display/10-tube-straight-fabric-display-1/01.jpg",
+        "/assets/images/notionworx-inventory/trade-show-display/10-tube-straight-fabric-display-1/02.jpg",
+        "/assets/images/notionworx-inventory/trade-show-display/10-tube-straight-fabric-display-1/03.jpg"
+      ]
+    },
+    {
+      "handle": "10ft-back-wall",
+      "name": "10x10 Custom Canopy Tent Wall \u2013 Dye-Sublimation Printed",
+      "primaryCategoryHandle": "10x10",
+      "primaryCategoryTitle": "10x10 Custom Canopies",
+      "dataPath": "data/inventory/notionworx/products/10x10/10ft-back-wall.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/10x10/10ft-back-wall/01.jpg",
+        "/assets/images/notionworx-inventory/10x10/10ft-back-wall/02.jpg"
+      ]
+    },
+    {
+      "handle": "10ft-canopy-awning",
+      "name": "10ft Canopy Awning",
+      "primaryCategoryHandle": "accesories",
+      "primaryCategoryTitle": "Accessories",
+      "dataPath": "data/inventory/notionworx/products/accesories/10ft-canopy-awning.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/accesories/10ft-canopy-awning/01.jpg",
+        "/assets/images/notionworx-inventory/accesories/10ft-canopy-awning/02.jpg"
+      ]
+    },
+    {
+      "handle": "10ft-seg-backlit-fabric-display",
+      "name": "10ft SEG Backlit Fabric Display",
+      "primaryCategoryHandle": "seg-products",
+      "primaryCategoryTitle": "SEG PRODUCTS",
+      "dataPath": "data/inventory/notionworx/products/seg-products/10ft-seg-backlit-fabric-display.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/seg-products/10ft-seg-backlit-fabric-display/01.jpg",
+        "/assets/images/notionworx-inventory/seg-products/10ft-seg-backlit-fabric-display/02.jpg",
+        "/assets/images/notionworx-inventory/seg-products/10ft-seg-backlit-fabric-display/03.jpg"
+      ]
+    },
+    {
+      "handle": "10ft-seg-backlit-popup-display",
+      "name": "10ft SEG Backlit Popup Display",
+      "primaryCategoryHandle": "seg-products",
+      "primaryCategoryTitle": "SEG PRODUCTS",
+      "dataPath": "data/inventory/notionworx/products/seg-products/10ft-seg-backlit-popup-display.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/seg-products/10ft-seg-backlit-popup-display/01.jpg",
+        "/assets/images/notionworx-inventory/seg-products/10ft-seg-backlit-popup-display/02.jpg",
+        "/assets/images/notionworx-inventory/seg-products/10ft-seg-backlit-popup-display/03.jpg",
+        "/assets/images/notionworx-inventory/seg-products/10ft-seg-backlit-popup-display/04.jpg",
+        "/assets/images/notionworx-inventory/seg-products/10ft-seg-backlit-popup-display/05.jpg"
+      ]
+    },
+    {
+      "handle": "10ft-seg-fabric-display",
+      "name": "10ft SEG Fabric Display (Non-Lit )",
+      "primaryCategoryHandle": "seg-products",
+      "primaryCategoryTitle": "SEG PRODUCTS",
+      "dataPath": "data/inventory/notionworx/products/seg-products/10ft-seg-fabric-display.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/seg-products/10ft-seg-fabric-display/01.jpg",
+        "/assets/images/notionworx-inventory/seg-products/10ft-seg-fabric-display/02.jpg",
+        "/assets/images/notionworx-inventory/seg-products/10ft-seg-fabric-display/03.jpg",
+        "/assets/images/notionworx-inventory/seg-products/10ft-seg-fabric-display/04.jpg",
+        "/assets/images/notionworx-inventory/seg-products/10ft-seg-fabric-display/05.jpg"
+      ]
+    },
+    {
+      "handle": "10x15-custom-canopy-tent-wall-15ft-back-wall",
+      "name": "10x15 Custom Canopy Tent Wall \u2013 Dye-Sublimation Printed",
+      "primaryCategoryHandle": "10x15",
+      "primaryCategoryTitle": "10x15 Custom Canopies",
+      "dataPath": "data/inventory/notionworx/products/10x15/10x15-custom-canopy-tent-wall-15ft-back-wall.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/10x15/10x15-custom-canopy-tent-wall-15ft-back-wall/01.jpg"
+      ]
+    },
+    {
+      "handle": "10x20-custom-canopy-tent-20ft-back-wall",
+      "name": "10x20 Custom Canopy Tent Wall \u2013 Dye-Sublimation Printed",
+      "primaryCategoryHandle": "10x20",
+      "primaryCategoryTitle": "10x20 Custom Canopies",
+      "dataPath": "data/inventory/notionworx/products/10x20/10x20-custom-canopy-tent-20ft-back-wall.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/10x20/10x20-custom-canopy-tent-20ft-back-wall/01.jpg",
+        "/assets/images/notionworx-inventory/10x20/10x20-custom-canopy-tent-20ft-back-wall/02.jpg"
+      ]
+    },
+    {
+      "handle": "120gsm-milk-silk-1-4-zip-polo-shirt-full-dye-sublimation-500058",
+      "name": "120GSM Milk Silk 1/4 Zip Polo Shirt (Full Dye Sublimation) #500058",
+      "primaryCategoryHandle": "apparel",
+      "primaryCategoryTitle": "APPAREL",
+      "dataPath": "data/inventory/notionworx/products/apparel/120gsm-milk-silk-1-4-zip-polo-shirt-full-dye-sublimation-500058.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-1-4-zip-polo-shirt-full-dye-sublimation-500058/01.jpg"
+      ]
+    },
+    {
+      "handle": "120gsm-milk-silk-1-4-zipper-jacket-full-dye-sublimation-500059",
+      "name": "120GSM Milk Silk 1/4 Zipper Jacket (Full Dye Sublimation) #500059",
+      "primaryCategoryHandle": "apparel",
+      "primaryCategoryTitle": "APPAREL",
+      "dataPath": "data/inventory/notionworx/products/apparel/120gsm-milk-silk-1-4-zipper-jacket-full-dye-sublimation-500059.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-1-4-zipper-jacket-full-dye-sublimation-500059/01.jpg"
+      ]
+    },
+    {
+      "handle": "120gsm-milk-silk-crew-neck-sleeveless-full-dye-sublimation-500005",
+      "name": "120GSM Milk Silk Crew Neck Sleeveless (Full Dye Sublimation) #500046",
+      "primaryCategoryHandle": "apparel",
+      "primaryCategoryTitle": "APPAREL",
+      "dataPath": "data/inventory/notionworx/products/apparel/120gsm-milk-silk-crew-neck-sleeveless-full-dye-sublimation-500005.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-crew-neck-sleeveless-full-dye-sublimation-500005/01.jpg",
+        "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-crew-neck-sleeveless-full-dye-sublimation-500005/02.jpg",
+        "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-crew-neck-sleeveless-full-dye-sublimation-500005/03.png",
+        "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-crew-neck-sleeveless-full-dye-sublimation-500005/04.png",
+        "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-crew-neck-sleeveless-full-dye-sublimation-500005/05.png"
+      ]
+    },
+    {
+      "handle": "120gsm-milk-silk-custom-button-down-baseball-jersey-full-dye-sublimation-50058",
+      "name": "120GSM Milk Silk Custom Button Down Baseball Jersey (Full Dye Sublimation) #500044",
+      "primaryCategoryHandle": "apparel",
+      "primaryCategoryTitle": "APPAREL",
+      "dataPath": "data/inventory/notionworx/products/apparel/120gsm-milk-silk-custom-button-down-baseball-jersey-full-dye-sublimation-50058.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-custom-button-down-baseball-jersey-full-dye-sublimation-50058/01.jpg"
+      ]
+    },
+    {
+      "handle": "120gsm-milk-silk-long-sleeve-crew-neck-full-dye-sublimation-500003",
+      "name": "120GSM Milk Silk Long Sleeve Crew Neck (Full Dye Sublimation)#500041",
+      "primaryCategoryHandle": "apparel",
+      "primaryCategoryTitle": "APPAREL",
+      "dataPath": "data/inventory/notionworx/products/apparel/120gsm-milk-silk-long-sleeve-crew-neck-full-dye-sublimation-500003.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-long-sleeve-crew-neck-full-dye-sublimation-500003/01.jpg",
+        "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-long-sleeve-crew-neck-full-dye-sublimation-500003/02.jpg"
+      ]
+    },
+    {
+      "handle": "120gsm-milk-silk-long-sleeve-hoodie-t-shirt-full-dye-sublimation-500138",
+      "name": "120GSM Milk Silk Long Sleeve Hoodie T-shirt (Full Dye Sublimation)#500138",
+      "primaryCategoryHandle": "apparel",
+      "primaryCategoryTitle": "APPAREL",
+      "dataPath": "data/inventory/notionworx/products/apparel/120gsm-milk-silk-long-sleeve-hoodie-t-shirt-full-dye-sublimation-500138.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-long-sleeve-hoodie-t-shirt-full-dye-sublimation-500138/01.jpg",
+        "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-long-sleeve-hoodie-t-shirt-full-dye-sublimation-500138/02.jpg",
+        "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-long-sleeve-hoodie-t-shirt-full-dye-sublimation-500138/03.jpg"
+      ]
+    },
+    {
+      "handle": "120gsm-milk-silk-long-sleeve-v-neck-full-dye-sublimation-500004",
+      "name": "120GSM Milk Silk Long Sleeve V- neck (Full Dye Sublimation)#500042",
+      "primaryCategoryHandle": "apparel",
+      "primaryCategoryTitle": "APPAREL",
+      "dataPath": "data/inventory/notionworx/products/apparel/120gsm-milk-silk-long-sleeve-v-neck-full-dye-sublimation-500004.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-long-sleeve-v-neck-full-dye-sublimation-500004/01.jpg",
+        "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-long-sleeve-v-neck-full-dye-sublimation-500004/02.png"
+      ]
+    },
+    {
+      "handle": "120gsm-milk-silk-racerback-tank-full-dye-sublimation-500031",
+      "name": "120GSM Milk Silk Racerback Tank  (Full Dye Sublimation) #500031",
+      "primaryCategoryHandle": "uncategorized",
+      "primaryCategoryTitle": "Uncategorized",
+      "dataPath": "data/inventory/notionworx/products/uncategorized/120gsm-milk-silk-racerback-tank-full-dye-sublimation-500031.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/uncategorized/120gsm-milk-silk-racerback-tank-full-dye-sublimation-500031/01.jpg",
+        "/assets/images/notionworx-inventory/uncategorized/120gsm-milk-silk-racerback-tank-full-dye-sublimation-500031/02.jpg"
+      ]
+    },
+    {
+      "handle": "120gsm-milk-silk-short-sleeve-crew-neck-full-dye-sublimation-500040",
+      "name": "120GSM Milk Silk Short Sleeve Crew Neck (Full Dye Sublimation) #500040",
+      "primaryCategoryHandle": "apparel",
+      "primaryCategoryTitle": "APPAREL",
+      "dataPath": "data/inventory/notionworx/products/apparel/120gsm-milk-silk-short-sleeve-crew-neck-full-dye-sublimation-500040.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-short-sleeve-crew-neck-full-dye-sublimation-500040/01.jpg",
+        "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-short-sleeve-crew-neck-full-dye-sublimation-500040/02.jpg"
+      ]
+    },
+    {
+      "handle": "120gsm-milk-silk-short-sleeve-v-neck-full-dye-sublimation-500001",
+      "name": "120GSM Milk Silk Short Sleeve V Neck (Full Dye Sublimation)#500043",
+      "primaryCategoryHandle": "apparel",
+      "primaryCategoryTitle": "APPAREL",
+      "dataPath": "data/inventory/notionworx/products/apparel/120gsm-milk-silk-short-sleeve-v-neck-full-dye-sublimation-500001.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-short-sleeve-v-neck-full-dye-sublimation-500001/01.jpg",
+        "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-short-sleeve-v-neck-full-dye-sublimation-500001/02.jpg"
+      ]
+    },
+    {
+      "handle": "120gsm-milk-silk-sport-polo-shirt-full-button-full-dye-sublimation-500075",
+      "name": "120GSM Milk Silk Sport Polo Shirt Full Button (Full Dye Sublimation) #500075",
+      "primaryCategoryHandle": "apparel",
+      "primaryCategoryTitle": "APPAREL",
+      "dataPath": "data/inventory/notionworx/products/apparel/120gsm-milk-silk-sport-polo-shirt-full-button-full-dye-sublimation-500075.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-sport-polo-shirt-full-button-full-dye-sublimation-500075/01.png",
+        "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-sport-polo-shirt-full-button-full-dye-sublimation-500075/02.png",
+        "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-sport-polo-shirt-full-button-full-dye-sublimation-500075/03.png"
+      ]
+    },
+    {
+      "handle": "120gsm-milk-silk-sport-polo-shirt-full-dye-sublimation-500045",
+      "name": "120GSM Milk Silk Sport Polo Shirt (Full Dye Sublimation) #500045",
+      "primaryCategoryHandle": "apparel",
+      "primaryCategoryTitle": "APPAREL",
+      "dataPath": "data/inventory/notionworx/products/apparel/120gsm-milk-silk-sport-polo-shirt-full-dye-sublimation-500045.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-sport-polo-shirt-full-dye-sublimation-500045/01.png",
+        "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-sport-polo-shirt-full-dye-sublimation-500045/02.png",
+        "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-sport-polo-shirt-full-dye-sublimation-500045/03.png",
+        "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-sport-polo-shirt-full-dye-sublimation-500045/04.webp"
+      ]
+    },
+    {
+      "handle": "120gsm-milk-silk-v-neck-sleeveless-full-dye-sublimation-500087",
+      "name": "120GSM Milk Silk V Neck Sleeveless (Full Dye Sublimation) #500087",
+      "primaryCategoryHandle": "apparel",
+      "primaryCategoryTitle": "APPAREL",
+      "dataPath": "data/inventory/notionworx/products/apparel/120gsm-milk-silk-v-neck-sleeveless-full-dye-sublimation-500087.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-v-neck-sleeveless-full-dye-sublimation-500087/01.jpg"
+      ]
+    },
+    {
+      "handle": "14-5-premium-rectangle-flag-pole",
+      "name": "14.5' Premium Rectangle Flag Pole",
+      "primaryCategoryHandle": "flags",
+      "primaryCategoryTitle": "FLAGS",
+      "dataPath": "data/inventory/notionworx/products/flags/14-5-premium-rectangle-flag-pole.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/flags/14-5-premium-rectangle-flag-pole/01.jpg"
+      ]
+    },
+    {
+      "handle": "150gsm-mesh-cycling-jersey-long-sleeve-full-dye-sublimation",
+      "name": "150GSM Mesh Cycling Jersey Long Sleeve (Full Dye Sublimation) #500034",
+      "primaryCategoryHandle": "apparel",
+      "primaryCategoryTitle": "APPAREL",
+      "dataPath": "data/inventory/notionworx/products/apparel/150gsm-mesh-cycling-jersey-long-sleeve-full-dye-sublimation.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/apparel/150gsm-mesh-cycling-jersey-long-sleeve-full-dye-sublimation/01.jpg"
+      ]
+    },
+    {
+      "handle": "150gsm-mesh-jersey-1-4-zip-polo-shirt-full-dye-sublimation-500052",
+      "name": "150GSM Mesh Jersey 1/4 Zip Polo Shirt (Full Dye Sublimation) #500052",
+      "primaryCategoryHandle": "apparel",
+      "primaryCategoryTitle": "APPAREL",
+      "dataPath": "data/inventory/notionworx/products/apparel/150gsm-mesh-jersey-1-4-zip-polo-shirt-full-dye-sublimation-500052.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/apparel/150gsm-mesh-jersey-1-4-zip-polo-shirt-full-dye-sublimation-500052/01.jpg"
+      ]
+    },
+    {
+      "handle": "150gsm-mesh-jersey-football-jersey-full-dye-sublimation-500150",
+      "name": "150GSM Mesh Jersey Football Jersey (Full Dye Sublimation) #500150",
+      "primaryCategoryHandle": "apparel",
+      "primaryCategoryTitle": "APPAREL",
+      "dataPath": "data/inventory/notionworx/products/apparel/150gsm-mesh-jersey-football-jersey-full-dye-sublimation-500150.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/apparel/150gsm-mesh-jersey-football-jersey-full-dye-sublimation-500150/01.jpg",
+        "/assets/images/notionworx-inventory/apparel/150gsm-mesh-jersey-football-jersey-full-dye-sublimation-500150/02.jpg",
+        "/assets/images/notionworx-inventory/apparel/150gsm-mesh-jersey-football-jersey-full-dye-sublimation-500150/03.jpg",
+        "/assets/images/notionworx-inventory/apparel/150gsm-mesh-jersey-football-jersey-full-dye-sublimation-500150/04.jpg",
+        "/assets/images/notionworx-inventory/apparel/150gsm-mesh-jersey-football-jersey-full-dye-sublimation-500150/05.jpg"
+      ]
+    },
+    {
+      "handle": "150gsm-mesh-jersey-v-neck-sleeveless-full-dye-sublimation-500086",
+      "name": "150GSM Mesh Jersey V Neck Sleeveless (Full Dye Sublimation) #500086",
+      "primaryCategoryHandle": "apparel",
+      "primaryCategoryTitle": "APPAREL",
+      "dataPath": "data/inventory/notionworx/products/apparel/150gsm-mesh-jersey-v-neck-sleeveless-full-dye-sublimation-500086.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/apparel/150gsm-mesh-jersey-v-neck-sleeveless-full-dye-sublimation-500086/01.jpg"
+      ]
+    },
+    {
+      "handle": "15roller-bag",
+      "name": "15' Roller Bag",
+      "primaryCategoryHandle": "uncategorized",
+      "primaryCategoryTitle": "Uncategorized",
+      "dataPath": "data/inventory/notionworx/products/uncategorized/15roller-bag.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/uncategorized/15roller-bag/01.jpg",
+        "/assets/images/notionworx-inventory/uncategorized/15roller-bag/02.jpg",
+        "/assets/images/notionworx-inventory/uncategorized/15roller-bag/03.jpg"
+      ]
+    },
+    {
+      "handle": "17-5-premium-universal-fiberglass-flag-pole-with-carry-bag",
+      "name": "15' Premium Universal Flag Pole",
+      "primaryCategoryHandle": "flags",
+      "primaryCategoryTitle": "FLAGS",
+      "dataPath": "data/inventory/notionworx/products/flags/17-5-premium-universal-fiberglass-flag-pole-with-carry-bag.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/flags/17-5-premium-universal-fiberglass-flag-pole-with-carry-bag/01.jpg"
+      ]
+    },
+    {
+      "handle": "170-premium-universal-fiberglass-flag-pole-with-carry-bag",
+      "name": "12' Premium Universal Flag Pole",
+      "primaryCategoryHandle": "flags",
+      "primaryCategoryTitle": "FLAGS",
+      "dataPath": "data/inventory/notionworx/products/flags/170-premium-universal-fiberglass-flag-pole-with-carry-bag.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/flags/170-premium-universal-fiberglass-flag-pole-with-carry-bag/01.jpg"
+      ]
+    },
+    {
+      "handle": "20-roller-bag",
+      "name": "20' Roller Bag",
+      "primaryCategoryHandle": "10x20",
+      "primaryCategoryTitle": "10x20 Custom Canopies",
+      "dataPath": "data/inventory/notionworx/products/10x20/20-roller-bag.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/10x20/20-roller-bag/01.jpg"
+      ]
+    },
+    {
+      "handle": "20-tube-display-straight",
+      "name": "20\u2019 Tube Display Straight",
+      "primaryCategoryHandle": "trade-show-display",
+      "primaryCategoryTitle": "BANNERS & DISPLAYS",
+      "dataPath": "data/inventory/notionworx/products/trade-show-display/20-tube-display-straight.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/trade-show-display/20-tube-display-straight/01.jpg",
+        "/assets/images/notionworx-inventory/trade-show-display/20-tube-display-straight/02.jpg",
+        "/assets/images/notionworx-inventory/trade-show-display/20-tube-display-straight/03.jpg",
+        "/assets/images/notionworx-inventory/trade-show-display/20-tube-display-straight/04.jpg",
+        "/assets/images/notionworx-inventory/trade-show-display/20-tube-display-straight/05.jpg",
+        "/assets/images/notionworx-inventory/trade-show-display/20-tube-display-straight/06.jpg"
+      ]
+    },
+    {
+      "handle": "20ft-seg-fabric-display",
+      "name": "20ft SEG Fabric Display (Non-Lit )",
+      "primaryCategoryHandle": "seg-products",
+      "primaryCategoryTitle": "SEG PRODUCTS",
+      "dataPath": "data/inventory/notionworx/products/seg-products/20ft-seg-fabric-display.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/seg-products/20ft-seg-fabric-display/01.jpg",
+        "/assets/images/notionworx-inventory/seg-products/20ft-seg-fabric-display/02.jpg",
+        "/assets/images/notionworx-inventory/seg-products/20ft-seg-fabric-display/03.jpg",
+        "/assets/images/notionworx-inventory/seg-products/20ft-seg-fabric-display/04.jpg",
+        "/assets/images/notionworx-inventory/seg-products/20ft-seg-fabric-display/05.jpg"
+      ]
+    },
+    {
+      "handle": "3ft-seg-fabric-stand",
+      "name": "3ft SEG Fabric Stand (Non-Lit )",
+      "primaryCategoryHandle": "seg-products",
+      "primaryCategoryTitle": "SEG PRODUCTS",
+      "dataPath": "data/inventory/notionworx/products/seg-products/3ft-seg-fabric-stand.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/seg-products/3ft-seg-fabric-stand/01.jpg",
+        "/assets/images/notionworx-inventory/seg-products/3ft-seg-fabric-stand/02.jpg",
+        "/assets/images/notionworx-inventory/seg-products/3ft-seg-fabric-stand/03.jpg",
+        "/assets/images/notionworx-inventory/seg-products/3ft-seg-fabric-stand/04.jpg"
+      ]
+    },
+    {
+      "handle": "3x7-5h-premiumtube-banner-stand-with-steel-feet",
+      "name": "Deluxe Fabric Stand",
+      "primaryCategoryHandle": "trade-show-display",
+      "primaryCategoryTitle": "BANNERS & DISPLAYS",
+      "dataPath": "data/inventory/notionworx/products/trade-show-display/3x7-5h-premiumtube-banner-stand-with-steel-feet.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/trade-show-display/3x7-5h-premiumtube-banner-stand-with-steel-feet/01.jpg",
+        "/assets/images/notionworx-inventory/trade-show-display/3x7-5h-premiumtube-banner-stand-with-steel-feet/02.jpg"
+      ]
+    },
+    {
+      "handle": "5x5-custom-canopy-tent-19-05",
+      "name": "5x5 Custom Canopy Tent Package \u2013 Steel Frame with Full-Color Printing",
+      "primaryCategoryHandle": "5x5-custom-canopy",
+      "primaryCategoryTitle": "5x5 Custom Canopies",
+      "dataPath": "data/inventory/notionworx/products/5x5-custom-canopy/5x5-custom-canopy-tent-19-05.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/5x5-custom-canopy/5x5-custom-canopy-tent-19-05/01.png",
+        "/assets/images/notionworx-inventory/5x5-custom-canopy/5x5-custom-canopy-tent-19-05/02.png",
+        "/assets/images/notionworx-inventory/5x5-custom-canopy/5x5-custom-canopy-tent-19-05/03.jpg",
+        "/assets/images/notionworx-inventory/5x5-custom-canopy/5x5-custom-canopy-tent-19-05/04.jpg",
+        "/assets/images/notionworx-inventory/5x5-custom-canopy/5x5-custom-canopy-tent-19-05/05.jpg",
+        "/assets/images/notionworx-inventory/5x5-custom-canopy/5x5-custom-canopy-tent-19-05/06.jpg",
+        "/assets/images/notionworx-inventory/5x5-custom-canopy/5x5-custom-canopy-tent-19-05/07.jpg",
+        "/assets/images/notionworx-inventory/5x5-custom-canopy/5x5-custom-canopy-tent-19-05/08.jpg",
+        "/assets/images/notionworx-inventory/5x5-custom-canopy/5x5-custom-canopy-tent-19-05/09.jpg"
+      ]
+    },
+    {
+      "handle": "5x5-custom-canopy-tent-20-05",
+      "name": "5x5 Custom Canopy Tent \u2013 Steel Frame with Full Back Wall & Logo Printing",
+      "primaryCategoryHandle": "5x5-custom-canopy",
+      "primaryCategoryTitle": "5x5 Custom Canopies",
+      "dataPath": "data/inventory/notionworx/products/5x5-custom-canopy/5x5-custom-canopy-tent-20-05.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/5x5-custom-canopy/5x5-custom-canopy-tent-20-05/01.png",
+        "/assets/images/notionworx-inventory/5x5-custom-canopy/5x5-custom-canopy-tent-20-05/02.png",
+        "/assets/images/notionworx-inventory/5x5-custom-canopy/5x5-custom-canopy-tent-20-05/03.jpg",
+        "/assets/images/notionworx-inventory/5x5-custom-canopy/5x5-custom-canopy-tent-20-05/04.jpg",
+        "/assets/images/notionworx-inventory/5x5-custom-canopy/5x5-custom-canopy-tent-20-05/05.jpg",
+        "/assets/images/notionworx-inventory/5x5-custom-canopy/5x5-custom-canopy-tent-20-05/06.jpg",
+        "/assets/images/notionworx-inventory/5x5-custom-canopy/5x5-custom-canopy-tent-20-05/07.jpg",
+        "/assets/images/notionworx-inventory/5x5-custom-canopy/5x5-custom-canopy-tent-20-05/08.jpg"
+      ]
+    },
+    {
+      "handle": "5x5-custom-canopy-tent-21-05",
+      "name": "5x5 Custom Canopy Tent \u2013 Steel Frame with Full Back Wall & Two Half Side Walls (Logo Printing)",
+      "primaryCategoryHandle": "5x5-custom-canopy",
+      "primaryCategoryTitle": "5x5 Custom Canopies",
+      "dataPath": "data/inventory/notionworx/products/5x5-custom-canopy/5x5-custom-canopy-tent-21-05.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/5x5-custom-canopy/5x5-custom-canopy-tent-21-05/01.png",
+        "/assets/images/notionworx-inventory/5x5-custom-canopy/5x5-custom-canopy-tent-21-05/02.png",
+        "/assets/images/notionworx-inventory/5x5-custom-canopy/5x5-custom-canopy-tent-21-05/03.jpg",
+        "/assets/images/notionworx-inventory/5x5-custom-canopy/5x5-custom-canopy-tent-21-05/04.jpg",
+        "/assets/images/notionworx-inventory/5x5-custom-canopy/5x5-custom-canopy-tent-21-05/05.jpg",
+        "/assets/images/notionworx-inventory/5x5-custom-canopy/5x5-custom-canopy-tent-21-05/06.png"
+      ]
+    },
+    {
+      "handle": "5x5-custom-canopy-tent-22-05",
+      "name": "5x5 Custom Canopy Tent \u2013 Steel Frame with Three Full Walls & Logo Printing",
+      "primaryCategoryHandle": "5x5-custom-canopy",
+      "primaryCategoryTitle": "5x5 Custom Canopies",
+      "dataPath": "data/inventory/notionworx/products/5x5-custom-canopy/5x5-custom-canopy-tent-22-05.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/5x5-custom-canopy/5x5-custom-canopy-tent-22-05/01.png",
+        "/assets/images/notionworx-inventory/5x5-custom-canopy/5x5-custom-canopy-tent-22-05/02.jpg",
+        "/assets/images/notionworx-inventory/5x5-custom-canopy/5x5-custom-canopy-tent-22-05/03.jpg",
+        "/assets/images/notionworx-inventory/5x5-custom-canopy/5x5-custom-canopy-tent-22-05/04.jpg"
+      ]
+    },
+    {
+      "handle": "6-5-premium-rectangle-flag-pole",
+      "name": "6.5' Premium Rectangle Flag Pole",
+      "primaryCategoryHandle": "flags",
+      "primaryCategoryTitle": "FLAGS",
+      "dataPath": "data/inventory/notionworx/products/flags/6-5-premium-rectangle-flag-pole.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/flags/6-5-premium-rectangle-flag-pole/01.jpg"
+      ]
+    },
+    {
+      "handle": "6ft-heavy-duty-folding-table",
+      "name": "6ft Heavy-Duty Folding Table \u2013 Portable, Durable & Easy Setup",
+      "primaryCategoryHandle": "table-cover",
+      "primaryCategoryTitle": "TABLE COVER",
+      "dataPath": "data/inventory/notionworx/products/table-cover/6ft-heavy-duty-folding-table.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/table-cover/6ft-heavy-duty-folding-table/01.jpg"
+      ]
+    },
+    {
+      "handle": "7-flagpole",
+      "name": "7' Flagpole",
+      "primaryCategoryHandle": "flags",
+      "primaryCategoryTitle": "FLAGS",
+      "dataPath": "data/inventory/notionworx/products/flags/7-flagpole.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/flags/7-flagpole/01.jpg"
+      ]
+    },
+    {
+      "handle": "8-fabric-pop-up-display-straight-copy",
+      "name": "8' Fabric Pop Up Display (Straight)",
+      "primaryCategoryHandle": "trade-show-display",
+      "primaryCategoryTitle": "BANNERS & DISPLAYS",
+      "dataPath": "data/inventory/notionworx/products/trade-show-display/8-fabric-pop-up-display-straight-copy.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/trade-show-display/8-fabric-pop-up-display-straight-copy/01.jpg",
+        "/assets/images/notionworx-inventory/trade-show-display/8-fabric-pop-up-display-straight-copy/02.jpg",
+        "/assets/images/notionworx-inventory/trade-show-display/8-fabric-pop-up-display-straight-copy/03.jpg",
+        "/assets/images/notionworx-inventory/trade-show-display/8-fabric-pop-up-display-straight-copy/04.jpg"
+      ]
+    },
+    {
+      "handle": "8-tube-straight-fabric-display-copy",
+      "name": "8' Tube Straight Fabric Display",
+      "primaryCategoryHandle": "trade-show-display",
+      "primaryCategoryTitle": "BANNERS & DISPLAYS",
+      "dataPath": "data/inventory/notionworx/products/trade-show-display/8-tube-straight-fabric-display-copy.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/trade-show-display/8-tube-straight-fabric-display-copy/01.jpg",
+        "/assets/images/notionworx-inventory/trade-show-display/8-tube-straight-fabric-display-copy/02.jpg",
+        "/assets/images/notionworx-inventory/trade-show-display/8-tube-straight-fabric-display-copy/03.jpg"
+      ]
+    },
+    {
+      "handle": "8ft-heavy-duty-folding-table",
+      "name": "8ft Heavy-Duty Folding Table \u2013 Extra Large, Durable & Portable",
+      "primaryCategoryHandle": "table-cover",
+      "primaryCategoryTitle": "TABLE COVER",
+      "dataPath": "data/inventory/notionworx/products/table-cover/8ft-heavy-duty-folding-table.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/table-cover/8ft-heavy-duty-folding-table/01.jpg"
+      ]
+    },
+    {
+      "handle": "8ft-seg-backlit-popup-display",
+      "name": "8ft SEG Backlit Popup Display",
+      "primaryCategoryHandle": "seg-products",
+      "primaryCategoryTitle": "SEG PRODUCTS",
+      "dataPath": "data/inventory/notionworx/products/seg-products/8ft-seg-backlit-popup-display.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/seg-products/8ft-seg-backlit-popup-display/01.jpg",
+        "/assets/images/notionworx-inventory/seg-products/8ft-seg-backlit-popup-display/02.jpg",
+        "/assets/images/notionworx-inventory/seg-products/8ft-seg-backlit-popup-display/03.jpg",
+        "/assets/images/notionworx-inventory/seg-products/8ft-seg-backlit-popup-display/04.jpg",
+        "/assets/images/notionworx-inventory/seg-products/8ft-seg-backlit-popup-display/05.jpg"
+      ]
+    },
+    {
+      "handle": "9-outdoor-aluminum-patio-umbrella-dye-sublimation-copy",
+      "name": "9' Outdoor Aluminum Patio Umbrella (Dye-Sublimation)",
+      "primaryCategoryHandle": "umbrella",
+      "primaryCategoryTitle": "UMBRELLA",
+      "dataPath": "data/inventory/notionworx/products/umbrella/9-outdoor-aluminum-patio-umbrella-dye-sublimation-copy.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/umbrella/9-outdoor-aluminum-patio-umbrella-dye-sublimation-copy/01.jpg",
+        "/assets/images/notionworx-inventory/umbrella/9-outdoor-aluminum-patio-umbrella-dye-sublimation-copy/02.jpg",
+        "/assets/images/notionworx-inventory/umbrella/9-outdoor-aluminum-patio-umbrella-dye-sublimation-copy/03.jpg",
+        "/assets/images/notionworx-inventory/umbrella/9-outdoor-aluminum-patio-umbrella-dye-sublimation-copy/04.jpg",
+        "/assets/images/notionworx-inventory/umbrella/9-outdoor-aluminum-patio-umbrella-dye-sublimation-copy/05.jpg"
+      ]
+    },
+    {
+      "handle": "belt-bag-dye-sublimated-1-38-strap-500060",
+      "name": "Belt Bag (Dye Sublimated) 1.38\" Strap #500060",
+      "primaryCategoryHandle": "bag",
+      "primaryCategoryTitle": "BAG",
+      "dataPath": "data/inventory/notionworx/products/bag/belt-bag-dye-sublimated-1-38-strap-500060.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/bag/belt-bag-dye-sublimated-1-38-strap-500060/01.jpg",
+        "/assets/images/notionworx-inventory/bag/belt-bag-dye-sublimated-1-38-strap-500060/02.jpg"
+      ]
+    },
+    {
+      "handle": "canopy-counter-bar-top",
+      "name": "Canopy Counter / Bar Top \u2013 Custom Portable Countertop for Canopy Tents",
+      "primaryCategoryHandle": "accesories",
+      "primaryCategoryTitle": "Accessories",
+      "dataPath": "data/inventory/notionworx/products/accesories/canopy-counter-bar-top.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/accesories/canopy-counter-bar-top/01.jpg",
+        "/assets/images/notionworx-inventory/accesories/canopy-counter-bar-top/02.jpg"
+      ]
+    },
+    {
+      "handle": "cooling-beach-towel-12-x-40",
+      "name": "Sublimated Cooling Beach Towel - 12'' x 40''",
+      "primaryCategoryHandle": "towel-blanket",
+      "primaryCategoryTitle": "TOWEL & BLANKET",
+      "dataPath": "data/inventory/notionworx/products/towel-blanket/cooling-beach-towel-12-x-40.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/towel-blanket/cooling-beach-towel-12-x-40/01.jpg"
+      ]
+    },
+    {
+      "handle": "crew-neck-sleeveless-full-dye-sublimation",
+      "name": "150GSM Mesh Jersey Crew Neck Sleeveless (Full Dye Sublimation) #500005",
+      "primaryCategoryHandle": "apparel",
+      "primaryCategoryTitle": "APPAREL",
+      "dataPath": "data/inventory/notionworx/products/apparel/crew-neck-sleeveless-full-dye-sublimation.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/apparel/crew-neck-sleeveless-full-dye-sublimation/01.jpg",
+        "/assets/images/notionworx-inventory/apparel/crew-neck-sleeveless-full-dye-sublimation/02.jpg",
+        "/assets/images/notionworx-inventory/apparel/crew-neck-sleeveless-full-dye-sublimation/03.png",
+        "/assets/images/notionworx-inventory/apparel/crew-neck-sleeveless-full-dye-sublimation/04.png",
+        "/assets/images/notionworx-inventory/apparel/crew-neck-sleeveless-full-dye-sublimation/05.png"
+      ]
+    },
+    {
+      "handle": "cross-base",
+      "name": "Cross Base BA-7",
+      "primaryCategoryHandle": "flags",
+      "primaryCategoryTitle": "FLAGS",
+      "dataPath": "data/inventory/notionworx/products/flags/cross-base.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/flags/cross-base/01.jpg"
+      ]
+    },
+    {
+      "handle": "custom-2-button-baseball-jersey-full-dye-sublimation-50059",
+      "name": "150GSM Mesh Jersey Custom 2 Button Baseball Jersey (Full Dye Sublimation) #50059",
+      "primaryCategoryHandle": "apparel",
+      "primaryCategoryTitle": "APPAREL",
+      "dataPath": "data/inventory/notionworx/products/apparel/custom-2-button-baseball-jersey-full-dye-sublimation-50059.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/apparel/custom-2-button-baseball-jersey-full-dye-sublimation-50059/01.jpg"
+      ]
+    },
+    {
+      "handle": "custom-2-zipper-fanny-pack-dye-sublimated",
+      "name": "Custom 2 zipper Fanny Pack (Dye Sublimated) #500050",
+      "primaryCategoryHandle": "bag",
+      "primaryCategoryTitle": "BAG",
+      "dataPath": "data/inventory/notionworx/products/bag/custom-2-zipper-fanny-pack-dye-sublimated.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/bag/custom-2-zipper-fanny-pack-dye-sublimated/01.jpg"
+      ]
+    },
+    {
+      "handle": "custom-baseball-jersey-full-dye-sublimation",
+      "name": "150GSM Mesh Jersey Custom Button Down Baseball Jersey (Full Dye Sublimation) #50058",
+      "primaryCategoryHandle": "apparel",
+      "primaryCategoryTitle": "APPAREL",
+      "dataPath": "data/inventory/notionworx/products/apparel/custom-baseball-jersey-full-dye-sublimation.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/apparel/custom-baseball-jersey-full-dye-sublimation/01.jpg"
+      ]
+    },
+    {
+      "handle": "custom-duffel-bag-dye-sublimated",
+      "name": "Custom Duffel Bag (Dye Sublimated) #500028",
+      "primaryCategoryHandle": "bag",
+      "primaryCategoryTitle": "BAG",
+      "dataPath": "data/inventory/notionworx/products/bag/custom-duffel-bag-dye-sublimated.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/bag/custom-duffel-bag-dye-sublimated/01.jpg",
+        "/assets/images/notionworx-inventory/bag/custom-duffel-bag-dye-sublimated/02.png",
+        "/assets/images/notionworx-inventory/bag/custom-duffel-bag-dye-sublimated/03.png",
+        "/assets/images/notionworx-inventory/bag/custom-duffel-bag-dye-sublimated/04.png",
+        "/assets/images/notionworx-inventory/bag/custom-duffel-bag-dye-sublimated/05.png"
+      ]
+    },
+    {
+      "handle": "custom-fanny-pack-dye-sublimated",
+      "name": "Custom Fanny Pack (Dye Sublimated) #500030",
+      "primaryCategoryHandle": "bag",
+      "primaryCategoryTitle": "BAG",
+      "dataPath": "data/inventory/notionworx/products/bag/custom-fanny-pack-dye-sublimated.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/bag/custom-fanny-pack-dye-sublimated/01.jpg",
+        "/assets/images/notionworx-inventory/bag/custom-fanny-pack-dye-sublimated/02.jpg",
+        "/assets/images/notionworx-inventory/bag/custom-fanny-pack-dye-sublimated/03.jpg",
+        "/assets/images/notionworx-inventory/bag/custom-fanny-pack-dye-sublimated/04.jpg"
+      ]
+    },
+    {
+      "handle": "custom-food-booth-canopy-tent-16-10",
+      "name": "10'x10'~ Custom Food Booth Canopy Tent Package-HEX Aluminum Frame, Full Back Wall & 3 Half Side Walls with Half Mesh with Windows.",
+      "primaryCategoryHandle": "custom-food-booths-canopy-tents",
+      "primaryCategoryTitle": "Custom Food Booths \u2013 5x5, 10x10, 10x15 & 10x20 Canopy Tents",
+      "dataPath": "data/inventory/notionworx/products/custom-food-booths-canopy-tents/custom-food-booth-canopy-tent-16-10.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/custom-food-booths-canopy-tents/custom-food-booth-canopy-tent-16-10/01.png",
+        "/assets/images/notionworx-inventory/custom-food-booths-canopy-tents/custom-food-booth-canopy-tent-16-10/02.png",
+        "/assets/images/notionworx-inventory/custom-food-booths-canopy-tents/custom-food-booth-canopy-tent-16-10/03.png",
+        "/assets/images/notionworx-inventory/custom-food-booths-canopy-tents/custom-food-booth-canopy-tent-16-10/04.png",
+        "/assets/images/notionworx-inventory/custom-food-booths-canopy-tents/custom-food-booth-canopy-tent-16-10/05.png",
+        "/assets/images/notionworx-inventory/custom-food-booths-canopy-tents/custom-food-booth-canopy-tent-16-10/06.jpg",
+        "/assets/images/notionworx-inventory/custom-food-booths-canopy-tents/custom-food-booth-canopy-tent-16-10/07.jpg",
+        "/assets/images/notionworx-inventory/custom-food-booths-canopy-tents/custom-food-booth-canopy-tent-16-10/08.jpg",
+        "/assets/images/notionworx-inventory/custom-food-booths-canopy-tents/custom-food-booth-canopy-tent-16-10/09.jpg",
+        "/assets/images/notionworx-inventory/custom-food-booths-canopy-tents/custom-food-booth-canopy-tent-16-10/10.jpg"
+      ]
+    },
+    {
+      "handle": "custom-food-booth-canopy-tent-17-15",
+      "name": "10'x15'~ Custom Food Booth Canopy Tent Package -HEX Aluminum Frame, Full Back Wall & 3 Half Side Walls with Half Mesh with Windows.",
+      "primaryCategoryHandle": "custom-food-booths-canopy-tents",
+      "primaryCategoryTitle": "Custom Food Booths \u2013 5x5, 10x10, 10x15 & 10x20 Canopy Tents",
+      "dataPath": "data/inventory/notionworx/products/custom-food-booths-canopy-tents/custom-food-booth-canopy-tent-17-15.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/custom-food-booths-canopy-tents/custom-food-booth-canopy-tent-17-15/01.png",
+        "/assets/images/notionworx-inventory/custom-food-booths-canopy-tents/custom-food-booth-canopy-tent-17-15/02.png",
+        "/assets/images/notionworx-inventory/custom-food-booths-canopy-tents/custom-food-booth-canopy-tent-17-15/03.png",
+        "/assets/images/notionworx-inventory/custom-food-booths-canopy-tents/custom-food-booth-canopy-tent-17-15/04.png",
+        "/assets/images/notionworx-inventory/custom-food-booths-canopy-tents/custom-food-booth-canopy-tent-17-15/05.jpg",
+        "/assets/images/notionworx-inventory/custom-food-booths-canopy-tents/custom-food-booth-canopy-tent-17-15/06.jpg"
+      ]
+    },
+    {
+      "handle": "custom-food-booth-canopy-tent-18-20",
+      "name": "10'x20'~ Custom Food Booth Canopy Tent Package-HEX Aluminum Frame, Full Back Wall & 3 Half Side Walls with Half Mesh with Windows.",
+      "primaryCategoryHandle": "custom-food-booths-canopy-tents",
+      "primaryCategoryTitle": "Custom Food Booths \u2013 5x5, 10x10, 10x15 & 10x20 Canopy Tents",
+      "dataPath": "data/inventory/notionworx/products/custom-food-booths-canopy-tents/custom-food-booth-canopy-tent-18-20.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/custom-food-booths-canopy-tents/custom-food-booth-canopy-tent-18-20/01.png",
+        "/assets/images/notionworx-inventory/custom-food-booths-canopy-tents/custom-food-booth-canopy-tent-18-20/02.png",
+        "/assets/images/notionworx-inventory/custom-food-booths-canopy-tents/custom-food-booth-canopy-tent-18-20/03.jpg",
+        "/assets/images/notionworx-inventory/custom-food-booths-canopy-tents/custom-food-booth-canopy-tent-18-20/04.jpg",
+        "/assets/images/notionworx-inventory/custom-food-booths-canopy-tents/custom-food-booth-canopy-tent-18-20/05.png",
+        "/assets/images/notionworx-inventory/custom-food-booths-canopy-tents/custom-food-booth-canopy-tent-18-20/06.jpg",
+        "/assets/images/notionworx-inventory/custom-food-booths-canopy-tents/custom-food-booth-canopy-tent-18-20/07.jpg",
+        "/assets/images/notionworx-inventory/custom-food-booths-canopy-tents/custom-food-booth-canopy-tent-18-20/08.jpg",
+        "/assets/images/notionworx-inventory/custom-food-booths-canopy-tents/custom-food-booth-canopy-tent-18-20/09.jpg"
+      ]
+    },
+    {
+      "handle": "custom-food-booth-canopy-tent-23-05",
+      "name": "5'x5'~ Custom Food Booth Canopy Tent Package -Steel Frame, Full Back Wall & 3 Half Side Walls with Half Mesh with Windows.",
+      "primaryCategoryHandle": "custom-food-booths-canopy-tents",
+      "primaryCategoryTitle": "Custom Food Booths \u2013 5x5, 10x10, 10x15 & 10x20 Canopy Tents",
+      "dataPath": "data/inventory/notionworx/products/custom-food-booths-canopy-tents/custom-food-booth-canopy-tent-23-05.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/custom-food-booths-canopy-tents/custom-food-booth-canopy-tent-23-05/01.png",
+        "/assets/images/notionworx-inventory/custom-food-booths-canopy-tents/custom-food-booth-canopy-tent-23-05/02.png",
+        "/assets/images/notionworx-inventory/custom-food-booths-canopy-tents/custom-food-booth-canopy-tent-23-05/03.png",
+        "/assets/images/notionworx-inventory/custom-food-booths-canopy-tents/custom-food-booth-canopy-tent-23-05/04.png"
+      ]
+    },
+    {
+      "handle": "custom-hockey-jersey-full-dye-sublimation-500021",
+      "name": "150GSM Mesh Jersey Custom Hockey Jersey (Full Dye Sublimation) #500021",
+      "primaryCategoryHandle": "apparel",
+      "primaryCategoryTitle": "APPAREL",
+      "dataPath": "data/inventory/notionworx/products/apparel/custom-hockey-jersey-full-dye-sublimation-500021.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/apparel/custom-hockey-jersey-full-dye-sublimation-500021/01.jpg"
+      ]
+    },
+    {
+      "handle": "custom-lanyard-with-badge-holder",
+      "name": "Custom Lanyard with Badge Holder",
+      "primaryCategoryHandle": "accesories",
+      "primaryCategoryTitle": "Accessories",
+      "dataPath": "data/inventory/notionworx/products/accesories/custom-lanyard-with-badge-holder.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/accesories/custom-lanyard-with-badge-holder/01.jpg",
+        "/assets/images/notionworx-inventory/accesories/custom-lanyard-with-badge-holder/02.jpg",
+        "/assets/images/notionworx-inventory/accesories/custom-lanyard-with-badge-holder/03.jpg",
+        "/assets/images/notionworx-inventory/accesories/custom-lanyard-with-badge-holder/04.jpg",
+        "/assets/images/notionworx-inventory/accesories/custom-lanyard-with-badge-holder/05.jpg"
+      ]
+    },
+    {
+      "handle": "custom-pole-flags",
+      "name": "Custom Pole Flags \u2013 Double-Sided Polyester Flags with Pole & Bracket Included",
+      "primaryCategoryHandle": "flags",
+      "primaryCategoryTitle": "FLAGS",
+      "dataPath": "data/inventory/notionworx/products/flags/custom-pole-flags.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/flags/custom-pole-flags/01.jpg",
+        "/assets/images/notionworx-inventory/flags/custom-pole-flags/02.png",
+        "/assets/images/notionworx-inventory/flags/custom-pole-flags/03.png",
+        "/assets/images/notionworx-inventory/flags/custom-pole-flags/04.png"
+      ]
+    },
+    {
+      "handle": "custom-sublimation-printed-chiffon-bandanna-scarf",
+      "name": "Custom Sublimated Printed Chiffon bandanna scarf",
+      "primaryCategoryHandle": "towel-blanket",
+      "primaryCategoryTitle": "TOWEL & BLANKET",
+      "dataPath": "data/inventory/notionworx/products/towel-blanket/custom-sublimation-printed-chiffon-bandanna-scarf.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/towel-blanket/custom-sublimation-printed-chiffon-bandanna-scarf/01.jpg",
+        "/assets/images/notionworx-inventory/towel-blanket/custom-sublimation-printed-chiffon-bandanna-scarf/02.jpg",
+        "/assets/images/notionworx-inventory/towel-blanket/custom-sublimation-printed-chiffon-bandanna-scarf/03.jpg"
+      ]
+    },
+    {
+      "handle": "custom-tote-bag-dye-sublimated",
+      "name": "Custom Tote Bag (Dye Sublimated) #500029",
+      "primaryCategoryHandle": "bag",
+      "primaryCategoryTitle": "BAG",
+      "dataPath": "data/inventory/notionworx/products/bag/custom-tote-bag-dye-sublimated.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/bag/custom-tote-bag-dye-sublimated/01.jpg",
+        "/assets/images/notionworx-inventory/bag/custom-tote-bag-dye-sublimated/02.jpg",
+        "/assets/images/notionworx-inventory/bag/custom-tote-bag-dye-sublimated/03.jpg"
+      ]
+    },
+    {
+      "handle": "custom-vinyl-stickers",
+      "name": "Custom Vinyl Stickers",
+      "primaryCategoryHandle": "uncategorized",
+      "primaryCategoryTitle": "Uncategorized",
+      "dataPath": "data/inventory/notionworx/products/uncategorized/custom-vinyl-stickers.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/uncategorized/custom-vinyl-stickers/01.jpg",
+        "/assets/images/notionworx-inventory/uncategorized/custom-vinyl-stickers/02.jpg",
+        "/assets/images/notionworx-inventory/uncategorized/custom-vinyl-stickers/03.jpg",
+        "/assets/images/notionworx-inventory/uncategorized/custom-vinyl-stickers/04.jpg",
+        "/assets/images/notionworx-inventory/uncategorized/custom-vinyl-stickers/05.jpg",
+        "/assets/images/notionworx-inventory/uncategorized/custom-vinyl-stickers/06.jpg"
+      ]
+    },
+    {
+      "handle": "custom-yard-sign",
+      "name": "Full Color Custom Yard Sign",
+      "primaryCategoryHandle": "trade-show-display",
+      "primaryCategoryTitle": "BANNERS & DISPLAYS",
+      "dataPath": "data/inventory/notionworx/products/trade-show-display/custom-yard-sign.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/trade-show-display/custom-yard-sign/01.jpg",
+        "/assets/images/notionworx-inventory/trade-show-display/custom-yard-sign/02.jpg",
+        "/assets/images/notionworx-inventory/trade-show-display/custom-yard-sign/03.jpg"
+      ]
+    },
+    {
+      "handle": "cycling-jerseys-full-dye-sublimation",
+      "name": "150GSM Mesh Jersey Cycling Jerseys (Full Dye Sublimation) #500033",
+      "primaryCategoryHandle": "apparel",
+      "primaryCategoryTitle": "APPAREL",
+      "dataPath": "data/inventory/notionworx/products/apparel/cycling-jerseys-full-dye-sublimation.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/apparel/cycling-jerseys-full-dye-sublimation/01.jpg",
+        "/assets/images/notionworx-inventory/apparel/cycling-jerseys-full-dye-sublimation/02.jpg"
+      ]
+    },
+    {
+      "handle": "deluxe-retractable-33-x-80",
+      "name": "Deluxe Retractable Banner",
+      "primaryCategoryHandle": "trade-show-display",
+      "primaryCategoryTitle": "BANNERS & DISPLAYS",
+      "dataPath": "data/inventory/notionworx/products/trade-show-display/deluxe-retractable-33-x-80.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/trade-show-display/deluxe-retractable-33-x-80/01.jpg",
+        "/assets/images/notionworx-inventory/trade-show-display/deluxe-retractable-33-x-80/02.jpg",
+        "/assets/images/notionworx-inventory/trade-show-display/deluxe-retractable-33-x-80/03.jpg",
+        "/assets/images/notionworx-inventory/trade-show-display/deluxe-retractable-33-x-80/04.jpg",
+        "/assets/images/notionworx-inventory/trade-show-display/deluxe-retractable-33-x-80/05.jpg",
+        "/assets/images/notionworx-inventory/trade-show-display/deluxe-retractable-33-x-80/06.jpg",
+        "/assets/images/notionworx-inventory/trade-show-display/deluxe-retractable-33-x-80/07.jpg",
+        "/assets/images/notionworx-inventory/trade-show-display/deluxe-retractable-33-x-80/08.jpg"
+      ]
+    },
+    {
+      "handle": "draped-table-cover",
+      "name": "Draped Table Cover (Full-Color Dye Sublimation, Full Bleed)",
+      "primaryCategoryHandle": "table-cover",
+      "primaryCategoryTitle": "TABLE COVER",
+      "dataPath": "data/inventory/notionworx/products/table-cover/draped-table-cover.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/table-cover/draped-table-cover/01.jpg",
+        "/assets/images/notionworx-inventory/table-cover/draped-table-cover/02.jpg"
+      ]
+    },
+    {
+      "handle": "drawstring-bag-dye-sublimated",
+      "name": "Drawstring Bag (Dye Sublimated) #500027",
+      "primaryCategoryHandle": "bag",
+      "primaryCategoryTitle": "BAG",
+      "dataPath": "data/inventory/notionworx/products/bag/drawstring-bag-dye-sublimated.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/bag/drawstring-bag-dye-sublimated/01.jpg",
+        "/assets/images/notionworx-inventory/bag/drawstring-bag-dye-sublimated/02.png",
+        "/assets/images/notionworx-inventory/bag/drawstring-bag-dye-sublimated/03.png",
+        "/assets/images/notionworx-inventory/bag/drawstring-bag-dye-sublimated/04.png",
+        "/assets/images/notionworx-inventory/bag/drawstring-bag-dye-sublimated/05.png"
+      ]
+    },
+    {
+      "handle": "flag-pole-and-bracket",
+      "name": "Flag Pole and Bracket",
+      "primaryCategoryHandle": "flags",
+      "primaryCategoryTitle": "FLAGS",
+      "dataPath": "data/inventory/notionworx/products/flags/flag-pole-and-bracket.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/flags/flag-pole-and-bracket/01.png",
+        "/assets/images/notionworx-inventory/flags/flag-pole-and-bracket/02.jpg"
+      ]
+    },
+    {
+      "handle": "flag-pole-base-accerrories",
+      "name": "Spike Base BA-10",
+      "primaryCategoryHandle": "flags",
+      "primaryCategoryTitle": "FLAGS",
+      "dataPath": "data/inventory/notionworx/products/flags/flag-pole-base-accerrories.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/flags/flag-pole-base-accerrories/01.jpg",
+        "/assets/images/notionworx-inventory/flags/flag-pole-base-accerrories/02.jpg"
+      ]
+    },
+    {
+      "handle": "full-zipper-hoodie-full-dye-sublimation-500025",
+      "name": "Full Zipper Hoodie (Full Dye Sublimation) #500025",
+      "primaryCategoryHandle": "apparel",
+      "primaryCategoryTitle": "APPAREL",
+      "dataPath": "data/inventory/notionworx/products/apparel/full-zipper-hoodie-full-dye-sublimation-500025.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/apparel/full-zipper-hoodie-full-dye-sublimation-500025/01.webp",
+        "/assets/images/notionworx-inventory/apparel/full-zipper-hoodie-full-dye-sublimation-500025/02.png"
+      ]
+    },
+    {
+      "handle": "grs-spf-50-120gsm-milk-silk-long-sleeve-crew-neck-full-dye-sublimation-500080",
+      "name": "GRS/SPF 50+ 120GSM Milk Silk Long Sleeve Crew Neck (Full Dye Sublimation)#500080",
+      "primaryCategoryHandle": "apparel",
+      "primaryCategoryTitle": "APPAREL",
+      "dataPath": "data/inventory/notionworx/products/apparel/grs-spf-50-120gsm-milk-silk-long-sleeve-crew-neck-full-dye-sublimation-500080.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/apparel/grs-spf-50-120gsm-milk-silk-long-sleeve-crew-neck-full-dye-sublimation-500080/01.jpg"
+      ]
+    },
+    {
+      "handle": "grs-spf-50-120gsm-milk-silk-short-sleeve-crew-neck-full-dye-sublimation-500079",
+      "name": "GRS/SPF 50+ 120GSM Milk Silk Short Sleeve Crew Neck (Full Dye Sublimation) #500079",
+      "primaryCategoryHandle": "apparel",
+      "primaryCategoryTitle": "APPAREL",
+      "dataPath": "data/inventory/notionworx/products/apparel/grs-spf-50-120gsm-milk-silk-short-sleeve-crew-neck-full-dye-sublimation-500079.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/apparel/grs-spf-50-120gsm-milk-silk-short-sleeve-crew-neck-full-dye-sublimation-500079/01.jpg"
+      ]
+    },
+    {
+      "handle": "grs-spf-50-150gsm-mesh-cycling-jersey-long-sleeve-full-dye-sublimation-500092",
+      "name": "GRS/SPF 50+ 150GSM Mesh Cycling Jersey Long Sleeve (Full Dye Sublimation) #500092",
+      "primaryCategoryHandle": "apparel",
+      "primaryCategoryTitle": "APPAREL",
+      "dataPath": "data/inventory/notionworx/products/apparel/grs-spf-50-150gsm-mesh-cycling-jersey-long-sleeve-full-dye-sublimation-500092.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/apparel/grs-spf-50-150gsm-mesh-cycling-jersey-long-sleeve-full-dye-sublimation-500092/01.jpg"
+      ]
+    },
+    {
+      "handle": "grs-spf-50-150gsm-mesh-jersey-cycling-jerseys-full-dye-sublimation-500091",
+      "name": "GRS/SPF 50+150GSM Mesh Jersey Cycling Jerseys (Full Dye Sublimation) #500091",
+      "primaryCategoryHandle": "apparel",
+      "primaryCategoryTitle": "APPAREL",
+      "dataPath": "data/inventory/notionworx/products/apparel/grs-spf-50-150gsm-mesh-jersey-cycling-jerseys-full-dye-sublimation-500091.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/apparel/grs-spf-50-150gsm-mesh-jersey-cycling-jerseys-full-dye-sublimation-500091/01.jpg",
+        "/assets/images/notionworx-inventory/apparel/grs-spf-50-150gsm-mesh-jersey-cycling-jerseys-full-dye-sublimation-500091/02.jpg",
+        "/assets/images/notionworx-inventory/apparel/grs-spf-50-150gsm-mesh-jersey-cycling-jerseys-full-dye-sublimation-500091/03.jpg",
+        "/assets/images/notionworx-inventory/apparel/grs-spf-50-150gsm-mesh-jersey-cycling-jerseys-full-dye-sublimation-500091/04.jpg",
+        "/assets/images/notionworx-inventory/apparel/grs-spf-50-150gsm-mesh-jersey-cycling-jerseys-full-dye-sublimation-500091/05.jpg"
+      ]
+    },
+    {
+      "handle": "grs-spf-50-150gsm-mesh-jersey-long-sleeve-crew-neck-full-dye-sublimation-500078",
+      "name": "GRS/SPF 50+ 150GSM Mesh Jersey Long Sleeve Crew Neck (Full Dye Sublimation) #500078",
+      "primaryCategoryHandle": "apparel",
+      "primaryCategoryTitle": "APPAREL",
+      "dataPath": "data/inventory/notionworx/products/apparel/grs-spf-50-150gsm-mesh-jersey-long-sleeve-crew-neck-full-dye-sublimation-500078.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/apparel/grs-spf-50-150gsm-mesh-jersey-long-sleeve-crew-neck-full-dye-sublimation-500078/01.jpg"
+      ]
+    },
+    {
+      "handle": "grs-spf-50-150gsm-mesh-jersey-long-sleeve-hoodie-t-shirt-full-dye-sublimation-500081",
+      "name": "GRS/SPF 50+ 150GSM Mesh Jersey Long Sleeve Hoodie T-shirt (Full Dye Sublimation)#500081",
+      "primaryCategoryHandle": "apparel",
+      "primaryCategoryTitle": "APPAREL",
+      "dataPath": "data/inventory/notionworx/products/apparel/grs-spf-50-150gsm-mesh-jersey-long-sleeve-hoodie-t-shirt-full-dye-sublimation-500081.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/apparel/grs-spf-50-150gsm-mesh-jersey-long-sleeve-hoodie-t-shirt-full-dye-sublimation-500081/01.jpg"
+      ]
+    },
+    {
+      "handle": "grs-spf-50-150gsm-mesh-jersey-long-sleeve-hoodie-t-shirt-full-dye-sublimation-500152",
+      "name": "GRS/SPF 50+ 120GSM Milk Silk Jersey Long Sleeve Hoodie T-shirt (Full Dye Sublimation)#500152",
+      "primaryCategoryHandle": "apparel",
+      "primaryCategoryTitle": "APPAREL",
+      "dataPath": "data/inventory/notionworx/products/apparel/grs-spf-50-150gsm-mesh-jersey-long-sleeve-hoodie-t-shirt-full-dye-sublimation-500152.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/apparel/grs-spf-50-150gsm-mesh-jersey-long-sleeve-hoodie-t-shirt-full-dye-sublimation-500152/01.jpg"
+      ]
+    },
+    {
+      "handle": "grs-spf-50-150gsm-mesh-jersey-short-sleeve-crew-neck-full-dye-sublimation-500077",
+      "name": "GRS/SPF 50+ 150GSM Mesh Jersey Short Sleeve Crew Neck (Full Dye Sublimation) #500077",
+      "primaryCategoryHandle": "apparel",
+      "primaryCategoryTitle": "APPAREL",
+      "dataPath": "data/inventory/notionworx/products/apparel/grs-spf-50-150gsm-mesh-jersey-short-sleeve-crew-neck-full-dye-sublimation-500077.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/apparel/grs-spf-50-150gsm-mesh-jersey-short-sleeve-crew-neck-full-dye-sublimation-500077/01.jpg"
+      ]
+    },
+    {
+      "handle": "half-side-walls",
+      "name": "10' Canopy Tent Half Side Walls (Set of 2) with Hardware \u2013 Custom Printing Available",
+      "primaryCategoryHandle": "10x15",
+      "primaryCategoryTitle": "10x15 Custom Canopies",
+      "dataPath": "data/inventory/notionworx/products/10x15/half-side-walls.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/10x15/half-side-walls/01.jpg"
+      ]
+    },
+    {
+      "handle": "half-wall-hardware",
+      "name": "Half Wall Hardware",
+      "primaryCategoryHandle": "10x15",
+      "primaryCategoryTitle": "10x15 Custom Canopies",
+      "dataPath": "data/inventory/notionworx/products/10x15/half-wall-hardware.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/10x15/half-wall-hardware/01.webp"
+      ]
+    },
+    {
+      "handle": "led-light-bars",
+      "name": "LED Light Bars for Canopy Tents",
+      "primaryCategoryHandle": "accesories",
+      "primaryCategoryTitle": "Accessories",
+      "dataPath": "data/inventory/notionworx/products/accesories/led-light-bars.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/accesories/led-light-bars/01.jpg",
+        "/assets/images/notionworx-inventory/accesories/led-light-bars/02.jpg",
+        "/assets/images/notionworx-inventory/accesories/led-light-bars/03.jpg",
+        "/assets/images/notionworx-inventory/accesories/led-light-bars/04.jpg"
+      ]
+    },
+    {
+      "handle": "long-sleeve-hoodie-t-shirt-full-dye-sublimation-500039",
+      "name": "150GSM Mesh Jersey Long Sleeve Hoodie T-shirt (Full Dye Sublimation)#500039",
+      "primaryCategoryHandle": "apparel",
+      "primaryCategoryTitle": "APPAREL",
+      "dataPath": "data/inventory/notionworx/products/apparel/long-sleeve-hoodie-t-shirt-full-dye-sublimation-500039.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/apparel/long-sleeve-hoodie-t-shirt-full-dye-sublimation-500039/01.webp"
+      ]
+    },
+    {
+      "handle": "long-sleeve-jersey-v-neck-full-dye-sublimation",
+      "name": "150GSM Mesh Jersey Long Sleeve V- neck (Full Dye Sublimation)#500004",
+      "primaryCategoryHandle": "apparel",
+      "primaryCategoryTitle": "APPAREL",
+      "dataPath": "data/inventory/notionworx/products/apparel/long-sleeve-jersey-v-neck-full-dye-sublimation.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/apparel/long-sleeve-jersey-v-neck-full-dye-sublimation/01.jpg",
+        "/assets/images/notionworx-inventory/apparel/long-sleeve-jersey-v-neck-full-dye-sublimation/02.jpg",
+        "/assets/images/notionworx-inventory/apparel/long-sleeve-jersey-v-neck-full-dye-sublimation/03.jpg",
+        "/assets/images/notionworx-inventory/apparel/long-sleeve-jersey-v-neck-full-dye-sublimation/04.jpg"
+      ]
+    },
+    {
+      "handle": "long-sleeve-round-neck-full-dye-sublimation",
+      "name": "150GSM Mesh Jersey Long Sleeve Crew Neck (Full Dye Sublimation)#500003",
+      "primaryCategoryHandle": "apparel",
+      "primaryCategoryTitle": "APPAREL",
+      "dataPath": "data/inventory/notionworx/products/apparel/long-sleeve-round-neck-full-dye-sublimation.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/apparel/long-sleeve-round-neck-full-dye-sublimation/01.webp",
+        "/assets/images/notionworx-inventory/apparel/long-sleeve-round-neck-full-dye-sublimation/02.jpg"
+      ]
+    },
+    {
+      "handle": "option-set-1259582-dropdown-1",
+      "name": "6' Table Cover",
+      "primaryCategoryHandle": "uncategorized",
+      "primaryCategoryTitle": "Uncategorized",
+      "dataPath": "data/inventory/notionworx/products/uncategorized/option-set-1259582-dropdown-1.json",
+      "imagePaths": []
+    },
+    {
+      "handle": "option-set-1259582-dropdown-2",
+      "name": "Flag w/ Cross Base",
+      "primaryCategoryHandle": "uncategorized",
+      "primaryCategoryTitle": "Uncategorized",
+      "dataPath": "data/inventory/notionworx/products/uncategorized/option-set-1259582-dropdown-2.json",
+      "imagePaths": []
+    },
+    {
+      "handle": "option-set-1259582-image-swatches-1",
+      "name": "Sand Bag",
+      "primaryCategoryHandle": "uncategorized",
+      "primaryCategoryTitle": "Uncategorized",
+      "dataPath": "data/inventory/notionworx/products/uncategorized/option-set-1259582-image-swatches-1.json",
+      "imagePaths": []
+    },
+    {
+      "handle": "option-set-1259689-dropdown-1",
+      "name": "theirlabel",
+      "primaryCategoryHandle": "uncategorized",
+      "primaryCategoryTitle": "Uncategorized",
+      "dataPath": "data/inventory/notionworx/products/uncategorized/option-set-1259689-dropdown-1.json",
+      "imagePaths": []
+    },
+    {
+      "handle": "option-set-1259689-image-swatches-1",
+      "name": "ourlabel",
+      "primaryCategoryHandle": "uncategorized",
+      "primaryCategoryTitle": "Uncategorized",
+      "dataPath": "data/inventory/notionworx/products/uncategorized/option-set-1259689-image-swatches-1.json",
+      "imagePaths": []
+    },
+    {
+      "handle": "option-set-1259689-select-1",
+      "name": "mylabel",
+      "primaryCategoryHandle": "uncategorized",
+      "primaryCategoryTitle": "Uncategorized",
+      "dataPath": "data/inventory/notionworx/products/uncategorized/option-set-1259689-select-1.json",
+      "imagePaths": []
+    },
+    {
+      "handle": "option-set-1259689-select-2",
+      "name": "yourlabel",
+      "primaryCategoryHandle": "uncategorized",
+      "primaryCategoryTitle": "Uncategorized",
+      "dataPath": "data/inventory/notionworx/products/uncategorized/option-set-1259689-select-2.json",
+      "imagePaths": []
+    },
+    {
+      "handle": "option-set-1260478-image-swatches-1",
+      "name": "Frame Type",
+      "primaryCategoryHandle": "uncategorized",
+      "primaryCategoryTitle": "Uncategorized",
+      "dataPath": "data/inventory/notionworx/products/uncategorized/option-set-1260478-image-swatches-1.json",
+      "imagePaths": []
+    },
+    {
+      "handle": "option-set-1260478-radio-1",
+      "name": "Vent Top",
+      "primaryCategoryHandle": "uncategorized",
+      "primaryCategoryTitle": "Uncategorized",
+      "dataPath": "data/inventory/notionworx/products/uncategorized/option-set-1260478-radio-1.json",
+      "imagePaths": []
+    },
+    {
+      "handle": "option-set-1260478-select-1",
+      "name": "6ft Table Cover",
+      "primaryCategoryHandle": "uncategorized",
+      "primaryCategoryTitle": "Uncategorized",
+      "dataPath": "data/inventory/notionworx/products/uncategorized/option-set-1260478-select-1.json",
+      "imagePaths": []
+    },
+    {
+      "handle": "option-set-1260478-select-2",
+      "name": "Sand Bag",
+      "primaryCategoryHandle": "uncategorized",
+      "primaryCategoryTitle": "Uncategorized",
+      "dataPath": "data/inventory/notionworx/products/uncategorized/option-set-1260478-select-2.json",
+      "imagePaths": []
+    },
+    {
+      "handle": "option-set-1260478-select-3",
+      "name": "Flag w/Cross Base",
+      "primaryCategoryHandle": "uncategorized",
+      "primaryCategoryTitle": "Uncategorized",
+      "dataPath": "data/inventory/notionworx/products/uncategorized/option-set-1260478-select-3.json",
+      "imagePaths": []
+    },
+    {
+      "handle": "option-set-1260478-select-4",
+      "name": "Feather Flags",
+      "primaryCategoryHandle": "uncategorized",
+      "primaryCategoryTitle": "Uncategorized",
+      "dataPath": "data/inventory/notionworx/products/uncategorized/option-set-1260478-select-4.json",
+      "imagePaths": []
+    },
+    {
+      "handle": "option-set-1260478-select-5",
+      "name": "Weighted Sand Bags",
+      "primaryCategoryHandle": "uncategorized",
+      "primaryCategoryTitle": "Uncategorized",
+      "dataPath": "data/inventory/notionworx/products/uncategorized/option-set-1260478-select-5.json",
+      "imagePaths": []
+    },
+    {
+      "handle": "option-set-1260478-select-6",
+      "name": "Vent Top",
+      "primaryCategoryHandle": "uncategorized",
+      "primaryCategoryTitle": "Uncategorized",
+      "dataPath": "data/inventory/notionworx/products/uncategorized/option-set-1260478-select-6.json",
+      "imagePaths": []
+    },
+    {
+      "handle": "option-set-1260478-switch-1",
+      "name": "Vent Top",
+      "primaryCategoryHandle": "uncategorized",
+      "primaryCategoryTitle": "Uncategorized",
+      "dataPath": "data/inventory/notionworx/products/uncategorized/option-set-1260478-switch-1.json",
+      "imagePaths": []
+    },
+    {
+      "handle": "option-set-1262864-image-swatches-1",
+      "name": "Table Cover",
+      "primaryCategoryHandle": "uncategorized",
+      "primaryCategoryTitle": "Uncategorized",
+      "dataPath": "data/inventory/notionworx/products/uncategorized/option-set-1262864-image-swatches-1.json",
+      "imagePaths": []
+    },
+    {
+      "handle": "option-set-1262864-image-swatches-2",
+      "name": "Feather Flags",
+      "primaryCategoryHandle": "uncategorized",
+      "primaryCategoryTitle": "Uncategorized",
+      "dataPath": "data/inventory/notionworx/products/uncategorized/option-set-1262864-image-swatches-2.json",
+      "imagePaths": []
+    },
+    {
+      "handle": "option-set-1262864-image-swatches-3",
+      "name": "Weighted Sand Bags",
+      "primaryCategoryHandle": "uncategorized",
+      "primaryCategoryTitle": "Uncategorized",
+      "dataPath": "data/inventory/notionworx/products/uncategorized/option-set-1262864-image-swatches-3.json",
+      "imagePaths": []
+    },
+    {
+      "handle": "option-set-1262864-image-swatches-5",
+      "name": "Frame Color",
+      "primaryCategoryHandle": "uncategorized",
+      "primaryCategoryTitle": "Uncategorized",
+      "dataPath": "data/inventory/notionworx/products/uncategorized/option-set-1262864-image-swatches-5.json",
+      "imagePaths": []
+    },
+    {
+      "handle": "option-set-1262864-select-1",
+      "name": "Double-Sided Walls",
+      "primaryCategoryHandle": "uncategorized",
+      "primaryCategoryTitle": "Uncategorized",
+      "dataPath": "data/inventory/notionworx/products/uncategorized/option-set-1262864-select-1.json",
+      "imagePaths": []
+    },
+    {
+      "handle": "option-set-1265479-image-swatches-4",
+      "name": "Walls",
+      "primaryCategoryHandle": "uncategorized",
+      "primaryCategoryTitle": "Uncategorized",
+      "dataPath": "data/inventory/notionworx/products/uncategorized/option-set-1265479-image-swatches-4.json",
+      "imagePaths": []
+    },
+    {
+      "handle": "option-set-1265479-select-1",
+      "name": "15ft Double Sided Walls",
+      "primaryCategoryHandle": "uncategorized",
+      "primaryCategoryTitle": "Uncategorized",
+      "dataPath": "data/inventory/notionworx/products/uncategorized/option-set-1265479-select-1.json",
+      "imagePaths": []
+    },
+    {
+      "handle": "option-set-1265492-select-1",
+      "name": "Double Sided Walls",
+      "primaryCategoryHandle": "uncategorized",
+      "primaryCategoryTitle": "Uncategorized",
+      "dataPath": "data/inventory/notionworx/products/uncategorized/option-set-1265492-select-1.json",
+      "imagePaths": []
+    },
+    {
+      "handle": "option-set-1265496-select-1",
+      "name": "Double Sided Walls",
+      "primaryCategoryHandle": "uncategorized",
+      "primaryCategoryTitle": "Uncategorized",
+      "dataPath": "data/inventory/notionworx/products/uncategorized/option-set-1265496-select-1.json",
+      "imagePaths": []
+    },
+    {
+      "handle": "option-set-1265507-select-1",
+      "name": "Double Sided Walls",
+      "primaryCategoryHandle": "uncategorized",
+      "primaryCategoryTitle": "Uncategorized",
+      "dataPath": "data/inventory/notionworx/products/uncategorized/option-set-1265507-select-1.json",
+      "imagePaths": []
+    },
+    {
+      "handle": "option-set-1265533-select-1",
+      "name": "Double Sided Walls",
+      "primaryCategoryHandle": "uncategorized",
+      "primaryCategoryTitle": "Uncategorized",
+      "dataPath": "data/inventory/notionworx/products/uncategorized/option-set-1265533-select-1.json",
+      "imagePaths": []
+    },
+    {
+      "handle": "option-set-1265540-image-swatches-4",
+      "name": "Weighted",
+      "primaryCategoryHandle": "uncategorized",
+      "primaryCategoryTitle": "Uncategorized",
+      "dataPath": "data/inventory/notionworx/products/uncategorized/option-set-1265540-image-swatches-4.json",
+      "imagePaths": []
+    },
+    {
+      "handle": "option-set-1265540-select-1",
+      "name": "Double Sided Walls",
+      "primaryCategoryHandle": "uncategorized",
+      "primaryCategoryTitle": "Uncategorized",
+      "dataPath": "data/inventory/notionworx/products/uncategorized/option-set-1265540-select-1.json",
+      "imagePaths": []
+    },
+    {
+      "handle": "option-set-1265542-image-swatches-4",
+      "name": "Walls",
+      "primaryCategoryHandle": "uncategorized",
+      "primaryCategoryTitle": "Uncategorized",
+      "dataPath": "data/inventory/notionworx/products/uncategorized/option-set-1265542-image-swatches-4.json",
+      "imagePaths": []
+    },
+    {
+      "handle": "option-set-1265542-image-swatches-5",
+      "name": "Weighted Sandbags",
+      "primaryCategoryHandle": "uncategorized",
+      "primaryCategoryTitle": "Uncategorized",
+      "dataPath": "data/inventory/notionworx/products/uncategorized/option-set-1265542-image-swatches-5.json",
+      "imagePaths": []
+    },
+    {
+      "handle": "option-set-1265542-select-1",
+      "name": "Double Sided Walls",
+      "primaryCategoryHandle": "uncategorized",
+      "primaryCategoryTitle": "Uncategorized",
+      "dataPath": "data/inventory/notionworx/products/uncategorized/option-set-1265542-select-1.json",
+      "imagePaths": []
+    },
+    {
+      "handle": "option-set-1265548-image-swatches-4",
+      "name": "Weighted Sanbags",
+      "primaryCategoryHandle": "uncategorized",
+      "primaryCategoryTitle": "Uncategorized",
+      "dataPath": "data/inventory/notionworx/products/uncategorized/option-set-1265548-image-swatches-4.json",
+      "imagePaths": []
+    },
+    {
+      "handle": "option-set-1265548-select-1",
+      "name": "Double Sided Walls",
+      "primaryCategoryHandle": "uncategorized",
+      "primaryCategoryTitle": "Uncategorized",
+      "dataPath": "data/inventory/notionworx/products/uncategorized/option-set-1265548-select-1.json",
+      "imagePaths": []
+    },
+    {
+      "handle": "option-set-1265550-image-swatches-4",
+      "name": "Weighted Sandbags",
+      "primaryCategoryHandle": "uncategorized",
+      "primaryCategoryTitle": "Uncategorized",
+      "dataPath": "data/inventory/notionworx/products/uncategorized/option-set-1265550-image-swatches-4.json",
+      "imagePaths": []
+    },
+    {
+      "handle": "option-set-1265550-select-1",
+      "name": "Double Sided Walls",
+      "primaryCategoryHandle": "uncategorized",
+      "primaryCategoryTitle": "Uncategorized",
+      "dataPath": "data/inventory/notionworx/products/uncategorized/option-set-1265550-select-1.json",
+      "imagePaths": []
+    },
+    {
+      "handle": "option-set-1265555-select-1",
+      "name": "Double Sided Walls",
+      "primaryCategoryHandle": "uncategorized",
+      "primaryCategoryTitle": "Uncategorized",
+      "dataPath": "data/inventory/notionworx/products/uncategorized/option-set-1265555-select-1.json",
+      "imagePaths": []
+    },
+    {
+      "handle": "option-set-1266224-image-swatches-1",
+      "name": "Table Cover",
+      "primaryCategoryHandle": "uncategorized",
+      "primaryCategoryTitle": "Uncategorized",
+      "dataPath": "data/inventory/notionworx/products/uncategorized/option-set-1266224-image-swatches-1.json",
+      "imagePaths": []
+    },
+    {
+      "handle": "option-set-1266224-select-1",
+      "name": "Double Sided Walls",
+      "primaryCategoryHandle": "uncategorized",
+      "primaryCategoryTitle": "Uncategorized",
+      "dataPath": "data/inventory/notionworx/products/uncategorized/option-set-1266224-select-1.json",
+      "imagePaths": []
+    },
+    {
+      "handle": "option-set-1266226-image-swatches-1",
+      "name": "Table Cover",
+      "primaryCategoryHandle": "uncategorized",
+      "primaryCategoryTitle": "Uncategorized",
+      "dataPath": "data/inventory/notionworx/products/uncategorized/option-set-1266226-image-swatches-1.json",
+      "imagePaths": []
+    },
+    {
+      "handle": "option-set-1266226-select-1",
+      "name": "Double Sided Walls",
+      "primaryCategoryHandle": "uncategorized",
+      "primaryCategoryTitle": "Uncategorized",
+      "dataPath": "data/inventory/notionworx/products/uncategorized/option-set-1266226-select-1.json",
+      "imagePaths": []
+    },
+    {
+      "handle": "option-set-1266231-image-swatches-1",
+      "name": "Table Cover",
+      "primaryCategoryHandle": "uncategorized",
+      "primaryCategoryTitle": "Uncategorized",
+      "dataPath": "data/inventory/notionworx/products/uncategorized/option-set-1266231-image-swatches-1.json",
+      "imagePaths": []
+    },
+    {
+      "handle": "option-set-1266231-select-1",
+      "name": "Double Sided Walls",
+      "primaryCategoryHandle": "uncategorized",
+      "primaryCategoryTitle": "Uncategorized",
+      "dataPath": "data/inventory/notionworx/products/uncategorized/option-set-1266231-select-1.json",
+      "imagePaths": []
+    },
+    {
+      "handle": "option-set-1266270-image-swatches-1",
+      "name": "Table Cover",
+      "primaryCategoryHandle": "uncategorized",
+      "primaryCategoryTitle": "Uncategorized",
+      "dataPath": "data/inventory/notionworx/products/uncategorized/option-set-1266270-image-swatches-1.json",
+      "imagePaths": []
+    },
+    {
+      "handle": "option-set-1273193-image-swatches-5",
+      "name": "Feather Flags",
+      "primaryCategoryHandle": "uncategorized",
+      "primaryCategoryTitle": "Uncategorized",
+      "dataPath": "data/inventory/notionworx/products/uncategorized/option-set-1273193-image-swatches-5.json",
+      "imagePaths": []
+    },
+    {
+      "handle": "option-set-1273193-image-swatches-6",
+      "name": "Table Cover",
+      "primaryCategoryHandle": "uncategorized",
+      "primaryCategoryTitle": "Uncategorized",
+      "dataPath": "data/inventory/notionworx/products/uncategorized/option-set-1273193-image-swatches-6.json",
+      "imagePaths": []
+    },
+    {
+      "handle": "option-set-1273213-select-1",
+      "name": "Double Sided Walls",
+      "primaryCategoryHandle": "uncategorized",
+      "primaryCategoryTitle": "Uncategorized",
+      "dataPath": "data/inventory/notionworx/products/uncategorized/option-set-1273213-select-1.json",
+      "imagePaths": []
+    },
+    {
+      "handle": "option-set-1273220-image-swatches-7",
+      "name": "Weighted Sandbags",
+      "primaryCategoryHandle": "uncategorized",
+      "primaryCategoryTitle": "Uncategorized",
+      "dataPath": "data/inventory/notionworx/products/uncategorized/option-set-1273220-image-swatches-7.json",
+      "imagePaths": []
+    },
+    {
+      "handle": "option-set-1273220-select-2",
+      "name": "Double Sided Walls",
+      "primaryCategoryHandle": "uncategorized",
+      "primaryCategoryTitle": "Uncategorized",
+      "dataPath": "data/inventory/notionworx/products/uncategorized/option-set-1273220-select-2.json",
+      "imagePaths": []
+    },
+    {
+      "handle": "option-set-1273236-image-swatches-5",
+      "name": "Weighted Sandbags",
+      "primaryCategoryHandle": "uncategorized",
+      "primaryCategoryTitle": "Uncategorized",
+      "dataPath": "data/inventory/notionworx/products/uncategorized/option-set-1273236-image-swatches-5.json",
+      "imagePaths": []
+    },
+    {
+      "handle": "option-set-1273261-select-2",
+      "name": "Double Sided Walls",
+      "primaryCategoryHandle": "uncategorized",
+      "primaryCategoryTitle": "Uncategorized",
+      "dataPath": "data/inventory/notionworx/products/uncategorized/option-set-1273261-select-2.json",
+      "imagePaths": []
+    },
+    {
+      "handle": "option-set-1273261-select-3",
+      "name": "Full Walls - Fabric From Bottom To Top",
+      "primaryCategoryHandle": "uncategorized",
+      "primaryCategoryTitle": "Uncategorized",
+      "dataPath": "data/inventory/notionworx/products/uncategorized/option-set-1273261-select-3.json",
+      "imagePaths": []
+    },
+    {
+      "handle": "option-set-1274041-select-2",
+      "name": "Double Sided Walls",
+      "primaryCategoryHandle": "uncategorized",
+      "primaryCategoryTitle": "Uncategorized",
+      "dataPath": "data/inventory/notionworx/products/uncategorized/option-set-1274041-select-2.json",
+      "imagePaths": []
+    },
+    {
+      "handle": "option-set-1274041-select-3",
+      "name": "Full Walls - Fabric From Bottom To Top - NO MESH",
+      "primaryCategoryHandle": "uncategorized",
+      "primaryCategoryTitle": "Uncategorized",
+      "dataPath": "data/inventory/notionworx/products/uncategorized/option-set-1274041-select-3.json",
+      "imagePaths": []
+    },
+    {
+      "handle": "option-set-1274048-select-2",
+      "name": "Double Sided Walls",
+      "primaryCategoryHandle": "uncategorized",
+      "primaryCategoryTitle": "Uncategorized",
+      "dataPath": "data/inventory/notionworx/products/uncategorized/option-set-1274048-select-2.json",
+      "imagePaths": []
+    },
+    {
+      "handle": "option-set-1274048-select-3",
+      "name": "Full Walls - Fabric From Bottom To Top - NO MESH",
+      "primaryCategoryHandle": "uncategorized",
+      "primaryCategoryTitle": "Uncategorized",
+      "dataPath": "data/inventory/notionworx/products/uncategorized/option-set-1274048-select-3.json",
+      "imagePaths": []
+    },
+    {
+      "handle": "option-set-1274049-image-swatches-3",
+      "name": "Weighted Sandbags",
+      "primaryCategoryHandle": "uncategorized",
+      "primaryCategoryTitle": "Uncategorized",
+      "dataPath": "data/inventory/notionworx/products/uncategorized/option-set-1274049-image-swatches-3.json",
+      "imagePaths": []
+    },
+    {
+      "handle": "option-set-1274049-select-2",
+      "name": "Double Sided Walls",
+      "primaryCategoryHandle": "uncategorized",
+      "primaryCategoryTitle": "Uncategorized",
+      "dataPath": "data/inventory/notionworx/products/uncategorized/option-set-1274049-select-2.json",
+      "imagePaths": []
+    },
+    {
+      "handle": "option-set-1274049-select-3",
+      "name": "Full Walls - Fabric From Bottom To Top - NO MESH",
+      "primaryCategoryHandle": "uncategorized",
+      "primaryCategoryTitle": "Uncategorized",
+      "dataPath": "data/inventory/notionworx/products/uncategorized/option-set-1274049-select-3.json",
+      "imagePaths": []
+    },
+    {
+      "handle": "pole-banner-set",
+      "name": "Pole Banner Set \u2013 Double-Sided Custom Vinyl Banners with Mounting Hardware",
+      "primaryCategoryHandle": "flags",
+      "primaryCategoryTitle": "FLAGS",
+      "dataPath": "data/inventory/notionworx/products/flags/pole-banner-set.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/flags/pole-banner-set/01.jpg",
+        "/assets/images/notionworx-inventory/flags/pole-banner-set/02.jpg",
+        "/assets/images/notionworx-inventory/flags/pole-banner-set/03.jpg"
+      ]
+    },
+    {
+      "handle": "portable-power-station-300w",
+      "name": "300W Portable Power Station",
+      "primaryCategoryHandle": "accesories",
+      "primaryCategoryTitle": "Accessories",
+      "dataPath": "data/inventory/notionworx/products/accesories/portable-power-station-300w.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/accesories/portable-power-station-300w/01.jpg",
+        "/assets/images/notionworx-inventory/accesories/portable-power-station-300w/02.jpg",
+        "/assets/images/notionworx-inventory/accesories/portable-power-station-300w/03.jpg"
+      ]
+    },
+    {
+      "handle": "premium-10-tent-top-square-banner",
+      "name": "Premium 10' Tent Top Billboard Banner",
+      "primaryCategoryHandle": "accesories",
+      "primaryCategoryTitle": "Accessories",
+      "dataPath": "data/inventory/notionworx/products/accesories/premium-10-tent-top-square-banner.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/accesories/premium-10-tent-top-square-banner/01.jpg",
+        "/assets/images/notionworx-inventory/accesories/premium-10-tent-top-square-banner/02.jpg",
+        "/assets/images/notionworx-inventory/accesories/premium-10-tent-top-square-banner/03.jpg"
+      ]
+    },
+    {
+      "handle": "premium-10x10-custom-canopy-1-10",
+      "name": "PACKAGE #1 ~ Premium 10x10 Custom Canopy Tent \u2013 Frame of Choice (HEX Aluminum or Steel) & 17\" Valance (Dye-Sublimation Printing)",
+      "primaryCategoryHandle": "best-selling-10x10-custom-canopy-tents",
+      "primaryCategoryTitle": "Best Selling 10x10 Custom Canopy Tents \u2013 Tradeshow & Food Booth Essentials",
+      "dataPath": "data/inventory/notionworx/products/best-selling-10x10-custom-canopy-tents/premium-10x10-custom-canopy-1-10.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x10-custom-canopy-1-10/01.png",
+        "/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x10-custom-canopy-1-10/02.png",
+        "/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x10-custom-canopy-1-10/03.png",
+        "/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x10-custom-canopy-1-10/04.png",
+        "/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x10-custom-canopy-1-10/05.png",
+        "/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x10-custom-canopy-1-10/06.jpg",
+        "/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x10-custom-canopy-1-10/07.jpg",
+        "/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x10-custom-canopy-1-10/08.jpg",
+        "/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x10-custom-canopy-1-10/09.jpg",
+        "/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x10-custom-canopy-1-10/10.jpg",
+        "/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x10-custom-canopy-1-10/11.jpg",
+        "/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x10-custom-canopy-1-10/12.jpg"
+      ]
+    },
+    {
+      "handle": "premium-10x10-custom-canopy-1-10black",
+      "name": "PACKAGE #1 -B ~ Premium 10x10 Custom Canopy Tent \u2013 Frame of Choice (HEX Aluminum or Steel) (Black) & 17\" Valance (Dye-Sublimation Printing)",
+      "primaryCategoryHandle": "10x10",
+      "primaryCategoryTitle": "10x10 Custom Canopies",
+      "dataPath": "data/inventory/notionworx/products/10x10/premium-10x10-custom-canopy-1-10black.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/10x10/premium-10x10-custom-canopy-1-10black/01.png",
+        "/assets/images/notionworx-inventory/10x10/premium-10x10-custom-canopy-1-10black/02.png",
+        "/assets/images/notionworx-inventory/10x10/premium-10x10-custom-canopy-1-10black/03.jpg",
+        "/assets/images/notionworx-inventory/10x10/premium-10x10-custom-canopy-1-10black/04.jpg",
+        "/assets/images/notionworx-inventory/10x10/premium-10x10-custom-canopy-1-10black/05.jpg",
+        "/assets/images/notionworx-inventory/10x10/premium-10x10-custom-canopy-1-10black/06.jpg",
+        "/assets/images/notionworx-inventory/10x10/premium-10x10-custom-canopy-1-10black/07.jpg"
+      ]
+    },
+    {
+      "handle": "premium-10x10-custom-canopy-1-10top",
+      "name": "Premium 10x10 Custom Canopy Tent Top Only \u2013 Dye-Sublimation Print with 17\" Valance",
+      "primaryCategoryHandle": "10x10",
+      "primaryCategoryTitle": "10x10 Custom Canopies",
+      "dataPath": "data/inventory/notionworx/products/10x10/premium-10x10-custom-canopy-1-10top.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/10x10/premium-10x10-custom-canopy-1-10top/01.jpg",
+        "/assets/images/notionworx-inventory/10x10/premium-10x10-custom-canopy-1-10top/02.jpg",
+        "/assets/images/notionworx-inventory/10x10/premium-10x10-custom-canopy-1-10top/03.jpg",
+        "/assets/images/notionworx-inventory/10x10/premium-10x10-custom-canopy-1-10top/04.jpg"
+      ]
+    },
+    {
+      "handle": "premium-10x10-custom-canopy-2-10",
+      "name": "PACKAGE #2 ~ Premium 10x10 Custom Canopy Tent \u2013 Frame of Choice (HEX Aluminum or Steel) (Silver) with Full Back Wall & 17\" Valance (Dye-Sublimation Printing)",
+      "primaryCategoryHandle": "best-selling-10x10-custom-canopy-tents",
+      "primaryCategoryTitle": "Best Selling 10x10 Custom Canopy Tents \u2013 Tradeshow & Food Booth Essentials",
+      "dataPath": "data/inventory/notionworx/products/best-selling-10x10-custom-canopy-tents/premium-10x10-custom-canopy-2-10.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x10-custom-canopy-2-10/01.png",
+        "/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x10-custom-canopy-2-10/02.png",
+        "/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x10-custom-canopy-2-10/03.png",
+        "/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x10-custom-canopy-2-10/04.png",
+        "/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x10-custom-canopy-2-10/05.jpg",
+        "/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x10-custom-canopy-2-10/06.jpg",
+        "/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x10-custom-canopy-2-10/07.jpg",
+        "/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x10-custom-canopy-2-10/08.jpg",
+        "/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x10-custom-canopy-2-10/09.jpg",
+        "/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x10-custom-canopy-2-10/10.jpg",
+        "/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x10-custom-canopy-2-10/11.jpg"
+      ]
+    },
+    {
+      "handle": "premium-10x10-custom-canopy-3-10",
+      "name": "Premium 10x10 Custom Canopy Tent \u2013 Frame of Choice (HEX Aluminum or Steel) (Silver) with Full Back Wall, Two Half Side Walls & 17\" Valance (Dye-Sublimation Printing)",
+      "primaryCategoryHandle": "best-selling-10x10-custom-canopy-tents",
+      "primaryCategoryTitle": "Best Selling 10x10 Custom Canopy Tents \u2013 Tradeshow & Food Booth Essentials",
+      "dataPath": "data/inventory/notionworx/products/best-selling-10x10-custom-canopy-tents/premium-10x10-custom-canopy-3-10.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x10-custom-canopy-3-10/01.png",
+        "/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x10-custom-canopy-3-10/02.png",
+        "/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x10-custom-canopy-3-10/03.png",
+        "/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x10-custom-canopy-3-10/04.png",
+        "/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x10-custom-canopy-3-10/05.jpg",
+        "/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x10-custom-canopy-3-10/06.jpg",
+        "/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x10-custom-canopy-3-10/07.jpg",
+        "/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x10-custom-canopy-3-10/08.jpg",
+        "/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x10-custom-canopy-3-10/09.jpg",
+        "/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x10-custom-canopy-3-10/10.jpg"
+      ]
+    },
+    {
+      "handle": "premium-10x10-custom-canopy-4-10",
+      "name": "Premium 10x10 Custom Canopy Tent \u2013 Frame of Choice (HEX Aluminum or Steel)(Silver) with Three Full Walls & 17\" Valance (Dye-Sublimation Printing)",
+      "primaryCategoryHandle": "10x10",
+      "primaryCategoryTitle": "10x10 Custom Canopies",
+      "dataPath": "data/inventory/notionworx/products/10x10/premium-10x10-custom-canopy-4-10.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/10x10/premium-10x10-custom-canopy-4-10/01.png",
+        "/assets/images/notionworx-inventory/10x10/premium-10x10-custom-canopy-4-10/02.png",
+        "/assets/images/notionworx-inventory/10x10/premium-10x10-custom-canopy-4-10/03.png",
+        "/assets/images/notionworx-inventory/10x10/premium-10x10-custom-canopy-4-10/04.jpg",
+        "/assets/images/notionworx-inventory/10x10/premium-10x10-custom-canopy-4-10/05.jpg",
+        "/assets/images/notionworx-inventory/10x10/premium-10x10-custom-canopy-4-10/06.jpg",
+        "/assets/images/notionworx-inventory/10x10/premium-10x10-custom-canopy-4-10/07.jpg",
+        "/assets/images/notionworx-inventory/10x10/premium-10x10-custom-canopy-4-10/08.jpg",
+        "/assets/images/notionworx-inventory/10x10/premium-10x10-custom-canopy-4-10/09.jpg",
+        "/assets/images/notionworx-inventory/10x10/premium-10x10-custom-canopy-4-10/10.jpg"
+      ]
+    },
+    {
+      "handle": "premium-10x15-custom-canopy-tent-05-15black",
+      "name": "Premium 10x15 Custom Canopy Tent \u2013 HEX Aluminum Frame (Black) & 17\" Valance (Dye-Sublimation Printing)",
+      "primaryCategoryHandle": "10x15",
+      "primaryCategoryTitle": "10x15 Custom Canopies",
+      "dataPath": "data/inventory/notionworx/products/10x15/premium-10x15-custom-canopy-tent-05-15black.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/10x15/premium-10x15-custom-canopy-tent-05-15black/01.png",
+        "/assets/images/notionworx-inventory/10x15/premium-10x15-custom-canopy-tent-05-15black/02.png",
+        "/assets/images/notionworx-inventory/10x15/premium-10x15-custom-canopy-tent-05-15black/03.jpg",
+        "/assets/images/notionworx-inventory/10x15/premium-10x15-custom-canopy-tent-05-15black/04.jpg"
+      ]
+    },
+    {
+      "handle": "premium-10x15-custom-canopy-tent-5-15",
+      "name": "Premium 10x15 Custom Canopy Tent \u2013 HEX Aluminum Frame (Silver) & 17\" Valance (Dye-Sublimation Printing)",
+      "primaryCategoryHandle": "10x15",
+      "primaryCategoryTitle": "10x15 Custom Canopies",
+      "dataPath": "data/inventory/notionworx/products/10x15/premium-10x15-custom-canopy-tent-5-15.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/10x15/premium-10x15-custom-canopy-tent-5-15/01.png",
+        "/assets/images/notionworx-inventory/10x15/premium-10x15-custom-canopy-tent-5-15/02.png",
+        "/assets/images/notionworx-inventory/10x15/premium-10x15-custom-canopy-tent-5-15/03.jpg",
+        "/assets/images/notionworx-inventory/10x15/premium-10x15-custom-canopy-tent-5-15/04.jpg",
+        "/assets/images/notionworx-inventory/10x15/premium-10x15-custom-canopy-tent-5-15/05.jpg",
+        "/assets/images/notionworx-inventory/10x15/premium-10x15-custom-canopy-tent-5-15/06.jpg",
+        "/assets/images/notionworx-inventory/10x15/premium-10x15-custom-canopy-tent-5-15/07.jpg"
+      ]
+    },
+    {
+      "handle": "premium-10x15-custom-canopy-tent-5-15top",
+      "name": "Premium 10x15 Custom Canopy Tent Top Only \u2013 Dye-Sublimation Print with 17\" Valance",
+      "primaryCategoryHandle": "10x15",
+      "primaryCategoryTitle": "10x15 Custom Canopies",
+      "dataPath": "data/inventory/notionworx/products/10x15/premium-10x15-custom-canopy-tent-5-15top.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/10x15/premium-10x15-custom-canopy-tent-5-15top/01.jpg",
+        "/assets/images/notionworx-inventory/10x15/premium-10x15-custom-canopy-tent-5-15top/02.jpg",
+        "/assets/images/notionworx-inventory/10x15/premium-10x15-custom-canopy-tent-5-15top/03.jpg",
+        "/assets/images/notionworx-inventory/10x15/premium-10x15-custom-canopy-tent-5-15top/04.jpg"
+      ]
+    },
+    {
+      "handle": "premium-10x15-custom-canopy-tent-6-15",
+      "name": "Premium 10x15 Custom Canopy Tent \u2013 HEX Aluminum Frame (Silver) with Full Back Wall & 17\" Valance (Dye-Sublimation Printing)",
+      "primaryCategoryHandle": "best-selling-10x10-custom-canopy-tents",
+      "primaryCategoryTitle": "Best Selling 10x10 Custom Canopy Tents \u2013 Tradeshow & Food Booth Essentials",
+      "dataPath": "data/inventory/notionworx/products/best-selling-10x10-custom-canopy-tents/premium-10x15-custom-canopy-tent-6-15.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x15-custom-canopy-tent-6-15/01.png",
+        "/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x15-custom-canopy-tent-6-15/02.png",
+        "/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x15-custom-canopy-tent-6-15/03.png",
+        "/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x15-custom-canopy-tent-6-15/04.png",
+        "/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x15-custom-canopy-tent-6-15/05.jpg",
+        "/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x15-custom-canopy-tent-6-15/06.jpg",
+        "/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x15-custom-canopy-tent-6-15/07.jpg",
+        "/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x15-custom-canopy-tent-6-15/08.jpg",
+        "/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x15-custom-canopy-tent-6-15/09.jpg",
+        "/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x15-custom-canopy-tent-6-15/10.jpg"
+      ]
+    },
+    {
+      "handle": "premium-10x15-custom-canopy-tent-7-15",
+      "name": "Premium 10x15 Custom Canopy Tent \u2013 HEX Aluminum Frame (Silver) with Full Back Wall, Two Half Side Walls & 17\" Valance (Dye-Sublimation Printing)",
+      "primaryCategoryHandle": "best-selling-10x10-custom-canopy-tents",
+      "primaryCategoryTitle": "Best Selling 10x10 Custom Canopy Tents \u2013 Tradeshow & Food Booth Essentials",
+      "dataPath": "data/inventory/notionworx/products/best-selling-10x10-custom-canopy-tents/premium-10x15-custom-canopy-tent-7-15.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x15-custom-canopy-tent-7-15/01.png",
+        "/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x15-custom-canopy-tent-7-15/02.png",
+        "/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x15-custom-canopy-tent-7-15/03.png",
+        "/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x15-custom-canopy-tent-7-15/04.jpg",
+        "/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x15-custom-canopy-tent-7-15/05.jpg",
+        "/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x15-custom-canopy-tent-7-15/06.jpg",
+        "/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x15-custom-canopy-tent-7-15/07.jpg",
+        "/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x15-custom-canopy-tent-7-15/08.jpg",
+        "/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x15-custom-canopy-tent-7-15/09.jpg",
+        "/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x15-custom-canopy-tent-7-15/10.jpg"
+      ]
+    },
+    {
+      "handle": "premium-10x15-custom-canopy-tent-8-15",
+      "name": "Premium 10x15 Custom Canopy Tent \u2013 HEX Aluminum Frame (Silver) with Three Full Walls & 17\" Valance (Dye-Sublimation Printing)",
+      "primaryCategoryHandle": "10x15",
+      "primaryCategoryTitle": "10x15 Custom Canopies",
+      "dataPath": "data/inventory/notionworx/products/10x15/premium-10x15-custom-canopy-tent-8-15.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/10x15/premium-10x15-custom-canopy-tent-8-15/01.png",
+        "/assets/images/notionworx-inventory/10x15/premium-10x15-custom-canopy-tent-8-15/02.png",
+        "/assets/images/notionworx-inventory/10x15/premium-10x15-custom-canopy-tent-8-15/03.png",
+        "/assets/images/notionworx-inventory/10x15/premium-10x15-custom-canopy-tent-8-15/04.jpg",
+        "/assets/images/notionworx-inventory/10x15/premium-10x15-custom-canopy-tent-8-15/05.jpg",
+        "/assets/images/notionworx-inventory/10x15/premium-10x15-custom-canopy-tent-8-15/06.jpg",
+        "/assets/images/notionworx-inventory/10x15/premium-10x15-custom-canopy-tent-8-15/07.jpg",
+        "/assets/images/notionworx-inventory/10x15/premium-10x15-custom-canopy-tent-8-15/08.jpg",
+        "/assets/images/notionworx-inventory/10x15/premium-10x15-custom-canopy-tent-8-15/09.jpg"
+      ]
+    },
+    {
+      "handle": "premium-10x20-custom-canopy-tent-10-20",
+      "name": "Premium 10x20 Custom Canopy Tent \u2013 HEX Aluminum Frame (Silver) with Full Back Wall & 17\" Valance (Dye-Sublimation Printing)",
+      "primaryCategoryHandle": "best-selling-10x10-custom-canopy-tents",
+      "primaryCategoryTitle": "Best Selling 10x10 Custom Canopy Tents \u2013 Tradeshow & Food Booth Essentials",
+      "dataPath": "data/inventory/notionworx/products/best-selling-10x10-custom-canopy-tents/premium-10x20-custom-canopy-tent-10-20.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x20-custom-canopy-tent-10-20/01.png",
+        "/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x20-custom-canopy-tent-10-20/02.png",
+        "/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x20-custom-canopy-tent-10-20/03.png",
+        "/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x20-custom-canopy-tent-10-20/04.jpg",
+        "/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x20-custom-canopy-tent-10-20/05.jpg",
+        "/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x20-custom-canopy-tent-10-20/06.jpg",
+        "/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x20-custom-canopy-tent-10-20/07.jpg",
+        "/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x20-custom-canopy-tent-10-20/08.jpg",
+        "/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x20-custom-canopy-tent-10-20/09.jpg",
+        "/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x20-custom-canopy-tent-10-20/10.jpg",
+        "/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x20-custom-canopy-tent-10-20/11.jpg"
+      ]
+    },
+    {
+      "handle": "premium-10x20-custom-canopy-tent-11-20",
+      "name": "Premium 10x20 Custom Canopy Tent \u2013 HEX Aluminum Frame (Silver) with Full Back Wall, Two Half Side Walls & 17\" Valance (Dye-Sublimation Printing)",
+      "primaryCategoryHandle": "best-selling-10x10-custom-canopy-tents",
+      "primaryCategoryTitle": "Best Selling 10x10 Custom Canopy Tents \u2013 Tradeshow & Food Booth Essentials",
+      "dataPath": "data/inventory/notionworx/products/best-selling-10x10-custom-canopy-tents/premium-10x20-custom-canopy-tent-11-20.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x20-custom-canopy-tent-11-20/01.png",
+        "/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x20-custom-canopy-tent-11-20/02.png",
+        "/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x20-custom-canopy-tent-11-20/03.png",
+        "/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x20-custom-canopy-tent-11-20/04.png",
+        "/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x20-custom-canopy-tent-11-20/05.jpg",
+        "/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x20-custom-canopy-tent-11-20/06.jpg",
+        "/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x20-custom-canopy-tent-11-20/07.jpg",
+        "/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x20-custom-canopy-tent-11-20/08.jpg",
+        "/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x20-custom-canopy-tent-11-20/09.jpg",
+        "/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x20-custom-canopy-tent-11-20/10.jpg"
+      ]
+    },
+    {
+      "handle": "premium-10x20-custom-canopy-tent-12-20",
+      "name": "Premium 10x20 Custom Canopy Tent \u2013 HEX Aluminum Frame (Silver) with Three Full Walls & 17\" Valance (Dye-Sublimation Printing)",
+      "primaryCategoryHandle": "10x20",
+      "primaryCategoryTitle": "10x20 Custom Canopies",
+      "dataPath": "data/inventory/notionworx/products/10x20/premium-10x20-custom-canopy-tent-12-20.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/10x20/premium-10x20-custom-canopy-tent-12-20/01.png",
+        "/assets/images/notionworx-inventory/10x20/premium-10x20-custom-canopy-tent-12-20/02.png",
+        "/assets/images/notionworx-inventory/10x20/premium-10x20-custom-canopy-tent-12-20/03.png",
+        "/assets/images/notionworx-inventory/10x20/premium-10x20-custom-canopy-tent-12-20/04.jpg",
+        "/assets/images/notionworx-inventory/10x20/premium-10x20-custom-canopy-tent-12-20/05.jpg",
+        "/assets/images/notionworx-inventory/10x20/premium-10x20-custom-canopy-tent-12-20/06.jpg",
+        "/assets/images/notionworx-inventory/10x20/premium-10x20-custom-canopy-tent-12-20/07.jpg",
+        "/assets/images/notionworx-inventory/10x20/premium-10x20-custom-canopy-tent-12-20/08.jpg",
+        "/assets/images/notionworx-inventory/10x20/premium-10x20-custom-canopy-tent-12-20/09.jpg",
+        "/assets/images/notionworx-inventory/10x20/premium-10x20-custom-canopy-tent-12-20/10.jpg",
+        "/assets/images/notionworx-inventory/10x20/premium-10x20-custom-canopy-tent-12-20/11.jpg"
+      ]
+    },
+    {
+      "handle": "premium-10x20-custom-canopy-tent-9-20black",
+      "name": "Premium 10x20 Custom Canopy Tent \u2013 HEX Aluminum Frame (Black) & 17\" Valance (Dye-Sublimation Printing)",
+      "primaryCategoryHandle": "10x20",
+      "primaryCategoryTitle": "10x20 Custom Canopies",
+      "dataPath": "data/inventory/notionworx/products/10x20/premium-10x20-custom-canopy-tent-9-20black.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/10x20/premium-10x20-custom-canopy-tent-9-20black/01.png",
+        "/assets/images/notionworx-inventory/10x20/premium-10x20-custom-canopy-tent-9-20black/02.png",
+        "/assets/images/notionworx-inventory/10x20/premium-10x20-custom-canopy-tent-9-20black/03.jpg",
+        "/assets/images/notionworx-inventory/10x20/premium-10x20-custom-canopy-tent-9-20black/04.jpg",
+        "/assets/images/notionworx-inventory/10x20/premium-10x20-custom-canopy-tent-9-20black/05.jpg"
+      ]
+    },
+    {
+      "handle": "premium-10x20-custom-canopy-tent-9-20top",
+      "name": "Premium 10x20 Custom Canopy Tent Top Only \u2013 Dye-Sublimation Print with 17\" Valance",
+      "primaryCategoryHandle": "10x20",
+      "primaryCategoryTitle": "10x20 Custom Canopies",
+      "dataPath": "data/inventory/notionworx/products/10x20/premium-10x20-custom-canopy-tent-9-20top.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/10x20/premium-10x20-custom-canopy-tent-9-20top/01.jpg",
+        "/assets/images/notionworx-inventory/10x20/premium-10x20-custom-canopy-tent-9-20top/02.jpg",
+        "/assets/images/notionworx-inventory/10x20/premium-10x20-custom-canopy-tent-9-20top/03.jpg",
+        "/assets/images/notionworx-inventory/10x20/premium-10x20-custom-canopy-tent-9-20top/04.jpg"
+      ]
+    },
+    {
+      "handle": "premium-10x20-custom-canopy-tent-hex-9-20",
+      "name": "Premium 10x20 Custom Canopy Tent \u2013 HEX Aluminum Frame (Silver) & 17\" Valance (Dye-Sublimation Printing)",
+      "primaryCategoryHandle": "10x20",
+      "primaryCategoryTitle": "10x20 Custom Canopies",
+      "dataPath": "data/inventory/notionworx/products/10x20/premium-10x20-custom-canopy-tent-hex-9-20.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/10x20/premium-10x20-custom-canopy-tent-hex-9-20/01.png",
+        "/assets/images/notionworx-inventory/10x20/premium-10x20-custom-canopy-tent-hex-9-20/02.png",
+        "/assets/images/notionworx-inventory/10x20/premium-10x20-custom-canopy-tent-hex-9-20/03.png",
+        "/assets/images/notionworx-inventory/10x20/premium-10x20-custom-canopy-tent-hex-9-20/04.jpg",
+        "/assets/images/notionworx-inventory/10x20/premium-10x20-custom-canopy-tent-hex-9-20/05.jpg",
+        "/assets/images/notionworx-inventory/10x20/premium-10x20-custom-canopy-tent-hex-9-20/06.jpg",
+        "/assets/images/notionworx-inventory/10x20/premium-10x20-custom-canopy-tent-hex-9-20/07.jpg",
+        "/assets/images/notionworx-inventory/10x20/premium-10x20-custom-canopy-tent-hex-9-20/08.jpg",
+        "/assets/images/notionworx-inventory/10x20/premium-10x20-custom-canopy-tent-hex-9-20/09.jpg"
+      ]
+    },
+    {
+      "handle": "premium-12-teardrop-flags",
+      "name": "Premium 12' Teardrop Flags",
+      "primaryCategoryHandle": "uncategorized",
+      "primaryCategoryTitle": "Uncategorized",
+      "dataPath": "data/inventory/notionworx/products/uncategorized/premium-12-teardrop-flags.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/uncategorized/premium-12-teardrop-flags/01.jpg",
+        "/assets/images/notionworx-inventory/uncategorized/premium-12-teardrop-flags/02.jpg",
+        "/assets/images/notionworx-inventory/uncategorized/premium-12-teardrop-flags/03.jpg",
+        "/assets/images/notionworx-inventory/uncategorized/premium-12-teardrop-flags/04.jpg",
+        "/assets/images/notionworx-inventory/uncategorized/premium-12-teardrop-flags/05.jpg",
+        "/assets/images/notionworx-inventory/uncategorized/premium-12-teardrop-flags/06.jpg"
+      ]
+    },
+    {
+      "handle": "premium-15-aluminum-tent-frame-silver",
+      "name": "Premium 15' Aluminum Tent Frame (Silver)",
+      "primaryCategoryHandle": "10x15",
+      "primaryCategoryTitle": "10x15 Custom Canopies",
+      "dataPath": "data/inventory/notionworx/products/10x15/premium-15-aluminum-tent-frame-silver.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/10x15/premium-15-aluminum-tent-frame-silver/01.jpg",
+        "/assets/images/notionworx-inventory/10x15/premium-15-aluminum-tent-frame-silver/02.jpg",
+        "/assets/images/notionworx-inventory/10x15/premium-15-aluminum-tent-frame-silver/03.jpg"
+      ]
+    },
+    {
+      "handle": "premium-20-aluminum-tent-frame-black",
+      "name": "Premium 20' Aluminum Tent Frame (Black)",
+      "primaryCategoryHandle": "10x20",
+      "primaryCategoryTitle": "10x20 Custom Canopies",
+      "dataPath": "data/inventory/notionworx/products/10x20/premium-20-aluminum-tent-frame-black.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/10x20/premium-20-aluminum-tent-frame-black/01.jpg"
+      ]
+    },
+    {
+      "handle": "premium-20-aluminum-tent-frame-silver",
+      "name": "Premium 20' Aluminum Tent Frame (Silver)",
+      "primaryCategoryHandle": "10x20",
+      "primaryCategoryTitle": "10x20 Custom Canopies",
+      "dataPath": "data/inventory/notionworx/products/10x20/premium-20-aluminum-tent-frame-silver.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/10x20/premium-20-aluminum-tent-frame-silver/01.jpg",
+        "/assets/images/notionworx-inventory/10x20/premium-20-aluminum-tent-frame-silver/02.jpg",
+        "/assets/images/notionworx-inventory/10x20/premium-20-aluminum-tent-frame-silver/03.jpg"
+      ]
+    },
+    {
+      "handle": "premium-3-x-7-5-fabric-stand-copy",
+      "name": "Premium 3' x 7.5' Fabric Stand",
+      "primaryCategoryHandle": "trade-show-display",
+      "primaryCategoryTitle": "BANNERS & DISPLAYS",
+      "dataPath": "data/inventory/notionworx/products/trade-show-display/premium-3-x-7-5-fabric-stand-copy.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/trade-show-display/premium-3-x-7-5-fabric-stand-copy/01.jpg",
+        "/assets/images/notionworx-inventory/trade-show-display/premium-3-x-7-5-fabric-stand-copy/02.jpg",
+        "/assets/images/notionworx-inventory/trade-show-display/premium-3-x-7-5-fabric-stand-copy/03.jpg",
+        "/assets/images/notionworx-inventory/trade-show-display/premium-3-x-7-5-fabric-stand-copy/04.jpg"
+      ]
+    },
+    {
+      "handle": "premium-aluminum-10-flat-top-tent-kit-full-bleed-dye-sublimation-17-valance-1",
+      "name": "Premium Aluminum 10' Flat Top Tent Kit (Full-Bleed Dye Sublimation) 17\" Valance",
+      "primaryCategoryHandle": "tent",
+      "primaryCategoryTitle": "Custom Canopy Tents \u2013 Personalized Pop Up Tents for Events",
+      "dataPath": "data/inventory/notionworx/products/tent/premium-aluminum-10-flat-top-tent-kit-full-bleed-dye-sublimation-17-valance-1.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/tent/premium-aluminum-10-flat-top-tent-kit-full-bleed-dye-sublimation-17-valance-1/01.png",
+        "/assets/images/notionworx-inventory/tent/premium-aluminum-10-flat-top-tent-kit-full-bleed-dye-sublimation-17-valance-1/02.jpg"
+      ]
+    },
+    {
+      "handle": "premium-aluminum-tent-frame",
+      "name": "Premium 10' x 10' HEX Aluminum Tent Frame (Silver)",
+      "primaryCategoryHandle": "10x10",
+      "primaryCategoryTitle": "10x10 Custom Canopies",
+      "dataPath": "data/inventory/notionworx/products/10x10/premium-aluminum-tent-frame.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/10x10/premium-aluminum-tent-frame/01.jpg",
+        "/assets/images/notionworx-inventory/10x10/premium-aluminum-tent-frame/02.jpg",
+        "/assets/images/notionworx-inventory/10x10/premium-aluminum-tent-frame/03.jpg",
+        "/assets/images/notionworx-inventory/10x10/premium-aluminum-tent-frame/04.jpg",
+        "/assets/images/notionworx-inventory/10x10/premium-aluminum-tent-frame/05.jpg"
+      ]
+    },
+    {
+      "handle": "premium-aluminum-tent-frame-black",
+      "name": "Premium 10' x 10' HEX Aluminum Tent Frame  (Black)",
+      "primaryCategoryHandle": "10x10",
+      "primaryCategoryTitle": "10x10 Custom Canopies",
+      "dataPath": "data/inventory/notionworx/products/10x10/premium-aluminum-tent-frame-black.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/10x10/premium-aluminum-tent-frame-black/01.jpg",
+        "/assets/images/notionworx-inventory/10x10/premium-aluminum-tent-frame-black/02.jpg"
+      ]
+    },
+    {
+      "handle": "premium-angled-flags",
+      "name": "Premium Angled Feather Flags",
+      "primaryCategoryHandle": "flags",
+      "primaryCategoryTitle": "FLAGS",
+      "dataPath": "data/inventory/notionworx/products/flags/premium-angled-flags.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/flags/premium-angled-flags/01.jpg",
+        "/assets/images/notionworx-inventory/flags/premium-angled-flags/02.jpg",
+        "/assets/images/notionworx-inventory/flags/premium-angled-flags/03.jpg",
+        "/assets/images/notionworx-inventory/flags/premium-angled-flags/04.jpg",
+        "/assets/images/notionworx-inventory/flags/premium-angled-flags/05.jpg"
+      ]
+    },
+    {
+      "handle": "premium-blade-flags",
+      "name": "Premium Blade Flags",
+      "primaryCategoryHandle": "flags",
+      "primaryCategoryTitle": "FLAGS",
+      "dataPath": "data/inventory/notionworx/products/flags/premium-blade-flags.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/flags/premium-blade-flags/01.jpg",
+        "/assets/images/notionworx-inventory/flags/premium-blade-flags/02.jpg",
+        "/assets/images/notionworx-inventory/flags/premium-blade-flags/03.jpg",
+        "/assets/images/notionworx-inventory/flags/premium-blade-flags/04.jpg",
+        "/assets/images/notionworx-inventory/flags/premium-blade-flags/05.jpg",
+        "/assets/images/notionworx-inventory/flags/premium-blade-flags/06.jpg"
+      ]
+    },
+    {
+      "handle": "premium-concave-flags",
+      "name": "Premium Concave Feather Flags",
+      "primaryCategoryHandle": "flags",
+      "primaryCategoryTitle": "FLAGS",
+      "dataPath": "data/inventory/notionworx/products/flags/premium-concave-flags.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/flags/premium-concave-flags/01.jpg",
+        "/assets/images/notionworx-inventory/flags/premium-concave-flags/02.jpg",
+        "/assets/images/notionworx-inventory/flags/premium-concave-flags/03.jpg",
+        "/assets/images/notionworx-inventory/flags/premium-concave-flags/04.jpg",
+        "/assets/images/notionworx-inventory/flags/premium-concave-flags/05.jpg"
+      ]
+    },
+    {
+      "handle": "premium-convex-flags",
+      "name": "Premium Convex Feather Flags",
+      "primaryCategoryHandle": "flags",
+      "primaryCategoryTitle": "FLAGS",
+      "dataPath": "data/inventory/notionworx/products/flags/premium-convex-flags.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/flags/premium-convex-flags/01.jpg",
+        "/assets/images/notionworx-inventory/flags/premium-convex-flags/02.jpg",
+        "/assets/images/notionworx-inventory/flags/premium-convex-flags/03.jpg",
+        "/assets/images/notionworx-inventory/flags/premium-convex-flags/04.jpg",
+        "/assets/images/notionworx-inventory/flags/premium-convex-flags/05.jpg"
+      ]
+    },
+    {
+      "handle": "premium-fitted-table-cover-full-color-dye-sublimation-full-bleed",
+      "name": "Fitted Table Cover  (Full-Color Dye Sublimation, Full Bleed)",
+      "primaryCategoryHandle": "table-cover",
+      "primaryCategoryTitle": "TABLE COVER",
+      "dataPath": "data/inventory/notionworx/products/table-cover/premium-fitted-table-cover-full-color-dye-sublimation-full-bleed.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/table-cover/premium-fitted-table-cover-full-color-dye-sublimation-full-bleed/01.jpg",
+        "/assets/images/notionworx-inventory/table-cover/premium-fitted-table-cover-full-color-dye-sublimation-full-bleed/02.png"
+      ]
+    },
+    {
+      "handle": "premium-rectangle-flags",
+      "name": "Premium Rectangle Flags",
+      "primaryCategoryHandle": "flags",
+      "primaryCategoryTitle": "FLAGS",
+      "dataPath": "data/inventory/notionworx/products/flags/premium-rectangle-flags.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/flags/premium-rectangle-flags/01.jpg",
+        "/assets/images/notionworx-inventory/flags/premium-rectangle-flags/02.jpg",
+        "/assets/images/notionworx-inventory/flags/premium-rectangle-flags/03.jpg",
+        "/assets/images/notionworx-inventory/flags/premium-rectangle-flags/04.jpg",
+        "/assets/images/notionworx-inventory/flags/premium-rectangle-flags/05.jpg",
+        "/assets/images/notionworx-inventory/flags/premium-rectangle-flags/06.jpg"
+      ]
+    },
+    {
+      "handle": "premium-retractable-36",
+      "name": "Premium Retractable Banner",
+      "primaryCategoryHandle": "trade-show-display",
+      "primaryCategoryTitle": "BANNERS & DISPLAYS",
+      "dataPath": "data/inventory/notionworx/products/trade-show-display/premium-retractable-36.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/trade-show-display/premium-retractable-36/01.jpg",
+        "/assets/images/notionworx-inventory/trade-show-display/premium-retractable-36/02.jpg",
+        "/assets/images/notionworx-inventory/trade-show-display/premium-retractable-36/03.png",
+        "/assets/images/notionworx-inventory/trade-show-display/premium-retractable-36/04.jpg",
+        "/assets/images/notionworx-inventory/trade-show-display/premium-retractable-36/05.jpg",
+        "/assets/images/notionworx-inventory/trade-show-display/premium-retractable-36/06.jpg",
+        "/assets/images/notionworx-inventory/trade-show-display/premium-retractable-36/07.jpg",
+        "/assets/images/notionworx-inventory/trade-show-display/premium-retractable-36/08.jpg"
+      ]
+    },
+    {
+      "handle": "premium-straight-flags",
+      "name": "Premium Straight Feather Flags",
+      "primaryCategoryHandle": "flags",
+      "primaryCategoryTitle": "FLAGS",
+      "dataPath": "data/inventory/notionworx/products/flags/premium-straight-flags.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/flags/premium-straight-flags/01.jpg",
+        "/assets/images/notionworx-inventory/flags/premium-straight-flags/02.jpg",
+        "/assets/images/notionworx-inventory/flags/premium-straight-flags/03.jpg",
+        "/assets/images/notionworx-inventory/flags/premium-straight-flags/04.jpg",
+        "/assets/images/notionworx-inventory/flags/premium-straight-flags/05.jpg"
+      ]
+    },
+    {
+      "handle": "premium-teardrop-flags",
+      "name": "Premium Teardrop Flags",
+      "primaryCategoryHandle": "flags",
+      "primaryCategoryTitle": "FLAGS",
+      "dataPath": "data/inventory/notionworx/products/flags/premium-teardrop-flags.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/flags/premium-teardrop-flags/01.jpg",
+        "/assets/images/notionworx-inventory/flags/premium-teardrop-flags/02.jpg",
+        "/assets/images/notionworx-inventory/flags/premium-teardrop-flags/03.jpg",
+        "/assets/images/notionworx-inventory/flags/premium-teardrop-flags/04.jpg",
+        "/assets/images/notionworx-inventory/flags/premium-teardrop-flags/05.jpg",
+        "/assets/images/notionworx-inventory/flags/premium-teardrop-flags/06.jpg"
+      ]
+    },
+    {
+      "handle": "premium-universal-flag-fiberglass-pole-s",
+      "name": "8' Premium Universal Flag Pole",
+      "primaryCategoryHandle": "flags",
+      "primaryCategoryTitle": "FLAGS",
+      "dataPath": "data/inventory/notionworx/products/flags/premium-universal-flag-fiberglass-pole-s.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/flags/premium-universal-flag-fiberglass-pole-s/01.jpg"
+      ]
+    },
+    {
+      "handle": "premium-x-base",
+      "name": "X Base BA-9",
+      "primaryCategoryHandle": "flags",
+      "primaryCategoryTitle": "FLAGS",
+      "dataPath": "data/inventory/notionworx/products/flags/premium-x-base.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/flags/premium-x-base/01.jpg",
+        "/assets/images/notionworx-inventory/flags/premium-x-base/02.jpg",
+        "/assets/images/notionworx-inventory/flags/premium-x-base/03.jpg"
+      ]
+    },
+    {
+      "handle": "racerback-tank-full-dye-sublimation-500031",
+      "name": "150GSM Mesh Jersey Racerback Tank (Full Dye Sublimation) #500031",
+      "primaryCategoryHandle": "apparel",
+      "primaryCategoryTitle": "APPAREL",
+      "dataPath": "data/inventory/notionworx/products/apparel/racerback-tank-full-dye-sublimation-500031.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/apparel/racerback-tank-full-dye-sublimation-500031/01.jpg"
+      ]
+    },
+    {
+      "handle": "retractable-banner-stand",
+      "name": "Standard Retractable",
+      "primaryCategoryHandle": "trade-show-display",
+      "primaryCategoryTitle": "BANNERS & DISPLAYS",
+      "dataPath": "data/inventory/notionworx/products/trade-show-display/retractable-banner-stand.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/trade-show-display/retractable-banner-stand/01.jpg",
+        "/assets/images/notionworx-inventory/trade-show-display/retractable-banner-stand/02.jpg",
+        "/assets/images/notionworx-inventory/trade-show-display/retractable-banner-stand/03.jpg",
+        "/assets/images/notionworx-inventory/trade-show-display/retractable-banner-stand/04.jpg",
+        "/assets/images/notionworx-inventory/trade-show-display/retractable-banner-stand/05.jpg"
+      ]
+    },
+    {
+      "handle": "reversible-jersey-full-dye-sublimation",
+      "name": "Reversible Jersey - (Full Dye Sublimation) #50072",
+      "primaryCategoryHandle": "apparel",
+      "primaryCategoryTitle": "APPAREL",
+      "dataPath": "data/inventory/notionworx/products/apparel/reversible-jersey-full-dye-sublimation.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/apparel/reversible-jersey-full-dye-sublimation/01.jpg",
+        "/assets/images/notionworx-inventory/apparel/reversible-jersey-full-dye-sublimation/02.jpg"
+      ]
+    },
+    {
+      "handle": "ropes-stakes-4pcs",
+      "name": "Ropes &Stakes (4pcs)",
+      "primaryCategoryHandle": "uncategorized",
+      "primaryCategoryTitle": "Uncategorized",
+      "dataPath": "data/inventory/notionworx/products/uncategorized/ropes-stakes-4pcs.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/uncategorized/ropes-stakes-4pcs/01.jpg"
+      ]
+    },
+    {
+      "handle": "sandbag-ballast-kit-for-event-tent-legs-set-of-four",
+      "name": "Sandbag Ballast Kit for Event Tent Legs (Set of Four)",
+      "primaryCategoryHandle": "accesories",
+      "primaryCategoryTitle": "Accessories",
+      "dataPath": "data/inventory/notionworx/products/accesories/sandbag-ballast-kit-for-event-tent-legs-set-of-four.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/accesories/sandbag-ballast-kit-for-event-tent-legs-set-of-four/01.jpg",
+        "/assets/images/notionworx-inventory/accesories/sandbag-ballast-kit-for-event-tent-legs-set-of-four/02.jpg"
+      ]
+    },
+    {
+      "handle": "short-sleeve-crew-neck-full-dye-sublimation",
+      "name": "150GSM Mesh Jersey Short Sleeve Crew Neck (Full Dye Sublimation) #500002",
+      "primaryCategoryHandle": "apparel",
+      "primaryCategoryTitle": "APPAREL",
+      "dataPath": "data/inventory/notionworx/products/apparel/short-sleeve-crew-neck-full-dye-sublimation.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/apparel/short-sleeve-crew-neck-full-dye-sublimation/01.jpg"
+      ]
+    },
+    {
+      "handle": "short-sleeve-hoodie-t-shirst-full-dye-sublimation-500038",
+      "name": "120GSM Milk Silk Short Sleeve Hoodie T-shirt (Full Dye Sublimation) #500038",
+      "primaryCategoryHandle": "apparel",
+      "primaryCategoryTitle": "APPAREL",
+      "dataPath": "data/inventory/notionworx/products/apparel/short-sleeve-hoodie-t-shirst-full-dye-sublimation-500038.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/apparel/short-sleeve-hoodie-t-shirst-full-dye-sublimation-500038/01.png"
+      ]
+    },
+    {
+      "handle": "short-sleeve-v-neck-full-dye-sublimation",
+      "name": "150GSM Mesh Jersey Short Sleeve V Neck (Full Dye Sublimation)#500001",
+      "primaryCategoryHandle": "apparel",
+      "primaryCategoryTitle": "APPAREL",
+      "dataPath": "data/inventory/notionworx/products/apparel/short-sleeve-v-neck-full-dye-sublimation.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/apparel/short-sleeve-v-neck-full-dye-sublimation/01.jpg",
+        "/assets/images/notionworx-inventory/apparel/short-sleeve-v-neck-full-dye-sublimation/02.jpg"
+      ]
+    },
+    {
+      "handle": "sleeveless-hoodie-full-dye-sublimation-500053",
+      "name": "Sleeveless Hoodie Full Dye Sublimation #500053",
+      "primaryCategoryHandle": "apparel",
+      "primaryCategoryTitle": "APPAREL",
+      "dataPath": "data/inventory/notionworx/products/apparel/sleeveless-hoodie-full-dye-sublimation-500053.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/apparel/sleeveless-hoodie-full-dye-sublimation-500053/01.jpg"
+      ]
+    },
+    {
+      "handle": "sport-polo-shirt-full-sublimation",
+      "name": "150GSM Mesh Jersey Sport Polo Shirt (Full Dye Sublimation) #50009",
+      "primaryCategoryHandle": "apparel",
+      "primaryCategoryTitle": "APPAREL",
+      "dataPath": "data/inventory/notionworx/products/apparel/sport-polo-shirt-full-sublimation.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/apparel/sport-polo-shirt-full-sublimation/01.png",
+        "/assets/images/notionworx-inventory/apparel/sport-polo-shirt-full-sublimation/02.png",
+        "/assets/images/notionworx-inventory/apparel/sport-polo-shirt-full-sublimation/03.png",
+        "/assets/images/notionworx-inventory/apparel/sport-polo-shirt-full-sublimation/04.webp"
+      ]
+    },
+    {
+      "handle": "step-and-repeat-backdrop-copy",
+      "name": "Step and Repeat Backdrop- 8'x8' and 8'x10' Including Hardware and Carry Bag",
+      "primaryCategoryHandle": "trade-show-display",
+      "primaryCategoryTitle": "BANNERS & DISPLAYS",
+      "dataPath": "data/inventory/notionworx/products/trade-show-display/step-and-repeat-backdrop-copy.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/trade-show-display/step-and-repeat-backdrop-copy/01.jpg",
+        "/assets/images/notionworx-inventory/trade-show-display/step-and-repeat-backdrop-copy/02.jpg",
+        "/assets/images/notionworx-inventory/trade-show-display/step-and-repeat-backdrop-copy/03.jpg",
+        "/assets/images/notionworx-inventory/trade-show-display/step-and-repeat-backdrop-copy/04.jpg",
+        "/assets/images/notionworx-inventory/trade-show-display/step-and-repeat-backdrop-copy/05.jpg",
+        "/assets/images/notionworx-inventory/trade-show-display/step-and-repeat-backdrop-copy/06.jpg",
+        "/assets/images/notionworx-inventory/trade-show-display/step-and-repeat-backdrop-copy/07.jpg"
+      ]
+    },
+    {
+      "handle": "stretch-table-cover",
+      "name": "Stretch Table Cover (Full-Color Dye Sublimation, Full Bleed)",
+      "primaryCategoryHandle": "table-cover",
+      "primaryCategoryTitle": "TABLE COVER",
+      "dataPath": "data/inventory/notionworx/products/table-cover/stretch-table-cover.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/table-cover/stretch-table-cover/01.jpg",
+        "/assets/images/notionworx-inventory/table-cover/stretch-table-cover/02.jpg",
+        "/assets/images/notionworx-inventory/table-cover/stretch-table-cover/03.jpg",
+        "/assets/images/notionworx-inventory/table-cover/stretch-table-cover/04.jpg",
+        "/assets/images/notionworx-inventory/table-cover/stretch-table-cover/05.jpg",
+        "/assets/images/notionworx-inventory/table-cover/stretch-table-cover/06.jpg"
+      ]
+    },
+    {
+      "handle": "sublimated-beach-fleece-blanket-30-x-60",
+      "name": "Sublimated Beach Fleece Blanket - 30\" x 60\"",
+      "primaryCategoryHandle": "towel-blanket",
+      "primaryCategoryTitle": "TOWEL & BLANKET",
+      "dataPath": "data/inventory/notionworx/products/towel-blanket/sublimated-beach-fleece-blanket-30-x-60.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/towel-blanket/sublimated-beach-fleece-blanket-30-x-60/01.jpg",
+        "/assets/images/notionworx-inventory/towel-blanket/sublimated-beach-fleece-blanket-30-x-60/02.jpg",
+        "/assets/images/notionworx-inventory/towel-blanket/sublimated-beach-fleece-blanket-30-x-60/03.jpg",
+        "/assets/images/notionworx-inventory/towel-blanket/sublimated-beach-fleece-blanket-30-x-60/04.jpg",
+        "/assets/images/notionworx-inventory/towel-blanket/sublimated-beach-fleece-blanket-30-x-60/05.jpg"
+      ]
+    },
+    {
+      "handle": "sublimated-beach-fleece-blanket-50-x-60",
+      "name": "Sublimated Beach Fleece Blanket - 50\" x 60\"",
+      "primaryCategoryHandle": "towel-blanket",
+      "primaryCategoryTitle": "TOWEL & BLANKET",
+      "dataPath": "data/inventory/notionworx/products/towel-blanket/sublimated-beach-fleece-blanket-50-x-60.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/towel-blanket/sublimated-beach-fleece-blanket-50-x-60/01.jpg",
+        "/assets/images/notionworx-inventory/towel-blanket/sublimated-beach-fleece-blanket-50-x-60/02.jpg",
+        "/assets/images/notionworx-inventory/towel-blanket/sublimated-beach-fleece-blanket-50-x-60/03.jpg",
+        "/assets/images/notionworx-inventory/towel-blanket/sublimated-beach-fleece-blanket-50-x-60/04.jpg",
+        "/assets/images/notionworx-inventory/towel-blanket/sublimated-beach-fleece-blanket-50-x-60/05.jpg"
+      ]
+    },
+    {
+      "handle": "sublimated-beach-fleece-blanket-60-x-80",
+      "name": "Sublimated Beach Fleece Blanket - 60\" x 80\"",
+      "primaryCategoryHandle": "towel-blanket",
+      "primaryCategoryTitle": "TOWEL & BLANKET",
+      "dataPath": "data/inventory/notionworx/products/towel-blanket/sublimated-beach-fleece-blanket-60-x-80.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/towel-blanket/sublimated-beach-fleece-blanket-60-x-80/01.jpg",
+        "/assets/images/notionworx-inventory/towel-blanket/sublimated-beach-fleece-blanket-60-x-80/02.jpg",
+        "/assets/images/notionworx-inventory/towel-blanket/sublimated-beach-fleece-blanket-60-x-80/03.jpg",
+        "/assets/images/notionworx-inventory/towel-blanket/sublimated-beach-fleece-blanket-60-x-80/04.jpg",
+        "/assets/images/notionworx-inventory/towel-blanket/sublimated-beach-fleece-blanket-60-x-80/05.jpg"
+      ]
+    },
+    {
+      "handle": "sublimated-bucket-hat",
+      "name": "Sublimated Bucket Hat #500093",
+      "primaryCategoryHandle": "headwear",
+      "primaryCategoryTitle": "HEADWEAR",
+      "dataPath": "data/inventory/notionworx/products/headwear/sublimated-bucket-hat.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/headwear/sublimated-bucket-hat/01.jpg",
+        "/assets/images/notionworx-inventory/headwear/sublimated-bucket-hat/02.jpg",
+        "/assets/images/notionworx-inventory/headwear/sublimated-bucket-hat/03.jpg",
+        "/assets/images/notionworx-inventory/headwear/sublimated-bucket-hat/04.jpg",
+        "/assets/images/notionworx-inventory/headwear/sublimated-bucket-hat/05.jpg"
+      ]
+    },
+    {
+      "handle": "sublimated-fleece-blanket",
+      "name": "Sublimated Fleece Blanket",
+      "primaryCategoryHandle": "towel-blanket",
+      "primaryCategoryTitle": "TOWEL & BLANKET",
+      "dataPath": "data/inventory/notionworx/products/towel-blanket/sublimated-fleece-blanket.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/towel-blanket/sublimated-fleece-blanket/01.png",
+        "/assets/images/notionworx-inventory/towel-blanket/sublimated-fleece-blanket/02.png",
+        "/assets/images/notionworx-inventory/towel-blanket/sublimated-fleece-blanket/03.png",
+        "/assets/images/notionworx-inventory/towel-blanket/sublimated-fleece-blanket/04.png",
+        "/assets/images/notionworx-inventory/towel-blanket/sublimated-fleece-blanket/05.png",
+        "/assets/images/notionworx-inventory/towel-blanket/sublimated-fleece-blanket/06.png"
+      ]
+    },
+    {
+      "handle": "sweatshirt-full-dye-sublimated-500019",
+      "name": "Sweatshirt Full Dye Sublimated #500019",
+      "primaryCategoryHandle": "apparel",
+      "primaryCategoryTitle": "APPAREL",
+      "dataPath": "data/inventory/notionworx/products/apparel/sweatshirt-full-dye-sublimated-500019.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/apparel/sweatshirt-full-dye-sublimated-500019/01.jpg",
+        "/assets/images/notionworx-inventory/apparel/sweatshirt-full-dye-sublimated-500019/02.jpg"
+      ]
+    },
+    {
+      "handle": "table-runner",
+      "name": "Table Runner (Full-Color Dye Sublimation, Full Bleed)",
+      "primaryCategoryHandle": "table-cover",
+      "primaryCategoryTitle": "TABLE COVER",
+      "dataPath": "data/inventory/notionworx/products/table-cover/table-runner.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/table-cover/table-runner/01.jpg"
+      ]
+    },
+    {
+      "handle": "tent-frame-roller-bag-carry-case",
+      "name": "10' Roller Bag",
+      "primaryCategoryHandle": "10x10",
+      "primaryCategoryTitle": "10x10 Custom Canopies",
+      "dataPath": "data/inventory/notionworx/products/10x10/tent-frame-roller-bag-carry-case.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/10x10/tent-frame-roller-bag-carry-case/01.jpg",
+        "/assets/images/notionworx-inventory/10x10/tent-frame-roller-bag-carry-case/02.jpg"
+      ]
+    },
+    {
+      "handle": "tent-leg-cover",
+      "name": "Tent Leg Cover",
+      "primaryCategoryHandle": "tent",
+      "primaryCategoryTitle": "Custom Canopy Tents \u2013 Personalized Pop Up Tents for Events",
+      "dataPath": "data/inventory/notionworx/products/tent/tent-leg-cover.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/tent/tent-leg-cover/01.jpg"
+      ]
+    },
+    {
+      "handle": "tent-quarter-wall-dye-sublimated",
+      "name": "Tent Quarter Wall (Dye Sublimated)",
+      "primaryCategoryHandle": "tent",
+      "primaryCategoryTitle": "Custom Canopy Tents \u2013 Personalized Pop Up Tents for Events",
+      "dataPath": "data/inventory/notionworx/products/tent/tent-quarter-wall-dye-sublimated.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/tent/tent-quarter-wall-dye-sublimated/01.jpg"
+      ]
+    },
+    {
+      "handle": "trade-show-essential-10x10-custom-canopy-tent-10-13",
+      "name": "Trade Show Essential 10x10 Custom Canopy Tent \u2013 HEX Aluminum Frame, Full Back Wall & Half Side Walls + Flags + Table Cover",
+      "primaryCategoryHandle": "trade-show-essentials",
+      "primaryCategoryTitle": "Trade Show Essentials \u2013 10x10, 10x15 & 10x20 Custom Canopy Tents for Events & Exhibits",
+      "dataPath": "data/inventory/notionworx/products/trade-show-essentials/trade-show-essential-10x10-custom-canopy-tent-10-13.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/trade-show-essentials/trade-show-essential-10x10-custom-canopy-tent-10-13/01.png",
+        "/assets/images/notionworx-inventory/trade-show-essentials/trade-show-essential-10x10-custom-canopy-tent-10-13/02.png",
+        "/assets/images/notionworx-inventory/trade-show-essentials/trade-show-essential-10x10-custom-canopy-tent-10-13/03.png",
+        "/assets/images/notionworx-inventory/trade-show-essentials/trade-show-essential-10x10-custom-canopy-tent-10-13/04.jpg",
+        "/assets/images/notionworx-inventory/trade-show-essentials/trade-show-essential-10x10-custom-canopy-tent-10-13/05.jpg",
+        "/assets/images/notionworx-inventory/trade-show-essentials/trade-show-essential-10x10-custom-canopy-tent-10-13/06.jpg",
+        "/assets/images/notionworx-inventory/trade-show-essentials/trade-show-essential-10x10-custom-canopy-tent-10-13/07.jpg",
+        "/assets/images/notionworx-inventory/trade-show-essentials/trade-show-essential-10x10-custom-canopy-tent-10-13/08.jpg",
+        "/assets/images/notionworx-inventory/trade-show-essentials/trade-show-essential-10x10-custom-canopy-tent-10-13/09.jpg"
+      ]
+    },
+    {
+      "handle": "trade-show-essential-10x10-custom-canopy-tent-13-10a",
+      "name": "Trade Show Essential 10x10 Custom Canopy Tent \u2013 HEX Aluminum Frame, Full Back Wall & Half Side Walls + Mounted Flags + Table Cover",
+      "primaryCategoryHandle": "trade-show-essentials",
+      "primaryCategoryTitle": "Trade Show Essentials \u2013 10x10, 10x15 & 10x20 Custom Canopy Tents for Events & Exhibits",
+      "dataPath": "data/inventory/notionworx/products/trade-show-essentials/trade-show-essential-10x10-custom-canopy-tent-13-10a.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/trade-show-essentials/trade-show-essential-10x10-custom-canopy-tent-13-10a/01.png",
+        "/assets/images/notionworx-inventory/trade-show-essentials/trade-show-essential-10x10-custom-canopy-tent-13-10a/02.png",
+        "/assets/images/notionworx-inventory/trade-show-essentials/trade-show-essential-10x10-custom-canopy-tent-13-10a/03.png",
+        "/assets/images/notionworx-inventory/trade-show-essentials/trade-show-essential-10x10-custom-canopy-tent-13-10a/04.png",
+        "/assets/images/notionworx-inventory/trade-show-essentials/trade-show-essential-10x10-custom-canopy-tent-13-10a/05.jpg",
+        "/assets/images/notionworx-inventory/trade-show-essentials/trade-show-essential-10x10-custom-canopy-tent-13-10a/06.jpg",
+        "/assets/images/notionworx-inventory/trade-show-essentials/trade-show-essential-10x10-custom-canopy-tent-13-10a/07.jpg",
+        "/assets/images/notionworx-inventory/trade-show-essentials/trade-show-essential-10x10-custom-canopy-tent-13-10a/08.jpg",
+        "/assets/images/notionworx-inventory/trade-show-essentials/trade-show-essential-10x10-custom-canopy-tent-13-10a/09.jpg",
+        "/assets/images/notionworx-inventory/trade-show-essentials/trade-show-essential-10x10-custom-canopy-tent-13-10a/10.jpg"
+      ]
+    },
+    {
+      "handle": "trade-show-essential-10x15-custom-canopy-tent-14-15",
+      "name": "PACKAGE #7-TSE-Trade Show Essential 10x15 Custom Canopy Tent \u2013 HEX Aluminum Frame, Full Back Wall & Half Side Walls + Flags + Table Cover",
+      "primaryCategoryHandle": "trade-show-essentials",
+      "primaryCategoryTitle": "Trade Show Essentials \u2013 10x10, 10x15 & 10x20 Custom Canopy Tents for Events & Exhibits",
+      "dataPath": "data/inventory/notionworx/products/trade-show-essentials/trade-show-essential-10x15-custom-canopy-tent-14-15.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/trade-show-essentials/trade-show-essential-10x15-custom-canopy-tent-14-15/01.png",
+        "/assets/images/notionworx-inventory/trade-show-essentials/trade-show-essential-10x15-custom-canopy-tent-14-15/02.png",
+        "/assets/images/notionworx-inventory/trade-show-essentials/trade-show-essential-10x15-custom-canopy-tent-14-15/03.png",
+        "/assets/images/notionworx-inventory/trade-show-essentials/trade-show-essential-10x15-custom-canopy-tent-14-15/04.jpg",
+        "/assets/images/notionworx-inventory/trade-show-essentials/trade-show-essential-10x15-custom-canopy-tent-14-15/05.png",
+        "/assets/images/notionworx-inventory/trade-show-essentials/trade-show-essential-10x15-custom-canopy-tent-14-15/06.jpg",
+        "/assets/images/notionworx-inventory/trade-show-essentials/trade-show-essential-10x15-custom-canopy-tent-14-15/07.jpg",
+        "/assets/images/notionworx-inventory/trade-show-essentials/trade-show-essential-10x15-custom-canopy-tent-14-15/08.jpg",
+        "/assets/images/notionworx-inventory/trade-show-essentials/trade-show-essential-10x15-custom-canopy-tent-14-15/09.jpg"
+      ]
+    },
+    {
+      "handle": "trade-show-essential-10x20-custom-canopy-tent-15-20",
+      "name": "Trade Show Essential 10x20 Custom Canopy Tent \u2013 HEX Aluminum Frame, Full Back Wall & Half Side Walls + Flags + Table Cover",
+      "primaryCategoryHandle": "trade-show-essentials",
+      "primaryCategoryTitle": "Trade Show Essentials \u2013 10x10, 10x15 & 10x20 Custom Canopy Tents for Events & Exhibits",
+      "dataPath": "data/inventory/notionworx/products/trade-show-essentials/trade-show-essential-10x20-custom-canopy-tent-15-20.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/trade-show-essentials/trade-show-essential-10x20-custom-canopy-tent-15-20/01.png",
+        "/assets/images/notionworx-inventory/trade-show-essentials/trade-show-essential-10x20-custom-canopy-tent-15-20/02.jpg",
+        "/assets/images/notionworx-inventory/trade-show-essentials/trade-show-essential-10x20-custom-canopy-tent-15-20/03.jpg",
+        "/assets/images/notionworx-inventory/trade-show-essentials/trade-show-essential-10x20-custom-canopy-tent-15-20/04.png",
+        "/assets/images/notionworx-inventory/trade-show-essentials/trade-show-essential-10x20-custom-canopy-tent-15-20/05.jpg",
+        "/assets/images/notionworx-inventory/trade-show-essentials/trade-show-essential-10x20-custom-canopy-tent-15-20/06.jpg",
+        "/assets/images/notionworx-inventory/trade-show-essentials/trade-show-essential-10x20-custom-canopy-tent-15-20/07.jpg",
+        "/assets/images/notionworx-inventory/trade-show-essentials/trade-show-essential-10x20-custom-canopy-tent-15-20/08.jpg",
+        "/assets/images/notionworx-inventory/trade-show-essentials/trade-show-essential-10x20-custom-canopy-tent-15-20/09.jpg"
+      ]
+    },
+    {
+      "handle": "tradition-pullover-lace-hoodie-dna-stretch",
+      "name": "Hoodie Full Dye Sublimation #500016",
+      "primaryCategoryHandle": "apparel",
+      "primaryCategoryTitle": "APPAREL",
+      "dataPath": "data/inventory/notionworx/products/apparel/tradition-pullover-lace-hoodie-dna-stretch.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/apparel/tradition-pullover-lace-hoodie-dna-stretch/01.jpg",
+        "/assets/images/notionworx-inventory/apparel/tradition-pullover-lace-hoodie-dna-stretch/02.webp",
+        "/assets/images/notionworx-inventory/apparel/tradition-pullover-lace-hoodie-dna-stretch/03.jpg"
+      ]
+    },
+    {
+      "handle": "tropical-print-shirt-full-dye-sublimation-500036",
+      "name": "Tropical Print Shirt (Full Dye Sublimation) #500036",
+      "primaryCategoryHandle": "apparel",
+      "primaryCategoryTitle": "APPAREL",
+      "dataPath": "data/inventory/notionworx/products/apparel/tropical-print-shirt-full-dye-sublimation-500036.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/apparel/tropical-print-shirt-full-dye-sublimation-500036/01.jpg",
+        "/assets/images/notionworx-inventory/apparel/tropical-print-shirt-full-dye-sublimation-500036/02.jpg"
+      ]
+    },
+    {
+      "handle": "x-stand",
+      "name": "X-Stand",
+      "primaryCategoryHandle": "trade-show-display",
+      "primaryCategoryTitle": "BANNERS & DISPLAYS",
+      "dataPath": "data/inventory/notionworx/products/trade-show-display/x-stand.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/trade-show-display/x-stand/01.png"
+      ]
+    }
+  ]
+}

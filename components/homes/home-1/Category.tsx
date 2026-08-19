@@ -10,7 +10,8 @@ function Category() {
         <div className="sect-heading type-2 text-center wow fadeInUp">
           <h3 className="s-title">Shop By Categories</h3>
           <p className="s-desc text-body-1 cl-text-2">
-            Top styles everyone&apos;s talking about.
+            Explore the imported Notion Worx catalog across canopies, displays,
+            flags, apparel, and event-ready gear.
           </p>
         </div>
         <TfSwiper
@@ -28,7 +29,10 @@ function Category() {
         >
           {categories.map((item) => (
             <div key={item.name} className="wow fadeInUp">
-              <Link href="/shop-default" className="category-v01 hover-img">
+              <Link
+                href={item.href ?? "/shop-default"}
+                className="category-v01 hover-img"
+              >
                 <div className="cate-image img-style">
                   { }
                   <Image

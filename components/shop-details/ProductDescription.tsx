@@ -2,8 +2,13 @@ import { ProductCustomerReviews } from "./product-description/blocks/ProductCust
 import { ProductDescriptionIntro } from "./product-description/blocks/ProductDescriptionIntro";
 import { ProductReturnPolicies } from "./product-description/blocks/ProductReturnPolicies";
 import { ProductShippingReturns } from "./product-description/blocks/ProductShippingReturns";
+import type { ProductCardItem } from "@/types/productCard";
 
-export default function ProductDescription() {
+export default function ProductDescription({
+  product,
+}: {
+  product?: ProductCardItem;
+}) {
   return (
     <section className="section-product-description flat-spacing flat-animate-tab">
       <div className="container">
@@ -55,7 +60,7 @@ export default function ProductDescription() {
             id="description"
             role="tabpanel"
           >
-            <ProductDescriptionIntro />
+            <ProductDescriptionIntro product={product} />
           </div>
           <div className="tab-pane" id="customer-reviews" role="tabpanel">
             <ProductCustomerReviews

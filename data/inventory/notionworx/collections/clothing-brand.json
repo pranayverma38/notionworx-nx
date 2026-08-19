@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 2,
+  "handle": "clothing-brand",
+  "title": "Clothing Brand",
+  "description": "<p><img src=\"\" alt=\"\"></p>",
+  "image": {
+    "localPath": "/assets/images/notionworx-inventory/collections/clothing-brand/01.jpg",
+    "width": null,
+    "height": null
+  },
+  "productsCount": 0,
+  "productHandles": []
+}

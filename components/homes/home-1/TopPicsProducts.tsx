@@ -9,7 +9,7 @@ function TopPicsProducts() {
         <div className="sect-heading type-2 text-center wow fadeInUp">
           <h3 className="s-title">Today&apos;s Top Picks</h3>
           <p className="s-desc text-body-1 cl-text-2">
-            Fresh styles just in! Elevate your look.
+            Popular catalog items pulled directly from the migrated storefront.
           </p>
         </div>
         <TfSwiper

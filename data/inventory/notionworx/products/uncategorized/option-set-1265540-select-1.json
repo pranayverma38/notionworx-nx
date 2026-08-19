@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 2,
+  "id": 8249819136135,
+  "handle": "option-set-1265540-select-1",
+  "slug": "option-set-1265540-select-1",
+  "name": "Double Sided Walls",
+  "vendor": "Notion Worx",
+  "productType": null,
+  "primaryCategory": {
+    "handle": "uncategorized",
+    "title": "Uncategorized"
+  },
+  "categories": [
+    {
+      "handle": "uncategorized",
+      "title": "Uncategorized"
+    }
+  ],
+  "descriptionHtml": "",
+  "descriptionText": "",
+  "tags": [
+    "globo-product-options",
+    "option-set-1265540-select-1"
+  ],
+  "skus": [],
+  "price": {
+    "min": 140.0,
+    "max": 140.0,
+    "compareAtMin": null,
+    "compareAtMax": null,
+    "variantCount": 1
+  },
+  "options": [
+    {
+      "name": "Title",
+      "position": 1,
+      "values": [
+        "Double Sided Back Wall"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 43406720827527,
+      "title": "Double Sided Back Wall",
+      "sku": "None",
+      "available": true,
+      "price": 140.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "Double Sided Back Wall"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 0,
+      "position": 1
+    }
+  ],
+  "images": [],
+  "createdAt": "2025-10-28T01:18:18-06:00",
+  "updatedAt": "2026-08-18T21:26:13-06:00",
+  "publishedAt": "2025-10-28T01:18:19-06:00"
+}

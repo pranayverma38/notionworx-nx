@@ -4,8 +4,8 @@ import AccountPageTitle from "@/components/account/AccountPageTitle";
 import AccountOrders from "@/components/account/account-orders/AccountOrders";
 
 export const metadata: Metadata = {
-  title: "Your Orders | Amerce - Multipurpose eCommerce React Nextjs Template",
-  description: "Amerce - Multipurpose eCommerce React Nextjs Template",
+  title: "Your Orders | Notion Worx",
+  description: "Review your Notion Worx order history and current storefront order activity.",
 };
 
 const AccountOrdersPage = () => {

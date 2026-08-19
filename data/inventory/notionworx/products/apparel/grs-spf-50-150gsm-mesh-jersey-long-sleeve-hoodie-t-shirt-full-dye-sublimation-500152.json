@@ -1,0 +1,278 @@
+{
+  "schemaVersion": 2,
+  "id": 8227671736455,
+  "handle": "grs-spf-50-150gsm-mesh-jersey-long-sleeve-hoodie-t-shirt-full-dye-sublimation-500152",
+  "slug": "grs-spf-50-150gsm-mesh-jersey-long-sleeve-hoodie-t-shirt-full-dye-sublimation-500152",
+  "name": "GRS/SPF 50+ 120GSM Milk Silk Jersey Long Sleeve Hoodie T-shirt (Full Dye Sublimation)#500152",
+  "vendor": "Notion Worx",
+  "productType": null,
+  "primaryCategory": {
+    "handle": "apparel",
+    "title": "APPAREL"
+  },
+  "categories": [
+    {
+      "handle": "apparel",
+      "title": "APPAREL"
+    }
+  ],
+  "descriptionHtml": "<p>Material: 100% polyester milk silk\u00a0</p>\n\n<p><span>moisture wicking fabric</span></p>\n<p>\u00a0<strong>120gsm -3.54oz</strong></p>\n\n<div style=\"text-align: left;\"><br></div>",
+  "descriptionText": "Material: 100% polyester milk silk\nmoisture wicking fabric\n120gsm -3.54oz",
+  "tags": [],
+  "skus": [
+    "500152"
+  ],
+  "price": {
+    "min": 50.0,
+    "max": 50.0,
+    "compareAtMin": null,
+    "compareAtMax": null,
+    "variantCount": 14
+  },
+  "options": [
+    {
+      "name": "Size",
+      "position": 1,
+      "values": [
+        "L",
+        "YS",
+        "YM",
+        "YL",
+        "S",
+        "M",
+        "XL",
+        "2XL",
+        "3XL",
+        "4XL",
+        "5XL",
+        "6XL",
+        "7XL",
+        "YXS"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 43238146048135,
+      "title": "L",
+      "sku": "500152",
+      "available": true,
+      "price": 50.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "L"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 907,
+      "position": 1
+    },
+    {
+      "id": 43238146080903,
+      "title": "YS",
+      "sku": "500152",
+      "available": true,
+      "price": 50.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "YS"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 907,
+      "position": 2
+    },
+    {
+      "id": 43238146113671,
+      "title": "YM",
+      "sku": "500152",
+      "available": true,
+      "price": 50.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "YM"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 907,
+      "position": 3
+    },
+    {
+      "id": 43238146146439,
+      "title": "YL",
+      "sku": "500152",
+      "available": true,
+      "price": 50.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "YL"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 907,
+      "position": 4
+    },
+    {
+      "id": 43238146179207,
+      "title": "S",
+      "sku": "500152",
+      "available": true,
+      "price": 50.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "S"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 907,
+      "position": 5
+    },
+    {
+      "id": 43238146211975,
+      "title": "M",
+      "sku": "500152",
+      "available": true,
+      "price": 50.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "M"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 907,
+      "position": 6
+    },
+    {
+      "id": 43238146244743,
+      "title": "XL",
+      "sku": "500152",
+      "available": true,
+      "price": 50.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "XL"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 907,
+      "position": 7
+    },
+    {
+      "id": 43238146277511,
+      "title": "2XL",
+      "sku": "500152",
+      "available": true,
+      "price": 50.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "2XL"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 907,
+      "position": 8
+    },
+    {
+      "id": 43238146310279,
+      "title": "3XL",
+      "sku": "500152",
+      "available": true,
+      "price": 50.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "3XL"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 907,
+      "position": 9
+    },
+    {
+      "id": 43238146343047,
+      "title": "4XL",
+      "sku": "500152",
+      "available": true,
+      "price": 50.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "4XL"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 907,
+      "position": 10
+    },
+    {
+      "id": 43238146375815,
+      "title": "5XL",
+      "sku": "500152",
+      "available": true,
+      "price": 50.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "5XL"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 907,
+      "position": 11
+    },
+    {
+      "id": 43238146408583,
+      "title": "6XL",
+      "sku": "500152",
+      "available": true,
+      "price": 50.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "6XL"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 907,
+      "position": 12
+    },
+    {
+      "id": 43238146441351,
+      "title": "7XL",
+      "sku": "500152",
+      "available": true,
+      "price": 50.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "7XL"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 907,
+      "position": 13
+    },
+    {
+      "id": 43238146474119,
+      "title": "YXS",
+      "sku": "500152",
+      "available": true,
+      "price": 50.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "YXS"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 907,
+      "position": 14
+    }
+  ],
+  "images": [
+    {
+      "localPath": "/assets/images/notionworx-inventory/apparel/grs-spf-50-150gsm-mesh-jersey-long-sleeve-hoodie-t-shirt-full-dye-sublimation-500152/01.jpg",
+      "width": 1000,
+      "height": 1000,
+      "position": 1,
+      "variantIds": []
+    }
+  ],
+  "createdAt": "2025-09-25T12:33:34-06:00",
+  "updatedAt": "2026-08-18T21:24:55-06:00",
+  "publishedAt": "2025-09-26T09:33:35-06:00"
+}

@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 2,
+  "id": 8243209830535,
+  "handle": "option-set-1259582-image-swatches-1",
+  "slug": "option-set-1259582-image-swatches-1",
+  "name": "Sand Bag",
+  "vendor": "Notion Worx",
+  "productType": null,
+  "primaryCategory": {
+    "handle": "uncategorized",
+    "title": "Uncategorized"
+  },
+  "categories": [
+    {
+      "handle": "uncategorized",
+      "title": "Uncategorized"
+    }
+  ],
+  "descriptionHtml": "",
+  "descriptionText": "",
+  "tags": [
+    "globo-product-options",
+    "option-set-1259582-image-swatches-1"
+  ],
+  "skus": [],
+  "price": {
+    "min": 100.0,
+    "max": 150.0,
+    "compareAtMin": null,
+    "compareAtMax": null,
+    "variantCount": 2
+  },
+  "options": [
+    {
+      "name": "Title",
+      "position": 1,
+      "values": [
+        "Image Swatch - (6 pc set) 20ft Tent +$150.00",
+        "(4 pc set) 10ft & 15ft Tent +$100.00"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 43355758395527,
+      "title": "Image Swatch - (6 pc set) 20ft Tent +$150.00",
+      "sku": "None",
+      "available": true,
+      "price": 150.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "Image Swatch - (6 pc set) 20ft Tent +$150.00"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 0,
+      "position": 1
+    },
+    {
+      "id": 43355758526599,
+      "title": "(4 pc set) 10ft & 15ft Tent +$100.00",
+      "sku": "None",
+      "available": true,
+      "price": 100.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "(4 pc set) 10ft & 15ft Tent +$100.00"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 0,
+      "position": 2
+    }
+  ],
+  "images": [],
+  "createdAt": "2025-10-20T11:30:21-06:00",
+  "updatedAt": "2026-08-18T21:26:13-06:00",
+  "publishedAt": "2025-10-20T11:30:22-06:00"
+}

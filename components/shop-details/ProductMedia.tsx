@@ -11,6 +11,9 @@ import { Swiper as SwiperType } from "swiper";
 import { useEffect, useState, useMemo } from "react";
 import Image from "next/image";
 
+const FALLBACK_PRODUCT_IMAGE =
+  "/assets/images/notionworx-inventory/10x10/10ft-back-wall/01.jpg";
+
 export default function ProductMedia({
   product,
 }: {
@@ -31,7 +34,7 @@ export default function ProductMedia({
         src:
           product.img ||
           extraImages[0]?.src ||
-          "/assets/images/product/single/detail-1.jpg",
+          FALLBACK_PRODUCT_IMAGE,
         dataColor: extraImages[0]?.dataColor,
         dataSize: extraImages[0]?.dataSize,
       },
@@ -41,6 +44,7 @@ export default function ProductMedia({
   );
 
   const [swiper, setSwiper] = useState<SwiperType | null>(null);
+  const thumbnailPreviewCount = Math.max(images.length, 1);
 
   // Sync Gallery with Variant Selection
   useEffect(() => {
@@ -86,7 +90,8 @@ export default function ProductMedia({
             direction={
               thumbnailPosition === "bottom" ? "horizontal" : "vertical"
             }
-            preview={7}
+            preview={thumbnailPreviewCount}
+            xlPreview={thumbnailPreviewCount}
             wrapperClassName={
               thumbnailPosition === "bottom"
                 ? "product-thumbs-slider"

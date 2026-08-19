@@ -38,7 +38,10 @@ export default function CollectionCategoriesClient() {
               key={category.name}
               className="category-v03 style-2 hover-img4"
             >
-              <Link href={`/shop-default`} className="cate-image img-style4">
+              <Link
+                href={category.href ?? "/shop-default"}
+                className="cate-image img-style4"
+              >
                 <Image
                   loading="lazy"
                   width={330}
@@ -48,10 +51,18 @@ export default function CollectionCategoriesClient() {
                 />
               </Link>
               <div className="cate-content text-center">
-                <Link href={`/shop-default`} className="cate_name h5 fw-medium">
+                <Link
+                  href={category.href ?? "/shop-default"}
+                  className="cate_name h5 fw-medium"
+                >
                   {category.name}
                   <i className="icon icon-ArrowUpRight1" />
                 </Link>
+                {category.quantity ? (
+                  <p className="text-caption-01 cl-text-2 mt-6">
+                    {category.quantity}
+                  </p>
+                ) : null}
               </div>
             </div>
           ))}

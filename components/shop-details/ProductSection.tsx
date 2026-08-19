@@ -114,80 +114,16 @@ function ProductSectionInner({
   );
 }
 
-const demoImages: ProductSingleImage[] = [
-  {
-    src: "/assets/images/product/single/detail-1_2.jpg",
-    dataColor: "green",
-    dataSize: "S",
-  },
-  {
-    src: "/assets/images/product/single/detail-1_3.jpg",
-    dataColor: "green",
-    dataSize: "M",
-  },
-  {
-    src: "/assets/images/product/single/detail-1_4.jpg",
-    dataColor: "green",
-    dataSize: "XL",
-  },
-  {
-    src: "/assets/images/product/single/detail-1_5.jpg",
-    dataColor: "gray",
-    dataSize: "M",
-  },
-  {
-    src: "/assets/images/product/single/detail-1_6.jpg",
-    dataColor: "gray",
-    dataSize: "M",
-  },
-  {
-    src: "/assets/images/product/single/detail-1_7.jpg",
-    dataColor: "black",
-    dataSize: "L",
-  },
-  {
-    src: "/assets/images/product/single/detail-1_8.jpg",
-    dataColor: "black",
-    dataSize: "L",
-  },
-];
-
-const demoColors: ColorOption[] = [
-  {
-    label: "Green",
-    swatchClass: "bg-warm-brown",
-    img: "/assets/images/product/single/img_square/detail-1_2.jpg",
-  },
-  {
-    label: "Gray",
-    swatchClass: "bg-dark-gray",
-    img: "/assets/images/product/single/img_square/detail-1_5.jpg",
-  },
-  {
-    label: "Black",
-    swatchClass: "bg-black",
-    img: "/assets/images/product/single/img_square/detail-1_7.jpg",
-  },
-];
-
-const demoSizes: SizeOption[] = [
-  { value: "S" },
-  { value: "M" },
-  { value: "L" },
-  { value: "XL" },
-  { value: "XXL" },
-];
-
 export default function ProductSection({
   product,
   thumbnailPosition = "left",
   zoomType = "default",
-  initialColor = "green",
-  initialSize = "S",
+  initialColor,
+  initialSize,
   initialQuantity = 1,
-  extraImages = demoImages,
-  colors = demoColors,
-  sizes: sizesProp = demoSizes,
+  extraImages,
+  colors,
+  sizes: sizesProp,
   layout = "default",
   mediaLayout = "slider",
   parentClass = "section-product-single tf-main-product section-image-zoom",
@@ -223,17 +159,40 @@ export default function ProductSection({
     | "swatch-dropdown-color";
   mediaLayout?: "slider" | "grid" | "grid-2" | "stacked";
 }) {
-  const sizes: SizeOption[] = sizesProp.map((s) =>
+  const resolvedImages: ProductSingleImage[] =
+    extraImages && extraImages.length > 0
+      ? extraImages
+      : product.images && product.images.length > 0
+        ? product.images
+        : product.img
+          ? [{ src: product.img }]
+          : [];
+  const resolvedColors: ColorOption[] =
+    colors && colors.length > 0
+      ? colors
+      : product.colors && product.colors.length > 0
+        ? product.colors
+        : [];
+  const resolvedSizesProp =
+    sizesProp && sizesProp.length > 0
+      ? sizesProp
+      : product.sizes && product.sizes.length > 0
+        ? product.sizes
+        : [];
+  const sizes: SizeOption[] = resolvedSizesProp.map((s) =>
     typeof s === "string" ? { value: s } : s,
   );
+  const resolvedInitialColor =
+    initialColor ?? resolvedColors[0]?.label ?? "";
+  const resolvedInitialSize = initialSize ?? sizes[0]?.value ?? "";
 
   return (
     <ProductProvider
-      initialColor={initialColor}
-      initialSize={initialSize}
+      initialColor={resolvedInitialColor}
+      initialSize={resolvedInitialSize}
       initialQuantity={initialQuantity}
-      extraImages={extraImages}
-      colors={colors}
+      extraImages={resolvedImages}
+      colors={resolvedColors}
       sizes={sizes}
       thumbnailPosition={thumbnailPosition}
       zoomType={zoomType}

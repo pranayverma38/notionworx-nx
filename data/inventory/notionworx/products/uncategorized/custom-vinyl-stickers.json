@@ -1,0 +1,669 @@
+{
+  "schemaVersion": 2,
+  "id": 8519820345479,
+  "handle": "custom-vinyl-stickers",
+  "slug": "custom-vinyl-stickers",
+  "name": "Custom Vinyl Stickers",
+  "vendor": "Notion Worx",
+  "productType": null,
+  "primaryCategory": {
+    "handle": "uncategorized",
+    "title": "Uncategorized"
+  },
+  "categories": [
+    {
+      "handle": "uncategorized",
+      "title": "Uncategorized"
+    }
+  ],
+  "descriptionHtml": "<p><span>\u00a0Make Your Mark with Unique Designs -Perfect for personalizing school supplies, office gear, and home decor. Ideal for creatives, entrepreneurs, and anyone wanting to express their individuality. A thoughtful gift for friends, family, or colleagues. These die-cut stickers can be tailored to any shape, adding flair and personality to your everyday items or marketing materials.</span></p>\n<p data-start=\"758\" data-end=\"777\">\ud83d\udd39 <strong data-start=\"761\" data-end=\"777\">Key Features</strong></p>\n<p data-start=\"779\" data-end=\"1253\">\u2702\ufe0f <strong data-start=\"782\" data-end=\"806\">Custom Die Cut Shape</strong> \u2013 Cut precisely to the outline of your design<br data-start=\"852\" data-end=\"855\">\ud83c\udfa8 <strong data-start=\"858\" data-end=\"881\">Full-Color Printing</strong> \u2013 Sharp, vibrant, high-resolution graphics<br data-start=\"924\" data-end=\"927\">\ud83e\uddf2 <strong data-start=\"930\" data-end=\"956\">Premium Vinyl Material</strong> \u2013 Durable and professional finish<br data-start=\"990\" data-end=\"993\">\ud83d\udca7 <strong data-start=\"996\" data-end=\"1015\">Water-Resistant</strong> \u2013 Suitable for indoor and outdoor use<br data-start=\"1053\" data-end=\"1056\">\u2600\ufe0f <strong data-start=\"1059\" data-end=\"1082\">Fade-Resistant Inks</strong> \u2013 Long-lasting color performance<br data-start=\"1115\" data-end=\"1118\">\ud83d\udcb0 <strong data-start=\"1121\" data-end=\"1138\">No Die Charge</strong> \u2013 No extra fees for custom shapes<br data-start=\"1172\" data-end=\"1175\">\ud83d\udce6 <strong data-start=\"1178\" data-end=\"1195\">Versatile Use</strong> \u2013 Ideal for branding, packaging, promotions, and events</p>",
+  "descriptionText": "Make Your Mark with Unique Designs -Perfect for personalizing school supplies, office gear, and home decor. Ideal for creatives, entrepreneurs, and anyone wanting to express their individuality. A thoughtful gift for friends, family, or colleagues. These die-cut stickers can be tailored to any shape, adding flair and personality to your everyday items or marketing materials.\n\ud83d\udd39 Key Features\n\u2702\ufe0f Custom Die Cut Shape \u2013 Cut precisely to the outline of your design\n\ud83c\udfa8 Full-Color Printing \u2013 Sharp, vibrant, high-resolution graphics\n\ud83e\uddf2 Premium Vinyl Material \u2013 Durable and professional finish\n\ud83d\udca7 Water-Resistant \u2013 Suitable for indoor and outdoor use\n\u2600\ufe0f Fade-Resistant Inks \u2013 Long-lasting color performance\n\ud83d\udcb0 No Die Charge \u2013 No extra fees for custom shapes\n\ud83d\udce6 Versatile Use \u2013 Ideal for branding, packaging, promotions, and events",
+  "tags": [
+    "Holiday Gift Product"
+  ],
+  "skus": [
+    "220001"
+  ],
+  "price": {
+    "min": 55.0,
+    "max": 1100.0,
+    "compareAtMin": null,
+    "compareAtMax": null,
+    "variantCount": 35
+  },
+  "options": [
+    {
+      "name": "Size",
+      "position": 1,
+      "values": [
+        "2.5'' x 3''",
+        "3'' x 3''",
+        "2'' x 2''",
+        "4'' x 4''",
+        "5'' x 5''"
+      ]
+    },
+    {
+      "name": "Qty",
+      "position": 2,
+      "values": [
+        "100",
+        "300",
+        "500",
+        "1000",
+        "3000",
+        "5000",
+        "10000"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 44291249700999,
+      "title": "2.5'' x 3'' / 100",
+      "sku": "220001",
+      "available": true,
+      "price": 55.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "2.5'' x 3''",
+        "100"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 0,
+      "position": 1
+    },
+    {
+      "id": 44291249733767,
+      "title": "2.5'' x 3'' / 300",
+      "sku": "None",
+      "available": true,
+      "price": 90.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "2.5'' x 3''",
+        "300"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 0,
+      "position": 2
+    },
+    {
+      "id": 44291249766535,
+      "title": "2.5'' x 3'' / 500",
+      "sku": "None",
+      "available": true,
+      "price": 125.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "2.5'' x 3''",
+        "500"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 0,
+      "position": 3
+    },
+    {
+      "id": 44291249799303,
+      "title": "2.5'' x 3'' / 1000",
+      "sku": "None",
+      "available": true,
+      "price": 190.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "2.5'' x 3''",
+        "1000"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 0,
+      "position": 4
+    },
+    {
+      "id": 44291249832071,
+      "title": "2.5'' x 3'' / 3000",
+      "sku": "None",
+      "available": true,
+      "price": 430.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "2.5'' x 3''",
+        "3000"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 0,
+      "position": 5
+    },
+    {
+      "id": 44291249864839,
+      "title": "2.5'' x 3'' / 5000",
+      "sku": "None",
+      "available": true,
+      "price": 640.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "2.5'' x 3''",
+        "5000"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 0,
+      "position": 6
+    },
+    {
+      "id": 44291249897607,
+      "title": "2.5'' x 3'' / 10000",
+      "sku": "None",
+      "available": true,
+      "price": 1100.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "2.5'' x 3''",
+        "10000"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 0,
+      "position": 7
+    },
+    {
+      "id": 44291249930375,
+      "title": "3'' x 3'' / 100",
+      "sku": "None",
+      "available": true,
+      "price": 55.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "3'' x 3''",
+        "100"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 0,
+      "position": 8
+    },
+    {
+      "id": 44291249963143,
+      "title": "3'' x 3'' / 300",
+      "sku": "None",
+      "available": true,
+      "price": 90.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "3'' x 3''",
+        "300"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 0,
+      "position": 9
+    },
+    {
+      "id": 44291249995911,
+      "title": "3'' x 3'' / 500",
+      "sku": "None",
+      "available": true,
+      "price": 120.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "3'' x 3''",
+        "500"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 0,
+      "position": 10
+    },
+    {
+      "id": 44291250028679,
+      "title": "3'' x 3'' / 1000",
+      "sku": "None",
+      "available": true,
+      "price": 190.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "3'' x 3''",
+        "1000"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 0,
+      "position": 11
+    },
+    {
+      "id": 44291250061447,
+      "title": "3'' x 3'' / 3000",
+      "sku": "None",
+      "available": true,
+      "price": 430.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "3'' x 3''",
+        "3000"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 0,
+      "position": 12
+    },
+    {
+      "id": 44291250094215,
+      "title": "3'' x 3'' / 5000",
+      "sku": "None",
+      "available": true,
+      "price": 640.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "3'' x 3''",
+        "5000"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 0,
+      "position": 13
+    },
+    {
+      "id": 44291250126983,
+      "title": "3'' x 3'' / 10000",
+      "sku": "None",
+      "available": true,
+      "price": 1100.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "3'' x 3''",
+        "10000"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 0,
+      "position": 14
+    },
+    {
+      "id": 44291250159751,
+      "title": "2'' x 2'' / 100",
+      "sku": "None",
+      "available": true,
+      "price": 55.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "2'' x 2''",
+        "100"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 0,
+      "position": 15
+    },
+    {
+      "id": 44291250192519,
+      "title": "2'' x 2'' / 300",
+      "sku": "None",
+      "available": true,
+      "price": 90.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "2'' x 2''",
+        "300"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 0,
+      "position": 16
+    },
+    {
+      "id": 44291250225287,
+      "title": "2'' x 2'' / 500",
+      "sku": "None",
+      "available": true,
+      "price": 125.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "2'' x 2''",
+        "500"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 0,
+      "position": 17
+    },
+    {
+      "id": 44291250258055,
+      "title": "2'' x 2'' / 1000",
+      "sku": "None",
+      "available": true,
+      "price": 190.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "2'' x 2''",
+        "1000"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 0,
+      "position": 18
+    },
+    {
+      "id": 44291250290823,
+      "title": "2'' x 2'' / 3000",
+      "sku": "None",
+      "available": true,
+      "price": 430.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "2'' x 2''",
+        "3000"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 0,
+      "position": 19
+    },
+    {
+      "id": 44291250323591,
+      "title": "2'' x 2'' / 5000",
+      "sku": "None",
+      "available": true,
+      "price": 640.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "2'' x 2''",
+        "5000"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 0,
+      "position": 20
+    },
+    {
+      "id": 44291250356359,
+      "title": "2'' x 2'' / 10000",
+      "sku": "None",
+      "available": true,
+      "price": 1100.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "2'' x 2''",
+        "10000"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 0,
+      "position": 21
+    },
+    {
+      "id": 44291250389127,
+      "title": "4'' x 4'' / 100",
+      "sku": "None",
+      "available": true,
+      "price": 55.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "4'' x 4''",
+        "100"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 0,
+      "position": 22
+    },
+    {
+      "id": 44291250421895,
+      "title": "4'' x 4'' / 300",
+      "sku": "None",
+      "available": true,
+      "price": 90.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "4'' x 4''",
+        "300"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 0,
+      "position": 23
+    },
+    {
+      "id": 44291250454663,
+      "title": "4'' x 4'' / 500",
+      "sku": "None",
+      "available": true,
+      "price": 125.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "4'' x 4''",
+        "500"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 0,
+      "position": 24
+    },
+    {
+      "id": 44291250487431,
+      "title": "4'' x 4'' / 1000",
+      "sku": "None",
+      "available": true,
+      "price": 190.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "4'' x 4''",
+        "1000"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 0,
+      "position": 25
+    },
+    {
+      "id": 44291250520199,
+      "title": "4'' x 4'' / 3000",
+      "sku": "None",
+      "available": true,
+      "price": 430.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "4'' x 4''",
+        "3000"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 0,
+      "position": 26
+    },
+    {
+      "id": 44291250552967,
+      "title": "4'' x 4'' / 5000",
+      "sku": "None",
+      "available": true,
+      "price": 640.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "4'' x 4''",
+        "5000"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 0,
+      "position": 27
+    },
+    {
+      "id": 44291250585735,
+      "title": "4'' x 4'' / 10000",
+      "sku": "None",
+      "available": true,
+      "price": 1100.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "4'' x 4''",
+        "10000"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 0,
+      "position": 28
+    },
+    {
+      "id": 44291250618503,
+      "title": "5'' x 5'' / 100",
+      "sku": "None",
+      "available": true,
+      "price": 55.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "5'' x 5''",
+        "100"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 0,
+      "position": 29
+    },
+    {
+      "id": 44291250651271,
+      "title": "5'' x 5'' / 300",
+      "sku": "None",
+      "available": true,
+      "price": 90.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "5'' x 5''",
+        "300"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 0,
+      "position": 30
+    },
+    {
+      "id": 44291250684039,
+      "title": "5'' x 5'' / 500",
+      "sku": "None",
+      "available": true,
+      "price": 125.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "5'' x 5''",
+        "500"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 0,
+      "position": 31
+    },
+    {
+      "id": 44291250716807,
+      "title": "5'' x 5'' / 1000",
+      "sku": "None",
+      "available": true,
+      "price": 190.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "5'' x 5''",
+        "1000"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 0,
+      "position": 32
+    },
+    {
+      "id": 44291250749575,
+      "title": "5'' x 5'' / 3000",
+      "sku": "None",
+      "available": true,
+      "price": 430.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "5'' x 5''",
+        "3000"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 0,
+      "position": 33
+    },
+    {
+      "id": 44291250782343,
+      "title": "5'' x 5'' / 5000",
+      "sku": "None",
+      "available": true,
+      "price": 640.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "5'' x 5''",
+        "5000"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 0,
+      "position": 34
+    },
+    {
+      "id": 44291250815111,
+      "title": "5'' x 5'' / 10000",
+      "sku": "None",
+      "available": true,
+      "price": 1100.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "5'' x 5''",
+        "10000"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 0,
+      "position": 35
+    }
+  ],
+  "images": [
+    {
+      "localPath": "/assets/images/notionworx-inventory/uncategorized/custom-vinyl-stickers/01.jpg",
+      "width": 800,
+      "height": 800,
+      "position": 1,
+      "variantIds": []
+    },
+    {
+      "localPath": "/assets/images/notionworx-inventory/uncategorized/custom-vinyl-stickers/02.jpg",
+      "width": 1500,
+      "height": 1500,
+      "position": 2,
+      "variantIds": []
+    },
+    {
+      "localPath": "/assets/images/notionworx-inventory/uncategorized/custom-vinyl-stickers/03.jpg",
+      "width": 1500,
+      "height": 1500,
+      "position": 3,
+      "variantIds": []
+    },
+    {
+      "localPath": "/assets/images/notionworx-inventory/uncategorized/custom-vinyl-stickers/04.jpg",
+      "width": 1500,
+      "height": 1500,
+      "position": 4,
+      "variantIds": []
+    },
+    {
+      "localPath": "/assets/images/notionworx-inventory/uncategorized/custom-vinyl-stickers/05.jpg",
+      "width": 1500,
+      "height": 1500,
+      "position": 5,
+      "variantIds": []
+    },
+    {
+      "localPath": "/assets/images/notionworx-inventory/uncategorized/custom-vinyl-stickers/06.jpg",
+      "width": 1500,
+      "height": 1500,
+      "position": 6,
+      "variantIds": []
+    }
+  ],
+  "createdAt": "2026-03-30T08:54:58-06:00",
+  "updatedAt": "2026-08-18T21:26:13-06:00",
+  "publishedAt": "2026-03-30T08:54:57-06:00"
+}

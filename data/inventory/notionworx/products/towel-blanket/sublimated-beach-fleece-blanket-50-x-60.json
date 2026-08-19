@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "id": 8227675472007,
+  "handle": "sublimated-beach-fleece-blanket-50-x-60",
+  "slug": "sublimated-beach-fleece-blanket-50-x-60",
+  "name": "Sublimated Beach Fleece Blanket - 50\" x 60\"",
+  "vendor": "Notion Worx",
+  "productType": null,
+  "primaryCategory": {
+    "handle": "towel-blanket",
+    "title": "TOWEL & BLANKET"
+  },
+  "categories": [
+    {
+      "handle": "towel-blanket",
+      "title": "TOWEL & BLANKET"
+    }
+  ],
+  "descriptionHtml": "<p><span style=\"color: #2b00ff;\"><strong>Download Tempplate</strong></span></p>\n<p>full-color, edge-to-edge sublimated fleece blanket.\u00a0</p>\n<p><span>Included:</span></p>\n<div>\n<ul>\n<li>Full color sublimated design</li>\n</ul>\n<p><span>Specifications:\u00a0</span></p>\n<p><span color=\"#636363\" style=\"color: #636363;\">Size: 50\" x 60\"\u00a0<br></span><span color=\"#636363\" style=\"color: #636363;\">Weight: 1 lb</span>\u00a0</p>\n<p><span>moisture wicking fabric</span></p>\n\n</div>",
+  "descriptionText": "Download Tempplate\nfull-color, edge-to-edge sublimated fleece blanket.\nIncluded:\nFull color sublimated design\nSpecifications:\nSize: 50\" x 60\"\nWeight: 1 lb\nmoisture wicking fabric",
+  "tags": [],
+  "skus": [
+    "50011"
+  ],
+  "price": {
+    "min": 60.0,
+    "max": 60.0,
+    "compareAtMin": null,
+    "compareAtMax": null,
+    "variantCount": 1
+  },
+  "options": [
+    {
+      "name": "Title",
+      "position": 1,
+      "values": [
+        "Default Title"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 43238165676167,
+      "title": "Default Title",
+      "sku": "50011",
+      "available": true,
+      "price": 60.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "Default Title"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 907,
+      "position": 1
+    }
+  ],
+  "images": [
+    {
+      "localPath": "/assets/images/notionworx-inventory/towel-blanket/sublimated-beach-fleece-blanket-50-x-60/01.jpg",
+      "width": 1200,
+      "height": 1200,
+      "position": 1,
+      "variantIds": []
+    },
+    {
+      "localPath": "/assets/images/notionworx-inventory/towel-blanket/sublimated-beach-fleece-blanket-50-x-60/02.jpg",
+      "width": 800,
+      "height": 800,
+      "position": 2,
+      "variantIds": []
+    },
+    {
+      "localPath": "/assets/images/notionworx-inventory/towel-blanket/sublimated-beach-fleece-blanket-50-x-60/03.jpg",
+      "width": 2500,
+      "height": 2500,
+      "position": 3,
+      "variantIds": []
+    },
+    {
+      "localPath": "/assets/images/notionworx-inventory/towel-blanket/sublimated-beach-fleece-blanket-50-x-60/04.jpg",
+      "width": 600,
+      "height": 600,
+      "position": 4,
+      "variantIds": []
+    },
+    {
+      "localPath": "/assets/images/notionworx-inventory/towel-blanket/sublimated-beach-fleece-blanket-50-x-60/05.jpg",
+      "width": 600,
+      "height": 600,
+      "position": 5,
+      "variantIds": []
+    }
+  ],
+  "createdAt": "2025-09-25T12:36:22-06:00",
+  "updatedAt": "2026-08-18T21:26:03-06:00",
+  "publishedAt": "2025-09-28T21:05:36-06:00"
+}

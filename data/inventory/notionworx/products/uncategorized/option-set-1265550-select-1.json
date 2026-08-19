@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 2,
+  "id": 8249822150791,
+  "handle": "option-set-1265550-select-1",
+  "slug": "option-set-1265550-select-1",
+  "name": "Double Sided Walls",
+  "vendor": "Notion Worx",
+  "productType": null,
+  "primaryCategory": {
+    "handle": "uncategorized",
+    "title": "Uncategorized"
+  },
+  "categories": [
+    {
+      "handle": "uncategorized",
+      "title": "Uncategorized"
+    }
+  ],
+  "descriptionHtml": "",
+  "descriptionText": "",
+  "tags": [
+    "globo-product-options",
+    "option-set-1265550-select-1"
+  ],
+  "skus": [],
+  "price": {
+    "min": 140.0,
+    "max": 340.0,
+    "compareAtMin": null,
+    "compareAtMax": null,
+    "variantCount": 3
+  },
+  "options": [
+    {
+      "name": "Title",
+      "position": 1,
+      "values": [
+        "Double Sided Back Wall",
+        "Double Sided Half Side Walls",
+        "Double Sided Three Full Walls"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 43406732918919,
+      "title": "Double Sided Back Wall",
+      "sku": "None",
+      "available": true,
+      "price": 140.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "Double Sided Back Wall"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 0,
+      "position": 1
+    },
+    {
+      "id": 43406732951687,
+      "title": "Double Sided Half Side Walls",
+      "sku": "None",
+      "available": true,
+      "price": 200.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "Double Sided Half Side Walls"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 0,
+      "position": 2
+    },
+    {
+      "id": 43406732984455,
+      "title": "Double Sided Three Full Walls",
+      "sku": "None",
+      "available": true,
+      "price": 340.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "Double Sided Three Full Walls"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 0,
+      "position": 3
+    }
+  ],
+  "images": [],
+  "createdAt": "2025-10-28T01:40:10-06:00",
+  "updatedAt": "2026-08-18T21:26:13-06:00",
+  "publishedAt": "2025-10-28T01:40:11-06:00"
+}

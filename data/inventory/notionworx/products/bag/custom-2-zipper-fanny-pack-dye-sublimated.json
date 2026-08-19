@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 2,
+  "id": 8227678978183,
+  "handle": "custom-2-zipper-fanny-pack-dye-sublimated",
+  "slug": "custom-2-zipper-fanny-pack-dye-sublimated",
+  "name": "Custom 2 zipper Fanny Pack (Dye Sublimated) #500050",
+  "vendor": "Notion Worx",
+  "productType": null,
+  "primaryCategory": {
+    "handle": "bag",
+    "title": "BAG"
+  },
+  "categories": [
+    {
+      "handle": "bag",
+      "title": "BAG"
+    }
+  ],
+  "descriptionHtml": "<p>Material:\u00a0600D\u00a0Oxford,\u00a01 layers ,out\u00a0 is printed, the inner is black color)</p>\n<p>Size:</p>\n<p>Top 11.4''w x 4.3''h</p>\n<p>Back:14.8''w x 6.3''h</p>\n<p>Front:18.7'' w x 6.3''h (safe area 6.25'' w x 2.5''h)</p>\n<p><span>Sublimation Full-color Fanny pack waist bag. This fanny pack includes edge-to-edge, full-color printing. perfect sports bags for team or giveaway. Constructed from sturdy\u00a0</span><span id=\"summaryProductDescription\" data-bind=\"text: description, wordsCheck: description, specialChars: description, requiredField: description, checkFirst: description, moreThanOneChar: description, moreThanOneWord: description\">600D Polyester</span><span>, this adjustable fanny pack waist bag straps are comfortable and stylish. this practical promotion will make a lasting impression once imprinted in full color and sublimated with your logo or company name.</span></p>",
+  "descriptionText": "Material: 600D Oxford, 1 layers ,out is printed, the inner is black color)\nSize:\nTop 11.4''w x 4.3''h\nBack:14.8''w x 6.3''h\nFront:18.7'' w x 6.3''h (safe area 6.25'' w x 2.5''h)\nSublimation Full-color Fanny pack waist bag. This fanny pack includes edge-to-edge, full-color printing. perfect sports bags for team or giveaway. Constructed from sturdy 600D Polyester, this adjustable fanny pack waist bag straps are comfortable and stylish. this practical promotion will make a lasting impression once imprinted in full color and sublimated with your logo or company name.",
+  "tags": [],
+  "skus": [
+    "500050"
+  ],
+  "price": {
+    "min": 6.0,
+    "max": 6.0,
+    "compareAtMin": null,
+    "compareAtMax": null,
+    "variantCount": 1
+  },
+  "options": [
+    {
+      "name": "Title",
+      "position": 1,
+      "values": [
+        "Default Title"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 43238184321159,
+      "title": "Default Title",
+      "sku": "500050",
+      "available": true,
+      "price": 6.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "Default Title"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 454,
+      "position": 1
+    }
+  ],
+  "images": [
+    {
+      "localPath": "/assets/images/notionworx-inventory/bag/custom-2-zipper-fanny-pack-dye-sublimated/01.jpg",
+      "width": 800,
+      "height": 800,
+      "position": 1,
+      "variantIds": []
+    }
+  ],
+  "createdAt": "2025-09-25T12:38:17-06:00",
+  "updatedAt": "2026-08-18T21:25:51-06:00",
+  "publishedAt": "2025-09-28T20:18:36-06:00"
+}

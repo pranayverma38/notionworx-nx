@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 2,
+  "id": 8229364531335,
+  "handle": "flag-pole-and-bracket",
+  "slug": "flag-pole-and-bracket",
+  "name": "Flag Pole and Bracket",
+  "vendor": "Notion Worx",
+  "productType": null,
+  "primaryCategory": {
+    "handle": "flags",
+    "title": "FLAGS"
+  },
+  "categories": [
+    {
+      "handle": "flags",
+      "title": "FLAGS"
+    }
+  ],
+  "descriptionHtml": "<p data-mce-fragment=\"1\">The Flag Pole and Bracket Kit\u00a0is perfect for those wishing to display their Custom Pole Flag. Buy the pole or the bracket separately or as a set.\u00a0</p>\n<p data-mce-fragment=\"1\">The bracket has two positions for displaying the pole.</p>\n<p data-mce-fragment=\"1\">The tangle-free pole has a top section that spins on ball bearings, this will increase the life of your flag. Also included are clips to secure the flag into place and a plastic ring for use with grommets. Recommended for 2x3 or 3x5 flags.\u00a0</p>\n<ul data-mce-fragment=\"1\">\n<li data-mce-fragment=\"1\">2 Piece - 74.5 Aluminum Pole with Chrome Ball</li>\n<li data-mce-fragment=\"1\">Powder coated white flag bracket</li>\n</ul>",
+  "descriptionText": "The Flag Pole and Bracket Kit is perfect for those wishing to display their Custom Pole Flag. Buy the pole or the bracket separately or as a set.\nThe bracket has two positions for displaying the pole.\nThe tangle-free pole has a top section that spins on ball bearings, this will increase the life of your flag. Also included are clips to secure the flag into place and a plastic ring for use with grommets. Recommended for 2x3 or 3x5 flags.\n2 Piece - 74.5 Aluminum Pole with Chrome Ball\nPowder coated white flag bracket",
+  "tags": [],
+  "skus": [
+    "810060"
+  ],
+  "price": {
+    "min": 85.0,
+    "max": 85.0,
+    "compareAtMin": null,
+    "compareAtMax": null,
+    "variantCount": 1
+  },
+  "options": [
+    {
+      "name": "Title",
+      "position": 1,
+      "values": [
+        "Default Title"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 43250408259719,
+      "title": "Default Title",
+      "sku": "810060",
+      "available": true,
+      "price": 85.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "Default Title"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 3629,
+      "position": 1
+    }
+  ],
+  "images": [
+    {
+      "localPath": "/assets/images/notionworx-inventory/flags/flag-pole-and-bracket/01.png",
+      "width": 1000,
+      "height": 1000,
+      "position": 1,
+      "variantIds": []
+    },
+    {
+      "localPath": "/assets/images/notionworx-inventory/flags/flag-pole-and-bracket/02.jpg",
+      "width": 1000,
+      "height": 1000,
+      "position": 2,
+      "variantIds": []
+    }
+  ],
+  "createdAt": "2025-09-28T20:10:16-06:00",
+  "updatedAt": "2026-08-18T21:24:05-06:00",
+  "publishedAt": "2025-09-28T20:10:16-06:00"
+}

@@ -1,0 +1,175 @@
+{
+  "schemaVersion": 2,
+  "id": 8258302378119,
+  "handle": "option-set-1273261-select-3",
+  "slug": "option-set-1273261-select-3",
+  "name": "Full Walls - Fabric From Bottom To Top",
+  "vendor": "Notion Worx",
+  "productType": null,
+  "primaryCategory": {
+    "handle": "uncategorized",
+    "title": "Uncategorized"
+  },
+  "categories": [
+    {
+      "handle": "uncategorized",
+      "title": "Uncategorized"
+    }
+  ],
+  "descriptionHtml": "",
+  "descriptionText": "",
+  "tags": [
+    "globo-product-options",
+    "option-set-1273261-select-3"
+  ],
+  "skus": [],
+  "price": {
+    "min": 30.0,
+    "max": 225.0,
+    "compareAtMin": null,
+    "compareAtMax": null,
+    "variantCount": 8
+  },
+  "options": [
+    {
+      "name": "Title",
+      "position": 1,
+      "values": [
+        "Make It! Full Back Wall",
+        "Make It! Full Side Walls",
+        "Make It! Full Back Wall & Side Walls",
+        "Full Walls - Fabric From Bottom To Top - Make It! Full Back Wall",
+        "Full Walls - Fabric From Bottom To Top - Make It! Full Side Walls",
+        "Full Walls - Fabric From Bottom To Top - Make It! Full Back Wall & Side Walls",
+        "Make It! Full Front Wall",
+        "Make It! Full Front Wall & Side Walls"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 43429545083015,
+      "title": "Make It! Full Back Wall",
+      "sku": "None",
+      "available": true,
+      "price": 75.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "Make It! Full Back Wall"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 0,
+      "position": 1
+    },
+    {
+      "id": 43429545115783,
+      "title": "Make It! Full Side Walls",
+      "sku": "None",
+      "available": true,
+      "price": 60.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "Make It! Full Side Walls"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 0,
+      "position": 2
+    },
+    {
+      "id": 43429545148551,
+      "title": "Make It! Full Back Wall & Side Walls",
+      "sku": "None",
+      "available": true,
+      "price": 225.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "Make It! Full Back Wall & Side Walls"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 0,
+      "position": 3
+    },
+    {
+      "id": 43429559632007,
+      "title": "Full Walls - Fabric From Bottom To Top - Make It! Full Back Wall",
+      "sku": "None",
+      "available": true,
+      "price": 75.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "Full Walls - Fabric From Bottom To Top - Make It! Full Back Wall"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 0,
+      "position": 4
+    },
+    {
+      "id": 43429559664775,
+      "title": "Full Walls - Fabric From Bottom To Top - Make It! Full Side Walls",
+      "sku": "None",
+      "available": true,
+      "price": 150.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "Full Walls - Fabric From Bottom To Top - Make It! Full Side Walls"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 0,
+      "position": 5
+    },
+    {
+      "id": 43429559697543,
+      "title": "Full Walls - Fabric From Bottom To Top - Make It! Full Back Wall & Side Walls",
+      "sku": "None",
+      "available": true,
+      "price": 225.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "Full Walls - Fabric From Bottom To Top - Make It! Full Back Wall & Side Walls"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 0,
+      "position": 6
+    },
+    {
+      "id": 43429603868807,
+      "title": "Make It! Full Front Wall",
+      "sku": "None",
+      "available": true,
+      "price": 30.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "Make It! Full Front Wall"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 0,
+      "position": 7
+    },
+    {
+      "id": 43429603901575,
+      "title": "Make It! Full Front Wall & Side Walls",
+      "sku": "None",
+      "available": true,
+      "price": 90.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "Make It! Full Front Wall & Side Walls"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 0,
+      "position": 8
+    }
+  ],
+  "images": [],
+  "createdAt": "2025-11-03T14:45:02-07:00",
+  "updatedAt": "2026-08-18T21:26:13-06:00",
+  "publishedAt": "2025-11-03T14:45:02-07:00"
+}

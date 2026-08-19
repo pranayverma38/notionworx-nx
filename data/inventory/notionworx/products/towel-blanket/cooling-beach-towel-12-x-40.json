@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 2,
+  "id": 8227675570311,
+  "handle": "cooling-beach-towel-12-x-40",
+  "slug": "cooling-beach-towel-12-x-40",
+  "name": "Sublimated Cooling Beach Towel - 12'' x 40''",
+  "vendor": "Notion Worx",
+  "productType": null,
+  "primaryCategory": {
+    "handle": "towel-blanket",
+    "title": "TOWEL & BLANKET"
+  },
+  "categories": [
+    {
+      "handle": "towel-blanket",
+      "title": "TOWEL & BLANKET"
+    }
+  ],
+  "descriptionHtml": "<p>min qty is 50pcs ,can mix design</p>\n<p><span>moisture-wicking fabric jersey mesh</span></p>",
+  "descriptionText": "min qty is 50pcs ,can mix design\nmoisture-wicking fabric jersey mesh",
+  "tags": [],
+  "skus": [
+    "50012"
+  ],
+  "price": {
+    "min": 20.0,
+    "max": 20.0,
+    "compareAtMin": null,
+    "compareAtMax": null,
+    "variantCount": 1
+  },
+  "options": [
+    {
+      "name": "Title",
+      "position": 1,
+      "values": [
+        "Default Title"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 43238165774471,
+      "title": "Default Title",
+      "sku": "50012",
+      "available": true,
+      "price": 20.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "Default Title"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 1361,
+      "position": 1
+    }
+  ],
+  "images": [
+    {
+      "localPath": "/assets/images/notionworx-inventory/towel-blanket/cooling-beach-towel-12-x-40/01.jpg",
+      "width": 1000,
+      "height": 1000,
+      "position": 1,
+      "variantIds": []
+    }
+  ],
+  "createdAt": "2025-09-25T12:36:26-06:00",
+  "updatedAt": "2026-08-18T21:26:03-06:00",
+  "publishedAt": "2025-09-28T21:05:38-06:00"
+}

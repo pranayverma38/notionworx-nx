@@ -16,9 +16,6 @@ import {
 } from "./ProductCardParts";
 import { useProductCard } from "./ProductCardContext";
 
-const LIST_DESCRIPTION =
-  "Button-up shirt sleeves and a relaxed silhouette. It’s tailored with drapey, crinkle-texture fabric that’s made from LENZING™ ECOVERO™ Viscose — responsibly sourced wood-based fibres produced through a process that reduces...";
-
 export function ProductCardShopList() {
   const {
     product,
@@ -67,14 +64,16 @@ export function ProductCardShopList() {
         >
           {product.name}
         </Link>
-        {showRatting ? (
+        {showRatting && product.rating != null && product.rating > 0 ? (
           <ProductCardStars className={starWrapClassName} />
         ) : null}
         <ProductCardPriceWrap
           price={product.price}
           priceOld={product.priceOld}
         />
-        <p className="description text-caption-01 mb-10">{LIST_DESCRIPTION}</p>
+        <p className="description text-caption-01 mb-10">
+          {product.description ?? "Browse this product in the migrated catalog."}
+        </p>
         {product.colors != null && product.colors.length > 0 && (
           <ProductCardColorSwatches
             colors={product.colors}

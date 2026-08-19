@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "id": 8227679109255,
+  "handle": "custom-duffel-bag-dye-sublimated",
+  "slug": "custom-duffel-bag-dye-sublimated",
+  "name": "Custom Duffel Bag (Dye Sublimated) #500028",
+  "vendor": "Notion Worx",
+  "productType": null,
+  "primaryCategory": {
+    "handle": "bag",
+    "title": "BAG"
+  },
+  "categories": [
+    {
+      "handle": "bag",
+      "title": "BAG"
+    }
+  ],
+  "descriptionHtml": "<p class=\"p1\" data-mce-fragment=\"1\"><span data-mce-fragment=\"1\">Step up your game! These unique,\u00a0<strong data-mce-fragment=\"1\">personalized duffel bags</strong>\u00a0offer a sporty, stylish way to promote your brand with sports clubs or teams, school teams like cheerleading and dance teams, gyms, travel agencies and more. Your clients won't be able to put these high quality, personalized duffle bags down.</span></p>\n<p class=\"p1\" data-mce-fragment=\"1\"><span data-mce-fragment=\"1\">Stylish and durable, our personalized duffel bags can be used anywhere! Clients will tote them to the gym, team practice, dance class. This bag is the perfect size for a quick getaway or just running errands on the weekend. We've crafted this personalized duffel bag using durable\u00a0420D bee oxford\u00a0polyester poplin fabric. It's a perfect size at 12\"D x 20\"W, weighs just 4 lbs. and comes with webbing handles and printed round ends. Personalize it with a name, monogram, sport team or business logo. And get your brand the exposure it deserves.</span></p>",
+  "descriptionText": "Step up your game! These unique, personalized duffel bags offer a sporty, stylish way to promote your brand with sports clubs or teams, school teams like cheerleading and dance teams, gyms, travel agencies and more. Your clients won't be able to put these high quality, personalized duffle bags down.\nStylish and durable, our personalized duffel bags can be used anywhere! Clients will tote them to the gym, team practice, dance class. This bag is the perfect size for a quick getaway or just running errands on the weekend. We've crafted this personalized duffel bag using durable 420D bee oxford polyester poplin fabric. It's a perfect size at 12\"D x 20\"W, weighs just 4 lbs. and comes with webbing handles and printed round ends. Personalize it with a name, monogram, sport team or business logo. And get your brand the exposure it deserves.",
+  "tags": [],
+  "skus": [
+    "500028"
+  ],
+  "price": {
+    "min": 34.0,
+    "max": 34.0,
+    "compareAtMin": null,
+    "compareAtMax": null,
+    "variantCount": 1
+  },
+  "options": [
+    {
+      "name": "Title",
+      "position": 1,
+      "values": [
+        "Default Title"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 43238184452231,
+      "title": "Default Title",
+      "sku": "500028",
+      "available": true,
+      "price": 34.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "Default Title"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 454,
+      "position": 1
+    }
+  ],
+  "images": [
+    {
+      "localPath": "/assets/images/notionworx-inventory/bag/custom-duffel-bag-dye-sublimated/01.jpg",
+      "width": 1500,
+      "height": 1500,
+      "position": 1,
+      "variantIds": []
+    },
+    {
+      "localPath": "/assets/images/notionworx-inventory/bag/custom-duffel-bag-dye-sublimated/02.png",
+      "width": 1182,
+      "height": 1062,
+      "position": 2,
+      "variantIds": []
+    },
+    {
+      "localPath": "/assets/images/notionworx-inventory/bag/custom-duffel-bag-dye-sublimated/03.png",
+      "width": 1188,
+      "height": 1152,
+      "position": 3,
+      "variantIds": []
+    },
+    {
+      "localPath": "/assets/images/notionworx-inventory/bag/custom-duffel-bag-dye-sublimated/04.png",
+      "width": 1188,
+      "height": 1194,
+      "position": 4,
+      "variantIds": []
+    },
+    {
+      "localPath": "/assets/images/notionworx-inventory/bag/custom-duffel-bag-dye-sublimated/05.png",
+      "width": 1176,
+      "height": 1152,
+      "position": 5,
+      "variantIds": []
+    }
+  ],
+  "createdAt": "2025-09-25T12:38:21-06:00",
+  "updatedAt": "2026-08-18T21:25:51-06:00",
+  "publishedAt": "2025-09-28T20:18:37-06:00"
+}

@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 2,
+  "id": 8258921857159,
+  "handle": "6ft-heavy-duty-folding-table",
+  "slug": "6ft-heavy-duty-folding-table",
+  "name": "6ft Heavy-Duty Folding Table \u2013 Portable, Durable & Easy Setup",
+  "vendor": "Notion Worx",
+  "productType": null,
+  "primaryCategory": {
+    "handle": "table-cover",
+    "title": "TABLE COVER"
+  },
+  "categories": [
+    {
+      "handle": "table-cover",
+      "title": "TABLE COVER"
+    }
+  ],
+  "descriptionHtml": "<h3 data-start=\"990\" data-end=\"1028\"><strong data-start=\"994\" data-end=\"1026\">6ft Heavy-Duty Folding Table</strong></h3>\n<p data-start=\"1030\" data-end=\"1272\">Upgrade your event setup with our <strong data-start=\"1064\" data-end=\"1096\">6ft Heavy-Duty Folding Table</strong>, designed for vendors, trade shows, and outdoor events. This versatile, durable table provides a reliable surface for product displays, food service, or marketing materials.</p>\n<p data-start=\"1274\" data-end=\"1407\">\ud83d\udcaa <strong data-start=\"1277\" data-end=\"1305\">Heavy-Duty Construction:</strong> Built with a high-strength steel frame and reinforced plastic tabletop for long-lasting durability.</p>\n<p data-start=\"1409\" data-end=\"1509\">\ud83d\udccf <strong data-start=\"1412\" data-end=\"1433\">Spacious Surface:</strong> 6ft length provides ample space for serving, display, or workspace needs.</p>\n<p data-start=\"1511\" data-end=\"1593\">\u2699\ufe0f <strong data-start=\"1514\" data-end=\"1533\">Folding Design:</strong> Easily collapses for compact storage and quick transport.</p>\n<p data-start=\"1595\" data-end=\"1676\">\ud83d\ude9a <strong data-start=\"1598\" data-end=\"1625\">Portable &amp; Lightweight:</strong> Designed for easy carrying to events and setups.</p>\n<p data-start=\"1678\" data-end=\"1769\">\ud83e\uddfd <strong data-start=\"1681\" data-end=\"1699\">Easy to Clean:</strong> Smooth surface resists stains and is simple to wipe down after use.</p>\n<p data-start=\"1771\" data-end=\"1879\">\ud83c\udfaf <strong data-start=\"1774\" data-end=\"1796\">Multi-Purpose Use:</strong> Ideal for trade shows, food booths, vendor markets, parties, and outdoor events.</p>\n<hr data-start=\"1881\" data-end=\"1884\">\n<p data-start=\"1886\" data-end=\"1966\"><strong data-start=\"1886\" data-end=\"1909\">Product Dimensions:</strong><br data-start=\"1909\" data-end=\"1912\">Size: 72\" L x 30\" W x 29\" H<br data-start=\"1939\" data-end=\"1942\">Weight: Approx. 35 lbs</p>\n<p data-start=\"1968\" data-end=\"2044\"><strong data-start=\"1968\" data-end=\"1982\">Materials:</strong><br data-start=\"1982\" data-end=\"1985\">Frame: Steel<br data-start=\"1997\" data-end=\"2000\">Tabletop: High-Density Polyethylene (HDPE)</p>\n<p data-start=\"2046\" data-end=\"2139\"><strong data-start=\"2046\" data-end=\"2064\">Primary Usage:</strong><br data-start=\"2064\" data-end=\"2067\">Trade shows, food booths, vendor markets, catering, and outdoor events</p>",
+  "descriptionText": "6ft Heavy-Duty Folding Table\nUpgrade your event setup with our 6ft Heavy-Duty Folding Table, designed for vendors, trade shows, and outdoor events. This versatile, durable table provides a reliable surface for product displays, food service, or marketing materials.\n\ud83d\udcaa Heavy-Duty Construction: Built with a high-strength steel frame and reinforced plastic tabletop for long-lasting durability.\n\ud83d\udccf Spacious Surface: 6ft length provides ample space for serving, display, or workspace needs.\n\u2699\ufe0f Folding Design: Easily collapses for compact storage and quick transport.\n\ud83d\ude9a Portable & Lightweight: Designed for easy carrying to events and setups.\n\ud83e\uddfd Easy to Clean: Smooth surface resists stains and is simple to wipe down after use.\n\ud83c\udfaf Multi-Purpose Use: Ideal for trade shows, food booths, vendor markets, parties, and outdoor events.\nProduct Dimensions:\nSize: 72\" L x 30\" W x 29\" H\nWeight: Approx. 35 lbs\nMaterials:\nFrame: Steel\nTabletop: High-Density Polyethylene (HDPE)\nPrimary Usage:\nTrade shows, food booths, vendor markets, catering, and outdoor events",
+  "tags": [],
+  "skus": [
+    "ITEM #: FT6FT"
+  ],
+  "price": {
+    "min": 85.0,
+    "max": 85.0,
+    "compareAtMin": 105.0,
+    "compareAtMax": 105.0,
+    "variantCount": 1
+  },
+  "options": [
+    {
+      "name": "Title",
+      "position": 1,
+      "values": [
+        "Default Title"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 43431883407495,
+      "title": "Default Title",
+      "sku": "ITEM #: FT6FT",
+      "available": true,
+      "price": 85.0,
+      "compareAtPrice": 105.0,
+      "optionValues": [
+        "Default Title"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 0,
+      "position": 1
+    }
+  ],
+  "images": [
+    {
+      "localPath": "/assets/images/notionworx-inventory/table-cover/6ft-heavy-duty-folding-table/01.jpg",
+      "width": 1500,
+      "height": 1500,
+      "position": 1,
+      "variantIds": []
+    }
+  ],
+  "createdAt": "2025-11-04T14:01:23-07:00",
+  "updatedAt": "2026-08-18T21:24:27-06:00",
+  "publishedAt": "2025-11-04T14:01:26-07:00"
+}

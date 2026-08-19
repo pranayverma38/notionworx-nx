@@ -22,9 +22,11 @@ export { useShop } from "./ShopContext";
 export type { ShopContextValue } from "./ShopContext";
 
 export default function Shop({
+  defaultCategories = [],
   variant,
   isFullWidth = false,
 }: {
+  defaultCategories?: string[];
   variant?: ShopVariantProp;
   isFullWidth?: boolean;
 }) {
@@ -44,7 +46,10 @@ export default function Shop({
     getFilterCount,
     hasNoFilteredItems,
     hasMultiplePages,
-  } = useShopState({ products: shopDefaultProducts });
+  } = useShopState({
+    defaultCategories,
+    products: shopDefaultProducts,
+  });
 
   const infiniteScroll = variants.includes("infinityScroll");
   const progressive =

@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 2,
+  "handle": "car-club",
+  "title": "Car Club",
+  "description": "<p><img src=\"\" alt=\"\" style=\"display: block; margin-left: auto; margin-right: auto;\"></p>\n<p><img src=\"\" alt=\"\" style=\"display: block; margin-left: auto; margin-right: auto;\"><img src=\"\" alt=\"\" style=\"display: block; margin-left: auto; margin-right: auto;\"><img src=\"\" alt=\"\" style=\"display: block; margin-left: auto; margin-right: auto;\"><img src=\"\" alt=\"\" style=\"display: block; margin-left: auto; margin-right: auto;\"><img src=\"\" alt=\"\" style=\"display: block; margin-left: auto; margin-right: auto;\"><img src=\"\" alt=\"\" style=\"display: block; margin-left: auto; margin-right: auto;\"><img src=\"\" alt=\"\" style=\"display: block; margin-left: auto; margin-right: auto;\"><img src=\"\" alt=\"\" style=\"display: block; margin-left: auto; margin-right: auto;\"><img src=\"\" alt=\"\" style=\"display: block; margin-left: auto; margin-right: auto;\"><img src=\"\" alt=\"\" style=\"display: block; margin-left: auto; margin-right: auto;\"><img src=\"\" alt=\"\" style=\"display: block; margin-left: auto; margin-right: auto;\"><img src=\"\" alt=\"\" style=\"display: block; margin-left: auto; margin-right: auto;\"><img src=\"\" alt=\"\" style=\"display: block; margin-left: auto; margin-right: auto;\"></p>",
+  "image": {
+    "localPath": "/assets/images/notionworx-inventory/collections/car-club/01.png",
+    "width": null,
+    "height": null
+  },
+  "productsCount": 0,
+  "productHandles": []
+}

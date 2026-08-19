@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 2,
+  "id": 8227681271943,
+  "handle": "flag-pole-base-accerrories",
+  "slug": "flag-pole-base-accerrories",
+  "name": "Spike Base BA-10",
+  "vendor": "Notion Worx",
+  "productType": null,
+  "primaryCategory": {
+    "handle": "flags",
+    "title": "FLAGS"
+  },
+  "categories": [
+    {
+      "handle": "flags",
+      "title": "FLAGS"
+    }
+  ],
+  "descriptionHtml": "<p>This ground spike can be stuck into the ground to work as a base for sail sign hardware.<br></p>\n<p>Ball bearings provide smooth, 360\u00ba rotation<br>Pole hardware and flag sold separately<br>Ground spike is constructed of chrome-plated steel with a nylon polymer bearing cover<br>Product Size:\u00a020\u2018\u2019<br>Material: steel</p>",
+  "descriptionText": "This ground spike can be stuck into the ground to work as a base for sail sign hardware.\nBall bearings provide smooth, 360\u00ba rotation\nPole hardware and flag sold separately\nGround spike is constructed of chrome-plated steel with a nylon polymer bearing cover\nProduct Size: 20\u2018\u2019\nMaterial: steel",
+  "tags": [],
+  "skus": [
+    "806120"
+  ],
+  "price": {
+    "min": 35.0,
+    "max": 35.0,
+    "compareAtMin": null,
+    "compareAtMax": null,
+    "variantCount": 1
+  },
+  "options": [
+    {
+      "name": "Title",
+      "position": 1,
+      "values": [
+        "Default Title"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 43238199263367,
+      "title": "Default Title",
+      "sku": "806120",
+      "available": true,
+      "price": 35.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "Default Title"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 907,
+      "position": 1
+    }
+  ],
+  "images": [
+    {
+      "localPath": "/assets/images/notionworx-inventory/flags/flag-pole-base-accerrories/01.jpg",
+      "width": 500,
+      "height": 500,
+      "position": 1,
+      "variantIds": []
+    },
+    {
+      "localPath": "/assets/images/notionworx-inventory/flags/flag-pole-base-accerrories/02.jpg",
+      "width": 1000,
+      "height": 1000,
+      "position": 2,
+      "variantIds": []
+    }
+  ],
+  "createdAt": "2025-09-25T12:39:34-06:00",
+  "updatedAt": "2026-08-18T21:24:05-06:00",
+  "publishedAt": "2025-09-28T20:01:17-06:00"
+}

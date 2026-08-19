@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 2,
+  "handle": "corporate",
+  "title": "Corporate",
+  "description": "<p><img src=\"\" alt=\"\"><img src=\"\" alt=\"\"><img src=\"\" alt=\"\"></p>",
+  "image": {
+    "localPath": "/assets/images/notionworx-inventory/collections/corporate/01.jpg",
+    "width": null,
+    "height": null
+  },
+  "productsCount": 0,
+  "productHandles": []
+}

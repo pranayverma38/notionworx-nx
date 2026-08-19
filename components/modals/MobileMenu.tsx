@@ -4,11 +4,11 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { PreventDefaultForm } from "@/components/forms/PreventDefaultForm";
 import {
-  navHomeLinks,
-  navShop,
-  navProduct,
   navBlog,
+  navHomeLinks,
   navPages,
+  navProduct,
+  navShop,
 } from "@/data/nav";
 import CurrencySelect from "../common/CurrencySelect";
 import LanguageSelect from "../common/LanguageSelect";
@@ -74,8 +74,8 @@ export default function MobileMenu({
                 <ul className="sub-nav-menu">
                   {navHomeLinks
                     .flatMap((column) => column)
-                    .map((item, index) => (
-                      <li key={index}>
+                    .map((item) => (
+                      <li key={item.href}>
                         <Link href={item.href} className="sub-nav-link">
                           <span className="cus-text">{item.text}</span>
                           {item.label && (
@@ -108,7 +108,7 @@ export default function MobileMenu({
               <div id="dropdown-menu-1" className="collapse">
                 <ul className="sub-nav-menu">
                   {navShop.map((group, groupIndex) => (
-                    <li key={groupIndex}>
+                    <li key={group.title}>
                       <a
                         href={`#dropdown-menu-1-group-${groupIndex}`}
                         className="collapsed sub-nav-link"
@@ -124,8 +124,8 @@ export default function MobileMenu({
                         className="collapse"
                       >
                         <ul className="sub-nav-menu sub-menu-level-2">
-                          {group.links.map((link, linkIndex) => (
-                            <li key={linkIndex}>
+                          {group.links.map((link) => (
+                            <li key={link.href}>
                               <Link href={link.href} className="sub-nav-link">
                                 <span className="cus-text">{link.text}</span>
                               </Link>
@@ -153,7 +153,7 @@ export default function MobileMenu({
               <div id="dropdown-menu-2" className="collapse">
                 <ul className="sub-nav-menu">
                   {navProduct.map((group, groupIndex) => (
-                    <li key={groupIndex}>
+                    <li key={group.title}>
                       <a
                         href={`#dropdown-menu-2-group-${groupIndex}`}
                         className="collapsed sub-nav-link"
@@ -169,8 +169,8 @@ export default function MobileMenu({
                         className="collapse"
                       >
                         <ul className="sub-nav-menu sub-menu-level-2">
-                          {group.links.map((link, linkIndex) => (
-                            <li key={linkIndex}>
+                          {group.links.map((link) => (
+                            <li key={link.href}>
                               <Link href={link.href} className="sub-nav-link">
                                 <span className="cus-text">{link.text}</span>
                               </Link>
@@ -184,29 +184,31 @@ export default function MobileMenu({
               </div>
             </li>
 
-            <li className="nav-mb-item">
-              <a
-                href="#dropdown-menu-3"
-                className="collapsed mb-menu-link"
-                data-bs-toggle="collapse"
-                aria-expanded="false"
-                aria-controls="dropdown-menu-3"
-              >
-                <span>Blog</span>
-                <span className="icon ic-custom" aria-hidden />
-              </a>
-              <div id="dropdown-menu-3" className="collapse">
-                <ul className="sub-nav-menu">
-                  {navBlog.map((link, linkIndex) => (
-                    <li key={linkIndex}>
-                      <Link href={link.href} className="sub-nav-link">
-                        <span className="cus-text">{link.text}</span>
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            </li>
+            {navBlog.length > 0 && (
+              <li className="nav-mb-item">
+                <a
+                  href="#dropdown-menu-3"
+                  className="collapsed mb-menu-link"
+                  data-bs-toggle="collapse"
+                  aria-expanded="false"
+                  aria-controls="dropdown-menu-3"
+                >
+                  <span>Blog</span>
+                  <span className="icon ic-custom" aria-hidden />
+                </a>
+                <div id="dropdown-menu-3" className="collapse">
+                  <ul className="sub-nav-menu">
+                    {navBlog.map((link) => (
+                      <li key={link.href}>
+                        <Link href={link.href} className="sub-nav-link">
+                          <span className="cus-text">{link.text}</span>
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              </li>
+            )}
 
             <li className="nav-mb-item">
               <a
@@ -221,8 +223,8 @@ export default function MobileMenu({
               </a>
               <div id="dropdown-menu-4" className="collapse">
                 <ul className="sub-nav-menu">
-                  {navPages.map((link, linkIndex) => (
-                    <li key={linkIndex}>
+                  {navPages.map((link) => (
+                    <li key={link.href}>
                       <Link href={link.href} className="sub-nav-link">
                         <span className="cus-text">{link.text}</span>
                       </Link>
@@ -231,37 +233,21 @@ export default function MobileMenu({
                 </ul>
               </div>
             </li>
-
-            <li className="nav-mb-item">
-              <a
-                href="https://themeforest.net/user/themesflat/portfolio"
-                target="_blank"
-                className="mb-menu-link"
-              >
-                <span>Buy Template</span>
-              </a>
-            </li>
           </ul>
         </div>
 
         <div className="need-help-wrap">
           <p className="nd-title h6 fw-medium mb-16">Need Help?</p>
           <p className="lh-26 cl-text-2 mb-4">
-            600 N Michigan Ave, Chicago, IL 60611, USA
+            Need help with artwork, product selection, or an order? Reach out
+            through our storefront contact page.
           </p>
-          <a
-            href="https://www.google.com/maps?q=600+N+Michigan+Ave+Chicago,+IL+60611+USA"
-            target="_blank"
-            className="text-decoration-underline text-primary lh-26 mb-16"
-          >
-            Open in Maps
-          </a>
-          <a href="mailto:hi.amere@gmail.com" className="cl-text-2 link mb-8">
-            hi.amere@gmail.com
-          </a>
-          <a href="tel:3156666688" className="cl-text-2 link">
-            315-666-6688
-          </a>
+          <Link href="/contact" className="text-decoration-underline text-primary lh-26 mb-12 d-inline-block">
+            Contact the team
+          </Link>
+          <Link href="/shop-default" className="cl-text-2 link d-block">
+            Browse all products
+          </Link>
         </div>
       </div>
 

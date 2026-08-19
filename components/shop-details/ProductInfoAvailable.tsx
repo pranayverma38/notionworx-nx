@@ -66,16 +66,16 @@ export default function ProductInfoAvailable({
             <div className="content">
               <p className="">
                 <span className="fw-medium">
-                  Pickup available at Sydney Store.
+                  Pickup and fulfillment options vary by product.
                 </span>
-                Usually ready in 24 hours.
+                Contact us to confirm current lead times.
               </p>
               <a
                 href="#pickUp"
                 data-bs-toggle="offcanvas"
                 className="text-label cl-text-2 link text-decoration-underline"
               >
-                Check availability other stores
+                Check availability details
               </a>
             </div>
           </div>

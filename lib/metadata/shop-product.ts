@@ -2,10 +2,10 @@ import type { Metadata } from "next";
 import { products } from "@/data/products/products";
 
 export const AMERCE_SITE_TITLE =
-  "Amerce - Multipurpose eCommerce React Nextjs Template";
+  "Notion Worx";
 
 export const AMERCE_DEFAULT_DESCRIPTION =
-  "Amerce - Multipurpose eCommerce React Nextjs Template";
+  "Custom canopies, trade show displays, flags, apparel, and event essentials available from the migrated storefront.";
 
 export function buildShopProductMetadata(
   id: string,

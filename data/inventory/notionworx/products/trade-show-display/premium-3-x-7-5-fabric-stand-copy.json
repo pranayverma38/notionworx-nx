@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 2,
+  "id": 8227673768071,
+  "handle": "premium-3-x-7-5-fabric-stand-copy",
+  "slug": "premium-3-x-7-5-fabric-stand-copy",
+  "name": "Premium 3' x 7.5' Fabric Stand",
+  "vendor": "Notion Worx",
+  "productType": null,
+  "primaryCategory": {
+    "handle": "trade-show-display",
+    "title": "BANNERS & DISPLAYS"
+  },
+  "categories": [
+    {
+      "handle": "trade-show-display",
+      "title": "BANNERS & DISPLAYS"
+    }
+  ],
+  "descriptionHtml": "<p><strong><span>Design .\u00a0</span></strong><strong>Assembly Instructions</strong><br></p>\n\n<p><strong>Features:</strong>\u00a0<br>Steel base with black powder-coated finish<br>Plastic feet elevate the base and keep the display stable<br>Graphic cover slips over the frame like a pillowcase<br>Artwork is dye sublimated on polyester knit<br>Double-sided graphic cover is viewable from both the front and back of the display<br>Multiple sizes can be arranged together for endless display possibilities<br>Imprint Method: Full-Color Dye Sublimation<br>Double Sided Graphic</p>\n<p><strong>Materials</strong><br>Graphic: Polyester Knit<br>Hardware: Aluminum, Steel<br>Carry Case: 600 Denier Polyester</p>\n<p><br><strong>Primary Usage</strong><br>Indoor</p>\n<p><br><strong>Order Cutoff Time</strong><br>12:00 PM Central Daylight Time</p>\n<p><br><strong>Warranty</strong><br>1 Year Product Warranty - Standard warranty is a one year parts and labor warranty which warrants product against defects in material and workmanship. It does not cover damage due to accidents, abuse, or normal wear and tear. Products found to be defective will be replaced or repaired at factory's discretion.</p>",
+  "descriptionText": "Design . Assembly Instructions\nFeatures:\nSteel base with black powder-coated finish\nPlastic feet elevate the base and keep the display stable\nGraphic cover slips over the frame like a pillowcase\nArtwork is dye sublimated on polyester knit\nDouble-sided graphic cover is viewable from both the front and back of the display\nMultiple sizes can be arranged together for endless display possibilities\nImprint Method: Full-Color Dye Sublimation\nDouble Sided Graphic\nMaterials\nGraphic: Polyester Knit\nHardware: Aluminum, Steel\nCarry Case: 600 Denier Polyester\nPrimary Usage\nIndoor\nOrder Cutoff Time\n12:00 PM Central Daylight Time\nWarranty\n1 Year Product Warranty - Standard warranty is a one year parts and labor warranty which warrants product against defects in material and workmanship. It does not cover damage due to accidents, abuse, or normal wear and tear. Products found to be defective will be replaced or repaired at factory's discretion.",
+  "tags": [],
+  "skus": [
+    "406015",
+    "406015-2"
+  ],
+  "price": {
+    "min": 117.0,
+    "max": 165.0,
+    "compareAtMin": null,
+    "compareAtMax": null,
+    "variantCount": 2
+  },
+  "options": [
+    {
+      "name": "Style",
+      "position": 1,
+      "values": [
+        "Kit 1 ( Frame +Double-Sided Graphic)",
+        "Kit 2 (Graphic Only Double-Sided)"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 43238158106759,
+      "title": "Kit 1 ( Frame +Double-Sided Graphic)",
+      "sku": "406015",
+      "available": true,
+      "price": 165.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "Kit 1 ( Frame +Double-Sided Graphic)"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 18144,
+      "position": 1
+    },
+    {
+      "id": 43238158139527,
+      "title": "Kit 2 (Graphic Only Double-Sided)",
+      "sku": "406015-2",
+      "available": true,
+      "price": 117.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "Kit 2 (Graphic Only Double-Sided)"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 18144,
+      "position": 2
+    }
+  ],
+  "images": [
+    {
+      "localPath": "/assets/images/notionworx-inventory/trade-show-display/premium-3-x-7-5-fabric-stand-copy/01.jpg",
+      "width": 500,
+      "height": 500,
+      "position": 1,
+      "variantIds": []
+    },
+    {
+      "localPath": "/assets/images/notionworx-inventory/trade-show-display/premium-3-x-7-5-fabric-stand-copy/02.jpg",
+      "width": 750,
+      "height": 750,
+      "position": 2,
+      "variantIds": []
+    },
+    {
+      "localPath": "/assets/images/notionworx-inventory/trade-show-display/premium-3-x-7-5-fabric-stand-copy/03.jpg",
+      "width": 600,
+      "height": 600,
+      "position": 3,
+      "variantIds": []
+    },
+    {
+      "localPath": "/assets/images/notionworx-inventory/trade-show-display/premium-3-x-7-5-fabric-stand-copy/04.jpg",
+      "width": 1000,
+      "height": 1000,
+      "position": 4,
+      "variantIds": []
+    }
+  ],
+  "createdAt": "2025-09-25T12:35:09-06:00",
+  "updatedAt": "2026-08-18T21:24:32-06:00",
+  "publishedAt": "2025-09-26T09:36:48-06:00"
+}

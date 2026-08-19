@@ -3,12 +3,11 @@ import { Metadata } from "next";
 import PageTitle from "@/components/pages/about/PageTitle";
 import MainAbout from "@/components/pages/about/MainAbout";
 import BannerWhyChoose from "@/components/pages/about/BannerWhyChoose";
-import Testimonial from "@/components/pages/about/Testimonial";
-import Member from "@/components/pages/about/Member";
 
 export const metadata: Metadata = {
-  title: "About Us | Amerce - Multipurpose eCommerce React Nextjs Template",
-  description: "Amerce - Multipurpose eCommerce React Nextjs Template",
+  title: "About Notion Worx",
+  description:
+    "Learn how the Notion Worx storefront now organizes custom canopies, displays, flags, apparel, and event essentials through a unified local catalog.",
 };
 
 const AboutPage = () => {
@@ -17,8 +16,6 @@ const AboutPage = () => {
       <PageTitle />
       <MainAbout />
       <BannerWhyChoose />
-      <Testimonial />
-      <Member />
     </>
   );
 };

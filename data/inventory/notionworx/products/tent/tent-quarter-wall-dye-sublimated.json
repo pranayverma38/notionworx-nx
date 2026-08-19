@@ -1,0 +1,161 @@
+{
+  "schemaVersion": 2,
+  "id": 8227670425735,
+  "handle": "tent-quarter-wall-dye-sublimated",
+  "slug": "tent-quarter-wall-dye-sublimated",
+  "name": "Tent Quarter Wall (Dye Sublimated)",
+  "vendor": "Notion Worx",
+  "productType": null,
+  "primaryCategory": {
+    "handle": "tent",
+    "title": "Custom Canopy Tents \u2013 Personalized Pop Up Tents for Events"
+  },
+  "categories": [
+    {
+      "handle": "tent",
+      "title": "Custom Canopy Tents \u2013 Personalized Pop Up Tents for Events"
+    }
+  ],
+  "descriptionHtml": "<p><strong><span style=\"color: #2b00ff;\">Download 10ft </span></strong></p>\n<p><strong><span style=\"color: #2b00ff;\">Download 15ft </span></strong></p>\n<p><strong><span style=\"color: #2b00ff;\">Download 20ft </span></strong></p>\n\n<p><span style=\"color: #000000;\"><span size=\"2\">Constructed of durable 600 denier polyester</span><br><span size=\"2\">Your artwork will be dye sublimated on the wall;</span></span></p>\n<p><span size=\"2\">Tent quarter wall features hook-and-loop straps that can be secured around tent legs</span><br><span size=\"2\">Imprint Method: Full-Color Dye Sublimation</span></p>\n<p><strong><span size=\"2\">Materials</span></strong><br><span size=\"2\">Canopy: 600 Denier Polyester</span></p>\n<p><span><span size=\"2\">Order Cutoff Time</span></span><br><span size=\"2\">12:00 PM Central Daylight Time</span></p>\n<h3><span size=\"2\"><span>Factory Warranty</span></span></h3>\n<ul>\n<li>We stand behind the quality of our products. Our warranty covers any factory defects or damage that occurs during shipping. However, please note that we do not cover damage resulting from extreme weather conditions, misuse, or any circumstances beyond our control.</li>\n</ul>",
+  "descriptionText": "Download 10ft\nDownload 15ft\nDownload 20ft\n\nConstructed of durable 600 denier polyester\nYour artwork will be dye sublimated on the wall;\nTent quarter wall features hook-and-loop straps that can be secured around tent legs\nImprint Method: Full-Color Dye Sublimation\nMaterials\nCanopy: 600 Denier Polyester\nOrder Cutoff Time\n12:00 PM Central Daylight Time\nFactory Warranty\nWe stand behind the quality of our products. Our warranty covers any factory defects or damage that occurs during shipping. However, please note that we do not cover damage resulting from extreme weather conditions, misuse, or any circumstances beyond our control.",
+  "tags": [],
+  "skus": [
+    "206100"
+  ],
+  "price": {
+    "min": 109.0,
+    "max": 434.0,
+    "compareAtMin": null,
+    "compareAtMax": null,
+    "variantCount": 6
+  },
+  "options": [
+    {
+      "name": "Size",
+      "position": 1,
+      "values": [
+        "10'",
+        "15'",
+        "20'"
+      ]
+    },
+    {
+      "name": "Style",
+      "position": 2,
+      "values": [
+        "Single-Sided",
+        "Double-Sided"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 43238064357511,
+      "title": "10' / Single-Sided",
+      "sku": "206100",
+      "available": true,
+      "price": 109.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "10'",
+        "Single-Sided"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 4536,
+      "position": 1
+    },
+    {
+      "id": 43238064390279,
+      "title": "15' / Single-Sided",
+      "sku": "None",
+      "available": true,
+      "price": 164.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "15'",
+        "Single-Sided"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 4536,
+      "position": 2
+    },
+    {
+      "id": 43238064423047,
+      "title": "20' / Single-Sided",
+      "sku": "None",
+      "available": true,
+      "price": 217.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "20'",
+        "Single-Sided"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 4536,
+      "position": 3
+    },
+    {
+      "id": 43238064455815,
+      "title": "10' / Double-Sided",
+      "sku": "None",
+      "available": true,
+      "price": 217.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "10'",
+        "Double-Sided"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 4536,
+      "position": 4
+    },
+    {
+      "id": 43238064488583,
+      "title": "15' / Double-Sided",
+      "sku": "None",
+      "available": true,
+      "price": 325.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "15'",
+        "Double-Sided"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 4536,
+      "position": 5
+    },
+    {
+      "id": 43238064521351,
+      "title": "20' / Double-Sided",
+      "sku": "None",
+      "available": true,
+      "price": 434.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "20'",
+        "Double-Sided"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 4536,
+      "position": 6
+    }
+  ],
+  "images": [
+    {
+      "localPath": "/assets/images/notionworx-inventory/tent/tent-quarter-wall-dye-sublimated/01.jpg",
+      "width": 1000,
+      "height": 1000,
+      "position": 1,
+      "variantIds": []
+    }
+  ],
+  "createdAt": "2025-09-25T12:32:16-06:00",
+  "updatedAt": "2026-08-18T21:23:22-06:00",
+  "publishedAt": "2025-09-26T09:36:34-06:00"
+}

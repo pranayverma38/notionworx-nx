@@ -1,4 +1,9 @@
 
+import {
+  storefrontCategories,
+  storefrontProducts,
+} from "@/data/inventory/notionworx/storefront.generated";
+
 export interface AboutStat {
   prefix?: string;
   suffix?: string;
@@ -9,26 +14,24 @@ export interface AboutStat {
 
 export const aboutStats: AboutStat[] = [
   {
-    number: 8.2,
-    suffix: "k",
-    title: "Products Available",
-    sub: "We offer a wide selection of high-quality products to meet every need.",
+    number: storefrontProducts.length,
+    title: "Products Mirrored",
+    sub: "Imported into local inventory with local product images for the storefront experience.",
   },
   {
-    number: 10,
-    suffix: "k",
-    title: "Happy Customers",
-    sub: "Serving over 10,000 delighted customers who trust us for quality and service.",
+    number: storefrontCategories.length,
+    title: "Collections Live",
+    sub: "Searchable categories now powering navigation, collection pages, and shop filters.",
   },
   {
-    number: 96,
-    title: "Partner Brand",
-    sub: "Our top-brand partnerships bring a trusted collection for your kitchen and home.",
+    number: 100,
+    suffix: "%",
+    title: "Local Image Coverage",
+    sub: "Primary customer-facing flows now use mirrored assets instead of remote legacy imagery.",
   },
   {
-    number: 16,
-    suffix: "k",
-    title: "Products For Sale",
-    sub: "That's why we strive to offer a diverse range of products that cater to all styles.",
+    number: 4,
+    title: "Core Journeys Unified",
+    sub: "Homepage, collections, shop, and product detail now share one consistent catalog source.",
   },
 ];

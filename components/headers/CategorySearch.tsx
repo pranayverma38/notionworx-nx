@@ -3,6 +3,8 @@
 import { useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
+import { categoriesCollection } from "@/data/categories";
+
 export default function CategorySearch({
   parentClass = "form_search-product",
 }) {
@@ -13,25 +15,11 @@ export default function CategorySearch({
 
   const categories = [
     { value: "all", label: "All Categories", href: "/collection" },
-    { value: "skincare", label: "Skincare", href: "/shop-default" },
-    { value: "makeup", label: "Makeup", href: "/shop-default" },
-    { value: "haircare", label: "Haircare", href: "/shop-default" },
-    { value: "body-care", label: "Body care", href: "/shop-default" },
-    { value: "fragrances", label: "Fragrances", href: "/shop-default" },
-    { value: "lip-care", label: "Lip care", href: "/shop-default" },
-    { value: "nail-care", label: "Nail care", href: "/shop-default" },
-    {
-      value: "beauty-tools-accessories",
-      label: "Beauty tools & accessories",
-      href: "/shop-default",
-    },
-    { value: "natural-beauty", label: "Natural beauty", href: "/shop-default" },
-    {
-      value: "baby-kids-care",
-      label: "Baby & Kids Care",
-      href: "/shop-default",
-    },
-    { value: "eye-care", label: "Eye care", href: "/shop-default" },
+    ...categoriesCollection.map((category) => ({
+      value: category.name.toLowerCase().replace(/[^a-z0-9]+/g, "-"),
+      label: category.name,
+      href: category.href ?? "/shop-default",
+    })),
   ];
 
   return (

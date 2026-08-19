@@ -1,0 +1,152 @@
+{
+  "schemaVersion": 2,
+  "id": 8227678552199,
+  "handle": "3ft-seg-fabric-stand",
+  "slug": "3ft-seg-fabric-stand",
+  "name": "3ft SEG Fabric Stand (Non-Lit )",
+  "vendor": "Notion Worx",
+  "productType": null,
+  "primaryCategory": {
+    "handle": "seg-products",
+    "title": "SEG PRODUCTS"
+  },
+  "categories": [
+    {
+      "handle": "seg-products",
+      "title": "SEG PRODUCTS"
+    }
+  ],
+  "descriptionHtml": "<p data-mce-fragment=\"1\">A fabric stand perfect for showcasing your business at marketing events. Lightweight, portable and versatile, this stand can be used to partition your marketing space into unique configurations for maximum branding presence.</p>\n<p data-mce-fragment=\"1\">SEG displays utilize a silicone edge graphic (SEG) to create a seamless and visually appealing presentation. It is commonly used in the field of visual marketing and trade shows.\u00a0 The silicone strip is designed to fit into a channel on the display frame. This creates a taut and smooth appearance without any visible seams on the front surface of the display. Changing out SEG graphics is a breeze.\u00a0</p>\n<p data-mce-fragment=\"1\"><strong data-mce-fragment=\"1\">Features:</strong></p>\n<ul data-mce-fragment=\"1\">\n<li data-mce-fragment=\"1\">High resolution UV printed</li>\n<li data-mce-fragment=\"1\">UV safe that will last for years</li>\n</ul>\n<p data-mce-fragment=\"1\"><strong data-mce-fragment=\"1\">Material:</strong></p>\n<ul data-mce-fragment=\"1\">\n<li data-mce-fragment=\"1\">6 oz. Premium Backlit Fabric</li>\n<li data-mce-fragment=\"1\">Aluminum Frame</li>\n</ul>\n<p><strong>Size and Weight:</strong></p>\n<ul>\n<li>Display Size: 33.45\"W x 78.75\"H x 18D</li>\n<li>Weight: 13 lbs</li>\n<li>Package Size: 43\"W x 8.25\"H x 2.75\"D</li>\n</ul>",
+  "descriptionText": "A fabric stand perfect for showcasing your business at marketing events. Lightweight, portable and versatile, this stand can be used to partition your marketing space into unique configurations for maximum branding presence.\nSEG displays utilize a silicone edge graphic (SEG) to create a seamless and visually appealing presentation. It is commonly used in the field of visual marketing and trade shows. The silicone strip is designed to fit into a channel on the display frame. This creates a taut and smooth appearance without any visible seams on the front surface of the display. Changing out SEG graphics is a breeze.\nFeatures:\nHigh resolution UV printed\nUV safe that will last for years\nMaterial:\n6 oz. Premium Backlit Fabric\nAluminum Frame\nSize and Weight:\nDisplay Size: 33.45\"W x 78.75\"H x 18D\nWeight: 13 lbs\nPackage Size: 43\"W x 8.25\"H x 2.75\"D",
+  "tags": [],
+  "skus": [
+    "70009",
+    "70010",
+    "70012",
+    "70013"
+  ],
+  "price": {
+    "min": 84.0,
+    "max": 331.0,
+    "compareAtMin": null,
+    "compareAtMax": null,
+    "variantCount": 4
+  },
+  "options": [
+    {
+      "name": "Style",
+      "position": 1,
+      "values": [
+        "Frame + Graphic",
+        "Graphic Only"
+      ]
+    },
+    {
+      "name": "Graphic",
+      "position": 2,
+      "values": [
+        "Single-Sided",
+        "Double-Sided"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 43238182453383,
+      "title": "Frame + Graphic / Single-Sided",
+      "sku": "70009",
+      "available": true,
+      "price": 282.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "Frame + Graphic",
+        "Single-Sided"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 22680,
+      "position": 1
+    },
+    {
+      "id": 43238182486151,
+      "title": "Frame + Graphic / Double-Sided",
+      "sku": "70010",
+      "available": true,
+      "price": 331.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "Frame + Graphic",
+        "Double-Sided"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 22680,
+      "position": 2
+    },
+    {
+      "id": 43238182518919,
+      "title": "Graphic Only / Single-Sided",
+      "sku": "70012",
+      "available": true,
+      "price": 84.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "Graphic Only",
+        "Single-Sided"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 22680,
+      "position": 3
+    },
+    {
+      "id": 43238182551687,
+      "title": "Graphic Only / Double-Sided",
+      "sku": "70013",
+      "available": true,
+      "price": 160.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "Graphic Only",
+        "Double-Sided"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 22680,
+      "position": 4
+    }
+  ],
+  "images": [
+    {
+      "localPath": "/assets/images/notionworx-inventory/seg-products/3ft-seg-fabric-stand/01.jpg",
+      "width": 1000,
+      "height": 1000,
+      "position": 1,
+      "variantIds": []
+    },
+    {
+      "localPath": "/assets/images/notionworx-inventory/seg-products/3ft-seg-fabric-stand/02.jpg",
+      "width": 1000,
+      "height": 1000,
+      "position": 2,
+      "variantIds": []
+    },
+    {
+      "localPath": "/assets/images/notionworx-inventory/seg-products/3ft-seg-fabric-stand/03.jpg",
+      "width": 1000,
+      "height": 1000,
+      "position": 3,
+      "variantIds": []
+    },
+    {
+      "localPath": "/assets/images/notionworx-inventory/seg-products/3ft-seg-fabric-stand/04.jpg",
+      "width": 1500,
+      "height": 1500,
+      "position": 4,
+      "variantIds": []
+    }
+  ],
+  "createdAt": "2025-09-25T12:38:02-06:00",
+  "updatedAt": "2026-08-18T21:24:48-06:00",
+  "publishedAt": "2025-09-26T09:36:19-06:00"
+}

@@ -27,9 +27,9 @@ export function ProductReturnPolicies({
       <div className="box-desc">
         <DescTitle tag={titleTag}>Return Policies</DescTitle>
         <p className="desc_info cl-text-2">
-          At Amerce, we stand behind the quality of our products. If you&apos;re
-          not completely satisfied with your purchase, we offer hassle-free
-          returns within 30 days of delivery.
+          Notion Worx stands behind the quality of each product. If your order
+          arrives damaged or does not match the approved details, contact us so
+          we can review the issue and help with the next steps.
         </p>
       </div>
       <div className="box-desc">

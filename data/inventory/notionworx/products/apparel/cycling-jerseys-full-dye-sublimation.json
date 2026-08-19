@@ -1,0 +1,189 @@
+{
+  "schemaVersion": 2,
+  "id": 8227680026759,
+  "handle": "cycling-jerseys-full-dye-sublimation",
+  "slug": "cycling-jerseys-full-dye-sublimation",
+  "name": "150GSM Mesh Jersey Cycling Jerseys (Full Dye Sublimation) #500033",
+  "vendor": "Notion Worx",
+  "productType": null,
+  "primaryCategory": {
+    "handle": "apparel",
+    "title": "APPAREL"
+  },
+  "categories": [
+    {
+      "handle": "apparel",
+      "title": "APPAREL"
+    }
+  ],
+  "descriptionHtml": "<p><span style=\"color: #2b00ff;\"><span style=\"color: #2b00ff;\"><strong><br></strong></span></span><br></p>\n<ul data-mce-fragment=\"1\" class=\"a-unordered-list a-vertical a-spacing-mini\">\n<li data-mce-fragment=\"1\"><span data-mce-fragment=\"1\" class=\"a-list-item\"><span data-mce-fragment=\"1\">95% polyester 5% spandex 4.42oz\u00a0jersey mesh\u00a0moisture wicking fabric</span></span></li>\n\n<li data-mce-fragment=\"1\"><span data-mce-fragment=\"1\" class=\"a-list-item\">Cycling shirt -With 3 pockets on back of jersey It is very convenience for storage, There is a silicone anti-skid band on the bottom of the cycling jersey to prevent the clothes from sliding when riding.Cycle jersey material: 100% polyester,The breathable and wicking mesh fabric draws sweat away from body quickly</span></li>\n<li data-mce-fragment=\"1\"><span data-mce-fragment=\"1\" class=\"a-list-item\">Premium &amp; comfortable - This cyclist\u2019s jersey is suitable for all levels cyclists, which includes road bike or mountain biker,gym exercise.Whenever you're sweaty the Jersey never adhere to your skin, It has a quick-dry feature which makes you feel more comfortable.3 rear pockets can stash pump, repair tool kits, tires, phone, food or clothing for change.</span></li>\n</ul>",
+  "descriptionText": "95% polyester 5% spandex 4.42oz jersey mesh moisture wicking fabric\nCycling shirt -With 3 pockets on back of jersey It is very convenience for storage, There is a silicone anti-skid band on the bottom of the cycling jersey to prevent the clothes from sliding when riding.Cycle jersey material: 100% polyester,The breathable and wicking mesh fabric draws sweat away from body quickly\nPremium & comfortable - This cyclist\u2019s jersey is suitable for all levels cyclists, which includes road bike or mountain biker,gym exercise.Whenever you're sweaty the Jersey never adhere to your skin, It has a quick-dry feature which makes you feel more comfortable.3 rear pockets can stash pump, repair tool kits, tires, phone, food or clothing for change.",
+  "tags": [],
+  "skus": [
+    "500033"
+  ],
+  "price": {
+    "min": 75.0,
+    "max": 75.0,
+    "compareAtMin": null,
+    "compareAtMax": null,
+    "variantCount": 8
+  },
+  "options": [
+    {
+      "name": "Size",
+      "position": 1,
+      "values": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL",
+        "4XL"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 43238192447623,
+      "title": "XS",
+      "sku": "500033",
+      "available": true,
+      "price": 75.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "XS"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 454,
+      "position": 1
+    },
+    {
+      "id": 43238192480391,
+      "title": "S",
+      "sku": "500033",
+      "available": true,
+      "price": 75.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "S"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 454,
+      "position": 2
+    },
+    {
+      "id": 43238192513159,
+      "title": "M",
+      "sku": "500033",
+      "available": true,
+      "price": 75.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "M"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 454,
+      "position": 3
+    },
+    {
+      "id": 43238192545927,
+      "title": "L",
+      "sku": "500033",
+      "available": true,
+      "price": 75.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "L"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 454,
+      "position": 4
+    },
+    {
+      "id": 43238192578695,
+      "title": "XL",
+      "sku": "500033",
+      "available": true,
+      "price": 75.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "XL"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 454,
+      "position": 5
+    },
+    {
+      "id": 43238192611463,
+      "title": "2XL",
+      "sku": "500033",
+      "available": true,
+      "price": 75.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "2XL"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 454,
+      "position": 6
+    },
+    {
+      "id": 43238192644231,
+      "title": "3XL",
+      "sku": "500033",
+      "available": true,
+      "price": 75.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "3XL"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 454,
+      "position": 7
+    },
+    {
+      "id": 43238192676999,
+      "title": "4XL",
+      "sku": "500033",
+      "available": true,
+      "price": 75.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "4XL"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 454,
+      "position": 8
+    }
+  ],
+  "images": [
+    {
+      "localPath": "/assets/images/notionworx-inventory/apparel/cycling-jerseys-full-dye-sublimation/01.jpg",
+      "width": 1024,
+      "height": 1024,
+      "position": 1,
+      "variantIds": []
+    },
+    {
+      "localPath": "/assets/images/notionworx-inventory/apparel/cycling-jerseys-full-dye-sublimation/02.jpg",
+      "width": 600,
+      "height": 599,
+      "position": 2,
+      "variantIds": []
+    }
+  ],
+  "createdAt": "2025-09-25T12:38:54-06:00",
+  "updatedAt": "2026-08-18T21:24:55-06:00",
+  "publishedAt": "2025-09-26T09:33:57-06:00"
+}

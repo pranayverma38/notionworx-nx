@@ -4,8 +4,9 @@ import PageTitle from "@/components/pages/our-store/PageTitle";
 import OurStore from "@/components/pages/our-store/OurStore";
 
 export const metadata: Metadata = {
-  title: "Our Store | Amerce - Multipurpose eCommerce React Nextjs Template",
-  description: "Amerce - Multipurpose eCommerce React Nextjs Template",
+  title: "Project Support | Notion Worx",
+  description:
+    "Review key Notion Worx collections and find the right product family for your next branded event, display, or merchandise project.",
 };
 
 const OurStorePage = () => {

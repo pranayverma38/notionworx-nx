@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 2,
+  "handle": "towel-blanket",
+  "title": "TOWEL & BLANKET",
+  "description": "",
+  "image": {
+    "localPath": "/assets/images/notionworx-inventory/collections/towel-blanket/01.jpg",
+    "width": null,
+    "height": null
+  },
+  "productsCount": 6,
+  "productHandles": [
+    "cooling-beach-towel-12-x-40",
+    "custom-sublimation-printed-chiffon-bandanna-scarf",
+    "sublimated-beach-fleece-blanket-30-x-60",
+    "sublimated-beach-fleece-blanket-50-x-60",
+    "sublimated-beach-fleece-blanket-60-x-80",
+    "sublimated-fleece-blanket"
+  ]
+}

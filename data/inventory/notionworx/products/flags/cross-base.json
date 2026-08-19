@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 2,
+  "id": 8227681599623,
+  "handle": "cross-base",
+  "slug": "cross-base",
+  "name": "Cross Base BA-7",
+  "vendor": "Notion Worx",
+  "productType": null,
+  "primaryCategory": {
+    "handle": "flags",
+    "title": "FLAGS"
+  },
+  "categories": [
+    {
+      "handle": "flags",
+      "title": "FLAGS"
+    }
+  ],
+  "descriptionHtml": "<p><strong>Cross Base:</strong></p>\n<p>Each foot has a hole to accommodate ground spikes\u00a0<br>Pole hardware and flag sold separately<br>Product Size: 22.8'' x 6.5''\u00a0x 22.8''(W x H x D) 8lbs</p>",
+  "descriptionText": "Cross Base:\nEach foot has a hole to accommodate ground spikes\nPole hardware and flag sold separately\nProduct Size: 22.8'' x 6.5'' x 22.8''(W x H x D) 8lbs",
+  "tags": [],
+  "skus": [
+    "806121"
+  ],
+  "price": {
+    "min": 57.0,
+    "max": 57.0,
+    "compareAtMin": null,
+    "compareAtMax": null,
+    "variantCount": 1
+  },
+  "options": [
+    {
+      "name": "Title",
+      "position": 1,
+      "values": [
+        "Default Title"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 43238199689351,
+      "title": "Default Title",
+      "sku": "806121",
+      "available": true,
+      "price": 57.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "Default Title"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 3629,
+      "position": 1
+    }
+  ],
+  "images": [
+    {
+      "localPath": "/assets/images/notionworx-inventory/flags/cross-base/01.jpg",
+      "width": 500,
+      "height": 500,
+      "position": 1,
+      "variantIds": []
+    }
+  ],
+  "createdAt": "2025-09-25T12:39:45-06:00",
+  "updatedAt": "2026-08-18T21:24:05-06:00",
+  "publishedAt": "2025-09-28T20:01:19-06:00"
+}

@@ -1,0 +1,299 @@
+{
+  "schemaVersion": 2,
+  "id": 8227682943111,
+  "handle": "sport-polo-shirt-full-sublimation",
+  "slug": "sport-polo-shirt-full-sublimation",
+  "name": "150GSM Mesh Jersey Sport Polo Shirt (Full Dye Sublimation) #50009",
+  "vendor": "Notion Worx",
+  "productType": null,
+  "primaryCategory": {
+    "handle": "apparel",
+    "title": "APPAREL"
+  },
+  "categories": [
+    {
+      "handle": "apparel",
+      "title": "APPAREL"
+    }
+  ],
+  "descriptionHtml": "<p>95% polyester.5% spandex jerseymesh <span data-mce-fragment=\"1\">moisture wicking fabric</span></p>",
+  "descriptionText": "95% polyester.5% spandex jerseymesh moisture wicking fabric",
+  "tags": [],
+  "skus": [
+    "50009"
+  ],
+  "price": {
+    "min": 29.0,
+    "max": 29.0,
+    "compareAtMin": null,
+    "compareAtMax": null,
+    "variantCount": 14
+  },
+  "options": [
+    {
+      "name": "Size",
+      "position": 1,
+      "values": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL",
+        "4XL",
+        "5XL",
+        "6XL",
+        "7XL",
+        "YXS",
+        "YS",
+        "YM",
+        "YL"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 43238205096071,
+      "title": "S",
+      "sku": "50009",
+      "available": true,
+      "price": 29.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "S"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 907,
+      "position": 1
+    },
+    {
+      "id": 43238205128839,
+      "title": "M",
+      "sku": "None",
+      "available": true,
+      "price": 29.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "M"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 907,
+      "position": 2
+    },
+    {
+      "id": 43238205161607,
+      "title": "L",
+      "sku": "None",
+      "available": true,
+      "price": 29.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "L"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 907,
+      "position": 3
+    },
+    {
+      "id": 43238205194375,
+      "title": "XL",
+      "sku": "None",
+      "available": true,
+      "price": 29.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "XL"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 907,
+      "position": 4
+    },
+    {
+      "id": 43238205227143,
+      "title": "2XL",
+      "sku": "None",
+      "available": true,
+      "price": 29.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "2XL"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 907,
+      "position": 5
+    },
+    {
+      "id": 43238205259911,
+      "title": "3XL",
+      "sku": "None",
+      "available": true,
+      "price": 29.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "3XL"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 907,
+      "position": 6
+    },
+    {
+      "id": 43238205292679,
+      "title": "4XL",
+      "sku": "None",
+      "available": true,
+      "price": 29.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "4XL"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 907,
+      "position": 7
+    },
+    {
+      "id": 43238205325447,
+      "title": "5XL",
+      "sku": "None",
+      "available": true,
+      "price": 29.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "5XL"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 907,
+      "position": 8
+    },
+    {
+      "id": 43238205358215,
+      "title": "6XL",
+      "sku": "None",
+      "available": true,
+      "price": 29.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "6XL"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 907,
+      "position": 9
+    },
+    {
+      "id": 43238205390983,
+      "title": "7XL",
+      "sku": "None",
+      "available": true,
+      "price": 29.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "7XL"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 907,
+      "position": 10
+    },
+    {
+      "id": 43238205423751,
+      "title": "YXS",
+      "sku": "None",
+      "available": true,
+      "price": 29.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "YXS"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 907,
+      "position": 11
+    },
+    {
+      "id": 43238205456519,
+      "title": "YS",
+      "sku": "None",
+      "available": true,
+      "price": 29.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "YS"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 907,
+      "position": 12
+    },
+    {
+      "id": 43238205489287,
+      "title": "YM",
+      "sku": "None",
+      "available": true,
+      "price": 29.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "YM"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 907,
+      "position": 13
+    },
+    {
+      "id": 43238205522055,
+      "title": "YL",
+      "sku": "None",
+      "available": true,
+      "price": 29.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "YL"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 907,
+      "position": 14
+    }
+  ],
+  "images": [
+    {
+      "localPath": "/assets/images/notionworx-inventory/apparel/sport-polo-shirt-full-sublimation/01.png",
+      "width": 1309,
+      "height": 1202,
+      "position": 1,
+      "variantIds": []
+    },
+    {
+      "localPath": "/assets/images/notionworx-inventory/apparel/sport-polo-shirt-full-sublimation/02.png",
+      "width": 1536,
+      "height": 1024,
+      "position": 2,
+      "variantIds": []
+    },
+    {
+      "localPath": "/assets/images/notionworx-inventory/apparel/sport-polo-shirt-full-sublimation/03.png",
+      "width": 1254,
+      "height": 1254,
+      "position": 3,
+      "variantIds": []
+    },
+    {
+      "localPath": "/assets/images/notionworx-inventory/apparel/sport-polo-shirt-full-sublimation/04.webp",
+      "width": 1000,
+      "height": 1000,
+      "position": 4,
+      "variantIds": []
+    }
+  ],
+  "createdAt": "2025-09-25T12:40:38-06:00",
+  "updatedAt": "2026-08-18T21:24:55-06:00",
+  "publishedAt": "2025-09-26T09:34:05-06:00"
+}

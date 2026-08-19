@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 2,
+  "handle": "umbrella",
+  "title": "UMBRELLA",
+  "description": "",
+  "image": {
+    "localPath": "/assets/images/notionworx-inventory/collections/umbrella/01.jpg",
+    "width": null,
+    "height": null
+  },
+  "productsCount": 1,
+  "productHandles": [
+    "9-outdoor-aluminum-patio-umbrella-dye-sublimation-copy"
+  ]
+}

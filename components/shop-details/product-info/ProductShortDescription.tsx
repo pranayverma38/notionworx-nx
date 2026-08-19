@@ -1,9 +1,13 @@
-export function ProductShortDescription() {
+import type { ProductCardItem } from "@/types/productCard";
+
+export function ProductShortDescription({
+  product,
+}: {
+  product?: ProductCardItem;
+}) {
   return (
     <p className="product-infor-desc cl-text-2 mb-12">
-      The garments labelled as Committed are products that have been produced
-      using sustainable fibres or processes, reducing their environmental
-      impact.
+      {product.description ?? "Review the details for this catalog item."}
     </p>
   );
 }

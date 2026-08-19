@@ -1,0 +1,205 @@
+{
+  "schemaVersion": 2,
+  "id": 8227678814343,
+  "handle": "full-zipper-hoodie-full-dye-sublimation-500025",
+  "slug": "full-zipper-hoodie-full-dye-sublimation-500025",
+  "name": "Full Zipper Hoodie (Full Dye Sublimation) #500025",
+  "vendor": "Notion Worx",
+  "productType": null,
+  "primaryCategory": {
+    "handle": "apparel",
+    "title": "APPAREL"
+  },
+  "categories": [
+    {
+      "handle": "apparel",
+      "title": "APPAREL"
+    }
+  ],
+  "descriptionHtml": "<h4><strong><span style=\"color: #2b00ff;\">Download\u00a0\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0</span></strong></h4>\n<br>\n<p><span data-mce-fragment=\"1\">Get customers excited with our Pullover Full-Color Sublimated Hoodie! This sublimated hoodie is an awesome giveaway and is sure to attract a lot of attention! It is ideal for promotional events giving you maximum brand exposure during indoor or outdoor activities. This trendy unisex sublimation hoodie features edge to edge imprint with pockets, WITH rope on hat. It is made of\u00a07.37 oz\u00a0 polyester.</span><br></p>",
+  "descriptionText": "Get customers excited with our Pullover Full-Color Sublimated Hoodie! This sublimated hoodie is an awesome giveaway and is sure to attract a lot of attention! It is ideal for promotional events giving you maximum brand exposure during indoor or outdoor activities. This trendy unisex sublimation hoodie features edge to edge imprint with pockets, WITH rope on hat. It is made of 7.37 oz polyester.",
+  "tags": [],
+  "skus": [
+    "500025"
+  ],
+  "price": {
+    "min": 39.0,
+    "max": 39.0,
+    "compareAtMin": null,
+    "compareAtMax": null,
+    "variantCount": 9
+  },
+  "options": [
+    {
+      "name": "Size",
+      "position": 1,
+      "values": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL",
+        "YS",
+        "YM",
+        "YL"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 43238183272583,
+      "title": "S",
+      "sku": "500025",
+      "available": true,
+      "price": 39.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "S"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 907,
+      "position": 1
+    },
+    {
+      "id": 43238183305351,
+      "title": "M",
+      "sku": "None",
+      "available": true,
+      "price": 39.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "M"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 907,
+      "position": 2
+    },
+    {
+      "id": 43238183338119,
+      "title": "L",
+      "sku": "None",
+      "available": true,
+      "price": 39.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "L"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 907,
+      "position": 3
+    },
+    {
+      "id": 43238183370887,
+      "title": "XL",
+      "sku": "None",
+      "available": true,
+      "price": 39.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "XL"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 907,
+      "position": 4
+    },
+    {
+      "id": 43238183403655,
+      "title": "2XL",
+      "sku": "None",
+      "available": true,
+      "price": 39.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "2XL"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 907,
+      "position": 5
+    },
+    {
+      "id": 43238183436423,
+      "title": "3XL",
+      "sku": "None",
+      "available": true,
+      "price": 39.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "3XL"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 907,
+      "position": 6
+    },
+    {
+      "id": 43238183469191,
+      "title": "YS",
+      "sku": "None",
+      "available": true,
+      "price": 39.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "YS"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 907,
+      "position": 7
+    },
+    {
+      "id": 43238183501959,
+      "title": "YM",
+      "sku": "None",
+      "available": true,
+      "price": 39.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "YM"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 907,
+      "position": 8
+    },
+    {
+      "id": 43238183534727,
+      "title": "YL",
+      "sku": "None",
+      "available": true,
+      "price": 39.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "YL"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 907,
+      "position": 9
+    }
+  ],
+  "images": [
+    {
+      "localPath": "/assets/images/notionworx-inventory/apparel/full-zipper-hoodie-full-dye-sublimation-500025/01.webp",
+      "width": 1000,
+      "height": 1000,
+      "position": 1,
+      "variantIds": []
+    },
+    {
+      "localPath": "/assets/images/notionworx-inventory/apparel/full-zipper-hoodie-full-dye-sublimation-500025/02.png",
+      "width": 720,
+      "height": 720,
+      "position": 2,
+      "variantIds": []
+    }
+  ],
+  "createdAt": "2025-09-25T12:38:12-06:00",
+  "updatedAt": "2026-08-18T21:24:55-06:00",
+  "publishedAt": "2025-09-26T09:33:45-06:00"
+}

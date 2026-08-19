@@ -1,0 +1,145 @@
+{
+  "schemaVersion": 2,
+  "id": 8227678355591,
+  "handle": "10ft-seg-backlit-fabric-display",
+  "slug": "10ft-seg-backlit-fabric-display",
+  "name": "10ft SEG Backlit Fabric Display",
+  "vendor": "Notion Worx",
+  "productType": null,
+  "primaryCategory": {
+    "handle": "seg-products",
+    "title": "SEG PRODUCTS"
+  },
+  "categories": [
+    {
+      "handle": "seg-products",
+      "title": "SEG PRODUCTS"
+    }
+  ],
+  "descriptionHtml": "<p data-mce-fragment=\"1\">This illuminated large format trade show display is suitable for all large-scale marketing purposes. Radiant and eye-catching with its bright illumination, this display is perfectly suited for attracting the attention of a wide amount of customers and clientele.</p>\n<p data-mce-fragment=\"1\">SEG displays utilize a silicone edge graphic (SEG) to create a seamless and visually appealing presentation. It is commonly used in the field of visual marketing and trade shows.\u00a0 The silicone strip is designed to fit into a channel on the display frame. This creates a taut and smooth appearance without any visible seams on the front surface of the display. Changing out SEG graphics is a breeze.\u00a0</p>\n<p data-mce-fragment=\"1\">Interior LED lighting enhances the backlit fabric prints making these displays true show-stoppers.\u00a0\u00a0</p>\n<p data-mce-fragment=\"1\"><strong data-mce-fragment=\"1\">Features:</strong></p>\n<ul data-mce-fragment=\"1\">\n<li data-mce-fragment=\"1\">High resolution UV printed</li>\n<li data-mce-fragment=\"1\">UV safe that will last for years</li>\n<li data-mce-fragment=\"1\">Blackout Fabric included for Single Sided option</li>\n</ul>\n<p data-mce-fragment=\"1\"><strong data-mce-fragment=\"1\">Material:</strong></p>\n<ul data-mce-fragment=\"1\">\n<li data-mce-fragment=\"1\">6 oz. Premium Backlit Fabric</li>\n<li data-mce-fragment=\"1\">Aluminum Frame</li>\n</ul>\n<p data-mce-fragment=\"1\"><strong data-mce-fragment=\"1\">Size and Weight:</strong></p>\n<ul data-mce-fragment=\"1\">\n<li data-mce-fragment=\"1\">Display Size: 118.1\"W x 88.6\"H x 17\"D</li>\n<li data-mce-fragment=\"1\">Weight: 31 lbs (each box, 2 boxes total)</li>\n<li data-mce-fragment=\"1\">Package Size: 57\"W x 13.5\"H x 7.5\"D (box1) and 48.5\"W x 13.5\"H x 7.5\"D (box2)</li>\n</ul>",
+  "descriptionText": "This illuminated large format trade show display is suitable for all large-scale marketing purposes. Radiant and eye-catching with its bright illumination, this display is perfectly suited for attracting the attention of a wide amount of customers and clientele.\nSEG displays utilize a silicone edge graphic (SEG) to create a seamless and visually appealing presentation. It is commonly used in the field of visual marketing and trade shows. The silicone strip is designed to fit into a channel on the display frame. This creates a taut and smooth appearance without any visible seams on the front surface of the display. Changing out SEG graphics is a breeze.\nInterior LED lighting enhances the backlit fabric prints making these displays true show-stoppers.\nFeatures:\nHigh resolution UV printed\nUV safe that will last for years\nBlackout Fabric included for Single Sided option\nMaterial:\n6 oz. Premium Backlit Fabric\nAluminum Frame\nSize and Weight:\nDisplay Size: 118.1\"W x 88.6\"H x 17\"D\nWeight: 31 lbs (each box, 2 boxes total)\nPackage Size: 57\"W x 13.5\"H x 7.5\"D (box1) and 48.5\"W x 13.5\"H x 7.5\"D (box2)",
+  "tags": [],
+  "skus": [
+    "70022",
+    "70023",
+    "70024",
+    "70025"
+  ],
+  "price": {
+    "min": 417.0,
+    "max": 3334.0,
+    "compareAtMin": null,
+    "compareAtMax": null,
+    "variantCount": 4
+  },
+  "options": [
+    {
+      "name": "Style",
+      "position": 1,
+      "values": [
+        "Frame + Graphics",
+        "Graphic Only"
+      ]
+    },
+    {
+      "name": "Graphics",
+      "position": 2,
+      "values": [
+        "Single Sided",
+        "Double Sided"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 43238181765255,
+      "title": "Frame + Graphics / Single Sided",
+      "sku": "70022",
+      "available": true,
+      "price": 2665.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "Frame + Graphics",
+        "Single Sided"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 54431,
+      "position": 1
+    },
+    {
+      "id": 43238181798023,
+      "title": "Frame + Graphics / Double Sided",
+      "sku": "70023",
+      "available": true,
+      "price": 3334.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "Frame + Graphics",
+        "Double Sided"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 54431,
+      "position": 2
+    },
+    {
+      "id": 43238181830791,
+      "title": "Graphic Only / Single Sided",
+      "sku": "70024",
+      "available": true,
+      "price": 417.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "Graphic Only",
+        "Single Sided"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 54431,
+      "position": 3
+    },
+    {
+      "id": 43238181863559,
+      "title": "Graphic Only / Double Sided",
+      "sku": "70025",
+      "available": true,
+      "price": 584.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "Graphic Only",
+        "Double Sided"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 54431,
+      "position": 4
+    }
+  ],
+  "images": [
+    {
+      "localPath": "/assets/images/notionworx-inventory/seg-products/10ft-seg-backlit-fabric-display/01.jpg",
+      "width": 1000,
+      "height": 1000,
+      "position": 1,
+      "variantIds": []
+    },
+    {
+      "localPath": "/assets/images/notionworx-inventory/seg-products/10ft-seg-backlit-fabric-display/02.jpg",
+      "width": 1000,
+      "height": 1000,
+      "position": 2,
+      "variantIds": []
+    },
+    {
+      "localPath": "/assets/images/notionworx-inventory/seg-products/10ft-seg-backlit-fabric-display/03.jpg",
+      "width": 1000,
+      "height": 1000,
+      "position": 3,
+      "variantIds": []
+    }
+  ],
+  "createdAt": "2025-09-25T12:37:52-06:00",
+  "updatedAt": "2026-08-18T21:24:48-06:00",
+  "publishedAt": "2025-09-26T09:36:16-06:00"
+}

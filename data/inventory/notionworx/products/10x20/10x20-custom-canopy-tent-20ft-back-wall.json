@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 2,
+  "id": 8227677372551,
+  "handle": "10x20-custom-canopy-tent-20ft-back-wall",
+  "slug": "10x20-custom-canopy-tent-20ft-back-wall",
+  "name": "10x20 Custom Canopy Tent Wall \u2013 Dye-Sublimation Printed",
+  "vendor": "Notion Worx",
+  "productType": null,
+  "primaryCategory": {
+    "handle": "10x20",
+    "title": "10x20 Custom Canopies"
+  },
+  "categories": [
+    {
+      "handle": "10x20",
+      "title": "10x20 Custom Canopies"
+    },
+    {
+      "handle": "tent",
+      "title": "Custom Canopy Tents \u2013 Personalized Pop Up Tents for Events"
+    }
+  ],
+  "descriptionHtml": "<h2 data-end=\"47\" data-start=\"0\"><strong data-end=\"47\" data-start=\"3\">20' Full Wall \u2013 Single-Sided (Wall Only)</strong></h2>\n<p data-end=\"390\" data-start=\"49\">Enhance your canopy setup with a <strong data-end=\"107\" data-start=\"82\">durable 20' Full Wall</strong>, perfect for increased privacy, shade, branding space, and wind protection. Made from <strong data-end=\"230\" data-start=\"194\">600D weather-resistant polyester</strong> and printed using high-quality <strong data-end=\"281\" data-start=\"262\">dye sublimation</strong>, this wall delivers sharp, vibrant graphics built to withstand outdoor conditions.<br data-end=\"367\" data-start=\"364\"><strong data-end=\"390\" data-start=\"367\">Frame not included.</strong></p>\n<h3 data-end=\"413\" data-start=\"397\"><strong data-end=\"413\" data-start=\"401\">Features</strong></h3>\n<p data-end=\"768\" data-start=\"415\">\ud83d\udee1\ufe0f <strong data-end=\"456\" data-start=\"419\">600D Weather-Resistant Polyester:</strong> Strong, long-lasting fabric ideal for outdoor environments.<br data-end=\"519\" data-start=\"516\">\ud83c\udfa8 <strong data-end=\"553\" data-start=\"522\">Full-Color Dye Sublimation:</strong> High-resolution printing on a white base for vivid, fade-resistant graphics.<br data-end=\"633\" data-start=\"630\">\ud83d\udd27 <strong data-end=\"650\" data-start=\"636\">Wall Only:</strong> <em data-end=\"688\" data-start=\"651\">Hardware and frame sold separately.</em><br data-end=\"691\" data-start=\"688\">\ud83d\udda8\ufe0f <strong data-end=\"714\" data-start=\"695\">Imprint Method:</strong> Full-color dye sublimation for premium visual impact.</p>\n<h3 data-end=\"795\" data-start=\"775\"><strong data-end=\"795\" data-start=\"779\">Kit Includes</strong></h3>\n<p data-end=\"863\" data-start=\"797\">\ud83e\uddf1 <strong data-end=\"835\" data-start=\"800\">1\u00d7 20' Full Wall (Single-Sided)</strong><br data-end=\"838\" data-start=\"835\">\u26a0\ufe0f <strong data-end=\"863\" data-start=\"841\">Frame NOT Included</strong></p>\n<h3 data-end=\"887\" data-start=\"870\"><strong data-end=\"887\" data-start=\"874\">Materials</strong></h3>\n<p data-end=\"922\" data-start=\"889\">\ud83e\uddf5 <strong data-end=\"901\" data-start=\"892\">Wall:</strong> 600 Denier Polyester</p>\n<h3 data-end=\"951\" data-start=\"929\"><strong data-end=\"951\" data-start=\"933\">Certifications</strong></h3>\n<p data-end=\"1005\" data-start=\"953\">\ud83d\udd25 <strong data-end=\"1005\" data-start=\"956\">Meets FR Rating Requirements (Fire-Resistant)</strong></p>\n<h3 data-end=\"1033\" data-start=\"1012\"><strong data-end=\"1033\" data-start=\"1016\">Primary Usage</strong></h3>\n<p data-is-only-node=\"\" data-is-last-node=\"\" data-end=\"1138\" data-start=\"1035\">Ideal for outdoor vendor setups, festivals, trade shows, food booths, markets, and branded activations.</p>\n\n<h2><span size=\"2\"><span>Factory Warranty</span></span></h2>\n<p>We stand behind the quality of our products. Our warranty covers any factory defects or damage that occurs during shipping. However, please note that we do not cover damage resulting from extreme weather conditions, misuse, or any circumstances beyond our control.</p>",
+  "descriptionText": "20' Full Wall \u2013 Single-Sided (Wall Only)\nEnhance your canopy setup with a durable 20' Full Wall, perfect for increased privacy, shade, branding space, and wind protection. Made from 600D weather-resistant polyester and printed using high-quality dye sublimation, this wall delivers sharp, vibrant graphics built to withstand outdoor conditions.\nFrame not included.\nFeatures\n\ud83d\udee1\ufe0f 600D Weather-Resistant Polyester: Strong, long-lasting fabric ideal for outdoor environments.\n\ud83c\udfa8 Full-Color Dye Sublimation: High-resolution printing on a white base for vivid, fade-resistant graphics.\n\ud83d\udd27 Wall Only: Hardware and frame sold separately.\n\ud83d\udda8\ufe0f Imprint Method: Full-color dye sublimation for premium visual impact.\nKit Includes\n\ud83e\uddf1 1\u00d7 20' Full Wall (Single-Sided)\n\u26a0\ufe0f Frame NOT Included\nMaterials\n\ud83e\uddf5 Wall: 600 Denier Polyester\nCertifications\n\ud83d\udd25 Meets FR Rating Requirements (Fire-Resistant)\nPrimary Usage\nIdeal for outdoor vendor setups, festivals, trade shows, food booths, markets, and branded activations.\nFactory Warranty\nWe stand behind the quality of our products. Our warranty covers any factory defects or damage that occurs during shipping. However, please note that we do not cover damage resulting from extreme weather conditions, misuse, or any circumstances beyond our control.",
+  "tags": [],
+  "skus": [
+    "ITEM #: 10-20 BW"
+  ],
+  "price": {
+    "min": 255.0,
+    "max": 255.0,
+    "compareAtMin": 280.5,
+    "compareAtMax": 280.5,
+    "variantCount": 1
+  },
+  "options": [
+    {
+      "name": "Title",
+      "position": 1,
+      "values": [
+        "Default Title"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 43238179078279,
+      "title": "Default Title",
+      "sku": "ITEM #: 10-20 BW",
+      "available": true,
+      "price": 255.0,
+      "compareAtPrice": 280.5,
+      "optionValues": [
+        "Default Title"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 11340,
+      "position": 1
+    }
+  ],
+  "images": [
+    {
+      "localPath": "/assets/images/notionworx-inventory/10x20/10x20-custom-canopy-tent-20ft-back-wall/01.jpg",
+      "width": 746,
+      "height": 715,
+      "position": 1,
+      "variantIds": []
+    },
+    {
+      "localPath": "/assets/images/notionworx-inventory/10x20/10x20-custom-canopy-tent-20ft-back-wall/02.jpg",
+      "width": 500,
+      "height": 500,
+      "position": 2,
+      "variantIds": []
+    }
+  ],
+  "createdAt": "2025-09-25T12:37:23-06:00",
+  "updatedAt": "2026-08-18T21:23:22-06:00",
+  "publishedAt": "2025-09-26T09:36:43-06:00"
+}

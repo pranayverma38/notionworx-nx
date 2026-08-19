@@ -1,0 +1,285 @@
+{
+  "schemaVersion": 2,
+  "id": 8227679797383,
+  "handle": "120gsm-milk-silk-long-sleeve-crew-neck-full-dye-sublimation-500003",
+  "slug": "120gsm-milk-silk-long-sleeve-crew-neck-full-dye-sublimation-500003",
+  "name": "120GSM Milk Silk Long Sleeve Crew Neck (Full Dye Sublimation)#500041",
+  "vendor": "Notion Worx",
+  "productType": null,
+  "primaryCategory": {
+    "handle": "apparel",
+    "title": "APPAREL"
+  },
+  "categories": [
+    {
+      "handle": "apparel",
+      "title": "APPAREL"
+    }
+  ],
+  "descriptionHtml": "<p data-mce-fragment=\"1\">95% polyester 5% spandex 120gsm 3.54oz milk silk moisture wicking fabric<br></p>\n\n<div style=\"text-align: left;\"><br></div>",
+  "descriptionText": "95% polyester 5% spandex 120gsm 3.54oz milk silk moisture wicking fabric",
+  "tags": [],
+  "skus": [
+    "500041"
+  ],
+  "price": {
+    "min": 12.5,
+    "max": 12.5,
+    "compareAtMin": null,
+    "compareAtMax": null,
+    "variantCount": 14
+  },
+  "options": [
+    {
+      "name": "Size",
+      "position": 1,
+      "values": [
+        "L",
+        "YS",
+        "YM",
+        "YL",
+        "S",
+        "M",
+        "XL",
+        "2XL",
+        "3XL",
+        "4XL",
+        "5XL",
+        "6XL",
+        "7XL",
+        "YXS"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 43238190186631,
+      "title": "L",
+      "sku": "500041",
+      "available": true,
+      "price": 12.5,
+      "compareAtPrice": null,
+      "optionValues": [
+        "L"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 907,
+      "position": 1
+    },
+    {
+      "id": 43238190219399,
+      "title": "YS",
+      "sku": "500041",
+      "available": true,
+      "price": 12.5,
+      "compareAtPrice": null,
+      "optionValues": [
+        "YS"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 907,
+      "position": 2
+    },
+    {
+      "id": 43238190252167,
+      "title": "YM",
+      "sku": "500041",
+      "available": true,
+      "price": 12.5,
+      "compareAtPrice": null,
+      "optionValues": [
+        "YM"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 907,
+      "position": 3
+    },
+    {
+      "id": 43238190284935,
+      "title": "YL",
+      "sku": "500041",
+      "available": true,
+      "price": 12.5,
+      "compareAtPrice": null,
+      "optionValues": [
+        "YL"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 907,
+      "position": 4
+    },
+    {
+      "id": 43238190317703,
+      "title": "S",
+      "sku": "500041",
+      "available": true,
+      "price": 12.5,
+      "compareAtPrice": null,
+      "optionValues": [
+        "S"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 907,
+      "position": 5
+    },
+    {
+      "id": 43238190350471,
+      "title": "M",
+      "sku": "500041",
+      "available": true,
+      "price": 12.5,
+      "compareAtPrice": null,
+      "optionValues": [
+        "M"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 907,
+      "position": 6
+    },
+    {
+      "id": 43238190383239,
+      "title": "XL",
+      "sku": "500041",
+      "available": true,
+      "price": 12.5,
+      "compareAtPrice": null,
+      "optionValues": [
+        "XL"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 907,
+      "position": 7
+    },
+    {
+      "id": 43238190416007,
+      "title": "2XL",
+      "sku": "500041",
+      "available": true,
+      "price": 12.5,
+      "compareAtPrice": null,
+      "optionValues": [
+        "2XL"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 907,
+      "position": 8
+    },
+    {
+      "id": 43238190448775,
+      "title": "3XL",
+      "sku": "500041",
+      "available": true,
+      "price": 12.5,
+      "compareAtPrice": null,
+      "optionValues": [
+        "3XL"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 907,
+      "position": 9
+    },
+    {
+      "id": 43238190481543,
+      "title": "4XL",
+      "sku": "500041",
+      "available": true,
+      "price": 12.5,
+      "compareAtPrice": null,
+      "optionValues": [
+        "4XL"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 907,
+      "position": 10
+    },
+    {
+      "id": 43238190514311,
+      "title": "5XL",
+      "sku": "500041",
+      "available": true,
+      "price": 12.5,
+      "compareAtPrice": null,
+      "optionValues": [
+        "5XL"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 907,
+      "position": 11
+    },
+    {
+      "id": 43238190547079,
+      "title": "6XL",
+      "sku": "500041",
+      "available": true,
+      "price": 12.5,
+      "compareAtPrice": null,
+      "optionValues": [
+        "6XL"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 907,
+      "position": 12
+    },
+    {
+      "id": 43238190579847,
+      "title": "7XL",
+      "sku": "500041",
+      "available": true,
+      "price": 12.5,
+      "compareAtPrice": null,
+      "optionValues": [
+        "7XL"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 907,
+      "position": 13
+    },
+    {
+      "id": 43238190612615,
+      "title": "YXS",
+      "sku": "500041",
+      "available": true,
+      "price": 12.5,
+      "compareAtPrice": null,
+      "optionValues": [
+        "YXS"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 907,
+      "position": 14
+    }
+  ],
+  "images": [
+    {
+      "localPath": "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-long-sleeve-crew-neck-full-dye-sublimation-500003/01.jpg",
+      "width": 1100,
+      "height": 1100,
+      "position": 1,
+      "variantIds": []
+    },
+    {
+      "localPath": "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-long-sleeve-crew-neck-full-dye-sublimation-500003/02.jpg",
+      "width": 800,
+      "height": 800,
+      "position": 2,
+      "variantIds": []
+    }
+  ],
+  "createdAt": "2025-09-25T12:38:46-06:00",
+  "updatedAt": "2026-08-18T21:24:55-06:00",
+  "publishedAt": "2025-09-26T09:33:54-06:00"
+}

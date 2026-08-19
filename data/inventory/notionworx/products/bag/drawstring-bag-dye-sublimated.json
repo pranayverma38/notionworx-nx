@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "id": 8227679142023,
+  "handle": "drawstring-bag-dye-sublimated",
+  "slug": "drawstring-bag-dye-sublimated",
+  "name": "Drawstring Bag (Dye Sublimated) #500027",
+  "vendor": "Notion Worx",
+  "productType": null,
+  "primaryCategory": {
+    "handle": "bag",
+    "title": "BAG"
+  },
+  "categories": [
+    {
+      "handle": "bag",
+      "title": "BAG"
+    }
+  ],
+  "descriptionHtml": "<p data-mce-fragment=\"1\" class=\"p2\"><span data-mce-fragment=\"1\"><strong data-mce-fragment=\"1\">Product Dimensions</strong></span></p>\n<ul data-mce-fragment=\"1\">\n<li data-mce-fragment=\"1\"><span data-mce-fragment=\"1\">Product size 15\" W x 20\" H\u00a0</span></li>\n</ul>\n<p data-mce-fragment=\"1\" class=\"p2\"><strong data-mce-fragment=\"1\">Features</strong></p>\n<ul data-mce-fragment=\"1\">\n<li data-mce-fragment=\"1\">bee 420 Denier Polyester Poplin</li>\n<li data-mce-fragment=\"1\"><strong data-mce-fragment=\"1\">Flame retardant: Product does not contain Prop 65 chemicals</strong></li>\n<li data-mce-fragment=\"1\">Classic custom tote bag with handles</li>\n<li data-mce-fragment=\"1\"><span data-mce-fragment=\"1\" color=\"#000000\">Seamless appearing design\u00a0on all\u00a02 sides</span></li>\n<li data-mce-fragment=\"1\">Imprint Method: Full-Color Dye Sublimation</li>\n<li data-mce-fragment=\"1\">Unlimited design capabilities</li>\n<li data-mce-fragment=\"1\">Customizable s</li>\n</ul>",
+  "descriptionText": "Product Dimensions\nProduct size 15\" W x 20\" H\nFeatures\nbee 420 Denier Polyester Poplin\nFlame retardant: Product does not contain Prop 65 chemicals\nClassic custom tote bag with handles\nSeamless appearing design on all 2 sides\nImprint Method: Full-Color Dye Sublimation\nUnlimited design capabilities\nCustomizable s",
+  "tags": [],
+  "skus": [
+    "ITEM #: 500027"
+  ],
+  "price": {
+    "min": 6.0,
+    "max": 6.0,
+    "compareAtMin": null,
+    "compareAtMax": null,
+    "variantCount": 1
+  },
+  "options": [
+    {
+      "name": "Title",
+      "position": 1,
+      "values": [
+        "Default Title"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 43238184484999,
+      "title": "Default Title",
+      "sku": "ITEM #: 500027",
+      "available": true,
+      "price": 6.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "Default Title"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 454,
+      "position": 1
+    }
+  ],
+  "images": [
+    {
+      "localPath": "/assets/images/notionworx-inventory/bag/drawstring-bag-dye-sublimated/01.jpg",
+      "width": 1600,
+      "height": 1600,
+      "position": 1,
+      "variantIds": []
+    },
+    {
+      "localPath": "/assets/images/notionworx-inventory/bag/drawstring-bag-dye-sublimated/02.png",
+      "width": 1176,
+      "height": 1054,
+      "position": 2,
+      "variantIds": []
+    },
+    {
+      "localPath": "/assets/images/notionworx-inventory/bag/drawstring-bag-dye-sublimated/03.png",
+      "width": 1180,
+      "height": 1078,
+      "position": 3,
+      "variantIds": []
+    },
+    {
+      "localPath": "/assets/images/notionworx-inventory/bag/drawstring-bag-dye-sublimated/04.png",
+      "width": 1156,
+      "height": 1098,
+      "position": 4,
+      "variantIds": []
+    },
+    {
+      "localPath": "/assets/images/notionworx-inventory/bag/drawstring-bag-dye-sublimated/05.png",
+      "width": 1156,
+      "height": 1098,
+      "position": 5,
+      "variantIds": []
+    }
+  ],
+  "createdAt": "2025-09-25T12:38:22-06:00",
+  "updatedAt": "2026-08-18T21:25:51-06:00",
+  "publishedAt": "2025-09-28T20:18:37-06:00"
+}

@@ -1,0 +1,315 @@
+{
+  "schemaVersion": 2,
+  "id": 8227680387207,
+  "handle": "long-sleeve-jersey-v-neck-full-dye-sublimation",
+  "slug": "long-sleeve-jersey-v-neck-full-dye-sublimation",
+  "name": "150GSM Mesh Jersey Long Sleeve V- neck (Full Dye Sublimation)#500004",
+  "vendor": "Notion Worx",
+  "productType": null,
+  "primaryCategory": {
+    "handle": "apparel",
+    "title": "APPAREL"
+  },
+  "categories": [
+    {
+      "handle": "apparel",
+      "title": "APPAREL"
+    }
+  ],
+  "descriptionHtml": "<p data-mce-fragment=\"1\">Material: 95% polyester. 5% spandex , jersey mesh\u00a0<span data-mce-fragment=\"1\">moisture wicking fabric</span></p>\n<div style=\"text-align: left;\"><br></div>",
+  "descriptionText": "Material: 95% polyester. 5% spandex , jersey mesh moisture wicking fabric",
+  "tags": [],
+  "skus": [
+    "500004"
+  ],
+  "price": {
+    "min": 12.5,
+    "max": 12.5,
+    "compareAtMin": null,
+    "compareAtMax": null,
+    "variantCount": 15
+  },
+  "options": [
+    {
+      "name": "Size",
+      "position": 1,
+      "values": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL",
+        "4XL",
+        "5XL",
+        "6XL",
+        "YXS",
+        "YS",
+        "YM",
+        "YL",
+        "YXL"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 43238195462279,
+      "title": "XS",
+      "sku": "500004",
+      "available": true,
+      "price": 12.5,
+      "compareAtPrice": null,
+      "optionValues": [
+        "XS"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 907,
+      "position": 1
+    },
+    {
+      "id": 43238195495047,
+      "title": "S",
+      "sku": "500004",
+      "available": true,
+      "price": 12.5,
+      "compareAtPrice": null,
+      "optionValues": [
+        "S"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 907,
+      "position": 2
+    },
+    {
+      "id": 43238195527815,
+      "title": "M",
+      "sku": "500004",
+      "available": true,
+      "price": 12.5,
+      "compareAtPrice": null,
+      "optionValues": [
+        "M"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 907,
+      "position": 3
+    },
+    {
+      "id": 43238195560583,
+      "title": "L",
+      "sku": "500004",
+      "available": true,
+      "price": 12.5,
+      "compareAtPrice": null,
+      "optionValues": [
+        "L"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 907,
+      "position": 4
+    },
+    {
+      "id": 43238195593351,
+      "title": "XL",
+      "sku": "500004",
+      "available": true,
+      "price": 12.5,
+      "compareAtPrice": null,
+      "optionValues": [
+        "XL"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 907,
+      "position": 5
+    },
+    {
+      "id": 43238195626119,
+      "title": "2XL",
+      "sku": "500004",
+      "available": true,
+      "price": 12.5,
+      "compareAtPrice": null,
+      "optionValues": [
+        "2XL"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 907,
+      "position": 6
+    },
+    {
+      "id": 43238195658887,
+      "title": "3XL",
+      "sku": "500004",
+      "available": true,
+      "price": 12.5,
+      "compareAtPrice": null,
+      "optionValues": [
+        "3XL"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 907,
+      "position": 7
+    },
+    {
+      "id": 43238195691655,
+      "title": "4XL",
+      "sku": "500004",
+      "available": true,
+      "price": 12.5,
+      "compareAtPrice": null,
+      "optionValues": [
+        "4XL"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 907,
+      "position": 8
+    },
+    {
+      "id": 43238195724423,
+      "title": "5XL",
+      "sku": "500004",
+      "available": true,
+      "price": 12.5,
+      "compareAtPrice": null,
+      "optionValues": [
+        "5XL"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 907,
+      "position": 9
+    },
+    {
+      "id": 43238195757191,
+      "title": "6XL",
+      "sku": "500004",
+      "available": true,
+      "price": 12.5,
+      "compareAtPrice": null,
+      "optionValues": [
+        "6XL"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 907,
+      "position": 10
+    },
+    {
+      "id": 43238195789959,
+      "title": "YXS",
+      "sku": "500004",
+      "available": true,
+      "price": 12.5,
+      "compareAtPrice": null,
+      "optionValues": [
+        "YXS"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 907,
+      "position": 11
+    },
+    {
+      "id": 43238195822727,
+      "title": "YS",
+      "sku": "500004",
+      "available": true,
+      "price": 12.5,
+      "compareAtPrice": null,
+      "optionValues": [
+        "YS"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 907,
+      "position": 12
+    },
+    {
+      "id": 43238195855495,
+      "title": "YM",
+      "sku": "500004",
+      "available": true,
+      "price": 12.5,
+      "compareAtPrice": null,
+      "optionValues": [
+        "YM"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 907,
+      "position": 13
+    },
+    {
+      "id": 43238195888263,
+      "title": "YL",
+      "sku": "500004",
+      "available": true,
+      "price": 12.5,
+      "compareAtPrice": null,
+      "optionValues": [
+        "YL"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 907,
+      "position": 14
+    },
+    {
+      "id": 43238195921031,
+      "title": "YXL",
+      "sku": "500004",
+      "available": true,
+      "price": 12.5,
+      "compareAtPrice": null,
+      "optionValues": [
+        "YXL"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 907,
+      "position": 15
+    }
+  ],
+  "images": [
+    {
+      "localPath": "/assets/images/notionworx-inventory/apparel/long-sleeve-jersey-v-neck-full-dye-sublimation/01.jpg",
+      "width": 1200,
+      "height": 1200,
+      "position": 1,
+      "variantIds": []
+    },
+    {
+      "localPath": "/assets/images/notionworx-inventory/apparel/long-sleeve-jersey-v-neck-full-dye-sublimation/02.jpg",
+      "width": 800,
+      "height": 800,
+      "position": 2,
+      "variantIds": []
+    },
+    {
+      "localPath": "/assets/images/notionworx-inventory/apparel/long-sleeve-jersey-v-neck-full-dye-sublimation/03.jpg",
+      "width": 800,
+      "height": 800,
+      "position": 3,
+      "variantIds": []
+    },
+    {
+      "localPath": "/assets/images/notionworx-inventory/apparel/long-sleeve-jersey-v-neck-full-dye-sublimation/04.jpg",
+      "width": 800,
+      "height": 800,
+      "position": 4,
+      "variantIds": []
+    }
+  ],
+  "createdAt": "2025-09-25T12:39:07-06:00",
+  "updatedAt": "2026-08-18T21:24:55-06:00",
+  "publishedAt": "2025-09-26T09:34:01-06:00"
+}

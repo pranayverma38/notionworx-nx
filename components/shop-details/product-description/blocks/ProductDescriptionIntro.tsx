@@ -1,27 +1,38 @@
+import type { ProductCardItem } from "@/types/productCard";
+
 type IntroProps = {
   gridClassName?: string;
   /** `h5` for tab / accordion-v2 layouts; `div` with `.h6` for sidebar accordion. */
   titleTag?: "h5" | "div";
+  product?: ProductCardItem;
 };
 
 export function ProductDescriptionIntro({
   gridClassName = "tab-content_desc tf-grid-layout md-col-2",
   titleTag = "h5",
+  product,
 }: IntroProps) {
+  const descriptionText =
+    product?.description ?? "Review the migrated catalog details for this product.";
+  const lines = descriptionText
+    .split("\n")
+    .map((line) => line.trim())
+    .filter(Boolean);
+  const introParagraphs = lines.slice(0, 2);
+  const detailLines = lines.slice(2, 7);
+
   const primaryTitle =
     titleTag === "h5" ? (
-      <h5 className="desc_title">Stretch Strap Top</h5>
+      <h5 className="desc_title">{product?.name ?? "Product Overview"}</h5>
     ) : (
-      <div className="h6 desc_title">Stretch Strap Top</div>
+      <div className="h6 desc_title">{product?.name ?? "Product Overview"}</div>
     );
 
   const secondaryTitle =
     titleTag === "h5" ? (
-      <h5 className="desc_title">Composition, Origin And Care Guidelines</h5>
+      <h5 className="desc_title">Key Details</h5>
     ) : (
-      <div className="h6 desc_title">
-        Composition, Origin And Care Guidelines
-      </div>
+      <div className="h6 desc_title">Key Details</div>
     );
 
   return (
@@ -29,27 +40,30 @@ export function ProductDescriptionIntro({
       <div className="box-desc">
         {primaryTitle}
         <div className="desc_info">
-          <p className="cl-text-2">
-            Nodding to retro styles, this Hyperbola T-shirt is defined by its
-            off-the-shoulder design. It&apos;s spun from a green stretch cotton
-            jersey and adorned with an embroidered.
-          </p>
-          <p className="cl-text-2">
-            Thick knitted fabric. Short design. Straight design. Rounded neck.
-            Sleeveless. Straps. Unclosed. Cable knit finish. Co-ord.
-          </p>
+          {(introParagraphs.length ? introParagraphs : [descriptionText]).map(
+            (paragraph) => (
+              <p key={paragraph} className="cl-text-2">
+                {paragraph}
+              </p>
+            ),
+          )}
         </div>
       </div>
       <div className="box-desc">
         {secondaryTitle}
         <ul className="list">
-          <li className="cl-text-2">
-            - Composition: 55% polyester, 30% acrylic, 13% polyamide, 2%
-            elastane
-          </li>
-          <li className="cl-text-2">- Designed in Barcelona</li>
-          <li className="cl-text-2">- Origin</li>
-          <li className="cl-text-2">- Manufacture: USA</li>
+          {(detailLines.length
+            ? detailLines
+            : [
+                product?.category ? `Category: ${product.category}` : null,
+                product?.sku ? `SKU: ${product.sku}` : null,
+                product?.inStock === false ? "Status: Out of stock" : "Status: Available",
+              ].filter(Boolean)
+          ).map((line) => (
+            <li key={line} className="cl-text-2">
+              - {line}
+            </li>
+          ))}
         </ul>
       </div>
     </div>

@@ -15,10 +15,10 @@ function PageTitle() {
             </div>
             <h3>About Us</h3>
             <p className="text-body-1 cl-text-2">
-              With over 15 years of experience, we craft timeless collections
-              that transcend
+              Notion Worx helps brands show up consistently across custom
+              canopies, displays, flags, apparel, and event-ready
               <br className="d-none d-lg-block" />
-              trends and inspire lasting elegance.
+              merchandising.
             </p>
           </div>
         </div>

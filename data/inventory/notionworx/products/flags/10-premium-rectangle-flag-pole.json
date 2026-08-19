@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 2,
+  "id": 8227683369095,
+  "handle": "10-premium-rectangle-flag-pole",
+  "slug": "10-premium-rectangle-flag-pole",
+  "name": "10' Premium Rectangle Flag Pole",
+  "vendor": "Notion Worx",
+  "productType": null,
+  "primaryCategory": {
+    "handle": "flags",
+    "title": "FLAGS"
+  },
+  "categories": [
+    {
+      "handle": "flags",
+      "title": "FLAGS"
+    }
+  ],
+  "descriptionHtml": "<p><strong>Product Descrption</strong></p>\n<p><span>Materials:</span><br>Carry Case: 600 Denier Polyester<br>Hardware: 100% epoxy fiberglass with lifetime warranty</p>\n\n<p><span>Features:</span></p>\n<p>Fiber glass poles are strong and flexible<br>Polished aluminum collar pole segment ends and ergonomic<br>Designed for use with universal\u00a0flags (flags sold separately)<br>Flag attaches to a fixed hook on the pole using the included bungee tie kit<br>Carbon composite poles are strong and flexible<br>Uniform carbon composite overlay pole construction with high-gloss black paint finish<br>Polished aluminum collar pole segment ends and ergonomic, rubber-reinforced base grip<br>The inside diameter of the pole is 9/16\" and the outside diameter is 3/4\"</p>",
+  "descriptionText": "Product Descrption\nMaterials:\nCarry Case: 600 Denier Polyester\nHardware: 100% epoxy fiberglass with lifetime warranty\nFeatures:\nFiber glass poles are strong and flexible\nPolished aluminum collar pole segment ends and ergonomic\nDesigned for use with universal flags (flags sold separately)\nFlag attaches to a fixed hook on the pole using the included bungee tie kit\nCarbon composite poles are strong and flexible\nUniform carbon composite overlay pole construction with high-gloss black paint finish\nPolished aluminum collar pole segment ends and ergonomic, rubber-reinforced base grip\nThe inside diameter of the pole is 9/16\" and the outside diameter is 3/4\"",
+  "tags": [],
+  "skus": [
+    "806119R"
+  ],
+  "price": {
+    "min": 40.0,
+    "max": 40.0,
+    "compareAtMin": null,
+    "compareAtMax": null,
+    "variantCount": 1
+  },
+  "options": [
+    {
+      "name": "Title",
+      "position": 1,
+      "values": [
+        "Default Title"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 43238206570631,
+      "title": "Default Title",
+      "sku": "806119R",
+      "available": true,
+      "price": 40.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "Default Title"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 2722,
+      "position": 1
+    }
+  ],
+  "images": [
+    {
+      "localPath": "/assets/images/notionworx-inventory/flags/10-premium-rectangle-flag-pole/01.jpg",
+      "width": 800,
+      "height": 800,
+      "position": 1,
+      "variantIds": []
+    }
+  ],
+  "createdAt": "2025-09-25T12:40:52-06:00",
+  "updatedAt": "2026-08-18T21:24:05-06:00",
+  "publishedAt": "2025-09-28T20:01:21-06:00"
+}

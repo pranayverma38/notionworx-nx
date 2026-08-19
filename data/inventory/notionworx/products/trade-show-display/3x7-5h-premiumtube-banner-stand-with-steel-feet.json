@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "id": 8227672293511,
+  "handle": "3x7-5h-premiumtube-banner-stand-with-steel-feet",
+  "slug": "3x7-5h-premiumtube-banner-stand-with-steel-feet",
+  "name": "Deluxe Fabric Stand",
+  "vendor": "Notion Worx",
+  "productType": null,
+  "primaryCategory": {
+    "handle": "trade-show-display",
+    "title": "BANNERS & DISPLAYS"
+  },
+  "categories": [
+    {
+      "handle": "trade-show-display",
+      "title": "BANNERS & DISPLAYS"
+    }
+  ],
+  "descriptionHtml": "<p data-mce-fragment=\"1\"><strong data-mce-fragment=\"1\">\u00a0\u00a036''x90'\u00a0</strong></p>\n\n<p data-mce-fragment=\"1\">As an environmentally friendly replacement for retractable roll ups, our Premium Tube Banner Stand with Steel Feet can be assembled with ease and used repeatedly. The steel feet gives the stand stability, while allowing it to pack down to be portable for easy transport.</p>\n<p data-mce-fragment=\"1\"><strong data-mce-fragment=\"1\">Basic Information:</strong></p>\n<ul data-mce-fragment=\"1\">\n<li data-mce-fragment=\"1\">Product Size: 36\"W x 90\"H</li>\n<li data-mce-fragment=\"1\">Visible Graphic Size:\u00a036\"W x 90\"H</li>\n<li data-mce-fragment=\"1\">Gross Weight: 10.56Ibs</li>\n<li data-mce-fragment=\"1\">Packing Size: 9.84\"x6.30\"x25.98\"</li>\n<li data-mce-fragment=\"1\">PC/CTN: 1</li>\n</ul>\n<p data-mce-fragment=\"1\"><strong data-mce-fragment=\"1\">Standard Unit Includes:\u00a0</strong></p>\n<ul data-mce-fragment=\"1\">\n<li data-mce-fragment=\"1\">(1) Hardware</li>\n<li data-mce-fragment=\"1\">(1) Dye-sublimated\u00a0Graphic</li>\n<li data-mce-fragment=\"1\">(1) Soft Carry Bag</li>\n<li data-mce-fragment=\"1\">(1) Instruction Sheet</li>\n</ul>\n<p data-mce-fragment=\"1\"><strong data-mce-fragment=\"1\">Warranty:</strong></p>\n<ul data-mce-fragment=\"1\">\n<li data-mce-fragment=\"1\"><strong data-mce-fragment=\"1\">Graphic: Three\u00a0months</strong></li>\n<li data-mce-fragment=\"1\">\n<strong data-mce-fragment=\"1\">Hardware: Lifetime</strong>(Standard warranty is a parts and labor warranty which warrants product against defects in material and workmanship. It does not cover damage due to accidents, abuse or normal wear and tear. Products found to be defective will be replaced or repaired at factory's discretion.)</li>\n</ul>",
+  "descriptionText": "36''x90'\nAs an environmentally friendly replacement for retractable roll ups, our Premium Tube Banner Stand with Steel Feet can be assembled with ease and used repeatedly. The steel feet gives the stand stability, while allowing it to pack down to be portable for easy transport.\nBasic Information:\nProduct Size: 36\"W x 90\"H\nVisible Graphic Size: 36\"W x 90\"H\nGross Weight: 10.56Ibs\nPacking Size: 9.84\"x6.30\"x25.98\"\nPC/CTN: 1\nStandard Unit Includes:\n(1) Hardware\n(1) Dye-sublimated Graphic\n(1) Soft Carry Bag\n(1) Instruction Sheet\nWarranty:\nGraphic: Three months\nHardware: Lifetime (Standard warranty is a parts and labor warranty which warrants product against defects in material and workmanship. It does not cover damage due to accidents, abuse or normal wear and tear. Products found to be defective will be replaced or repaired at factory's discretion.)",
+  "tags": [],
+  "skus": [
+    "406091"
+  ],
+  "price": {
+    "min": 117.0,
+    "max": 165.0,
+    "compareAtMin": null,
+    "compareAtMax": null,
+    "variantCount": 2
+  },
+  "options": [
+    {
+      "name": "Size",
+      "position": 1,
+      "values": [
+        "36'' x 90''"
+      ]
+    },
+    {
+      "name": "Included",
+      "position": 2,
+      "values": [
+        "Double-Sided Graphic + Frame",
+        "Graphic Only"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 43238153617543,
+      "title": "36'' x 90'' / Double-Sided Graphic + Frame",
+      "sku": "406091",
+      "available": true,
+      "price": 165.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "36'' x 90''",
+        "Double-Sided Graphic + Frame"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 13608,
+      "position": 1
+    },
+    {
+      "id": 43238153650311,
+      "title": "36'' x 90'' / Graphic Only",
+      "sku": "None",
+      "available": true,
+      "price": 117.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "36'' x 90''",
+        "Graphic Only"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 907,
+      "position": 2
+    }
+  ],
+  "images": [
+    {
+      "localPath": "/assets/images/notionworx-inventory/trade-show-display/3x7-5h-premiumtube-banner-stand-with-steel-feet/01.jpg",
+      "width": 2500,
+      "height": 2500,
+      "position": 1,
+      "variantIds": []
+    },
+    {
+      "localPath": "/assets/images/notionworx-inventory/trade-show-display/3x7-5h-premiumtube-banner-stand-with-steel-feet/02.jpg",
+      "width": 1000,
+      "height": 1000,
+      "position": 2,
+      "variantIds": []
+    }
+  ],
+  "createdAt": "2025-09-25T12:33:57-06:00",
+  "updatedAt": "2026-08-18T21:24:32-06:00",
+  "publishedAt": "2025-09-26T09:36:48-06:00"
+}

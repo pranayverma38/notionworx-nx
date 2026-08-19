@@ -7,9 +7,10 @@ function TopPicksThisWeek() {
     <section className="flat-spacing">
       <div className="container">
         <div className="sect-heading type-2 text-center wow fadeInUp">
-          <h3 className="s-title">Top Trending</h3>
+          <h3 className="s-title">Featured Right Now</h3>
           <p className="s-desc text-body-1 cl-text-2">
-            Browse our Top Trending picks loved by all.
+            Browse more high-traffic products from the current Notion Worx
+            catalog.
           </p>
         </div>
         <TfSwiper

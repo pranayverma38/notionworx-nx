@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 2,
+  "id": 8245982953607,
+  "handle": "option-set-1262864-image-swatches-1",
+  "slug": "option-set-1262864-image-swatches-1",
+  "name": "Table Cover",
+  "vendor": "Notion Worx",
+  "productType": null,
+  "primaryCategory": {
+    "handle": "uncategorized",
+    "title": "Uncategorized"
+  },
+  "categories": [
+    {
+      "handle": "uncategorized",
+      "title": "Uncategorized"
+    }
+  ],
+  "descriptionHtml": "",
+  "descriptionText": "",
+  "tags": [
+    "globo-product-options",
+    "option-set-1262864-image-swatches-1"
+  ],
+  "skus": [],
+  "price": {
+    "min": 135.0,
+    "max": 145.0,
+    "compareAtMin": null,
+    "compareAtMax": null,
+    "variantCount": 3
+  },
+  "options": [
+    {
+      "name": "Title",
+      "position": 1,
+      "values": [
+        "6ft Stretch Table Cover",
+        "6ft Fitted Table Cover",
+        "6ft Draped Table Cover"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 43368142700679,
+      "title": "6ft Stretch Table Cover",
+      "sku": "None",
+      "available": true,
+      "price": 135.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "6ft Stretch Table Cover"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 0,
+      "position": 1
+    },
+    {
+      "id": 43368142733447,
+      "title": "6ft Fitted Table Cover",
+      "sku": "None",
+      "available": true,
+      "price": 145.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "6ft Fitted Table Cover"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 0,
+      "position": 2
+    },
+    {
+      "id": 43368142766215,
+      "title": "6ft Draped Table Cover",
+      "sku": "None",
+      "available": true,
+      "price": 145.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "6ft Draped Table Cover"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 0,
+      "position": 3
+    }
+  ],
+  "images": [],
+  "createdAt": "2025-10-24T00:20:28-06:00",
+  "updatedAt": "2026-08-18T21:26:13-06:00",
+  "publishedAt": "2025-10-24T00:20:29-06:00"
+}

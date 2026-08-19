@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 2,
+  "handle": "table-cover",
+  "title": "TABLE COVER",
+  "description": "",
+  "image": {
+    "localPath": "/assets/images/notionworx-inventory/collections/table-cover/01.jpg",
+    "width": null,
+    "height": null
+  },
+  "productsCount": 10,
+  "productHandles": [
+    "6ft-heavy-duty-folding-table",
+    "8ft-heavy-duty-folding-table",
+    "draped-table-cover",
+    "premium-fitted-table-cover-full-color-dye-sublimation-full-bleed",
+    "stretch-table-cover",
+    "table-runner"
+  ]
+}

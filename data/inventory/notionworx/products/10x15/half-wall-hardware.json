@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 2,
+  "id": 8227683139719,
+  "handle": "half-wall-hardware",
+  "slug": "half-wall-hardware",
+  "name": "Half Wall Hardware",
+  "vendor": "Notion Worx",
+  "productType": null,
+  "primaryCategory": {
+    "handle": "10x15",
+    "title": "10x15 Custom Canopies"
+  },
+  "categories": [
+    {
+      "handle": "10x15",
+      "title": "10x15 Custom Canopies"
+    },
+    {
+      "handle": "10x20",
+      "title": "10x20 Custom Canopies"
+    },
+    {
+      "handle": "10x10",
+      "title": "10x10 Custom Canopies"
+    }
+  ],
+  "descriptionHtml": "<p><span>Half Wall Support Pole spans between the tent hardware and clamps to keep your Half Wall graphic straight and secure. The pole is telescopic to fit within your carrying case with the tent hardware and extends to clamp to tent legs. Package includes 2 Hex Clamps (1 Straight and 1 Offset) to secure to tent hardware.\u00a0</span></p>",
+  "descriptionText": "Half Wall Support Pole spans between the tent hardware and clamps to keep your Half Wall graphic straight and secure. The pole is telescopic to fit within your carrying case with the tent hardware and extends to clamp to tent legs. Package includes 2 Hex Clamps (1 Straight and 1 Offset) to secure to tent hardware.",
+  "tags": [],
+  "skus": [],
+  "price": {
+    "min": 87.0,
+    "max": 87.0,
+    "compareAtMin": null,
+    "compareAtMax": null,
+    "variantCount": 1
+  },
+  "options": [
+    {
+      "name": "Title",
+      "position": 1,
+      "values": [
+        "Default Title"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 43238205948039,
+      "title": "Default Title",
+      "sku": "None",
+      "available": true,
+      "price": 87.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "Default Title"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 3629,
+      "position": 1
+    }
+  ],
+  "images": [
+    {
+      "localPath": "/assets/images/notionworx-inventory/10x15/half-wall-hardware/01.webp",
+      "width": 1000,
+      "height": 1000,
+      "position": 1,
+      "variantIds": []
+    }
+  ],
+  "createdAt": "2025-09-25T12:40:44-06:00",
+  "updatedAt": "2026-08-18T21:23:38-06:00",
+  "publishedAt": "2025-09-28T21:06:04-06:00"
+}

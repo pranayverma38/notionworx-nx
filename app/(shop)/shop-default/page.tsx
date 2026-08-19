@@ -8,7 +8,14 @@ import {
 
 export const metadata = shopRouteMetadata("Shop", SHOP_LISTING_DESCRIPTION);
 
-export default function page() {
+export default async function page({
+  searchParams,
+}: {
+  searchParams: Promise<{ category?: string }>;
+}) {
+  const { category } = await searchParams;
+  const activeCategory = category?.trim() || null;
+
   return (
     <>
       {/* Page Title */}
@@ -20,19 +27,21 @@ export default function page() {
                 Home
               </Link>
               <i className="icon icon-CaretRightThin cl-text-3" />
-              <p className="text-caption-01">Tops &amp; Shirts</p>
+              <p className="text-caption-01">
+                {activeCategory ?? "All Products"}
+              </p>
             </div>
-            <h3>Tops &amp; Shirts</h3>
+            <h3>{activeCategory ?? "All Products"}</h3>
             <p className="text-body-1 cl-text-2">
-              Step into our Tops &amp; Shirts Collection, where elegance meets
-              confidence in styles
+              Browse our migrated storefront catalog of custom canopies,
+              displays, flags, apparel, and event essentials
               <br className="d-none d-lg-block" />
-              that inspire every moment.
+              with local images and on-site product detail pages.
             </p>
           </div>
         </div>
       </section>
-      <Shop />
+      <Shop defaultCategories={activeCategory ? [activeCategory] : []} />
       {/* /Page Title */}
     </>
   );

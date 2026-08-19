@@ -1,0 +1,317 @@
+{
+  "schemaVersion": 2,
+  "id": 8227679862919,
+  "handle": "120gsm-milk-silk-short-sleeve-crew-neck-full-dye-sublimation-500040",
+  "slug": "120gsm-milk-silk-short-sleeve-crew-neck-full-dye-sublimation-500040",
+  "name": "120GSM Milk Silk Short Sleeve Crew Neck (Full Dye Sublimation) #500040",
+  "vendor": "Notion Worx",
+  "productType": null,
+  "primaryCategory": {
+    "handle": "apparel",
+    "title": "APPAREL"
+  },
+  "categories": [
+    {
+      "handle": "apparel",
+      "title": "APPAREL"
+    }
+  ],
+  "descriptionHtml": "<h4><span>.\u00a0 \u00a0</span></h4>\n\n<p data-mce-fragment=\"1\">95% polyester 5% spandex 120gsm 3.54oz\u00a0milk silk\u00a0moisture wicking fabric<br></p>",
+  "descriptionText": ".\n\n95% polyester 5% spandex 120gsm 3.54oz milk silk moisture wicking fabric",
+  "tags": [],
+  "skus": [
+    "500040"
+  ],
+  "price": {
+    "min": 12.5,
+    "max": 12.5,
+    "compareAtMin": null,
+    "compareAtMax": null,
+    "variantCount": 16
+  },
+  "options": [
+    {
+      "name": "Size",
+      "position": 1,
+      "values": [
+        "L",
+        "S",
+        "M",
+        "XL",
+        "2XL",
+        "3XL",
+        "4XL",
+        "5XL",
+        "6XL",
+        "7XL",
+        "YXS",
+        "YS",
+        "YM",
+        "YL",
+        "YXL",
+        "XS"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 43238190678151,
+      "title": "L",
+      "sku": "500040",
+      "available": true,
+      "price": 12.5,
+      "compareAtPrice": null,
+      "optionValues": [
+        "L"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 454,
+      "position": 1
+    },
+    {
+      "id": 43238190710919,
+      "title": "S",
+      "sku": "500040",
+      "available": true,
+      "price": 12.5,
+      "compareAtPrice": null,
+      "optionValues": [
+        "S"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 454,
+      "position": 2
+    },
+    {
+      "id": 43238190743687,
+      "title": "M",
+      "sku": "500040",
+      "available": true,
+      "price": 12.5,
+      "compareAtPrice": null,
+      "optionValues": [
+        "M"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 454,
+      "position": 3
+    },
+    {
+      "id": 43238190776455,
+      "title": "XL",
+      "sku": "500040",
+      "available": true,
+      "price": 12.5,
+      "compareAtPrice": null,
+      "optionValues": [
+        "XL"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 454,
+      "position": 4
+    },
+    {
+      "id": 43238190809223,
+      "title": "2XL",
+      "sku": "500040",
+      "available": true,
+      "price": 12.5,
+      "compareAtPrice": null,
+      "optionValues": [
+        "2XL"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 454,
+      "position": 5
+    },
+    {
+      "id": 43238190841991,
+      "title": "3XL",
+      "sku": "500040",
+      "available": true,
+      "price": 12.5,
+      "compareAtPrice": null,
+      "optionValues": [
+        "3XL"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 454,
+      "position": 6
+    },
+    {
+      "id": 43238190874759,
+      "title": "4XL",
+      "sku": "500040",
+      "available": true,
+      "price": 12.5,
+      "compareAtPrice": null,
+      "optionValues": [
+        "4XL"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 454,
+      "position": 7
+    },
+    {
+      "id": 43238190907527,
+      "title": "5XL",
+      "sku": "500040",
+      "available": true,
+      "price": 12.5,
+      "compareAtPrice": null,
+      "optionValues": [
+        "5XL"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 454,
+      "position": 8
+    },
+    {
+      "id": 43238190940295,
+      "title": "6XL",
+      "sku": "500040",
+      "available": true,
+      "price": 12.5,
+      "compareAtPrice": null,
+      "optionValues": [
+        "6XL"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 454,
+      "position": 9
+    },
+    {
+      "id": 43238190973063,
+      "title": "7XL",
+      "sku": "500040",
+      "available": true,
+      "price": 12.5,
+      "compareAtPrice": null,
+      "optionValues": [
+        "7XL"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 454,
+      "position": 10
+    },
+    {
+      "id": 43238191005831,
+      "title": "YXS",
+      "sku": "500040",
+      "available": true,
+      "price": 12.5,
+      "compareAtPrice": null,
+      "optionValues": [
+        "YXS"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 454,
+      "position": 11
+    },
+    {
+      "id": 43238191038599,
+      "title": "YS",
+      "sku": "500040",
+      "available": true,
+      "price": 12.5,
+      "compareAtPrice": null,
+      "optionValues": [
+        "YS"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 454,
+      "position": 12
+    },
+    {
+      "id": 43238191071367,
+      "title": "YM",
+      "sku": "500040",
+      "available": true,
+      "price": 12.5,
+      "compareAtPrice": null,
+      "optionValues": [
+        "YM"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 454,
+      "position": 13
+    },
+    {
+      "id": 43238191104135,
+      "title": "YL",
+      "sku": "500040",
+      "available": true,
+      "price": 12.5,
+      "compareAtPrice": null,
+      "optionValues": [
+        "YL"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 454,
+      "position": 14
+    },
+    {
+      "id": 43238191136903,
+      "title": "YXL",
+      "sku": "500040",
+      "available": true,
+      "price": 12.5,
+      "compareAtPrice": null,
+      "optionValues": [
+        "YXL"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 454,
+      "position": 15
+    },
+    {
+      "id": 43238191169671,
+      "title": "XS",
+      "sku": "500040",
+      "available": true,
+      "price": 12.5,
+      "compareAtPrice": null,
+      "optionValues": [
+        "XS"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 454,
+      "position": 16
+    }
+  ],
+  "images": [
+    {
+      "localPath": "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-short-sleeve-crew-neck-full-dye-sublimation-500040/01.jpg",
+      "width": 1100,
+      "height": 1100,
+      "position": 1,
+      "variantIds": []
+    },
+    {
+      "localPath": "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-short-sleeve-crew-neck-full-dye-sublimation-500040/02.jpg",
+      "width": 1100,
+      "height": 1100,
+      "position": 2,
+      "variantIds": []
+    }
+  ],
+  "createdAt": "2025-09-25T12:38:48-06:00",
+  "updatedAt": "2026-08-18T21:24:55-06:00",
+  "publishedAt": "2025-09-26T09:33:55-06:00"
+}

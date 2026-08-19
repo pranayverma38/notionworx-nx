@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 2,
+  "id": 8227678322823,
+  "handle": "premium-x-base",
+  "slug": "premium-x-base",
+  "name": "X Base BA-9",
+  "vendor": "Notion Worx",
+  "productType": null,
+  "primaryCategory": {
+    "handle": "flags",
+    "title": "FLAGS"
+  },
+  "categories": [
+    {
+      "handle": "flags",
+      "title": "FLAGS"
+    }
+  ],
+  "descriptionHtml": "<p><span data-mce-fragment=\"1\">Foldable Can be used indoors or outside.</span></p>\n<p>Each Pc Pack By Individual Box,6 pcs Into One Carton</p>\n<p>21''x12''x8'' /40lbs / 1 Carton</p>\n<p>fit for all feather,teardrop and rectangle flag pole</p>",
+  "descriptionText": "Foldable Can be used indoors or outside.\nEach Pc Pack By Individual Box,6 pcs Into One Carton\n21''x12''x8'' /40lbs / 1 Carton\nfit for all feather,teardrop and rectangle flag pole",
+  "tags": [],
+  "skus": [
+    "810032"
+  ],
+  "price": {
+    "min": 57.0,
+    "max": 57.0,
+    "compareAtMin": null,
+    "compareAtMax": null,
+    "variantCount": 1
+  },
+  "options": [
+    {
+      "name": "Title",
+      "position": 1,
+      "values": [
+        "Default Title"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 43238181732487,
+      "title": "Default Title",
+      "sku": "810032",
+      "available": true,
+      "price": 57.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "Default Title"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 3629,
+      "position": 1
+    }
+  ],
+  "images": [
+    {
+      "localPath": "/assets/images/notionworx-inventory/flags/premium-x-base/01.jpg",
+      "width": 1000,
+      "height": 1000,
+      "position": 1,
+      "variantIds": []
+    },
+    {
+      "localPath": "/assets/images/notionworx-inventory/flags/premium-x-base/02.jpg",
+      "width": 1000,
+      "height": 1000,
+      "position": 2,
+      "variantIds": []
+    },
+    {
+      "localPath": "/assets/images/notionworx-inventory/flags/premium-x-base/03.jpg",
+      "width": 1000,
+      "height": 1000,
+      "position": 3,
+      "variantIds": []
+    }
+  ],
+  "createdAt": "2025-09-25T12:37:51-06:00",
+  "updatedAt": "2026-08-18T21:24:05-06:00",
+  "publishedAt": "2025-09-28T20:01:16-06:00"
+}

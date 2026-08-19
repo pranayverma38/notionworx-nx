@@ -11,14 +11,14 @@ function PageTitle() {
                 Home
               </Link>
               <i className="icon icon-CaretRightThin cl-text-3" />
-              <p className="text-caption-01">Our Stores</p>
+              <p className="text-caption-01">Project Support</p>
             </div>
-            <h3>Our Stores</h3>
+            <h3>Project Support</h3>
             <p className="text-body-1 cl-text-2">
-              Explore our store locations, experience our collections in person,
-              and easily find
+              Explore the core collections now driving the migrated Notion Worx
+              storefront and quickly find
               <br className="d-none d-lg-block" />
-              the one that’s closest to you.
+              the product family that best fits your next event or promotion.
             </p>
           </div>
         </div>

@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 2,
+  "id": 8249059999879,
+  "handle": "option-set-1262864-image-swatches-5",
+  "slug": "option-set-1262864-image-swatches-5",
+  "name": "Frame Color",
+  "vendor": "Notion Worx",
+  "productType": null,
+  "primaryCategory": {
+    "handle": "uncategorized",
+    "title": "Uncategorized"
+  },
+  "categories": [
+    {
+      "handle": "uncategorized",
+      "title": "Uncategorized"
+    }
+  ],
+  "descriptionHtml": "",
+  "descriptionText": "",
+  "tags": [
+    "globo-product-options",
+    "option-set-1262864-image-swatches-5"
+  ],
+  "skus": [],
+  "price": {
+    "min": 80.0,
+    "max": 400.0,
+    "compareAtMin": null,
+    "compareAtMax": null,
+    "variantCount": 4
+  },
+  "options": [
+    {
+      "name": "Title",
+      "position": 1,
+      "values": [
+        "Black Frame",
+        "Back Wall",
+        "Back Wall & Half Side Walls",
+        "Three Full Walls"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 43379287031943,
+      "title": "Black Frame",
+      "sku": "None",
+      "available": true,
+      "price": 80.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "Black Frame"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 0,
+      "position": 1
+    },
+    {
+      "id": 43379301122183,
+      "title": "Back Wall",
+      "sku": "None",
+      "available": true,
+      "price": 100.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "Back Wall"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 0,
+      "position": 2
+    },
+    {
+      "id": 43379301154951,
+      "title": "Back Wall & Half Side Walls",
+      "sku": "None",
+      "available": true,
+      "price": 300.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "Back Wall & Half Side Walls"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 0,
+      "position": 3
+    },
+    {
+      "id": 43379301187719,
+      "title": "Three Full Walls",
+      "sku": "None",
+      "available": true,
+      "price": 400.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "Three Full Walls"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 0,
+      "position": 4
+    }
+  ],
+  "images": [],
+  "createdAt": "2025-10-27T00:49:37-06:00",
+  "updatedAt": "2026-08-18T21:26:13-06:00",
+  "publishedAt": "2025-10-27T00:49:37-06:00"
+}

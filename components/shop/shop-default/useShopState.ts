@@ -5,6 +5,7 @@ import { filterReducer, staticInitialState } from "./filterReducer";
 import type { FilterState, ShopProduct } from "@/types/shopFilter";
 
 type UseShopStateOptions = {
+  defaultCategories?: string[];
   defaultTags?: string[];
   itemPerPage?: number;
   products: ShopProduct[];
@@ -16,6 +17,7 @@ function maxCatalogPrice(products: ShopProduct[]): number {
 }
 
 export function useShopState({
+  defaultCategories = [],
   defaultTags = [],
   itemPerPage: itemPerPageProp = 0,
   products: sourceProducts,
@@ -30,6 +32,7 @@ export function useShopState({
     filtered: sourceProducts,
     sorted: sourceProducts,
     itemPerPage: itemPerPageProp ? itemPerPageProp : 12,
+    categories: defaultCategories,
     tags: defaultTags,
   };
 

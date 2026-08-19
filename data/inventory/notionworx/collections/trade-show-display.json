@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 2,
+  "handle": "trade-show-display",
+  "title": "BANNERS & DISPLAYS",
+  "description": "",
+  "image": {
+    "localPath": "/assets/images/notionworx-inventory/collections/trade-show-display/01.jpg",
+    "width": null,
+    "height": null
+  },
+  "productsCount": 13,
+  "productHandles": [
+    "10-fabric-pop-up-display-straight-copy",
+    "10-tube-straight-fabric-display-1",
+    "20-tube-display-straight",
+    "3x7-5h-premiumtube-banner-stand-with-steel-feet",
+    "8-fabric-pop-up-display-straight-copy",
+    "8-tube-straight-fabric-display-copy",
+    "custom-yard-sign",
+    "deluxe-retractable-33-x-80",
+    "premium-3-x-7-5-fabric-stand-copy",
+    "premium-retractable-36",
+    "retractable-banner-stand",
+    "step-and-repeat-backdrop-copy",
+    "x-stand"
+  ]
+}

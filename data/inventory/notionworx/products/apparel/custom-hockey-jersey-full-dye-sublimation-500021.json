@@ -1,0 +1,182 @@
+{
+  "schemaVersion": 2,
+  "id": 8227680125063,
+  "handle": "custom-hockey-jersey-full-dye-sublimation-500021",
+  "slug": "custom-hockey-jersey-full-dye-sublimation-500021",
+  "name": "150GSM Mesh Jersey Custom Hockey Jersey (Full Dye Sublimation) #500021",
+  "vendor": "Notion Worx",
+  "productType": null,
+  "primaryCategory": {
+    "handle": "apparel",
+    "title": "APPAREL"
+  },
+  "categories": [
+    {
+      "handle": "apparel",
+      "title": "APPAREL"
+    }
+  ],
+  "descriptionHtml": "<p><span>95% polyester 5% spandex 4.42oz\u00a0jersey mesh moisture-wicking</span><span data-mce-fragment=\"1\">\u00a0fabric</span></p>",
+  "descriptionText": "95% polyester 5% spandex 4.42oz jersey mesh moisture-wicking fabric",
+  "tags": [],
+  "skus": [
+    "500021"
+  ],
+  "price": {
+    "min": 57.5,
+    "max": 57.5,
+    "compareAtMin": null,
+    "compareAtMax": null,
+    "variantCount": 8
+  },
+  "options": [
+    {
+      "name": "Size",
+      "position": 1,
+      "values": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL",
+        "4XL",
+        "5XL"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 43238192775303,
+      "title": "S",
+      "sku": "500021",
+      "available": true,
+      "price": 57.5,
+      "compareAtPrice": null,
+      "optionValues": [
+        "S"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 454,
+      "position": 1
+    },
+    {
+      "id": 43238192808071,
+      "title": "M",
+      "sku": "500021",
+      "available": true,
+      "price": 57.5,
+      "compareAtPrice": null,
+      "optionValues": [
+        "M"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 454,
+      "position": 2
+    },
+    {
+      "id": 43238192840839,
+      "title": "L",
+      "sku": "500021",
+      "available": true,
+      "price": 57.5,
+      "compareAtPrice": null,
+      "optionValues": [
+        "L"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 454,
+      "position": 3
+    },
+    {
+      "id": 43238192873607,
+      "title": "XL",
+      "sku": "500021",
+      "available": true,
+      "price": 57.5,
+      "compareAtPrice": null,
+      "optionValues": [
+        "XL"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 454,
+      "position": 4
+    },
+    {
+      "id": 43238192906375,
+      "title": "2XL",
+      "sku": "500021",
+      "available": true,
+      "price": 57.5,
+      "compareAtPrice": null,
+      "optionValues": [
+        "2XL"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 454,
+      "position": 5
+    },
+    {
+      "id": 43238192939143,
+      "title": "3XL",
+      "sku": "500021",
+      "available": true,
+      "price": 57.5,
+      "compareAtPrice": null,
+      "optionValues": [
+        "3XL"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 454,
+      "position": 6
+    },
+    {
+      "id": 43238192971911,
+      "title": "4XL",
+      "sku": "500021",
+      "available": true,
+      "price": 57.5,
+      "compareAtPrice": null,
+      "optionValues": [
+        "4XL"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 454,
+      "position": 7
+    },
+    {
+      "id": 43238193004679,
+      "title": "5XL",
+      "sku": "500021",
+      "available": true,
+      "price": 57.5,
+      "compareAtPrice": null,
+      "optionValues": [
+        "5XL"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 454,
+      "position": 8
+    }
+  ],
+  "images": [
+    {
+      "localPath": "/assets/images/notionworx-inventory/apparel/custom-hockey-jersey-full-dye-sublimation-500021/01.jpg",
+      "width": 1000,
+      "height": 1000,
+      "position": 1,
+      "variantIds": []
+    }
+  ],
+  "createdAt": "2025-09-25T12:38:57-06:00",
+  "updatedAt": "2026-08-18T21:24:55-06:00",
+  "publishedAt": "2025-09-26T09:33:57-06:00"
+}

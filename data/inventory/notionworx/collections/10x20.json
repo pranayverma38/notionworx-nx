@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 2,
+  "handle": "10x20",
+  "title": "10x20 Custom Canopies",
+  "description": "<p style=\"text-align: center;\">\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0\u00a0</p>",
+  "image": {
+    "localPath": "/assets/images/notionworx-inventory/collections/10x20/01.png",
+    "width": null,
+    "height": null
+  },
+  "productsCount": 16,
+  "productHandles": [
+    "10x20-custom-canopy-tent-20ft-back-wall",
+    "20-roller-bag",
+    "custom-food-booth-canopy-tent-18-20",
+    "half-side-walls",
+    "half-wall-hardware",
+    "led-light-bars",
+    "portable-power-station-300w",
+    "premium-10x20-custom-canopy-tent-10-20",
+    "premium-10x20-custom-canopy-tent-11-20",
+    "premium-10x20-custom-canopy-tent-12-20",
+    "premium-10x20-custom-canopy-tent-9-20black",
+    "premium-10x20-custom-canopy-tent-9-20top",
+    "premium-10x20-custom-canopy-tent-hex-9-20",
+    "premium-20-aluminum-tent-frame-black",
+    "premium-20-aluminum-tent-frame-silver",
+    "sandbag-ballast-kit-for-event-tent-legs-set-of-four"
+  ]
+}

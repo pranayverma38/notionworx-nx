@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 2,
+  "id": 8227679240327,
+  "handle": "120gsm-milk-silk-v-neck-sleeveless-full-dye-sublimation-500087",
+  "slug": "120gsm-milk-silk-v-neck-sleeveless-full-dye-sublimation-500087",
+  "name": "120GSM Milk Silk V Neck Sleeveless (Full Dye Sublimation) #500087",
+  "vendor": "Notion Worx",
+  "productType": null,
+  "primaryCategory": {
+    "handle": "apparel",
+    "title": "APPAREL"
+  },
+  "categories": [
+    {
+      "handle": "apparel",
+      "title": "APPAREL"
+    }
+  ],
+  "descriptionHtml": "<p data-mce-fragment=\"1\">95% polyester 5% spandex 120gsm 3.54oz\u00a0milk silk\u00a0moisture wicking fabric<br></p>",
+  "descriptionText": "95% polyester 5% spandex 120gsm 3.54oz milk silk moisture wicking fabric",
+  "tags": [],
+  "skus": [],
+  "price": {
+    "min": 12.5,
+    "max": 12.5,
+    "compareAtMin": null,
+    "compareAtMax": null,
+    "variantCount": 7
+  },
+  "options": [
+    {
+      "name": "Size",
+      "position": 1,
+      "values": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL",
+        "4XL"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 43238185074823,
+      "title": "S",
+      "sku": "None",
+      "available": true,
+      "price": 12.5,
+      "compareAtPrice": null,
+      "optionValues": [
+        "S"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 454,
+      "position": 1
+    },
+    {
+      "id": 43238185107591,
+      "title": "M",
+      "sku": "None",
+      "available": true,
+      "price": 12.5,
+      "compareAtPrice": null,
+      "optionValues": [
+        "M"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 454,
+      "position": 2
+    },
+    {
+      "id": 43238185140359,
+      "title": "L",
+      "sku": "None",
+      "available": true,
+      "price": 12.5,
+      "compareAtPrice": null,
+      "optionValues": [
+        "L"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 454,
+      "position": 3
+    },
+    {
+      "id": 43238185173127,
+      "title": "XL",
+      "sku": "None",
+      "available": true,
+      "price": 12.5,
+      "compareAtPrice": null,
+      "optionValues": [
+        "XL"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 454,
+      "position": 4
+    },
+    {
+      "id": 43238185205895,
+      "title": "2XL",
+      "sku": "None",
+      "available": true,
+      "price": 12.5,
+      "compareAtPrice": null,
+      "optionValues": [
+        "2XL"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 454,
+      "position": 5
+    },
+    {
+      "id": 43238185238663,
+      "title": "3XL",
+      "sku": "None",
+      "available": true,
+      "price": 12.5,
+      "compareAtPrice": null,
+      "optionValues": [
+        "3XL"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 454,
+      "position": 6
+    },
+    {
+      "id": 43238185271431,
+      "title": "4XL",
+      "sku": "None",
+      "available": true,
+      "price": 12.5,
+      "compareAtPrice": null,
+      "optionValues": [
+        "4XL"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 454,
+      "position": 7
+    }
+  ],
+  "images": [
+    {
+      "localPath": "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-v-neck-sleeveless-full-dye-sublimation-500087/01.jpg",
+      "width": 1500,
+      "height": 1500,
+      "position": 1,
+      "variantIds": []
+    }
+  ],
+  "createdAt": "2025-09-25T12:38:25-06:00",
+  "updatedAt": "2026-08-18T21:24:55-06:00",
+  "publishedAt": "2025-09-28T20:32:03-06:00"
+}

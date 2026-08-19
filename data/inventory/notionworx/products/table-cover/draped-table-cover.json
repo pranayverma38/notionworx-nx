@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 2,
+  "id": 8227674718343,
+  "handle": "draped-table-cover",
+  "slug": "draped-table-cover",
+  "name": "Draped Table Cover (Full-Color Dye Sublimation, Full Bleed)",
+  "vendor": "Notion Worx",
+  "productType": null,
+  "primaryCategory": {
+    "handle": "table-cover",
+    "title": "TABLE COVER"
+  },
+  "categories": [
+    {
+      "handle": "table-cover",
+      "title": "TABLE COVER"
+    }
+  ],
+  "descriptionHtml": "<p data-start=\"214\" data-end=\"540\">Create a polished, professional table display with our <strong data-start=\"269\" data-end=\"291\">Draped Table Cover</strong>, designed to deliver full-bleed branding with a classic, elegant look. Ideal for trade shows, vendor booths, corporate events, and promotional displays, this table cover provides a clean presentation while allowing easy access underneath the table.</p>\n<p data-start=\"542\" data-end=\"800\">Printed using high-resolution <strong data-start=\"572\" data-end=\"602\">full-color dye sublimation</strong>, your artwork appears vibrant, sharp, and long-lasting. The draped polyester fabric hangs naturally on all sides, creating a refined appearance that works across a wide range of event environments.</p>\n<h2 data-start=\"802\" data-end=\"821\">\ud83d\udd39 <strong data-start=\"805\" data-end=\"821\">Key Features</strong>\n</h2>\n<p data-start=\"823\" data-end=\"1212\">\ud83e\uddf5 Display Polyester Fabric \u2013 Smooth draped finish for a professional look<br data-start=\"897\" data-end=\"900\">\ud83c\udfa8 Full-Color Dye Sublimation \u2013 Vivid, fade-resistant graphics<br data-start=\"962\" data-end=\"965\">\ud83d\uddbc\ufe0f Full Bleed Printing \u2013 Edge-to-edge custom branding<br data-start=\"1019\" data-end=\"1022\">\ud83d\udccf Multiple Sizes Available \u2013 Fits standard 4ft, 6ft, and 8ft tables<br data-start=\"1090\" data-end=\"1093\">\u2699\ufe0f Easy Setup \u2013 Simple drape-on design for fast installation<br data-start=\"1153\" data-end=\"1156\">\ud83e\uddf3 Lightweight &amp; Portable \u2013 Easy to fold and transport</p>\n<h2 data-start=\"1214\" data-end=\"1236\">\ud83d\udd39 <strong data-start=\"1217\" data-end=\"1236\">Available Sizes</strong>\n</h2>\n<p data-start=\"1238\" data-end=\"1342\">\ud83d\udcd0 8ft Table: 96\"W \u00d7 30\"H \u00d7 30\"D<br data-start=\"1270\" data-end=\"1273\">\ud83d\udcd0 6ft Table: 72\"W \u00d7 30\"H \u00d7 30\"D<br data-start=\"1305\" data-end=\"1308\">\ud83d\udcd0 4ft Table: 48\"W \u00d7 30\"H \u00d7 24\"D</p>\n<h2 data-start=\"1344\" data-end=\"1365\">\ud83d\udd39 <strong data-start=\"1347\" data-end=\"1365\">Imprint Method</strong>\n</h2>\n<p data-start=\"1367\" data-end=\"1410\">\ud83d\udda8\ufe0f Full-Color Dye Sublimation (Full Bleed)</p>\n<h2 data-start=\"1412\" data-end=\"1428\">\ud83d\udd39 <strong data-start=\"1415\" data-end=\"1428\">Materials</strong>\n</h2>\n<p data-start=\"1430\" data-end=\"1458\">\ud83e\uddf5 Fabric: Display Polyester</p>\n<h2 data-start=\"1460\" data-end=\"1480\">\ud83d\udd39 <strong data-start=\"1463\" data-end=\"1480\">Primary Usage</strong>\n</h2>\n<p data-start=\"1482\" data-end=\"1591\">Trade shows, exhibitions, vendor booths, conferences, retail promotions, pop-up shops, and brand activations.</p>\n<h2 data-start=\"1659\" data-end=\"1786\"><span size=\"2\"><span>Warranty</span></span></h2>\n<p>We stand behind the quality of our products. Our warranty covers any factory defects or damage that occurs during shipping. However, please note that we do not cover damage resulting from extreme weather conditions, misuse, or any circumstances beyond our control.</p>",
+  "descriptionText": "Create a polished, professional table display with our Draped Table Cover, designed to deliver full-bleed branding with a classic, elegant look. Ideal for trade shows, vendor booths, corporate events, and promotional displays, this table cover provides a clean presentation while allowing easy access underneath the table.\nPrinted using high-resolution full-color dye sublimation, your artwork appears vibrant, sharp, and long-lasting. The draped polyester fabric hangs naturally on all sides, creating a refined appearance that works across a wide range of event environments.\n\ud83d\udd39 Key Features\n\ud83e\uddf5 Display Polyester Fabric \u2013 Smooth draped finish for a professional look\n\ud83c\udfa8 Full-Color Dye Sublimation \u2013 Vivid, fade-resistant graphics\n\ud83d\uddbc\ufe0f Full Bleed Printing \u2013 Edge-to-edge custom branding\n\ud83d\udccf Multiple Sizes Available \u2013 Fits standard 4ft, 6ft, and 8ft tables\n\u2699\ufe0f Easy Setup \u2013 Simple drape-on design for fast installation\n\ud83e\uddf3 Lightweight & Portable \u2013 Easy to fold and transport\n\ud83d\udd39 Available Sizes\n\ud83d\udcd0 8ft Table: 96\"W \u00d7 30\"H \u00d7 30\"D\n\ud83d\udcd0 6ft Table: 72\"W \u00d7 30\"H \u00d7 30\"D\n\ud83d\udcd0 4ft Table: 48\"W \u00d7 30\"H \u00d7 24\"D\n\ud83d\udd39 Imprint Method\n\ud83d\udda8\ufe0f Full-Color Dye Sublimation (Full Bleed)\n\ud83d\udd39 Materials\n\ud83e\uddf5 Fabric: Display Polyester\n\ud83d\udd39 Primary Usage\nTrade shows, exhibitions, vendor booths, conferences, retail promotions, pop-up shops, and brand activations.\nWarranty\nWe stand behind the quality of our products. Our warranty covers any factory defects or damage that occurs during shipping. However, please note that we do not cover damage resulting from extreme weather conditions, misuse, or any circumstances beyond our control.",
+  "tags": [],
+  "skus": [
+    "DTC4FT",
+    "DTC6FT",
+    "DTC8FT"
+  ],
+  "price": {
+    "min": 135.0,
+    "max": 155.0,
+    "compareAtMin": null,
+    "compareAtMax": null,
+    "variantCount": 3
+  },
+  "options": [
+    {
+      "name": "Size",
+      "position": 1,
+      "values": [
+        "4'",
+        "6'",
+        "8'"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 43238164562055,
+      "title": "4'",
+      "sku": "DTC4FT",
+      "available": true,
+      "price": 135.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "4'"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 2722,
+      "position": 1
+    },
+    {
+      "id": 43238164430983,
+      "title": "6'",
+      "sku": "DTC6FT",
+      "available": true,
+      "price": 145.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "6'"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 2722,
+      "position": 2
+    },
+    {
+      "id": 43238164496519,
+      "title": "8'",
+      "sku": "DTC8FT",
+      "available": true,
+      "price": 155.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "8'"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 2722,
+      "position": 3
+    }
+  ],
+  "images": [
+    {
+      "localPath": "/assets/images/notionworx-inventory/table-cover/draped-table-cover/01.jpg",
+      "width": 1500,
+      "height": 1500,
+      "position": 1,
+      "variantIds": []
+    },
+    {
+      "localPath": "/assets/images/notionworx-inventory/table-cover/draped-table-cover/02.jpg",
+      "width": 845,
+      "height": 845,
+      "position": 2,
+      "variantIds": []
+    }
+  ],
+  "createdAt": "2025-09-25T12:35:51-06:00",
+  "updatedAt": "2026-08-18T21:24:27-06:00",
+  "publishedAt": "2025-09-26T09:36:26-06:00"
+}

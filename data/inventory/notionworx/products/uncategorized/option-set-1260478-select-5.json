@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 2,
+  "id": 8245128626311,
+  "handle": "option-set-1260478-select-5",
+  "slug": "option-set-1260478-select-5",
+  "name": "Weighted Sand Bags",
+  "vendor": "Notion Worx",
+  "productType": null,
+  "primaryCategory": {
+    "handle": "uncategorized",
+    "title": "Uncategorized"
+  },
+  "categories": [
+    {
+      "handle": "uncategorized",
+      "title": "Uncategorized"
+    }
+  ],
+  "descriptionHtml": "",
+  "descriptionText": "",
+  "tags": [
+    "globo-product-options",
+    "option-set-1260478-select-5"
+  ],
+  "skus": [],
+  "price": {
+    "min": 100.0,
+    "max": 150.0,
+    "compareAtMin": null,
+    "compareAtMax": null,
+    "variantCount": 2
+  },
+  "options": [
+    {
+      "name": "Title",
+      "position": 1,
+      "values": [
+        "4 pc Set",
+        "6 pc Set"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 43366010552455,
+      "title": "4 pc Set",
+      "sku": "None",
+      "available": true,
+      "price": 100.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "4 pc Set"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 0,
+      "position": 1
+    },
+    {
+      "id": 43366010585223,
+      "title": "6 pc Set",
+      "sku": "None",
+      "available": true,
+      "price": 150.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "6 pc Set"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 0,
+      "position": 2
+    }
+  ],
+  "images": [],
+  "createdAt": "2025-10-23T11:59:08-06:00",
+  "updatedAt": "2026-08-18T21:26:13-06:00",
+  "publishedAt": "2025-10-23T11:59:08-06:00"
+}

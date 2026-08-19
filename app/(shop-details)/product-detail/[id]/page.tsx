@@ -27,8 +27,8 @@ export default async function page({
     <>
       <Breadcrumb product={product} />
       <ProductSection product={product} />
-      <ProductDescription />
-      <RelatedProducts />
+      <ProductDescription product={product} />
+      <RelatedProducts currentProduct={product} />
     </>
   );
 }

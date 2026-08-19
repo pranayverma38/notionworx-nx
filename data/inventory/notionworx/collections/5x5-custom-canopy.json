@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 2,
+  "handle": "5x5-custom-canopy",
+  "title": "5x5 Custom Canopies",
+  "description": "<p style=\"text-align: right;\">\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0</p>",
+  "image": {
+    "localPath": "/assets/images/notionworx-inventory/collections/5x5-custom-canopy/01.png",
+    "width": null,
+    "height": null
+  },
+  "productsCount": 8,
+  "productHandles": [
+    "5x5-custom-canopy-tent-19-05",
+    "5x5-custom-canopy-tent-20-05",
+    "5x5-custom-canopy-tent-21-05",
+    "5x5-custom-canopy-tent-22-05",
+    "custom-food-booth-canopy-tent-23-05",
+    "led-light-bars",
+    "portable-power-station-300w",
+    "sandbag-ballast-kit-for-event-tent-legs-set-of-four"
+  ]
+}

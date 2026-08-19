@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 2,
+  "handle": "10x15",
+  "title": "10x15 Custom Canopies",
+  "description": "<p>\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0\u00a0</p>",
+  "image": {
+    "localPath": "/assets/images/notionworx-inventory/collections/10x15/01.png",
+    "width": null,
+    "height": null
+  },
+  "productsCount": 14,
+  "productHandles": [
+    "10x15-custom-canopy-tent-wall-15ft-back-wall",
+    "custom-food-booth-canopy-tent-17-15",
+    "half-side-walls",
+    "half-wall-hardware",
+    "led-light-bars",
+    "portable-power-station-300w",
+    "premium-10x15-custom-canopy-tent-05-15black",
+    "premium-10x15-custom-canopy-tent-5-15",
+    "premium-10x15-custom-canopy-tent-5-15top",
+    "premium-10x15-custom-canopy-tent-6-15",
+    "premium-10x15-custom-canopy-tent-7-15",
+    "premium-10x15-custom-canopy-tent-8-15",
+    "premium-15-aluminum-tent-frame-silver",
+    "sandbag-ballast-kit-for-event-tent-legs-set-of-four"
+  ]
+}

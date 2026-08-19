@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "id": 8227675635847,
+  "handle": "sublimated-bucket-hat",
+  "slug": "sublimated-bucket-hat",
+  "name": "Sublimated Bucket Hat #500093",
+  "vendor": "Notion Worx",
+  "productType": null,
+  "primaryCategory": {
+    "handle": "headwear",
+    "title": "HEADWEAR"
+  },
+  "categories": [
+    {
+      "handle": "headwear",
+      "title": "HEADWEAR"
+    },
+    {
+      "handle": "bag",
+      "title": "BAG"
+    }
+  ],
+  "descriptionHtml": "<ul>\n\n<li>100% polyester bucket hat</li>\n<li>Full color edge to edge dye-sublimation</li>\n<li>Reversible, both side imprint</li>\n<li>Perfect for any kind of event!</li>\n</ul>\n\n<div class=\"ship-to-canada-container\">We ship to Canada!</div>",
+  "descriptionText": "100% polyester bucket hat\nFull color edge to edge dye-sublimation\nReversible, both side imprint\nPerfect for any kind of event!\nWe ship to Canada!",
+  "tags": [],
+  "skus": [
+    "500093"
+  ],
+  "price": {
+    "min": 14.0,
+    "max": 14.0,
+    "compareAtMin": null,
+    "compareAtMax": null,
+    "variantCount": 1
+  },
+  "options": [
+    {
+      "name": "Title",
+      "position": 1,
+      "values": [
+        "Default Title"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 43238165971079,
+      "title": "Default Title",
+      "sku": "500093",
+      "available": true,
+      "price": 14.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "Default Title"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 907,
+      "position": 1
+    }
+  ],
+  "images": [
+    {
+      "localPath": "/assets/images/notionworx-inventory/headwear/sublimated-bucket-hat/01.jpg",
+      "width": 1000,
+      "height": 1000,
+      "position": 1,
+      "variantIds": []
+    },
+    {
+      "localPath": "/assets/images/notionworx-inventory/headwear/sublimated-bucket-hat/02.jpg",
+      "width": 1188,
+      "height": 1295,
+      "position": 2,
+      "variantIds": []
+    },
+    {
+      "localPath": "/assets/images/notionworx-inventory/headwear/sublimated-bucket-hat/03.jpg",
+      "width": 4032,
+      "height": 3024,
+      "position": 3,
+      "variantIds": []
+    },
+    {
+      "localPath": "/assets/images/notionworx-inventory/headwear/sublimated-bucket-hat/04.jpg",
+      "width": 4032,
+      "height": 3024,
+      "position": 4,
+      "variantIds": []
+    },
+    {
+      "localPath": "/assets/images/notionworx-inventory/headwear/sublimated-bucket-hat/05.jpg",
+      "width": 3024,
+      "height": 4032,
+      "position": 5,
+      "variantIds": []
+    }
+  ],
+  "createdAt": "2025-09-25T12:36:29-06:00",
+  "updatedAt": "2026-08-18T21:25:51-06:00",
+  "publishedAt": "2025-09-28T20:18:35-06:00"
+}

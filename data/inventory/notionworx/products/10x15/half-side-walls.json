@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 2,
+  "id": 8227677339783,
+  "handle": "half-side-walls",
+  "slug": "half-side-walls",
+  "name": "10' Canopy Tent Half Side Walls (Set of 2) with Hardware \u2013 Custom Printing Available",
+  "vendor": "Notion Worx",
+  "productType": null,
+  "primaryCategory": {
+    "handle": "10x15",
+    "title": "10x15 Custom Canopies"
+  },
+  "categories": [
+    {
+      "handle": "10x15",
+      "title": "10x15 Custom Canopies"
+    },
+    {
+      "handle": "10x20",
+      "title": "10x20 Custom Canopies"
+    },
+    {
+      "handle": "10x10",
+      "title": "10x10 Custom Canopies"
+    },
+    {
+      "handle": "tent",
+      "title": "Custom Canopy Tents \u2013 Personalized Pop Up Tents for Events"
+    }
+  ],
+  "descriptionHtml": "<h2 data-end=\"47\" data-start=\"0\"><strong data-end=\"47\" data-start=\"3\">10' Half Walls \u2013 Set of 2 (Single-Sided)</strong></h2>\n<p data-end=\"450\" data-start=\"49\">Upgrade your canopy setup with a <strong data-end=\"111\" data-start=\"82\">set of two 10' Half Walls</strong>, designed to enhance branding visibility, define vendor space, and provide partial wind protection without blocking customer access. Made from <strong data-end=\"299\" data-start=\"255\">durable 600D weather-resistant polyester</strong> and printed using premium <strong data-end=\"356\" data-start=\"326\">full-color dye sublimation</strong>, these walls deliver crisp, vibrant graphics ideal for outdoor use.<br data-end=\"427\" data-start=\"424\"><strong data-end=\"450\" data-start=\"427\">Frame not included.</strong></p>\n<h3 data-end=\"473\" data-start=\"457\"><strong data-end=\"473\" data-start=\"461\">Features</strong></h3>\n<p data-end=\"871\" data-start=\"475\">\ud83d\udee1\ufe0f <strong data-end=\"516\" data-start=\"479\">600D Weather-Resistant Polyester:</strong> Tough, long-lasting material made for outdoor conditions.<br data-end=\"577\" data-start=\"574\">\ud83c\udfa8 <strong data-end=\"611\" data-start=\"580\">Full-Color Dye Sublimation:</strong> High-resolution, fade-resistant printing on a white fabric base.<br data-end=\"679\" data-start=\"676\">\ud83d\udd27 <strong data-end=\"704\" data-start=\"682\">Hardware Included:</strong> Comes with mounting hardware for easy installation on compatible canopy frames.<br data-end=\"787\" data-start=\"784\">\ud83d\udda8\ufe0f <strong data-end=\"810\" data-start=\"791\">Imprint Method:</strong> Full-color dye sublimation for vivid, professional branding.</p>\n<h3 data-end=\"898\" data-start=\"878\"><strong data-end=\"898\" data-start=\"882\">Kit Includes</strong></h3>\n<p data-end=\"988\" data-start=\"900\">\ud83e\udde9 <strong data-end=\"920\" data-start=\"903\">2\u00d7 Half Walls</strong><br data-end=\"923\" data-start=\"920\">\ud83d\udd29 <strong data-end=\"960\" data-start=\"926\">1\u00d7 Hardware Set (Mounting Kit)</strong><br data-end=\"963\" data-start=\"960\">\u26a0\ufe0f <strong data-end=\"988\" data-start=\"966\">Frame NOT Included</strong></p>\n<h3 data-end=\"1012\" data-start=\"995\"><strong data-end=\"1012\" data-start=\"999\">Materials</strong></h3>\n<p data-end=\"1053\" data-start=\"1014\">\ud83e\uddf5 <strong data-end=\"1032\" data-start=\"1017\">Half Walls:</strong> 600 Denier Polyester</p>\n<h3 data-end=\"1082\" data-start=\"1060\"><strong data-end=\"1082\" data-start=\"1064\">Certifications</strong></h3>\n<p data-end=\"1136\" data-start=\"1084\">\ud83d\udd25 <strong data-end=\"1136\" data-start=\"1087\">Meets FR Rating Requirements (Fire-Resistant)</strong></p>\n<h3 data-end=\"1164\" data-start=\"1143\"><strong data-end=\"1164\" data-start=\"1147\">Primary Usage</strong></h3>\n<p data-is-only-node=\"\" data-is-last-node=\"\" data-end=\"1266\" data-start=\"1166\">Perfect for outdoor events, vendor booths, markets, trade shows, food stands, and brand activations.</p>\n<h2><span size=\"2\"><span>Factory Warranty</span></span></h2>\n<p>We stand behind the quality of our products. Our warranty covers any factory defects or damage that occurs during shipping. However, please note that we do not cover damage resulting from extreme weather conditions, misuse, or any circumstances beyond our control.</p>",
+  "descriptionText": "10' Half Walls \u2013 Set of 2 (Single-Sided)\nUpgrade your canopy setup with a set of two 10' Half Walls, designed to enhance branding visibility, define vendor space, and provide partial wind protection without blocking customer access. Made from durable 600D weather-resistant polyester and printed using premium full-color dye sublimation, these walls deliver crisp, vibrant graphics ideal for outdoor use.\nFrame not included.\nFeatures\n\ud83d\udee1\ufe0f 600D Weather-Resistant Polyester: Tough, long-lasting material made for outdoor conditions.\n\ud83c\udfa8 Full-Color Dye Sublimation: High-resolution, fade-resistant printing on a white fabric base.\n\ud83d\udd27 Hardware Included: Comes with mounting hardware for easy installation on compatible canopy frames.\n\ud83d\udda8\ufe0f Imprint Method: Full-color dye sublimation for vivid, professional branding.\nKit Includes\n\ud83e\udde9 2\u00d7 Half Walls\n\ud83d\udd29 1\u00d7 Hardware Set (Mounting Kit)\n\u26a0\ufe0f Frame NOT Included\nMaterials\n\ud83e\uddf5 Half Walls: 600 Denier Polyester\nCertifications\n\ud83d\udd25 Meets FR Rating Requirements (Fire-Resistant)\nPrimary Usage\nPerfect for outdoor events, vendor booths, markets, trade shows, food stands, and brand activations.\nFactory Warranty\nWe stand behind the quality of our products. Our warranty covers any factory defects or damage that occurs during shipping. However, please note that we do not cover damage resulting from extreme weather conditions, misuse, or any circumstances beyond our control.",
+  "tags": [],
+  "skus": [
+    "ITEM #: 10-SW"
+  ],
+  "price": {
+    "min": 265.0,
+    "max": 265.0,
+    "compareAtMin": 291.5,
+    "compareAtMax": 291.5,
+    "variantCount": 1
+  },
+  "options": [
+    {
+      "name": "Title",
+      "position": 1,
+      "values": [
+        "Default Title"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 43238179012743,
+      "title": "Default Title",
+      "sku": "ITEM #: 10-SW",
+      "available": true,
+      "price": 265.0,
+      "compareAtPrice": 291.5,
+      "optionValues": [
+        "Default Title"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 9072,
+      "position": 1
+    }
+  ],
+  "images": [
+    {
+      "localPath": "/assets/images/notionworx-inventory/10x15/half-side-walls/01.jpg",
+      "width": 2393,
+      "height": 2380,
+      "position": 1,
+      "variantIds": []
+    }
+  ],
+  "createdAt": "2025-09-25T12:37:22-06:00",
+  "updatedAt": "2026-08-18T21:23:22-06:00",
+  "publishedAt": "2025-09-26T09:36:42-06:00"
+}

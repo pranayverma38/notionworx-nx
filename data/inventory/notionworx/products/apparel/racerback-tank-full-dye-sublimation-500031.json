@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 2,
+  "id": 8227680714887,
+  "handle": "racerback-tank-full-dye-sublimation-500031",
+  "slug": "racerback-tank-full-dye-sublimation-500031",
+  "name": "150GSM Mesh Jersey Racerback Tank (Full Dye Sublimation) #500031",
+  "vendor": "Notion Worx",
+  "productType": null,
+  "primaryCategory": {
+    "handle": "apparel",
+    "title": "APPAREL"
+  },
+  "categories": [
+    {
+      "handle": "apparel",
+      "title": "APPAREL"
+    }
+  ],
+  "descriptionHtml": "<div style=\"text-align: left;\">\n\n<p>150gsm mesh jersey polyester\u00a0</p>\n<p><br></p>\n</div>",
+  "descriptionText": "150gsm mesh jersey polyester",
+  "tags": [],
+  "skus": [
+    "500031"
+  ],
+  "price": {
+    "min": 12.5,
+    "max": 12.5,
+    "compareAtMin": null,
+    "compareAtMax": null,
+    "variantCount": 1
+  },
+  "options": [
+    {
+      "name": "Title",
+      "position": 1,
+      "values": [
+        "Default Title"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 43238197297287,
+      "title": "Default Title",
+      "sku": "500031",
+      "available": true,
+      "price": 12.5,
+      "compareAtPrice": null,
+      "optionValues": [
+        "Default Title"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 907,
+      "position": 1
+    }
+  ],
+  "images": [
+    {
+      "localPath": "/assets/images/notionworx-inventory/apparel/racerback-tank-full-dye-sublimation-500031/01.jpg",
+      "width": 950,
+      "height": 950,
+      "position": 1,
+      "variantIds": []
+    }
+  ],
+  "createdAt": "2025-09-25T12:39:16-06:00",
+  "updatedAt": "2026-08-18T21:24:55-06:00",
+  "publishedAt": "2025-09-26T09:34:03-06:00"
+}

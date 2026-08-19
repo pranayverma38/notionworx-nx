@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 2,
+  "id": 8227681370247,
+  "handle": "tent-frame-roller-bag-carry-case",
+  "slug": "tent-frame-roller-bag-carry-case",
+  "name": "10' Roller Bag",
+  "vendor": "Notion Worx",
+  "productType": null,
+  "primaryCategory": {
+    "handle": "10x10",
+    "title": "10x10 Custom Canopies"
+  },
+  "categories": [
+    {
+      "handle": "10x10",
+      "title": "10x10 Custom Canopies"
+    }
+  ],
+  "descriptionHtml": "<p>Upgrade to our Carrying Case w/ Wheels. Our premium tents are durable but heavy, this case offers multiple hands for easy maneuvering, compartment for your graphics and accessories, dual casters so you could roll effortlessly from event to event.</p>\n<p><b>Features:</b><br>Dual hard rubber casters<br>Hardware compartment<br>Graphics and Accessories Compartment<br>Multiple handles for easy transport.</p>\n<p><b>FAQ:</b><br>Q: How many graphics would fit in the Graphics/ Accessories Compartment?<br>A: The Graphics/ Accessories Compartment could fit either 1 canopy graphic top or 1 full wall + 2 half wall.</p>",
+  "descriptionText": "Upgrade to our Carrying Case w/ Wheels. Our premium tents are durable but heavy, this case offers multiple hands for easy maneuvering, compartment for your graphics and accessories, dual casters so you could roll effortlessly from event to event.\nFeatures:\nDual hard rubber casters\nHardware compartment\nGraphics and Accessories Compartment\nMultiple handles for easy transport.\nFAQ:\nQ: How many graphics would fit in the Graphics/ Accessories Compartment?\nA: The Graphics/ Accessories Compartment could fit either 1 canopy graphic top or 1 full wall + 2 half wall.",
+  "tags": [],
+  "skus": [
+    "206068"
+  ],
+  "price": {
+    "min": 80.0,
+    "max": 80.0,
+    "compareAtMin": null,
+    "compareAtMax": null,
+    "variantCount": 1
+  },
+  "options": [
+    {
+      "name": "Warehouse ship from",
+      "position": 1,
+      "values": [
+        "Chicago"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 43238199361671,
+      "title": "Chicago",
+      "sku": "206068",
+      "available": true,
+      "price": 80.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "Chicago"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 2722,
+      "position": 1
+    }
+  ],
+  "images": [
+    {
+      "localPath": "/assets/images/notionworx-inventory/10x10/tent-frame-roller-bag-carry-case/01.jpg",
+      "width": 500,
+      "height": 500,
+      "position": 1,
+      "variantIds": []
+    },
+    {
+      "localPath": "/assets/images/notionworx-inventory/10x10/tent-frame-roller-bag-carry-case/02.jpg",
+      "width": 500,
+      "height": 500,
+      "position": 2,
+      "variantIds": []
+    }
+  ],
+  "createdAt": "2025-09-25T12:39:38-06:00",
+  "updatedAt": "2026-08-18T21:23:38-06:00",
+  "publishedAt": "2025-09-28T21:06:24-06:00"
+}

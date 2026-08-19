@@ -1,0 +1,139 @@
+{
+  "schemaVersion": 2,
+  "id": 8227675406471,
+  "handle": "sublimated-fleece-blanket",
+  "slug": "sublimated-fleece-blanket",
+  "name": "Sublimated Fleece Blanket",
+  "vendor": "Notion Worx",
+  "productType": null,
+  "primaryCategory": {
+    "handle": "towel-blanket",
+    "title": "TOWEL & BLANKET"
+  },
+  "categories": [
+    {
+      "handle": "towel-blanket",
+      "title": "TOWEL & BLANKET"
+    }
+  ],
+  "descriptionHtml": "<p><span>100% Polyester\u00a0Hand wash, machine wash, dry cleaning can be used</span></p>\n<p><span>The washing temperature is below 45 degrees Celsius</span></p>\n<p><span>Ultra-Soft 350gsm</span></p>\n<pre id=\"posted-message-container\" dir=\"auto\" class=\"zcmsgcnt lazy-load lazy-load-lastmsg textL\" postedchatid=\"2243212015555390091\" messageuid=\"1732562961965%2083680538969405\" lmsgchid=\"2243212015555390091\" notunobserve=\"true\" msgtype=\"msg\">Elevate Your Branding with Our Soft Plush Fleece Blanket<br>Comfort meets affordability in our versatile promotional blanket. Lightweight and cozy, it's designed for maximum impact:<br>Budget-friendly marketing solution<br>Ideal for outdoor events and home use<br>Custom logo branding available<br>High-value promotional tool<br>Exceptional comfort at an accessible price point</pre>",
+  "descriptionText": "100% Polyester Hand wash, machine wash, dry cleaning can be used\nThe washing temperature is below 45 degrees Celsius\nUltra-Soft 350gsm\nElevate Your Branding with Our Soft Plush Fleece Blanket\nComfort meets affordability in our versatile promotional blanket. Lightweight and cozy, it's designed for maximum impact:\nBudget-friendly marketing solution\nIdeal for outdoor events and home use\nCustom logo branding available\nHigh-value promotional tool\nExceptional comfort at an accessible price point",
+  "tags": [],
+  "skus": [
+    "500157",
+    "500158",
+    "500159"
+  ],
+  "price": {
+    "min": 5.0,
+    "max": 45.0,
+    "compareAtMin": null,
+    "compareAtMax": null,
+    "variantCount": 3
+  },
+  "options": [
+    {
+      "name": "Size",
+      "position": 1,
+      "values": [
+        "25'' x 50''",
+        "50'' x 60''",
+        "60'' x 80''"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 43238165545095,
+      "title": "25'' x 50''",
+      "sku": "500157",
+      "available": true,
+      "price": 30.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "25'' x 50''"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 907,
+      "position": 1
+    },
+    {
+      "id": 43238165577863,
+      "title": "50'' x 60''",
+      "sku": "500158",
+      "available": true,
+      "price": 5.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "50'' x 60''"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 907,
+      "position": 2
+    },
+    {
+      "id": 43238165610631,
+      "title": "60'' x 80''",
+      "sku": "500159",
+      "available": true,
+      "price": 45.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "60'' x 80''"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 907,
+      "position": 3
+    }
+  ],
+  "images": [
+    {
+      "localPath": "/assets/images/notionworx-inventory/towel-blanket/sublimated-fleece-blanket/01.png",
+      "width": 1000,
+      "height": 1000,
+      "position": 1,
+      "variantIds": []
+    },
+    {
+      "localPath": "/assets/images/notionworx-inventory/towel-blanket/sublimated-fleece-blanket/02.png",
+      "width": 1004,
+      "height": 1344,
+      "position": 2,
+      "variantIds": []
+    },
+    {
+      "localPath": "/assets/images/notionworx-inventory/towel-blanket/sublimated-fleece-blanket/03.png",
+      "width": 982,
+      "height": 1214,
+      "position": 3,
+      "variantIds": []
+    },
+    {
+      "localPath": "/assets/images/notionworx-inventory/towel-blanket/sublimated-fleece-blanket/04.png",
+      "width": 1012,
+      "height": 1354,
+      "position": 4,
+      "variantIds": []
+    },
+    {
+      "localPath": "/assets/images/notionworx-inventory/towel-blanket/sublimated-fleece-blanket/05.png",
+      "width": 1004,
+      "height": 1348,
+      "position": 5,
+      "variantIds": []
+    },
+    {
+      "localPath": "/assets/images/notionworx-inventory/towel-blanket/sublimated-fleece-blanket/06.png",
+      "width": 1008,
+      "height": 1310,
+      "position": 6,
+      "variantIds": []
+    }
+  ],
+  "createdAt": "2025-09-25T12:36:19-06:00",
+  "updatedAt": "2026-08-18T21:26:03-06:00",
+  "publishedAt": "2025-09-28T21:05:35-06:00"
+}

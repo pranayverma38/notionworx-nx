@@ -5,9 +5,9 @@ import {
   AMERCE_SITE_TITLE,
 } from "@/lib/metadata/shop-product";
 
-/** Default copy for Tops & Shirts–style shop listing routes */
+/** Default copy for storefront listing routes. */
 export const SHOP_LISTING_DESCRIPTION =
-  "Browse the Tops & Shirts collection with filters, sorting, and grid or list view.";
+  "Browse the migrated storefront catalog with filters, sorting, and grid or list views.";
 
 /**
  * Metadata for routes under `app/(shop)` where the layout uses

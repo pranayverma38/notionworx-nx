@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 2,
+  "id": 8227682418823,
+  "handle": "20-roller-bag",
+  "slug": "20-roller-bag",
+  "name": "20' Roller Bag",
+  "vendor": "Notion Worx",
+  "productType": null,
+  "primaryCategory": {
+    "handle": "10x20",
+    "title": "10x20 Custom Canopies"
+  },
+  "categories": [
+    {
+      "handle": "10x20",
+      "title": "10x20 Custom Canopies"
+    }
+  ],
+  "descriptionHtml": "<p>Upgrade to our Carrying Case w/ Wheels. Our premium tents are durable but heavy, this case offers multiple hands for easy maneuvering, compartment for your graphics and accessories, dual casters so you could roll effortlessly from event to event.</p>\n<p><b>Features:</b><br>Dual hard rubber casters<br>Hardware compartment<br>Graphics and Accessories Compartment<br>Multiple handles for easy transport.</p>\n<p><b>FAQ:</b><br>Q: How many graphics would fit in the Graphics/ Accessories Compartment?<br>A: The Graphics/ Accessories Compartment could fit either 1 canopy graphic top or 1 full wall + 2 half wall.</p>",
+  "descriptionText": "Upgrade to our Carrying Case w/ Wheels. Our premium tents are durable but heavy, this case offers multiple hands for easy maneuvering, compartment for your graphics and accessories, dual casters so you could roll effortlessly from event to event.\nFeatures:\nDual hard rubber casters\nHardware compartment\nGraphics and Accessories Compartment\nMultiple handles for easy transport.\nFAQ:\nQ: How many graphics would fit in the Graphics/ Accessories Compartment?\nA: The Graphics/ Accessories Compartment could fit either 1 canopy graphic top or 1 full wall + 2 half wall.",
+  "tags": [],
+  "skus": [
+    "206039"
+  ],
+  "price": {
+    "min": 90.0,
+    "max": 90.0,
+    "compareAtMin": null,
+    "compareAtMax": null,
+    "variantCount": 1
+  },
+  "options": [
+    {
+      "name": "Title",
+      "position": 1,
+      "values": [
+        "Default Title"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 43238201655431,
+      "title": "Default Title",
+      "sku": "206039",
+      "available": true,
+      "price": 90.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "Default Title"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 5443,
+      "position": 1
+    }
+  ],
+  "images": [
+    {
+      "localPath": "/assets/images/notionworx-inventory/10x20/20-roller-bag/01.jpg",
+      "width": 1500,
+      "height": 1500,
+      "position": 1,
+      "variantIds": []
+    }
+  ],
+  "createdAt": "2025-09-25T12:40:18-06:00",
+  "updatedAt": "2026-08-18T21:23:43-06:00",
+  "publishedAt": "2025-09-28T21:06:04-06:00"
+}

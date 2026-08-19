@@ -1,0 +1,179 @@
+{
+  "schemaVersion": 2,
+  "id": 8227679993991,
+  "handle": "tropical-print-shirt-full-dye-sublimation-500036",
+  "slug": "tropical-print-shirt-full-dye-sublimation-500036",
+  "name": "Tropical Print Shirt (Full Dye Sublimation) #500036",
+  "vendor": "Soardist",
+  "productType": null,
+  "primaryCategory": {
+    "handle": "apparel",
+    "title": "APPAREL"
+  },
+  "categories": [
+    {
+      "handle": "apparel",
+      "title": "APPAREL"
+    }
+  ],
+  "descriptionHtml": "<p><span data-mce-fragment=\"1\">4-way 135gsm polyester</span></p>\n<p><br></p>",
+  "descriptionText": "4-way 135gsm polyester",
+  "tags": [],
+  "skus": [
+    "500036",
+    "500037",
+    "500038",
+    "500039",
+    "500040",
+    "500041",
+    "500042"
+  ],
+  "price": {
+    "min": 29.0,
+    "max": 29.0,
+    "compareAtMin": null,
+    "compareAtMax": null,
+    "variantCount": 7
+  },
+  "options": [
+    {
+      "name": "Size",
+      "position": 1,
+      "values": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL",
+        "4XL"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 43238192218247,
+      "title": "S",
+      "sku": "500036",
+      "available": true,
+      "price": 29.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "S"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 454,
+      "position": 1
+    },
+    {
+      "id": 43238192251015,
+      "title": "M",
+      "sku": "500037",
+      "available": true,
+      "price": 29.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "M"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 454,
+      "position": 2
+    },
+    {
+      "id": 43238192283783,
+      "title": "L",
+      "sku": "500038",
+      "available": true,
+      "price": 29.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "L"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 454,
+      "position": 3
+    },
+    {
+      "id": 43238192316551,
+      "title": "XL",
+      "sku": "500039",
+      "available": true,
+      "price": 29.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "XL"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 454,
+      "position": 4
+    },
+    {
+      "id": 43238192349319,
+      "title": "2XL",
+      "sku": "500040",
+      "available": true,
+      "price": 29.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "2XL"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 454,
+      "position": 5
+    },
+    {
+      "id": 43238192382087,
+      "title": "3XL",
+      "sku": "500041",
+      "available": true,
+      "price": 29.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "3XL"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 454,
+      "position": 6
+    },
+    {
+      "id": 43238192414855,
+      "title": "4XL",
+      "sku": "500042",
+      "available": true,
+      "price": 29.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "4XL"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 454,
+      "position": 7
+    }
+  ],
+  "images": [
+    {
+      "localPath": "/assets/images/notionworx-inventory/apparel/tropical-print-shirt-full-dye-sublimation-500036/01.jpg",
+      "width": 1000,
+      "height": 1000,
+      "position": 1,
+      "variantIds": []
+    },
+    {
+      "localPath": "/assets/images/notionworx-inventory/apparel/tropical-print-shirt-full-dye-sublimation-500036/02.jpg",
+      "width": 1000,
+      "height": 1000,
+      "position": 2,
+      "variantIds": []
+    }
+  ],
+  "createdAt": "2025-09-25T12:38:53-06:00",
+  "updatedAt": "2026-08-18T21:24:55-06:00",
+  "publishedAt": "2025-09-28T20:30:02-06:00"
+}

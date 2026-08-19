@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 2,
+  "id": 8227682386055,
+  "handle": "15roller-bag",
+  "slug": "15roller-bag",
+  "name": "15' Roller Bag",
+  "vendor": "Notion Worx",
+  "productType": null,
+  "primaryCategory": {
+    "handle": "uncategorized",
+    "title": "Uncategorized"
+  },
+  "categories": [
+    {
+      "handle": "uncategorized",
+      "title": "Uncategorized"
+    }
+  ],
+  "descriptionHtml": "<p>Upgrade to our Carrying Case w/ Wheels. Our premium tents are durable but heavy, this case offers multiple hands for easy maneuvering, compartment for your graphics and accessories, dual casters so you could roll effortlessly from event to event.</p>\n<p><b>Features:</b><br>Dual hard rubber casters<br>Hardware compartment<br>Graphics and Accessories Compartment<br>Multiple handles for easy transport.</p>\n<p><b>FAQ:</b><br>Q: How many graphics would fit in the Graphics/ Accessories Compartment?<br>A: The Graphics/ Accessories Compartment could fit either 1 canopy graphic top or 1 full wall + 2 half wall.</p>",
+  "descriptionText": "Upgrade to our Carrying Case w/ Wheels. Our premium tents are durable but heavy, this case offers multiple hands for easy maneuvering, compartment for your graphics and accessories, dual casters so you could roll effortlessly from event to event.\nFeatures:\nDual hard rubber casters\nHardware compartment\nGraphics and Accessories Compartment\nMultiple handles for easy transport.\nFAQ:\nQ: How many graphics would fit in the Graphics/ Accessories Compartment?\nA: The Graphics/ Accessories Compartment could fit either 1 canopy graphic top or 1 full wall + 2 half wall.",
+  "tags": [],
+  "skus": [
+    "206039"
+  ],
+  "price": {
+    "min": 55.0,
+    "max": 55.0,
+    "compareAtMin": null,
+    "compareAtMax": null,
+    "variantCount": 1
+  },
+  "options": [
+    {
+      "name": "Title",
+      "position": 1,
+      "values": [
+        "Default Title"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 43238201622663,
+      "title": "Default Title",
+      "sku": "206039",
+      "available": false,
+      "price": 55.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "Default Title"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 4536,
+      "position": 1
+    }
+  ],
+  "images": [
+    {
+      "localPath": "/assets/images/notionworx-inventory/uncategorized/15roller-bag/01.jpg",
+      "width": 500,
+      "height": 500,
+      "position": 1,
+      "variantIds": []
+    },
+    {
+      "localPath": "/assets/images/notionworx-inventory/uncategorized/15roller-bag/02.jpg",
+      "width": 500,
+      "height": 500,
+      "position": 2,
+      "variantIds": []
+    },
+    {
+      "localPath": "/assets/images/notionworx-inventory/uncategorized/15roller-bag/03.jpg",
+      "width": 500,
+      "height": 500,
+      "position": 3,
+      "variantIds": []
+    }
+  ],
+  "createdAt": "2025-09-25T12:40:17-06:00",
+  "updatedAt": "2026-08-18T21:26:13-06:00",
+  "publishedAt": "2025-09-28T21:12:37-06:00"
+}

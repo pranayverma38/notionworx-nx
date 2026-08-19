@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 2,
+  "id": 8227679076487,
+  "handle": "custom-tote-bag-dye-sublimated",
+  "slug": "custom-tote-bag-dye-sublimated",
+  "name": "Custom Tote Bag (Dye Sublimated) #500029",
+  "vendor": "Notion Worx",
+  "productType": null,
+  "primaryCategory": {
+    "handle": "bag",
+    "title": "BAG"
+  },
+  "categories": [
+    {
+      "handle": "bag",
+      "title": "BAG"
+    }
+  ],
+  "descriptionHtml": "<p data-mce-fragment=\"1\" class=\"p1\"><strong>bee 420d\u00a0</strong><b>Oxford</b></p>\n<p data-mce-fragment=\"1\" class=\"p1\">Give your customers and prospects a stylish way to carry their items around and stay close to your brand after the event is over. This<strong data-mce-fragment=\"1\">custom\u00a0tote bag</strong>is ideal for any event, trade show or conference. These also make great souvenirs for your bridal shower, family reunion, graduation or any family get together. PLUS these custom tote bags are low-cost, so giving them away won't break your marketing budget.</p>\n<p data-mce-fragment=\"1\" class=\"p1\">Your custom branded bag measures 16.5\"H x 23\"W and features our innovative sublimation printing that allows for photo quality design across the entire bag - front and back! It's 100% graphic customizable, comes with webbing handles and printed round ends. Just easily add your logo, a special photo, a favorite team or even your favorite artwork and we will do the rest.</p>\n<p data-mce-fragment=\"1\" class=\"p2\"><span data-mce-fragment=\"1\"><strong data-mce-fragment=\"1\">Product Dimensions</strong></span></p>\n<ul data-mce-fragment=\"1\">\n<li data-mce-fragment=\"1\"><span data-mce-fragment=\"1\">Product size 15\"\u00a0L x 23\" W no zipper</span></li>\n</ul>",
+  "descriptionText": "bee 420d Oxford\nGive your customers and prospects a stylish way to carry their items around and stay close to your brand after the event is over. This custom tote bag is ideal for any event, trade show or conference. These also make great souvenirs for your bridal shower, family reunion, graduation or any family get together. PLUS these custom tote bags are low-cost, so giving them away won't break your marketing budget.\nYour custom branded bag measures 16.5\"H x 23\"W and features our innovative sublimation printing that allows for photo quality design across the entire bag - front and back! It's 100% graphic customizable, comes with webbing handles and printed round ends. Just easily add your logo, a special photo, a favorite team or even your favorite artwork and we will do the rest.\nProduct Dimensions\nProduct size 15\" L x 23\" W no zipper",
+  "tags": [],
+  "skus": [
+    "500029"
+  ],
+  "price": {
+    "min": 11.0,
+    "max": 11.0,
+    "compareAtMin": null,
+    "compareAtMax": null,
+    "variantCount": 1
+  },
+  "options": [
+    {
+      "name": "Title",
+      "position": 1,
+      "values": [
+        "Default Title"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 43238184419463,
+      "title": "Default Title",
+      "sku": "500029",
+      "available": true,
+      "price": 11.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "Default Title"
+      ],
+      "requiresShipping": true,
+      "taxable": false,
+      "grams": 2268,
+      "position": 1
+    }
+  ],
+  "images": [
+    {
+      "localPath": "/assets/images/notionworx-inventory/bag/custom-tote-bag-dye-sublimated/01.jpg",
+      "width": 1500,
+      "height": 1500,
+      "position": 1,
+      "variantIds": []
+    },
+    {
+      "localPath": "/assets/images/notionworx-inventory/bag/custom-tote-bag-dye-sublimated/02.jpg",
+      "width": 1080,
+      "height": 1440,
+      "position": 2,
+      "variantIds": []
+    },
+    {
+      "localPath": "/assets/images/notionworx-inventory/bag/custom-tote-bag-dye-sublimated/03.jpg",
+      "width": 1080,
+      "height": 1440,
+      "position": 3,
+      "variantIds": []
+    }
+  ],
+  "createdAt": "2025-09-25T12:38:19-06:00",
+  "updatedAt": "2026-08-18T21:25:51-06:00",
+  "publishedAt": "2025-09-28T20:18:36-06:00"
+}

@@ -1,33 +1,17 @@
 import type { Category } from "@/types/categories";
+import { storefrontCategories } from "@/data/inventory/notionworx/storefront.generated";
 
 /** All Categories grid — collection page (`/collection`) */
-export const categoriesCollection: Category[] = [
-  { name: "Outerwear", img: "/assets/images/collection/cls-19.jpg" },
-  { name: "Tops & Shirts", img: "/assets/images/collection/cls-20.jpg" },
-  { name: "Bottoms", img: "/assets/images/collection/cls-21.jpg" },
-  { name: "Dresses", img: "/assets/images/collection/cls-22.jpg" },
-  { name: "Underwear", img: "/assets/images/collection/cls-23.jpg" },
-  { name: "Shoes", img: "/assets/images/collection/cls-24.jpg" },
-  { name: "Bags", img: "/assets/images/collection/cls-25.jpg" },
-  { name: "Accessories", img: "/assets/images/collection/cls-26.jpg" },
-  { name: "Tops & Shirts", img: "/assets/images/collection/cls-20.jpg" },
-  { name: "Underwear", img: "/assets/images/collection/cls-23.jpg" },
-  { name: "Dresses", img: "/assets/images/collection/cls-22.jpg" },
-  { name: "Bottoms", img: "/assets/images/collection/cls-21.jpg" },
-  { name: "Outerwear", img: "/assets/images/collection/cls-19.jpg" },
-  { name: "Bags", img: "/assets/images/collection/cls-25.jpg" },
-  { name: "Accessories", img: "/assets/images/collection/cls-26.jpg" },
-  { name: "Shoes", img: "/assets/images/collection/cls-24.jpg" },
-];
+export const categoriesCollection: Category[] = storefrontCategories.map(
+  (category) => ({
+    name: category.name,
+    img: category.img,
+    quantity: category.quantity,
+    href: category.href,
+  }),
+);
 
-export const categories: Category[] = [
-  { name: "Outerwear", img: "/assets/images/category/cate-1.jpg" },
-  { name: "Tops & Shirts", img: "/assets/images/category/cate-2.jpg" },
-  { name: "Bottoms", img: "/assets/images/category/cate-3.jpg" },
-  { name: "Dresses", img: "/assets/images/category/cate-4.jpg" },
-  { name: "Footwear", img: "/assets/images/category/cate-5.jpg" },
-  { name: "Accessories", img: "/assets/images/category/cate-6.jpg" },
-];
+export const categories: Category[] = categoriesCollection.slice(0, 8);
 
 export const categoriesAuto: Category[] = [
   { name: "Brake Pads", img: "/assets/images/category/cate-21.jpg" },

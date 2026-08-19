@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 2,
+  "id": 8243208585351,
+  "handle": "option-set-1259582-dropdown-2",
+  "slug": "option-set-1259582-dropdown-2",
+  "name": "Flag w/ Cross Base",
+  "vendor": "Notion Worx",
+  "productType": null,
+  "primaryCategory": {
+    "handle": "uncategorized",
+    "title": "Uncategorized"
+  },
+  "categories": [
+    {
+      "handle": "uncategorized",
+      "title": "Uncategorized"
+    }
+  ],
+  "descriptionHtml": "",
+  "descriptionText": "",
+  "tags": [
+    "globo-product-options",
+    "option-set-1259582-dropdown-2"
+  ],
+  "skus": [],
+  "price": {
+    "min": 140.0,
+    "max": 160.0,
+    "compareAtMin": null,
+    "compareAtMax": null,
+    "variantCount": 3
+  },
+  "options": [
+    {
+      "name": "Title",
+      "position": 1,
+      "values": [
+        "9ft Flag Double-Sided +$140.00",
+        "12ft Flag Double-Sided +$150.00",
+        "15ft Flag Double-Sided +$160.00"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 43355756757127,
+      "title": "9ft Flag Double-Sided +$140.00",
+      "sku": "None",
+      "available": true,
+      "price": 140.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "9ft Flag Double-Sided +$140.00"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 0,
+      "position": 1
+    },
+    {
+      "id": 43355756789895,
+      "title": "12ft Flag Double-Sided +$150.00",
+      "sku": "None",
+      "available": true,
+      "price": 150.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "12ft Flag Double-Sided +$150.00"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 0,
+      "position": 2
+    },
+    {
+      "id": 43355756822663,
+      "title": "15ft Flag Double-Sided +$160.00",
+      "sku": "None",
+      "available": true,
+      "price": 160.0,
+      "compareAtPrice": null,
+      "optionValues": [
+        "15ft Flag Double-Sided +$160.00"
+      ],
+      "requiresShipping": true,
+      "taxable": true,
+      "grams": 0,
+      "position": 3
+    }
+  ],
+  "images": [],
+  "createdAt": "2025-10-20T11:22:45-06:00",
+  "updatedAt": "2026-08-18T21:26:13-06:00",
+  "publishedAt": "2025-10-20T11:22:46-06:00"
+}

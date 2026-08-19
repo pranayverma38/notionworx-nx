@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 2,
+  "handle": "athletic",
+  "title": "Athletic",
+  "description": "<p><img src=\"\" alt=\"\"></p>",
+  "image": {
+    "localPath": "/assets/images/notionworx-inventory/collections/athletic/01.jpg",
+    "width": null,
+    "height": null
+  },
+  "productsCount": 0,
+  "productHandles": []
+}
