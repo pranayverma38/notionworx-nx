@@ -8,9 +8,14 @@ export default {
     "./utils/**/*.{js,ts,jsx,tsx}",
   ],
 
-  // Makes every utility class use !important so Tailwind
-  // wins over Bootstrap and any other unlayered CSS,
-  // no need to use the "!" prefix on individual classes.
+  // Prefix all Tailwind classes with "tw-" (e.g. tw-flex, tw-p-4, tw-mb-4).
+  // This prevents silent collisions with the project's own custom utility
+  // classes (mb-4, gap-4, py-4, text-primary, bg-primary, etc.) and with
+  // Bootstrap helpers that share the same names.
+  prefix: "tw-",
+
+  // With the prefix in place, important:true is safe — it ensures every
+  // tw-* class beats Bootstrap / custom SCSS when intentionally applied.
   important: true,
 
   theme: {
