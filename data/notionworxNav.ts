@@ -1,4 +1,5 @@
 import { browseByCategoryItems } from "@/data/browseByCategory";
+import { galleryCollections, getGalleryHref } from "@/data/galleryCollections";
 
 export interface SiteNavItem {
   label: string;
@@ -6,9 +7,6 @@ export interface SiteNavItem {
   newTab?: boolean;
   children?: SiteNavItem[];
 }
-
-const categoryHref = (category: string) =>
-  `/shop-default?category=${encodeURIComponent(category)}`;
 
 const promoProductsHref = "https://www.notionworx.com/";
 
@@ -20,24 +18,18 @@ export const notionWorxMainMenuItems: SiteNavItem[] = [
   },
   {
     label: "UPLOAD ART",
-    href: "/contact",
+    href: "/uploadart",
+  },
+  {
+    label: "DESIGNER TOOL",
+    href: "/designer",
   },
   {
     label: "GALLERY",
-    children: [
-      { label: "Mockups", href: categoryHref("Mockups") },
-      { label: "Car Club", href: categoryHref("Car Club") },
-      { label: "Food Booth", href: categoryHref("Food Booth") },
-      { label: "Cuisine", href: categoryHref("Food") },
-      { label: "Kennels", href: categoryHref("Kennels") },
-      { label: "Corporate", href: categoryHref("Corporate") },
-      { label: "Retail Store", href: categoryHref("Retail Store") },
-      { label: "Clothing Brand", href: categoryHref("Clothing Brand") },
-      { label: "Dispensary", href: categoryHref("Dispensary") },
-      { label: "Athletic", href: categoryHref("Athletic") },
-      { label: "Detail Shop", href: categoryHref("Detail Shop") },
-      { label: "Non profit", href: categoryHref("Non profit") },
-    ],
+    children: galleryCollections.map((collection) => ({
+      label: collection.label,
+      href: getGalleryHref(collection.slug),
+    })),
   },
   {
     label: "CONTACT",
