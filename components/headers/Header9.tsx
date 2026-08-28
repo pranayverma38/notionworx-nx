@@ -77,14 +77,13 @@ export default function Header9() {
                 </a>
               </li>
               <li>
-                <a
-                  href="#shoppingCart"
-                  data-bs-toggle="offcanvas"
+                <Link
+                  href="/view-cart"
                   className="nav-icon-item text-white link-dark shop-cart"
                 >
                   <i className="icon icon-Handbag" />
                   <CartIconCount />
-                </a>
+                </Link>
               </li>
             </ul>
           </div>

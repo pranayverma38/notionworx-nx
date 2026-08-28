@@ -90,14 +90,13 @@ export default function Header4({parentClass = "tf-header header-s5 scr-box-shad
                   </a>
                 </li>
                 <li>
-                  <a
-                    href="#shoppingCart"
-                    data-bs-toggle="offcanvas"
+                  <Link
+                    href="/view-cart"
                     className="nav-icon-item text-white link shop-cart"
                   >
                     <i className="icon icon-Handbag" />
                     <CartIconCount />
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>

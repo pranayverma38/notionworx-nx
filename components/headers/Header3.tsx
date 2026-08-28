@@ -94,14 +94,10 @@ export default function Header3() {
                   </a>
                 </li>
                 <li>
-                  <a
-                    href="#shoppingCart"
-                    data-bs-toggle="offcanvas"
-                    className="nav-icon-item link shop-cart"
-                  >
+                  <Link href="/view-cart" className="nav-icon-item link shop-cart">
                     <i className="icon icon-Handbag" />
                     <CartIconCount />
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
