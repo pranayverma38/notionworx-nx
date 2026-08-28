@@ -236,19 +236,6 @@ export default function MobileMenu({
           </ul>
         </div>
 
-        <div className="need-help-wrap">
-          <p className="nd-title h6 fw-medium mb-16">Need Help?</p>
-          <p className="lh-26 cl-text-2 mb-4">
-            Need help with artwork, product selection, or an order? Reach out
-            through our storefront contact page.
-          </p>
-          <Link href="/contact" className="text-decoration-underline text-primary lh-26 mb-12 d-inline-block">
-            Contact the team
-          </Link>
-          <Link href="/shop-default" className="cl-text-2 link d-block">
-            Browse all products
-          </Link>
-        </div>
       </div>
 
       <div className="canvas-footer">
