@@ -39,7 +39,12 @@ export const browseByCategoryItems: BrowseByCategoryItem[] = [
               "Trade Show Essentials – 10x10, 10x15 & 10x20 Custom Canopy Tents for Events & Exhibits",
             ),
           },
-          { label: "Food Booth", href: categoryHref("Food Booth") },
+          {
+            label: "Food Booth",
+            href: categoryHref(
+              "Custom Food Booths – 5x5, 10x10, 10x15 & 10x20 Canopy Tents",
+            ),
+          },
         ],
       },
     ],
