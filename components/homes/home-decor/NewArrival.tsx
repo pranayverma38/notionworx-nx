@@ -10,7 +10,7 @@ import { newArrivalDecor } from "@/data/newArrivalDecor";
 import AddToCartButton from "@/components/common/AddToCartButton";
 
 function formatPrice(value: number): string {
-  return "$" + value.toFixed(2).replace(".", ",");
+  return "$" + value.toFixed(2);
 }
 
 function NewArrival() {

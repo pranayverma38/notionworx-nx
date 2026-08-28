@@ -120,10 +120,10 @@ export default function ProductInfoVolumeDiscount({
                     </p>
                     <div className="price-wrap">
                       <span className="price-new text-primary fw-semibold">
-                        ${deal.priceNew.toFixed(2).replace(".", ",")}
+                        ${deal.priceNew.toFixed(2)}
                       </span>
                       <span className="price-old text-caption-01 cl-text-3">
-                        ${deal.priceOld.toFixed(2).replace(".", ",")}
+                        ${deal.priceOld.toFixed(2)}
                       </span>
                     </div>
                   </div>

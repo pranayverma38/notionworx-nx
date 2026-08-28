@@ -4,7 +4,7 @@ import { arrivalConstruction } from "@/data/arrivalConstruction";
 import AddToCartButton from "@/components/common/AddToCartButton";
 
 function formatPrice(value: number): string {
-  return "$" + value.toFixed(2).replace(".", ",");
+  return "$" + value.toFixed(2);
 }
 
 function Arrival() {

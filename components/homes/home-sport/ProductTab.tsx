@@ -7,7 +7,7 @@ import Link from "next/link";
 import { sportProductTabItems } from "@/data/sportProductTab";
 
 function formatPrice(value: number): string {
-  return "$" + value.toFixed(2).replace(".", ",");
+  return "$" + value.toFixed(2);
 }
 
 const DEFAULT_TAB_ID = "feet-1";

@@ -100,14 +100,13 @@ function Lookbook() {
                           <div className="price-wrap">
                             <span className="price-new">
                               $
-                              {pin.product.price.toFixed(2).replace(".", ",")}
+                                {pin.product.price.toFixed(2)}
                             </span>
                             {pin.product.priceOld != null && (
                               <span className="price-old text-caption-01 cl-text-3">
                                 $
                                 {pin.product.priceOld
-                                  .toFixed(2)
-                                  .replace(".", ",")}
+                                  .toFixed(2)}
                               </span>
                             )}
                           </div>

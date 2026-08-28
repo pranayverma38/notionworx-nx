@@ -12,7 +12,7 @@ import DriftZoom from "@/components/ui/DriftZoom";
 
 function formatPrice(value: number | string): string {
   const num = typeof value === "string" ? parseFloat(value) : value;
-  return "$" + num.toFixed(2).replace(".", ",");
+  return "$" + num.toFixed(2);
 }
 
 const product = bannerProductSingleItems[5];

@@ -137,7 +137,7 @@ export default function OrderDetails({
             </ul>
             <div className="last-total h5 fw-medium d-flex align-items-center justify-content-between">
               <span>Subtotal</span>
-              <span>$186,99</span>
+              <span>$186.99</span>
             </div>
           </div>
         </div>

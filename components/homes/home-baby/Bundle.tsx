@@ -10,7 +10,7 @@ import {
 import { bundleBabySlides } from "@/data/bundleBaby";
 
 function formatPrice(value: number): string {
-  return "$" + value.toFixed(2).replace(".", ",");
+  return "$" + value.toFixed(2);
 }
 
 function Bundle() {

@@ -9,7 +9,7 @@ import TfSwiper from "@/components/ui/TfSwiper";
 import type { Swiper as SwiperType } from "swiper";
 
 function formatPrice(value: number): string {
-  return "$" + value.toFixed(2).replace(".", ",");
+  return "$" + value.toFixed(2);
 }
 
 function ProductThumbs() {
