@@ -390,7 +390,7 @@ export default function AffiliateRegistrationSection({
       <style>{`
         .afp-wrap  { display:flex; flex-wrap:wrap; }
         .afp-side  { width:100%; flex-shrink:0; display:flex; }
-        .afp-hero  { position:relative; min-height:300px; overflow:hidden; }
+        .afp-hero  { position:relative; min-height:300px; overflow:hidden; width:100%; }
         .afp-benefits-panel {
           display:flex; flex-direction:column; justify-content:center;
           background:#fff; padding:48px 24px; min-height:300px;
