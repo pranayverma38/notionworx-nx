@@ -14,3 +14,32 @@
 @import "tailwindcss/theme";
 @import "tailwindcss/utilities";
 @config "../tailwind.config.js";
+
+.google-translate-element {
+  position: fixed;
+  top: -9999px;
+  left: -9999px;
+  visibility: hidden;
+}
+
+body {
+  top: 0 !important;
+}
+
+.goog-te-banner-frame.skiptranslate,
+iframe.skiptranslate,
+.VIpgJd-ZVi9od-ORHb-OEVmcd,
+#goog-gt-tt,
+.goog-te-spinner-pos,
+.goog-text-highlight {
+  display: none !important;
+}
+
+.goog-te-gadget {
+  color: inherit !important;
+}
+
+.goog-logo-link,
+.goog-te-gadget span {
+  display: none !important;
+}

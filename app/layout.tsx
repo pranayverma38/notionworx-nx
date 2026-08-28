@@ -12,6 +12,7 @@ import "./globals.scss";
 import ScrollToTop from "@/components/common/ScrollToTop";
 import { AuthProvider } from "@/context/AuthContext";
 import CatalogChatbot from "@/components/chatbot/CatalogChatbot";
+import GoogleTranslateProvider from "@/components/common/GoogleTranslateProvider";
 
 const dmSans = DM_Sans({
   subsets: ["latin"],
@@ -58,6 +59,7 @@ export default function RootLayout({
       className={`${dmSans.variable} ${urbanist.variable} ${outfit.variable} ${kumbhSans.variable} ${redHatDisplay.variable}`}
     >
       <body>
+        <GoogleTranslateProvider />
         <AuthProvider>
           <CloseNavDropdownsOnRoute />
           {children}
