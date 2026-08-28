@@ -1,4 +1,9 @@
 import { PreventDefaultForm } from "@/components/forms/PreventDefaultForm";
+import SocialIconLinks from "@/components/common/SocialIconLinks";
+import {
+  officeAddressLines,
+  officeHours,
+} from "@/data/contactInfo";
 
 const supportTopics = [
   {
@@ -32,6 +37,16 @@ export default function Contact() {
                   Use the notes below as a guide for what to include in your
                   project request.
                 </p>
+              </div>
+              <div className="d-grid gap-8 mb-24">
+                <h6>Visit Us</h6>
+                <p className="cl-text-2 mb-0">
+                  {officeAddressLines[0]}
+                  <br />
+                  {officeAddressLines[1]}
+                </p>
+                <p className="cl-text-2 mb-0">{officeHours}</p>
+                <SocialIconLinks className="tf-social-icon-2 hv-dark" />
               </div>
               <div className="grid-info tf-grid-layout sm-col-2">
                 {supportTopics.map((topic) => (
