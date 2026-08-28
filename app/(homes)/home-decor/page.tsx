@@ -1,7 +1,4 @@
 import { Metadata } from "next";
-import TopBar3 from "@/components/topBars/TopBar3";
-import Header6 from "@/components/headers/Header6";
-import Footer6 from "@/components/footers/Footer6";
 import Hero from "@/components/homes/home-decor/Hero";
 import ReturnShipping from "@/components/homes/home-decor/ReturnShipping";
 import Category from "@/components/homes/home-decor/Category";
@@ -19,8 +16,6 @@ export const metadata: Metadata = {
 export default function HomeDecorPage() {
   return (
     <>
-      <TopBar3 />
-      <Header6 />
       <>
                 <Hero />
                 <ReturnShipping />
@@ -33,8 +28,6 @@ export default function HomeDecorPage() {
                 <Features />
                 <Gallery />
       </>
-
-      <Footer6 />
     </>
   );
 }

@@ -1,6 +1,3 @@
-import Footer1 from "@/components/footers/Footer1";
-import Header9 from "@/components/headers/Header9";
-import TopBar3 from "@/components/topBars/TopBar3";
 import { Metadata } from "next";
 import Hero from "@/components/homes/home-fashion/Hero";
 import Today from "@/components/homes/home-fashion/Today";
@@ -17,8 +14,6 @@ export const metadata: Metadata = {
 export default function HomeFashionPage() {
   return (
     <>
-      <TopBar3 />
-      <Header9 />
       <>
         <Hero />
         <Today />
@@ -29,8 +24,6 @@ export default function HomeFashionPage() {
         <Banner />
         <Gallery />
       </>
-
-      <Footer1 />
     </>
   );
 }

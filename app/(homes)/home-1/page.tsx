@@ -1,8 +1,4 @@
 import { Metadata } from "next";
-
-import Header1 from "@/components/headers/Header1";
-import TopBar1 from "@/components/topBars/TopBar1";
-import Footer1 from "@/components/footers/Footer1";
 import Hero from "@/components/homes/home-1/Hero";
 import Category from "@/components/homes/home-1/Category";
 import TopPicsProducts from "@/components/homes/home-1/TopPicsProducts";
@@ -20,8 +16,6 @@ export const metadata: Metadata = {
 export default function IndexPage() {
   return (
     <>
-      <TopBar1 />
-      <Header1 />
       <>
         <Hero />
         <Category />
@@ -33,8 +27,6 @@ export default function IndexPage() {
         <Gallery />
         <Features />
       </>
-
-      <Footer1 />
     </>
   );
 }

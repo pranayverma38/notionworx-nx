@@ -19,7 +19,7 @@ export default function AccountSidebar() {
   return (
     <div className="sidebar-account-wrap sidebar-content-wrap sticky-top d-lg-block d-none">
       {user && (
-        <div className="px-3 pb-3 border-bottom mb-3">
+        <div className="px-3 pb-3 mb-3">
           <p className="text-caption-01 cl-text-2 mb-0">Signed in as</p>
           <p className="fw-semibold mb-0" style={{ fontSize: "0.9rem", wordBreak: "break-all" }}>
             {user.email}

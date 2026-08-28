@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import HomeBabyPage from "./(homes)/home-baby/page";
+import SiteShell from "@/components/layouts/SiteShell";
 
 export const metadata: Metadata = {
   title: "Home | Notion Worx",
@@ -8,5 +9,9 @@ export const metadata: Metadata = {
 };
 
 export default function Page() {
-  return <HomeBabyPage />;
+  return (
+    <SiteShell>
+      <HomeBabyPage />
+    </SiteShell>
+  );
 }

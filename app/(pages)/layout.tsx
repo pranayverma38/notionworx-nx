@@ -1,14 +1,5 @@
-import Footer1 from "@/components/footers/Footer1";
-import Header10 from "@/components/headers/Header10";
-import TopBar4 from "@/components/topBars/TopBar4";
+import SiteShell from "@/components/layouts/SiteShell";
 
 export default function Layout({ children }: { children: React.ReactNode }) {
-  return (
-    <>
-      <TopBar4 />
-      <Header10 parentClass="tf-header" containerFull hasHrLine />
-      {children}
-      <Footer1 />
-    </>
-  );
+  return <SiteShell>{children}</SiteShell>;
 }

@@ -1,7 +1,4 @@
 import { Metadata } from "next";
-import TopBar2 from "@/components/topBars/TopBar2";
-import Header2 from "@/components/headers/Header2";
-import Footer2 from "@/components/footers/Footer2";
 import Hero from "@/components/homes/home-auto/Hero";
 import Features from "@/components/homes/home-auto/Features";
 import Banner from "@/components/homes/home-auto/Banner";
@@ -20,8 +17,6 @@ export const metadata: Metadata = {
 export default function HomeAutoPage() {
   return (
     <>
-      <TopBar2 />
-      <Header2 navCategoryStyle="style-2" />
       <>
         <Hero />
         <h2 className="d-none">Perfect Heading Seo</h2>
@@ -36,8 +31,6 @@ export default function HomeAutoPage() {
         <Cta />
         <Blog />
       </>
-
-      <Footer2 />
     </>
   );
 }

@@ -1,7 +1,4 @@
 import { Metadata } from "next";
-import TopBar2 from "@/components/topBars/TopBar2";
-import Header3 from "@/components/headers/Header3";
-import Footer3 from "@/components/footers/Footer3";
 import GridCollection from "@/components/homes/home-bag-accessories/GridCollection";
 import Category from "@/components/homes/home-bag-accessories/Category";
 import BestChoice from "@/components/homes/home-bag-accessories/BestChoice";
@@ -20,8 +17,6 @@ export const metadata: Metadata = {
 export default function HomeBagAccessoriesPage() {
   return (
     <>
-      <TopBar2 isDark hasSwiper />
-      <Header3 />
       <>
                 <GridCollection />
                 <Category />
@@ -34,8 +29,6 @@ export default function HomeBagAccessoriesPage() {
                 <Testimonials />
                 <Gallery />
       </>
-
-      <Footer3 />
     </>
   );
 }

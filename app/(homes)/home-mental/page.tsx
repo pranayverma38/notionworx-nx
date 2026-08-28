@@ -1,7 +1,4 @@
 import { Metadata } from "next";
-import TopBar2 from "@/components/topBars/TopBar2";
-import Header2 from "@/components/headers/Header2";
-import Footer2 from "@/components/footers/Footer2";
 import Hero from "@/components/homes/home-mental/Hero";
 import Category from "@/components/homes/home-mental/Category";
 import Collection from "@/components/homes/home-mental/Collection";
@@ -19,8 +16,6 @@ export const metadata: Metadata = {
 export default function HomeMentalPage() {
   return (
     <>
-      <TopBar2 />
-      <Header2 />
       <>
         <Hero />
         <Category />
@@ -33,8 +28,6 @@ export default function HomeMentalPage() {
         <Blogs />
         <Features />
       </>
-
-      <Footer2 />
     </>
   );
 }

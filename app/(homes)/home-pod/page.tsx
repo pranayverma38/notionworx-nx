@@ -1,7 +1,4 @@
 import { Metadata } from "next";
-import TopBar2 from "@/components/topBars/TopBar2";
-import Header3 from "@/components/headers/Header3";
-import Footer4 from "@/components/footers/Footer4";
 import Hero from "@/components/homes/home-pod/Hero";
 import Category from "@/components/homes/home-pod/Category";
 import TopTrend from "@/components/homes/home-pod/TopTrend";
@@ -20,8 +17,6 @@ export const metadata: Metadata = {
 export default function HomePodPage() {
   return (
     <>
-      <TopBar2 hasSwiper isDark />
-      <Header3 />
       <>
         <Hero />
         <Category />
@@ -35,8 +30,6 @@ export default function HomePodPage() {
         <Features />
         <Gallery />
       </>
-
-      <Footer4 />
     </>
   );
 }

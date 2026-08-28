@@ -1,5 +1,3 @@
-import Footer1 from "@/components/footers/Footer1";
-import Header7 from "@/components/headers/Header7";
 import { Metadata } from "next";
 import Hero from "@/components/homes/home-cosmetic/Hero";
 import InfiniteSlide from "@/components/homes/home-cosmetic/InfiniteSlide";
@@ -21,7 +19,6 @@ export const metadata: Metadata = {
 export default function HomeCosmeticPage() {
   return (
     <>
-      <Header7 />
       <>
         <Hero />
         <InfiniteSlide />
@@ -36,8 +33,6 @@ export default function HomeCosmeticPage() {
         <Features />
         <Gallery />
       </>
-
-      <Footer1 />
     </>
   );
 }

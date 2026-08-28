@@ -1,5 +1,3 @@
-import Footer7 from "@/components/footers/Footer7";
-import Header10 from "@/components/headers/Header10";
 import { Metadata } from "next";
 import Hero from "@/components/homes/home-jewelry/Hero";
 import BannerCountdown from "@/components/homes/home-jewelry/BannerCountdown";
@@ -13,7 +11,6 @@ import BannerProductSingle from "@/components/homes/home-jewelry/BannerProductSi
 import Lookbook from "@/components/homes/home-jewelry/Lookbook";
 import Highlight from "@/components/homes/home-jewelry/Highlight";
 import Blogs from "@/components/homes/home-jewelry/Blogs";
-import TopBar6 from "@/components/topBars/TopBar6";
 export const metadata: Metadata = {
   title: "Home Jewelry | Amerce - Multipurpose eCommerce React Nextjs Template",
   description: "Amerce - Multipurpose eCommerce React Nextjs Template",
@@ -21,8 +18,6 @@ export const metadata: Metadata = {
 export default function HomeJewelryPage() {
   return (
     <>
-      <TopBar6 />
-      <Header10 />
       <>
                 <Hero />
                 <BannerCountdown />
@@ -37,8 +32,6 @@ export default function HomeJewelryPage() {
                 <Highlight />
                 <Blogs />
       </>
-
-      <Footer7 />
     </>
   );
 }

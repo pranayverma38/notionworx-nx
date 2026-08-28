@@ -1,6 +1,3 @@
-import Footer4 from "@/components/footers/Footer4";
-import Header6 from "@/components/headers/Header6";
-import TopBar3 from "@/components/topBars/TopBar3";
 import { Metadata } from "next";
 import Hero from "@/components/homes/home-headphone/Hero";
 import About from "@/components/homes/home-headphone/About";
@@ -20,8 +17,6 @@ export const metadata: Metadata = {
 export default function HomeHeadphonePage() {
   return (
     <>
-      <TopBar3 />
-      <Header6 />
       <>
         <Hero />
         <About />
@@ -34,8 +29,6 @@ export default function HomeHeadphonePage() {
         <Testimonials />
         <Blogs />
       </>
-
-      <Footer4 />
     </>
   );
 }

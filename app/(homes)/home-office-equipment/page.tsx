@@ -1,5 +1,3 @@
-import Footer2 from "@/components/footers/Footer2";
-import Header4 from "@/components/headers/Header4";
 import { Metadata } from "next";
 import Hero from "@/components/homes/home-office-equipment/Hero";
 import Category from "@/components/homes/home-office-equipment/Category";
@@ -18,7 +16,6 @@ export const metadata: Metadata = {
 export default function HomeOfficeEquipmentPage() {
   return (
     <>
-      <Header4 parentClass='tf-header header-s5 scr-box-shadow bg-dark' />
       <>
                 <Hero />
                 <Category />
@@ -30,8 +27,6 @@ export default function HomeOfficeEquipmentPage() {
                 <Blogs />
                 <Gallery />
       </>
-
-      <Footer2 />
     </>
   );
 }

@@ -1,6 +1,3 @@
-import Footer1 from "@/components/footers/Footer1";
-import Header8 from "@/components/headers/Header8";
-import TopBar2 from "@/components/topBars/TopBar2";
 import { Metadata } from "next";
 import Hero from "@/components/homes/home-organic/Hero";
 import Category from "@/components/homes/home-organic/Category";
@@ -17,8 +14,6 @@ export const metadata: Metadata = {
 export default function HomeOrganicPage() {
   return (
     <>
-      <TopBar2 isDark hasSwiper />
-      <Header8 />
       <>
                 <Hero />
                 <Category />
@@ -29,8 +24,6 @@ export default function HomeOrganicPage() {
                 <Testimonials />
                 <Gallery />
       </>
-
-      <Footer1 hideTopRule />
     </>
   );
 }

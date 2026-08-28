@@ -6,10 +6,17 @@ export interface TestimonialProduct {
   priceOld?: string;
 }
 
+export interface TestimonialMedia {
+  src: string;
+  alt?: string;
+}
+
 export interface TestimonialSlide {
   /** Optional when only author name + verified badge are shown (e.g. fashion-2). */
   authorImg?: string;
   authorAlt?: string;
+  /** Optional gallery for reviews with multiple photos. */
+  media?: TestimonialMedia[];
   authorName: string;
   quote: string;
   /** Optional role/title (e.g. "Yoga Instructor"). When set, product may be omitted. */

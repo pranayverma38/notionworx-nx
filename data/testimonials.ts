@@ -650,6 +650,316 @@ export const testimonialOrganicSlides = [
   },
 ];
 
+export const testimonialNotionWorxSlides = [
+  {
+    authorImg:
+      "https://s3.amazonaws.com/me.judge.review-images/_video_thumbnails/ZWJM111y_1783823624/thumbs_01.jpg",
+    authorAlt: "Matthew Brooks review image",
+    authorName: "Matthew Brooks",
+    quote:
+      "Had a great experience ordering through this company the canopy and flags that they built for my company turned out way better than I could’ve ever expected. Highly recommend recommended greatly appreciated, great and easy business and great and easy to work with.",
+    verifiedLabel: "Verified",
+    media: [
+      {
+        src: "https://s3.amazonaws.com/me.judge.review-images/_video_thumbnails/ZWJM111y_1783823624/thumbs_01.jpg",
+      },
+    ],
+  },
+  {
+    authorImg:
+      "https://s3.amazonaws.com/me.judge.review-images/_video_thumbnails/Ay4b1xXg_1783047755/thumbs_01.jpg",
+    authorAlt: "Sanchez review image",
+    authorName: "Sanchez",
+    quote: "The Canopy came out better than what I expected",
+    verifiedLabel: "Verified",
+    media: [
+      {
+        src: "https://s3.amazonaws.com/me.judge.review-images/_video_thumbnails/Ay4b1xXg_1783047755/thumbs_01.jpg",
+      },
+    ],
+  },
+  {
+    authorImg:
+      "https://s3.amazonaws.com/me.judge.review-images/_video_thumbnails/dWm7G83D_1782068761/thumbs_01.jpg",
+    authorAlt: "Kee Raquel Entertainment review image",
+    authorName: "Kee Raquel Entertainment",
+    quote:
+      "Thank you Notionworx for your amazing product. Our tent has been everything advertised and more.",
+    verifiedLabel: "Verified",
+    media: [
+      {
+        src: "https://s3.amazonaws.com/me.judge.review-images/_video_thumbnails/dWm7G83D_1782068761/thumbs_01.jpg",
+      },
+    ],
+  },
+  {
+    authorImg:
+      "https://review-images.judgeme.com/notion-worx/1787124744__1787124731020-img_4306__original.jpeg?quality=80&width=1024",
+    authorAlt: "Galactic Freeze Frozen Treats review image",
+    authorName: "Galactic Freeze Frozen Treats",
+    quote:
+      "We ordered a 10 x 20 aluminum tent with sidewalls.we just received it and put it up to see it, the quality is very good. They were very quick to have it done after we gave final approval within 3 days we had email showing tracking number saying the frame was shipped. The next day the top and sidewalls shipped. We would highly recommend Notion Worx to anyone looking to get a tent. We will definitely be using them again",
+    verifiedLabel: "Verified",
+    media: [
+      {
+        src: "https://review-images.judgeme.com/notion-worx/1787124744__1787124731020-img_4306__original.jpeg?quality=80&width=1024",
+      },
+    ],
+  },
+  {
+    authorImg:
+      "https://review-images.judgeme.com/notion-worx/1786631616__1786631612491-img_9429__original.jpeg?quality=80&width=1024",
+    authorAlt: "Cake Pop Town review image",
+    authorName: "Cake Pop Town",
+    quote: `⭐⭐⭐⭐⭐ Absolutely Amazing Work by Notion Worx!
+
+I cannot say enough wonderful things about Notion Worx! They created the custom commercial tent for my business, Cake Pop Town, and it turned out absolutely BEAUTIFUL! 💕🍰
+
+From the quality of the tent to the vibrant colors, professional printing, and attention to detail, everything exceeded my expectations. They took my Cake Pop Town branding and transformed it into a setup that truly stands out at farmers markets, festivals, and vendor events. I constantly receive compliments on how professional and eye-catching my tent looks!
+
+As a small business owner, presentation means so much, and Notion Worx helped take my brand to another level. The quality is excellent, the design is beautiful, and I am extremely proud every time I set it up.
+
+If you’re a business owner looking for a professional custom canopy that makes people stop and notice your brand, I HIGHLY recommend Notion Worx. Thank you for helping Cake Pop Town stand out and POP! 💗✨
+
+10/10 — I would absolutely work with them again!`,
+    verifiedLabel: "Verified",
+    media: [
+      {
+        src: "https://review-images.judgeme.com/notion-worx/1786631616__1786631612491-img_9429__original.jpeg?quality=80&width=1024",
+      },
+    ],
+  },
+  {
+    authorImg:
+      "https://review-images.judgeme.com/notion-worx/1785600443__1785600159085-img_0112__original.jpeg?quality=80&width=1024",
+    authorAlt: "MVP Jazz & Ginger Juice Bar review image",
+    authorName: "MVP Jazz & Ginger Juice Bar",
+    quote: `⭐⭐⭐⭐⭐
+
+I couldn’t be happier with my tent! Since purchasing it, my business has grown tenfold, and my setup is truly a showstopper wherever I go. I’m so glad I trusted NotionWorx with this investment.
+
+The quality is outstanding—it’s extremely durable and has held up great in the rain without any issues. I constantly receive compliments on it. I’m from Indiana, and people tell me all the time that my tent has a “big city” vibe and really stands out from the crowd.
+
+Thank you, NotionWorx, for creating such an incredible product. I’ll be a lifelong customer and look forward to doing business with you for years to come!`,
+    verifiedLabel: "Verified",
+    media: [
+      {
+        src: "https://review-images.judgeme.com/notion-worx/1785600443__1785600159085-img_0112__original.jpeg?quality=80&width=1024",
+      },
+      {
+        src: "https://review-images.judgeme.com/notion-worx/1785600444__1785600159089-img_7209__original.jpeg?quality=80&width=1024",
+      },
+    ],
+  },
+  {
+    authorImg:
+      "https://review-images.judgeme.com/notion-worx/1784648220__1784648212602-img_9223__original.jpeg?quality=80&width=1024",
+    authorAlt: "RICKEY-BOBBIE STOP review image",
+    authorName: "RICKEY-BOBBIE STOP",
+    quote:
+      "Where do I start. I want everyone to know this, because like myself I was new to this, so hope this help. I reached out to a few companies one day, and the first one I saw, got back to me like 6-7 hours later. This company here, was like 10 mins later. So the conversation began. From the start I was in love, I saw my idea come to like in like the first 3 mins. I actually had the OWNER helping me. Till the very end! When I tell you he listened, and did not try and oversell me, he actually told me what was best for my company ‼️‼️ and wait till you hear the best part. The PRICE!!! Was dang near 50% cheaper than the other companies that I reached out to first. So look at that blessing. I am not kidding about the price either, and the quality of the work, we are in love. Can’t wait to make tons of money from this investment! I truly thank you and your team for getting us on our way!!!☺️☺️",
+    verifiedLabel: "Verified",
+    media: [
+      {
+        src: "https://review-images.judgeme.com/notion-worx/1784648220__1784648212602-img_9223__original.jpeg?quality=80&width=1024",
+      },
+    ],
+  },
+  {
+    authorImg:
+      "https://review-images.judgeme.com/notion-worx/1783098371__1783098362749-inbound7498105728808865821__original.jpg?quality=80&width=1024",
+    authorAlt: "Minimunchies review image",
+    authorName: "Minimunchies",
+    quote:
+      "They are awesome.  They did a very nice work with my canopy.  Even at last minute requested I did they came thur. I was so happy with the way they handled my request and how nice my canopy looks. I will go back and buy from them again",
+    verifiedLabel: "Verified",
+    media: [
+      {
+        src: "https://review-images.judgeme.com/notion-worx/1783098371__1783098362749-inbound7498105728808865821__original.jpg?quality=80&width=1024",
+      },
+    ],
+  },
+  {
+    authorImg:
+      "https://review-images.judgeme.com/notion-worx/1782407910__1782407908024-chatgptimagejun25202611_17__original.png?quality=80&width=1024",
+    authorAlt: "Omar Arvizu review image",
+    authorName: "Omar Arvizu",
+    quote: "Amazing and great customer service!!",
+    role:
+      "10'x10'~ Custom Food Booth Canopy Tent Package-HEX Aluminum Frame, Full Back Wall & 3 Half Side Walls with Half Mesh with Windows.",
+    verifiedLabel: "Verified",
+    media: [
+      {
+        src: "https://review-images.judgeme.com/notion-worx/1782407910__1782407908024-chatgptimagejun25202611_17__original.png?quality=80&width=1024",
+      },
+    ],
+  },
+  {
+    authorImg:
+      "https://review-images.judgeme.com/notion-worx/1782220322__1782220319196-img_2314__original.jpeg?quality=80&width=1024",
+    authorAlt: "Karina Villasenor review image",
+    authorName: "Karina Villasenor",
+    quote: "Love the quality.",
+    role: "Step and Repeat Backdrop- 8'x8' and 8'x10' Including Hardware and Carry Bag",
+    verifiedLabel: "Verified",
+    media: [
+      {
+        src: "https://review-images.judgeme.com/notion-worx/1782220322__1782220319196-img_2314__original.jpeg?quality=80&width=1024",
+      },
+    ],
+  },
+  {
+    authorImg:
+      "https://review-images.judgeme.com/notion-worx/1782424747__1782424739457-chatgptimagejun25202601_39__original.png?quality=80&width=1024",
+    authorAlt: "Crystal Cunningham review image",
+    authorName: "Crystal Cunningham",
+    quote: "Absolutely perfect👌!!!",
+    role:
+      'PACKAGE #2 ~ Premium 10x10 Custom Canopy Tent – Frame of Choice (HEX Aluminum or Steel) (Silver) with Full Back Wall & 17" Valance (Dye-Sublimation Printing)',
+    verifiedLabel: "Verified",
+    media: [
+      {
+        src: "https://review-images.judgeme.com/notion-worx/1782424747__1782424739457-chatgptimagejun25202601_39__original.png?quality=80&width=1024",
+      },
+    ],
+  },
+  {
+    authorImg:
+      "https://review-images.judgeme.com/notion-worx/1781728573__1781728556211-inbound3100873423175639081__original.jpg?quality=80&width=1024",
+    authorAlt: "Raul Jaramillo review image",
+    authorName: "Raul Jaramillo",
+    quote:
+      "LOVE THEIR PRODUCT. I FINALLY FOUND AND GOT EXACTLY WHAT I WAS LOOKING FOR.. THEIR SHIPPING WAS ALSO FAST. I HIGHLY RECOMMEND THEM TO ANYONE LOOKING FOR A CANOPY WITH PERSONALIZED QUALITY WORK.. HIT THEM UP!",
+    verifiedLabel: "Verified",
+    media: [
+      {
+        src: "https://review-images.judgeme.com/notion-worx/1781728573__1781728556211-inbound3100873423175639081__original.jpg?quality=80&width=1024",
+      },
+    ],
+  },
+  {
+    authorImg:
+      "https://review-images.judgeme.com/notion-worx/1781106149__1781106137561-chatgptimagejun10202609_41__original.png?quality=80&width=1024",
+    authorAlt: "Terry Johnson review image",
+    authorName: "Terry Johnson",
+    quote:
+      "For the price, it was too good to be true BUT it was AMAZING and TRUE! not only did I save 2500 by choosing Notion Worx, it was an amazing canopy, thank you so much, I definitely recommend.",
+    role:
+      'Premium 10x20 Custom Canopy Tent – HEX Aluminum Frame (Silver) with Three Full Walls & 17" Valance (Dye-Sublimation Printing)',
+    verifiedLabel: "Verified",
+    media: [
+      {
+        src: "https://review-images.judgeme.com/notion-worx/1781106149__1781106137561-chatgptimagejun10202609_41__original.png?quality=80&width=1024",
+      },
+    ],
+  },
+  {
+    authorImg:
+      "https://review-images.judgeme.com/notion-worx/1780920426__1780920394991-img_7775__original.jpeg?quality=80&width=1024",
+    authorAlt: "Kevin Devlin review image",
+    authorName: "Kevin Devlin",
+    quote: "Turned out great, thank you",
+    role:
+      'PACKAGE #2 ~ Premium 10x10 Custom Canopy Tent – Frame of Choice (HEX Aluminum or Steel) (Silver) with Full Back Wall & 17" Valance (Dye-Sublimation Printing)',
+    verifiedLabel: "Verified",
+    media: [
+      {
+        src: "https://review-images.judgeme.com/notion-worx/1780920426__1780920394991-img_7775__original.jpeg?quality=80&width=1024",
+      },
+    ],
+  },
+  {
+    authorImg:
+      "https://review-images.judgeme.com/notion-worx/1780850125__1780850103049-img_8678__original.jpeg?quality=80&width=1024",
+    authorAlt: "Chris review image",
+    authorName: "Chris",
+    quote:
+      "I recently set up my tent I love  the outcome they worked together  to bring my vision to reality. I also love the fact that when I called a real person answering my questions was an plus.",
+    role:
+      'Premium 10x10 Custom Canopy Tent – Frame of Choice (HEX Aluminum or Steel) (Silver) with Full Back Wall, Two Half Side Walls & 17" Valance (Dye-Sublimation Printing)',
+    verifiedLabel: "Verified",
+    media: [
+      {
+        src: "https://review-images.judgeme.com/notion-worx/1780850125__1780850103049-img_8678__original.jpeg?quality=80&width=1024",
+      },
+    ],
+  },
+  {
+    authorImg:
+      "https://review-images.judgeme.com/notion-worx/1780783518__1780783509118-chatgptimagejun6202604_04___original.png?quality=80&width=1024",
+    authorAlt: "Teresa Gonzalez review image",
+    authorName: "Teresa Gonzalez",
+    quote:
+      "I love it!!! And all my friends love it too. It makes my set up so special. The only thing it's a little heavy because I picked the steel one but other then that I love it.",
+    role:
+      'Premium 10x10 Custom Canopy Tent – Frame of Choice (HEX Aluminum or Steel) (Silver) with Full Back Wall, Two Half Side Walls & 17" Valance (Dye-Sublimation Printing)',
+    verifiedLabel: "Verified",
+    media: [
+      {
+        src: "https://review-images.judgeme.com/notion-worx/1780783518__1780783509118-chatgptimagejun6202604_04___original.png?quality=80&width=1024",
+      },
+    ],
+  },
+  {
+    authorImg:
+      "https://review-images.judgeme.com/notion-worx/1780764621__1780764609270-9838__original.jpg?quality=80&width=1024",
+    authorAlt: "Jose Silva review image",
+    authorName: "Jose Silva",
+    quote: "I love it, my business logo pops out and stands out ! Looks professional ! Great job !",
+    role:
+      'PACKAGE #2 ~ Premium 10x10 Custom Canopy Tent – Frame of Choice (HEX Aluminum or Steel) (Silver) with Full Back Wall & 17" Valance (Dye-Sublimation Printing)',
+    verifiedLabel: "Verified",
+    media: [
+      {
+        src: "https://review-images.judgeme.com/notion-worx/1780764621__1780764609270-9838__original.jpg?quality=80&width=1024",
+      },
+    ],
+  },
+  {
+    authorImg:
+      "https://review-images.judgeme.com/notion-worx/1780726370__1780726324737-screenshot_20260603_103450__original.jpg?quality=80&width=1024",
+    authorAlt: "RAUL JARAMILLO review image",
+    authorName: "RAUL JARAMILLO",
+    quote: "LOVED IT!! EXACTLY WHAT I WAS LOOKING FOR.",
+    role:
+      'Premium 10x20 Custom Canopy Tent – HEX Aluminum Frame (Silver) with Full Back Wall & 17" Valance (Dye-Sublimation Printing)',
+    verifiedLabel: "Verified",
+    media: [
+      {
+        src: "https://review-images.judgeme.com/notion-worx/1780726370__1780726324737-screenshot_20260603_103450__original.jpg?quality=80&width=1024",
+      },
+    ],
+  },
+  {
+    authorImg:
+      "https://review-images.judgeme.com/notion-worx/1779298979__1779298961490-680044541_976747668323669___original.png?quality=80&width=1024",
+    authorAlt: "Eskcreation review image",
+    authorName: "Eskcreation",
+    quote:
+      "I ordered my tent and I’m in love with the quality, the customer service and how fast my order arrives to my home. 20/10",
+    verifiedLabel: "Verified",
+    media: [
+      {
+        src: "https://review-images.judgeme.com/notion-worx/1779298979__1779298961490-680044541_976747668323669___original.png?quality=80&width=1024",
+      },
+    ],
+  },
+  {
+    authorImg:
+      "https://review-images.judgeme.com/notion-worx/1779299209__1779299198014-699722763_965938859597035___original.jpg?quality=80&width=1024",
+    authorAlt: "Fresh Feteer review image",
+    authorName: "Fresh Feteer",
+    quote:
+      "Love the quality of the material used! Also, the fact that it’s fire rated and it didn’t cost me an arm and a leg. The team was also responsive and I got my canopy just in time for my event. Definitely recommend!",
+    verifiedLabel: "Verified",
+    media: [
+      {
+        src: "https://review-images.judgeme.com/notion-worx/1779299209__1779299198014-699722763_965938859597035___original.jpg?quality=80&width=1024",
+      },
+    ],
+  },
+];
+
 export const testimonialPetCareSlides = [
   {
     authorImg: "/assets/images/testimonial/tes-5.jpg",

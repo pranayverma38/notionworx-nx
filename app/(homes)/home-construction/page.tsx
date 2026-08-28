@@ -1,6 +1,3 @@
-import Footer9 from "@/components/footers/Footer9";
-import Header10 from "@/components/headers/Header10";
-import TopBar4 from "@/components/topBars/TopBar4";
 import { Metadata } from "next";
 import Hero from "@/components/homes/home-construction/Hero";
 import Categories from "@/components/homes/home-construction/Categories";
@@ -21,8 +18,6 @@ export default function HomeConstructionPage() {
   return (
     <>
       <main id="wrapper">
-        <TopBar4 />
-        <Header10 containerFull  parentClass="tf-header" hasHrLine/>
         <>
           <Hero />
           <Categories />
@@ -35,8 +30,6 @@ export default function HomeConstructionPage() {
           <Testimonials />
           <Blog />
         </>
-
-        <Footer9 />
       </main>
     </>
   );

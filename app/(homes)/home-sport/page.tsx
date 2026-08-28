@@ -1,7 +1,4 @@
 import { Metadata } from "next";
-import TopBar1 from "@/components/topBars/TopBar1";
-import Header1 from "@/components/headers/Header1";
-import Footer4 from "@/components/footers/Footer4";
 import GridCollection from "@/components/homes/home-sport/GridCollection";
 import Features from "@/components/homes/home-sport/Features";
 import BestChoice from "@/components/homes/home-sport/BestChoice";
@@ -19,8 +16,6 @@ export const metadata: Metadata = {
 export default function HomeSportPage() {
   return (
     <>
-      <TopBar1 />
-      <Header1 />
       <>
                 <GridCollection />
                 <Features />
@@ -33,8 +28,6 @@ export default function HomeSportPage() {
                 <Testimonials />
                 <Gallery />
       </>
-
-      <Footer4 />
     </>
   );
 }

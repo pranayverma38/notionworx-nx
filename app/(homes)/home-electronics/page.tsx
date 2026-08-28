@@ -1,7 +1,4 @@
-import TopBar2 from "@/components/topBars/TopBar2";
-import Header2 from "@/components/headers/Header2";
 import { Metadata } from "next";
-import Footer3 from "@/components/footers/Footer3";
 import Category from "@/components/homes/home-electronics/Category";
 import Collection from "@/components/homes/home-electronics/Collection";
 // import Collection from "@/components/homes/home-electronics/Collection";
@@ -22,8 +19,6 @@ export const metadata: Metadata = {
 export default function HomeElectronicsPage() {
   return (
     <>
-      <TopBar2 isContainerFull isDark />
-      <Header2 isContainerFull />
       <>
         <Category />
         <Collection />
@@ -37,8 +32,6 @@ export default function HomeElectronicsPage() {
         <Faq />
         <Features />
       </>
-
-      <Footer3 />
     </>
   );
 }

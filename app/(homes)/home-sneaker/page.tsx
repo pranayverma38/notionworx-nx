@@ -1,6 +1,3 @@
-import Footer1 from "@/components/footers/Footer1";
-import Header6 from "@/components/headers/Header6";
-import TopBar1 from "@/components/topBars/TopBar1";
 import { Metadata } from "next";
 import Hero from "@/components/homes/home-sneaker/Hero";
 import Category from "@/components/homes/home-sneaker/Category";
@@ -20,8 +17,6 @@ export const metadata: Metadata = {
 export default function HomeSneakerPage() {
   return (
     <>
-      <TopBar1 />
-      <Header6 />
       <>
         <Hero />
         <Category />
@@ -34,8 +29,6 @@ export default function HomeSneakerPage() {
         <Blogs />
         <Gallery />
       </>
-
-      <Footer1 />
     </>
   );
 }

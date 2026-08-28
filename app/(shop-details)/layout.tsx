@@ -1,7 +1,5 @@
-import Footer1 from "@/components/footers/Footer1";
-import Header10 from "@/components/headers/Header10";
-import TopBar4 from "@/components/topBars/TopBar4";
 import type { Metadata } from "next";
+import SiteShell from "@/components/layouts/SiteShell";
 import {
   AMERCE_DEFAULT_DESCRIPTION,
   AMERCE_SITE_TITLE,
@@ -15,13 +13,9 @@ export const metadata: Metadata = {
 
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
-    <>
-      <TopBar4 />
-      <Header10 parentClass="tf-header" containerFull hasHrLine />
+    <SiteShell footerContent={<StickyProduct />}>
       {children}
-      <StickyProduct/>
-      <Footer1/>
-    </>
+    </SiteShell>
   );
 }
 

@@ -1,6 +1,4 @@
 import { Metadata } from "next";
-import Header4 from "@/components/headers/Header4";
-import Footer5 from "@/components/footers/Footer5";
 import Category from "@/components/homes/home-pet-care/Category";
 import BannerCollection from "@/components/homes/home-pet-care/BannerCollection";
 import TopPick from "@/components/homes/home-pet-care/TopPick";
@@ -20,7 +18,6 @@ export const metadata: Metadata = {
 export default function HomePetCarePage() {
   return (
     <>
-      <Header4 />
       <>
                 <Category />
                 <BannerCollection />
@@ -34,8 +31,6 @@ export default function HomePetCarePage() {
                 <Features />
                 <Gallery />
       </>
-
-      <Footer5 />
     </>
   );
 }

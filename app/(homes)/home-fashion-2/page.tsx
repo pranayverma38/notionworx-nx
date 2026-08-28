@@ -1,7 +1,4 @@
 import { Metadata } from "next";
-import TopBar3 from "@/components/topBars/TopBar3";
-import Header6 from "@/components/headers/Header6";
-import Footer9 from "@/components/footers/Footer9";
 import Hero from "@/components/homes/home-fashion-2/Hero";
 import Category from "@/components/homes/home-fashion-2/Category";
 import Products from "@/components/homes/home-fashion-2/Products";
@@ -19,8 +16,6 @@ export const metadata: Metadata = {
 export default function HomeFashion2Page() {
   return (
     <>
-      <TopBar3 />
-      <Header6 />
       <>
                 <Hero />
                 <Category />
@@ -32,8 +27,6 @@ export default function HomeFashion2Page() {
                 <Testimonials />
                 <Gallery />
       </>
-
-      <Footer9 parentClass="tf-footer footer-s5 bg-white" />
     </>
   );
 }

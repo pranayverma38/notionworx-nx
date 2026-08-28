@@ -1,6 +1,3 @@
-import Footer9 from "@/components/footers/Footer9";
-import Header11 from "@/components/headers/Header11";
-import TopBar5 from "@/components/topBars/TopBar5";
 import { Metadata } from "next";
 import Category from "@/components/homes/home-furniture/Category";
 import Parallax from "@/components/homes/home-furniture/Parallax";
@@ -22,8 +19,6 @@ export const metadata: Metadata = {
 export default function HomeFurniturePage() {
   return (
     <>
-      <TopBar5 />
-      <Header11 />
       <>
         <Category />
         <Parallax />
@@ -38,8 +33,6 @@ export default function HomeFurniturePage() {
         <Blog />
         <Gallery />
       </>
-
-      <Footer9 />
     </>
   );
 }

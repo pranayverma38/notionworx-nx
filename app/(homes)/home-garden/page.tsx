@@ -1,6 +1,3 @@
-import Footer8 from "@/components/footers/Footer8";
-import Header1 from "@/components/headers/Header1";
-import TopBar1 from "@/components/topBars/TopBar1";
 import { Metadata } from "next";
 import Hero from "@/components/homes/home-garden/Hero";
 import BestSale from "@/components/homes/home-garden/BestSale";
@@ -21,8 +18,6 @@ export const metadata: Metadata = {
 export default function HomeGardenPage() {
   return (
     <>
-      <TopBar1 />
-      <Header1 />
       <>
         <Hero />
         <BestSale />
@@ -36,8 +31,6 @@ export default function HomeGardenPage() {
         <Features />
         <Gallery />
       </>
-
-      <Footer8 />
     </>
   );
 }

@@ -1,8 +1,5 @@
 import type { Metadata } from "next";
 
-import Footer1 from "@/components/footers/Footer1";
-import Header5 from "@/components/headers/Header5";
-import AnnouncementBar from "@/components/topBars/AnnouncementBar";
 import AffiliateRegistrationSection from "@/components/pages/affiliate-registration/AffiliateRegistrationSection";
 
 export const metadata: Metadata = {
@@ -13,13 +10,8 @@ export const metadata: Metadata = {
 
 export default function AffiliateRegistrationPage() {
   return (
-    <>
-      <AnnouncementBar />
-      <Header5 />
-      <main>
-        <AffiliateRegistrationSection />
-      </main>
-      <Footer1 hideTopRule />
-    </>
+    <main>
+      <AffiliateRegistrationSection />
+    </main>
   );
 }
