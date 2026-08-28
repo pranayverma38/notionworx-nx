@@ -1,4 +1,5 @@
 "use client";
+import UserIconButton from "@/components/headers/UserIconButton";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -78,13 +79,7 @@ export default function Header6() {
                 </a>
               </li>
               <li>
-                <a
-                  href="#sign"
-                  data-bs-toggle="modal"
-                  className="nav-icon-item link"
-                >
-                  <i className="icon icon-User" />
-                </a>
+                <UserIconButton />
               </li>
               <li>
                 <a

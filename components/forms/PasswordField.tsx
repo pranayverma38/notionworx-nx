@@ -7,6 +7,8 @@ type PasswordFieldProps = {
   className?: string;
   placeholder?: string;
   required?: boolean;
+  value?: string;
+  onChange?: (e: React.ChangeEvent<HTMLInputElement>) => void;
 };
 
 export function PasswordField({
@@ -14,6 +16,8 @@ export function PasswordField({
   className = "password-field",
   placeholder = "Password",
   required = false,
+  value,
+  onChange,
 }: PasswordFieldProps) {
   const [visible, setVisible] = useState(false);
 
@@ -35,6 +39,8 @@ export function PasswordField({
         id={id}
         placeholder={placeholder}
         required={required}
+        value={value}
+        onChange={onChange}
       />
     </div>
   );

@@ -20,7 +20,7 @@ const SHIP_PRICES: Record<ShipOption, number> = {
 };
 
 export default function ShoppingCart() {
-  const { cartProducts, setCartProducts, updateQuantity, totalPrice } =
+  const { cartProducts, setCartProducts, updateQuantity, totalPrice, removeFromCart } =
     useContextElement();
   const [shipOption, setShipOption] = useState<ShipOption>("free");
 
@@ -37,7 +37,7 @@ export default function ShoppingCart() {
   );
 
   const removeLine = (id: ProductId) => {
-    setCartProducts((prev) => prev.filter((p) => p.id !== id));
+    removeFromCart(id);
   };
 
   const setQty = (id: ProductId, qty: number) => {

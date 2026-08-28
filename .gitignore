@@ -11,8 +11,8 @@ build/
 dist/
 
 # ── Environment variables ────────────────────────────────────
-# Keep .env.example in source control; ignore everything else
-.env
+# .env contains only public NEXT_PUBLIC_ keys — safe to commit
+# .env.local overrides .env and is ignored (use for secrets)
 .env.local
 .env.development
 .env.development.local

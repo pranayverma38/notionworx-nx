@@ -10,6 +10,8 @@
   },
   "dependencies": {
     "@google/model-viewer": "^4.2.0",
+    "@supabase/ssr": "^0.12.5",
+    "@supabase/supabase-js": "^2.112.4",
     "@tailwindcss/postcss": "^4.3.3",
     "axios": "^1.14.0",
     "bootstrap": "^5.3.8",

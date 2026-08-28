@@ -20,7 +20,7 @@ export default function Cart({
 }: {
   registerOffcanvasElement?: (el: HTMLElement | null) => void;
 }) {
-  const { cartProducts, setCartProducts, updateQuantity, totalPrice } =
+  const { cartProducts, setCartProducts, updateQuantity, totalPrice, removeFromCart } =
     useContextElement();
   const [showRecommendations, setShowRecommendations] = useState(true);
   const [activeTool, setActiveTool] = useState<
@@ -42,7 +42,7 @@ export default function Cart({
   );
 
   const removeLine = (id: ProductId) => {
-    setCartProducts((prev) => prev.filter((p) => p.id !== id));
+    removeFromCart(id);
   };
 
   const setQty = (id: ProductId, qty: number) => {

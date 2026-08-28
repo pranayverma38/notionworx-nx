@@ -1,6 +1,5 @@
 import LayoutModals from "@/components/modals";
 import CloseNavDropdownsOnRoute from "@/components/headers/CloseNavDropdownsOnRoute";
-// import WowInit from "@/components/common/WowInit";
 import {
   DM_Sans,
   Kumbh_Sans,
@@ -10,6 +9,7 @@ import {
 } from "next/font/google";
 import "./globals.scss";
 import ScrollToTop from "@/components/common/ScrollToTop";
+import { AuthProvider } from "@/context/AuthContext";
 
 const dmSans = DM_Sans({
   subsets: ["latin"],
@@ -48,11 +48,12 @@ export default function RootLayout({
       className={`${dmSans.variable} ${urbanist.variable} ${outfit.variable} ${kumbhSans.variable} ${redHatDisplay.variable}`}
     >
       <body>
-        {/* <WowInit /> WOW.js off for now */}
-        <CloseNavDropdownsOnRoute />
-        {children}
-        <LayoutModals />
-        <ScrollToTop />
+        <AuthProvider>
+          <CloseNavDropdownsOnRoute />
+          {children}
+          <LayoutModals />
+          <ScrollToTop />
+        </AuthProvider>
       </body>
     </html>
   );
