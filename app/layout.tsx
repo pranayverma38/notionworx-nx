@@ -11,6 +11,7 @@ import {
 import "./globals.scss";
 import ScrollToTop from "@/components/common/ScrollToTop";
 import { AuthProvider } from "@/context/AuthContext";
+import CatalogChatbot from "@/components/chatbot/CatalogChatbot";
 
 const dmSans = DM_Sans({
   subsets: ["latin"],
@@ -61,6 +62,7 @@ export default function RootLayout({
           <CloseNavDropdownsOnRoute />
           {children}
           <LayoutModals />
+          <CatalogChatbot />
           <ScrollToTop />
         </AuthProvider>
       </body>
