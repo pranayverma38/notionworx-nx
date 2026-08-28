@@ -1,6 +1,5 @@
 import Link from "next/link";
 
-import WishlistButton from "../common/WishlistButton";
 import CartIconCount from "../headers/CartIconCount";
 
 export default function Toolbar() {
@@ -29,9 +28,6 @@ export default function Toolbar() {
           </span>
           <span className="toolbar-label">Account</span>
         </Link>
-      </div>
-      <div className="toolbar-item">
-        <WishlistButton variant="toolbar" />
       </div>
       <div className="toolbar-item">
         <Link href={`/view-cart`}>

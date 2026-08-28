@@ -88,14 +88,6 @@ export default function Header4({parentClass = "tf-header header-s5 scr-box-shad
                     <i className="icon icon-User" />
                   </a>
                 </li>
-                <li className="d-none d-sm-block">
-                  <Link
-                    href={`/wishlist`}
-                    className="nav-icon-item text-white link"
-                  >
-                    <i className="icon icon-HeartStraight" />
-                  </Link>
-                </li>
                 <li>
                   <a
                     href="#shoppingCart"

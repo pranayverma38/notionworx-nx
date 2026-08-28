@@ -4,7 +4,7 @@ import { shopRouteMetadata } from "@/lib/metadata/shop";
 
 export const metadata = shopRouteMetadata(
   "Login",
-  "Sign in to your account to track orders, wishlists, and saved addresses.",
+  "Sign in to your account to track orders and manage your saved addresses.",
 );
 
 const LoginPage = () => {

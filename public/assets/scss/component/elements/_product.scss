@@ -477,7 +477,6 @@
   }
 
   @include res(sm) {
-    .wishlist,
     .compare {
       display: none;
     }
@@ -1999,17 +1998,6 @@
   &:hover {
     border-color: var(--black);
   }
-}
-
-.btn-wishlist {
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  @include flex(center, center);
-  background-color: var(--text);
-  color: var(--white);
-  flex-shrink: 0;
-  font-size: 24px;
 }
 
 .tf-product-pre-order {

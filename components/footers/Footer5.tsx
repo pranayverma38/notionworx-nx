@@ -148,11 +148,6 @@ export default function Footer5() {
                           My Account
                         </Link>
                       </li>
-                      <li>
-                        <Link href={`/wishlist`} className="cl-text-3 link">
-                          Wish List
-                        </Link>
-                      </li>
                     </ul>
                   </FooterAccordionItem>
                 </div>

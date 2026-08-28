@@ -4,7 +4,6 @@ import Link from "next/link";
 import AddToCartButton from "@/components/common/AddToCartButton";
 import CompareButton from "@/components/common/CompareButton";
 import QuickViewButton from "@/components/common/QuickViewButton";
-import WishlistButton from "@/components/common/WishlistButton";
 import {
   ProductCardBadgeList,
   ProductCardDualImageLink,
@@ -96,12 +95,6 @@ export function ProductCardShopList() {
               className="hover-tooltip tooltip-top box-icon"
               label="Add to Cart"
               variant="tooltip"
-            />
-          </li>
-          <li className="wishlist">
-            <WishlistButton
-              product={product}
-              className="hover-tooltip tooltip-top box-icon"
             />
           </li>
           <li className="compare">

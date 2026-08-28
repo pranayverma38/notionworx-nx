@@ -5,7 +5,6 @@ import Link from "next/link";
 import { useCallback, useRef, useState } from "react";
 import type { Swiper as SwiperType } from "swiper";
 import TfSwiper from "@/components/ui/TfSwiper";
-import WishlistButton from "@/components/common/WishlistButton";
 import CompareButton from "@/components/common/CompareButton";
 import QuickViewButton from "@/components/common/QuickViewButton";
 import {
@@ -113,9 +112,6 @@ function Lookbook() {
                       />
                     </Link>
                     <ul className="product-action_list">
-                      <li className="wishlist">
-                        <WishlistButton />
-                      </li>
                       <li className="compare">
                         <CompareButton />
                       </li>

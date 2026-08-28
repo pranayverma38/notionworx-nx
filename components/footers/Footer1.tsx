@@ -2,8 +2,6 @@ import Link from "next/link";
 import Image from "next/image";
 
 import { NewsletterForm } from "@/components/forms/NewsletterForm";
-import CurrencySelect from "../common/CurrencySelect";
-import LanguageSelect from "../common/LanguageSelect";
 import FooterAccordionWrapper, {
   FooterAccordionItem,
 } from "./FooterAccordionWrapper";
@@ -107,11 +105,6 @@ export default function Footer1({ hideTopRule = false }: Footer1Props) {
                       </Link>
                     </li>
                     <li>
-                      <Link href="/wishlist" className="cl-text-2 link">
-                        Wishlist
-                      </Link>
-                    </li>
-                    <li>
                       <Link href="/view-cart" className="cl-text-2 link">
                         View Cart
                       </Link>
@@ -150,81 +143,6 @@ export default function Footer1({ hideTopRule = false }: Footer1Props) {
               </div>
             </div>
           </FooterAccordionWrapper>
-        </div>
-      </div>
-
-      <div className="footer-bottom">
-        <div className="container">
-          <div className="br-line sm-d-none" />
-          <div className="inner-bottom">
-            <div className="tf-list list-currenci">
-              <div className="tf-currencies">
-                <CurrencySelect textBlack />
-              </div>
-              <div className="tf-languages">
-                <LanguageSelect textBlack />
-              </div>
-            </div>
-            <p className="text-nocopy cl-text-2">
-              ©2026 Notion Worx. All Rights Reserved.
-            </p>
-            <ul className="tf-list payment-list">
-              <li>
-                <Image
-                  loading="lazy"
-                  width={38}
-                  height={24}
-                  src="/assets/images/payment/visa.svg"
-                  alt="Visa"
-                />
-              </li>
-              <li>
-                <Image
-                  loading="lazy"
-                  width={38}
-                  height={24}
-                  src="/assets/images/payment/master-card.svg"
-                  alt="Mastercard"
-                />
-              </li>
-              <li>
-                <Image
-                  loading="lazy"
-                  width={38}
-                  height={24}
-                  src="/assets/images/payment/amex.svg"
-                  alt="Amex"
-                />
-              </li>
-              <li>
-                <Image
-                  loading="lazy"
-                  width={38}
-                  height={24}
-                  src="/assets/images/payment/paypal.svg"
-                  alt="PayPal"
-                />
-              </li>
-              <li>
-                <Image
-                  loading="lazy"
-                  width={38}
-                  height={24}
-                  src="/assets/images/payment/water.svg"
-                  alt="Payment"
-                />
-              </li>
-              <li>
-                <Image
-                  loading="lazy"
-                  width={38}
-                  height={24}
-                  src="/assets/images/payment/discover.svg"
-                  alt="Discover"
-                />
-              </li>
-            </ul>
-          </div>
         </div>
       </div>
     </footer>

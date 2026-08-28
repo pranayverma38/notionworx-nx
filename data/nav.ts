@@ -56,7 +56,6 @@ export const navShop: NavMenuGroup[] = [
       { href: "/collection", text: "Collections" },
       { href: "/shop-sub-collection", text: "Shop Sub Collection" },
       { href: "/search-result", text: "Search Result" },
-      { href: "/wishlist", text: "Wishlist" },
       { href: "/view-cart", text: "View Cart" },
     ],
   },

@@ -16,7 +16,6 @@ export type ProductId = number | string;
 
 interface StoreState {
   cartProducts: CartProduct[];
-  wishList: Product[];
   compareItem: Product[];
   quickViewItem: Product;
   quickAddItem: ProductId;
@@ -25,7 +24,6 @@ interface StoreState {
   setCartProducts: (
     value: CartProduct[] | ((prev: CartProduct[]) => CartProduct[]),
   ) => void;
-  setWishList: (value: Product[] | ((prev: Product[]) => Product[])) => void;
   setQuickViewItem: (item: Product) => void;
   setQuickAddItem: (id: ProductId) => void;
   setCompareItem: (value: Product[] | ((prev: Product[]) => Product[])) => void;
@@ -34,11 +32,8 @@ interface StoreState {
   addProductToCart: (item: Product, qty?: number) => void;
   updateQuantity: (id: ProductId, qty: number) => void;
   quantityInCart: (id: ProductId) => number;
-  addToWishlist: (item: Product) => void;
-  removeFromWishlist: (id: ProductId) => void;
   addToCompareItem: (item: Product) => void;
   removeFromCompareItem: (id: ProductId) => void;
-  isAddedtoWishlist: (id: ProductId) => boolean;
   isAddedToCompareItem: (id: ProductId) => boolean;
 }
 
@@ -49,7 +44,6 @@ export const useStore = create<StoreState>()(
   persist(
     (set, get) => ({
       cartProducts: [],
-      wishList: [],
       compareItem: [],
       quickViewItem: products[0],
       quickAddItem: 1,
@@ -62,11 +56,6 @@ export const useStore = create<StoreState>()(
             typeof value === "function" ? value(state.cartProducts) : value;
           return { cartProducts: next, totalPrice: getTotalPrice(next) };
         }),
-
-      setWishList: (value) =>
-        set((state) => ({
-          wishList: typeof value === "function" ? value(state.wishList) : value,
-        })),
 
       setQuickViewItem: (item) => set({ quickViewItem: item }),
       setQuickAddItem: (id) => set({ quickAddItem: id }),
@@ -107,22 +96,6 @@ export const useStore = create<StoreState>()(
         return item ? item.quantity : 0;
       },
 
-      addToWishlist: (item) => {
-        const { wishList } = get();
-        const isAlreadyAdded = wishList.some((elm) => elm.id === item.id);
-        if (isAlreadyAdded) {
-          set({ wishList: wishList.filter((elm) => elm.id !== item.id) });
-          return;
-        }
-        set({ wishList: [...wishList, item] });
-      },
-
-      removeFromWishlist: (id) => {
-        set((state) => ({
-          wishList: state.wishList.filter((elm) => elm.id !== id),
-        }));
-      },
-
       addToCompareItem: (item) => {
         const { compareItem } = get();
         if (compareItem.some((elm) => elm.id === item.id)) return;
@@ -135,7 +108,6 @@ export const useStore = create<StoreState>()(
         }));
       },
 
-      isAddedtoWishlist: (id) => get().wishList.some((elm) => elm.id === id),
       isAddedToCompareItem: (id) =>
         get().compareItem.some((elm) => elm.id === id),
     }),
@@ -143,7 +115,6 @@ export const useStore = create<StoreState>()(
       name: "amerce-store",
       partialize: (state) => ({
         cartProducts: state.cartProducts,
-        wishList: state.wishList,
         totalPrice: state.totalPrice,
       }),
       storage: {
@@ -151,7 +122,6 @@ export const useStore = create<StoreState>()(
           name,
         ): StorageValue<{
           cartProducts: CartProduct[];
-          wishList: Product[];
           totalPrice: number;
         }> | null => {
           if (typeof window === "undefined") return null;
@@ -160,12 +130,8 @@ export const useStore = create<StoreState>()(
             try {
               const parsed = JSON.parse(str) as StorageValue<{
                 cartProducts: CartProduct[];
-                wishList: Product[];
                 totalPrice: number;
               }>;
-              parsed.state.wishList = normalizeStoredProductList(
-                parsed?.state?.wishList,
-              );
               if (
                 parsed?.state?.cartProducts &&
                 parsed.state.totalPrice == null
@@ -185,7 +151,6 @@ export const useStore = create<StoreState>()(
           name,
           value: StorageValue<{
             cartProducts: CartProduct[];
-            wishList: Product[];
             totalPrice: number;
           }>,
         ) => {
@@ -203,18 +168,6 @@ export const useStore = create<StoreState>()(
   ),
 );
 
-function normalizeStoredProductList(value: unknown): Product[] {
-  if (!Array.isArray(value)) return [];
-
-  return value
-    .map((item) =>
-      typeof item === "object" && item !== null && "id" in item
-        ? (item as Product)
-        : undefined,
-    )
-    .filter((item): item is Product => Boolean(item));
-}
-
 function getContextSnapshot(state: StoreState) {
   return {
     cartProducts: state.cartProducts,
@@ -222,11 +175,7 @@ function getContextSnapshot(state: StoreState) {
     totalPrice: state.totalPrice,
     addProductToCart: state.addProductToCart,
     isAddedToCartProducts: state.isAddedToCartProducts,
-    removeFromWishlist: state.removeFromWishlist,
-    addToWishlist: state.addToWishlist,
-    isAddedtoWishlist: state.isAddedtoWishlist,
     quickViewItem: state.quickViewItem,
-    wishList: state.wishList,
     setQuickViewItem: state.setQuickViewItem,
     quickAddItem: state.quickAddItem,
     setQuickAddItem: state.setQuickAddItem,

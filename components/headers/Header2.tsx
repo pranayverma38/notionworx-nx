@@ -83,11 +83,6 @@ export default function Header2({
                     <span className="d-none d-xl-block"> Login/Register </span>
                   </a>
                 </li>
-                <li className="d-none d-sm-block">
-                  <Link href={`/wishlist`} className="nav-icon-item link">
-                    <i className="icon icon-HeartStraight" />
-                  </Link>
-                </li>
                 <li>
                   <a
                     href="#shoppingCart"

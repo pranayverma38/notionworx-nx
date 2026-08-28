@@ -144,11 +144,6 @@ export default function Footer8() {
                         My Account
                       </Link>
                     </li>
-                    <li>
-                      <Link href={`/faq`} className="cl-text-3 link">
-                        Wish List
-                      </Link>
-                    </li>
                   </ul>
                 </FooterAccordionItem>
                 <FooterAccordionItem

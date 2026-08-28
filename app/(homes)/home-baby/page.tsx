@@ -1,5 +1,6 @@
 import Footer1 from "@/components/footers/Footer1";
 import Header5 from "@/components/headers/Header5";
+import AnnouncementBar from "@/components/topBars/AnnouncementBar";
 import { Metadata } from "next";
 import Hero from "@/components/homes/home-baby/Hero";
 import ReturnShipping from "@/components/homes/home-baby/ReturnShipping";
@@ -19,6 +20,7 @@ export const metadata: Metadata = {
 export default function HomeBabyPage() {
   return (
     <>
+      <AnnouncementBar />
       <Header5 />
       <>
                 <Hero />

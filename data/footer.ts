@@ -43,7 +43,6 @@ export const footerAccountLinksModal: FooterLinkGroup = {
     { label: "Login", href: "#sign" },
     { label: "Sign up", href: "#register" },
     { label: "My Account", href: "/account-page" },
-    { label: "Wish List", href: "/wishlist" },
   ],
 };
 
@@ -54,7 +53,6 @@ export const footerAccountLinksPage: FooterLinkGroup = {
     { label: "Login", href: "/login" },
     { label: "Sign up", href: "/register" },
     { label: "My Account", href: "/account-page" },
-    { label: "Wish List", href: "/wishlist" },
   ],
 };
 

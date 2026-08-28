@@ -354,6 +354,11 @@ header {
         flex: unset;
       }
     }
+
+    .header-right {
+      align-items: center;
+      gap: 20px;
+    }
   }
 
   @include res(xxl, min) {

@@ -75,14 +75,6 @@ export default function Header9() {
                   <i className="icon icon-User" />
                 </a>
               </li>
-              <li className="d-none d-sm-block">
-                <Link
-                  href={`/wishlist`}
-                  className="nav-icon-item text-white link-dark"
-                >
-                  <i className="icon icon-HeartStraight" />
-                </Link>
-              </li>
               <li>
                 <a
                   href="#shoppingCart"

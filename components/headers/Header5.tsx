@@ -66,12 +66,33 @@ export default function Header5() {
                 </nav>
               </div>
             </div>
-            <div className="header-right">
+            <div className="header-right align-items-center">
               <div className="tf-list list-currenci d-none d-xl-flex">
                 <div className="tf-languages">
                   <LanguageSelect textBlack />
                 </div>
               </div>
+              <ul className="nav-icon-list d-none d-xl-flex">
+                <li>
+                  <a
+                    href="#sign"
+                    data-bs-toggle="modal"
+                    className="nav-icon-item link"
+                  >
+                    <i className="icon icon-User" />
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#shoppingCart"
+                    data-bs-toggle="offcanvas"
+                    className="nav-icon-item link shop-cart"
+                  >
+                    <i className="icon icon-Handbag" />
+                    <CartIconCount />
+                  </a>
+                </li>
+              </ul>
               <ul className="nav-icon-list d-xl-none">
                 <li className="d-none d-sm-block">
                   <a
@@ -90,11 +111,6 @@ export default function Header5() {
                   >
                     <i className="icon icon-User" />
                   </a>
-                </li>
-                <li className="d-none d-sm-block">
-                  <Link href={`/wishlist`} className="nav-icon-item link">
-                    <i className="icon icon-HeartStraight" />
-                  </Link>
                 </li>
                 <li>
                   <a
@@ -124,38 +140,7 @@ export default function Header5() {
               <div className="col-center">
                 <CategorySearch parentClass="form_search-product style-2 radius-8" />
               </div>
-              <div className="col-right">
-                <ul className="nav-icon-list">
-                  <li>
-                    <a
-                      href="#sign"
-                      data-bs-toggle="modal"
-                      className="nav-icon-item link has-text"
-                    >
-                      <i className="icon icon-User" />
-                      <span className="d-none d-md-block">
-                        {" "}
-                        Login/Register{" "}
-                      </span>
-                    </a>
-                  </li>
-                  <li className="d-none d-sm-block">
-                    <Link href={`/wishlist`} className="nav-icon-item link">
-                      <i className="icon icon-HeartStraight" />
-                    </Link>
-                  </li>
-                  <li>
-                    <a
-                      href="#shoppingCart"
-                      data-bs-toggle="offcanvas"
-                      className="nav-icon-item link shop-cart"
-                    >
-                      <i className="icon icon-Handbag" />
-                      <CartIconCount />
-                    </a>
-                  </li>
-                </ul>
-              </div>
+              <div className="col-right" />
             </div>
           </div>
         </div>

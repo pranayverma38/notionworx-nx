@@ -7,7 +7,6 @@ import Link from "next/link";
 import TfSwiper from "@/components/ui/TfSwiper";
 import { collectionHeadphoneProducts } from "@/data/collectionHeadphone";
 import type { CollectionProduct } from "@/types/collectionProduct";
-import WishlistButton from "@/components/common/WishlistButton";
 
 import CountdownTimer from "@/components/common/Countdown";
 import React from "react";
@@ -43,9 +42,6 @@ function ProductCard({ product }: { product: CollectionProduct }) {
           />
         </Link>
         <ul className="product-action_list">
-          <li className="wishlist">
-            <WishlistButton product={product} />
-          </li>
           <li className="compare">
             <CompareButton product={product} />
           </li>

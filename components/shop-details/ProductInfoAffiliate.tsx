@@ -2,7 +2,6 @@
 
 import { useProduct } from "@/context/ProductContext";
 import { ProductCardItem } from "@/types/productCard";
-import WishlistButton from "../common/WishlistButton";
 import {
   ProductTitle,
   ProductPrice,
@@ -43,11 +42,6 @@ export default function ProductInfoAffiliate({
               >
                 Buy on Amazon
               </a>
-              <WishlistButton
-                className="hover-tooltip box-icon btn-wishlist"
-                product={product}
-                variant="button"
-              />
             </div>
           </div>
 
