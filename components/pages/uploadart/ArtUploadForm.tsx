@@ -82,18 +82,26 @@ export default function ArtUploadForm() {
   const [drag, setDrag] = useState(false);
   const [sending, setSending] = useState(false);
   const [submitted, setSubmitted] = useState(false);
+  const [submitError, setSubmitError] = useState("");
   const fileRef = useRef<HTMLInputElement>(null);
 
   function handleChange(e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) {
     const { name, value } = e.target;
     setForm(f => ({ ...f, [name]: value }));
     if (touched[name as keyof Form]) setErrors(validate({ ...form, [name]: value }));
+    setSubmitError("");
   }
   function handleBlur(e: React.FocusEvent<HTMLInputElement | HTMLTextAreaElement>) {
     setTouched(t => ({ ...t, [e.target.name]: true }));
     setErrors(validate(form));
   }
-  function handleFile(f: File | null) { setFile(f); }
+  function handleFile(f: File | null) {
+    setFile(f);
+    setSubmitError("");
+    if (!f && fileRef.current) {
+      fileRef.current.value = "";
+    }
+  }
   function handleDrop(e: React.DragEvent) {
     e.preventDefault(); setDrag(false);
     const f = e.dataTransfer.files?.[0];
@@ -107,10 +115,55 @@ export default function ArtUploadForm() {
     const errs = validate(form);
     setErrors(errs);
     if (Object.keys(errs).length > 0) return;
+
+    const payload = new FormData();
+    payload.set("fullName", form.fullName);
+    payload.set("businessName", form.businessName);
+    payload.set("invoiceNumber", form.invoiceNumber);
+    payload.set("mockupOnly", form.mockupOnly);
+    payload.set("instagram", form.instagram);
+    payload.set("facebook", form.facebook);
+    payload.set("tiktok", form.tiktok);
+    payload.set("linktree", form.linktree);
+    payload.set("website", form.website);
+    payload.set("dateNeeded", form.dateNeeded);
+    payload.set("email", form.email);
+    payload.set("phone", form.phone);
+    payload.set("designInstructions", form.designInstructions);
+    if (file) {
+      payload.set("file", file);
+    }
+
     setSending(true);
-    await new Promise(r => setTimeout(r, 1400));
-    setSending(false);
-    setSubmitted(true);
+    setSubmitError("");
+
+    try {
+      const response = await fetch("/api/art-upload", {
+        method: "POST",
+        body: payload,
+      });
+
+      const data = (await response.json().catch(() => null)) as
+        | { error?: string }
+        | null;
+
+      if (!response.ok) {
+        throw new Error(
+          data?.error ||
+            "Your artwork submission could not be sent. Please try again in a moment.",
+        );
+      }
+
+      setSubmitted(true);
+    } catch (error) {
+      setSubmitError(
+        error instanceof Error
+          ? error.message
+          : "Your artwork submission could not be sent. Please try again in a moment.",
+      );
+    } finally {
+      setSending(false);
+    }
   }
 
   const cls = (f: keyof Form) => `au-input${errors[f] && touched[f] ? " err" : ""}`;
@@ -124,7 +177,7 @@ export default function ArtUploadForm() {
         <p style={{ color: "#64748b", lineHeight: 1.7, marginBottom: "28px" }}>
           Thanks! Our design team will review your submission and be in touch soon.
         </p>
-        <button onClick={() => { setSubmitted(false); setForm(EMPTY); setFile(null); setTouched({}); }}
+        <button onClick={() => { setSubmitted(false); setForm(EMPTY); setFile(null); setTouched({}); setSubmitError(""); if (fileRef.current) fileRef.current.value = ""; }}
           style={{ background: "#0f172a", color: "#fff", border: "none", borderRadius: "10px", padding: "13px 28px", fontWeight: 700, cursor: "pointer", fontSize: "0.95rem" }}>
           Submit Another
         </button>
@@ -298,6 +351,23 @@ export default function ArtUploadForm() {
                     </button>
                   )}
                 </div>
+
+                {submitError && (
+                  <div
+                    role="alert"
+                    style={{
+                      borderRadius: "10px",
+                      border: "1px solid #fecaca",
+                      background: "#fef2f2",
+                      color: "#b91c1c",
+                      fontSize: "0.85rem",
+                      padding: "12px 14px",
+                      lineHeight: 1.5,
+                    }}
+                  >
+                    {submitError}
+                  </div>
+                )}
 
                 <button type="submit" className="au-submit" disabled={sending}>
                   {sending ? "Submitting…" : "Submit"}

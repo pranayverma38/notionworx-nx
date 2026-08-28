@@ -42,12 +42,15 @@ export default function AffiliateRegistrationSection({
   const [showCpw, setShowCpw]   = useState(false);
   const [submitted, setSubmitted] = useState(false);
   const [errors, setErrors]     = useState<Partial<FormState>>({});
+  const [sending, setSending]   = useState(false);
+  const [submitError, setSubmitError] = useState("");
   const isHomepageLayout = layout === "homepage";
 
   const change = (e: React.ChangeEvent<HTMLInputElement>) => {
     const { name, value } = e.target;
     setForm(p => ({ ...p, [name]: value }));
     setErrors(p => ({ ...p, [name]: "" }));
+    setSubmitError("");
   };
 
   const validate = (): Partial<FormState> => {
@@ -63,11 +66,52 @@ export default function AffiliateRegistrationSection({
     return e;
   };
 
-  const submit = (e: React.FormEvent) => {
+  const submit = async (e: React.FormEvent) => {
     e.preventDefault();
     const errs = validate();
     if (Object.keys(errs).length) { setErrors(errs); return; }
-    setSubmitted(true);
+
+    setSending(true);
+    setSubmitError("");
+
+    try {
+      const response = await fetch("/api/form-submissions", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          formType: isHomepageLayout ? "home_affiliate" : "affiliate_registration",
+          sourcePath: isHomepageLayout ? "/" : "/affiliate-registration",
+          firstName: form.firstName,
+          lastName: form.lastName,
+          email: form.email,
+          phone: form.phone,
+          instagram: form.instagram,
+        }),
+      });
+
+      const data = (await response.json().catch(() => null)) as
+        | { error?: string }
+        | null;
+
+      if (!response.ok) {
+        throw new Error(
+          data?.error ||
+            "Your application could not be submitted. Please try again in a moment.",
+        );
+      }
+
+      setSubmitted(true);
+    } catch (error) {
+      setSubmitError(
+        error instanceof Error
+          ? error.message
+          : "Your application could not be submitted. Please try again in a moment.",
+      );
+    } finally {
+      setSending(false);
+    }
   };
 
   /* ── shared input styles (dynamic) ── */
@@ -359,9 +403,27 @@ export default function AffiliateRegistrationSection({
                 </FW>
               </div>
 
+              {submitError && (
+                <div
+                  role="alert"
+                  style={{
+                    border:"1px solid #fecaca",
+                    borderRadius:"10px",
+                    background:"#fef2f2",
+                    color:"#b91c1c",
+                    padding:"12px 14px",
+                    fontSize:"0.82rem",
+                    lineHeight:1.5,
+                  }}
+                >
+                  {submitError}
+                </div>
+              )}
+
               {/* Submit */}
               <div style={{ display:"flex", justifyContent:"center", marginTop:"4px" }}>
               <button type="submit"
+                disabled={sending}
                 onMouseEnter={e=>(e.currentTarget.style.background=`linear-gradient(135deg,${NAVY_D} 0%,#1040a8 100%)`)}
                 onMouseLeave={e=>(e.currentTarget.style.background=`linear-gradient(135deg,${NAVY} 0%,#1a4aa0 100%)`)}
                 style={{
@@ -373,8 +435,9 @@ export default function AffiliateRegistrationSection({
                   transition:"background 0.2s",
                   boxShadow:`0 4px 14px rgba(11,45,110,0.28)`,
                   fontFamily:"inherit", whiteSpace:"nowrap",
+                  opacity: sending ? 0.8 : 1,
                 }}>
-                JOIN
+                {sending ? "Submitting..." : "JOIN"}
               </button>
               </div>
             </form>

@@ -16,9 +16,9 @@ const CONTACT_STYLES = `
   .contact-input.error { border-color: #ef4444; box-shadow: 0 0 0 3px rgba(239,68,68,0.1); }
   .contact-textarea { min-height: 140px; resize: vertical; }
 
-  .contact-submit-btn { width: 100%; background: #0f172a; color: #fff; border: none; border-radius: 12px; padding: 16px; font-size: 1rem; font-weight: 700; cursor: pointer; transition: background 0.2s, transform 0.15s; letter-spacing: 0.01em; }
-  .contact-submit-btn:hover:not(:disabled) { background: #1e3a5f; transform: translateY(-1px); }
-  .contact-submit-btn:disabled { opacity: 0.7; cursor: not-allowed; }
+  .contact-submit-btn { width: fit-content; background: transparent; color: #0f172a; border: 1px solid #cbd5e1; border-radius: 999px; padding: 11px 18px; font-size: 0.92rem; font-weight: 600; cursor: pointer; transition: background 0.2s, border-color 0.2s, color 0.2s; letter-spacing: 0; }
+  .contact-submit-btn:hover:not(:disabled) { background: #f8fafc; border-color: #94a3b8; color: #020617; }
+  .contact-submit-btn:disabled { opacity: 0.6; cursor: not-allowed; }
 
   .field-label { font-size: 0.85rem; font-weight: 600; color: #374151; margin-bottom: 7px; display: block; }
   .field-error { font-size: 0.75rem; color: #ef4444; margin-top: 5px; display: block; }
@@ -43,6 +43,7 @@ export default function Contact() {
   const [touched, setTouched] = useState<Partial<Record<keyof FormData, boolean>>>({});
   const [submitted, setSubmitted] = useState(false);
   const [sending, setSending] = useState(false);
+  const [submitError, setSubmitError] = useState("");
 
   function handleChange(e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) {
     const { name, value, type } = e.target;
@@ -66,9 +67,45 @@ export default function Contact() {
     if (Object.keys(errs).length > 0) return;
 
     setSending(true);
-    await new Promise(r => setTimeout(r, 1200)); // simulate send
-    setSending(false);
-    setSubmitted(true);
+    setSubmitError("");
+
+    try {
+      const response = await fetch("/api/form-submissions", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          formType: "contact",
+          sourcePath: "/contact",
+          name: form.name,
+          email: form.email,
+          projectScope: form.scope,
+          saveDetails: form.saveDetails,
+        }),
+      });
+
+      const data = (await response.json().catch(() => null)) as
+        | { error?: string }
+        | null;
+
+      if (!response.ok) {
+        throw new Error(
+          data?.error ||
+            "Your request could not be sent. Please try again in a moment.",
+        );
+      }
+
+      setSubmitted(true);
+    } catch (error) {
+      setSubmitError(
+        error instanceof Error
+          ? error.message
+          : "Your request could not be sent. Please try again in a moment.",
+      );
+    } finally {
+      setSending(false);
+    }
   }
 
   const cls = (field: keyof FormData) =>
@@ -190,8 +227,24 @@ export default function Contact() {
                     </span>
                   </label>
 
+                  {submitError && (
+                    <div
+                      role="alert"
+                      style={{
+                        borderRadius: "10px",
+                        border: "1px solid #fecaca",
+                        background: "#fef2f2",
+                        color: "#b91c1c",
+                        fontSize: "0.85rem",
+                        padding: "12px 14px",
+                      }}
+                    >
+                      {submitError}
+                    </div>
+                  )}
+
                   <button type="submit" className="contact-submit-btn" disabled={sending}>
-                    {sending ? "Sending…" : "Send Request →"}
+                    {sending ? "Sending..." : "Send Request"}
                   </button>
                 </form>
               </div>
