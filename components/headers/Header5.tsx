@@ -7,11 +7,10 @@ import { useStickyCategoryHeader } from "@/hooks/useStickyCategoryHeader";
 import LanguageSelect from "../common/LanguageSelect";
 import BrowseByCategoryNav from "./BrowseByCategoryNav";
 import CartIconCount from "./CartIconCount";
-import CategorySearch from "./CategorySearch";
+import HeaderServiceHighlights from "./HeaderServiceHighlights";
 
 export default function Header5() {
   const {
-    toggleBottomNav,
     showHeaderBottom,
     headerStyle,
     stickyHeaderClassName,
@@ -26,7 +25,7 @@ export default function Header5() {
       <div className="header-inner_wrap">
         <div className="container">
           <div className="header-inner">
-            <div className="box-open-menu-mobile d-xl-none">
+            <div className="box-open-menu-mobile d-md-none">
               <a
                 href="#mobileMenu"
                 data-bs-toggle="offcanvas"
@@ -36,14 +35,6 @@ export default function Header5() {
               </a>
             </div>
             <div className="header-left">
-              <div className="box-open-header-bottom m-0">
-                <div
-                  className="btn-open-header-bottom cs-pointer"
-                  onClick={toggleBottomNav}
-                >
-                  <i className="icon icon-List fs-24" />
-                </div>
-              </div>
               <Link
                 href="/"
                 className="logo-site d-flex align-items-center"
@@ -128,17 +119,26 @@ export default function Header5() {
           <div className="br-line d-none d-xl-flex" />
         </div>
       </div>
+      <div className="header-mobile-highlights d-xl-none">
+        <div className="container">
+          <HeaderServiceHighlights compact />
+        </div>
+      </div>
       {showHeaderBottom ? (
         <div className={`header-bottom_wrap d-none d-xl-block`}>
           <div className="container">
             <div className="header-bottom">
               <div className="col-left">
                 <div className="nav-category-wrap main-action-active">
-                  <BrowseByCategoryNav hasRadiusBtn hasRadiusBox />
+                  <BrowseByCategoryNav
+                    hasRadiusBtn
+                    hasRadiusBox
+                    hasHubbergBtn={false}
+                  />
                 </div>
               </div>
               <div className="col-center">
-                <CategorySearch parentClass="form_search-product style-2 radius-8" />
+                <HeaderServiceHighlights />
               </div>
               <div className="col-right" />
             </div>
