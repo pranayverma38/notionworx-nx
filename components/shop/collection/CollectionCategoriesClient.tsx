@@ -9,7 +9,7 @@ export default function CollectionCategoriesClient() {
   return (
     <div className="flat-spacing">
       <div className="container">
-        <div className="tf-grid-layout ssm-col-2 xl-col-3 gap-lg-30">
+        <div className="tf-grid-layout ssm-col-2 xl-col-4 gap-lg-30">
           {categoriesCollection.map((category) => (
             <article
               key={category.name}

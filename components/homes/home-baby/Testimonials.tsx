@@ -106,15 +106,15 @@ function Testimonials() {
                 >
                   <div
                     className="tes-image position-relative overflow-hidden"
-                    style={{ aspectRatio: "4 / 3", borderRadius: "16px 16px 0 0" }}
+                    style={{ aspectRatio: "4 / 3.2", borderRadius: "16px 16px 0 0" }}
                   >
                     {previewMedia != null ? (
                       <Image
                         src={previewMedia.src}
-                        alt={previewMedia.alt || slide.authorAlt || "Testimonial image"}
+                        alt={("alt" in previewMedia ? previewMedia.alt : undefined) || slide.authorAlt || "Testimonial image"}
                         fill
                         sizes="(max-width: 767px) 50vw, (max-width: 1199px) 33vw, 25vw"
-                        style={{ objectFit: "cover" }}
+                        style={{ objectFit: "cover", objectPosition: "center center" }}
                         loading="lazy"
                       />
                     ) : (
@@ -217,10 +217,10 @@ function Testimonials() {
                 {activeMedia != null ? (
                   <Image
                     src={activeMedia.src}
-                    alt={activeMedia.alt || activeSlide.authorAlt || "Testimonial image"}
+                    alt={(("alt" in activeMedia ? activeMedia.alt : undefined) as string | undefined) || activeSlide.authorAlt || "Testimonial image"}
                     fill
                     sizes="(max-width: 991px) 100vw, 50vw"
-                    style={{ objectFit: "cover" }}
+                    style={{ objectFit: "cover", objectPosition: "center center" }}
                     priority
                   />
                 ) : (
@@ -264,10 +264,10 @@ function Testimonials() {
                       <div className="position-relative w-100 h-100">
                         <Image
                           src={media.src}
-                          alt={media.alt || `${activeSlide.authorName} testimonial image ${mediaIndex + 1}`}
+                          alt={(("alt" in media ? media.alt : undefined) as string | undefined) || `${activeSlide.authorName} testimonial image ${mediaIndex + 1}`}
                           fill
                           sizes="72px"
-                          style={{ objectFit: "cover" }}
+                          style={{ objectFit: "cover", objectPosition: "center center" }}
                         />
                       </div>
                     </button>

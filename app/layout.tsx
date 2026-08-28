@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import LayoutModals from "@/components/modals";
 import CloseNavDropdownsOnRoute from "@/components/headers/CloseNavDropdownsOnRoute";
 import {
@@ -36,6 +37,14 @@ const redHatDisplay = Red_Hat_Display({
   subsets: ["latin"],
   variable: "--font-red-hat-display",
 });
+
+export const metadata: Metadata = {
+  icons: {
+    icon: "/favicon.png",
+    shortcut: "/favicon.png",
+    apple: "/favicon.png",
+  },
+};
 
 export default function RootLayout({
   children,

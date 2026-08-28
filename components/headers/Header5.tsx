@@ -1,7 +1,7 @@
 "use client";
 import UserIconButton from "@/components/headers/UserIconButton";
+import NotionWorxLogo from "@/components/headers/NotionWorxLogo";
 import Link from "next/link";
-import Image from "next/image";
 
 import Nav from "./Nav";
 import { useStickyCategoryHeader } from "@/hooks/useStickyCategoryHeader";
@@ -36,19 +36,8 @@ export default function Header5() {
               </a>
             </div>
             <div className="header-left">
-              <Link
-                href="/"
-                className="logo-site d-flex align-items-center"
-                style={{ width: "clamp(140px, 18vw, 190px)" }}
-              >
-                <Image
-                  loading="lazy"
-                  width={500}
-                  height={212}
-                  src="/assets/images/logo/Notion_Worx_LOGO_3D_no_lights.webp"
-                  alt="Notion Worx"
-                  style={{ width: "100%", height: "auto", maxWidth: "none" }}
-                />
+              <Link href="/" className="logo-site d-flex align-items-center">
+                <NotionWorxLogo />
               </Link>
               <div className="d-none d-xl-block">
                 <nav className="box-navigation">

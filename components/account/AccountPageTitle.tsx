@@ -1,4 +1,4 @@
-import Link from "next/link";
+import PageTitleHeader from "@/components/ui/PageTitleHeader";
 
 type AccountPageTitleProps = {
   /** Breadcrumb + heading (default: My Account) */
@@ -12,24 +12,16 @@ export default function AccountPageTitle({
   description = "Manage your profile, track orders, and easily update your personal details anytime,",
 }: AccountPageTitleProps) {
   return (
-    <section className="section-page-title text-center flat-spacing-2 pb-0">
-      <div className="container">
-        <div className="main-page-title">
-          <div className="breadcrumbs">
-            <Link href="/" className="text-caption-01 cl-text-3 link">
-              Home
-            </Link>
-            <i className="icon icon-CaretRightThin cl-text-3" />
-            <p className="text-caption-01">{heading}</p>
-          </div>
-          <h3>{heading}</h3>
-          <p className="text-body-1 cl-text-2">
-            {description}
-            <br className="d-none d-lg-block" />
-            all in one convenient place.
-          </p>
-        </div>
-      </div>
-    </section>
+    <PageTitleHeader
+      breadcrumbLabel={heading}
+      title={heading}
+      description={
+        <>
+          {description}
+          {" "}
+          all in one convenient place.
+        </>
+      }
+    />
   );
 }
