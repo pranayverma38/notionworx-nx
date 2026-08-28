@@ -1,8 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { useEffect, useRef, useState } from "react";
-import { usePathname } from "next/navigation";
+import { useRef } from "react";
 import { NewsletterForm } from "@/components/forms/NewsletterForm";
 
 export default function NewsLetter({
@@ -11,30 +10,6 @@ export default function NewsLetter({
   registerModalElement?: (el: HTMLElement | null) => void;
 }) {
   const modalRef = useRef<HTMLDivElement | null>(null);
-  const pathname = usePathname();
-  const [hasBeenShown, setHasBeenShown] = useState(false);
-
-  useEffect(() => {
-    let isCancelled = false;
-
-    async function showOnMount() {
-      if (!modalRef.current) return;
-      if (pathname !== "/" || hasBeenShown) return;
-
-      const bootstrapModule = await import("bootstrap");
-      if (isCancelled || !modalRef.current) return;
-
-      const modal = bootstrapModule.Modal.getOrCreateInstance(modalRef.current);
-      modal.show();
-      setHasBeenShown(true);
-    }
-
-    showOnMount();
-
-    return () => {
-      isCancelled = true;
-    };
-  }, [pathname, hasBeenShown]);
 
   return (
     <div
@@ -42,7 +17,7 @@ export default function NewsLetter({
         modalRef.current = el;
         registerModalElement?.(el);
       }}
-      className="modal modalCentered fade modal-newsletter auto-popup"
+      className="modal modalCentered fade modal-newsletter"
       id="newsletter"
     >
       <div className="modal-dialog modal-dialog-centered">
