@@ -65,6 +65,8 @@ export default function MobileMenu({
             <Link
               href={item.href ?? "#"}
               className={level === 0 ? "mb-menu-link" : "sub-nav-link"}
+              target={item.newTab ? "_blank" : undefined}
+              rel={item.newTab ? "noreferrer" : undefined}
             >
               <span className={level === 0 ? undefined : "cus-text"}>{item.label}</span>
             </Link>

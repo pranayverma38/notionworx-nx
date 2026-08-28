@@ -1,7 +1,5 @@
 import { Metadata } from "next";
 
-import PageTitle from "@/components/pages/contact/PageTitle";
-import Map from "@/components/pages/contact/Map";
 import Contact from "@/components/pages/contact/Contact";
 
 export const metadata: Metadata = {
@@ -13,8 +11,6 @@ export const metadata: Metadata = {
 const ContactPage = () => {
   return (
     <>
-      <PageTitle />
-      <Map />
       <Contact />
     </>
   );

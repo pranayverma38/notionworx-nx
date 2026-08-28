@@ -3,24 +3,24 @@ import { browseByCategoryItems } from "@/data/browseByCategory";
 export interface SiteNavItem {
   label: string;
   href?: string;
+  newTab?: boolean;
   children?: SiteNavItem[];
 }
 
 const categoryHref = (category: string) =>
   `/shop-default?category=${encodeURIComponent(category)}`;
 
+const promoProductsHref = "https://www.notionworx.com/";
+
 export const notionWorxMainMenuItems: SiteNavItem[] = [
   {
     label: "PROMO PRODUCTS",
-    href: "/collection",
+    href: promoProductsHref,
+    newTab: true,
   },
   {
     label: "UPLOAD ART",
     href: "/contact",
-  },
-  {
-    label: "NEWS",
-    href: "/blog",
   },
   {
     label: "GALLERY",

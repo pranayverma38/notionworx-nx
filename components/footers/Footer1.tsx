@@ -6,6 +6,7 @@ import { useState, type ReactElement } from "react";
 import { officeAddressLines, officeHours, socialLinks } from "@/data/contactInfo";
 
 const categoryHref = (cat: string) => `/shop-default?category=${encodeURIComponent(cat)}`;
+const promoProductsHref = "https://www.notionworx.com/";
 
 const SERVICE_LINKS = [
   { label: "About Us", href: "/about" },
@@ -23,7 +24,7 @@ const MAIN_MENU_LINKS = [
   { label: "Banners & Displays", href: categoryHref("BANNERS & DISPLAYS") },
   { label: "Apparel", href: categoryHref("APPAREL") },
   { label: "SEG Products", href: categoryHref("SEG PRODUCTS") },
-  { label: "Promo Products", href: "/collection" },
+  { label: "Promo Products", href: promoProductsHref, newTab: true },
   { label: "Gallery", href: categoryHref("Mockups") },
 ];
 
@@ -86,24 +87,7 @@ export default function Footer1({
         }
       `}</style>
 
-      {!hideNewsletterBar && (
-        <div style={{ background: "#fff", borderBottom: "1px solid #e2e8f0", padding: "28px 0" }}>
-          <div className="container">
-            <form onSubmit={handleSubscribe} style={{ display: "flex", maxWidth: "480px", margin: "0 auto" }}>
-              {subscribed ? (
-                <div style={{ width: "100%", padding: "13px 20px", background: "#f0fdf4", border: "1px solid #bbf7d0", borderRadius: "10px", color: "#16a34a", fontSize: "0.9rem", fontWeight: 600, textAlign: "center" }}>
-                  ✓ You&apos;re subscribed!
-                </div>
-              ) : (
-                <>
-                  <input className="footer-nl-input" type="email" placeholder="Subscribe for deals & new arrivals" value={email} onChange={e => setEmail(e.target.value)} required />
-                  <button className="footer-nl-btn" type="submit">Subscribe</button>
-                </>
-              )}
-            </form>
-          </div>
-        </div>
-      )}
+
 
       {/* ── Main body ── */}
       <div className="container" style={{ padding: "56px 0 40px" }}>
@@ -161,7 +145,17 @@ export default function Footer1({
           <div>
             <p className="footer-col-heading">Main Menu</p>
             <div className="footer-links-desktop">
-              {MAIN_MENU_LINKS.map(l => <Link key={l.href + l.label} href={l.href} className="footer-link">{l.label}</Link>)}
+              {MAIN_MENU_LINKS.map(l => (
+                <Link
+                  key={l.href + l.label}
+                  href={l.href}
+                  className="footer-link"
+                  target={l.newTab ? "_blank" : undefined}
+                  rel={l.newTab ? "noreferrer" : undefined}
+                >
+                  {l.label}
+                </Link>
+              ))}
             </div>
             <button className="footer-accordion-btn" onClick={() => toggleSection("menu")}>
               <span>Main Menu</span>
@@ -169,7 +163,17 @@ export default function Footer1({
             </button>
             <div className="footer-accordion-content" style={{ maxHeight: openSection === "menu" ? "400px" : "0", opacity: openSection === "menu" ? 1 : 0 }}>
               <div style={{ paddingTop: "8px", paddingBottom: "8px" }}>
-                {MAIN_MENU_LINKS.map(l => <Link key={l.href + l.label} href={l.href} className="footer-link">{l.label}</Link>)}
+                {MAIN_MENU_LINKS.map(l => (
+                  <Link
+                    key={l.href + l.label}
+                    href={l.href}
+                    className="footer-link"
+                    target={l.newTab ? "_blank" : undefined}
+                    rel={l.newTab ? "noreferrer" : undefined}
+                  >
+                    {l.label}
+                  </Link>
+                ))}
               </div>
             </div>
           </div>

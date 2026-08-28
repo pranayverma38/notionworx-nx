@@ -1,23 +1,12 @@
 import { Metadata } from "next";
-
-import PageTitle from "@/components/pages/about/PageTitle";
-import MainAbout from "@/components/pages/about/MainAbout";
-import BannerWhyChoose from "@/components/pages/about/BannerWhyChoose";
+import AboutUs from "@/components/pages/about/AboutUs";
 
 export const metadata: Metadata = {
-  title: "About Notion Worx",
+  title: "About Us | Notion Worx",
   description:
-    "Learn how the Notion Worx storefront now organizes custom canopies, displays, flags, apparel, and event essentials through a unified local catalog.",
+    "At Notion Worx, we make your brand impossible to miss. Full-service design and branding company specializing in custom canopies, promotional products, apparel, and logo design.",
 };
 
-const AboutPage = () => {
-  return (
-    <>
-      <PageTitle />
-      <MainAbout />
-      <BannerWhyChoose />
-    </>
-  );
-};
-
-export default AboutPage;
+export default function AboutPage() {
+  return <AboutUs />;
+}

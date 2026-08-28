@@ -16,7 +16,12 @@ export default function Nav({
         if (!hasChildren && item.href) {
           return (
             <li key={item.label} className="menu-item">
-              <Link href={item.href} className="item-link">
+              <Link
+                href={item.href}
+                className="item-link"
+                target={item.newTab ? "_blank" : undefined}
+                rel={item.newTab ? "noreferrer" : undefined}
+              >
                 <span className="text cus-text"> {item.label} </span>
               </Link>
             </li>
