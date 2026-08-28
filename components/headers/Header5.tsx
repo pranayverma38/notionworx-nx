@@ -4,7 +4,6 @@ import Image from "next/image";
 
 import Nav from "./Nav";
 import { useStickyCategoryHeader } from "@/hooks/useStickyCategoryHeader";
-import CurrencySelect from "../common/CurrencySelect";
 import LanguageSelect from "../common/LanguageSelect";
 import BrowseByCategoryNav from "./BrowseByCategoryNav";
 import CartIconCount from "./CartIconCount";
@@ -69,10 +68,6 @@ export default function Header5() {
             </div>
             <div className="header-right">
               <div className="tf-list list-currenci d-none d-xl-flex">
-                <div className="tf-currencies">
-                  <CurrencySelect textBlack />
-                </div>
-                <div className="br-line type-vertical" />
                 <div className="tf-languages">
                   <LanguageSelect textBlack />
                 </div>

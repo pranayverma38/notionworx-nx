@@ -1,5 +1,6 @@
 export interface HeroSlide {
   img: string;
+  href?: string;
   alt?: string;
   /** Optional overlay/floating image (e.g. garden hero: shown on md+ in sld-image-abs) */
   overlayImg?: string;
