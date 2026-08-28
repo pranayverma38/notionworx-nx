@@ -18,7 +18,7 @@ function splitIntoColumns<T>(items: T[], columns: number): T[][] {
 }
 
 const homeLinks: NavHomeLink[] = [
-  { href: "/", text: "Storefront Home", label: "hot" },
+  { href: "/", text: "Home Baby", label: "hot" },
   { href: "/home-1", text: "Home 1", label: "new" },
   { href: "/home-fashion", text: "Home Fashion" },
   { href: "/home-fashion-2", text: "Home Fashion 2" },
@@ -30,7 +30,6 @@ const homeLinks: NavHomeLink[] = [
   { href: "/home-headphone", text: "Home Headphone" },
   { href: "/home-jewelry", text: "Home Jewelry" },
   { href: "/home-garden", text: "Home Garden" },
-  { href: "/home-baby", text: "Home Baby" },
   { href: "/home-organic", text: "Home Organic" },
   { href: "/home-sport", text: "Home Sport" },
   { href: "/home-mental", text: "Home Mental" },

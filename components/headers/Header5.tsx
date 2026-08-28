@@ -45,13 +45,18 @@ export default function Header5() {
                   <i className="icon icon-List fs-24" />
                 </div>
               </div>
-              <Link href={`/home-baby`} className="logo-site">
+              <Link
+                href="/"
+                className="logo-site d-flex align-items-center"
+                style={{ width: "clamp(140px, 18vw, 190px)" }}
+              >
                 <Image
                   loading="lazy"
-                  width={150}
-                  height={30}
-                  src="/assets/images/logo/logo.svg"
-                  alt="Image"
+                  width={500}
+                  height={212}
+                  src="/assets/images/logo/Notion_Worx_LOGO_3D_no_lights.webp"
+                  alt="Notion Worx"
+                  style={{ width: "100%", height: "auto", maxWidth: "none" }}
                 />
               </Link>
               <div className="d-none d-xl-block">

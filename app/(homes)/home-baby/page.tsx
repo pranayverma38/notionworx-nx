@@ -12,8 +12,9 @@ import Testimonials from "@/components/homes/home-baby/Testimonials";
 import Blog from "@/components/homes/home-baby/Blog";
 import Gallery from "@/components/homes/home-baby/Gallery";
 export const metadata: Metadata = {
-  title: "Home Baby | Amerce - Multipurpose eCommerce React Nextjs Template",
-  description: "Amerce - Multipurpose eCommerce React Nextjs Template",
+  title: "Home Baby | Notion Worx",
+  description:
+    "Explore featured collections, bundles, and customer favorites on the Notion Worx baby home page.",
 };
 export default function HomeBabyPage() {
   return (

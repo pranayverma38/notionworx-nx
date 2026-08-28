@@ -22,13 +22,18 @@ export default function Footer1({ hideTopRule = false }: Footer1Props) {
             <div className="row">
               <div className="col-md-6 col-lg-4">
                 <div className="footer-infor d-flex flex-column align-items-start mb-lg-0">
-                  <Link href="/" className="logo-site mb-16">
+                  <Link
+                    href="/"
+                    className="logo-site d-inline-flex align-items-center mb-16"
+                    style={{ width: "min(100%, 220px)" }}
+                  >
                     <Image
                       loading="lazy"
-                      width={150}
-                      height={30}
-                      src="/assets/images/logo/logo.svg"
+                      width={500}
+                      height={212}
+                      src="/assets/images/logo/Notion_Worx_LOGO_3D_no_lights.webp"
                       alt="Notion Worx"
+                      style={{ width: "100%", height: "auto" }}
                     />
                   </Link>
                   <p className="lh-26 cl-text-2 mb-16">

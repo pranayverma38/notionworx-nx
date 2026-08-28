@@ -1,17 +1,12 @@
-import { Metadata } from "next";
-import IndexPage from "./(homes)/home-1/page";
-import MiniPopup from "@/components/modals/MiniPopup";
-import { miniPopupProduct } from "@/data/products/products";
+import type { Metadata } from "next";
+import HomeBabyPage from "./(homes)/home-baby/page";
+
 export const metadata: Metadata = {
   title: "Home | Notion Worx",
   description:
-    "Explore custom canopies, displays, flags, apparel, and event essentials from the migrated storefront catalog.",
+    "Explore featured collections, bundles, and customer favorites on the Notion Worx storefront.",
 };
-export default function page() {
-  return (
-    <>
-      <IndexPage />
-      <MiniPopup product={miniPopupProduct} />
-    </>
-  );
+
+export default function Page() {
+  return <HomeBabyPage />;
 }

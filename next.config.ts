@@ -1,29 +1,5 @@
 import type { NextConfig } from "next";
 
-const demoHomeRoutes = [
-  "home-1",
-  "home-auto",
-  "home-baby",
-  "home-bag-accessories",
-  "home-construction",
-  "home-cosmetic",
-  "home-decor",
-  "home-electronics",
-  "home-fashion",
-  "home-fashion-2",
-  "home-furniture",
-  "home-garden",
-  "home-headphone",
-  "home-jewelry",
-  "home-mental",
-  "home-office-equipment",
-  "home-organic",
-  "home-pet-care",
-  "home-pod",
-  "home-sneaker",
-  "home-sport",
-] as const;
-
 const demoShopRoutes = [
   "shop-left-sidebar",
   "shop-right-sidebar",
@@ -83,11 +59,6 @@ const nextConfig: NextConfig = {
   },
   async redirects() {
     return [
-      ...demoHomeRoutes.map((source) => ({
-        source: `/${source}`,
-        destination: "/",
-        permanent: false,
-      })),
       ...demoShopRoutes.map((source) => ({
         source: `/${source}`,
         destination: "/shop-default",

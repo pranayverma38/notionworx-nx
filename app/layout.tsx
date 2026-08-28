@@ -1,4 +1,5 @@
 import LayoutModals from "@/components/modals";
+import CloseNavDropdownsOnRoute from "@/components/headers/CloseNavDropdownsOnRoute";
 // import WowInit from "@/components/common/WowInit";
 import {
   DM_Sans,
@@ -48,6 +49,7 @@ export default function RootLayout({
     >
       <body>
         {/* <WowInit /> WOW.js off for now */}
+        <CloseNavDropdownsOnRoute />
         {children}
         <LayoutModals />
         <ScrollToTop />
