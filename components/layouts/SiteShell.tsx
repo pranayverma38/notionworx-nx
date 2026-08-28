@@ -7,11 +7,13 @@ import AnnouncementBar from "@/components/topBars/AnnouncementBar";
 type SiteShellProps = {
   children: ReactNode;
   footerContent?: ReactNode;
+  hideFooterNewsletterBar?: boolean;
 };
 
 export default function SiteShell({
   children,
   footerContent,
+  hideFooterNewsletterBar = false,
 }: SiteShellProps) {
   return (
     <>
@@ -19,7 +21,7 @@ export default function SiteShell({
       <Header5 />
       {children}
       {footerContent}
-      <Footer1 hideTopRule />
+      <Footer1 hideTopRule hideNewsletterBar={hideFooterNewsletterBar} />
     </>
   );
 }

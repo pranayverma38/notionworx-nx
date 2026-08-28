@@ -7,17 +7,6 @@ import { officeAddressLines, officeHours, socialLinks } from "@/data/contactInfo
 
 const categoryHref = (cat: string) => `/shop-default?category=${encodeURIComponent(cat)}`;
 
-const SHOP_LINKS = [
-  { label: "Premium Canopies", href: categoryHref("Custom Canopy Tents – Personalized Pop Up Tents for Events") },
-  { label: "Premium Flags", href: categoryHref("FLAGS") },
-  { label: "Table Covers", href: categoryHref("TABLE COVER") },
-  { label: "Banners & Displays", href: categoryHref("BANNERS & DISPLAYS") },
-  { label: "Apparel", href: categoryHref("APPAREL") },
-  { label: "SEG Products", href: categoryHref("SEG PRODUCTS") },
-  { label: "Promo Products", href: "/collection" },
-  { label: "Gallery", href: categoryHref("Mockups") },
-];
-
 const SERVICE_LINKS = [
   { label: "About Us", href: "/about" },
   { label: "Contact Us", href: "/contact" },
@@ -25,7 +14,17 @@ const SERVICE_LINKS = [
   { label: "Shipping Policy", href: "/shipping" },
   { label: "New Customer", href: "/register" },
   { label: "FAQ's", href: "/faq" },
-  { label: "Track Your Order", href: "/track-order" },
+];
+
+const MAIN_MENU_LINKS = [
+  { label: "Premium Canopies", href: categoryHref("Custom Canopy Tents – Personalized Pop Up Tents for Events") },
+  { label: "Premium Flags", href: categoryHref("FLAGS") },
+  { label: "Premium Table Covers", href: categoryHref("TABLE COVER") },
+  { label: "Banners & Displays", href: categoryHref("BANNERS & DISPLAYS") },
+  { label: "Apparel", href: categoryHref("APPAREL") },
+  { label: "SEG Products", href: categoryHref("SEG PRODUCTS") },
+  { label: "Promo Products", href: "/collection" },
+  { label: "Gallery", href: categoryHref("Mockups") },
 ];
 
 const SOCIAL_ICONS: Record<string, ReactElement> = {
@@ -35,9 +34,15 @@ const SOCIAL_ICONS: Record<string, ReactElement> = {
   whatsapp: <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M19.11 4.89A9.9 9.9 0 0 0 12.06 2a9.94 9.94 0 0 0-8.62 14.9L2 22l5.27-1.38A9.93 9.93 0 0 0 12.05 22H12a10 10 0 0 0 7.11-17.11ZM12 20.29h-.04a8.21 8.21 0 0 1-4.18-1.14l-.3-.18-3.13.82.84-3.05-.2-.31a8.23 8.23 0 1 1 7.01 3.86Zm4.52-6.16c-.25-.12-1.48-.73-1.71-.81-.23-.09-.39-.12-.56.12-.16.24-.64.81-.78.97-.14.16-.28.18-.52.06-.25-.12-1.04-.38-1.98-1.2-.73-.65-1.23-1.45-1.37-1.69-.14-.24-.01-.37.11-.49.11-.11.24-.28.36-.42.12-.14.16-.24.24-.4.08-.16.04-.3-.02-.42-.06-.12-.56-1.35-.77-1.85-.2-.48-.41-.41-.56-.42h-.48c-.16 0-.42.06-.64.3-.22.24-.84.82-.84 2s.86 2.33.98 2.49c.12.16 1.7 2.59 4.12 3.63.57.25 1.02.4 1.37.51.57.18 1.09.15 1.5.09.46-.07 1.48-.6 1.69-1.18.21-.58.21-1.08.15-1.18-.06-.1-.22-.16-.47-.28Z"/></svg>,
 };
 
-type Footer1Props = { hideTopRule?: boolean };
+type Footer1Props = {
+  hideTopRule?: boolean;
+  hideNewsletterBar?: boolean;
+};
 
-export default function Footer1({ hideTopRule = false }: Footer1Props) {
+export default function Footer1({
+  hideTopRule = false,
+  hideNewsletterBar = false,
+}: Footer1Props) {
   const [email, setEmail] = useState("");
   const [subscribed, setSubscribed] = useState(false);
   const [openSection, setOpenSection] = useState<string | null>(null);
@@ -77,27 +82,28 @@ export default function Footer1({ hideTopRule = false }: Footer1Props) {
         @media (min-width: 769px) {
           .footer-accordion-btn { display: none; }
           .footer-links-desktop { display: block; }
-          .footer-accordion-content { max-height: none !important; opacity: 1 !important; }
+          .footer-accordion-content { display: none !important; }
         }
       `}</style>
 
-      {/* ── Newsletter bar ── */}
-      <div style={{ background: "#fff", borderBottom: "1px solid #e2e8f0", padding: "28px 0" }}>
-        <div className="container">
-          <form onSubmit={handleSubscribe} style={{ display: "flex", maxWidth: "480px", margin: "0 auto" }}>
-            {subscribed ? (
-              <div style={{ width: "100%", padding: "13px 20px", background: "#f0fdf4", border: "1px solid #bbf7d0", borderRadius: "10px", color: "#16a34a", fontSize: "0.9rem", fontWeight: 600, textAlign: "center" }}>
-                ✓ You&apos;re subscribed!
-              </div>
-            ) : (
-              <>
-                <input className="footer-nl-input" type="email" placeholder="Subscribe for deals & new arrivals" value={email} onChange={e => setEmail(e.target.value)} required />
-                <button className="footer-nl-btn" type="submit">Subscribe</button>
-              </>
-            )}
-          </form>
+      {!hideNewsletterBar && (
+        <div style={{ background: "#fff", borderBottom: "1px solid #e2e8f0", padding: "28px 0" }}>
+          <div className="container">
+            <form onSubmit={handleSubscribe} style={{ display: "flex", maxWidth: "480px", margin: "0 auto" }}>
+              {subscribed ? (
+                <div style={{ width: "100%", padding: "13px 20px", background: "#f0fdf4", border: "1px solid #bbf7d0", borderRadius: "10px", color: "#16a34a", fontSize: "0.9rem", fontWeight: 600, textAlign: "center" }}>
+                  ✓ You&apos;re subscribed!
+                </div>
+              ) : (
+                <>
+                  <input className="footer-nl-input" type="email" placeholder="Subscribe for deals & new arrivals" value={email} onChange={e => setEmail(e.target.value)} required />
+                  <button className="footer-nl-btn" type="submit">Subscribe</button>
+                </>
+              )}
+            </form>
+          </div>
         </div>
-      </div>
+      )}
 
       {/* ── Main body ── */}
       <div className="container" style={{ padding: "56px 0 40px" }}>
@@ -134,24 +140,7 @@ export default function Footer1({ hideTopRule = false }: Footer1Props) {
             </div>
           </div>
 
-          {/* Shop */}
-          <div>
-            <p className="footer-col-heading">Shop</p>
-            <div className="footer-links-desktop">
-              {SHOP_LINKS.map(l => <Link key={l.href + l.label} href={l.href} className="footer-link">{l.label}</Link>)}
-            </div>
-            <button className="footer-accordion-btn" onClick={() => toggleSection("shop")}>
-              <span>Shop</span>
-              <span style={{ fontSize: "18px", transition: "transform 0.3s", transform: openSection === "shop" ? "rotate(45deg)" : "none" }}>+</span>
-            </button>
-            <div className="footer-accordion-content" style={{ maxHeight: openSection === "shop" ? "400px" : "0", opacity: openSection === "shop" ? 1 : 0 }}>
-              <div style={{ paddingTop: "8px", paddingBottom: "8px" }}>
-                {SHOP_LINKS.map(l => <Link key={l.href + l.label} href={l.href} className="footer-link">{l.label}</Link>)}
-              </div>
-            </div>
-          </div>
-
-          {/* Service */}
+          {/* Customer Service */}
           <div>
             <p className="footer-col-heading">Customer Service</p>
             <div className="footer-links-desktop">
@@ -164,6 +153,23 @@ export default function Footer1({ hideTopRule = false }: Footer1Props) {
             <div className="footer-accordion-content" style={{ maxHeight: openSection === "service" ? "400px" : "0", opacity: openSection === "service" ? 1 : 0 }}>
               <div style={{ paddingTop: "8px", paddingBottom: "8px" }}>
                 {SERVICE_LINKS.map(l => <Link key={l.href + l.label} href={l.href} className="footer-link">{l.label}</Link>)}
+              </div>
+            </div>
+          </div>
+
+          {/* Main Menu */}
+          <div>
+            <p className="footer-col-heading">Main Menu</p>
+            <div className="footer-links-desktop">
+              {MAIN_MENU_LINKS.map(l => <Link key={l.href + l.label} href={l.href} className="footer-link">{l.label}</Link>)}
+            </div>
+            <button className="footer-accordion-btn" onClick={() => toggleSection("menu")}>
+              <span>Main Menu</span>
+              <span style={{ fontSize: "18px", transition: "transform 0.3s", transform: openSection === "menu" ? "rotate(45deg)" : "none" }}>+</span>
+            </button>
+            <div className="footer-accordion-content" style={{ maxHeight: openSection === "menu" ? "400px" : "0", opacity: openSection === "menu" ? 1 : 0 }}>
+              <div style={{ paddingTop: "8px", paddingBottom: "8px" }}>
+                {MAIN_MENU_LINKS.map(l => <Link key={l.href + l.label} href={l.href} className="footer-link">{l.label}</Link>)}
               </div>
             </div>
           </div>

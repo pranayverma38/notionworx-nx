@@ -8,6 +8,7 @@ const canopyCollectionNames = [
   "10x15 Custom Canopies",
   "10x20 Custom Canopies",
 ] as const;
+const CANOPY_CARD_HEIGHT = 280;
 
 function getCollection(name: (typeof canopyCollectionNames)[number]) {
   return categoriesCollection.find((category) => category.name === name);
@@ -85,12 +86,12 @@ export default function PromoCollection() {
                   <Image
                     loading="lazy"
                     width={450}
-                    height={240}
+                    height={CANOPY_CARD_HEIGHT}
                     src={collection.img}
                     alt={collection.name}
                     style={{
                       width: "100%",
-                      height: "240px",
+                      height: `${CANOPY_CARD_HEIGHT}px`,
                       objectFit: "cover",
                     }}
                   />
@@ -117,12 +118,12 @@ export default function PromoCollection() {
                   <Image
                     loading="lazy"
                     width={450}
-                    height={240}
+                    height={CANOPY_CARD_HEIGHT}
                     src={collection.img}
                     alt={collection.name}
                     style={{
                       width: "100%",
-                      height: "240px",
+                      height: `${CANOPY_CARD_HEIGHT}px`,
                       objectFit: "cover",
                     }}
                   />
