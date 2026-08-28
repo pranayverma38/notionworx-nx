@@ -1,5 +1,6 @@
 "use client";
 
+import { useRouter } from "next/navigation";
 import { useContextElement, Product } from "@/context/Context";
 
 interface AddToCartButtonProps {
@@ -21,6 +22,7 @@ export default function AddToCartButton({
   label = "Add to Cart",
   variant = "default",
 }: AddToCartButtonProps) {
+  const router = useRouter();
   const { addProductToCart, isAddedToCartProducts, setQuickAddItem } =
     useContextElement();
   const isAdded = product ? isAddedToCartProducts(product.id) : false;
@@ -39,19 +41,25 @@ export default function AddToCartButton({
     if (product) {
       addProductToCart(product, quantity);
     }
+
+    router.push("/view-cart");
   };
 
   const activeClass = !isQuickAddTrigger && isAdded ? "added" : "";
 
   /** Bootstrap 5 needs `data-bs-target` on `<button>`; anchors used to rely on `href`. */
-  const bsTarget = href.startsWith("#") && href.length > 1 ? href : undefined;
+  const bsTarget =
+    isQuickAddTrigger && href.startsWith("#") && href.length > 1
+      ? href
+      : undefined;
+  const bsToggle = isQuickAddTrigger ? dataToggle : undefined;
 
   if (variant === "tooltip") {
     return (
       <button
         type="button"
         onClick={handleClick}
-        data-bs-toggle={dataToggle}
+        data-bs-toggle={bsToggle}
         data-bs-target={bsTarget}
         suppressHydrationWarning
         className={`tf-btn-reset ${className || "hover-tooltip tooltip-left btn-action"} ${activeClass}`.trim()}
@@ -69,7 +77,7 @@ export default function AddToCartButton({
       <button
         type="button"
         onClick={handleClick}
-        data-bs-toggle={dataToggle}
+        data-bs-toggle={bsToggle}
         data-bs-target={bsTarget}
         suppressHydrationWarning
         className={`tf-btn-reset ${className || "btn-action"} ${activeClass}`.trim()}
@@ -87,7 +95,7 @@ export default function AddToCartButton({
     <button
       type="button"
       onClick={handleClick}
-      data-bs-toggle={dataToggle}
+      data-bs-toggle={bsToggle}
       data-bs-target={bsTarget}
       suppressHydrationWarning
       className={`tf-btn-reset ${className || "tf-btn btn-white small w-100"} ${activeClass}`.trim()}

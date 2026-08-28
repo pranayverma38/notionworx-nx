@@ -1,8 +1,6 @@
 "use client";
 
 import AddToCartButton from "@/components/common/AddToCartButton";
-import CompareButton from "@/components/common/CompareButton";
-import QuickViewButton from "@/components/common/QuickViewButton";
 import { useProductCard } from "./ProductCardContext";
 
 /** Hover icon row: default vs 02–04 quick add first vs 05/06 compact row. */
@@ -17,15 +15,13 @@ export function ProductCardActionList() {
   if (gridVariant === "shopGridHover05" || gridVariant === "shopGridHover06") {
     return (
       <>
-        <li className="compare">
-          <CompareButton
+        <li>
+          <AddToCartButton
             product={product}
-            className="hover-tooltip tooltip-left box-icon"
-          />
-        </li>
-        <li className="d-sm-none">
-          <QuickViewButton
-            product={product}
+            href="#shoppingCart"
+            dataToggle="offcanvas"
+            label="Add to Cart"
+            variant="tooltip"
             className="hover-tooltip tooltip-left box-icon"
           />
         </li>
@@ -39,23 +35,11 @@ export function ProductCardActionList() {
         <li>
           <AddToCartButton
             product={product}
-            href="#quickAdd"
-            dataToggle="modal"
+            href="#shoppingCart"
+            dataToggle="offcanvas"
             variant="tooltip"
             className={shopHoverActionClass}
-            label="Quick Add"
-          />
-        </li>
-        <li className="compare">
-          <CompareButton
-            product={product}
-            className={shopHoverActionClass}
-          />
-        </li>
-        <li>
-          <QuickViewButton
-            product={product}
-            className={shopHoverActionClass}
+            label="Add to Cart"
           />
         </li>
       </>
@@ -64,11 +48,14 @@ export function ProductCardActionList() {
 
   return (
     <>
-      <li className="compare">
-        <CompareButton product={product} />
-      </li>
       <li>
-        <QuickViewButton product={product} />
+        <AddToCartButton
+          product={product}
+          href="#shoppingCart"
+          dataToggle="offcanvas"
+          variant="tooltip"
+          label="Add to Cart"
+        />
       </li>
     </>
   );

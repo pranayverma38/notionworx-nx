@@ -19,11 +19,11 @@ export interface ProductCardProps {
   shopMeta?: { brand?: string; availability?: string };
   /** Extra class on card-product_wrapper (e.g. "square") */
   wrapperClass?: string;
-  /** Bottom CTA label. Default "Quick Add" */
+  /** Bottom CTA label. Default "Add to Cart" */
   actionBotLabel?: string;
-  /** Bottom CTA href. Default "#quickAdd" */
+  /** Bottom CTA href. Default "#shoppingCart" */
   actionBotHref?: string;
-  /** Bottom CTA data attribute (e.g. "modal" for data-bs-toggle="modal") */
+  /** Bottom CTA data attribute (e.g. "offcanvas" for legacy cart triggers) */
   actionBotDataToggle?: "modal" | "offcanvas";
   /** Card wrapper class (e.g. "has-size"). Default none. */
   cardClass?: string;
@@ -44,9 +44,9 @@ export default function ProductCard({
   product,
   variant = "default",
   wrapperClass = "",
-  actionBotLabel = "Quick Add",
-  actionBotHref = "#quickAdd",
-  actionBotDataToggle = "modal",
+  actionBotLabel = "Add to Cart",
+  actionBotHref = "#shoppingCart",
+  actionBotDataToggle = "offcanvas",
   cardClass = "",
   infoClassName = "",
   nameLinkClassName,

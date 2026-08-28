@@ -2,7 +2,7 @@
 
 import dynamic from "next/dynamic";
 import { useEffect, useRef } from "react";
-import { usePathname } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 
 const Ask = dynamic<{ registerModalElement?: (el: HTMLElement | null) => void; }>(() => import("@/components/modals/Ask").then((m) => m.default), { ssr: false });
 const ForgotPass = dynamic<{ registerModalElement?: (el: HTMLElement | null) => void; }>(() => import("@/components/modals/ForgotPass").then((m) => m.default), { ssr: false });
@@ -44,6 +44,7 @@ type BootstrapStatic = {
 
 export default function LayoutModals() {
   const pathname = usePathname();
+  const router = useRouter();
   const modalElementsRef = useRef<HTMLElement[]>([]);
   const offcanvasElementsRef = useRef<HTMLElement[]>([]);
   const modalInstancesRef = useRef<BootstrapModalInstance[]>([]);
@@ -107,6 +108,30 @@ export default function LayoutModals() {
       isCancelled = true;
     };
   }, [pathname]);
+
+  useEffect(() => {
+    const handleCartTriggerClick = (event: MouseEvent) => {
+      const target = event.target;
+      if (!(target instanceof Element)) return;
+
+      const cartTrigger = target.closest<HTMLElement>(
+        '[href="#shoppingCart"], [data-bs-target="#shoppingCart"]',
+      );
+
+      if (!cartTrigger) return;
+
+      event.preventDefault();
+      window.setTimeout(() => {
+        router.push("/view-cart");
+      }, 0);
+    };
+
+    document.addEventListener("click", handleCartTriggerClick, true);
+
+    return () => {
+      document.removeEventListener("click", handleCartTriggerClick, true);
+    };
+  }, [router]);
 
   return (
     <>

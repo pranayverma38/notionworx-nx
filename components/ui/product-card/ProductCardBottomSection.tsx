@@ -1,8 +1,6 @@
 "use client";
 
-import type { MouseEvent } from "react";
 import AddToCartButton from "@/components/common/AddToCartButton";
-import { useContextElement } from "@/context/Context";
 import { ProductCardSizeList } from "./ProductCardParts";
 import { useProductCard } from "./ProductCardContext";
 
@@ -25,12 +23,7 @@ export function ProductCardBottomSection() {
     actionBotHref,
     actionBotDataToggle,
   } = useProductCard();
-  const { setQuickViewItem } = useContextElement();
-
-  const openQuickView = (e: MouseEvent<HTMLAnchorElement>) => {
-    e.preventDefault();
-    setQuickViewItem(product);
-  };
+  const isQuickAddAction = actionBotHref === "#quickAdd";
 
   if (gridVariant === "shopGridHover06") {
     return (
@@ -38,20 +31,11 @@ export function ProductCardBottomSection() {
         <div className="product-action_bot vertical">
           <AddToCartButton
             product={product}
-            href="#quickAdd"
-            dataToggle="modal"
-            label="Quick Add"
+            href="#shoppingCart"
+            dataToggle="offcanvas"
+            label="Add to Cart"
             className="tf-btn btn-white small w-100 sm-d-none"
           />
-          <a
-            href="#quickView"
-            data-bs-toggle="offcanvas"
-            className="btn-icon-quick_view sm-d-none"
-            onClick={openQuickView}
-            aria-label="Quick view"
-          >
-            <i className="icon icon-Eye" aria-hidden />
-          </a>
         </div>
         {hasSize && <VariantSizeBox sizes={product.sizes!} />}
       </>
@@ -63,23 +47,16 @@ export function ProductCardBottomSection() {
       {hasSize && <VariantSizeBox sizes={product.sizes!} />}
       {gridVariant === "shopGridHover05" ? (
         <div className="product-action_bot vertical">
-          <a
-            href="#quickView"
-            data-bs-toggle="offcanvas"
-            className="tf-btn btn-white small w-100 sm-d-none"
-            onClick={openQuickView}
-          >
-            Quick View
-          </a>
           <AddToCartButton
             product={product}
-            href="#quickAdd"
-            dataToggle="modal"
-            label="Quick Add"
+            href="#shoppingCart"
+            dataToggle="offcanvas"
+            label="Add to Cart"
           />
         </div>
       ) : (
-        !isShopGridHoverBar && (
+        !isShopGridHoverBar &&
+        !isQuickAddAction && (
           <div className="product-action_bot">
             <AddToCartButton
               product={product}

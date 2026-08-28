@@ -4,372 +4,368 @@ import Link from "next/link";
 import Image from "next/image";
 import { useMemo, useState } from "react";
 
-import CountdownTimer from "@/components/common/Countdown";
 import { useContextElement, type CartProduct } from "@/context/Context";
 import type { ProductId } from "@/context/store";
 import { formatPrice } from "@/utils/formatPrice";
 
-const FREE_SHIPPING_THRESHOLD = 100;
+const FREE_SHIPPING_THRESHOLD = 250;
 
-type ShipOption = "free" | "local" | "flat";
-
-const SHIP_PRICES: Record<ShipOption, number> = {
-  free: 0,
-  local: 35,
-  flat: 35,
-};
+const CART_STYLES = `
+  .cart-layout { display: grid; grid-template-columns: 1fr; gap: 24px; }
+  @media (min-width: 992px) { .cart-layout { grid-template-columns: 1fr 380px; } }
+  .cart-item-card { background:#fff; border-radius:16px; padding:20px; box-shadow:0 1px 4px rgba(0,0,0,0.06); transition:box-shadow 0.2s; overflow:hidden; }
+  .cart-item-card:hover { box-shadow:0 4px 24px rgba(0,0,0,0.09); }
+  .cart-item-row { display:flex; gap:16px; align-items:flex-start; width:100%; }
+  .cart-item-thumb { flex-shrink:0; width:90px; height:90px; border-radius:10px; overflow:hidden; background:#f3f4f6; display:block; position:relative; }
+  .cart-item-body { flex:1; min-width:0; }
+  .cart-item-name { font-weight:600; font-size:0.95rem; color:#111; text-decoration:none; display:block; line-height:1.4; margin-bottom:6px; word-break:break-word; }
+  .cart-item-name:hover { color:var(--primary); }
+  .cart-item-footer { display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:10px; margin-top:12px; }
+  .cart-remove-btn { flex-shrink:0; background:none; border:none; cursor:pointer; color:#d1d5db; font-size:18px; padding:4px; line-height:1; transition:color 0.15s; align-self:flex-start; }
+  .cart-remove-btn:hover { color:var(--primary); }
+  .qty-stepper { display:flex; align-items:center; border:1.5px solid #e5e7eb; border-radius:10px; overflow:hidden; }
+  .qty-btn { width:36px; height:36px; border:none; background:#f9fafb; cursor:pointer; font-size:16px; display:flex; align-items:center; justify-content:center; transition:background 0.15s, color 0.15s; }
+  .qty-btn:hover { background:#111; color:#fff; }
+  .qty-val { min-width:32px; text-align:center; font-weight:600; font-size:0.9rem; }
+  .ship-bar-track { height:6px; background:#e5e7eb; border-radius:99px; overflow:hidden; min-width:100px; }
+  .checkout-btn { display:block; background:#111; color:#fff; text-align:center; padding:16px; border-radius:12px; font-weight:700; font-size:1rem; text-decoration:none; letter-spacing:0.01em; margin-bottom:12px; transition:background 0.2s; }
+  .checkout-btn:hover { background:#333; color:#fff; }
+  .deposit-panel {
+    overflow: hidden;
+    max-height: 0;
+    opacity: 0;
+    transform: translateY(-6px);
+    transition: max-height 0.35s cubic-bezier(0.4,0,0.2,1),
+                opacity 0.3s ease,
+                transform 0.3s ease,
+                margin-top 0.3s ease;
+    margin-top: 0;
+    pointer-events: none;
+  }
+  .deposit-panel.open {
+    max-height: 220px;
+    opacity: 1;
+    transform: translateY(0);
+    margin-top: 12px;
+    pointer-events: auto;
+  }
+  @media (max-width:480px) {
+    .cart-item-thumb { width:72px !important; height:72px !important; }
+    .cart-item-name { font-size:0.85rem !important; }
+    .cart-item-row { gap:12px; }
+  }
+`;
 
 export default function ShoppingCart() {
-  const { cartProducts, setCartProducts, updateQuantity, totalPrice, removeFromCart } =
-    useContextElement();
-  const [shipOption, setShipOption] = useState<ShipOption>("free");
+  const { cartProducts, updateQuantity, totalPrice, removeFromCart } = useContextElement();
+  const [coupon, setCoupon] = useState("");
+  const [couponApplied, setCouponApplied] = useState(false);
+  const [payMode, setPayMode] = useState<"full" | "deposit">("full");
+  const [depositAmount, setDepositAmount] = useState("100");
 
   const discount = 0;
-  const shippingCost = SHIP_PRICES[shipOption];
-  const orderTotal = Math.max(0, totalPrice - discount + shippingCost);
-
+  const orderTotal = Math.max(0, totalPrice - discount);
+  const MIN_DEPOSIT = 100;
+  const parsedDeposit = Math.max(MIN_DEPOSIT, Math.min(orderTotal, parseFloat(depositAmount) || MIN_DEPOSIT));
+  const amountDue = payMode === "full" ? orderTotal : parsedDeposit;
   const amountToFreeship = Math.max(0, FREE_SHIPPING_THRESHOLD - totalPrice);
-  const shipProgressPercent = Math.min(
-    100,
-    FREE_SHIPPING_THRESHOLD > 0
-      ? (totalPrice / FREE_SHIPPING_THRESHOLD) * 100
-      : 0,
-  );
+  const shipProgress = Math.min(100, (totalPrice / FREE_SHIPPING_THRESHOLD) * 100);
 
-  const removeLine = (id: ProductId) => {
-    removeFromCart(id);
-  };
-
+  const removeLine = (id: ProductId) => removeFromCart(id);
   const setQty = (id: ProductId, qty: number) => {
-    if (qty < 1) {
-      removeLine(id);
-      return;
-    }
+    if (qty < 1) { removeLine(id); return; }
     updateQuantity(id, qty);
   };
 
-  const freeshipMessage = useMemo(() => {
-    if (totalPrice >= FREE_SHIPPING_THRESHOLD) {
-      return (
-        <>
-          You qualify for{" "}
-          <span className="text-primary fw-bold">free shipping</span>
-        </>
-      );
-    }
-    return (
-      <>
-        Buy
-        <span className="text-primary fw-bold">
-          {" "}
-          {formatPrice(amountToFreeship)}{" "}
-        </span>
-        more to get freeship
-      </>
-    );
+  const freeshipMsg = useMemo(() => {
+    if (totalPrice >= FREE_SHIPPING_THRESHOLD)
+      return <span>🎉 You qualify for <strong style={{ color: "#16a34a" }}>free shipping</strong>!</span>;
+    return <span>Add <strong style={{ color: "var(--primary)" }}>{formatPrice(amountToFreeship)}</strong> more to unlock free shipping</span>;
   }, [amountToFreeship, totalPrice]);
 
+  if (cartProducts.length === 0) {
+    return (
+      <section style={{ minHeight: "60vh", display: "flex", alignItems: "center", justifyContent: "center", padding: "80px 20px" }}>
+        <div style={{ textAlign: "center", maxWidth: "420px" }}>
+          <div style={{ fontSize: "80px", marginBottom: "24px", opacity: 0.15 }}>🛒</div>
+          <h3 style={{ fontWeight: 700, marginBottom: "12px" }}>Your cart is empty</h3>
+          <p style={{ color: "#6b7280", marginBottom: "32px", lineHeight: 1.6 }}>
+            Looks like you haven&apos;t added anything yet. Explore our store and find something you love.
+          </p>
+          <Link href="/shop-default" className="tf-btn animate-btn" style={{ display: "inline-block", padding: "14px 36px" }}>
+            Start Shopping
+          </Link>
+        </div>
+      </section>
+    );
+  }
+
   return (
-    <>
-      <section className="section-shoping-cart each-list-prd flat-spacing-2 pb-0">
-        {cartProducts.length > 0 ? (
-          <div className="flat-spacing-2 pt-0">
-            <div className="container">
-              <div className="tf-cart-notification">
-                <div className="count-text">
-                  <div className="ic">🔥</div>
-                  <div className="">
-                    Your cart will expire in&nbsp;
-                    <div className="js-countdown time-count cd-has-zero cd-no">
-                      <CountdownTimer style={4} />
+    <section style={{ padding: "48px 0 80px", background: "#f9fafb", overflowX: "hidden" }}>
+      <style>{CART_STYLES}</style>
+      <div className="container">
+
+        {/* Title */}
+        <div style={{ marginBottom: "28px" }}>
+          <h2 style={{ fontWeight: 800, fontSize: "clamp(1.5rem, 3vw, 2rem)", letterSpacing: "-0.02em", margin: 0 }}>
+            Shopping Cart{" "}
+            <span style={{ fontSize: "1rem", fontWeight: 500, color: "#6b7280" }}>
+              ({cartProducts.length} item{cartProducts.length !== 1 ? "s" : ""})
+            </span>
+          </h2>
+        </div>
+
+        {/* Free shipping bar */}
+        <div style={{
+          background: totalPrice >= FREE_SHIPPING_THRESHOLD ? "#f0fdf4" : "#fffbeb",
+          border: `1px solid ${totalPrice >= FREE_SHIPPING_THRESHOLD ? "#bbf7d0" : "#fde68a"}`,
+          borderRadius: "12px", padding: "14px 20px", marginBottom: "16px",
+          display: "flex", alignItems: "center", gap: "16px", flexWrap: "wrap"
+        }}>
+          <div style={{ flex: 1, fontSize: "0.9rem", minWidth: "180px" }}>{freeshipMsg}</div>
+          <div className="ship-bar-track" style={{ flex: "0 0 120px" }}>
+            <div style={{
+              height: "100%", width: `${shipProgress}%`,
+              background: totalPrice >= FREE_SHIPPING_THRESHOLD ? "#16a34a" : "var(--primary)",
+              borderRadius: "99px", transition: "width 0.4s ease"
+            }} />
+          </div>
+        </div>
+
+        {/* Deposit notice */}
+        <div style={{
+          background: "#fff7ed", border: "1px solid #fed7aa", borderRadius: "12px",
+          padding: "12px 18px", marginBottom: "28px", display: "flex", gap: "10px",
+          alignItems: "flex-start", fontSize: "0.86rem", color: "#92400e"
+        }}>
+          <span>🔥</span>
+          <span>Place your order with a minimum <strong>$100 deposit</strong> or by completing payment <strong>in full</strong>.</span>
+        </div>
+
+        <div className="cart-layout">
+
+          {/* ── Cart items ── */}
+          <div style={{ display: "flex", flexDirection: "column", gap: "16px" }}>
+            {cartProducts.map(item => (
+              <CartCard
+                key={item.id}
+                item={item}
+                onRemove={() => removeLine(item.id)}
+                onQtyChange={qty => setQty(item.id, qty)}
+              />
+            ))}
+
+            {/* Coupon */}
+            <div style={{
+              background: "#fff", borderRadius: "16px", padding: "20px 24px",
+              boxShadow: "0 1px 4px rgba(0,0,0,0.06)", display: "flex", gap: "12px", flexWrap: "wrap"
+            }}>
+              <input
+                type="text"
+                value={coupon}
+                onChange={e => setCoupon(e.target.value)}
+                placeholder="Enter voucher / discount code"
+                style={{
+                  flex: "1 1 200px", border: "1.5px solid #e5e7eb", borderRadius: "10px",
+                  padding: "12px 16px", fontSize: "0.9rem", outline: "none", fontFamily: "inherit"
+                }}
+              />
+              <button
+                onClick={() => { if (coupon.trim()) setCouponApplied(true); }}
+                className="tf-btn animate-btn"
+                style={{ padding: "12px 28px", borderRadius: "10px", fontSize: "0.9rem", whiteSpace: "nowrap" }}
+              >
+                Apply Code
+              </button>
+              {couponApplied && <p style={{ width: "100%", color: "#16a34a", fontSize: "0.85rem", margin: 0 }}>✓ Coupon applied!</p>}
+            </div>
+          </div>
+
+          {/* ── Order summary ── */}
+          <div>
+            <div style={{
+              background: "#fff", borderRadius: "20px", padding: "28px",
+              boxShadow: "0 2px 12px rgba(0,0,0,0.07)", position: "sticky", top: "100px"
+            }}>
+              <h4 style={{ fontWeight: 700, marginBottom: "20px", fontSize: "1.2rem" }}>Order Summary</h4>
+
+              <div style={{ display: "flex", flexDirection: "column", gap: "12px", marginBottom: "20px" }}>
+                <SummaryRow label="Subtotal" value={formatPrice(totalPrice)} />
+                <SummaryRow label="Discounts" value={discount > 0 ? `-${formatPrice(discount)}` : formatPrice(0)} muted={discount === 0} />
+                <SummaryRow label="Shipping" value="Free" green />
+              </div>
+
+              <div style={{ borderTop: "2px solid #f3f4f6", paddingTop: "16px", marginBottom: "20px" }}>
+                <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+                  <span style={{ fontWeight: 700, fontSize: "1rem" }}>Order Total</span>
+                  <span style={{ fontWeight: 800, fontSize: "1.35rem", letterSpacing: "-0.02em" }}>{formatPrice(orderTotal)}</span>
+                </div>
+              </div>
+
+              {/* ── Payment mode toggle ── */}
+              <div style={{ marginBottom: "16px" }}>
+                <p style={{ fontWeight: 600, fontSize: "0.85rem", color: "#374151", marginBottom: "10px" }}>Payment Option</p>
+                {/* Sliding pill toggle */}
+                <div style={{
+                  display: "grid", gridTemplateColumns: "1fr 1fr",
+                  background: "#f3f4f6", borderRadius: "12px", padding: "4px",
+                  position: "relative"
+                }}>
+                  {(["full", "deposit"] as const).map(mode => (
+                    <button key={mode} onClick={() => setPayMode(mode)} style={{
+                      padding: "9px 8px", borderRadius: "9px", cursor: "pointer",
+                      border: "none",
+                      background: payMode === mode ? "#111" : "transparent",
+                      color: payMode === mode ? "#fff" : "#6b7280",
+                      fontWeight: 600, fontSize: "0.82rem",
+                      transition: "background 0.25s, color 0.25s",
+                      textAlign: "center" as const, zIndex: 1, position: "relative"
+                    }}>
+                      {mode === "full" ? "💳 Pay in Full" : "📦 Pay Deposit"}
+                    </button>
+                  ))}
+                </div>
+
+                {/* Deposit amount input — always rendered, CSS drives open/close */}
+                <div className={`deposit-panel${payMode === "deposit" ? " open" : ""}`}
+                  style={{ background: "#f9fafb", borderRadius: "10px", padding: "0 14px" }}>
+                  <div style={{ padding: "14px 0" }}>
+                    <label style={{ fontSize: "0.82rem", fontWeight: 600, color: "#374151", display: "block", marginBottom: "8px" }}>
+                      Deposit Amount <span style={{ color: "#6b7280", fontWeight: 400 }}>(min ${MIN_DEPOSIT})</span>
+                    </label>
+                    <div style={{ position: "relative" }}>
+                      <span style={{
+                        position: "absolute", left: "12px", top: "50%", transform: "translateY(-50%)",
+                        fontWeight: 600, color: "#374151", fontSize: "0.9rem"
+                      }}>$</span>
+                      <input
+                        type="number"
+                        min={MIN_DEPOSIT}
+                        max={orderTotal}
+                        value={depositAmount}
+                        onChange={e => setDepositAmount(e.target.value)}
+                        style={{
+                          width: "100%", padding: "10px 12px 10px 24px", border: "1.5px solid #e5e7eb",
+                          borderRadius: "8px", fontSize: "0.9rem", fontFamily: "inherit", outline: "none",
+                          fontWeight: 600
+                        }}
+                      />
                     </div>
-                    &nbsp;minutes! Please checkout now before your items sell
-                    out!
+                    {parsedDeposit < orderTotal && (
+                      <p style={{ fontSize: "0.75rem", color: "#6b7280", marginTop: "6px", marginBottom: 0 }}>
+                        Remaining <strong>{formatPrice(orderTotal - parsedDeposit)}</strong> due before delivery.
+                      </p>
+                    )}
                   </div>
+                </div>
+              </div>
+
+              {/* Amount due */}
+              <div style={{
+                background: payMode === "deposit" ? "#fffbeb" : "#f0fdf4",
+                border: `1px solid ${payMode === "deposit" ? "#fde68a" : "#bbf7d0"}`,
+                borderRadius: "10px", padding: "12px 16px", marginBottom: "16px",
+                display: "flex", justifyContent: "space-between", alignItems: "center"
+              }}>
+                <span style={{ fontWeight: 600, fontSize: "0.88rem", color: "#374151" }}>
+                  {payMode === "deposit" ? "Due Today" : "Total Due"}
+                </span>
+                <span style={{ fontWeight: 800, fontSize: "1.25rem", color: "#111" }}>
+                  {formatPrice(amountDue)}
+                </span>
+              </div>
+              <p style={{ fontSize: "0.73rem", color: "#9ca3af", marginBottom: "16px" }}>Tax included. Shipping calculated at checkout.</p>
+
+              <Link href="/checkout" className="checkout-btn">Proceed to Checkout →</Link>
+
+              <Link href="/shop-default" style={{
+                display: "block", textAlign: "center", color: "#6b7280",
+                fontSize: "0.88rem", textDecoration: "underline", textUnderlineOffset: "3px"
+              }}>
+                Or continue shopping
+              </Link>
+
+              {/* Trust badges */}
+              <div style={{ marginTop: "24px", paddingTop: "20px", borderTop: "1px solid #f3f4f6" }}>
+                <div style={{ display: "flex", justifyContent: "space-around", gap: "8px" }}>
+                  {(["🔒 Secure", "🚚 Free Ship", "↩️ Returns"] as const).map(label => (
+                    <div key={label} style={{ textAlign: "center" }}>
+                      <div style={{ fontSize: "0.72rem", color: "#9ca3af" }}>{label}</div>
+                    </div>
+                  ))}
                 </div>
               </div>
             </div>
           </div>
-        ) : null}
-        <div className="container">
-          <div className="row">
-            {cartProducts.length === 0 ? (
-              <div className="col-12 text-center flat-spacing-2">
-                <h4 className="mb-16">Your cart is empty</h4>
-                <p className="cl-text-2 mb-24">
-                  Add items from the shop to see them here.
-                </p>
-                <Link href="/shop-default" className="tf-btn animate-btn">
-                  Continue shopping
-                </Link>
-              </div>
-            ) : (
-              <>
-                <div className="col-lg-8">
-                  <form
-                    className="form-shop-cart"
-                    onSubmit={(e) => {
-                      e.preventDefault();
-                    }}
-                  >
-                    <div className="overflow-auto">
-                      <table className="tf-table-page-cart">
-                        <thead>
-                          <tr>
-                            <th>
-                              <p className="h6 fw-medium">Products</p>
-                            </th>
-                            <th>
-                              <p className="h6 fw-medium">Price</p>
-                            </th>
-                            <th>
-                              <p className="h6 fw-medium">Quantity</p>
-                            </th>
-                            <th className="text-end">
-                              <p className="h6 fw-medium">Total Price</p>
-                            </th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          {cartProducts.map((item) => (
-                            <CartTableRow
-                              key={item.id}
-                              item={item}
-                              onRemove={() => removeLine(item.id)}
-                              onQtyChange={(qty) => setQty(item.id, qty)}
-                            />
-                          ))}
-                        </tbody>
-                      </table>
-                    </div>
-                    <div className="ip-discount-code">
-                      <input type="text" placeholder="Add voucher discount" />
-                      <button className="tf-btn animate-btn" type="submit">
-                        Apply Code
-                      </button>
-                    </div>
-                  </form>
-                </div>
-                <div className="col-lg-4">
-                  <div className="fl-sidebar-cart mt-lg-0 sticky-top">
-                    <div className="box-order-summary">
-                      <div className="notification-progress">
-                        <p>{freeshipMessage}</p>
-                        <div className="progress-cart">
-                          <div
-                            className="value"
-                            style={{ width: `${shipProgressPercent}%` }}
-                            data-progress={Math.round(shipProgressPercent)}
-                          >
-                            <span className="round" />
-                          </div>
-                        </div>
-                      </div>
-                      <h5 className="title mb-20">Order Summary</h5>
-                      <div className="subtotal d-flex justify-content-between align-items-center">
-                        <p className="fw-medium lh-24">Subtotal</p>
-                        <span className="total fw-medium lh-24">
-                          {formatPrice(totalPrice)}
-                        </span>
-                      </div>
-                      <div className="discount d-flex justify-content-between align-items-center">
-                        <p className="fw-medium lh-24">Discounts</p>
-                        <span className="total fw-medium lh-24">
-                          {discount > 0
-                            ? `-${formatPrice(discount)}`
-                            : formatPrice(0)}
-                        </span>
-                      </div>
-                      <div className="ship">
-                        <p className="fw-medium lh-24">Shipping</p>
-                        <div className="box-check-payment flex-grow-1">
-                          <fieldset className="ship-item">
-                            <input
-                              type="radio"
-                              name="ship-check"
-                              className="tf-check-rounded"
-                              id="free"
-                              checked={shipOption === "free"}
-                              onChange={() => setShipOption("free")}
-                            />
-                            <label htmlFor="free">
-                              <span>Free Shipping</span>
-                              <span className="price">{formatPrice(0)}</span>
-                            </label>
-                          </fieldset>
-                          <fieldset className="ship-item">
-                            <input
-                              type="radio"
-                              name="ship-check"
-                              className="tf-check-rounded"
-                              id="local"
-                              checked={shipOption === "local"}
-                              onChange={() => setShipOption("local")}
-                            />
-                            <label htmlFor="local">
-                              <span>Local:</span>
-                              <span className="price">{formatPrice(35)}</span>
-                            </label>
-                          </fieldset>
-                          <fieldset className="ship-item">
-                            <input
-                              type="radio"
-                              name="ship-check"
-                              className="tf-check-rounded"
-                              id="rate"
-                              checked={shipOption === "flat"}
-                              onChange={() => setShipOption("flat")}
-                            />
-                            <label htmlFor="rate">
-                              <span>Flat Rate:</span>
-                              <span className="price">{formatPrice(35)}</span>
-                            </label>
-                          </fieldset>
-                        </div>
-                      </div>
-                      <h5 className="total-order d-flex justify-content-between align-items-center">
-                        <span>Total</span>
-                        <span className="total each-total-price">
-                          {formatPrice(orderTotal)}
-                        </span>
-                      </h5>
-                      <fieldset className="checkbox-wrap check-agree">
-                        <input
-                          type="checkbox"
-                          name="agree"
-                          className="tf-check-rounded"
-                          id="checkOutAgree"
-                        />
-                        <label htmlFor="checkOutAgree">
-                          I agree with the{" "}
-                          <Link
-                            href="/term-and-condition"
-                            className="fw-medium text-decoration-underline link"
-                          >
-                            terms and conditions
-                          </Link>
-                        </label>
-                      </fieldset>
-                      <div className="list-ver text-center">
-                        <Link
-                          href="/checkout"
-                          id="checkout-btn"
-                          className="action-checkout tf-btn w-100 animate-btn text-center"
-                        >
-                          <span className="fw-semibold">Process To Checkout</span>
-                        </Link>
-                        <Link
-                          href="/shop-default"
-                          className="link-underline link"
-                        >
-                          <span className="fw-semibold">
-                            Or Continue Shopping
-                          </span>
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </>
-            )}
-          </div>
-        </div>
-      </section>
-    </>
+
+        </div>{/* end cart-layout */}
+      </div>
+    </section>
   );
 }
 
-function CartTableRow({
-  item,
-  onRemove,
-  onQtyChange,
-}: {
+function CartCard({ item, onRemove, onQtyChange }: {
   item: CartProduct;
   onRemove: () => void;
   onQtyChange: (qty: number) => void;
 }) {
-  const imgSrc =
-    item.img ?? item.images?.[0]?.src ?? "/assets/images/product/product-1.jpg";
-
+  const imgSrc = item.img ?? item.images?.[0]?.src ?? "/assets/images/product/product-1.jpg";
   const colorLabel = item.selectedColor ?? item.colors?.[0]?.label ?? null;
   const sizeLabel = item.selectedSize ?? null;
-
   const lineTotal = item.price * item.quantity;
 
   return (
-    <tr className="tf-cart_item each-prd file-delete">
-      <td className="cart_product">
-        <Link href={`/product-detail/${item.id}`} className="img-prd">
-          <Image loading="lazy" width={100} height={133} src={imgSrc} alt="" />
+    <div className="cart-item-card">
+      <div className="cart-item-row">
+        {/* Thumbnail */}
+        <Link href={`/product-detail/${item.id}`} className="cart-item-thumb">
+          <Image src={imgSrc} alt={item.name} fill style={{ objectFit: "cover" }} sizes="90px" />
         </Link>
-        <div className="infor-prd">
-          <Link
-            href={`/product-detail/${item.id}`}
-            className="prd_name fw-medium link lh-24"
-          >
-            {item.name}
-          </Link>
-          {colorLabel ? (
-            <div className="prd_select text-caption-01">
-              <span className="type-text cl-text-3">Color:&nbsp;</span>
-              <span className="fw-medium">{colorLabel}</span>
+
+        {/* Info */}
+        <div className="cart-item-body">
+          <Link href={`/product-detail/${item.id}`} className="cart-item-name">{item.name}</Link>
+
+          <div style={{ display: "flex", gap: "8px", flexWrap: "wrap" }}>
+            {colorLabel && (
+              <span style={{ fontSize: "0.75rem", color: "#6b7280", background: "#f3f4f6", borderRadius: "6px", padding: "2px 8px" }}>
+                Color: {colorLabel}
+              </span>
+            )}
+            {sizeLabel && (
+              <span style={{ fontSize: "0.75rem", color: "#6b7280", background: "#f3f4f6", borderRadius: "6px", padding: "2px 8px" }}>
+                Size: {sizeLabel}
+              </span>
+            )}
+          </div>
+
+          <div className="cart-item-footer">
+            <div className="qty-stepper">
+              <button className="qty-btn" onClick={() => onQtyChange(item.quantity - 1)} aria-label="Decrease">−</button>
+              <span className="qty-val">{item.quantity}</span>
+              <button className="qty-btn" onClick={() => onQtyChange(item.quantity + 1)} aria-label="Increase">+</button>
             </div>
-          ) : null}
-          {sizeLabel ? (
-            <div className="prd_select text-caption-01">
-              <span className="type-text cl-text-3">Size:&nbsp;</span>
-              <span className="fw-medium">{sizeLabel}</span>
+            <div style={{ textAlign: "right" }}>
+              <div style={{ fontWeight: 700, fontSize: "1rem", color: "#111" }}>{formatPrice(lineTotal)}</div>
+              {item.quantity > 1 && (
+                <div style={{ fontSize: "0.73rem", color: "#9ca3af" }}>{formatPrice(item.price)} each</div>
+              )}
             </div>
-          ) : null}
-          <button
-            type="button"
-            className="cart_remove tf-btn-line-3 type-primary remove border-0 bg-transparent p-0"
-            onClick={onRemove}
-          >
-            <span className="text-caption-01 fw-semibold">Remove</span>
-          </button>
+          </div>
         </div>
-      </td>
-      <td
-        className="cart_price each-price fw-semibold text-primary"
-        data-cart-title="Price"
-      >
-        {formatPrice(item.price)}
-      </td>
-      <td className="cart_quantity" data-cart-title="Quantity">
-        <div className="wg-quantity">
-          <button
-            type="button"
-            className="btn-quantity minus-quantity"
-            onClick={() => onQtyChange(item.quantity - 1)}
-            aria-label="Decrease quantity"
-          >
-            <i className="icon icon-minus" />
-          </button>
-          <input
-            className="quantity-product"
-            type="text"
-            inputMode="numeric"
-            name={`qty-${item.id}`}
-            readOnly
-            value={item.quantity}
-            aria-label="Quantity"
-          />
-          <button
-            type="button"
-            className="btn-quantity plus-quantity"
-            onClick={() => onQtyChange(item.quantity + 1)}
-            aria-label="Increase quantity"
-          >
-            <i className="icon icon-plus" />
-          </button>
-        </div>
-      </td>
-      <td>
-        <div className="cart_total fw-semibold text-primary each-subtotal-price">
-          {formatPrice(lineTotal)}
-        </div>
-      </td>
-    </tr>
+
+        {/* Remove */}
+        <button className="cart-remove-btn" onClick={onRemove} aria-label="Remove item" title="Remove">✕</button>
+      </div>
+    </div>
+  );
+}
+
+function SummaryRow({ label, value, muted, green }: { label: string; value: string; muted?: boolean; green?: boolean }) {
+  return (
+    <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+      <span style={{ color: "#6b7280", fontSize: "0.9rem" }}>{label}</span>
+      <span style={{ fontWeight: 600, fontSize: "0.9rem", color: green ? "#16a34a" : muted ? "#9ca3af" : "#111" }}>{value}</span>
+    </div>
   );
 }
