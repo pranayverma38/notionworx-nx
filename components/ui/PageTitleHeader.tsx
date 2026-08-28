@@ -9,12 +9,32 @@ type PageTitleHeaderProps = {
   hideDetailsOnMobile?: boolean;
 };
 
+function shortenLongLabel(value: ReactNode): ReactNode {
+  if (typeof value !== "string") {
+    return value;
+  }
+
+  const words = value.trim().split(/\s+/);
+
+  if (words.length <= 5) {
+    return value;
+  }
+
+  return `${words.slice(0, 3).join(" ")}...`;
+}
+
 export default function PageTitleHeader({
   breadcrumbLabel,
   title,
   description,
   hideDetailsOnMobile = true,
 }: PageTitleHeaderProps) {
+  const shortenedBreadcrumbLabel = shortenLongLabel(breadcrumbLabel);
+  const shortenedTitle = shortenLongLabel(title);
+  const fullBreadcrumbLabel =
+    typeof breadcrumbLabel === "string" ? breadcrumbLabel : undefined;
+  const fullTitle = typeof title === "string" ? title : undefined;
+
   return (
     <section className="section-page-title flat-spacing-2 pb-0">
       <div className="container">
@@ -24,7 +44,9 @@ export default function PageTitleHeader({
               Home
             </Link>
             <i className="icon icon-CaretRightThin cl-text-3" />
-            <p className="text-caption-01">{breadcrumbLabel}</p>
+            <p className="text-caption-01" title={fullBreadcrumbLabel}>
+              {shortenedBreadcrumbLabel}
+            </p>
           </div>
 
           <div
@@ -35,9 +57,10 @@ export default function PageTitleHeader({
             <div className="col-md-4 col-xl-3">
               <h3
                 className="mb-0 text-start"
+                title={fullTitle}
                 style={{ fontSize: "clamp(2rem, 3vw, 2.75rem)", lineHeight: 1.05 }}
               >
-                {title}
+                {shortenedTitle}
               </h3>
             </div>
             <div className="col-md-8 col-xl-9">

@@ -168,6 +168,18 @@ export function filterReducer(
     case "TOGGLE_FILTER_ON_SALE":
       return { ...state, activeFilterOnSale: !state.activeFilterOnSale };
 
+    case "RESET_FILTERS_TO_DEFAULTS":
+      return {
+        ...staticInitialState,
+        defaultPriceRange: action.payload.defaultPriceRange,
+        price: [...action.payload.defaultPriceRange] as [number, number],
+        filtered: action.payload.products,
+        sorted: action.payload.products,
+        itemPerPage: action.payload.itemPerPage,
+        categories: action.payload.categories,
+        tags: action.payload.tags,
+      };
+
     case "CLEAR_FILTER":
       return {
         ...state,

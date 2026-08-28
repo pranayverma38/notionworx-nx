@@ -23,7 +23,21 @@ export function useShopState({
   products: sourceProducts,
 }: UseShopStateOptions) {
   const priceMax = maxCatalogPrice(sourceProducts);
-  const defaultPriceRange: [number, number] = [0, Math.ceil(priceMax)];
+  const itemPerPage = itemPerPageProp || 12;
+  const defaultCategoriesKey = defaultCategories.join("\u0000");
+  const defaultTagsKey = defaultTags.join("\u0000");
+  const defaultPriceRange = useMemo<[number, number]>(
+    () => [0, Math.ceil(priceMax)],
+    [priceMax],
+  );
+  const normalizedDefaultCategories = useMemo(
+    () => [...defaultCategories],
+    [defaultCategoriesKey],
+  );
+  const normalizedDefaultTags = useMemo(
+    () => [...defaultTags],
+    [defaultTagsKey],
+  );
 
   const initial: FilterState = {
     ...staticInitialState,
@@ -31,12 +45,33 @@ export function useShopState({
     price: [...defaultPriceRange] as [number, number],
     filtered: sourceProducts,
     sorted: sourceProducts,
-    itemPerPage: itemPerPageProp ? itemPerPageProp : 12,
-    categories: defaultCategories,
-    tags: defaultTags,
+    itemPerPage,
+    categories: normalizedDefaultCategories,
+    tags: normalizedDefaultTags,
   };
 
   const [state, dispatch] = useReducer(filterReducer, initial);
+
+  useEffect(() => {
+    dispatch({
+      type: "RESET_FILTERS_TO_DEFAULTS",
+      payload: {
+        categories: normalizedDefaultCategories,
+        defaultPriceRange,
+        itemPerPage,
+        products: sourceProducts,
+        tags: normalizedDefaultTags,
+      },
+    });
+  }, [
+    defaultCategoriesKey,
+    defaultPriceRange,
+    defaultTagsKey,
+    itemPerPage,
+    normalizedDefaultCategories,
+    normalizedDefaultTags,
+    sourceProducts,
+  ]);
 
   useEffect(() => {
     dispatch({ type: "FILTER_PRODUCTS", payload: sourceProducts });

@@ -50,4 +50,14 @@ export type FilterAction =
   | { type: "SET_SORTING_OPTION"; payload: SortingOption }
   | { type: "SORT_PRODUCTS" }
   | { type: "TOGGLE_FILTER_ON_SALE" }
+  | {
+      type: "RESET_FILTERS_TO_DEFAULTS";
+      payload: {
+        categories: string[];
+        defaultPriceRange: [number, number];
+        itemPerPage: number;
+        products: ShopProduct[];
+        tags: string[];
+      };
+    }
   | { type: "CLEAR_FILTER" };

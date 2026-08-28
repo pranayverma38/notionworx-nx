@@ -29,7 +29,11 @@ export default function BrowseByCategoryNav({
   }, []);
 
   return (
-    <div ref={navRef}>
+    <div
+      ref={navRef}
+      onMouseEnter={() => setIsOpen(true)}
+      onMouseLeave={() => setIsOpen(false)}
+    >
       <div
         className={`btn-nav-drop btn-active text-nowrap ${hasRadiusBtn ? "radius-8" : ""} ${isOpen ? "active" : ""}`}
         onClick={() => setIsOpen(!isOpen)}

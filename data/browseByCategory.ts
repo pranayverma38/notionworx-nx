@@ -1,99 +1,79 @@
 import type { BrowseByCategoryItem } from "@/types/browseByCategory";
 
+const categoryHref = (category: string) =>
+  `/shop-default?category=${encodeURIComponent(category)}`;
+
 export const browseByCategoryItems: BrowseByCategoryItem[] = [
   {
-    label: "Sleep & Recovery",
-    href: "/shop-default",
-    showCaret: true,
-  },
-  {
-    label: "Stress & Anxiety Relief",
-    href: "/shop-default",
-    showCaret: true,
+    label: "PREMIUM CANOPIES",
+    href: categoryHref("Custom Canopy Tents – Personalized Pop Up Tents for Events"),
     subSections: [
       {
-        title: "Relaxation Techniques",
+        title: "Canopy Kits",
         links: [
-          { label: "Guided Meditation", href: "/shop-default" },
-          { label: "Deep Breathing", href: "/shop-default" },
-          { label: "Progressive Relaxation", href: "/shop-default" },
-          { label: "Calming Sounds", href: "/shop-default" },
-        ],
-      },
-      {
-        title: "Stress Management Tools",
-        links: [
-          { label: "Daily Stress Log", href: "/shop-default" },
-          { label: "Deep Breathing", href: "/shop-default" },
-          { label: "Mood Tracker", href: "/shop-default" },
-          { label: "Stress-Level Quiz", href: "/shop-default" },
-        ],
-      },
-      {
-        title: "Emotional Support Tips",
-        links: [
-          { label: "Coping Methods", href: "/shop-default" },
-          { label: "Emotional Awareness", href: "/shop-default" },
-          { label: "Reset Routines", href: "/shop-default" },
-          { label: "Grounding Practices", href: "/shop-default" },
-        ],
-      },
-      {
-        title: "Natural Remedies",
-        links: [
-          { label: "Herbal Teas", href: "/shop-default" },
-          { label: "Aromatherapy Oils", href: "/shop-default" },
-          { label: "Calming Supplements", href: "/shop-default" },
-          { label: "Sleep-Friendly Herbs", href: "/shop-default" },
-        ],
-      },
-      {
-        title: "Lifestyle Adjustments",
-        links: [
-          { label: "Sleep Hygiene", href: "/shop-default" },
-          { label: "Workload Balancing", href: "/shop-default" },
-          { label: "Break Scheduling", href: "/shop-default" },
-          { label: "Digital Detox", href: "/shop-default" },
-        ],
-      },
-      {
-        title: "Mind-Body Practices",
-        links: [
-          { label: "Light Yoga", href: "/shop-default" },
-          { label: "Stretch Routines", href: "/shop-default" },
-          { label: "Mindful Walking", href: "/shop-default" },
-          { label: "Body Scan Method", href: "/shop-default" },
+          {
+            label: "All Canopies",
+            href: categoryHref(
+              "Custom Canopy Tents – Personalized Pop Up Tents for Events",
+            ),
+          },
+          {
+            label: "5' x 5' Canopy Kit",
+            href: categoryHref("5x5 Custom Canopies"),
+          },
+          {
+            label: "10' x 10' Canopy Kit",
+            href: categoryHref("10x10 Custom Canopies"),
+          },
+          {
+            label: "10' x 15' Canopy Kit",
+            href: categoryHref("10x15 Custom Canopies"),
+          },
+          {
+            label: "10' x 20' Canopy Kit",
+            href: categoryHref("10x20 Custom Canopies"),
+          },
+          {
+            label: "Trade Show Essentials",
+            href: categoryHref(
+              "Trade Show Essentials – 10x10, 10x15 & 10x20 Custom Canopy Tents for Events & Exhibits",
+            ),
+          },
+          { label: "Food Booth", href: categoryHref("Food Booth") },
         ],
       },
     ],
   },
   {
-    label: "Focus & Productivity",
-    href: "/shop-default",
+    label: "PREMIUM FLAGS",
+    href: categoryHref("FLAGS"),
   },
   {
-    label: "Mood & Emotional Balance",
-    href: "/shop-default",
-    showCaret: true,
+    label: "TABLE COVERS",
+    href: categoryHref("TABLE COVER"),
   },
   {
-    label: "Daily Energy Boost",
-    href: "/shop-default",
-    showCaret: true,
+    label: "ACCESSORIES",
+    href: categoryHref("Accessories"),
   },
   {
-    label: "Fitness & Body Strength",
-    href: "/shop-default",
-    showCaret: true,
+    label: "BANNERS & DISPLAYS",
+    href: categoryHref("BANNERS & DISPLAYS"),
+    subSections: [
+      {
+        title: "Displays",
+        links: [
+          {
+            label: "BANNERS & DISPLAYS",
+            href: categoryHref("BANNERS & DISPLAYS"),
+          },
+          { label: "SEG PRODUCTS", href: categoryHref("SEG PRODUCTS") },
+        ],
+      },
+    ],
   },
   {
-    label: "Pain & Muscle Support",
-    href: "/shop-default",
-    showCaret: true,
-  },
-  {
-    label: "Healthy Habits & Lifestyle",
-    href: "/shop-default",
-    showCaret: true,
+    label: "APPAREL",
+    href: categoryHref("APPAREL"),
   },
 ];

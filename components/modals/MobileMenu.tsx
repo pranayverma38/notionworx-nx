@@ -2,14 +2,8 @@
 
 import Link from "next/link";
 import { useRouter } from "next/navigation";
+import { notionWorxMobileMenuItems, type SiteNavItem } from "@/data/notionworxNav";
 import { PreventDefaultForm } from "@/components/forms/PreventDefaultForm";
-import {
-  navBlog,
-  navHomeLinks,
-  navPages,
-  navProduct,
-  navShop,
-} from "@/data/nav";
 import CurrencySelect from "../common/CurrencySelect";
 import LanguageSelect from "../common/LanguageSelect";
 
@@ -19,6 +13,66 @@ export default function MobileMenu({
   registerOffcanvasElement?: (el: HTMLElement | null) => void;
 }) {
   const router = useRouter();
+
+  const renderMobileMenuItems = (
+    items: SiteNavItem[],
+    parentKey = "menu",
+    level = 0,
+  ) => (
+    <ul
+      className={
+        level === 0 ? "nav-ul-mb" : `sub-nav-menu${level > 1 ? " sub-menu-level-2" : ""}`
+      }
+      {...(level === 0 ? { id: "wrapper-menu-navigation" } : {})}
+    >
+      {items.map((item, index) => {
+        const hasChildren = Boolean(item.children?.length);
+        const collapseId = `${parentKey}-${index}`;
+
+        if (hasChildren) {
+          return (
+            <li
+              key={`${collapseId}-${item.label}`}
+              className={level === 0 ? "nav-mb-item" : undefined}
+            >
+              <a
+                href={`#${collapseId}`}
+                className={level === 0 ? "collapsed mb-menu-link" : "collapsed sub-nav-link"}
+                data-bs-toggle="collapse"
+                aria-expanded="false"
+                aria-controls={collapseId}
+              >
+                <span>{item.label}</span>
+                <span
+                  className={
+                    level === 0 ? "icon ic-custom" : "icon icon-CaretDown"
+                  }
+                  aria-hidden
+                />
+              </a>
+              <div id={collapseId} className="collapse">
+                {renderMobileMenuItems(item.children ?? [], collapseId, level + 1)}
+              </div>
+            </li>
+          );
+        }
+
+        return (
+          <li
+            key={`${collapseId}-${item.label}`}
+            className={level === 0 ? "nav-mb-item" : undefined}
+          >
+            <Link
+              href={item.href ?? "#"}
+              className={level === 0 ? "mb-menu-link" : "sub-nav-link"}
+            >
+              <span className={level === 0 ? undefined : "cus-text"}>{item.label}</span>
+            </Link>
+          </li>
+        );
+      })}
+    </ul>
+  );
 
   return (
     <div
@@ -58,184 +112,8 @@ export default function MobileMenu({
 
       <div className="canvas-body">
         <div className="mb-content-top">
-          <ul className="nav-ul-mb" id="wrapper-menu-navigation">
-            <li className="nav-mb-item">
-              <a
-                href="#dropdown-menu-0"
-                className="mb-menu-link collapsed"
-                data-bs-toggle="collapse"
-                aria-expanded="false"
-                aria-controls="dropdown-menu-0"
-              >
-                <span>Home</span>
-                <span className="icon ic-custom" aria-hidden />
-              </a>
-              <div id="dropdown-menu-0" className="collapse">
-                <ul className="sub-nav-menu">
-                  {navHomeLinks
-                    .flatMap((column) => column)
-                    .map((item) => (
-                      <li key={item.href}>
-                        <Link href={item.href} className="sub-nav-link">
-                          <span className="cus-text">{item.text}</span>
-                          {item.label && (
-                            <span className={`demo-label type-${item.label}`}>
-                              {item.label === "hot"
-                                ? "Hot"
-                                : item.label === "new"
-                                  ? "New"
-                                  : "Trend"}
-                            </span>
-                          )}
-                        </Link>
-                      </li>
-                    ))}
-                </ul>
-              </div>
-            </li>
-
-            <li className="nav-mb-item">
-              <a
-                href="#dropdown-menu-1"
-                className="collapsed mb-menu-link"
-                data-bs-toggle="collapse"
-                aria-expanded="false"
-                aria-controls="dropdown-menu-1"
-              >
-                <span>Shop</span>
-                <span className="icon ic-custom" aria-hidden />
-              </a>
-              <div id="dropdown-menu-1" className="collapse">
-                <ul className="sub-nav-menu">
-                  {navShop.map((group, groupIndex) => (
-                    <li key={group.title}>
-                      <a
-                        href={`#dropdown-menu-1-group-${groupIndex}`}
-                        className="collapsed sub-nav-link"
-                        data-bs-toggle="collapse"
-                        aria-expanded="false"
-                        aria-controls={`dropdown-menu-1-group-${groupIndex}`}
-                      >
-                        <span>{group.title}</span>
-                        <span className="icon icon-CaretDown" aria-hidden />
-                      </a>
-                      <div
-                        id={`dropdown-menu-1-group-${groupIndex}`}
-                        className="collapse"
-                      >
-                        <ul className="sub-nav-menu sub-menu-level-2">
-                          {group.links.map((link) => (
-                            <li key={link.href}>
-                              <Link href={link.href} className="sub-nav-link">
-                                <span className="cus-text">{link.text}</span>
-                              </Link>
-                            </li>
-                          ))}
-                        </ul>
-                      </div>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            </li>
-
-            <li className="nav-mb-item">
-              <a
-                href="#dropdown-menu-2"
-                className="collapsed mb-menu-link"
-                data-bs-toggle="collapse"
-                aria-expanded="false"
-                aria-controls="dropdown-menu-2"
-              >
-                <span>Product</span>
-                <span className="icon ic-custom" aria-hidden />
-              </a>
-              <div id="dropdown-menu-2" className="collapse">
-                <ul className="sub-nav-menu">
-                  {navProduct.map((group, groupIndex) => (
-                    <li key={group.title}>
-                      <a
-                        href={`#dropdown-menu-2-group-${groupIndex}`}
-                        className="collapsed sub-nav-link"
-                        data-bs-toggle="collapse"
-                        aria-expanded="false"
-                        aria-controls={`dropdown-menu-2-group-${groupIndex}`}
-                      >
-                        <span>{group.title}</span>
-                        <span className="icon icon-CaretDown" aria-hidden />
-                      </a>
-                      <div
-                        id={`dropdown-menu-2-group-${groupIndex}`}
-                        className="collapse"
-                      >
-                        <ul className="sub-nav-menu sub-menu-level-2">
-                          {group.links.map((link) => (
-                            <li key={link.href}>
-                              <Link href={link.href} className="sub-nav-link">
-                                <span className="cus-text">{link.text}</span>
-                              </Link>
-                            </li>
-                          ))}
-                        </ul>
-                      </div>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            </li>
-
-            {navBlog.length > 0 && (
-              <li className="nav-mb-item">
-                <a
-                  href="#dropdown-menu-3"
-                  className="collapsed mb-menu-link"
-                  data-bs-toggle="collapse"
-                  aria-expanded="false"
-                  aria-controls="dropdown-menu-3"
-                >
-                  <span>Blog</span>
-                  <span className="icon ic-custom" aria-hidden />
-                </a>
-                <div id="dropdown-menu-3" className="collapse">
-                  <ul className="sub-nav-menu">
-                    {navBlog.map((link) => (
-                      <li key={link.href}>
-                        <Link href={link.href} className="sub-nav-link">
-                          <span className="cus-text">{link.text}</span>
-                        </Link>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              </li>
-            )}
-
-            <li className="nav-mb-item">
-              <a
-                href="#dropdown-menu-4"
-                className="collapsed mb-menu-link"
-                data-bs-toggle="collapse"
-                aria-expanded="false"
-                aria-controls="dropdown-menu-4"
-              >
-                <span>Pages</span>
-                <span className="icon ic-custom" aria-hidden />
-              </a>
-              <div id="dropdown-menu-4" className="collapse">
-                <ul className="sub-nav-menu">
-                  {navPages.map((link) => (
-                    <li key={link.href}>
-                      <Link href={link.href} className="sub-nav-link">
-                        <span className="cus-text">{link.text}</span>
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            </li>
-          </ul>
+          {renderMobileMenuItems(notionWorxMobileMenuItems)}
         </div>
-
       </div>
 
       <div className="canvas-footer">
