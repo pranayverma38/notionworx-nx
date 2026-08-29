@@ -1332,6 +1332,10 @@
     background: #fff;
   }
 
+  .product-addons__media-dialog {
+    width: min(92vw, 680px);
+  }
+
   .product-addons__info-image {
     display: block;
     width: 100%;
@@ -1427,6 +1431,15 @@
     text-align: left;
     display: block;
     cursor: pointer;
+    min-width: 0;
+  }
+
+  .product-addon-card__image-button {
+    border: 0;
+    background: transparent;
+    padding: 0;
+    cursor: zoom-in;
+    min-width: 0;
   }
 
   .product-addon-card__media {
@@ -1671,6 +1684,10 @@
 
       .product-addons__info-dialog {
         width: min(96vw, 760px);
+      }
+
+      .product-addons__media-dialog {
+        width: min(96vw, 680px);
       }
 
       .product-addon-card {

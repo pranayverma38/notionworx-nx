@@ -92,11 +92,6 @@ export function ProductAddOnPicker() {
                 </p>
               ) : null}
             </div>
-            <span className="product-addons__group-mode">
-                {group.selectionMode === "multiple"
-                  ? "Multiple selections allowed"
-                  : "Single selection"}
-            </span>
           </div>
 
           {(group.subgroups ?? []).map((subgroup) => (
@@ -326,24 +321,24 @@ function AddOnOptionCard({
       ? `(+ ${formatPrice(option.price.surcharge)})`
       : "Included");
   const titleParts = [option.hoverTitle || option.title, metaText].filter(Boolean);
+  const [isImageOpen, setIsImageOpen] = useState(false);
 
   return (
     <div className={`product-addon-card${isSelected ? " is-selected" : ""}`}>
-      <button
-        type="button"
-        onClick={onToggle}
-        aria-pressed={isSelected}
-        title={titleParts.join(" | ")}
-        className="product-addon-card__toggle"
-      >
-        <div className="product-addon-card__media">
-          {isSelected ? (
-            <span className="product-addon-card__selected-badge" aria-hidden>
-              ✓
-            </span>
-          ) : null}
-          <div className="product-addon-card__image">
-            {option.image ? (
+      <div className="product-addon-card__media">
+        {isSelected ? (
+          <span className="product-addon-card__selected-badge" aria-hidden>
+            ✓
+          </span>
+        ) : null}
+        {option.image ? (
+          <button
+            type="button"
+            className="product-addon-card__image-button"
+            onClick={() => setIsImageOpen(true)}
+            aria-label={`Open ${option.title} image`}
+          >
+            <div className="product-addon-card__image">
               <Image
                 src={option.image}
                 alt={option.title}
@@ -351,12 +346,22 @@ function AddOnOptionCard({
                 sizes="64px"
                 style={{ objectFit: "cover" }}
               />
-            ) : (
-              <span className="product-addon-card__image-fallback">
-                {subgroup?.title || group.title}
-              </span>
-            )}
+            </div>
+          </button>
+        ) : (
+          <div className="product-addon-card__image">
+            <span className="product-addon-card__image-fallback">
+              {subgroup?.title || group.title}
+            </span>
           </div>
+        )}
+        <button
+          type="button"
+          onClick={onToggle}
+          aria-pressed={isSelected}
+          title={titleParts.join(" | ")}
+          className="product-addon-card__toggle"
+        >
           <div className="product-addon-card__content">
             <div className="product-addon-card__body">
               <div className="product-addon-card__title-row">
@@ -367,8 +372,47 @@ function AddOnOptionCard({
               <span className="product-addon-card__unit-price">{priceLabel}</span>
             </div>
           </div>
+        </button>
+      </div>
+
+      {isImageOpen ? (
+        <div
+          className="product-addons__info-modal"
+          role="dialog"
+          aria-modal="true"
+          aria-label={`${option.title} image preview`}
+        >
+          <button
+            type="button"
+            className="product-addons__info-backdrop"
+            aria-label={`Close ${option.title} image preview`}
+            onClick={() => setIsImageOpen(false)}
+          />
+          <div className="product-addons__info-dialog product-addons__media-dialog">
+            <div className="product-addons__info-dialog-header">
+              <h5 className="product-addons__info-title">{option.title}</h5>
+              <button
+                type="button"
+                className="product-addons__info-close"
+                aria-label={`Close ${option.title} image preview`}
+                onClick={() => setIsImageOpen(false)}
+              >
+                ×
+              </button>
+            </div>
+            <div className="product-addons__info-image-wrap">
+              <Image
+                src={option.image}
+                alt={option.title}
+                width={1200}
+                height={1200}
+                className="product-addons__info-image"
+                style={{ width: "100%", height: "auto", objectFit: "contain" }}
+              />
+            </div>
+          </div>
         </div>
-      </button>
+      ) : null}
 
       {isSelected && allowsQuantity ? (
         <div className="product-addon-card__quantity-row">
