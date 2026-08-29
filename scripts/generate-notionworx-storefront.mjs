@@ -95,8 +95,6 @@ const SECTION_TITLES = new Set([
   "primary usage",
   "order cutoff time",
   "size and weight",
-  "size",
-  "specifications",
   "warranty",
   "faq",
   "what's included",
@@ -113,9 +111,7 @@ const DIMENSIONS_SECTION_TITLES = new Set([
   "fits approx. table sizes",
   "product dimensions",
   "product size",
-  "size",
   "size and weight",
-  "specifications",
 ]);
 const WARRANTY_SECTION_TITLES = new Set([
   "1 year product warranty",
