@@ -277,8 +277,8 @@ export const storefrontProducts = [
             "hoverTitle": "Hex Aluminum",
             "hoverDescription": "Frame Type",
             "price": {
-              "surcharge": 0,
-              "label": "Included"
+              "surcharge": 100,
+              "label": "(+ $100.00)"
             },
             "allowsQuantity": false,
             "minQuantity": 1,
@@ -880,8 +880,8 @@ export const storefrontProducts = [
             "hoverTitle": "Hex Aluminum",
             "hoverDescription": "Frame Type",
             "price": {
-              "surcharge": 0,
-              "label": "Included"
+              "surcharge": 100,
+              "label": "(+ $100.00)"
             },
             "allowsQuantity": false,
             "minQuantity": 1,
@@ -1164,8 +1164,8 @@ export const storefrontProducts = [
             "hoverTitle": "Hex Aluminum",
             "hoverDescription": "Frame Type",
             "price": {
-              "surcharge": 0,
-              "label": "Included"
+              "surcharge": 100,
+              "label": "(+ $100.00)"
             },
             "allowsQuantity": false,
             "minQuantity": 1,
@@ -7944,8 +7944,8 @@ export const storefrontProducts = [
             "hoverTitle": "Hex Aluminum",
             "hoverDescription": "Frame Type",
             "price": {
-              "surcharge": 0,
-              "label": "Included"
+              "surcharge": 100,
+              "label": "(+ $100.00)"
             },
             "allowsQuantity": false,
             "minQuantity": 1,
@@ -9688,8 +9688,8 @@ export const storefrontProducts = [
             "hoverTitle": "Hex Aluminum",
             "hoverDescription": "Frame Type",
             "price": {
-              "surcharge": 0,
-              "label": "Included"
+              "surcharge": 100,
+              "label": "(+ $100.00)"
             },
             "allowsQuantity": false,
             "minQuantity": 1,
@@ -12231,8 +12231,8 @@ export const storefrontProducts = [
             "hoverTitle": "Hex Aluminum",
             "hoverDescription": "Frame Type",
             "price": {
-              "surcharge": 0,
-              "label": "Included"
+              "surcharge": 100,
+              "label": "(+ $100.00)"
             },
             "allowsQuantity": false,
             "minQuantity": 1,
@@ -15121,8 +15121,8 @@ export const storefrontProducts = [
             "hoverTitle": "Hex Aluminum",
             "hoverDescription": "Frame Type",
             "price": {
-              "surcharge": 0,
-              "label": "Included"
+              "surcharge": 100,
+              "label": "(+ $100.00)"
             },
             "allowsQuantity": false,
             "minQuantity": 1,

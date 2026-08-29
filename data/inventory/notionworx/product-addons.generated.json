@@ -257,8 +257,8 @@
             "hoverTitle": "Hex Aluminum",
             "hoverDescription": "Frame Type",
             "price": {
-              "surcharge": 0.0,
-              "label": "Included"
+              "surcharge": 100.0,
+              "label": "(+ $100.00)"
             },
             "allowsQuantity": false,
             "minQuantity": 1,
@@ -590,8 +590,8 @@
             "hoverTitle": "Hex Aluminum",
             "hoverDescription": "Frame Type",
             "price": {
-              "surcharge": 0.0,
-              "label": "Included"
+              "surcharge": 100.0,
+              "label": "(+ $100.00)"
             },
             "allowsQuantity": false,
             "minQuantity": 1,
@@ -826,8 +826,8 @@
             "hoverTitle": "Hex Aluminum",
             "hoverDescription": "Frame Type",
             "price": {
-              "surcharge": 0.0,
-              "label": "Included"
+              "surcharge": 100.0,
+              "label": "(+ $100.00)"
             },
             "allowsQuantity": false,
             "minQuantity": 1,
@@ -3336,8 +3336,8 @@
             "hoverTitle": "Hex Aluminum",
             "hoverDescription": "Frame Type",
             "price": {
-              "surcharge": 0.0,
-              "label": "Included"
+              "surcharge": 100.0,
+              "label": "(+ $100.00)"
             },
             "allowsQuantity": false,
             "minQuantity": 1,
@@ -4435,8 +4435,8 @@
             "hoverTitle": "Hex Aluminum",
             "hoverDescription": "Frame Type",
             "price": {
-              "surcharge": 0.0,
-              "label": "Included"
+              "surcharge": 100.0,
+              "label": "(+ $100.00)"
             },
             "allowsQuantity": false,
             "minQuantity": 1,
@@ -6552,8 +6552,8 @@
             "hoverTitle": "Hex Aluminum",
             "hoverDescription": "Frame Type",
             "price": {
-              "surcharge": 0.0,
-              "label": "Included"
+              "surcharge": 100.0,
+              "label": "(+ $100.00)"
             },
             "allowsQuantity": false,
             "minQuantity": 1,
@@ -8878,8 +8878,8 @@
             "hoverTitle": "Hex Aluminum",
             "hoverDescription": "Frame Type",
             "price": {
-              "surcharge": 0.0,
-              "label": "Included"
+              "surcharge": 100.0,
+              "label": "(+ $100.00)"
             },
             "allowsQuantity": false,
             "minQuantity": 1,
