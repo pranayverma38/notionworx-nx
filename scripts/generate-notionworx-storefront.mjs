@@ -80,15 +80,21 @@ function normalizeLongFormField(value) {
   return normalized.length > 0 ? normalized : undefined;
 }
 
-const STRUCTURED_DESCRIPTION_COLLECTIONS = new Set(["10x10", "10x20"]);
 const SECTION_TITLES = new Set([
+  "available sizes",
+  "available sizes & dimensions",
+  "dimensions",
+  "factory warranty",
   "features",
+  "fits approx. table sizes",
   "product dimensions",
+  "product size",
   "kit include",
   "kit includes",
   "materials",
   "primary usage",
   "order cutoff time",
+  "size and weight",
   "warranty",
   "faq",
   "what's included",
@@ -97,6 +103,20 @@ const SECTION_TITLES = new Set([
   "compatibility",
   "certifications",
   "imprint method",
+]);
+const DIMENSIONS_SECTION_TITLES = new Set([
+  "available sizes",
+  "available sizes & dimensions",
+  "dimensions",
+  "fits approx. table sizes",
+  "product dimensions",
+  "product size",
+  "size and weight",
+]);
+const WARRANTY_SECTION_TITLES = new Set([
+  "1 year product warranty",
+  "factory warranty",
+  "warranty",
 ]);
 
 function escapeHtml(value) {
@@ -143,6 +163,7 @@ function splitHtmlLines(innerHtml) {
 
 function normalizeSectionTitle(value) {
   return String(value || "")
+    .replace(/^[^A-Za-z0-9]+/g, "")
     .replace(/:$/, "")
     .replace(/\s+/g, " ")
     .trim();
@@ -284,18 +305,327 @@ function normalizeDescriptionHtml(product) {
     return undefined;
   }
 
-  const isTargetCollectionProduct = (product.categories || []).some((category) =>
-    STRUCTURED_DESCRIPTION_COLLECTIONS.has(category.handle),
-  );
-
-  if (!isTargetCollectionProduct) {
-    return html;
-  }
-
   return normalizeAboutThisItemList(html).replace(
     /<p\b[^>]*>([\s\S]*?)<\/p>/gi,
     normalizeMultilineParagraph,
   );
+}
+
+function htmlToPlainText(html) {
+  if (!html) {
+    return undefined;
+  }
+
+  const text = decodeHtmlEntities(String(html))
+    .replace(/<br\s*\/?>/gi, "\n")
+    .replace(/<\/p>/gi, "\n\n")
+    .replace(/<\/li>/gi, "\n")
+    .replace(/<li\b[^>]*>/gi, "- ")
+    .replace(/<\/h[1-6]>/gi, "\n\n")
+    .replace(/<[^>]+>/g, " ")
+    .replace(/[ \t]+\n/g, "\n")
+    .replace(/\n[ \t]+/g, "\n")
+    .replace(/\n{3,}/g, "\n\n")
+    .replace(/[ \t]{2,}/g, " ")
+    .trim();
+
+  return text || undefined;
+}
+
+function joinHtmlChunks(chunks) {
+  const normalized = chunks
+    .map((chunk) => String(chunk || "").trim())
+    .filter(Boolean)
+    .join("\n")
+    .trim();
+
+  return normalized || undefined;
+}
+
+function classifySupplementalText(text) {
+  const normalized = normalizeSectionTitle(stripHtml(text)).toLowerCase();
+
+  if (!normalized) {
+    return null;
+  }
+
+  if (
+    DIMENSIONS_SECTION_TITLES.has(normalized) ||
+    /\bavailable sizes?\b/.test(normalized) ||
+    /\bavailable sizes? & dimensions\b/.test(normalized) ||
+    /\bavailable in\b.*\bsizes?\b/.test(normalized) ||
+    /\bassembled size\b/.test(normalized) ||
+    /\bcase dimensions\b/.test(normalized) ||
+    /\bcollapsible dimensions\b/.test(normalized) ||
+    /\bdisplay size\b/.test(normalized) ||
+    /\bgraphic size\b/.test(normalized) ||
+    /\bpackage size\b/.test(normalized) ||
+    /\bproduct dimensions?\b/.test(normalized) ||
+    /^dimensions?\b/.test(normalized) ||
+    /^product size\b/.test(normalized) ||
+    /\bshipping dimensions\b/.test(normalized) ||
+    /\btemplate size\b/.test(normalized) ||
+    /\btotal height\b/.test(normalized) ||
+    /^size\b/.test(normalized) ||
+    /\binside diameter\b/.test(normalized) ||
+    /\boutside diameter\b/.test(normalized)
+  ) {
+    return "dimensions";
+  }
+
+  if (
+    WARRANTY_SECTION_TITLES.has(normalized) ||
+    /\blifetime warranty\b/.test(normalized) ||
+    /\b1 year product warranty\b/.test(normalized) ||
+    /\b90 day graphic warranty\b/.test(normalized) ||
+    /\bhardware warranty\b/.test(normalized) ||
+    /\bgraphic warranty\b/.test(normalized) ||
+    /\bvoids the warranty\b/.test(normalized) ||
+    /\bwarranty covers\b/.test(normalized) ||
+    /\bwarranty\)/.test(normalized)
+  ) {
+    return "warranty";
+  }
+
+  return null;
+}
+
+function renderParagraphFromLines(lines) {
+  if (!lines.length) {
+    return undefined;
+  }
+
+  return `<p>${lines.map((line) => line.html).join("<br>")}</p>`;
+}
+
+function renderListFromItems(items) {
+  if (!items.length) {
+    return undefined;
+  }
+
+  return `<ul>\n${items.map((item) => `  <li>${item.html}</li>`).join("\n")}\n</ul>`;
+}
+
+function extractSupplementalContentFromParagraphs(html) {
+  const dimensionsChunks = [];
+  const warrantyChunks = [];
+  const descriptionHtml = String(html || "").replace(
+    /<p\b[^>]*>([\s\S]*?)<\/p>/gi,
+    (match, innerHtml) => {
+      const lines = splitHtmlLines(innerHtml);
+
+      if (!lines.length) {
+        return match;
+      }
+
+      if (lines.length === 1) {
+        const kind = classifySupplementalText(lines[0].text);
+
+        if (!kind) {
+          return match;
+        }
+
+        if (kind === "dimensions") {
+          dimensionsChunks.push(match.trim());
+        } else {
+          warrantyChunks.push(match.trim());
+        }
+
+        return "";
+      }
+
+      const keepLines = [];
+      const extractedLines = {
+        dimensions: [],
+        warranty: [],
+      };
+
+      for (const line of lines) {
+        const kind = classifySupplementalText(line.text);
+
+        if (kind === "dimensions") {
+          extractedLines.dimensions.push(line);
+        } else if (kind === "warranty") {
+          extractedLines.warranty.push(line);
+        } else {
+          keepLines.push(line);
+        }
+      }
+
+      if (!extractedLines.dimensions.length && !extractedLines.warranty.length) {
+        return match;
+      }
+
+      const dimensionsHtml = renderParagraphFromLines(extractedLines.dimensions);
+      const warrantyHtml = renderParagraphFromLines(extractedLines.warranty);
+      const keptHtml = renderParagraphFromLines(keepLines);
+
+      if (dimensionsHtml) {
+        dimensionsChunks.push(dimensionsHtml);
+      }
+
+      if (warrantyHtml) {
+        warrantyChunks.push(warrantyHtml);
+      }
+
+      return keptHtml || "";
+    },
+  );
+
+  return {
+    descriptionHtml: joinHtmlChunks([descriptionHtml]),
+    dimensionsHtml: joinHtmlChunks(dimensionsChunks),
+    warrantyHtml: joinHtmlChunks(warrantyChunks),
+  };
+}
+
+function extractSupplementalContentFromLists(html) {
+  const dimensionsChunks = [];
+  const warrantyChunks = [];
+  const descriptionHtml = String(html || "").replace(
+    /<ul>\s*([\s\S]*?)\s*<\/ul>/gi,
+    (match, innerHtml) => {
+      const items = [...innerHtml.matchAll(/<li\b[^>]*>([\s\S]*?)<\/li>/gi)].map(
+        (itemMatch) => ({
+          html: itemMatch[1].trim(),
+          text: stripHtml(itemMatch[1]),
+        }),
+      );
+
+      if (!items.length) {
+        return match;
+      }
+
+      const keepItems = [];
+      const extractedItems = {
+        dimensions: [],
+        warranty: [],
+      };
+
+      for (const item of items) {
+        const kind = classifySupplementalText(item.text);
+
+        if (kind === "dimensions") {
+          extractedItems.dimensions.push(item);
+        } else if (kind === "warranty") {
+          extractedItems.warranty.push(item);
+        } else {
+          keepItems.push(item);
+        }
+      }
+
+      if (!extractedItems.dimensions.length && !extractedItems.warranty.length) {
+        return match;
+      }
+
+      const dimensionsHtml = renderListFromItems(extractedItems.dimensions);
+      const warrantyHtml = renderListFromItems(extractedItems.warranty);
+      const keptHtml = renderListFromItems(keepItems);
+
+      if (dimensionsHtml) {
+        dimensionsChunks.push(dimensionsHtml);
+      }
+
+      if (warrantyHtml) {
+        warrantyChunks.push(warrantyHtml);
+      }
+
+      return keptHtml || "";
+    },
+  );
+
+  return {
+    descriptionHtml: joinHtmlChunks([descriptionHtml]),
+    dimensionsHtml: joinHtmlChunks(dimensionsChunks),
+    warrantyHtml: joinHtmlChunks(warrantyChunks),
+  };
+}
+
+function extractDescriptionTabs(html) {
+  const normalizedHtml = normalizeLongFormField(html);
+
+  if (!normalizedHtml) {
+    return {
+      descriptionHtml: undefined,
+      dimensionsHtml: undefined,
+      warrantyHtml: undefined,
+    };
+  }
+
+  const headingPattern = /<(h[1-6])\b[^>]*>[\s\S]*?<\/\1>/gi;
+  const headingMatches = [...normalizedHtml.matchAll(headingPattern)];
+
+  if (!headingMatches.length) {
+    return {
+      descriptionHtml: normalizedHtml,
+      dimensionsHtml: undefined,
+      warrantyHtml: undefined,
+    };
+  }
+
+  const descriptionChunks = [];
+  const dimensionsChunks = [];
+  const warrantyChunks = [];
+  let cursor = 0;
+
+  for (let index = 0; index < headingMatches.length; index += 1) {
+    const match = headingMatches[index];
+    const headingHtml = match[0];
+    const headingStart = match.index ?? 0;
+    const nextStart =
+      index < headingMatches.length - 1
+        ? (headingMatches[index + 1].index ?? normalizedHtml.length)
+        : normalizedHtml.length;
+
+    if (headingStart > cursor) {
+      descriptionChunks.push(normalizedHtml.slice(cursor, headingStart));
+    }
+
+    const sectionHtml = normalizedHtml.slice(headingStart, nextStart).trim();
+    const headingText = normalizeSectionTitle(stripHtml(headingHtml)).toLowerCase();
+
+    if (DIMENSIONS_SECTION_TITLES.has(headingText)) {
+      dimensionsChunks.push(sectionHtml);
+    } else if (WARRANTY_SECTION_TITLES.has(headingText)) {
+      warrantyChunks.push(sectionHtml);
+    } else {
+      descriptionChunks.push(sectionHtml);
+    }
+
+    cursor = nextStart;
+  }
+
+  if (cursor < normalizedHtml.length) {
+    descriptionChunks.push(normalizedHtml.slice(cursor));
+  }
+
+  const initialDescriptionHtml = joinHtmlChunks(descriptionChunks);
+  const paragraphExtraction = extractSupplementalContentFromParagraphs(
+    initialDescriptionHtml,
+  );
+  const listExtraction = extractSupplementalContentFromLists(
+    paragraphExtraction.descriptionHtml,
+  );
+  const finalDescriptionHtml = listExtraction.descriptionHtml
+    ? normalizeAboutThisItemList(listExtraction.descriptionHtml).replace(
+        /<p\b[^>]*>([\s\S]*?)<\/p>/gi,
+        normalizeMultilineParagraph,
+      )
+    : undefined;
+
+  return {
+    descriptionHtml: finalDescriptionHtml,
+    dimensionsHtml: joinHtmlChunks([
+      joinHtmlChunks(dimensionsChunks),
+      paragraphExtraction.dimensionsHtml,
+      listExtraction.dimensionsHtml,
+    ]),
+    warrantyHtml: joinHtmlChunks([
+      joinHtmlChunks(warrantyChunks),
+      paragraphExtraction.warrantyHtml,
+      listExtraction.warrantyHtml,
+    ]),
+  };
 }
 
 function looksLikeColorOption(name) {
@@ -392,9 +722,16 @@ function buildProduct(product, index) {
   const priceOld = product.price?.compareAtMax ?? undefined;
   const categoryTitles = unique(product.categories.map((category) => category.title));
   const inStock = product.variants.some((variant) => variant.available);
-  const description = buildExcerpt(product.descriptionText);
-  const descriptionHtml = normalizeDescriptionHtml(product);
-  const descriptionText = normalizeLongFormField(product.descriptionText);
+  const normalizedDescriptionHtml = normalizeDescriptionHtml(product);
+  const extractedDescriptionTabs = extractDescriptionTabs(normalizedDescriptionHtml);
+  const descriptionHtml = extractedDescriptionTabs.descriptionHtml;
+  const descriptionText =
+    htmlToPlainText(descriptionHtml) || normalizeLongFormField(product.descriptionText);
+  const dimensionsHtml = extractedDescriptionTabs.dimensionsHtml;
+  const dimensionsText = htmlToPlainText(dimensionsHtml);
+  const warrantyHtml = extractedDescriptionTabs.warrantyHtml;
+  const warrantyText = htmlToPlainText(warrantyHtml);
+  const description = buildExcerpt(descriptionText);
   const howToOrderHtml = normalizeLongFormField(product.howToOrderHtml);
   const howToOrderText = normalizeLongFormField(product.howToOrderText);
 
@@ -423,6 +760,10 @@ function buildProduct(product, index) {
     description,
     ...(descriptionHtml ? { descriptionHtml } : {}),
     ...(descriptionText ? { descriptionText } : {}),
+    ...(dimensionsHtml ? { dimensionsHtml } : {}),
+    ...(dimensionsText ? { dimensionsText } : {}),
+    ...(warrantyHtml ? { warrantyHtml } : {}),
+    ...(warrantyText ? { warrantyText } : {}),
     ...(howToOrderHtml ? { howToOrderHtml } : {}),
     ...(howToOrderText ? { howToOrderText } : {}),
     sku: product.skus[0] || undefined,

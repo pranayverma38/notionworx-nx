@@ -192,6 +192,7 @@
 
     p {
       margin: 0;
+      line-height: 1.75;
     }
 
     h1,
@@ -208,20 +209,20 @@
 
     h1,
     h2 {
-      font-size: 40px;
-      line-height: 48px;
+      font-size: 28px;
+      line-height: 36px;
     }
 
     h3 {
-      font-size: 24px;
-      line-height: 32px;
+      font-size: 22px;
+      line-height: 30px;
     }
 
     h4,
     h5,
     h6 {
-      font-size: 18px;
-      line-height: 28px;
+      font-size: 17px;
+      line-height: 26px;
     }
 
     ul,
@@ -251,13 +252,13 @@
     @include res(sm) {
       h1,
       h2 {
-        font-size: 30px;
-        line-height: 38px;
+        font-size: 24px;
+        line-height: 32px;
       }
 
       h3 {
-        font-size: 22px;
-        line-height: 30px;
+        font-size: 20px;
+        line-height: 28px;
       }
     }
   }
@@ -328,6 +329,27 @@
       li + li {
         margin-top: 8px;
       }
+    }
+
+    .rich-content h1,
+    .rich-content h2 {
+      font-size: 20px;
+      line-height: 28px;
+      font-weight: 700;
+    }
+
+    .rich-content h3 {
+      font-size: 18px;
+      line-height: 26px;
+      font-weight: 700;
+    }
+
+    .rich-content h4,
+    .rich-content h5,
+    .rich-content h6 {
+      font-size: 16px;
+      line-height: 24px;
+      font-weight: 700;
     }
   }
 
@@ -481,6 +503,26 @@
 
     .product-detail-key-detail {
       padding: 12px 14px;
+    }
+
+    .product-detail-description-main {
+      .rich-content h1,
+      .rich-content h2 {
+        font-size: 18px;
+        line-height: 26px;
+      }
+
+      .rich-content h3 {
+        font-size: 17px;
+        line-height: 24px;
+      }
+
+      .rich-content h4,
+      .rich-content h5,
+      .rich-content h6 {
+        font-size: 15px;
+        line-height: 22px;
+      }
     }
 
     .how-to-order-step-card {

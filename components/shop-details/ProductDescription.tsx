@@ -1,57 +1,63 @@
 import { ProductDescriptionIntro } from "./product-description/blocks/ProductDescriptionIntro";
 import { ProductHowToOrder } from "./product-description/blocks/ProductHowToOrder";
+import { ProductSupplementalTab } from "./product-description/blocks/ProductSupplementalTab";
+import {
+  getProductDetailTabs,
+  type ProductDetailTab,
+} from "./product-description/productDetailTabs";
 import type { ProductCardItem } from "@/types/productCard";
+
+function renderTabContent(tab: ProductDetailTab, product?: ProductCardItem) {
+  switch (tab.key) {
+    case "description":
+      return <ProductDescriptionIntro product={product} />;
+    case "dimensions":
+      return <ProductSupplementalTab product={product} field="dimensions" />;
+    case "warranty":
+      return <ProductSupplementalTab product={product} field="warranty" />;
+    case "how-to-order":
+      return <ProductHowToOrder product={product} />;
+    default:
+      return null;
+  }
+}
 
 export default function ProductDescription({
   product,
 }: {
   product?: ProductCardItem;
 }) {
-  const hasHowToOrder = Boolean(
-    product?.howToOrderHtml?.trim() || product?.howToOrderText?.trim(),
-  );
+  const tabs = getProductDetailTabs(product);
 
   return (
     <section className="section-product-description product-detail-tabs-section flat-spacing flat-animate-tab">
       <div className="container">
         <div className="product-detail-tabs-shell">
           <ul className="tab-btn-wrap-v1 product-detail-tabs-nav" role="tablist">
-            <li className="nav-tab-item" role="presentation">
-              <a
-                href="#description"
-                data-bs-toggle="tab"
-                className="tf-btn-tab active"
-                role="tab"
-              >
-                <span className="h5 fw-medium">Description</span>
-              </a>
-            </li>
-            {hasHowToOrder ? (
-              <li className="nav-tab-item" role="presentation">
+            {tabs.map((tab, index) => (
+              <li key={tab.id} className="nav-tab-item" role="presentation">
                 <a
-                  href="#how-to-order"
+                  href={`#${tab.id}`}
                   data-bs-toggle="tab"
-                  className="tf-btn-tab"
+                  className={`tf-btn-tab${index === 0 ? " active" : ""}`}
                   role="tab"
                 >
-                  <span className="h5 fw-medium">How to Order</span>
+                  <span className="h5 fw-medium">{tab.label}</span>
                 </a>
               </li>
-            ) : null}
+            ))}
           </ul>
           <div className="tab-content product-detail-tabs-content">
-            <div
-              className="tab-pane active show"
-              id="description"
-              role="tabpanel"
-            >
-              <ProductDescriptionIntro product={product} />
-            </div>
-            {hasHowToOrder ? (
-              <div className="tab-pane" id="how-to-order" role="tabpanel">
-                <ProductHowToOrder product={product} />
+            {tabs.map((tab, index) => (
+              <div
+                key={tab.id}
+                className={`tab-pane${index === 0 ? " active show" : ""}`}
+                id={tab.id}
+                role="tabpanel"
+              >
+                {renderTabContent(tab, product)}
               </div>
-            ) : null}
+            ))}
           </div>
         </div>
       </div>

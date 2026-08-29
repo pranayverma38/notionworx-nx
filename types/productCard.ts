@@ -68,6 +68,14 @@ export interface ProductCardItem extends Partial<ShopProductFacetFields> {
   descriptionHtml?: string;
   /** Full plain-text description for single-product detail content. */
   descriptionText?: string;
+  /** Optional rich dimensions/specification HTML for a dedicated product tab. */
+  dimensionsHtml?: string;
+  /** Optional plain-text dimensions/specification content for a dedicated product tab. */
+  dimensionsText?: string;
+  /** Optional rich warranty HTML for a dedicated product tab. */
+  warrantyHtml?: string;
+  /** Optional plain-text warranty content for a dedicated product tab. */
+  warrantyText?: string;
   /** Optional rich how-to-order HTML for single-product detail content. */
   howToOrderHtml?: string;
   /** Optional plain-text how-to-order instructions for single-product detail content. */
