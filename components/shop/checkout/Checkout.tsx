@@ -5,7 +5,6 @@ import Image from "next/image";
 import { type FormEvent, useMemo, useState } from "react";
 
 import CartAddOnSummary from "@/components/common/CartAddOnSummary";
-import CountdownTimer from "@/components/common/Countdown";
 import { PasswordField } from "@/components/forms/PasswordField";
 import { useContextElement, type CartProduct } from "@/context/Context";
 import type { ProductId } from "@/context/store";
@@ -67,24 +66,6 @@ export default function Checkout() {
 
   return (
     <section className="section-checkout flat-spacing-2">
-      {cartProducts.length > 0 ? (
-        <div className="flat-spacing-2 pt-0">
-          <div className="container">
-            <div className="tf-cart-notification">
-              <div className="count-text">
-                <div className="ic">🔥</div>
-                <div className="">
-                  Your cart will expire in
-                  <div className="js-countdown time-count cd-has-zero cd-no">
-                    <CountdownTimer style={4} />
-                  </div>
-                  minutes! Please checkout now before your items sell out!
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      ) : null}
       <div className="container">
         <div className="row">
           <div className="col-lg-7 ">

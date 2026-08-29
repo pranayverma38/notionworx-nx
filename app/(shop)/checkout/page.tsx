@@ -1,5 +1,4 @@
 import Checkout from "@/components/shop/checkout/Checkout";
-import PageTitle from "@/components/shop/checkout/PageTitle";
 import { shopRouteMetadata } from "@/lib/metadata/shop";
 
 export const metadata = shopRouteMetadata(
@@ -10,7 +9,6 @@ export const metadata = shopRouteMetadata(
 export default function page() {
   return (
     <>
-      <PageTitle />
       {/* Checkout */}
       <Checkout />
       {/* /Checkout */}

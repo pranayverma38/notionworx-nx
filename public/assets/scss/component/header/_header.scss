@@ -5,7 +5,8 @@
 }
 
 header {
-  position: sticky;
+  position: relative;
+  top: 0 !important;
   z-index: 100;
   @include transition3;
 
