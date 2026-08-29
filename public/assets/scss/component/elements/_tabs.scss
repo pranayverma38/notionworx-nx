@@ -173,9 +173,23 @@
     }
 
     @media (max-width: 767.98px) {
+        width: 100%;
+        max-width: 100%;
+        flex-wrap: wrap;
+        justify-content: stretch;
+        overflow: visible;
+        white-space: normal;
         padding: 6px;
 
+        .nav-tab-item {
+            flex: 1 1 calc(50% - 4px);
+            min-width: 0;
+        }
+
         .tf-btn-tab {
+            width: 100%;
+            justify-content: center;
+            text-align: center;
             padding: 10px 14px;
 
             .h5 {

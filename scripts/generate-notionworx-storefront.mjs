@@ -628,6 +628,272 @@ function extractDescriptionTabs(html) {
   };
 }
 
+function moveParagraphsMatching(html, pattern) {
+  const moved = [];
+  const nextHtml = String(html || "").replace(
+    /<p\b[^>]*>[\s\S]*?<\/p>/gi,
+    (match) => {
+      pattern.lastIndex = 0;
+
+      if (!pattern.test(stripHtml(match))) {
+        return match;
+      }
+
+      moved.push(match.trim());
+      return "";
+    },
+  );
+
+  pattern.lastIndex = 0;
+
+  return {
+    html: joinHtmlChunks([nextHtml]),
+    movedHtml: joinHtmlChunks(moved),
+  };
+}
+
+function removeParagraphsMatching(html, pattern) {
+  const nextHtml = String(html || "").replace(
+    /<p\b[^>]*>[\s\S]*?<\/p>/gi,
+    (match) => {
+      pattern.lastIndex = 0;
+      return pattern.test(stripHtml(match)) ? "" : match;
+    },
+  );
+
+  pattern.lastIndex = 0;
+  return joinHtmlChunks([nextHtml]);
+}
+
+function moveListItemsMatching(html, pattern) {
+  const movedItems = [];
+  const nextHtml = String(html || "").replace(
+    /<ul>\s*([\s\S]*?)\s*<\/ul>/gi,
+    (match, innerHtml) => {
+      const keptItems = [];
+
+      for (const itemMatch of innerHtml.matchAll(/<li\b[^>]*>([\s\S]*?)<\/li>/gi)) {
+        const itemHtml = itemMatch[1].trim();
+        const itemText = stripHtml(itemHtml);
+        pattern.lastIndex = 0;
+
+        if (pattern.test(itemText)) {
+          movedItems.push(itemHtml);
+        } else {
+          keptItems.push(itemHtml);
+        }
+      }
+
+      pattern.lastIndex = 0;
+
+      if (!movedItems.length && keptItems.length) {
+        return match;
+      }
+
+      if (!keptItems.length) {
+        return "";
+      }
+
+      return renderListFromItems(
+        keptItems.map((itemHtml) => ({ html: itemHtml })),
+      );
+    },
+  );
+
+  return {
+    html: joinHtmlChunks([nextHtml]),
+    movedHtml: renderListFromItems(
+      movedItems.map((itemHtml) => ({ html: itemHtml })),
+    ),
+  };
+}
+
+function moveTextMatches(html, pattern) {
+  const moved = [];
+  const nextHtml = String(html || "").replace(pattern, (match) => {
+    moved.push(`<p>${match.trim()}</p>`);
+    return "";
+  });
+
+  return {
+    html: joinHtmlChunks([nextHtml]),
+    movedHtml: joinHtmlChunks(moved),
+  };
+}
+
+function removeTextMatches(html, pattern) {
+  return joinHtmlChunks([String(html || "").replace(pattern, "")]);
+}
+
+function normalizeExtractedHtml(html) {
+  const normalized = joinHtmlChunks([html]);
+
+  if (!normalized) {
+    return undefined;
+  }
+
+  return normalizeAboutThisItemList(normalized).replace(
+    /<p\b[^>]*>([\s\S]*?)<\/p>/gi,
+    normalizeMultilineParagraph,
+  );
+}
+
+function applyTargetedProductOverrides(product, tabs) {
+  let descriptionHtml = tabs.descriptionHtml;
+  let dimensionsHtml = tabs.dimensionsHtml;
+  let warrantyHtml = tabs.warrantyHtml;
+
+  const appendDimensions = (html) => {
+    dimensionsHtml = joinHtmlChunks([dimensionsHtml, html]);
+  };
+  const appendWarranty = (html) => {
+    warrantyHtml = joinHtmlChunks([warrantyHtml, html]);
+  };
+
+  switch (product.handle) {
+    case "belt-bag-dye-sublimated-1-38-strap-500060": {
+      const moved = moveParagraphsMatching(
+        descriptionHtml,
+        /^7\.5['’"]\s*x\s*5\.5['’"]\s*x\s*2['’"]/i,
+      );
+      descriptionHtml = moved.html;
+      appendDimensions(moved.movedHtml);
+      break;
+    }
+    case "cross-base":
+    case "flag-pole-base-accerrories": {
+      const moved = moveListItemsMatching(descriptionHtml, /^Product Size:/i);
+      descriptionHtml = moved.html;
+      appendDimensions(moved.movedHtml);
+      break;
+    }
+    case "custom-2-zipper-fanny-pack-dye-sublimated":
+    case "custom-fanny-pack-dye-sublimated": {
+      for (const pattern of [/^Size:?$/i, /^Top\s/i, /^Back:/i, /^Front:/i]) {
+        const moved = moveParagraphsMatching(descriptionHtml, pattern);
+        descriptionHtml = moved.html;
+        appendDimensions(moved.movedHtml);
+      }
+      break;
+    }
+    case "custom-duffel-bag-dye-sublimated": {
+      const moved = moveTextMatches(
+        descriptionHtml,
+        /It&#x27;s a perfect size at 12&quot;D x 20&quot;W, weighs just 4 lbs\./i,
+      );
+      descriptionHtml = moved.html;
+      appendDimensions(moved.movedHtml);
+      break;
+    }
+    case "deluxe-retractable-33-x-80": {
+      const moved = moveListItemsMatching(descriptionHtml, /^one 33["”']\s*x\s*81["”']/i);
+      descriptionHtml = moved.html;
+      appendDimensions(moved.movedHtml);
+      break;
+    }
+    case "pole-banner-set": {
+      const moved = moveTextMatches(
+        descriptionHtml,
+        /allowing for quick and secure installation on poles up to 12 inches in diameter\./i,
+      );
+      descriptionHtml = moved.html;
+      appendDimensions(moved.movedHtml);
+      break;
+    }
+    case "premium-x-base": {
+      const moved = moveParagraphsMatching(descriptionHtml, /^21['’"]\s*x\s*12['’"]\s*x\s*8['’"]/i);
+      descriptionHtml = moved.html;
+      appendDimensions(moved.movedHtml);
+      break;
+    }
+    case "sandbag-ballast-kit-for-event-tent-legs-set-of-four": {
+      const moved = moveTextMatches(
+        descriptionHtml,
+        /12\.5&quot; D x 14\.5&quot; W x 4\.75&quot; H/i,
+      );
+      descriptionHtml = moved.html;
+      appendDimensions(moved.movedHtml);
+      break;
+    }
+    case "sublimated-beach-fleece-blanket-30-x-60":
+    case "sublimated-beach-fleece-blanket-50-x-60":
+    case "sublimated-beach-fleece-blanket-60-x-80": {
+      const moved = moveParagraphsMatching(descriptionHtml, /^Size:/i);
+      descriptionHtml = moved.html;
+      appendDimensions(moved.movedHtml);
+      break;
+    }
+    case "portable-power-station-300w": {
+      const moved = moveTextMatches(
+        descriptionHtml,
+        /This portable station bank with AC outlet is covered by our 12-month warranty, so please contact our Customer Service if you have any questions at any time\./i,
+      );
+      descriptionHtml = moved.html;
+      appendWarranty(moved.movedHtml);
+      break;
+    }
+    case "3x7-5h-premiumtube-banner-stand-with-steel-feet": {
+      const moved = moveListItemsMatching(descriptionHtml, /^(Packing Size:|Gross Weight:)/i);
+      descriptionHtml = moved.html;
+      appendDimensions(moved.movedHtml);
+      descriptionHtml = removeTextMatches(
+        descriptionHtml,
+        /\s*<a href="[^"]+">36&#x27;&#x27;x90&#x27;<\/a>/i,
+      );
+      break;
+    }
+    case "5x5-custom-canopy-tent-19-05":
+    case "5x5-custom-canopy-tent-20-05":
+    case "5x5-custom-canopy-tent-21-05":
+    case "5x5-custom-canopy-tent-22-05": {
+      descriptionHtml = removeParagraphsMatching(
+        descriptionHtml,
+        /Premium 5['’"]?x?\s*5['’"]?\s*Custom Canopy Tent/i,
+      );
+      break;
+    }
+    case "custom-tote-bag-dye-sublimated": {
+      const moved = moveTextMatches(
+        descriptionHtml,
+        /Your custom branded bag measures 16\.5&quot;H x 23&quot;W[^.]*\./i,
+      );
+      descriptionHtml = moved.html;
+      appendDimensions(moved.movedHtml);
+      break;
+    }
+    case "premium-10x20-custom-canopy-tent-10-20":
+    case "premium-10x20-custom-canopy-tent-11-20":
+    case "premium-10x20-custom-canopy-tent-12-20":
+    case "premium-10x20-custom-canopy-tent-9-20black":
+    case "premium-10x20-custom-canopy-tent-hex-9-20": {
+      const moved = moveTextMatches(
+        descriptionHtml,
+        /🪁 Secure Setup: Includes rope and stake kit; must be properly secured to maintain warranty\./i,
+      );
+      descriptionHtml = moved.html;
+      appendWarranty(moved.movedHtml);
+      break;
+    }
+    case "premium-retractable-36": {
+      const movedParagraph = moveParagraphsMatching(descriptionHtml, /^Stand Size:/i);
+      descriptionHtml = movedParagraph.html;
+      appendDimensions(movedParagraph.movedHtml);
+      const movedList = moveListItemsMatching(descriptionHtml, /^Shipping Weight:/i);
+      descriptionHtml = movedList.html;
+      appendDimensions(movedList.movedHtml);
+      break;
+    }
+    default:
+      break;
+  }
+
+  return {
+    descriptionHtml: normalizeExtractedHtml(descriptionHtml),
+    dimensionsHtml: normalizeExtractedHtml(dimensionsHtml),
+    warrantyHtml: normalizeExtractedHtml(warrantyHtml),
+  };
+}
+
 function looksLikeColorOption(name) {
   return /color|colour/i.test(String(name || ""));
 }
@@ -723,7 +989,10 @@ function buildProduct(product, index) {
   const categoryTitles = unique(product.categories.map((category) => category.title));
   const inStock = product.variants.some((variant) => variant.available);
   const normalizedDescriptionHtml = normalizeDescriptionHtml(product);
-  const extractedDescriptionTabs = extractDescriptionTabs(normalizedDescriptionHtml);
+  const extractedDescriptionTabs = applyTargetedProductOverrides(
+    product,
+    extractDescriptionTabs(normalizedDescriptionHtml),
+  );
   const descriptionHtml = extractedDescriptionTabs.descriptionHtml;
   const descriptionText =
     htmlToPlainText(descriptionHtml) || normalizeLongFormField(product.descriptionText);

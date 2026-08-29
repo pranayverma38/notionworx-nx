@@ -47,7 +47,10 @@ function parseHowToOrderContent(product?: ProductCardItem): {
 } {
   const rawText =
     product?.howToOrderText?.trim() || htmlToPlainText(product?.howToOrderHtml);
-  const blocks = rawText
+  const normalizedText = rawText
+    .replace(/(3 Easy Steps)\s+(Step\s+\d+\s*:)/gi, "$1\n\n$2")
+    .replace(/(SKU[^\n]*)\s+(3 Easy Steps)/gi, "$1\n\n$2");
+  const blocks = normalizedText
     .split(/\n\s*\n+/)
     .map((block) => block.replace(/\s*\n\s*/g, " ").trim())
     .filter(Boolean);
@@ -80,7 +83,13 @@ function parseHowToOrderContent(product?: ProductCardItem): {
       continue;
     }
 
-    introLines.push(block.replace(/^-+\s*/, ""));
+    const cleanedBlock = block.replace(/^-+\s*/, "");
+
+    if (/^3 Easy Steps$/i.test(cleanedBlock) || /^Step\s+\d+\s*:/i.test(cleanedBlock)) {
+      continue;
+    }
+
+    introLines.push(cleanedBlock);
   }
 
   if (currentStep) {

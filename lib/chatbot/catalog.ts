@@ -7,7 +7,7 @@ import {
 
 export const CHATBOT_NAME = "Worxie";
 export const CATALOG_REFUSAL_MESSAGE =
-  "I can only answer questions grounded in the current Notion Worx catalog. I couldn't find enough matching products for that request.";
+  "I can only answer questions grounded in the current Notion Worx site information. I couldn't find enough matching details for that request.";
 
 export type ChatHistoryMessage = {
   role: "user" | "assistant";
@@ -29,6 +29,14 @@ export type CatalogMatch = {
   inStock: boolean;
   score: number;
   coverage: number;
+};
+
+export type GeneralKnowledgeSnippet = {
+  id: string;
+  source: string;
+  content: string;
+  tags: string[];
+  score: number;
 };
 
 export type CatalogRetrievalResult =
@@ -91,6 +99,11 @@ type CatalogEntry = {
 
 type ScoredMatch = CatalogMatch & {
   matchedTokenCount: number;
+};
+
+type GeneralKnowledgeEntry = Omit<GeneralKnowledgeSnippet, "score"> & {
+  searchText: string;
+  tokenSet: Set<string>;
 };
 
 const STOPWORDS = new Set([
@@ -160,6 +173,116 @@ const CATALOG_ENTRIES: CatalogEntry[] = productRecords.map((product) =>
 );
 
 const FEATURED_CATEGORY_MATCHES: CatalogMatch[] = buildFeaturedCategoryMatches();
+
+const GENERAL_KNOWLEDGE_ENTRIES: GeneralKnowledgeEntry[] = [
+  {
+    id: "about-overview",
+    source: "About Us",
+    content:
+      "Notion Worx is a full-service design and branding company specializing in custom canopies, promotional products, apparel, and logo design, with over 800,000 products to choose from.",
+    tags: [
+      "about",
+      "company",
+      "business",
+      "services",
+      "branding",
+      "apparel",
+      "promotional",
+      "products",
+    ],
+    searchText: "",
+    tokenSet: new Set<string>(),
+  },
+  {
+    id: "about-turnaround",
+    source: "About Us",
+    content:
+      "Notion Worx says its team delivers top-quality designs with fast turnaround and competitive pricing.",
+    tags: [
+      "fast",
+      "turnaround",
+      "delivery",
+      "deliver",
+      "shipping",
+      "timeline",
+      "lead",
+      "time",
+      "rush",
+      "expedite",
+      "soon",
+      "quick",
+    ],
+    searchText: "",
+    tokenSet: new Set<string>(),
+  },
+  {
+    id: "delivery-testimonial",
+    source: "Customer testimonial",
+    content:
+      "One verified customer said that after final approval they received a tracking number for the frame within 3 days, and the top and sidewalls shipped the following day.",
+    tags: [
+      "delivery",
+      "deliver",
+      "shipping",
+      "shipped",
+      "tracking",
+      "approval",
+      "timeline",
+      "lead",
+      "time",
+      "turnaround",
+    ],
+    searchText: "",
+    tokenSet: new Set<string>(),
+  },
+  {
+    id: "returns-policy",
+    source: "Return policies",
+    content:
+      "If an order arrives damaged or does not match the approved details, customers should contact Notion Worx so the team can review the issue and help with next steps.",
+    tags: [
+      "return",
+      "returns",
+      "refund",
+      "exchange",
+      "damaged",
+      "issue",
+      "wrong",
+      "mismatch",
+      "policy",
+    ],
+    searchText: "",
+    tokenSet: new Set<string>(),
+  },
+  {
+    id: "warranty-policy",
+    source: "Product warranty copy",
+    content:
+      "Notion Worx says its warranty covers factory defects or damage that occurs during shipping, but not damage caused by extreme weather, misuse, or similar circumstances beyond its control.",
+    tags: [
+      "warranty",
+      "damage",
+      "shipping",
+      "defect",
+      "defects",
+      "weather",
+      "misuse",
+      "policy",
+    ],
+    searchText: "",
+    tokenSet: new Set<string>(),
+  },
+].map((entry) => {
+  const searchText = normalizeText(
+    [entry.source, entry.content, entry.tags.join(" ")].join(" "),
+  );
+
+  return {
+    ...entry,
+    searchText,
+    tokenSet: new Set(tokenize(searchText)),
+  };
+});
 
 export function retrieveCatalogMatches(input: {
   message: string;
@@ -236,6 +359,77 @@ export function retrieveCatalogMatches(input: {
     broadCatalogIntent: false,
     matches,
   };
+}
+
+export function retrieveGeneralKnowledge(input: {
+  message: string;
+  history?: ChatHistoryMessage[];
+}): GeneralKnowledgeSnippet[] {
+  const retrievalQuery = buildRetrievalQuery(input.message.trim(), input.history ?? []);
+  const queryNormalized = normalizeText(retrievalQuery);
+  const queryTokens = tokenize(retrievalQuery);
+
+  if (queryNormalized.length === 0) {
+    return [];
+  }
+
+  const scoredEntries = GENERAL_KNOWLEDGE_ENTRIES.map((entry) => {
+    let score = 0;
+    let matchedTokenCount = 0;
+
+    if (queryNormalized.length >= 6 && entry.searchText.includes(queryNormalized)) {
+      score += 18;
+    }
+
+    for (const token of queryTokens) {
+      if (entry.tokenSet.has(token)) {
+        score += 5;
+        matchedTokenCount += 1;
+      }
+    }
+
+    const coverage =
+      queryTokens.length > 0 ? matchedTokenCount / queryTokens.length : 0;
+
+    if (coverage >= 0.6) {
+      score += 6;
+    } else if (coverage >= 0.34) {
+      score += 3;
+    }
+
+    return {
+      ...entry,
+      score,
+      matchedTokenCount,
+      coverage,
+    };
+  })
+    .filter((entry) => entry.score > 0)
+    .sort((left, right) => {
+      if (right.score !== left.score) {
+        return right.score - left.score;
+      }
+
+      return left.id.localeCompare(right.id);
+    });
+
+  const topMatch = scoredEntries[0];
+  if (!topMatch || topMatch.score < 5) {
+    return [];
+  }
+
+  const threshold = Math.max(topMatch.score - 5, 5);
+
+  return scoredEntries
+    .filter((entry) => entry.score >= threshold)
+    .slice(0, 3)
+    .map(({ id, source, content, tags, score }) => ({
+      id,
+      source,
+      content,
+      tags,
+      score,
+    }));
 }
 
 function buildCatalogEntry(product: StorefrontProduct): CatalogEntry {

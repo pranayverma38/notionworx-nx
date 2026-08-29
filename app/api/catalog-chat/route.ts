@@ -3,6 +3,7 @@ import { NextResponse, type NextRequest } from "next/server";
 import {
   CATALOG_REFUSAL_MESSAGE,
   CHATBOT_NAME,
+  retrieveGeneralKnowledge,
   retrieveCatalogMatches,
   type ChatHistoryMessage,
 } from "@/lib/chatbot/catalog";
@@ -55,9 +56,14 @@ export async function POST(request: NextRequest) {
   }
 
   const retrieval = retrieveCatalogMatches({ message, history });
-  if (!retrieval.ok) {
+  const knowledgeSnippets = retrieveGeneralKnowledge({ message, history });
+
+  if (!retrieval.ok && knowledgeSnippets.length === 0) {
     return NextResponse.json({
-      answer: "refusalMessage" in retrieval ? retrieval.refusalMessage : CATALOG_REFUSAL_MESSAGE,
+      answer:
+        "refusalMessage" in retrieval
+          ? retrieval.refusalMessage
+          : CATALOG_REFUSAL_MESSAGE,
       refusal: true,
       matchedProducts: [],
       botName: CHATBOT_NAME,
@@ -68,13 +74,14 @@ export async function POST(request: NextRequest) {
     const answer = await generateCatalogAnswer({
       question: message,
       history,
-      retrieval,
+      retrieval: retrieval.ok ? retrieval : null,
+      knowledgeSnippets,
     });
 
     return NextResponse.json({
       answer,
       refusal: answer.trim() === CATALOG_REFUSAL_MESSAGE,
-      matchedProducts: retrieval.matches.map((match) => ({
+      matchedProducts: (retrieval.ok ? retrieval.matches : []).map((match) => ({
         id: match.id,
         name: match.name,
         url: match.url,

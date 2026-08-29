@@ -3,13 +3,15 @@ import "server-only";
 import type {
   CatalogRetrievalResult,
   ChatHistoryMessage,
+  GeneralKnowledgeSnippet,
 } from "@/lib/chatbot/catalog";
 import { CATALOG_REFUSAL_MESSAGE, CHATBOT_NAME } from "@/lib/chatbot/catalog";
 
 type GenerateCatalogAnswerInput = {
   question: string;
   history: ChatHistoryMessage[];
-  retrieval: Extract<CatalogRetrievalResult, { ok: true }>;
+  retrieval: Extract<CatalogRetrievalResult, { ok: true }> | null;
+  knowledgeSnippets: GeneralKnowledgeSnippet[];
 };
 
 type ResponsesApiSuccess = {
@@ -27,17 +29,18 @@ const DEFAULT_BASE_URL = "https://foundryrentiqo.services.ai.azure.com/openai/v1
 const DEFAULT_RESPONSES_URL = `${DEFAULT_BASE_URL}/responses`;
 const DEFAULT_MODEL = "gpt-4.1";
 
-const SYSTEM_PROMPT = `You are ${CHATBOT_NAME}, a catalog-grounded shopping assistant for Notion Worx.
+const SYSTEM_PROMPT = `You are ${CHATBOT_NAME}, a grounded shopping assistant for Notion Worx.
 
 Rules you must follow:
-- Use only the supplied catalog context and matched products.
+- Use only the supplied site context, policy snippets, catalog summary, and matched products.
 - Never use outside knowledge, assumptions, or general world facts.
 - If the context is insufficient, reply exactly with: "${CATALOG_REFUSAL_MESSAGE}"
-- Mention relevant matched product names in the answer.
+- Mention relevant matched product names when product matches are provided.
 - Keep the answer concise and practical.
 - When helpful, mention pricing, available sizes, SKU, stock status, or category only if those fields are present in the supplied snippets.
-- Do not invent policies, lead times, materials, warranties, or comparisons that are not present in the supplied catalog context.
-- Do not answer unrelated or out-of-catalog questions.`;
+- Do not invent policies, lead times, materials, warranties, or comparisons that are not present in the supplied context.
+- If the context partially answers the question, give the supported part clearly, say what is not confirmed, and suggest the closest next step.
+- Do not answer unrelated questions that are unsupported by the supplied context.`;
 
 export async function generateCatalogAnswer(
   input: GenerateCatalogAnswerInput,
@@ -110,13 +113,14 @@ function buildUserPrompt({
   question,
   history,
   retrieval,
+  knowledgeSnippets,
 }: GenerateCatalogAnswerInput): string {
   const historyBlock = history
     .slice(-6)
     .map((message) => `${message.role.toUpperCase()}: ${message.content.trim()}`)
     .join("\n");
 
-  const matchesBlock = retrieval.matches
+  const matchesBlock = (retrieval?.matches ?? [])
     .map((match, index) => {
       const price = match.price != null ? `$${match.price}` : "N/A";
       const sizes = match.sizes.length > 0 ? match.sizes.join(", ") : "N/A";
@@ -135,8 +139,14 @@ function buildUserPrompt({
       ].join("\n");
     })
     .join("\n\n");
+  const generalKnowledgeBlock = knowledgeSnippets
+    .map(
+      (snippet, index) =>
+        `${index + 1}. ${snippet.source}\n   ${snippet.content}`,
+    )
+    .join("\n\n");
 
-  const catalogSummaryBlock = retrieval.catalogSummary.join("\n");
+  const catalogSummaryBlock = retrieval?.catalogSummary.join("\n") ?? "";
 
   return [
     `Customer question: ${question.trim()}`,
@@ -144,18 +154,22 @@ function buildUserPrompt({
     "Recent conversation:",
     historyBlock || "No prior conversation.",
     "",
-    `Retrieval query: ${retrieval.retrievalQuery}`,
-    `Broad catalog intent: ${retrieval.broadCatalogIntent ? "yes" : "no"}`,
+    `Retrieval query: ${retrieval?.retrievalQuery ?? question.trim()}`,
+    `Broad catalog intent: ${retrieval?.broadCatalogIntent ? "yes" : "no"}`,
     "",
     "Catalog category summary:",
     catalogSummaryBlock || "No category summary available.",
     "",
+    "Relevant site knowledge:",
+    generalKnowledgeBlock || "No additional site knowledge matched.",
+    "",
     "Matched catalog products:",
-    matchesBlock,
+    matchesBlock || "No direct product matches.",
     "",
     "Answer requirements:",
-    "- Answer using only the matched products and category summary above.",
-    "- Reference the most relevant product names directly in the answer.",
+    "- Answer using only the supplied context above.",
+    "- Reference the most relevant product names directly in the answer when products are listed.",
+    "- If the context only partially supports the answer, be explicit about the limitation instead of guessing.",
     "- If the context does not actually support an answer, return the refusal sentence exactly.",
     "- Keep the answer easy to scan and avoid filler.",
   ].join("\n");
