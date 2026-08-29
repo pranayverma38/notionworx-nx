@@ -1,5 +1,6 @@
 x-env-values:
   # Fill these once here. They are reused for both build-time and runtime envs.
+  host_port: &host_port "3001"
   next_public_supabase_url: &next_public_supabase_url ""
   next_public_supabase_anon_key: &next_public_supabase_anon_key ""
   azure_openai_image_endpoint: &azure_openai_image_endpoint ""
@@ -23,7 +24,9 @@ services:
     container_name: notionworx-nx
     restart: unless-stopped
     ports:
-      - "${PORT:-3000}:3000"
+      - target: 3000
+        published: *host_port
+        protocol: tcp
     environment:
       NODE_ENV: production
       NEXT_TELEMETRY_DISABLED: "1"
