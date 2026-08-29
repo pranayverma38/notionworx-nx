@@ -73,5 +73,3 @@ desktop.ini
 .vercel/
 .netlify/
 .env
-.env
-.env.example

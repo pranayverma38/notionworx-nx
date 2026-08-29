@@ -1,22 +1,43 @@
+x-env-values:
+  # Fill these once here. They are reused for both build-time and runtime envs.
+  next_public_supabase_url: &next_public_supabase_url ""
+  next_public_supabase_anon_key: &next_public_supabase_anon_key ""
+  azure_openai_image_endpoint: &azure_openai_image_endpoint ""
+  azure_openai_image_key: &azure_openai_image_key ""
+  azure_openai_base_url: &azure_openai_base_url ""
+  azure_openai_responses_endpoint: &azure_openai_responses_endpoint ""
+  azure_openai_api_key: &azure_openai_api_key ""
+  azure_openai_model: &azure_openai_model ""
+  resend_api_key: &resend_api_key ""
+
 services:
   app:
     build:
       context: .
       dockerfile: Dockerfile
       target: runner
+      args:
+        NEXT_PUBLIC_SUPABASE_URL: *next_public_supabase_url
+        NEXT_PUBLIC_SUPABASE_ANON_KEY: *next_public_supabase_anon_key
     image: notionworx-nx:stage
     container_name: notionworx-nx
     restart: unless-stopped
     ports:
       - "${PORT:-3000}:3000"
     environment:
-      - NODE_ENV=production
-      - NEXT_TELEMETRY_DISABLED=1
-      - PORT=3000
-      - HOSTNAME=0.0.0.0
-    env_file:
-      - path: .env
-        required: false
+      NODE_ENV: production
+      NEXT_TELEMETRY_DISABLED: "1"
+      PORT: "3000"
+      HOSTNAME: 0.0.0.0
+      NEXT_PUBLIC_SUPABASE_URL: *next_public_supabase_url
+      NEXT_PUBLIC_SUPABASE_ANON_KEY: *next_public_supabase_anon_key
+      AZURE_OPENAI_IMAGE_ENDPOINT: *azure_openai_image_endpoint
+      AZURE_OPENAI_IMAGE_KEY: *azure_openai_image_key
+      AZURE_OPENAI_BASE_URL: *azure_openai_base_url
+      AZURE_OPENAI_RESPONSES_ENDPOINT: *azure_openai_responses_endpoint
+      AZURE_OPENAI_API_KEY: *azure_openai_api_key
+      AZURE_OPENAI_MODEL: *azure_openai_model
+      RESEND_API_KEY: *resend_api_key
     healthcheck:
       test: ["CMD-SHELL", "wget -qO- http://localhost:3000/ || exit 1"]
       interval: 30s
