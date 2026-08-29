@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 
 import CartAddOnSummary from "@/components/common/CartAddOnSummary";
 import { useContextElement, type CartProduct } from "@/context/Context";
@@ -10,6 +10,8 @@ import type { ProductId } from "@/context/store";
 import { formatPrice } from "@/utils/formatPrice";
 
 const FREE_SHIPPING_THRESHOLD = 250;
+const DEPOSIT_ELIGIBILITY_THRESHOLD = 295;
+const MIN_DEPOSIT = 100;
 
 const CART_STYLES = `
   .cart-layout { display: grid; grid-template-columns: 1fr; gap: 24px; }
@@ -66,11 +68,17 @@ export default function ShoppingCart() {
 
   const discount = 0;
   const orderTotal = Math.max(0, totalPrice - discount);
-  const MIN_DEPOSIT = 100;
+  const depositEligible = orderTotal > DEPOSIT_ELIGIBILITY_THRESHOLD;
   const parsedDeposit = Math.max(MIN_DEPOSIT, Math.min(orderTotal, parseFloat(depositAmount) || MIN_DEPOSIT));
   const amountDue = payMode === "full" ? orderTotal : parsedDeposit;
   const amountToFreeship = Math.max(0, FREE_SHIPPING_THRESHOLD - totalPrice);
   const shipProgress = Math.min(100, (totalPrice / FREE_SHIPPING_THRESHOLD) * 100);
+
+  useEffect(() => {
+    if (!depositEligible && payMode === "deposit") {
+      setPayMode("full");
+    }
+  }, [depositEligible, payMode]);
 
   const removeLine = (id: ProductId) => removeFromCart(id);
   const setQty = (id: ProductId, qty: number) => {
@@ -140,7 +148,9 @@ export default function ShoppingCart() {
           alignItems: "flex-start", fontSize: "0.86rem", color: "#92400e"
         }}>
           <span>🔥</span>
-          <span>Place your order with a minimum <strong>$100 deposit</strong> or by completing payment <strong>in full</strong>.</span>
+          <span>
+            Deposit option applies only to orders over <strong>$295 USD</strong>. Orders below this amount require <strong>full payment</strong>.
+          </span>
         </div>
 
         <div className="cart-layout">
@@ -208,24 +218,37 @@ export default function ShoppingCart() {
                 <p style={{ fontWeight: 600, fontSize: "0.85rem", color: "#374151", marginBottom: "10px" }}>Payment Option</p>
                 {/* Sliding pill toggle */}
                 <div style={{
-                  display: "grid", gridTemplateColumns: "1fr 1fr",
+                  display: "grid", gridTemplateColumns: depositEligible ? "1fr 1fr" : "1fr 1fr",
                   background: "#f3f4f6", borderRadius: "12px", padding: "4px",
                   position: "relative"
                 }}>
-                  {(["full", "deposit"] as const).map(mode => (
+                  {(["full", "deposit"] as const).map(mode => {
+                    const isDepositMode = mode === "deposit";
+                    const disabled = isDepositMode && !depositEligible;
+
+                    return (
                     <button key={mode} onClick={() => setPayMode(mode)} style={{
                       padding: "9px 8px", borderRadius: "9px", cursor: "pointer",
                       border: "none",
                       background: payMode === mode ? "#111" : "transparent",
-                      color: payMode === mode ? "#fff" : "#6b7280",
+                      color: disabled ? "#9ca3af" : payMode === mode ? "#fff" : "#6b7280",
+                      opacity: disabled ? 0.7 : 1,
                       fontWeight: 600, fontSize: "0.82rem",
                       transition: "background 0.25s, color 0.25s",
                       textAlign: "center" as const, zIndex: 1, position: "relative"
-                    }}>
+                    }}
+                      disabled={disabled}
+                    >
                       {mode === "full" ? "💳 Pay in Full" : "📦 Pay Deposit"}
                     </button>
-                  ))}
+                    );
+                  })}
                 </div>
+                {!depositEligible && (
+                  <p style={{ fontSize: "0.75rem", color: "#6b7280", marginTop: "8px", marginBottom: 0 }}>
+                    Deposit is available only when your order total is above {formatPrice(DEPOSIT_ELIGIBILITY_THRESHOLD)}.
+                  </p>
+                )}
 
                 {/* Deposit amount input — always rendered, CSS drives open/close */}
                 <div className={`deposit-panel${payMode === "deposit" ? " open" : ""}`}
