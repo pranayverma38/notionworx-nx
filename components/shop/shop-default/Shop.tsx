@@ -23,10 +23,12 @@ export type { ShopContextValue } from "./ShopContext";
 
 export default function Shop({
   defaultCategories = [],
+  itemPerPage,
   variant,
   isFullWidth = false,
 }: {
   defaultCategories?: string[];
+  itemPerPage?: number;
   variant?: ShopVariantProp;
   isFullWidth?: boolean;
 }) {
@@ -48,6 +50,7 @@ export default function Shop({
     hasMultiplePages,
   } = useShopState({
     defaultCategories,
+    itemPerPage,
     products: shopDefaultProducts,
   });
 

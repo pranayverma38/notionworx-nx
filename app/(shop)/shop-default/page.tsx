@@ -29,7 +29,10 @@ export default async function page({
           </>
         }
       />
-      <Shop defaultCategories={activeCategory ? [activeCategory] : []} />
+      <Shop
+        defaultCategories={activeCategory ? [activeCategory] : []}
+        itemPerPage={30}
+      />
       {/* /Page Title */}
     </>
   );
