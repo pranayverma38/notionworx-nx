@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import Image from "next/image";
 import { useParams } from "next/navigation";
 import { products, stickyBarProduct } from "@/data/products/products";
@@ -21,6 +21,7 @@ export default function StickyProduct() {
   const [isVisible, setIsVisible] = useState(false);
   const [quantity, setQuantity] = useState(1);
   const [selectedSize, setSelectedSize] = useState(product.sizes?.[0] ?? "");
+  const stickyBarRef = useRef<HTMLDivElement | null>(null);
   const resolvedSelectedSize =
     product.sizes?.includes(selectedSize) && selectedSize
       ? selectedSize
@@ -39,6 +40,41 @@ export default function StickyProduct() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  useEffect(() => {
+    const root = document.documentElement;
+    const element = stickyBarRef.current;
+
+    const updateWorxieOffset = () => {
+      if (!isVisible || !element) {
+        root.style.setProperty("--worxie-sticky-offset", "0px");
+        return;
+      }
+
+      root.style.setProperty(
+        "--worxie-sticky-offset",
+        `${element.offsetHeight + 16}px`,
+      );
+    };
+
+    updateWorxieOffset();
+
+    if (!isVisible || !element) {
+      return () => {
+        root.style.setProperty("--worxie-sticky-offset", "0px");
+      };
+    }
+
+    const resizeObserver = new ResizeObserver(updateWorxieOffset);
+    resizeObserver.observe(element);
+    window.addEventListener("resize", updateWorxieOffset);
+
+    return () => {
+      resizeObserver.disconnect();
+      window.removeEventListener("resize", updateWorxieOffset);
+      root.style.setProperty("--worxie-sticky-offset", "0px");
+    };
+  }, [isVisible]);
+
   const handleAddToCart = () => {
     if (isInCart) {
       updateQuantity(product.id, quantity);
@@ -48,7 +84,10 @@ export default function StickyProduct() {
   };
 
   return (
-    <div className={`tf-sticky-btn-atc${isVisible ? " show" : ""}`}>
+    <div
+      ref={stickyBarRef}
+      className={`tf-sticky-btn-atc${isVisible ? " show" : ""}`}
+    >
       <div className="container">
         <div className="tf-height-observer w-100 d-flex align-items-center">
           <div className="tf-sticky-atc-product d-flex align-items-center">
@@ -116,16 +155,18 @@ export default function StickyProduct() {
                   </button>
                 </div>
               </div>
-              <a
-                href="#shoppingCart"
-                data-bs-toggle="offcanvas"
+              <button
+                type="button"
                 className="tf-btn animate-btn btn-add-to-cart"
-                suppressHydrationWarning
                 onClick={handleAddToCart}
               >
-                {isInCart ? "Update Cart" : "Add To Cart"} - $
-                {(product.price * quantity).toFixed(2)}
-              </a>
+                <span className="btn-add-to-cart__label">
+                  {isInCart ? "Update cart" : "Add to cart"}
+                </span>
+                <span className="btn-add-to-cart__price">
+                  ${(product.price * quantity).toFixed(2)}
+                </span>
+              </button>
             </form>
           </div>
         </div>

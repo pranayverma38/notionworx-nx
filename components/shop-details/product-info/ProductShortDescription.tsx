@@ -5,9 +5,5 @@ export function ProductShortDescription({
 }: {
   product?: ProductCardItem;
 }) {
-  return (
-    <p className="product-infor-desc cl-text-2 mb-12">
-      {product.description ?? "Review the details for this catalog item."}
-    </p>
-  );
+  return null;
 }

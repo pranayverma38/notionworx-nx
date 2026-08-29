@@ -1,4 +1,66 @@
+"use client";
+
+import { useEffect, useState } from "react";
+import { usePathname } from "next/navigation";
+
+const MIN_VIEWER_COUNT = 2;
+const MAX_VIEWER_COUNT = 5;
+
+function getViewerCount(seed: string, bucket: number): number {
+  let hash = 0;
+  const source = `${seed}:${bucket}`;
+
+  for (const character of source) {
+    hash = (hash * 31 + character.charCodeAt(0)) >>> 0;
+  }
+
+  return MIN_VIEWER_COUNT + (hash % (MAX_VIEWER_COUNT - MIN_VIEWER_COUNT + 1));
+}
+
 export function ProductViews() {
+  const pathname = usePathname() ?? "product";
+  const [viewerCount, setViewerCount] = useState(MIN_VIEWER_COUNT);
+
+  useEffect(() => {
+    const minuteBucket = Math.floor(Date.now() / 60000);
+    const storageKey = `product-viewers:${pathname}`;
+
+    try {
+      const cachedValue = window.localStorage.getItem(storageKey);
+
+      if (cachedValue) {
+        const parsedValue = JSON.parse(cachedValue) as {
+          bucket?: number;
+          count?: number;
+        };
+
+        if (
+          parsedValue.bucket === minuteBucket &&
+          typeof parsedValue.count === "number" &&
+          parsedValue.count >= MIN_VIEWER_COUNT &&
+          parsedValue.count <= MAX_VIEWER_COUNT
+        ) {
+          setViewerCount(parsedValue.count);
+          return;
+        }
+      }
+    } catch {
+      // Ignore storage read issues and fall back to a computed count.
+    }
+
+    const nextViewerCount = getViewerCount(pathname, minuteBucket);
+    setViewerCount(nextViewerCount);
+
+    try {
+      window.localStorage.setItem(
+        storageKey,
+        JSON.stringify({ bucket: minuteBucket, count: nextViewerCount }),
+      );
+    } catch {
+      // Ignore storage write issues when persistence is unavailable.
+    }
+  }, [pathname]);
+
   return (
     <div className="product-infor-reality lh-24">
       <div className="ic d-flex">
@@ -8,6 +70,8 @@ export function ProductViews() {
           viewBox="0 0 24 24"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
+          className="product-views-eye-icon"
+          aria-hidden="true"
         >
           <rect width={24} height={24} rx={4} fill="#101010" />
           <path
@@ -17,7 +81,7 @@ export function ProductViews() {
         </svg>
       </div>
       <span className="text-caption-01">
-        28 people are viewing this right now
+        {viewerCount} people are viewing this right now
       </span>
     </div>
   );

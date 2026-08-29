@@ -25,8 +25,8 @@ export function ProductQuantityBuy({ product }: { product: ProductCardItem }) {
 
   return (
     <div className="tf-product-total-quantity">
-      <p className="">Quantity:</p>
-      <div className="group-action">
+      <p className="purchase-label">Quantity</p>
+      <div className="purchase-actions-row">
         <div className="wg-quantity">
           <button
             type="button"
@@ -57,28 +57,25 @@ export function ProductQuantityBuy({ product }: { product: ProductCardItem }) {
             <i className="icon icon-plus" />
           </button>
         </div>
-        <a
-          href="#shoppingCart"
-          data-bs-toggle="offcanvas"
-          suppressHydrationWarning
-          className="btn-action-price tf-btn type-xl animate-btn w-100"
+        <button
+          type="button"
+          className="btn-action-price tf-btn btn-stroke animate-btn w-100"
           onClick={handleAddToCart}
         >
-          {isInCart ? "Update Cart" : "Add To Cart"}
-          <span className="d-none d-sm-block d-md-none d-lg-block">
-            &nbsp;-&nbsp;
+          <span className="btn-action-price__label">
+            {isInCart ? "Update cart" : "Add to cart"}
           </span>
-          <span className="price-add d-none d-sm-block d-md-none d-lg-block">
+          <span className="btn-action-price__value">
             ${(product.price * quantity).toFixed(2)}
           </span>
+        </button>
+        <a
+          href="/checkout"
+          className="tf-btn animate-btn w-100 btn-buy-now"
+        >
+          Buy it now
         </a>
       </div>
-      <a
-        href="/checkout"
-        className="tf-btn type-xl btn-primary animate-btn w-100"
-      >
-        Buy It Now
-      </a>
     </div>
   );
 }

@@ -1,7 +1,7 @@
 .launcher {
   position: fixed;
   right: 16px;
-  bottom: calc(env(safe-area-inset-bottom) + 88px);
+  bottom: calc(env(safe-area-inset-bottom) + 88px + var(--worxie-sticky-offset, 0px));
   z-index: 2105;
   display: inline-flex;
   align-items: center;
@@ -58,7 +58,7 @@
 .panel {
   position: fixed;
   right: 16px;
-  bottom: calc(env(safe-area-inset-bottom) + 148px);
+  bottom: calc(env(safe-area-inset-bottom) + 148px + var(--worxie-sticky-offset, 0px));
   z-index: 2106;
   display: flex;
   width: min(380px, calc(100vw - 24px));
@@ -406,12 +406,12 @@
 @media (min-width: 768px) {
   .launcher {
     right: 24px;
-    bottom: 24px;
+    bottom: calc(24px + var(--worxie-sticky-offset, 0px));
   }
 
   .panel {
     right: 24px;
-    bottom: 96px;
+    bottom: calc(96px + var(--worxie-sticky-offset, 0px));
   }
 }
 

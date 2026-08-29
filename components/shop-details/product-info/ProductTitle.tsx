@@ -7,7 +7,7 @@ export function ProductTitle({ product }: { product: ProductCardItem }) {
         {product.category ?? "Catalog Product"}
       </p>
 
-      <h3 className="product-infor-name mb-12 text-capitalize">
+      <h3 className="product-infor-name product-title-refined mb-12 letter-space-0">
         {product.name}
       </h3>
       <div className="product-infor-meta mb-20">

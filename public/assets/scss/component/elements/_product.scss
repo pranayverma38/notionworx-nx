@@ -924,6 +924,14 @@
   }
 
   .tf-product-info-heading {
+    .product-title-refined {
+      font-size: clamp(24px, 2.8vw, 32px);
+      line-height: clamp(28px, 3.2vw, 36px);
+      letter-spacing: -0.03em;
+      font-weight: 600;
+      text-wrap: balance;
+    }
+
     .product-infor-meta {
       display: flex;
       align-items: center;
@@ -946,6 +954,22 @@
       display: flex;
       align-items: center;
       gap: 8px;
+
+      .ic {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 36px;
+        height: 36px;
+        flex-shrink: 0;
+      }
+
+      .product-views-eye-icon {
+        width: 24px;
+        height: 24px;
+        display: block;
+        animation: eyeIconFloat 1.8s ease-in-out infinite;
+      }
     }
   }
 
@@ -1109,16 +1133,92 @@
 
   .tf-product-total-quantity {
     display: grid;
-    gap: 12px;
+    gap: 10px;
 
-    .group-action {
-      display: flex;
+    .purchase-label {
+      margin: 0;
+      font-size: 13px;
+      line-height: 18px;
+      font-weight: 600;
+      color: var(--text-2);
+    }
+
+    .purchase-actions-row {
+      display: grid;
+      grid-template-columns: auto minmax(0, 1fr) minmax(0, 1fr);
       align-items: center;
-      gap: 10px;
+      gap: 12px;
+    }
+
+    .wg-quantity {
+      min-width: 124px;
+      padding: 10px 14px;
+      border-radius: 999px;
+
+      .quantity-product {
+        width: 28px;
+        font-size: 14px;
+        line-height: 20px;
+      }
+
+      .btn-quantity {
+        font-size: 20px;
+      }
     }
 
     .btn-action-price {
-      gap: 0;
+      height: 48px;
+      justify-content: space-between;
+      gap: 12px;
+      padding-left: 18px;
+      padding-right: 18px;
+      border-radius: 999px;
+      box-shadow: none;
+      color: var(--text);
+
+      &::after {
+        display: none;
+      }
+
+      &:hover {
+        background: rgba(16, 16, 16, 0.04);
+        color: var(--text);
+      }
+
+      .btn-action-price__label {
+        font-size: 15px;
+        line-height: 20px;
+      }
+
+      .btn-action-price__value {
+        padding-left: 12px;
+        border-left: 1px solid rgba(16, 16, 16, 0.14);
+        font-size: 15px;
+        line-height: 20px;
+        font-weight: 700;
+      }
+    }
+
+    .btn-buy-now {
+      height: 48px;
+      border-radius: 999px;
+      box-shadow: none;
+    }
+
+    @media (max-width: 575.98px) {
+      .purchase-actions-row {
+        grid-template-columns: 1fr;
+      }
+
+      .wg-quantity {
+        width: 100%;
+        min-width: 0;
+      }
+
+      .btn-action-price,
+      .btn-buy-now {
+        width: 100%;
+      }
     }
   }
 
@@ -1356,8 +1456,19 @@
 
 .badge-sale {
   border-radius: 144px;
-  background: var(--primary);
+  background: var(--success);
   padding: 2px 8px;
+}
+
+@keyframes eyeIconFloat {
+  0%,
+  100% {
+    transform: translateY(0) scale(1);
+  }
+
+  50% {
+    transform: translateY(-1px) scale(1.04);
+  }
 }
 
 .product-style_mini_list,
@@ -1493,28 +1604,31 @@
   width: 100%;
   bottom: 0;
   z-index: 70;
-  box-shadow: 0px 5px 18px 5px #40485726;
+  box-shadow: 0 -8px 24px rgba(16, 16, 16, 0.08);
   background-color: var(--white);
+  border-top: 1px solid var(--line);
   transition: all 0.3s linear;
   transform: translateY(100%);
 
   .tf-height-observer {
-    padding: 16px 0;
-    column-gap: 5px;
+    padding: 10px 0;
+    column-gap: 16px;
   }
 
   .tf-sticky-atc-product {
     flex: 1 0 0%;
-    gap: 15px;
+    gap: 12px;
+    min-width: 0;
   }
 
   .atc-product-side {
     display: flex;
     align-items: center;
-    gap: 16px;
+    gap: 12px;
 
     .prd_img {
-      max-width: 60px;
+      width: 48px;
+      max-width: 48px;
       border-radius: 4px;
       overflow: hidden;
 
@@ -1522,28 +1636,102 @@
         width: 100%;
         height: 100%;
         object-fit: cover;
-        aspect-ratio: calc(60 / 80);
+        aspect-ratio: 1;
       }
     }
 
     .prd_info {
       display: grid;
-      gap: 4px;
+      gap: 2px;
+      min-width: 0;
+    }
+
+    .name__prd {
+      font-size: 14px;
+      line-height: 20px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .distribute__prd {
+      line-height: 18px;
+    }
+
+    .price__prd {
+      font-size: 14px;
+      line-height: 20px;
     }
   }
 
   .tf-sticky-atc-variant-price,
   .tf-product-info-quantity {
     display: flex;
-    gap: 12px;
+    gap: 8px;
     align-items: center;
+  }
+
+  .title {
+    font-size: 12px;
+    line-height: 16px;
+    color: var(--text-2);
+    margin: 0;
   }
 
   .tf-sticky-atc-infos form {
     display: flex;
-    gap: 32px;
+    gap: 16px;
     align-items: center;
-    flex-wrap: wrap;
+    justify-content: flex-end;
+    flex-wrap: nowrap;
+    min-width: 0;
+  }
+
+  .wg-quantity {
+    min-width: 116px;
+    padding: 8px 12px;
+    border-radius: 999px;
+
+    &.style-2 {
+      min-width: 116px;
+      padding-left: 12px;
+      padding-right: 12px;
+      border-radius: 999px;
+    }
+
+    .quantity-product {
+      width: 28px;
+      font-size: 13px;
+      line-height: 18px;
+    }
+
+    .btn-quantity {
+      font-size: 18px;
+    }
+  }
+
+  .btn-add-to-cart {
+    min-width: 210px;
+    height: 42px;
+    padding-left: 18px;
+    padding-right: 18px;
+    gap: 10px;
+    border-radius: 999px;
+    box-shadow: none;
+    white-space: nowrap;
+  }
+
+  .btn-add-to-cart__label {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .btn-add-to-cart__price {
+    padding-left: 10px;
+    border-left: 1px solid rgba(255, 255, 255, 0.18);
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 700;
   }
 
   &.show {
@@ -1552,8 +1740,9 @@
 
   @include res(xl, min) {
     .btn-add-to-cart {
-      padding-left: 40px;
-      padding-right: 40px;
+      min-width: 230px;
+      padding-left: 22px;
+      padding-right: 22px;
     }
   }
 
@@ -1588,8 +1777,39 @@
       width: 100%;
 
       form {
-        justify-content: center;
+        display: grid;
+        grid-template-columns: auto 1fr;
+        gap: 10px;
+        width: 100%;
+        justify-content: stretch;
       }
+    }
+
+    .tf-sticky-atc-variant-price {
+      grid-column: 1 / -1;
+      justify-content: stretch;
+
+      .tf-select {
+        width: 100%;
+      }
+    }
+
+    .tf-product-info-quantity {
+      width: auto;
+    }
+
+    .wg-quantity,
+    .wg-quantity.style-2 {
+      min-width: 104px;
+      width: 104px;
+    }
+
+    .btn-add-to-cart {
+      min-width: 0;
+      width: 100%;
+      justify-content: space-between;
+      padding-left: 16px;
+      padding-right: 16px;
     }
   }
 }
