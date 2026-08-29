@@ -754,7 +754,7 @@ function applyTargetedProductOverrides(product, tabs) {
     case "belt-bag-dye-sublimated-1-38-strap-500060": {
       const moved = moveParagraphsMatching(
         descriptionHtml,
-        /^7\.5['’"]\s*x\s*5\.5['’"]\s*x\s*2['’"]/i,
+        /^7\.5['’"]?\s*x\s*5\.5['’"]?\s*x\s*2['’"]?$/i,
       );
       descriptionHtml = moved.html;
       appendDimensions(moved.movedHtml);
@@ -801,7 +801,10 @@ function applyTargetedProductOverrides(product, tabs) {
       break;
     }
     case "premium-x-base": {
-      const moved = moveParagraphsMatching(descriptionHtml, /^21['’"]\s*x\s*12['’"]\s*x\s*8['’"]/i);
+      const moved = moveParagraphsMatching(
+        descriptionHtml,
+        /^21['’"]?\s*x\s*12['’"]?\s*x\s*8['’"]?/i,
+      );
       descriptionHtml = moved.html;
       appendDimensions(moved.movedHtml);
       break;
@@ -818,7 +821,8 @@ function applyTargetedProductOverrides(product, tabs) {
     case "sublimated-beach-fleece-blanket-30-x-60":
     case "sublimated-beach-fleece-blanket-50-x-60":
     case "sublimated-beach-fleece-blanket-60-x-80": {
-      const moved = moveParagraphsMatching(descriptionHtml, /^Size:/i);
+      descriptionHtml = removeParagraphsMatching(descriptionHtml, /^Specifications:$/i);
+      const moved = moveListItemsMatching(descriptionHtml, /^(Size:|Weight:)/i);
       descriptionHtml = moved.html;
       appendDimensions(moved.movedHtml);
       break;
@@ -868,7 +872,7 @@ function applyTargetedProductOverrides(product, tabs) {
     case "premium-10x20-custom-canopy-tent-hex-9-20": {
       const moved = moveTextMatches(
         descriptionHtml,
-        /🪁 Secure Setup: Includes rope and stake kit; must be properly secured to maintain warranty\./i,
+        /🪢\s*Secure Setup[^.]*maintain(?: the)? warranty\./i,
       );
       descriptionHtml = moved.html;
       appendWarranty(moved.movedHtml);
