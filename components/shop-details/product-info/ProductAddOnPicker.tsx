@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { useMemo, type CSSProperties } from "react";
+import { useMemo } from "react";
 
 import { useProduct } from "@/context/ProductContext";
 import type {
@@ -46,151 +46,60 @@ export function ProductAddOnPicker() {
   }
 
   return (
-    <div id="product-addons-form" style={{ display: "grid", gap: 20 }}>
-      <div>
+    <div id="product-addons-form" className="product-addons">
+      <div className="product-addons__header">
+        <div className="product-addons__header-copy">
+          <h5 className="product-addons__title">Accessories &amp; Upgrades</h5>
+          <p className="product-addons__subtitle">
+            Add-on quantities apply per configured product unit.
+          </p>
+        </div>
         <div
-          style={{
-            display: "flex",
-            justifyContent: "space-between",
-            gap: 12,
-            flexWrap: "wrap",
-            alignItems: "baseline",
-          }}
+          className={`product-addons__subtotal${
+            addOnSelectionSubtotal > 0 ? " is-active" : ""
+          }`}
         >
-          <div>
-            <h5 style={{ margin: 0, fontSize: "1rem", fontWeight: 700 }}>
-              Accessories &amp; Upgrades
-            </h5>
-            <p
-              style={{
-                margin: "6px 0 0",
-                color: "#6b7280",
-                fontSize: "0.82rem",
-                lineHeight: 1.55,
-              }}
-            >
-              Add-on quantities apply per configured product unit.
-            </p>
-          </div>
-          <div
-            style={{
-              fontSize: "0.88rem",
-              fontWeight: 600,
-              color: addOnSelectionSubtotal > 0 ? "var(--primary)" : "#111827",
-            }}
-          >
             {addOnSelectionSubtotal > 0
               ? `+${formatPrice(addOnSelectionSubtotal)} per unit`
               : "No add-ons selected"}
-          </div>
         </div>
       </div>
 
       {addOnGroups.map((group) => (
-        <section
-          key={group.id}
-          style={{
-            border: "1px solid #e5e7eb",
-            borderRadius: 16,
-            padding: 16,
-            background: "#fff",
-            display: "grid",
-            gap: 16,
-          }}
-        >
-          <div>
-            <div
-              style={{
-                display: "flex",
-                justifyContent: "space-between",
-                gap: 12,
-                alignItems: "center",
-                flexWrap: "wrap",
-              }}
-            >
-              <h6 style={{ margin: 0, fontSize: "0.98rem", fontWeight: 700 }}>
-                {group.title}
-              </h6>
-              <span
-                style={{
-                  color: "#6b7280",
-                  fontSize: "0.75rem",
-                  fontWeight: 600,
-                  textTransform: "uppercase",
-                  letterSpacing: "0.04em",
-                }}
-              >
+        <section key={group.id} className="product-addons__group">
+          <div className="product-addons__group-header">
+            <div>
+              <h6 className="product-addons__group-title">{group.title}</h6>
+              {group.description ? (
+                <p className="product-addons__group-description">
+                  {group.description}
+                </p>
+              ) : null}
+            </div>
+            <span className="product-addons__group-mode">
                 {group.selectionMode === "multiple"
                   ? "Multiple selections allowed"
                   : "Single selection"}
-              </span>
-            </div>
-            {group.description ? (
-              <p
-                style={{
-                  margin: "8px 0 0",
-                  color: "#6b7280",
-                  fontSize: "0.82rem",
-                  lineHeight: 1.5,
-                }}
-              >
-                {group.description}
-              </p>
-            ) : null}
+            </span>
           </div>
 
           {(group.subgroups ?? []).map((subgroup) => (
-            <div key={`${group.id}:${subgroup.id}`} style={{ display: "grid", gap: 12 }}>
-              <div>
-                <div
-                  style={{
-                    display: "flex",
-                    gap: 8,
-                    alignItems: "center",
-                    flexWrap: "wrap",
-                  }}
-                >
-                  <h6
-                    style={{
-                      margin: 0,
-                      fontSize: "0.9rem",
-                      fontWeight: 700,
-                    }}
-                  >
-                    {subgroup.title}
-                  </h6>
-                  <span
-                    style={{
-                      color: "#6b7280",
-                      fontSize: "0.74rem",
-                    }}
-                  >
+            <div key={`${group.id}:${subgroup.id}`} className="product-addons__subgroup">
+              <div className="product-addons__subgroup-header">
+                <h6 className="product-addons__subgroup-title">{subgroup.title}</h6>
+                <span className="product-addons__subgroup-hint">
                     {subgroup.selectionMode === "multiple"
                       ? "Choose one or more"
                       : "Choose up to one"}
-                  </span>
-                </div>
+                </span>
                 {subgroup.description ? (
-                  <p
-                    style={{
-                      margin: "6px 0 0",
-                      color: "#6b7280",
-                      fontSize: "0.8rem",
-                      lineHeight: 1.5,
-                    }}
-                  >
+                  <p className="product-addons__subgroup-description">
                     {subgroup.description}
                   </p>
                 ) : null}
               </div>
 
-              <div
-                style={{
-                  display: "grid",
-                  gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))",
-                  gap: 12,
-                }}
-              >
+              <div className="product-addons__options-grid">
                 {subgroup.items.map((option) => {
                   const selection = findSelection(
                     addOnSelections,
@@ -234,13 +143,7 @@ export function ProductAddOnPicker() {
           ))}
 
           {(group.items ?? []).length ? (
-            <div
-              style={{
-                display: "grid",
-                gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))",
-                gap: 12,
-              }}
-            >
+            <div className="product-addons__options-grid">
               {group.items?.map((option) => {
                 const selection = findSelection(addOnSelections, group.id, option.id);
                 const isSelected = selectedKeys.has(
@@ -279,14 +182,7 @@ export function ProductAddOnPicker() {
       ))}
 
       {hasConditionalOptions ? (
-        <p
-          style={{
-            margin: 0,
-            color: "#6b7280",
-            fontSize: "0.78rem",
-            lineHeight: 1.5,
-          }}
-        >
+        <p className="product-addons__footnote">
           Options marked <strong>Conditional on source</strong> were hidden by
           default or gated by other selections on the original site. They are
           shown here so the crawl coverage remains complete.
@@ -316,53 +212,31 @@ function AddOnOptionCard({
   const isConditional =
     option.metadata?.conditional === "true" ||
     option.metadata?.hiddenByDefault === "true";
+  const metaText = option.hoverDescription
+    ?.replace(/\s*[·-]\s*\(\+\s*\$[\d,]+(?:\.\d{2})?\)\s*$/i, "")
+    .trim();
   const titleParts = [
     option.hoverTitle || option.title,
-    option.hoverDescription,
+    metaText,
     isConditional ? "Conditional on source" : undefined,
   ].filter(Boolean);
 
   return (
-    <div
-      style={{
-        border: `1px solid ${isSelected ? "var(--primary)" : "#e5e7eb"}`,
-        borderRadius: 14,
-        padding: 12,
-        background: isSelected ? "rgba(255, 111, 97, 0.04)" : "#fff",
-        display: "grid",
-        gap: 12,
-      }}
-    >
+    <div className={`product-addon-card${isSelected ? " is-selected" : ""}`}>
       <button
         type="button"
         onClick={onToggle}
         aria-pressed={isSelected}
         title={titleParts.join(" | ")}
-        style={{
-          border: "none",
-          background: "transparent",
-          padding: 0,
-          textAlign: "left",
-          display: "grid",
-          gap: 12,
-          cursor: "pointer",
-        }}
+        className="product-addon-card__toggle"
       >
-        <div style={{ display: "flex", gap: 12, alignItems: "flex-start" }}>
-          <div
-            style={{
-              width: 64,
-              height: 64,
-              borderRadius: 12,
-              border: "1px solid #e5e7eb",
-              overflow: "hidden",
-              flexShrink: 0,
-              background: "#f9fafb",
-              position: "relative",
-              display: "grid",
-              placeItems: "center",
-            }}
-          >
+        <div className="product-addon-card__media">
+          {isSelected ? (
+            <span className="product-addon-card__selected-badge" aria-hidden>
+              ✓
+            </span>
+          ) : null}
+          <div className="product-addon-card__image">
             {option.image ? (
               <Image
                 src={option.image}
@@ -372,151 +246,49 @@ function AddOnOptionCard({
                 style={{ objectFit: "cover" }}
               />
             ) : (
-              <span
-                style={{
-                  color: "#6b7280",
-                  fontSize: "0.72rem",
-                  textAlign: "center",
-                  padding: 8,
-                  lineHeight: 1.25,
-                }}
-              >
+              <span className="product-addon-card__image-fallback">
                 {subgroup?.title || group.title}
               </span>
             )}
           </div>
-          <div style={{ minWidth: 0, display: "grid", gap: 6 }}>
-            <div
-              style={{
-                display: "flex",
-                gap: 8,
-                alignItems: "flex-start",
-                flexWrap: "wrap",
-              }}
-            >
-              <span
-                style={{
-                  fontSize: "0.9rem",
-                  fontWeight: 700,
-                  color: "#111827",
-                  lineHeight: 1.35,
-                }}
-              >
-                {option.title}
-              </span>
-              {isConditional ? (
-                <span
-                  style={{
-                    borderRadius: 999,
-                    padding: "2px 8px",
-                    background: "#fff7ed",
-                    color: "#c2410c",
-                    fontSize: "0.7rem",
-                    fontWeight: 700,
-                    lineHeight: 1.35,
-                  }}
-                >
-                  Conditional on source
-                </span>
-              ) : null}
+          <div className="product-addon-card__content">
+            <div className="product-addon-card__body">
+              <div className="product-addon-card__title-row">
+                <span className="product-addon-card__title">{option.title}</span>
+                {isConditional ? (
+                  <span className="product-addon-card__badge">
+                    Conditional on source
+                  </span>
+                ) : null}
+              </div>
             </div>
-            <span
-              style={{
-                fontSize: "0.76rem",
-                color: "#6b7280",
-                lineHeight: 1.45,
-              }}
-            >
-              {option.hoverDescription}
-            </span>
-            <span
-              style={{
-                fontSize: "0.88rem",
-                fontWeight: 700,
-                color: "var(--primary)",
-              }}
-            >
-              {option.price.label || `(+ ${formatPrice(option.price.surcharge)})`}
-            </span>
+            <div className="product-addon-card__footer">
+              <span className="product-addon-card__unit-price">
+                {option.price.label || `(+ ${formatPrice(option.price.surcharge)})`}
+              </span>
+            </div>
           </div>
         </div>
-        <span
-          style={{
-            display: "inline-flex",
-            alignItems: "center",
-            gap: 8,
-            fontSize: "0.8rem",
-            fontWeight: 700,
-            color: isSelected ? "var(--primary)" : "#111827",
-          }}
-        >
-          <span
-            aria-hidden
-            style={{
-              width: 18,
-              height: 18,
-              borderRadius: "50%",
-              border: `1px solid ${isSelected ? "var(--primary)" : "#cbd5e1"}`,
-              background: isSelected ? "var(--primary)" : "#fff",
-              display: "inline-grid",
-              placeItems: "center",
-              color: "#fff",
-              fontSize: "0.7rem",
-            }}
-          >
-            {isSelected ? "✓" : ""}
-          </span>
-          {isSelected ? "Selected" : "Select option"}
-        </span>
       </button>
 
       {isSelected ? (
-        <div
-          style={{
-            display: "flex",
-            justifyContent: "space-between",
-            gap: 12,
-            alignItems: "center",
-            flexWrap: "wrap",
-          }}
-        >
-          <span
-            style={{
-              color: "#6b7280",
-              fontSize: "0.78rem",
-              lineHeight: 1.4,
-            }}
-          >
+        <div className="product-addon-card__quantity-row">
+          <span className="product-addon-card__quantity-label">
             Quantity per configured unit
           </span>
-          <div
-            style={{
-              display: "inline-flex",
-              alignItems: "center",
-              border: "1px solid #d1d5db",
-              borderRadius: 999,
-              overflow: "hidden",
-            }}
-          >
+          <div className="product-addon-card__quantity-stepper">
             <button
               type="button"
               onClick={(event) => {
                 event.stopPropagation();
                 onQuantityChange(Math.max(1, quantity - 1));
               }}
-              style={quantityButtonStyle}
+              className="product-addon-card__quantity-button"
               aria-label={`Decrease ${option.title} quantity`}
             >
               -
             </button>
-            <span
-              style={{
-                minWidth: 40,
-                textAlign: "center",
-                fontSize: "0.82rem",
-                fontWeight: 700,
-              }}
-            >
+            <span className="product-addon-card__quantity-value">
               {quantity}
             </span>
             <button
@@ -525,7 +297,7 @@ function AddOnOptionCard({
                 event.stopPropagation();
                 onQuantityChange(quantity + 1);
               }}
-              style={quantityButtonStyle}
+              className="product-addon-card__quantity-button"
               aria-label={`Increase ${option.title} quantity`}
             >
               +
@@ -627,13 +399,3 @@ function flattenGroupOptions(group: ProductAddOnGroup): ProductAddOnOption[] {
     ...(group.subgroups ?? []).flatMap((subgroup) => subgroup.items),
   ];
 }
-
-const quantityButtonStyle: CSSProperties = {
-  border: "none",
-  background: "#fff",
-  width: 32,
-  height: 32,
-  cursor: "pointer",
-  fontSize: "1rem",
-  fontWeight: 700,
-};

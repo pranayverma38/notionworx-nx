@@ -76,7 +76,7 @@ export default function Breadcrumb({ product }: { product: ProductCardItem }) {
     : "/shop-default";
 
   return (
-    <div className="section-page-title-single flat-spacing-3">
+    <div className="section-page-title-single flat-spacing-3 product-detail-breadcrumb-nav">
       <div className="container">
         <div className="main-page-title">
           <div className="breadcrumbs">
