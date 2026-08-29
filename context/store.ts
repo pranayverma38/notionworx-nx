@@ -6,9 +6,9 @@ import { persist, type StorageValue } from "zustand/middleware";
 import { products } from "@/data/products/products";
 import {
   buildProductConfigurationKey,
+  filterValidProductAddOnSelections,
   getConfiguredProductUnitPrice,
   getProductConfigurationIdentity,
-  normalizeProductAddOnSelections,
 } from "@/lib/product-addons";
 import {
   fetchCartFromServer,
@@ -382,7 +382,8 @@ function normalizeCartProduct(
   const cartItem = item as Partial<CartProduct>;
   const selectedColor = selection?.selectedColor ?? cartItem.selectedColor;
   const selectedSize = selection?.selectedSize ?? cartItem.selectedSize;
-  const addOnSelections = normalizeProductAddOnSelections(
+  const addOnSelections = filterValidProductAddOnSelections(
+    item.addOnGroups,
     selection?.addOnSelections ?? cartItem.addOnSelections,
   );
   const basePrice =

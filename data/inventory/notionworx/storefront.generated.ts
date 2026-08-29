@@ -475,102 +475,6 @@ export const storefrontProducts = [
         "displayStyle": "grid",
         "subgroups": [
           {
-            "id": "vented-top",
-            "title": "Vented Top",
-            "selectionMode": "single",
-            "items": [
-              {
-                "id": "vented-top-vent",
-                "kind": "upgrade",
-                "title": "Vent",
-                "hoverTitle": "Vent",
-                "hoverDescription": "Vented Top · (+ $50.00) · Conditional on source",
-                "price": {
-                  "surcharge": 50,
-                  "label": "(+ $50.00)"
-                },
-                "allowsQuantity": true,
-                "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615335850375.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615335850375.png",
-                "metadata": {
-                  "conditional": "true",
-                  "hiddenByDefault": "true"
-                }
-              }
-            ],
-            "description": "Shown conditionally on the source site."
-          },
-          {
-            "id": "walls",
-            "title": "Walls",
-            "selectionMode": "single",
-            "items": [
-              {
-                "id": "walls-back-wall",
-                "kind": "upgrade",
-                "title": "Back Wall",
-                "hoverTitle": "Back Wall",
-                "hoverDescription": "Walls · (+ $100.00) · Conditional on source",
-                "price": {
-                  "surcharge": 100,
-                  "label": "(+ $100.00)"
-                },
-                "allowsQuantity": true,
-                "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615484089707.jpg",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615484089707.jpg",
-                "metadata": {
-                  "conditional": "true",
-                  "hiddenByDefault": "true"
-                }
-              },
-              {
-                "id": "walls-back-wall-half-side-walls",
-                "kind": "upgrade",
-                "title": "Back Wall & Half Side Walls",
-                "hoverTitle": "Back Wall & Half Side Walls",
-                "hoverDescription": "Walls · (+ $300.00) · Conditional on source",
-                "price": {
-                  "surcharge": 300,
-                  "label": "(+ $300.00)"
-                },
-                "allowsQuantity": true,
-                "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615484641932.jpg",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615484641932.jpg",
-                "metadata": {
-                  "conditional": "true",
-                  "hiddenByDefault": "true"
-                }
-              },
-              {
-                "id": "walls-three-full-walls",
-                "kind": "upgrade",
-                "title": "Three Full Walls",
-                "hoverTitle": "Three Full Walls",
-                "hoverDescription": "Walls · (+ $400.00) · Conditional on source",
-                "price": {
-                  "surcharge": 400,
-                  "label": "(+ $400.00)"
-                },
-                "allowsQuantity": true,
-                "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615485325022.jpg",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615485325022.jpg",
-                "metadata": {
-                  "conditional": "true",
-                  "hiddenByDefault": "true"
-                }
-              }
-            ],
-            "description": "Shown conditionally on the source site."
-          },
-          {
             "id": "double-sided-walls",
             "title": "Double-Sided Walls",
             "selectionMode": "single",
@@ -591,8 +495,7 @@ export const storefrontProducts = [
               }
             ]
           }
-        ],
-        "description": "Items marked conditional were hidden by default or gated by other source options."
+        ]
       }
     ],
     "sku": "ITEM #: 10-BW",
@@ -5343,74 +5246,6 @@ export const storefrontProducts = [
             ]
           },
           {
-            "id": "walls",
-            "title": "Walls",
-            "selectionMode": "single",
-            "items": [
-              {
-                "id": "walls-20ft-back-wall",
-                "kind": "upgrade",
-                "title": "20ft Back Wall",
-                "hoverTitle": "20ft Back Wall",
-                "hoverDescription": "Walls · (+ $255.00) · Conditional on source",
-                "price": {
-                  "surcharge": 255,
-                  "label": "(+ $255.00)"
-                },
-                "allowsQuantity": true,
-                "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616360743952.jpg",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616360743952.jpg",
-                "metadata": {
-                  "conditional": "true",
-                  "hiddenByDefault": "true"
-                }
-              },
-              {
-                "id": "walls-20ft-back-wall-half-side-walls",
-                "kind": "upgrade",
-                "title": "20ft Back Wall & Half Side Walls",
-                "hoverTitle": "20ft Back Wall & Half Side Walls",
-                "hoverDescription": "Walls · (+ $520.00) · Conditional on source",
-                "price": {
-                  "surcharge": 520,
-                  "label": "(+ $520.00)"
-                },
-                "allowsQuantity": true,
-                "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616360803119.jpg",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616360803119.jpg",
-                "metadata": {
-                  "conditional": "true",
-                  "hiddenByDefault": "true"
-                }
-              },
-              {
-                "id": "walls-20ft-three-full-walls",
-                "kind": "upgrade",
-                "title": "20ft Three Full Walls",
-                "hoverTitle": "20ft Three Full Walls",
-                "hoverDescription": "Walls · (+ $455.00) · Conditional on source",
-                "price": {
-                  "surcharge": 455,
-                  "label": "(+ $455.00)"
-                },
-                "allowsQuantity": true,
-                "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616360875845.jpg",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616360875845.jpg",
-                "metadata": {
-                  "conditional": "true",
-                  "hiddenByDefault": "true"
-                }
-              }
-            ],
-            "description": "Shown conditionally on the source site."
-          },
-          {
             "id": "double-sided-walls",
             "title": "Double Sided Walls",
             "selectionMode": "single",
@@ -5431,8 +5266,7 @@ export const storefrontProducts = [
               }
             ]
           }
-        ],
-        "description": "Items marked conditional were hidden by default or gated by other source options."
+        ]
       }
     ],
     "sku": "ITEM #: 15-10FB",
@@ -5729,74 +5563,6 @@ export const storefrontProducts = [
             ]
           },
           {
-            "id": "walls",
-            "title": "Walls",
-            "selectionMode": "single",
-            "items": [
-              {
-                "id": "walls-20ft-back-wall",
-                "kind": "upgrade",
-                "title": "20ft Back Wall",
-                "hoverTitle": "20ft Back Wall",
-                "hoverDescription": "Walls · (+ $255.00) · Conditional on source",
-                "price": {
-                  "surcharge": 255,
-                  "label": "(+ $255.00)"
-                },
-                "allowsQuantity": true,
-                "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616360743952.jpg",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616360743952.jpg",
-                "metadata": {
-                  "conditional": "true",
-                  "hiddenByDefault": "true"
-                }
-              },
-              {
-                "id": "walls-20ft-back-wall-half-side-walls",
-                "kind": "upgrade",
-                "title": "20ft Back Wall & Half Side Walls",
-                "hoverTitle": "20ft Back Wall & Half Side Walls",
-                "hoverDescription": "Walls · (+ $520.00) · Conditional on source",
-                "price": {
-                  "surcharge": 520,
-                  "label": "(+ $520.00)"
-                },
-                "allowsQuantity": true,
-                "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616360803119.jpg",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616360803119.jpg",
-                "metadata": {
-                  "conditional": "true",
-                  "hiddenByDefault": "true"
-                }
-              },
-              {
-                "id": "walls-20ft-three-full-walls",
-                "kind": "upgrade",
-                "title": "20ft Three Full Walls",
-                "hoverTitle": "20ft Three Full Walls",
-                "hoverDescription": "Walls · (+ $455.00) · Conditional on source",
-                "price": {
-                  "surcharge": 455,
-                  "label": "(+ $455.00)"
-                },
-                "allowsQuantity": true,
-                "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616360875845.jpg",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616360875845.jpg",
-                "metadata": {
-                  "conditional": "true",
-                  "hiddenByDefault": "true"
-                }
-              }
-            ],
-            "description": "Shown conditionally on the source site."
-          },
-          {
             "id": "double-sided-walls",
             "title": "Double Sided Walls",
             "selectionMode": "single",
@@ -5817,8 +5583,7 @@ export const storefrontProducts = [
               }
             ]
           }
-        ],
-        "description": "Items marked conditional were hidden by default or gated by other source options."
+        ]
       }
     ],
     "sku": "ITEM #: 16-15FB",
@@ -6124,74 +5889,6 @@ export const storefrontProducts = [
             ]
           },
           {
-            "id": "walls",
-            "title": "Walls",
-            "selectionMode": "single",
-            "items": [
-              {
-                "id": "walls-20ft-back-wall",
-                "kind": "upgrade",
-                "title": "20ft Back Wall",
-                "hoverTitle": "20ft Back Wall",
-                "hoverDescription": "Walls · (+ $255.00) · Conditional on source",
-                "price": {
-                  "surcharge": 255,
-                  "label": "(+ $255.00)"
-                },
-                "allowsQuantity": true,
-                "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616360743952.jpg",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616360743952.jpg",
-                "metadata": {
-                  "conditional": "true",
-                  "hiddenByDefault": "true"
-                }
-              },
-              {
-                "id": "walls-20ft-back-wall-half-side-walls",
-                "kind": "upgrade",
-                "title": "20ft Back Wall & Half Side Walls",
-                "hoverTitle": "20ft Back Wall & Half Side Walls",
-                "hoverDescription": "Walls · (+ $520.00) · Conditional on source",
-                "price": {
-                  "surcharge": 520,
-                  "label": "(+ $520.00)"
-                },
-                "allowsQuantity": true,
-                "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616360803119.jpg",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616360803119.jpg",
-                "metadata": {
-                  "conditional": "true",
-                  "hiddenByDefault": "true"
-                }
-              },
-              {
-                "id": "walls-20ft-three-full-walls",
-                "kind": "upgrade",
-                "title": "20ft Three Full Walls",
-                "hoverTitle": "20ft Three Full Walls",
-                "hoverDescription": "Walls · (+ $455.00) · Conditional on source",
-                "price": {
-                  "surcharge": 455,
-                  "label": "(+ $455.00)"
-                },
-                "allowsQuantity": true,
-                "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616360875845.jpg",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616360875845.jpg",
-                "metadata": {
-                  "conditional": "true",
-                  "hiddenByDefault": "true"
-                }
-              }
-            ],
-            "description": "Shown conditionally on the source site."
-          },
-          {
             "id": "double-sided-walls",
             "title": "Double Sided Walls",
             "selectionMode": "single",
@@ -6212,8 +5909,7 @@ export const storefrontProducts = [
               }
             ]
           }
-        ],
-        "description": "Items marked conditional were hidden by default or gated by other source options."
+        ]
       }
     ],
     "sku": "ITEM #: 17-20FB",
@@ -6504,74 +6200,6 @@ export const storefrontProducts = [
             ]
           },
           {
-            "id": "walls",
-            "title": "Walls",
-            "selectionMode": "single",
-            "items": [
-              {
-                "id": "walls-20ft-back-wall",
-                "kind": "upgrade",
-                "title": "20ft Back Wall",
-                "hoverTitle": "20ft Back Wall",
-                "hoverDescription": "Walls · (+ $255.00) · Conditional on source",
-                "price": {
-                  "surcharge": 255,
-                  "label": "(+ $255.00)"
-                },
-                "allowsQuantity": true,
-                "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616360743952.jpg",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616360743952.jpg",
-                "metadata": {
-                  "conditional": "true",
-                  "hiddenByDefault": "true"
-                }
-              },
-              {
-                "id": "walls-20ft-back-wall-half-side-walls",
-                "kind": "upgrade",
-                "title": "20ft Back Wall & Half Side Walls",
-                "hoverTitle": "20ft Back Wall & Half Side Walls",
-                "hoverDescription": "Walls · (+ $520.00) · Conditional on source",
-                "price": {
-                  "surcharge": 520,
-                  "label": "(+ $520.00)"
-                },
-                "allowsQuantity": true,
-                "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616360803119.jpg",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616360803119.jpg",
-                "metadata": {
-                  "conditional": "true",
-                  "hiddenByDefault": "true"
-                }
-              },
-              {
-                "id": "walls-20ft-three-full-walls",
-                "kind": "upgrade",
-                "title": "20ft Three Full Walls",
-                "hoverTitle": "20ft Three Full Walls",
-                "hoverDescription": "Walls · (+ $455.00) · Conditional on source",
-                "price": {
-                  "surcharge": 455,
-                  "label": "(+ $455.00)"
-                },
-                "allowsQuantity": true,
-                "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616360875845.jpg",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616360875845.jpg",
-                "metadata": {
-                  "conditional": "true",
-                  "hiddenByDefault": "true"
-                }
-              }
-            ],
-            "description": "Shown conditionally on the source site."
-          },
-          {
             "id": "double-sided-walls",
             "title": "Double Sided Walls",
             "selectionMode": "single",
@@ -6592,8 +6220,7 @@ export const storefrontProducts = [
               }
             ]
           }
-        ],
-        "description": "Items marked conditional were hidden by default or gated by other source options."
+        ]
       }
     ],
     "sku": "ITEM #: 14-05FB",
@@ -8142,102 +7769,6 @@ export const storefrontProducts = [
         "displayStyle": "grid",
         "subgroups": [
           {
-            "id": "vented-top",
-            "title": "Vented Top",
-            "selectionMode": "single",
-            "items": [
-              {
-                "id": "vented-top-vent",
-                "kind": "upgrade",
-                "title": "Vent",
-                "hoverTitle": "Vent",
-                "hoverDescription": "Vented Top · (+ $50.00) · Conditional on source",
-                "price": {
-                  "surcharge": 50,
-                  "label": "(+ $50.00)"
-                },
-                "allowsQuantity": true,
-                "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615335850375.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615335850375.png",
-                "metadata": {
-                  "conditional": "true",
-                  "hiddenByDefault": "true"
-                }
-              }
-            ],
-            "description": "Shown conditionally on the source site."
-          },
-          {
-            "id": "walls",
-            "title": "Walls",
-            "selectionMode": "single",
-            "items": [
-              {
-                "id": "walls-back-wall",
-                "kind": "upgrade",
-                "title": "Back Wall",
-                "hoverTitle": "Back Wall",
-                "hoverDescription": "Walls · (+ $100.00) · Conditional on source",
-                "price": {
-                  "surcharge": 100,
-                  "label": "(+ $100.00)"
-                },
-                "allowsQuantity": true,
-                "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615484089707.jpg",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615484089707.jpg",
-                "metadata": {
-                  "conditional": "true",
-                  "hiddenByDefault": "true"
-                }
-              },
-              {
-                "id": "walls-back-wall-half-side-walls",
-                "kind": "upgrade",
-                "title": "Back Wall & Half Side Walls",
-                "hoverTitle": "Back Wall & Half Side Walls",
-                "hoverDescription": "Walls · (+ $300.00) · Conditional on source",
-                "price": {
-                  "surcharge": 300,
-                  "label": "(+ $300.00)"
-                },
-                "allowsQuantity": true,
-                "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615484641932.jpg",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615484641932.jpg",
-                "metadata": {
-                  "conditional": "true",
-                  "hiddenByDefault": "true"
-                }
-              },
-              {
-                "id": "walls-three-full-walls",
-                "kind": "upgrade",
-                "title": "Three Full Walls",
-                "hoverTitle": "Three Full Walls",
-                "hoverDescription": "Walls · (+ $400.00) · Conditional on source",
-                "price": {
-                  "surcharge": 400,
-                  "label": "(+ $400.00)"
-                },
-                "allowsQuantity": true,
-                "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615485325022.jpg",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615485325022.jpg",
-                "metadata": {
-                  "conditional": "true",
-                  "hiddenByDefault": "true"
-                }
-              }
-            ],
-            "description": "Shown conditionally on the source site."
-          },
-          {
             "id": "double-sided-walls",
             "title": "Double-Sided Walls",
             "selectionMode": "single",
@@ -8258,8 +7789,7 @@ export const storefrontProducts = [
               }
             ]
           }
-        ],
-        "description": "Items marked conditional were hidden by default or gated by other source options."
+        ]
       }
     ],
     "sku": "ITEM #: 10-SW",
@@ -9405,37 +8935,8 @@ export const storefrontProducts = [
                 }
               }
             ]
-          },
-          {
-            "id": "power-station",
-            "title": "Power Station",
-            "selectionMode": "single",
-            "items": [
-              {
-                "id": "power-station-power-bank",
-                "kind": "accessory",
-                "title": "Power Bank",
-                "hoverTitle": "Power Bank",
-                "hoverDescription": "Power Station · (+ $135.00) · Conditional on source",
-                "price": {
-                  "surcharge": 135,
-                  "label": "(+ $135.00)"
-                },
-                "allowsQuantity": true,
-                "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17720543340805.jpg",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17720543340805.jpg",
-                "metadata": {
-                  "sourceControlType": "image-swatches",
-                  "conditional": "true"
-                }
-              }
-            ],
-            "description": "Shown conditionally on the source site."
           }
-        ],
-        "description": "Items marked conditional were hidden by default or gated by other source options."
+        ]
       },
       {
         "id": "upgrades",
@@ -9533,90 +9034,8 @@ export const storefrontProducts = [
                 }
               }
             ]
-          },
-          {
-            "id": "double-sided-walls",
-            "title": "Double-Sided Walls",
-            "selectionMode": "single",
-            "items": [
-              {
-                "id": "double-sided-walls-double-sided-back-wall",
-                "kind": "upgrade",
-                "title": "Double Sided Back Wall",
-                "hoverTitle": "Double Sided Back Wall",
-                "hoverDescription": "Double-Sided Walls · (+ $100.00) · Conditional on source",
-                "price": {
-                  "surcharge": 100,
-                  "label": "(+ $100.00)"
-                },
-                "allowsQuantity": true,
-                "minQuantity": 1,
-                "step": 1,
-                "metadata": {
-                  "sourceControlType": "select",
-                  "conditional": "true"
-                }
-              },
-              {
-                "id": "double-sided-walls-double-sided-half-side-walls",
-                "kind": "upgrade",
-                "title": "Double Sided Half Side Walls",
-                "hoverTitle": "Double Sided Half Side Walls",
-                "hoverDescription": "Double-Sided Walls · (+ $150.00) · Conditional on source",
-                "price": {
-                  "surcharge": 150,
-                  "label": "(+ $150.00)"
-                },
-                "allowsQuantity": true,
-                "minQuantity": 1,
-                "step": 1,
-                "metadata": {
-                  "sourceControlType": "select",
-                  "conditional": "true"
-                }
-              },
-              {
-                "id": "double-sided-walls-double-sided-back-half-side-walls",
-                "kind": "upgrade",
-                "title": "Double Sided Back & Half Side Walls",
-                "hoverTitle": "Double Sided Back & Half Side Walls",
-                "hoverDescription": "Double-Sided Walls · (+ $250.00) · Conditional on source",
-                "price": {
-                  "surcharge": 250,
-                  "label": "(+ $250.00)"
-                },
-                "allowsQuantity": true,
-                "minQuantity": 1,
-                "step": 1,
-                "metadata": {
-                  "sourceControlType": "select",
-                  "conditional": "true"
-                }
-              },
-              {
-                "id": "double-sided-walls-double-sided-three-full-walls",
-                "kind": "upgrade",
-                "title": "Double Sided Three Full Walls",
-                "hoverTitle": "Double Sided Three Full Walls ",
-                "hoverDescription": "Double-Sided Walls · (+ $300.00) · Conditional on source",
-                "price": {
-                  "surcharge": 300,
-                  "label": "(+ $300.00)"
-                },
-                "allowsQuantity": true,
-                "minQuantity": 1,
-                "step": 1,
-                "metadata": {
-                  "sourceDisplayName": "Double Sided Three Full Walls ",
-                  "sourceControlType": "select",
-                  "conditional": "true"
-                }
-              }
-            ],
-            "description": "Shown conditionally on the source site. Rendered as a dropdown on the source site."
           }
-        ],
-        "description": "Items marked conditional were hidden by default or gated by other source options."
+        ]
       }
     ],
     "sku": "Item #: 1-10Black",
@@ -10074,90 +9493,8 @@ export const storefrontProducts = [
                 }
               }
             ]
-          },
-          {
-            "id": "double-sided-walls",
-            "title": "Double-Sided Walls",
-            "selectionMode": "single",
-            "items": [
-              {
-                "id": "double-sided-walls-double-sided-back-wall",
-                "kind": "upgrade",
-                "title": "Double Sided Back Wall",
-                "hoverTitle": "Double Sided Back Wall",
-                "hoverDescription": "Double-Sided Walls · (+ $100.00) · Conditional on source",
-                "price": {
-                  "surcharge": 100,
-                  "label": "(+ $100.00)"
-                },
-                "allowsQuantity": true,
-                "minQuantity": 1,
-                "step": 1,
-                "metadata": {
-                  "sourceControlType": "select",
-                  "conditional": "true"
-                }
-              },
-              {
-                "id": "double-sided-walls-double-sided-half-side-wall",
-                "kind": "upgrade",
-                "title": "Double Sided Half Side Wall",
-                "hoverTitle": "Double Sided Half Side Wall",
-                "hoverDescription": "Double-Sided Walls · (+ $150.00) · Conditional on source",
-                "price": {
-                  "surcharge": 150,
-                  "label": "(+ $150.00)"
-                },
-                "allowsQuantity": true,
-                "minQuantity": 1,
-                "step": 1,
-                "metadata": {
-                  "sourceControlType": "select",
-                  "conditional": "true"
-                }
-              },
-              {
-                "id": "double-sided-walls-double-sided-back-half-side-walls",
-                "kind": "upgrade",
-                "title": "Double Sided Back & Half Side Walls",
-                "hoverTitle": "Double Sided Back & Half Side Walls",
-                "hoverDescription": "Double-Sided Walls · (+ $250.00) · Conditional on source",
-                "price": {
-                  "surcharge": 250,
-                  "label": "(+ $250.00)"
-                },
-                "allowsQuantity": true,
-                "minQuantity": 1,
-                "step": 1,
-                "metadata": {
-                  "sourceControlType": "select",
-                  "conditional": "true"
-                }
-              },
-              {
-                "id": "double-sided-walls-double-sided-three-full-walls",
-                "kind": "upgrade",
-                "title": "Double Sided Three Full Walls",
-                "hoverTitle": "Double Sided Three Full Walls ",
-                "hoverDescription": "Double-Sided Walls · (+ $300.00) · Conditional on source",
-                "price": {
-                  "surcharge": 300,
-                  "label": "(+ $300.00)"
-                },
-                "allowsQuantity": true,
-                "minQuantity": 1,
-                "step": 1,
-                "metadata": {
-                  "sourceDisplayName": "Double Sided Three Full Walls ",
-                  "sourceControlType": "select",
-                  "conditional": "true"
-                }
-              }
-            ],
-            "description": "Shown conditionally on the source site. Rendered as a dropdown on the source site."
           }
-        ],
-        "description": "Items marked conditional were hidden by default or gated by other source options."
+        ]
       }
     ],
     "sku": "ITEM #: 1-10 TOP",
@@ -10561,11 +9898,9 @@ export const storefrontProducts = [
                   "sourceControlType": "select"
                 }
               }
-            ],
-            "description": "Rendered as a dropdown on the source site."
+            ]
           }
-        ],
-        "description": "Items marked conditional were hidden by default or gated by other source options."
+        ]
       }
     ],
     "sku": "ITEM #: 2-10",
@@ -10999,11 +10334,9 @@ export const storefrontProducts = [
                   "sourceControlType": "select"
                 }
               }
-            ],
-            "description": "Rendered as a dropdown on the source site."
+            ]
           }
-        ],
-        "description": "Items marked conditional were hidden by default or gated by other source options."
+        ]
       }
     ],
     "sku": "ITEM #: 3-10",
@@ -11437,11 +10770,9 @@ export const storefrontProducts = [
                   "sourceControlType": "select"
                 }
               }
-            ],
-            "description": "Rendered as a dropdown on the source site."
+            ]
           }
-        ],
-        "description": "Items marked conditional were hidden by default or gated by other source options."
+        ]
       }
     ],
     "sku": "Item #: 4-10",
@@ -11773,90 +11104,8 @@ export const storefrontProducts = [
                 }
               }
             ]
-          },
-          {
-            "id": "15ft-double-sided-walls",
-            "title": "15ft Double Sided Walls",
-            "selectionMode": "single",
-            "items": [
-              {
-                "id": "15ft-double-sided-walls-double-sided-15ft-back-wall",
-                "kind": "upgrade",
-                "title": "Double Sided 15ft Back Wall",
-                "hoverTitle": "Double Sided 15ft Back Wall ",
-                "hoverDescription": "15ft Double Sided Walls · (+ $130.00) · Conditional on source",
-                "price": {
-                  "surcharge": 130,
-                  "label": "(+ $130.00)"
-                },
-                "allowsQuantity": true,
-                "minQuantity": 1,
-                "step": 1,
-                "metadata": {
-                  "sourceDisplayName": "Double Sided 15ft Back Wall ",
-                  "sourceControlType": "select",
-                  "conditional": "true"
-                }
-              },
-              {
-                "id": "15ft-double-sided-walls-double-sided-half-side-walls",
-                "kind": "upgrade",
-                "title": "Double Sided Half Side Walls",
-                "hoverTitle": "Double Sided Half Side Walls",
-                "hoverDescription": "15ft Double Sided Walls · (+ $150.00) · Conditional on source",
-                "price": {
-                  "surcharge": 150,
-                  "label": "(+ $150.00)"
-                },
-                "allowsQuantity": true,
-                "minQuantity": 1,
-                "step": 1,
-                "metadata": {
-                  "sourceControlType": "select",
-                  "conditional": "true"
-                }
-              },
-              {
-                "id": "15ft-double-sided-walls-double-sided-15ft-back-wall-side-walls",
-                "kind": "upgrade",
-                "title": "Double Sided 15Ft Back Wall & Side Walls",
-                "hoverTitle": "Double Sided 15Ft Back Wall & Side Walls",
-                "hoverDescription": "15ft Double Sided Walls · (+ $280.00) · Conditional on source",
-                "price": {
-                  "surcharge": 280,
-                  "label": "(+ $280.00)"
-                },
-                "allowsQuantity": true,
-                "minQuantity": 1,
-                "step": 1,
-                "metadata": {
-                  "sourceControlType": "select",
-                  "conditional": "true"
-                }
-              },
-              {
-                "id": "15ft-double-sided-walls-double-sided-15ft-three-full-walls",
-                "kind": "upgrade",
-                "title": "Double Sided 15Ft Three Full walls",
-                "hoverTitle": "Double Sided 15Ft Three Full walls",
-                "hoverDescription": "15ft Double Sided Walls · (+ $330.00) · Conditional on source",
-                "price": {
-                  "surcharge": 330,
-                  "label": "(+ $330.00)"
-                },
-                "allowsQuantity": true,
-                "minQuantity": 1,
-                "step": 1,
-                "metadata": {
-                  "sourceControlType": "select",
-                  "conditional": "true"
-                }
-              }
-            ],
-            "description": "Shown conditionally on the source site. Rendered as a dropdown on the source site."
           }
-        ],
-        "description": "Items marked conditional were hidden by default or gated by other source options."
+        ]
       }
     ],
     "sku": "ITEM #: 5-15B",
@@ -12535,90 +11784,8 @@ export const storefrontProducts = [
                 }
               }
             ]
-          },
-          {
-            "id": "15ft-double-sided-walls",
-            "title": "15ft Double Sided Walls",
-            "selectionMode": "single",
-            "items": [
-              {
-                "id": "15ft-double-sided-walls-double-sided-15ft-back-wall",
-                "kind": "upgrade",
-                "title": "Double Sided 15ft Back Wall",
-                "hoverTitle": "Double Sided 15ft Back Wall ",
-                "hoverDescription": "15ft Double Sided Walls · (+ $130.00) · Conditional on source",
-                "price": {
-                  "surcharge": 130,
-                  "label": "(+ $130.00)"
-                },
-                "allowsQuantity": true,
-                "minQuantity": 1,
-                "step": 1,
-                "metadata": {
-                  "sourceDisplayName": "Double Sided 15ft Back Wall ",
-                  "sourceControlType": "select",
-                  "conditional": "true"
-                }
-              },
-              {
-                "id": "15ft-double-sided-walls-double-sided-half-side-walls",
-                "kind": "upgrade",
-                "title": "Double Sided Half Side Walls",
-                "hoverTitle": "Double Sided Half Side Walls",
-                "hoverDescription": "15ft Double Sided Walls · (+ $150.00) · Conditional on source",
-                "price": {
-                  "surcharge": 150,
-                  "label": "(+ $150.00)"
-                },
-                "allowsQuantity": true,
-                "minQuantity": 1,
-                "step": 1,
-                "metadata": {
-                  "sourceControlType": "select",
-                  "conditional": "true"
-                }
-              },
-              {
-                "id": "15ft-double-sided-walls-double-sided-15ft-back-wall-side-walls",
-                "kind": "upgrade",
-                "title": "Double Sided 15Ft Back Wall & Side Walls",
-                "hoverTitle": "Double Sided 15Ft Back Wall & Side Walls",
-                "hoverDescription": "15ft Double Sided Walls · (+ $280.00) · Conditional on source",
-                "price": {
-                  "surcharge": 280,
-                  "label": "(+ $280.00)"
-                },
-                "allowsQuantity": true,
-                "minQuantity": 1,
-                "step": 1,
-                "metadata": {
-                  "sourceControlType": "select",
-                  "conditional": "true"
-                }
-              },
-              {
-                "id": "15ft-double-sided-walls-double-sided-15ft-three-full-walls",
-                "kind": "upgrade",
-                "title": "Double Sided 15Ft Three Full walls",
-                "hoverTitle": "Double Sided 15Ft Three Full walls",
-                "hoverDescription": "15ft Double Sided Walls · (+ $330.00) · Conditional on source",
-                "price": {
-                  "surcharge": 330,
-                  "label": "(+ $330.00)"
-                },
-                "allowsQuantity": true,
-                "minQuantity": 1,
-                "step": 1,
-                "metadata": {
-                  "sourceControlType": "select",
-                  "conditional": "true"
-                }
-              }
-            ],
-            "description": "Shown conditionally on the source site. Rendered as a dropdown on the source site."
           }
-        ],
-        "description": "Items marked conditional were hidden by default or gated by other source options."
+        ]
       }
     ],
     "sku": "ITEM #: 5-15 TOP",
@@ -12927,11 +12094,9 @@ export const storefrontProducts = [
                   "sourceControlType": "select"
                 }
               }
-            ],
-            "description": "Rendered as a dropdown on the source site."
+            ]
           }
-        ],
-        "description": "Items marked conditional were hidden by default or gated by other source options."
+        ]
       }
     ],
     "sku": "ITEM #: 6-15",
@@ -13274,11 +12439,9 @@ export const storefrontProducts = [
                   "sourceControlType": "select"
                 }
               }
-            ],
-            "description": "Rendered as a dropdown on the source site."
+            ]
           }
-        ],
-        "description": "Items marked conditional were hidden by default or gated by other source options."
+        ]
       }
     ],
     "sku": "ITEM #: 7-15",
@@ -13617,11 +12780,9 @@ export const storefrontProducts = [
                   "sourceControlType": "select"
                 }
               }
-            ],
-            "description": "Rendered as a dropdown on the source site."
+            ]
           }
-        ],
-        "description": "Items marked conditional were hidden by default or gated by other source options."
+        ]
       }
     ],
     "sku": "ITEM #: 8-15",
@@ -13933,11 +13094,9 @@ export const storefrontProducts = [
                   "sourceControlType": "select"
                 }
               }
-            ],
-            "description": "Rendered as a dropdown on the source site."
+            ]
           }
-        ],
-        "description": "Items marked conditional were hidden by default or gated by other source options."
+        ]
       }
     ],
     "sku": "ITEM #: 10-20",
@@ -14280,11 +13439,9 @@ export const storefrontProducts = [
                   "sourceControlType": "select"
                 }
               }
-            ],
-            "description": "Rendered as a dropdown on the source site."
+            ]
           }
-        ],
-        "description": "Items marked conditional were hidden by default or gated by other source options."
+        ]
       }
     ],
     "sku": "ITEM #: 11-20",
@@ -14629,11 +13786,9 @@ export const storefrontProducts = [
                   "sourceControlType": "select"
                 }
               }
-            ],
-            "description": "Rendered as a dropdown on the source site."
+            ]
           }
-        ],
-        "description": "Items marked conditional were hidden by default or gated by other source options."
+        ]
       }
     ],
     "sku": "ITEM #: 12-20",
@@ -14967,89 +14122,8 @@ export const storefrontProducts = [
                 }
               }
             ]
-          },
-          {
-            "id": "double-sided-walls",
-            "title": "Double Sided Walls",
-            "selectionMode": "single",
-            "items": [
-              {
-                "id": "double-sided-walls-double-sided-20ft-back-wall",
-                "kind": "upgrade",
-                "title": "Double Sided 20ft Back Wall",
-                "hoverTitle": "Double Sided 20ft Back Wall",
-                "hoverDescription": "Double Sided Walls · (+ $140.00) · Conditional on source",
-                "price": {
-                  "surcharge": 140,
-                  "label": "(+ $140.00)"
-                },
-                "allowsQuantity": true,
-                "minQuantity": 1,
-                "step": 1,
-                "metadata": {
-                  "sourceControlType": "select",
-                  "conditional": "true"
-                }
-              },
-              {
-                "id": "double-sided-walls-double-sided-half-side-walls",
-                "kind": "upgrade",
-                "title": "Double Sided Half Side Walls",
-                "hoverTitle": "Double Sided Half Side Walls",
-                "hoverDescription": "Double Sided Walls · (+ $150.00) · Conditional on source",
-                "price": {
-                  "surcharge": 150,
-                  "label": "(+ $150.00)"
-                },
-                "allowsQuantity": true,
-                "minQuantity": 1,
-                "step": 1,
-                "metadata": {
-                  "sourceControlType": "select",
-                  "conditional": "true"
-                }
-              },
-              {
-                "id": "double-sided-walls-double-sided-20ft-back-wall-half-side-walls",
-                "kind": "upgrade",
-                "title": "Double Sided 20ft Back Wall & Half Side Walls",
-                "hoverTitle": "Double Sided 20ft Back Wall & Half Side Walls",
-                "hoverDescription": "Double Sided Walls · (+ $290.00) · Conditional on source",
-                "price": {
-                  "surcharge": 290,
-                  "label": "(+ $290.00)"
-                },
-                "allowsQuantity": true,
-                "minQuantity": 1,
-                "step": 1,
-                "metadata": {
-                  "sourceControlType": "select",
-                  "conditional": "true"
-                }
-              },
-              {
-                "id": "double-sided-walls-double-sided-three-full-walls",
-                "kind": "upgrade",
-                "title": "Double Sided Three Full Walls",
-                "hoverTitle": "Double Sided Three Full Walls",
-                "hoverDescription": "Double Sided Walls · (+ $340.00) · Conditional on source",
-                "price": {
-                  "surcharge": 340,
-                  "label": "(+ $340.00)"
-                },
-                "allowsQuantity": true,
-                "minQuantity": 1,
-                "step": 1,
-                "metadata": {
-                  "sourceControlType": "select",
-                  "conditional": "true"
-                }
-              }
-            ],
-            "description": "Shown conditionally on the source site. Rendered as a dropdown on the source site."
           }
-        ],
-        "description": "Items marked conditional were hidden by default or gated by other source options."
+        ]
       }
     ],
     "sku": "ITEM #: 9-20B",
@@ -15425,89 +14499,8 @@ export const storefrontProducts = [
                 }
               }
             ]
-          },
-          {
-            "id": "double-sided-walls",
-            "title": "Double Sided Walls",
-            "selectionMode": "single",
-            "items": [
-              {
-                "id": "double-sided-walls-double-sided-20ft-back-wall",
-                "kind": "upgrade",
-                "title": "Double Sided 20ft Back Wall",
-                "hoverTitle": "Double Sided 20ft Back Wall",
-                "hoverDescription": "Double Sided Walls · (+ $140.00) · Conditional on source",
-                "price": {
-                  "surcharge": 140,
-                  "label": "(+ $140.00)"
-                },
-                "allowsQuantity": true,
-                "minQuantity": 1,
-                "step": 1,
-                "metadata": {
-                  "sourceControlType": "select",
-                  "conditional": "true"
-                }
-              },
-              {
-                "id": "double-sided-walls-double-sided-half-side-walls",
-                "kind": "upgrade",
-                "title": "Double Sided Half Side Walls",
-                "hoverTitle": "Double Sided Half Side Walls",
-                "hoverDescription": "Double Sided Walls · (+ $150.00) · Conditional on source",
-                "price": {
-                  "surcharge": 150,
-                  "label": "(+ $150.00)"
-                },
-                "allowsQuantity": true,
-                "minQuantity": 1,
-                "step": 1,
-                "metadata": {
-                  "sourceControlType": "select",
-                  "conditional": "true"
-                }
-              },
-              {
-                "id": "double-sided-walls-double-sided-20ft-back-wall-half-side-walls",
-                "kind": "upgrade",
-                "title": "Double Sided 20ft Back Wall & Half Side Walls",
-                "hoverTitle": "Double Sided 20ft Back Wall & Half Side Walls",
-                "hoverDescription": "Double Sided Walls · (+ $290.00) · Conditional on source",
-                "price": {
-                  "surcharge": 290,
-                  "label": "(+ $290.00)"
-                },
-                "allowsQuantity": true,
-                "minQuantity": 1,
-                "step": 1,
-                "metadata": {
-                  "sourceControlType": "select",
-                  "conditional": "true"
-                }
-              },
-              {
-                "id": "double-sided-walls-double-sided-three-full-walls",
-                "kind": "upgrade",
-                "title": "Double Sided Three Full Walls",
-                "hoverTitle": "Double Sided Three Full Walls",
-                "hoverDescription": "Double Sided Walls · (+ $340.00) · Conditional on source",
-                "price": {
-                  "surcharge": 340,
-                  "label": "(+ $340.00)"
-                },
-                "allowsQuantity": true,
-                "minQuantity": 1,
-                "step": 1,
-                "metadata": {
-                  "sourceControlType": "select",
-                  "conditional": "true"
-                }
-              }
-            ],
-            "description": "Shown conditionally on the source site. Rendered as a dropdown on the source site."
           }
-        ],
-        "description": "Items marked conditional were hidden by default or gated by other source options."
+        ]
       }
     ],
     "sku": "ITEM #: 9-20 TOP",
@@ -18518,11 +17511,9 @@ export const storefrontProducts = [
                   "sourceControlType": "select"
                 }
               }
-            ],
-            "description": "Rendered as a dropdown on the source site."
+            ]
           }
-        ],
-        "description": "Items marked conditional were hidden by default or gated by other source options."
+        ]
       }
     ],
     "sku": "ITEM #: 13-10",
@@ -18881,11 +17872,9 @@ export const storefrontProducts = [
                   "sourceControlType": "select"
                 }
               }
-            ],
-            "description": "Rendered as a dropdown on the source site."
+            ]
           }
-        ],
-        "description": "Items marked conditional were hidden by default or gated by other source options."
+        ]
       }
     ],
     "sku": "ITEM #: 13-10A",
@@ -19174,11 +18163,9 @@ export const storefrontProducts = [
                   "sourceControlType": "select"
                 }
               }
-            ],
-            "description": "Rendered as a dropdown on the source site."
+            ]
           }
-        ],
-        "description": "Items marked conditional were hidden by default or gated by other source options."
+        ]
       }
     ],
     "sku": "ITEM #: 18-15",
@@ -19467,11 +18454,9 @@ export const storefrontProducts = [
                   "sourceControlType": "select"
                 }
               }
-            ],
-            "description": "Rendered as a dropdown on the source site."
+            ]
           }
-        ],
-        "description": "Items marked conditional were hidden by default or gated by other source options."
+        ]
       }
     ],
     "sku": "ITEM #:19-20",

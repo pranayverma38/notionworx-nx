@@ -1161,8 +1161,7 @@
     font-weight: 700;
   }
 
-  .product-addons__subtitle,
-  .product-addons__footnote {
+  .product-addons__subtitle {
     margin: 0;
     color: var(--text-2);
     font-size: 13px;
@@ -1503,16 +1502,6 @@
     color: var(--text);
     font-size: 15px;
     line-height: 21px;
-    font-weight: 700;
-  }
-
-  .product-addon-card__badge {
-    border-radius: 999px;
-    padding: 2px 7px;
-    background: #fff7ed;
-    color: #c2410c;
-    font-size: 10px;
-    line-height: 14px;
     font-weight: 700;
   }
 

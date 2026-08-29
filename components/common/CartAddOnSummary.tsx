@@ -33,9 +33,6 @@ export default function CartAddOnSummary({
     >
       {selectedOptions.map((option) => {
         const label = option.subgroupTitle || option.groupTitle;
-        const isConditional =
-          option.metadata?.conditional === "true" ||
-          option.metadata?.hiddenByDefault === "true";
 
         return (
           <div
@@ -60,9 +57,6 @@ export default function CartAddOnSummary({
                 </span>
               ) : null}
             </div>
-            {isConditional ? (
-              <span style={{ color: "#9a3412" }}>Conditional on source</span>
-            ) : null}
           </div>
         );
       })}

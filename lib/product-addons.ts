@@ -32,28 +32,89 @@ function cloneAddOnOption(option: ProductAddOnOption): ProductAddOnOption {
   };
 }
 
-/** Deep clone add-on group data so catalog clones stay mutation-safe. */
-export function cloneProductAddOnGroups(
+function isConditionalAddOnOption(option: ProductAddOnOption): boolean {
+  return (
+    option.metadata?.conditional === "true" ||
+    option.metadata?.hiddenByDefault === "true" ||
+    /\bconditional on source\b/i.test(option.hoverDescription ?? "")
+  );
+}
+
+function cleanAddOnDescription(description?: string): string | undefined {
+  const normalized = String(description ?? "").trim();
+
+  if (!normalized) {
+    return undefined;
+  }
+
+  return /shown conditionally on the source site|items marked conditional were hidden by default or gated by other source options|rendered as a dropdown on the source site/i.test(
+    normalized,
+  )
+    ? undefined
+    : normalized;
+}
+
+function sanitizeProductAddOnGroups(
   groups?: ProductAddOnGroup[],
 ): ProductAddOnGroup[] | undefined {
   if (!groups?.length) {
     return undefined;
   }
 
-  return groups.map((group) => ({
-    ...group,
-    ...(group.items
-      ? { items: group.items.map(cloneAddOnOption) }
-      : {}),
-    ...(group.subgroups
-      ? {
-          subgroups: group.subgroups.map((subgroup) => ({
-            ...subgroup,
-            items: subgroup.items.map(cloneAddOnOption),
-          })),
-        }
-      : {}),
-  }));
+  const sanitizedGroups = groups.flatMap((group) => {
+    const sanitizedItems = (group.items ?? []).flatMap((item) => {
+      const nextItem = isConditionalAddOnOption(item) ? null : cloneAddOnOption(item);
+      return nextItem ? [nextItem] : [];
+    });
+    const sanitizedSubgroups = (group.subgroups ?? []).flatMap((subgroup) => {
+      const sanitizedSubgroupItems = subgroup.items.flatMap((item) => {
+        const nextItem = isConditionalAddOnOption(item) ? null : cloneAddOnOption(item);
+        return nextItem ? [nextItem] : [];
+      });
+
+      if (!sanitizedSubgroupItems.length) {
+        return [];
+      }
+
+      const { description: _subgroupDescription, items: _subgroupItems, ...subgroupRest } =
+        subgroup;
+      const description = cleanAddOnDescription(subgroup.description);
+
+      return [
+        {
+          ...subgroupRest,
+          ...(description ? { description } : {}),
+          items: sanitizedSubgroupItems,
+        },
+      ];
+    });
+
+    if (!sanitizedItems.length && !sanitizedSubgroups.length) {
+      return [];
+    }
+
+    const { description: _groupDescription, items: _groupItems, subgroups: _groupSubgroups, ...groupRest } =
+      group;
+    const description = cleanAddOnDescription(group.description);
+
+    return [
+      {
+        ...groupRest,
+        ...(description ? { description } : {}),
+        ...(sanitizedSubgroups.length ? { subgroups: sanitizedSubgroups } : {}),
+        ...(sanitizedItems.length ? { items: sanitizedItems } : {}),
+      },
+    ];
+  });
+
+  return sanitizedGroups.length ? sanitizedGroups : undefined;
+}
+
+/** Deep clone add-on group data so catalog clones stay mutation-safe. */
+export function cloneProductAddOnGroups(
+  groups?: ProductAddOnGroup[],
+): ProductAddOnGroup[] | undefined {
+  return sanitizeProductAddOnGroups(groups);
 }
 
 /** Returns add-on groups for a product, optionally filtered by type. */
@@ -61,24 +122,26 @@ export function getProductAddOnGroups(
   product: Pick<ProductCardItem, "addOnGroups">,
   kind?: ProductAddOnGroup["kind"],
 ): ProductAddOnGroup[] {
-  if (!product.addOnGroups?.length) {
+  const groups = sanitizeProductAddOnGroups(product.addOnGroups);
+
+  if (!groups?.length) {
     return [];
   }
 
-  return kind
-    ? product.addOnGroups.filter((group) => group.kind === kind)
-    : product.addOnGroups;
+  return kind ? groups.filter((group) => group.kind === kind) : groups;
 }
 
 /** Flattens group/subgroup structures for pricing and cart utilities. */
 export function flattenProductAddOnOptions(
   groups?: ProductAddOnGroup[],
 ): FlattenedProductAddOnOption[] {
-  if (!groups?.length) {
+  const sanitizedGroups = sanitizeProductAddOnGroups(groups);
+
+  if (!sanitizedGroups?.length) {
     return [];
   }
 
-  return groups.flatMap((group) => {
+  return sanitizedGroups.flatMap((group) => {
     const groupItems = (group.items ?? []).map((item) => ({
       ...cloneAddOnOption(item),
       groupId: group.id,
@@ -177,6 +240,34 @@ export function getConfiguredProductUnitPrice(
   selections?: ProductAddOnSelection[],
 ): number {
   return basePrice + getProductAddOnSelectionSubtotal(groups, selections);
+}
+
+/** Keeps only selections that still map to visible add-on options. */
+export function filterValidProductAddOnSelections(
+  groups?: ProductAddOnGroup[],
+  selections?: ProductAddOnSelection[],
+): ProductAddOnSelection[] {
+  const normalizedSelections = normalizeProductAddOnSelections(selections);
+
+  if (!groups?.length || !normalizedSelections.length) {
+    return [];
+  }
+
+  const validSelectionKeys = new Set(
+    flattenProductAddOnOptions(groups).map((option) =>
+      buildAddOnOptionKey(option.groupId, option.id, option.subgroupId),
+    ),
+  );
+
+  return normalizedSelections.filter((selection) =>
+    validSelectionKeys.has(
+      buildAddOnOptionKey(
+        selection.groupId,
+        selection.addOnId,
+        selection.subgroupId,
+      ),
+    ),
+  );
 }
 
 /** Stable cart identity for a product configuration, including attached add-ons. */

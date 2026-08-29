@@ -2,8 +2,8 @@
 
 import {
   buildProductConfigurationKey,
+  filterValidProductAddOnSelections,
   getProductConfigurationIdentity,
-  normalizeProductAddOnSelections,
 } from "@/lib/product-addons";
 import { useProduct } from "@/context/ProductContext";
 import { useContextElement } from "@/context/Context";
@@ -22,7 +22,10 @@ export function ProductQuantityBuy({ product }: { product: ProductCardItem }) {
     configuredUnitPrice,
   } = useProduct();
   const { addProductToCart, cartProducts, updateQuantity } = useContextElement();
-  const normalizedAddOnSelections = normalizeProductAddOnSelections(addOnSelections);
+  const normalizedAddOnSelections = filterValidProductAddOnSelections(
+    product.addOnGroups,
+    addOnSelections,
+  );
   const configurationKey = buildProductConfigurationKey({
     productId: getProductConfigurationIdentity(product),
     selectedColor: currentColor || undefined,

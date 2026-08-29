@@ -41,13 +41,6 @@ export function ProductAddOnPicker() {
       ),
     [addOnSelections],
   );
-  const hasConditionalOptions = standardGroups.some((group) =>
-    flattenGroupOptions(group).some(
-      (option) =>
-        option.metadata?.conditional === "true" ||
-        option.metadata?.hiddenByDefault === "true",
-    ),
-  );
 
   if (!addOnGroups.length) {
     return null;
@@ -203,14 +196,6 @@ export function ProductAddOnPicker() {
           ) : null}
         </section>
       ))}
-
-      {hasConditionalOptions ? (
-        <p className="product-addons__footnote">
-          Options marked <strong>Conditional on source</strong> were hidden by
-          default or gated by other selections on the original site. They are
-          shown here so the crawl coverage remains complete.
-        </p>
-      ) : null}
     </div>
   );
 }
@@ -330,23 +315,17 @@ function AddOnOptionCard({
   onToggle: () => void;
   onQuantityChange: (nextQuantity: number) => void;
 }) {
-  const isConditional =
-    option.metadata?.conditional === "true" ||
-    option.metadata?.hiddenByDefault === "true";
   const allowsQuantity = option.allowsQuantity !== false;
   const metaText = option.hoverDescription
+    ?.replace(/\s*[·-]\s*Conditional on source\b/gi, "")
     ?.replace(/\s*[·-]\s*\(\+\s*\$[\d,]+(?:\.\d{2})?\)\s*$/i, "")
-    .trim();
+    ?.trim();
   const priceLabel =
     option.price.label ||
     (option.price.surcharge > 0
       ? `(+ ${formatPrice(option.price.surcharge)})`
       : "Included");
-  const titleParts = [
-    option.hoverTitle || option.title,
-    metaText,
-    isConditional ? "Conditional on source" : undefined,
-  ].filter(Boolean);
+  const titleParts = [option.hoverTitle || option.title, metaText].filter(Boolean);
 
   return (
     <div className={`product-addon-card${isSelected ? " is-selected" : ""}`}>
@@ -382,11 +361,6 @@ function AddOnOptionCard({
             <div className="product-addon-card__body">
               <div className="product-addon-card__title-row">
                 <span className="product-addon-card__title">{option.title}</span>
-                {isConditional ? (
-                  <span className="product-addon-card__badge">
-                    Conditional on source
-                  </span>
-                ) : null}
               </div>
             </div>
             <div className="product-addon-card__footer">
@@ -590,11 +564,4 @@ function getFrameTypeHoverText(option: ProductAddOnOption): string {
     "4. Commercial Quality Construction",
     "5. Light Weight & Easy To Transport",
   ].join("\n");
-}
-
-function flattenGroupOptions(group: ProductAddOnGroup): ProductAddOnOption[] {
-  return [
-    ...(group.items ?? []),
-    ...(group.subgroups ?? []).flatMap((subgroup) => subgroup.items),
-  ];
 }
