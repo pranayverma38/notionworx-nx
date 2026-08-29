@@ -18,11 +18,14 @@ export function ProductDescriptionIntro({
     product?.descriptionText ||
     product?.description ||
     "Review the migrated catalog details for this product.";
-  const detailLines = [
-    product?.category ? `Category: ${product.category}` : null,
-    product?.sku ? `SKU: ${product.sku}` : null,
-    product?.inStock === false ? "Status: Out of stock" : "Status: Available",
-  ].filter(Boolean) as string[];
+  const detailItems = [
+    product?.category ? { label: "Category", value: product.category } : null,
+    product?.sku ? { label: "SKU", value: product.sku } : null,
+    {
+      label: "Status",
+      value: product?.inStock === false ? "Out of stock" : "Available",
+    },
+  ].filter(Boolean) as { label: string; value: string }[];
 
   const secondaryTitle =
     titleTag === "h5" ? (
@@ -32,8 +35,8 @@ export function ProductDescriptionIntro({
     );
 
   return (
-    <div className={gridClassName}>
-      <div className="box-desc">
+    <div className={`${gridClassName} product-detail-description-layout`}>
+      <div className="box-desc product-detail-description-card product-detail-description-main">
         <div className="desc_info">
           <ProductLongFormContent
             html={descriptionHtml}
@@ -42,16 +45,17 @@ export function ProductDescriptionIntro({
           />
         </div>
       </div>
-      <div className="box-desc">
+      <aside className="box-desc product-detail-description-card product-detail-description-side">
         {secondaryTitle}
-        <ul className="list">
-          {detailLines.map((line) => (
-            <li key={line} className="cl-text-2">
-              - {line}
+        <ul className="product-detail-key-details">
+          {detailItems.map((item) => (
+            <li key={item.label} className="product-detail-key-detail">
+              <span className="product-detail-key-label">{item.label}</span>
+              <span className="product-detail-key-value">{item.value}</span>
             </li>
           ))}
         </ul>
-      </div>
+      </aside>
     </div>
   );
 }

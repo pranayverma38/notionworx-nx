@@ -156,13 +156,19 @@
 .tab-content_desc {
   row-gap: 28px;
 
+  &.product-detail-description-layout,
+  &.product-detail-single-layout {
+    gap: 24px;
+  }
+
   .desc_title {
     margin-bottom: 12px;
+    color: var(--text);
   }
 
   .desc_info {
     display: grid;
-    gap: 12px;
+    gap: 14px;
   }
 
   .rich-content {
@@ -268,6 +274,233 @@
 
     &.desc-2 {
       gap: 40px;
+    }
+  }
+}
+
+.product-detail-tabs-section {
+  .product-detail-tabs-shell {
+    display: grid;
+    gap: 24px;
+  }
+
+  .product-detail-tabs-content {
+    border: 1px solid rgba(15, 23, 42, 0.08);
+    border-radius: 28px;
+    background: linear-gradient(180deg, #ffffff 0%, #f8fafc 100%);
+    padding: clamp(18px, 2vw, 28px);
+  }
+
+  .product-detail-description-layout {
+    display: grid;
+    grid-template-columns: minmax(0, 1.7fr) minmax(280px, 0.9fr);
+    align-items: start;
+    gap: 24px;
+  }
+
+  .product-detail-single-layout {
+    display: grid;
+  }
+
+  .product-detail-description-card {
+    border: 1px solid rgba(15, 23, 42, 0.08);
+    border-radius: 24px;
+    background: #ffffff;
+    box-shadow: 0 18px 40px rgba(15, 23, 42, 0.05);
+    padding: clamp(18px, 2.2vw, 28px);
+  }
+
+  .product-detail-description-main {
+    .rich-content {
+      color: var(--text-2);
+      font-size: 15px;
+      line-height: 1.75;
+
+      > * + * {
+        margin-top: 14px;
+      }
+
+      ul,
+      ol {
+        padding-left: 20px;
+      }
+
+      li + li {
+        margin-top: 8px;
+      }
+    }
+  }
+
+  .how-to-order-structured {
+    display: grid;
+    gap: 20px;
+  }
+
+  .how-to-order-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .how-to-order-meta-item {
+    padding: 8px 12px;
+    border-radius: 999px;
+    background: rgba(15, 23, 42, 0.04);
+    border: 1px solid rgba(148, 163, 184, 0.18);
+    color: var(--text);
+    font-size: 13px;
+    line-height: 18px;
+    font-weight: 600;
+  }
+
+  .how-to-order-heading {
+    margin: 0;
+    color: var(--text);
+    font-size: clamp(22px, 2.8vw, 28px);
+    line-height: 1.2;
+    font-weight: 700;
+  }
+
+  .how-to-order-step-list {
+    display: grid;
+    gap: 14px;
+  }
+
+  .how-to-order-step-card {
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr);
+    gap: 16px;
+    align-items: start;
+    padding: 18px 20px;
+    border-radius: 20px;
+    background: #f8fafc;
+    border: 1px solid rgba(148, 163, 184, 0.16);
+  }
+
+  .how-to-order-step-index {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 44px;
+    height: 44px;
+    border-radius: 999px;
+    background: var(--text);
+    color: var(--white);
+    font-size: 14px;
+    line-height: 1;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+  }
+
+  .how-to-order-step-content {
+    display: grid;
+    gap: 10px;
+  }
+
+  .how-to-order-step-title {
+    margin: 0;
+    color: var(--text);
+    font-size: 18px;
+    line-height: 1.35;
+    font-weight: 700;
+  }
+
+  .how-to-order-step-details {
+    display: grid;
+    gap: 10px;
+
+    p {
+      margin: 0;
+      color: var(--text-2);
+      font-size: 15px;
+      line-height: 1.7;
+    }
+  }
+
+  .product-detail-description-side {
+    position: sticky;
+    top: 110px;
+  }
+
+  .product-detail-key-details {
+    display: grid;
+    gap: 12px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .product-detail-key-detail {
+    display: grid;
+    gap: 4px;
+    padding: 14px 16px;
+    border-radius: 18px;
+    background: #f8fafc;
+    border: 1px solid rgba(148, 163, 184, 0.16);
+  }
+
+  .product-detail-key-label {
+    color: #64748b;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  .product-detail-key-value {
+    color: var(--text);
+    font-size: 14px;
+    line-height: 1.5;
+    font-weight: 600;
+  }
+
+  @media (max-width: 991.98px) {
+    .product-detail-description-layout {
+      grid-template-columns: 1fr;
+    }
+
+    .product-detail-description-side {
+      position: static;
+    }
+  }
+
+  @media (max-width: 767.98px) {
+    .product-detail-tabs-shell {
+      gap: 18px;
+    }
+
+    .product-detail-tabs-content {
+      border-radius: 22px;
+      padding: 16px;
+    }
+
+    .product-detail-description-card {
+      border-radius: 20px;
+      padding: 16px;
+    }
+
+    .product-detail-key-detail {
+      padding: 12px 14px;
+    }
+
+    .how-to-order-step-card {
+      grid-template-columns: 1fr;
+      gap: 12px;
+      padding: 16px;
+    }
+
+    .how-to-order-step-index {
+      min-width: 40px;
+      width: 40px;
+      height: 40px;
+    }
+
+    .how-to-order-step-title {
+      font-size: 16px;
+    }
+
+    .how-to-order-step-details p {
+      font-size: 14px;
     }
   }
 }

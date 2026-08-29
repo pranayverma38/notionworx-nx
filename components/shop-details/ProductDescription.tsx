@@ -12,40 +12,47 @@ export default function ProductDescription({
   );
 
   return (
-    <section className="section-product-description flat-spacing flat-animate-tab">
+    <section className="section-product-description product-detail-tabs-section flat-spacing flat-animate-tab">
       <div className="container">
-        <ul className="tab-btn-wrap-v1" role="tablist">
-          <li className="nav-tab-item" role="presentation">
-            <a
-              href="#description"
-              data-bs-toggle="tab"
-              className="tf-btn-tab active"
-              role="tab"
-            >
-              <span className="h5 fw-medium">Description</span>
-            </a>
-          </li>
-          {hasHowToOrder ? (
+        <div className="product-detail-tabs-shell">
+          <ul className="tab-btn-wrap-v1 product-detail-tabs-nav" role="tablist">
             <li className="nav-tab-item" role="presentation">
-              <a href="#how-to-order" data-bs-toggle="tab" className="tf-btn-tab" role="tab">
-                <span className="h5 fw-medium">How to Order</span>
+              <a
+                href="#description"
+                data-bs-toggle="tab"
+                className="tf-btn-tab active"
+                role="tab"
+              >
+                <span className="h5 fw-medium">Description</span>
               </a>
             </li>
-          ) : null}
-        </ul>
-        <div className="tab-content">
-          <div
-            className="tab-pane active show"
-            id="description"
-            role="tabpanel"
-          >
-            <ProductDescriptionIntro product={product} />
-          </div>
-          {hasHowToOrder ? (
-            <div className="tab-pane" id="how-to-order" role="tabpanel">
-              <ProductHowToOrder product={product} />
+            {hasHowToOrder ? (
+              <li className="nav-tab-item" role="presentation">
+                <a
+                  href="#how-to-order"
+                  data-bs-toggle="tab"
+                  className="tf-btn-tab"
+                  role="tab"
+                >
+                  <span className="h5 fw-medium">How to Order</span>
+                </a>
+              </li>
+            ) : null}
+          </ul>
+          <div className="tab-content product-detail-tabs-content">
+            <div
+              className="tab-pane active show"
+              id="description"
+              role="tabpanel"
+            >
+              <ProductDescriptionIntro product={product} />
             </div>
-          ) : null}
+            {hasHowToOrder ? (
+              <div className="tab-pane" id="how-to-order" role="tabpanel">
+                <ProductHowToOrder product={product} />
+              </div>
+            ) : null}
+          </div>
         </div>
       </div>
     </section>
