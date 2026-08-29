@@ -10,6 +10,10 @@ const outputPath = path.join(
   repoRoot,
   "data/inventory/notionworx/storefront.generated.ts",
 );
+const productAddOnCatalogPath = path.join(
+  repoRoot,
+  "data/inventory/notionworx/product-addons.generated.json",
+);
 
 const COLOR_SWATCHES = [
   "bg-black",
@@ -1069,9 +1073,13 @@ function buildProduct(product, index) {
   const description = buildExcerpt(descriptionText);
   const howToOrderHtml = normalizeLongFormField(product.howToOrderHtml);
   const howToOrderText = normalizeLongFormField(product.howToOrderText);
+  const addOnGroups = productAddOnMap[product.handle];
 
   return {
     id: index + 1,
+    sourceProductId: product.id,
+    sourceHandle: product.handle,
+    sourceSlug: product.slug,
     img: primaryImage,
     imgHover: hoverImage,
     images,
@@ -1102,6 +1110,11 @@ function buildProduct(product, index) {
     ...(warrantyText ? { warrantyText } : {}),
     ...(howToOrderHtml ? { howToOrderHtml } : {}),
     ...(howToOrderText ? { howToOrderText } : {}),
+    ...(addOnGroups
+      ? {
+          addOnGroups: JSON.parse(JSON.stringify(addOnGroups)),
+        }
+      : {}),
     sku: product.skus[0] || undefined,
     reviewsText: `${product.price?.variantCount ?? product.variants.length} option${(product.price?.variantCount ?? product.variants.length) === 1 ? "" : "s"}`,
     soldLabel: inStock ? "Available to order" : "Currently unavailable",
@@ -1151,6 +1164,10 @@ function buildCollectionGallery(collection) {
 }
 
 const manifest = readJson("data/inventory/notionworx/manifest.json");
+const productAddOnCatalog = JSON.parse(
+  readFileSync(productAddOnCatalogPath, "utf8"),
+);
+const productAddOnMap = productAddOnCatalog.products || {};
 const inventoryCollections = manifest.collections.map((record) =>
   readJson(record.filePath),
 );

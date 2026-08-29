@@ -4,6 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { type FormEvent, useMemo, useState } from "react";
 
+import CartAddOnSummary from "@/components/common/CartAddOnSummary";
 import CountdownTimer from "@/components/common/Countdown";
 import { PasswordField } from "@/components/forms/PasswordField";
 import { useContextElement, type CartProduct } from "@/context/Context";
@@ -15,7 +16,7 @@ import {
 } from "@/utils/estimateShipping";
 
 export default function Checkout() {
-  const { cartProducts, setCartProducts, updateQuantity, totalPrice, removeFromCart } =
+  const { cartProducts, updateQuantity, totalPrice, removeFromCart } =
     useContextElement();
   const [shippingCost, setShippingCost] = useState(0);
   const [shippingCountry, setShippingCountry] = useState("");
@@ -429,10 +430,10 @@ export default function Checkout() {
                   ) : (
                     cartProducts.map((item) => (
                       <CheckoutOrderItem
-                        key={item.id}
+                        key={item.configurationKey}
                         item={item}
-                        onRemove={() => removeLine(item.id)}
-                        onQtyChange={(qty) => setQty(item.id, qty)}
+                        onRemove={() => removeLine(item.configurationKey)}
+                        onQtyChange={(qty) => setQty(item.configurationKey, qty)}
                       />
                     ))
                   )}
@@ -519,6 +520,7 @@ function CheckoutOrderItem({
             <span className="cl-text-2">Size:</span> {sizeLabel}
           </div>
         ) : null}
+        <CartAddOnSummary item={item} />
         <div className="wg-quantity mt-8">
           <button
             type="button"

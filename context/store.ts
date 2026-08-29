@@ -3,25 +3,43 @@
 import { create } from "zustand";
 import { persist, type StorageValue } from "zustand/middleware";
 
-import { ProductCardItem } from "@/types/productCard";
 import { products } from "@/data/products/products";
 import {
-  upsertCartItem,
-  updateCartItemQuantity,
-  removeCartItem,
+  buildProductConfigurationKey,
+  getConfiguredProductUnitPrice,
+  getProductConfigurationIdentity,
+  normalizeProductAddOnSelections,
+} from "@/lib/product-addons";
+import {
   fetchCartFromServer,
+  removeCartItem,
   syncLocalCartToServer,
+  updateCartItemQuantity,
+  upsertCartItem,
 } from "@/lib/supabase/cart";
+import type { ProductCardItem } from "@/types/productCard";
+import type { ProductAddOnSelection } from "@/types/productAddons";
 
 // userId stored separately so cart helpers never need to call getUser()
 let _currentUserId: string | null = null;
-export function setCurrentUserId(id: string | null) { _currentUserId = id; }
+export function setCurrentUserId(id: string | null) {
+  _currentUserId = id;
+}
 
 export type Product = ProductCardItem;
+export interface CartProductSelectionInput {
+  selectedColor?: string;
+  selectedSize?: string;
+  addOnSelections?: ProductAddOnSelection[];
+}
+
 export type CartProduct = Product & {
   quantity: number;
   selectedColor?: string;
   selectedSize?: string;
+  addOnSelections?: ProductAddOnSelection[];
+  configurationKey: string;
+  basePrice: number;
 };
 export type ProductId = number | string;
 
@@ -41,7 +59,11 @@ interface StoreState {
   setCompareItem: (value: Product[] | ((prev: Product[]) => Product[])) => void;
   setActiveCartProduct: (item: CartProduct | null) => void;
   isAddedToCartProducts: (id: ProductId) => boolean;
-  addProductToCart: (item: Product, qty?: number) => void;
+  addProductToCart: (
+    item: Product,
+    qty?: number,
+    selection?: CartProductSelectionInput,
+  ) => void;
   updateQuantity: (id: ProductId, qty: number) => void;
   quantityInCart: (id: ProductId) => number;
   addToCompareItem: (item: Product) => void;
@@ -75,7 +97,11 @@ export const useStore = create<StoreState>()(
         set((state) => {
           const next =
             typeof value === "function" ? value(state.cartProducts) : value;
-          return { cartProducts: next, totalPrice: getTotalPrice(next) };
+          const normalizedNext = normalizeCartProducts(next);
+          return {
+            cartProducts: normalizedNext,
+            totalPrice: getTotalPrice(normalizedNext),
+          };
         }),
 
       setQuickViewItem: (item) => set({ quickViewItem: item }),
@@ -88,30 +114,61 @@ export const useStore = create<StoreState>()(
       setActiveCartProduct: (item) => set({ activeCartProduct: item }),
 
       isAddedToCartProducts: (id) =>
-        get().cartProducts.some((elm) => elm.id === id),
+        get().cartProducts.some(
+          (item) => item.id === id || item.configurationKey === String(id),
+        ),
 
-      addProductToCart: (item, qty = 1) => {
-        const { cartProducts, isAddedToCartProducts, isLoggedIn } = get();
-        if (isAddedToCartProducts(item.id)) return;
-        const cartItem: CartProduct = { ...item, quantity: qty };
+      addProductToCart: (item, qty = 1, selection) => {
+        const { cartProducts, isLoggedIn } = get();
+        const cartItem = normalizeCartProduct(item, qty, selection);
+
+        if (
+          cartProducts.some(
+            (existingItem) =>
+              existingItem.configurationKey === cartItem.configurationKey,
+          )
+        ) {
+          return;
+        }
+
         const next = [...cartProducts, cartItem];
         set({ cartProducts: next, totalPrice: getTotalPrice(next) });
-        if (isLoggedIn && _currentUserId) upsertCartItem(_currentUserId, cartItem).catch(console.error);
+        if (isLoggedIn && _currentUserId) {
+          upsertCartItem(_currentUserId, cartItem).catch(console.error);
+        }
       },
 
       updateQuantity: (id, qty) => {
-        const { cartProducts, isAddedToCartProducts, isLoggedIn } = get();
-        if (!isAddedToCartProducts(id) || qty < 1) return;
+        const { cartProducts, isLoggedIn } = get();
+        const cartItem = resolveCartProduct(cartProducts, id);
+        if (!cartItem || qty < 1) return;
+
         const items = cartProducts.map((item) =>
-          item.id === id ? { ...item, quantity: qty } : item,
+          item.configurationKey === cartItem.configurationKey
+            ? normalizeCartProduct(item, qty)
+            : item,
         );
         set({ cartProducts: items, totalPrice: getTotalPrice(items) });
-        if (isLoggedIn && _currentUserId) updateCartItemQuantity(_currentUserId, id, qty).catch(console.error);
+        if (isLoggedIn && _currentUserId) {
+          updateCartItemQuantity(
+            _currentUserId,
+            cartItem.configurationKey,
+            qty,
+          ).catch(console.error);
+        }
       },
 
       quantityInCart: (id) => {
-        const item = get().cartProducts.find((elm) => elm.id === id);
-        return item ? item.quantity : 0;
+        const exactMatch = get().cartProducts.find(
+          (item) => item.configurationKey === String(id),
+        );
+        if (exactMatch) {
+          return exactMatch.quantity;
+        }
+
+        return get()
+          .cartProducts.filter((item) => item.id === id)
+          .reduce((sum, item) => sum + item.quantity, 0);
       },
 
       addToCompareItem: (item) => {
@@ -131,22 +188,35 @@ export const useStore = create<StoreState>()(
 
       removeFromCart: (id) => {
         const { cartProducts, isLoggedIn } = get();
-        const next = cartProducts.filter((p) => p.id !== id);
+        const cartItem = resolveCartProduct(cartProducts, id);
+        if (!cartItem) return;
+
+        const next = cartProducts.filter(
+          (item) => item.configurationKey !== cartItem.configurationKey,
+        );
         set({ cartProducts: next, totalPrice: getTotalPrice(next) });
-        if (isLoggedIn && _currentUserId) removeCartItem(_currentUserId, id).catch(console.error);
+        if (isLoggedIn && _currentUserId) {
+          removeCartItem(_currentUserId, cartItem.configurationKey).catch(
+            console.error,
+          );
+        }
       },
 
       loadServerCart: async (userId: string) => {
         const { cartProducts } = get();
 
-        // Push any pending local items to server first (merge strategy)
         if (cartProducts.length > 0) {
           await syncLocalCartToServer(userId, cartProducts).catch(console.error);
         }
 
-        // Then pull the authoritative server cart
-        const serverCart = await fetchCartFromServer(userId).catch(() => [] as CartProduct[]);
-        set({ cartProducts: serverCart, totalPrice: getTotalPrice(serverCart) });
+        const serverCart = await fetchCartFromServer(userId).catch(
+          () => [] as CartProduct[],
+        );
+        const normalizedServerCart = normalizeCartProducts(serverCart);
+        set({
+          cartProducts: normalizedServerCart,
+          totalPrice: getTotalPrice(normalizedServerCart),
+        });
       },
 
       clearLocalCart: () => {
@@ -160,13 +230,21 @@ export const useStore = create<StoreState>()(
         totalPrice: state.totalPrice,
       }),
       storage: {
-        getItem: (name): StorageValue<{ cartProducts: CartProduct[]; totalPrice: number }> | null => {
+        getItem: (
+          name,
+        ): StorageValue<{ cartProducts: CartProduct[]; totalPrice: number }> | null => {
           if (typeof window === "undefined") return null;
           const str = window.localStorage.getItem(name);
           if (!str) return null;
           try {
-            const parsed = JSON.parse(str) as StorageValue<{ cartProducts: CartProduct[]; totalPrice: number }>;
-            if (parsed?.state?.cartProducts && parsed.state.totalPrice == null) {
+            const parsed = JSON.parse(str) as StorageValue<{
+              cartProducts: CartProduct[];
+              totalPrice: number;
+            }>;
+            if (parsed?.state?.cartProducts) {
+              parsed.state.cartProducts = normalizeCartProducts(
+                parsed.state.cartProducts,
+              );
               parsed.state.totalPrice = getTotalPrice(parsed.state.cartProducts);
             }
             return parsed;
@@ -174,7 +252,10 @@ export const useStore = create<StoreState>()(
             return null;
           }
         },
-        setItem: (name, value: StorageValue<{ cartProducts: CartProduct[]; totalPrice: number }>) => {
+        setItem: (
+          name,
+          value: StorageValue<{ cartProducts: CartProduct[]; totalPrice: number }>,
+        ) => {
           if (typeof window !== "undefined") {
             window.localStorage.setItem(name, JSON.stringify(value));
           }
@@ -233,4 +314,54 @@ function getStableContextSnapshot(state: StoreState): ContextSnapshot {
 
 export function useContextElement() {
   return useStore(getStableContextSnapshot);
+}
+
+function normalizeCartProducts(items: CartProduct[]): CartProduct[] {
+  return items.map((item) => normalizeCartProduct(item, item.quantity));
+}
+
+function normalizeCartProduct(
+  item: Product | CartProduct,
+  qty: number,
+  selection?: CartProductSelectionInput,
+): CartProduct {
+  const cartItem = item as Partial<CartProduct>;
+  const selectedColor = selection?.selectedColor ?? cartItem.selectedColor;
+  const selectedSize = selection?.selectedSize ?? cartItem.selectedSize;
+  const addOnSelections = normalizeProductAddOnSelections(
+    selection?.addOnSelections ?? cartItem.addOnSelections,
+  );
+  const basePrice =
+    typeof cartItem.basePrice === "number"
+      ? cartItem.basePrice
+      : item.price;
+  const configurationKey =
+    cartItem.configurationKey ||
+    buildProductConfigurationKey({
+      productId: getProductConfigurationIdentity(item),
+      selectedColor,
+      selectedSize,
+      addOnSelections,
+    });
+
+  return {
+    ...item,
+    quantity: Math.max(1, Math.floor(qty)),
+    price: getConfiguredProductUnitPrice(basePrice, item.addOnGroups, addOnSelections),
+    basePrice,
+    configurationKey,
+    selectedColor: selectedColor || undefined,
+    selectedSize: selectedSize || undefined,
+    addOnSelections: addOnSelections.length ? addOnSelections : undefined,
+  };
+}
+
+function resolveCartProduct(
+  cartProducts: CartProduct[],
+  id: ProductId,
+): CartProduct | undefined {
+  return (
+    cartProducts.find((item) => item.configurationKey === String(id)) ||
+    cartProducts.find((item) => item.id === id)
+  );
 }

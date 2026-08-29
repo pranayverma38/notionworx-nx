@@ -1,7 +1,22 @@
 "use client";
 
-import { createContext, useContext, useState, useCallback } from "react";
-import { ProductSingleImage } from "@/types/productCard";
+import {
+  createContext,
+  useCallback,
+  useContext,
+  useMemo,
+  useState,
+  type Dispatch,
+  type SetStateAction,
+} from "react";
+
+import {
+  getConfiguredProductUnitPrice,
+  getProductAddOnSelectionSubtotal,
+  normalizeProductAddOnSelections,
+} from "@/lib/product-addons";
+import type { ProductSingleImage } from "@/types/productCard";
+import type { ProductAddOnGroup, ProductAddOnSelection } from "@/types/productAddons";
 
 export interface ColorOption {
   label: string;
@@ -30,6 +45,14 @@ interface ProductContextType {
   quantity: number;
   setQuantity: (q: number) => void;
 
+  // Attached add-ons
+  addOnGroups: ProductAddOnGroup[];
+  addOnSelections: ProductAddOnSelection[];
+  setAddOnSelections: Dispatch<SetStateAction<ProductAddOnSelection[]>>;
+  addOnSelectionSubtotal: number;
+  basePrice?: number;
+  configuredUnitPrice?: number;
+
   // Static Data
   extraImages: ProductSingleImage[];
   sizes: SizeOption[];
@@ -52,6 +75,8 @@ export interface ProductProviderProps {
   colors: ColorOption[];
   thumbnailPosition?: "bottom" | "left" | "right";
   zoomType?: "default" | "inner" | "magnifying" | "none";
+  basePrice?: number;
+  addOnGroups?: ProductAddOnGroup[];
 }
 
 export const ProductProvider: React.FC<ProductProviderProps> = ({
@@ -65,6 +90,8 @@ export const ProductProvider: React.FC<ProductProviderProps> = ({
   colors,
   thumbnailPosition = "left",
   zoomType = "default",
+  basePrice,
+  addOnGroups = [],
 }) => {
   const [pane, setPane] = useState<HTMLElement | null>(null);
   const [isZooming, setIsZooming] = useState(false);
@@ -73,10 +100,25 @@ export const ProductProvider: React.FC<ProductProviderProps> = ({
     initialSize || (sizes.length > 0 ? sizes[0].value : ""),
   );
   const [quantity, setQuantity] = useState(initialQuantity);
+  const [addOnSelections, setAddOnSelections] = useState<ProductAddOnSelection[]>(
+    () => getInitialAddOnSelections(addOnGroups),
+  );
 
   const registerPane = useCallback((el: HTMLElement | null) => {
     setPane(el);
   }, []);
+
+  const addOnSelectionSubtotal = useMemo(
+    () => getProductAddOnSelectionSubtotal(addOnGroups, addOnSelections),
+    [addOnGroups, addOnSelections],
+  );
+  const configuredUnitPrice = useMemo(
+    () =>
+      typeof basePrice === "number"
+        ? getConfiguredProductUnitPrice(basePrice, addOnGroups, addOnSelections)
+        : undefined,
+    [addOnGroups, addOnSelections, basePrice],
+  );
 
   return (
     <ProductContext.Provider
@@ -91,6 +133,12 @@ export const ProductProvider: React.FC<ProductProviderProps> = ({
         setCurrentSize,
         quantity,
         setQuantity,
+        addOnGroups,
+        addOnSelections,
+        setAddOnSelections,
+        addOnSelectionSubtotal,
+        basePrice,
+        configuredUnitPrice,
         extraImages,
         sizes,
         variantLabel,
@@ -115,4 +163,32 @@ export const useProduct = () => {
 /** Safe when `StickyProduct` renders outside `ProductProvider` (falls back to local qty/size). */
 export function useProductOptional() {
   return useContext(ProductContext);
+}
+
+function getInitialAddOnSelections(
+  addOnGroups: ProductAddOnGroup[],
+): ProductAddOnSelection[] {
+  return normalizeProductAddOnSelections(
+    addOnGroups.flatMap((group) => {
+      const directSelections = (group.items ?? [])
+        .filter((item) => item.defaultSelected)
+        .map((item) => ({
+          groupId: group.id,
+          addOnId: item.id,
+          quantity: item.minQuantity ?? 1,
+        }));
+      const subgroupSelections = (group.subgroups ?? []).flatMap((subgroup) =>
+        subgroup.items
+          .filter((item) => item.defaultSelected)
+          .map((item) => ({
+            groupId: group.id,
+            subgroupId: subgroup.id,
+            addOnId: item.id,
+            quantity: item.minQuantity ?? 1,
+          })),
+      );
+
+      return [...directSelections, ...subgroupSelections];
+    }),
+  );
 }

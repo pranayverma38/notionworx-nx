@@ -1,3 +1,5 @@
+import type { ProductAddOnGroup } from "./productAddons";
+
 export interface ProductColorSwatch {
   label: string;
   /** CSS class for swatch (e.g. "bg-olive-brown") */
@@ -32,6 +34,12 @@ export interface ShopProductFacetFields {
 /** One product for cards, single-product sections, or any product UI. Use img/imgHover for cards; use images for single-product gallery. */
 export interface ProductCardItem extends Partial<ShopProductFacetFields> {
   id: number;
+  /** Stable product id from the source-of-truth inventory export. */
+  sourceProductId?: number;
+  /** Stable source handle used by crawled mapping data. */
+  sourceHandle?: string;
+  /** Source slug preserved from the mirrored inventory JSON. */
+  sourceSlug?: string;
   /** Main image for card layout. Omit when using images[] (single-product). */
   img: string;
   imgHover?: string;
@@ -87,6 +95,8 @@ export interface ProductCardItem extends Partial<ShopProductFacetFields> {
   /** Sold label (e.g. "84% Sold - Only 24 item(s) left in stock!"). */
   soldLabel?: string;
   sku?: string;
+  /** Structured accessories/upgrades to attach on the PDP once mapping is available. */
+  addOnGroups?: ProductAddOnGroup[];
   /** Badge label (e.g. "Best seller"). */
   badgeLabel?: string;
   /** Badge subtext (e.g. "Selling fast! 22 people have this in their carts."). */

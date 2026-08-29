@@ -4,6 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { useMemo, useState } from "react";
 
+import CartAddOnSummary from "@/components/common/CartAddOnSummary";
 import { useContextElement, type CartProduct } from "@/context/Context";
 import type { ProductId } from "@/context/store";
 import { formatPrice } from "@/utils/formatPrice";
@@ -148,10 +149,10 @@ export default function ShoppingCart() {
           <div style={{ display: "flex", flexDirection: "column", gap: "16px" }}>
             {cartProducts.map(item => (
               <CartCard
-                key={item.id}
+                key={item.configurationKey}
                 item={item}
-                onRemove={() => removeLine(item.id)}
-                onQtyChange={qty => setQty(item.id, qty)}
+                onRemove={() => removeLine(item.configurationKey)}
+                onQtyChange={qty => setQty(item.configurationKey, qty)}
               />
             ))}
 
@@ -338,6 +339,7 @@ function CartCard({ item, onRemove, onQtyChange }: {
               </span>
             )}
           </div>
+          <CartAddOnSummary item={item} />
 
           <div className="cart-item-footer">
             <div className="qty-stepper">

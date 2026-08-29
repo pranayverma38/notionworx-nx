@@ -1,30 +1,56 @@
 "use client";
 
+import {
+  buildProductConfigurationKey,
+  getProductConfigurationIdentity,
+  normalizeProductAddOnSelections,
+} from "@/lib/product-addons";
 import { useProduct } from "@/context/ProductContext";
 import { useContextElement } from "@/context/Context";
-import { ProductCardItem } from "@/types/productCard";
+import type { ProductCardItem } from "@/types/productCard";
+import { formatPrice } from "@/utils/formatPrice";
+
+import { ProductAddOnPicker } from "./ProductAddOnPicker";
 
 export function ProductQuantityBuy({ product }: { product: ProductCardItem }) {
-  const { quantity, setQuantity, currentColor, currentSize } = useProduct();
-  const { addProductToCart, isAddedToCartProducts, updateQuantity } =
-    useContextElement();
-  const isInCart = isAddedToCartProducts(product.id);
+  const {
+    quantity,
+    setQuantity,
+    currentColor,
+    currentSize,
+    addOnSelections,
+    configuredUnitPrice,
+  } = useProduct();
+  const { addProductToCart, cartProducts, updateQuantity } = useContextElement();
+  const normalizedAddOnSelections = normalizeProductAddOnSelections(addOnSelections);
+  const configurationKey = buildProductConfigurationKey({
+    productId: getProductConfigurationIdentity(product),
+    selectedColor: currentColor || undefined,
+    selectedSize: currentSize || undefined,
+    addOnSelections: normalizedAddOnSelections,
+  });
+  const existingCartItem = cartProducts.find(
+    (item) => item.configurationKey === configurationKey,
+  );
+  const isInCart = Boolean(existingCartItem);
+  const unitPrice = configuredUnitPrice ?? product.price;
 
   const handleAddToCart = () => {
     if (isInCart) {
-      updateQuantity(product.id, quantity);
+      updateQuantity(configurationKey, quantity);
       return;
     }
-    const productWithSelection = {
-      ...product,
+
+    addProductToCart(product, quantity, {
       selectedColor: currentColor || undefined,
       selectedSize: currentSize || undefined,
-    };
-    addProductToCart(productWithSelection, quantity);
+      addOnSelections: normalizedAddOnSelections,
+    });
   };
 
   return (
-    <div className="tf-product-total-quantity">
+    <div className="tf-product-total-quantity" style={{ display: "grid", gap: 20 }}>
+      <ProductAddOnPicker />
       <p className="purchase-label">Quantity</p>
       <div className="purchase-actions-row">
         <div className="wg-quantity">
@@ -66,7 +92,7 @@ export function ProductQuantityBuy({ product }: { product: ProductCardItem }) {
             {isInCart ? "Update cart" : "Add to cart"}
           </span>
           <span className="btn-action-price__value">
-            ${(product.price * quantity).toFixed(2)}
+            {formatPrice(unitPrice * quantity)}
           </span>
         </button>
         <a

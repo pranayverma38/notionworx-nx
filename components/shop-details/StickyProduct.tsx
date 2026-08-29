@@ -3,6 +3,10 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import Image from "next/image";
 import { useParams } from "next/navigation";
+import {
+  buildProductConfigurationKey,
+  getProductConfigurationIdentity,
+} from "@/lib/product-addons";
 import { products, stickyBarProduct } from "@/data/products/products";
 import { useContextElement } from "@/context/Context";
 
@@ -27,11 +31,17 @@ export default function StickyProduct() {
       ? selectedSize
       : (product.sizes?.[0] ?? "");
   const variantLabel = product.variantLabel?.trim() || "Size";
+  const hasAddOnGroups = Boolean(product.addOnGroups?.length);
 
-  const { addProductToCart, isAddedToCartProducts, updateQuantity } =
+  const { addProductToCart, cartProducts, updateQuantity } =
     useContextElement();
-
-  const isInCart = isAddedToCartProducts(product.id);
+  const configurationKey = buildProductConfigurationKey({
+    productId: getProductConfigurationIdentity(product),
+    selectedSize: resolvedSelectedSize || undefined,
+  });
+  const isInCart = cartProducts.some(
+    (item) => item.configurationKey === configurationKey,
+  );
 
   useEffect(() => {
     const handleScroll = () => {
@@ -77,10 +87,19 @@ export default function StickyProduct() {
   }, [isVisible]);
 
   const handleAddToCart = () => {
+    if (hasAddOnGroups) {
+      document
+        .getElementById("product-addons-form")
+        ?.scrollIntoView({ behavior: "smooth", block: "start" });
+      return;
+    }
+
     if (isInCart) {
-      updateQuantity(product.id, quantity);
+      updateQuantity(configurationKey, quantity);
     } else {
-      addProductToCart(product, quantity);
+      addProductToCart(product, quantity, {
+        selectedSize: resolvedSelectedSize || undefined,
+      });
     }
   };
 
@@ -113,7 +132,30 @@ export default function StickyProduct() {
           </div>
           <div className="tf-sticky-atc-infos">
             <form className="" onSubmit={(e) => e.preventDefault()}>
-              {product.sizes?.length ? (
+              {hasAddOnGroups ? (
+                <div
+                  style={{
+                    display: "grid",
+                    gap: 6,
+                    marginBottom: 12,
+                  }}
+                >
+                  <p className="title" style={{ margin: 0 }}>
+                    This product has accessories and upgrades.
+                  </p>
+                  <p
+                    style={{
+                      margin: 0,
+                      color: "#6b7280",
+                      fontSize: "0.8rem",
+                      lineHeight: 1.45,
+                    }}
+                  >
+                    Scroll back to customize add-ons and quantities before
+                    adding it to the cart.
+                  </p>
+                </div>
+              ) : product.sizes?.length ? (
                 <div className="tf-sticky-atc-variant-price">
                   <p className="title">{variantLabel}:</p>
                   <div className="tf-select style-2">
@@ -130,42 +172,51 @@ export default function StickyProduct() {
                   </div>
                 </div>
               ) : null}
-              <div className="tf-product-info-quantity">
-                <p className="title">Quantity:</p>
-                <div className="wg-quantity style-2">
-                  <button
-                    className="btn-quantity minus-btn"
-                    type="button"
-                    onClick={() => setQuantity((q) => Math.max(1, q - 1))}
-                  >
-                    <i className="icon icon-minus" />
-                  </button>
-                  <input
-                    className="quantity-product"
-                    type="text"
-                    name="number"
-                    value={quantity}
-                    readOnly
-                  />
-                  <button
-                    className="btn-quantity plus-btn"
-                    type="button"
-                    onClick={() => setQuantity((q) => q + 1)}
-                  >
-                    <i className="icon icon-plus" />
-                  </button>
+              {hasAddOnGroups ? null : (
+                <div className="tf-product-info-quantity">
+                  <p className="title">Quantity:</p>
+                  <div className="wg-quantity style-2">
+                    <button
+                      className="btn-quantity minus-btn"
+                      type="button"
+                      onClick={() => setQuantity((q) => Math.max(1, q - 1))}
+                    >
+                      <i className="icon icon-minus" />
+                    </button>
+                    <input
+                      className="quantity-product"
+                      type="text"
+                      name="number"
+                      value={quantity}
+                      readOnly
+                    />
+                    <button
+                      className="btn-quantity plus-btn"
+                      type="button"
+                      onClick={() => setQuantity((q) => q + 1)}
+                    >
+                      <i className="icon icon-plus" />
+                    </button>
+                  </div>
                 </div>
-              </div>
+              )}
               <button
                 type="button"
                 className="tf-btn animate-btn btn-add-to-cart"
                 onClick={handleAddToCart}
               >
                 <span className="btn-add-to-cart__label">
-                  {isInCart ? "Update cart" : "Add to cart"}
+                  {hasAddOnGroups
+                    ? "Customize options"
+                    : isInCart
+                      ? "Update cart"
+                      : "Add to cart"}
                 </span>
                 <span className="btn-add-to-cart__price">
-                  ${(product.price * quantity).toFixed(2)}
+                  $
+                  {(
+                    product.price * (hasAddOnGroups ? 1 : quantity)
+                  ).toFixed(2)}
                 </span>
               </button>
             </form>

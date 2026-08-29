@@ -27,11 +27,18 @@ export default function AddToCartButton({
     useContextElement();
   const isAdded = product ? isAddedToCartProducts(product.id) : false;
   const isQuickAddTrigger = href === "#quickAdd";
+  const requiresConfiguration = Boolean(product?.addOnGroups?.length);
+  const resolvedLabel = requiresConfiguration ? "Customize" : label;
 
   const handleClick = (e: React.MouseEvent) => {
     e.preventDefault();
     e.stopPropagation();
     if (!product) return;
+
+    if (requiresConfiguration) {
+      router.push(`/product-detail/${product.id}`);
+      return;
+    }
 
     if (isQuickAddTrigger) {
       setQuickAddItem(product.id);
@@ -49,10 +56,13 @@ export default function AddToCartButton({
 
   /** Bootstrap 5 needs `data-bs-target` on `<button>`; anchors used to rely on `href`. */
   const bsTarget =
-    isQuickAddTrigger && href.startsWith("#") && href.length > 1
+    !requiresConfiguration &&
+    isQuickAddTrigger &&
+    href.startsWith("#") &&
+    href.length > 1
       ? href
       : undefined;
-  const bsToggle = isQuickAddTrigger ? dataToggle : undefined;
+  const bsToggle = !requiresConfiguration && isQuickAddTrigger ? dataToggle : undefined;
 
   if (variant === "tooltip") {
     return (
@@ -66,7 +76,9 @@ export default function AddToCartButton({
       >
         <i className="icon icon-Handbag" aria-hidden />
         <span className="tooltip" suppressHydrationWarning>
-          {!isQuickAddTrigger && isAdded ? "Added" : label}
+          {!requiresConfiguration && !isQuickAddTrigger && isAdded
+            ? "Added"
+            : resolvedLabel}
         </span>
       </button>
     );
@@ -84,7 +96,9 @@ export default function AddToCartButton({
       >
         <i className="icon icon-Handbag" aria-hidden />
         <span className="text fw-semibold ml-1" suppressHydrationWarning>
-          {!isQuickAddTrigger && isAdded ? "Added" : label}
+          {!requiresConfiguration && !isQuickAddTrigger && isAdded
+            ? "Added"
+            : resolvedLabel}
         </span>
       </button>
     );
@@ -100,7 +114,9 @@ export default function AddToCartButton({
       suppressHydrationWarning
       className={`tf-btn-reset ${className || "tf-btn btn-white small w-100"} ${activeClass}`.trim()}
     >
-      {!isQuickAddTrigger && isAdded ? "Added to Cart" : label}
+      {!requiresConfiguration && !isQuickAddTrigger && isAdded
+        ? "Added to Cart"
+        : resolvedLabel}
     </button>
   );
 }

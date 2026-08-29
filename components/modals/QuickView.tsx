@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import Image from "next/image";
+import { useRouter } from "next/navigation";
 import { useMemo, useState } from "react";
 
 import { useContextElement } from "@/context/Context";
@@ -12,6 +13,7 @@ export default function QuickView({
 }: {
   registerOffcanvasElement?: (el: HTMLElement | null) => void;
 }) {
+  const router = useRouter();
   const { quickViewItem, addProductToCart, isAddedToCartProducts } =
     useContextElement();
   const product = quickViewItem;
@@ -25,6 +27,7 @@ export default function QuickView({
   const hasColors = Boolean(product?.colors?.length);
   const hasSizes = Boolean(product?.sizes?.length);
   const isAdded = product ? isAddedToCartProducts(product.id) : false;
+  const requiresConfiguration = Boolean(product?.addOnGroups?.length);
 
   const galleryImages = useMemo(() => {
     if (product?.images?.length) return product.images.map((img) => img.src);
@@ -46,8 +49,16 @@ export default function QuickView({
   }, [product]);
 
   const handleAddToCart = () => {
-    if (!product || isAdded) return;
-    addProductToCart(product, quantity);
+    if (!product) return;
+    if (requiresConfiguration) {
+      router.push(`/product-detail/${product.id}`);
+      return;
+    }
+    if (isAdded) return;
+    addProductToCart(product, quantity, {
+      selectedColor: selectedColor?.label,
+      selectedSize: selectedSize ?? undefined,
+    });
   };
 
   if (!product) {
@@ -236,7 +247,11 @@ export default function QuickView({
                     data-bs-toggle="offcanvas"
                     className="btn-action-price tf-btn type-xl animate-btn w-100"
                   >
-                    {isAdded ? "Added" : "Add to Cart"}
+                    {requiresConfiguration
+                      ? "Customize on Product Page"
+                      : isAdded
+                        ? "Added"
+                        : "Add to Cart"}
                     <span className="d-none d-sm-block d-md-none d-lg-block">
                       &nbsp;-&nbsp;
                     </span>

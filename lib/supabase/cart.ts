@@ -20,6 +20,9 @@ export async function fetchCartFromServer(userId: string): Promise<CartProduct[]
     quantity: row.quantity,
     selectedColor: row.selected_color ?? undefined,
     selectedSize: row.selected_size ?? undefined,
+    configurationKey:
+      ((row.product_data as unknown as CartProduct | null)?.configurationKey ??
+        row.product_id),
   }));
 }
 
@@ -28,7 +31,7 @@ export async function upsertCartItem(userId: string, item: CartProduct): Promise
   await supabase.from("cart_items").upsert(
     {
       user_id: userId,
-      product_id: String(item.id),
+      product_id: item.configurationKey,
       quantity: item.quantity,
       selected_color: item.selectedColor ?? null,
       selected_size: item.selectedSize ?? null,
@@ -74,7 +77,7 @@ export async function syncLocalCartToServer(
 
   const rows = localItems.map((item) => ({
     user_id: userId,
-    product_id: String(item.id),
+    product_id: item.configurationKey,
     quantity: item.quantity,
     selected_color: item.selectedColor ?? null,
     selected_size: item.selectedSize ?? null,

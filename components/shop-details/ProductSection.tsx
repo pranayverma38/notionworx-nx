@@ -198,6 +198,8 @@ export default function ProductSection({
       colors={resolvedColors}
       sizes={sizes}
       variantLabel={resolvedVariantLabel}
+      basePrice={product.price}
+      addOnGroups={product.addOnGroups}
       thumbnailPosition={thumbnailPosition}
       zoomType={zoomType}
     >

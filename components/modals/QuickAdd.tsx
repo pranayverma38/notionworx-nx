@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import Image from "next/image";
+import { useRouter } from "next/navigation";
 import { useMemo, useState } from "react";
 
 import { useContextElement } from "@/context/Context";
@@ -13,6 +14,7 @@ export default function QuickAdd({
 }: {
   registerModalElement?: (el: HTMLElement | null) => void;
 }) {
+  const router = useRouter();
   const { quickAddItem, addProductToCart, isAddedToCartProducts } =
     useContextElement();
 
@@ -35,10 +37,18 @@ export default function QuickAdd({
     product.img ??
     product.images?.[0]?.src ??
     "/assets/images/product/product-1.jpg";
+  const requiresConfiguration = Boolean(product.addOnGroups?.length);
 
   const handleAddToCart = () => {
+    if (requiresConfiguration) {
+      router.push(`/product-detail/${product.id}`);
+      return;
+    }
     if (isAddedToCartProducts(product.id)) return;
-    addProductToCart(product, quantity);
+    addProductToCart(product, quantity, {
+      selectedColor: selectedColor?.label,
+      selectedSize: selectedSize ?? undefined,
+    });
   };
 
   return (
@@ -196,7 +206,11 @@ export default function QuickAdd({
                   data-bs-toggle="offcanvas"
                   className="btn-action-price tf-btn type-xl animate-btn w-100"
                 >
-                  {isAddedToCartProducts(product.id) ? "Added" : "Add to Cart"}
+                  {requiresConfiguration
+                    ? "Customize on Product Page"
+                    : isAddedToCartProducts(product.id)
+                      ? "Added"
+                      : "Add to Cart"}
                   <span className="d-none d-sm-block d-md-none d-lg-block">
                     &nbsp;-&nbsp;
                   </span>

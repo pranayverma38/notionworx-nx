@@ -52,6 +52,9 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
         setIsLoggedIn(true);
         // Defer cart load to next tick so GoTrue lock is fully released
         setTimeout(() => loadServerCart(session.user.id), 0);
+      } else {
+        setCurrentUserId(null);
+        setIsLoggedIn(false);
       }
     });
 
@@ -68,7 +71,13 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
           setTimeout(() => loadServerCart(session.user.id), 0);
         } else {
           setCurrentUserId(null);
-          clearLocalCart();
+          setIsLoggedIn(false);
+
+          // Preserve guest carts during the initial no-session startup path.
+          // Only clear persisted cart state when a real sign-out occurs.
+          if (_event === "SIGNED_OUT") {
+            clearLocalCart();
+          }
         }
       },
     );

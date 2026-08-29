@@ -1,4 +1,5 @@
 import { storefrontProducts } from "@/data/inventory/notionworx/storefront.generated";
+import { cloneProductAddOnGroups } from "@/lib/product-addons";
 import type { ProductCardItem } from "@/types/productCard";
 import type { ShopProduct } from "@/types/shopFilter";
 
@@ -10,6 +11,7 @@ function cloneProduct(product: ProductCardItem): ProductCardItem {
     images: product.images?.map((image) => ({ ...image })),
     colors: product.colors?.map((color) => ({ ...color })),
     sizes: product.sizes ? [...product.sizes] : undefined,
+    addOnGroups: cloneProductAddOnGroups(product.addOnGroups),
     variantLabel: product.variantLabel,
     filterBrands: product.filterBrands ? [...product.filterBrands] : undefined,
     filterCategory: product.filterCategory ? [...product.filterCategory] : undefined,
@@ -42,6 +44,26 @@ function asShopProducts(items: ProductCardItem[]): ShopProduct[] {
 }
 
 export const products: ProductCardItem[] = storefrontCatalog.map(cloneProduct);
+
+const productsBySourceHandle = new Map(
+  products
+    .filter((product) => Boolean(product.sourceHandle))
+    .map((product) => [product.sourceHandle as string, product]),
+);
+
+const productsBySourceProductId = new Map(
+  products
+    .filter((product) => typeof product.sourceProductId === "number")
+    .map((product) => [product.sourceProductId as number, product]),
+);
+
+export function getProductBySourceHandle(handle: string) {
+  return productsBySourceHandle.get(handle);
+}
+
+export function getProductBySourceProductId(sourceProductId: number) {
+  return productsBySourceProductId.get(sourceProductId);
+}
 
 export const shopDefaultProducts: ShopProduct[] = asShopProducts(products);
 

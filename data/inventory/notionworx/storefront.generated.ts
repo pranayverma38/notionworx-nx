@@ -3,6 +3,9 @@
 export const storefrontProducts = [
   {
     "id": 1,
+    "sourceProductId": 8227680583815,
+    "sourceHandle": "1-4-zipper-jacket-full-dye-sublimation",
+    "sourceSlug": "1-4-zipper-jacket-full-dye-sublimation",
     "img": "/assets/images/notionworx-inventory/apparel/1-4-zipper-jacket-full-dye-sublimation/01.jpg",
     "imgHover": "/assets/images/notionworx-inventory/apparel/1-4-zipper-jacket-full-dye-sublimation/01.jpg",
     "images": [
@@ -60,6 +63,9 @@ export const storefrontProducts = [
   },
   {
     "id": 2,
+    "sourceProductId": 8227673931911,
+    "sourceHandle": "10-fabric-pop-up-display-straight-copy",
+    "sourceSlug": "10-fabric-pop-up-display-straight-copy",
     "img": "/assets/images/notionworx-inventory/trade-show-display/10-fabric-pop-up-display-straight-copy/01.jpg",
     "imgHover": "/assets/images/notionworx-inventory/trade-show-display/10-fabric-pop-up-display-straight-copy/02.jpg",
     "images": [
@@ -115,6 +121,9 @@ export const storefrontProducts = [
   },
   {
     "id": 3,
+    "sourceProductId": 8227683369095,
+    "sourceHandle": "10-premium-rectangle-flag-pole",
+    "sourceSlug": "10-premium-rectangle-flag-pole",
     "img": "/assets/images/notionworx-inventory/flags/10-premium-rectangle-flag-pole/01.jpg",
     "imgHover": "/assets/images/notionworx-inventory/flags/10-premium-rectangle-flag-pole/01.jpg",
     "images": [
@@ -156,6 +165,9 @@ export const storefrontProducts = [
   },
   {
     "id": 4,
+    "sourceProductId": 8227674783879,
+    "sourceHandle": "10-tube-straight-fabric-display-1",
+    "sourceSlug": "10-tube-straight-fabric-display-1",
     "img": "/assets/images/notionworx-inventory/trade-show-display/10-tube-straight-fabric-display-1/01.jpg",
     "imgHover": "/assets/images/notionworx-inventory/trade-show-display/10-tube-straight-fabric-display-1/02.jpg",
     "images": [
@@ -210,6 +222,9 @@ export const storefrontProducts = [
   },
   {
     "id": 5,
+    "sourceProductId": 8227677438087,
+    "sourceHandle": "10ft-back-wall",
+    "sourceSlug": "10ft-back-wall",
     "img": "/assets/images/notionworx-inventory/10x10/10ft-back-wall/01.jpg",
     "imgHover": "/assets/images/notionworx-inventory/10x10/10ft-back-wall/02.jpg",
     "images": [
@@ -247,6 +262,293 @@ export const storefrontProducts = [
     "warrantyText": "Factory Warranty\n\n- We stand behind the quality of our products. Our warranty covers any factory defects or damage that occurs during shipping. However, please note that we do not cover damage resulting from extreme weather conditions, misuse, or any circumstances beyond our control.",
     "howToOrderHtml": "<ul>\n  <li>SKU ITEM #: 10-BW</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
     "howToOrderText": "- SKU ITEM #: 10-BW\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
+    "addOnGroups": [
+      {
+        "id": "accessories",
+        "kind": "accessory",
+        "title": "Accessories",
+        "selectionMode": "multiple",
+        "displayStyle": "grid",
+        "subgroups": [
+          {
+            "id": "table-cover",
+            "title": "Table Cover",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "table-cover-6ft-stretch-table-cover",
+                "kind": "accessory",
+                "title": "6ft Stretch Table Cover",
+                "hoverTitle": "6ft Stretch Table Cover",
+                "hoverDescription": "Table Cover · (+ $135.00)",
+                "price": {
+                  "surcharge": 135,
+                  "label": "(+ $135.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png"
+              },
+              {
+                "id": "table-cover-6ft-fitted-table-cover",
+                "kind": "accessory",
+                "title": "6ft Fitted Table Cover",
+                "hoverTitle": "6ft Fitted Table Cover",
+                "hoverDescription": "Table Cover · (+ $145.00)",
+                "price": {
+                  "surcharge": 145,
+                  "label": "(+ $145.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png"
+              },
+              {
+                "id": "table-cover-6ft-draped-table-cover",
+                "kind": "accessory",
+                "title": "6ft Draped Table Cover",
+                "hoverTitle": "6ft Draped Table Cover",
+                "hoverDescription": "Table Cover · (+ $145.00)",
+                "price": {
+                  "surcharge": 145,
+                  "label": "(+ $145.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp"
+              }
+            ]
+          },
+          {
+            "id": "feather-flags",
+            "title": "Feather Flags",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "feather-flags-9ft-mounted-flag-w-mounting-kit",
+                "kind": "accessory",
+                "title": "9ft Mounted Flag w/ Mounting Kit",
+                "hoverTitle": "9ft Mounted Flag w/ Mounting Kit",
+                "hoverDescription": "Feather Flags · (+ $150.00)",
+                "price": {
+                  "surcharge": 150,
+                  "label": "(+ $150.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png"
+              },
+              {
+                "id": "feather-flags-9ft-stand-alone-flag-w-cross-base",
+                "kind": "accessory",
+                "title": "9ft Stand Alone Flag w/ Cross Base",
+                "hoverTitle": "9ft Stand Alone Flag w/ Cross Base",
+                "hoverDescription": "Feather Flags · (+ $140.00)",
+                "price": {
+                  "surcharge": 140,
+                  "label": "(+ $140.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png"
+              },
+              {
+                "id": "feather-flags-12ft-stand-alone-flag-w-cross-base",
+                "kind": "accessory",
+                "title": "12ft Stand Alone Flag w/ Cross Base",
+                "hoverTitle": "12ft Stand Alone Flag w/ Cross Base",
+                "hoverDescription": "Feather Flags · (+ $150.00)",
+                "price": {
+                  "surcharge": 150,
+                  "label": "(+ $150.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png"
+              },
+              {
+                "id": "feather-flags-15ft-stand-alone-flag-w-cross-base",
+                "kind": "accessory",
+                "title": "15ft Stand Alone Flag w/ Cross Base",
+                "hoverTitle": "15ft Stand Alone Flag w/ Cross Base",
+                "hoverDescription": "Feather Flags · (+ $160.00)",
+                "price": {
+                  "surcharge": 160,
+                  "label": "(+ $160.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png"
+              }
+            ]
+          },
+          {
+            "id": "weighted-sandbags",
+            "title": "Weighted Sandbags",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "weighted-sandbags-4-pc-set",
+                "kind": "accessory",
+                "title": "4 Pc Set",
+                "hoverTitle": "4 Pc Set",
+                "hoverDescription": "Weighted Sandbags · (+ $100.00)",
+                "price": {
+                  "surcharge": 100,
+                  "label": "(+ $100.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "upgrades",
+        "kind": "upgrade",
+        "title": "Upgrades",
+        "selectionMode": "multiple",
+        "displayStyle": "grid",
+        "subgroups": [
+          {
+            "id": "vented-top",
+            "title": "Vented Top",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "vented-top-vent",
+                "kind": "upgrade",
+                "title": "Vent",
+                "hoverTitle": "Vent",
+                "hoverDescription": "Vented Top · (+ $50.00) · Conditional on source",
+                "price": {
+                  "surcharge": 50,
+                  "label": "(+ $50.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615335850375.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615335850375.png",
+                "metadata": {
+                  "conditional": "true",
+                  "hiddenByDefault": "true"
+                }
+              }
+            ],
+            "description": "Shown conditionally on the source site."
+          },
+          {
+            "id": "walls",
+            "title": "Walls",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "walls-back-wall",
+                "kind": "upgrade",
+                "title": "Back Wall",
+                "hoverTitle": "Back Wall",
+                "hoverDescription": "Walls · (+ $100.00) · Conditional on source",
+                "price": {
+                  "surcharge": 100,
+                  "label": "(+ $100.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615484089707.jpg",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615484089707.jpg",
+                "metadata": {
+                  "conditional": "true",
+                  "hiddenByDefault": "true"
+                }
+              },
+              {
+                "id": "walls-back-wall-half-side-walls",
+                "kind": "upgrade",
+                "title": "Back Wall & Half Side Walls",
+                "hoverTitle": "Back Wall & Half Side Walls",
+                "hoverDescription": "Walls · (+ $300.00) · Conditional on source",
+                "price": {
+                  "surcharge": 300,
+                  "label": "(+ $300.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615484641932.jpg",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615484641932.jpg",
+                "metadata": {
+                  "conditional": "true",
+                  "hiddenByDefault": "true"
+                }
+              },
+              {
+                "id": "walls-three-full-walls",
+                "kind": "upgrade",
+                "title": "Three Full Walls",
+                "hoverTitle": "Three Full Walls",
+                "hoverDescription": "Walls · (+ $400.00) · Conditional on source",
+                "price": {
+                  "surcharge": 400,
+                  "label": "(+ $400.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615485325022.jpg",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615485325022.jpg",
+                "metadata": {
+                  "conditional": "true",
+                  "hiddenByDefault": "true"
+                }
+              }
+            ],
+            "description": "Shown conditionally on the source site."
+          },
+          {
+            "id": "double-sided-walls",
+            "title": "Double-Sided Walls",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "double-sided-walls-double-sided-back-wall",
+                "kind": "upgrade",
+                "title": "Double Sided Back Wall",
+                "hoverTitle": "Double Sided Back Wall",
+                "hoverDescription": "Double-Sided Walls · (+ $100.00)",
+                "price": {
+                  "surcharge": 100,
+                  "label": "(+ $100.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1
+              }
+            ]
+          }
+        ],
+        "description": "Items marked conditional were hidden by default or gated by other source options."
+      }
+    ],
     "sku": "ITEM #: 10-BW",
     "reviewsText": "1 option",
     "soldLabel": "Available to order",
@@ -255,6 +557,9 @@ export const storefrontProducts = [
   },
   {
     "id": 6,
+    "sourceProductId": 8311852105863,
+    "sourceHandle": "10ft-canopy-awning",
+    "sourceSlug": "10ft-canopy-awning",
     "img": "/assets/images/notionworx-inventory/accesories/10ft-canopy-awning/01.jpg",
     "imgHover": "/assets/images/notionworx-inventory/accesories/10ft-canopy-awning/02.jpg",
     "images": [
@@ -300,6 +605,9 @@ export const storefrontProducts = [
   },
   {
     "id": 7,
+    "sourceProductId": 8227678355591,
+    "sourceHandle": "10ft-seg-backlit-fabric-display",
+    "sourceSlug": "10ft-seg-backlit-fabric-display",
     "img": "/assets/images/notionworx-inventory/seg-products/10ft-seg-backlit-fabric-display/01.jpg",
     "imgHover": "/assets/images/notionworx-inventory/seg-products/10ft-seg-backlit-fabric-display/02.jpg",
     "images": [
@@ -352,6 +660,9 @@ export const storefrontProducts = [
   },
   {
     "id": 8,
+    "sourceProductId": 8227678421127,
+    "sourceHandle": "10ft-seg-backlit-popup-display",
+    "sourceSlug": "10ft-seg-backlit-popup-display",
     "img": "/assets/images/notionworx-inventory/seg-products/10ft-seg-backlit-popup-display/01.jpg",
     "imgHover": "/assets/images/notionworx-inventory/seg-products/10ft-seg-backlit-popup-display/02.jpg",
     "images": [
@@ -410,6 +721,9 @@ export const storefrontProducts = [
   },
   {
     "id": 9,
+    "sourceProductId": 8227678519431,
+    "sourceHandle": "10ft-seg-fabric-display",
+    "sourceSlug": "10ft-seg-fabric-display",
     "img": "/assets/images/notionworx-inventory/seg-products/10ft-seg-fabric-display/01.jpg",
     "imgHover": "/assets/images/notionworx-inventory/seg-products/10ft-seg-fabric-display/02.jpg",
     "images": [
@@ -468,6 +782,9 @@ export const storefrontProducts = [
   },
   {
     "id": 10,
+    "sourceProductId": 8227677405319,
+    "sourceHandle": "10x15-custom-canopy-tent-wall-15ft-back-wall",
+    "sourceSlug": "10x15-custom-canopy-tent-wall-15ft-back-wall",
     "img": "/assets/images/notionworx-inventory/10x15/10x15-custom-canopy-tent-wall-15ft-back-wall/01.jpg",
     "imgHover": "/assets/images/notionworx-inventory/10x15/10x15-custom-canopy-tent-wall-15ft-back-wall/01.jpg",
     "images": [
@@ -502,6 +819,196 @@ export const storefrontProducts = [
     "warrantyText": "Factory Warranty\n\n- We stand behind the quality of our products. Our warranty covers any factory defects or damage that occurs during shipping. However, please note that we do not cover damage resulting from extreme weather conditions, misuse, or any circumstances beyond our control.",
     "howToOrderHtml": "<ul>\n  <li>SKU ITEM #: 6-15 BW</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
     "howToOrderText": "- SKU ITEM #: 6-15 BW\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
+    "addOnGroups": [
+      {
+        "id": "accessories",
+        "kind": "accessory",
+        "title": "Accessories",
+        "selectionMode": "multiple",
+        "displayStyle": "grid",
+        "subgroups": [
+          {
+            "id": "table-cover",
+            "title": "Table Cover",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "table-cover-6ft-stretch-table-cover",
+                "kind": "accessory",
+                "title": "6ft Stretch Table Cover",
+                "hoverTitle": "6ft Stretch Table Cover",
+                "hoverDescription": "Table Cover · (+ $135.00)",
+                "price": {
+                  "surcharge": 135,
+                  "label": "(+ $135.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png"
+              },
+              {
+                "id": "table-cover-6ft-fitted-table-cover",
+                "kind": "accessory",
+                "title": "6ft Fitted Table Cover",
+                "hoverTitle": "6ft Fitted Table Cover",
+                "hoverDescription": "Table Cover · (+ $145.00)",
+                "price": {
+                  "surcharge": 145,
+                  "label": "(+ $145.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png"
+              },
+              {
+                "id": "table-cover-6ft-draped-table-cover",
+                "kind": "accessory",
+                "title": "6ft Draped Table Cover",
+                "hoverTitle": "6ft Draped Table Cover",
+                "hoverDescription": "Table Cover · (+ $145.00)",
+                "price": {
+                  "surcharge": 145,
+                  "label": "(+ $145.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp"
+              }
+            ]
+          },
+          {
+            "id": "feather-flags",
+            "title": "Feather Flags",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "feather-flags-9ft-mounted-flag-w-mounting-kit",
+                "kind": "accessory",
+                "title": "9ft Mounted Flag w/ Mounting Kit",
+                "hoverTitle": "9ft Mounted Flag w/ Mounting Kit",
+                "hoverDescription": "Feather Flags · (+ $150.00)",
+                "price": {
+                  "surcharge": 150,
+                  "label": "(+ $150.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png"
+              },
+              {
+                "id": "feather-flags-9ft-stand-alone-flag-w-cross-base",
+                "kind": "accessory",
+                "title": "9ft Stand Alone Flag w/ Cross Base",
+                "hoverTitle": "9ft Stand Alone Flag w/ Cross Base",
+                "hoverDescription": "Feather Flags · (+ $140.00)",
+                "price": {
+                  "surcharge": 140,
+                  "label": "(+ $140.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png"
+              },
+              {
+                "id": "feather-flags-12ft-stand-alone-flag-w-cross-base",
+                "kind": "accessory",
+                "title": "12ft Stand Alone Flag w/ Cross Base",
+                "hoverTitle": "12ft Stand Alone Flag w/ Cross Base",
+                "hoverDescription": "Feather Flags · (+ $150.00)",
+                "price": {
+                  "surcharge": 150,
+                  "label": "(+ $150.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png"
+              },
+              {
+                "id": "feather-flags-15ft-stand-alone-flag-w-cross-base",
+                "kind": "accessory",
+                "title": "15ft Stand Alone Flag w/ Cross Base",
+                "hoverTitle": "15ft Stand Alone Flag w/ Cross Base",
+                "hoverDescription": "Feather Flags · (+ $160.00)",
+                "price": {
+                  "surcharge": 160,
+                  "label": "(+ $160.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png"
+              }
+            ]
+          },
+          {
+            "id": "weighted-sandbags",
+            "title": "Weighted Sandbags",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "weighted-sandbags-4-pc-set",
+                "kind": "accessory",
+                "title": "4 Pc Set",
+                "hoverTitle": "4 Pc Set",
+                "hoverDescription": "Weighted Sandbags · (+ $100.00)",
+                "price": {
+                  "surcharge": 100,
+                  "label": "(+ $100.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "upgrades",
+        "kind": "upgrade",
+        "title": "Upgrades",
+        "selectionMode": "single",
+        "displayStyle": "grid",
+        "subgroups": [
+          {
+            "id": "double-sided-walls",
+            "title": "Double Sided Walls",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "double-sided-walls-double-sided-15ft-back-wall",
+                "kind": "upgrade",
+                "title": "Double Sided 15ft Back Wall",
+                "hoverTitle": "Double Sided 15ft Back Wall",
+                "hoverDescription": "Double Sided Walls · (+ $130.00)",
+                "price": {
+                  "surcharge": 130,
+                  "label": "(+ $130.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "sku": "ITEM #: 6-15 BW",
     "reviewsText": "1 option",
     "soldLabel": "Available to order",
@@ -510,6 +1017,9 @@ export const storefrontProducts = [
   },
   {
     "id": 11,
+    "sourceProductId": 8227677372551,
+    "sourceHandle": "10x20-custom-canopy-tent-20ft-back-wall",
+    "sourceSlug": "10x20-custom-canopy-tent-20ft-back-wall",
     "img": "/assets/images/notionworx-inventory/10x20/10x20-custom-canopy-tent-20ft-back-wall/01.jpg",
     "imgHover": "/assets/images/notionworx-inventory/10x20/10x20-custom-canopy-tent-20ft-back-wall/02.jpg",
     "images": [
@@ -547,6 +1057,196 @@ export const storefrontProducts = [
     "warrantyText": "Factory Warranty\n\nWe stand behind the quality of our products. Our warranty covers any factory defects or damage that occurs during shipping. However, please note that we do not cover damage resulting from extreme weather conditions, misuse, or any circumstances beyond our control.",
     "howToOrderHtml": "<ul>\n  <li>SKU ITEM #: 10-20 BW</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
     "howToOrderText": "- SKU ITEM #: 10-20 BW\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
+    "addOnGroups": [
+      {
+        "id": "accessories",
+        "kind": "accessory",
+        "title": "Accessories",
+        "selectionMode": "multiple",
+        "displayStyle": "grid",
+        "subgroups": [
+          {
+            "id": "table-cover",
+            "title": "Table Cover",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "table-cover-6ft-stretch-table-cover",
+                "kind": "accessory",
+                "title": "6ft Stretch Table Cover",
+                "hoverTitle": "6ft Stretch Table Cover",
+                "hoverDescription": "Table Cover · (+ $135.00)",
+                "price": {
+                  "surcharge": 135,
+                  "label": "(+ $135.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png"
+              },
+              {
+                "id": "table-cover-6ft-fitted-table-cover",
+                "kind": "accessory",
+                "title": "6ft Fitted Table Cover",
+                "hoverTitle": "6ft Fitted Table Cover",
+                "hoverDescription": "Table Cover · (+ $145.00)",
+                "price": {
+                  "surcharge": 145,
+                  "label": "(+ $145.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png"
+              },
+              {
+                "id": "table-cover-6ft-draped-table-cover",
+                "kind": "accessory",
+                "title": "6ft Draped Table Cover",
+                "hoverTitle": "6ft Draped Table Cover",
+                "hoverDescription": "Table Cover · (+ $145.00)",
+                "price": {
+                  "surcharge": 145,
+                  "label": "(+ $145.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp"
+              }
+            ]
+          },
+          {
+            "id": "feather-flags",
+            "title": "Feather Flags",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "feather-flags-9ft-mounted-flag-w-mounting-kit",
+                "kind": "accessory",
+                "title": "9ft Mounted Flag w/ Mounting Kit",
+                "hoverTitle": "9ft Mounted Flag w/ Mounting Kit",
+                "hoverDescription": "Feather Flags · (+ $150.00)",
+                "price": {
+                  "surcharge": 150,
+                  "label": "(+ $150.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png"
+              },
+              {
+                "id": "feather-flags-9ft-stand-alone-flag-w-cross-base",
+                "kind": "accessory",
+                "title": "9ft Stand Alone Flag w/ Cross Base",
+                "hoverTitle": "9ft Stand Alone Flag w/ Cross Base",
+                "hoverDescription": "Feather Flags · (+ $140.00)",
+                "price": {
+                  "surcharge": 140,
+                  "label": "(+ $140.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png"
+              },
+              {
+                "id": "feather-flags-12ft-stand-alone-flag-w-cross-base",
+                "kind": "accessory",
+                "title": "12ft Stand Alone Flag w/ Cross Base",
+                "hoverTitle": "12ft Stand Alone Flag w/ Cross Base",
+                "hoverDescription": "Feather Flags · (+ $150.00)",
+                "price": {
+                  "surcharge": 150,
+                  "label": "(+ $150.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png"
+              },
+              {
+                "id": "feather-flags-15ft-stand-alone-flag-w-cross-base",
+                "kind": "accessory",
+                "title": "15ft Stand Alone Flag w/ Cross Base",
+                "hoverTitle": "15ft Stand Alone Flag w/ Cross Base",
+                "hoverDescription": "Feather Flags · (+ $160.00)",
+                "price": {
+                  "surcharge": 160,
+                  "label": "(+ $160.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png"
+              }
+            ]
+          },
+          {
+            "id": "weighted-sandbags",
+            "title": "Weighted Sandbags",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "weighted-sandbags-4-pc-set",
+                "kind": "accessory",
+                "title": "4 Pc Set",
+                "hoverTitle": "4 Pc Set",
+                "hoverDescription": "Weighted Sandbags · (+ $100.00)",
+                "price": {
+                  "surcharge": 100,
+                  "label": "(+ $100.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "upgrades",
+        "kind": "upgrade",
+        "title": "Upgrades",
+        "selectionMode": "single",
+        "displayStyle": "grid",
+        "subgroups": [
+          {
+            "id": "double-sided-walls",
+            "title": "Double Sided Walls",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "double-sided-walls-double-sided-20ft-back-wall",
+                "kind": "upgrade",
+                "title": "Double Sided 20ft Back Wall",
+                "hoverTitle": "Double Sided 20ft Back Wall",
+                "hoverDescription": "Double Sided Walls · (+ $140.00)",
+                "price": {
+                  "surcharge": 140,
+                  "label": "(+ $140.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "sku": "ITEM #: 10-20 BW",
     "reviewsText": "1 option",
     "soldLabel": "Available to order",
@@ -555,6 +1255,9 @@ export const storefrontProducts = [
   },
   {
     "id": 12,
+    "sourceProductId": 8227679371399,
+    "sourceHandle": "120gsm-milk-silk-1-4-zip-polo-shirt-full-dye-sublimation-500058",
+    "sourceSlug": "120gsm-milk-silk-1-4-zip-polo-shirt-full-dye-sublimation-500058",
     "img": "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-1-4-zip-polo-shirt-full-dye-sublimation-500058/01.jpg",
     "imgHover": "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-1-4-zip-polo-shirt-full-dye-sublimation-500058/01.jpg",
     "images": [
@@ -612,6 +1315,9 @@ export const storefrontProducts = [
   },
   {
     "id": 13,
+    "sourceProductId": 8227679338631,
+    "sourceHandle": "120gsm-milk-silk-1-4-zipper-jacket-full-dye-sublimation-500059",
+    "sourceSlug": "120gsm-milk-silk-1-4-zipper-jacket-full-dye-sublimation-500059",
     "img": "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-1-4-zipper-jacket-full-dye-sublimation-500059/01.jpg",
     "imgHover": "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-1-4-zipper-jacket-full-dye-sublimation-500059/01.jpg",
     "images": [
@@ -666,6 +1372,9 @@ export const storefrontProducts = [
   },
   {
     "id": 14,
+    "sourceProductId": 8227679535239,
+    "sourceHandle": "120gsm-milk-silk-crew-neck-sleeveless-full-dye-sublimation-500005",
+    "sourceSlug": "120gsm-milk-silk-crew-neck-sleeveless-full-dye-sublimation-500005",
     "img": "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-crew-neck-sleeveless-full-dye-sublimation-500005/01.jpg",
     "imgHover": "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-crew-neck-sleeveless-full-dye-sublimation-500005/02.jpg",
     "images": [
@@ -730,6 +1439,9 @@ export const storefrontProducts = [
   },
   {
     "id": 15,
+    "sourceProductId": 8227679666311,
+    "sourceHandle": "120gsm-milk-silk-custom-button-down-baseball-jersey-full-dye-sublimation-50058",
+    "sourceSlug": "120gsm-milk-silk-custom-button-down-baseball-jersey-full-dye-sublimation-50058",
     "img": "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-custom-button-down-baseball-jersey-full-dye-sublimation-50058/01.jpg",
     "imgHover": "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-custom-button-down-baseball-jersey-full-dye-sublimation-50058/01.jpg",
     "images": [
@@ -787,6 +1499,9 @@ export const storefrontProducts = [
   },
   {
     "id": 16,
+    "sourceProductId": 8227679797383,
+    "sourceHandle": "120gsm-milk-silk-long-sleeve-crew-neck-full-dye-sublimation-500003",
+    "sourceSlug": "120gsm-milk-silk-long-sleeve-crew-neck-full-dye-sublimation-500003",
     "img": "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-long-sleeve-crew-neck-full-dye-sublimation-500003/01.jpg",
     "imgHover": "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-long-sleeve-crew-neck-full-dye-sublimation-500003/02.jpg",
     "images": [
@@ -847,6 +1562,9 @@ export const storefrontProducts = [
   },
   {
     "id": 17,
+    "sourceProductId": 8227671769223,
+    "sourceHandle": "120gsm-milk-silk-long-sleeve-hoodie-t-shirt-full-dye-sublimation-500138",
+    "sourceSlug": "120gsm-milk-silk-long-sleeve-hoodie-t-shirt-full-dye-sublimation-500138",
     "img": "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-long-sleeve-hoodie-t-shirt-full-dye-sublimation-500138/01.jpg",
     "imgHover": "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-long-sleeve-hoodie-t-shirt-full-dye-sublimation-500138/02.jpg",
     "images": [
@@ -910,6 +1628,9 @@ export const storefrontProducts = [
   },
   {
     "id": 18,
+    "sourceProductId": 8227679731847,
+    "sourceHandle": "120gsm-milk-silk-long-sleeve-v-neck-full-dye-sublimation-500004",
+    "sourceSlug": "120gsm-milk-silk-long-sleeve-v-neck-full-dye-sublimation-500004",
     "img": "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-long-sleeve-v-neck-full-dye-sublimation-500004/01.jpg",
     "imgHover": "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-long-sleeve-v-neck-full-dye-sublimation-500004/02.png",
     "images": [
@@ -970,6 +1691,9 @@ export const storefrontProducts = [
   },
   {
     "id": 19,
+    "sourceProductId": 8227679436935,
+    "sourceHandle": "120gsm-milk-silk-racerback-tank-full-dye-sublimation-500031",
+    "sourceSlug": "120gsm-milk-silk-racerback-tank-full-dye-sublimation-500031",
     "img": "/assets/images/notionworx-inventory/uncategorized/120gsm-milk-silk-racerback-tank-full-dye-sublimation-500031/01.jpg",
     "imgHover": "/assets/images/notionworx-inventory/uncategorized/120gsm-milk-silk-racerback-tank-full-dye-sublimation-500031/02.jpg",
     "images": [
@@ -1027,6 +1751,9 @@ export const storefrontProducts = [
   },
   {
     "id": 20,
+    "sourceProductId": 8227679862919,
+    "sourceHandle": "120gsm-milk-silk-short-sleeve-crew-neck-full-dye-sublimation-500040",
+    "sourceSlug": "120gsm-milk-silk-short-sleeve-crew-neck-full-dye-sublimation-500040",
     "img": "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-short-sleeve-crew-neck-full-dye-sublimation-500040/01.jpg",
     "imgHover": "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-short-sleeve-crew-neck-full-dye-sublimation-500040/02.jpg",
     "images": [
@@ -1087,6 +1814,9 @@ export const storefrontProducts = [
   },
   {
     "id": 21,
+    "sourceProductId": 8227679699079,
+    "sourceHandle": "120gsm-milk-silk-short-sleeve-v-neck-full-dye-sublimation-500001",
+    "sourceSlug": "120gsm-milk-silk-short-sleeve-v-neck-full-dye-sublimation-500001",
     "img": "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-short-sleeve-v-neck-full-dye-sublimation-500001/01.jpg",
     "imgHover": "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-short-sleeve-v-neck-full-dye-sublimation-500001/02.jpg",
     "images": [
@@ -1147,6 +1877,9 @@ export const storefrontProducts = [
   },
   {
     "id": 22,
+    "sourceProductId": 8227672850567,
+    "sourceHandle": "120gsm-milk-silk-sport-polo-shirt-full-button-full-dye-sublimation-500075",
+    "sourceSlug": "120gsm-milk-silk-sport-polo-shirt-full-button-full-dye-sublimation-500075",
     "img": "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-sport-polo-shirt-full-button-full-dye-sublimation-500075/01.png",
     "imgHover": "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-sport-polo-shirt-full-button-full-dye-sublimation-500075/02.png",
     "images": [
@@ -1207,6 +1940,9 @@ export const storefrontProducts = [
   },
   {
     "id": 23,
+    "sourceProductId": 8227679568007,
+    "sourceHandle": "120gsm-milk-silk-sport-polo-shirt-full-dye-sublimation-500045",
+    "sourceSlug": "120gsm-milk-silk-sport-polo-shirt-full-dye-sublimation-500045",
     "img": "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-sport-polo-shirt-full-dye-sublimation-500045/01.png",
     "imgHover": "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-sport-polo-shirt-full-dye-sublimation-500045/02.png",
     "images": [
@@ -1270,6 +2006,9 @@ export const storefrontProducts = [
   },
   {
     "id": 24,
+    "sourceProductId": 8227679240327,
+    "sourceHandle": "120gsm-milk-silk-v-neck-sleeveless-full-dye-sublimation-500087",
+    "sourceSlug": "120gsm-milk-silk-v-neck-sleeveless-full-dye-sublimation-500087",
     "img": "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-v-neck-sleeveless-full-dye-sublimation-500087/01.jpg",
     "imgHover": "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-v-neck-sleeveless-full-dye-sublimation-500087/01.jpg",
     "images": [
@@ -1322,6 +2061,9 @@ export const storefrontProducts = [
   },
   {
     "id": 25,
+    "sourceProductId": 8227683401863,
+    "sourceHandle": "14-5-premium-rectangle-flag-pole",
+    "sourceSlug": "14-5-premium-rectangle-flag-pole",
     "img": "/assets/images/notionworx-inventory/flags/14-5-premium-rectangle-flag-pole/01.jpg",
     "imgHover": "/assets/images/notionworx-inventory/flags/14-5-premium-rectangle-flag-pole/01.jpg",
     "images": [
@@ -1363,6 +2105,9 @@ export const storefrontProducts = [
   },
   {
     "id": 26,
+    "sourceProductId": 8227679207559,
+    "sourceHandle": "150gsm-mesh-cycling-jersey-long-sleeve-full-dye-sublimation",
+    "sourceSlug": "150gsm-mesh-cycling-jersey-long-sleeve-full-dye-sublimation",
     "img": "/assets/images/notionworx-inventory/apparel/150gsm-mesh-cycling-jersey-long-sleeve-full-dye-sublimation/01.jpg",
     "imgHover": "/assets/images/notionworx-inventory/apparel/150gsm-mesh-cycling-jersey-long-sleeve-full-dye-sublimation/01.jpg",
     "images": [
@@ -1407,6 +2152,9 @@ export const storefrontProducts = [
   },
   {
     "id": 27,
+    "sourceProductId": 8227679404167,
+    "sourceHandle": "150gsm-mesh-jersey-1-4-zip-polo-shirt-full-dye-sublimation-500052",
+    "sourceSlug": "150gsm-mesh-jersey-1-4-zip-polo-shirt-full-dye-sublimation-500052",
     "img": "/assets/images/notionworx-inventory/apparel/150gsm-mesh-jersey-1-4-zip-polo-shirt-full-dye-sublimation-500052/01.jpg",
     "imgHover": "/assets/images/notionworx-inventory/apparel/150gsm-mesh-jersey-1-4-zip-polo-shirt-full-dye-sublimation-500052/01.jpg",
     "images": [
@@ -1464,6 +2212,9 @@ export const storefrontProducts = [
   },
   {
     "id": 28,
+    "sourceProductId": 8227672031367,
+    "sourceHandle": "150gsm-mesh-jersey-football-jersey-full-dye-sublimation-500150",
+    "sourceSlug": "150gsm-mesh-jersey-football-jersey-full-dye-sublimation-500150",
     "img": "/assets/images/notionworx-inventory/apparel/150gsm-mesh-jersey-football-jersey-full-dye-sublimation-500150/01.jpg",
     "imgHover": "/assets/images/notionworx-inventory/apparel/150gsm-mesh-jersey-football-jersey-full-dye-sublimation-500150/02.jpg",
     "images": [
@@ -1533,6 +2284,9 @@ export const storefrontProducts = [
   },
   {
     "id": 29,
+    "sourceProductId": 8227679305863,
+    "sourceHandle": "150gsm-mesh-jersey-v-neck-sleeveless-full-dye-sublimation-500086",
+    "sourceSlug": "150gsm-mesh-jersey-v-neck-sleeveless-full-dye-sublimation-500086",
     "img": "/assets/images/notionworx-inventory/apparel/150gsm-mesh-jersey-v-neck-sleeveless-full-dye-sublimation-500086/01.jpg",
     "imgHover": "/assets/images/notionworx-inventory/apparel/150gsm-mesh-jersey-v-neck-sleeveless-full-dye-sublimation-500086/01.jpg",
     "images": [
@@ -1590,6 +2344,9 @@ export const storefrontProducts = [
   },
   {
     "id": 30,
+    "sourceProductId": 8227682386055,
+    "sourceHandle": "15roller-bag",
+    "sourceSlug": "15roller-bag",
     "img": "/assets/images/notionworx-inventory/uncategorized/15roller-bag/01.jpg",
     "imgHover": "/assets/images/notionworx-inventory/uncategorized/15roller-bag/02.jpg",
     "images": [
@@ -1633,6 +2390,9 @@ export const storefrontProducts = [
   },
   {
     "id": 31,
+    "sourceProductId": 8227681468551,
+    "sourceHandle": "17-5-premium-universal-fiberglass-flag-pole-with-carry-bag",
+    "sourceSlug": "17-5-premium-universal-fiberglass-flag-pole-with-carry-bag",
     "img": "/assets/images/notionworx-inventory/flags/17-5-premium-universal-fiberglass-flag-pole-with-carry-bag/01.jpg",
     "imgHover": "/assets/images/notionworx-inventory/flags/17-5-premium-universal-fiberglass-flag-pole-with-carry-bag/01.jpg",
     "images": [
@@ -1674,6 +2434,9 @@ export const storefrontProducts = [
   },
   {
     "id": 32,
+    "sourceProductId": 8227681435783,
+    "sourceHandle": "170-premium-universal-fiberglass-flag-pole-with-carry-bag",
+    "sourceSlug": "170-premium-universal-fiberglass-flag-pole-with-carry-bag",
     "img": "/assets/images/notionworx-inventory/flags/170-premium-universal-fiberglass-flag-pole-with-carry-bag/01.jpg",
     "imgHover": "/assets/images/notionworx-inventory/flags/170-premium-universal-fiberglass-flag-pole-with-carry-bag/01.jpg",
     "images": [
@@ -1715,6 +2478,9 @@ export const storefrontProducts = [
   },
   {
     "id": 33,
+    "sourceProductId": 8227682418823,
+    "sourceHandle": "20-roller-bag",
+    "sourceSlug": "20-roller-bag",
     "img": "/assets/images/notionworx-inventory/10x20/20-roller-bag/01.jpg",
     "imgHover": "/assets/images/notionworx-inventory/10x20/20-roller-bag/01.jpg",
     "images": [
@@ -1752,6 +2518,9 @@ export const storefrontProducts = [
   },
   {
     "id": 34,
+    "sourceProductId": 8227673800839,
+    "sourceHandle": "20-tube-display-straight",
+    "sourceSlug": "20-tube-display-straight",
     "img": "/assets/images/notionworx-inventory/trade-show-display/20-tube-display-straight/01.jpg",
     "imgHover": "/assets/images/notionworx-inventory/trade-show-display/20-tube-display-straight/02.jpg",
     "images": [
@@ -1811,6 +2580,9 @@ export const storefrontProducts = [
   },
   {
     "id": 35,
+    "sourceProductId": 8227678486663,
+    "sourceHandle": "20ft-seg-fabric-display",
+    "sourceSlug": "20ft-seg-fabric-display",
     "img": "/assets/images/notionworx-inventory/seg-products/20ft-seg-fabric-display/01.jpg",
     "imgHover": "/assets/images/notionworx-inventory/seg-products/20ft-seg-fabric-display/02.jpg",
     "images": [
@@ -1869,6 +2641,9 @@ export const storefrontProducts = [
   },
   {
     "id": 36,
+    "sourceProductId": 8227678552199,
+    "sourceHandle": "3ft-seg-fabric-stand",
+    "sourceSlug": "3ft-seg-fabric-stand",
     "img": "/assets/images/notionworx-inventory/seg-products/3ft-seg-fabric-stand/01.jpg",
     "imgHover": "/assets/images/notionworx-inventory/seg-products/3ft-seg-fabric-stand/02.jpg",
     "images": [
@@ -1924,6 +2699,9 @@ export const storefrontProducts = [
   },
   {
     "id": 37,
+    "sourceProductId": 8227672293511,
+    "sourceHandle": "3x7-5h-premiumtube-banner-stand-with-steel-feet",
+    "sourceSlug": "3x7-5h-premiumtube-banner-stand-with-steel-feet",
     "img": "/assets/images/notionworx-inventory/trade-show-display/3x7-5h-premiumtube-banner-stand-with-steel-feet/01.jpg",
     "imgHover": "/assets/images/notionworx-inventory/trade-show-display/3x7-5h-premiumtube-banner-stand-with-steel-feet/02.jpg",
     "images": [
@@ -1974,6 +2752,9 @@ export const storefrontProducts = [
   },
   {
     "id": 38,
+    "sourceProductId": 8227672588423,
+    "sourceHandle": "5x5-custom-canopy-tent-19-05",
+    "sourceSlug": "5x5-custom-canopy-tent-19-05",
     "img": "/assets/images/notionworx-inventory/5x5-custom-canopy/5x5-custom-canopy-tent-19-05/01.png",
     "imgHover": "/assets/images/notionworx-inventory/5x5-custom-canopy/5x5-custom-canopy-tent-19-05/02.png",
     "images": [
@@ -2034,6 +2815,230 @@ export const storefrontProducts = [
     "warrantyText": "Factory Warranty\n\n- We stand behind the quality of our products. Our warranty covers any factory defects or damage that occurs during shipping. However, please note that we do not cover damage resulting from extreme weather conditions, misuse, or any circumstances beyond our control.\n\n- Frame must be secured to the ground to prevent wind damage (failure to secure the tent voids the warranty)",
     "howToOrderHtml": "<ul>\n  <li>SKU ITEM #: 20-05</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
     "howToOrderText": "- SKU ITEM #: 20-05\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
+    "addOnGroups": [
+      {
+        "id": "accessories",
+        "kind": "accessory",
+        "title": "Accessories",
+        "selectionMode": "multiple",
+        "displayStyle": "grid",
+        "subgroups": [
+          {
+            "id": "table-cover",
+            "title": "Table Cover",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "table-cover-4ft-stretch-table-cover",
+                "kind": "accessory",
+                "title": "4ft Stretch Table Cover",
+                "hoverTitle": "4ft Stretch Table Cover",
+                "hoverDescription": "Table Cover · (+ $125.00)",
+                "price": {
+                  "surcharge": 125,
+                  "label": "(+ $125.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616934016371.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616934016371.png"
+              },
+              {
+                "id": "table-cover-6ft-stretch-table-cover",
+                "kind": "accessory",
+                "title": "6ft Stretch Table Cover",
+                "hoverTitle": "6ft Stretch Table Cover",
+                "hoverDescription": "Table Cover · (+ $135.00)",
+                "price": {
+                  "surcharge": 135,
+                  "label": "(+ $135.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png"
+              },
+              {
+                "id": "table-cover-6ft-fitted-table-cover",
+                "kind": "accessory",
+                "title": "6ft Fitted Table Cover",
+                "hoverTitle": "6ft Fitted Table Cover",
+                "hoverDescription": "Table Cover · (+ $145.00)",
+                "price": {
+                  "surcharge": 145,
+                  "label": "(+ $145.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png"
+              },
+              {
+                "id": "table-cover-6ft-draped-table-cover",
+                "kind": "accessory",
+                "title": "6ft Draped Table Cover",
+                "hoverTitle": "6ft Draped Table Cover",
+                "hoverDescription": "Table Cover · (+ $145.00)",
+                "price": {
+                  "surcharge": 145,
+                  "label": "(+ $145.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp"
+              }
+            ]
+          },
+          {
+            "id": "feather-flags",
+            "title": "Feather Flags",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "feather-flags-9ft-mounted-flag-w-mounting-kit",
+                "kind": "accessory",
+                "title": "9ft Mounted Flag w/ Mounting Kit",
+                "hoverTitle": "9ft Mounted Flag w/ Mounting Kit",
+                "hoverDescription": "Feather Flags · (+ $150.00)",
+                "price": {
+                  "surcharge": 150,
+                  "label": "(+ $150.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png"
+              },
+              {
+                "id": "feather-flags-9ft-stand-alone-flag-w-cross-base",
+                "kind": "accessory",
+                "title": "9ft Stand Alone Flag w/ Cross Base",
+                "hoverTitle": "9ft Stand Alone Flag w/ Cross Base",
+                "hoverDescription": "Feather Flags · (+ $140.00)",
+                "price": {
+                  "surcharge": 140,
+                  "label": "(+ $140.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png"
+              },
+              {
+                "id": "feather-flags-12ft-stand-alone-flag-w-cross-base",
+                "kind": "accessory",
+                "title": "12ft Stand Alone Flag w/ Cross Base",
+                "hoverTitle": "12ft Stand Alone Flag w/ Cross Base",
+                "hoverDescription": "Feather Flags · (+ $150.00)",
+                "price": {
+                  "surcharge": 150,
+                  "label": "(+ $150.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png"
+              },
+              {
+                "id": "feather-flags-15ft-stand-alone-flag-w-cross-base",
+                "kind": "accessory",
+                "title": "15ft Stand Alone Flag w/ Cross Base",
+                "hoverTitle": "15ft Stand Alone Flag w/ Cross Base",
+                "hoverDescription": "Feather Flags · (+ $160.00)",
+                "price": {
+                  "surcharge": 160,
+                  "label": "(+ $160.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png"
+              }
+            ]
+          },
+          {
+            "id": "essentials",
+            "title": "Essentials",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "essentials-4-pc-set",
+                "kind": "accessory",
+                "title": "4 Pc Set",
+                "hoverTitle": "4 Pc Set",
+                "hoverDescription": "Essentials · (+ $100.00)",
+                "price": {
+                  "surcharge": 100,
+                  "label": "(+ $100.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png"
+              },
+              {
+                "id": "essentials-led-lights",
+                "kind": "accessory",
+                "title": "LED Lights",
+                "hoverTitle": "LED Lights",
+                "hoverDescription": "Essentials · (+ $219.00)",
+                "price": {
+                  "surcharge": 219,
+                  "label": "(+ $219.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649559175731.jpg",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649559175731.jpg"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "upgrades",
+        "kind": "upgrade",
+        "title": "Upgrades",
+        "selectionMode": "single",
+        "displayStyle": "grid",
+        "subgroups": [
+          {
+            "id": "vented-top",
+            "title": "Vented Top",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "vented-top-vent",
+                "kind": "upgrade",
+                "title": "Vent",
+                "hoverTitle": "Vent",
+                "hoverDescription": "Vented Top · (+ $50.00)",
+                "price": {
+                  "surcharge": 50,
+                  "label": "(+ $50.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616168711705.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616168711705.png"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "sku": "ITEM #: 20-05",
     "reviewsText": "1 option",
     "soldLabel": "Available to order",
@@ -2042,6 +3047,9 @@ export const storefrontProducts = [
   },
   {
     "id": 39,
+    "sourceProductId": 8227672621191,
+    "sourceHandle": "5x5-custom-canopy-tent-20-05",
+    "sourceSlug": "5x5-custom-canopy-tent-20-05",
     "img": "/assets/images/notionworx-inventory/5x5-custom-canopy/5x5-custom-canopy-tent-20-05/01.png",
     "imgHover": "/assets/images/notionworx-inventory/5x5-custom-canopy/5x5-custom-canopy-tent-20-05/02.png",
     "images": [
@@ -2099,6 +3107,228 @@ export const storefrontProducts = [
     "warrantyText": "Factory Warranty\n\n- We stand behind the quality of our products. Our warranty covers any factory defects or damage that occurs during shipping. However, please note that we do not cover damage resulting from extreme weather conditions, misuse, or any circumstances beyond our control.\n\n- Frame must be secured to the ground to prevent wind damage (failure to secure the tent voids the warranty)",
     "howToOrderHtml": "<ul>\n  <li>SKU ITEM #: 21-05</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
     "howToOrderText": "- SKU ITEM #: 21-05\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
+    "addOnGroups": [
+      {
+        "id": "accessories",
+        "kind": "accessory",
+        "title": "Accessories",
+        "selectionMode": "multiple",
+        "displayStyle": "grid",
+        "subgroups": [
+          {
+            "id": "table-cover",
+            "title": "Table Cover",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "table-cover-4ft-stretch-table-cover",
+                "kind": "accessory",
+                "title": "4ft Stretch Table Cover",
+                "hoverTitle": "4ft Stretch Table Cover",
+                "hoverDescription": "Table Cover · (+ $125.00)",
+                "price": {
+                  "surcharge": 125,
+                  "label": "(+ $125.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616932765564.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616932765564.png"
+              },
+              {
+                "id": "table-cover-6ft-stretch-table-cover",
+                "kind": "accessory",
+                "title": "6ft Stretch Table Cover",
+                "hoverTitle": "6ft Stretch Table Cover",
+                "hoverDescription": "Table Cover · (+ $135.00)",
+                "price": {
+                  "surcharge": 135,
+                  "label": "(+ $135.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png"
+              },
+              {
+                "id": "table-cover-6ft-fitted-table-cover",
+                "kind": "accessory",
+                "title": "6ft Fitted Table Cover",
+                "hoverTitle": "6ft Fitted Table Cover",
+                "hoverDescription": "Table Cover · (+ $145.00)",
+                "price": {
+                  "surcharge": 145,
+                  "label": "(+ $145.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png"
+              },
+              {
+                "id": "table-cover-6ft-draped-table-cover",
+                "kind": "accessory",
+                "title": "6ft Draped Table Cover",
+                "hoverTitle": "6ft Draped Table Cover",
+                "hoverDescription": "Table Cover · (+ $145.00)",
+                "price": {
+                  "surcharge": 145,
+                  "label": "(+ $145.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp"
+              }
+            ]
+          },
+          {
+            "id": "feather-flags",
+            "title": "Feather Flags",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "feather-flags-9ft-mounted-flag-w-mounting-kit",
+                "kind": "accessory",
+                "title": "9ft Mounted Flag w/ Mounting Kit",
+                "hoverTitle": "9ft Mounted Flag w/ Mounting Kit",
+                "hoverDescription": "Feather Flags · (+ $150.00)",
+                "price": {
+                  "surcharge": 150,
+                  "label": "(+ $150.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png"
+              },
+              {
+                "id": "feather-flags-9ft-stand-alone-flag-w-cross-base",
+                "kind": "accessory",
+                "title": "9ft Stand Alone Flag w/ Cross Base",
+                "hoverTitle": "9ft Stand Alone Flag w/ Cross Base",
+                "hoverDescription": "Feather Flags · (+ $140.00)",
+                "price": {
+                  "surcharge": 140,
+                  "label": "(+ $140.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png"
+              },
+              {
+                "id": "feather-flags-12ft-stand-alone-flag-w-cross-base",
+                "kind": "accessory",
+                "title": "12ft Stand Alone Flag w/ Cross Base",
+                "hoverTitle": "12ft Stand Alone Flag w/ Cross Base",
+                "hoverDescription": "Feather Flags · (+ $150.00)",
+                "price": {
+                  "surcharge": 150,
+                  "label": "(+ $150.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png"
+              },
+              {
+                "id": "feather-flags-15ft-stand-alone-flag-w-cross-base",
+                "kind": "accessory",
+                "title": "15ft Stand Alone Flag w/ Cross Base",
+                "hoverTitle": "15ft Stand Alone Flag w/ Cross Base",
+                "hoverDescription": "Feather Flags · (+ $160.00)",
+                "price": {
+                  "surcharge": 160,
+                  "label": "(+ $160.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png"
+              }
+            ]
+          },
+          {
+            "id": "essentials",
+            "title": "Essentials",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "essentials-4-pc-set",
+                "kind": "accessory",
+                "title": "4 Pc Set",
+                "hoverTitle": "4 Pc Set",
+                "hoverDescription": "Essentials · (+ $100.00)",
+                "price": {
+                  "surcharge": 100,
+                  "label": "(+ $100.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png"
+              },
+              {
+                "id": "essentials-led-lights",
+                "kind": "accessory",
+                "title": "LED Lights",
+                "hoverTitle": "LED Lights",
+                "hoverDescription": "Essentials · (+ $219.00)",
+                "price": {
+                  "surcharge": 219,
+                  "label": "(+ $219.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649558476367.jpg",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649558476367.jpg"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "upgrades",
+        "kind": "upgrade",
+        "title": "Upgrades",
+        "selectionMode": "single",
+        "displayStyle": "grid",
+        "subgroups": [
+          {
+            "id": "double-sided-walls",
+            "title": "Double Sided Walls",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "double-sided-walls-double-sided-5ft-back-wall",
+                "kind": "upgrade",
+                "title": "Double Sided 5ft Back Wall",
+                "hoverTitle": "Double Sided 5ft Back Wall",
+                "hoverDescription": "Double Sided Walls · (+ $75.00)",
+                "price": {
+                  "surcharge": 75,
+                  "label": "(+ $75.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "sku": "ITEM #: 21-05",
     "reviewsText": "1 option",
     "soldLabel": "Available to order",
@@ -2107,6 +3337,9 @@ export const storefrontProducts = [
   },
   {
     "id": 40,
+    "sourceProductId": 8232522973319,
+    "sourceHandle": "5x5-custom-canopy-tent-21-05",
+    "sourceSlug": "5x5-custom-canopy-tent-21-05",
     "img": "/assets/images/notionworx-inventory/5x5-custom-canopy/5x5-custom-canopy-tent-21-05/01.png",
     "imgHover": "/assets/images/notionworx-inventory/5x5-custom-canopy/5x5-custom-canopy-tent-21-05/02.png",
     "images": [
@@ -2157,6 +3390,256 @@ export const storefrontProducts = [
     "warrantyText": "Warranty\n\n- 1-year canopy and soft case warranty - Standard warranty is a parts and labor warranty, which warrants the product against defects in material and workmanship. It does not cover damage due to accidents, abuse, or normal wear and tear. Products found to be defective will be replaced or repaired at the factory's discretion.\n\n- Lifetime hardware warranty - Standard warranty is a parts and labor warranty, which warrants the product against defects in material and workmanship. It does not cover damage due to accidents, abuse, or normal wear and tear. Products found to be defective will be replaced or repaired at the factory's discretion\n\n- Frame must be secured to the ground to prevent wind damage (failure to secure the tent voids the warranty)",
     "howToOrderHtml": "<h3><strong>3 Easy Steps</strong></h3><p><strong>Step 1: Shop 🛒</strong><br/><br/>Pick your products and add-ons, then add your order to the cart.</p><p><strong>Step 2: Payment 💳</strong><br/><br/>Go to your cart and choose your payment option:<br/><br/><strong>Full payment:</strong> your design gets priority 🚀<br/><br/><strong>Deposit:</strong> start the design now and pay the remaining balance after artwork approval<br/><br/><em>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</em></p><p><strong>Step 3: Artwork 🎨</strong><br/><br/>Complete checkout and upload your artwork using the provided link.<br/><br/>Don’t see it? No worries — we’ll email it to you.</p>",
     "howToOrderText": "3 Easy Steps\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
+    "addOnGroups": [
+      {
+        "id": "accessories",
+        "kind": "accessory",
+        "title": "Accessories",
+        "selectionMode": "multiple",
+        "displayStyle": "grid",
+        "subgroups": [
+          {
+            "id": "table-cover",
+            "title": "Table Cover",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "table-cover-4ft-stretch-table-cover",
+                "kind": "accessory",
+                "title": "4ft Stretch Table Cover",
+                "hoverTitle": "4ft Stretch Table Cover",
+                "hoverDescription": "Table Cover · (+ $125.00)",
+                "price": {
+                  "surcharge": 125,
+                  "label": "(+ $125.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616932361755.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616932361755.png"
+              },
+              {
+                "id": "table-cover-6ft-stretch-table-cover",
+                "kind": "accessory",
+                "title": "6ft Stretch Table Cover",
+                "hoverTitle": "6ft Stretch Table Cover",
+                "hoverDescription": "Table Cover · (+ $135.00)",
+                "price": {
+                  "surcharge": 135,
+                  "label": "(+ $135.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png"
+              },
+              {
+                "id": "table-cover-6ft-fitted-table-cover",
+                "kind": "accessory",
+                "title": "6ft Fitted Table Cover",
+                "hoverTitle": "6ft Fitted Table Cover",
+                "hoverDescription": "Table Cover · (+ $145.00)",
+                "price": {
+                  "surcharge": 145,
+                  "label": "(+ $145.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png"
+              },
+              {
+                "id": "table-cover-6ft-draped-table-cover",
+                "kind": "accessory",
+                "title": "6ft Draped Table Cover",
+                "hoverTitle": "6ft Draped Table Cover",
+                "hoverDescription": "Table Cover · (+ $145.00)",
+                "price": {
+                  "surcharge": 145,
+                  "label": "(+ $145.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp"
+              }
+            ]
+          },
+          {
+            "id": "feather-flags",
+            "title": "Feather Flags",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "feather-flags-9ft-mounted-flag-w-mounting-kit",
+                "kind": "accessory",
+                "title": "9ft Mounted Flag w/ Mounting Kit",
+                "hoverTitle": "9ft Mounted Flag w/ Mounting Kit",
+                "hoverDescription": "Feather Flags · (+ $150.00)",
+                "price": {
+                  "surcharge": 150,
+                  "label": "(+ $150.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png"
+              },
+              {
+                "id": "feather-flags-9ft-stand-alone-flag-w-cross-base",
+                "kind": "accessory",
+                "title": "9ft Stand Alone Flag w/ Cross Base",
+                "hoverTitle": "9ft Stand Alone Flag w/ Cross Base",
+                "hoverDescription": "Feather Flags · (+ $140.00)",
+                "price": {
+                  "surcharge": 140,
+                  "label": "(+ $140.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png"
+              },
+              {
+                "id": "feather-flags-12ft-stand-alone-flag-w-cross-base",
+                "kind": "accessory",
+                "title": "12ft Stand Alone Flag w/ Cross Base",
+                "hoverTitle": "12ft Stand Alone Flag w/ Cross Base",
+                "hoverDescription": "Feather Flags · (+ $150.00)",
+                "price": {
+                  "surcharge": 150,
+                  "label": "(+ $150.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png"
+              },
+              {
+                "id": "feather-flags-15ft-stand-alone-flag-w-cross-base",
+                "kind": "accessory",
+                "title": "15ft Stand Alone Flag w/ Cross Base",
+                "hoverTitle": "15ft Stand Alone Flag w/ Cross Base",
+                "hoverDescription": "Feather Flags · (+ $160.00)",
+                "price": {
+                  "surcharge": 160,
+                  "label": "(+ $160.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png"
+              }
+            ]
+          },
+          {
+            "id": "essentials",
+            "title": "Essentials",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "essentials-4-pc-set",
+                "kind": "accessory",
+                "title": "4 Pc Set",
+                "hoverTitle": "4 Pc Set",
+                "hoverDescription": "Essentials · (+ $100.00)",
+                "price": {
+                  "surcharge": 100,
+                  "label": "(+ $100.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png"
+              },
+              {
+                "id": "essentials-led-lights",
+                "kind": "accessory",
+                "title": "LED Lights",
+                "hoverTitle": "LED Lights",
+                "hoverDescription": "Essentials · (+ $219.00)",
+                "price": {
+                  "surcharge": 219,
+                  "label": "(+ $219.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649558648373.jpg",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649558648373.jpg"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "upgrades",
+        "kind": "upgrade",
+        "title": "Upgrades",
+        "selectionMode": "single",
+        "displayStyle": "grid",
+        "subgroups": [
+          {
+            "id": "double-sided-walls",
+            "title": "Double Sided Walls",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "double-sided-walls-double-sided-5ft-back-wall",
+                "kind": "upgrade",
+                "title": "Double Sided 5ft Back Wall",
+                "hoverTitle": "Double Sided 5ft Back Wall",
+                "hoverDescription": "Double Sided Walls · (+ $75.00)",
+                "price": {
+                  "surcharge": 75,
+                  "label": "(+ $75.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1
+              },
+              {
+                "id": "double-sided-walls-double-sided-5ft-half-side-walls",
+                "kind": "upgrade",
+                "title": "Double Sided 5ft Half Side Walls",
+                "hoverTitle": "Double Sided 5ft Half Side Walls",
+                "hoverDescription": "Double Sided Walls · (+ $100.00)",
+                "price": {
+                  "surcharge": 100,
+                  "label": "(+ $100.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1
+              },
+              {
+                "id": "double-sided-walls-double-sided-5ft-back-wall-half-side-walls",
+                "kind": "upgrade",
+                "title": "Double Sided 5ft Back Wall & Half Side Walls",
+                "hoverTitle": "Double Sided 5ft Back Wall & Half Side Walls",
+                "hoverDescription": "Double Sided Walls · (+ $175.00)",
+                "price": {
+                  "surcharge": 175,
+                  "label": "(+ $175.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "sku": "Item #: 22-05",
     "reviewsText": "1 option",
     "soldLabel": "Available to order",
@@ -2165,6 +3648,9 @@ export const storefrontProducts = [
   },
   {
     "id": 41,
+    "sourceProductId": 8227672555655,
+    "sourceHandle": "5x5-custom-canopy-tent-22-05",
+    "sourceSlug": "5x5-custom-canopy-tent-22-05",
     "img": "/assets/images/notionworx-inventory/5x5-custom-canopy/5x5-custom-canopy-tent-22-05/01.png",
     "imgHover": "/assets/images/notionworx-inventory/5x5-custom-canopy/5x5-custom-canopy-tent-22-05/02.jpg",
     "images": [
@@ -2210,6 +3696,256 @@ export const storefrontProducts = [
     "warrantyText": "Factory Warranty\n\n- We stand behind the quality of our products. Our warranty covers any factory defects or damage that occurs during shipping. However, please note that we do not cover damage resulting from extreme weather conditions, misuse, or any circumstances beyond our control.\n\n- Frame must be secured to the ground to prevent wind damage (failure to secure the tent voids the warranty)",
     "howToOrderHtml": "<ul>\n  <li>SKU ITEM #: 23-05</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
     "howToOrderText": "- SKU ITEM #: 23-05\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
+    "addOnGroups": [
+      {
+        "id": "accessories",
+        "kind": "accessory",
+        "title": "Accessories",
+        "selectionMode": "multiple",
+        "displayStyle": "grid",
+        "subgroups": [
+          {
+            "id": "table-cover",
+            "title": "Table Cover",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "table-cover-4ft-stretch-table-cover",
+                "kind": "accessory",
+                "title": "4ft Stretch Table Cover",
+                "hoverTitle": "4ft Stretch Table Cover",
+                "hoverDescription": "Table Cover · (+ $125.00)",
+                "price": {
+                  "surcharge": 125,
+                  "label": "(+ $125.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616931959430.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616931959430.png"
+              },
+              {
+                "id": "table-cover-6ft-stretch-table-cover",
+                "kind": "accessory",
+                "title": "6ft Stretch Table Cover",
+                "hoverTitle": "6ft Stretch Table Cover",
+                "hoverDescription": "Table Cover · (+ $135.00)",
+                "price": {
+                  "surcharge": 135,
+                  "label": "(+ $135.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png"
+              },
+              {
+                "id": "table-cover-6ft-fitted-table-cover",
+                "kind": "accessory",
+                "title": "6ft Fitted Table Cover",
+                "hoverTitle": "6ft Fitted Table Cover",
+                "hoverDescription": "Table Cover · (+ $145.00)",
+                "price": {
+                  "surcharge": 145,
+                  "label": "(+ $145.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png"
+              },
+              {
+                "id": "table-cover-6ft-draped-table-cover",
+                "kind": "accessory",
+                "title": "6ft Draped Table Cover",
+                "hoverTitle": "6ft Draped Table Cover",
+                "hoverDescription": "Table Cover · (+ $145.00)",
+                "price": {
+                  "surcharge": 145,
+                  "label": "(+ $145.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp"
+              }
+            ]
+          },
+          {
+            "id": "feather-flags",
+            "title": "Feather Flags",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "feather-flags-9ft-mounted-flag-w-mounting-kit",
+                "kind": "accessory",
+                "title": "9ft Mounted Flag w/ Mounting Kit",
+                "hoverTitle": "9ft Mounted Flag w/ Mounting Kit",
+                "hoverDescription": "Feather Flags · (+ $150.00)",
+                "price": {
+                  "surcharge": 150,
+                  "label": "(+ $150.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png"
+              },
+              {
+                "id": "feather-flags-9ft-stand-alone-flag-w-cross-base",
+                "kind": "accessory",
+                "title": "9ft Stand Alone Flag w/ Cross Base",
+                "hoverTitle": "9ft Stand Alone Flag w/ Cross Base",
+                "hoverDescription": "Feather Flags · (+ $140.00)",
+                "price": {
+                  "surcharge": 140,
+                  "label": "(+ $140.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png"
+              },
+              {
+                "id": "feather-flags-12ft-stand-alone-flag-w-cross-base",
+                "kind": "accessory",
+                "title": "12ft Stand Alone Flag w/ Cross Base",
+                "hoverTitle": "12ft Stand Alone Flag w/ Cross Base",
+                "hoverDescription": "Feather Flags · (+ $150.00)",
+                "price": {
+                  "surcharge": 150,
+                  "label": "(+ $150.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png"
+              },
+              {
+                "id": "feather-flags-15ft-stand-alone-flag-w-cross-base",
+                "kind": "accessory",
+                "title": "15ft Stand Alone Flag w/ Cross Base",
+                "hoverTitle": "15ft Stand Alone Flag w/ Cross Base",
+                "hoverDescription": "Feather Flags · (+ $160.00)",
+                "price": {
+                  "surcharge": 160,
+                  "label": "(+ $160.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png"
+              }
+            ]
+          },
+          {
+            "id": "essentials",
+            "title": "Essentials",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "essentials-4-pc-set",
+                "kind": "accessory",
+                "title": "4 Pc Set",
+                "hoverTitle": "4 Pc Set",
+                "hoverDescription": "Essentials · (+ $100.00)",
+                "price": {
+                  "surcharge": 100,
+                  "label": "(+ $100.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png"
+              },
+              {
+                "id": "essentials-led-lights",
+                "kind": "accessory",
+                "title": "LED Lights",
+                "hoverTitle": "LED Lights",
+                "hoverDescription": "Essentials · (+ $219.00)",
+                "price": {
+                  "surcharge": 219,
+                  "label": "(+ $219.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649558845002.jpg",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649558845002.jpg"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "upgrades",
+        "kind": "upgrade",
+        "title": "Upgrades",
+        "selectionMode": "single",
+        "displayStyle": "grid",
+        "subgroups": [
+          {
+            "id": "double-sided-walls",
+            "title": "Double Sided Walls",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "double-sided-walls-double-sided-5ft-back-wall",
+                "kind": "upgrade",
+                "title": "Double Sided 5ft Back Wall",
+                "hoverTitle": "Double Sided 5ft Back Wall",
+                "hoverDescription": "Double Sided Walls · (+ $75.00)",
+                "price": {
+                  "surcharge": 75,
+                  "label": "(+ $75.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1
+              },
+              {
+                "id": "double-sided-walls-double-sided-5ft-side-walls",
+                "kind": "upgrade",
+                "title": "Double Sided 5ft Side Walls",
+                "hoverTitle": "Double Sided 5ft Side Walls",
+                "hoverDescription": "Double Sided Walls · (+ $150.00)",
+                "price": {
+                  "surcharge": 150,
+                  "label": "(+ $150.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1
+              },
+              {
+                "id": "double-sided-walls-double-sided-5ft-three-full-walls",
+                "kind": "upgrade",
+                "title": "Double Sided 5ft Three Full Walls",
+                "hoverTitle": "Double Sided 5ft Three Full Walls",
+                "hoverDescription": "Double Sided Walls · (+ $225.00)",
+                "price": {
+                  "surcharge": 225,
+                  "label": "(+ $225.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "sku": "ITEM #: 23-05",
     "reviewsText": "1 option",
     "soldLabel": "Available to order",
@@ -2218,6 +3954,9 @@ export const storefrontProducts = [
   },
   {
     "id": 42,
+    "sourceProductId": 8227683336327,
+    "sourceHandle": "6-5-premium-rectangle-flag-pole",
+    "sourceSlug": "6-5-premium-rectangle-flag-pole",
     "img": "/assets/images/notionworx-inventory/flags/6-5-premium-rectangle-flag-pole/01.jpg",
     "imgHover": "/assets/images/notionworx-inventory/flags/6-5-premium-rectangle-flag-pole/01.jpg",
     "images": [
@@ -2259,6 +3998,9 @@ export const storefrontProducts = [
   },
   {
     "id": 43,
+    "sourceProductId": 8258921857159,
+    "sourceHandle": "6ft-heavy-duty-folding-table",
+    "sourceSlug": "6ft-heavy-duty-folding-table",
     "img": "/assets/images/notionworx-inventory/table-cover/6ft-heavy-duty-folding-table/01.jpg",
     "imgHover": "/assets/images/notionworx-inventory/table-cover/6ft-heavy-duty-folding-table/01.jpg",
     "images": [
@@ -2300,6 +4042,9 @@ export const storefrontProducts = [
   },
   {
     "id": 44,
+    "sourceProductId": 8227675832455,
+    "sourceHandle": "7-flagpole",
+    "sourceSlug": "7-flagpole",
     "img": "/assets/images/notionworx-inventory/flags/7-flagpole/01.jpg",
     "imgHover": "/assets/images/notionworx-inventory/flags/7-flagpole/01.jpg",
     "images": [
@@ -2332,6 +4077,9 @@ export const storefrontProducts = [
   },
   {
     "id": 45,
+    "sourceProductId": 8227673899143,
+    "sourceHandle": "8-fabric-pop-up-display-straight-copy",
+    "sourceSlug": "8-fabric-pop-up-display-straight-copy",
     "img": "/assets/images/notionworx-inventory/trade-show-display/8-fabric-pop-up-display-straight-copy/01.jpg",
     "imgHover": "/assets/images/notionworx-inventory/trade-show-display/8-fabric-pop-up-display-straight-copy/02.jpg",
     "images": [
@@ -2387,6 +4135,9 @@ export const storefrontProducts = [
   },
   {
     "id": 46,
+    "sourceProductId": 8227673866375,
+    "sourceHandle": "8-tube-straight-fabric-display-copy",
+    "sourceSlug": "8-tube-straight-fabric-display-copy",
     "img": "/assets/images/notionworx-inventory/trade-show-display/8-tube-straight-fabric-display-copy/01.jpg",
     "imgHover": "/assets/images/notionworx-inventory/trade-show-display/8-tube-straight-fabric-display-copy/02.jpg",
     "images": [
@@ -2437,6 +4188,9 @@ export const storefrontProducts = [
   },
   {
     "id": 47,
+    "sourceProductId": 8258923135111,
+    "sourceHandle": "8ft-heavy-duty-folding-table",
+    "sourceSlug": "8ft-heavy-duty-folding-table",
     "img": "/assets/images/notionworx-inventory/table-cover/8ft-heavy-duty-folding-table/01.jpg",
     "imgHover": "/assets/images/notionworx-inventory/table-cover/8ft-heavy-duty-folding-table/01.jpg",
     "images": [
@@ -2478,6 +4232,9 @@ export const storefrontProducts = [
   },
   {
     "id": 48,
+    "sourceProductId": 8227678388359,
+    "sourceHandle": "8ft-seg-backlit-popup-display",
+    "sourceSlug": "8ft-seg-backlit-popup-display",
     "img": "/assets/images/notionworx-inventory/seg-products/8ft-seg-backlit-popup-display/01.jpg",
     "imgHover": "/assets/images/notionworx-inventory/seg-products/8ft-seg-backlit-popup-display/02.jpg",
     "images": [
@@ -2536,6 +4293,9 @@ export const storefrontProducts = [
   },
   {
     "id": 49,
+    "sourceProductId": 8227675603079,
+    "sourceHandle": "9-outdoor-aluminum-patio-umbrella-dye-sublimation-copy",
+    "sourceSlug": "9-outdoor-aluminum-patio-umbrella-dye-sublimation-copy",
     "img": "/assets/images/notionworx-inventory/umbrella/9-outdoor-aluminum-patio-umbrella-dye-sublimation-copy/01.jpg",
     "imgHover": "/assets/images/notionworx-inventory/umbrella/9-outdoor-aluminum-patio-umbrella-dye-sublimation-copy/02.jpg",
     "images": [
@@ -2600,6 +4360,9 @@ export const storefrontProducts = [
   },
   {
     "id": 50,
+    "sourceProductId": 8227678945415,
+    "sourceHandle": "belt-bag-dye-sublimated-1-38-strap-500060",
+    "sourceSlug": "belt-bag-dye-sublimated-1-38-strap-500060",
     "img": "/assets/images/notionworx-inventory/bag/belt-bag-dye-sublimated-1-38-strap-500060/01.jpg",
     "imgHover": "/assets/images/notionworx-inventory/bag/belt-bag-dye-sublimated-1-38-strap-500060/02.jpg",
     "images": [
@@ -2642,6 +4405,9 @@ export const storefrontProducts = [
   },
   {
     "id": 51,
+    "sourceProductId": 8266743447687,
+    "sourceHandle": "canopy-counter-bar-top",
+    "sourceSlug": "canopy-counter-bar-top",
     "img": "/assets/images/notionworx-inventory/accesories/canopy-counter-bar-top/01.jpg",
     "imgHover": "/assets/images/notionworx-inventory/accesories/canopy-counter-bar-top/02.jpg",
     "images": [
@@ -2687,6 +4453,9 @@ export const storefrontProducts = [
   },
   {
     "id": 52,
+    "sourceProductId": 8227675570311,
+    "sourceHandle": "cooling-beach-towel-12-x-40",
+    "sourceSlug": "cooling-beach-towel-12-x-40",
     "img": "/assets/images/notionworx-inventory/towel-blanket/cooling-beach-towel-12-x-40/01.jpg",
     "imgHover": "/assets/images/notionworx-inventory/towel-blanket/cooling-beach-towel-12-x-40/01.jpg",
     "images": [
@@ -2724,6 +4493,9 @@ export const storefrontProducts = [
   },
   {
     "id": 53,
+    "sourceProductId": 8227680157831,
+    "sourceHandle": "crew-neck-sleeveless-full-dye-sublimation",
+    "sourceSlug": "crew-neck-sleeveless-full-dye-sublimation",
     "img": "/assets/images/notionworx-inventory/apparel/crew-neck-sleeveless-full-dye-sublimation/01.jpg",
     "imgHover": "/assets/images/notionworx-inventory/apparel/crew-neck-sleeveless-full-dye-sublimation/02.jpg",
     "images": [
@@ -2793,6 +4565,9 @@ export const storefrontProducts = [
   },
   {
     "id": 54,
+    "sourceProductId": 8227681599623,
+    "sourceHandle": "cross-base",
+    "sourceSlug": "cross-base",
     "img": "/assets/images/notionworx-inventory/flags/cross-base/01.jpg",
     "imgHover": "/assets/images/notionworx-inventory/flags/cross-base/01.jpg",
     "images": [
@@ -2832,6 +4607,9 @@ export const storefrontProducts = [
   },
   {
     "id": 55,
+    "sourceProductId": 8227680649351,
+    "sourceHandle": "custom-2-button-baseball-jersey-full-dye-sublimation-50059",
+    "sourceSlug": "custom-2-button-baseball-jersey-full-dye-sublimation-50059",
     "img": "/assets/images/notionworx-inventory/apparel/custom-2-button-baseball-jersey-full-dye-sublimation-50059/01.jpg",
     "imgHover": "/assets/images/notionworx-inventory/apparel/custom-2-button-baseball-jersey-full-dye-sublimation-50059/01.jpg",
     "images": [
@@ -2889,6 +4667,9 @@ export const storefrontProducts = [
   },
   {
     "id": 56,
+    "sourceProductId": 8227678978183,
+    "sourceHandle": "custom-2-zipper-fanny-pack-dye-sublimated",
+    "sourceSlug": "custom-2-zipper-fanny-pack-dye-sublimated",
     "img": "/assets/images/notionworx-inventory/bag/custom-2-zipper-fanny-pack-dye-sublimated/01.jpg",
     "imgHover": "/assets/images/notionworx-inventory/bag/custom-2-zipper-fanny-pack-dye-sublimated/01.jpg",
     "images": [
@@ -2928,6 +4709,9 @@ export const storefrontProducts = [
   },
   {
     "id": 57,
+    "sourceProductId": 8227680190599,
+    "sourceHandle": "custom-baseball-jersey-full-dye-sublimation",
+    "sourceSlug": "custom-baseball-jersey-full-dye-sublimation",
     "img": "/assets/images/notionworx-inventory/apparel/custom-baseball-jersey-full-dye-sublimation/01.jpg",
     "imgHover": "/assets/images/notionworx-inventory/apparel/custom-baseball-jersey-full-dye-sublimation/01.jpg",
     "images": [
@@ -2985,6 +4769,9 @@ export const storefrontProducts = [
   },
   {
     "id": 58,
+    "sourceProductId": 8227679109255,
+    "sourceHandle": "custom-duffel-bag-dye-sublimated",
+    "sourceSlug": "custom-duffel-bag-dye-sublimated",
     "img": "/assets/images/notionworx-inventory/bag/custom-duffel-bag-dye-sublimated/01.jpg",
     "imgHover": "/assets/images/notionworx-inventory/bag/custom-duffel-bag-dye-sublimated/02.png",
     "images": [
@@ -3036,6 +4823,9 @@ export const storefrontProducts = [
   },
   {
     "id": 59,
+    "sourceProductId": 8227679010951,
+    "sourceHandle": "custom-fanny-pack-dye-sublimated",
+    "sourceSlug": "custom-fanny-pack-dye-sublimated",
     "img": "/assets/images/notionworx-inventory/bag/custom-fanny-pack-dye-sublimated/01.jpg",
     "imgHover": "/assets/images/notionworx-inventory/bag/custom-fanny-pack-dye-sublimated/02.jpg",
     "images": [
@@ -3084,6 +4874,9 @@ export const storefrontProducts = [
   },
   {
     "id": 60,
+    "sourceProductId": 8227672522887,
+    "sourceHandle": "custom-food-booth-canopy-tent-16-10",
+    "sourceSlug": "custom-food-booth-canopy-tent-16-10",
     "img": "/assets/images/notionworx-inventory/custom-food-booths-canopy-tents/custom-food-booth-canopy-tent-16-10/01.png",
     "imgHover": "/assets/images/notionworx-inventory/custom-food-booths-canopy-tents/custom-food-booth-canopy-tent-16-10/02.png",
     "images": [
@@ -3148,6 +4941,362 @@ export const storefrontProducts = [
     "warrantyText": "Factory Warranty\n\n- We stand behind the quality of our products. Our warranty covers any factory defects or damage that occurs during shipping. However, please note that we do not cover damage resulting from extreme weather conditions, misuse, or any circumstances beyond our control.",
     "howToOrderHtml": "<ul>\n  <li>SKU ITEM #: 15-10FB</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
     "howToOrderText": "- SKU ITEM #: 15-10FB\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
+    "addOnGroups": [
+      {
+        "id": "accessories",
+        "kind": "accessory",
+        "title": "Accessories",
+        "selectionMode": "multiple",
+        "displayStyle": "grid",
+        "subgroups": [
+          {
+            "id": "table-cover",
+            "title": "Table Cover",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "table-cover-6ft-stretch-table-cover",
+                "kind": "accessory",
+                "title": "6ft Stretch Table Cover",
+                "hoverTitle": "6ft Stretch Table Cover",
+                "hoverDescription": "Table Cover · (+ $135.00)",
+                "price": {
+                  "surcharge": 135,
+                  "label": "(+ $135.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png"
+              },
+              {
+                "id": "table-cover-6ft-fitted-table-cover",
+                "kind": "accessory",
+                "title": "6ft Fitted Table Cover",
+                "hoverTitle": "6ft Fitted Table Cover",
+                "hoverDescription": "Table Cover · (+ $145.00)",
+                "price": {
+                  "surcharge": 145,
+                  "label": "(+ $145.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png"
+              },
+              {
+                "id": "table-cover-6ft-draped-table-cover",
+                "kind": "accessory",
+                "title": "6ft Draped Table Cover",
+                "hoverTitle": "6ft Draped Table Cover",
+                "hoverDescription": "Table Cover · (+ $145.00)",
+                "price": {
+                  "surcharge": 145,
+                  "label": "(+ $145.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp"
+              }
+            ]
+          },
+          {
+            "id": "feather-flags",
+            "title": "Feather Flags",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "feather-flags-9ft-mounted-flag-w-mounting-kit",
+                "kind": "accessory",
+                "title": "9ft Mounted Flag w/ Mounting Kit",
+                "hoverTitle": "9ft Mounted Flag w/ Mounting Kit",
+                "hoverDescription": "Feather Flags · (+ $150.00)",
+                "price": {
+                  "surcharge": 150,
+                  "label": "(+ $150.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png"
+              },
+              {
+                "id": "feather-flags-9ft-stand-alone-flag-w-cross-base",
+                "kind": "accessory",
+                "title": "9ft Stand Alone Flag w/ Cross Base",
+                "hoverTitle": "9ft Stand Alone Flag w/ Cross Base",
+                "hoverDescription": "Feather Flags · (+ $140.00)",
+                "price": {
+                  "surcharge": 140,
+                  "label": "(+ $140.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png"
+              },
+              {
+                "id": "feather-flags-12ft-stand-alone-flag-w-cross-base",
+                "kind": "accessory",
+                "title": "12ft Stand Alone Flag w/ Cross Base",
+                "hoverTitle": "12ft Stand Alone Flag w/ Cross Base",
+                "hoverDescription": "Feather Flags · (+ $150.00)",
+                "price": {
+                  "surcharge": 150,
+                  "label": "(+ $150.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png"
+              },
+              {
+                "id": "feather-flags-15ft-stand-alone-flag-w-cross-base",
+                "kind": "accessory",
+                "title": "15ft Stand Alone Flag w/ Cross Base",
+                "hoverTitle": "15ft Stand Alone Flag w/ Cross Base",
+                "hoverDescription": "Feather Flags · (+ $160.00)",
+                "price": {
+                  "surcharge": 160,
+                  "label": "(+ $160.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png"
+              }
+            ]
+          },
+          {
+            "id": "essentials",
+            "title": "Essentials",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "essentials-4-pc-set",
+                "kind": "accessory",
+                "title": "4 Pc Set",
+                "hoverTitle": "4 Pc Set",
+                "hoverDescription": "Essentials · (+ $100.00)",
+                "price": {
+                  "surcharge": 100,
+                  "label": "(+ $100.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png"
+              },
+              {
+                "id": "essentials-10ft-billboard",
+                "kind": "accessory",
+                "title": "10ft Billboard",
+                "hoverTitle": "10ft Billboard",
+                "hoverDescription": "Essentials · (+ $285.00)",
+                "price": {
+                  "surcharge": 285,
+                  "label": "(+ $285.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17631439523223.jpg",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17631439523223.jpg"
+              },
+              {
+                "id": "essentials-10ft-counter-top-w-vinyl-banner",
+                "kind": "accessory",
+                "title": "10ft Counter Top w/ Vinyl Banner",
+                "hoverTitle": "10ft Counter Top w/ Vinyl Banner",
+                "hoverDescription": "Essentials · (+ $550.00)",
+                "price": {
+                  "surcharge": 550,
+                  "label": "(+ $550.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17631440018208.jpg",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17631440018208.jpg"
+              },
+              {
+                "id": "essentials-led-lights",
+                "kind": "accessory",
+                "title": "LED Lights",
+                "hoverTitle": "LED Lights",
+                "hoverDescription": "Essentials · (+ $219.00)",
+                "price": {
+                  "surcharge": 219,
+                  "label": "(+ $219.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649561447437.jpg",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649561447437.jpg"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "upgrades",
+        "kind": "upgrade",
+        "title": "Upgrades",
+        "selectionMode": "multiple",
+        "displayStyle": "grid",
+        "subgroups": [
+          {
+            "id": "full-walls-fabric-from-bottom-to-top-no-mesh",
+            "title": "Full Walls - Fabric From Bottom To Top - NO MESH",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "full-walls-fabric-from-bottom-to-top-no-mesh-make-it-full-front-wall",
+                "kind": "upgrade",
+                "title": "Make it! Full Front Wall",
+                "hoverTitle": "Make it! Full Front Wall",
+                "hoverDescription": "Full Walls - Fabric From Bottom To Top - NO MESH · (+ $50.00)",
+                "price": {
+                  "surcharge": 50,
+                  "label": "(+ $50.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1
+              },
+              {
+                "id": "full-walls-fabric-from-bottom-to-top-no-mesh-make-it-full-side-walls",
+                "kind": "upgrade",
+                "title": "Make It! Full Side Walls",
+                "hoverTitle": "Make It! Full Side Walls",
+                "hoverDescription": "Full Walls - Fabric From Bottom To Top - NO MESH · (+ $100.00)",
+                "price": {
+                  "surcharge": 100,
+                  "label": "(+ $100.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1
+              },
+              {
+                "id": "full-walls-fabric-from-bottom-to-top-no-mesh-make-it-full-front-wall-side-walls",
+                "kind": "upgrade",
+                "title": "Make it! Full Front Wall & Side Walls",
+                "hoverTitle": "Make it! Full Front Wall & Side Walls",
+                "hoverDescription": "Full Walls - Fabric From Bottom To Top - NO MESH · (+ $150.00)",
+                "price": {
+                  "surcharge": 150,
+                  "label": "(+ $150.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1
+              }
+            ]
+          },
+          {
+            "id": "walls",
+            "title": "Walls",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "walls-20ft-back-wall",
+                "kind": "upgrade",
+                "title": "20ft Back Wall",
+                "hoverTitle": "20ft Back Wall",
+                "hoverDescription": "Walls · (+ $255.00) · Conditional on source",
+                "price": {
+                  "surcharge": 255,
+                  "label": "(+ $255.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616360743952.jpg",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616360743952.jpg",
+                "metadata": {
+                  "conditional": "true",
+                  "hiddenByDefault": "true"
+                }
+              },
+              {
+                "id": "walls-20ft-back-wall-half-side-walls",
+                "kind": "upgrade",
+                "title": "20ft Back Wall & Half Side Walls",
+                "hoverTitle": "20ft Back Wall & Half Side Walls",
+                "hoverDescription": "Walls · (+ $520.00) · Conditional on source",
+                "price": {
+                  "surcharge": 520,
+                  "label": "(+ $520.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616360803119.jpg",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616360803119.jpg",
+                "metadata": {
+                  "conditional": "true",
+                  "hiddenByDefault": "true"
+                }
+              },
+              {
+                "id": "walls-20ft-three-full-walls",
+                "kind": "upgrade",
+                "title": "20ft Three Full Walls",
+                "hoverTitle": "20ft Three Full Walls",
+                "hoverDescription": "Walls · (+ $455.00) · Conditional on source",
+                "price": {
+                  "surcharge": 455,
+                  "label": "(+ $455.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616360875845.jpg",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616360875845.jpg",
+                "metadata": {
+                  "conditional": "true",
+                  "hiddenByDefault": "true"
+                }
+              }
+            ],
+            "description": "Shown conditionally on the source site."
+          },
+          {
+            "id": "double-sided-walls",
+            "title": "Double Sided Walls",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "double-sided-walls-double-sided-10ft-back-wall",
+                "kind": "upgrade",
+                "title": "Double Sided 10Ft Back Wall",
+                "hoverTitle": "Double Sided 10Ft Back Wall",
+                "hoverDescription": "Double Sided Walls · (+ $100.00)",
+                "price": {
+                  "surcharge": 100,
+                  "label": "(+ $100.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1
+              }
+            ]
+          }
+        ],
+        "description": "Items marked conditional were hidden by default or gated by other source options."
+      }
+    ],
     "sku": "ITEM #: 15-10FB",
     "reviewsText": "1 option",
     "soldLabel": "Available to order",
@@ -3156,6 +5305,9 @@ export const storefrontProducts = [
   },
   {
     "id": 61,
+    "sourceProductId": 8227672424583,
+    "sourceHandle": "custom-food-booth-canopy-tent-17-15",
+    "sourceSlug": "custom-food-booth-canopy-tent-17-15",
     "img": "/assets/images/notionworx-inventory/custom-food-booths-canopy-tents/custom-food-booth-canopy-tent-17-15/01.png",
     "imgHover": "/assets/images/notionworx-inventory/custom-food-booths-canopy-tents/custom-food-booth-canopy-tent-17-15/02.png",
     "images": [
@@ -3207,6 +5359,330 @@ export const storefrontProducts = [
     "warrantyText": "Factory Warranty\n\n- We stand behind the quality of our products. Our warranty covers any factory defects or damage that occurs during shipping. However, please note that we do not cover damage resulting from extreme weather conditions, misuse, or any circumstances beyond our control.",
     "howToOrderHtml": "<ul>\n  <li>SKU ITEM #: 16-15FB</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
     "howToOrderText": "- SKU ITEM #: 16-15FB\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
+    "addOnGroups": [
+      {
+        "id": "accessories",
+        "kind": "accessory",
+        "title": "Accessories",
+        "selectionMode": "multiple",
+        "displayStyle": "grid",
+        "subgroups": [
+          {
+            "id": "table-cover",
+            "title": "Table Cover",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "table-cover-6ft-stretch-table-cover",
+                "kind": "accessory",
+                "title": "6ft Stretch Table Cover",
+                "hoverTitle": "6ft Stretch Table Cover",
+                "hoverDescription": "Table Cover · (+ $135.00)",
+                "price": {
+                  "surcharge": 135,
+                  "label": "(+ $135.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png"
+              },
+              {
+                "id": "table-cover-6ft-fitted-table-cover",
+                "kind": "accessory",
+                "title": "6ft Fitted Table Cover",
+                "hoverTitle": "6ft Fitted Table Cover",
+                "hoverDescription": "Table Cover · (+ $145.00)",
+                "price": {
+                  "surcharge": 145,
+                  "label": "(+ $145.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png"
+              },
+              {
+                "id": "table-cover-6ft-draped-table-cover",
+                "kind": "accessory",
+                "title": "6ft Draped Table Cover",
+                "hoverTitle": "6ft Draped Table Cover",
+                "hoverDescription": "Table Cover · (+ $145.00)",
+                "price": {
+                  "surcharge": 145,
+                  "label": "(+ $145.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp"
+              }
+            ]
+          },
+          {
+            "id": "feather-flags",
+            "title": "Feather Flags",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "feather-flags-9ft-mounted-flag-w-mounting-kit",
+                "kind": "accessory",
+                "title": "9ft Mounted Flag w/ Mounting Kit",
+                "hoverTitle": "9ft Mounted Flag w/ Mounting Kit",
+                "hoverDescription": "Feather Flags · (+ $150.00)",
+                "price": {
+                  "surcharge": 150,
+                  "label": "(+ $150.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png"
+              },
+              {
+                "id": "feather-flags-9ft-stand-alone-flag-w-cross-base",
+                "kind": "accessory",
+                "title": "9ft Stand Alone Flag w/ Cross Base",
+                "hoverTitle": "9ft Stand Alone Flag w/ Cross Base",
+                "hoverDescription": "Feather Flags · (+ $140.00)",
+                "price": {
+                  "surcharge": 140,
+                  "label": "(+ $140.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png"
+              },
+              {
+                "id": "feather-flags-12ft-stand-alone-flag-w-cross-base",
+                "kind": "accessory",
+                "title": "12ft Stand Alone Flag w/ Cross Base",
+                "hoverTitle": "12ft Stand Alone Flag w/ Cross Base",
+                "hoverDescription": "Feather Flags · (+ $150.00)",
+                "price": {
+                  "surcharge": 150,
+                  "label": "(+ $150.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png"
+              },
+              {
+                "id": "feather-flags-15ft-stand-alone-flag-w-cross-base",
+                "kind": "accessory",
+                "title": "15ft Stand Alone Flag w/ Cross Base",
+                "hoverTitle": "15ft Stand Alone Flag w/ Cross Base",
+                "hoverDescription": "Feather Flags · (+ $160.00)",
+                "price": {
+                  "surcharge": 160,
+                  "label": "(+ $160.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png"
+              }
+            ]
+          },
+          {
+            "id": "essentials",
+            "title": "Essentials",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "essentials-4-pc-set",
+                "kind": "accessory",
+                "title": "4 Pc Set",
+                "hoverTitle": "4 Pc Set",
+                "hoverDescription": "Essentials · (+ $100.00)",
+                "price": {
+                  "surcharge": 100,
+                  "label": "(+ $100.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png"
+              },
+              {
+                "id": "essentials-led-lights",
+                "kind": "accessory",
+                "title": "LED Lights",
+                "hoverTitle": "LED Lights",
+                "hoverDescription": "Essentials · (+ $219.00)",
+                "price": {
+                  "surcharge": 219,
+                  "label": "(+ $219.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649561597013.jpg",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649561597013.jpg"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "upgrades",
+        "kind": "upgrade",
+        "title": "Upgrades",
+        "selectionMode": "multiple",
+        "displayStyle": "grid",
+        "subgroups": [
+          {
+            "id": "full-walls-fabric-from-bottom-to-top-no-mesh",
+            "title": "Full Walls - Fabric From Bottom To Top - NO MESH",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "full-walls-fabric-from-bottom-to-top-no-mesh-make-it-full-front-wall",
+                "kind": "upgrade",
+                "title": "Make It! Full Front Wall",
+                "hoverTitle": "Make It! Full Front Wall",
+                "hoverDescription": "Full Walls - Fabric From Bottom To Top - NO MESH · (+ $75.00)",
+                "price": {
+                  "surcharge": 75,
+                  "label": "(+ $75.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1
+              },
+              {
+                "id": "full-walls-fabric-from-bottom-to-top-no-mesh-make-it-full-side-walls",
+                "kind": "upgrade",
+                "title": "Make It! Full Side Walls",
+                "hoverTitle": "Make It! Full Side Walls",
+                "hoverDescription": "Full Walls - Fabric From Bottom To Top - NO MESH · (+ $100.00)",
+                "price": {
+                  "surcharge": 100,
+                  "label": "(+ $100.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1
+              },
+              {
+                "id": "full-walls-fabric-from-bottom-to-top-no-mesh-make-it-full-side-walls-full-front-wall",
+                "kind": "upgrade",
+                "title": "Make it! Full Side Walls & Full Front Wall",
+                "hoverTitle": "Make it! Full Side Walls & Full Front Wall",
+                "hoverDescription": "Full Walls - Fabric From Bottom To Top - NO MESH · (+ $175.00)",
+                "price": {
+                  "surcharge": 175,
+                  "label": "(+ $175.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1
+              }
+            ]
+          },
+          {
+            "id": "walls",
+            "title": "Walls",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "walls-20ft-back-wall",
+                "kind": "upgrade",
+                "title": "20ft Back Wall",
+                "hoverTitle": "20ft Back Wall",
+                "hoverDescription": "Walls · (+ $255.00) · Conditional on source",
+                "price": {
+                  "surcharge": 255,
+                  "label": "(+ $255.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616360743952.jpg",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616360743952.jpg",
+                "metadata": {
+                  "conditional": "true",
+                  "hiddenByDefault": "true"
+                }
+              },
+              {
+                "id": "walls-20ft-back-wall-half-side-walls",
+                "kind": "upgrade",
+                "title": "20ft Back Wall & Half Side Walls",
+                "hoverTitle": "20ft Back Wall & Half Side Walls",
+                "hoverDescription": "Walls · (+ $520.00) · Conditional on source",
+                "price": {
+                  "surcharge": 520,
+                  "label": "(+ $520.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616360803119.jpg",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616360803119.jpg",
+                "metadata": {
+                  "conditional": "true",
+                  "hiddenByDefault": "true"
+                }
+              },
+              {
+                "id": "walls-20ft-three-full-walls",
+                "kind": "upgrade",
+                "title": "20ft Three Full Walls",
+                "hoverTitle": "20ft Three Full Walls",
+                "hoverDescription": "Walls · (+ $455.00) · Conditional on source",
+                "price": {
+                  "surcharge": 455,
+                  "label": "(+ $455.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616360875845.jpg",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616360875845.jpg",
+                "metadata": {
+                  "conditional": "true",
+                  "hiddenByDefault": "true"
+                }
+              }
+            ],
+            "description": "Shown conditionally on the source site."
+          },
+          {
+            "id": "double-sided-walls",
+            "title": "Double Sided Walls",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "double-sided-walls-double-sided-15ft-back-wall",
+                "kind": "upgrade",
+                "title": "Double Sided 15ft Back Wall",
+                "hoverTitle": "Double Sided 15ft Back Wall",
+                "hoverDescription": "Double Sided Walls · (+ $130.00)",
+                "price": {
+                  "surcharge": 130,
+                  "label": "(+ $130.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1
+              }
+            ]
+          }
+        ],
+        "description": "Items marked conditional were hidden by default or gated by other source options."
+      }
+    ],
     "sku": "ITEM #: 16-15FB",
     "reviewsText": "1 option",
     "soldLabel": "Available to order",
@@ -3215,6 +5691,9 @@ export const storefrontProducts = [
   },
   {
     "id": 62,
+    "sourceProductId": 8227672391815,
+    "sourceHandle": "custom-food-booth-canopy-tent-18-20",
+    "sourceSlug": "custom-food-booth-canopy-tent-18-20",
     "img": "/assets/images/notionworx-inventory/custom-food-booths-canopy-tents/custom-food-booth-canopy-tent-18-20/01.png",
     "imgHover": "/assets/images/notionworx-inventory/custom-food-booths-canopy-tents/custom-food-booth-canopy-tent-18-20/02.png",
     "images": [
@@ -3275,6 +5754,330 @@ export const storefrontProducts = [
     "warrantyText": "Factory Warranty\n\n- We stand behind the quality of our products. Our warranty covers any factory defects or damage that occurs during shipping. However, please note that we do not cover damage resulting from extreme weather conditions, misuse, or any circumstances beyond our control.",
     "howToOrderHtml": "<ul>\n  <li>SKU ITEM #: 17-20FB</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
     "howToOrderText": "- SKU ITEM #: 17-20FB\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
+    "addOnGroups": [
+      {
+        "id": "accessories",
+        "kind": "accessory",
+        "title": "Accessories",
+        "selectionMode": "multiple",
+        "displayStyle": "grid",
+        "subgroups": [
+          {
+            "id": "table-cover",
+            "title": "Table Cover",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "table-cover-6ft-stretch-table-cover",
+                "kind": "accessory",
+                "title": "6ft Stretch Table Cover",
+                "hoverTitle": "6ft Stretch Table Cover",
+                "hoverDescription": "Table Cover · (+ $135.00)",
+                "price": {
+                  "surcharge": 135,
+                  "label": "(+ $135.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png"
+              },
+              {
+                "id": "table-cover-6ft-fitted-table-cover",
+                "kind": "accessory",
+                "title": "6ft Fitted Table Cover",
+                "hoverTitle": "6ft Fitted Table Cover",
+                "hoverDescription": "Table Cover · (+ $145.00)",
+                "price": {
+                  "surcharge": 145,
+                  "label": "(+ $145.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png"
+              },
+              {
+                "id": "table-cover-6ft-draped-table-cover",
+                "kind": "accessory",
+                "title": "6ft Draped Table Cover",
+                "hoverTitle": "6ft Draped Table Cover",
+                "hoverDescription": "Table Cover · (+ $145.00)",
+                "price": {
+                  "surcharge": 145,
+                  "label": "(+ $145.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp"
+              }
+            ]
+          },
+          {
+            "id": "feather-flags",
+            "title": "Feather Flags",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "feather-flags-9ft-mounted-flag-w-mounting-kit",
+                "kind": "accessory",
+                "title": "9ft Mounted Flag w/ Mounting Kit",
+                "hoverTitle": "9ft Mounted Flag w/ Mounting Kit",
+                "hoverDescription": "Feather Flags · (+ $150.00)",
+                "price": {
+                  "surcharge": 150,
+                  "label": "(+ $150.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png"
+              },
+              {
+                "id": "feather-flags-9ft-stand-alone-flag-w-cross-base",
+                "kind": "accessory",
+                "title": "9ft Stand Alone Flag w/ Cross Base",
+                "hoverTitle": "9ft Stand Alone Flag w/ Cross Base",
+                "hoverDescription": "Feather Flags · (+ $140.00)",
+                "price": {
+                  "surcharge": 140,
+                  "label": "(+ $140.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png"
+              },
+              {
+                "id": "feather-flags-12ft-stand-alone-flag-w-cross-base",
+                "kind": "accessory",
+                "title": "12ft Stand Alone Flag w/ Cross Base",
+                "hoverTitle": "12ft Stand Alone Flag w/ Cross Base",
+                "hoverDescription": "Feather Flags · (+ $150.00)",
+                "price": {
+                  "surcharge": 150,
+                  "label": "(+ $150.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png"
+              },
+              {
+                "id": "feather-flags-15ft-stand-alone-flag-w-cross-base",
+                "kind": "accessory",
+                "title": "15ft Stand Alone Flag w/ Cross Base",
+                "hoverTitle": "15ft Stand Alone Flag w/ Cross Base",
+                "hoverDescription": "Feather Flags · (+ $160.00)",
+                "price": {
+                  "surcharge": 160,
+                  "label": "(+ $160.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png"
+              }
+            ]
+          },
+          {
+            "id": "essentials",
+            "title": "Essentials",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "essentials-6-pc-set",
+                "kind": "accessory",
+                "title": "6 Pc Set",
+                "hoverTitle": "6 Pc Set",
+                "hoverDescription": "Essentials · (+ $150.00)",
+                "price": {
+                  "surcharge": 150,
+                  "label": "(+ $150.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17622894256890.jpg",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17622894256890.jpg"
+              },
+              {
+                "id": "essentials-led-lights",
+                "kind": "accessory",
+                "title": "LED Lights",
+                "hoverTitle": "LED Lights",
+                "hoverDescription": "Essentials · (+ $219.00)",
+                "price": {
+                  "surcharge": 219,
+                  "label": "(+ $219.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649561720866.jpg",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649561720866.jpg"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "upgrades",
+        "kind": "upgrade",
+        "title": "Upgrades",
+        "selectionMode": "multiple",
+        "displayStyle": "grid",
+        "subgroups": [
+          {
+            "id": "full-walls-fabric-from-bottom-to-top-no-mesh",
+            "title": "Full Walls - Fabric From Bottom To Top - NO MESH",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "full-walls-fabric-from-bottom-to-top-no-mesh-make-it-full-front-wall",
+                "kind": "upgrade",
+                "title": "Make It! Full Front Wall",
+                "hoverTitle": "Make It! Full Front Wall",
+                "hoverDescription": "Full Walls - Fabric From Bottom To Top - NO MESH · (+ $100.00)",
+                "price": {
+                  "surcharge": 100,
+                  "label": "(+ $100.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1
+              },
+              {
+                "id": "full-walls-fabric-from-bottom-to-top-no-mesh-make-it-full-side-walls",
+                "kind": "upgrade",
+                "title": "Make it! Full Side Walls",
+                "hoverTitle": "Make it! Full Side Walls",
+                "hoverDescription": "Full Walls - Fabric From Bottom To Top - NO MESH · (+ $100.00)",
+                "price": {
+                  "surcharge": 100,
+                  "label": "(+ $100.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1
+              },
+              {
+                "id": "full-walls-fabric-from-bottom-to-top-no-mesh-make-it-full-side-walls-full-front-wall",
+                "kind": "upgrade",
+                "title": "Make It! Full Side Walls & Full Front Wall",
+                "hoverTitle": "Make It! Full Side Walls & Full Front Wall",
+                "hoverDescription": "Full Walls - Fabric From Bottom To Top - NO MESH · (+ $200.00)",
+                "price": {
+                  "surcharge": 200,
+                  "label": "(+ $200.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1
+              }
+            ]
+          },
+          {
+            "id": "walls",
+            "title": "Walls",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "walls-20ft-back-wall",
+                "kind": "upgrade",
+                "title": "20ft Back Wall",
+                "hoverTitle": "20ft Back Wall",
+                "hoverDescription": "Walls · (+ $255.00) · Conditional on source",
+                "price": {
+                  "surcharge": 255,
+                  "label": "(+ $255.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616360743952.jpg",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616360743952.jpg",
+                "metadata": {
+                  "conditional": "true",
+                  "hiddenByDefault": "true"
+                }
+              },
+              {
+                "id": "walls-20ft-back-wall-half-side-walls",
+                "kind": "upgrade",
+                "title": "20ft Back Wall & Half Side Walls",
+                "hoverTitle": "20ft Back Wall & Half Side Walls",
+                "hoverDescription": "Walls · (+ $520.00) · Conditional on source",
+                "price": {
+                  "surcharge": 520,
+                  "label": "(+ $520.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616360803119.jpg",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616360803119.jpg",
+                "metadata": {
+                  "conditional": "true",
+                  "hiddenByDefault": "true"
+                }
+              },
+              {
+                "id": "walls-20ft-three-full-walls",
+                "kind": "upgrade",
+                "title": "20ft Three Full Walls",
+                "hoverTitle": "20ft Three Full Walls",
+                "hoverDescription": "Walls · (+ $455.00) · Conditional on source",
+                "price": {
+                  "surcharge": 455,
+                  "label": "(+ $455.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616360875845.jpg",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616360875845.jpg",
+                "metadata": {
+                  "conditional": "true",
+                  "hiddenByDefault": "true"
+                }
+              }
+            ],
+            "description": "Shown conditionally on the source site."
+          },
+          {
+            "id": "double-sided-walls",
+            "title": "Double Sided Walls",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "double-sided-walls-double-sided-20ft-back-wall",
+                "kind": "upgrade",
+                "title": "Double Sided 20ft Back Wall",
+                "hoverTitle": "Double Sided 20ft Back Wall",
+                "hoverDescription": "Double Sided Walls · (+ $140.00)",
+                "price": {
+                  "surcharge": 140,
+                  "label": "(+ $140.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1
+              }
+            ]
+          }
+        ],
+        "description": "Items marked conditional were hidden by default or gated by other source options."
+      }
+    ],
     "sku": "ITEM #: 17-20FB",
     "reviewsText": "1 option",
     "soldLabel": "Available to order",
@@ -3283,6 +6086,9 @@ export const storefrontProducts = [
   },
   {
     "id": 63,
+    "sourceProductId": 8227672359047,
+    "sourceHandle": "custom-food-booth-canopy-tent-23-05",
+    "sourceSlug": "custom-food-booth-canopy-tent-23-05",
     "img": "/assets/images/notionworx-inventory/custom-food-booths-canopy-tents/custom-food-booth-canopy-tent-23-05/01.png",
     "imgHover": "/assets/images/notionworx-inventory/custom-food-booths-canopy-tents/custom-food-booth-canopy-tent-23-05/02.png",
     "images": [
@@ -3328,6 +6134,330 @@ export const storefrontProducts = [
     "warrantyText": "Factory Warranty\n\n- We stand behind the quality of our products. Our warranty covers any factory defects or damage that occurs during shipping. However, please note that we do not cover damage resulting from extreme weather conditions, misuse, or any circumstances beyond our control.",
     "howToOrderHtml": "<ul>\n  <li>SKU ITEM #: 14-05FB</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
     "howToOrderText": "- SKU ITEM #: 14-05FB\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
+    "addOnGroups": [
+      {
+        "id": "accessories",
+        "kind": "accessory",
+        "title": "Accessories",
+        "selectionMode": "multiple",
+        "displayStyle": "grid",
+        "subgroups": [
+          {
+            "id": "table-cover",
+            "title": "Table Cover",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "table-cover-6ft-stretch-table-cover",
+                "kind": "accessory",
+                "title": "6ft Stretch Table Cover",
+                "hoverTitle": "6ft Stretch Table Cover",
+                "hoverDescription": "Table Cover · (+ $135.00)",
+                "price": {
+                  "surcharge": 135,
+                  "label": "(+ $135.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png"
+              },
+              {
+                "id": "table-cover-6ft-fitted-table-cover",
+                "kind": "accessory",
+                "title": "6ft Fitted Table Cover",
+                "hoverTitle": "6ft Fitted Table Cover",
+                "hoverDescription": "Table Cover · (+ $145.00)",
+                "price": {
+                  "surcharge": 145,
+                  "label": "(+ $145.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png"
+              },
+              {
+                "id": "table-cover-6ft-draped-table-cover",
+                "kind": "accessory",
+                "title": "6ft Draped Table Cover",
+                "hoverTitle": "6ft Draped Table Cover",
+                "hoverDescription": "Table Cover · (+ $145.00)",
+                "price": {
+                  "surcharge": 145,
+                  "label": "(+ $145.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp"
+              }
+            ]
+          },
+          {
+            "id": "feather-flags",
+            "title": "Feather Flags",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "feather-flags-9ft-mounted-flag-w-mounting-kit",
+                "kind": "accessory",
+                "title": "9ft Mounted Flag w/ Mounting Kit",
+                "hoverTitle": "9ft Mounted Flag w/ Mounting Kit",
+                "hoverDescription": "Feather Flags · (+ $150.00)",
+                "price": {
+                  "surcharge": 150,
+                  "label": "(+ $150.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png"
+              },
+              {
+                "id": "feather-flags-9ft-stand-alone-flag-w-cross-base",
+                "kind": "accessory",
+                "title": "9ft Stand Alone Flag w/ Cross Base",
+                "hoverTitle": "9ft Stand Alone Flag w/ Cross Base",
+                "hoverDescription": "Feather Flags · (+ $140.00)",
+                "price": {
+                  "surcharge": 140,
+                  "label": "(+ $140.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png"
+              },
+              {
+                "id": "feather-flags-12ft-stand-alone-flag-w-cross-base",
+                "kind": "accessory",
+                "title": "12ft Stand Alone Flag w/ Cross Base",
+                "hoverTitle": "12ft Stand Alone Flag w/ Cross Base",
+                "hoverDescription": "Feather Flags · (+ $150.00)",
+                "price": {
+                  "surcharge": 150,
+                  "label": "(+ $150.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png"
+              },
+              {
+                "id": "feather-flags-15ft-stand-alone-flag-w-cross-base",
+                "kind": "accessory",
+                "title": "15ft Stand Alone Flag w/ Cross Base",
+                "hoverTitle": "15ft Stand Alone Flag w/ Cross Base",
+                "hoverDescription": "Feather Flags · (+ $160.00)",
+                "price": {
+                  "surcharge": 160,
+                  "label": "(+ $160.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png"
+              }
+            ]
+          },
+          {
+            "id": "essentials",
+            "title": "Essentials",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "essentials-4-pc-set",
+                "kind": "accessory",
+                "title": "4 Pc Set",
+                "hoverTitle": "4 Pc Set",
+                "hoverDescription": "Essentials · (+ $100.00)",
+                "price": {
+                  "surcharge": 100,
+                  "label": "(+ $100.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png"
+              },
+              {
+                "id": "essentials-led-lights",
+                "kind": "accessory",
+                "title": "LED Lights",
+                "hoverTitle": "LED Lights",
+                "hoverDescription": "Essentials · (+ $219.00)",
+                "price": {
+                  "surcharge": 219,
+                  "label": "(+ $219.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649560959813.jpg",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649560959813.jpg"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "upgrades",
+        "kind": "upgrade",
+        "title": "Upgrades",
+        "selectionMode": "multiple",
+        "displayStyle": "grid",
+        "subgroups": [
+          {
+            "id": "full-walls-fabric-from-bottom-to-top-no-mesh",
+            "title": "Full Walls - Fabric From Bottom To Top - NO MESH",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "full-walls-fabric-from-bottom-to-top-no-mesh-make-it-full-front-wall",
+                "kind": "upgrade",
+                "title": "Make It! Full Front Wall",
+                "hoverTitle": "Make It! Full Front Wall",
+                "hoverDescription": "Full Walls - Fabric From Bottom To Top - NO MESH · (+ $30.00)",
+                "price": {
+                  "surcharge": 30,
+                  "label": "(+ $30.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1
+              },
+              {
+                "id": "full-walls-fabric-from-bottom-to-top-no-mesh-make-it-full-side-walls",
+                "kind": "upgrade",
+                "title": "Make It! Full Side Walls",
+                "hoverTitle": "Make It! Full Side Walls",
+                "hoverDescription": "Full Walls - Fabric From Bottom To Top - NO MESH · (+ $60.00)",
+                "price": {
+                  "surcharge": 60,
+                  "label": "(+ $60.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1
+              },
+              {
+                "id": "full-walls-fabric-from-bottom-to-top-no-mesh-make-it-full-front-wall-side-walls",
+                "kind": "upgrade",
+                "title": "Make It! Full Front Wall & Side Walls",
+                "hoverTitle": "Make It! Full Front Wall & Side Walls",
+                "hoverDescription": "Full Walls - Fabric From Bottom To Top - NO MESH · (+ $90.00)",
+                "price": {
+                  "surcharge": 90,
+                  "label": "(+ $90.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1
+              }
+            ]
+          },
+          {
+            "id": "walls",
+            "title": "Walls",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "walls-20ft-back-wall",
+                "kind": "upgrade",
+                "title": "20ft Back Wall",
+                "hoverTitle": "20ft Back Wall",
+                "hoverDescription": "Walls · (+ $255.00) · Conditional on source",
+                "price": {
+                  "surcharge": 255,
+                  "label": "(+ $255.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616360743952.jpg",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616360743952.jpg",
+                "metadata": {
+                  "conditional": "true",
+                  "hiddenByDefault": "true"
+                }
+              },
+              {
+                "id": "walls-20ft-back-wall-half-side-walls",
+                "kind": "upgrade",
+                "title": "20ft Back Wall & Half Side Walls",
+                "hoverTitle": "20ft Back Wall & Half Side Walls",
+                "hoverDescription": "Walls · (+ $520.00) · Conditional on source",
+                "price": {
+                  "surcharge": 520,
+                  "label": "(+ $520.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616360803119.jpg",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616360803119.jpg",
+                "metadata": {
+                  "conditional": "true",
+                  "hiddenByDefault": "true"
+                }
+              },
+              {
+                "id": "walls-20ft-three-full-walls",
+                "kind": "upgrade",
+                "title": "20ft Three Full Walls",
+                "hoverTitle": "20ft Three Full Walls",
+                "hoverDescription": "Walls · (+ $455.00) · Conditional on source",
+                "price": {
+                  "surcharge": 455,
+                  "label": "(+ $455.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616360875845.jpg",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616360875845.jpg",
+                "metadata": {
+                  "conditional": "true",
+                  "hiddenByDefault": "true"
+                }
+              }
+            ],
+            "description": "Shown conditionally on the source site."
+          },
+          {
+            "id": "double-sided-walls",
+            "title": "Double Sided Walls",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "double-sided-walls-double-sided-5ft-back-wall",
+                "kind": "upgrade",
+                "title": "Double Sided 5ft Back Wall",
+                "hoverTitle": "Double Sided 5ft Back Wall",
+                "hoverDescription": "Double Sided Walls · (+ $75.00)",
+                "price": {
+                  "surcharge": 75,
+                  "label": "(+ $75.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1
+              }
+            ]
+          }
+        ],
+        "description": "Items marked conditional were hidden by default or gated by other source options."
+      }
+    ],
     "sku": "ITEM #: 14-05FB",
     "reviewsText": "1 option",
     "soldLabel": "Available to order",
@@ -3336,6 +6466,9 @@ export const storefrontProducts = [
   },
   {
     "id": 64,
+    "sourceProductId": 8227680125063,
+    "sourceHandle": "custom-hockey-jersey-full-dye-sublimation-500021",
+    "sourceSlug": "custom-hockey-jersey-full-dye-sublimation-500021",
     "img": "/assets/images/notionworx-inventory/apparel/custom-hockey-jersey-full-dye-sublimation-500021/01.jpg",
     "imgHover": "/assets/images/notionworx-inventory/apparel/custom-hockey-jersey-full-dye-sublimation-500021/01.jpg",
     "images": [
@@ -3393,6 +6526,9 @@ export const storefrontProducts = [
   },
   {
     "id": 65,
+    "sourceProductId": 8299735187591,
+    "sourceHandle": "custom-lanyard-with-badge-holder",
+    "sourceSlug": "custom-lanyard-with-badge-holder",
     "img": "/assets/images/notionworx-inventory/accesories/custom-lanyard-with-badge-holder/01.jpg",
     "imgHover": "/assets/images/notionworx-inventory/accesories/custom-lanyard-with-badge-holder/02.jpg",
     "images": [
@@ -3453,6 +6589,9 @@ export const storefrontProducts = [
   },
   {
     "id": 66,
+    "sourceProductId": 8229364990087,
+    "sourceHandle": "custom-pole-flags",
+    "sourceSlug": "custom-pole-flags",
     "img": "/assets/images/notionworx-inventory/flags/custom-pole-flags/01.jpg",
     "imgHover": "/assets/images/notionworx-inventory/flags/custom-pole-flags/02.png",
     "images": [
@@ -3517,6 +6656,9 @@ export const storefrontProducts = [
   },
   {
     "id": 67,
+    "sourceProductId": 8227675537543,
+    "sourceHandle": "custom-sublimation-printed-chiffon-bandanna-scarf",
+    "sourceSlug": "custom-sublimation-printed-chiffon-bandanna-scarf",
     "img": "/assets/images/notionworx-inventory/towel-blanket/custom-sublimation-printed-chiffon-bandanna-scarf/01.jpg",
     "imgHover": "/assets/images/notionworx-inventory/towel-blanket/custom-sublimation-printed-chiffon-bandanna-scarf/02.jpg",
     "images": [
@@ -3562,6 +6704,9 @@ export const storefrontProducts = [
   },
   {
     "id": 68,
+    "sourceProductId": 8227679076487,
+    "sourceHandle": "custom-tote-bag-dye-sublimated",
+    "sourceSlug": "custom-tote-bag-dye-sublimated",
     "img": "/assets/images/notionworx-inventory/bag/custom-tote-bag-dye-sublimated/01.jpg",
     "imgHover": "/assets/images/notionworx-inventory/bag/custom-tote-bag-dye-sublimated/02.jpg",
     "images": [
@@ -3607,6 +6752,9 @@ export const storefrontProducts = [
   },
   {
     "id": 69,
+    "sourceProductId": 8519820345479,
+    "sourceHandle": "custom-vinyl-stickers",
+    "sourceSlug": "custom-vinyl-stickers",
     "img": "/assets/images/notionworx-inventory/uncategorized/custom-vinyl-stickers/01.jpg",
     "imgHover": "/assets/images/notionworx-inventory/uncategorized/custom-vinyl-stickers/02.jpg",
     "images": [
@@ -3673,6 +6821,9 @@ export const storefrontProducts = [
   },
   {
     "id": 70,
+    "sourceProductId": 8315483127943,
+    "sourceHandle": "custom-yard-sign",
+    "sourceSlug": "custom-yard-sign",
     "img": "/assets/images/notionworx-inventory/trade-show-display/custom-yard-sign/01.jpg",
     "imgHover": "/assets/images/notionworx-inventory/trade-show-display/custom-yard-sign/02.jpg",
     "images": [
@@ -3733,6 +6884,9 @@ export const storefrontProducts = [
   },
   {
     "id": 71,
+    "sourceProductId": 8227680026759,
+    "sourceHandle": "cycling-jerseys-full-dye-sublimation",
+    "sourceSlug": "cycling-jerseys-full-dye-sublimation",
     "img": "/assets/images/notionworx-inventory/apparel/cycling-jerseys-full-dye-sublimation/01.jpg",
     "imgHover": "/assets/images/notionworx-inventory/apparel/cycling-jerseys-full-dye-sublimation/02.jpg",
     "images": [
@@ -3793,6 +6947,9 @@ export const storefrontProducts = [
   },
   {
     "id": 72,
+    "sourceProductId": 8227678191751,
+    "sourceHandle": "deluxe-retractable-33-x-80",
+    "sourceSlug": "deluxe-retractable-33-x-80",
     "img": "/assets/images/notionworx-inventory/trade-show-display/deluxe-retractable-33-x-80/01.jpg",
     "imgHover": "/assets/images/notionworx-inventory/trade-show-display/deluxe-retractable-33-x-80/02.jpg",
     "images": [
@@ -3853,6 +7010,9 @@ export const storefrontProducts = [
   },
   {
     "id": 73,
+    "sourceProductId": 8227674718343,
+    "sourceHandle": "draped-table-cover",
+    "sourceSlug": "draped-table-cover",
     "img": "/assets/images/notionworx-inventory/table-cover/draped-table-cover/01.jpg",
     "imgHover": "/assets/images/notionworx-inventory/table-cover/draped-table-cover/02.jpg",
     "images": [
@@ -3907,6 +7067,9 @@ export const storefrontProducts = [
   },
   {
     "id": 74,
+    "sourceProductId": 8227679142023,
+    "sourceHandle": "drawstring-bag-dye-sublimated",
+    "sourceSlug": "drawstring-bag-dye-sublimated",
     "img": "/assets/images/notionworx-inventory/bag/drawstring-bag-dye-sublimated/01.jpg",
     "imgHover": "/assets/images/notionworx-inventory/bag/drawstring-bag-dye-sublimated/02.png",
     "images": [
@@ -3958,6 +7121,9 @@ export const storefrontProducts = [
   },
   {
     "id": 75,
+    "sourceProductId": 8229364531335,
+    "sourceHandle": "flag-pole-and-bracket",
+    "sourceSlug": "flag-pole-and-bracket",
     "img": "/assets/images/notionworx-inventory/flags/flag-pole-and-bracket/01.png",
     "imgHover": "/assets/images/notionworx-inventory/flags/flag-pole-and-bracket/02.jpg",
     "images": [
@@ -3998,6 +7164,9 @@ export const storefrontProducts = [
   },
   {
     "id": 76,
+    "sourceProductId": 8227681271943,
+    "sourceHandle": "flag-pole-base-accerrories",
+    "sourceSlug": "flag-pole-base-accerrories",
     "img": "/assets/images/notionworx-inventory/flags/flag-pole-base-accerrories/01.jpg",
     "imgHover": "/assets/images/notionworx-inventory/flags/flag-pole-base-accerrories/02.jpg",
     "images": [
@@ -4040,6 +7209,9 @@ export const storefrontProducts = [
   },
   {
     "id": 77,
+    "sourceProductId": 8227678814343,
+    "sourceHandle": "full-zipper-hoodie-full-dye-sublimation-500025",
+    "sourceSlug": "full-zipper-hoodie-full-dye-sublimation-500025",
     "img": "/assets/images/notionworx-inventory/apparel/full-zipper-hoodie-full-dye-sublimation-500025/01.webp",
     "imgHover": "/assets/images/notionworx-inventory/apparel/full-zipper-hoodie-full-dye-sublimation-500025/02.png",
     "images": [
@@ -4100,6 +7272,9 @@ export const storefrontProducts = [
   },
   {
     "id": 78,
+    "sourceProductId": 8227671900295,
+    "sourceHandle": "grs-spf-50-120gsm-milk-silk-long-sleeve-crew-neck-full-dye-sublimation-500080",
+    "sourceSlug": "grs-spf-50-120gsm-milk-silk-long-sleeve-crew-neck-full-dye-sublimation-500080",
     "img": "/assets/images/notionworx-inventory/apparel/grs-spf-50-120gsm-milk-silk-long-sleeve-crew-neck-full-dye-sublimation-500080/01.jpg",
     "imgHover": "/assets/images/notionworx-inventory/apparel/grs-spf-50-120gsm-milk-silk-long-sleeve-crew-neck-full-dye-sublimation-500080/01.jpg",
     "images": [
@@ -4157,6 +7332,9 @@ export const storefrontProducts = [
   },
   {
     "id": 79,
+    "sourceProductId": 8227671933063,
+    "sourceHandle": "grs-spf-50-120gsm-milk-silk-short-sleeve-crew-neck-full-dye-sublimation-500079",
+    "sourceSlug": "grs-spf-50-120gsm-milk-silk-short-sleeve-crew-neck-full-dye-sublimation-500079",
     "img": "/assets/images/notionworx-inventory/apparel/grs-spf-50-120gsm-milk-silk-short-sleeve-crew-neck-full-dye-sublimation-500079/01.jpg",
     "imgHover": "/assets/images/notionworx-inventory/apparel/grs-spf-50-120gsm-milk-silk-short-sleeve-crew-neck-full-dye-sublimation-500079/01.jpg",
     "images": [
@@ -4214,6 +7392,9 @@ export const storefrontProducts = [
   },
   {
     "id": 80,
+    "sourceProductId": 8227671801991,
+    "sourceHandle": "grs-spf-50-150gsm-mesh-cycling-jersey-long-sleeve-full-dye-sublimation-500092",
+    "sourceSlug": "grs-spf-50-150gsm-mesh-cycling-jersey-long-sleeve-full-dye-sublimation-500092",
     "img": "/assets/images/notionworx-inventory/apparel/grs-spf-50-150gsm-mesh-cycling-jersey-long-sleeve-full-dye-sublimation-500092/01.jpg",
     "imgHover": "/assets/images/notionworx-inventory/apparel/grs-spf-50-150gsm-mesh-cycling-jersey-long-sleeve-full-dye-sublimation-500092/01.jpg",
     "images": [
@@ -4263,6 +7444,9 @@ export const storefrontProducts = [
   },
   {
     "id": 81,
+    "sourceProductId": 8227672064135,
+    "sourceHandle": "grs-spf-50-150gsm-mesh-jersey-cycling-jerseys-full-dye-sublimation-500091",
+    "sourceSlug": "grs-spf-50-150gsm-mesh-jersey-cycling-jerseys-full-dye-sublimation-500091",
     "img": "/assets/images/notionworx-inventory/apparel/grs-spf-50-150gsm-mesh-jersey-cycling-jerseys-full-dye-sublimation-500091/01.jpg",
     "imgHover": "/assets/images/notionworx-inventory/apparel/grs-spf-50-150gsm-mesh-jersey-cycling-jerseys-full-dye-sublimation-500091/02.jpg",
     "images": [
@@ -4328,6 +7512,9 @@ export const storefrontProducts = [
   },
   {
     "id": 82,
+    "sourceProductId": 8227671965831,
+    "sourceHandle": "grs-spf-50-150gsm-mesh-jersey-long-sleeve-crew-neck-full-dye-sublimation-500078",
+    "sourceSlug": "grs-spf-50-150gsm-mesh-jersey-long-sleeve-crew-neck-full-dye-sublimation-500078",
     "img": "/assets/images/notionworx-inventory/apparel/grs-spf-50-150gsm-mesh-jersey-long-sleeve-crew-neck-full-dye-sublimation-500078/01.jpg",
     "imgHover": "/assets/images/notionworx-inventory/apparel/grs-spf-50-150gsm-mesh-jersey-long-sleeve-crew-neck-full-dye-sublimation-500078/01.jpg",
     "images": [
@@ -4385,6 +7572,9 @@ export const storefrontProducts = [
   },
   {
     "id": 83,
+    "sourceProductId": 8227671834759,
+    "sourceHandle": "grs-spf-50-150gsm-mesh-jersey-long-sleeve-hoodie-t-shirt-full-dye-sublimation-500081",
+    "sourceSlug": "grs-spf-50-150gsm-mesh-jersey-long-sleeve-hoodie-t-shirt-full-dye-sublimation-500081",
     "img": "/assets/images/notionworx-inventory/apparel/grs-spf-50-150gsm-mesh-jersey-long-sleeve-hoodie-t-shirt-full-dye-sublimation-500081/01.jpg",
     "imgHover": "/assets/images/notionworx-inventory/apparel/grs-spf-50-150gsm-mesh-jersey-long-sleeve-hoodie-t-shirt-full-dye-sublimation-500081/01.jpg",
     "images": [
@@ -4442,6 +7632,9 @@ export const storefrontProducts = [
   },
   {
     "id": 84,
+    "sourceProductId": 8227671736455,
+    "sourceHandle": "grs-spf-50-150gsm-mesh-jersey-long-sleeve-hoodie-t-shirt-full-dye-sublimation-500152",
+    "sourceSlug": "grs-spf-50-150gsm-mesh-jersey-long-sleeve-hoodie-t-shirt-full-dye-sublimation-500152",
     "img": "/assets/images/notionworx-inventory/apparel/grs-spf-50-150gsm-mesh-jersey-long-sleeve-hoodie-t-shirt-full-dye-sublimation-500152/01.jpg",
     "imgHover": "/assets/images/notionworx-inventory/apparel/grs-spf-50-150gsm-mesh-jersey-long-sleeve-hoodie-t-shirt-full-dye-sublimation-500152/01.jpg",
     "images": [
@@ -4499,6 +7692,9 @@ export const storefrontProducts = [
   },
   {
     "id": 85,
+    "sourceProductId": 8227671998599,
+    "sourceHandle": "grs-spf-50-150gsm-mesh-jersey-short-sleeve-crew-neck-full-dye-sublimation-500077",
+    "sourceSlug": "grs-spf-50-150gsm-mesh-jersey-short-sleeve-crew-neck-full-dye-sublimation-500077",
     "img": "/assets/images/notionworx-inventory/apparel/grs-spf-50-150gsm-mesh-jersey-short-sleeve-crew-neck-full-dye-sublimation-500077/01.jpg",
     "imgHover": "/assets/images/notionworx-inventory/apparel/grs-spf-50-150gsm-mesh-jersey-short-sleeve-crew-neck-full-dye-sublimation-500077/01.jpg",
     "images": [
@@ -4556,6 +7752,9 @@ export const storefrontProducts = [
   },
   {
     "id": 86,
+    "sourceProductId": 8227677339783,
+    "sourceHandle": "half-side-walls",
+    "sourceSlug": "half-side-walls",
     "img": "/assets/images/notionworx-inventory/10x15/half-side-walls/01.jpg",
     "imgHover": "/assets/images/notionworx-inventory/10x15/half-side-walls/01.jpg",
     "images": [
@@ -4592,6 +7791,293 @@ export const storefrontProducts = [
     "warrantyText": "Factory Warranty\n\nWe stand behind the quality of our products. Our warranty covers any factory defects or damage that occurs during shipping. However, please note that we do not cover damage resulting from extreme weather conditions, misuse, or any circumstances beyond our control.",
     "howToOrderHtml": "<ul>\n  <li>SKU ITEM #: 10-SW</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
     "howToOrderText": "- SKU ITEM #: 10-SW\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
+    "addOnGroups": [
+      {
+        "id": "accessories",
+        "kind": "accessory",
+        "title": "Accessories",
+        "selectionMode": "multiple",
+        "displayStyle": "grid",
+        "subgroups": [
+          {
+            "id": "table-cover",
+            "title": "Table Cover",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "table-cover-6ft-stretch-table-cover",
+                "kind": "accessory",
+                "title": "6ft Stretch Table Cover",
+                "hoverTitle": "6ft Stretch Table Cover",
+                "hoverDescription": "Table Cover · (+ $135.00)",
+                "price": {
+                  "surcharge": 135,
+                  "label": "(+ $135.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png"
+              },
+              {
+                "id": "table-cover-6ft-fitted-table-cover",
+                "kind": "accessory",
+                "title": "6ft Fitted Table Cover",
+                "hoverTitle": "6ft Fitted Table Cover",
+                "hoverDescription": "Table Cover · (+ $145.00)",
+                "price": {
+                  "surcharge": 145,
+                  "label": "(+ $145.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png"
+              },
+              {
+                "id": "table-cover-6ft-draped-table-cover",
+                "kind": "accessory",
+                "title": "6ft Draped Table Cover",
+                "hoverTitle": "6ft Draped Table Cover",
+                "hoverDescription": "Table Cover · (+ $145.00)",
+                "price": {
+                  "surcharge": 145,
+                  "label": "(+ $145.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp"
+              }
+            ]
+          },
+          {
+            "id": "feather-flags",
+            "title": "Feather Flags",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "feather-flags-9ft-mounted-flag-w-mounting-kit",
+                "kind": "accessory",
+                "title": "9ft Mounted Flag w/ Mounting Kit",
+                "hoverTitle": "9ft Mounted Flag w/ Mounting Kit",
+                "hoverDescription": "Feather Flags · (+ $150.00)",
+                "price": {
+                  "surcharge": 150,
+                  "label": "(+ $150.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png"
+              },
+              {
+                "id": "feather-flags-9ft-stand-alone-flag-w-cross-base",
+                "kind": "accessory",
+                "title": "9ft Stand Alone Flag w/ Cross Base",
+                "hoverTitle": "9ft Stand Alone Flag w/ Cross Base",
+                "hoverDescription": "Feather Flags · (+ $140.00)",
+                "price": {
+                  "surcharge": 140,
+                  "label": "(+ $140.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png"
+              },
+              {
+                "id": "feather-flags-12ft-stand-alone-flag-w-cross-base",
+                "kind": "accessory",
+                "title": "12ft Stand Alone Flag w/ Cross Base",
+                "hoverTitle": "12ft Stand Alone Flag w/ Cross Base",
+                "hoverDescription": "Feather Flags · (+ $150.00)",
+                "price": {
+                  "surcharge": 150,
+                  "label": "(+ $150.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png"
+              },
+              {
+                "id": "feather-flags-15ft-stand-alone-flag-w-cross-base",
+                "kind": "accessory",
+                "title": "15ft Stand Alone Flag w/ Cross Base",
+                "hoverTitle": "15ft Stand Alone Flag w/ Cross Base",
+                "hoverDescription": "Feather Flags · (+ $160.00)",
+                "price": {
+                  "surcharge": 160,
+                  "label": "(+ $160.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png"
+              }
+            ]
+          },
+          {
+            "id": "weighted-sandbags",
+            "title": "Weighted Sandbags",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "weighted-sandbags-4-pc-set",
+                "kind": "accessory",
+                "title": "4 Pc Set",
+                "hoverTitle": "4 Pc Set",
+                "hoverDescription": "Weighted Sandbags · (+ $100.00)",
+                "price": {
+                  "surcharge": 100,
+                  "label": "(+ $100.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "upgrades",
+        "kind": "upgrade",
+        "title": "Upgrades",
+        "selectionMode": "multiple",
+        "displayStyle": "grid",
+        "subgroups": [
+          {
+            "id": "vented-top",
+            "title": "Vented Top",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "vented-top-vent",
+                "kind": "upgrade",
+                "title": "Vent",
+                "hoverTitle": "Vent",
+                "hoverDescription": "Vented Top · (+ $50.00) · Conditional on source",
+                "price": {
+                  "surcharge": 50,
+                  "label": "(+ $50.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615335850375.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615335850375.png",
+                "metadata": {
+                  "conditional": "true",
+                  "hiddenByDefault": "true"
+                }
+              }
+            ],
+            "description": "Shown conditionally on the source site."
+          },
+          {
+            "id": "walls",
+            "title": "Walls",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "walls-back-wall",
+                "kind": "upgrade",
+                "title": "Back Wall",
+                "hoverTitle": "Back Wall",
+                "hoverDescription": "Walls · (+ $100.00) · Conditional on source",
+                "price": {
+                  "surcharge": 100,
+                  "label": "(+ $100.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615484089707.jpg",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615484089707.jpg",
+                "metadata": {
+                  "conditional": "true",
+                  "hiddenByDefault": "true"
+                }
+              },
+              {
+                "id": "walls-back-wall-half-side-walls",
+                "kind": "upgrade",
+                "title": "Back Wall & Half Side Walls",
+                "hoverTitle": "Back Wall & Half Side Walls",
+                "hoverDescription": "Walls · (+ $300.00) · Conditional on source",
+                "price": {
+                  "surcharge": 300,
+                  "label": "(+ $300.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615484641932.jpg",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615484641932.jpg",
+                "metadata": {
+                  "conditional": "true",
+                  "hiddenByDefault": "true"
+                }
+              },
+              {
+                "id": "walls-three-full-walls",
+                "kind": "upgrade",
+                "title": "Three Full Walls",
+                "hoverTitle": "Three Full Walls",
+                "hoverDescription": "Walls · (+ $400.00) · Conditional on source",
+                "price": {
+                  "surcharge": 400,
+                  "label": "(+ $400.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615485325022.jpg",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615485325022.jpg",
+                "metadata": {
+                  "conditional": "true",
+                  "hiddenByDefault": "true"
+                }
+              }
+            ],
+            "description": "Shown conditionally on the source site."
+          },
+          {
+            "id": "double-sided-walls",
+            "title": "Double-Sided Walls",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "double-sided-walls-double-sided-half-side-walls",
+                "kind": "upgrade",
+                "title": "Double Sided Half Side Walls",
+                "hoverTitle": "Double Sided Half Side Walls",
+                "hoverDescription": "Double-Sided Walls · (+ $150.00)",
+                "price": {
+                  "surcharge": 150,
+                  "label": "(+ $150.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1
+              }
+            ]
+          }
+        ],
+        "description": "Items marked conditional were hidden by default or gated by other source options."
+      }
+    ],
     "sku": "ITEM #: 10-SW",
     "reviewsText": "1 option",
     "soldLabel": "Available to order",
@@ -4600,6 +8086,9 @@ export const storefrontProducts = [
   },
   {
     "id": 87,
+    "sourceProductId": 8227683139719,
+    "sourceHandle": "half-wall-hardware",
+    "sourceSlug": "half-wall-hardware",
     "img": "/assets/images/notionworx-inventory/10x15/half-wall-hardware/01.webp",
     "imgHover": "/assets/images/notionworx-inventory/10x15/half-wall-hardware/01.webp",
     "images": [
@@ -4636,6 +8125,9 @@ export const storefrontProducts = [
   },
   {
     "id": 88,
+    "sourceProductId": 8288933380231,
+    "sourceHandle": "led-light-bars",
+    "sourceSlug": "led-light-bars",
     "img": "/assets/images/notionworx-inventory/accesories/led-light-bars/01.jpg",
     "imgHover": "/assets/images/notionworx-inventory/accesories/led-light-bars/02.jpg",
     "images": [
@@ -4688,6 +8180,9 @@ export const storefrontProducts = [
   },
   {
     "id": 89,
+    "sourceProductId": 8227679895687,
+    "sourceHandle": "long-sleeve-hoodie-t-shirt-full-dye-sublimation-500039",
+    "sourceSlug": "long-sleeve-hoodie-t-shirt-full-dye-sublimation-500039",
     "img": "/assets/images/notionworx-inventory/apparel/long-sleeve-hoodie-t-shirt-full-dye-sublimation-500039/01.webp",
     "imgHover": "/assets/images/notionworx-inventory/apparel/long-sleeve-hoodie-t-shirt-full-dye-sublimation-500039/01.webp",
     "images": [
@@ -4742,6 +8237,9 @@ export const storefrontProducts = [
   },
   {
     "id": 90,
+    "sourceProductId": 8227680387207,
+    "sourceHandle": "long-sleeve-jersey-v-neck-full-dye-sublimation",
+    "sourceSlug": "long-sleeve-jersey-v-neck-full-dye-sublimation",
     "img": "/assets/images/notionworx-inventory/apparel/long-sleeve-jersey-v-neck-full-dye-sublimation/01.jpg",
     "imgHover": "/assets/images/notionworx-inventory/apparel/long-sleeve-jersey-v-neck-full-dye-sublimation/02.jpg",
     "images": [
@@ -4808,6 +8306,9 @@ export const storefrontProducts = [
   },
   {
     "id": 91,
+    "sourceProductId": 8227680321671,
+    "sourceHandle": "long-sleeve-round-neck-full-dye-sublimation",
+    "sourceSlug": "long-sleeve-round-neck-full-dye-sublimation",
     "img": "/assets/images/notionworx-inventory/apparel/long-sleeve-round-neck-full-dye-sublimation/01.webp",
     "imgHover": "/assets/images/notionworx-inventory/apparel/long-sleeve-round-neck-full-dye-sublimation/02.jpg",
     "images": [
@@ -4868,6 +8369,9 @@ export const storefrontProducts = [
   },
   {
     "id": 92,
+    "sourceProductId": 8229364498567,
+    "sourceHandle": "pole-banner-set",
+    "sourceSlug": "pole-banner-set",
     "img": "/assets/images/notionworx-inventory/flags/pole-banner-set/01.jpg",
     "imgHover": "/assets/images/notionworx-inventory/flags/pole-banner-set/02.jpg",
     "images": [
@@ -4915,6 +8419,9 @@ export const storefrontProducts = [
   },
   {
     "id": 93,
+    "sourceProductId": 8428094652551,
+    "sourceHandle": "portable-power-station-300w",
+    "sourceSlug": "portable-power-station-300w",
     "img": "/assets/images/notionworx-inventory/accesories/portable-power-station-300w/01.jpg",
     "imgHover": "/assets/images/notionworx-inventory/accesories/portable-power-station-300w/02.jpg",
     "images": [
@@ -4964,6 +8471,9 @@ export const storefrontProducts = [
   },
   {
     "id": 94,
+    "sourceProductId": 8227670360199,
+    "sourceHandle": "premium-10-tent-top-square-banner",
+    "sourceSlug": "premium-10-tent-top-square-banner",
     "img": "/assets/images/notionworx-inventory/accesories/premium-10-tent-top-square-banner/01.jpg",
     "imgHover": "/assets/images/notionworx-inventory/accesories/premium-10-tent-top-square-banner/02.jpg",
     "images": [
@@ -5013,6 +8523,9 @@ export const storefrontProducts = [
   },
   {
     "id": 95,
+    "sourceProductId": 8227677798535,
+    "sourceHandle": "premium-10x10-custom-canopy-1-10",
+    "sourceSlug": "premium-10x10-custom-canopy-1-10",
     "img": "/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x10-custom-canopy-1-10/01.png",
     "imgHover": "/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x10-custom-canopy-1-10/02.png",
     "images": [
@@ -5091,6 +8604,301 @@ export const storefrontProducts = [
     "warrantyText": "Factory Warranty\n\n- We stand behind the quality of our products. Our warranty covers any factory defects or damage that occurs during shipping. However, please note that we do not cover damage resulting from extreme weather conditions, misuse, or any circumstances beyond our control.\n\n- Frame must be secured to the ground to prevent wind damage (failure to secure the tent voids the warranty)",
     "howToOrderHtml": "<ul>\n  <li>SKU ITEM #: 1-10</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
     "howToOrderText": "- SKU ITEM #: 1-10\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
+    "addOnGroups": [
+      {
+        "id": "accessories",
+        "kind": "accessory",
+        "title": "Accessories",
+        "selectionMode": "multiple",
+        "displayStyle": "grid",
+        "subgroups": [
+          {
+            "id": "table-cover",
+            "title": "Table Cover",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "table-cover-6ft-stretch-table-cover",
+                "kind": "accessory",
+                "title": "6ft Stretch Table Cover",
+                "hoverTitle": "6ft Stretch Table Cover",
+                "hoverDescription": "Table Cover · (+ $135.00)",
+                "price": {
+                  "surcharge": 135,
+                  "label": "(+ $135.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "table-cover-6ft-fitted-table-cover",
+                "kind": "accessory",
+                "title": "6ft Fitted Table Cover",
+                "hoverTitle": "6ft Fitted Table Cover",
+                "hoverDescription": "Table Cover · (+ $145.00)",
+                "price": {
+                  "surcharge": 145,
+                  "label": "(+ $145.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "table-cover-6ft-draped-table-cover",
+                "kind": "accessory",
+                "title": "6ft Draped Table Cover",
+                "hoverTitle": "6ft Draped Table Cover",
+                "hoverDescription": "Table Cover · (+ $145.00)",
+                "price": {
+                  "surcharge": 145,
+                  "label": "(+ $145.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              }
+            ]
+          },
+          {
+            "id": "feather-flags",
+            "title": "Feather Flags",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "feather-flags-9ft-mounted-flag-w-mounting-kit",
+                "kind": "accessory",
+                "title": "9ft Mounted Flag w/ Mounting Kit",
+                "hoverTitle": "9ft Mounted Flag w/ Mounting Kit",
+                "hoverDescription": "Feather Flags · (+ $150.00)",
+                "price": {
+                  "surcharge": 150,
+                  "label": "(+ $150.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "feather-flags-9ft-stand-alone-flag-w-cross-base",
+                "kind": "accessory",
+                "title": "9ft Stand Alone Flag w/ Cross Base",
+                "hoverTitle": "9ft Stand Alone Flag w/ Cross Base",
+                "hoverDescription": "Feather Flags · (+ $140.00)",
+                "price": {
+                  "surcharge": 140,
+                  "label": "(+ $140.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "feather-flags-12ft-stand-alone-flag-w-cross-base",
+                "kind": "accessory",
+                "title": "12ft Stand Alone Flag w/ Cross Base",
+                "hoverTitle": "12ft Stand Alone Flag w/ Cross Base",
+                "hoverDescription": "Feather Flags · (+ $150.00)",
+                "price": {
+                  "surcharge": 150,
+                  "label": "(+ $150.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "feather-flags-15ft-stand-alone-flag-w-cross-base",
+                "kind": "accessory",
+                "title": "15ft Stand Alone Flag w/ Cross Base",
+                "hoverTitle": "15ft Stand Alone Flag w/ Cross Base",
+                "hoverDescription": "Feather Flags · (+ $160.00)",
+                "price": {
+                  "surcharge": 160,
+                  "label": "(+ $160.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              }
+            ]
+          },
+          {
+            "id": "essentials",
+            "title": "Essentials",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "essentials-4-pc-set",
+                "kind": "accessory",
+                "title": "4 Pc Set",
+                "hoverTitle": "4 Pc Set",
+                "hoverDescription": "Essentials · (+ $100.00)",
+                "price": {
+                  "surcharge": 100,
+                  "label": "(+ $100.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "essentials-10ft-billboard",
+                "kind": "accessory",
+                "title": "10ft Billboard",
+                "hoverTitle": "10ft Billboard",
+                "hoverDescription": "Essentials · (+ $285.00)",
+                "price": {
+                  "surcharge": 285,
+                  "label": "(+ $285.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17631441723309.jpg",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17631441723309.jpg",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "essentials-10ft-counter-top-w-vinyl-banner",
+                "kind": "accessory",
+                "title": "10ft Counter Top w/ Vinyl Banner",
+                "hoverTitle": "10ft Counter Top w/ Vinyl Banner",
+                "hoverDescription": "Essentials · (+ $550.00)",
+                "price": {
+                  "surcharge": 550,
+                  "label": "(+ $550.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17631441821403.jpg",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17631441821403.jpg",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "essentials-led-lights",
+                "kind": "accessory",
+                "title": "LED Lights",
+                "hoverTitle": "LED Lights",
+                "hoverDescription": "Essentials · (+ $219.00)",
+                "price": {
+                  "surcharge": 219,
+                  "label": "(+ $219.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649549326671.jpg",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649549326671.jpg",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "essentials-10ft-awning",
+                "kind": "accessory",
+                "title": "10ft Awning",
+                "hoverTitle": "10ft Awning",
+                "hoverDescription": "Essentials · (+ $235.00)",
+                "price": {
+                  "surcharge": 235,
+                  "label": "(+ $235.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17667855253053.jpg",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17667855253053.jpg",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "upgrades",
+        "kind": "upgrade",
+        "title": "Upgrades",
+        "selectionMode": "single",
+        "displayStyle": "grid",
+        "subgroups": [
+          {
+            "id": "vented-top",
+            "title": "Vented Top",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "vented-top-vent",
+                "kind": "upgrade",
+                "title": "Vent",
+                "hoverTitle": "Vent",
+                "hoverDescription": "Vented Top · (+ $50.00)",
+                "price": {
+                  "surcharge": 50,
+                  "label": "(+ $50.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616168711705.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616168711705.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "sku": "ITEM #: 1-10",
     "reviewsText": "2 options",
     "soldLabel": "Available to order",
@@ -5099,6 +8907,9 @@ export const storefrontProducts = [
   },
   {
     "id": 96,
+    "sourceProductId": 8227677700231,
+    "sourceHandle": "premium-10x10-custom-canopy-1-10black",
+    "sourceSlug": "premium-10x10-custom-canopy-1-10black",
     "img": "/assets/images/notionworx-inventory/10x10/premium-10x10-custom-canopy-1-10black/01.png",
     "imgHover": "/assets/images/notionworx-inventory/10x10/premium-10x10-custom-canopy-1-10black/02.png",
     "images": [
@@ -5153,6 +8964,477 @@ export const storefrontProducts = [
     "warrantyText": "Factory Warranty\n\n- We stand behind the quality of our products. Our warranty covers any factory defects or damage that occurs during shipping. However, please note that we do not cover damage resulting from extreme weather conditions, misuse, or any circumstances beyond our control.\n\n- Frame must be secured to the ground to prevent wind damage (failure to secure the tent voids the warranty)",
     "howToOrderHtml": "<ul>\n  <li>SKU Item #: 1-10Black</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
     "howToOrderText": "- SKU Item #: 1-10Black\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
+    "addOnGroups": [
+      {
+        "id": "accessories",
+        "kind": "accessory",
+        "title": "Accessories",
+        "selectionMode": "multiple",
+        "displayStyle": "grid",
+        "subgroups": [
+          {
+            "id": "table-cover",
+            "title": "Table Cover",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "table-cover-6ft-stretch-table-cover",
+                "kind": "accessory",
+                "title": "6ft Stretch Table Cover",
+                "hoverTitle": "6ft Stretch Table Cover",
+                "hoverDescription": "Table Cover · (+ $135.00)",
+                "price": {
+                  "surcharge": 135,
+                  "label": "(+ $135.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "table-cover-6ft-fitted-table-cover",
+                "kind": "accessory",
+                "title": "6ft Fitted Table Cover",
+                "hoverTitle": "6ft Fitted Table Cover",
+                "hoverDescription": "Table Cover · (+ $145.00)",
+                "price": {
+                  "surcharge": 145,
+                  "label": "(+ $145.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "table-cover-6ft-draped-table-cover",
+                "kind": "accessory",
+                "title": "6ft Draped Table Cover",
+                "hoverTitle": "6ft Draped Table Cover",
+                "hoverDescription": "Table Cover · (+ $145.00)",
+                "price": {
+                  "surcharge": 145,
+                  "label": "(+ $145.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              }
+            ]
+          },
+          {
+            "id": "feather-flags",
+            "title": "Feather Flags",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "feather-flags-9ft-mounted-flag-w-mounting-kit",
+                "kind": "accessory",
+                "title": "9ft Mounted Flag w/ Mounting Kit",
+                "hoverTitle": "9ft Mounted Flag w/ Mounting Kit",
+                "hoverDescription": "Feather Flags · (+ $150.00)",
+                "price": {
+                  "surcharge": 150,
+                  "label": "(+ $150.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "feather-flags-9ft-stand-alone-flag-w-cross-base",
+                "kind": "accessory",
+                "title": "9ft Stand Alone Flag w/ Cross Base",
+                "hoverTitle": "9ft Stand Alone Flag w/ Cross Base",
+                "hoverDescription": "Feather Flags · (+ $140.00)",
+                "price": {
+                  "surcharge": 140,
+                  "label": "(+ $140.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "feather-flags-12ft-stand-alone-flag-w-cross-base",
+                "kind": "accessory",
+                "title": "12ft Stand Alone Flag w/ Cross Base",
+                "hoverTitle": "12ft Stand Alone Flag w/ Cross Base",
+                "hoverDescription": "Feather Flags · (+ $150.00)",
+                "price": {
+                  "surcharge": 150,
+                  "label": "(+ $150.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "feather-flags-15ft-stand-alone-flag-w-cross-base",
+                "kind": "accessory",
+                "title": "15ft Stand Alone Flag w/ Cross Base",
+                "hoverTitle": "15ft Stand Alone Flag w/ Cross Base",
+                "hoverDescription": "Feather Flags · (+ $160.00)",
+                "price": {
+                  "surcharge": 160,
+                  "label": "(+ $160.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              }
+            ]
+          },
+          {
+            "id": "essentials",
+            "title": "Essentials",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "essentials-4-pc-set",
+                "kind": "accessory",
+                "title": "4 Pc Set",
+                "hoverTitle": "4 Pc Set",
+                "hoverDescription": "Essentials · (+ $100.00)",
+                "price": {
+                  "surcharge": 100,
+                  "label": "(+ $100.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "essentials-10ft-billboard",
+                "kind": "accessory",
+                "title": "10ft Billboard",
+                "hoverTitle": "10ft Billboard",
+                "hoverDescription": "Essentials · (+ $285.00)",
+                "price": {
+                  "surcharge": 285,
+                  "label": "(+ $285.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17631441452098.jpg",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17631441452098.jpg",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "essentials-10ft-counter-top-w-vinyl-banner",
+                "kind": "accessory",
+                "title": "10ft Counter Top w/ Vinyl Banner",
+                "hoverTitle": "10ft Counter Top w/ Vinyl Banner",
+                "hoverDescription": "Essentials · (+ $550.00)",
+                "price": {
+                  "surcharge": 550,
+                  "label": "(+ $550.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17631441540987.jpg",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17631441540987.jpg",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "essentials-led-lights",
+                "kind": "accessory",
+                "title": "LED Lights",
+                "hoverTitle": "LED Lights ",
+                "hoverDescription": "Essentials · (+ $219.00)",
+                "price": {
+                  "surcharge": 219,
+                  "label": "(+ $219.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649546491299.jpg",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649546491299.jpg",
+                "metadata": {
+                  "sourceDisplayName": "LED Lights ",
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "essentials-10ft-awning",
+                "kind": "accessory",
+                "title": "10ft Awning",
+                "hoverTitle": "10ft Awning",
+                "hoverDescription": "Essentials · (+ $235.00)",
+                "price": {
+                  "surcharge": 235,
+                  "label": "(+ $235.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17667855089435.jpg",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17667855089435.jpg",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              }
+            ]
+          },
+          {
+            "id": "power-station",
+            "title": "Power Station",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "power-station-power-bank",
+                "kind": "accessory",
+                "title": "Power Bank",
+                "hoverTitle": "Power Bank",
+                "hoverDescription": "Power Station · (+ $135.00) · Conditional on source",
+                "price": {
+                  "surcharge": 135,
+                  "label": "(+ $135.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17720543340805.jpg",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17720543340805.jpg",
+                "metadata": {
+                  "sourceControlType": "image-swatches",
+                  "conditional": "true"
+                }
+              }
+            ],
+            "description": "Shown conditionally on the source site."
+          }
+        ],
+        "description": "Items marked conditional were hidden by default or gated by other source options."
+      },
+      {
+        "id": "upgrades",
+        "kind": "upgrade",
+        "title": "Upgrades",
+        "selectionMode": "multiple",
+        "displayStyle": "grid",
+        "subgroups": [
+          {
+            "id": "vented-top",
+            "title": "Vented Top",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "vented-top-vent",
+                "kind": "upgrade",
+                "title": "Vent",
+                "hoverTitle": "Vent",
+                "hoverDescription": "Vented Top · (+ $50.00)",
+                "price": {
+                  "surcharge": 50,
+                  "label": "(+ $50.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616168923263.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616168923263.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              }
+            ]
+          },
+          {
+            "id": "walls",
+            "title": "Walls",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "walls-back-wall",
+                "kind": "upgrade",
+                "title": "Back Wall",
+                "hoverTitle": "Back Wall",
+                "hoverDescription": "Walls · (+ $100.00)",
+                "price": {
+                  "surcharge": 100,
+                  "label": "(+ $100.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615484089707.jpg",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615484089707.jpg",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "walls-back-wall-half-side-walls",
+                "kind": "upgrade",
+                "title": "Back Wall & Half Side Walls",
+                "hoverTitle": "Back Wall & Half Side Walls",
+                "hoverDescription": "Walls · (+ $300.00)",
+                "price": {
+                  "surcharge": 300,
+                  "label": "(+ $300.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615484641932.jpg",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615484641932.jpg",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "walls-three-full-walls",
+                "kind": "upgrade",
+                "title": "Three Full Walls",
+                "hoverTitle": "Three Full Walls",
+                "hoverDescription": "Walls · (+ $400.00)",
+                "price": {
+                  "surcharge": 400,
+                  "label": "(+ $400.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615485325022.jpg",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615485325022.jpg",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              }
+            ]
+          },
+          {
+            "id": "double-sided-walls",
+            "title": "Double-Sided Walls",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "double-sided-walls-double-sided-back-wall",
+                "kind": "upgrade",
+                "title": "Double Sided Back Wall",
+                "hoverTitle": "Double Sided Back Wall",
+                "hoverDescription": "Double-Sided Walls · (+ $100.00) · Conditional on source",
+                "price": {
+                  "surcharge": 100,
+                  "label": "(+ $100.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "metadata": {
+                  "sourceControlType": "select",
+                  "conditional": "true"
+                }
+              },
+              {
+                "id": "double-sided-walls-double-sided-half-side-walls",
+                "kind": "upgrade",
+                "title": "Double Sided Half Side Walls",
+                "hoverTitle": "Double Sided Half Side Walls",
+                "hoverDescription": "Double-Sided Walls · (+ $150.00) · Conditional on source",
+                "price": {
+                  "surcharge": 150,
+                  "label": "(+ $150.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "metadata": {
+                  "sourceControlType": "select",
+                  "conditional": "true"
+                }
+              },
+              {
+                "id": "double-sided-walls-double-sided-back-half-side-walls",
+                "kind": "upgrade",
+                "title": "Double Sided Back & Half Side Walls",
+                "hoverTitle": "Double Sided Back & Half Side Walls",
+                "hoverDescription": "Double-Sided Walls · (+ $250.00) · Conditional on source",
+                "price": {
+                  "surcharge": 250,
+                  "label": "(+ $250.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "metadata": {
+                  "sourceControlType": "select",
+                  "conditional": "true"
+                }
+              },
+              {
+                "id": "double-sided-walls-double-sided-three-full-walls",
+                "kind": "upgrade",
+                "title": "Double Sided Three Full Walls",
+                "hoverTitle": "Double Sided Three Full Walls ",
+                "hoverDescription": "Double-Sided Walls · (+ $300.00) · Conditional on source",
+                "price": {
+                  "surcharge": 300,
+                  "label": "(+ $300.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "metadata": {
+                  "sourceDisplayName": "Double Sided Three Full Walls ",
+                  "sourceControlType": "select",
+                  "conditional": "true"
+                }
+              }
+            ],
+            "description": "Shown conditionally on the source site. Rendered as a dropdown on the source site."
+          }
+        ],
+        "description": "Items marked conditional were hidden by default or gated by other source options."
+      }
+    ],
     "sku": "Item #: 1-10Black",
     "reviewsText": "1 option",
     "soldLabel": "Available to order",
@@ -5161,6 +9443,9 @@ export const storefrontProducts = [
   },
   {
     "id": 97,
+    "sourceProductId": 8227677601927,
+    "sourceHandle": "premium-10x10-custom-canopy-1-10top",
+    "sourceSlug": "premium-10x10-custom-canopy-1-10top",
     "img": "/assets/images/notionworx-inventory/10x10/premium-10x10-custom-canopy-1-10top/01.jpg",
     "imgHover": "/assets/images/notionworx-inventory/10x10/premium-10x10-custom-canopy-1-10top/02.jpg",
     "images": [
@@ -5204,6 +9489,447 @@ export const storefrontProducts = [
     "warrantyText": "Factory Warranty\n\n- We stand behind the quality of our products. Our warranty covers any factory defects or damage that occurs during shipping. However, please note that we do not cover damage resulting from extreme weather conditions, misuse, or any circumstances beyond our control.",
     "howToOrderHtml": "<ul>\n  <li>SKU ITEM #: 1-10 TOP</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
     "howToOrderText": "- SKU ITEM #: 1-10 TOP\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
+    "addOnGroups": [
+      {
+        "id": "accessories",
+        "kind": "accessory",
+        "title": "Accessories",
+        "selectionMode": "multiple",
+        "displayStyle": "grid",
+        "subgroups": [
+          {
+            "id": "table-cover",
+            "title": "Table Cover",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "table-cover-6ft-stretch-table-cover",
+                "kind": "accessory",
+                "title": "6ft Stretch Table Cover",
+                "hoverTitle": "6ft Stretch Table Cover",
+                "hoverDescription": "Table Cover · (+ $135.00)",
+                "price": {
+                  "surcharge": 135,
+                  "label": "(+ $135.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "table-cover-6ft-fitted-table-cover",
+                "kind": "accessory",
+                "title": "6ft Fitted Table Cover",
+                "hoverTitle": "6ft Fitted Table Cover",
+                "hoverDescription": "Table Cover · (+ $145.00)",
+                "price": {
+                  "surcharge": 145,
+                  "label": "(+ $145.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "table-cover-6ft-draped-table-cover",
+                "kind": "accessory",
+                "title": "6ft Draped Table Cover",
+                "hoverTitle": "6ft Draped Table Cover",
+                "hoverDescription": "Table Cover · (+ $145.00)",
+                "price": {
+                  "surcharge": 145,
+                  "label": "(+ $145.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              }
+            ]
+          },
+          {
+            "id": "feather-flags",
+            "title": "Feather Flags",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "feather-flags-9ft-mounted-flag-w-mounting-kit",
+                "kind": "accessory",
+                "title": "9ft Mounted Flag w/ Mounting Kit",
+                "hoverTitle": "9ft Mounted Flag w/ Mounting Kit",
+                "hoverDescription": "Feather Flags · (+ $150.00)",
+                "price": {
+                  "surcharge": 150,
+                  "label": "(+ $150.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "feather-flags-9ft-stand-alone-flag-w-cross-base",
+                "kind": "accessory",
+                "title": "9ft Stand Alone Flag w/ Cross Base",
+                "hoverTitle": "9ft Stand Alone Flag w/ Cross Base",
+                "hoverDescription": "Feather Flags · (+ $140.00)",
+                "price": {
+                  "surcharge": 140,
+                  "label": "(+ $140.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "feather-flags-12ft-stand-alone-flag-w-cross-base",
+                "kind": "accessory",
+                "title": "12ft Stand Alone Flag w/ Cross Base",
+                "hoverTitle": "12ft Stand Alone Flag w/ Cross Base",
+                "hoverDescription": "Feather Flags · (+ $150.00)",
+                "price": {
+                  "surcharge": 150,
+                  "label": "(+ $150.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "feather-flags-15ft-stand-alone-flag-w-cross-base",
+                "kind": "accessory",
+                "title": "15ft Stand Alone Flag w/ Cross Base",
+                "hoverTitle": "15ft Stand Alone Flag w/ Cross Base",
+                "hoverDescription": "Feather Flags · (+ $160.00)",
+                "price": {
+                  "surcharge": 160,
+                  "label": "(+ $160.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              }
+            ]
+          },
+          {
+            "id": "essentials",
+            "title": "Essentials",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "essentials-4-pc-set",
+                "kind": "accessory",
+                "title": "4 Pc Set",
+                "hoverTitle": "4 Pc Set",
+                "hoverDescription": "Essentials · (+ $100.00)",
+                "price": {
+                  "surcharge": 100,
+                  "label": "(+ $100.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "essentials-10ft-billboard",
+                "kind": "accessory",
+                "title": "10ft Billboard",
+                "hoverTitle": "10ft Billboard",
+                "hoverDescription": "Essentials · (+ $285.00)",
+                "price": {
+                  "surcharge": 285,
+                  "label": "(+ $285.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17631443032464.jpg",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17631443032464.jpg",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "essentials-10ft-counter-top-w-vinyl-banner",
+                "kind": "accessory",
+                "title": "10ft Counter Top w/ Vinyl Banner",
+                "hoverTitle": "10ft Counter Top w/ Vinyl Banner",
+                "hoverDescription": "Essentials · (+ $550.00)",
+                "price": {
+                  "surcharge": 550,
+                  "label": "(+ $550.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17631443116222.jpg",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17631443116222.jpg",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "essentials-led-lights",
+                "kind": "accessory",
+                "title": "LED Lights",
+                "hoverTitle": "LED Lights",
+                "hoverDescription": "Essentials · (+ $219.00)",
+                "price": {
+                  "surcharge": 219,
+                  "label": "(+ $219.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649550636786.jpg",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649550636786.jpg",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "essentials-10ft-awning",
+                "kind": "accessory",
+                "title": "10ft Awning",
+                "hoverTitle": "10ft Awning",
+                "hoverDescription": "Essentials · (+ $235.00)",
+                "price": {
+                  "surcharge": 235,
+                  "label": "(+ $235.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17667856019450.jpg",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17667856019450.jpg",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "upgrades",
+        "kind": "upgrade",
+        "title": "Upgrades",
+        "selectionMode": "multiple",
+        "displayStyle": "grid",
+        "subgroups": [
+          {
+            "id": "vented-top",
+            "title": "Vented Top",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "vented-top-vent",
+                "kind": "upgrade",
+                "title": "Vent",
+                "hoverTitle": "Vent",
+                "hoverDescription": "Vented Top · (+ $50.00)",
+                "price": {
+                  "surcharge": 50,
+                  "label": "(+ $50.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616167750747.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616167750747.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              }
+            ]
+          },
+          {
+            "id": "walls",
+            "title": "Walls",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "walls-back-wall",
+                "kind": "upgrade",
+                "title": "Back Wall",
+                "hoverTitle": "Back Wall",
+                "hoverDescription": "Walls · (+ $100.00)",
+                "price": {
+                  "surcharge": 100,
+                  "label": "(+ $100.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615484089707.jpg",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615484089707.jpg",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "walls-back-wall-half-side-walls",
+                "kind": "upgrade",
+                "title": "Back Wall & Half Side Walls",
+                "hoverTitle": "Back Wall & Half Side Walls",
+                "hoverDescription": "Walls · (+ $300.00)",
+                "price": {
+                  "surcharge": 300,
+                  "label": "(+ $300.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615484641932.jpg",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615484641932.jpg",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "walls-three-full-walls",
+                "kind": "upgrade",
+                "title": "Three Full Walls",
+                "hoverTitle": "Three Full Walls",
+                "hoverDescription": "Walls · (+ $400.00)",
+                "price": {
+                  "surcharge": 400,
+                  "label": "(+ $400.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615485325022.jpg",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615485325022.jpg",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              }
+            ]
+          },
+          {
+            "id": "double-sided-walls",
+            "title": "Double-Sided Walls",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "double-sided-walls-double-sided-back-wall",
+                "kind": "upgrade",
+                "title": "Double Sided Back Wall",
+                "hoverTitle": "Double Sided Back Wall",
+                "hoverDescription": "Double-Sided Walls · (+ $100.00) · Conditional on source",
+                "price": {
+                  "surcharge": 100,
+                  "label": "(+ $100.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "metadata": {
+                  "sourceControlType": "select",
+                  "conditional": "true"
+                }
+              },
+              {
+                "id": "double-sided-walls-double-sided-half-side-wall",
+                "kind": "upgrade",
+                "title": "Double Sided Half Side Wall",
+                "hoverTitle": "Double Sided Half Side Wall",
+                "hoverDescription": "Double-Sided Walls · (+ $150.00) · Conditional on source",
+                "price": {
+                  "surcharge": 150,
+                  "label": "(+ $150.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "metadata": {
+                  "sourceControlType": "select",
+                  "conditional": "true"
+                }
+              },
+              {
+                "id": "double-sided-walls-double-sided-back-half-side-walls",
+                "kind": "upgrade",
+                "title": "Double Sided Back & Half Side Walls",
+                "hoverTitle": "Double Sided Back & Half Side Walls",
+                "hoverDescription": "Double-Sided Walls · (+ $250.00) · Conditional on source",
+                "price": {
+                  "surcharge": 250,
+                  "label": "(+ $250.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "metadata": {
+                  "sourceControlType": "select",
+                  "conditional": "true"
+                }
+              },
+              {
+                "id": "double-sided-walls-double-sided-three-full-walls",
+                "kind": "upgrade",
+                "title": "Double Sided Three Full Walls",
+                "hoverTitle": "Double Sided Three Full Walls ",
+                "hoverDescription": "Double-Sided Walls · (+ $300.00) · Conditional on source",
+                "price": {
+                  "surcharge": 300,
+                  "label": "(+ $300.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "metadata": {
+                  "sourceDisplayName": "Double Sided Three Full Walls ",
+                  "sourceControlType": "select",
+                  "conditional": "true"
+                }
+              }
+            ],
+            "description": "Shown conditionally on the source site. Rendered as a dropdown on the source site."
+          }
+        ],
+        "description": "Items marked conditional were hidden by default or gated by other source options."
+      }
+    ],
     "sku": "ITEM #: 1-10 TOP",
     "reviewsText": "1 option",
     "soldLabel": "Available to order",
@@ -5212,6 +9938,9 @@ export const storefrontProducts = [
   },
   {
     "id": 98,
+    "sourceProductId": 8227673079943,
+    "sourceHandle": "premium-10x10-custom-canopy-2-10",
+    "sourceSlug": "premium-10x10-custom-canopy-2-10",
     "img": "/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x10-custom-canopy-2-10/01.png",
     "imgHover": "/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x10-custom-canopy-2-10/02.png",
     "images": [
@@ -5287,6 +10016,328 @@ export const storefrontProducts = [
     "warrantyText": "Factory Warranty\n\n- We stand behind the quality of our products. Our warranty covers any factory defects or damage that occurs during shipping. However, please note that we do not cover damage resulting from extreme weather conditions, misuse, or any circumstances beyond our control.\n\n- Frame must be secured to the ground to prevent wind damage (failure to secure the tent voids the warranty)",
     "howToOrderHtml": "<ul>\n  <li>SKU ITEM #: 2-10</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
     "howToOrderText": "- SKU ITEM #: 2-10\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
+    "addOnGroups": [
+      {
+        "id": "accessories",
+        "kind": "accessory",
+        "title": "Accessories",
+        "selectionMode": "multiple",
+        "displayStyle": "grid",
+        "subgroups": [
+          {
+            "id": "table-cover",
+            "title": "Table Cover",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "table-cover-6ft-stretch-table-cover",
+                "kind": "accessory",
+                "title": "6ft Stretch Table Cover",
+                "hoverTitle": "6ft Stretch Table Cover",
+                "hoverDescription": "Table Cover · (+ $135.00)",
+                "price": {
+                  "surcharge": 135,
+                  "label": "(+ $135.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "table-cover-6ft-fitted-table-cover",
+                "kind": "accessory",
+                "title": "6ft Fitted Table Cover",
+                "hoverTitle": "6ft Fitted Table Cover",
+                "hoverDescription": "Table Cover · (+ $145.00)",
+                "price": {
+                  "surcharge": 145,
+                  "label": "(+ $145.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "table-cover-6ft-draped-table-cover",
+                "kind": "accessory",
+                "title": "6ft Draped Table Cover",
+                "hoverTitle": "6ft Draped Table Cover",
+                "hoverDescription": "Table Cover · (+ $145.00)",
+                "price": {
+                  "surcharge": 145,
+                  "label": "(+ $145.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              }
+            ]
+          },
+          {
+            "id": "feather-flags",
+            "title": "Feather Flags",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "feather-flags-9ft-mounted-flag-w-mounting-kit",
+                "kind": "accessory",
+                "title": "9ft Mounted Flag w/ Mounting Kit",
+                "hoverTitle": "9ft Mounted Flag w/ Mounting Kit",
+                "hoverDescription": "Feather Flags · (+ $150.00)",
+                "price": {
+                  "surcharge": 150,
+                  "label": "(+ $150.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "feather-flags-9ft-stand-alone-flag-w-cross-base",
+                "kind": "accessory",
+                "title": "9ft Stand Alone Flag w/ Cross Base",
+                "hoverTitle": "9ft Stand Alone Flag w/ Cross Base",
+                "hoverDescription": "Feather Flags · (+ $140.00)",
+                "price": {
+                  "surcharge": 140,
+                  "label": "(+ $140.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "feather-flags-12ft-stand-alone-flag-w-cross-base",
+                "kind": "accessory",
+                "title": "12ft Stand Alone Flag w/ Cross Base",
+                "hoverTitle": "12ft Stand Alone Flag w/ Cross Base",
+                "hoverDescription": "Feather Flags · (+ $150.00)",
+                "price": {
+                  "surcharge": 150,
+                  "label": "(+ $150.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "feather-flags-15ft-stand-alone-flag-w-cross-base",
+                "kind": "accessory",
+                "title": "15ft Stand Alone Flag w/ Cross Base",
+                "hoverTitle": "15ft Stand Alone Flag w/ Cross Base",
+                "hoverDescription": "Feather Flags · (+ $160.00)",
+                "price": {
+                  "surcharge": 160,
+                  "label": "(+ $160.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              }
+            ]
+          },
+          {
+            "id": "essentials",
+            "title": "Essentials",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "essentials-4-pc-set",
+                "kind": "accessory",
+                "title": "4 Pc Set",
+                "hoverTitle": "4 Pc Set",
+                "hoverDescription": "Essentials · (+ $100.00)",
+                "price": {
+                  "surcharge": 100,
+                  "label": "(+ $100.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "essentials-10ft-billboard",
+                "kind": "accessory",
+                "title": "10ft Billboard",
+                "hoverTitle": "10ft Billboard",
+                "hoverDescription": "Essentials · (+ $285.00)",
+                "price": {
+                  "surcharge": 285,
+                  "label": "(+ $285.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17631442017048.jpg",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17631442017048.jpg",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "essentials-10ft-counter-top-w-vinyl-banner",
+                "kind": "accessory",
+                "title": "10ft Counter Top w/ Vinyl Banner",
+                "hoverTitle": "10ft Counter Top w/ Vinyl Banner",
+                "hoverDescription": "Essentials · (+ $550.00)",
+                "price": {
+                  "surcharge": 550,
+                  "label": "(+ $550.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17631442087389.jpg",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17631442087389.jpg",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "essentials-led-lights",
+                "kind": "accessory",
+                "title": "LED Lights",
+                "hoverTitle": "LED Lights ",
+                "hoverDescription": "Essentials · (+ $219.00)",
+                "price": {
+                  "surcharge": 219,
+                  "label": "(+ $219.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649549611408.jpg",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649549611408.jpg",
+                "metadata": {
+                  "sourceDisplayName": "LED Lights ",
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "essentials-10ft-awning",
+                "kind": "accessory",
+                "title": "10ft Awning",
+                "hoverTitle": "10ft Awning",
+                "hoverDescription": "Essentials · (+ $235.00)",
+                "price": {
+                  "surcharge": 235,
+                  "label": "(+ $235.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17667855406175.jpg",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17667855406175.jpg",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "upgrades",
+        "kind": "upgrade",
+        "title": "Upgrades",
+        "selectionMode": "multiple",
+        "displayStyle": "grid",
+        "subgroups": [
+          {
+            "id": "vented-top",
+            "title": "Vented Top",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "vented-top-vent",
+                "kind": "upgrade",
+                "title": "Vent",
+                "hoverTitle": "Vent",
+                "hoverDescription": "Vented Top · (+ $50.00)",
+                "price": {
+                  "surcharge": 50,
+                  "label": "(+ $50.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616168500094.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616168500094.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              }
+            ]
+          },
+          {
+            "id": "double-sided-walls",
+            "title": "Double-Sided Walls",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "double-sided-walls-double-sided-back-wall",
+                "kind": "upgrade",
+                "title": "Double Sided Back Wall",
+                "hoverTitle": "Double Sided Back Wall",
+                "hoverDescription": "Double-Sided Walls · (+ $100.00)",
+                "price": {
+                  "surcharge": 100,
+                  "label": "(+ $100.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "metadata": {
+                  "sourceControlType": "select"
+                }
+              }
+            ],
+            "description": "Rendered as a dropdown on the source site."
+          }
+        ],
+        "description": "Items marked conditional were hidden by default or gated by other source options."
+      }
+    ],
     "sku": "ITEM #: 2-10",
     "reviewsText": "2 options",
     "soldLabel": "Available to order",
@@ -5295,6 +10346,9 @@ export const storefrontProducts = [
   },
   {
     "id": 99,
+    "sourceProductId": 8227673112711,
+    "sourceHandle": "premium-10x10-custom-canopy-3-10",
+    "sourceSlug": "premium-10x10-custom-canopy-3-10",
     "img": "/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x10-custom-canopy-3-10/01.png",
     "imgHover": "/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x10-custom-canopy-3-10/02.png",
     "images": [
@@ -5367,6 +10421,361 @@ export const storefrontProducts = [
     "warrantyText": "Factory Warranty\n\n- We stand behind the quality of our products. Our warranty covers any factory defects or damage that occurs during shipping. However, please note that we do not cover damage resulting from extreme weather conditions, misuse, or any circumstances beyond our control.\n\n- Frame must be secured to the ground to prevent wind damage (failure to secure the tent voids the warranty)",
     "howToOrderHtml": "<ul>\n  <li>SKU ITEM #: 3-10</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
     "howToOrderText": "- SKU ITEM #: 3-10\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
+    "addOnGroups": [
+      {
+        "id": "accessories",
+        "kind": "accessory",
+        "title": "Accessories",
+        "selectionMode": "multiple",
+        "displayStyle": "grid",
+        "subgroups": [
+          {
+            "id": "table-cover",
+            "title": "Table Cover",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "table-cover-6ft-stretch-table-cover",
+                "kind": "accessory",
+                "title": "6ft Stretch Table Cover",
+                "hoverTitle": "6ft Stretch Table Cover",
+                "hoverDescription": "Table Cover · (+ $135.00)",
+                "price": {
+                  "surcharge": 135,
+                  "label": "(+ $135.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "table-cover-6ft-fitted-table-cover",
+                "kind": "accessory",
+                "title": "6ft Fitted Table Cover",
+                "hoverTitle": "6ft Fitted Table Cover",
+                "hoverDescription": "Table Cover · (+ $145.00)",
+                "price": {
+                  "surcharge": 145,
+                  "label": "(+ $145.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "table-cover-6ft-draped-table-cover",
+                "kind": "accessory",
+                "title": "6ft Draped Table Cover",
+                "hoverTitle": "6ft Draped Table Cover",
+                "hoverDescription": "Table Cover · (+ $145.00)",
+                "price": {
+                  "surcharge": 145,
+                  "label": "(+ $145.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              }
+            ]
+          },
+          {
+            "id": "feather-flags",
+            "title": "Feather Flags",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "feather-flags-9ft-mounted-flag-w-mounting-kit",
+                "kind": "accessory",
+                "title": "9ft Mounted Flag w/ Mounting Kit",
+                "hoverTitle": "9ft Mounted Flag w/ Mounting Kit",
+                "hoverDescription": "Feather Flags · (+ $150.00)",
+                "price": {
+                  "surcharge": 150,
+                  "label": "(+ $150.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "feather-flags-9ft-stand-alone-flag-w-cross-base",
+                "kind": "accessory",
+                "title": "9ft Stand Alone Flag w/ Cross Base",
+                "hoverTitle": "9ft Stand Alone Flag w/ Cross Base",
+                "hoverDescription": "Feather Flags · (+ $140.00)",
+                "price": {
+                  "surcharge": 140,
+                  "label": "(+ $140.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "feather-flags-12ft-stand-alone-flag-w-cross-base",
+                "kind": "accessory",
+                "title": "12ft Stand Alone Flag w/ Cross Base",
+                "hoverTitle": "12ft Stand Alone Flag w/ Cross Base",
+                "hoverDescription": "Feather Flags · (+ $150.00)",
+                "price": {
+                  "surcharge": 150,
+                  "label": "(+ $150.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "feather-flags-15ft-stand-alone-flag-w-cross-base",
+                "kind": "accessory",
+                "title": "15ft Stand Alone Flag w/ Cross Base",
+                "hoverTitle": "15ft Stand Alone Flag w/ Cross Base",
+                "hoverDescription": "Feather Flags · (+ $160.00)",
+                "price": {
+                  "surcharge": 160,
+                  "label": "(+ $160.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              }
+            ]
+          },
+          {
+            "id": "essentials",
+            "title": "Essentials",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "essentials-4-pc-set",
+                "kind": "accessory",
+                "title": "4 Pc Set",
+                "hoverTitle": "4 Pc Set",
+                "hoverDescription": "Essentials · (+ $100.00)",
+                "price": {
+                  "surcharge": 100,
+                  "label": "(+ $100.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "essentials-10ft-billboard",
+                "kind": "accessory",
+                "title": "10ft Billboard",
+                "hoverTitle": "10ft Billboard",
+                "hoverDescription": "Essentials · (+ $285.00)",
+                "price": {
+                  "surcharge": 285,
+                  "label": "(+ $285.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17631442421098.jpg",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17631442421098.jpg",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "essentials-10ft-counter-top-w-vinyl-banner",
+                "kind": "accessory",
+                "title": "10ft Counter Top w/ Vinyl Banner",
+                "hoverTitle": "10ft Counter Top w/ Vinyl Banner",
+                "hoverDescription": "Essentials · (+ $550.00)",
+                "price": {
+                  "surcharge": 550,
+                  "label": "(+ $550.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17631442502721.jpg",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17631442502721.jpg",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "essentials-led-lights",
+                "kind": "accessory",
+                "title": "LED Lights",
+                "hoverTitle": "LED Lights",
+                "hoverDescription": "Essentials · (+ $219.00)",
+                "price": {
+                  "surcharge": 219,
+                  "label": "(+ $219.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649549854766.jpg",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649549854766.jpg",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "essentials-10ft-awning",
+                "kind": "accessory",
+                "title": "10ft Awning",
+                "hoverTitle": "10ft Awning",
+                "hoverDescription": "Essentials · (+ $235.00)",
+                "price": {
+                  "surcharge": 235,
+                  "label": "(+ $235.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17667855553088.jpg",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17667855553088.jpg",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "upgrades",
+        "kind": "upgrade",
+        "title": "Upgrades",
+        "selectionMode": "multiple",
+        "displayStyle": "grid",
+        "subgroups": [
+          {
+            "id": "vented-top",
+            "title": "Vented Top",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "vented-top-vent",
+                "kind": "upgrade",
+                "title": "Vent",
+                "hoverTitle": "Vent",
+                "hoverDescription": "Vented Top · (+ $50.00)",
+                "price": {
+                  "surcharge": 50,
+                  "label": "(+ $50.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616168217885.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616168217885.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              }
+            ]
+          },
+          {
+            "id": "double-sided-walls",
+            "title": "Double-Sided Walls",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "double-sided-walls-double-sided-back-wall",
+                "kind": "upgrade",
+                "title": "Double Sided Back Wall",
+                "hoverTitle": "Double Sided Back Wall",
+                "hoverDescription": "Double-Sided Walls · (+ $100.00)",
+                "price": {
+                  "surcharge": 100,
+                  "label": "(+ $100.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "metadata": {
+                  "sourceControlType": "select"
+                }
+              },
+              {
+                "id": "double-sided-walls-double-sided-half-side-walls",
+                "kind": "upgrade",
+                "title": "Double Sided Half Side Walls",
+                "hoverTitle": "Double Sided Half Side Walls",
+                "hoverDescription": "Double-Sided Walls · (+ $150.00)",
+                "price": {
+                  "surcharge": 150,
+                  "label": "(+ $150.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "metadata": {
+                  "sourceControlType": "select"
+                }
+              },
+              {
+                "id": "double-sided-walls-double-sided-back-half-side-walls",
+                "kind": "upgrade",
+                "title": "Double Sided Back & Half Side Walls",
+                "hoverTitle": "Double Sided Back & Half Side Walls",
+                "hoverDescription": "Double-Sided Walls · (+ $250.00)",
+                "price": {
+                  "surcharge": 250,
+                  "label": "(+ $250.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "metadata": {
+                  "sourceControlType": "select"
+                }
+              }
+            ],
+            "description": "Rendered as a dropdown on the source site."
+          }
+        ],
+        "description": "Items marked conditional were hidden by default or gated by other source options."
+      }
+    ],
     "sku": "ITEM #: 3-10",
     "reviewsText": "2 options",
     "soldLabel": "Available to order",
@@ -5375,6 +10784,9 @@ export const storefrontProducts = [
   },
   {
     "id": 100,
+    "sourceProductId": 8227673047175,
+    "sourceHandle": "premium-10x10-custom-canopy-4-10",
+    "sourceSlug": "premium-10x10-custom-canopy-4-10",
     "img": "/assets/images/notionworx-inventory/10x10/premium-10x10-custom-canopy-4-10/01.png",
     "imgHover": "/assets/images/notionworx-inventory/10x10/premium-10x10-custom-canopy-4-10/02.png",
     "images": [
@@ -5446,6 +10858,362 @@ export const storefrontProducts = [
     "warrantyText": "Factory Warranty\n\n- We stand behind the quality of our products. Our warranty covers any factory defects or damage that occurs during shipping. However, please note that we do not cover damage resulting from extreme weather conditions, misuse, or any circumstances beyond our control.\n\n- Frame must be secured to the ground to prevent wind damage (failure to secure the tent voids the warranty)",
     "howToOrderHtml": "<ul>\n  <li>SKU Item #: 4-10</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
     "howToOrderText": "- SKU Item #: 4-10\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
+    "addOnGroups": [
+      {
+        "id": "accessories",
+        "kind": "accessory",
+        "title": "Accessories",
+        "selectionMode": "multiple",
+        "displayStyle": "grid",
+        "subgroups": [
+          {
+            "id": "table-cover",
+            "title": "Table Cover",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "table-cover-6ft-stretch-table-cover",
+                "kind": "accessory",
+                "title": "6ft Stretch Table Cover",
+                "hoverTitle": "6ft Stretch Table Cover",
+                "hoverDescription": "Table Cover · (+ $135.00)",
+                "price": {
+                  "surcharge": 135,
+                  "label": "(+ $135.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "table-cover-6ft-fitted-table-cover",
+                "kind": "accessory",
+                "title": "6ft Fitted Table Cover",
+                "hoverTitle": "6ft Fitted Table Cover",
+                "hoverDescription": "Table Cover · (+ $145.00)",
+                "price": {
+                  "surcharge": 145,
+                  "label": "(+ $145.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "table-cover-6ft-draped-table-cover",
+                "kind": "accessory",
+                "title": "6ft Draped Table Cover",
+                "hoverTitle": "6ft Draped Table Cover",
+                "hoverDescription": "Table Cover · (+ $145.00)",
+                "price": {
+                  "surcharge": 145,
+                  "label": "(+ $145.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              }
+            ]
+          },
+          {
+            "id": "feather-flags",
+            "title": "Feather Flags",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "feather-flags-9ft-mounted-flag-w-mounting-kit",
+                "kind": "accessory",
+                "title": "9ft Mounted Flag w/ Mounting Kit",
+                "hoverTitle": "9ft Mounted Flag w/ Mounting Kit",
+                "hoverDescription": "Feather Flags · (+ $150.00)",
+                "price": {
+                  "surcharge": 150,
+                  "label": "(+ $150.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "feather-flags-9ft-stand-alone-flag-w-cross-base",
+                "kind": "accessory",
+                "title": "9ft Stand Alone Flag w/ Cross Base",
+                "hoverTitle": "9ft Stand Alone Flag w/ Cross Base",
+                "hoverDescription": "Feather Flags · (+ $140.00)",
+                "price": {
+                  "surcharge": 140,
+                  "label": "(+ $140.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "feather-flags-12ft-stand-alone-flag-w-cross-base",
+                "kind": "accessory",
+                "title": "12ft Stand Alone Flag w/ Cross Base",
+                "hoverTitle": "12ft Stand Alone Flag w/ Cross Base",
+                "hoverDescription": "Feather Flags · (+ $150.00)",
+                "price": {
+                  "surcharge": 150,
+                  "label": "(+ $150.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "feather-flags-15ft-stand-alone-flag-w-cross-base",
+                "kind": "accessory",
+                "title": "15ft Stand Alone Flag w/ Cross Base",
+                "hoverTitle": "15ft Stand Alone Flag w/ Cross Base",
+                "hoverDescription": "Feather Flags · (+ $160.00)",
+                "price": {
+                  "surcharge": 160,
+                  "label": "(+ $160.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              }
+            ]
+          },
+          {
+            "id": "essentials",
+            "title": "Essentials",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "essentials-4-pc-set",
+                "kind": "accessory",
+                "title": "4 Pc Set",
+                "hoverTitle": "4 Pc Set",
+                "hoverDescription": "Essentials · (+ $100.00)",
+                "price": {
+                  "surcharge": 100,
+                  "label": "(+ $100.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "essentials-10ft-billboard",
+                "kind": "accessory",
+                "title": "10ft Billboard",
+                "hoverTitle": "10ft Billboard",
+                "hoverDescription": "Essentials · (+ $285.00)",
+                "price": {
+                  "surcharge": 285,
+                  "label": "(+ $285.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17631442673445.jpg",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17631442673445.jpg",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "essentials-10ft-counter-top-w-vinyl-banner",
+                "kind": "accessory",
+                "title": "10ft Counter Top w/ Vinyl Banner",
+                "hoverTitle": "10ft Counter Top w/ Vinyl Banner",
+                "hoverDescription": "Essentials · (+ $550.00)",
+                "price": {
+                  "surcharge": 550,
+                  "label": "(+ $550.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17631442757958.jpg",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17631442757958.jpg",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "essentials-led-lights",
+                "kind": "accessory",
+                "title": "LED Lights",
+                "hoverTitle": "LED Lights",
+                "hoverDescription": "Essentials · (+ $219.00)",
+                "price": {
+                  "surcharge": 219,
+                  "label": "(+ $219.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649550386107.jpg",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649550386107.jpg",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "essentials-10ft-awning",
+                "kind": "accessory",
+                "title": "10ft Awning",
+                "hoverTitle": "10ft Awning",
+                "hoverDescription": "Essentials · (+ $235.00)",
+                "price": {
+                  "surcharge": 235,
+                  "label": "(+ $235.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17667855822904.jpg",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17667855822904.jpg",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "upgrades",
+        "kind": "upgrade",
+        "title": "Upgrades",
+        "selectionMode": "multiple",
+        "displayStyle": "grid",
+        "subgroups": [
+          {
+            "id": "vented-top",
+            "title": "Vented Top",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "vented-top-vent",
+                "kind": "upgrade",
+                "title": "Vent",
+                "hoverTitle": "Vent",
+                "hoverDescription": "Vented Top · (+ $50.00)",
+                "price": {
+                  "surcharge": 50,
+                  "label": "(+ $50.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616167930581.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616167930581.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              }
+            ]
+          },
+          {
+            "id": "double-sided-walls",
+            "title": "Double-Sided Walls",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "double-sided-walls-double-sided-back-wall",
+                "kind": "upgrade",
+                "title": "Double Sided Back Wall",
+                "hoverTitle": "Double Sided Back Wall",
+                "hoverDescription": "Double-Sided Walls · (+ $100.00)",
+                "price": {
+                  "surcharge": 100,
+                  "label": "(+ $100.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "metadata": {
+                  "sourceControlType": "select"
+                }
+              },
+              {
+                "id": "double-sided-walls-double-sided-full-side-walls",
+                "kind": "upgrade",
+                "title": "Double Sided Full Side Walls",
+                "hoverTitle": "Double Sided Full Side Walls",
+                "hoverDescription": "Double-Sided Walls · (+ $200.00)",
+                "price": {
+                  "surcharge": 200,
+                  "label": "(+ $200.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "metadata": {
+                  "sourceControlType": "select"
+                }
+              },
+              {
+                "id": "double-sided-walls-double-sided-three-full-walls",
+                "kind": "upgrade",
+                "title": "Double Sided Three Full Walls",
+                "hoverTitle": "Double Sided Three Full Walls ",
+                "hoverDescription": "Double-Sided Walls · (+ $300.00)",
+                "price": {
+                  "surcharge": 300,
+                  "label": "(+ $300.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "metadata": {
+                  "sourceDisplayName": "Double Sided Three Full Walls ",
+                  "sourceControlType": "select"
+                }
+              }
+            ],
+            "description": "Rendered as a dropdown on the source site."
+          }
+        ],
+        "description": "Items marked conditional were hidden by default or gated by other source options."
+      }
+    ],
     "sku": "Item #: 4-10",
     "reviewsText": "2 options",
     "soldLabel": "Available to order",
@@ -5454,6 +11222,9 @@ export const storefrontProducts = [
   },
   {
     "id": 101,
+    "sourceProductId": 8227681828999,
+    "sourceHandle": "premium-10x15-custom-canopy-tent-05-15black",
+    "sourceSlug": "premium-10x15-custom-canopy-tent-05-15black",
     "img": "/assets/images/notionworx-inventory/10x15/premium-10x15-custom-canopy-tent-05-15black/01.png",
     "imgHover": "/assets/images/notionworx-inventory/10x15/premium-10x15-custom-canopy-tent-05-15black/02.png",
     "images": [
@@ -5499,6 +11270,365 @@ export const storefrontProducts = [
     "warrantyText": "Factory Warranty\n\n- We stand behind the quality of our products. Our warranty covers any factory defects or damage that occurs during shipping. However, please note that we do not cover damage resulting from extreme weather conditions, misuse, or any circumstances beyond our control.\n\n- Frame must be secured to the ground to prevent wind damage (failure to secure the tent voids the warranty)",
     "howToOrderHtml": "<ul>\n  <li>SKU ITEM #: 5-15B</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
     "howToOrderText": "- SKU ITEM #: 5-15B\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
+    "addOnGroups": [
+      {
+        "id": "accessories",
+        "kind": "accessory",
+        "title": "Accessories",
+        "selectionMode": "multiple",
+        "displayStyle": "grid",
+        "subgroups": [
+          {
+            "id": "table-cover",
+            "title": "Table Cover",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "table-cover-6ft-stretch-table-cover",
+                "kind": "accessory",
+                "title": "6ft Stretch Table Cover",
+                "hoverTitle": "6ft Stretch Table Cover",
+                "hoverDescription": "Table Cover · (+ $135.00)",
+                "price": {
+                  "surcharge": 135,
+                  "label": "(+ $135.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "table-cover-6ft-fitted-table-cover",
+                "kind": "accessory",
+                "title": "6ft Fitted Table Cover",
+                "hoverTitle": "6ft Fitted Table Cover",
+                "hoverDescription": "Table Cover · (+ $145.00)",
+                "price": {
+                  "surcharge": 145,
+                  "label": "(+ $145.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "table-cover-6ft-draped-table-cover",
+                "kind": "accessory",
+                "title": "6ft Draped Table Cover",
+                "hoverTitle": "6ft Draped Table Cover",
+                "hoverDescription": "Table Cover · (+ $145.00)",
+                "price": {
+                  "surcharge": 145,
+                  "label": "(+ $145.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              }
+            ]
+          },
+          {
+            "id": "feather-flags",
+            "title": "Feather Flags",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "feather-flags-9ft-mounted-flag-w-mounting-kit",
+                "kind": "accessory",
+                "title": "9ft Mounted Flag w/ Mounting Kit",
+                "hoverTitle": "9ft Mounted Flag w/ Mounting Kit",
+                "hoverDescription": "Feather Flags · (+ $150.00)",
+                "price": {
+                  "surcharge": 150,
+                  "label": "(+ $150.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "feather-flags-9ft-stand-alone-flag-w-cross-base",
+                "kind": "accessory",
+                "title": "9ft Stand Alone Flag w/ Cross Base",
+                "hoverTitle": "9ft Stand Alone Flag w/ Cross Base",
+                "hoverDescription": "Feather Flags · (+ $140.00)",
+                "price": {
+                  "surcharge": 140,
+                  "label": "(+ $140.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "feather-flags-12ft-stand-alone-flag-w-cross-base",
+                "kind": "accessory",
+                "title": "12ft Stand Alone Flag w/ Cross Base",
+                "hoverTitle": "12ft Stand Alone Flag w/ Cross Base",
+                "hoverDescription": "Feather Flags · (+ $150.00)",
+                "price": {
+                  "surcharge": 150,
+                  "label": "(+ $150.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "feather-flags-15ft-stand-alone-flag-w-cross-base",
+                "kind": "accessory",
+                "title": "15ft Stand Alone Flag w/ Cross Base",
+                "hoverTitle": "15ft Stand Alone Flag w/ Cross Base",
+                "hoverDescription": "Feather Flags · (+ $160.00)",
+                "price": {
+                  "surcharge": 160,
+                  "label": "(+ $160.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              }
+            ]
+          },
+          {
+            "id": "essentials",
+            "title": "Essentials ",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "essentials-4-pc-set",
+                "kind": "accessory",
+                "title": "4 Pc Set",
+                "hoverTitle": "4 Pc Set",
+                "hoverDescription": "Essentials  · (+ $100.00)",
+                "price": {
+                  "surcharge": 100,
+                  "label": "(+ $100.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "essentials-led-lights",
+                "kind": "accessory",
+                "title": "LED Lights",
+                "hoverTitle": "LED Lights",
+                "hoverDescription": "Essentials  · (+ $219.00)",
+                "price": {
+                  "surcharge": 219,
+                  "label": "(+ $219.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649551263796.jpg",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649551263796.jpg",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "upgrades",
+        "kind": "upgrade",
+        "title": "Upgrades",
+        "selectionMode": "multiple",
+        "displayStyle": "grid",
+        "subgroups": [
+          {
+            "id": "walls",
+            "title": "Walls",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "walls-15ft-back-wall",
+                "kind": "upgrade",
+                "title": "15ft Back Wall",
+                "hoverTitle": "15ft Back Wall",
+                "hoverDescription": "Walls · (+ $200.00)",
+                "price": {
+                  "surcharge": 200,
+                  "label": "(+ $200.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616313236087.jpg",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616313236087.jpg",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "walls-15ft-back-wall-half-side-walls",
+                "kind": "upgrade",
+                "title": "15ft Back Wall & Half Side Walls",
+                "hoverTitle": "15ft Back Wall & Half Side Walls ",
+                "hoverDescription": "Walls · (+ $300.00)",
+                "price": {
+                  "surcharge": 300,
+                  "label": "(+ $300.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616314079234.jpg",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616314079234.jpg",
+                "metadata": {
+                  "sourceDisplayName": "15ft Back Wall & Half Side Walls ",
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "walls-15ft-three-full-walls",
+                "kind": "upgrade",
+                "title": "15ft Three Full Walls",
+                "hoverTitle": "15ft Three Full Walls",
+                "hoverDescription": "Walls · (+ $400.00)",
+                "price": {
+                  "surcharge": 400,
+                  "label": "(+ $400.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616314939467.jpg",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616314939467.jpg",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              }
+            ]
+          },
+          {
+            "id": "15ft-double-sided-walls",
+            "title": "15ft Double Sided Walls",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "15ft-double-sided-walls-double-sided-15ft-back-wall",
+                "kind": "upgrade",
+                "title": "Double Sided 15ft Back Wall",
+                "hoverTitle": "Double Sided 15ft Back Wall ",
+                "hoverDescription": "15ft Double Sided Walls · (+ $130.00) · Conditional on source",
+                "price": {
+                  "surcharge": 130,
+                  "label": "(+ $130.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "metadata": {
+                  "sourceDisplayName": "Double Sided 15ft Back Wall ",
+                  "sourceControlType": "select",
+                  "conditional": "true"
+                }
+              },
+              {
+                "id": "15ft-double-sided-walls-double-sided-half-side-walls",
+                "kind": "upgrade",
+                "title": "Double Sided Half Side Walls",
+                "hoverTitle": "Double Sided Half Side Walls",
+                "hoverDescription": "15ft Double Sided Walls · (+ $150.00) · Conditional on source",
+                "price": {
+                  "surcharge": 150,
+                  "label": "(+ $150.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "metadata": {
+                  "sourceControlType": "select",
+                  "conditional": "true"
+                }
+              },
+              {
+                "id": "15ft-double-sided-walls-double-sided-15ft-back-wall-side-walls",
+                "kind": "upgrade",
+                "title": "Double Sided 15Ft Back Wall & Side Walls",
+                "hoverTitle": "Double Sided 15Ft Back Wall & Side Walls",
+                "hoverDescription": "15ft Double Sided Walls · (+ $280.00) · Conditional on source",
+                "price": {
+                  "surcharge": 280,
+                  "label": "(+ $280.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "metadata": {
+                  "sourceControlType": "select",
+                  "conditional": "true"
+                }
+              },
+              {
+                "id": "15ft-double-sided-walls-double-sided-15ft-three-full-walls",
+                "kind": "upgrade",
+                "title": "Double Sided 15Ft Three Full walls",
+                "hoverTitle": "Double Sided 15Ft Three Full walls",
+                "hoverDescription": "15ft Double Sided Walls · (+ $330.00) · Conditional on source",
+                "price": {
+                  "surcharge": 330,
+                  "label": "(+ $330.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "metadata": {
+                  "sourceControlType": "select",
+                  "conditional": "true"
+                }
+              }
+            ],
+            "description": "Shown conditionally on the source site. Rendered as a dropdown on the source site."
+          }
+        ],
+        "description": "Items marked conditional were hidden by default or gated by other source options."
+      }
+    ],
     "sku": "ITEM #: 5-15B",
     "reviewsText": "1 option",
     "soldLabel": "Available to order",
@@ -5507,6 +11637,9 @@ export const storefrontProducts = [
   },
   {
     "id": 102,
+    "sourceProductId": 8227677667463,
+    "sourceHandle": "premium-10x15-custom-canopy-tent-5-15",
+    "sourceSlug": "premium-10x15-custom-canopy-tent-5-15",
     "img": "/assets/images/notionworx-inventory/10x15/premium-10x15-custom-canopy-tent-5-15/01.png",
     "imgHover": "/assets/images/notionworx-inventory/10x15/premium-10x15-custom-canopy-tent-5-15/02.png",
     "images": [
@@ -5561,6 +11694,244 @@ export const storefrontProducts = [
     "warrantyText": "Factory Warranty\n\n- We stand behind the quality of our products. Our warranty covers any factory defects or damage that occurs during shipping. However, please note that we do not cover damage resulting from extreme weather conditions, misuse, or any circumstances beyond our control.\n\n- Frame must be secured to the ground to prevent wind damage (failure to secure the tent voids the warranty)",
     "howToOrderHtml": "<ul>\n  <li>SKU ITEM #: 5-15</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
     "howToOrderText": "- SKU ITEM #: 5-15\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
+    "addOnGroups": [
+      {
+        "id": "accessories",
+        "kind": "accessory",
+        "title": "Accessories",
+        "selectionMode": "multiple",
+        "displayStyle": "grid",
+        "subgroups": [
+          {
+            "id": "table-cover",
+            "title": "Table Cover",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "table-cover-6ft-stretch-table-cover",
+                "kind": "accessory",
+                "title": "6ft Stretch Table Cover",
+                "hoverTitle": "6ft Stretch Table Cover",
+                "hoverDescription": "Table Cover · (+ $135.00)",
+                "price": {
+                  "surcharge": 135,
+                  "label": "(+ $135.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "table-cover-6ft-fitted-table-cover",
+                "kind": "accessory",
+                "title": "6ft Fitted Table Cover",
+                "hoverTitle": "6ft Fitted Table Cover",
+                "hoverDescription": "Table Cover · (+ $145.00)",
+                "price": {
+                  "surcharge": 145,
+                  "label": "(+ $145.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "table-cover-6ft-draped-table-cover",
+                "kind": "accessory",
+                "title": "6ft Draped Table Cover",
+                "hoverTitle": "6ft Draped Table Cover",
+                "hoverDescription": "Table Cover · (+ $145.00)",
+                "price": {
+                  "surcharge": 145,
+                  "label": "(+ $145.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              }
+            ]
+          },
+          {
+            "id": "feather-flags",
+            "title": "Feather Flags",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "feather-flags-9ft-mounted-flag-w-mounting-kit",
+                "kind": "accessory",
+                "title": "9ft Mounted Flag w/ Mounting Kit",
+                "hoverTitle": "9ft Mounted Flag w/ Mounting Kit",
+                "hoverDescription": "Feather Flags · (+ $150.00)",
+                "price": {
+                  "surcharge": 150,
+                  "label": "(+ $150.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "feather-flags-9ft-stand-alone-flag-w-cross-base",
+                "kind": "accessory",
+                "title": "9ft Stand Alone Flag w/ Cross Base",
+                "hoverTitle": "9ft Stand Alone Flag w/ Cross Base",
+                "hoverDescription": "Feather Flags · (+ $140.00)",
+                "price": {
+                  "surcharge": 140,
+                  "label": "(+ $140.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "feather-flags-12ft-stand-alone-flag-w-cross-base",
+                "kind": "accessory",
+                "title": "12ft Stand Alone Flag w/ Cross Base",
+                "hoverTitle": "12ft Stand Alone Flag w/ Cross Base",
+                "hoverDescription": "Feather Flags · (+ $150.00)",
+                "price": {
+                  "surcharge": 150,
+                  "label": "(+ $150.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "feather-flags-15ft-stand-alone-flag-w-cross-base",
+                "kind": "accessory",
+                "title": "15ft Stand Alone Flag w/ Cross Base",
+                "hoverTitle": "15ft Stand Alone Flag w/ Cross Base",
+                "hoverDescription": "Feather Flags · (+ $160.00)",
+                "price": {
+                  "surcharge": 160,
+                  "label": "(+ $160.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              }
+            ]
+          },
+          {
+            "id": "essentials",
+            "title": "Essentials ",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "essentials-4-pc-set",
+                "kind": "accessory",
+                "title": "4 Pc Set",
+                "hoverTitle": "4 Pc Set",
+                "hoverDescription": "Essentials  · (+ $100.00)",
+                "price": {
+                  "surcharge": 100,
+                  "label": "(+ $100.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "essentials-led-lights",
+                "kind": "accessory",
+                "title": "LED Lights",
+                "hoverTitle": "LED Lights",
+                "hoverDescription": "Essentials  · (+ $219.00)",
+                "price": {
+                  "surcharge": 219,
+                  "label": "(+ $219.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649551021882.jpg",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649551021882.jpg",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "upgrades",
+        "kind": "upgrade",
+        "title": "Upgrades",
+        "selectionMode": "single",
+        "displayStyle": "grid",
+        "subgroups": [
+          {
+            "id": "vented-top",
+            "title": "Vented Top",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "vented-top-vent",
+                "kind": "upgrade",
+                "title": "Vent",
+                "hoverTitle": "Vent",
+                "hoverDescription": "Vented Top · (+ $50.00)",
+                "price": {
+                  "surcharge": 50,
+                  "label": "(+ $50.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616168711705.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616168711705.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "sku": "ITEM #: 5-15",
     "reviewsText": "1 option",
     "soldLabel": "Available to order",
@@ -5569,6 +11940,9 @@ export const storefrontProducts = [
   },
   {
     "id": 103,
+    "sourceProductId": 8227677569159,
+    "sourceHandle": "premium-10x15-custom-canopy-tent-5-15top",
+    "sourceSlug": "premium-10x15-custom-canopy-tent-5-15top",
     "img": "/assets/images/notionworx-inventory/10x15/premium-10x15-custom-canopy-tent-5-15top/01.jpg",
     "imgHover": "/assets/images/notionworx-inventory/10x15/premium-10x15-custom-canopy-tent-5-15top/02.jpg",
     "images": [
@@ -5612,6 +11986,365 @@ export const storefrontProducts = [
     "warrantyText": "Factory Warranty\n\n- We stand behind the quality of our products. Our warranty covers any factory defects or damage that occurs during shipping. However, please note that we do not cover damage resulting from extreme weather conditions, misuse, or any circumstances beyond our control.",
     "howToOrderHtml": "<ul>\n  <li>SKU ITEM #: 5-15 TOP</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
     "howToOrderText": "- SKU ITEM #: 5-15 TOP\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
+    "addOnGroups": [
+      {
+        "id": "accessories",
+        "kind": "accessory",
+        "title": "Accessories",
+        "selectionMode": "multiple",
+        "displayStyle": "grid",
+        "subgroups": [
+          {
+            "id": "table-cover",
+            "title": "Table Cover",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "table-cover-6ft-stretch-table-cover",
+                "kind": "accessory",
+                "title": "6ft Stretch Table Cover",
+                "hoverTitle": "6ft Stretch Table Cover",
+                "hoverDescription": "Table Cover · (+ $135.00)",
+                "price": {
+                  "surcharge": 135,
+                  "label": "(+ $135.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "table-cover-6ft-fitted-table-cover",
+                "kind": "accessory",
+                "title": "6ft Fitted Table Cover",
+                "hoverTitle": "6ft Fitted Table Cover",
+                "hoverDescription": "Table Cover · (+ $145.00)",
+                "price": {
+                  "surcharge": 145,
+                  "label": "(+ $145.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "table-cover-6ft-draped-table-cover",
+                "kind": "accessory",
+                "title": "6ft Draped Table Cover",
+                "hoverTitle": "6ft Draped Table Cover",
+                "hoverDescription": "Table Cover · (+ $145.00)",
+                "price": {
+                  "surcharge": 145,
+                  "label": "(+ $145.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              }
+            ]
+          },
+          {
+            "id": "feather-flags",
+            "title": "Feather Flags",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "feather-flags-9ft-mounted-flag-w-mounting-kit",
+                "kind": "accessory",
+                "title": "9ft Mounted Flag w/ Mounting Kit",
+                "hoverTitle": "9ft Mounted Flag w/ Mounting Kit",
+                "hoverDescription": "Feather Flags · (+ $150.00)",
+                "price": {
+                  "surcharge": 150,
+                  "label": "(+ $150.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "feather-flags-9ft-stand-alone-flag-w-cross-base",
+                "kind": "accessory",
+                "title": "9ft Stand Alone Flag w/ Cross Base",
+                "hoverTitle": "9ft Stand Alone Flag w/ Cross Base",
+                "hoverDescription": "Feather Flags · (+ $140.00)",
+                "price": {
+                  "surcharge": 140,
+                  "label": "(+ $140.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "feather-flags-12ft-stand-alone-flag-w-cross-base",
+                "kind": "accessory",
+                "title": "12ft Stand Alone Flag w/ Cross Base",
+                "hoverTitle": "12ft Stand Alone Flag w/ Cross Base",
+                "hoverDescription": "Feather Flags · (+ $150.00)",
+                "price": {
+                  "surcharge": 150,
+                  "label": "(+ $150.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "feather-flags-15ft-stand-alone-flag-w-cross-base",
+                "kind": "accessory",
+                "title": "15ft Stand Alone Flag w/ Cross Base",
+                "hoverTitle": "15ft Stand Alone Flag w/ Cross Base",
+                "hoverDescription": "Feather Flags · (+ $160.00)",
+                "price": {
+                  "surcharge": 160,
+                  "label": "(+ $160.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              }
+            ]
+          },
+          {
+            "id": "essentials",
+            "title": "Essentials ",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "essentials-4-pc-set",
+                "kind": "accessory",
+                "title": "4 Pc Set",
+                "hoverTitle": "4 Pc Set",
+                "hoverDescription": "Essentials  · (+ $100.00)",
+                "price": {
+                  "surcharge": 100,
+                  "label": "(+ $100.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "essentials-led-lights",
+                "kind": "accessory",
+                "title": "LED Lights",
+                "hoverTitle": "LED Lights",
+                "hoverDescription": "Essentials  · (+ $219.00)",
+                "price": {
+                  "surcharge": 219,
+                  "label": "(+ $219.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649553507975.jpg",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649553507975.jpg",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "upgrades",
+        "kind": "upgrade",
+        "title": "Upgrades",
+        "selectionMode": "multiple",
+        "displayStyle": "grid",
+        "subgroups": [
+          {
+            "id": "walls",
+            "title": "Walls",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "walls-15ft-back-wall",
+                "kind": "upgrade",
+                "title": "15ft Back Wall",
+                "hoverTitle": "15ft Back Wall",
+                "hoverDescription": "Walls · (+ $200.00)",
+                "price": {
+                  "surcharge": 200,
+                  "label": "(+ $200.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616313236087.jpg",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616313236087.jpg",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "walls-15ft-back-wall-half-side-walls",
+                "kind": "upgrade",
+                "title": "15ft Back Wall & Half Side Walls",
+                "hoverTitle": "15ft Back Wall & Half Side Walls ",
+                "hoverDescription": "Walls · (+ $300.00)",
+                "price": {
+                  "surcharge": 300,
+                  "label": "(+ $300.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616314079234.jpg",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616314079234.jpg",
+                "metadata": {
+                  "sourceDisplayName": "15ft Back Wall & Half Side Walls ",
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "walls-15ft-three-full-walls",
+                "kind": "upgrade",
+                "title": "15ft Three Full Walls",
+                "hoverTitle": "15ft Three Full Walls",
+                "hoverDescription": "Walls · (+ $400.00)",
+                "price": {
+                  "surcharge": 400,
+                  "label": "(+ $400.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616314939467.jpg",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616314939467.jpg",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              }
+            ]
+          },
+          {
+            "id": "15ft-double-sided-walls",
+            "title": "15ft Double Sided Walls",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "15ft-double-sided-walls-double-sided-15ft-back-wall",
+                "kind": "upgrade",
+                "title": "Double Sided 15ft Back Wall",
+                "hoverTitle": "Double Sided 15ft Back Wall ",
+                "hoverDescription": "15ft Double Sided Walls · (+ $130.00) · Conditional on source",
+                "price": {
+                  "surcharge": 130,
+                  "label": "(+ $130.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "metadata": {
+                  "sourceDisplayName": "Double Sided 15ft Back Wall ",
+                  "sourceControlType": "select",
+                  "conditional": "true"
+                }
+              },
+              {
+                "id": "15ft-double-sided-walls-double-sided-half-side-walls",
+                "kind": "upgrade",
+                "title": "Double Sided Half Side Walls",
+                "hoverTitle": "Double Sided Half Side Walls",
+                "hoverDescription": "15ft Double Sided Walls · (+ $150.00) · Conditional on source",
+                "price": {
+                  "surcharge": 150,
+                  "label": "(+ $150.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "metadata": {
+                  "sourceControlType": "select",
+                  "conditional": "true"
+                }
+              },
+              {
+                "id": "15ft-double-sided-walls-double-sided-15ft-back-wall-side-walls",
+                "kind": "upgrade",
+                "title": "Double Sided 15Ft Back Wall & Side Walls",
+                "hoverTitle": "Double Sided 15Ft Back Wall & Side Walls",
+                "hoverDescription": "15ft Double Sided Walls · (+ $280.00) · Conditional on source",
+                "price": {
+                  "surcharge": 280,
+                  "label": "(+ $280.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "metadata": {
+                  "sourceControlType": "select",
+                  "conditional": "true"
+                }
+              },
+              {
+                "id": "15ft-double-sided-walls-double-sided-15ft-three-full-walls",
+                "kind": "upgrade",
+                "title": "Double Sided 15Ft Three Full walls",
+                "hoverTitle": "Double Sided 15Ft Three Full walls",
+                "hoverDescription": "15ft Double Sided Walls · (+ $330.00) · Conditional on source",
+                "price": {
+                  "surcharge": 330,
+                  "label": "(+ $330.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "metadata": {
+                  "sourceControlType": "select",
+                  "conditional": "true"
+                }
+              }
+            ],
+            "description": "Shown conditionally on the source site. Rendered as a dropdown on the source site."
+          }
+        ],
+        "description": "Items marked conditional were hidden by default or gated by other source options."
+      }
+    ],
     "sku": "ITEM #: 5-15 TOP",
     "reviewsText": "1 option",
     "soldLabel": "Available to order",
@@ -5620,6 +12353,9 @@ export const storefrontProducts = [
   },
   {
     "id": 104,
+    "sourceProductId": 8227672752263,
+    "sourceHandle": "premium-10x15-custom-canopy-tent-6-15",
+    "sourceSlug": "premium-10x15-custom-canopy-tent-6-15",
     "img": "/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x15-custom-canopy-tent-6-15/01.png",
     "imgHover": "/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x15-custom-canopy-tent-6-15/02.png",
     "images": [
@@ -5684,6 +12420,244 @@ export const storefrontProducts = [
     "warrantyText": "Factory Warranty\n\n- We stand behind the quality of our products. Our warranty covers any factory defects or damage that occurs during shipping. However, please note that we do not cover damage resulting from extreme weather conditions, misuse, or any circumstances beyond our control.\n\n- Frame must be secured to the ground to prevent wind damage (failure to secure the tent voids the warranty)",
     "howToOrderHtml": "<ul>\n  <li>SKU ITEM #: 6-15</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
     "howToOrderText": "- SKU ITEM #: 6-15\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
+    "addOnGroups": [
+      {
+        "id": "accessories",
+        "kind": "accessory",
+        "title": "Accessories",
+        "selectionMode": "multiple",
+        "displayStyle": "grid",
+        "subgroups": [
+          {
+            "id": "table-cover",
+            "title": "Table Cover",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "table-cover-6ft-stretch-table-cover",
+                "kind": "accessory",
+                "title": "6ft Stretch Table Cover",
+                "hoverTitle": "6ft Stretch Table Cover",
+                "hoverDescription": "Table Cover · (+ $135.00)",
+                "price": {
+                  "surcharge": 135,
+                  "label": "(+ $135.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "table-cover-6ft-fitted-table-cover",
+                "kind": "accessory",
+                "title": "6ft Fitted Table Cover",
+                "hoverTitle": "6ft Fitted Table Cover",
+                "hoverDescription": "Table Cover · (+ $145.00)",
+                "price": {
+                  "surcharge": 145,
+                  "label": "(+ $145.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "table-cover-6ft-draped-table-cover",
+                "kind": "accessory",
+                "title": "6ft Draped Table Cover",
+                "hoverTitle": "6ft Draped Table Cover",
+                "hoverDescription": "Table Cover · (+ $145.00)",
+                "price": {
+                  "surcharge": 145,
+                  "label": "(+ $145.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              }
+            ]
+          },
+          {
+            "id": "feather-flags",
+            "title": "Feather Flags",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "feather-flags-9ft-mounted-flag-w-mounting-kit",
+                "kind": "accessory",
+                "title": "9ft Mounted Flag w/ Mounting Kit",
+                "hoverTitle": "9ft Mounted Flag w/ Mounting Kit",
+                "hoverDescription": "Feather Flags · (+ $150.00)",
+                "price": {
+                  "surcharge": 150,
+                  "label": "(+ $150.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "feather-flags-9ft-stand-alone-flag-w-cross-base",
+                "kind": "accessory",
+                "title": "9ft Stand Alone Flag w/ Cross Base",
+                "hoverTitle": "9ft Stand Alone Flag w/ Cross Base",
+                "hoverDescription": "Feather Flags · (+ $140.00)",
+                "price": {
+                  "surcharge": 140,
+                  "label": "(+ $140.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "feather-flags-12ft-stand-alone-flag-w-cross-base",
+                "kind": "accessory",
+                "title": "12ft Stand Alone Flag w/ Cross Base",
+                "hoverTitle": "12ft Stand Alone Flag w/ Cross Base",
+                "hoverDescription": "Feather Flags · (+ $150.00)",
+                "price": {
+                  "surcharge": 150,
+                  "label": "(+ $150.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "feather-flags-15ft-stand-alone-flag-w-cross-base",
+                "kind": "accessory",
+                "title": "15ft Stand Alone Flag w/ Cross Base",
+                "hoverTitle": "15ft Stand Alone Flag w/ Cross Base",
+                "hoverDescription": "Feather Flags · (+ $160.00)",
+                "price": {
+                  "surcharge": 160,
+                  "label": "(+ $160.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              }
+            ]
+          },
+          {
+            "id": "essentials",
+            "title": "Essentials ",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "essentials-4-pc-set",
+                "kind": "accessory",
+                "title": "4 Pc Set",
+                "hoverTitle": "4 Pc Set",
+                "hoverDescription": "Essentials  · (+ $100.00)",
+                "price": {
+                  "surcharge": 100,
+                  "label": "(+ $100.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "essentials-led-lights",
+                "kind": "accessory",
+                "title": "LED Lights",
+                "hoverTitle": "LED Lights",
+                "hoverDescription": "Essentials  · (+ $219.00)",
+                "price": {
+                  "surcharge": 219,
+                  "label": "(+ $219.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649551442752.jpg",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649551442752.jpg",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "upgrades",
+        "kind": "upgrade",
+        "title": "Upgrades",
+        "selectionMode": "single",
+        "displayStyle": "grid",
+        "subgroups": [
+          {
+            "id": "double-sided-walls",
+            "title": "Double Sided Walls",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "double-sided-walls-double-sided-15ft-back-wall",
+                "kind": "upgrade",
+                "title": "Double Sided 15ft Back Wall",
+                "hoverTitle": "Double Sided 15ft Back Wall",
+                "hoverDescription": "Double Sided Walls · (+ $130.00)",
+                "price": {
+                  "surcharge": 130,
+                  "label": "(+ $130.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "metadata": {
+                  "sourceControlType": "select"
+                }
+              }
+            ],
+            "description": "Rendered as a dropdown on the source site."
+          }
+        ],
+        "description": "Items marked conditional were hidden by default or gated by other source options."
+      }
+    ],
     "sku": "ITEM #: 6-15",
     "reviewsText": "1 option",
     "soldLabel": "Available to order",
@@ -5692,6 +12666,9 @@ export const storefrontProducts = [
   },
   {
     "id": 105,
+    "sourceProductId": 8227672817799,
+    "sourceHandle": "premium-10x15-custom-canopy-tent-7-15",
+    "sourceSlug": "premium-10x15-custom-canopy-tent-7-15",
     "img": "/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x15-custom-canopy-tent-7-15/01.png",
     "imgHover": "/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x15-custom-canopy-tent-7-15/02.png",
     "images": [
@@ -5756,6 +12733,278 @@ export const storefrontProducts = [
     "warrantyText": "Factory Warranty\n\n- We stand behind the quality of our products. Our warranty covers any factory defects or damage that occurs during shipping. However, please note that we do not cover damage resulting from extreme weather conditions, misuse, or any circumstances beyond our control.\n\n- Frame must be secured to the ground to prevent wind damage (failure to secure the tent voids the warranty)",
     "howToOrderHtml": "<ul>\n  <li>SKU ITEM #: 7-15</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
     "howToOrderText": "- SKU ITEM #: 7-15\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
+    "addOnGroups": [
+      {
+        "id": "accessories",
+        "kind": "accessory",
+        "title": "Accessories",
+        "selectionMode": "multiple",
+        "displayStyle": "grid",
+        "subgroups": [
+          {
+            "id": "table-cover",
+            "title": "Table Cover",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "table-cover-6ft-stretch-table-cover",
+                "kind": "accessory",
+                "title": "6ft Stretch Table Cover",
+                "hoverTitle": "6ft Stretch Table Cover",
+                "hoverDescription": "Table Cover · (+ $135.00)",
+                "price": {
+                  "surcharge": 135,
+                  "label": "(+ $135.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "table-cover-6ft-fitted-table-cover",
+                "kind": "accessory",
+                "title": "6ft Fitted Table Cover",
+                "hoverTitle": "6ft Fitted Table Cover",
+                "hoverDescription": "Table Cover · (+ $145.00)",
+                "price": {
+                  "surcharge": 145,
+                  "label": "(+ $145.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "table-cover-6ft-draped-table-cover",
+                "kind": "accessory",
+                "title": "6ft Draped Table Cover",
+                "hoverTitle": "6ft Draped Table Cover",
+                "hoverDescription": "Table Cover · (+ $145.00)",
+                "price": {
+                  "surcharge": 145,
+                  "label": "(+ $145.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              }
+            ]
+          },
+          {
+            "id": "feather-flags",
+            "title": "Feather Flags",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "feather-flags-9ft-mounted-flag-w-mounting-kit",
+                "kind": "accessory",
+                "title": "9ft Mounted Flag w/ Mounting Kit",
+                "hoverTitle": "9ft Mounted Flag w/ Mounting Kit",
+                "hoverDescription": "Feather Flags · (+ $150.00)",
+                "price": {
+                  "surcharge": 150,
+                  "label": "(+ $150.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "feather-flags-9ft-stand-alone-flag-w-cross-base",
+                "kind": "accessory",
+                "title": "9ft Stand Alone Flag w/ Cross Base",
+                "hoverTitle": "9ft Stand Alone Flag w/ Cross Base",
+                "hoverDescription": "Feather Flags · (+ $140.00)",
+                "price": {
+                  "surcharge": 140,
+                  "label": "(+ $140.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "feather-flags-12ft-stand-alone-flag-w-cross-base",
+                "kind": "accessory",
+                "title": "12ft Stand Alone Flag w/ Cross Base",
+                "hoverTitle": "12ft Stand Alone Flag w/ Cross Base",
+                "hoverDescription": "Feather Flags · (+ $150.00)",
+                "price": {
+                  "surcharge": 150,
+                  "label": "(+ $150.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "feather-flags-15ft-stand-alone-flag-w-cross-base",
+                "kind": "accessory",
+                "title": "15ft Stand Alone Flag w/ Cross Base",
+                "hoverTitle": "15ft Stand Alone Flag w/ Cross Base",
+                "hoverDescription": "Feather Flags · (+ $160.00)",
+                "price": {
+                  "surcharge": 160,
+                  "label": "(+ $160.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              }
+            ]
+          },
+          {
+            "id": "essentials",
+            "title": "Essentials ",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "essentials-4-pc-set",
+                "kind": "accessory",
+                "title": "4 Pc Set",
+                "hoverTitle": "4 Pc Set",
+                "hoverDescription": "Essentials  · (+ $100.00)",
+                "price": {
+                  "surcharge": 100,
+                  "label": "(+ $100.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "essentials-led-lights",
+                "kind": "accessory",
+                "title": "LED Lights",
+                "hoverTitle": "LED Lights",
+                "hoverDescription": "Essentials  · (+ $219.00)",
+                "price": {
+                  "surcharge": 219,
+                  "label": "(+ $219.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649551876810.jpg",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649551876810.jpg",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "upgrades",
+        "kind": "upgrade",
+        "title": "Upgrades",
+        "selectionMode": "single",
+        "displayStyle": "grid",
+        "subgroups": [
+          {
+            "id": "double-sided-walls",
+            "title": "Double Sided Walls",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "double-sided-walls-double-sided-15ft-back-wall",
+                "kind": "upgrade",
+                "title": "Double Sided 15ft Back Wall",
+                "hoverTitle": "Double Sided 15ft Back Wall",
+                "hoverDescription": "Double Sided Walls · (+ $130.00)",
+                "price": {
+                  "surcharge": 130,
+                  "label": "(+ $130.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "metadata": {
+                  "sourceControlType": "select"
+                }
+              },
+              {
+                "id": "double-sided-walls-double-sided-half-side-walls",
+                "kind": "upgrade",
+                "title": "Double Sided Half Side Walls",
+                "hoverTitle": "Double Sided Half Side Walls",
+                "hoverDescription": "Double Sided Walls · (+ $150.00)",
+                "price": {
+                  "surcharge": 150,
+                  "label": "(+ $150.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "metadata": {
+                  "sourceControlType": "select"
+                }
+              },
+              {
+                "id": "double-sided-walls-double-sided-15ft-back-wall-half-side-walls",
+                "kind": "upgrade",
+                "title": "Double Sided 15ft Back Wall & Half Side Walls",
+                "hoverTitle": "Double Sided 15ft Back Wall & Half Side Walls",
+                "hoverDescription": "Double Sided Walls · (+ $150.00)",
+                "price": {
+                  "surcharge": 150,
+                  "label": "(+ $150.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "metadata": {
+                  "sourceControlType": "select"
+                }
+              }
+            ],
+            "description": "Rendered as a dropdown on the source site."
+          }
+        ],
+        "description": "Items marked conditional were hidden by default or gated by other source options."
+      }
+    ],
     "sku": "ITEM #: 7-15",
     "reviewsText": "1 option",
     "soldLabel": "Available to order",
@@ -5764,6 +13013,9 @@ export const storefrontProducts = [
   },
   {
     "id": 106,
+    "sourceProductId": 8227672785031,
+    "sourceHandle": "premium-10x15-custom-canopy-tent-8-15",
+    "sourceSlug": "premium-10x15-custom-canopy-tent-8-15",
     "img": "/assets/images/notionworx-inventory/10x15/premium-10x15-custom-canopy-tent-8-15/01.png",
     "imgHover": "/assets/images/notionworx-inventory/10x15/premium-10x15-custom-canopy-tent-8-15/02.png",
     "images": [
@@ -5824,6 +13076,278 @@ export const storefrontProducts = [
     "warrantyText": "Factory Warranty\n\n- We stand behind the quality of our products. Our warranty covers any factory defects or damage that occurs during shipping. However, please note that we do not cover damage resulting from extreme weather conditions, misuse, or any circumstances beyond our control.\n\n- Frame must be secured to the ground to prevent wind damage (failure to secure the tent voids the warranty)",
     "howToOrderHtml": "<ul>\n  <li>SKU ITEM #: 8-15</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
     "howToOrderText": "- SKU ITEM #: 8-15\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
+    "addOnGroups": [
+      {
+        "id": "accessories",
+        "kind": "accessory",
+        "title": "Accessories",
+        "selectionMode": "multiple",
+        "displayStyle": "grid",
+        "subgroups": [
+          {
+            "id": "table-cover",
+            "title": "Table Cover",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "table-cover-6ft-stretch-table-cover",
+                "kind": "accessory",
+                "title": "6ft Stretch Table Cover",
+                "hoverTitle": "6ft Stretch Table Cover",
+                "hoverDescription": "Table Cover · (+ $135.00)",
+                "price": {
+                  "surcharge": 135,
+                  "label": "(+ $135.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "table-cover-6ft-fitted-table-cover",
+                "kind": "accessory",
+                "title": "6ft Fitted Table Cover",
+                "hoverTitle": "6ft Fitted Table Cover",
+                "hoverDescription": "Table Cover · (+ $145.00)",
+                "price": {
+                  "surcharge": 145,
+                  "label": "(+ $145.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "table-cover-6ft-draped-table-cover",
+                "kind": "accessory",
+                "title": "6ft Draped Table Cover",
+                "hoverTitle": "6ft Draped Table Cover",
+                "hoverDescription": "Table Cover · (+ $145.00)",
+                "price": {
+                  "surcharge": 145,
+                  "label": "(+ $145.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              }
+            ]
+          },
+          {
+            "id": "feather-flags",
+            "title": "Feather Flags",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "feather-flags-9ft-mounted-flag-w-mounting-kit",
+                "kind": "accessory",
+                "title": "9ft Mounted Flag w/ Mounting Kit",
+                "hoverTitle": "9ft Mounted Flag w/ Mounting Kit",
+                "hoverDescription": "Feather Flags · (+ $150.00)",
+                "price": {
+                  "surcharge": 150,
+                  "label": "(+ $150.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "feather-flags-9ft-stand-alone-flag-w-cross-base",
+                "kind": "accessory",
+                "title": "9ft Stand Alone Flag w/ Cross Base",
+                "hoverTitle": "9ft Stand Alone Flag w/ Cross Base",
+                "hoverDescription": "Feather Flags · (+ $140.00)",
+                "price": {
+                  "surcharge": 140,
+                  "label": "(+ $140.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "feather-flags-12ft-stand-alone-flag-w-cross-base",
+                "kind": "accessory",
+                "title": "12ft Stand Alone Flag w/ Cross Base",
+                "hoverTitle": "12ft Stand Alone Flag w/ Cross Base",
+                "hoverDescription": "Feather Flags · (+ $150.00)",
+                "price": {
+                  "surcharge": 150,
+                  "label": "(+ $150.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "feather-flags-15ft-stand-alone-flag-w-cross-base",
+                "kind": "accessory",
+                "title": "15ft Stand Alone Flag w/ Cross Base",
+                "hoverTitle": "15ft Stand Alone Flag w/ Cross Base",
+                "hoverDescription": "Feather Flags · (+ $160.00)",
+                "price": {
+                  "surcharge": 160,
+                  "label": "(+ $160.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              }
+            ]
+          },
+          {
+            "id": "essentials",
+            "title": "Essentials ",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "essentials-4-pc-set",
+                "kind": "accessory",
+                "title": "4 Pc Set",
+                "hoverTitle": "4 Pc Set",
+                "hoverDescription": "Essentials  · (+ $100.00)",
+                "price": {
+                  "surcharge": 100,
+                  "label": "(+ $100.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "essentials-led-lights",
+                "kind": "accessory",
+                "title": "LED Lights",
+                "hoverTitle": "LED Lights",
+                "hoverDescription": "Essentials  · (+ $219.00)",
+                "price": {
+                  "surcharge": 219,
+                  "label": "(+ $219.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649552079707.jpg",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649552079707.jpg",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "upgrades",
+        "kind": "upgrade",
+        "title": "Upgrades",
+        "selectionMode": "single",
+        "displayStyle": "grid",
+        "subgroups": [
+          {
+            "id": "double-sided-walls",
+            "title": "Double Sided Walls",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "double-sided-walls-double-sided-15ft-back-wall",
+                "kind": "upgrade",
+                "title": "Double Sided 15ft Back Wall",
+                "hoverTitle": "Double Sided 15ft Back Wall",
+                "hoverDescription": "Double Sided Walls · (+ $130.00)",
+                "price": {
+                  "surcharge": 130,
+                  "label": "(+ $130.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "metadata": {
+                  "sourceControlType": "select"
+                }
+              },
+              {
+                "id": "double-sided-walls-double-sided-full-side-wall",
+                "kind": "upgrade",
+                "title": "Double Sided Full Side Wall",
+                "hoverTitle": "Double Sided Full Side Wall",
+                "hoverDescription": "Double Sided Walls · (+ $200.00)",
+                "price": {
+                  "surcharge": 200,
+                  "label": "(+ $200.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "metadata": {
+                  "sourceControlType": "select"
+                }
+              },
+              {
+                "id": "double-sided-walls-double-sided-three-full-walls",
+                "kind": "upgrade",
+                "title": "Double Sided Three Full Walls",
+                "hoverTitle": "Double Sided Three Full Walls",
+                "hoverDescription": "Double Sided Walls · (+ $330.00)",
+                "price": {
+                  "surcharge": 330,
+                  "label": "(+ $330.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "metadata": {
+                  "sourceControlType": "select"
+                }
+              }
+            ],
+            "description": "Rendered as a dropdown on the source site."
+          }
+        ],
+        "description": "Items marked conditional were hidden by default or gated by other source options."
+      }
+    ],
     "sku": "ITEM #: 8-15",
     "reviewsText": "1 option",
     "soldLabel": "Available to order",
@@ -5832,6 +13356,9 @@ export const storefrontProducts = [
   },
   {
     "id": 107,
+    "sourceProductId": 8227672653959,
+    "sourceHandle": "premium-10x20-custom-canopy-tent-10-20",
+    "sourceSlug": "premium-10x20-custom-canopy-tent-10-20",
     "img": "/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x20-custom-canopy-tent-10-20/01.png",
     "imgHover": "/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x20-custom-canopy-tent-10-20/02.png",
     "images": [
@@ -5899,6 +13426,244 @@ export const storefrontProducts = [
     "warrantyText": "Factory Warranty\n\nWe stand behind the quality of our products. Our warranty covers any factory defects or damage that occurs during shipping. However, please note that we do not cover damage resulting from extreme weather conditions, misuse, or any circumstances beyond our control.\n\nSecure Setup: Includes rope and peg kit; proper anchoring is required to maintain warranty.",
     "howToOrderHtml": "<ul>\n  <li>SKU ITEM #: 10-20</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
     "howToOrderText": "- SKU ITEM #: 10-20\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
+    "addOnGroups": [
+      {
+        "id": "accessories",
+        "kind": "accessory",
+        "title": "Accessories",
+        "selectionMode": "multiple",
+        "displayStyle": "grid",
+        "subgroups": [
+          {
+            "id": "table-cover",
+            "title": "Table Cover",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "table-cover-6ft-stretch-table-cover",
+                "kind": "accessory",
+                "title": "6ft Stretch Table Cover",
+                "hoverTitle": "6ft Stretch Table Cover",
+                "hoverDescription": "Table Cover · (+ $135.00)",
+                "price": {
+                  "surcharge": 135,
+                  "label": "(+ $135.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "table-cover-6ft-fitted-table-cover",
+                "kind": "accessory",
+                "title": "6ft Fitted Table Cover",
+                "hoverTitle": "6ft Fitted Table Cover",
+                "hoverDescription": "Table Cover · (+ $145.00)",
+                "price": {
+                  "surcharge": 145,
+                  "label": "(+ $145.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "table-cover-6ft-draped-table-cover",
+                "kind": "accessory",
+                "title": "6ft Draped Table Cover",
+                "hoverTitle": "6ft Draped Table Cover",
+                "hoverDescription": "Table Cover · (+ $145.00)",
+                "price": {
+                  "surcharge": 145,
+                  "label": "(+ $145.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              }
+            ]
+          },
+          {
+            "id": "feather-flags",
+            "title": "Feather Flags",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "feather-flags-9ft-mounted-flag-w-mounting-kit",
+                "kind": "accessory",
+                "title": "9ft Mounted Flag w/ Mounting Kit",
+                "hoverTitle": "9ft Mounted Flag w/ Mounting Kit",
+                "hoverDescription": "Feather Flags · (+ $150.00)",
+                "price": {
+                  "surcharge": 150,
+                  "label": "(+ $150.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "feather-flags-9ft-stand-alone-flag-w-cross-base",
+                "kind": "accessory",
+                "title": "9ft Stand Alone Flag w/ Cross Base",
+                "hoverTitle": "9ft Stand Alone Flag w/ Cross Base",
+                "hoverDescription": "Feather Flags · (+ $140.00)",
+                "price": {
+                  "surcharge": 140,
+                  "label": "(+ $140.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "feather-flags-12ft-stand-alone-flag-w-cross-base",
+                "kind": "accessory",
+                "title": "12ft Stand Alone Flag w/ Cross Base",
+                "hoverTitle": "12ft Stand Alone Flag w/ Cross Base",
+                "hoverDescription": "Feather Flags · (+ $150.00)",
+                "price": {
+                  "surcharge": 150,
+                  "label": "(+ $150.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "feather-flags-15ft-stand-alone-flag-w-cross-base",
+                "kind": "accessory",
+                "title": "15ft Stand Alone Flag w/ Cross Base",
+                "hoverTitle": "15ft Stand Alone Flag w/ Cross Base",
+                "hoverDescription": "Feather Flags · (+ $160.00)",
+                "price": {
+                  "surcharge": 160,
+                  "label": "(+ $160.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              }
+            ]
+          },
+          {
+            "id": "essentials",
+            "title": "Essentials ",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "essentials-6-pc-set",
+                "kind": "accessory",
+                "title": "6 Pc Set",
+                "hoverTitle": "6 Pc Set",
+                "hoverDescription": "Essentials  · (+ $150.00)",
+                "price": {
+                  "surcharge": 150,
+                  "label": "(+ $150.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17622022406433.jpg",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17622022406433.jpg",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "essentials-led-lights",
+                "kind": "accessory",
+                "title": "LED Lights",
+                "hoverTitle": "LED Lights",
+                "hoverDescription": "Essentials  · (+ $219.00)",
+                "price": {
+                  "surcharge": 219,
+                  "label": "(+ $219.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649553954571.jpg",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649553954571.jpg",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "upgrades",
+        "kind": "upgrade",
+        "title": "Upgrades",
+        "selectionMode": "single",
+        "displayStyle": "grid",
+        "subgroups": [
+          {
+            "id": "double-sided-walls",
+            "title": "Double Sided Walls",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "double-sided-walls-double-sided-back-wall",
+                "kind": "upgrade",
+                "title": "Double Sided Back Wall",
+                "hoverTitle": "Double Sided Back Wall",
+                "hoverDescription": "Double Sided Walls · (+ $140.00)",
+                "price": {
+                  "surcharge": 140,
+                  "label": "(+ $140.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "metadata": {
+                  "sourceControlType": "select"
+                }
+              }
+            ],
+            "description": "Rendered as a dropdown on the source site."
+          }
+        ],
+        "description": "Items marked conditional were hidden by default or gated by other source options."
+      }
+    ],
     "sku": "ITEM #: 10-20",
     "reviewsText": "1 option",
     "soldLabel": "Available to order",
@@ -5907,6 +13672,9 @@ export const storefrontProducts = [
   },
   {
     "id": 108,
+    "sourceProductId": 8227672719495,
+    "sourceHandle": "premium-10x20-custom-canopy-tent-11-20",
+    "sourceSlug": "premium-10x20-custom-canopy-tent-11-20",
     "img": "/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x20-custom-canopy-tent-11-20/01.png",
     "imgHover": "/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x20-custom-canopy-tent-11-20/02.png",
     "images": [
@@ -5971,6 +13739,278 @@ export const storefrontProducts = [
     "warrantyText": "Factory Warranty\n\nWe stand behind the quality of our products. Our warranty covers any factory defects or damage that occurs during shipping. However, please note that we do not cover damage resulting from extreme weather conditions, misuse, or any circumstances beyond our control.\n\nSecure Setup: Includes stake and rope kit; tent must be anchored to maintain warranty.",
     "howToOrderHtml": "<ul>\n  <li>SKU ITEM #: 11-20</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
     "howToOrderText": "- SKU ITEM #: 11-20\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
+    "addOnGroups": [
+      {
+        "id": "accessories",
+        "kind": "accessory",
+        "title": "Accessories",
+        "selectionMode": "multiple",
+        "displayStyle": "grid",
+        "subgroups": [
+          {
+            "id": "table-cover",
+            "title": "Table Cover",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "table-cover-6ft-stretch-table-cover",
+                "kind": "accessory",
+                "title": "6ft Stretch Table Cover",
+                "hoverTitle": "6ft Stretch Table Cover",
+                "hoverDescription": "Table Cover · (+ $135.00)",
+                "price": {
+                  "surcharge": 135,
+                  "label": "(+ $135.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "table-cover-6ft-fitted-table-cover",
+                "kind": "accessory",
+                "title": "6ft Fitted Table Cover",
+                "hoverTitle": "6ft Fitted Table Cover",
+                "hoverDescription": "Table Cover · (+ $145.00)",
+                "price": {
+                  "surcharge": 145,
+                  "label": "(+ $145.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "table-cover-6ft-draped-table-cover",
+                "kind": "accessory",
+                "title": "6ft Draped Table Cover",
+                "hoverTitle": "6ft Draped Table Cover",
+                "hoverDescription": "Table Cover · (+ $145.00)",
+                "price": {
+                  "surcharge": 145,
+                  "label": "(+ $145.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              }
+            ]
+          },
+          {
+            "id": "feather-flags",
+            "title": "Feather Flags",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "feather-flags-9ft-mounted-flag-w-mounting-kit",
+                "kind": "accessory",
+                "title": "9ft Mounted Flag w/ Mounting Kit",
+                "hoverTitle": "9ft Mounted Flag w/ Mounting Kit",
+                "hoverDescription": "Feather Flags · (+ $150.00)",
+                "price": {
+                  "surcharge": 150,
+                  "label": "(+ $150.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "feather-flags-9ft-stand-alone-flag-w-cross-base",
+                "kind": "accessory",
+                "title": "9ft Stand Alone Flag w/ Cross Base",
+                "hoverTitle": "9ft Stand Alone Flag w/ Cross Base",
+                "hoverDescription": "Feather Flags · (+ $140.00)",
+                "price": {
+                  "surcharge": 140,
+                  "label": "(+ $140.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "feather-flags-12ft-stand-alone-flag-w-cross-base",
+                "kind": "accessory",
+                "title": "12ft Stand Alone Flag w/ Cross Base",
+                "hoverTitle": "12ft Stand Alone Flag w/ Cross Base",
+                "hoverDescription": "Feather Flags · (+ $150.00)",
+                "price": {
+                  "surcharge": 150,
+                  "label": "(+ $150.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "feather-flags-15ft-stand-alone-flag-w-cross-base",
+                "kind": "accessory",
+                "title": "15ft Stand Alone Flag w/ Cross Base",
+                "hoverTitle": "15ft Stand Alone Flag w/ Cross Base",
+                "hoverDescription": "Feather Flags · (+ $160.00)",
+                "price": {
+                  "surcharge": 160,
+                  "label": "(+ $160.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              }
+            ]
+          },
+          {
+            "id": "essentials",
+            "title": "Essentials",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "essentials-6-pc-set",
+                "kind": "accessory",
+                "title": "6 Pc Set",
+                "hoverTitle": "6 Pc Set",
+                "hoverDescription": "Essentials · (+ $150.00)",
+                "price": {
+                  "surcharge": 150,
+                  "label": "(+ $150.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17622021081905.jpg",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17622021081905.jpg",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "essentials-led-lights",
+                "kind": "accessory",
+                "title": "LED Lights",
+                "hoverTitle": "LED Lights",
+                "hoverDescription": "Essentials · (+ $219.00)",
+                "price": {
+                  "surcharge": 219,
+                  "label": "(+ $219.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649557284946.jpg",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649557284946.jpg",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "upgrades",
+        "kind": "upgrade",
+        "title": "Upgrades",
+        "selectionMode": "single",
+        "displayStyle": "grid",
+        "subgroups": [
+          {
+            "id": "double-sided-walls",
+            "title": "Double Sided Walls",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "double-sided-walls-double-sided-20ft-back-wall",
+                "kind": "upgrade",
+                "title": "Double Sided 20ft Back Wall",
+                "hoverTitle": "Double Sided 20ft Back Wall",
+                "hoverDescription": "Double Sided Walls · (+ $140.00)",
+                "price": {
+                  "surcharge": 140,
+                  "label": "(+ $140.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "metadata": {
+                  "sourceControlType": "select"
+                }
+              },
+              {
+                "id": "double-sided-walls-double-sided-half-side-walls",
+                "kind": "upgrade",
+                "title": "Double Sided Half Side Walls",
+                "hoverTitle": "Double Sided Half Side Walls",
+                "hoverDescription": "Double Sided Walls · (+ $150.00)",
+                "price": {
+                  "surcharge": 150,
+                  "label": "(+ $150.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "metadata": {
+                  "sourceControlType": "select"
+                }
+              },
+              {
+                "id": "double-sided-walls-double-sided-20ft-back-wall-half-side-walls",
+                "kind": "upgrade",
+                "title": "Double Sided 20ft Back Wall & Half Side Walls",
+                "hoverTitle": "Double Sided 20ft Back Wall & Half Side Walls",
+                "hoverDescription": "Double Sided Walls · (+ $290.00)",
+                "price": {
+                  "surcharge": 290,
+                  "label": "(+ $290.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "metadata": {
+                  "sourceControlType": "select"
+                }
+              }
+            ],
+            "description": "Rendered as a dropdown on the source site."
+          }
+        ],
+        "description": "Items marked conditional were hidden by default or gated by other source options."
+      }
+    ],
     "sku": "ITEM #: 11-20",
     "reviewsText": "1 option",
     "soldLabel": "Available to order",
@@ -5979,6 +14019,9 @@ export const storefrontProducts = [
   },
   {
     "id": 109,
+    "sourceProductId": 8227672686727,
+    "sourceHandle": "premium-10x20-custom-canopy-tent-12-20",
+    "sourceSlug": "premium-10x20-custom-canopy-tent-12-20",
     "img": "/assets/images/notionworx-inventory/10x20/premium-10x20-custom-canopy-tent-12-20/01.png",
     "imgHover": "/assets/images/notionworx-inventory/10x20/premium-10x20-custom-canopy-tent-12-20/02.png",
     "images": [
@@ -6045,6 +14088,278 @@ export const storefrontProducts = [
     "warrantyText": "Factory Warranty\n\nWe stand behind the quality of our products. Our warranty covers any factory defects or damage that occurs during shipping. However, please note that we do not cover damage resulting from extreme weather conditions, misuse, or any circumstances beyond our control.\n\nSecure Setup Required: Includes rope and peg kit; proper anchoring is required to maintain the warranty.",
     "howToOrderHtml": "<ul>\n  <li>SKU ITEM #: 12-20</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
     "howToOrderText": "- SKU ITEM #: 12-20\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
+    "addOnGroups": [
+      {
+        "id": "accessories",
+        "kind": "accessory",
+        "title": "Accessories",
+        "selectionMode": "multiple",
+        "displayStyle": "grid",
+        "subgroups": [
+          {
+            "id": "table-cover",
+            "title": "Table Cover",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "table-cover-6ft-stretch-table-cover",
+                "kind": "accessory",
+                "title": "6ft Stretch Table Cover",
+                "hoverTitle": "6ft Stretch Table Cover",
+                "hoverDescription": "Table Cover · (+ $135.00)",
+                "price": {
+                  "surcharge": 135,
+                  "label": "(+ $135.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "table-cover-6ft-fitted-table-cover",
+                "kind": "accessory",
+                "title": "6ft Fitted Table Cover",
+                "hoverTitle": "6ft Fitted Table Cover",
+                "hoverDescription": "Table Cover · (+ $145.00)",
+                "price": {
+                  "surcharge": 145,
+                  "label": "(+ $145.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "table-cover-6ft-draped-table-cover",
+                "kind": "accessory",
+                "title": "6ft Draped Table Cover",
+                "hoverTitle": "6ft Draped Table Cover",
+                "hoverDescription": "Table Cover · (+ $145.00)",
+                "price": {
+                  "surcharge": 145,
+                  "label": "(+ $145.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              }
+            ]
+          },
+          {
+            "id": "feather-flags",
+            "title": "Feather Flags",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "feather-flags-9ft-mounted-flag-w-mounting-kit",
+                "kind": "accessory",
+                "title": "9ft Mounted Flag w/ Mounting Kit",
+                "hoverTitle": "9ft Mounted Flag w/ Mounting Kit",
+                "hoverDescription": "Feather Flags · (+ $150.00)",
+                "price": {
+                  "surcharge": 150,
+                  "label": "(+ $150.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "feather-flags-9ft-stand-alone-flag-w-cross-base",
+                "kind": "accessory",
+                "title": "9ft Stand Alone Flag w/ Cross Base",
+                "hoverTitle": "9ft Stand Alone Flag w/ Cross Base",
+                "hoverDescription": "Feather Flags · (+ $140.00)",
+                "price": {
+                  "surcharge": 140,
+                  "label": "(+ $140.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "feather-flags-12ft-stand-alone-flag-w-cross-base",
+                "kind": "accessory",
+                "title": "12ft Stand Alone Flag w/ Cross Base",
+                "hoverTitle": "12ft Stand Alone Flag w/ Cross Base",
+                "hoverDescription": "Feather Flags · (+ $150.00)",
+                "price": {
+                  "surcharge": 150,
+                  "label": "(+ $150.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "feather-flags-15ft-stand-alone-flag-w-cross-base",
+                "kind": "accessory",
+                "title": "15ft Stand Alone Flag w/ Cross Base",
+                "hoverTitle": "15ft Stand Alone Flag w/ Cross Base",
+                "hoverDescription": "Feather Flags · (+ $160.00)",
+                "price": {
+                  "surcharge": 160,
+                  "label": "(+ $160.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              }
+            ]
+          },
+          {
+            "id": "essentials",
+            "title": "Essentials ",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "essentials-6-pc-set",
+                "kind": "accessory",
+                "title": "6 Pc Set",
+                "hoverTitle": "6 Pc Set",
+                "hoverDescription": "Essentials  · (+ $150.00)",
+                "price": {
+                  "surcharge": 150,
+                  "label": "(+ $150.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17622019768541.jpg",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17622019768541.jpg",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "essentials-led-lights",
+                "kind": "accessory",
+                "title": "LED LIghts",
+                "hoverTitle": "LED LIghts",
+                "hoverDescription": "Essentials  · (+ $219.00)",
+                "price": {
+                  "surcharge": 219,
+                  "label": "(+ $219.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649557504046.jpg",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649557504046.jpg",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "upgrades",
+        "kind": "upgrade",
+        "title": "Upgrades",
+        "selectionMode": "single",
+        "displayStyle": "grid",
+        "subgroups": [
+          {
+            "id": "double-sided-walls",
+            "title": "Double Sided Walls",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "double-sided-walls-double-sided-20ft-back-wall",
+                "kind": "upgrade",
+                "title": "Double Sided 20ft Back Wall",
+                "hoverTitle": "Double Sided 20ft Back Wall",
+                "hoverDescription": "Double Sided Walls · (+ $140.00)",
+                "price": {
+                  "surcharge": 140,
+                  "label": "(+ $140.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "metadata": {
+                  "sourceControlType": "select"
+                }
+              },
+              {
+                "id": "double-sided-walls-double-sided-side-walls",
+                "kind": "upgrade",
+                "title": "Double Sided Side Walls",
+                "hoverTitle": "Double Sided Side Walls",
+                "hoverDescription": "Double Sided Walls · (+ $200.00)",
+                "price": {
+                  "surcharge": 200,
+                  "label": "(+ $200.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "metadata": {
+                  "sourceControlType": "select"
+                }
+              },
+              {
+                "id": "double-sided-walls-double-sided-three-full-walls",
+                "kind": "upgrade",
+                "title": "Double Sided Three Full Walls",
+                "hoverTitle": "Double Sided Three Full Walls",
+                "hoverDescription": "Double Sided Walls · (+ $340.00)",
+                "price": {
+                  "surcharge": 340,
+                  "label": "(+ $340.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "metadata": {
+                  "sourceControlType": "select"
+                }
+              }
+            ],
+            "description": "Rendered as a dropdown on the source site."
+          }
+        ],
+        "description": "Items marked conditional were hidden by default or gated by other source options."
+      }
+    ],
     "sku": "ITEM #: 12-20",
     "reviewsText": "1 option",
     "soldLabel": "Available to order",
@@ -6053,6 +14368,9 @@ export const storefrontProducts = [
   },
   {
     "id": 110,
+    "sourceProductId": 8227673014407,
+    "sourceHandle": "premium-10x20-custom-canopy-tent-9-20black",
+    "sourceSlug": "premium-10x20-custom-canopy-tent-9-20black",
     "img": "/assets/images/notionworx-inventory/10x20/premium-10x20-custom-canopy-tent-9-20black/01.png",
     "imgHover": "/assets/images/notionworx-inventory/10x20/premium-10x20-custom-canopy-tent-9-20black/02.png",
     "images": [
@@ -6101,6 +14419,363 @@ export const storefrontProducts = [
     "warrantyText": "Factory Warranty\n\nWe stand behind the quality of our products. Our warranty covers any factory defects or damage that occurs during shipping. However, please note that we do not cover damage resulting from extreme weather conditions, misuse, or any circumstances beyond our control.\n\nSecure Setup: Includes rope and stake kit; must be properly secured to maintain warranty.",
     "howToOrderHtml": "<ul>\n  <li>SKU ITEM #: 9-20B</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
     "howToOrderText": "- SKU ITEM #: 9-20B\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
+    "addOnGroups": [
+      {
+        "id": "accessories",
+        "kind": "accessory",
+        "title": "Accessories",
+        "selectionMode": "multiple",
+        "displayStyle": "grid",
+        "subgroups": [
+          {
+            "id": "table-cover",
+            "title": "Table Cover",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "table-cover-6ft-stretch-table-cover",
+                "kind": "accessory",
+                "title": "6ft Stretch Table Cover",
+                "hoverTitle": "6ft Stretch Table Cover",
+                "hoverDescription": "Table Cover · (+ $135.00)",
+                "price": {
+                  "surcharge": 135,
+                  "label": "(+ $135.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "table-cover-6ft-fitted-table-cover",
+                "kind": "accessory",
+                "title": "6ft Fitted Table Cover",
+                "hoverTitle": "6ft Fitted Table Cover",
+                "hoverDescription": "Table Cover · (+ $145.00)",
+                "price": {
+                  "surcharge": 145,
+                  "label": "(+ $145.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "table-cover-6ft-draped-table-cover",
+                "kind": "accessory",
+                "title": "6ft Draped Table Cover",
+                "hoverTitle": "6ft Draped Table Cover",
+                "hoverDescription": "Table Cover · (+ $145.00)",
+                "price": {
+                  "surcharge": 145,
+                  "label": "(+ $145.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              }
+            ]
+          },
+          {
+            "id": "feather-flags",
+            "title": "Feather Flags",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "feather-flags-9ft-mounted-flag-w-mounting-kit",
+                "kind": "accessory",
+                "title": "9ft Mounted Flag w/ Mounting Kit",
+                "hoverTitle": "9ft Mounted Flag w/ Mounting Kit",
+                "hoverDescription": "Feather Flags · (+ $150.00)",
+                "price": {
+                  "surcharge": 150,
+                  "label": "(+ $150.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "feather-flags-9ft-stand-alone-flag-w-cross-base",
+                "kind": "accessory",
+                "title": "9ft Stand Alone Flag w/ Cross Base",
+                "hoverTitle": "9ft Stand Alone Flag w/ Cross Base",
+                "hoverDescription": "Feather Flags · (+ $140.00)",
+                "price": {
+                  "surcharge": 140,
+                  "label": "(+ $140.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "feather-flags-12ft-stand-alone-flag-w-cross-base",
+                "kind": "accessory",
+                "title": "12ft Stand Alone Flag w/ Cross Base",
+                "hoverTitle": "12ft Stand Alone Flag w/ Cross Base",
+                "hoverDescription": "Feather Flags · (+ $150.00)",
+                "price": {
+                  "surcharge": 150,
+                  "label": "(+ $150.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "feather-flags-15ft-stand-alone-flag-w-cross-base",
+                "kind": "accessory",
+                "title": "15ft Stand Alone Flag w/ Cross Base",
+                "hoverTitle": "15ft Stand Alone Flag w/ Cross Base",
+                "hoverDescription": "Feather Flags · (+ $160.00)",
+                "price": {
+                  "surcharge": 160,
+                  "label": "(+ $160.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              }
+            ]
+          },
+          {
+            "id": "essentials",
+            "title": "Essentials ",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "essentials-6-pc-set",
+                "kind": "accessory",
+                "title": "6 Pc Set",
+                "hoverTitle": "6 Pc Set",
+                "hoverDescription": "Essentials  · (+ $150.00)",
+                "price": {
+                  "surcharge": 150,
+                  "label": "(+ $150.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17622023528518.jpg",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17622023528518.jpg",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "essentials-led-lights",
+                "kind": "accessory",
+                "title": "LED Lights",
+                "hoverTitle": "LED Lights",
+                "hoverDescription": "Essentials  · (+ $219.00)",
+                "price": {
+                  "surcharge": 219,
+                  "label": "(+ $219.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649555127976.jpg",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649555127976.jpg",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "upgrades",
+        "kind": "upgrade",
+        "title": "Upgrades",
+        "selectionMode": "multiple",
+        "displayStyle": "grid",
+        "subgroups": [
+          {
+            "id": "walls",
+            "title": "Walls",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "walls-20ft-back-wall",
+                "kind": "upgrade",
+                "title": "20ft Back Wall",
+                "hoverTitle": "20ft Back Wall",
+                "hoverDescription": "Walls · (+ $255.00)",
+                "price": {
+                  "surcharge": 255,
+                  "label": "(+ $255.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616360743952.jpg",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616360743952.jpg",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "walls-20ft-back-wall-half-side-walls",
+                "kind": "upgrade",
+                "title": "20ft Back Wall & Half Side Walls",
+                "hoverTitle": "20ft Back Wall & Half Side Walls",
+                "hoverDescription": "Walls · (+ $520.00)",
+                "price": {
+                  "surcharge": 520,
+                  "label": "(+ $520.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616360803119.jpg",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616360803119.jpg",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "walls-20ft-three-full-walls",
+                "kind": "upgrade",
+                "title": "20ft Three Full Walls",
+                "hoverTitle": "20ft Three Full Walls",
+                "hoverDescription": "Walls · (+ $455.00)",
+                "price": {
+                  "surcharge": 455,
+                  "label": "(+ $455.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616360875845.jpg",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616360875845.jpg",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              }
+            ]
+          },
+          {
+            "id": "double-sided-walls",
+            "title": "Double Sided Walls",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "double-sided-walls-double-sided-20ft-back-wall",
+                "kind": "upgrade",
+                "title": "Double Sided 20ft Back Wall",
+                "hoverTitle": "Double Sided 20ft Back Wall",
+                "hoverDescription": "Double Sided Walls · (+ $140.00) · Conditional on source",
+                "price": {
+                  "surcharge": 140,
+                  "label": "(+ $140.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "metadata": {
+                  "sourceControlType": "select",
+                  "conditional": "true"
+                }
+              },
+              {
+                "id": "double-sided-walls-double-sided-half-side-walls",
+                "kind": "upgrade",
+                "title": "Double Sided Half Side Walls",
+                "hoverTitle": "Double Sided Half Side Walls",
+                "hoverDescription": "Double Sided Walls · (+ $150.00) · Conditional on source",
+                "price": {
+                  "surcharge": 150,
+                  "label": "(+ $150.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "metadata": {
+                  "sourceControlType": "select",
+                  "conditional": "true"
+                }
+              },
+              {
+                "id": "double-sided-walls-double-sided-20ft-back-wall-half-side-walls",
+                "kind": "upgrade",
+                "title": "Double Sided 20ft Back Wall & Half Side Walls",
+                "hoverTitle": "Double Sided 20ft Back Wall & Half Side Walls",
+                "hoverDescription": "Double Sided Walls · (+ $290.00) · Conditional on source",
+                "price": {
+                  "surcharge": 290,
+                  "label": "(+ $290.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "metadata": {
+                  "sourceControlType": "select",
+                  "conditional": "true"
+                }
+              },
+              {
+                "id": "double-sided-walls-double-sided-three-full-walls",
+                "kind": "upgrade",
+                "title": "Double Sided Three Full Walls",
+                "hoverTitle": "Double Sided Three Full Walls",
+                "hoverDescription": "Double Sided Walls · (+ $340.00) · Conditional on source",
+                "price": {
+                  "surcharge": 340,
+                  "label": "(+ $340.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "metadata": {
+                  "sourceControlType": "select",
+                  "conditional": "true"
+                }
+              }
+            ],
+            "description": "Shown conditionally on the source site. Rendered as a dropdown on the source site."
+          }
+        ],
+        "description": "Items marked conditional were hidden by default or gated by other source options."
+      }
+    ],
     "sku": "ITEM #: 9-20B",
     "reviewsText": "1 option",
     "soldLabel": "Available to order",
@@ -6109,6 +14784,9 @@ export const storefrontProducts = [
   },
   {
     "id": 111,
+    "sourceProductId": 8227677470855,
+    "sourceHandle": "premium-10x20-custom-canopy-tent-9-20top",
+    "sourceSlug": "premium-10x20-custom-canopy-tent-9-20top",
     "img": "/assets/images/notionworx-inventory/10x20/premium-10x20-custom-canopy-tent-9-20top/01.jpg",
     "imgHover": "/assets/images/notionworx-inventory/10x20/premium-10x20-custom-canopy-tent-9-20top/02.jpg",
     "images": [
@@ -6152,6 +14830,364 @@ export const storefrontProducts = [
     "warrantyText": "Factory Warranty\n\nWe stand behind the quality of our products. Our warranty covers any factory defects or damage that occurs during shipping. However, please note that we do not cover damage resulting from extreme weather conditions, misuse, or any circumstances beyond our control.",
     "howToOrderHtml": "<ul>\n  <li>SKU ITEM #: 9-20 TOP</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
     "howToOrderText": "- SKU ITEM #: 9-20 TOP\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
+    "addOnGroups": [
+      {
+        "id": "accessories",
+        "kind": "accessory",
+        "title": "Accessories",
+        "selectionMode": "multiple",
+        "displayStyle": "grid",
+        "subgroups": [
+          {
+            "id": "table-cover",
+            "title": "Table Cover",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "table-cover-6ft-stretch-table-cover",
+                "kind": "accessory",
+                "title": "6ft Stretch Table Cover",
+                "hoverTitle": "6ft Stretch Table Cover",
+                "hoverDescription": "Table Cover · (+ $135.00)",
+                "price": {
+                  "surcharge": 135,
+                  "label": "(+ $135.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "table-cover-6ft-fitted-table-cover",
+                "kind": "accessory",
+                "title": "6ft Fitted Table Cover",
+                "hoverTitle": "6ft Fitted Table Cover",
+                "hoverDescription": "Table Cover · (+ $145.00)",
+                "price": {
+                  "surcharge": 145,
+                  "label": "(+ $145.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "table-cover-6ft-draped-table-cover",
+                "kind": "accessory",
+                "title": "6ft Draped Table Cover",
+                "hoverTitle": "6ft Draped Table Cover",
+                "hoverDescription": "Table Cover · (+ $145.00)",
+                "price": {
+                  "surcharge": 145,
+                  "label": "(+ $145.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              }
+            ]
+          },
+          {
+            "id": "feather-flags",
+            "title": "Feather Flags",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "feather-flags-9ft-mounted-flag-w-mounting-kit",
+                "kind": "accessory",
+                "title": "9ft Mounted Flag w/ Mounting Kit",
+                "hoverTitle": "9ft Mounted Flag w/ Mounting Kit",
+                "hoverDescription": "Feather Flags · (+ $150.00)",
+                "price": {
+                  "surcharge": 150,
+                  "label": "(+ $150.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "feather-flags-9ft-stand-alone-flag-w-cross-base",
+                "kind": "accessory",
+                "title": "9ft Stand Alone Flag w/ Cross Base",
+                "hoverTitle": "9ft Stand Alone Flag w/ Cross Base",
+                "hoverDescription": "Feather Flags · (+ $140.00)",
+                "price": {
+                  "surcharge": 140,
+                  "label": "(+ $140.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "feather-flags-12ft-stand-alone-flag-w-cross-base",
+                "kind": "accessory",
+                "title": "12ft Stand Alone Flag w/ Cross Base",
+                "hoverTitle": "12ft Stand Alone Flag w/ Cross Base",
+                "hoverDescription": "Feather Flags · (+ $150.00)",
+                "price": {
+                  "surcharge": 150,
+                  "label": "(+ $150.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "feather-flags-15ft-stand-alone-flag-w-cross-base",
+                "kind": "accessory",
+                "title": "15ft Stand Alone Flag w/ Cross Base",
+                "hoverTitle": "15ft Stand Alone Flag w/ Cross Base",
+                "hoverDescription": "Feather Flags · (+ $160.00)",
+                "price": {
+                  "surcharge": 160,
+                  "label": "(+ $160.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              }
+            ]
+          },
+          {
+            "id": "essentials",
+            "title": "Essentials ",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "essentials-4-pc-set",
+                "kind": "accessory",
+                "title": "4 Pc Set",
+                "hoverTitle": "4 Pc Set",
+                "hoverDescription": "Essentials  · (+ $100.00)",
+                "price": {
+                  "surcharge": 100,
+                  "label": "(+ $100.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "essentials-led-lights",
+                "kind": "accessory",
+                "title": "LED Lights",
+                "hoverTitle": "LED Lights ",
+                "hoverDescription": "Essentials  · (+ $219.00)",
+                "price": {
+                  "surcharge": 219,
+                  "label": "(+ $219.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649557654019.jpg",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649557654019.jpg",
+                "metadata": {
+                  "sourceDisplayName": "LED Lights ",
+                  "sourceControlType": "image-swatches"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "upgrades",
+        "kind": "upgrade",
+        "title": "Upgrades",
+        "selectionMode": "multiple",
+        "displayStyle": "grid",
+        "subgroups": [
+          {
+            "id": "walls",
+            "title": "Walls",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "walls-20ft-back-wall",
+                "kind": "upgrade",
+                "title": "20ft Back Wall",
+                "hoverTitle": "20ft Back Wall",
+                "hoverDescription": "Walls · (+ $255.00)",
+                "price": {
+                  "surcharge": 255,
+                  "label": "(+ $255.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616360743952.jpg",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616360743952.jpg",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "walls-20ft-back-wall-half-side-walls",
+                "kind": "upgrade",
+                "title": "20ft Back Wall & Half Side Walls",
+                "hoverTitle": "20ft Back Wall & Half Side Walls",
+                "hoverDescription": "Walls · (+ $520.00)",
+                "price": {
+                  "surcharge": 520,
+                  "label": "(+ $520.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616360803119.jpg",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616360803119.jpg",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "walls-20ft-three-full-walls",
+                "kind": "upgrade",
+                "title": "20ft Three Full Walls",
+                "hoverTitle": "20ft Three Full Walls",
+                "hoverDescription": "Walls · (+ $455.00)",
+                "price": {
+                  "surcharge": 455,
+                  "label": "(+ $455.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616360875845.jpg",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616360875845.jpg",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              }
+            ]
+          },
+          {
+            "id": "double-sided-walls",
+            "title": "Double Sided Walls",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "double-sided-walls-double-sided-20ft-back-wall",
+                "kind": "upgrade",
+                "title": "Double Sided 20ft Back Wall",
+                "hoverTitle": "Double Sided 20ft Back Wall",
+                "hoverDescription": "Double Sided Walls · (+ $140.00) · Conditional on source",
+                "price": {
+                  "surcharge": 140,
+                  "label": "(+ $140.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "metadata": {
+                  "sourceControlType": "select",
+                  "conditional": "true"
+                }
+              },
+              {
+                "id": "double-sided-walls-double-sided-half-side-walls",
+                "kind": "upgrade",
+                "title": "Double Sided Half Side Walls",
+                "hoverTitle": "Double Sided Half Side Walls",
+                "hoverDescription": "Double Sided Walls · (+ $150.00) · Conditional on source",
+                "price": {
+                  "surcharge": 150,
+                  "label": "(+ $150.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "metadata": {
+                  "sourceControlType": "select",
+                  "conditional": "true"
+                }
+              },
+              {
+                "id": "double-sided-walls-double-sided-20ft-back-wall-half-side-walls",
+                "kind": "upgrade",
+                "title": "Double Sided 20ft Back Wall & Half Side Walls",
+                "hoverTitle": "Double Sided 20ft Back Wall & Half Side Walls",
+                "hoverDescription": "Double Sided Walls · (+ $290.00) · Conditional on source",
+                "price": {
+                  "surcharge": 290,
+                  "label": "(+ $290.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "metadata": {
+                  "sourceControlType": "select",
+                  "conditional": "true"
+                }
+              },
+              {
+                "id": "double-sided-walls-double-sided-three-full-walls",
+                "kind": "upgrade",
+                "title": "Double Sided Three Full Walls",
+                "hoverTitle": "Double Sided Three Full Walls",
+                "hoverDescription": "Double Sided Walls · (+ $340.00) · Conditional on source",
+                "price": {
+                  "surcharge": 340,
+                  "label": "(+ $340.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "metadata": {
+                  "sourceControlType": "select",
+                  "conditional": "true"
+                }
+              }
+            ],
+            "description": "Shown conditionally on the source site. Rendered as a dropdown on the source site."
+          }
+        ],
+        "description": "Items marked conditional were hidden by default or gated by other source options."
+      }
+    ],
     "sku": "ITEM #: 9-20 TOP",
     "reviewsText": "1 option",
     "soldLabel": "Available to order",
@@ -6160,6 +15196,9 @@ export const storefrontProducts = [
   },
   {
     "id": 112,
+    "sourceProductId": 8227677634695,
+    "sourceHandle": "premium-10x20-custom-canopy-tent-hex-9-20",
+    "sourceSlug": "premium-10x20-custom-canopy-tent-hex-9-20",
     "img": "/assets/images/notionworx-inventory/10x20/premium-10x20-custom-canopy-tent-hex-9-20/01.png",
     "imgHover": "/assets/images/notionworx-inventory/10x20/premium-10x20-custom-canopy-tent-hex-9-20/02.png",
     "images": [
@@ -6220,6 +15259,244 @@ export const storefrontProducts = [
     "warrantyText": "Factory Warranty\n\nWe stand behind the quality of our products. Our warranty covers any factory defects or damage that occurs during shipping. However, please note that we do not cover damage resulting from extreme weather conditions, misuse, or any circumstances beyond our control.\n\nSecure Setup: Includes rope and stake kit; must be properly secured to maintain warranty.",
     "howToOrderHtml": "<ul>\n  <li>SKU ITEM #: 9-20H</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
     "howToOrderText": "- SKU ITEM #: 9-20H\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
+    "addOnGroups": [
+      {
+        "id": "accessories",
+        "kind": "accessory",
+        "title": "Accessories",
+        "selectionMode": "multiple",
+        "displayStyle": "grid",
+        "subgroups": [
+          {
+            "id": "table-cover",
+            "title": "Table Cover",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "table-cover-6ft-stretch-table-cover",
+                "kind": "accessory",
+                "title": "6ft Stretch Table Cover",
+                "hoverTitle": "6ft Stretch Table Cover",
+                "hoverDescription": "Table Cover · (+ $135.00)",
+                "price": {
+                  "surcharge": 135,
+                  "label": "(+ $135.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "table-cover-6ft-fitted-table-cover",
+                "kind": "accessory",
+                "title": "6ft Fitted Table Cover",
+                "hoverTitle": "6ft Fitted Table Cover",
+                "hoverDescription": "Table Cover · (+ $145.00)",
+                "price": {
+                  "surcharge": 145,
+                  "label": "(+ $145.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "table-cover-6ft-draped-table-cover",
+                "kind": "accessory",
+                "title": "6ft Draped Table Cover",
+                "hoverTitle": "6ft Draped Table Cover",
+                "hoverDescription": "Table Cover · (+ $145.00)",
+                "price": {
+                  "surcharge": 145,
+                  "label": "(+ $145.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              }
+            ]
+          },
+          {
+            "id": "feather-flags",
+            "title": "Feather Flags",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "feather-flags-9ft-mounted-flag-w-mounting-kit",
+                "kind": "accessory",
+                "title": "9ft Mounted Flag w/ Mounting Kit",
+                "hoverTitle": "9ft Mounted Flag w/ Mounting Kit",
+                "hoverDescription": "Feather Flags · (+ $150.00)",
+                "price": {
+                  "surcharge": 150,
+                  "label": "(+ $150.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "feather-flags-9ft-stand-alone-flag-w-cross-base",
+                "kind": "accessory",
+                "title": "9ft Stand Alone Flag w/ Cross Base",
+                "hoverTitle": "9ft Stand Alone Flag w/ Cross Base",
+                "hoverDescription": "Feather Flags · (+ $140.00)",
+                "price": {
+                  "surcharge": 140,
+                  "label": "(+ $140.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "feather-flags-12ft-stand-alone-flag-w-cross-base",
+                "kind": "accessory",
+                "title": "12ft Stand Alone Flag w/ Cross Base",
+                "hoverTitle": "12ft Stand Alone Flag w/ Cross Base",
+                "hoverDescription": "Feather Flags · (+ $150.00)",
+                "price": {
+                  "surcharge": 150,
+                  "label": "(+ $150.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "feather-flags-15ft-stand-alone-flag-w-cross-base",
+                "kind": "accessory",
+                "title": "15ft Stand Alone Flag w/ Cross Base",
+                "hoverTitle": "15ft Stand Alone Flag w/ Cross Base",
+                "hoverDescription": "Feather Flags · (+ $160.00)",
+                "price": {
+                  "surcharge": 160,
+                  "label": "(+ $160.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              }
+            ]
+          },
+          {
+            "id": "essentials",
+            "title": "Essentials ",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "essentials-6-pc-set",
+                "kind": "accessory",
+                "title": "6 Pc Set",
+                "hoverTitle": "6 Pc Set",
+                "hoverDescription": "Essentials  · (+ $150.00)",
+                "price": {
+                  "surcharge": 150,
+                  "label": "(+ $150.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17622025747516.jpg",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17622025747516.jpg",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "essentials-led-light",
+                "kind": "accessory",
+                "title": "LED Light",
+                "hoverTitle": "LED Light",
+                "hoverDescription": "Essentials  · (+ $219.00)",
+                "price": {
+                  "surcharge": 219,
+                  "label": "(+ $219.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649560519154.jpg",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649560519154.jpg",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "upgrades",
+        "kind": "upgrade",
+        "title": "Upgrades",
+        "selectionMode": "single",
+        "displayStyle": "grid",
+        "subgroups": [
+          {
+            "id": "vented-top",
+            "title": "Vented Top",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "vented-top-vent",
+                "kind": "upgrade",
+                "title": "Vent",
+                "hoverTitle": "Vent",
+                "hoverDescription": "Vented Top · (+ $50.00)",
+                "price": {
+                  "surcharge": 50,
+                  "label": "(+ $50.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616168711705.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616168711705.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "sku": "ITEM #: 9-20H",
     "reviewsText": "1 option",
     "soldLabel": "Available to order",
@@ -6228,6 +15505,9 @@ export const storefrontProducts = [
   },
   {
     "id": 113,
+    "sourceProductId": 8229365022855,
+    "sourceHandle": "premium-12-teardrop-flags",
+    "sourceSlug": "premium-12-teardrop-flags",
     "img": "/assets/images/notionworx-inventory/uncategorized/premium-12-teardrop-flags/01.jpg",
     "imgHover": "/assets/images/notionworx-inventory/uncategorized/premium-12-teardrop-flags/02.jpg",
     "images": [
@@ -6293,6 +15573,9 @@ export const storefrontProducts = [
   },
   {
     "id": 114,
+    "sourceProductId": 8227681861767,
+    "sourceHandle": "premium-15-aluminum-tent-frame-silver",
+    "sourceSlug": "premium-15-aluminum-tent-frame-silver",
     "img": "/assets/images/notionworx-inventory/10x15/premium-15-aluminum-tent-frame-silver/01.jpg",
     "imgHover": "/assets/images/notionworx-inventory/10x15/premium-15-aluminum-tent-frame-silver/02.jpg",
     "images": [
@@ -6340,6 +15623,9 @@ export const storefrontProducts = [
   },
   {
     "id": 115,
+    "sourceProductId": 8227681992839,
+    "sourceHandle": "premium-20-aluminum-tent-frame-black",
+    "sourceSlug": "premium-20-aluminum-tent-frame-black",
     "img": "/assets/images/notionworx-inventory/10x20/premium-20-aluminum-tent-frame-black/01.jpg",
     "imgHover": "/assets/images/notionworx-inventory/10x20/premium-20-aluminum-tent-frame-black/01.jpg",
     "images": [
@@ -6381,6 +15667,9 @@ export const storefrontProducts = [
   },
   {
     "id": 116,
+    "sourceProductId": 8227681960071,
+    "sourceHandle": "premium-20-aluminum-tent-frame-silver",
+    "sourceSlug": "premium-20-aluminum-tent-frame-silver",
     "img": "/assets/images/notionworx-inventory/10x20/premium-20-aluminum-tent-frame-silver/01.jpg",
     "imgHover": "/assets/images/notionworx-inventory/10x20/premium-20-aluminum-tent-frame-silver/02.jpg",
     "images": [
@@ -6428,6 +15717,9 @@ export const storefrontProducts = [
   },
   {
     "id": 117,
+    "sourceProductId": 8227673768071,
+    "sourceHandle": "premium-3-x-7-5-fabric-stand-copy",
+    "sourceSlug": "premium-3-x-7-5-fabric-stand-copy",
     "img": "/assets/images/notionworx-inventory/trade-show-display/premium-3-x-7-5-fabric-stand-copy/01.jpg",
     "imgHover": "/assets/images/notionworx-inventory/trade-show-display/premium-3-x-7-5-fabric-stand-copy/02.jpg",
     "images": [
@@ -6483,6 +15775,9 @@ export const storefrontProducts = [
   },
   {
     "id": 118,
+    "sourceProductId": 8227670327431,
+    "sourceHandle": "premium-aluminum-10-flat-top-tent-kit-full-bleed-dye-sublimation-17-valance-1",
+    "sourceSlug": "premium-aluminum-10-flat-top-tent-kit-full-bleed-dye-sublimation-17-valance-1",
     "img": "/assets/images/notionworx-inventory/tent/premium-aluminum-10-flat-top-tent-kit-full-bleed-dye-sublimation-17-valance-1/01.png",
     "imgHover": "/assets/images/notionworx-inventory/tent/premium-aluminum-10-flat-top-tent-kit-full-bleed-dye-sublimation-17-valance-1/02.jpg",
     "images": [
@@ -6527,6 +15822,9 @@ export const storefrontProducts = [
   },
   {
     "id": 119,
+    "sourceProductId": 8227681304711,
+    "sourceHandle": "premium-aluminum-tent-frame",
+    "sourceSlug": "premium-aluminum-tent-frame",
     "img": "/assets/images/notionworx-inventory/10x10/premium-aluminum-tent-frame/01.jpg",
     "imgHover": "/assets/images/notionworx-inventory/10x10/premium-aluminum-tent-frame/02.jpg",
     "images": [
@@ -6577,6 +15875,9 @@ export const storefrontProducts = [
   },
   {
     "id": 120,
+    "sourceProductId": 8227681697927,
+    "sourceHandle": "premium-aluminum-tent-frame-black",
+    "sourceSlug": "premium-aluminum-tent-frame-black",
     "img": "/assets/images/notionworx-inventory/10x10/premium-aluminum-tent-frame-black/01.jpg",
     "imgHover": "/assets/images/notionworx-inventory/10x10/premium-aluminum-tent-frame-black/02.jpg",
     "images": [
@@ -6621,6 +15922,9 @@ export const storefrontProducts = [
   },
   {
     "id": 121,
+    "sourceProductId": 8229364727943,
+    "sourceHandle": "premium-angled-flags",
+    "sourceSlug": "premium-angled-flags",
     "img": "/assets/images/notionworx-inventory/flags/premium-angled-flags/01.jpg",
     "imgHover": "/assets/images/notionworx-inventory/flags/premium-angled-flags/02.jpg",
     "images": [
@@ -6684,6 +15988,9 @@ export const storefrontProducts = [
   },
   {
     "id": 122,
+    "sourceProductId": 8229364826247,
+    "sourceHandle": "premium-blade-flags",
+    "sourceSlug": "premium-blade-flags",
     "img": "/assets/images/notionworx-inventory/flags/premium-blade-flags/01.jpg",
     "imgHover": "/assets/images/notionworx-inventory/flags/premium-blade-flags/02.jpg",
     "images": [
@@ -6750,6 +16057,9 @@ export const storefrontProducts = [
   },
   {
     "id": 123,
+    "sourceProductId": 8229364629639,
+    "sourceHandle": "premium-concave-flags",
+    "sourceSlug": "premium-concave-flags",
     "img": "/assets/images/notionworx-inventory/flags/premium-concave-flags/01.jpg",
     "imgHover": "/assets/images/notionworx-inventory/flags/premium-concave-flags/02.jpg",
     "images": [
@@ -6817,6 +16127,9 @@ export const storefrontProducts = [
   },
   {
     "id": 124,
+    "sourceProductId": 8229364695175,
+    "sourceHandle": "premium-convex-flags",
+    "sourceSlug": "premium-convex-flags",
     "img": "/assets/images/notionworx-inventory/flags/premium-convex-flags/01.jpg",
     "imgHover": "/assets/images/notionworx-inventory/flags/premium-convex-flags/02.jpg",
     "images": [
@@ -6880,6 +16193,9 @@ export const storefrontProducts = [
   },
   {
     "id": 125,
+    "sourceProductId": 8227674685575,
+    "sourceHandle": "premium-fitted-table-cover-full-color-dye-sublimation-full-bleed",
+    "sourceSlug": "premium-fitted-table-cover-full-color-dye-sublimation-full-bleed",
     "img": "/assets/images/notionworx-inventory/table-cover/premium-fitted-table-cover-full-color-dye-sublimation-full-bleed/01.jpg",
     "imgHover": "/assets/images/notionworx-inventory/table-cover/premium-fitted-table-cover-full-color-dye-sublimation-full-bleed/02.png",
     "images": [
@@ -6934,6 +16250,9 @@ export const storefrontProducts = [
   },
   {
     "id": 126,
+    "sourceProductId": 8229364793479,
+    "sourceHandle": "premium-rectangle-flags",
+    "sourceSlug": "premium-rectangle-flags",
     "img": "/assets/images/notionworx-inventory/flags/premium-rectangle-flags/01.jpg",
     "imgHover": "/assets/images/notionworx-inventory/flags/premium-rectangle-flags/02.jpg",
     "images": [
@@ -7000,6 +16319,9 @@ export const storefrontProducts = [
   },
   {
     "id": 127,
+    "sourceProductId": 8227678158983,
+    "sourceHandle": "premium-retractable-36",
+    "sourceSlug": "premium-retractable-36",
     "img": "/assets/images/notionworx-inventory/trade-show-display/premium-retractable-36/01.jpg",
     "imgHover": "/assets/images/notionworx-inventory/trade-show-display/premium-retractable-36/02.jpg",
     "images": [
@@ -7072,6 +16394,9 @@ export const storefrontProducts = [
   },
   {
     "id": 128,
+    "sourceProductId": 8229364662407,
+    "sourceHandle": "premium-straight-flags",
+    "sourceSlug": "premium-straight-flags",
     "img": "/assets/images/notionworx-inventory/flags/premium-straight-flags/01.jpg",
     "imgHover": "/assets/images/notionworx-inventory/flags/premium-straight-flags/02.jpg",
     "images": [
@@ -7135,6 +16460,9 @@ export const storefrontProducts = [
   },
   {
     "id": 129,
+    "sourceProductId": 8229364760711,
+    "sourceHandle": "premium-teardrop-flags",
+    "sourceSlug": "premium-teardrop-flags",
     "img": "/assets/images/notionworx-inventory/flags/premium-teardrop-flags/01.jpg",
     "imgHover": "/assets/images/notionworx-inventory/flags/premium-teardrop-flags/02.jpg",
     "images": [
@@ -7201,6 +16529,9 @@ export const storefrontProducts = [
   },
   {
     "id": 130,
+    "sourceProductId": 8227681403015,
+    "sourceHandle": "premium-universal-flag-fiberglass-pole-s",
+    "sourceSlug": "premium-universal-flag-fiberglass-pole-s",
     "img": "/assets/images/notionworx-inventory/flags/premium-universal-flag-fiberglass-pole-s/01.jpg",
     "imgHover": "/assets/images/notionworx-inventory/flags/premium-universal-flag-fiberglass-pole-s/01.jpg",
     "images": [
@@ -7242,6 +16573,9 @@ export const storefrontProducts = [
   },
   {
     "id": 131,
+    "sourceProductId": 8227678322823,
+    "sourceHandle": "premium-x-base",
+    "sourceSlug": "premium-x-base",
     "img": "/assets/images/notionworx-inventory/flags/premium-x-base/01.jpg",
     "imgHover": "/assets/images/notionworx-inventory/flags/premium-x-base/02.jpg",
     "images": [
@@ -7287,6 +16621,9 @@ export const storefrontProducts = [
   },
   {
     "id": 132,
+    "sourceProductId": 8227680714887,
+    "sourceHandle": "racerback-tank-full-dye-sublimation-500031",
+    "sourceSlug": "racerback-tank-full-dye-sublimation-500031",
     "img": "/assets/images/notionworx-inventory/apparel/racerback-tank-full-dye-sublimation-500031/01.jpg",
     "imgHover": "/assets/images/notionworx-inventory/apparel/racerback-tank-full-dye-sublimation-500031/01.jpg",
     "images": [
@@ -7324,6 +16661,9 @@ export const storefrontProducts = [
   },
   {
     "id": 133,
+    "sourceProductId": 8227678257287,
+    "sourceHandle": "retractable-banner-stand",
+    "sourceSlug": "retractable-banner-stand",
     "img": "/assets/images/notionworx-inventory/trade-show-display/retractable-banner-stand/01.jpg",
     "imgHover": "/assets/images/notionworx-inventory/trade-show-display/retractable-banner-stand/02.jpg",
     "images": [
@@ -7373,6 +16713,9 @@ export const storefrontProducts = [
   },
   {
     "id": 134,
+    "sourceProductId": 8227680288903,
+    "sourceHandle": "reversible-jersey-full-dye-sublimation",
+    "sourceSlug": "reversible-jersey-full-dye-sublimation",
     "img": "/assets/images/notionworx-inventory/apparel/reversible-jersey-full-dye-sublimation/01.jpg",
     "imgHover": "/assets/images/notionworx-inventory/apparel/reversible-jersey-full-dye-sublimation/02.jpg",
     "images": [
@@ -7433,6 +16776,9 @@ export const storefrontProducts = [
   },
   {
     "id": 135,
+    "sourceProductId": 8227680452743,
+    "sourceHandle": "ropes-stakes-4pcs",
+    "sourceSlug": "ropes-stakes-4pcs",
     "img": "/assets/images/notionworx-inventory/uncategorized/ropes-stakes-4pcs/01.jpg",
     "imgHover": "/assets/images/notionworx-inventory/uncategorized/ropes-stakes-4pcs/01.jpg",
     "images": [
@@ -7467,6 +16813,9 @@ export const storefrontProducts = [
   },
   {
     "id": 136,
+    "sourceProductId": 8525433503879,
+    "sourceHandle": "sandbag-ballast-kit-for-event-tent-legs-set-of-four",
+    "sourceSlug": "sandbag-ballast-kit-for-event-tent-legs-set-of-four",
     "img": "/assets/images/notionworx-inventory/accesories/sandbag-ballast-kit-for-event-tent-legs-set-of-four/01.jpg",
     "imgHover": "/assets/images/notionworx-inventory/accesories/sandbag-ballast-kit-for-event-tent-legs-set-of-four/02.jpg",
     "images": [
@@ -7513,6 +16862,9 @@ export const storefrontProducts = [
   },
   {
     "id": 137,
+    "sourceProductId": 8227680354439,
+    "sourceHandle": "short-sleeve-crew-neck-full-dye-sublimation",
+    "sourceSlug": "short-sleeve-crew-neck-full-dye-sublimation",
     "img": "/assets/images/notionworx-inventory/apparel/short-sleeve-crew-neck-full-dye-sublimation/01.jpg",
     "imgHover": "/assets/images/notionworx-inventory/apparel/short-sleeve-crew-neck-full-dye-sublimation/01.jpg",
     "images": [
@@ -7570,6 +16922,9 @@ export const storefrontProducts = [
   },
   {
     "id": 138,
+    "sourceProductId": 8227679928455,
+    "sourceHandle": "short-sleeve-hoodie-t-shirst-full-dye-sublimation-500038",
+    "sourceSlug": "short-sleeve-hoodie-t-shirst-full-dye-sublimation-500038",
     "img": "/assets/images/notionworx-inventory/apparel/short-sleeve-hoodie-t-shirst-full-dye-sublimation-500038/01.png",
     "imgHover": "/assets/images/notionworx-inventory/apparel/short-sleeve-hoodie-t-shirst-full-dye-sublimation-500038/01.png",
     "images": [
@@ -7627,6 +16982,9 @@ export const storefrontProducts = [
   },
   {
     "id": 139,
+    "sourceProductId": 8227682877575,
+    "sourceHandle": "short-sleeve-v-neck-full-dye-sublimation",
+    "sourceSlug": "short-sleeve-v-neck-full-dye-sublimation",
     "img": "/assets/images/notionworx-inventory/apparel/short-sleeve-v-neck-full-dye-sublimation/01.jpg",
     "imgHover": "/assets/images/notionworx-inventory/apparel/short-sleeve-v-neck-full-dye-sublimation/02.jpg",
     "images": [
@@ -7687,6 +17045,9 @@ export const storefrontProducts = [
   },
   {
     "id": 140,
+    "sourceProductId": 8227678781575,
+    "sourceHandle": "sleeveless-hoodie-full-dye-sublimation-500053",
+    "sourceSlug": "sleeveless-hoodie-full-dye-sublimation-500053",
     "img": "/assets/images/notionworx-inventory/apparel/sleeveless-hoodie-full-dye-sublimation-500053/01.jpg",
     "imgHover": "/assets/images/notionworx-inventory/apparel/sleeveless-hoodie-full-dye-sublimation-500053/01.jpg",
     "images": [
@@ -7744,6 +17105,9 @@ export const storefrontProducts = [
   },
   {
     "id": 141,
+    "sourceProductId": 8227682943111,
+    "sourceHandle": "sport-polo-shirt-full-sublimation",
+    "sourceSlug": "sport-polo-shirt-full-sublimation",
     "img": "/assets/images/notionworx-inventory/apparel/sport-polo-shirt-full-sublimation/01.png",
     "imgHover": "/assets/images/notionworx-inventory/apparel/sport-polo-shirt-full-sublimation/02.png",
     "images": [
@@ -7810,6 +17174,9 @@ export const storefrontProducts = [
   },
   {
     "id": 142,
+    "sourceProductId": 8227673833607,
+    "sourceHandle": "step-and-repeat-backdrop-copy",
+    "sourceSlug": "step-and-repeat-backdrop-copy",
     "img": "/assets/images/notionworx-inventory/trade-show-display/step-and-repeat-backdrop-copy/01.jpg",
     "imgHover": "/assets/images/notionworx-inventory/trade-show-display/step-and-repeat-backdrop-copy/02.jpg",
     "images": [
@@ -7873,6 +17240,9 @@ export const storefrontProducts = [
   },
   {
     "id": 143,
+    "sourceProductId": 8227674652807,
+    "sourceHandle": "stretch-table-cover",
+    "sourceSlug": "stretch-table-cover",
     "img": "/assets/images/notionworx-inventory/table-cover/stretch-table-cover/01.jpg",
     "imgHover": "/assets/images/notionworx-inventory/table-cover/stretch-table-cover/02.jpg",
     "images": [
@@ -7939,6 +17309,9 @@ export const storefrontProducts = [
   },
   {
     "id": 144,
+    "sourceProductId": 8227675504775,
+    "sourceHandle": "sublimated-beach-fleece-blanket-30-x-60",
+    "sourceSlug": "sublimated-beach-fleece-blanket-30-x-60",
     "img": "/assets/images/notionworx-inventory/towel-blanket/sublimated-beach-fleece-blanket-30-x-60/01.jpg",
     "imgHover": "/assets/images/notionworx-inventory/towel-blanket/sublimated-beach-fleece-blanket-30-x-60/02.jpg",
     "images": [
@@ -7990,6 +17363,9 @@ export const storefrontProducts = [
   },
   {
     "id": 145,
+    "sourceProductId": 8227675472007,
+    "sourceHandle": "sublimated-beach-fleece-blanket-50-x-60",
+    "sourceSlug": "sublimated-beach-fleece-blanket-50-x-60",
     "img": "/assets/images/notionworx-inventory/towel-blanket/sublimated-beach-fleece-blanket-50-x-60/01.jpg",
     "imgHover": "/assets/images/notionworx-inventory/towel-blanket/sublimated-beach-fleece-blanket-50-x-60/02.jpg",
     "images": [
@@ -8041,6 +17417,9 @@ export const storefrontProducts = [
   },
   {
     "id": 146,
+    "sourceProductId": 8227675439239,
+    "sourceHandle": "sublimated-beach-fleece-blanket-60-x-80",
+    "sourceSlug": "sublimated-beach-fleece-blanket-60-x-80",
     "img": "/assets/images/notionworx-inventory/towel-blanket/sublimated-beach-fleece-blanket-60-x-80/01.jpg",
     "imgHover": "/assets/images/notionworx-inventory/towel-blanket/sublimated-beach-fleece-blanket-60-x-80/02.jpg",
     "images": [
@@ -8092,6 +17471,9 @@ export const storefrontProducts = [
   },
   {
     "id": 147,
+    "sourceProductId": 8227675635847,
+    "sourceHandle": "sublimated-bucket-hat",
+    "sourceSlug": "sublimated-bucket-hat",
     "img": "/assets/images/notionworx-inventory/headwear/sublimated-bucket-hat/01.jpg",
     "imgHover": "/assets/images/notionworx-inventory/headwear/sublimated-bucket-hat/02.jpg",
     "images": [
@@ -8142,6 +17524,9 @@ export const storefrontProducts = [
   },
   {
     "id": 148,
+    "sourceProductId": 8227675406471,
+    "sourceHandle": "sublimated-fleece-blanket",
+    "sourceSlug": "sublimated-fleece-blanket",
     "img": "/assets/images/notionworx-inventory/towel-blanket/sublimated-fleece-blanket/01.png",
     "imgHover": "/assets/images/notionworx-inventory/towel-blanket/sublimated-fleece-blanket/02.png",
     "images": [
@@ -8204,6 +17589,9 @@ export const storefrontProducts = [
   },
   {
     "id": 149,
+    "sourceProductId": 8227678879879,
+    "sourceHandle": "sweatshirt-full-dye-sublimated-500019",
+    "sourceSlug": "sweatshirt-full-dye-sublimated-500019",
     "img": "/assets/images/notionworx-inventory/apparel/sweatshirt-full-dye-sublimated-500019/01.jpg",
     "imgHover": "/assets/images/notionworx-inventory/apparel/sweatshirt-full-dye-sublimated-500019/02.jpg",
     "images": [
@@ -8260,6 +17648,9 @@ export const storefrontProducts = [
   },
   {
     "id": 150,
+    "sourceProductId": 8227674030215,
+    "sourceHandle": "table-runner",
+    "sourceSlug": "table-runner",
     "img": "/assets/images/notionworx-inventory/table-cover/table-runner/01.jpg",
     "imgHover": "/assets/images/notionworx-inventory/table-cover/table-runner/01.jpg",
     "images": [
@@ -8311,6 +17702,9 @@ export const storefrontProducts = [
   },
   {
     "id": 151,
+    "sourceProductId": 8227681370247,
+    "sourceHandle": "tent-frame-roller-bag-carry-case",
+    "sourceSlug": "tent-frame-roller-bag-carry-case",
     "img": "/assets/images/notionworx-inventory/10x10/tent-frame-roller-bag-carry-case/01.jpg",
     "imgHover": "/assets/images/notionworx-inventory/10x10/tent-frame-roller-bag-carry-case/02.jpg",
     "images": [
@@ -8356,6 +17750,9 @@ export const storefrontProducts = [
   },
   {
     "id": 152,
+    "sourceProductId": 8227670392967,
+    "sourceHandle": "tent-leg-cover",
+    "sourceSlug": "tent-leg-cover",
     "img": "/assets/images/notionworx-inventory/tent/tent-leg-cover/01.jpg",
     "imgHover": "/assets/images/notionworx-inventory/tent/tent-leg-cover/01.jpg",
     "images": [
@@ -8402,6 +17799,9 @@ export const storefrontProducts = [
   },
   {
     "id": 153,
+    "sourceProductId": 8227670425735,
+    "sourceHandle": "tent-quarter-wall-dye-sublimated",
+    "sourceSlug": "tent-quarter-wall-dye-sublimated",
     "img": "/assets/images/notionworx-inventory/tent/tent-quarter-wall-dye-sublimated/01.jpg",
     "imgHover": "/assets/images/notionworx-inventory/tent/tent-quarter-wall-dye-sublimated/01.jpg",
     "images": [
@@ -8451,6 +17851,9 @@ export const storefrontProducts = [
   },
   {
     "id": 154,
+    "sourceProductId": 8250396508295,
+    "sourceHandle": "trade-show-essential-10x10-custom-canopy-tent-10-13",
+    "sourceSlug": "trade-show-essential-10x10-custom-canopy-tent-10-13",
     "img": "/assets/images/notionworx-inventory/trade-show-essentials/trade-show-essential-10x10-custom-canopy-tent-10-13/01.png",
     "imgHover": "/assets/images/notionworx-inventory/trade-show-essentials/trade-show-essential-10x10-custom-canopy-tent-10-13/02.png",
     "images": [
@@ -8521,6 +17924,285 @@ export const storefrontProducts = [
     "warrantyText": "Factory Warranty\n\n- We stand behind the quality of our products. Our warranty covers any factory defects or damage that occurs during shipping. However, please note that we do not cover damage resulting from extreme weather conditions, misuse, or any circumstances beyond our control.",
     "howToOrderHtml": "<ul>\n  <li>SKU ITEM #: 13-10</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
     "howToOrderText": "- SKU ITEM #: 13-10\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
+    "addOnGroups": [
+      {
+        "id": "accessories",
+        "kind": "accessory",
+        "title": "Accessories",
+        "selectionMode": "multiple",
+        "displayStyle": "grid",
+        "subgroups": [
+          {
+            "id": "table-cover",
+            "title": "Table Cover",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "table-cover-make-it-6ft-fitted-for",
+                "kind": "accessory",
+                "title": "Make It! 6ft Fitted For",
+                "hoverTitle": "Make It! 6ft Fitted For",
+                "hoverDescription": "Table Cover · (+ $10.00)",
+                "price": {
+                  "surcharge": 10,
+                  "label": "(+ $10.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17621993281752.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17621993281752.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "table-cover-make-it-6ft-draped-for",
+                "kind": "accessory",
+                "title": "Make It! 6ft Draped For",
+                "hoverTitle": "Make It! 6ft Draped For",
+                "hoverDescription": "Table Cover · (+ $10.00)",
+                "price": {
+                  "surcharge": 10,
+                  "label": "(+ $10.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17621993467457.webp",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17621993467457.webp",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              }
+            ]
+          },
+          {
+            "id": "feather-flags",
+            "title": "Feather Flags",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "feather-flags-make-it-15ft-stand-alone-flag-w-cross-base",
+                "kind": "accessory",
+                "title": "Make It! 15ft Stand Alone Flag w/ Cross Base",
+                "hoverTitle": "Make It! 15ft Stand Alone Flag w/ Cross Base",
+                "hoverDescription": "Feather Flags · (+ $20.00)",
+                "price": {
+                  "surcharge": 20,
+                  "label": "(+ $20.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17621997921346.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17621997921346.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              }
+            ]
+          },
+          {
+            "id": "essentials",
+            "title": "Essentials",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "essentials-4-pc-set",
+                "kind": "accessory",
+                "title": "4 Pc Set",
+                "hoverTitle": "4 Pc Set",
+                "hoverDescription": "Essentials · (+ $100.00)",
+                "price": {
+                  "surcharge": 100,
+                  "label": "(+ $100.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "essentials-10ft-billboard",
+                "kind": "accessory",
+                "title": "10ft Billboard",
+                "hoverTitle": "10ft Billboard",
+                "hoverDescription": "Essentials · (+ $285.00)",
+                "price": {
+                  "surcharge": 285,
+                  "label": "(+ $285.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17631441145412.jpg",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17631441145412.jpg",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "essentials-10ft-counter-top-w-vinyl-banner",
+                "kind": "accessory",
+                "title": "10ft Counter Top w/ Vinyl Banner",
+                "hoverTitle": "10ft Counter Top w/ Vinyl Banner",
+                "hoverDescription": "Essentials · (+ $550.00)",
+                "price": {
+                  "surcharge": 550,
+                  "label": "(+ $550.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17631441221898.jpg",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17631441221898.jpg",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "essentials-led-ligths",
+                "kind": "accessory",
+                "title": "LED Ligths",
+                "hoverTitle": "LED Ligths",
+                "hoverDescription": "Essentials · (+ $219.00)",
+                "price": {
+                  "surcharge": 219,
+                  "label": "(+ $219.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649559669405.jpg",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649559669405.jpg",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "essentials-10ft-awning",
+                "kind": "accessory",
+                "title": "10ft Awning",
+                "hoverTitle": "10ft Awning",
+                "hoverDescription": "Essentials · (+ $235.00)",
+                "price": {
+                  "surcharge": 235,
+                  "label": "(+ $235.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17667856759440.jpg",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17667856759440.jpg",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "upgrades",
+        "kind": "upgrade",
+        "title": "Upgrades",
+        "selectionMode": "multiple",
+        "displayStyle": "grid",
+        "subgroups": [
+          {
+            "id": "vented-top",
+            "title": "Vented Top",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "vented-top-vent",
+                "kind": "upgrade",
+                "title": "Vent",
+                "hoverTitle": "Vent",
+                "hoverDescription": "Vented Top · (+ $50.00)",
+                "price": {
+                  "surcharge": 50,
+                  "label": "(+ $50.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616168217885.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616168217885.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              }
+            ]
+          },
+          {
+            "id": "double-sided-walls",
+            "title": "Double-Sided Walls",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "double-sided-walls-double-sided-back-wall",
+                "kind": "upgrade",
+                "title": "Double Sided Back Wall",
+                "hoverTitle": "Double Sided Back Wall",
+                "hoverDescription": "Double-Sided Walls · (+ $100.00)",
+                "price": {
+                  "surcharge": 100,
+                  "label": "(+ $100.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "metadata": {
+                  "sourceControlType": "select"
+                }
+              },
+              {
+                "id": "double-sided-walls-double-sided-half-side-walls",
+                "kind": "upgrade",
+                "title": "Double Sided Half Side Walls",
+                "hoverTitle": "Double Sided Half Side Walls",
+                "hoverDescription": "Double-Sided Walls · (+ $150.00)",
+                "price": {
+                  "surcharge": 150,
+                  "label": "(+ $150.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "metadata": {
+                  "sourceControlType": "select"
+                }
+              },
+              {
+                "id": "double-sided-walls-double-sided-back-half-side-walls",
+                "kind": "upgrade",
+                "title": "Double Sided Back & Half Side Walls",
+                "hoverTitle": "Double Sided Back & Half Side Walls",
+                "hoverDescription": "Double-Sided Walls · (+ $250.00)",
+                "price": {
+                  "surcharge": 250,
+                  "label": "(+ $250.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "metadata": {
+                  "sourceControlType": "select"
+                }
+              }
+            ],
+            "description": "Rendered as a dropdown on the source site."
+          }
+        ],
+        "description": "Items marked conditional were hidden by default or gated by other source options."
+      }
+    ],
     "sku": "ITEM #: 13-10",
     "reviewsText": "2 options",
     "soldLabel": "Available to order",
@@ -8529,6 +18211,9 @@ export const storefrontProducts = [
   },
   {
     "id": 155,
+    "sourceProductId": 8250400604295,
+    "sourceHandle": "trade-show-essential-10x10-custom-canopy-tent-13-10a",
+    "sourceSlug": "trade-show-essential-10x10-custom-canopy-tent-13-10a",
     "img": "/assets/images/notionworx-inventory/trade-show-essentials/trade-show-essential-10x10-custom-canopy-tent-13-10a/01.png",
     "imgHover": "/assets/images/notionworx-inventory/trade-show-essentials/trade-show-essential-10x10-custom-canopy-tent-13-10a/02.png",
     "images": [
@@ -8602,6 +18287,285 @@ export const storefrontProducts = [
     "warrantyText": "Factory Warranty\n\n- We stand behind the quality of our products. Our warranty covers any factory defects or damage that occurs during shipping. However, please note that we do not cover damage resulting from extreme weather conditions, misuse, or any circumstances beyond our control.",
     "howToOrderHtml": "<ul>\n  <li>SKU ITEM #: 13-10A</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
     "howToOrderText": "- SKU ITEM #: 13-10A\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
+    "addOnGroups": [
+      {
+        "id": "accessories",
+        "kind": "accessory",
+        "title": "Accessories",
+        "selectionMode": "multiple",
+        "displayStyle": "grid",
+        "subgroups": [
+          {
+            "id": "table-cover",
+            "title": "Table Cover",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "table-cover-make-it-6ft-fitted-for",
+                "kind": "accessory",
+                "title": "Make It! 6ft Fitted For",
+                "hoverTitle": "Make It! 6ft Fitted For",
+                "hoverDescription": "Table Cover · (+ $10.00)",
+                "price": {
+                  "surcharge": 10,
+                  "label": "(+ $10.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17621993281752.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17621993281752.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "table-cover-make-it-6ft-draped-for",
+                "kind": "accessory",
+                "title": "Make It! 6ft Draped For",
+                "hoverTitle": "Make It! 6ft Draped For",
+                "hoverDescription": "Table Cover · (+ $10.00)",
+                "price": {
+                  "surcharge": 10,
+                  "label": "(+ $10.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17621993467457.webp",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17621993467457.webp",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              }
+            ]
+          },
+          {
+            "id": "feather-flags",
+            "title": "Feather Flags",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "feather-flags-make-it-15ft-stand-alone-flag-w-cross-base",
+                "kind": "accessory",
+                "title": "Make It! 15ft Stand Alone Flag w/ Cross Base",
+                "hoverTitle": "Make It! 15ft Stand Alone Flag w/ Cross Base",
+                "hoverDescription": "Feather Flags · (+ $20.00)",
+                "price": {
+                  "surcharge": 20,
+                  "label": "(+ $20.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17621997921346.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17621997921346.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              }
+            ]
+          },
+          {
+            "id": "essentials",
+            "title": "Essentials",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "essentials-4-pc-set",
+                "kind": "accessory",
+                "title": "4 Pc Set",
+                "hoverTitle": "4 Pc Set",
+                "hoverDescription": "Essentials · (+ $100.00)",
+                "price": {
+                  "surcharge": 100,
+                  "label": "(+ $100.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "essentials-10ft-billboard",
+                "kind": "accessory",
+                "title": "10ft Billboard",
+                "hoverTitle": "10ft Billboard",
+                "hoverDescription": "Essentials · (+ $285.00)",
+                "price": {
+                  "surcharge": 285,
+                  "label": "(+ $285.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17631440859014.jpg",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17631440859014.jpg",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "essentials-10ft-counter-top-w-vinyl-banner",
+                "kind": "accessory",
+                "title": "10ft Counter Top w/ Vinyl Banner",
+                "hoverTitle": "10ft Counter Top w/ Vinyl Banner",
+                "hoverDescription": "Essentials · (+ $550.00)",
+                "price": {
+                  "surcharge": 550,
+                  "label": "(+ $550.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17631440933572.jpg",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17631440933572.jpg",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "essentials-led-lights",
+                "kind": "accessory",
+                "title": "LED Lights",
+                "hoverTitle": "LED Lights",
+                "hoverDescription": "Essentials · (+ $219.00)",
+                "price": {
+                  "surcharge": 219,
+                  "label": "(+ $219.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649559858310.jpg",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649559858310.jpg",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "essentials-10ft-awning",
+                "kind": "accessory",
+                "title": "10ft Awning",
+                "hoverTitle": "10ft Awning",
+                "hoverDescription": "Essentials · (+ $235.00)",
+                "price": {
+                  "surcharge": 235,
+                  "label": "(+ $235.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17667856937831.jpg",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17667856937831.jpg",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "upgrades",
+        "kind": "upgrade",
+        "title": "Upgrades",
+        "selectionMode": "multiple",
+        "displayStyle": "grid",
+        "subgroups": [
+          {
+            "id": "vented-top",
+            "title": "Vented Top",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "vented-top-vent",
+                "kind": "upgrade",
+                "title": "Vent",
+                "hoverTitle": "Vent",
+                "hoverDescription": "Vented Top · (+ $50.00)",
+                "price": {
+                  "surcharge": 50,
+                  "label": "(+ $50.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616168217885.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616168217885.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              }
+            ]
+          },
+          {
+            "id": "double-sided-walls",
+            "title": "Double-Sided Walls",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "double-sided-walls-double-sided-back-wall",
+                "kind": "upgrade",
+                "title": "Double Sided Back Wall",
+                "hoverTitle": "Double Sided Back Wall",
+                "hoverDescription": "Double-Sided Walls · (+ $100.00)",
+                "price": {
+                  "surcharge": 100,
+                  "label": "(+ $100.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "metadata": {
+                  "sourceControlType": "select"
+                }
+              },
+              {
+                "id": "double-sided-walls-double-sided-half-side-walls",
+                "kind": "upgrade",
+                "title": "Double Sided Half Side Walls",
+                "hoverTitle": "Double Sided Half Side Walls",
+                "hoverDescription": "Double-Sided Walls · (+ $150.00)",
+                "price": {
+                  "surcharge": 150,
+                  "label": "(+ $150.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "metadata": {
+                  "sourceControlType": "select"
+                }
+              },
+              {
+                "id": "double-sided-walls-double-sided-back-half-side-walls",
+                "kind": "upgrade",
+                "title": "Double Sided Back & Half Side Walls",
+                "hoverTitle": "Double Sided Back & Half Side Walls",
+                "hoverDescription": "Double-Sided Walls · (+ $250.00)",
+                "price": {
+                  "surcharge": 250,
+                  "label": "(+ $250.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "metadata": {
+                  "sourceControlType": "select"
+                }
+              }
+            ],
+            "description": "Rendered as a dropdown on the source site."
+          }
+        ],
+        "description": "Items marked conditional were hidden by default or gated by other source options."
+      }
+    ],
     "sku": "ITEM #: 13-10A",
     "reviewsText": "2 options",
     "soldLabel": "Available to order",
@@ -8610,6 +18574,9 @@ export const storefrontProducts = [
   },
   {
     "id": 156,
+    "sourceProductId": 8258260238471,
+    "sourceHandle": "trade-show-essential-10x15-custom-canopy-tent-14-15",
+    "sourceSlug": "trade-show-essential-10x15-custom-canopy-tent-14-15",
     "img": "/assets/images/notionworx-inventory/trade-show-essentials/trade-show-essential-10x15-custom-canopy-tent-14-15/01.png",
     "imgHover": "/assets/images/notionworx-inventory/trade-show-essentials/trade-show-essential-10x15-custom-canopy-tent-14-15/02.png",
     "images": [
@@ -8670,6 +18637,228 @@ export const storefrontProducts = [
     "warrantyText": "Factory Warranty\n\n- We stand behind the quality of our products. Our warranty covers any factory defects or damage that occurs during shipping. However, please note that we do not cover damage resulting from extreme weather conditions, misuse, or any circumstances beyond our control.",
     "howToOrderHtml": "<ul>\n  <li>SKU ITEM #: 18-15</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
     "howToOrderText": "- SKU ITEM #: 18-15\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
+    "addOnGroups": [
+      {
+        "id": "accessories",
+        "kind": "accessory",
+        "title": "Accessories",
+        "selectionMode": "multiple",
+        "displayStyle": "grid",
+        "subgroups": [
+          {
+            "id": "table-cover",
+            "title": "Table Cover",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "table-cover-make-it-6ft-fitted-for",
+                "kind": "accessory",
+                "title": "Make It! 6ft Fitted For",
+                "hoverTitle": "Make It! 6ft Fitted For",
+                "hoverDescription": "Table Cover · (+ $10.00)",
+                "price": {
+                  "surcharge": 10,
+                  "label": "(+ $10.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17621993281752.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17621993281752.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "table-cover-make-it-6ft-draped-for",
+                "kind": "accessory",
+                "title": "Make It! 6ft Draped For",
+                "hoverTitle": "Make It! 6ft Draped For",
+                "hoverDescription": "Table Cover · (+ $10.00)",
+                "price": {
+                  "surcharge": 10,
+                  "label": "(+ $10.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17621993467457.webp",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17621993467457.webp",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              }
+            ]
+          },
+          {
+            "id": "feather-flags",
+            "title": "Feather Flags",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "feather-flags-make-it-15ft-stand-alone-flag-w-cross-base",
+                "kind": "accessory",
+                "title": "Make It! 15ft Stand Alone Flag w/ Cross Base",
+                "hoverTitle": "Make It! 15ft Stand Alone Flag w/ Cross Base",
+                "hoverDescription": "Feather Flags · (+ $20.00)",
+                "price": {
+                  "surcharge": 20,
+                  "label": "(+ $20.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17621997921346.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17621997921346.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              }
+            ]
+          },
+          {
+            "id": "essentials",
+            "title": "Essentials",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "essentials-4-pc-set",
+                "kind": "accessory",
+                "title": "4 Pc Set",
+                "hoverTitle": "4 Pc Set",
+                "hoverDescription": "Essentials · (+ $100.00)",
+                "price": {
+                  "surcharge": 100,
+                  "label": "(+ $100.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "essentials-led-lights",
+                "kind": "accessory",
+                "title": "LED Lights",
+                "hoverTitle": "LED Lights",
+                "hoverDescription": "Essentials · (+ $219.00)",
+                "price": {
+                  "surcharge": 219,
+                  "label": "(+ $219.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649560043396.jpg",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649560043396.jpg",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "upgrades",
+        "kind": "upgrade",
+        "title": "Upgrades",
+        "selectionMode": "multiple",
+        "displayStyle": "grid",
+        "subgroups": [
+          {
+            "id": "vented-top",
+            "title": "Vented Top",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "vented-top-vent",
+                "kind": "upgrade",
+                "title": "Vent",
+                "hoverTitle": "Vent",
+                "hoverDescription": "Vented Top · (+ $50.00)",
+                "price": {
+                  "surcharge": 50,
+                  "label": "(+ $50.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616168217885.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616168217885.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              }
+            ]
+          },
+          {
+            "id": "double-sided-walls",
+            "title": "Double Sided Walls",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "double-sided-walls-double-sided-15ft-back-wall",
+                "kind": "upgrade",
+                "title": "Double Sided 15ft Back Wall",
+                "hoverTitle": "Double Sided 15ft Back Wall",
+                "hoverDescription": "Double Sided Walls · (+ $130.00)",
+                "price": {
+                  "surcharge": 130,
+                  "label": "(+ $130.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "metadata": {
+                  "sourceControlType": "select"
+                }
+              },
+              {
+                "id": "double-sided-walls-double-sided-half-side-walls",
+                "kind": "upgrade",
+                "title": "Double Sided Half Side Walls",
+                "hoverTitle": "Double Sided Half Side Walls",
+                "hoverDescription": "Double Sided Walls · (+ $150.00)",
+                "price": {
+                  "surcharge": 150,
+                  "label": "(+ $150.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "metadata": {
+                  "sourceControlType": "select"
+                }
+              },
+              {
+                "id": "double-sided-walls-double-sided-15ft-back-wall-half-side-walls",
+                "kind": "upgrade",
+                "title": "Double Sided 15ft Back Wall & Half Side Walls",
+                "hoverTitle": "Double Sided 15ft Back Wall & Half Side Walls",
+                "hoverDescription": "Double Sided Walls · (+ $280.00)",
+                "price": {
+                  "surcharge": 280,
+                  "label": "(+ $280.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "metadata": {
+                  "sourceControlType": "select"
+                }
+              }
+            ],
+            "description": "Rendered as a dropdown on the source site."
+          }
+        ],
+        "description": "Items marked conditional were hidden by default or gated by other source options."
+      }
+    ],
     "sku": "ITEM #: 18-15",
     "reviewsText": "1 option",
     "soldLabel": "Available to order",
@@ -8678,6 +18867,9 @@ export const storefrontProducts = [
   },
   {
     "id": 157,
+    "sourceProductId": 8258263482503,
+    "sourceHandle": "trade-show-essential-10x20-custom-canopy-tent-15-20",
+    "sourceSlug": "trade-show-essential-10x20-custom-canopy-tent-15-20",
     "img": "/assets/images/notionworx-inventory/trade-show-essentials/trade-show-essential-10x20-custom-canopy-tent-15-20/01.png",
     "imgHover": "/assets/images/notionworx-inventory/trade-show-essentials/trade-show-essential-10x20-custom-canopy-tent-15-20/02.jpg",
     "images": [
@@ -8738,6 +18930,228 @@ export const storefrontProducts = [
     "warrantyText": "Factory Warranty\n\n- We stand behind the quality of our products. Our warranty covers any factory defects or damage that occurs during shipping. However, please note that we do not cover damage resulting from extreme weather conditions, misuse, or any circumstances beyond our control.",
     "howToOrderHtml": "<ul>\n  <li>SKU ITEM #:19-20</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
     "howToOrderText": "- SKU ITEM #:19-20\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
+    "addOnGroups": [
+      {
+        "id": "accessories",
+        "kind": "accessory",
+        "title": "Accessories",
+        "selectionMode": "multiple",
+        "displayStyle": "grid",
+        "subgroups": [
+          {
+            "id": "table-cover",
+            "title": "Table Cover",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "table-cover-make-it-6ft-fitted-for",
+                "kind": "accessory",
+                "title": "Make It! 6ft Fitted For",
+                "hoverTitle": "Make It! 6ft Fitted For",
+                "hoverDescription": "Table Cover · (+ $10.00)",
+                "price": {
+                  "surcharge": 10,
+                  "label": "(+ $10.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17621993281752.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17621993281752.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "table-cover-make-it-6ft-draped-for",
+                "kind": "accessory",
+                "title": "Make It! 6ft Draped For",
+                "hoverTitle": "Make It! 6ft Draped For",
+                "hoverDescription": "Table Cover · (+ $10.00)",
+                "price": {
+                  "surcharge": 10,
+                  "label": "(+ $10.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17621993467457.webp",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17621993467457.webp",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              }
+            ]
+          },
+          {
+            "id": "feather-flags",
+            "title": "Feather Flags",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "feather-flags-make-it-15ft-stand-alone-flag-w-cross-base",
+                "kind": "accessory",
+                "title": "Make It! 15ft Stand Alone Flag w/ Cross Base",
+                "hoverTitle": "Make It! 15ft Stand Alone Flag w/ Cross Base",
+                "hoverDescription": "Feather Flags · (+ $20.00)",
+                "price": {
+                  "surcharge": 20,
+                  "label": "(+ $20.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17621997921346.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17621997921346.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              }
+            ]
+          },
+          {
+            "id": "essentials",
+            "title": "Essentials",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "essentials-set-of-6-sandbags",
+                "kind": "accessory",
+                "title": "Set of 6 Sandbags",
+                "hoverTitle": "Set of 6 Sandbags",
+                "hoverDescription": "Essentials · (+ $150.00)",
+                "price": {
+                  "surcharge": 150,
+                  "label": "(+ $150.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17622013249179.jpg",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17622013249179.jpg",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              },
+              {
+                "id": "essentials-led-lights",
+                "kind": "accessory",
+                "title": "LED Lights",
+                "hoverTitle": "LED Lights",
+                "hoverDescription": "Essentials · (+ $219.00)",
+                "price": {
+                  "surcharge": 219,
+                  "label": "(+ $219.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649560171625.jpg",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649560171625.jpg",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "upgrades",
+        "kind": "upgrade",
+        "title": "Upgrades",
+        "selectionMode": "multiple",
+        "displayStyle": "grid",
+        "subgroups": [
+          {
+            "id": "vented-top",
+            "title": "Vented Top",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "vented-top-vent",
+                "kind": "upgrade",
+                "title": "Vent",
+                "hoverTitle": "Vent",
+                "hoverDescription": "Vented Top · (+ $50.00)",
+                "price": {
+                  "surcharge": 50,
+                  "label": "(+ $50.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616168217885.png",
+                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616168217885.png",
+                "metadata": {
+                  "sourceControlType": "image-swatches"
+                }
+              }
+            ]
+          },
+          {
+            "id": "double-sided-walls",
+            "title": "Double Sided Walls",
+            "selectionMode": "single",
+            "items": [
+              {
+                "id": "double-sided-walls-double-sided-20ft-back-wall",
+                "kind": "upgrade",
+                "title": "Double Sided 20ft Back Wall",
+                "hoverTitle": "Double Sided 20ft Back Wall",
+                "hoverDescription": "Double Sided Walls · (+ $140.00)",
+                "price": {
+                  "surcharge": 140,
+                  "label": "(+ $140.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "metadata": {
+                  "sourceControlType": "select"
+                }
+              },
+              {
+                "id": "double-sided-walls-double-sided-half-side-walls",
+                "kind": "upgrade",
+                "title": "Double Sided Half Side Walls",
+                "hoverTitle": "Double Sided Half Side Walls",
+                "hoverDescription": "Double Sided Walls · (+ $150.00)",
+                "price": {
+                  "surcharge": 150,
+                  "label": "(+ $150.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "metadata": {
+                  "sourceControlType": "select"
+                }
+              },
+              {
+                "id": "double-sided-walls-double-sided-20ft-back-wall-half-side-walls",
+                "kind": "upgrade",
+                "title": "Double Sided 20ft Back Wall & Half Side Walls",
+                "hoverTitle": "Double Sided 20ft Back Wall & Half Side Walls",
+                "hoverDescription": "Double Sided Walls · (+ $290.00)",
+                "price": {
+                  "surcharge": 290,
+                  "label": "(+ $290.00)"
+                },
+                "allowsQuantity": true,
+                "minQuantity": 1,
+                "step": 1,
+                "metadata": {
+                  "sourceControlType": "select"
+                }
+              }
+            ],
+            "description": "Rendered as a dropdown on the source site."
+          }
+        ],
+        "description": "Items marked conditional were hidden by default or gated by other source options."
+      }
+    ],
     "sku": "ITEM #:19-20",
     "reviewsText": "1 option",
     "soldLabel": "Available to order",
@@ -8746,6 +19160,9 @@ export const storefrontProducts = [
   },
   {
     "id": 158,
+    "sourceProductId": 8227678912647,
+    "sourceHandle": "tradition-pullover-lace-hoodie-dna-stretch",
+    "sourceSlug": "tradition-pullover-lace-hoodie-dna-stretch",
     "img": "/assets/images/notionworx-inventory/apparel/tradition-pullover-lace-hoodie-dna-stretch/01.jpg",
     "imgHover": "/assets/images/notionworx-inventory/apparel/tradition-pullover-lace-hoodie-dna-stretch/02.webp",
     "images": [
@@ -8807,6 +19224,9 @@ export const storefrontProducts = [
   },
   {
     "id": 159,
+    "sourceProductId": 8227679993991,
+    "sourceHandle": "tropical-print-shirt-full-dye-sublimation-500036",
+    "sourceSlug": "tropical-print-shirt-full-dye-sublimation-500036",
     "img": "/assets/images/notionworx-inventory/apparel/tropical-print-shirt-full-dye-sublimation-500036/01.jpg",
     "imgHover": "/assets/images/notionworx-inventory/apparel/tropical-print-shirt-full-dye-sublimation-500036/02.jpg",
     "images": [
@@ -8865,6 +19285,9 @@ export const storefrontProducts = [
   },
   {
     "id": 160,
+    "sourceProductId": 8227678224519,
+    "sourceHandle": "x-stand",
+    "sourceSlug": "x-stand",
     "img": "/assets/images/notionworx-inventory/trade-show-display/x-stand/01.png",
     "imgHover": "/assets/images/notionworx-inventory/trade-show-display/x-stand/01.png",
     "images": [

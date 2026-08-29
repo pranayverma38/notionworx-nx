@@ -4,6 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { useMemo, useState } from "react";
 
+import CartAddOnSummary from "@/components/common/CartAddOnSummary";
 import { useContextElement, type CartProduct } from "@/context/Context";
 import type { ProductId } from "@/context/store";
 import { products } from "@/data/products/products";
@@ -20,7 +21,7 @@ export default function Cart({
 }: {
   registerOffcanvasElement?: (el: HTMLElement | null) => void;
 }) {
-  const { cartProducts, setCartProducts, updateQuantity, totalPrice, removeFromCart } =
+  const { cartProducts, updateQuantity, totalPrice, removeFromCart } =
     useContextElement();
   const [showRecommendations, setShowRecommendations] = useState(true);
   const [activeTool, setActiveTool] = useState<
@@ -176,12 +177,12 @@ export default function Cart({
                       </div>
                     </div>
                   ) : (
-                    cartProducts.map((item, i) => (
+                    cartProducts.map((item) => (
                       <CartMiniLine
-                        key={i}
+                        key={item.configurationKey}
                         item={item}
-                        onRemove={() => removeLine(item.id)}
-                        onQtyChange={(qty) => setQty(item.id, qty)}
+                        onRemove={() => removeLine(item.configurationKey)}
+                        onQtyChange={(qty) => setQty(item.configurationKey, qty)}
                       />
                     ))
                   )}
@@ -284,6 +285,7 @@ function CartMiniLine({
             <span className="fw-medium">{sizeLabel}</span>
           </div>
         ) : null}
+        <CartAddOnSummary item={item} />
       </div>
       <div className="tf-mini-cart-price">
         <button
