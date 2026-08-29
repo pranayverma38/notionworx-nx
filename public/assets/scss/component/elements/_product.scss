@@ -1954,7 +1954,7 @@
   box-shadow: 0 -8px 24px rgba(16, 16, 16, 0.08);
   background-color: var(--white);
   border-top: 1px solid var(--line);
-  transition: all 0.3s linear;
+  transition: transform 0.3s linear;
   transform: translateY(100%);
 
   .tf-height-observer {

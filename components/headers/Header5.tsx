@@ -12,7 +12,6 @@ import HeaderServiceHighlights from "./HeaderServiceHighlights";
 
 export default function Header5() {
   const {
-    showHeaderBottom,
     headerStyle,
     stickyHeaderClassName,
   } = useStickyCategoryHeader({ hiddenTop: "-200px" });
@@ -94,27 +93,25 @@ export default function Header5() {
           <HeaderServiceHighlights compact />
         </div>
       </div>
-      {showHeaderBottom ? (
-        <div className={`header-bottom_wrap d-none d-xl-block`}>
-          <div className="container">
-            <div className="header-bottom">
-              <div className="col-left">
-                <div className="nav-category-wrap main-action-active">
-                  <BrowseByCategoryNav
-                    hasRadiusBtn
-                    hasRadiusBox
-                    hasHubbergBtn={false}
-                  />
-                </div>
+      <div className="header-bottom_wrap d-none d-xl-block">
+        <div className="container">
+          <div className="header-bottom">
+            <div className="col-left">
+              <div className="nav-category-wrap main-action-active">
+                <BrowseByCategoryNav
+                  hasRadiusBtn
+                  hasRadiusBox
+                  hasHubbergBtn={false}
+                />
               </div>
-              <div className="col-center">
-                <HeaderServiceHighlights />
-              </div>
-              <div className="col-right" />
             </div>
+            <div className="col-center">
+              <HeaderServiceHighlights />
+            </div>
+            <div className="col-right" />
           </div>
         </div>
-      ) : null}
+      </div>
     </header>
   );
 }

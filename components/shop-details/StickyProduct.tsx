@@ -45,9 +45,14 @@ export default function StickyProduct() {
 
   useEffect(() => {
     const handleScroll = () => {
-      setIsVisible(window.scrollY > window.innerHeight);
+      const nextVisible = window.scrollY > window.innerHeight;
+      setIsVisible((current) =>
+        current === nextVisible ? current : nextVisible,
+      );
     };
-    window.addEventListener("scroll", handleScroll);
+
+    handleScroll();
+    window.addEventListener("scroll", handleScroll, { passive: true });
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
@@ -88,9 +93,25 @@ export default function StickyProduct() {
 
   const handleAddToCart = () => {
     if (hasAddOnGroups) {
-      document
-        .getElementById("product-addons-form")
-        ?.scrollIntoView({ behavior: "smooth", block: "start" });
+      const addOnSection = document.getElementById("product-addons-form");
+      const header = document.querySelector("header.tf-header");
+
+      if (!addOnSection) {
+        return;
+      }
+
+      const headerHeight =
+        header instanceof HTMLElement ? header.getBoundingClientRect().height : 0;
+      const targetTop =
+        window.scrollY +
+        addOnSection.getBoundingClientRect().top -
+        headerHeight -
+        20;
+
+      window.scrollTo({
+        top: Math.max(0, targetTop),
+        behavior: "auto",
+      });
       return;
     }
 

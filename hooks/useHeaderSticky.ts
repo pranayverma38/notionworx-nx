@@ -2,10 +2,13 @@ import { useEffect, useRef, useState } from "react";
 
 const DEFAULT_THRESHOLD = 250;
 const SCROLL_DIRECTION_DEADZONE = 6;
+const SHOW_STICKY_AFTER_SCROLL_UP = 36;
+const HIDE_STICKY_AFTER_SCROLL_DOWN = 24;
 
 /**
  * Adds `header-sticky` behavior: true when scrollY > threshold and user scrolls up.
- * Small scroll deltas are ignored to avoid sticky-state flicker on trackpads.
+ * Small scroll deltas are ignored, and direction changes must accumulate a bit
+ * before the state flips so the header doesn't chatter on trackpads/smooth scroll.
  */
 export function useHeaderSticky(threshold: number = DEFAULT_THRESHOLD) {
   const [isSticky, setIsSticky] = useState(false);
@@ -15,11 +18,12 @@ export function useHeaderSticky(threshold: number = DEFAULT_THRESHOLD) {
   useEffect(() => {
     lastScrollY.current = window.scrollY;
     stickyRef.current = false;
+    let upwardDistance = 0;
+    let downwardDistance = 0;
 
     const onScroll = () => {
       const y = window.scrollY;
       const delta = y - lastScrollY.current;
-      const scrollingUp = delta < 0;
 
       if (Math.abs(delta) < SCROLL_DIRECTION_DEADZONE) {
         return;
@@ -28,6 +32,8 @@ export function useHeaderSticky(threshold: number = DEFAULT_THRESHOLD) {
       lastScrollY.current = y;
 
       if (y <= threshold) {
+        upwardDistance = 0;
+        downwardDistance = 0;
         if (stickyRef.current) {
           stickyRef.current = false;
           setIsSticky(false);
@@ -35,14 +41,30 @@ export function useHeaderSticky(threshold: number = DEFAULT_THRESHOLD) {
         return;
       }
 
-      if (scrollingUp && !stickyRef.current) {
-        stickyRef.current = true;
-        setIsSticky(true);
+      if (delta < 0) {
+        downwardDistance = 0;
+        upwardDistance += Math.abs(delta);
+
+        if (
+          !stickyRef.current &&
+          upwardDistance >= SHOW_STICKY_AFTER_SCROLL_UP
+        ) {
+          stickyRef.current = true;
+          upwardDistance = 0;
+          setIsSticky(true);
+        }
         return;
       }
 
-      if (!scrollingUp && stickyRef.current) {
+      upwardDistance = 0;
+      downwardDistance += delta;
+
+      if (
+        stickyRef.current &&
+        downwardDistance >= HIDE_STICKY_AFTER_SCROLL_DOWN
+      ) {
         stickyRef.current = false;
+        downwardDistance = 0;
         setIsSticky(false);
       }
     };
