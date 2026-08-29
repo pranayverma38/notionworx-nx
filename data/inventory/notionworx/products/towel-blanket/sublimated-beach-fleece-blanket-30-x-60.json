@@ -16,8 +16,8 @@
       "title": "TOWEL & BLANKET"
     }
   ],
-  "descriptionHtml": "<p>full-color, edge-to-edge sublimated fleece blanket.\u00a0</p>\n<p><span>Included:</span></p>\n<div>\n<ul>\n<li>Full color sublimated design</li>\n</ul>\n<p><span>Specifications:\u00a0</span></p>\n<p><span color=\"#636363\" style=\"color: #636363;\">Size: 30\" x 60\"\u00a0<br></span><span color=\"#636363\" style=\"color: #636363;\">Weight: 1 lb</span>\u00a0</p>\n<p><span>moisture wicking fabric</span></p>\n\n</div>",
-  "descriptionText": "full-color, edge-to-edge sublimated fleece blanket.\nIncluded:\nFull color sublimated design\nSpecifications:\nSize: 30\" x 60\"\nWeight: 1 lb\nmoisture wicking fabric",
+  "descriptionHtml": "<p><a href=\"https://displaytemplate.s3.us-west-2.amazonaws.com/Apparel/Blanket+30in+x60in.pdf\">Download Template</a></p>\n<p>full-color, edge-to-edge sublimated fleece blanket.</p>\n<p>Included:</p>\n<ul>\n  <li>Full color sublimated design</li>\n</ul>\n<p>Specifications:</p>\n<p>Size: 30&quot; x 60&quot;<br>Weight: 1 lb</p>\n<p>moisture wicking fabric</p>\n<p><img src=\"https://cdn.shopify.com/s/files/1/1564/9941/files/WechatIMG9586_480x480.jpg?v=1650622776\" alt=\"\"></p>",
+  "descriptionText": "Download Template (https://displaytemplate.s3.us-west-2.amazonaws.com/Apparel/Blanket+30in+x60in.pdf)\n\nfull-color, edge-to-edge sublimated fleece blanket.\n\nIncluded:\n\n- Full color sublimated design\n\nSpecifications:\n\nSize: 30\" x 60\"\nWeight: 1 lb\n\nmoisture wicking fabric\n\nhttps://cdn.shopify.com/s/files/1/1564/9941/files/WechatIMG9586_480x480.jpg?v=1650622776",
   "tags": [],
   "skus": [
     "500048"
@@ -94,5 +94,7 @@
   ],
   "createdAt": "2025-09-25T12:36:24-06:00",
   "updatedAt": "2026-08-18T21:26:03-06:00",
-  "publishedAt": "2025-09-28T21:05:37-06:00"
+  "publishedAt": "2025-09-28T21:05:37-06:00",
+  "howToOrderHtml": "<ul>\n  <li>SKU 500048</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
+  "howToOrderText": "- SKU 500048\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you."
 }
