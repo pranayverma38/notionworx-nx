@@ -244,6 +244,52 @@
   "products": {
     "10ft-back-wall": [
       {
+        "id": "supplied-frame-by-customer",
+        "kind": "upgrade",
+        "title": "Supplied Frame By Customer",
+        "selectionMode": "single",
+        "displayStyle": "grid",
+        "items": [
+          {
+            "id": "supplied-frame-by-customer-hex-aluminum",
+            "kind": "upgrade",
+            "title": "Hex Aluminum",
+            "hoverTitle": "Hex Aluminum",
+            "hoverDescription": "Frame Type",
+            "price": {
+              "surcharge": 0.0,
+              "label": "Included"
+            },
+            "allowsQuantity": false,
+            "minQuantity": 1,
+            "step": 1,
+            "metadata": {
+              "sourceControlType": "radio",
+              "sourceFieldName": "Setup - Frame Type"
+            }
+          },
+          {
+            "id": "supplied-frame-by-customer-steel",
+            "kind": "upgrade",
+            "title": "Steel",
+            "hoverTitle": "Steel",
+            "hoverDescription": "Frame Type",
+            "price": {
+              "surcharge": 0.0,
+              "label": "Included"
+            },
+            "defaultSelected": true,
+            "allowsQuantity": false,
+            "minQuantity": 1,
+            "step": 1,
+            "metadata": {
+              "sourceControlType": "radio",
+              "sourceFieldName": "Setup - Frame Type"
+            }
+          }
+        ]
+      },
+      {
         "id": "accessories",
         "kind": "accessory",
         "title": "Accessories",
@@ -531,6 +577,52 @@
     ],
     "10x15-custom-canopy-tent-wall-15ft-back-wall": [
       {
+        "id": "supplied-frame-by-customer",
+        "kind": "upgrade",
+        "title": "Supplied Frame By Customer",
+        "selectionMode": "single",
+        "displayStyle": "grid",
+        "items": [
+          {
+            "id": "supplied-frame-by-customer-hex-aluminum",
+            "kind": "upgrade",
+            "title": "Hex Aluminum",
+            "hoverTitle": "Hex Aluminum",
+            "hoverDescription": "Frame Type",
+            "price": {
+              "surcharge": 0.0,
+              "label": "Included"
+            },
+            "allowsQuantity": false,
+            "minQuantity": 1,
+            "step": 1,
+            "metadata": {
+              "sourceControlType": "radio",
+              "sourceFieldName": "Setup - Frame Type"
+            }
+          },
+          {
+            "id": "supplied-frame-by-customer-steel",
+            "kind": "upgrade",
+            "title": "Steel",
+            "hoverTitle": "Steel",
+            "hoverDescription": "Frame Type",
+            "price": {
+              "surcharge": 0.0,
+              "label": "Included"
+            },
+            "defaultSelected": true,
+            "allowsQuantity": false,
+            "minQuantity": 1,
+            "step": 1,
+            "metadata": {
+              "sourceControlType": "radio",
+              "sourceFieldName": "Setup - Frame Type"
+            }
+          }
+        ]
+      },
+      {
         "id": "accessories",
         "kind": "accessory",
         "title": "Accessories",
@@ -720,6 +812,52 @@
       }
     ],
     "10x20-custom-canopy-tent-20ft-back-wall": [
+      {
+        "id": "supplied-frame-by-customer",
+        "kind": "upgrade",
+        "title": "Supplied Frame By Customer",
+        "selectionMode": "single",
+        "displayStyle": "grid",
+        "items": [
+          {
+            "id": "supplied-frame-by-customer-hex-aluminum",
+            "kind": "upgrade",
+            "title": "Hex Aluminum",
+            "hoverTitle": "Hex Aluminum",
+            "hoverDescription": "Frame Type",
+            "price": {
+              "surcharge": 0.0,
+              "label": "Included"
+            },
+            "allowsQuantity": false,
+            "minQuantity": 1,
+            "step": 1,
+            "metadata": {
+              "sourceControlType": "radio",
+              "sourceFieldName": "Setup - Frame Type"
+            }
+          },
+          {
+            "id": "supplied-frame-by-customer-steel",
+            "kind": "upgrade",
+            "title": "Steel",
+            "hoverTitle": "Steel",
+            "hoverDescription": "Frame Type",
+            "price": {
+              "surcharge": 0.0,
+              "label": "Included"
+            },
+            "defaultSelected": true,
+            "allowsQuantity": false,
+            "minQuantity": 1,
+            "step": 1,
+            "metadata": {
+              "sourceControlType": "radio",
+              "sourceFieldName": "Setup - Frame Type"
+            }
+          }
+        ]
+      },
       {
         "id": "accessories",
         "kind": "accessory",
@@ -3185,6 +3323,52 @@
     ],
     "half-side-walls": [
       {
+        "id": "supplied-frame-by-customer",
+        "kind": "upgrade",
+        "title": "Supplied Frame By Customer",
+        "selectionMode": "single",
+        "displayStyle": "grid",
+        "items": [
+          {
+            "id": "supplied-frame-by-customer-hex-aluminum",
+            "kind": "upgrade",
+            "title": "Hex Aluminum",
+            "hoverTitle": "Hex Aluminum",
+            "hoverDescription": "Frame Type",
+            "price": {
+              "surcharge": 0.0,
+              "label": "Included"
+            },
+            "allowsQuantity": false,
+            "minQuantity": 1,
+            "step": 1,
+            "metadata": {
+              "sourceControlType": "radio",
+              "sourceFieldName": "Setup - Frame Type"
+            }
+          },
+          {
+            "id": "supplied-frame-by-customer-steel",
+            "kind": "upgrade",
+            "title": "Steel",
+            "hoverTitle": "Steel",
+            "hoverDescription": "Frame Type",
+            "price": {
+              "surcharge": 0.0,
+              "label": "Included"
+            },
+            "defaultSelected": true,
+            "allowsQuantity": false,
+            "minQuantity": 1,
+            "step": 1,
+            "metadata": {
+              "sourceControlType": "radio",
+              "sourceFieldName": "Setup - Frame Type"
+            }
+          }
+        ]
+      },
+      {
         "id": "accessories",
         "kind": "accessory",
         "title": "Accessories",
@@ -4237,6 +4421,52 @@
       }
     ],
     "premium-10x10-custom-canopy-1-10top": [
+      {
+        "id": "supplied-frame-by-customer",
+        "kind": "upgrade",
+        "title": "Supplied Frame By Customer",
+        "selectionMode": "single",
+        "displayStyle": "grid",
+        "items": [
+          {
+            "id": "supplied-frame-by-customer-hex-aluminum",
+            "kind": "upgrade",
+            "title": "Hex Aluminum",
+            "hoverTitle": "Hex Aluminum",
+            "hoverDescription": "Frame Type",
+            "price": {
+              "surcharge": 0.0,
+              "label": "Included"
+            },
+            "allowsQuantity": false,
+            "minQuantity": 1,
+            "step": 1,
+            "metadata": {
+              "sourceControlType": "radio",
+              "sourceFieldName": "Setup - Frame Type"
+            }
+          },
+          {
+            "id": "supplied-frame-by-customer-steel",
+            "kind": "upgrade",
+            "title": "Steel",
+            "hoverTitle": "Steel",
+            "hoverDescription": "Frame Type",
+            "price": {
+              "surcharge": 0.0,
+              "label": "Included"
+            },
+            "defaultSelected": true,
+            "allowsQuantity": false,
+            "minQuantity": 1,
+            "step": 1,
+            "metadata": {
+              "sourceControlType": "radio",
+              "sourceFieldName": "Setup - Frame Type"
+            }
+          }
+        ]
+      },
       {
         "id": "accessories",
         "kind": "accessory",
@@ -6308,6 +6538,52 @@
       }
     ],
     "premium-10x15-custom-canopy-tent-5-15top": [
+      {
+        "id": "supplied-frame-by-customer",
+        "kind": "upgrade",
+        "title": "Supplied Frame By Customer",
+        "selectionMode": "single",
+        "displayStyle": "grid",
+        "items": [
+          {
+            "id": "supplied-frame-by-customer-hex-aluminum",
+            "kind": "upgrade",
+            "title": "Hex Aluminum",
+            "hoverTitle": "Hex Aluminum",
+            "hoverDescription": "Frame Type",
+            "price": {
+              "surcharge": 0.0,
+              "label": "Included"
+            },
+            "allowsQuantity": false,
+            "minQuantity": 1,
+            "step": 1,
+            "metadata": {
+              "sourceControlType": "radio",
+              "sourceFieldName": "Setup - Frame Type"
+            }
+          },
+          {
+            "id": "supplied-frame-by-customer-steel",
+            "kind": "upgrade",
+            "title": "Steel",
+            "hoverTitle": "Steel",
+            "hoverDescription": "Frame Type",
+            "price": {
+              "surcharge": 0.0,
+              "label": "Included"
+            },
+            "defaultSelected": true,
+            "allowsQuantity": false,
+            "minQuantity": 1,
+            "step": 1,
+            "metadata": {
+              "sourceControlType": "radio",
+              "sourceFieldName": "Setup - Frame Type"
+            }
+          }
+        ]
+      },
       {
         "id": "accessories",
         "kind": "accessory",
@@ -8588,6 +8864,52 @@
       }
     ],
     "premium-10x20-custom-canopy-tent-9-20top": [
+      {
+        "id": "supplied-frame-by-customer",
+        "kind": "upgrade",
+        "title": "Supplied Frame By Customer",
+        "selectionMode": "single",
+        "displayStyle": "grid",
+        "items": [
+          {
+            "id": "supplied-frame-by-customer-hex-aluminum",
+            "kind": "upgrade",
+            "title": "Hex Aluminum",
+            "hoverTitle": "Hex Aluminum",
+            "hoverDescription": "Frame Type",
+            "price": {
+              "surcharge": 0.0,
+              "label": "Included"
+            },
+            "allowsQuantity": false,
+            "minQuantity": 1,
+            "step": 1,
+            "metadata": {
+              "sourceControlType": "radio",
+              "sourceFieldName": "Setup - Frame Type"
+            }
+          },
+          {
+            "id": "supplied-frame-by-customer-steel",
+            "kind": "upgrade",
+            "title": "Steel",
+            "hoverTitle": "Steel",
+            "hoverDescription": "Frame Type",
+            "price": {
+              "surcharge": 0.0,
+              "label": "Included"
+            },
+            "defaultSelected": true,
+            "allowsQuantity": false,
+            "minQuantity": 1,
+            "step": 1,
+            "metadata": {
+              "sourceControlType": "radio",
+              "sourceFieldName": "Setup - Frame Type"
+            }
+          }
+        ]
+      },
       {
         "id": "accessories",
         "kind": "accessory",

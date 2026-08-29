@@ -264,6 +264,52 @@ export const storefrontProducts = [
     "howToOrderText": "- SKU ITEM #: 10-BW\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
     "addOnGroups": [
       {
+        "id": "supplied-frame-by-customer",
+        "kind": "upgrade",
+        "title": "Supplied Frame By Customer",
+        "selectionMode": "single",
+        "displayStyle": "grid",
+        "items": [
+          {
+            "id": "supplied-frame-by-customer-hex-aluminum",
+            "kind": "upgrade",
+            "title": "Hex Aluminum",
+            "hoverTitle": "Hex Aluminum",
+            "hoverDescription": "Frame Type",
+            "price": {
+              "surcharge": 0,
+              "label": "Included"
+            },
+            "allowsQuantity": false,
+            "minQuantity": 1,
+            "step": 1,
+            "metadata": {
+              "sourceControlType": "radio",
+              "sourceFieldName": "Setup - Frame Type"
+            }
+          },
+          {
+            "id": "supplied-frame-by-customer-steel",
+            "kind": "upgrade",
+            "title": "Steel",
+            "hoverTitle": "Steel",
+            "hoverDescription": "Frame Type",
+            "price": {
+              "surcharge": 0,
+              "label": "Included"
+            },
+            "defaultSelected": true,
+            "allowsQuantity": false,
+            "minQuantity": 1,
+            "step": 1,
+            "metadata": {
+              "sourceControlType": "radio",
+              "sourceFieldName": "Setup - Frame Type"
+            }
+          }
+        ]
+      },
+      {
         "id": "accessories",
         "kind": "accessory",
         "title": "Accessories",
@@ -821,6 +867,52 @@ export const storefrontProducts = [
     "howToOrderText": "- SKU ITEM #: 6-15 BW\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
     "addOnGroups": [
       {
+        "id": "supplied-frame-by-customer",
+        "kind": "upgrade",
+        "title": "Supplied Frame By Customer",
+        "selectionMode": "single",
+        "displayStyle": "grid",
+        "items": [
+          {
+            "id": "supplied-frame-by-customer-hex-aluminum",
+            "kind": "upgrade",
+            "title": "Hex Aluminum",
+            "hoverTitle": "Hex Aluminum",
+            "hoverDescription": "Frame Type",
+            "price": {
+              "surcharge": 0,
+              "label": "Included"
+            },
+            "allowsQuantity": false,
+            "minQuantity": 1,
+            "step": 1,
+            "metadata": {
+              "sourceControlType": "radio",
+              "sourceFieldName": "Setup - Frame Type"
+            }
+          },
+          {
+            "id": "supplied-frame-by-customer-steel",
+            "kind": "upgrade",
+            "title": "Steel",
+            "hoverTitle": "Steel",
+            "hoverDescription": "Frame Type",
+            "price": {
+              "surcharge": 0,
+              "label": "Included"
+            },
+            "defaultSelected": true,
+            "allowsQuantity": false,
+            "minQuantity": 1,
+            "step": 1,
+            "metadata": {
+              "sourceControlType": "radio",
+              "sourceFieldName": "Setup - Frame Type"
+            }
+          }
+        ]
+      },
+      {
         "id": "accessories",
         "kind": "accessory",
         "title": "Accessories",
@@ -1058,6 +1150,52 @@ export const storefrontProducts = [
     "howToOrderHtml": "<ul>\n  <li>SKU ITEM #: 10-20 BW</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
     "howToOrderText": "- SKU ITEM #: 10-20 BW\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
     "addOnGroups": [
+      {
+        "id": "supplied-frame-by-customer",
+        "kind": "upgrade",
+        "title": "Supplied Frame By Customer",
+        "selectionMode": "single",
+        "displayStyle": "grid",
+        "items": [
+          {
+            "id": "supplied-frame-by-customer-hex-aluminum",
+            "kind": "upgrade",
+            "title": "Hex Aluminum",
+            "hoverTitle": "Hex Aluminum",
+            "hoverDescription": "Frame Type",
+            "price": {
+              "surcharge": 0,
+              "label": "Included"
+            },
+            "allowsQuantity": false,
+            "minQuantity": 1,
+            "step": 1,
+            "metadata": {
+              "sourceControlType": "radio",
+              "sourceFieldName": "Setup - Frame Type"
+            }
+          },
+          {
+            "id": "supplied-frame-by-customer-steel",
+            "kind": "upgrade",
+            "title": "Steel",
+            "hoverTitle": "Steel",
+            "hoverDescription": "Frame Type",
+            "price": {
+              "surcharge": 0,
+              "label": "Included"
+            },
+            "defaultSelected": true,
+            "allowsQuantity": false,
+            "minQuantity": 1,
+            "step": 1,
+            "metadata": {
+              "sourceControlType": "radio",
+              "sourceFieldName": "Setup - Frame Type"
+            }
+          }
+        ]
+      },
       {
         "id": "accessories",
         "kind": "accessory",
@@ -7793,6 +7931,52 @@ export const storefrontProducts = [
     "howToOrderText": "- SKU ITEM #: 10-SW\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
     "addOnGroups": [
       {
+        "id": "supplied-frame-by-customer",
+        "kind": "upgrade",
+        "title": "Supplied Frame By Customer",
+        "selectionMode": "single",
+        "displayStyle": "grid",
+        "items": [
+          {
+            "id": "supplied-frame-by-customer-hex-aluminum",
+            "kind": "upgrade",
+            "title": "Hex Aluminum",
+            "hoverTitle": "Hex Aluminum",
+            "hoverDescription": "Frame Type",
+            "price": {
+              "surcharge": 0,
+              "label": "Included"
+            },
+            "allowsQuantity": false,
+            "minQuantity": 1,
+            "step": 1,
+            "metadata": {
+              "sourceControlType": "radio",
+              "sourceFieldName": "Setup - Frame Type"
+            }
+          },
+          {
+            "id": "supplied-frame-by-customer-steel",
+            "kind": "upgrade",
+            "title": "Steel",
+            "hoverTitle": "Steel",
+            "hoverDescription": "Frame Type",
+            "price": {
+              "surcharge": 0,
+              "label": "Included"
+            },
+            "defaultSelected": true,
+            "allowsQuantity": false,
+            "minQuantity": 1,
+            "step": 1,
+            "metadata": {
+              "sourceControlType": "radio",
+              "sourceFieldName": "Setup - Frame Type"
+            }
+          }
+        ]
+      },
+      {
         "id": "accessories",
         "kind": "accessory",
         "title": "Accessories",
@@ -9490,6 +9674,52 @@ export const storefrontProducts = [
     "howToOrderHtml": "<ul>\n  <li>SKU ITEM #: 1-10 TOP</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
     "howToOrderText": "- SKU ITEM #: 1-10 TOP\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
     "addOnGroups": [
+      {
+        "id": "supplied-frame-by-customer",
+        "kind": "upgrade",
+        "title": "Supplied Frame By Customer",
+        "selectionMode": "single",
+        "displayStyle": "grid",
+        "items": [
+          {
+            "id": "supplied-frame-by-customer-hex-aluminum",
+            "kind": "upgrade",
+            "title": "Hex Aluminum",
+            "hoverTitle": "Hex Aluminum",
+            "hoverDescription": "Frame Type",
+            "price": {
+              "surcharge": 0,
+              "label": "Included"
+            },
+            "allowsQuantity": false,
+            "minQuantity": 1,
+            "step": 1,
+            "metadata": {
+              "sourceControlType": "radio",
+              "sourceFieldName": "Setup - Frame Type"
+            }
+          },
+          {
+            "id": "supplied-frame-by-customer-steel",
+            "kind": "upgrade",
+            "title": "Steel",
+            "hoverTitle": "Steel",
+            "hoverDescription": "Frame Type",
+            "price": {
+              "surcharge": 0,
+              "label": "Included"
+            },
+            "defaultSelected": true,
+            "allowsQuantity": false,
+            "minQuantity": 1,
+            "step": 1,
+            "metadata": {
+              "sourceControlType": "radio",
+              "sourceFieldName": "Setup - Frame Type"
+            }
+          }
+        ]
+      },
       {
         "id": "accessories",
         "kind": "accessory",
@@ -11987,6 +12217,52 @@ export const storefrontProducts = [
     "howToOrderHtml": "<ul>\n  <li>SKU ITEM #: 5-15 TOP</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
     "howToOrderText": "- SKU ITEM #: 5-15 TOP\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
     "addOnGroups": [
+      {
+        "id": "supplied-frame-by-customer",
+        "kind": "upgrade",
+        "title": "Supplied Frame By Customer",
+        "selectionMode": "single",
+        "displayStyle": "grid",
+        "items": [
+          {
+            "id": "supplied-frame-by-customer-hex-aluminum",
+            "kind": "upgrade",
+            "title": "Hex Aluminum",
+            "hoverTitle": "Hex Aluminum",
+            "hoverDescription": "Frame Type",
+            "price": {
+              "surcharge": 0,
+              "label": "Included"
+            },
+            "allowsQuantity": false,
+            "minQuantity": 1,
+            "step": 1,
+            "metadata": {
+              "sourceControlType": "radio",
+              "sourceFieldName": "Setup - Frame Type"
+            }
+          },
+          {
+            "id": "supplied-frame-by-customer-steel",
+            "kind": "upgrade",
+            "title": "Steel",
+            "hoverTitle": "Steel",
+            "hoverDescription": "Frame Type",
+            "price": {
+              "surcharge": 0,
+              "label": "Included"
+            },
+            "defaultSelected": true,
+            "allowsQuantity": false,
+            "minQuantity": 1,
+            "step": 1,
+            "metadata": {
+              "sourceControlType": "radio",
+              "sourceFieldName": "Setup - Frame Type"
+            }
+          }
+        ]
+      },
       {
         "id": "accessories",
         "kind": "accessory",
@@ -14831,6 +15107,52 @@ export const storefrontProducts = [
     "howToOrderHtml": "<ul>\n  <li>SKU ITEM #: 9-20 TOP</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
     "howToOrderText": "- SKU ITEM #: 9-20 TOP\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
     "addOnGroups": [
+      {
+        "id": "supplied-frame-by-customer",
+        "kind": "upgrade",
+        "title": "Supplied Frame By Customer",
+        "selectionMode": "single",
+        "displayStyle": "grid",
+        "items": [
+          {
+            "id": "supplied-frame-by-customer-hex-aluminum",
+            "kind": "upgrade",
+            "title": "Hex Aluminum",
+            "hoverTitle": "Hex Aluminum",
+            "hoverDescription": "Frame Type",
+            "price": {
+              "surcharge": 0,
+              "label": "Included"
+            },
+            "allowsQuantity": false,
+            "minQuantity": 1,
+            "step": 1,
+            "metadata": {
+              "sourceControlType": "radio",
+              "sourceFieldName": "Setup - Frame Type"
+            }
+          },
+          {
+            "id": "supplied-frame-by-customer-steel",
+            "kind": "upgrade",
+            "title": "Steel",
+            "hoverTitle": "Steel",
+            "hoverDescription": "Frame Type",
+            "price": {
+              "surcharge": 0,
+              "label": "Included"
+            },
+            "defaultSelected": true,
+            "allowsQuantity": false,
+            "minQuantity": 1,
+            "step": 1,
+            "metadata": {
+              "sourceControlType": "radio",
+              "sourceFieldName": "Setup - Frame Type"
+            }
+          }
+        ]
+      },
       {
         "id": "accessories",
         "kind": "accessory",

@@ -19,6 +19,14 @@ export function ProductAddOnPicker() {
     setAddOnSelections,
     addOnSelectionSubtotal,
   } = useProduct();
+  const frameTypeGroups = useMemo(
+    () => addOnGroups.filter(isFrameTypeSelectorGroup),
+    [addOnGroups],
+  );
+  const standardGroups = useMemo(
+    () => addOnGroups.filter((group) => !isFrameTypeSelectorGroup(group)),
+    [addOnGroups],
+  );
 
   const selectedKeys = useMemo(
     () =>
@@ -33,7 +41,7 @@ export function ProductAddOnPicker() {
       ),
     [addOnSelections],
   );
-  const hasConditionalOptions = addOnGroups.some((group) =>
+  const hasConditionalOptions = standardGroups.some((group) =>
     flattenGroupOptions(group).some(
       (option) =>
         option.metadata?.conditional === "true" ||
@@ -47,25 +55,40 @@ export function ProductAddOnPicker() {
 
   return (
     <div id="product-addons-form" className="product-addons">
-      <div className="product-addons__header">
-        <div className="product-addons__header-copy">
-          <h5 className="product-addons__title">Accessories &amp; Upgrades</h5>
-          <p className="product-addons__subtitle">
-            Add-on quantities apply per configured product unit.
-          </p>
-        </div>
-        <div
-          className={`product-addons__subtotal${
-            addOnSelectionSubtotal > 0 ? " is-active" : ""
-          }`}
-        >
-            {addOnSelectionSubtotal > 0
-              ? `+${formatPrice(addOnSelectionSubtotal)} per unit`
-              : "No add-ons selected"}
-        </div>
-      </div>
+      {frameTypeGroups.map((group) => (
+        <FrameTypeSelector
+          key={group.id}
+          group={group}
+          selectedKeys={selectedKeys}
+          onSelect={(option) =>
+            setAddOnSelections((previousSelections) =>
+              selectSingleOption(previousSelections, group, option),
+            )
+          }
+        />
+      ))}
 
-      {addOnGroups.map((group) => (
+      {standardGroups.length ? (
+        <div className="product-addons__header">
+          <div className="product-addons__header-copy">
+            <h5 className="product-addons__title">Accessories &amp; Upgrades</h5>
+            <p className="product-addons__subtitle">
+              Add-on quantities apply per configured product unit.
+            </p>
+          </div>
+          <div
+            className={`product-addons__subtotal${
+              addOnSelectionSubtotal > 0 ? " is-active" : ""
+            }`}
+          >
+              {addOnSelectionSubtotal > 0
+                ? `+${formatPrice(addOnSelectionSubtotal)} per unit`
+                : "No add-ons selected"}
+          </div>
+        </div>
+      ) : null}
+
+      {standardGroups.map((group) => (
         <section key={group.id} className="product-addons__group">
           <div className="product-addons__group-header">
             <div>
@@ -192,6 +215,45 @@ export function ProductAddOnPicker() {
   );
 }
 
+function FrameTypeSelector({
+  group,
+  selectedKeys,
+  onSelect,
+}: {
+  group: ProductAddOnGroup;
+  selectedKeys: Set<string>;
+  onSelect: (option: ProductAddOnOption) => void;
+}) {
+  const options = group.items ?? [];
+
+  return (
+    <section className="product-addons__frame-group">
+      <p className="product-addons__frame-label">Frame Type</p>
+      <div className="product-addons__frame-toggle" role="group" aria-label="Frame Type">
+        {options.map((option) => {
+          const isSelected = selectedKeys.has(
+            buildSelectionKey(group.id, option.id),
+          );
+
+          return (
+            <button
+              key={`${group.id}:${option.id}`}
+              type="button"
+              className={`product-addons__frame-button${
+                isSelected ? " is-active" : ""
+              }`}
+              onClick={() => onSelect(option)}
+              aria-pressed={isSelected}
+            >
+              {option.title}
+            </button>
+          );
+        })}
+      </div>
+    </section>
+  );
+}
+
 function AddOnOptionCard({
   group,
   option,
@@ -212,9 +274,15 @@ function AddOnOptionCard({
   const isConditional =
     option.metadata?.conditional === "true" ||
     option.metadata?.hiddenByDefault === "true";
+  const allowsQuantity = option.allowsQuantity !== false;
   const metaText = option.hoverDescription
     ?.replace(/\s*[·-]\s*\(\+\s*\$[\d,]+(?:\.\d{2})?\)\s*$/i, "")
     .trim();
+  const priceLabel =
+    option.price.label ||
+    (option.price.surcharge > 0
+      ? `(+ ${formatPrice(option.price.surcharge)})`
+      : "Included");
   const titleParts = [
     option.hoverTitle || option.title,
     metaText,
@@ -263,15 +331,13 @@ function AddOnOptionCard({
               </div>
             </div>
             <div className="product-addon-card__footer">
-              <span className="product-addon-card__unit-price">
-                {option.price.label || `(+ ${formatPrice(option.price.surcharge)})`}
-              </span>
+              <span className="product-addon-card__unit-price">{priceLabel}</span>
             </div>
           </div>
         </div>
       </button>
 
-      {isSelected ? (
+      {isSelected && allowsQuantity ? (
         <div className="product-addon-card__quantity-row">
           <span className="product-addon-card__quantity-label">
             Quantity per configured unit
@@ -391,6 +457,61 @@ function buildSelectionKey(
   subgroupId?: string,
 ) {
   return `${groupId}::${subgroupId ?? ""}::${addOnId}`;
+}
+
+function selectSingleOption(
+  selections: ProductAddOnSelection[],
+  group: ProductAddOnGroup,
+  option: ProductAddOnOption,
+  subgroup?: ProductAddOnSubgroup,
+): ProductAddOnSelection[] {
+  const selectionKey = buildSelectionKey(group.id, option.id, subgroup?.id);
+  const exists = selections.some(
+    (selection) =>
+      buildSelectionKey(
+        selection.groupId,
+        selection.addOnId,
+        selection.subgroupId,
+      ) === selectionKey,
+  );
+
+  if (exists) {
+    return selections;
+  }
+
+  const nextSelections = selections.filter(
+    (selection) =>
+      selection.groupId !== group.id ||
+      (selection.subgroupId ?? "") !== (subgroup?.id ?? ""),
+  );
+
+  return [
+    ...nextSelections,
+    {
+      groupId: group.id,
+      ...(subgroup?.id ? { subgroupId: subgroup.id } : {}),
+      addOnId: option.id,
+      quantity: Math.max(1, option.minQuantity ?? 1),
+    },
+  ];
+}
+
+function isFrameTypeSelectorGroup(group: ProductAddOnGroup): boolean {
+  const options = group.items ?? [];
+  if (options.length !== 2 || group.selectionMode !== "single") {
+    return false;
+  }
+
+  return options.every((option) => {
+    const sourceFieldName = option.metadata?.sourceFieldName?.toLowerCase() ?? "";
+    const hoverDescription = option.hoverDescription?.toLowerCase() ?? "";
+
+    return (
+      option.allowsQuantity === false &&
+      (sourceFieldName.includes("frame type") ||
+        hoverDescription.includes("frame type"))
+    );
+  });
 }
 
 function flattenGroupOptions(group: ProductAddOnGroup): ProductAddOnOption[] {
