@@ -83,7 +83,7 @@ export default function ProductInfoGrouped({
         <div className="tf-product-info-list mb-40 gap-20">
           <div className="tf-product-info-heading">
             <ProductTitle product={product} />
-            <ProductShortDescription />
+            <ProductShortDescription product={product} />
             <ProductViews />
           </div>
 
@@ -122,7 +122,7 @@ export default function ProductInfoGrouped({
           <ProductSafeCheckout />
         </div>
 
-        <ProductAccordions />
+        <ProductAccordions product={product} />
       </div>
     </div>
   );

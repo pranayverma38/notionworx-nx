@@ -73,7 +73,7 @@ export default async function page({
     <>
       <Breadcrumb product={product} />
       <ProductSection product={product} extraImages={threeDImages} />
-<ProductDescription />
+<ProductDescription product={product} />
       <RelatedProducts />
     </>
   );

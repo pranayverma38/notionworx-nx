@@ -66,6 +66,8 @@ export interface NotionWorxInventoryProduct {
   categories: InventoryCategoryReference[];
   descriptionHtml: string;
   descriptionText: string;
+  howToOrderHtml?: string;
+  howToOrderText?: string;
   tags: string[];
   skus: string[];
   price: InventoryPriceSummary;

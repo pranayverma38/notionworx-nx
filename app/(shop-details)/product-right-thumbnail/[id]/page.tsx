@@ -30,7 +30,7 @@ export default async function page({
     <>
       <Breadcrumb product={product} />
       <ProductSection product={product} thumbnailPosition="right" />
-<ProductDescription />
+<ProductDescription product={product} />
       <RelatedProducts />
     </>
   );

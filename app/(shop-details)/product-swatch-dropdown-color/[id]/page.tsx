@@ -30,7 +30,7 @@ export default async function page({
     <>
       <Breadcrumb product={product} />
       <ProductSection product={product} layout="swatch-dropdown-color" />
-<ProductDescription />
+<ProductDescription product={product} />
       <RelatedProducts />
     </>
   );

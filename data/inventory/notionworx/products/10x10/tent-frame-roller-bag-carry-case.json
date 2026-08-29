@@ -16,15 +16,15 @@
       "title": "10x10 Custom Canopies"
     }
   ],
-  "descriptionHtml": "<p>Upgrade to our Carrying Case w/ Wheels. Our premium tents are durable but heavy, this case offers multiple hands for easy maneuvering, compartment for your graphics and accessories, dual casters so you could roll effortlessly from event to event.</p>\n<p><b>Features:</b><br>Dual hard rubber casters<br>Hardware compartment<br>Graphics and Accessories Compartment<br>Multiple handles for easy transport.</p>\n<p><b>FAQ:</b><br>Q: How many graphics would fit in the Graphics/ Accessories Compartment?<br>A: The Graphics/ Accessories Compartment could fit either 1 canopy graphic top or 1 full wall + 2 half wall.</p>",
-  "descriptionText": "Upgrade to our Carrying Case w/ Wheels. Our premium tents are durable but heavy, this case offers multiple hands for easy maneuvering, compartment for your graphics and accessories, dual casters so you could roll effortlessly from event to event.\nFeatures:\nDual hard rubber casters\nHardware compartment\nGraphics and Accessories Compartment\nMultiple handles for easy transport.\nFAQ:\nQ: How many graphics would fit in the Graphics/ Accessories Compartment?\nA: The Graphics/ Accessories Compartment could fit either 1 canopy graphic top or 1 full wall + 2 half wall.",
+  "descriptionHtml": "<p>Upgrade to our Carrying Case w/ Wheels. Our premium tents are durable but heavy, this case offers multiple hands for easy maneuvering, compartment for your graphics and accessories, dual casters so you could roll effortlessly from event to event.</p>\n<h3>Features</h3>\n<ul>\n  <li>Dual hard rubber casters</li>\n  <li>Hardware compartment</li>\n  <li>Graphics and Accessories Compartment</li>\n  <li>Multiple handles for easy transport.</li>\n</ul>\n<h3>FAQ</h3>\n<ul>\n  <li>Q: How many graphics would fit in the Graphics/ Accessories Compartment?</li>\n  <li>A: The Graphics/ Accessories Compartment could fit either 1 canopy graphic top or 1 full wall + 2 half wall.</li>\n</ul>",
+  "descriptionText": "Upgrade to our Carrying Case w/ Wheels. Our premium tents are durable but heavy, this case offers multiple hands for easy maneuvering, compartment for your graphics and accessories, dual casters so you could roll effortlessly from event to event.\n\nFeatures:\nDual hard rubber casters\nHardware compartment\nGraphics and Accessories Compartment\nMultiple handles for easy transport.\n\nFAQ:\nQ: How many graphics would fit in the Graphics/ Accessories Compartment?\nA: The Graphics/ Accessories Compartment could fit either 1 canopy graphic top or 1 full wall + 2 half wall.",
   "tags": [],
   "skus": [
     "206068"
   ],
   "price": {
-    "min": 80.0,
-    "max": 80.0,
+    "min": 80,
+    "max": 80,
     "compareAtMin": null,
     "compareAtMax": null,
     "variantCount": 1
@@ -44,7 +44,7 @@
       "title": "Chicago",
       "sku": "206068",
       "available": true,
-      "price": 80.0,
+      "price": 80,
       "compareAtPrice": null,
       "optionValues": [
         "Chicago"
@@ -73,5 +73,7 @@
   ],
   "createdAt": "2025-09-25T12:39:38-06:00",
   "updatedAt": "2026-08-18T21:23:38-06:00",
-  "publishedAt": "2025-09-28T21:06:24-06:00"
+  "publishedAt": "2025-09-28T21:06:24-06:00",
+  "howToOrderHtml": "<ul>\n  <li>SKU 206068</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
+  "howToOrderText": "SKU 206068\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you."
 }

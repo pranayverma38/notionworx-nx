@@ -64,6 +64,14 @@ export interface ProductCardItem extends Partial<ShopProductFacetFields> {
   reviewsText?: string;
   /** Full description for single-product. */
   description?: string;
+  /** Full rich description HTML for single-product detail content. */
+  descriptionHtml?: string;
+  /** Full plain-text description for single-product detail content. */
+  descriptionText?: string;
+  /** Optional rich how-to-order HTML for single-product detail content. */
+  howToOrderHtml?: string;
+  /** Optional plain-text how-to-order instructions for single-product detail content. */
+  howToOrderText?: string;
   /** Sold progress for single-product (e.g. 84). */
   soldPercent?: number;
   /** Sold label (e.g. "84% Sold - Only 24 item(s) left in stock!"). */

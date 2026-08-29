@@ -1,4 +1,5 @@
 import type { ProductCardItem } from "@/types/productCard";
+import { ProductLongFormContent } from "./ProductLongFormContent";
 
 type IntroProps = {
   gridClassName?: string;
@@ -12,21 +13,16 @@ export function ProductDescriptionIntro({
   titleTag = "h5",
   product,
 }: IntroProps) {
+  const descriptionHtml = product?.descriptionHtml;
   const descriptionText =
-    product?.description ?? "Review the migrated catalog details for this product.";
-  const lines = descriptionText
-    .split("\n")
-    .map((line) => line.trim())
-    .filter(Boolean);
-  const introParagraphs = lines.slice(0, 2);
-  const detailLines = lines.slice(2, 7);
-
-  const primaryTitle =
-    titleTag === "h5" ? (
-      <h5 className="desc_title">{product?.name ?? "Product Overview"}</h5>
-    ) : (
-      <div className="h6 desc_title">{product?.name ?? "Product Overview"}</div>
-    );
+    product?.descriptionText ||
+    product?.description ||
+    "Review the migrated catalog details for this product.";
+  const detailLines = [
+    product?.category ? `Category: ${product.category}` : null,
+    product?.sku ? `SKU: ${product.sku}` : null,
+    product?.inStock === false ? "Status: Out of stock" : "Status: Available",
+  ].filter(Boolean) as string[];
 
   const secondaryTitle =
     titleTag === "h5" ? (
@@ -38,28 +34,18 @@ export function ProductDescriptionIntro({
   return (
     <div className={gridClassName}>
       <div className="box-desc">
-        {primaryTitle}
         <div className="desc_info">
-          {(introParagraphs.length ? introParagraphs : [descriptionText]).map(
-            (paragraph) => (
-              <p key={paragraph} className="cl-text-2">
-                {paragraph}
-              </p>
-            ),
-          )}
+          <ProductLongFormContent
+            html={descriptionHtml}
+            text={descriptionText}
+            fallbackText="Review the migrated catalog details for this product."
+          />
         </div>
       </div>
       <div className="box-desc">
         {secondaryTitle}
         <ul className="list">
-          {(detailLines.length
-            ? detailLines
-            : [
-                product?.category ? `Category: ${product.category}` : null,
-                product?.sku ? `SKU: ${product.sku}` : null,
-                product?.inStock === false ? "Status: Out of stock" : "Status: Available",
-              ].filter(Boolean)
-          ).map((line) => (
+          {detailLines.map((line) => (
             <li key={line} className="cl-text-2">
               - {line}
             </li>

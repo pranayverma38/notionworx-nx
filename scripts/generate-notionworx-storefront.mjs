@@ -75,6 +75,229 @@ function buildExcerpt(text, maxLength = 280) {
   return `${normalized.slice(0, maxLength - 1).trimEnd()}…`;
 }
 
+function normalizeLongFormField(value) {
+  const normalized = String(value || "").trim();
+  return normalized.length > 0 ? normalized : undefined;
+}
+
+const STRUCTURED_DESCRIPTION_COLLECTIONS = new Set(["10x10", "10x20"]);
+const SECTION_TITLES = new Set([
+  "features",
+  "product dimensions",
+  "kit include",
+  "kit includes",
+  "materials",
+  "primary usage",
+  "order cutoff time",
+  "warranty",
+  "faq",
+  "what's included",
+  "additional notes",
+  "optional accessories",
+  "compatibility",
+  "certifications",
+  "imprint method",
+]);
+
+function escapeHtml(value) {
+  return String(value)
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#39;");
+}
+
+function decodeHtmlEntities(value) {
+  return String(value)
+    .replace(/&nbsp;/gi, " ")
+    .replace(/&amp;/gi, "&")
+    .replace(/&quot;/gi, '"')
+    .replace(/&#39;|&#x27;/gi, "'")
+    .replace(/&lt;/gi, "<")
+    .replace(/&gt;/gi, ">")
+    .replace(/&#(\d+);/g, (_, codePoint) =>
+      String.fromCodePoint(Number.parseInt(codePoint, 10)),
+    )
+    .replace(/&#x([0-9a-f]+);/gi, (_, codePoint) =>
+      String.fromCodePoint(Number.parseInt(codePoint, 16)),
+    );
+}
+
+function stripHtml(value) {
+  return decodeHtmlEntities(String(value || ""))
+    .replace(/<[^>]+>/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function splitHtmlLines(innerHtml) {
+  return String(innerHtml || "")
+    .split(/<br\s*\/?>/gi)
+    .map((segment) => ({
+      html: segment.trim(),
+      text: stripHtml(segment),
+    }))
+    .filter((segment) => segment.text.length > 0);
+}
+
+function normalizeSectionTitle(value) {
+  return String(value || "")
+    .replace(/:$/, "")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function isSectionTitle(value) {
+  return SECTION_TITLES.has(normalizeSectionTitle(value).toLowerCase());
+}
+
+function startsWithEmojiOrSymbol(value) {
+  return /^[\u2190-\u2BFF\u2600-\u27BF\u{1F000}-\u{1FAFF}]/u.test(
+    String(value || "").trim(),
+  );
+}
+
+function looksLikeCompactListItem(value) {
+  const text = String(value || "").trim();
+
+  if (!text) return false;
+  if (startsWithEmojiOrSymbol(text)) return true;
+  if (/^(?:[•*-]|\d+[.)])\s*/.test(text)) return true;
+  if (/^[^.!?]{1,60}:/.test(text)) return true;
+  if (text.length < 48 && !/[.!?]$/.test(text)) return true;
+
+  return false;
+}
+
+function renderList(lines) {
+  return `<ul>\n${lines.map((line) => `  <li>${line.html}</li>`).join("\n")}\n</ul>`;
+}
+
+function normalizeMultilineParagraph(match, innerHtml) {
+  const lines = splitHtmlLines(innerHtml);
+
+  if (lines.length === 0) {
+    return match;
+  }
+
+  if (lines.length === 1 && isSectionTitle(lines[0].text)) {
+    return `<h3>${escapeHtml(normalizeSectionTitle(lines[0].text))}</h3>`;
+  }
+
+  if (isSectionTitle(lines[0].text)) {
+    const [titleLine, ...contentLines] = lines;
+    const title = escapeHtml(normalizeSectionTitle(titleLine.text));
+
+    if (contentLines.length === 0) {
+      return `<h3>${title}</h3>`;
+    }
+
+    if (
+      contentLines.length === 1 &&
+      !looksLikeCompactListItem(contentLines[0].text)
+    ) {
+      return `<h3>${title}</h3>\n<p>${contentLines[0].html}</p>`;
+    }
+
+    return `<h3>${title}</h3>\n${renderList(contentLines)}`;
+  }
+
+  if (lines.length < 2) {
+    return match;
+  }
+
+  const averageLength =
+    lines.reduce((sum, line) => sum + line.text.length, 0) / lines.length;
+  const compactItemCount = lines.filter((line) =>
+    looksLikeCompactListItem(line.text),
+  ).length;
+
+  if (
+    averageLength <= 90 &&
+    (compactItemCount >= Math.max(2, lines.length - 1) ||
+      lines.every((line) => line.text.length <= 36))
+  ) {
+    return renderList(lines);
+  }
+
+  return match;
+}
+
+function normalizeAboutThisItemList(html) {
+  return String(html || "").replace(
+    /<ul>\s*<li>(About this item[\s\S]*?)<\/li>\s*<\/ul>/i,
+    (match, listItemHtml) => {
+      const plainText = stripHtml(listItemHtml);
+
+      if (!/^About this item\b/i.test(plainText)) {
+        return match;
+      }
+
+      const bodyText = plainText.replace(/^About this item\b[:\s-]*/i, "").trim();
+      const labelPattern = /([A-Z0-9][A-Z0-9/&()'",.\- ]{6,}?):/g;
+      const labelMatches = [...bodyText.matchAll(labelPattern)].filter(
+        (entry) =>
+          entry.index != null &&
+          /^[A-Z0-9/&()'",.\- ]+$/.test(entry[1]) &&
+          entry[1].trim().split(/\s+/).length >= 2,
+      );
+
+      if (labelMatches.length < 2 || labelMatches[0].index !== 0) {
+        return match;
+      }
+
+      const sections = labelMatches.map((entry, index) => {
+        const start = entry.index ?? 0;
+        const label = entry[1].trim();
+        const bodyStart = start + entry[0].length;
+        const nextStart =
+          index < labelMatches.length - 1
+            ? (labelMatches[index + 1].index ?? bodyText.length)
+            : bodyText.length;
+        const content = bodyText
+          .slice(bodyStart, nextStart)
+          .replace(/\s+/g, " ")
+          .trim();
+
+        return { label, content };
+      });
+
+      if (sections.some((section) => !section.content)) {
+        return match;
+      }
+
+      return `<h3>About this item</h3>\n<ul>\n${sections
+        .map(
+          (section) =>
+            `  <li><strong>${escapeHtml(section.label)}:</strong> ${escapeHtml(section.content)}</li>`,
+        )
+        .join("\n")}\n</ul>`;
+    },
+  );
+}
+
+function normalizeDescriptionHtml(product) {
+  const html = normalizeLongFormField(product.descriptionHtml);
+
+  if (!html) {
+    return undefined;
+  }
+
+  const isTargetCollectionProduct = (product.categories || []).some((category) =>
+    STRUCTURED_DESCRIPTION_COLLECTIONS.has(category.handle),
+  );
+
+  if (!isTargetCollectionProduct) {
+    return html;
+  }
+
+  return normalizeAboutThisItemList(html).replace(
+    /<p\b[^>]*>([\s\S]*?)<\/p>/gi,
+    normalizeMultilineParagraph,
+  );
+}
+
 function looksLikeColorOption(name) {
   return /color|colour/i.test(String(name || ""));
 }
@@ -170,6 +393,10 @@ function buildProduct(product, index) {
   const categoryTitles = unique(product.categories.map((category) => category.title));
   const inStock = product.variants.some((variant) => variant.available);
   const description = buildExcerpt(product.descriptionText);
+  const descriptionHtml = normalizeDescriptionHtml(product);
+  const descriptionText = normalizeLongFormField(product.descriptionText);
+  const howToOrderHtml = normalizeLongFormField(product.howToOrderHtml);
+  const howToOrderText = normalizeLongFormField(product.howToOrderText);
 
   return {
     id: index + 1,
@@ -194,6 +421,10 @@ function buildProduct(product, index) {
     services: [],
     category: product.primaryCategory.title,
     description,
+    ...(descriptionHtml ? { descriptionHtml } : {}),
+    ...(descriptionText ? { descriptionText } : {}),
+    ...(howToOrderHtml ? { howToOrderHtml } : {}),
+    ...(howToOrderText ? { howToOrderText } : {}),
     sku: product.skus[0] || undefined,
     reviewsText: `${product.price?.variantCount ?? product.variants.length} option${(product.price?.variantCount ?? product.variants.length) === 1 ? "" : "s"}`,
     soldLabel: inStock ? "Available to order" : "Currently unavailable",

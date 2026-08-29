@@ -80,7 +80,7 @@ export default async function page({
         initialColor="green"
         initialSize="L"
       />
-<ProductDescription />
+<ProductDescription product={product} />
       <RelatedProducts />
     </>
   );

@@ -24,13 +24,13 @@
       "title": "10x10 Custom Canopies"
     }
   ],
-  "descriptionHtml": "<p><span>Half Wall Support Pole spans between the tent hardware and clamps to keep your Half Wall graphic straight and secure. The pole is telescopic to fit within your carrying case with the tent hardware and extends to clamp to tent legs. Package includes 2 Hex Clamps (1 Straight and 1 Offset) to secure to tent hardware.\u00a0</span></p>",
+  "descriptionHtml": "<p>Half Wall Support Pole spans between the tent hardware and clamps to keep your Half Wall graphic straight and secure. The pole is telescopic to fit within your carrying case with the tent hardware and extends to clamp to tent legs. Package includes 2 Hex Clamps (1 Straight and 1 Offset) to secure to tent hardware.</p>",
   "descriptionText": "Half Wall Support Pole spans between the tent hardware and clamps to keep your Half Wall graphic straight and secure. The pole is telescopic to fit within your carrying case with the tent hardware and extends to clamp to tent legs. Package includes 2 Hex Clamps (1 Straight and 1 Offset) to secure to tent hardware.",
   "tags": [],
   "skus": [],
   "price": {
-    "min": 87.0,
-    "max": 87.0,
+    "min": 87,
+    "max": 87,
     "compareAtMin": null,
     "compareAtMax": null,
     "variantCount": 1
@@ -50,7 +50,7 @@
       "title": "Default Title",
       "sku": "None",
       "available": true,
-      "price": 87.0,
+      "price": 87,
       "compareAtPrice": null,
       "optionValues": [
         "Default Title"

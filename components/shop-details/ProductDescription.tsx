@@ -1,5 +1,6 @@
 import { ProductCustomerReviews } from "./product-description/blocks/ProductCustomerReviews";
 import { ProductDescriptionIntro } from "./product-description/blocks/ProductDescriptionIntro";
+import { ProductHowToOrder } from "./product-description/blocks/ProductHowToOrder";
 import { ProductReturnPolicies } from "./product-description/blocks/ProductReturnPolicies";
 import { ProductShippingReturns } from "./product-description/blocks/ProductShippingReturns";
 import type { ProductCardItem } from "@/types/productCard";
@@ -9,6 +10,10 @@ export default function ProductDescription({
 }: {
   product?: ProductCardItem;
 }) {
+  const hasHowToOrder = Boolean(
+    product?.howToOrderHtml?.trim() || product?.howToOrderText?.trim(),
+  );
+
   return (
     <section className="section-product-description flat-spacing flat-animate-tab">
       <div className="container">
@@ -23,6 +28,13 @@ export default function ProductDescription({
               <span className="h5 fw-medium">Description</span>
             </a>
           </li>
+          {hasHowToOrder ? (
+            <li className="nav-tab-item" role="presentation">
+              <a href="#how-to-order" data-bs-toggle="tab" className="tf-btn-tab" role="tab">
+                <span className="h5 fw-medium">How to Order</span>
+              </a>
+            </li>
+          ) : null}
           <li className="nav-tab-item" role="presentation">
             <a
               href="#customer-reviews"
@@ -62,6 +74,11 @@ export default function ProductDescription({
           >
             <ProductDescriptionIntro product={product} />
           </div>
+          {hasHowToOrder ? (
+            <div className="tab-pane" id="how-to-order" role="tabpanel">
+              <ProductHowToOrder product={product} />
+            </div>
+          ) : null}
           <div className="tab-pane" id="customer-reviews" role="tabpanel">
             <ProductCustomerReviews
               sectionClassName="product-desc_review write-cancel-review-wrap"

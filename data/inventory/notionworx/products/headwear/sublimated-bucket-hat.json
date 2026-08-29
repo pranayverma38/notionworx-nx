@@ -20,8 +20,8 @@
       "title": "BAG"
     }
   ],
-  "descriptionHtml": "<ul>\n\n<li>100% polyester bucket hat</li>\n<li>Full color edge to edge dye-sublimation</li>\n<li>Reversible, both side imprint</li>\n<li>Perfect for any kind of event!</li>\n</ul>\n\n<div class=\"ship-to-canada-container\">We ship to Canada!</div>",
-  "descriptionText": "100% polyester bucket hat\nFull color edge to edge dye-sublimation\nReversible, both side imprint\nPerfect for any kind of event!\nWe ship to Canada!",
+  "descriptionHtml": "<ul>\n  <li><a href=\"https://www.dropbox.com/scl/fi/m8gfiv0hwtnyi16aue5w4/bucket-hat-1.pdf?rlkey=ipaynvlaaekjr1ed5cdxptqez&amp;dl=0\">Download Template</a></li>\n  <li>100% polyester bucket hat</li>\n  <li>Full color edge to edge dye-sublimation</li>\n  <li>Reversible, both side imprint</li>\n  <li>Perfect for any kind of event!</li>\n</ul>\n<img src=\"https://www.showdowndisplays.com/cdn/StaticMisc/canada-flag.jpg\" alt=\"\">\n<p>We ship to Canada!</p>",
+  "descriptionText": "Download Template (https://www.dropbox.com/scl/fi/m8gfiv0hwtnyi16aue5w4/bucket-hat-1.pdf?rlkey=ipaynvlaaekjr1ed5cdxptqez&dl=0)\n100% polyester bucket hat\nFull color edge to edge dye-sublimation\nReversible, both side imprint\nPerfect for any kind of event!\n\nWe ship to Canada!",
   "tags": [],
   "skus": [
     "500093"
@@ -98,5 +98,7 @@
   ],
   "createdAt": "2025-09-25T12:36:29-06:00",
   "updatedAt": "2026-08-18T21:25:51-06:00",
-  "publishedAt": "2025-09-28T20:18:35-06:00"
+  "publishedAt": "2025-09-28T20:18:35-06:00",
+  "howToOrderHtml": "<ul>\n  <li>SKU 500093</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
+  "howToOrderText": "SKU 500093\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you."
 }
