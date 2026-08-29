@@ -19,6 +19,7 @@ export type ColorPickerProps = {
 
 export type SizePickerProps = {
   sizes: SizeOption[];
+  variantLabel: string;
   currentSize: string;
   setCurrentSize: (value: string) => void;
 };

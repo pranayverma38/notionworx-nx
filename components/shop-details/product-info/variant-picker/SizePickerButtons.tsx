@@ -6,12 +6,13 @@ import type { SizePickerProps } from "./types";
 
 export function SizePickerButtons({
   sizes,
+  variantLabel,
   currentSize,
   setCurrentSize,
 }: SizePickerProps) {
   return (
     <div className="variant-picker-item variant-size">
-      <VariantSizeLabel currentSize={currentSize} />
+      <VariantSizeLabel label={variantLabel} currentSize={currentSize} />
       <div className="variant-picker-values">
         {sizes.map((size) => {
           const active = currentSize === size.value;

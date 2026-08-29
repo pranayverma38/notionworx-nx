@@ -1106,13 +1106,17 @@
     }
 
     .size-btn:not(.select-item) {
-      width: 44px;
+      min-width: 56px;
+      width: auto;
       height: 44px;
+      padding: 0 16px;
       @include flex(center, center);
       border: 1px solid var(--line);
       cursor: pointer;
-      border-radius: 4px;
+      border-radius: 8px;
       @include transition3;
+      white-space: nowrap;
+      text-align: center;
 
       &:hover {
         border-color: var(--text);

@@ -6,12 +6,13 @@ import type { SizePickerProps } from "./types";
 
 export function SizePickerDropdown({
   sizes,
+  variantLabel,
   currentSize,
   setCurrentSize,
 }: SizePickerProps) {
   return (
     <div className="variant-picker-item variant-size">
-      <VariantSizeLabel currentSize={currentSize} />
+      <VariantSizeLabel label={variantLabel} currentSize={currentSize} />
       <div className="tf-variant-dropdown full" data-bs-toggle="dropdown">
         <div className="btn-select">
           <span className="text-sort-value value-currentSize text-capitalize">

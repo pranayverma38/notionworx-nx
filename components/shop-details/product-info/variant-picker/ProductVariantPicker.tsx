@@ -21,6 +21,7 @@ export function ProductVariantPicker({
     setCurrentSize,
     colors,
     sizes,
+    variantLabel,
   } = useProduct();
 
   const ColorPicker = COLOR_PICKERS[colorType];
@@ -38,6 +39,7 @@ export function ProductVariantPicker({
       {sizes.length > 0 && (
         <SizePicker
           sizes={sizes}
+          variantLabel={variantLabel}
           currentSize={currentSize}
           setCurrentSize={setCurrentSize}
         />

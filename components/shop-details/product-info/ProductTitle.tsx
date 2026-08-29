@@ -3,10 +3,6 @@ import { ProductCardItem } from "@/types/productCard";
 export function ProductTitle({ product }: { product: ProductCardItem }) {
   return (
     <>
-      <p className="product-infor-cate text-caption-01 mb-4">
-        {product.category ?? "Catalog Product"}
-      </p>
-
       <h3 className="product-infor-name product-title-refined mb-12 letter-space-0">
         {product.name}
       </h3>

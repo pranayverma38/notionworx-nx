@@ -754,7 +754,7 @@ function applyTargetedProductOverrides(product, tabs) {
     case "belt-bag-dye-sublimated-1-38-strap-500060": {
       const moved = moveParagraphsMatching(
         descriptionHtml,
-        /^7\.5['’"]?\s*x\s*5\.5['’"]?\s*x\s*2['’"]?$/i,
+        /^7\.5.*5\.5.*2(?:\D|$)/i,
       );
       descriptionHtml = moved.html;
       appendDimensions(moved.movedHtml);
@@ -803,8 +803,14 @@ function applyTargetedProductOverrides(product, tabs) {
     case "premium-x-base": {
       const moved = moveParagraphsMatching(
         descriptionHtml,
-        /^21['’"]?\s*x\s*12['’"]?\s*x\s*8['’"]?/i,
+        /^21.*12.*8.*carton$/i,
       );
+      descriptionHtml = moved.html;
+      appendDimensions(moved.movedHtml);
+      break;
+    }
+    case "x-stand": {
+      const moved = moveParagraphsMatching(descriptionHtml, /^template\s/i);
       descriptionHtml = moved.html;
       appendDimensions(moved.movedHtml);
       break;
@@ -825,6 +831,9 @@ function applyTargetedProductOverrides(product, tabs) {
       const moved = moveListItemsMatching(descriptionHtml, /^(Size:|Weight:)/i);
       descriptionHtml = moved.html;
       appendDimensions(moved.movedHtml);
+      const movedParagraph = moveParagraphsMatching(descriptionHtml, /^Size:/i);
+      descriptionHtml = movedParagraph.html;
+      appendDimensions(movedParagraph.movedHtml);
       break;
     }
     case "portable-power-station-300w": {
@@ -872,7 +881,7 @@ function applyTargetedProductOverrides(product, tabs) {
     case "premium-10x20-custom-canopy-tent-hex-9-20": {
       const moved = moveTextMatches(
         descriptionHtml,
-        /🪢\s*Secure Setup[^.]*maintain(?: the)? warranty\./i,
+        /Secure Setup[^.]*maintain(?: the)? warranty\./i,
       );
       descriptionHtml = moved.html;
       appendWarranty(moved.movedHtml);
@@ -902,6 +911,10 @@ function looksLikeColorOption(name) {
   return /color|colour/i.test(String(name || ""));
 }
 
+function isGenericTitleOption(name) {
+  return /^title$/i.test(String(name || "").trim());
+}
+
 function normalizeOptionValues(option) {
   return unique(
     (option?.values || []).filter(
@@ -911,6 +924,29 @@ function normalizeOptionValues(option) {
         value.toLowerCase() !== "default title",
     ),
   );
+}
+
+function normalizeOptionLabel(name) {
+  const normalized = String(name || "").replace(/\s+/g, " ").trim();
+  return normalized || undefined;
+}
+
+function getSupportedVariantLabel(name) {
+  const normalized = normalizeOptionLabel(name)?.toLowerCase();
+
+  if (!normalized) {
+    return undefined;
+  }
+
+  if (/\bframe\b/.test(normalized)) {
+    return "Frame Type";
+  }
+
+  if (/\bsize\b/.test(normalized)) {
+    return "Size";
+  }
+
+  return undefined;
 }
 
 function deriveColorSwatches(product) {
@@ -935,21 +971,46 @@ function deriveColorSwatches(product) {
   }));
 }
 
-function deriveSizes(product) {
-  const sizeOption = product.options.find(
-    (option) => !looksLikeColorOption(option.name) && !/^title$/i.test(option.name),
+function looksLikeFrameTypeValue(value) {
+  const normalized = String(value || "")
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, " ")
+    .trim();
+
+  return /^(?:hex aluminum|hex aluminium|steel|aluminum|aluminium)(?: frame)?(?: [a-z]+)*$/.test(
+    normalized,
+  );
+}
+
+function inferVariantLabelFromValues(values) {
+  if (values.length < 2) {
+    return undefined;
+  }
+
+  return values.every(looksLikeFrameTypeValue) ? "Frame Type" : undefined;
+}
+
+function derivePrimaryVariant(product) {
+  const primaryOption = product.options.find(
+    (option) =>
+      !looksLikeColorOption(option.name) && !isGenericTitleOption(option.name),
   );
 
-  const values = normalizeOptionValues(sizeOption);
-  if (values.length) return values.slice(0, 8);
-
+  const optionValues = normalizeOptionValues(primaryOption);
   const variantTitles = unique(
     (product.variants || [])
       .map((variant) => variant.title)
       .filter((title) => title && title !== "Default Title"),
   );
 
-  return variantTitles.slice(0, 8);
+  const values = (optionValues.length ? optionValues : variantTitles).slice(0, 8);
+
+  return {
+    values,
+    label:
+      getSupportedVariantLabel(primaryOption?.name) ??
+      inferVariantLabelFromValues(values),
+  };
 }
 
 function buildBadges(price, compareAtPrice) {
@@ -987,7 +1048,8 @@ function buildProduct(product, index) {
     src: image.localPath,
   }));
   const colors = deriveColorSwatches(product);
-  const sizes = deriveSizes(product);
+  const primaryVariant = derivePrimaryVariant(product);
+  const sizes = primaryVariant.values;
   const price = product.price?.min ?? 0;
   const priceOld = product.price?.compareAtMax ?? undefined;
   const categoryTitles = unique(product.categories.map((category) => category.title));
@@ -1018,6 +1080,7 @@ function buildProduct(product, index) {
     ...(typeof priceOld === "number" && priceOld > price ? { priceOld } : {}),
     ...(buildBadges(price, priceOld) ? { badge: buildBadges(price, priceOld) } : {}),
     ...(sizes.length ? { sizes } : {}),
+    ...(primaryVariant.label ? { variantLabel: primaryVariant.label } : {}),
     ...(colors.length ? { colors } : {}),
     cardVariant: "",
     filterBrands: [product.vendor || "Notion Worx"],

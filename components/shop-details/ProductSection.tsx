@@ -124,6 +124,7 @@ export default function ProductSection({
   extraImages,
   colors,
   sizes: sizesProp,
+  variantLabel,
   layout = "default",
   mediaLayout = "slider",
   parentClass = "section-product-single tf-main-product section-image-zoom",
@@ -138,6 +139,7 @@ export default function ProductSection({
   extraImages?: ProductSingleImage[];
   colors?: ColorOption[];
   sizes?: (string | SizeOption)[];
+  variantLabel?: string;
   layout?:
     | "default"
     | "grouped"
@@ -185,6 +187,7 @@ export default function ProductSection({
   const resolvedInitialColor =
     initialColor ?? resolvedColors[0]?.label ?? "";
   const resolvedInitialSize = initialSize ?? sizes[0]?.value ?? "";
+  const resolvedVariantLabel = variantLabel ?? product.variantLabel ?? "Size";
 
   return (
     <ProductProvider
@@ -194,6 +197,7 @@ export default function ProductSection({
       extraImages={resolvedImages}
       colors={resolvedColors}
       sizes={sizes}
+      variantLabel={resolvedVariantLabel}
       thumbnailPosition={thumbnailPosition}
       zoomType={zoomType}
     >

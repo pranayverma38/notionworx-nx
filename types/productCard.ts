@@ -46,6 +46,8 @@ export interface ProductCardItem extends Partial<ShopProductFacetFields> {
   badgeTrend?: string;
   /** Size options shown in variant-box (e.g. ["XS", "S", "M"]) */
   sizes?: string[];
+  /** Label for the primary non-color variant group (e.g. "Size", "Frame Type"). */
+  variantLabel?: string;
   /** Size variants with price for single-product (e.g. [{ value: "30ml", price: "39.99" }, { value: "100ml", price: "59.99", active: true }]). */
   sizeVariants?: { value: string; price: string; active?: boolean }[];
   /** Color swatches; first is active. */

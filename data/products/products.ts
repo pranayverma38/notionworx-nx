@@ -10,6 +10,7 @@ function cloneProduct(product: ProductCardItem): ProductCardItem {
     images: product.images?.map((image) => ({ ...image })),
     colors: product.colors?.map((color) => ({ ...color })),
     sizes: product.sizes ? [...product.sizes] : undefined,
+    variantLabel: product.variantLabel,
     filterBrands: product.filterBrands ? [...product.filterBrands] : undefined,
     filterCategory: product.filterCategory ? [...product.filterCategory] : undefined,
     filterColor: product.filterColor ? [...product.filterColor] : undefined,

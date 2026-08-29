@@ -33,6 +33,7 @@ interface ProductContextType {
   // Static Data
   extraImages: ProductSingleImage[];
   sizes: SizeOption[];
+  variantLabel: string;
   colors: ColorOption[];
   thumbnailPosition: "bottom" | "left" | "right";
   zoomType: "default" | "inner" | "magnifying" | "none";
@@ -47,6 +48,7 @@ export interface ProductProviderProps {
   initialQuantity?: number;
   extraImages: ProductSingleImage[];
   sizes: SizeOption[];
+  variantLabel?: string;
   colors: ColorOption[];
   thumbnailPosition?: "bottom" | "left" | "right";
   zoomType?: "default" | "inner" | "magnifying" | "none";
@@ -59,6 +61,7 @@ export const ProductProvider: React.FC<ProductProviderProps> = ({
   initialQuantity = 1,
   extraImages,
   sizes,
+  variantLabel = "Size",
   colors,
   thumbnailPosition = "left",
   zoomType = "default",
@@ -90,6 +93,7 @@ export const ProductProvider: React.FC<ProductProviderProps> = ({
         setQuantity,
         extraImages,
         sizes,
+        variantLabel,
         colors,
         thumbnailPosition,
         zoomType,

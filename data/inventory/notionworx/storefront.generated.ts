@@ -22,6 +22,7 @@ export const storefrontProducts = [
       "4XL",
       "YXS"
     ],
+    "variantLabel": "Size",
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -573,6 +574,7 @@ export const storefrontProducts = [
       "4XL",
       "5XL"
     ],
+    "variantLabel": "Size",
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -629,6 +631,7 @@ export const storefrontProducts = [
       "4XL",
       "YXS"
     ],
+    "variantLabel": "Size",
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -693,6 +696,7 @@ export const storefrontProducts = [
       "3XL",
       "4XL"
     ],
+    "variantLabel": "Size",
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -745,6 +749,7 @@ export const storefrontProducts = [
       "3XL",
       "4XL"
     ],
+    "variantLabel": "Size",
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -804,6 +809,7 @@ export const storefrontProducts = [
       "XL",
       "2XL"
     ],
+    "variantLabel": "Size",
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -866,6 +872,7 @@ export const storefrontProducts = [
       "XL",
       "2XL"
     ],
+    "variantLabel": "Size",
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -925,6 +932,7 @@ export const storefrontProducts = [
       "4XL",
       "5XL"
     ],
+    "variantLabel": "Size",
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -984,6 +992,7 @@ export const storefrontProducts = [
       "4XL",
       "XS"
     ],
+    "variantLabel": "Size",
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -1040,6 +1049,7 @@ export const storefrontProducts = [
       "4XL",
       "5XL"
     ],
+    "variantLabel": "Size",
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -1099,6 +1109,7 @@ export const storefrontProducts = [
       "XL",
       "2XL"
     ],
+    "variantLabel": "Size",
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -1161,6 +1172,7 @@ export const storefrontProducts = [
       "4XL",
       "5XL"
     ],
+    "variantLabel": "Size",
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -1223,6 +1235,7 @@ export const storefrontProducts = [
       "4XL",
       "5XL"
     ],
+    "variantLabel": "Size",
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -1275,6 +1288,7 @@ export const storefrontProducts = [
       "3XL",
       "4XL"
     ],
+    "variantLabel": "Size",
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -1412,6 +1426,7 @@ export const storefrontProducts = [
       "4XL",
       "5XL"
     ],
+    "variantLabel": "Size",
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -1480,6 +1495,7 @@ export const storefrontProducts = [
       "3XL",
       "4XL"
     ],
+    "variantLabel": "Size",
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -1536,6 +1552,7 @@ export const storefrontProducts = [
       "4XL",
       "YXS"
     ],
+    "variantLabel": "Size",
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -1922,6 +1939,7 @@ export const storefrontProducts = [
     "sizes": [
       "36'' x 90''"
     ],
+    "variantLabel": "Size",
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -2609,9 +2627,11 @@ export const storefrontProducts = [
     "isStockOut": false,
     "services": [],
     "category": "BAG",
-    "description": "Need Help with Artwork Setup? 600d oxford material one layer black inside with strap 0.98'' width 7.5'' x 5.5'' x 2'' Webbing width: 1.38\"",
-    "descriptionHtml": "<p><a href=\"https://displaytemplate.s3.us-west-2.amazonaws.com/Apparel/Belt+Bag.pdf\">Download template</a> <a href=\"https://soardistusa.com/apps/help-center#hc-creative-services\">Need Help with Artwork Setup?</a></p>\n<p>600d oxford material</p>\n<p>one layer black inside with strap 0.98&#x27;&#x27; width</p>\n<p>7.5&#x27;&#x27; x 5.5&#x27;&#x27; x 2&#x27;&#x27;</p>\n<p>Webbing width: 1.38&quot;</p>",
-    "descriptionText": "Download template Need Help with Artwork Setup?\n\n600d oxford material\n\none layer black inside with strap 0.98'' width\n\n7.5'' x 5.5'' x 2''\n\nWebbing width: 1.38\"",
+    "description": "Need Help with Artwork Setup? 600d oxford material one layer black inside with strap 0.98'' width Webbing width: 1.38\"",
+    "descriptionHtml": "<p><a href=\"https://displaytemplate.s3.us-west-2.amazonaws.com/Apparel/Belt+Bag.pdf\">Download template</a> <a href=\"https://soardistusa.com/apps/help-center#hc-creative-services\">Need Help with Artwork Setup?</a></p>\n<p>600d oxford material</p>\n<p>one layer black inside with strap 0.98&#x27;&#x27; width</p>\n\n<p>Webbing width: 1.38&quot;</p>",
+    "descriptionText": "Download template Need Help with Artwork Setup?\n\n600d oxford material\n\none layer black inside with strap 0.98'' width\n\nWebbing width: 1.38\"",
+    "dimensionsHtml": "<p>7.5&#x27;&#x27; x 5.5&#x27;&#x27; x 2&#x27;&#x27;</p>",
+    "dimensionsText": "7.5'' x 5.5'' x 2''",
     "howToOrderHtml": "<ul>\n  <li>SKU 500060</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
     "howToOrderText": "SKU 500060\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
     "sku": "500060",
@@ -2735,6 +2755,7 @@ export const storefrontProducts = [
       "4XL",
       "YXS"
     ],
+    "variantLabel": "Size",
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -2830,6 +2851,7 @@ export const storefrontProducts = [
       "3XL",
       "4XL"
     ],
+    "variantLabel": "Size",
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -2925,6 +2947,7 @@ export const storefrontProducts = [
       "3XL",
       "4XL"
     ],
+    "variantLabel": "Size",
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -3332,6 +3355,7 @@ export const storefrontProducts = [
       "4XL",
       "5XL"
     ],
+    "variantLabel": "Size",
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -3395,6 +3419,7 @@ export const storefrontProducts = [
       "3/4\" Wide",
       "5/8\" Wide"
     ],
+    "variantLabel": "Size",
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -3453,6 +3478,7 @@ export const storefrontProducts = [
       "4'x8'",
       "5'x10'"
     ],
+    "variantLabel": "Size",
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -3612,6 +3638,7 @@ export const storefrontProducts = [
       "4'' x 4''",
       "5'' x 5''"
     ],
+    "variantLabel": "Size",
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -3728,6 +3755,7 @@ export const storefrontProducts = [
       "3XL",
       "4XL"
     ],
+    "variantLabel": "Size",
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -3842,6 +3870,7 @@ export const storefrontProducts = [
       "6'",
       "8'"
     ],
+    "variantLabel": "Size",
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -4033,6 +4062,7 @@ export const storefrontProducts = [
       "YS",
       "YM"
     ],
+    "variantLabel": "Size",
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -4089,6 +4119,7 @@ export const storefrontProducts = [
       "XL",
       "2XL"
     ],
+    "variantLabel": "Size",
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -4145,6 +4176,7 @@ export const storefrontProducts = [
       "4XL",
       "5XL"
     ],
+    "variantLabel": "Size",
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -4197,6 +4229,7 @@ export const storefrontProducts = [
       "L",
       "XL"
     ],
+    "variantLabel": "Size",
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -4260,6 +4293,7 @@ export const storefrontProducts = [
       "2XL",
       "3XL"
     ],
+    "variantLabel": "Size",
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -4313,6 +4347,7 @@ export const storefrontProducts = [
       "4XL",
       "5XL"
     ],
+    "variantLabel": "Size",
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -4369,6 +4404,7 @@ export const storefrontProducts = [
       "XL",
       "2XL"
     ],
+    "variantLabel": "Size",
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -4425,6 +4461,7 @@ export const storefrontProducts = [
       "XL",
       "2XL"
     ],
+    "variantLabel": "Size",
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -4481,6 +4518,7 @@ export const storefrontProducts = [
       "4XL",
       "5XL"
     ],
+    "variantLabel": "Size",
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -4669,6 +4707,7 @@ export const storefrontProducts = [
       "XL",
       "2XL"
     ],
+    "variantLabel": "Size",
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -4731,6 +4770,7 @@ export const storefrontProducts = [
       "3XL",
       "4XL"
     ],
+    "variantLabel": "Size",
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -4790,6 +4830,7 @@ export const storefrontProducts = [
       "XL",
       "2XL"
     ],
+    "variantLabel": "Size",
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -5020,6 +5061,7 @@ export const storefrontProducts = [
       "Hex Aluminum",
       "Steel"
     ],
+    "variantLabel": "Frame Type",
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -5215,6 +5257,7 @@ export const storefrontProducts = [
       "Hex Aluminum",
       "Steel"
     ],
+    "variantLabel": "Frame Type",
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -5294,6 +5337,7 @@ export const storefrontProducts = [
       "Hex Aluminum",
       "Steel"
     ],
+    "variantLabel": "Frame Type",
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -5373,6 +5417,7 @@ export const storefrontProducts = [
       "Hex Aluminum",
       "Steel"
     ],
+    "variantLabel": "Frame Type",
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -5846,12 +5891,12 @@ export const storefrontProducts = [
     "services": [],
     "category": "Best Selling 10x10 Custom Canopy Tents – Tradeshow & Food Booth Essentials",
     "description": "Premium 10'×20' Custom Canopy Tent Elevate your event setup with our Premium 10'×20' Custom Canopy Tent, engineered for professional vendors who need maximum space, durability, and high-impact branding. This oversized canopy features a 40mm heavy-duty aluminum frame, fully custo…",
-    "descriptionHtml": "<p><a href=\"https://displaytemplate.s3-us-west-2.amazonaws.com/Product+setup+instruction/Inst_10x10_TENT_Universal_curves.pdf\">Specsheet</a> <a href=\"https://drive.google.com/file/d/1jv_fBUek_UZYUHvBv_DMJG5tk42yIiah/view?usp=drive_link\">Warning Label</a> <a href=\"https://drive.google.com/file/d/1lPLYIldqjlfbOpvvoZGq-ETmb5Lb207s/view?usp=sharing\">Fire Certificate</a></p>\n<h2>Premium 10&#x27;×20&#x27; Custom Canopy Tent</h2>\n<p>Elevate your event setup with our Premium 10&#x27;×20&#x27; Custom Canopy Tent, engineered for professional vendors who need maximum space, durability, and high-impact branding. This oversized canopy features a 40mm heavy-duty aluminum frame, fully custom 600D dye-sublimation canopy, and includes a single-sided full back wall for superior privacy and visual impact.<br>Comes complete with a wheeled carry bag and free nationwide FedEx ground shipping.</p>\n<h2>Key Features</h2>\n<p>🛡️ Durable 600D Polyester Canopy: Weather-resistant fabric designed for long-term outdoor use.</p>\n<p>🎨 Full-Color Dye Sublimation: Your artwork is printed in high resolution on a white canopy for vibrant, fade-resistant results.</p>\n<p>💪 Heavy-Duty Frame: Built with 1.2 mm anodized aluminum for superior strength.</p>\n<p>🔩 Reinforced Hardware: Frame equipped with ABS glass-filled nylon joints for added durability.</p>\n<p>📏 HEX Legs for Stability: Hexagon-shaped legs measuring 1.75&quot;provide maximum support.</p>\n<p>⬆️ Pinch-Free Height Adjustment: Plastic levers allow smooth and safe height changes.</p>\n<p>🧱 Full Back Wall (Single-Sided): Included for enhanced branding, shade, privacy, and weather protection.</p>\n<p>🧳 Portable &amp; Convenient: Easily collapses to fit into the included wheeled soft carry bag.</p>\n<p></p>\n<p>🖨️ Imprint Method: High-quality Full-Color Dye Sublimation.</p>\n<h2>Kit Includes</h2>\n<ul>\n  <li>🧩 1× Aluminum Frame</li>\n  <li>🎪 1× Custom Printed Canopy</li>\n  <li>🧱 1× Full Back Wall (Single-Sided)</li>\n  <li>🧳 1× Wheeled Carry Bag</li>\n  <li>🪢 1× Ropes &amp; Pegs Set</li>\n</ul>\n<h2>Optional Accessories</h2>\n<ul>\n  <li>6&#x27; Table Cover</li>\n  <li>Feather Flags</li>\n  <li>Sandbags</li>\n</ul>\n<h2>Materials</h2>\n<ul>\n  <li>🔧 Hardware: ABS Nylon, Aluminum</li>\n  <li>🧵 Canopy: 600 Denier Polyester</li>\n</ul>\n<h2>Certifications</h2>\n<p>🔥 Meets FR Rating Requirements</p>\n<h2>Primary Usage</h2>\n<p>Outdoor events, trade shows, food booths, festivals, markets, brand activations, and vendor setups.</p>",
-    "descriptionText": "Specsheet Warning Label Fire Certificate\n\nPremium 10'×20' Custom Canopy Tent\n\nElevate your event setup with our Premium 10'×20' Custom Canopy Tent, engineered for professional vendors who need maximum space, durability, and high-impact branding. This oversized canopy features a 40mm heavy-duty aluminum frame, fully custom 600D dye-sublimation canopy, and includes a single-sided full back wall for superior privacy and visual impact.\nComes complete with a wheeled carry bag and free nationwide FedEx ground shipping.\n\nKey Features\n\n🛡️ Durable 600D Polyester Canopy: Weather-resistant fabric designed for long-term outdoor use.\n\n🎨 Full-Color Dye Sublimation: Your artwork is printed in high resolution on a white canopy for vibrant, fade-resistant results.\n\n💪 Heavy-Duty Frame: Built with 1.2 mm anodized aluminum for superior strength.\n\n🔩 Reinforced Hardware: Frame equipped with ABS glass-filled nylon joints for added durability.\n\n📏 HEX Legs for Stability: Hexagon-shaped legs measuring 1.75\"provide maximum support.\n\n⬆️ Pinch-Free Height Adjustment: Plastic levers allow smooth and safe height changes.\n\n🧱 Full Back Wall (Single-Sided): Included for enhanced branding, shade, privacy, and weather protection.\n\n🧳 Portable & Convenient: Easily collapses to fit into the included wheeled soft carry bag.\n\n🖨️ Imprint Method: High-quality Full-Color Dye Sublimation.\n\nKit Includes\n\n- 🧩 1× Aluminum Frame\n\n- 🎪 1× Custom Printed Canopy\n\n- 🧱 1× Full Back Wall (Single-Sided)\n\n- 🧳 1× Wheeled Carry Bag\n\n- 🪢 1× Ropes & Pegs Set\n\nOptional Accessories\n\n- 6' Table Cover\n\n- Feather Flags\n\n- Sandbags\n\nMaterials\n\n- 🔧 Hardware: ABS Nylon, Aluminum\n\n- 🧵 Canopy: 600 Denier Polyester\n\nCertifications\n\n🔥 Meets FR Rating Requirements\n\nPrimary Usage\n\nOutdoor events, trade shows, food booths, festivals, markets, brand activations, and vendor setups.",
+    "descriptionHtml": "<p><a href=\"https://displaytemplate.s3-us-west-2.amazonaws.com/Product+setup+instruction/Inst_10x10_TENT_Universal_curves.pdf\">Specsheet</a> <a href=\"https://drive.google.com/file/d/1jv_fBUek_UZYUHvBv_DMJG5tk42yIiah/view?usp=drive_link\">Warning Label</a> <a href=\"https://drive.google.com/file/d/1lPLYIldqjlfbOpvvoZGq-ETmb5Lb207s/view?usp=sharing\">Fire Certificate</a></p>\n<h2>Premium 10&#x27;×20&#x27; Custom Canopy Tent</h2>\n<p>Elevate your event setup with our Premium 10&#x27;×20&#x27; Custom Canopy Tent, engineered for professional vendors who need maximum space, durability, and high-impact branding. This oversized canopy features a 40mm heavy-duty aluminum frame, fully custom 600D dye-sublimation canopy, and includes a single-sided full back wall for superior privacy and visual impact.<br>Comes complete with a wheeled carry bag and free nationwide FedEx ground shipping.</p>\n<h2>Key Features</h2>\n<p>🛡️ Durable 600D Polyester Canopy: Weather-resistant fabric designed for long-term outdoor use.</p>\n<p>🎨 Full-Color Dye Sublimation: Your artwork is printed in high resolution on a white canopy for vibrant, fade-resistant results.</p>\n<p>💪 Heavy-Duty Frame: Built with 1.2 mm anodized aluminum for superior strength.</p>\n<p>🔩 Reinforced Hardware: Frame equipped with ABS glass-filled nylon joints for added durability.</p>\n<p>📏 HEX Legs for Stability: Hexagon-shaped legs measuring 1.75&quot;provide maximum support.</p>\n<p>⬆️ Pinch-Free Height Adjustment: Plastic levers allow smooth and safe height changes.</p>\n<p>🧱 Full Back Wall (Single-Sided): Included for enhanced branding, shade, privacy, and weather protection.</p>\n<p>🧳 Portable &amp; Convenient: Easily collapses to fit into the included wheeled soft carry bag.</p>\n<p>🪢 </p>\n<p>🖨️ Imprint Method: High-quality Full-Color Dye Sublimation.</p>\n<h2>Kit Includes</h2>\n<ul>\n  <li>🧩 1× Aluminum Frame</li>\n  <li>🎪 1× Custom Printed Canopy</li>\n  <li>🧱 1× Full Back Wall (Single-Sided)</li>\n  <li>🧳 1× Wheeled Carry Bag</li>\n  <li>🪢 1× Ropes &amp; Pegs Set</li>\n</ul>\n<h2>Optional Accessories</h2>\n<ul>\n  <li>6&#x27; Table Cover</li>\n  <li>Feather Flags</li>\n  <li>Sandbags</li>\n</ul>\n<h2>Materials</h2>\n<ul>\n  <li>🔧 Hardware: ABS Nylon, Aluminum</li>\n  <li>🧵 Canopy: 600 Denier Polyester</li>\n</ul>\n<h2>Certifications</h2>\n<p>🔥 Meets FR Rating Requirements</p>\n<h2>Primary Usage</h2>\n<p>Outdoor events, trade shows, food booths, festivals, markets, brand activations, and vendor setups.</p>",
+    "descriptionText": "Specsheet Warning Label Fire Certificate\n\nPremium 10'×20' Custom Canopy Tent\n\nElevate your event setup with our Premium 10'×20' Custom Canopy Tent, engineered for professional vendors who need maximum space, durability, and high-impact branding. This oversized canopy features a 40mm heavy-duty aluminum frame, fully custom 600D dye-sublimation canopy, and includes a single-sided full back wall for superior privacy and visual impact.\nComes complete with a wheeled carry bag and free nationwide FedEx ground shipping.\n\nKey Features\n\n🛡️ Durable 600D Polyester Canopy: Weather-resistant fabric designed for long-term outdoor use.\n\n🎨 Full-Color Dye Sublimation: Your artwork is printed in high resolution on a white canopy for vibrant, fade-resistant results.\n\n💪 Heavy-Duty Frame: Built with 1.2 mm anodized aluminum for superior strength.\n\n🔩 Reinforced Hardware: Frame equipped with ABS glass-filled nylon joints for added durability.\n\n📏 HEX Legs for Stability: Hexagon-shaped legs measuring 1.75\"provide maximum support.\n\n⬆️ Pinch-Free Height Adjustment: Plastic levers allow smooth and safe height changes.\n\n🧱 Full Back Wall (Single-Sided): Included for enhanced branding, shade, privacy, and weather protection.\n\n🧳 Portable & Convenient: Easily collapses to fit into the included wheeled soft carry bag.\n\n🪢\n\n🖨️ Imprint Method: High-quality Full-Color Dye Sublimation.\n\nKit Includes\n\n- 🧩 1× Aluminum Frame\n\n- 🎪 1× Custom Printed Canopy\n\n- 🧱 1× Full Back Wall (Single-Sided)\n\n- 🧳 1× Wheeled Carry Bag\n\n- 🪢 1× Ropes & Pegs Set\n\nOptional Accessories\n\n- 6' Table Cover\n\n- Feather Flags\n\n- Sandbags\n\nMaterials\n\n- 🔧 Hardware: ABS Nylon, Aluminum\n\n- 🧵 Canopy: 600 Denier Polyester\n\nCertifications\n\n🔥 Meets FR Rating Requirements\n\nPrimary Usage\n\nOutdoor events, trade shows, food booths, festivals, markets, brand activations, and vendor setups.",
     "dimensionsHtml": "<h2>Product Dimensions</h2>\n<ul>\n  <li>📐 Product Size: 120&quot; W × 137&quot; H × 240&quot; D</li>\n  <li>📦 Collapsible Size: 9.12&quot; W × 62.75&quot; H × 9.12&quot; D</li>\n  <li>🎒 Case Dimensions: 12.5&quot; W × 56.25&quot; H × 15.5&quot; D</li>\n  <li>⚖️ Product Weight: 40 lbs</li>\n</ul>",
     "dimensionsText": "Product Dimensions\n\n- 📐 Product Size: 120\" W × 137\" H × 240\" D\n\n- 📦 Collapsible Size: 9.12\" W × 62.75\" H × 9.12\" D\n\n- 🎒 Case Dimensions: 12.5\" W × 56.25\" H × 15.5\" D\n\n- ⚖️ Product Weight: 40 lbs",
-    "warrantyHtml": "<h2>Factory Warranty</h2>\n<p>We stand behind the quality of our products. Our warranty covers any factory defects or damage that occurs during shipping. However, please note that we do not cover damage resulting from extreme weather conditions, misuse, or any circumstances beyond our control.</p>\n<p>🪢 Secure Setup: Includes rope and peg kit; proper anchoring is required to maintain warranty.</p>",
-    "warrantyText": "Factory Warranty\n\nWe stand behind the quality of our products. Our warranty covers any factory defects or damage that occurs during shipping. However, please note that we do not cover damage resulting from extreme weather conditions, misuse, or any circumstances beyond our control.\n\n🪢 Secure Setup: Includes rope and peg kit; proper anchoring is required to maintain warranty.",
+    "warrantyHtml": "<h2>Factory Warranty</h2>\n<p>We stand behind the quality of our products. Our warranty covers any factory defects or damage that occurs during shipping. However, please note that we do not cover damage resulting from extreme weather conditions, misuse, or any circumstances beyond our control.</p>\n<p>Secure Setup: Includes rope and peg kit; proper anchoring is required to maintain warranty.</p>",
+    "warrantyText": "Factory Warranty\n\nWe stand behind the quality of our products. Our warranty covers any factory defects or damage that occurs during shipping. However, please note that we do not cover damage resulting from extreme weather conditions, misuse, or any circumstances beyond our control.\n\nSecure Setup: Includes rope and peg kit; proper anchoring is required to maintain warranty.",
     "howToOrderHtml": "<ul>\n  <li>SKU ITEM #: 10-20</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
     "howToOrderText": "- SKU ITEM #: 10-20\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
     "sku": "ITEM #: 10-20",
@@ -5918,12 +5963,12 @@ export const storefrontProducts = [
     "services": [],
     "category": "Best Selling 10x10 Custom Canopy Tents – Tradeshow & Food Booth Essentials",
     "description": "Premium 10'×20' Custom Canopy Tent Built for serious vendors and outdoor professionals, our Premium 10'×20' Custom Canopy Tent delivers durability, stability, and full visual impact. Featuring a 40mm heavy-duty aluminum frame, fully customizable 600D dye-sublimated canopy, and c…",
-    "descriptionHtml": "<p><a href=\"https://displaytemplate.s3-us-west-2.amazonaws.com/Product+setup+instruction/Inst_10x10_TENT_Universal_curves.pdf\">Specsheet</a> <a href=\"https://drive.google.com/file/d/1jv_fBUek_UZYUHvBv_DMJG5tk42yIiah/view?usp=drive_link\">Warning Label</a> <a href=\"https://drive.google.com/file/d/1lPLYIldqjlfbOpvvoZGq-ETmb5Lb207s/view?usp=sharing\">Fire Certificate</a></p>\n<h2>Premium 10&#x27;×20&#x27; Custom Canopy Tent</h2>\n<p>Built for serious vendors and outdoor professionals, our Premium 10&#x27;×20&#x27; Custom Canopy Tent delivers durability, stability, and full visual impact. Featuring a 40mm heavy-duty aluminum frame, fully customizable 600D dye-sublimated canopy, and complete weather protection, this setup is ideal for trade shows, festivals, food booths, and branded outdoor events.</p>\n<p>Includes a wheeled carry bag for easy transport and free nationwide FedEx ground shipping.</p>\n<h3>Features</h3>\n<ul>\n  <li>🛡️ Durable 600D Polyester Canopy: Weather-resistant, long-lasting outdoor fabric.</li>\n  <li>🎨 Full-Color Dye Sublimation: Your artwork is printed in vibrant, high-resolution detail.</li>\n  <li>💪 Heavy-Duty Aluminum Frame: Constructed with 1.2 mm anodized aluminum.</li>\n  <li>🔩 Reinforced ABS Hardware: ABS glass-filled nylon joints for added frame strength.</li>\n  <li>📏 1.75&quot; HEX Legs: Hexagon-shaped legs for enhanced stability.</li>\n  <li>⬆️ Pinch-Free Adjustment: Plastic lever system for smooth height changes.</li>\n  <li>🧳 Easy Transport: Collapses to fit inside the included soft wheeled carry bag.</li>\n  <li></li>\n  <li>🖨️ Imprint Method: Premium full-color dye sublimation.</li>\n</ul>\n<h3>Kit Includes</h3>\n<ul>\n  <li>🧩 1× Frame Hardware</li>\n  <li>🎪 1× Custom Printed Canopy</li>\n  <li>🧱 1× Full Back Wall (Single-Sided)</li>\n  <li>🧩 2× Half Side Walls (Single-Sided)</li>\n  <li>🧳 1× Wheeled Carry Bag</li>\n  <li>🪢 1× Ropes &amp; Pegs Set</li>\n</ul>\n<h3>Optional Accessories</h3>\n<ul>\n  <li>6&#x27; Table Cover</li>\n  <li>Feather Flags</li>\n  <li>Sandbags</li>\n</ul>\n<h3>Materials</h3>\n<ul>\n  <li>🔧 Hardware: ABS Nylon, Aluminum</li>\n  <li>🧵 Canopy Fabric: 600D Polyester</li>\n</ul>\n<h3>Certifications</h3>\n<p>🔥 Meets FR Rating Requirements</p>\n<h3>Primary Usage</h3>\n<p>Outdoor events, vendor booths, markets, trade shows, festivals, brand activations, and corporate setups.</p>",
-    "descriptionText": "Specsheet Warning Label Fire Certificate\n\nPremium 10'×20' Custom Canopy Tent\n\nBuilt for serious vendors and outdoor professionals, our Premium 10'×20' Custom Canopy Tent delivers durability, stability, and full visual impact. Featuring a 40mm heavy-duty aluminum frame, fully customizable 600D dye-sublimated canopy, and complete weather protection, this setup is ideal for trade shows, festivals, food booths, and branded outdoor events.\n\nIncludes a wheeled carry bag for easy transport and free nationwide FedEx ground shipping.\n\nFeatures\n\n- 🛡️ Durable 600D Polyester Canopy: Weather-resistant, long-lasting outdoor fabric.\n\n- 🎨 Full-Color Dye Sublimation: Your artwork is printed in vibrant, high-resolution detail.\n\n- 💪 Heavy-Duty Aluminum Frame: Constructed with 1.2 mm anodized aluminum.\n\n- 🔩 Reinforced ABS Hardware: ABS glass-filled nylon joints for added frame strength.\n\n- 📏 1.75\" HEX Legs: Hexagon-shaped legs for enhanced stability.\n\n- ⬆️ Pinch-Free Adjustment: Plastic lever system for smooth height changes.\n\n- 🧳 Easy Transport: Collapses to fit inside the included soft wheeled carry bag.\n\n-\n\n- 🖨️ Imprint Method: Premium full-color dye sublimation.\n\nKit Includes\n\n- 🧩 1× Frame Hardware\n\n- 🎪 1× Custom Printed Canopy\n\n- 🧱 1× Full Back Wall (Single-Sided)\n\n- 🧩 2× Half Side Walls (Single-Sided)\n\n- 🧳 1× Wheeled Carry Bag\n\n- 🪢 1× Ropes & Pegs Set\n\nOptional Accessories\n\n- 6' Table Cover\n\n- Feather Flags\n\n- Sandbags\n\nMaterials\n\n- 🔧 Hardware: ABS Nylon, Aluminum\n\n- 🧵 Canopy Fabric: 600D Polyester\n\nCertifications\n\n🔥 Meets FR Rating Requirements\n\nPrimary Usage\n\nOutdoor events, vendor booths, markets, trade shows, festivals, brand activations, and corporate setups.",
+    "descriptionHtml": "<p><a href=\"https://displaytemplate.s3-us-west-2.amazonaws.com/Product+setup+instruction/Inst_10x10_TENT_Universal_curves.pdf\">Specsheet</a> <a href=\"https://drive.google.com/file/d/1jv_fBUek_UZYUHvBv_DMJG5tk42yIiah/view?usp=drive_link\">Warning Label</a> <a href=\"https://drive.google.com/file/d/1lPLYIldqjlfbOpvvoZGq-ETmb5Lb207s/view?usp=sharing\">Fire Certificate</a></p>\n<h2>Premium 10&#x27;×20&#x27; Custom Canopy Tent</h2>\n<p>Built for serious vendors and outdoor professionals, our Premium 10&#x27;×20&#x27; Custom Canopy Tent delivers durability, stability, and full visual impact. Featuring a 40mm heavy-duty aluminum frame, fully customizable 600D dye-sublimated canopy, and complete weather protection, this setup is ideal for trade shows, festivals, food booths, and branded outdoor events.</p>\n<p>Includes a wheeled carry bag for easy transport and free nationwide FedEx ground shipping.</p>\n<h3>Features</h3>\n<ul>\n  <li>🛡️ Durable 600D Polyester Canopy: Weather-resistant, long-lasting outdoor fabric.</li>\n  <li>🎨 Full-Color Dye Sublimation: Your artwork is printed in vibrant, high-resolution detail.</li>\n  <li>💪 Heavy-Duty Aluminum Frame: Constructed with 1.2 mm anodized aluminum.</li>\n  <li>🔩 Reinforced ABS Hardware: ABS glass-filled nylon joints for added frame strength.</li>\n  <li>📏 1.75&quot; HEX Legs: Hexagon-shaped legs for enhanced stability.</li>\n  <li>⬆️ Pinch-Free Adjustment: Plastic lever system for smooth height changes.</li>\n  <li>🧳 Easy Transport: Collapses to fit inside the included soft wheeled carry bag.</li>\n  <li>🪢 </li>\n  <li>🖨️ Imprint Method: Premium full-color dye sublimation.</li>\n</ul>\n<h3>Kit Includes</h3>\n<ul>\n  <li>🧩 1× Frame Hardware</li>\n  <li>🎪 1× Custom Printed Canopy</li>\n  <li>🧱 1× Full Back Wall (Single-Sided)</li>\n  <li>🧩 2× Half Side Walls (Single-Sided)</li>\n  <li>🧳 1× Wheeled Carry Bag</li>\n  <li>🪢 1× Ropes &amp; Pegs Set</li>\n</ul>\n<h3>Optional Accessories</h3>\n<ul>\n  <li>6&#x27; Table Cover</li>\n  <li>Feather Flags</li>\n  <li>Sandbags</li>\n</ul>\n<h3>Materials</h3>\n<ul>\n  <li>🔧 Hardware: ABS Nylon, Aluminum</li>\n  <li>🧵 Canopy Fabric: 600D Polyester</li>\n</ul>\n<h3>Certifications</h3>\n<p>🔥 Meets FR Rating Requirements</p>\n<h3>Primary Usage</h3>\n<p>Outdoor events, vendor booths, markets, trade shows, festivals, brand activations, and corporate setups.</p>",
+    "descriptionText": "Specsheet Warning Label Fire Certificate\n\nPremium 10'×20' Custom Canopy Tent\n\nBuilt for serious vendors and outdoor professionals, our Premium 10'×20' Custom Canopy Tent delivers durability, stability, and full visual impact. Featuring a 40mm heavy-duty aluminum frame, fully customizable 600D dye-sublimated canopy, and complete weather protection, this setup is ideal for trade shows, festivals, food booths, and branded outdoor events.\n\nIncludes a wheeled carry bag for easy transport and free nationwide FedEx ground shipping.\n\nFeatures\n\n- 🛡️ Durable 600D Polyester Canopy: Weather-resistant, long-lasting outdoor fabric.\n\n- 🎨 Full-Color Dye Sublimation: Your artwork is printed in vibrant, high-resolution detail.\n\n- 💪 Heavy-Duty Aluminum Frame: Constructed with 1.2 mm anodized aluminum.\n\n- 🔩 Reinforced ABS Hardware: ABS glass-filled nylon joints for added frame strength.\n\n- 📏 1.75\" HEX Legs: Hexagon-shaped legs for enhanced stability.\n\n- ⬆️ Pinch-Free Adjustment: Plastic lever system for smooth height changes.\n\n- 🧳 Easy Transport: Collapses to fit inside the included soft wheeled carry bag.\n\n- 🪢\n\n- 🖨️ Imprint Method: Premium full-color dye sublimation.\n\nKit Includes\n\n- 🧩 1× Frame Hardware\n\n- 🎪 1× Custom Printed Canopy\n\n- 🧱 1× Full Back Wall (Single-Sided)\n\n- 🧩 2× Half Side Walls (Single-Sided)\n\n- 🧳 1× Wheeled Carry Bag\n\n- 🪢 1× Ropes & Pegs Set\n\nOptional Accessories\n\n- 6' Table Cover\n\n- Feather Flags\n\n- Sandbags\n\nMaterials\n\n- 🔧 Hardware: ABS Nylon, Aluminum\n\n- 🧵 Canopy Fabric: 600D Polyester\n\nCertifications\n\n🔥 Meets FR Rating Requirements\n\nPrimary Usage\n\nOutdoor events, vendor booths, markets, trade shows, festivals, brand activations, and corporate setups.",
     "dimensionsHtml": "<h3>Product Dimensions</h3>\n<ul>\n  <li>📐 Product Size: 120&quot; W × 137&quot; H × 120&quot; D</li>\n  <li>📦 Collapsible Size: 9.12&quot; W × 62.75&quot; H × 9.12&quot; D</li>\n  <li>🎒 Case Dimensions: 12.5&quot; W × 56.25&quot; H × 15.5&quot; D</li>\n  <li>⚖️ Product Weight: 40 lbs</li>\n</ul>",
     "dimensionsText": "Product Dimensions\n\n- 📐 Product Size: 120\" W × 137\" H × 120\" D\n\n- 📦 Collapsible Size: 9.12\" W × 62.75\" H × 9.12\" D\n\n- 🎒 Case Dimensions: 12.5\" W × 56.25\" H × 15.5\" D\n\n- ⚖️ Product Weight: 40 lbs",
-    "warrantyHtml": "<h3>Factory Warranty</h3>\n<p>We stand behind the quality of our products. Our warranty covers any factory defects or damage that occurs during shipping. However, please note that we do not cover damage resulting from extreme weather conditions, misuse, or any circumstances beyond our control.</p>\n<p>🪢 Secure Setup: Includes stake and rope kit; tent must be anchored to maintain warranty.</p>",
-    "warrantyText": "Factory Warranty\n\nWe stand behind the quality of our products. Our warranty covers any factory defects or damage that occurs during shipping. However, please note that we do not cover damage resulting from extreme weather conditions, misuse, or any circumstances beyond our control.\n\n🪢 Secure Setup: Includes stake and rope kit; tent must be anchored to maintain warranty.",
+    "warrantyHtml": "<h3>Factory Warranty</h3>\n<p>We stand behind the quality of our products. Our warranty covers any factory defects or damage that occurs during shipping. However, please note that we do not cover damage resulting from extreme weather conditions, misuse, or any circumstances beyond our control.</p>\n<p>Secure Setup: Includes stake and rope kit; tent must be anchored to maintain warranty.</p>",
+    "warrantyText": "Factory Warranty\n\nWe stand behind the quality of our products. Our warranty covers any factory defects or damage that occurs during shipping. However, please note that we do not cover damage resulting from extreme weather conditions, misuse, or any circumstances beyond our control.\n\nSecure Setup: Includes stake and rope kit; tent must be anchored to maintain warranty.",
     "howToOrderHtml": "<ul>\n  <li>SKU ITEM #: 11-20</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
     "howToOrderText": "- SKU ITEM #: 11-20\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
     "sku": "ITEM #: 11-20",
@@ -5992,12 +6037,12 @@ export const storefrontProducts = [
     "services": [],
     "category": "10x20 Custom Canopies",
     "description": "Premium 10'×20' Custom Canopy Tent Elevate your event setup with our Premium 10'×20' Custom Canopy Tent, engineered for professional vendors who need maximum space, durability, and high-impact branding. This oversized canopy features a 40mm heavy-duty aluminum frame, a fully cus…",
-    "descriptionHtml": "<p><a href=\"https://displaytemplate.s3-us-west-2.amazonaws.com/Product+setup+instruction/Inst_10x10_TENT_Universal_curves.pdf\">Specsheet</a> <a href=\"https://drive.google.com/file/d/1jv_fBUek_UZYUHvBv_DMJG5tk42yIiah/view?usp=drive_link\">Warning Label</a> <a href=\"https://drive.google.com/file/d/1lPLYIldqjlfbOpvvoZGq-ETmb5Lb207s/view?usp=sharing\">Fire Certificate</a></p>\n<h2>Premium 10&#x27;×20&#x27; Custom Canopy Tent</h2>\n<p>Elevate your event setup with our Premium 10&#x27;×20&#x27; Custom Canopy Tent, engineered for professional vendors who need maximum space, durability, and high-impact branding. This oversized canopy features a 40mm heavy-duty aluminum frame, a fully custom 600D dye-sublimation canopy, and includes three single-sided full walls for complete coverage, privacy, and strong visual presence. Comes complete with a wheeled carry bag and free nationwide FedEx ground shipping.</p>\n<h3>Key Features</h3>\n<p>🛡️ Durable 600D Polyester Canopy: Built with weather-resistant, long-lasting fabric ideal for outdoor use.<br>🎨 Full-Color Dye Sublimation: High-resolution, fade-resistant printing on a crisp white canopy for vibrant artwork.<br>💪 Heavy-Duty Aluminum Frame: Constructed with 1.2 mm anodized aluminum for superior strength and reliability.<br>🔩 Reinforced ABS Hardware: ABS glass-filled nylon joints add durability and reduce wear.<br>📏 1.75&quot; HEX-Shaped Legs: Hexagon legs for enhanced structural support and improved wind resistance.<br>⬆️ Pinch-Free Height Adjustment: Plastic lever system enables smooth, safe height changes.<br>🧱 Three Full Walls (Single-Sided): Provides maximum branding area, privacy, shade, and weather protection.<br>🧳 Portable &amp; Convenient: Collapses easily and stows in the included wheeled soft carry bag for transport.<br><br>🖨️ Imprint Method: Premium full-color dye sublimation for crisp, long-lasting graphics.<br>🚚 Shipping: Free ground shipping (FedEx) nationwide.</p>\n<h3>Kit Includes</h3>\n<ul>\n  <li>🧩 1× Aluminum Frame</li>\n  <li>🎪 1× Custom Printed Canopy</li>\n  <li>🧱 3× Full Walls (Single-Sided)</li>\n  <li>🧳 1× Wheeled Carry Bag</li>\n  <li>🪢 1× Ropes &amp; Pegs Set</li>\n</ul>\n<h3>Optional Accessories</h3>\n<ul>\n  <li>6&#x27; Table Cover</li>\n  <li>Feather Flags</li>\n  <li>Sandbags</li>\n</ul>\n<h3>Materials</h3>\n<ul>\n  <li>🔧 Hardware: ABS Nylon, Aluminum</li>\n  <li>🧵 Canopy: 600 Denier Polyester</li>\n</ul>\n<h3>Certifications</h3>\n<p>🔥 Meets FR Rating Requirements (Fire-Resistant)</p>\n<h3>Primary Usage</h3>\n<p>Outdoor events, trade shows, food booths, festivals, markets, brand activations, and vendor setups.</p>",
-    "descriptionText": "Specsheet Warning Label Fire Certificate\n\nPremium 10'×20' Custom Canopy Tent\n\nElevate your event setup with our Premium 10'×20' Custom Canopy Tent, engineered for professional vendors who need maximum space, durability, and high-impact branding. This oversized canopy features a 40mm heavy-duty aluminum frame, a fully custom 600D dye-sublimation canopy, and includes three single-sided full walls for complete coverage, privacy, and strong visual presence. Comes complete with a wheeled carry bag and free nationwide FedEx ground shipping.\n\nKey Features\n\n🛡️ Durable 600D Polyester Canopy: Built with weather-resistant, long-lasting fabric ideal for outdoor use.\n🎨 Full-Color Dye Sublimation: High-resolution, fade-resistant printing on a crisp white canopy for vibrant artwork.\n💪 Heavy-Duty Aluminum Frame: Constructed with 1.2 mm anodized aluminum for superior strength and reliability.\n🔩 Reinforced ABS Hardware: ABS glass-filled nylon joints add durability and reduce wear.\n📏 1.75\" HEX-Shaped Legs: Hexagon legs for enhanced structural support and improved wind resistance.\n⬆️ Pinch-Free Height Adjustment: Plastic lever system enables smooth, safe height changes.\n🧱 Three Full Walls (Single-Sided): Provides maximum branding area, privacy, shade, and weather protection.\n🧳 Portable & Convenient: Collapses easily and stows in the included wheeled soft carry bag for transport.\n\n🖨️ Imprint Method: Premium full-color dye sublimation for crisp, long-lasting graphics.\n🚚 Shipping: Free ground shipping (FedEx) nationwide.\n\nKit Includes\n\n- 🧩 1× Aluminum Frame\n\n- 🎪 1× Custom Printed Canopy\n\n- 🧱 3× Full Walls (Single-Sided)\n\n- 🧳 1× Wheeled Carry Bag\n\n- 🪢 1× Ropes & Pegs Set\n\nOptional Accessories\n\n- 6' Table Cover\n\n- Feather Flags\n\n- Sandbags\n\nMaterials\n\n- 🔧 Hardware: ABS Nylon, Aluminum\n\n- 🧵 Canopy: 600 Denier Polyester\n\nCertifications\n\n🔥 Meets FR Rating Requirements (Fire-Resistant)\n\nPrimary Usage\n\nOutdoor events, trade shows, food booths, festivals, markets, brand activations, and vendor setups.",
+    "descriptionHtml": "<p><a href=\"https://displaytemplate.s3-us-west-2.amazonaws.com/Product+setup+instruction/Inst_10x10_TENT_Universal_curves.pdf\">Specsheet</a> <a href=\"https://drive.google.com/file/d/1jv_fBUek_UZYUHvBv_DMJG5tk42yIiah/view?usp=drive_link\">Warning Label</a> <a href=\"https://drive.google.com/file/d/1lPLYIldqjlfbOpvvoZGq-ETmb5Lb207s/view?usp=sharing\">Fire Certificate</a></p>\n<h2>Premium 10&#x27;×20&#x27; Custom Canopy Tent</h2>\n<p>Elevate your event setup with our Premium 10&#x27;×20&#x27; Custom Canopy Tent, engineered for professional vendors who need maximum space, durability, and high-impact branding. This oversized canopy features a 40mm heavy-duty aluminum frame, a fully custom 600D dye-sublimation canopy, and includes three single-sided full walls for complete coverage, privacy, and strong visual presence. Comes complete with a wheeled carry bag and free nationwide FedEx ground shipping.</p>\n<h3>Key Features</h3>\n<ul>\n  <li>🛡️ Durable 600D Polyester Canopy: Built with weather-resistant, long-lasting fabric ideal for outdoor use.</li>\n  <li>🎨 Full-Color Dye Sublimation: High-resolution, fade-resistant printing on a crisp white canopy for vibrant artwork.</li>\n  <li>💪 Heavy-Duty Aluminum Frame: Constructed with 1.2 mm anodized aluminum for superior strength and reliability.</li>\n  <li>🔩 Reinforced ABS Hardware: ABS glass-filled nylon joints add durability and reduce wear.</li>\n  <li>📏 1.75&quot; HEX-Shaped Legs: Hexagon legs for enhanced structural support and improved wind resistance.</li>\n  <li>⬆️ Pinch-Free Height Adjustment: Plastic lever system enables smooth, safe height changes.</li>\n  <li>🧱 Three Full Walls (Single-Sided): Provides maximum branding area, privacy, shade, and weather protection.</li>\n  <li>🧳 Portable &amp; Convenient: Collapses easily and stows in the included wheeled soft carry bag for transport.</li>\n  <li>🪢</li>\n  <li>🖨️ Imprint Method: Premium full-color dye sublimation for crisp, long-lasting graphics.</li>\n  <li>🚚 Shipping: Free ground shipping (FedEx) nationwide.</li>\n</ul>\n<h3>Kit Includes</h3>\n<ul>\n  <li>🧩 1× Aluminum Frame</li>\n  <li>🎪 1× Custom Printed Canopy</li>\n  <li>🧱 3× Full Walls (Single-Sided)</li>\n  <li>🧳 1× Wheeled Carry Bag</li>\n  <li>🪢 1× Ropes &amp; Pegs Set</li>\n</ul>\n<h3>Optional Accessories</h3>\n<ul>\n  <li>6&#x27; Table Cover</li>\n  <li>Feather Flags</li>\n  <li>Sandbags</li>\n</ul>\n<h3>Materials</h3>\n<ul>\n  <li>🔧 Hardware: ABS Nylon, Aluminum</li>\n  <li>🧵 Canopy: 600 Denier Polyester</li>\n</ul>\n<h3>Certifications</h3>\n<p>🔥 Meets FR Rating Requirements (Fire-Resistant)</p>\n<h3>Primary Usage</h3>\n<p>Outdoor events, trade shows, food booths, festivals, markets, brand activations, and vendor setups.</p>",
+    "descriptionText": "Specsheet Warning Label Fire Certificate\n\nPremium 10'×20' Custom Canopy Tent\n\nElevate your event setup with our Premium 10'×20' Custom Canopy Tent, engineered for professional vendors who need maximum space, durability, and high-impact branding. This oversized canopy features a 40mm heavy-duty aluminum frame, a fully custom 600D dye-sublimation canopy, and includes three single-sided full walls for complete coverage, privacy, and strong visual presence. Comes complete with a wheeled carry bag and free nationwide FedEx ground shipping.\n\nKey Features\n\n- 🛡️ Durable 600D Polyester Canopy: Built with weather-resistant, long-lasting fabric ideal for outdoor use.\n\n- 🎨 Full-Color Dye Sublimation: High-resolution, fade-resistant printing on a crisp white canopy for vibrant artwork.\n\n- 💪 Heavy-Duty Aluminum Frame: Constructed with 1.2 mm anodized aluminum for superior strength and reliability.\n\n- 🔩 Reinforced ABS Hardware: ABS glass-filled nylon joints add durability and reduce wear.\n\n- 📏 1.75\" HEX-Shaped Legs: Hexagon legs for enhanced structural support and improved wind resistance.\n\n- ⬆️ Pinch-Free Height Adjustment: Plastic lever system enables smooth, safe height changes.\n\n- 🧱 Three Full Walls (Single-Sided): Provides maximum branding area, privacy, shade, and weather protection.\n\n- 🧳 Portable & Convenient: Collapses easily and stows in the included wheeled soft carry bag for transport.\n\n- 🪢\n\n- 🖨️ Imprint Method: Premium full-color dye sublimation for crisp, long-lasting graphics.\n\n- 🚚 Shipping: Free ground shipping (FedEx) nationwide.\n\nKit Includes\n\n- 🧩 1× Aluminum Frame\n\n- 🎪 1× Custom Printed Canopy\n\n- 🧱 3× Full Walls (Single-Sided)\n\n- 🧳 1× Wheeled Carry Bag\n\n- 🪢 1× Ropes & Pegs Set\n\nOptional Accessories\n\n- 6' Table Cover\n\n- Feather Flags\n\n- Sandbags\n\nMaterials\n\n- 🔧 Hardware: ABS Nylon, Aluminum\n\n- 🧵 Canopy: 600 Denier Polyester\n\nCertifications\n\n🔥 Meets FR Rating Requirements (Fire-Resistant)\n\nPrimary Usage\n\nOutdoor events, trade shows, food booths, festivals, markets, brand activations, and vendor setups.",
     "dimensionsHtml": "<h3>Product Dimensions</h3>\n<ul>\n  <li>📐 Product Size: 120&quot; W × 137&quot; H × 240&quot; D</li>\n  <li>📦 Collapsible Size: 9.12&quot; W × 62.75&quot; H × 9.12&quot; D</li>\n  <li>🎒 Case Dimensions: 12.5&quot; W × 56.25&quot; H × 15.5&quot; D</li>\n  <li>⚖️ Product Weight: 40 lbs</li>\n</ul>",
     "dimensionsText": "Product Dimensions\n\n- 📐 Product Size: 120\" W × 137\" H × 240\" D\n\n- 📦 Collapsible Size: 9.12\" W × 62.75\" H × 9.12\" D\n\n- 🎒 Case Dimensions: 12.5\" W × 56.25\" H × 15.5\" D\n\n- ⚖️ Product Weight: 40 lbs",
-    "warrantyHtml": "<h2>Factory Warranty</h2>\n<p>We stand behind the quality of our products. Our warranty covers any factory defects or damage that occurs during shipping. However, please note that we do not cover damage resulting from extreme weather conditions, misuse, or any circumstances beyond our control.</p>\n<p>🪢 Secure Setup Required: Includes rope and peg kit; proper anchoring is required to maintain the warranty.</p>",
-    "warrantyText": "Factory Warranty\n\nWe stand behind the quality of our products. Our warranty covers any factory defects or damage that occurs during shipping. However, please note that we do not cover damage resulting from extreme weather conditions, misuse, or any circumstances beyond our control.\n\n🪢 Secure Setup Required: Includes rope and peg kit; proper anchoring is required to maintain the warranty.",
+    "warrantyHtml": "<h2>Factory Warranty</h2>\n<p>We stand behind the quality of our products. Our warranty covers any factory defects or damage that occurs during shipping. However, please note that we do not cover damage resulting from extreme weather conditions, misuse, or any circumstances beyond our control.</p>\n<p>Secure Setup Required: Includes rope and peg kit; proper anchoring is required to maintain the warranty.</p>",
+    "warrantyText": "Factory Warranty\n\nWe stand behind the quality of our products. Our warranty covers any factory defects or damage that occurs during shipping. However, please note that we do not cover damage resulting from extreme weather conditions, misuse, or any circumstances beyond our control.\n\nSecure Setup Required: Includes rope and peg kit; proper anchoring is required to maintain the warranty.",
     "howToOrderHtml": "<ul>\n  <li>SKU ITEM #: 12-20</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
     "howToOrderText": "- SKU ITEM #: 12-20\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
     "sku": "ITEM #: 12-20",
@@ -6048,12 +6093,12 @@ export const storefrontProducts = [
     "services": [],
     "category": "10x20 Custom Canopies",
     "description": "Premium 10×20 Custom Canopy Tent Take your event setup to the next level with our Premium 10'×20' Custom Canopy Tent, engineered for vendors who need maximum space, durability, and high-impact branding. Built with a 40mm heavy-duty aluminum frame and a fully customizable 600D dy…",
-    "descriptionHtml": "<p><a href=\"https://displaytemplate.s3-us-west-2.amazonaws.com/Product+setup+instruction/Inst_10x10_TENT_Universal_curves.pdf\">Specsheet</a> <a href=\"https://drive.google.com/file/d/1jv_fBUek_UZYUHvBv_DMJG5tk42yIiah/view?usp=drive_link\">Warning Label</a> <a href=\"https://drive.google.com/file/d/1lPLYIldqjlfbOpvvoZGq-ETmb5Lb207s/view?usp=sharing\">Fire Certificate</a></p>\n<h2>Premium 10×20 Custom Canopy Tent</h2>\n<p>Take your event setup to the next level with our Premium 10&#x27;×20&#x27; Custom Canopy Tent, engineered for vendors who need maximum space, durability, and high-impact branding. Built with a 40mm heavy-duty aluminum frame and a fully customizable 600D dye-sublimated canopy, this oversized tent is perfect for food booths, trade shows, festivals, corporate events, and outdoor markets.</p>\n<p>Designed for performance and convenience, it includes a wheeled carry bag for easy transport, reinforced hardware for long-term reliability, and full weather protection to keep your team and equipment covered in any condition.</p>\n<h3>Key Features</h3>\n<ul>\n  <li>💪 Heavy-Duty Frame: 40mm anodized aluminum with ABS glass-filled nylon joints for superior stability.</li>\n  <li>🎨 Premium Printing: High-resolution full-color dye-sublimation on durable 600D Oxford polyester canopy.</li>\n  <li>☀️ Weather-Ready: Waterproof, UV-protected, and fire-resistant for reliable outdoor use.</li>\n  <li>🔧 Pinch-Free Adjustment: Hexagonal 1.75&quot; legs with plastic levers for smooth, safe height changes.</li>\n  <li>🧳 Portable Design: Collapses easily and fits into the included soft wheeled carry bag.</li>\n  <li>🪁 Secure Setup: Includes rope and stake kit; must be properly secured to maintain warranty.</li>\n  <li>🚚 Free Ground Shipping Nationwide (FedEx).</li>\n</ul>\n<h3>Kit Includes</h3>\n<ul>\n  <li>🧩 1× 40mm Aluminum Frame</li>\n  <li>🎪 1× Custom Printed Canopy</li>\n  <li>🧳 1× Wheeled Carry Bag</li>\n  <li>🪢 1× Ropes &amp; Pegs Set</li>\n</ul>\n<h3>Optional Accessories</h3>\n<ul>\n  <li>6&#x27; Table Cover</li>\n  <li>Feather Flags</li>\n  <li>Sandbags</li>\n</ul>\n<h3>Materials</h3>\n<ul>\n  <li>🔧 Hardware: ABS Nylon, Aluminum</li>\n  <li>🧵 Canopy: 600 Denier Polyester</li>\n</ul>\n<h3>Certifications</h3>\n<p>🔥 Meets FR Rating Requirements (Fire-Resistant)</p>\n<h3>Primary Usage</h3>\n<p>Outdoor vendor booths, trade shows, food stands, festivals, markets, brand activations, and corporate events.</p>",
-    "descriptionText": "Specsheet Warning Label Fire Certificate\n\nPremium 10×20 Custom Canopy Tent\n\nTake your event setup to the next level with our Premium 10'×20' Custom Canopy Tent, engineered for vendors who need maximum space, durability, and high-impact branding. Built with a 40mm heavy-duty aluminum frame and a fully customizable 600D dye-sublimated canopy, this oversized tent is perfect for food booths, trade shows, festivals, corporate events, and outdoor markets.\n\nDesigned for performance and convenience, it includes a wheeled carry bag for easy transport, reinforced hardware for long-term reliability, and full weather protection to keep your team and equipment covered in any condition.\n\nKey Features\n\n- 💪 Heavy-Duty Frame: 40mm anodized aluminum with ABS glass-filled nylon joints for superior stability.\n\n- 🎨 Premium Printing: High-resolution full-color dye-sublimation on durable 600D Oxford polyester canopy.\n\n- ☀️ Weather-Ready: Waterproof, UV-protected, and fire-resistant for reliable outdoor use.\n\n- 🔧 Pinch-Free Adjustment: Hexagonal 1.75\" legs with plastic levers for smooth, safe height changes.\n\n- 🧳 Portable Design: Collapses easily and fits into the included soft wheeled carry bag.\n\n- 🪁 Secure Setup: Includes rope and stake kit; must be properly secured to maintain warranty.\n\n- 🚚 Free Ground Shipping Nationwide (FedEx).\n\nKit Includes\n\n- 🧩 1× 40mm Aluminum Frame\n\n- 🎪 1× Custom Printed Canopy\n\n- 🧳 1× Wheeled Carry Bag\n\n- 🪢 1× Ropes & Pegs Set\n\nOptional Accessories\n\n- 6' Table Cover\n\n- Feather Flags\n\n- Sandbags\n\nMaterials\n\n- 🔧 Hardware: ABS Nylon, Aluminum\n\n- 🧵 Canopy: 600 Denier Polyester\n\nCertifications\n\n🔥 Meets FR Rating Requirements (Fire-Resistant)\n\nPrimary Usage\n\nOutdoor vendor booths, trade shows, food stands, festivals, markets, brand activations, and corporate events.",
+    "descriptionHtml": "<p><a href=\"https://displaytemplate.s3-us-west-2.amazonaws.com/Product+setup+instruction/Inst_10x10_TENT_Universal_curves.pdf\">Specsheet</a> <a href=\"https://drive.google.com/file/d/1jv_fBUek_UZYUHvBv_DMJG5tk42yIiah/view?usp=drive_link\">Warning Label</a> <a href=\"https://drive.google.com/file/d/1lPLYIldqjlfbOpvvoZGq-ETmb5Lb207s/view?usp=sharing\">Fire Certificate</a></p>\n<h2>Premium 10×20 Custom Canopy Tent</h2>\n<p>Take your event setup to the next level with our Premium 10&#x27;×20&#x27; Custom Canopy Tent, engineered for vendors who need maximum space, durability, and high-impact branding. Built with a 40mm heavy-duty aluminum frame and a fully customizable 600D dye-sublimated canopy, this oversized tent is perfect for food booths, trade shows, festivals, corporate events, and outdoor markets.</p>\n<p>Designed for performance and convenience, it includes a wheeled carry bag for easy transport, reinforced hardware for long-term reliability, and full weather protection to keep your team and equipment covered in any condition.</p>\n<h3>Key Features</h3>\n<ul>\n  <li>💪 Heavy-Duty Frame: 40mm anodized aluminum with ABS glass-filled nylon joints for superior stability.</li>\n  <li>🎨 Premium Printing: High-resolution full-color dye-sublimation on durable 600D Oxford polyester canopy.</li>\n  <li>☀️ Weather-Ready: Waterproof, UV-protected, and fire-resistant for reliable outdoor use.</li>\n  <li>🔧 Pinch-Free Adjustment: Hexagonal 1.75&quot; legs with plastic levers for smooth, safe height changes.</li>\n  <li>🧳 Portable Design: Collapses easily and fits into the included soft wheeled carry bag.</li>\n  <li>🪁 </li>\n  <li>🚚 Free Ground Shipping Nationwide (FedEx).</li>\n</ul>\n<h3>Kit Includes</h3>\n<ul>\n  <li>🧩 1× 40mm Aluminum Frame</li>\n  <li>🎪 1× Custom Printed Canopy</li>\n  <li>🧳 1× Wheeled Carry Bag</li>\n  <li>🪢 1× Ropes &amp; Pegs Set</li>\n</ul>\n<h3>Optional Accessories</h3>\n<ul>\n  <li>6&#x27; Table Cover</li>\n  <li>Feather Flags</li>\n  <li>Sandbags</li>\n</ul>\n<h3>Materials</h3>\n<ul>\n  <li>🔧 Hardware: ABS Nylon, Aluminum</li>\n  <li>🧵 Canopy: 600 Denier Polyester</li>\n</ul>\n<h3>Certifications</h3>\n<p>🔥 Meets FR Rating Requirements (Fire-Resistant)</p>\n<h3>Primary Usage</h3>\n<p>Outdoor vendor booths, trade shows, food stands, festivals, markets, brand activations, and corporate events.</p>",
+    "descriptionText": "Specsheet Warning Label Fire Certificate\n\nPremium 10×20 Custom Canopy Tent\n\nTake your event setup to the next level with our Premium 10'×20' Custom Canopy Tent, engineered for vendors who need maximum space, durability, and high-impact branding. Built with a 40mm heavy-duty aluminum frame and a fully customizable 600D dye-sublimated canopy, this oversized tent is perfect for food booths, trade shows, festivals, corporate events, and outdoor markets.\n\nDesigned for performance and convenience, it includes a wheeled carry bag for easy transport, reinforced hardware for long-term reliability, and full weather protection to keep your team and equipment covered in any condition.\n\nKey Features\n\n- 💪 Heavy-Duty Frame: 40mm anodized aluminum with ABS glass-filled nylon joints for superior stability.\n\n- 🎨 Premium Printing: High-resolution full-color dye-sublimation on durable 600D Oxford polyester canopy.\n\n- ☀️ Weather-Ready: Waterproof, UV-protected, and fire-resistant for reliable outdoor use.\n\n- 🔧 Pinch-Free Adjustment: Hexagonal 1.75\" legs with plastic levers for smooth, safe height changes.\n\n- 🧳 Portable Design: Collapses easily and fits into the included soft wheeled carry bag.\n\n- 🪁\n\n- 🚚 Free Ground Shipping Nationwide (FedEx).\n\nKit Includes\n\n- 🧩 1× 40mm Aluminum Frame\n\n- 🎪 1× Custom Printed Canopy\n\n- 🧳 1× Wheeled Carry Bag\n\n- 🪢 1× Ropes & Pegs Set\n\nOptional Accessories\n\n- 6' Table Cover\n\n- Feather Flags\n\n- Sandbags\n\nMaterials\n\n- 🔧 Hardware: ABS Nylon, Aluminum\n\n- 🧵 Canopy: 600 Denier Polyester\n\nCertifications\n\n🔥 Meets FR Rating Requirements (Fire-Resistant)\n\nPrimary Usage\n\nOutdoor vendor booths, trade shows, food stands, festivals, markets, brand activations, and corporate events.",
     "dimensionsHtml": "<h3>Product Dimensions</h3>\n<ul>\n  <li>📐 Product Size: 120&quot; W × 137&quot; H × 240&quot; D</li>\n  <li>📦 Collapsible Size: 9.12&quot; W × 62.75&quot; H × 9.12&quot; D</li>\n  <li>🎒 Case Dimensions: 12.5&quot; W × 56.25&quot; H × 15.5&quot; D</li>\n  <li>⚖️ Product Weight: 40 lbs</li>\n</ul>",
     "dimensionsText": "Product Dimensions\n\n- 📐 Product Size: 120\" W × 137\" H × 240\" D\n\n- 📦 Collapsible Size: 9.12\" W × 62.75\" H × 9.12\" D\n\n- 🎒 Case Dimensions: 12.5\" W × 56.25\" H × 15.5\" D\n\n- ⚖️ Product Weight: 40 lbs",
-    "warrantyHtml": "<h2>Factory Warranty</h2>\n<p>We stand behind the quality of our products. Our warranty covers any factory defects or damage that occurs during shipping. However, please note that we do not cover damage resulting from extreme weather conditions, misuse, or any circumstances beyond our control.</p>",
-    "warrantyText": "Factory Warranty\n\nWe stand behind the quality of our products. Our warranty covers any factory defects or damage that occurs during shipping. However, please note that we do not cover damage resulting from extreme weather conditions, misuse, or any circumstances beyond our control.",
+    "warrantyHtml": "<h2>Factory Warranty</h2>\n<p>We stand behind the quality of our products. Our warranty covers any factory defects or damage that occurs during shipping. However, please note that we do not cover damage resulting from extreme weather conditions, misuse, or any circumstances beyond our control.</p>\n<p>Secure Setup: Includes rope and stake kit; must be properly secured to maintain warranty.</p>",
+    "warrantyText": "Factory Warranty\n\nWe stand behind the quality of our products. Our warranty covers any factory defects or damage that occurs during shipping. However, please note that we do not cover damage resulting from extreme weather conditions, misuse, or any circumstances beyond our control.\n\nSecure Setup: Includes rope and stake kit; must be properly secured to maintain warranty.",
     "howToOrderHtml": "<ul>\n  <li>SKU ITEM #: 9-20B</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
     "howToOrderText": "- SKU ITEM #: 9-20B\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
     "sku": "ITEM #: 9-20B",
@@ -6167,12 +6212,12 @@ export const storefrontProducts = [
     "services": [],
     "category": "10x20 Custom Canopies",
     "description": "Premium 10×20 Custom Canopy Tent Take your event setup to the next level with our Premium 10'×20' Custom Canopy Tent, engineered for vendors who need maximum space, durability, and high-impact branding. Built with a 40mm heavy-duty aluminum frame and a fully customizable 600D dy…",
-    "descriptionHtml": "<p><a href=\"https://displaytemplate.s3-us-west-2.amazonaws.com/Product+setup+instruction/Inst_10x10_TENT_Universal_curves.pdf\">Specsheet</a> <a href=\"https://drive.google.com/file/d/1jv_fBUek_UZYUHvBv_DMJG5tk42yIiah/view?usp=drive_link\">Warning Label</a> <a href=\"https://drive.google.com/file/d/1lPLYIldqjlfbOpvvoZGq-ETmb5Lb207s/view?usp=sharing\">Fire Certificate</a></p>\n<h2>Premium 10×20 Custom Canopy Tent</h2>\n<p>Take your event setup to the next level with our Premium 10&#x27;×20&#x27; Custom Canopy Tent, engineered for vendors who need maximum space, durability, and high-impact branding. Built with a 40mm heavy-duty aluminum frame and a fully customizable 600D dye-sublimated canopy, this oversized tent is perfect for food booths, trade shows, festivals, corporate events, and outdoor markets.</p>\n<p>Designed for performance and convenience, it includes a wheeled carry bag for easy transport, reinforced hardware for long-term reliability, and full weather protection to keep your team and equipment covered in any condition.</p>\n<h3>Key Features</h3>\n<ul>\n  <li>💪 Heavy-Duty Frame: 40mm anodized aluminum with ABS glass-filled nylon joints for superior stability.</li>\n  <li>🎨 Premium Printing: High-resolution full-color dye-sublimation on durable 600D Oxford polyester canopy.</li>\n  <li>☀️ Weather-Ready: Waterproof, UV-protected, and fire-resistant for reliable outdoor use.</li>\n  <li>🔧 Pinch-Free Adjustment: Hexagonal 1.75&quot; legs with plastic levers for smooth, safe height changes.</li>\n  <li>🧳 Portable Design: Collapses easily and fits into the included soft wheeled carry bag.</li>\n  <li>🪁 Secure Setup: Includes rope and stake kit; must be properly secured to maintain warranty.</li>\n  <li>🚚 Free Ground Shipping Nationwide (FedEx).</li>\n</ul>\n<h3>Kit Includes</h3>\n<ul>\n  <li>🧩 1× 40mm Aluminum Frame</li>\n  <li>🎪 1× Custom Printed Canopy</li>\n  <li>🧳 1× Wheeled Carry Bag</li>\n  <li>🪢 1× Ropes &amp; Pegs Set</li>\n</ul>\n<h3>Optional Accessories</h3>\n<ul>\n  <li>6&#x27; Table Cover</li>\n  <li>Feather Flags</li>\n  <li>Sandbags</li>\n</ul>\n<h3>Materials</h3>\n<ul>\n  <li>🔧 Hardware: ABS Nylon, Aluminum</li>\n  <li>🧵 Canopy: 600 Denier Polyester</li>\n</ul>\n<h3>Certifications</h3>\n<p>🔥 Meets FR Rating Requirements (Fire-Resistant)</p>\n<h3>Primary Usage</h3>\n<p>Outdoor vendor booths, trade shows, food stands, festivals, markets, brand activations, and corporate events.</p>",
-    "descriptionText": "Specsheet Warning Label Fire Certificate\n\nPremium 10×20 Custom Canopy Tent\n\nTake your event setup to the next level with our Premium 10'×20' Custom Canopy Tent, engineered for vendors who need maximum space, durability, and high-impact branding. Built with a 40mm heavy-duty aluminum frame and a fully customizable 600D dye-sublimated canopy, this oversized tent is perfect for food booths, trade shows, festivals, corporate events, and outdoor markets.\n\nDesigned for performance and convenience, it includes a wheeled carry bag for easy transport, reinforced hardware for long-term reliability, and full weather protection to keep your team and equipment covered in any condition.\n\nKey Features\n\n- 💪 Heavy-Duty Frame: 40mm anodized aluminum with ABS glass-filled nylon joints for superior stability.\n\n- 🎨 Premium Printing: High-resolution full-color dye-sublimation on durable 600D Oxford polyester canopy.\n\n- ☀️ Weather-Ready: Waterproof, UV-protected, and fire-resistant for reliable outdoor use.\n\n- 🔧 Pinch-Free Adjustment: Hexagonal 1.75\" legs with plastic levers for smooth, safe height changes.\n\n- 🧳 Portable Design: Collapses easily and fits into the included soft wheeled carry bag.\n\n- 🪁 Secure Setup: Includes rope and stake kit; must be properly secured to maintain warranty.\n\n- 🚚 Free Ground Shipping Nationwide (FedEx).\n\nKit Includes\n\n- 🧩 1× 40mm Aluminum Frame\n\n- 🎪 1× Custom Printed Canopy\n\n- 🧳 1× Wheeled Carry Bag\n\n- 🪢 1× Ropes & Pegs Set\n\nOptional Accessories\n\n- 6' Table Cover\n\n- Feather Flags\n\n- Sandbags\n\nMaterials\n\n- 🔧 Hardware: ABS Nylon, Aluminum\n\n- 🧵 Canopy: 600 Denier Polyester\n\nCertifications\n\n🔥 Meets FR Rating Requirements (Fire-Resistant)\n\nPrimary Usage\n\nOutdoor vendor booths, trade shows, food stands, festivals, markets, brand activations, and corporate events.",
+    "descriptionHtml": "<p><a href=\"https://displaytemplate.s3-us-west-2.amazonaws.com/Product+setup+instruction/Inst_10x10_TENT_Universal_curves.pdf\">Specsheet</a> <a href=\"https://drive.google.com/file/d/1jv_fBUek_UZYUHvBv_DMJG5tk42yIiah/view?usp=drive_link\">Warning Label</a> <a href=\"https://drive.google.com/file/d/1lPLYIldqjlfbOpvvoZGq-ETmb5Lb207s/view?usp=sharing\">Fire Certificate</a></p>\n<h2>Premium 10×20 Custom Canopy Tent</h2>\n<p>Take your event setup to the next level with our Premium 10&#x27;×20&#x27; Custom Canopy Tent, engineered for vendors who need maximum space, durability, and high-impact branding. Built with a 40mm heavy-duty aluminum frame and a fully customizable 600D dye-sublimated canopy, this oversized tent is perfect for food booths, trade shows, festivals, corporate events, and outdoor markets.</p>\n<p>Designed for performance and convenience, it includes a wheeled carry bag for easy transport, reinforced hardware for long-term reliability, and full weather protection to keep your team and equipment covered in any condition.</p>\n<h3>Key Features</h3>\n<ul>\n  <li>💪 Heavy-Duty Frame: 40mm anodized aluminum with ABS glass-filled nylon joints for superior stability.</li>\n  <li>🎨 Premium Printing: High-resolution full-color dye-sublimation on durable 600D Oxford polyester canopy.</li>\n  <li>☀️ Weather-Ready: Waterproof, UV-protected, and fire-resistant for reliable outdoor use.</li>\n  <li>🔧 Pinch-Free Adjustment: Hexagonal 1.75&quot; legs with plastic levers for smooth, safe height changes.</li>\n  <li>🧳 Portable Design: Collapses easily and fits into the included soft wheeled carry bag.</li>\n  <li>🪁 </li>\n  <li>🚚 Free Ground Shipping Nationwide (FedEx).</li>\n</ul>\n<h3>Kit Includes</h3>\n<ul>\n  <li>🧩 1× 40mm Aluminum Frame</li>\n  <li>🎪 1× Custom Printed Canopy</li>\n  <li>🧳 1× Wheeled Carry Bag</li>\n  <li>🪢 1× Ropes &amp; Pegs Set</li>\n</ul>\n<h3>Optional Accessories</h3>\n<ul>\n  <li>6&#x27; Table Cover</li>\n  <li>Feather Flags</li>\n  <li>Sandbags</li>\n</ul>\n<h3>Materials</h3>\n<ul>\n  <li>🔧 Hardware: ABS Nylon, Aluminum</li>\n  <li>🧵 Canopy: 600 Denier Polyester</li>\n</ul>\n<h3>Certifications</h3>\n<p>🔥 Meets FR Rating Requirements (Fire-Resistant)</p>\n<h3>Primary Usage</h3>\n<p>Outdoor vendor booths, trade shows, food stands, festivals, markets, brand activations, and corporate events.</p>",
+    "descriptionText": "Specsheet Warning Label Fire Certificate\n\nPremium 10×20 Custom Canopy Tent\n\nTake your event setup to the next level with our Premium 10'×20' Custom Canopy Tent, engineered for vendors who need maximum space, durability, and high-impact branding. Built with a 40mm heavy-duty aluminum frame and a fully customizable 600D dye-sublimated canopy, this oversized tent is perfect for food booths, trade shows, festivals, corporate events, and outdoor markets.\n\nDesigned for performance and convenience, it includes a wheeled carry bag for easy transport, reinforced hardware for long-term reliability, and full weather protection to keep your team and equipment covered in any condition.\n\nKey Features\n\n- 💪 Heavy-Duty Frame: 40mm anodized aluminum with ABS glass-filled nylon joints for superior stability.\n\n- 🎨 Premium Printing: High-resolution full-color dye-sublimation on durable 600D Oxford polyester canopy.\n\n- ☀️ Weather-Ready: Waterproof, UV-protected, and fire-resistant for reliable outdoor use.\n\n- 🔧 Pinch-Free Adjustment: Hexagonal 1.75\" legs with plastic levers for smooth, safe height changes.\n\n- 🧳 Portable Design: Collapses easily and fits into the included soft wheeled carry bag.\n\n- 🪁\n\n- 🚚 Free Ground Shipping Nationwide (FedEx).\n\nKit Includes\n\n- 🧩 1× 40mm Aluminum Frame\n\n- 🎪 1× Custom Printed Canopy\n\n- 🧳 1× Wheeled Carry Bag\n\n- 🪢 1× Ropes & Pegs Set\n\nOptional Accessories\n\n- 6' Table Cover\n\n- Feather Flags\n\n- Sandbags\n\nMaterials\n\n- 🔧 Hardware: ABS Nylon, Aluminum\n\n- 🧵 Canopy: 600 Denier Polyester\n\nCertifications\n\n🔥 Meets FR Rating Requirements (Fire-Resistant)\n\nPrimary Usage\n\nOutdoor vendor booths, trade shows, food stands, festivals, markets, brand activations, and corporate events.",
     "dimensionsHtml": "<h3>Product Dimensions</h3>\n<ul>\n  <li>📐 Product Size: 120&quot; W × 137&quot; H × 240&quot; D</li>\n  <li>📦 Collapsible Size: 9.12&quot; W × 62.75&quot; H × 9.12&quot; D</li>\n  <li>🎒 Case Dimensions: 12.5&quot; W × 56.25&quot; H × 15.5&quot; D</li>\n  <li>⚖️ Product Weight: 40 lbs</li>\n</ul>",
     "dimensionsText": "Product Dimensions\n\n- 📐 Product Size: 120\" W × 137\" H × 240\" D\n\n- 📦 Collapsible Size: 9.12\" W × 62.75\" H × 9.12\" D\n\n- 🎒 Case Dimensions: 12.5\" W × 56.25\" H × 15.5\" D\n\n- ⚖️ Product Weight: 40 lbs",
-    "warrantyHtml": "<h2>Factory Warranty</h2>\n<p>We stand behind the quality of our products. Our warranty covers any factory defects or damage that occurs during shipping. However, please note that we do not cover damage resulting from extreme weather conditions, misuse, or any circumstances beyond our control.</p>",
-    "warrantyText": "Factory Warranty\n\nWe stand behind the quality of our products. Our warranty covers any factory defects or damage that occurs during shipping. However, please note that we do not cover damage resulting from extreme weather conditions, misuse, or any circumstances beyond our control.",
+    "warrantyHtml": "<h2>Factory Warranty</h2>\n<p>We stand behind the quality of our products. Our warranty covers any factory defects or damage that occurs during shipping. However, please note that we do not cover damage resulting from extreme weather conditions, misuse, or any circumstances beyond our control.</p>\n<p>Secure Setup: Includes rope and stake kit; must be properly secured to maintain warranty.</p>",
+    "warrantyText": "Factory Warranty\n\nWe stand behind the quality of our products. Our warranty covers any factory defects or damage that occurs during shipping. However, please note that we do not cover damage resulting from extreme weather conditions, misuse, or any circumstances beyond our control.\n\nSecure Setup: Includes rope and stake kit; must be properly secured to maintain warranty.",
     "howToOrderHtml": "<ul>\n  <li>SKU ITEM #: 9-20H</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
     "howToOrderText": "- SKU ITEM #: 9-20H\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
     "sku": "ITEM #: 9-20H",
@@ -6602,6 +6647,7 @@ export const storefrontProducts = [
       "12'",
       "15'"
     ],
+    "variantLabel": "Size",
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -6667,6 +6713,7 @@ export const storefrontProducts = [
       "16'",
       "21'"
     ],
+    "variantLabel": "Size",
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -6731,6 +6778,7 @@ export const storefrontProducts = [
       "14'",
       "15'"
     ],
+    "variantLabel": "Size",
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -6795,6 +6843,7 @@ export const storefrontProducts = [
       "12'",
       "15'"
     ],
+    "variantLabel": "Size",
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -6848,6 +6897,7 @@ export const storefrontProducts = [
       "4'",
       "8'"
     ],
+    "variantLabel": "Size",
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -6913,6 +6963,7 @@ export const storefrontProducts = [
       "10'",
       "14.5'"
     ],
+    "variantLabel": "Size",
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -6984,6 +7035,7 @@ export const storefrontProducts = [
       "36''x 80''",
       "36'' x 69''"
     ],
+    "variantLabel": "Size",
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -7046,6 +7098,7 @@ export const storefrontProducts = [
       "12'",
       "15'"
     ],
+    "variantLabel": "Size",
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -7111,6 +7164,7 @@ export const storefrontProducts = [
       "10'",
       "14'"
     ],
+    "variantLabel": "Size",
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -7218,9 +7272,11 @@ export const storefrontProducts = [
     "isStockOut": false,
     "services": [],
     "category": "FLAGS",
-    "description": "Foldable Can be used indoors or outside. Each Pc Pack By Individual Box,6 pcs Into One Carton 21''x12''x8'' /40lbs / 1 Carton fit for all feather,teardrop and rectangle flag pole",
-    "descriptionHtml": "<p>Foldable Can be used indoors or outside.</p>\n<p>Each Pc Pack By Individual Box,6 pcs Into One Carton</p>\n<p>21&#x27;&#x27;x12&#x27;&#x27;x8&#x27;&#x27; /40lbs / 1 Carton</p>\n<p>fit for all feather,teardrop and rectangle flag pole</p>",
-    "descriptionText": "Foldable Can be used indoors or outside.\n\nEach Pc Pack By Individual Box,6 pcs Into One Carton\n\n21''x12''x8'' /40lbs / 1 Carton\n\nfit for all feather,teardrop and rectangle flag pole",
+    "description": "Foldable Can be used indoors or outside. Each Pc Pack By Individual Box,6 pcs Into One Carton fit for all feather,teardrop and rectangle flag pole",
+    "descriptionHtml": "<p>Foldable Can be used indoors or outside.</p>\n<p>Each Pc Pack By Individual Box,6 pcs Into One Carton</p>\n\n<p>fit for all feather,teardrop and rectangle flag pole</p>",
+    "descriptionText": "Foldable Can be used indoors or outside.\n\nEach Pc Pack By Individual Box,6 pcs Into One Carton\n\nfit for all feather,teardrop and rectangle flag pole",
+    "dimensionsHtml": "<p>21&#x27;&#x27;x12&#x27;&#x27;x8&#x27;&#x27; /40lbs / 1 Carton</p>",
+    "dimensionsText": "21''x12''x8'' /40lbs / 1 Carton",
     "howToOrderHtml": "<ul>\n  <li>SKU 810032</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
     "howToOrderText": "- SKU 810032\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
     "sku": "810032",
@@ -7339,6 +7395,7 @@ export const storefrontProducts = [
       "4XL",
       "YS"
     ],
+    "variantLabel": "Size",
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -7475,6 +7532,7 @@ export const storefrontProducts = [
       "4XL",
       "5XL"
     ],
+    "variantLabel": "Size",
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -7531,6 +7589,7 @@ export const storefrontProducts = [
       "4XL",
       "5XL"
     ],
+    "variantLabel": "Size",
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -7590,6 +7649,7 @@ export const storefrontProducts = [
       "XS",
       "S"
     ],
+    "variantLabel": "Size",
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -7646,6 +7706,7 @@ export const storefrontProducts = [
       "L",
       "XL"
     ],
+    "variantLabel": "Size",
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -7711,6 +7772,7 @@ export const storefrontProducts = [
       "4XL",
       "5XL"
     ],
+    "variantLabel": "Size",
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -7779,6 +7841,7 @@ export const storefrontProducts = [
       "8' x 8'",
       "10' x 8'"
     ],
+    "variantLabel": "Size",
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -7839,6 +7902,7 @@ export const storefrontProducts = [
       "4ft",
       "8ft"
     ],
+    "variantLabel": "Size",
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -8013,9 +8077,11 @@ export const storefrontProducts = [
     "isStockOut": false,
     "services": [],
     "category": "TOWEL & BLANKET",
-    "description": "full-color, edge-to-edge sublimated fleece blanket. Included: - Full color sublimated design Size: 60\" x 80\" moisture wicking fabric",
-    "descriptionHtml": "<p><a href=\"https://displaytemplate.s3.us-west-2.amazonaws.com/Apparel/Blanket+60in+x80in.pdf\">Download Template</a></p>\n<p>full-color, edge-to-edge sublimated fleece blanket.</p>\n<p>Included:</p>\n<ul>\n  <li>Full color sublimated design</li>\n</ul>\n\n<p>Size: 60&quot; x 80&quot;<br><br></p>\n<p>moisture wicking fabric</p>\n<p><img src=\"https://cdn.shopify.com/s/files/1/1564/9941/files/WechatIMG9586_480x480.jpg?v=1650622776\" alt=\"\"></p>",
-    "descriptionText": "Download Template\n\nfull-color, edge-to-edge sublimated fleece blanket.\n\nIncluded:\n\n- Full color sublimated design\n\nSize: 60\" x 80\"\n\nmoisture wicking fabric",
+    "description": "full-color, edge-to-edge sublimated fleece blanket. Included: - Full color sublimated design moisture wicking fabric",
+    "descriptionHtml": "<p><a href=\"https://displaytemplate.s3.us-west-2.amazonaws.com/Apparel/Blanket+60in+x80in.pdf\">Download Template</a></p>\n<p>full-color, edge-to-edge sublimated fleece blanket.</p>\n<p>Included:</p>\n<ul>\n  <li>Full color sublimated design</li>\n</ul>\n\n\n<p>moisture wicking fabric</p>\n<p><img src=\"https://cdn.shopify.com/s/files/1/1564/9941/files/WechatIMG9586_480x480.jpg?v=1650622776\" alt=\"\"></p>",
+    "descriptionText": "Download Template\n\nfull-color, edge-to-edge sublimated fleece blanket.\n\nIncluded:\n\n- Full color sublimated design\n\nmoisture wicking fabric",
+    "dimensionsHtml": "<p>Size: 60&quot; x 80&quot;<br><br></p>",
+    "dimensionsText": "Size: 60\" x 80\"",
     "howToOrderHtml": "<ul>\n  <li>SKU 500049</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
     "howToOrderText": "- SKU 500049\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
     "sku": "500049",
@@ -8105,6 +8171,7 @@ export const storefrontProducts = [
       "50'' x 60''",
       "60'' x 80''"
     ],
+    "variantLabel": "Size",
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -8157,6 +8224,7 @@ export const storefrontProducts = [
       "2XL",
       "3XL"
     ],
+    "variantLabel": "Size",
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -8206,6 +8274,7 @@ export const storefrontProducts = [
       "34\"x80\"",
       "60\"x80\""
     ],
+    "variantLabel": "Size",
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -8347,6 +8416,7 @@ export const storefrontProducts = [
       "15'",
       "20'"
     ],
+    "variantLabel": "Size",
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -8420,6 +8490,7 @@ export const storefrontProducts = [
       "Hex Aluminum",
       "Steel"
     ],
+    "variantLabel": "Frame Type",
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -8500,6 +8571,7 @@ export const storefrontProducts = [
       "Hex Aluminum",
       "Steel"
     ],
+    "variantLabel": "Frame Type",
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -8699,6 +8771,7 @@ export const storefrontProducts = [
       "L",
       "XL"
     ],
+    "variantLabel": "Size",
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -8755,6 +8828,7 @@ export const storefrontProducts = [
       "3XL",
       "4XL"
     ],
+    "variantLabel": "Size",
     "cardVariant": "",
     "filterBrands": [
       "Soardist"
@@ -8804,6 +8878,7 @@ export const storefrontProducts = [
       "24\" x 63\"",
       "32\" x 71\""
     ],
+    "variantLabel": "Size",
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -8822,9 +8897,11 @@ export const storefrontProducts = [
     "isStockOut": false,
     "services": [],
     "category": "BANNERS & DISPLAYS",
-    "description": "MADE IN USA.SHIP NEXT DAY 4:00PM FROM CALIFORNIA FACILITY 32''x71'' . 24'' x63'' Showcase your promotional banner with the X-stand. It is durable and is the most cost effective display. Stand includes a free travel bag, making it easy to carry to trade show exhibits, lobby exhib…",
-    "descriptionHtml": "<p>MADE IN USA.SHIP NEXT DAY 4:00PM FROM CALIFORNIA FACILITY</p>\n<p>template <a href=\"https://www.dropbox.com/s/gc7acne658bct72/32x71%27%27%20x%20banner.pdf?dl=0\">32&#x27;&#x27;x71&#x27;&#x27;</a>. <a href=\"https://www.dropbox.com/s/fu4nmroxd56i2ge/24x63%27%27%20x%20banner.pdf?dl=0\">24&#x27;&#x27; x63&#x27;&#x27;</a></p>\n<p>Showcase your promotional banner with the X-stand. It is durable and is the most cost effective display. Stand includes a free travel bag, making it easy to carry to trade show exhibits, lobby exhibits, and much more.</p>\n<h3>Features</h3>\n<ul>\n  <li>Durable and most cost effective display</li>\n  <li>Includes a free travel bag</li>\n  <li>High resolution digitally printed</li>\n</ul>\n<p>Material Options:</p>\n<ul>\n  <li>13 oz. Matte Vinyl Banner</li>\n</ul>",
-    "descriptionText": "MADE IN USA.SHIP NEXT DAY 4:00PM FROM CALIFORNIA FACILITY\n\ntemplate 32''x71'' . 24'' x63''\n\nShowcase your promotional banner with the X-stand. It is durable and is the most cost effective display. Stand includes a free travel bag, making it easy to carry to trade show exhibits, lobby exhibits, and much more.\n\nFeatures\n\n- Durable and most cost effective display\n\n- Includes a free travel bag\n\n- High resolution digitally printed\n\nMaterial Options:\n\n- 13 oz. Matte Vinyl Banner",
+    "description": "MADE IN USA.SHIP NEXT DAY 4:00PM FROM CALIFORNIA FACILITY Showcase your promotional banner with the X-stand. It is durable and is the most cost effective display. Stand includes a free travel bag, making it easy to carry to trade show exhibits, lobby exhibits, and much more. Fea…",
+    "descriptionHtml": "<p>MADE IN USA.SHIP NEXT DAY 4:00PM FROM CALIFORNIA FACILITY</p>\n\n<p>Showcase your promotional banner with the X-stand. It is durable and is the most cost effective display. Stand includes a free travel bag, making it easy to carry to trade show exhibits, lobby exhibits, and much more.</p>\n<h3>Features</h3>\n<ul>\n  <li>Durable and most cost effective display</li>\n  <li>Includes a free travel bag</li>\n  <li>High resolution digitally printed</li>\n</ul>\n<p>Material Options:</p>\n<ul>\n  <li>13 oz. Matte Vinyl Banner</li>\n</ul>",
+    "descriptionText": "MADE IN USA.SHIP NEXT DAY 4:00PM FROM CALIFORNIA FACILITY\n\nShowcase your promotional banner with the X-stand. It is durable and is the most cost effective display. Stand includes a free travel bag, making it easy to carry to trade show exhibits, lobby exhibits, and much more.\n\nFeatures\n\n- Durable and most cost effective display\n\n- Includes a free travel bag\n\n- High resolution digitally printed\n\nMaterial Options:\n\n- 13 oz. Matte Vinyl Banner",
+    "dimensionsHtml": "<p>template <a href=\"https://www.dropbox.com/s/gc7acne658bct72/32x71%27%27%20x%20banner.pdf?dl=0\">32&#x27;&#x27;x71&#x27;&#x27;</a>. <a href=\"https://www.dropbox.com/s/fu4nmroxd56i2ge/24x63%27%27%20x%20banner.pdf?dl=0\">24&#x27;&#x27; x63&#x27;&#x27;</a></p>",
+    "dimensionsText": "template 32''x71'' . 24'' x63''",
     "howToOrderHtml": "<ul>\n  <li>SKU 406030</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
     "howToOrderText": "SKU 406030\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
     "sku": "406030",

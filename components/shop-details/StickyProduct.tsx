@@ -26,6 +26,7 @@ export default function StickyProduct() {
     product.sizes?.includes(selectedSize) && selectedSize
       ? selectedSize
       : (product.sizes?.[0] ?? "");
+  const variantLabel = product.variantLabel?.trim() || "Size";
 
   const { addProductToCart, isAddedToCartProducts, updateQuantity } =
     useContextElement();
@@ -114,7 +115,7 @@ export default function StickyProduct() {
             <form className="" onSubmit={(e) => e.preventDefault()}>
               {product.sizes?.length ? (
                 <div className="tf-sticky-atc-variant-price">
-                  <p className="title">Size:</p>
+                  <p className="title">{variantLabel}:</p>
                   <div className="tf-select style-2">
                     <select
                       value={resolvedSelectedSize}
