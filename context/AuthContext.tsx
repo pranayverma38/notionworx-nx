@@ -6,6 +6,7 @@ import {
   useEffect,
   useState,
   useCallback,
+  useRef,
 } from "react";
 import type { User, Session } from "@supabase/supabase-js";
 import { createClient } from "@/lib/supabase/client";
@@ -25,10 +26,24 @@ const AuthContext = createContext<AuthContextType>({
   signOut: async () => {},
 });
 
+function waitForCartHydration(): Promise<void> {
+  if (useStore.persist.hasHydrated()) {
+    return Promise.resolve();
+  }
+
+  return new Promise((resolve) => {
+    const unsubscribe = useStore.persist.onFinishHydration(() => {
+      unsubscribe();
+      resolve();
+    });
+  });
+}
+
 export function AuthProvider({ children }: { children: React.ReactNode }) {
   const [user, setUser] = useState<User | null>(null);
   const [session, setSession] = useState<Session | null>(null);
   const [loading, setLoading] = useState(true);
+  const pendingCartLoadUserId = useRef<string | null>(null);
   const supabase = createClient();
 
   const setIsLoggedIn = useStore((s) => s.setIsLoggedIn);
@@ -41,6 +56,27 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
     clearLocalCart();
   }, [supabase, clearLocalCart]);
 
+  const scheduleCartLoad = useCallback(
+    (userId: string) => {
+      if (pendingCartLoadUserId.current === userId) {
+        return;
+      }
+
+      pendingCartLoadUserId.current = userId;
+
+      setTimeout(() => {
+        void waitForCartHydration()
+          .then(() => loadServerCart(userId))
+          .finally(() => {
+            if (pendingCartLoadUserId.current === userId) {
+              pendingCartLoadUserId.current = null;
+            }
+          });
+      }, 0);
+    },
+    [loadServerCart],
+  );
+
   useEffect(() => {
     // Get initial session without calling getUser() — avoids GoTrue lock on startup
     supabase.auth.getSession().then(({ data: { session } }) => {
@@ -50,9 +86,11 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
       if (session?.user) {
         setCurrentUserId(session.user.id);
         setIsLoggedIn(true);
-        // Defer cart load to next tick so GoTrue lock is fully released
-        setTimeout(() => loadServerCart(session.user.id), 0);
+        // Defer until the persisted cart store is hydrated to avoid
+        // reloading stale server rows before local removals are restored.
+        scheduleCartLoad(session.user.id);
       } else {
+        pendingCartLoadUserId.current = null;
         setCurrentUserId(null);
         setIsLoggedIn(false);
       }
@@ -67,9 +105,10 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
         if (session?.user) {
           setCurrentUserId(session.user.id);
           setIsLoggedIn(true);
-          // Defer cart load to next tick — never call Supabase inside this callback
-          setTimeout(() => loadServerCart(session.user.id), 0);
+          // Defer until the persisted cart store is hydrated.
+          scheduleCartLoad(session.user.id);
         } else {
+          pendingCartLoadUserId.current = null;
           setCurrentUserId(null);
           setIsLoggedIn(false);
 
@@ -83,8 +122,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
     );
 
     return () => subscription.unsubscribe();
-  // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+  }, [scheduleCartLoad, supabase.auth, clearLocalCart, setIsLoggedIn]);
 
   return (
     <AuthContext.Provider value={{ user, session, loading, signOut }}>

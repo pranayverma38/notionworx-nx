@@ -55,7 +55,7 @@ export default function CartAddOnSummary({
               </span>
               <span>x{option.quantity}</span>
               {showPricing ? (
-                <span style={{ color: "var(--primary)", fontWeight: 600 }}>
+                <span style={{ color: "#166534", fontWeight: 600 }}>
                   {formatPrice(option.price.surcharge)} each
                 </span>
               ) : null}
