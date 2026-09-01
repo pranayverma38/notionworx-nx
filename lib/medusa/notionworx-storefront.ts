@@ -6,12 +6,32 @@ import { cache } from "react";
 
 import { categoriesCollection } from "@/data/categories";
 import { products as localProducts } from "@/data/products/products";
+import {
+  getSharedProductAddOnGroupsByHandle,
+  getSharedProductAddOnGroupsByKeys,
+  getSharedProductAddOnKeysByHandle,
+} from "@/lib/notionworx-shared-addons";
 import type { Category } from "@/types/categories";
-import type { ProductCardItem, ProductSingleImage } from "@/types/productCard";
+import type {
+  ProductCardItem,
+  ProductSingleImage,
+  ProductSizeVariant,
+} from "@/types/productCard";
 import type { ShopProduct } from "@/types/shopFilter";
 
 const APPAREL_CATEGORY_NAME = "APPAREL";
 const APPAREL_COLLECTION_HANDLE = "apparel";
+const DEFAULT_OPTION_TITLES = new Set(["default option", "default title", "title"]);
+
+const localProductsBySourceHandle = new Map(
+  localProducts
+    .filter(
+      (product): product is ProductCardItem & { sourceHandle: string } =>
+        typeof product.sourceHandle === "string" &&
+        product.sourceHandle.trim().length > 0,
+    )
+    .map((product) => [product.sourceHandle.trim(), product]),
+);
 
 type JsonValue =
   | string
@@ -256,6 +276,13 @@ function readJsonRecordNumber(record: JsonRecord | undefined, key: string): numb
   return undefined;
 }
 
+function readJsonRecordString(record: JsonRecord | undefined, key: string): string | undefined {
+  const value = record?.[key];
+  return typeof value === "string" && value.trim().length > 0
+    ? value.trim()
+    : undefined;
+}
+
 function normalizeImageUrl(url: string | undefined): string | undefined {
   if (!url) {
     return undefined;
@@ -356,20 +383,15 @@ const getDefaultRegionId = cache(async () => {
 
 const getMedusaCollections = cache(async () => {
   const payload = await fetchMedusaJson<MedusaCollectionsResponse>(
-    "/store/collections?limit=100",
+    "/store/collections?limit=250",
   );
 
   return payload?.collections ?? [];
 });
 
-const getApparelCollection = cache(async () => {
-  const collections = await getMedusaCollections();
-  return collections.find((collection) => isApparelCollection(collection)) ?? null;
-});
-
-const getAdminApparelProducts = cache(async (collectionId: string): Promise<MedusaProduct[]> => {
+const getAdminCollectionProducts = cache(async (collectionId: string): Promise<MedusaProduct[]> => {
   const query = new URLSearchParams({
-    limit: "100",
+    limit: "250",
     collection_id: collectionId,
   });
   const payload = await fetchMedusaAdminJson<MedusaProductsResponse>(
@@ -452,26 +474,182 @@ function buildVariantOptionsMap(variant: MedusaVariant): Record<string, string> 
   return optionMap;
 }
 
-function determineProductSizes(
-  product: MedusaProduct,
-  variants: MedusaVariant[],
-): string[] {
-  const sizeOption = (product.options ?? []).find(
-    (option) => option.title?.trim().toLowerCase() === "size",
-  );
+function isDefaultOptionTitle(title?: string | null): boolean {
+  const normalized = title?.trim().toLowerCase();
+  return !normalized || DEFAULT_OPTION_TITLES.has(normalized);
+}
 
-  const explicitSizes = collectOptionValues(sizeOption);
-  if (explicitSizes.length > 0) {
-    return explicitSizes;
+function readSourceCategoryTitles(metadata: JsonRecord | null | undefined): string[] {
+  return readMetadataRecordArray(metadata, "source_categories")
+    .map((category) => readJsonRecordString(category, "title"))
+    .filter((title): title is string => Boolean(title));
+}
+
+function readSourcePrimaryCategoryTitle(
+  metadata: JsonRecord | null | undefined,
+): string | undefined {
+  return readJsonRecordString(
+    readMetadataRecord(metadata, "source_primary_category"),
+    "title",
+  );
+}
+
+function getMeaningfulOptionTitles(
+  product: MedusaProduct,
+  sourceOptions: JsonRecord[],
+): string[] {
+  const medusaTitles = (product.options ?? [])
+    .map((option) => option.title?.trim())
+    .filter((title): title is string => Boolean(title) && !isDefaultOptionTitle(title));
+
+  if (medusaTitles.length > 0) {
+    return medusaTitles;
   }
 
-  return Array.from(
-    new Set(
-      variants
-        .map((variant) => buildVariantOptionsMap(variant).Size)
-        .filter((value): value is string => Boolean(value)),
+  return sourceOptions
+    .map((option) => {
+      const rawName = option.name;
+      return typeof rawName === "string" ? rawName.trim() : undefined;
+    })
+    .filter((title): title is string => Boolean(title) && !isDefaultOptionTitle(title));
+}
+
+function buildVariantSelectionValue(
+  variant: MedusaVariant,
+  optionTitles: string[],
+): string {
+  const optionMap = buildVariantOptionsMap(variant);
+  const optionValues = optionTitles
+    .map((title) => optionMap[title])
+    .filter((value): value is string => Boolean(value));
+
+  if (optionValues.length > 0) {
+    return optionValues.join(" / ");
+  }
+
+  const title = variant.title?.trim();
+  if (title && !/^default(?: variant| title)?$/i.test(title)) {
+    return title;
+  }
+
+  return "Default option";
+}
+
+function buildSourceVariantSelectionValue(
+  sourceVariant: JsonRecord,
+  optionTitles: string[],
+): string | undefined {
+  const optionValues = Array.isArray(sourceVariant.optionValues)
+    ? sourceVariant.optionValues
+        .filter((value): value is string => typeof value === "string")
+        .map((value) => value.trim())
+        .filter(Boolean)
+    : [];
+
+  if (optionTitles.length > 0 && optionValues.length > 0) {
+    return optionValues.join(" / ");
+  }
+
+  const title = readJsonRecordString(sourceVariant, "title");
+  if (title && !/^default(?: variant| title)?$/i.test(title)) {
+    return title;
+  }
+
+  return undefined;
+}
+
+function findMatchingSourceVariant(
+  sourceVariants: JsonRecord[],
+  variant: MedusaVariant,
+  optionTitles: string[],
+): JsonRecord | undefined {
+  const sku = variant.sku?.trim();
+  const selectionValue = buildVariantSelectionValue(variant, optionTitles);
+
+  return sourceVariants.find((sourceVariant) => {
+    const sourceSku = readJsonRecordString(sourceVariant, "sku");
+    if (sku && sourceSku && sku === sourceSku) {
+      return true;
+    }
+
+    const sourceTitle = readJsonRecordString(sourceVariant, "title");
+    if (sourceTitle && variant.title?.trim() === sourceTitle) {
+      return true;
+    }
+
+    return buildSourceVariantSelectionValue(sourceVariant, optionTitles) === selectionValue;
+  });
+}
+
+function buildVariantChoices(
+  product: MedusaProduct,
+  variants: MedusaVariant[],
+  sourceOptions: JsonRecord[],
+  sourceVariants: JsonRecord[],
+): {
+  variantLabel?: string;
+  sizes?: string[];
+  sizeVariants?: ProductSizeVariant[];
+} {
+  const optionTitles = getMeaningfulOptionTitles(product, sourceOptions);
+
+  if (variants.length <= 1 && optionTitles.length === 0) {
+    return {};
+  }
+
+  const entries = variants
+    .map((variant) => {
+      const sourceVariant = findMatchingSourceVariant(
+        sourceVariants,
+        variant,
+        optionTitles,
+      );
+      const price =
+        extractVariantPrice(variant) ?? readJsonRecordNumber(sourceVariant, "price");
+      const compareAtPrice =
+        extractOldVariantPrice(variant) ??
+        readJsonRecordNumber(sourceVariant, "compareAtPrice");
+      const value = buildVariantSelectionValue(variant, optionTitles);
+
+      if (!value || typeof price !== "number") {
+        return null;
+      }
+
+      return {
+        value,
+        price,
+        ...(typeof compareAtPrice === "number" && compareAtPrice > price
+          ? { compareAtPrice }
+          : {}),
+      } satisfies ProductSizeVariant;
+    })
+    .filter((entry): entry is ProductSizeVariant => entry != null);
+
+  const uniqueEntries = Array.from(
+    new Map(entries.map((entry) => [entry.value, entry])).values(),
+  );
+
+  if (uniqueEntries.length === 0) {
+    return {};
+  }
+
+  const minPrice = Math.min(
+    ...uniqueEntries.map((entry) =>
+      typeof entry.price === "number" ? entry.price : Number.POSITIVE_INFINITY,
     ),
   );
+  const sizeVariants = uniqueEntries.map((entry) => ({
+    ...entry,
+    ...(entry.price === minPrice ? { active: true } : {}),
+  }));
+
+  return {
+    ...(optionTitles.length > 0
+      ? { variantLabel: optionTitles.join(" / ") }
+      : {}),
+    sizes: sizeVariants.map((entry) => entry.value),
+    sizeVariants,
+  };
 }
 
 function isProductInStock(variants: MedusaVariant[]): boolean {
@@ -511,68 +689,75 @@ function mapMedusaProductToStorefrontProduct(
   const imageUrls = pickImageUrls(product);
   const images: ProductSingleImage[] = imageUrls.map((src) => ({ src }));
   const primaryImage = images[0]?.src;
-
   const fallbackDescription = product.description?.trim() || "";
   const metadata = product.metadata;
+  const localFallback = localProductsBySourceHandle.get(handle);
   const sourcePrice = readMetadataRecord(metadata, "source_price");
   const sourceOptions = readMetadataRecordArray(metadata, "source_options");
   const sourceVariants = readMetadataRecordArray(metadata, "source_variants");
+  const sourceCategoryTitles = readSourceCategoryTitles(metadata);
+  const variantChoices = buildVariantChoices(
+    product,
+    variants,
+    sourceOptions,
+    sourceVariants,
+  );
   const descriptionHtml = readMetadataString(metadata, [
     "description_html",
     "descriptionHtml",
-  ]);
+  ]) ?? localFallback?.descriptionHtml;
   const descriptionText =
     readMetadataString(metadata, ["description_text", "descriptionText"]) ??
+    localFallback?.descriptionText ??
     fallbackDescription;
   const howToOrderHtml = readMetadataString(metadata, [
     "how_to_order_html",
     "howToOrderHtml",
-  ]);
+  ]) ?? localFallback?.howToOrderHtml;
   const howToOrderText = readMetadataString(metadata, [
     "how_to_order_text",
     "howToOrderText",
-  ]);
+  ]) ?? localFallback?.howToOrderText;
   const warrantyHtml = readMetadataString(metadata, [
     "warranty_html",
     "warrantyHtml",
-  ]);
+  ]) ?? localFallback?.warrantyHtml;
   const warrantyText = readMetadataString(metadata, [
     "warranty_text",
     "warrantyText",
-  ]);
+  ]) ?? localFallback?.warrantyText;
   const dimensionsHtml = readMetadataString(metadata, [
     "dimensions_html",
     "dimensionsHtml",
-  ]);
+  ]) ?? localFallback?.dimensionsHtml;
   const dimensionsText = readMetadataString(metadata, [
     "dimensions_text",
     "dimensionsText",
-  ]);
+  ]) ?? localFallback?.dimensionsText;
 
-  const sourcePriceMin =
-    readJsonRecordNumber(sourcePrice, "min");
+  const sourcePriceMin = readJsonRecordNumber(sourcePrice, "min");
   const sourceCompareAtPrice = extractSourceCompareAtPrice(sourcePrice, sourceVariants);
-  const sizeSourceOption = sourceOptions.find(
-    (option) => option.name?.toString().trim().toLowerCase() === "size",
-  );
-  const fallbackSourceOption = sourceOptions[0];
-  const metadataSizes = (
-    (sizeSourceOption?.values as JsonValue[] | undefined) ??
-    (fallbackSourceOption?.values as JsonValue[] | undefined) ??
-    []
-  )
-    .filter((value): value is string => typeof value === "string")
-    .map((value) => value.trim())
-    .filter(Boolean);
-  const price = sourcePriceMin ?? extractVariantPrice(primaryVariant ?? {}) ?? 0;
-  const rawPriceOld = sourceCompareAtPrice ?? extractOldVariantPrice(primaryVariant ?? {});
+  const defaultSizeVariant =
+    variantChoices.sizeVariants?.find((variant) => variant.active) ??
+    variantChoices.sizeVariants?.[0];
+  const price =
+    sourcePriceMin ??
+    (typeof defaultSizeVariant?.price === "number"
+      ? defaultSizeVariant.price
+      : extractVariantPrice(primaryVariant ?? {}) ?? localFallback?.price ?? 0);
+  const rawPriceOld =
+    (typeof defaultSizeVariant?.compareAtPrice === "number"
+      ? defaultSizeVariant.compareAtPrice
+      : undefined) ??
+    sourceCompareAtPrice ??
+    extractOldVariantPrice(primaryVariant ?? {});
   const priceOld =
     typeof rawPriceOld === "number" && rawPriceOld > price ? rawPriceOld : undefined;
-  const sizes = metadataSizes.length > 0 ? metadataSizes : determineProductSizes(product, variants);
+  const sizes = variantChoices.sizes ?? localFallback?.sizes ?? [];
   const variantLabel =
-    fallbackSourceOption?.name?.toString().trim() ||
-    product.options?.[0]?.title?.trim() ||
-    "Size";
+    variantChoices.variantLabel ??
+    localFallback?.variantLabel ??
+    product.options?.[0]?.title?.trim();
   const sourceProductId = readMetadataNumber(metadata, [
     "source_product_id",
     "sourceProductId",
@@ -585,14 +770,52 @@ function mapMedusaProductToStorefrontProduct(
     const normalized = variant.sku.trim();
     return normalized.length > 0 && normalized.toLowerCase() !== "none";
   })?.sku;
+  const metadataAddOnGroupKeys = readMetadataStringArray(metadata, [
+    "source_add_on_group_keys",
+    "sourceAddOnGroupKeys",
+  ]);
+  const addOnGroupKeys =
+    metadataAddOnGroupKeys.length > 0
+      ? metadataAddOnGroupKeys
+      : getSharedProductAddOnKeysByHandle(handle);
+  const addOnGroups =
+    getSharedProductAddOnGroupsByKeys(addOnGroupKeys) ??
+    getSharedProductAddOnGroupsByHandle(handle);
   const sourceInStock =
     sourceVariants.length > 0
       ? sourceVariants.some((variant) => variant.available !== false)
       : undefined;
   const inStock = sourceInStock ?? isProductInStock(variants);
+  const filterCategory =
+    localFallback?.filterCategory && localFallback.filterCategory.length > 0
+      ? [...localFallback.filterCategory]
+      : sourceCategoryTitles.length > 0
+        ? sourceCategoryTitles
+        : [collection.title?.trim() || ""].filter(Boolean);
+  const filterBrands =
+    localFallback?.filterBrands && localFallback.filterBrands.length > 0
+      ? [...localFallback.filterBrands]
+      : [
+          readMetadataString(metadata, ["source_vendor", "sourceVendor"]) ??
+            "Notion Worx",
+        ];
+  const filterColor =
+    localFallback?.filterColor && localFallback.filterColor.length > 0
+      ? [...localFallback.filterColor]
+      : [];
+  const filterSizes =
+    localFallback?.filterSizes && localFallback.filterSizes.length > 0
+      ? [...localFallback.filterSizes]
+      : sizes;
+  const description = localFallback?.description ?? descriptionText;
+  const category =
+    localFallback?.category ??
+    readSourcePrimaryCategoryTitle(metadata) ??
+    collection.title?.trim() ??
+    "";
 
   return {
-    id: buildStableProductId(`medusa:${medusaId}`),
+    id: localFallback?.id ?? buildStableProductId(`medusa:${medusaId}`),
     sourceProductId,
     sourceHandle: handle,
     sourceSlug,
@@ -602,20 +825,23 @@ function mapMedusaProductToStorefrontProduct(
     name: title,
     price,
     priceOld,
-    sizes,
-    variantLabel,
-    category: APPAREL_CATEGORY_NAME,
-    filterCategory: [APPAREL_CATEGORY_NAME],
-    filterBrands: [],
-    filterColor: [],
-    filterSizes: sizes,
+    ...(sizes.length > 0 ? { sizes } : {}),
+    ...(variantChoices.sizeVariants && variantChoices.sizeVariants.length > 0
+      ? { sizeVariants: variantChoices.sizeVariants }
+      : {}),
+    ...(variantLabel ? { variantLabel } : {}),
+    category,
+    filterCategory,
+    filterBrands,
+    filterColor,
+    filterSizes,
     tags: readMetadataStringArray(metadata, ["source_tags", "tags"]),
-    rating: 5,
+    rating: localFallback?.rating ?? 5,
     inStock,
     isStockOut: !inStock,
-    services: [],
-    cardVariant: "",
-    description: descriptionText,
+    services: localFallback?.services ? [...localFallback.services] : [],
+    cardVariant: localFallback?.cardVariant ?? "",
+    description,
     descriptionHtml,
     descriptionText,
     dimensionsHtml,
@@ -624,65 +850,120 @@ function mapMedusaProductToStorefrontProduct(
     warrantyText,
     howToOrderHtml,
     howToOrderText,
+    ...(addOnGroups ? { addOnGroups } : {}),
+    ...(localFallback?.colors ? { colors: localFallback.colors } : {}),
+    ...(localFallback?.reviewsText ? { reviewsText: localFallback.reviewsText } : {}),
+    ...(localFallback?.badge ? { badge: localFallback.badge } : {}),
+    ...(localFallback?.badgeTrend ? { badgeTrend: localFallback.badgeTrend } : {}),
+    ...(localFallback?.marquee ? { marquee: localFallback.marquee } : {}),
     sku:
+      localFallback?.sku ??
       (typeof sourceSku === "string" ? sourceSku.trim() : undefined) ??
       primaryVariant?.sku?.trim() ??
       undefined,
-    badgeLabel: normalizeCollectionName(collection.title) === APPAREL_CATEGORY_NAME
-      ? "Medusa"
-      : undefined,
+    soldLabel:
+      localFallback?.soldLabel ?? (inStock ? "Available to order" : "Currently unavailable"),
+    badgeLabel:
+      localFallback?.badgeLabel ??
+      (normalizeCollectionName(collection.title) === APPAREL_CATEGORY_NAME
+        ? "Medusa"
+        : undefined),
+    ...(localFallback?.badgeSubtext
+      ? { badgeSubtext: localFallback.badgeSubtext }
+      : {}),
   };
 }
 
-const getMedusaApparelProducts = cache(async (): Promise<ShopProduct[]> => {
-  const apparelCollection = await getApparelCollection();
-  if (!apparelCollection?.id) {
-    return [];
-  }
+type MedusaMappedCollection = {
+  collection: MedusaCollection;
+  products: ShopProduct[];
+};
 
-  const query = new URLSearchParams({
-    limit: "100",
-    collection_id: apparelCollection.id,
-  });
+const getMedusaMigratedCollections = cache(
+  async (): Promise<MedusaMappedCollection[]> => {
+    const collections = await getMedusaCollections();
 
-  const regionId = await getDefaultRegionId();
-  if (regionId) {
-    query.set("region_id", regionId);
-  }
+    if (collections.length === 0) {
+      return [];
+    }
 
-  const payload = await fetchMedusaJson<MedusaProductsResponse>(
-    `/store/products?${query.toString()}`,
-  );
-  const products = payload?.products ?? [];
-  const adminProducts = await getAdminApparelProducts(apparelCollection.id);
-  const adminProductsById = new Map(
-    adminProducts
-      .filter((product) => typeof product.id === "string" && product.id.trim().length > 0)
-      .map((product) => [product.id!.trim(), product]),
-  );
-  const adminProductsByHandle = new Map(
-    adminProducts
-      .filter((product) => typeof product.handle === "string" && product.handle.trim().length > 0)
-      .map((product) => [product.handle!.trim(), product]),
-  );
+    const regionId = await getDefaultRegionId();
 
-  return products
-    .map((product) => {
-      const adminProduct =
-        (product.id ? adminProductsById.get(product.id.trim()) : undefined) ??
-        (product.handle ? adminProductsByHandle.get(product.handle.trim()) : undefined);
-      const mergedProduct: MedusaProduct =
-        adminProduct?.metadata != null
-          ? {
-              ...product,
-              metadata: adminProduct.metadata,
+    return (
+      await Promise.all(
+        collections
+          .filter(
+            (collection): collection is MedusaCollection & { id: string } =>
+              typeof collection.id === "string" && collection.id.trim().length > 0,
+          )
+          .map(async (collection) => {
+            const query = new URLSearchParams({
+              limit: "250",
+              collection_id: collection.id,
+            });
+
+            if (regionId) {
+              query.set("region_id", regionId);
             }
-          : product;
 
-      return mapMedusaProductToStorefrontProduct(mergedProduct, apparelCollection);
-    })
-    .filter((product): product is ShopProduct => product != null);
-});
+            const payload = await fetchMedusaJson<MedusaProductsResponse>(
+              `/store/products?${query.toString()}`,
+            );
+            const storeProducts = payload?.products ?? [];
+            const adminProducts = await getAdminCollectionProducts(collection.id);
+            const adminProductsById = new Map(
+              adminProducts
+                .filter(
+                  (product): product is MedusaProduct & { id: string } =>
+                    typeof product.id === "string" &&
+                    product.id.trim().length > 0,
+                )
+                .map((product) => [product.id.trim(), product]),
+            );
+            const adminProductsByHandle = new Map(
+              adminProducts
+                .filter(
+                  (product): product is MedusaProduct & { handle: string } =>
+                    typeof product.handle === "string" &&
+                    product.handle.trim().length > 0,
+                )
+                .map((product) => [product.handle.trim(), product]),
+            );
+
+            const products = storeProducts
+              .map((product) => {
+                const adminProduct =
+                  (product.id
+                    ? adminProductsById.get(product.id.trim())
+                    : undefined) ??
+                  (product.handle
+                    ? adminProductsByHandle.get(product.handle.trim())
+                    : undefined);
+                const mergedProduct: MedusaProduct =
+                  adminProduct?.metadata != null
+                    ? {
+                        ...product,
+                        metadata: adminProduct.metadata,
+                      }
+                    : product;
+
+                return mapMedusaProductToStorefrontProduct(
+                  mergedProduct,
+                  collection,
+                );
+              })
+              .filter((product): product is ShopProduct => product != null);
+
+            return { collection, products };
+          }),
+      )
+    ).filter(
+      (entry) =>
+        entry.products.length > 0 ||
+        Boolean(entry.collection.title?.trim()),
+    );
+  },
+);
 
 function parseCategoryQuantity(quantity?: string): number | null {
   if (!quantity) {
@@ -697,12 +978,16 @@ function parseCategoryQuantity(quantity?: string): number | null {
   return Number(match[0]);
 }
 
-function buildApparelCategory(
+function buildCollectionCategory(
   collection: MedusaCollection,
   count: number,
   fallbackImage?: string,
 ): Category {
   const metadata = collection.metadata;
+  const displayName =
+    collection.title?.trim() ||
+    readMetadataString(metadata, ["source_title", "title"]) ||
+    APPAREL_CATEGORY_NAME;
   const image =
     normalizeImageUrl(
       readMetadataString(metadata, [
@@ -717,55 +1002,65 @@ function buildApparelCategory(
     fallbackImage;
 
   return {
-    name: collection.title?.trim() || APPAREL_CATEGORY_NAME,
+    name: displayName,
     img: image,
     quantity: `${count} Product${count === 1 ? "" : "s"}`,
-    href: `/shop-default?category=${encodeURIComponent(APPAREL_CATEGORY_NAME)}`,
+    href: `/shop-default?category=${encodeURIComponent(displayName)}`,
   };
 }
 
 export const getCollectionPageCategories = cache(async (): Promise<Category[]> => {
-  const categories = [...categoriesCollection];
-  const apparelCollection = await getApparelCollection();
-  if (!apparelCollection) {
-    return categories;
+  const migratedCollections = await getMedusaMigratedCollections();
+  if (migratedCollections.length === 0) {
+    return [...categoriesCollection];
   }
 
-  const apparelProducts = await getMedusaApparelProducts();
-  const mappedCategory = buildApparelCategory(
-    apparelCollection,
-    apparelProducts.length,
-    apparelProducts[0]?.img,
+  const mappedCategories = migratedCollections.map(({ collection, products }) =>
+    buildCollectionCategory(collection, products.length, products[0]?.img),
+  );
+  const migratedCategoryNames = new Set(
+    mappedCategories.map((category) => normalizeCollectionName(category.name)),
   );
 
-  const filtered = categories.filter(
-    (category) => normalizeCollectionName(category.name) !== APPAREL_CATEGORY_NAME,
-  );
-
-  const apparelCount = parseCategoryQuantity(mappedCategory.quantity);
-  if (apparelCount == null) {
-    return [...filtered, mappedCategory];
-  }
-
-  const insertionIndex = filtered.findIndex((category) => {
-    const count = parseCategoryQuantity(category.quantity);
-    return count != null && apparelCount > count;
-  });
-
-  if (insertionIndex === -1) {
-    return [...filtered, mappedCategory];
-  }
-
-  return [
-    ...filtered.slice(0, insertionIndex),
-    mappedCategory,
-    ...filtered.slice(insertionIndex),
-  ];
+  return [...categoriesCollection]
+    .filter(
+      (category) =>
+        !migratedCategoryNames.has(normalizeCollectionName(category.name)),
+    )
+    .concat(mappedCategories)
+    .sort(
+      (left, right) =>
+        (parseCategoryQuantity(right.quantity) ?? -1) -
+        (parseCategoryQuantity(left.quantity) ?? -1),
+    );
 });
 
 export const getShopCatalogProducts = cache(async (): Promise<ShopProduct[]> => {
-  const apparelProducts = await getMedusaApparelProducts();
-  return [...localProducts, ...apparelProducts] as ShopProduct[];
+  const migratedCollections = await getMedusaMigratedCollections();
+  const migratedProducts = migratedCollections.flatMap((entry) => entry.products);
+  const migratedProductsByHandle = new Map(
+    migratedProducts
+      .filter(
+        (product): product is ShopProduct & { sourceHandle: string } =>
+          typeof product.sourceHandle === "string" &&
+          product.sourceHandle.trim().length > 0,
+      )
+      .map((product) => [product.sourceHandle.trim(), product]),
+  );
+
+  const catalog = localProducts.map((product) => {
+    const handle = product.sourceHandle?.trim();
+    return handle && migratedProductsByHandle.has(handle)
+      ? migratedProductsByHandle.get(handle)!
+      : product;
+  });
+  const appendedProducts = migratedProducts.filter(
+    (product) =>
+      !product.sourceHandle ||
+      !localProductsBySourceHandle.has(product.sourceHandle.trim()),
+  );
+
+  return [...catalog, ...appendedProducts] as ShopProduct[];
 });
 
 export const getShopProductByRouteId = cache(
@@ -782,8 +1077,13 @@ export const getShopProductByRouteId = cache(
 );
 
 export async function getMedusaApparelStatus() {
-  const collection = await getApparelCollection();
-  const products = await getMedusaApparelProducts();
+  const collection =
+    (await getMedusaCollections()).find((entry) => isApparelCollection(entry)) ??
+    null;
+  const products =
+    (await getMedusaMigratedCollections()).find((entry) =>
+      isApparelCollection(entry.collection),
+    )?.products ?? [];
 
   return {
     hasConfiguredStoreAccess: Boolean(getMedusaConfig()),

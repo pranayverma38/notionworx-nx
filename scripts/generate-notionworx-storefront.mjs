@@ -1,3 +1,4 @@
+import { createHash } from "node:crypto";
 import { readFileSync, writeFileSync } from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
@@ -13,6 +14,10 @@ const outputPath = path.join(
 const productAddOnCatalogPath = path.join(
   repoRoot,
   "data/inventory/notionworx/product-addons.generated.json",
+);
+const sharedProductAddOnCatalogPath = path.join(
+  repoRoot,
+  "data/inventory/notionworx/product-addons.shared.generated.json",
 );
 
 const COLOR_SWATCHES = [
@@ -35,6 +40,14 @@ function readJson(relativePath) {
 
 function unique(values) {
   return [...new Set(values.filter(Boolean))];
+}
+
+function slugify(value) {
+  return String(value || "group")
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "")
+    .slice(0, 48);
 }
 
 function toSentenceCase(value) {
@@ -1168,6 +1181,7 @@ const productAddOnCatalog = JSON.parse(
   readFileSync(productAddOnCatalogPath, "utf8"),
 );
 const productAddOnMap = productAddOnCatalog.products || {};
+const sharedProductAddOnCatalog = buildSharedProductAddOnCatalog(productAddOnMap);
 const inventoryCollections = manifest.collections.map((record) =>
   readJson(record.filePath),
 );
@@ -1202,6 +1216,44 @@ export const storefrontCollectionGalleries = ${JSON.stringify(storefrontCollecti
 `;
 
 writeFileSync(outputPath, fileContents);
-console.log(
-  `Generated storefront adapter with ${storefrontProducts.length} products and ${storefrontCategories.length} categories.`,
+writeFileSync(
+  sharedProductAddOnCatalogPath,
+  `${JSON.stringify(sharedProductAddOnCatalog, null, 2)}\n`,
 );
+console.log(
+  `Generated storefront adapter with ${storefrontProducts.length} products, ${storefrontCategories.length} categories, and ${sharedProductAddOnCatalog.groupCount} shared add-on groups.`,
+);
+
+function buildSharedProductAddOnCatalog(productGroupsByHandle) {
+  const groups = {};
+  const products = {};
+
+  for (const [handle, groupList] of Object.entries(productGroupsByHandle || {})) {
+    if (!Array.isArray(groupList) || !groupList.length) {
+      continue;
+    }
+
+    products[handle] = groupList.map((group) => {
+      const hash = createHash("sha1")
+        .update(JSON.stringify(group))
+        .digest("hex")
+        .slice(0, 12);
+      const key = `${slugify(group?.title)}-${hash}`;
+
+      if (!groups[key]) {
+        groups[key] = group;
+      }
+
+      return key;
+    });
+  }
+
+  return {
+    schemaVersion: 1,
+    generatedAt: new Date().toISOString(),
+    groupCount: Object.keys(groups).length,
+    productCount: Object.keys(products).length,
+    groups,
+    products,
+  };
+}

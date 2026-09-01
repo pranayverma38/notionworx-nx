@@ -15,7 +15,8 @@ import {
   getProductAddOnSelectionSubtotal,
   normalizeProductAddOnSelections,
 } from "@/lib/product-addons";
-import type { ProductSingleImage } from "@/types/productCard";
+import { resolveConfiguredBasePrice } from "@/lib/product-variants";
+import type { ProductSingleImage, ProductSizeVariant } from "@/types/productCard";
 import type { ProductAddOnGroup, ProductAddOnSelection } from "@/types/productAddons";
 
 export interface ColorOption {
@@ -24,11 +25,7 @@ export interface ColorOption {
   img: string;
 }
 
-export interface SizeOption {
-  value: string;
-  price?: string;
-  active?: boolean;
-}
+export interface SizeOption extends ProductSizeVariant {}
 
 interface ProductContextType {
   // Zoom
@@ -112,12 +109,23 @@ export const ProductProvider: React.FC<ProductProviderProps> = ({
     () => getProductAddOnSelectionSubtotal(addOnGroups, addOnSelections),
     [addOnGroups, addOnSelections],
   );
-  const configuredUnitPrice = useMemo(
+  const selectedBasePrice = useMemo(
     () =>
       typeof basePrice === "number"
-        ? getConfiguredProductUnitPrice(basePrice, addOnGroups, addOnSelections)
+        ? resolveConfiguredBasePrice(basePrice, sizes, currentSize)
         : undefined,
-    [addOnGroups, addOnSelections, basePrice],
+    [basePrice, currentSize, sizes],
+  );
+  const configuredUnitPrice = useMemo(
+    () =>
+      typeof selectedBasePrice === "number"
+        ? getConfiguredProductUnitPrice(
+            selectedBasePrice,
+            addOnGroups,
+            addOnSelections,
+          )
+        : undefined,
+    [addOnGroups, addOnSelections, selectedBasePrice],
   );
 
   return (

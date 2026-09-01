@@ -7,6 +7,13 @@ export interface ProductColorSwatch {
   img: string;
 }
 
+export interface ProductSizeVariant {
+  value: string;
+  price?: number | string;
+  compareAtPrice?: number | string;
+  active?: boolean;
+}
+
 /** One image in a product single gallery (main or thumb). */
 export interface ProductSingleImage {
   src: string;
@@ -57,7 +64,7 @@ export interface ProductCardItem extends Partial<ShopProductFacetFields> {
   /** Label for the primary non-color variant group (e.g. "Size", "Frame Type"). */
   variantLabel?: string;
   /** Size variants with price for single-product (e.g. [{ value: "30ml", price: "39.99" }, { value: "100ml", price: "59.99", active: true }]). */
-  sizeVariants?: { value: string; price: string; active?: boolean }[];
+  sizeVariants?: ProductSizeVariant[];
   /** Color swatches; first is active. */
   colors?: ProductColorSwatch[];
   /** Marquee text (e.g. "HOT SALE 25% OFF"); when set, shows product-marquee_sale. */

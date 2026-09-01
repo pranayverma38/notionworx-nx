@@ -1,4 +1,5 @@
 import { useProductOptional } from "@/context/ProductContext";
+import { resolveConfiguredCompareAtPrice } from "@/lib/product-variants";
 import type { ProductCardItem } from "@/types/productCard";
 import { formatPrice } from "@/utils/formatPrice";
 
@@ -9,11 +10,17 @@ export function ProductPrice({ product }: { product: ProductCardItem }) {
       ? productContext.configuredUnitPrice
       : product.price;
   const addOnSelectionSubtotal = productContext?.addOnSelectionSubtotal ?? 0;
-  const compareAtPrice =
-    typeof product.priceOld === "number" && product.priceOld > configuredPrice
-      ? product.priceOld
+  const compareAtPrice = resolveConfiguredCompareAtPrice(
+    product.priceOld,
+    product.sizeVariants,
+    productContext?.currentSize,
+  );
+  const effectiveCompareAtPrice =
+    typeof compareAtPrice === "number" && compareAtPrice > configuredPrice
+      ? compareAtPrice
       : undefined;
-  const showCompareAt = addOnSelectionSubtotal === 0 && typeof compareAtPrice === "number";
+  const showCompareAt =
+    addOnSelectionSubtotal === 0 && typeof effectiveCompareAtPrice === "number";
 
   return (
     <div className="product-infor-price mb-12" style={{ flexWrap: "wrap" }}>
@@ -25,16 +32,18 @@ export function ProductPrice({ product }: { product: ProductCardItem }) {
           </span>
         ) : null}
       </div>
-      {showCompareAt && compareAtPrice && (
+      {showCompareAt && effectiveCompareAtPrice && (
         <>
           <div className="br-line type-vertical" />
           <p className="cl-text-3 text-decoration-line-through">
-            {formatPrice(compareAtPrice)}
+            {formatPrice(effectiveCompareAtPrice)}
           </p>
           <span className="badge-sale text-white fw-semibold text-caption-02">
             -
             {Math.round(
-              ((compareAtPrice - configuredPrice) / compareAtPrice) * 100,
+              ((effectiveCompareAtPrice - configuredPrice) /
+                effectiveCompareAtPrice) *
+                100,
             )}
             %
           </span>

@@ -260,6 +260,7 @@ function CartMiniLine({
 
   const colorLabel = item.selectedColor ?? item.colors?.[0]?.label ?? null;
   const sizeLabel = item.selectedSize ?? null;
+  const sizeLabelTitle = item.variantLabel ?? "Size";
 
   return (
     <div className="tf-mini-cart-item file-delete">
@@ -281,7 +282,7 @@ function CartMiniLine({
         ) : null}
         {sizeLabel ? (
           <div className="tf-prd-select text-caption-01">
-            <span className="type-text cl-text-3"> Size:&nbsp; </span>
+            <span className="type-text cl-text-3"> {sizeLabelTitle}:&nbsp; </span>
             <span className="fw-medium">{sizeLabel}</span>
           </div>
         ) : null}

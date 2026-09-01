@@ -25,6 +25,7 @@ import ProductInfoSwatchRoundedColor from "@/components/shop-details/ProductInfo
 import ProductInfoSwatchRoundedImage from "@/components/shop-details/ProductInfoSwatchRoundedImage";
 import ProductInfoSwatchDropdown from "@/components/shop-details/ProductInfoSwatchDropdown";
 import ProductInfoSwatchDropdownColor from "@/components/shop-details/ProductInfoSwatchDropdownColor";
+import { getInitialVariantSelectionValue } from "@/lib/product-variants";
 import { ProductCardItem, ProductSingleImage } from "@/types/productCard";
 
 function ProductSectionInner({
@@ -178,6 +179,8 @@ export default function ProductSection({
   const resolvedSizesProp =
     sizesProp && sizesProp.length > 0
       ? sizesProp
+      : product.sizeVariants && product.sizeVariants.length > 0
+        ? product.sizeVariants
       : product.sizes && product.sizes.length > 0
         ? product.sizes
         : [];
@@ -186,7 +189,8 @@ export default function ProductSection({
   );
   const resolvedInitialColor =
     initialColor ?? resolvedColors[0]?.label ?? "";
-  const resolvedInitialSize = initialSize ?? sizes[0]?.value ?? "";
+  const resolvedInitialSize =
+    initialSize ?? getInitialVariantSelectionValue(sizes) ?? sizes[0]?.value ?? "";
   const resolvedVariantLabel = variantLabel ?? product.variantLabel ?? "Size";
 
   return (

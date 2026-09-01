@@ -7,6 +7,10 @@ import {
   buildProductConfigurationKey,
   getProductConfigurationIdentity,
 } from "@/lib/product-addons";
+import {
+  getInitialVariantSelectionValue,
+  resolveConfiguredBasePrice,
+} from "@/lib/product-variants";
 import { products, stickyBarProduct } from "@/data/products/products";
 import { useContextElement } from "@/context/Context";
 
@@ -24,14 +28,27 @@ export default function StickyProduct() {
   }, [rawId]);
   const [isVisible, setIsVisible] = useState(false);
   const [quantity, setQuantity] = useState(1);
-  const [selectedSize, setSelectedSize] = useState(product.sizes?.[0] ?? "");
+  const selectableSizes =
+    product.sizeVariants?.map((variant) => variant.value) ?? product.sizes ?? [];
+  const [selectedSize, setSelectedSize] = useState(
+    getInitialVariantSelectionValue(product.sizeVariants) ??
+      selectableSizes[0] ??
+      "",
+  );
   const stickyBarRef = useRef<HTMLDivElement | null>(null);
   const resolvedSelectedSize =
-    product.sizes?.includes(selectedSize) && selectedSize
+    selectableSizes.includes(selectedSize) && selectedSize
       ? selectedSize
-      : (product.sizes?.[0] ?? "");
+      : (getInitialVariantSelectionValue(product.sizeVariants) ??
+          selectableSizes[0] ??
+          "");
   const variantLabel = product.variantLabel?.trim() || "Size";
   const hasAddOnGroups = Boolean(product.addOnGroups?.length);
+  const unitPrice = resolveConfiguredBasePrice(
+    product.price,
+    product.sizeVariants,
+    resolvedSelectedSize || undefined,
+  );
 
   const { addProductToCart, cartProducts, updateQuantity } =
     useContextElement();
@@ -176,7 +193,7 @@ export default function StickyProduct() {
                     adding it to the cart.
                   </p>
                 </div>
-              ) : product.sizes?.length ? (
+              ) : selectableSizes.length ? (
                 <div className="tf-sticky-atc-variant-price">
                   <p className="title">{variantLabel}:</p>
                   <div className="tf-select style-2">
@@ -184,7 +201,7 @@ export default function StickyProduct() {
                       value={resolvedSelectedSize}
                       onChange={(e) => setSelectedSize(e.target.value)}
                     >
-                      {product.sizes.map((size) => (
+                      {selectableSizes.map((size) => (
                         <option key={size} value={size}>
                           {size}
                         </option>
@@ -236,7 +253,7 @@ export default function StickyProduct() {
                 <span className="btn-add-to-cart__price">
                   $
                   {(
-                    product.price * (hasAddOnGroups ? 1 : quantity)
+                    unitPrice * (hasAddOnGroups ? 1 : quantity)
                   ).toFixed(2)}
                 </span>
               </button>

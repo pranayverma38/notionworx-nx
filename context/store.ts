@@ -10,6 +10,7 @@ import {
   getConfiguredProductUnitPrice,
   getProductConfigurationIdentity,
 } from "@/lib/product-addons";
+import { resolveConfiguredBasePrice } from "@/lib/product-variants";
 import {
   fetchCartFromServer,
   removeCartItem,
@@ -389,7 +390,7 @@ function normalizeCartProduct(
   const basePrice =
     typeof cartItem.basePrice === "number"
       ? cartItem.basePrice
-      : item.price;
+      : resolveConfiguredBasePrice(item.price, item.sizeVariants, selectedSize);
   const configurationKey =
     cartItem.configurationKey ||
     buildProductConfigurationKey({

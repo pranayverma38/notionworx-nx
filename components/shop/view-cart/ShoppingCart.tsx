@@ -336,6 +336,7 @@ function CartCard({ item, onRemove, onQtyChange }: {
   const imgSrc = item.img ?? item.images?.[0]?.src ?? "/assets/images/product/product-1.jpg";
   const colorLabel = item.selectedColor ?? item.colors?.[0]?.label ?? null;
   const sizeLabel = item.selectedSize ?? null;
+  const sizeLabelTitle = item.variantLabel ?? "Size";
   const lineTotal = item.price * item.quantity;
 
   return (
@@ -358,7 +359,7 @@ function CartCard({ item, onRemove, onQtyChange }: {
             )}
             {sizeLabel && (
               <span style={{ fontSize: "0.75rem", color: "#6b7280", background: "#f3f4f6", borderRadius: "6px", padding: "2px 8px" }}>
-                Size: {sizeLabel}
+                {sizeLabelTitle}: {sizeLabel}
               </span>
             )}
           </div>

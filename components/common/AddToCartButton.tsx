@@ -27,7 +27,10 @@ export default function AddToCartButton({
     useContextElement();
   const isAdded = product ? isAddedToCartProducts(product.id) : false;
   const isQuickAddTrigger = href === "#quickAdd";
-  const requiresConfiguration = Boolean(product?.addOnGroups?.length);
+  const requiresConfiguration = Boolean(
+    product?.addOnGroups?.length ||
+      (product?.sizeVariants?.length != null && product.sizeVariants.length > 1),
+  );
   const resolvedLabel = requiresConfiguration ? "Customize" : label;
 
   const handleClick = (e: React.MouseEvent) => {

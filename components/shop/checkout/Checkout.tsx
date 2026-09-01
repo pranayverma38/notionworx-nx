@@ -477,6 +477,7 @@ function CheckoutOrderItem({
     item.img ?? item.images?.[0]?.src ?? "/assets/images/product/product-1.jpg";
   const colorLabel = item.selectedColor ?? item.colors?.[0]?.label ?? null;
   const sizeLabel = item.selectedSize ?? null;
+  const sizeLabelTitle = item.variantLabel ?? "Size";
   const lineTotal = item.price * item.quantity;
 
   return (
@@ -498,7 +499,7 @@ function CheckoutOrderItem({
         ) : null}
         {sizeLabel ? (
           <div className="text-caption-01">
-            <span className="cl-text-2">Size:</span> {sizeLabel}
+            <span className="cl-text-2">{sizeLabelTitle}:</span> {sizeLabel}
           </div>
         ) : null}
         <CartAddOnSummary item={item} />
