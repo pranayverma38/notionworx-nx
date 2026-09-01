@@ -1,0 +1,1142 @@
+{
+  "baseUrl": "https://api.notionworxcanopy.com",
+  "siteUrl": "https://notionworxcanopy.com",
+  "mode": "apply",
+  "collectionHandle": "bag",
+  "region": {
+    "id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X",
+    "currency_code": "eur",
+    "name": "Europe"
+  },
+  "salesChannelId": "sc_01M1E72H3K3S5QG6P0R7700SH4",
+  "collection": {
+    "title": "BAG",
+    "handle": "bag",
+    "metadata": {
+      "source": "notionworx-inventory",
+      "source_handle": "bag",
+      "source_title": "BAG",
+      "source_description": "",
+      "source_products_count": 7,
+      "source_image_path": null,
+      "source_image_url": null,
+      "inventory_data_path": "/inventory/notionworx/collections/bag.json"
+    }
+  },
+  "productsCount": 7,
+  "products": [
+    {
+      "title": "Belt Bag (Dye Sublimated) 1.38\" Strap #500060",
+      "handle": "belt-bag-dye-sublimated-1-38-strap-500060",
+      "external_id": "8227678945415",
+      "description": "Download template Need Help with Artwork Setup?\n\n600d oxford material\n\none layer black inside with strap 0.98'' width\n\nWebbing width: 1.38\"",
+      "status": "published",
+      "images": [
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/bag/belt-bag-dye-sublimated-1-38-strap-500060/01.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/bag/belt-bag-dye-sublimated-1-38-strap-500060/02.jpg"
+        }
+      ],
+      "thumbnail": "https://notionworxcanopy.com/assets/images/notionworx-inventory/bag/belt-bag-dye-sublimated-1-38-strap-500060/01.jpg",
+      "options": [
+        {
+          "title": "Default option",
+          "values": [
+            "Default option value"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "Default variant",
+          "sku": "500060",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 1100,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Default option": "Default option value"
+          },
+          "metadata": {
+            "source_variant_id": 43238184288391,
+            "source_requires_shipping": true,
+            "source_taxable": true,
+            "source_grams": 454,
+            "source_position": 1,
+            "source_option_values": [
+              "Default Title"
+            ],
+            "source_compare_at_price": null
+          }
+        }
+      ],
+      "metadata": {
+        "source": "notionworx-inventory",
+        "source_handle": "belt-bag-dye-sublimated-1-38-strap-500060",
+        "source_product_id": 8227678945415,
+        "source_slug": "belt-bag-dye-sublimated-1-38-strap-500060",
+        "source_vendor": "Notion Worx",
+        "source_product_type": null,
+        "source_primary_category": {
+          "handle": "bag",
+          "title": "BAG"
+        },
+        "source_categories": [
+          {
+            "handle": "bag",
+            "title": "BAG"
+          }
+        ],
+        "source_price": {
+          "min": 11.0,
+          "max": 11.0,
+          "compareAtMin": null,
+          "compareAtMax": null,
+          "variantCount": 1
+        },
+        "source_tags": [],
+        "source_skus": [
+          "500060"
+        ],
+        "description_html": "<p><a href=\"https://displaytemplate.s3.us-west-2.amazonaws.com/Apparel/Belt+Bag.pdf\">Download template</a> <a href=\"https://soardistusa.com/apps/help-center#hc-creative-services\">Need Help with Artwork Setup?</a></p>\n<p>600d oxford material</p>\n<p>one layer black inside with strap 0.98&#x27;&#x27; width</p>\n\n<p>Webbing width: 1.38&quot;</p>",
+        "description_text": "Download template Need Help with Artwork Setup?\n\n600d oxford material\n\none layer black inside with strap 0.98'' width\n\nWebbing width: 1.38\"",
+        "how_to_order_html": "<ul>\n  <li>SKU 500060</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
+        "how_to_order_text": "SKU 500060\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
+        "dimensions_html": "<p>7.5&#x27;&#x27; x 5.5&#x27;&#x27; x 2&#x27;&#x27;</p>",
+        "dimensions_text": "7.5'' x 5.5'' x 2''",
+        "warranty_html": null,
+        "warranty_text": null,
+        "source_options": [
+          {
+            "name": "Title",
+            "position": 1,
+            "values": [
+              "Default Title"
+            ]
+          }
+        ],
+        "source_variants": [
+          {
+            "id": 43238184288391,
+            "title": "Default Title",
+            "sku": "500060",
+            "available": true,
+            "price": 11.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "Default Title"
+            ],
+            "requiresShipping": true,
+            "taxable": true,
+            "grams": 454,
+            "position": 1
+          }
+        ],
+        "source_variant_label": null,
+        "source_sizes": [
+          "Default option"
+        ],
+        "source_size_variants": [
+          {
+            "value": "Default option",
+            "price": 11.0,
+            "active": true
+          }
+        ],
+        "source_filter_category": [
+          "BAG"
+        ],
+        "source_filter_sizes": [],
+        "source_reviews_text": "1 option",
+        "source_badge_label": "BAG",
+        "source_badge_subtext": "2 product images available",
+        "source_description": "Need Help with Artwork Setup? 600d oxford material one layer black inside with strap 0.98'' width Webbing width: 1.38\"",
+        "source_card_variant": "",
+        "source_add_on_group_keys": [],
+        "local_image_paths": [
+          "/assets/images/notionworx-inventory/bag/belt-bag-dye-sublimated-1-38-strap-500060/01.jpg",
+          "/assets/images/notionworx-inventory/bag/belt-bag-dye-sublimated-1-38-strap-500060/02.jpg"
+        ],
+        "inventory_data_path": "data/inventory/notionworx/products/bag/belt-bag-dye-sublimated-1-38-strap-500060.json",
+        "created_at": "2025-09-25T12:38:16-06:00",
+        "updated_at": "2026-08-18T21:25:51-06:00",
+        "published_at": "2025-09-28T20:18:35-06:00"
+      },
+      "sales_channels": [
+        {
+          "id": "sc_01M1E72H3K3S5QG6P0R7700SH4"
+        }
+      ]
+    },
+    {
+      "title": "Custom 2 zipper Fanny Pack (Dye Sublimated) #500050",
+      "handle": "custom-2-zipper-fanny-pack-dye-sublimated",
+      "external_id": "8227678978183",
+      "description": "Download Template Need Help with Artwork Setup?\n\nMaterial: 600D Oxford, 1 layers ,out is printed, the inner is black color)\n\nSublimation Full-color Fanny pack waist bag. This fanny pack includes edge-to-edge, full-color printing. perfect sports bags for team or giveaway. Constructed from sturdy 600D Polyester, this adjustable fanny pack waist bag straps are comfortable and stylish. this practical promotion will make a lasting impression once imprinted in full color and sublimated with your logo or company name.",
+      "status": "published",
+      "images": [
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/bag/custom-2-zipper-fanny-pack-dye-sublimated/01.jpg"
+        }
+      ],
+      "thumbnail": "https://notionworxcanopy.com/assets/images/notionworx-inventory/bag/custom-2-zipper-fanny-pack-dye-sublimated/01.jpg",
+      "options": [
+        {
+          "title": "Default option",
+          "values": [
+            "Default option value"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "Default variant",
+          "sku": "500050",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 600,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Default option": "Default option value"
+          },
+          "metadata": {
+            "source_variant_id": 43238184321159,
+            "source_requires_shipping": true,
+            "source_taxable": true,
+            "source_grams": 454,
+            "source_position": 1,
+            "source_option_values": [
+              "Default Title"
+            ],
+            "source_compare_at_price": null
+          }
+        }
+      ],
+      "metadata": {
+        "source": "notionworx-inventory",
+        "source_handle": "custom-2-zipper-fanny-pack-dye-sublimated",
+        "source_product_id": 8227678978183,
+        "source_slug": "custom-2-zipper-fanny-pack-dye-sublimated",
+        "source_vendor": "Notion Worx",
+        "source_product_type": null,
+        "source_primary_category": {
+          "handle": "bag",
+          "title": "BAG"
+        },
+        "source_categories": [
+          {
+            "handle": "bag",
+            "title": "BAG"
+          }
+        ],
+        "source_price": {
+          "min": 6.0,
+          "max": 6.0,
+          "compareAtMin": null,
+          "compareAtMax": null,
+          "variantCount": 1
+        },
+        "source_tags": [],
+        "source_skus": [
+          "500050"
+        ],
+        "description_html": "<p><a href=\"https://displaytemplate.s3.us-west-2.amazonaws.com/Apparel/2+zipper+fanny+pack.pdf\">Download Template</a> <a href=\"https://soardistusa.com/apps/help-center#hc-creative-services\">Need Help with Artwork Setup?</a></p>\n<p>Material: 600D Oxford, 1 layers ,out is printed, the inner is black color)</p>\n\n\n\n\n<p>Sublimation Full-color Fanny pack waist bag. This fanny pack includes edge-to-edge, full-color printing. perfect sports bags for team or giveaway. Constructed from sturdy 600D Polyester, this adjustable fanny pack waist bag straps are comfortable and stylish. this practical promotion will make a lasting impression once imprinted in full color and sublimated with your logo or company name.</p>",
+        "description_text": "Download Template Need Help with Artwork Setup?\n\nMaterial: 600D Oxford, 1 layers ,out is printed, the inner is black color)\n\nSublimation Full-color Fanny pack waist bag. This fanny pack includes edge-to-edge, full-color printing. perfect sports bags for team or giveaway. Constructed from sturdy 600D Polyester, this adjustable fanny pack waist bag straps are comfortable and stylish. this practical promotion will make a lasting impression once imprinted in full color and sublimated with your logo or company name.",
+        "how_to_order_html": "<ul>\n  <li>SKU 500050</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
+        "how_to_order_text": "SKU 500050\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
+        "dimensions_html": "<p>Size:</p>\n<p>Top 11.4&#x27;&#x27;w x 4.3&#x27;&#x27;h</p>\n<p>Back:14.8&#x27;&#x27;w x 6.3&#x27;&#x27;h</p>\n<p>Front:18.7&#x27;&#x27; w x 6.3&#x27;&#x27;h (safe area 6.25&#x27;&#x27; w x 2.5&#x27;&#x27;h)</p>",
+        "dimensions_text": "Size:\n\nTop 11.4''w x 4.3''h\n\nBack:14.8''w x 6.3''h\n\nFront:18.7'' w x 6.3''h (safe area 6.25'' w x 2.5''h)",
+        "warranty_html": null,
+        "warranty_text": null,
+        "source_options": [
+          {
+            "name": "Title",
+            "position": 1,
+            "values": [
+              "Default Title"
+            ]
+          }
+        ],
+        "source_variants": [
+          {
+            "id": 43238184321159,
+            "title": "Default Title",
+            "sku": "500050",
+            "available": true,
+            "price": 6.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "Default Title"
+            ],
+            "requiresShipping": true,
+            "taxable": true,
+            "grams": 454,
+            "position": 1
+          }
+        ],
+        "source_variant_label": null,
+        "source_sizes": [
+          "Default option"
+        ],
+        "source_size_variants": [
+          {
+            "value": "Default option",
+            "price": 6.0,
+            "active": true
+          }
+        ],
+        "source_filter_category": [
+          "BAG"
+        ],
+        "source_filter_sizes": [],
+        "source_reviews_text": "1 option",
+        "source_badge_label": "BAG",
+        "source_badge_subtext": "1 product image available",
+        "source_description": "Need Help with Artwork Setup? Material: 600D Oxford, 1 layers ,out is printed, the inner is black color) Sublimation Full-color Fanny pack waist bag. This fanny pack includes edge-to-edge, full-color printing. perfect sports bags for team or giveaway. Constructed from sturdy 600…",
+        "source_card_variant": "",
+        "source_add_on_group_keys": [],
+        "local_image_paths": [
+          "/assets/images/notionworx-inventory/bag/custom-2-zipper-fanny-pack-dye-sublimated/01.jpg"
+        ],
+        "inventory_data_path": "data/inventory/notionworx/products/bag/custom-2-zipper-fanny-pack-dye-sublimated.json",
+        "created_at": "2025-09-25T12:38:17-06:00",
+        "updated_at": "2026-08-18T21:25:51-06:00",
+        "published_at": "2025-09-28T20:18:36-06:00"
+      },
+      "sales_channels": [
+        {
+          "id": "sc_01M1E72H3K3S5QG6P0R7700SH4"
+        }
+      ]
+    },
+    {
+      "title": "Custom Duffel Bag (Dye Sublimated) #500028",
+      "handle": "custom-duffel-bag-dye-sublimated",
+      "external_id": "8227679109255",
+      "description": "download template Need Help with Artwork Setup?\n\nStep up your game! These unique, personalized duffel bags offer a sporty, stylish way to promote your brand with sports clubs or teams, school teams like cheerleading and dance teams, gyms, travel agencies and more. Your clients won't be able to put these high quality, personalized duffle bags down.\n\nStylish and durable, our personalized duffel bags can be used anywhere! Clients will tote them to the gym, team practice, dance class. This bag is the perfect size for a quick getaway or just running errands on the weekend. We've crafted this personalized duffel bag using durable 420D bee oxford polyester poplin fabric. and comes with webbing handles and printed round ends. Personalize it with a name, monogram, sport team or business logo. And get your brand the exposure it deserves.",
+      "status": "published",
+      "images": [
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/bag/custom-duffel-bag-dye-sublimated/01.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/bag/custom-duffel-bag-dye-sublimated/02.png"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/bag/custom-duffel-bag-dye-sublimated/03.png"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/bag/custom-duffel-bag-dye-sublimated/04.png"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/bag/custom-duffel-bag-dye-sublimated/05.png"
+        }
+      ],
+      "thumbnail": "https://notionworxcanopy.com/assets/images/notionworx-inventory/bag/custom-duffel-bag-dye-sublimated/01.jpg",
+      "options": [
+        {
+          "title": "Default option",
+          "values": [
+            "Default option value"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "Default variant",
+          "sku": "500028",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 3400,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Default option": "Default option value"
+          },
+          "metadata": {
+            "source_variant_id": 43238184452231,
+            "source_requires_shipping": true,
+            "source_taxable": false,
+            "source_grams": 454,
+            "source_position": 1,
+            "source_option_values": [
+              "Default Title"
+            ],
+            "source_compare_at_price": null
+          }
+        }
+      ],
+      "metadata": {
+        "source": "notionworx-inventory",
+        "source_handle": "custom-duffel-bag-dye-sublimated",
+        "source_product_id": 8227679109255,
+        "source_slug": "custom-duffel-bag-dye-sublimated",
+        "source_vendor": "Notion Worx",
+        "source_product_type": null,
+        "source_primary_category": {
+          "handle": "bag",
+          "title": "BAG"
+        },
+        "source_categories": [
+          {
+            "handle": "bag",
+            "title": "BAG"
+          }
+        ],
+        "source_price": {
+          "min": 34.0,
+          "max": 34.0,
+          "compareAtMin": null,
+          "compareAtMax": null,
+          "variantCount": 1
+        },
+        "source_tags": [],
+        "source_skus": [
+          "500028"
+        ],
+        "description_html": "<p><a href=\"https://www.dropbox.com/s/bw3vh0sqy3yrzfq/DUFFLE%2BBAG.pdf?dl=0\">download template</a> <a href=\"https://soardistusa.com/apps/help-center#hc-creative-services\">Need Help with Artwork Setup?</a></p>\n<p>Step up your game! These unique, personalized duffel bags offer a sporty, stylish way to promote your brand with sports clubs or teams, school teams like cheerleading and dance teams, gyms, travel agencies and more. Your clients won&#x27;t be able to put these high quality, personalized duffle bags down.</p>\n<p>Stylish and durable, our personalized duffel bags can be used anywhere! Clients will tote them to the gym, team practice, dance class. This bag is the perfect size for a quick getaway or just running errands on the weekend. We&#x27;ve crafted this personalized duffel bag using durable 420D bee oxford polyester poplin fabric.  and comes with webbing handles and printed round ends. Personalize it with a name, monogram, sport team or business logo. And get your brand the exposure it deserves.</p>",
+        "description_text": "download template Need Help with Artwork Setup?\n\nStep up your game! These unique, personalized duffel bags offer a sporty, stylish way to promote your brand with sports clubs or teams, school teams like cheerleading and dance teams, gyms, travel agencies and more. Your clients won't be able to put these high quality, personalized duffle bags down.\n\nStylish and durable, our personalized duffel bags can be used anywhere! Clients will tote them to the gym, team practice, dance class. This bag is the perfect size for a quick getaway or just running errands on the weekend. We've crafted this personalized duffel bag using durable 420D bee oxford polyester poplin fabric. and comes with webbing handles and printed round ends. Personalize it with a name, monogram, sport team or business logo. And get your brand the exposure it deserves.",
+        "how_to_order_html": "<ul>\n  <li>SKU 500028</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
+        "how_to_order_text": "SKU 500028\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
+        "dimensions_html": "<p>It&#x27;s a perfect size at 12&quot;D x 20&quot;W, weighs just 4 lbs.</p>",
+        "dimensions_text": "It's a perfect size at 12\"D x 20\"W, weighs just 4 lbs.",
+        "warranty_html": null,
+        "warranty_text": null,
+        "source_options": [
+          {
+            "name": "Title",
+            "position": 1,
+            "values": [
+              "Default Title"
+            ]
+          }
+        ],
+        "source_variants": [
+          {
+            "id": 43238184452231,
+            "title": "Default Title",
+            "sku": "500028",
+            "available": true,
+            "price": 34.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "Default Title"
+            ],
+            "requiresShipping": true,
+            "taxable": false,
+            "grams": 454,
+            "position": 1
+          }
+        ],
+        "source_variant_label": null,
+        "source_sizes": [
+          "Default option"
+        ],
+        "source_size_variants": [
+          {
+            "value": "Default option",
+            "price": 34.0,
+            "active": true
+          }
+        ],
+        "source_filter_category": [
+          "BAG"
+        ],
+        "source_filter_sizes": [],
+        "source_reviews_text": "1 option",
+        "source_badge_label": "BAG",
+        "source_badge_subtext": "5 product images available",
+        "source_description": "Need Help with Artwork Setup? Step up your game! These unique, personalized duffel bags offer a sporty, stylish way to promote your brand with sports clubs or teams, school teams like cheerleading and dance teams, gyms, travel agencies and more. Your clients won't be able to put…",
+        "source_card_variant": "",
+        "source_add_on_group_keys": [],
+        "local_image_paths": [
+          "/assets/images/notionworx-inventory/bag/custom-duffel-bag-dye-sublimated/01.jpg",
+          "/assets/images/notionworx-inventory/bag/custom-duffel-bag-dye-sublimated/02.png",
+          "/assets/images/notionworx-inventory/bag/custom-duffel-bag-dye-sublimated/03.png",
+          "/assets/images/notionworx-inventory/bag/custom-duffel-bag-dye-sublimated/04.png",
+          "/assets/images/notionworx-inventory/bag/custom-duffel-bag-dye-sublimated/05.png"
+        ],
+        "inventory_data_path": "data/inventory/notionworx/products/bag/custom-duffel-bag-dye-sublimated.json",
+        "created_at": "2025-09-25T12:38:21-06:00",
+        "updated_at": "2026-08-18T21:25:51-06:00",
+        "published_at": "2025-09-28T20:18:37-06:00"
+      },
+      "sales_channels": [
+        {
+          "id": "sc_01M1E72H3K3S5QG6P0R7700SH4"
+        }
+      ]
+    },
+    {
+      "title": "Custom Fanny Pack (Dye Sublimated) #500030",
+      "handle": "custom-fanny-pack-dye-sublimated",
+      "external_id": "8227679010951",
+      "description": "Download Template Need Help with Artwork Setup?\n\nMaterial: 600D Oxford, 2 layers ,out layer is printed, the inner layer is black color)\n\nSublimation Full-color Fanny pack waist bag. This fanny pack includes edge-to-edge, full-color printing. perfect sports bags for team or giveaway. Constructed from sturdy 600D Polyester, this adjustable fanny pack waist bag straps are comfortable and stylish. this practical promotion will make a lasting impression once imprinted in full color and sublimated with your logo or company name.",
+      "status": "published",
+      "images": [
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/bag/custom-fanny-pack-dye-sublimated/01.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/bag/custom-fanny-pack-dye-sublimated/02.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/bag/custom-fanny-pack-dye-sublimated/03.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/bag/custom-fanny-pack-dye-sublimated/04.jpg"
+        }
+      ],
+      "thumbnail": "https://notionworxcanopy.com/assets/images/notionworx-inventory/bag/custom-fanny-pack-dye-sublimated/01.jpg",
+      "options": [
+        {
+          "title": "Default option",
+          "values": [
+            "Default option value"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "Default variant",
+          "sku": "500030",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 600,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Default option": "Default option value"
+          },
+          "metadata": {
+            "source_variant_id": 43238184353927,
+            "source_requires_shipping": true,
+            "source_taxable": true,
+            "source_grams": 454,
+            "source_position": 1,
+            "source_option_values": [
+              "Default Title"
+            ],
+            "source_compare_at_price": null
+          }
+        }
+      ],
+      "metadata": {
+        "source": "notionworx-inventory",
+        "source_handle": "custom-fanny-pack-dye-sublimated",
+        "source_product_id": 8227679010951,
+        "source_slug": "custom-fanny-pack-dye-sublimated",
+        "source_vendor": "Notion Worx",
+        "source_product_type": null,
+        "source_primary_category": {
+          "handle": "bag",
+          "title": "BAG"
+        },
+        "source_categories": [
+          {
+            "handle": "bag",
+            "title": "BAG"
+          }
+        ],
+        "source_price": {
+          "min": 6.0,
+          "max": 6.0,
+          "compareAtMin": null,
+          "compareAtMax": null,
+          "variantCount": 1
+        },
+        "source_tags": [],
+        "source_skus": [
+          "500030"
+        ],
+        "description_html": "<p><a href=\"https://displaytemplate.s3.us-west-2.amazonaws.com/Apparel/Fanny+Pack.pdf\">Download Template</a> <a href=\"https://soardistusa.com/apps/help-center#hc-creative-services\">Need Help with Artwork Setup?</a></p>\n<p>Material: 600D Oxford, 2 layers ,out layer is printed, the inner layer is black color)</p>\n\n\n\n\n<p>Sublimation Full-color Fanny pack waist bag. This fanny pack includes edge-to-edge, full-color printing. perfect sports bags for team or giveaway. Constructed from sturdy 600D Polyester, this adjustable fanny pack waist bag straps are comfortable and stylish. this practical promotion will make a lasting impression once imprinted in full color and sublimated with your logo or company name.</p>",
+        "description_text": "Download Template Need Help with Artwork Setup?\n\nMaterial: 600D Oxford, 2 layers ,out layer is printed, the inner layer is black color)\n\nSublimation Full-color Fanny pack waist bag. This fanny pack includes edge-to-edge, full-color printing. perfect sports bags for team or giveaway. Constructed from sturdy 600D Polyester, this adjustable fanny pack waist bag straps are comfortable and stylish. this practical promotion will make a lasting impression once imprinted in full color and sublimated with your logo or company name.",
+        "how_to_order_html": "<ul>\n  <li>SKU 500030</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
+        "how_to_order_text": "SKU 500030\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
+        "dimensions_html": "<p>Size:</p>\n<p>Top 11.4&#x27;&#x27;w x 4.3&#x27;&#x27;h</p>\n<p>Back:14.8&#x27;&#x27;w x 6.3&#x27;&#x27;h</p>\n<p>Front:18.7&#x27;&#x27; w x 6.3&#x27;&#x27;h (safe area 6.25&#x27;&#x27; w x 2.5&#x27;&#x27;h)</p>",
+        "dimensions_text": "Size:\n\nTop 11.4''w x 4.3''h\n\nBack:14.8''w x 6.3''h\n\nFront:18.7'' w x 6.3''h (safe area 6.25'' w x 2.5''h)",
+        "warranty_html": null,
+        "warranty_text": null,
+        "source_options": [
+          {
+            "name": "Title",
+            "position": 1,
+            "values": [
+              "Default Title"
+            ]
+          }
+        ],
+        "source_variants": [
+          {
+            "id": 43238184353927,
+            "title": "Default Title",
+            "sku": "500030",
+            "available": true,
+            "price": 6.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "Default Title"
+            ],
+            "requiresShipping": true,
+            "taxable": true,
+            "grams": 454,
+            "position": 1
+          }
+        ],
+        "source_variant_label": null,
+        "source_sizes": [
+          "Default option"
+        ],
+        "source_size_variants": [
+          {
+            "value": "Default option",
+            "price": 6.0,
+            "active": true
+          }
+        ],
+        "source_filter_category": [
+          "BAG"
+        ],
+        "source_filter_sizes": [],
+        "source_reviews_text": "1 option",
+        "source_badge_label": "BAG",
+        "source_badge_subtext": "4 product images available",
+        "source_description": "Need Help with Artwork Setup? Material: 600D Oxford, 2 layers ,out layer is printed, the inner layer is black color) Sublimation Full-color Fanny pack waist bag. This fanny pack includes edge-to-edge, full-color printing. perfect sports bags for team or giveaway. Constructed fro…",
+        "source_card_variant": "",
+        "source_add_on_group_keys": [],
+        "local_image_paths": [
+          "/assets/images/notionworx-inventory/bag/custom-fanny-pack-dye-sublimated/01.jpg",
+          "/assets/images/notionworx-inventory/bag/custom-fanny-pack-dye-sublimated/02.jpg",
+          "/assets/images/notionworx-inventory/bag/custom-fanny-pack-dye-sublimated/03.jpg",
+          "/assets/images/notionworx-inventory/bag/custom-fanny-pack-dye-sublimated/04.jpg"
+        ],
+        "inventory_data_path": "data/inventory/notionworx/products/bag/custom-fanny-pack-dye-sublimated.json",
+        "created_at": "2025-09-25T12:38:18-06:00",
+        "updated_at": "2026-08-18T21:25:51-06:00",
+        "published_at": "2025-09-28T20:18:36-06:00"
+      },
+      "sales_channels": [
+        {
+          "id": "sc_01M1E72H3K3S5QG6P0R7700SH4"
+        }
+      ]
+    },
+    {
+      "title": "Custom Tote Bag (Dye Sublimated) #500029",
+      "handle": "custom-tote-bag-dye-sublimated",
+      "external_id": "8227679076487",
+      "description": "download template Need Help with Artwork Setup?\n\nbee 420d Oxford\n\nGive your customers and prospects a stylish way to carry their items around and stay close to your brand after the event is over. This custom tote bag is ideal for any event, trade show or conference. These also make great souvenirs for your bridal shower, family reunion, graduation or any family get together. PLUS these custom tote bags are low-cost, so giving them away won't break your marketing budget.\n\nJust easily add your logo, a special photo, a favorite team or even your favorite artwork and we will do the rest.",
+      "status": "published",
+      "images": [
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/bag/custom-tote-bag-dye-sublimated/01.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/bag/custom-tote-bag-dye-sublimated/02.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/bag/custom-tote-bag-dye-sublimated/03.jpg"
+        }
+      ],
+      "thumbnail": "https://notionworxcanopy.com/assets/images/notionworx-inventory/bag/custom-tote-bag-dye-sublimated/01.jpg",
+      "options": [
+        {
+          "title": "Default option",
+          "values": [
+            "Default option value"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "Default variant",
+          "sku": "500029",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 1100,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Default option": "Default option value"
+          },
+          "metadata": {
+            "source_variant_id": 43238184419463,
+            "source_requires_shipping": true,
+            "source_taxable": false,
+            "source_grams": 2268,
+            "source_position": 1,
+            "source_option_values": [
+              "Default Title"
+            ],
+            "source_compare_at_price": null
+          }
+        }
+      ],
+      "metadata": {
+        "source": "notionworx-inventory",
+        "source_handle": "custom-tote-bag-dye-sublimated",
+        "source_product_id": 8227679076487,
+        "source_slug": "custom-tote-bag-dye-sublimated",
+        "source_vendor": "Notion Worx",
+        "source_product_type": null,
+        "source_primary_category": {
+          "handle": "bag",
+          "title": "BAG"
+        },
+        "source_categories": [
+          {
+            "handle": "bag",
+            "title": "BAG"
+          }
+        ],
+        "source_price": {
+          "min": 11.0,
+          "max": 11.0,
+          "compareAtMin": null,
+          "compareAtMax": null,
+          "variantCount": 1
+        },
+        "source_tags": [],
+        "source_skus": [
+          "500029"
+        ],
+        "description_html": "<p><a href=\"https://www.dropbox.com/s/y6hei2f6wzl24m7/tote%2Bbag.pdf?dl=0\">download template</a> <a href=\"https://soardistusa.com/apps/help-center#hc-creative-services\">Need Help with Artwork Setup?</a></p>\n<p>bee 420d Oxford</p>\n<p>Give your customers and prospects a stylish way to carry their items around and stay close to your brand after the event is over. This custom tote bag is ideal for any event, trade show or conference. These also make great souvenirs for your bridal shower, family reunion, graduation or any family get together. PLUS these custom tote bags are low-cost, so giving them away won&#x27;t break your marketing budget.</p>\n<p> Just easily add your logo, a special photo, a favorite team or even your favorite artwork and we will do the rest.</p>",
+        "description_text": "download template Need Help with Artwork Setup?\n\nbee 420d Oxford\n\nGive your customers and prospects a stylish way to carry their items around and stay close to your brand after the event is over. This custom tote bag is ideal for any event, trade show or conference. These also make great souvenirs for your bridal shower, family reunion, graduation or any family get together. PLUS these custom tote bags are low-cost, so giving them away won't break your marketing budget.\n\nJust easily add your logo, a special photo, a favorite team or even your favorite artwork and we will do the rest.",
+        "how_to_order_html": "<ul>\n  <li>SKU 500029</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
+        "how_to_order_text": "SKU 500029\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
+        "dimensions_html": "<h3>Product Dimensions</h3>\n<ul>\n  <li>Product size 15&quot; L x 23&quot; W no zipper</li>\n</ul>\n<p>Your custom branded bag measures 16.5&quot;H x 23&quot;W and features our innovative sublimation printing that allows for photo quality design across the entire bag - front and back! It&#x27;s 100% graphic customizable, comes with webbing handles and printed round ends.</p>",
+        "dimensions_text": "Product Dimensions\n\n- Product size 15\" L x 23\" W no zipper\n\nYour custom branded bag measures 16.5\"H x 23\"W and features our innovative sublimation printing that allows for photo quality design across the entire bag - front and back! It's 100% graphic customizable, comes with webbing handles and printed round ends.",
+        "warranty_html": null,
+        "warranty_text": null,
+        "source_options": [
+          {
+            "name": "Title",
+            "position": 1,
+            "values": [
+              "Default Title"
+            ]
+          }
+        ],
+        "source_variants": [
+          {
+            "id": 43238184419463,
+            "title": "Default Title",
+            "sku": "500029",
+            "available": true,
+            "price": 11.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "Default Title"
+            ],
+            "requiresShipping": true,
+            "taxable": false,
+            "grams": 2268,
+            "position": 1
+          }
+        ],
+        "source_variant_label": null,
+        "source_sizes": [
+          "Default option"
+        ],
+        "source_size_variants": [
+          {
+            "value": "Default option",
+            "price": 11.0,
+            "active": true
+          }
+        ],
+        "source_filter_category": [
+          "BAG"
+        ],
+        "source_filter_sizes": [],
+        "source_reviews_text": "1 option",
+        "source_badge_label": "BAG",
+        "source_badge_subtext": "3 product images available",
+        "source_description": "Need Help with Artwork Setup? bee 420d Oxford Give your customers and prospects a stylish way to carry their items around and stay close to your brand after the event is over. This custom tote bag is ideal for any event, trade show or conference. These also make great souvenirs…",
+        "source_card_variant": "",
+        "source_add_on_group_keys": [],
+        "local_image_paths": [
+          "/assets/images/notionworx-inventory/bag/custom-tote-bag-dye-sublimated/01.jpg",
+          "/assets/images/notionworx-inventory/bag/custom-tote-bag-dye-sublimated/02.jpg",
+          "/assets/images/notionworx-inventory/bag/custom-tote-bag-dye-sublimated/03.jpg"
+        ],
+        "inventory_data_path": "data/inventory/notionworx/products/bag/custom-tote-bag-dye-sublimated.json",
+        "created_at": "2025-09-25T12:38:19-06:00",
+        "updated_at": "2026-08-18T21:25:51-06:00",
+        "published_at": "2025-09-28T20:18:36-06:00"
+      },
+      "sales_channels": [
+        {
+          "id": "sc_01M1E72H3K3S5QG6P0R7700SH4"
+        }
+      ]
+    },
+    {
+      "title": "Drawstring Bag (Dye Sublimated) #500027",
+      "handle": "drawstring-bag-dye-sublimated",
+      "external_id": "8227679142023",
+      "description": "download template Need Help with Artwork Setup?\n\nFeatures\n\n- bee 420 Denier Polyester Poplin\n\n- Flame retardant: Product does not contain Prop 65 chemicals\n\n- Classic custom tote bag with handles\n\n- Seamless appearing design on all 2 sides\n\n- Imprint Method: Full-Color Dye Sublimation\n\n- Unlimited design capabilities\n\n- Customizable templates",
+      "status": "published",
+      "images": [
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/bag/drawstring-bag-dye-sublimated/01.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/bag/drawstring-bag-dye-sublimated/02.png"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/bag/drawstring-bag-dye-sublimated/03.png"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/bag/drawstring-bag-dye-sublimated/04.png"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/bag/drawstring-bag-dye-sublimated/05.png"
+        }
+      ],
+      "thumbnail": "https://notionworxcanopy.com/assets/images/notionworx-inventory/bag/drawstring-bag-dye-sublimated/01.jpg",
+      "options": [
+        {
+          "title": "Default option",
+          "values": [
+            "Default option value"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "Default variant",
+          "sku": "ITEM #: 500027",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 600,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Default option": "Default option value"
+          },
+          "metadata": {
+            "source_variant_id": 43238184484999,
+            "source_requires_shipping": true,
+            "source_taxable": false,
+            "source_grams": 454,
+            "source_position": 1,
+            "source_option_values": [
+              "Default Title"
+            ],
+            "source_compare_at_price": null
+          }
+        }
+      ],
+      "metadata": {
+        "source": "notionworx-inventory",
+        "source_handle": "drawstring-bag-dye-sublimated",
+        "source_product_id": 8227679142023,
+        "source_slug": "drawstring-bag-dye-sublimated",
+        "source_vendor": "Notion Worx",
+        "source_product_type": null,
+        "source_primary_category": {
+          "handle": "bag",
+          "title": "BAG"
+        },
+        "source_categories": [
+          {
+            "handle": "bag",
+            "title": "BAG"
+          }
+        ],
+        "source_price": {
+          "min": 6.0,
+          "max": 6.0,
+          "compareAtMin": null,
+          "compareAtMax": null,
+          "variantCount": 1
+        },
+        "source_tags": [],
+        "source_skus": [
+          "ITEM #: 500027"
+        ],
+        "description_html": "<p><a href=\"https://displaytemplate.s3.us-west-2.amazonaws.com/Apparel/Sling+bag.pdf\">download template</a> <a href=\"https://soardistusa.com/apps/help-center#hc-creative-services\">Need Help with Artwork Setup?</a></p>\n<h3>Features</h3>\n<ul>\n  <li>bee 420 Denier Polyester Poplin</li>\n  <li>Flame retardant: Product does not contain Prop 65 chemicals</li>\n  <li>Classic custom tote bag with handles</li>\n  <li>Seamless appearing design on all 2 sides</li>\n  <li>Imprint Method: Full-Color Dye Sublimation</li>\n  <li>Unlimited design capabilities</li>\n  <li>Customizable templates</li>\n</ul>",
+        "description_text": "download template Need Help with Artwork Setup?\n\nFeatures\n\n- bee 420 Denier Polyester Poplin\n\n- Flame retardant: Product does not contain Prop 65 chemicals\n\n- Classic custom tote bag with handles\n\n- Seamless appearing design on all 2 sides\n\n- Imprint Method: Full-Color Dye Sublimation\n\n- Unlimited design capabilities\n\n- Customizable templates",
+        "how_to_order_html": "<ul>\n  <li>SKU ITEM #: 500027</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
+        "how_to_order_text": "SKU ITEM #: 500027\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
+        "dimensions_html": "<h3>Product Dimensions</h3>\n<ul>\n  <li>Product size 15&quot; W x 20&quot; H</li>\n</ul>",
+        "dimensions_text": "Product Dimensions\n\n- Product size 15\" W x 20\" H",
+        "warranty_html": null,
+        "warranty_text": null,
+        "source_options": [
+          {
+            "name": "Title",
+            "position": 1,
+            "values": [
+              "Default Title"
+            ]
+          }
+        ],
+        "source_variants": [
+          {
+            "id": 43238184484999,
+            "title": "Default Title",
+            "sku": "ITEM #: 500027",
+            "available": true,
+            "price": 6.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "Default Title"
+            ],
+            "requiresShipping": true,
+            "taxable": false,
+            "grams": 454,
+            "position": 1
+          }
+        ],
+        "source_variant_label": null,
+        "source_sizes": [
+          "Default option"
+        ],
+        "source_size_variants": [
+          {
+            "value": "Default option",
+            "price": 6.0,
+            "active": true
+          }
+        ],
+        "source_filter_category": [
+          "BAG"
+        ],
+        "source_filter_sizes": [],
+        "source_reviews_text": "1 option",
+        "source_badge_label": "BAG",
+        "source_badge_subtext": "5 product images available",
+        "source_description": "Need Help with Artwork Setup? Features - bee 420 Denier Polyester Poplin - Flame retardant: Product does not contain Prop 65 chemicals - Classic custom tote bag with handles - Seamless appearing design on all 2 sides - Imprint Method: Full-Color Dye Sublimation - Unlimited desig…",
+        "source_card_variant": "",
+        "source_add_on_group_keys": [],
+        "local_image_paths": [
+          "/assets/images/notionworx-inventory/bag/drawstring-bag-dye-sublimated/01.jpg",
+          "/assets/images/notionworx-inventory/bag/drawstring-bag-dye-sublimated/02.png",
+          "/assets/images/notionworx-inventory/bag/drawstring-bag-dye-sublimated/03.png",
+          "/assets/images/notionworx-inventory/bag/drawstring-bag-dye-sublimated/04.png",
+          "/assets/images/notionworx-inventory/bag/drawstring-bag-dye-sublimated/05.png"
+        ],
+        "inventory_data_path": "data/inventory/notionworx/products/bag/drawstring-bag-dye-sublimated.json",
+        "created_at": "2025-09-25T12:38:22-06:00",
+        "updated_at": "2026-08-18T21:25:51-06:00",
+        "published_at": "2025-09-28T20:18:37-06:00"
+      },
+      "sales_channels": [
+        {
+          "id": "sc_01M1E72H3K3S5QG6P0R7700SH4"
+        }
+      ]
+    },
+    {
+      "title": "Sublimated Bucket Hat #500093",
+      "handle": "sublimated-bucket-hat",
+      "external_id": "8227675635847",
+      "description": "- Download Template\n\n- 100% polyester bucket hat\n\n- Full color edge to edge dye-sublimation\n\n- Reversible, both side imprint\n\n- Perfect for any kind of event!\n\nWe ship to Canada!",
+      "status": "published",
+      "images": [
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/headwear/sublimated-bucket-hat/01.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/headwear/sublimated-bucket-hat/02.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/headwear/sublimated-bucket-hat/03.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/headwear/sublimated-bucket-hat/04.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/headwear/sublimated-bucket-hat/05.jpg"
+        }
+      ],
+      "thumbnail": "https://notionworxcanopy.com/assets/images/notionworx-inventory/headwear/sublimated-bucket-hat/01.jpg",
+      "options": [
+        {
+          "title": "Default option",
+          "values": [
+            "Default option value"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "Default variant",
+          "sku": "500093",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 1400,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Default option": "Default option value"
+          },
+          "metadata": {
+            "source_variant_id": 43238165971079,
+            "source_requires_shipping": true,
+            "source_taxable": true,
+            "source_grams": 907,
+            "source_position": 1,
+            "source_option_values": [
+              "Default Title"
+            ],
+            "source_compare_at_price": null
+          }
+        }
+      ],
+      "metadata": {
+        "source": "notionworx-inventory",
+        "source_handle": "sublimated-bucket-hat",
+        "source_product_id": 8227675635847,
+        "source_slug": "sublimated-bucket-hat",
+        "source_vendor": "Notion Worx",
+        "source_product_type": null,
+        "source_primary_category": {
+          "handle": "headwear",
+          "title": "HEADWEAR"
+        },
+        "source_categories": [
+          {
+            "handle": "headwear",
+            "title": "HEADWEAR"
+          },
+          {
+            "handle": "bag",
+            "title": "BAG"
+          }
+        ],
+        "source_price": {
+          "min": 14.0,
+          "max": 14.0,
+          "compareAtMin": null,
+          "compareAtMax": null,
+          "variantCount": 1
+        },
+        "source_tags": [],
+        "source_skus": [
+          "500093"
+        ],
+        "description_html": "<ul>\n  <li><a href=\"https://www.dropbox.com/scl/fi/m8gfiv0hwtnyi16aue5w4/bucket-hat-1.pdf?rlkey=ipaynvlaaekjr1ed5cdxptqez&amp;dl=0\">Download Template</a></li>\n  <li>100% polyester bucket hat</li>\n  <li>Full color edge to edge dye-sublimation</li>\n  <li>Reversible, both side imprint</li>\n  <li>Perfect for any kind of event!</li>\n</ul>\n<img src=\"https://www.showdowndisplays.com/cdn/StaticMisc/canada-flag.jpg\" alt=\"\">\n<p>We ship to Canada!</p>",
+        "description_text": "- Download Template\n\n- 100% polyester bucket hat\n\n- Full color edge to edge dye-sublimation\n\n- Reversible, both side imprint\n\n- Perfect for any kind of event!\n\nWe ship to Canada!",
+        "how_to_order_html": "<ul>\n  <li>SKU 500093</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
+        "how_to_order_text": "SKU 500093\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
+        "dimensions_html": null,
+        "dimensions_text": null,
+        "warranty_html": null,
+        "warranty_text": null,
+        "source_options": [
+          {
+            "name": "Title",
+            "position": 1,
+            "values": [
+              "Default Title"
+            ]
+          }
+        ],
+        "source_variants": [
+          {
+            "id": 43238165971079,
+            "title": "Default Title",
+            "sku": "500093",
+            "available": true,
+            "price": 14.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "Default Title"
+            ],
+            "requiresShipping": true,
+            "taxable": true,
+            "grams": 907,
+            "position": 1
+          }
+        ],
+        "source_variant_label": null,
+        "source_sizes": [
+          "Default option"
+        ],
+        "source_size_variants": [
+          {
+            "value": "Default option",
+            "price": 14.0,
+            "active": true
+          }
+        ],
+        "source_filter_category": [
+          "HEADWEAR",
+          "BAG"
+        ],
+        "source_filter_sizes": [],
+        "source_reviews_text": "1 option",
+        "source_badge_label": "Headwear",
+        "source_badge_subtext": "5 product images available",
+        "source_description": "- - 100% polyester bucket hat - Full color edge to edge dye-sublimation - Reversible, both side imprint - Perfect for any kind of event! We ship to Canada!",
+        "source_card_variant": "",
+        "source_add_on_group_keys": [],
+        "local_image_paths": [
+          "/assets/images/notionworx-inventory/headwear/sublimated-bucket-hat/01.jpg",
+          "/assets/images/notionworx-inventory/headwear/sublimated-bucket-hat/02.jpg",
+          "/assets/images/notionworx-inventory/headwear/sublimated-bucket-hat/03.jpg",
+          "/assets/images/notionworx-inventory/headwear/sublimated-bucket-hat/04.jpg",
+          "/assets/images/notionworx-inventory/headwear/sublimated-bucket-hat/05.jpg"
+        ],
+        "inventory_data_path": "data/inventory/notionworx/products/headwear/sublimated-bucket-hat.json",
+        "created_at": "2025-09-25T12:36:29-06:00",
+        "updated_at": "2026-08-18T21:25:51-06:00",
+        "published_at": "2025-09-28T20:18:35-06:00"
+      },
+      "sales_channels": [
+        {
+          "id": "sc_01M1E72H3K3S5QG6P0R7700SH4"
+        }
+      ]
+    }
+  ]
+}

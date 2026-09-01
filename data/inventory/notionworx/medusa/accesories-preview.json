@@ -1,0 +1,1041 @@
+{
+  "baseUrl": "https://api.notionworxcanopy.com",
+  "siteUrl": "https://notionworxcanopy.com",
+  "mode": "apply",
+  "collectionHandle": "accesories",
+  "region": {
+    "id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X",
+    "currency_code": "eur",
+    "name": "Europe"
+  },
+  "salesChannelId": "sc_01M1E72H3K3S5QG6P0R7700SH4",
+  "collection": {
+    "title": "Accessories",
+    "handle": "accesories",
+    "metadata": {
+      "source": "notionworx-inventory",
+      "source_handle": "accesories",
+      "source_title": "Accessories",
+      "source_description": "",
+      "source_products_count": 6,
+      "source_image_path": "/assets/images/notionworx-inventory/collections/accesories/01.jpg",
+      "source_image_url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/collections/accesories/01.jpg",
+      "inventory_data_path": "/inventory/notionworx/collections/accesories.json"
+    }
+  },
+  "productsCount": 6,
+  "products": [
+    {
+      "title": "10ft Canopy Awning",
+      "handle": "10ft-canopy-awning",
+      "external_id": "8311852105863",
+      "description": "Enhance your canopy setup with our 10ft Awning for Canopy Tents, designed to add extra shade, weather protection, and branding space to your pop-up canopy. Perfect for food booths, trade shows, outdoor events, and vendor setups, this awning extends your coverage while creating a more inviting and professional display.\n\nThe awning features full-color dye-sublimation printing, allowing you to showcase your logo, messaging, or graphics with vibrant, fade-resistant results. Made from durable, weather-resistant polyester, it’s built for reliable outdoor performance and easy integration with standard 10ft canopy frames.\n\nQuick to install and easy to remove, this awning is an ideal upgrade for vendors looking to maximize both functionality and brand visibility.\n\n🔹 Key Features\n\n- 🏕️10ft Canopy Awning– Designed to fit standard 10ft pop-up canopy tents\n\n- 🌤️Extended Shade Coverage– Adds protection from sun and light weather\n\n- 🎨Custom Full-Color Printing– High-resolution dye-sublimation graphics\n\n- ☀️Outdoor-Ready Fabric– Weather-resistant and UV-protected polyester\n\n- ⚙️Easy Attachment– Installs quickly onto compatible canopy frames\n\n- 🧳Lightweight & Portable– Easy to transport and store\n\n- 🏷️Branding Upgrade– Creates additional advertising space at the front of your booth\n\n🔹 Imprint Method\n\n🖨️ Full-Color Dye Sublimation\n\n🔹 Materials\n\n🧵 Awning Fabric: Durable 600D Polyester (Weather-Resistant)\n\n🔹 Compatibility\n\n- 📐 Designed for 10ft wide pop-up canopy tents\n\n- ⚠️ Canopy not included\n\n🔹 Primary Usage\n\nFood booths, trade shows, outdoor events, vendor tents, festivals, markets, pop-up shops, and brand activations.",
+      "status": "published",
+      "images": [
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/accesories/10ft-canopy-awning/01.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/accesories/10ft-canopy-awning/02.jpg"
+        }
+      ],
+      "thumbnail": "https://notionworxcanopy.com/assets/images/notionworx-inventory/accesories/10ft-canopy-awning/01.jpg",
+      "options": [
+        {
+          "title": "Default option",
+          "values": [
+            "Default option value"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "Default variant",
+          "sku": "10-CA",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 23500,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Default option": "Default option value"
+          },
+          "metadata": {
+            "source_variant_id": 43673481445511,
+            "source_requires_shipping": true,
+            "source_taxable": false,
+            "source_grams": 0,
+            "source_position": 1,
+            "source_option_values": [
+              "Default Title"
+            ],
+            "source_compare_at_price": 258.5
+          }
+        }
+      ],
+      "metadata": {
+        "source": "notionworx-inventory",
+        "source_handle": "10ft-canopy-awning",
+        "source_product_id": 8311852105863,
+        "source_slug": "10ft-canopy-awning",
+        "source_vendor": "Notion Worx",
+        "source_product_type": null,
+        "source_primary_category": {
+          "handle": "accesories",
+          "title": "Accessories"
+        },
+        "source_categories": [
+          {
+            "handle": "accesories",
+            "title": "Accessories"
+          },
+          {
+            "handle": "10x10",
+            "title": "10x10 Custom Canopies"
+          }
+        ],
+        "source_price": {
+          "min": 235,
+          "max": 235,
+          "compareAtMin": 258.5,
+          "compareAtMax": 258.5,
+          "variantCount": 1
+        },
+        "source_tags": [],
+        "source_skus": [
+          "10-CA"
+        ],
+        "description_html": "<p>Enhance your canopy setup with our 10ft Awning for Canopy Tents, designed to add extra shade, weather protection, and branding space to your pop-up canopy. Perfect for food booths, trade shows, outdoor events, and vendor setups, this awning extends your coverage while creating a more inviting and professional display.</p>\n<p>The awning features full-color dye-sublimation printing, allowing you to showcase your logo, messaging, or graphics with vibrant, fade-resistant results. Made from durable, weather-resistant polyester, it’s built for reliable outdoor performance and easy integration with standard 10ft canopy frames.</p>\n<p>Quick to install and easy to remove, this awning is an ideal upgrade for vendors looking to maximize both functionality and brand visibility.</p>\n<h2>🔹 Key Features</h2>\n<ul>\n  <li>🏕️10ft Canopy Awning– Designed to fit standard 10ft pop-up canopy tents</li>\n  <li>🌤️Extended Shade Coverage– Adds protection from sun and light weather</li>\n  <li>🎨Custom Full-Color Printing– High-resolution dye-sublimation graphics</li>\n  <li>☀️Outdoor-Ready Fabric– Weather-resistant and UV-protected polyester</li>\n  <li>⚙️Easy Attachment– Installs quickly onto compatible canopy frames</li>\n  <li>🧳Lightweight &amp; Portable– Easy to transport and store</li>\n  <li>🏷️Branding Upgrade– Creates additional advertising space at the front of your booth</li>\n</ul>\n<h2>🔹 Imprint Method</h2>\n<p>🖨️ Full-Color Dye Sublimation</p>\n<h2>🔹 Materials</h2>\n<p>🧵 Awning Fabric: Durable 600D Polyester (Weather-Resistant)</p>\n<h2>🔹 Compatibility</h2>\n<ul>\n  <li>📐 Designed for 10ft wide pop-up canopy tents</li>\n  <li>⚠️ Canopy not included</li>\n</ul>\n<h2>🔹 Primary Usage</h2>\n<p>Food booths, trade shows, outdoor events, vendor tents, festivals, markets, pop-up shops, and brand activations.</p>",
+        "description_text": "Enhance your canopy setup with our 10ft Awning for Canopy Tents, designed to add extra shade, weather protection, and branding space to your pop-up canopy. Perfect for food booths, trade shows, outdoor events, and vendor setups, this awning extends your coverage while creating a more inviting and professional display.\n\nThe awning features full-color dye-sublimation printing, allowing you to showcase your logo, messaging, or graphics with vibrant, fade-resistant results. Made from durable, weather-resistant polyester, it’s built for reliable outdoor performance and easy integration with standard 10ft canopy frames.\n\nQuick to install and easy to remove, this awning is an ideal upgrade for vendors looking to maximize both functionality and brand visibility.\n\n🔹 Key Features\n\n- 🏕️10ft Canopy Awning– Designed to fit standard 10ft pop-up canopy tents\n\n- 🌤️Extended Shade Coverage– Adds protection from sun and light weather\n\n- 🎨Custom Full-Color Printing– High-resolution dye-sublimation graphics\n\n- ☀️Outdoor-Ready Fabric– Weather-resistant and UV-protected polyester\n\n- ⚙️Easy Attachment– Installs quickly onto compatible canopy frames\n\n- 🧳Lightweight & Portable– Easy to transport and store\n\n- 🏷️Branding Upgrade– Creates additional advertising space at the front of your booth\n\n🔹 Imprint Method\n\n🖨️ Full-Color Dye Sublimation\n\n🔹 Materials\n\n🧵 Awning Fabric: Durable 600D Polyester (Weather-Resistant)\n\n🔹 Compatibility\n\n- 📐 Designed for 10ft wide pop-up canopy tents\n\n- ⚠️ Canopy not included\n\n🔹 Primary Usage\n\nFood booths, trade shows, outdoor events, vendor tents, festivals, markets, pop-up shops, and brand activations.",
+        "how_to_order_html": "<ul>\n  <li>SKU 10-CA</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
+        "how_to_order_text": "SKU 10-CA\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
+        "dimensions_html": null,
+        "dimensions_text": null,
+        "warranty_html": "<h3>Warranty</h3>\n<p>We stand behind the quality of our products. Our warranty covers any factory defects or damage that occurs during shipping. However, please note that we do not cover damage resulting from extreme weather conditions, misuse, or any circumstances beyond our control.</p>",
+        "warranty_text": "Warranty\n\nWe stand behind the quality of our products. Our warranty covers any factory defects or damage that occurs during shipping. However, please note that we do not cover damage resulting from extreme weather conditions, misuse, or any circumstances beyond our control.",
+        "source_options": [
+          {
+            "name": "Title",
+            "position": 1,
+            "values": [
+              "Default Title"
+            ]
+          }
+        ],
+        "source_variants": [
+          {
+            "id": 43673481445511,
+            "title": "Default Title",
+            "sku": "10-CA",
+            "available": true,
+            "price": 235,
+            "compareAtPrice": 258.5,
+            "optionValues": [
+              "Default Title"
+            ],
+            "requiresShipping": true,
+            "taxable": false,
+            "grams": 0,
+            "position": 1
+          }
+        ],
+        "source_variant_label": null,
+        "source_sizes": [
+          "Default option"
+        ],
+        "source_size_variants": [
+          {
+            "value": "Default option",
+            "price": 235.0,
+            "compareAtPrice": 258.5,
+            "active": true
+          }
+        ],
+        "source_filter_category": [
+          "Accessories",
+          "10x10 Custom Canopies"
+        ],
+        "source_filter_sizes": [],
+        "source_reviews_text": "1 option",
+        "source_badge_label": "Accessories",
+        "source_badge_subtext": "2 product images available",
+        "source_description": "Enhance your canopy setup with our 10ft Awning for Canopy Tents, designed to add extra shade, weather protection, and branding space to your pop-up canopy. Perfect for food booths, trade shows, outdoor events, and vendor setups, this awning extends your coverage while creating a…",
+        "source_card_variant": "",
+        "source_add_on_group_keys": [],
+        "local_image_paths": [
+          "/assets/images/notionworx-inventory/accesories/10ft-canopy-awning/01.jpg",
+          "/assets/images/notionworx-inventory/accesories/10ft-canopy-awning/02.jpg"
+        ],
+        "inventory_data_path": "data/inventory/notionworx/products/accesories/10ft-canopy-awning.json",
+        "created_at": "2025-12-24T09:18:14-07:00",
+        "updated_at": "2026-08-18T21:23:38-06:00",
+        "published_at": "2025-12-24T09:18:15-07:00"
+      },
+      "sales_channels": [
+        {
+          "id": "sc_01M1E72H3K3S5QG6P0R7700SH4"
+        }
+      ]
+    },
+    {
+      "title": "Canopy Counter / Bar Top – Custom Portable Countertop for Canopy Tents",
+      "handle": "canopy-counter-bar-top",
+      "external_id": "8266743447687",
+      "description": "Canopy Counter / Bar Top\n\nUpgrade your canopy setup with our Canopy Counter / Bar Top, the perfect addition for food vendors, trade shows, and outdoor events. Designed for functionality and style, this durable counter provides a convenient surface for serving, displaying products, or engaging with customers.\n\n💪Durable Construction: Built with sturdy materials to support heavy use during events and exhibitions.\n\n⚙️Easy Installation: Attaches securely to your canopy frame in minutes — no tools required.\n\n📏Perfect Fit: Custom-designed to fit most standard 10x10 and 10x15 canopy frames.\n\n🎨Customizable Surface: Available in multiple finishes and branding options for a professional look.\n\n🚚Portable & Lightweight: Easy to transport, set up, and store with your existing canopy gear.\n\n🎯Multi-Purpose Use: Ideal for serving food, displaying merchandise, or using as a checkout counter at events.\n\nMaterials\n\n3 Sturdy Steel Support Legs\n\nCustomize Banner with Your Logo or Branding\n\nPrimary Usage\n\nTrade shows, food booths, vendor markets, outdoor bars, and branded events",
+      "status": "published",
+      "images": [
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/accesories/canopy-counter-bar-top/01.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/accesories/canopy-counter-bar-top/02.jpg"
+        }
+      ],
+      "thumbnail": "https://notionworxcanopy.com/assets/images/notionworx-inventory/accesories/canopy-counter-bar-top/01.jpg",
+      "options": [
+        {
+          "title": "Default option",
+          "values": [
+            "Default option value"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "Default variant",
+          "sku": "ITEM #: 1-10CT",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 55000,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Default option": "Default option value"
+          },
+          "metadata": {
+            "source_variant_id": 43454791188615,
+            "source_requires_shipping": true,
+            "source_taxable": false,
+            "source_grams": 0,
+            "source_position": 1,
+            "source_option_values": [
+              "Default Title"
+            ],
+            "source_compare_at_price": 605
+          }
+        }
+      ],
+      "metadata": {
+        "source": "notionworx-inventory",
+        "source_handle": "canopy-counter-bar-top",
+        "source_product_id": 8266743447687,
+        "source_slug": "canopy-counter-bar-top",
+        "source_vendor": "Notion Worx",
+        "source_product_type": null,
+        "source_primary_category": {
+          "handle": "accesories",
+          "title": "Accessories"
+        },
+        "source_categories": [
+          {
+            "handle": "accesories",
+            "title": "Accessories"
+          },
+          {
+            "handle": "10x10",
+            "title": "10x10 Custom Canopies"
+          }
+        ],
+        "source_price": {
+          "min": 550,
+          "max": 550,
+          "compareAtMin": 605,
+          "compareAtMax": 605,
+          "variantCount": 1
+        },
+        "source_tags": [],
+        "source_skus": [
+          "ITEM #: 1-10CT"
+        ],
+        "description_html": "<h3>Canopy Counter / Bar Top</h3>\n<p>Upgrade your canopy setup with our Canopy Counter / Bar Top, the perfect addition for food vendors, trade shows, and outdoor events. Designed for functionality and style, this durable counter provides a convenient surface for serving, displaying products, or engaging with customers.</p>\n<p>💪Durable Construction: Built with sturdy materials to support heavy use during events and exhibitions.</p>\n<p>⚙️Easy Installation: Attaches securely to your canopy frame in minutes — no tools required.</p>\n<p>📏Perfect Fit: Custom-designed to fit most standard 10x10 and 10x15 canopy frames.</p>\n<p>🎨Customizable Surface: Available in multiple finishes and branding options for a professional look.</p>\n<p>🚚Portable &amp; Lightweight: Easy to transport, set up, and store with your existing canopy gear.</p>\n<p>🎯Multi-Purpose Use: Ideal for serving food, displaying merchandise, or using as a checkout counter at events.</p>\n<h3>Materials</h3>\n<p>3 Sturdy Steel Support Legs</p>\n<p>Customize Banner with Your Logo or Branding</p>\n<h3>Primary Usage</h3>\n<p>Trade shows, food booths, vendor markets, outdoor bars, and branded events</p>",
+        "description_text": "Canopy Counter / Bar Top\n\nUpgrade your canopy setup with our Canopy Counter / Bar Top, the perfect addition for food vendors, trade shows, and outdoor events. Designed for functionality and style, this durable counter provides a convenient surface for serving, displaying products, or engaging with customers.\n\n💪Durable Construction: Built with sturdy materials to support heavy use during events and exhibitions.\n\n⚙️Easy Installation: Attaches securely to your canopy frame in minutes — no tools required.\n\n📏Perfect Fit: Custom-designed to fit most standard 10x10 and 10x15 canopy frames.\n\n🎨Customizable Surface: Available in multiple finishes and branding options for a professional look.\n\n🚚Portable & Lightweight: Easy to transport, set up, and store with your existing canopy gear.\n\n🎯Multi-Purpose Use: Ideal for serving food, displaying merchandise, or using as a checkout counter at events.\n\nMaterials\n\n3 Sturdy Steel Support Legs\n\nCustomize Banner with Your Logo or Branding\n\nPrimary Usage\n\nTrade shows, food booths, vendor markets, outdoor bars, and branded events",
+        "how_to_order_html": "<ul>\n  <li>SKU ITEM #: 1-10CT</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
+        "how_to_order_text": "SKU ITEM #: 1-10CT\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
+        "dimensions_html": "<h3>Dimensions</h3>\n<p>110.5&quot; L x 36&quot; H x 14&quot; D</p>\n<p>Fits 10’ Canopies - 9’ 2.5” L x 14” D</p>\n<p>2 Height Settings</p>\n<ul>\n  <li>36” Counter Height</li>\n  <li>42” Bar Height</li>\n</ul>",
+        "dimensions_text": "Dimensions\n\n110.5\" L x 36\" H x 14\" D\n\nFits 10’ Canopies - 9’ 2.5” L x 14” D\n\n2 Height Settings\n\n- 36” Counter Height\n\n- 42” Bar Height",
+        "warranty_html": null,
+        "warranty_text": null,
+        "source_options": [
+          {
+            "name": "Title",
+            "position": 1,
+            "values": [
+              "Default Title"
+            ]
+          }
+        ],
+        "source_variants": [
+          {
+            "id": 43454791188615,
+            "title": "Default Title",
+            "sku": "ITEM #: 1-10CT",
+            "available": true,
+            "price": 550,
+            "compareAtPrice": 605,
+            "optionValues": [
+              "Default Title"
+            ],
+            "requiresShipping": true,
+            "taxable": false,
+            "grams": 0,
+            "position": 1
+          }
+        ],
+        "source_variant_label": null,
+        "source_sizes": [
+          "Default option"
+        ],
+        "source_size_variants": [
+          {
+            "value": "Default option",
+            "price": 550.0,
+            "compareAtPrice": 605.0,
+            "active": true
+          }
+        ],
+        "source_filter_category": [
+          "Accessories",
+          "10x10 Custom Canopies"
+        ],
+        "source_filter_sizes": [],
+        "source_reviews_text": "1 option",
+        "source_badge_label": "Accessories",
+        "source_badge_subtext": "2 product images available",
+        "source_description": "Canopy Counter / Bar Top Upgrade your canopy setup with our Canopy Counter / Bar Top, the perfect addition for food vendors, trade shows, and outdoor events. Designed for functionality and style, this durable counter provides a convenient surface for serving, displaying products…",
+        "source_card_variant": "",
+        "source_add_on_group_keys": [],
+        "local_image_paths": [
+          "/assets/images/notionworx-inventory/accesories/canopy-counter-bar-top/01.jpg",
+          "/assets/images/notionworx-inventory/accesories/canopy-counter-bar-top/02.jpg"
+        ],
+        "inventory_data_path": "data/inventory/notionworx/products/accesories/canopy-counter-bar-top.json",
+        "created_at": "2025-11-11T11:43:21-07:00",
+        "updated_at": "2026-08-18T21:23:38-06:00",
+        "published_at": "2025-11-11T11:43:23-07:00"
+      },
+      "sales_channels": [
+        {
+          "id": "sc_01M1E72H3K3S5QG6P0R7700SH4"
+        }
+      ]
+    },
+    {
+      "title": "LED Light Bars for Canopy Tents",
+      "handle": "led-light-bars",
+      "external_id": "8288933380231",
+      "description": "LED Light Bars for Canopy Tents\n\nBrighten up your booth and stand out at any event with our LED Light Bars for Canopy Tents — the perfect lighting solution for food vendors, trade shows, night markets, and outdoor festivals. Designed to deliver powerful illumination while remaining lightweight and easy to install, these LED bars ensure your products and branding stay visible, day or night.\n\n💡 Ultra-Bright Illumination: High-output LED bars provide even, consistent lighting across your entire canopy.\n🔆 3 Light Modes: Switch between Daylight, Warm, and Amber settings to match the mood, event style, or time of day.\n🔋 Energy-Efficient LEDs: Long-lasting, low-power-consumption lights designed for all-day use.\n⚙️ Easy Installation: Mounts securely to canopy tent frames—no tools required.\n🎪 Universal Fit: Compatible with most 10x10, 10x15, and 10x20 canopy tent structures.\n🔌 Multiple Power Options: Includes AC adapter for standard outlets; battery-pack compatible (optional).\n🎒 Portable & Lightweight: Designed for quick setup, takedown, and transport.\n🌙 Perfect for Night Events: Ideal for food booths, vendor displays, art shows, and evening festivals.\n🛠️ Durable Build: Shock-resistant housing suitable for repeated outdoor use.\n\nWhat’s Included:\n\n- (4) Light Bars\n\n- Carrying Bag\n\n- Outlet Power Cable\n\n- USB Power Cable\n\n- Battery Power Cable\n\n- 12V auxiliary Power Cable\n\n- Extension Cables\n\n- Switch Cable\n\n- 2-Way Connector\n\n- 4-Way Connector\n\n- Canopy Clips\n\n- Screw Mount Clips\n\n- Cable Ties (Hook-and-loop)\n\n- Zip Ties\n\nAdditional Notes:\n\n- 8 light bars is the max limit to connect\n\n- If used with a metal frame, lights can attach with the magnet that is on the back of them.\n\n- Lights have 3 tones: Daylight, Warm Light, and Amber (bug repelling)\n\n- 6 watts per light, 680 lumens, Voltage：12v, 0.5 amps. ETL Certified\n\nPrimary Usage:\n\nFood booths, vendor tents, farmers’ markets, night events, trade shows, craft fairs, outdoor festivals.",
+      "status": "published",
+      "images": [
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/accesories/led-light-bars/01.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/accesories/led-light-bars/02.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/accesories/led-light-bars/03.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/accesories/led-light-bars/04.jpg"
+        }
+      ],
+      "thumbnail": "https://notionworxcanopy.com/assets/images/notionworx-inventory/accesories/led-light-bars/01.jpg",
+      "options": [
+        {
+          "title": "Default option",
+          "values": [
+            "Default option value"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "Default variant",
+          "sku": "ITEM #: LLT",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 21900,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Default option": "Default option value"
+          },
+          "metadata": {
+            "source_variant_id": 43550813487239,
+            "source_requires_shipping": true,
+            "source_taxable": false,
+            "source_grams": 0,
+            "source_position": 1,
+            "source_option_values": [
+              "Default Title"
+            ],
+            "source_compare_at_price": 240.9
+          }
+        }
+      ],
+      "metadata": {
+        "source": "notionworx-inventory",
+        "source_handle": "led-light-bars",
+        "source_product_id": 8288933380231,
+        "source_slug": "led-light-bars",
+        "source_vendor": "Notion Worx",
+        "source_product_type": null,
+        "source_primary_category": {
+          "handle": "accesories",
+          "title": "Accessories"
+        },
+        "source_categories": [
+          {
+            "handle": "accesories",
+            "title": "Accessories"
+          },
+          {
+            "handle": "5x5-custom-canopy",
+            "title": "5x5 Custom Canopies"
+          },
+          {
+            "handle": "10x15",
+            "title": "10x15 Custom Canopies"
+          },
+          {
+            "handle": "10x20",
+            "title": "10x20 Custom Canopies"
+          },
+          {
+            "handle": "10x10",
+            "title": "10x10 Custom Canopies"
+          }
+        ],
+        "source_price": {
+          "min": 219,
+          "max": 219,
+          "compareAtMin": 240.9,
+          "compareAtMax": 240.9,
+          "variantCount": 1
+        },
+        "source_tags": [],
+        "source_skus": [
+          "ITEM #: LLT"
+        ],
+        "description_html": "<h2>LED Light Bars for Canopy Tents</h2>\n<p>Brighten up your booth and stand out at any event with our LED Light Bars for Canopy Tents — the perfect lighting solution for food vendors, trade shows, night markets, and outdoor festivals. Designed to deliver powerful illumination while remaining lightweight and easy to install, these LED bars ensure your products and branding stay visible, day or night.</p>\n<p>💡 Ultra-Bright Illumination: High-output LED bars provide even, consistent lighting across your entire canopy.<br>🔆 3 Light Modes: Switch between Daylight, Warm, and Amber settings to match the mood, event style, or time of day.<br>🔋 Energy-Efficient LEDs: Long-lasting, low-power-consumption lights designed for all-day use.<br>⚙️ Easy Installation: Mounts securely to canopy tent frames—no tools required.<br>🎪 Universal Fit: Compatible with most 10x10, 10x15, and 10x20 canopy tent structures.<br>🔌 Multiple Power Options: Includes AC adapter for standard outlets; battery-pack compatible (optional).<br>🎒 Portable &amp; Lightweight: Designed for quick setup, takedown, and transport.<br>🌙 Perfect for Night Events: Ideal for food booths, vendor displays, art shows, and evening festivals.<br>🛠️ Durable Build: Shock-resistant housing suitable for repeated outdoor use.</p>\n<h2>What’s Included:</h2>\n<ul>\n  <li>(4) Light Bars</li>\n  <li>Carrying Bag</li>\n  <li>Outlet Power Cable</li>\n  <li>USB Power Cable</li>\n  <li>Battery Power Cable</li>\n  <li>12V auxiliary Power Cable</li>\n  <li>Extension Cables</li>\n  <li>Switch Cable</li>\n  <li>2-Way Connector</li>\n  <li>4-Way Connector</li>\n  <li>Canopy Clips</li>\n  <li>Screw Mount Clips</li>\n  <li>Cable Ties (Hook-and-loop)</li>\n  <li>Zip Ties</li>\n</ul>\n<h2>Additional Notes:</h2>\n<ul>\n  <li>8 light bars is the max limit to connect</li>\n  <li>If used with a metal frame, lights can attach with the magnet that is on the back of them.</li>\n  <li>Lights have 3 tones: Daylight, Warm Light, and Amber (bug repelling)</li>\n  <li>6 watts per light, 680 lumens, Voltage：12v, 0.5 amps. ETL Certified</li>\n</ul>\n<h2>Primary Usage:</h2>\n<p>Food booths, vendor tents, farmers’ markets, night events, trade shows, craft fairs, outdoor festivals.</p>",
+        "description_text": "LED Light Bars for Canopy Tents\n\nBrighten up your booth and stand out at any event with our LED Light Bars for Canopy Tents — the perfect lighting solution for food vendors, trade shows, night markets, and outdoor festivals. Designed to deliver powerful illumination while remaining lightweight and easy to install, these LED bars ensure your products and branding stay visible, day or night.\n\n💡 Ultra-Bright Illumination: High-output LED bars provide even, consistent lighting across your entire canopy.\n🔆 3 Light Modes: Switch between Daylight, Warm, and Amber settings to match the mood, event style, or time of day.\n🔋 Energy-Efficient LEDs: Long-lasting, low-power-consumption lights designed for all-day use.\n⚙️ Easy Installation: Mounts securely to canopy tent frames—no tools required.\n🎪 Universal Fit: Compatible with most 10x10, 10x15, and 10x20 canopy tent structures.\n🔌 Multiple Power Options: Includes AC adapter for standard outlets; battery-pack compatible (optional).\n🎒 Portable & Lightweight: Designed for quick setup, takedown, and transport.\n🌙 Perfect for Night Events: Ideal for food booths, vendor displays, art shows, and evening festivals.\n🛠️ Durable Build: Shock-resistant housing suitable for repeated outdoor use.\n\nWhat’s Included:\n\n- (4) Light Bars\n\n- Carrying Bag\n\n- Outlet Power Cable\n\n- USB Power Cable\n\n- Battery Power Cable\n\n- 12V auxiliary Power Cable\n\n- Extension Cables\n\n- Switch Cable\n\n- 2-Way Connector\n\n- 4-Way Connector\n\n- Canopy Clips\n\n- Screw Mount Clips\n\n- Cable Ties (Hook-and-loop)\n\n- Zip Ties\n\nAdditional Notes:\n\n- 8 light bars is the max limit to connect\n\n- If used with a metal frame, lights can attach with the magnet that is on the back of them.\n\n- Lights have 3 tones: Daylight, Warm Light, and Amber (bug repelling)\n\n- 6 watts per light, 680 lumens, Voltage：12v, 0.5 amps. ETL Certified\n\nPrimary Usage:\n\nFood booths, vendor tents, farmers’ markets, night events, trade shows, craft fairs, outdoor festivals.",
+        "how_to_order_html": "<ul>\n  <li>SKU ITEM #: LLT</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
+        "how_to_order_text": "SKU ITEM #: LLT\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
+        "dimensions_html": null,
+        "dimensions_text": null,
+        "warranty_html": null,
+        "warranty_text": null,
+        "source_options": [
+          {
+            "name": "Title",
+            "position": 1,
+            "values": [
+              "Default Title"
+            ]
+          }
+        ],
+        "source_variants": [
+          {
+            "id": 43550813487239,
+            "title": "Default Title",
+            "sku": "ITEM #: LLT",
+            "available": true,
+            "price": 219,
+            "compareAtPrice": 240.9,
+            "optionValues": [
+              "Default Title"
+            ],
+            "requiresShipping": true,
+            "taxable": false,
+            "grams": 0,
+            "position": 1
+          }
+        ],
+        "source_variant_label": null,
+        "source_sizes": [
+          "Default option"
+        ],
+        "source_size_variants": [
+          {
+            "value": "Default option",
+            "price": 219.0,
+            "compareAtPrice": 240.9,
+            "active": true
+          }
+        ],
+        "source_filter_category": [
+          "Accessories",
+          "5x5 Custom Canopies",
+          "10x15 Custom Canopies",
+          "10x20 Custom Canopies",
+          "10x10 Custom Canopies"
+        ],
+        "source_filter_sizes": [],
+        "source_reviews_text": "1 option",
+        "source_badge_label": "Accessories",
+        "source_badge_subtext": "4 product images available",
+        "source_description": "LED Light Bars for Canopy Tents Brighten up your booth and stand out at any event with our LED Light Bars for Canopy Tents — the perfect lighting solution for food vendors, trade shows, night markets, and outdoor festivals. Designed to deliver powerful illumination while remaini…",
+        "source_card_variant": "",
+        "source_add_on_group_keys": [],
+        "local_image_paths": [
+          "/assets/images/notionworx-inventory/accesories/led-light-bars/01.jpg",
+          "/assets/images/notionworx-inventory/accesories/led-light-bars/02.jpg",
+          "/assets/images/notionworx-inventory/accesories/led-light-bars/03.jpg",
+          "/assets/images/notionworx-inventory/accesories/led-light-bars/04.jpg"
+        ],
+        "inventory_data_path": "data/inventory/notionworx/products/accesories/led-light-bars.json",
+        "created_at": "2025-12-03T14:55:11-07:00",
+        "updated_at": "2026-08-18T21:23:34-06:00",
+        "published_at": "2025-12-03T14:55:13-07:00"
+      },
+      "sales_channels": [
+        {
+          "id": "sc_01M1E72H3K3S5QG6P0R7700SH4"
+        }
+      ]
+    },
+    {
+      "title": "300W Portable Power Station",
+      "handle": "portable-power-station-300w",
+      "external_id": "8428094652551",
+      "description": "📦\n\nPortable Power Station 300W, Outdoor Solar Generator Backup Battery Pack 220Wh/60000mAh\n\nAbout this item\n\n- PORTABLE POWER STATION WITH ENHANCED CAPACITY: Experience the convenience with our 300W portable power station. Designed with a sleek and compact form factor measuring 8.5 x 6.7 x 4.1 inches and weighing a mere 5 lbs, this battery station is your perfect companion for home, camping, and beyond. Equipped with an upgraded 220Wh/60000mAh lithium-ion battery pack, powerful enough to charge up to 7 devices simultaneously.\n\n- PORTABLE SOLAR POWER BANK WITH 7 OUTPUTS: This portable solar power bank battery pack features with 7 outlets. 2x110V AC outlet Pure Sine Wave to charge appliances within 300W(600W Peak),3 USB ports (5V/3.1A Max), 1 USB port (5V/3A, 9V/2A), and 1 DC vehicle output port (9-12.6V, 10A max), this portable solar power bank compatible with a wide range of devices. Enjoy simultaneous charging without any disruptive fan noise, ensuring a serene and comfortable environment wherever you are\n\n- SOLAR GENERATOR OPTIONAL: This 300W power station power bank with AC outlet can also be recharged by solar panel for unparalleled flexibility to become a solar power generator station, apart from the traditional AC wall adapter and car charging methods.The 300W power station provides real-time energy level updates during recharging and discharging, along with AC output status indicators to prevent unexpected power interruptions. With enhanced recharging options for faster and more convenient charging.\n\n- BIGGER LED, BRIGHTER LIGHT: The portable power station 300W designed with premium quality LED light source on the whole back with bigger Led light, offering you a full sense of security in a dark night indoors and outdoors.\n\n- SECURED POWER STATION BANK: Our power station bank for camping boasts an advanced BMS that guarantees voltage control, optimal temperature regulation, and top-tier safety features. Silent cooling vents maintain a secure operating temperature, while built-in protections against short-circuits and overpower scenarios, offering unparalleled peace of mind. Also, the Pure Sine Wave AC inverter can better protect your sensitive devices, preserving battery life and ensuring user/device safety.\n\n- WHAT YOU GET: Apowking 220Wh/300W Rated(600W Peak) portable generator/power station x 1, AC power adapter x 1, car charging cable x 1, cigarette lighter socket to DC adapter x 1, user manua x 1.\n\n- PROTECTING TIPS: 1.Ensure the electricity power station is fully charged before use.2.If not in use for an extended period, recharge the stored battery every 2-3 months and maintain it between 40%-70% capacity. Recharge the battery before it is completely depleted.3.Store the battery in a dry environment within the temperature range of 40°F~100°F (4°C~35°C) or in moisture-proof packaging. Keep it away from heat sources and avoid direct sunlight exposure NOTE: 1.This 300W generator is designed to support devices with a power consumption lower than 300 Watt Hours. It may not be suitable for high-capacity products such as Electric Grills, Induction Cookers, Microwaves, and Refrigerators 2.When you activate the AC output function, it is normal to see a red triangle indicator for AC output verification, which will disappear within 3-5 seconds 3.The high-quality lithium-ion batteries in this generator are capable of supporting over 1000 charge cycles, ensuring long-term battery performance, reliability, and safety\n\n🔹 Key Features\n\n- ⚡ 300W AC Output – Dual pure sine wave AC outlets for stable power\n\n- 🔋 220Wh Lithium Battery – Compact but powerful for multiple devices\n\n- 🔌 Multi-Port Charging – USB-A, USB-C, and DC outputs for phones, laptops, tablets, and other gear\n\n- 🏕️ Portable & Lightweight – Easy to carry and transport for travel or outdoor use\n\n- 🛡️ Safety Protection – Built-in BMS system guards against overload and short circuits\n\n- ☀️ Versatile Power Source – Ideal for camping, home backup, RVs, emergencies, and outdoor activities\n\n🔹 Why You’ll Love It\n\n- Great for off-grid power needs\n\n- Supports essential electronics during outages\n\n- Quick and convenient setup\n\n- Durable construction for rugged use\n\n🔹 Best Suited For\n\nPortable outdoor power, camping trips, tailgating, emergency backup, RV and travel adventures, and remote work setups.",
+      "status": "published",
+      "images": [
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/accesories/portable-power-station-300w/01.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/accesories/portable-power-station-300w/02.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/accesories/portable-power-station-300w/03.jpg"
+        }
+      ],
+      "thumbnail": "https://notionworxcanopy.com/assets/images/notionworx-inventory/accesories/portable-power-station-300w/01.jpg",
+      "options": [
+        {
+          "title": "Default option",
+          "values": [
+            "Default option value"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "Default variant",
+          "sku": "PPS-300",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 15000,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Default option": "Default option value"
+          },
+          "metadata": {
+            "source_variant_id": 44004998217863,
+            "source_requires_shipping": true,
+            "source_taxable": true,
+            "source_grams": 0,
+            "source_position": 1,
+            "source_option_values": [
+              "Default Title"
+            ],
+            "source_compare_at_price": null
+          }
+        }
+      ],
+      "metadata": {
+        "source": "notionworx-inventory",
+        "source_handle": "portable-power-station-300w",
+        "source_product_id": 8428094652551,
+        "source_slug": "portable-power-station-300w",
+        "source_vendor": "Notion Worx",
+        "source_product_type": null,
+        "source_primary_category": {
+          "handle": "accesories",
+          "title": "Accessories"
+        },
+        "source_categories": [
+          {
+            "handle": "accesories",
+            "title": "Accessories"
+          },
+          {
+            "handle": "5x5-custom-canopy",
+            "title": "5x5 Custom Canopies"
+          },
+          {
+            "handle": "10x15",
+            "title": "10x15 Custom Canopies"
+          },
+          {
+            "handle": "10x20",
+            "title": "10x20 Custom Canopies"
+          },
+          {
+            "handle": "10x10",
+            "title": "10x10 Custom Canopies"
+          }
+        ],
+        "source_price": {
+          "min": 150,
+          "max": 150,
+          "compareAtMin": null,
+          "compareAtMax": null,
+          "variantCount": 1
+        },
+        "source_tags": [],
+        "source_skus": [
+          "PPS-300"
+        ],
+        "description_html": "<h2>📦</h2>\n<h1>Portable Power Station 300W, Outdoor Solar Generator Backup Battery Pack 220Wh/60000mAh</h1>\n<h3>About this item</h3>\n<ul>\n  <li><strong>PORTABLE POWER STATION WITH ENHANCED CAPACITY:</strong> Experience the convenience with our 300W portable power station. Designed with a sleek and compact form factor measuring 8.5 x 6.7 x 4.1 inches and weighing a mere 5 lbs, this battery station is your perfect companion for home, camping, and beyond. Equipped with an upgraded 220Wh/60000mAh lithium-ion battery pack, powerful enough to charge up to 7 devices simultaneously.</li>\n  <li><strong>PORTABLE SOLAR POWER BANK WITH 7 OUTPUTS:</strong> This portable solar power bank battery pack features with 7 outlets. 2x110V AC outlet Pure Sine Wave to charge appliances within 300W(600W Peak),3 USB ports (5V/3.1A Max), 1 USB port (5V/3A, 9V/2A), and 1 DC vehicle output port (9-12.6V, 10A max), this portable solar power bank compatible with a wide range of devices. Enjoy simultaneous charging without any disruptive fan noise, ensuring a serene and comfortable environment wherever you are</li>\n  <li><strong>SOLAR GENERATOR OPTIONAL:</strong> This 300W power station power bank with AC outlet can also be recharged by solar panel for unparalleled flexibility to become a solar power generator station, apart from the traditional AC wall adapter and car charging methods.The 300W power station provides real-time energy level updates during recharging and discharging, along with AC output status indicators to prevent unexpected power interruptions. With enhanced recharging options for faster and more convenient charging.</li>\n  <li><strong>BIGGER LED, BRIGHTER LIGHT:</strong> The portable power station 300W designed with premium quality LED light source on the whole back with bigger Led light, offering you a full sense of security in a dark night indoors and outdoors.</li>\n  <li><strong>SECURED POWER STATION BANK:</strong> Our power station bank for camping boasts an advanced BMS that guarantees voltage control, optimal temperature regulation, and top-tier safety features. Silent cooling vents maintain a secure operating temperature, while built-in protections against short-circuits and overpower scenarios, offering unparalleled peace of mind. Also, the Pure Sine Wave AC inverter can better protect your sensitive devices, preserving battery life and ensuring user/device safety.</li>\n  <li><strong>WHAT YOU GET:</strong> Apowking 220Wh/300W Rated(600W Peak) portable generator/power station x 1, AC power adapter x 1, car charging cable x 1, cigarette lighter socket to DC adapter x 1, user manua x 1. </li>\n  <li><strong>PROTECTING TIPS:</strong> 1.Ensure the electricity power station is fully charged before use.2.If not in use for an extended period, recharge the stored battery every 2-3 months and maintain it between 40%-70% capacity. Recharge the battery before it is completely depleted.3.Store the battery in a dry environment within the temperature range of 40°F~100°F (4°C~35°C) or in moisture-proof packaging. Keep it away from heat sources and avoid direct sunlight exposure NOTE: 1.This 300W generator is designed to support devices with a power consumption lower than 300 Watt Hours. It may not be suitable for high-capacity products such as Electric Grills, Induction Cookers, Microwaves, and Refrigerators 2.When you activate the AC output function, it is normal to see a red triangle indicator for AC output verification, which will disappear within 3-5 seconds 3.The high-quality lithium-ion batteries in this generator are capable of supporting over 1000 charge cycles, ensuring long-term battery performance, reliability, and safety</li>\n</ul>\n<p>🔹 Key Features</p>\n<ul>\n  <li>⚡ 300W AC Output – Dual pure sine wave AC outlets for stable power</li>\n  <li>🔋 220Wh Lithium Battery – Compact but powerful for multiple devices</li>\n  <li>🔌 Multi-Port Charging – USB-A, USB-C, and DC outputs for phones, laptops, tablets, and other gear</li>\n  <li>🏕️ Portable &amp; Lightweight – Easy to carry and transport for travel or outdoor use</li>\n  <li>🛡️ Safety Protection – Built-in BMS system guards against overload and short circuits</li>\n  <li>☀️ Versatile Power Source – Ideal for camping, home backup, RVs, emergencies, and outdoor activities</li>\n</ul>\n<p>🔹 Why You’ll Love It</p>\n<ul>\n  <li>Great for off-grid power needs</li>\n  <li>Supports essential electronics during outages</li>\n  <li>Quick and convenient setup</li>\n  <li>Durable construction for rugged use</li>\n</ul>\n<p>🔹 Best Suited For</p>\n<p>Portable outdoor power, camping trips, tailgating, emergency backup, RV and travel adventures, and remote work setups.</p>",
+        "description_text": "📦\n\nPortable Power Station 300W, Outdoor Solar Generator Backup Battery Pack 220Wh/60000mAh\n\nAbout this item\n\n- PORTABLE POWER STATION WITH ENHANCED CAPACITY: Experience the convenience with our 300W portable power station. Designed with a sleek and compact form factor measuring 8.5 x 6.7 x 4.1 inches and weighing a mere 5 lbs, this battery station is your perfect companion for home, camping, and beyond. Equipped with an upgraded 220Wh/60000mAh lithium-ion battery pack, powerful enough to charge up to 7 devices simultaneously.\n\n- PORTABLE SOLAR POWER BANK WITH 7 OUTPUTS: This portable solar power bank battery pack features with 7 outlets. 2x110V AC outlet Pure Sine Wave to charge appliances within 300W(600W Peak),3 USB ports (5V/3.1A Max), 1 USB port (5V/3A, 9V/2A), and 1 DC vehicle output port (9-12.6V, 10A max), this portable solar power bank compatible with a wide range of devices. Enjoy simultaneous charging without any disruptive fan noise, ensuring a serene and comfortable environment wherever you are\n\n- SOLAR GENERATOR OPTIONAL: This 300W power station power bank with AC outlet can also be recharged by solar panel for unparalleled flexibility to become a solar power generator station, apart from the traditional AC wall adapter and car charging methods.The 300W power station provides real-time energy level updates during recharging and discharging, along with AC output status indicators to prevent unexpected power interruptions. With enhanced recharging options for faster and more convenient charging.\n\n- BIGGER LED, BRIGHTER LIGHT: The portable power station 300W designed with premium quality LED light source on the whole back with bigger Led light, offering you a full sense of security in a dark night indoors and outdoors.\n\n- SECURED POWER STATION BANK: Our power station bank for camping boasts an advanced BMS that guarantees voltage control, optimal temperature regulation, and top-tier safety features. Silent cooling vents maintain a secure operating temperature, while built-in protections against short-circuits and overpower scenarios, offering unparalleled peace of mind. Also, the Pure Sine Wave AC inverter can better protect your sensitive devices, preserving battery life and ensuring user/device safety.\n\n- WHAT YOU GET: Apowking 220Wh/300W Rated(600W Peak) portable generator/power station x 1, AC power adapter x 1, car charging cable x 1, cigarette lighter socket to DC adapter x 1, user manua x 1.\n\n- PROTECTING TIPS: 1.Ensure the electricity power station is fully charged before use.2.If not in use for an extended period, recharge the stored battery every 2-3 months and maintain it between 40%-70% capacity. Recharge the battery before it is completely depleted.3.Store the battery in a dry environment within the temperature range of 40°F~100°F (4°C~35°C) or in moisture-proof packaging. Keep it away from heat sources and avoid direct sunlight exposure NOTE: 1.This 300W generator is designed to support devices with a power consumption lower than 300 Watt Hours. It may not be suitable for high-capacity products such as Electric Grills, Induction Cookers, Microwaves, and Refrigerators 2.When you activate the AC output function, it is normal to see a red triangle indicator for AC output verification, which will disappear within 3-5 seconds 3.The high-quality lithium-ion batteries in this generator are capable of supporting over 1000 charge cycles, ensuring long-term battery performance, reliability, and safety\n\n🔹 Key Features\n\n- ⚡ 300W AC Output – Dual pure sine wave AC outlets for stable power\n\n- 🔋 220Wh Lithium Battery – Compact but powerful for multiple devices\n\n- 🔌 Multi-Port Charging – USB-A, USB-C, and DC outputs for phones, laptops, tablets, and other gear\n\n- 🏕️ Portable & Lightweight – Easy to carry and transport for travel or outdoor use\n\n- 🛡️ Safety Protection – Built-in BMS system guards against overload and short circuits\n\n- ☀️ Versatile Power Source – Ideal for camping, home backup, RVs, emergencies, and outdoor activities\n\n🔹 Why You’ll Love It\n\n- Great for off-grid power needs\n\n- Supports essential electronics during outages\n\n- Quick and convenient setup\n\n- Durable construction for rugged use\n\n🔹 Best Suited For\n\nPortable outdoor power, camping trips, tailgating, emergency backup, RV and travel adventures, and remote work setups.",
+        "how_to_order_html": "<ul>\n  <li>SKU PPS-300</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
+        "how_to_order_text": "SKU PPS-300\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
+        "dimensions_html": null,
+        "dimensions_text": null,
+        "warranty_html": "<p>This portable station bank with AC outlet is covered by our 12-month warranty, so please contact our Customer Service if you have any questions at any time.</p>",
+        "warranty_text": "This portable station bank with AC outlet is covered by our 12-month warranty, so please contact our Customer Service if you have any questions at any time.",
+        "source_options": [
+          {
+            "name": "Title",
+            "position": 1,
+            "values": [
+              "Default Title"
+            ]
+          }
+        ],
+        "source_variants": [
+          {
+            "id": 44004998217863,
+            "title": "Default Title",
+            "sku": "PPS-300",
+            "available": true,
+            "price": 150,
+            "compareAtPrice": null,
+            "optionValues": [
+              "Default Title"
+            ],
+            "requiresShipping": true,
+            "taxable": true,
+            "grams": 0,
+            "position": 1
+          }
+        ],
+        "source_variant_label": null,
+        "source_sizes": [
+          "Default option"
+        ],
+        "source_size_variants": [
+          {
+            "value": "Default option",
+            "price": 150.0,
+            "active": true
+          }
+        ],
+        "source_filter_category": [
+          "Accessories",
+          "5x5 Custom Canopies",
+          "10x15 Custom Canopies",
+          "10x20 Custom Canopies",
+          "10x10 Custom Canopies"
+        ],
+        "source_filter_sizes": [],
+        "source_reviews_text": "1 option",
+        "source_badge_label": "Accessories",
+        "source_badge_subtext": "3 product images available",
+        "source_description": "📦 Portable Power Station 300W, Outdoor Solar Generator Backup Battery Pack 220Wh/60000mAh About this item - PORTABLE POWER STATION WITH ENHANCED CAPACITY: Experience the convenience with our 300W portable power station. Designed with a sleek and compact form factor measuring 8.…",
+        "source_card_variant": "",
+        "source_add_on_group_keys": [],
+        "local_image_paths": [
+          "/assets/images/notionworx-inventory/accesories/portable-power-station-300w/01.jpg",
+          "/assets/images/notionworx-inventory/accesories/portable-power-station-300w/02.jpg",
+          "/assets/images/notionworx-inventory/accesories/portable-power-station-300w/03.jpg"
+        ],
+        "inventory_data_path": "data/inventory/notionworx/products/accesories/portable-power-station-300w.json",
+        "created_at": "2026-02-25T14:08:49-07:00",
+        "updated_at": "2026-08-18T21:23:34-06:00",
+        "published_at": "2026-02-25T14:08:51-07:00"
+      },
+      "sales_channels": [
+        {
+          "id": "sc_01M1E72H3K3S5QG6P0R7700SH4"
+        }
+      ]
+    },
+    {
+      "title": "Premium 10' Tent Top Billboard Banner",
+      "handle": "premium-10-tent-top-square-banner",
+      "external_id": "8227670360199",
+      "description": "Download Template Fire Certificate\n\nThe polyester will perfectly present your logo when it is stretched suitably to fit the frame. Each of our tent billboard banners is equipped with an aluminum tubing frame. When the frame and graphic are set up, just simply attach the banner to the tent legs and then secure it with the Flag Mount Holder (we have different types, please choose the correct one for your tent). You can adjust the banner height by sliding the clamps up or down.\n\nIncluded:\n\n1pc pole\n\n2pc base\n\n2pc Flag Holder Kits\n\n1pc single sided graphics",
+      "status": "published",
+      "images": [
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/accesories/premium-10-tent-top-square-banner/01.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/accesories/premium-10-tent-top-square-banner/02.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/accesories/premium-10-tent-top-square-banner/03.jpg"
+        }
+      ],
+      "thumbnail": "https://notionworxcanopy.com/assets/images/notionworx-inventory/accesories/premium-10-tent-top-square-banner/01.jpg",
+      "options": [
+        {
+          "title": "Default option",
+          "values": [
+            "Default option value"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "Default variant",
+          "sku": "10-BB",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 28500,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Default option": "Default option value"
+          },
+          "metadata": {
+            "source_variant_id": 43238064259207,
+            "source_requires_shipping": true,
+            "source_taxable": false,
+            "source_grams": 9072,
+            "source_position": 1,
+            "source_option_values": [
+              "Default Title"
+            ],
+            "source_compare_at_price": 313.5
+          }
+        }
+      ],
+      "metadata": {
+        "source": "notionworx-inventory",
+        "source_handle": "premium-10-tent-top-square-banner",
+        "source_product_id": 8227670360199,
+        "source_slug": "premium-10-tent-top-square-banner",
+        "source_vendor": "Notion Worx",
+        "source_product_type": null,
+        "source_primary_category": {
+          "handle": "accesories",
+          "title": "Accessories"
+        },
+        "source_categories": [
+          {
+            "handle": "accesories",
+            "title": "Accessories"
+          },
+          {
+            "handle": "10x10",
+            "title": "10x10 Custom Canopies"
+          },
+          {
+            "handle": "tent",
+            "title": "Custom Canopy Tents – Personalized Pop Up Tents for Events"
+          }
+        ],
+        "source_price": {
+          "min": 285,
+          "max": 285,
+          "compareAtMin": 313.5,
+          "compareAtMax": 313.5,
+          "variantCount": 1
+        },
+        "source_tags": [],
+        "source_skus": [
+          "10-BB"
+        ],
+        "description_html": "<p><a href=\"https://www.dropbox.com/scl/fi/2zasj4p9y9a9b1cnpq6it/tent-top-square-banner.pdf?rlkey=80nnpdpp753wvfw3f2kkfa8io&amp;dl=0\">Download Template</a> <a href=\"https://www.dropbox.com/sh/qr7uglqfr1nngjw/AAAWNnGjgxtKi0BBZeDdtl75a?dl=0\">Fire Certificate</a></p>\n<p>The polyester will perfectly present your logo when it is stretched suitably to fit the frame. Each of our tent billboard banners is equipped with an aluminum tubing frame. When the frame and graphic are set up, just simply attach the banner to the tent legs and then secure it with the Flag Mount Holder (we have different types, please choose the correct one for your tent). You can adjust the banner height by sliding the clamps up or down.</p>\n<p>Included:</p>\n<p>1pc pole</p>\n<p>2pc base</p>\n<p>2pc Flag Holder Kits</p>\n<p>1pc single sided graphics</p>",
+        "description_text": "Download Template Fire Certificate\n\nThe polyester will perfectly present your logo when it is stretched suitably to fit the frame. Each of our tent billboard banners is equipped with an aluminum tubing frame. When the frame and graphic are set up, just simply attach the banner to the tent legs and then secure it with the Flag Mount Holder (we have different types, please choose the correct one for your tent). You can adjust the banner height by sliding the clamps up or down.\n\nIncluded:\n\n1pc pole\n\n2pc base\n\n2pc Flag Holder Kits\n\n1pc single sided graphics",
+        "how_to_order_html": "<ul>\n  <li>SKU 10-BB</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
+        "how_to_order_text": "- SKU 10-BB\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
+        "dimensions_html": null,
+        "dimensions_text": null,
+        "warranty_html": "<h3>Factory Warranty</h3>\n<ul>\n  <li>We stand behind the quality of our products. Our warranty covers any factory defects or damage that occurs during shipping. However, please note that we do not cover damage resulting from extreme weather conditions, misuse, or any circumstances beyond our control.</li>\n</ul>",
+        "warranty_text": "Factory Warranty\n\n- We stand behind the quality of our products. Our warranty covers any factory defects or damage that occurs during shipping. However, please note that we do not cover damage resulting from extreme weather conditions, misuse, or any circumstances beyond our control.",
+        "source_options": [
+          {
+            "name": "Title",
+            "position": 1,
+            "values": [
+              "Default Title"
+            ]
+          }
+        ],
+        "source_variants": [
+          {
+            "id": 43238064259207,
+            "title": "Default Title",
+            "sku": "10-BB",
+            "available": true,
+            "price": 285,
+            "compareAtPrice": 313.5,
+            "optionValues": [
+              "Default Title"
+            ],
+            "requiresShipping": true,
+            "taxable": false,
+            "grams": 9072,
+            "position": 1
+          }
+        ],
+        "source_variant_label": null,
+        "source_sizes": [
+          "Default option"
+        ],
+        "source_size_variants": [
+          {
+            "value": "Default option",
+            "price": 285.0,
+            "compareAtPrice": 313.5,
+            "active": true
+          }
+        ],
+        "source_filter_category": [
+          "Accessories",
+          "10x10 Custom Canopies",
+          "Custom Canopy Tents – Personalized Pop Up Tents for Events"
+        ],
+        "source_filter_sizes": [],
+        "source_reviews_text": "1 option",
+        "source_badge_label": "Accessories",
+        "source_badge_subtext": "3 product images available",
+        "source_description": "The polyester will perfectly present your logo when it is stretched suitably to fit the frame. Each of our tent billboard banners is equipped with an aluminum tubing frame. When the frame and graphic are set up, just simply attach the banner to the tent legs and then secure it w…",
+        "source_card_variant": "",
+        "source_add_on_group_keys": [],
+        "local_image_paths": [
+          "/assets/images/notionworx-inventory/accesories/premium-10-tent-top-square-banner/01.jpg",
+          "/assets/images/notionworx-inventory/accesories/premium-10-tent-top-square-banner/02.jpg",
+          "/assets/images/notionworx-inventory/accesories/premium-10-tent-top-square-banner/03.jpg"
+        ],
+        "inventory_data_path": "data/inventory/notionworx/products/accesories/premium-10-tent-top-square-banner.json",
+        "created_at": "2025-09-25T12:32:14-06:00",
+        "updated_at": "2026-08-18T21:23:22-06:00",
+        "published_at": "2025-09-26T09:36:33-06:00"
+      },
+      "sales_channels": [
+        {
+          "id": "sc_01M1E72H3K3S5QG6P0R7700SH4"
+        }
+      ]
+    },
+    {
+      "title": "Sandbag Ballast Kit for Event Tent Legs (Set of Four)",
+      "handle": "sandbag-ballast-kit-for-event-tent-legs-set-of-four",
+      "external_id": "8525433503879",
+      "description": "📦 Sandbag Ballast Kit for Event Tent Legs (Set of Four)\n\n- Keep your tent weighted down for stability. Compatible with all our tent frames. Straps around event tent legs to keep the tent weighted down. Set includes four ballasts. Each ballast has two zippered pockets for sand. Weighs 20.6 lbs. when filled with sand. Complies with Prop 65.",
+      "status": "published",
+      "images": [
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/accesories/sandbag-ballast-kit-for-event-tent-legs-set-of-four/01.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/accesories/sandbag-ballast-kit-for-event-tent-legs-set-of-four/02.jpg"
+        }
+      ],
+      "thumbnail": "https://notionworxcanopy.com/assets/images/notionworx-inventory/accesories/sandbag-ballast-kit-for-event-tent-legs-set-of-four/01.jpg",
+      "options": [
+        {
+          "title": "Default option",
+          "values": [
+            "Default option value"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "Default variant",
+          "sku": "240112",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 10000,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Default option": "Default option value"
+          },
+          "metadata": {
+            "source_variant_id": 44387877781639,
+            "source_requires_shipping": true,
+            "source_taxable": true,
+            "source_grams": 0,
+            "source_position": 1,
+            "source_option_values": [
+              "Default Title"
+            ],
+            "source_compare_at_price": null
+          }
+        }
+      ],
+      "metadata": {
+        "source": "notionworx-inventory",
+        "source_handle": "sandbag-ballast-kit-for-event-tent-legs-set-of-four",
+        "source_product_id": 8525433503879,
+        "source_slug": "sandbag-ballast-kit-for-event-tent-legs-set-of-four",
+        "source_vendor": "Notion Worx",
+        "source_product_type": null,
+        "source_primary_category": {
+          "handle": "accesories",
+          "title": "Accessories"
+        },
+        "source_categories": [
+          {
+            "handle": "accesories",
+            "title": "Accessories"
+          },
+          {
+            "handle": "5x5-custom-canopy",
+            "title": "5x5 Custom Canopies"
+          },
+          {
+            "handle": "10x15",
+            "title": "10x15 Custom Canopies"
+          },
+          {
+            "handle": "10x20",
+            "title": "10x20 Custom Canopies"
+          },
+          {
+            "handle": "10x10",
+            "title": "10x10 Custom Canopies"
+          }
+        ],
+        "source_price": {
+          "min": 100,
+          "max": 100,
+          "compareAtMin": null,
+          "compareAtMax": null,
+          "variantCount": 1
+        },
+        "source_tags": [],
+        "source_skus": [
+          "240112"
+        ],
+        "description_html": "<h2>📦 Sandbag Ballast Kit for Event Tent Legs (Set of Four)</h2>\n<ul>\n  <li>Keep your tent weighted down for stability. Compatible with all our tent frames. Straps around event tent legs to keep the tent weighted down. Set includes four ballasts. Each ballast has two zippered pockets for sand. Weighs 20.6 lbs. when filled with sand. Complies with Prop 65. </li>\n</ul>",
+        "description_text": "📦 Sandbag Ballast Kit for Event Tent Legs (Set of Four)\n\n- Keep your tent weighted down for stability. Compatible with all our tent frames. Straps around event tent legs to keep the tent weighted down. Set includes four ballasts. Each ballast has two zippered pockets for sand. Weighs 20.6 lbs. when filled with sand. Complies with Prop 65.",
+        "how_to_order_html": "<ul>\n  <li>SKU 240112</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
+        "how_to_order_text": "SKU 240112\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
+        "dimensions_html": "<p>12.5&quot; D x 14.5&quot; W x 4.75&quot; H</p>",
+        "dimensions_text": "12.5\" D x 14.5\" W x 4.75\" H",
+        "warranty_html": null,
+        "warranty_text": null,
+        "source_options": [
+          {
+            "name": "Title",
+            "position": 1,
+            "values": [
+              "Default Title"
+            ]
+          }
+        ],
+        "source_variants": [
+          {
+            "id": 44387877781639,
+            "title": "Default Title",
+            "sku": "240112",
+            "available": true,
+            "price": 100,
+            "compareAtPrice": null,
+            "optionValues": [
+              "Default Title"
+            ],
+            "requiresShipping": true,
+            "taxable": true,
+            "grams": 0,
+            "position": 1
+          }
+        ],
+        "source_variant_label": null,
+        "source_sizes": [
+          "Default option"
+        ],
+        "source_size_variants": [
+          {
+            "value": "Default option",
+            "price": 100.0,
+            "active": true
+          }
+        ],
+        "source_filter_category": [
+          "Accessories",
+          "5x5 Custom Canopies",
+          "10x15 Custom Canopies",
+          "10x20 Custom Canopies",
+          "10x10 Custom Canopies"
+        ],
+        "source_filter_sizes": [],
+        "source_reviews_text": "1 option",
+        "source_badge_label": "Accessories",
+        "source_badge_subtext": "2 product images available",
+        "source_description": "📦 Sandbag Ballast Kit for Event Tent Legs (Set of Four) - Keep your tent weighted down for stability. Compatible with all our tent frames. Straps around event tent legs to keep the tent weighted down. Set includes four ballasts. Each ballast has two zippered pockets for sand. W…",
+        "source_card_variant": "",
+        "source_add_on_group_keys": [],
+        "local_image_paths": [
+          "/assets/images/notionworx-inventory/accesories/sandbag-ballast-kit-for-event-tent-legs-set-of-four/01.jpg",
+          "/assets/images/notionworx-inventory/accesories/sandbag-ballast-kit-for-event-tent-legs-set-of-four/02.jpg"
+        ],
+        "inventory_data_path": "data/inventory/notionworx/products/accesories/sandbag-ballast-kit-for-event-tent-legs-set-of-four.json",
+        "created_at": "2026-04-03T13:22:29-06:00",
+        "updated_at": "2026-08-18T21:23:34-06:00",
+        "published_at": "2026-04-03T13:26:48-06:00"
+      },
+      "sales_channels": [
+        {
+          "id": "sc_01M1E72H3K3S5QG6P0R7700SH4"
+        }
+      ]
+    }
+  ]
+}

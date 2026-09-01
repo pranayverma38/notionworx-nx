@@ -1,0 +1,410 @@
+{
+  "baseUrl": "https://api.notionworxcanopy.com",
+  "siteUrl": "https://notionworxcanopy.com",
+  "mode": "apply",
+  "collectionHandle": "umbrella",
+  "region": {
+    "id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X",
+    "currency_code": "eur",
+    "name": "Europe"
+  },
+  "salesChannelId": "sc_01M1E72H3K3S5QG6P0R7700SH4",
+  "collection": {
+    "title": "UMBRELLA",
+    "handle": "umbrella",
+    "metadata": {
+      "source": "notionworx-inventory",
+      "source_handle": "umbrella",
+      "source_title": "UMBRELLA",
+      "source_description": "",
+      "source_products_count": 1,
+      "source_image_path": "/assets/images/notionworx-inventory/collections/umbrella/01.jpg",
+      "source_image_url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/collections/umbrella/01.jpg",
+      "inventory_data_path": "/inventory/notionworx/collections/umbrella.json"
+    }
+  },
+  "productsCount": 1,
+  "products": [
+    {
+      "title": "9' Outdoor Aluminum Patio Umbrella (Dye-Sublimation)",
+      "handle": "9-outdoor-aluminum-patio-umbrella-dye-sublimation-copy",
+      "external_id": "8227675603079",
+      "description": "Download Template\n\nHandle Material\n\nAluminum, Alloy Steel\n\nFrame Material\n\nAluminum, Alloy Steel\n\n9 ft\n\nAbout this item\n\nWhen ordering custom graphics; the graphics will ship separately and will need to be swapped out and attached to the umbrella hardware.\n\n- Available electrical source--Requires 4*AA batteries (NOT INCLUDED),which can be easily purchased in common shops. Easy to carry and prepare for batteries backup.",
+      "status": "published",
+      "images": [
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/umbrella/9-outdoor-aluminum-patio-umbrella-dye-sublimation-copy/01.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/umbrella/9-outdoor-aluminum-patio-umbrella-dye-sublimation-copy/02.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/umbrella/9-outdoor-aluminum-patio-umbrella-dye-sublimation-copy/03.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/umbrella/9-outdoor-aluminum-patio-umbrella-dye-sublimation-copy/04.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/umbrella/9-outdoor-aluminum-patio-umbrella-dye-sublimation-copy/05.jpg"
+        }
+      ],
+      "thumbnail": "https://notionworxcanopy.com/assets/images/notionworx-inventory/umbrella/9-outdoor-aluminum-patio-umbrella-dye-sublimation-copy/01.jpg",
+      "options": [
+        {
+          "title": "Included",
+          "values": [
+            "Frame + Graphic +Base",
+            "Graphics Only",
+            "Frame + Graphic",
+            "Frame Only",
+            "Base Only"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "Frame + Graphic +Base",
+          "sku": "ITEM #: 206110",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 51000,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Included": "Frame + Graphic +Base"
+          },
+          "metadata": {
+            "source_variant_id": 43238165807239,
+            "source_requires_shipping": true,
+            "source_taxable": true,
+            "source_grams": 36287,
+            "source_position": 1,
+            "source_sku": "ITEM #: 206110",
+            "source_option_values": [
+              "Frame + Graphic +Base"
+            ],
+            "source_compare_at_price": null
+          }
+        },
+        {
+          "title": "Graphics Only",
+          "sku": "ITEM #:",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 28500,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Included": "Graphics Only"
+          },
+          "metadata": {
+            "source_variant_id": 43238165840007,
+            "source_requires_shipping": true,
+            "source_taxable": true,
+            "source_grams": 36287,
+            "source_position": 2,
+            "source_sku": "ITEM #:",
+            "source_option_values": [
+              "Graphics Only"
+            ],
+            "source_compare_at_price": null
+          }
+        },
+        {
+          "title": "Frame + Graphic",
+          "sku": "NW-TENT-9-OUTDOOR-ALUMINUM-PATIO-UMBRELLA-DYE-SUBLIMATION-COPY-43238165872775",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 40000,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Included": "Frame + Graphic"
+          },
+          "metadata": {
+            "source_variant_id": 43238165872775,
+            "source_requires_shipping": true,
+            "source_taxable": true,
+            "source_grams": 36287,
+            "source_position": 3,
+            "source_sku": "None",
+            "source_option_values": [
+              "Frame + Graphic"
+            ],
+            "source_compare_at_price": null
+          }
+        },
+        {
+          "title": "Frame Only",
+          "sku": "NW-TENT-9-OUTDOOR-ALUMINUM-PATIO-UMBRELLA-DYE-SUBLIMATION-COPY-43238165905543",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 11500,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Included": "Frame Only"
+          },
+          "metadata": {
+            "source_variant_id": 43238165905543,
+            "source_requires_shipping": true,
+            "source_taxable": true,
+            "source_grams": 36287,
+            "source_position": 4,
+            "source_sku": "None",
+            "source_option_values": [
+              "Frame Only"
+            ],
+            "source_compare_at_price": null
+          }
+        },
+        {
+          "title": "Base Only",
+          "sku": "NW-TENT-9-OUTDOOR-ALUMINUM-PATIO-UMBRELLA-DYE-SUBLIMATION-COPY-43238165938311",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 11500,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Included": "Base Only"
+          },
+          "metadata": {
+            "source_variant_id": 43238165938311,
+            "source_requires_shipping": true,
+            "source_taxable": true,
+            "source_grams": 36287,
+            "source_position": 5,
+            "source_sku": "None",
+            "source_option_values": [
+              "Base Only"
+            ],
+            "source_compare_at_price": null
+          }
+        }
+      ],
+      "metadata": {
+        "source": "notionworx-inventory",
+        "source_handle": "9-outdoor-aluminum-patio-umbrella-dye-sublimation-copy",
+        "source_product_id": 8227675603079,
+        "source_slug": "9-outdoor-aluminum-patio-umbrella-dye-sublimation-copy",
+        "source_vendor": "Notion Worx",
+        "source_product_type": null,
+        "source_primary_category": {
+          "handle": "umbrella",
+          "title": "UMBRELLA"
+        },
+        "source_categories": [
+          {
+            "handle": "umbrella",
+            "title": "UMBRELLA"
+          }
+        ],
+        "source_price": {
+          "min": 115.0,
+          "max": 510.0,
+          "compareAtMin": null,
+          "compareAtMax": null,
+          "variantCount": 5
+        },
+        "source_tags": [],
+        "source_skus": [
+          "ITEM #: 206110",
+          "ITEM #:"
+        ],
+        "description_html": "<p><a href=\"https://displaytemplate.s3.us-west-2.amazonaws.com/Canopy+Tent/9in+patio+umbrella.pdf\">Download Template</a></p>\n<p>Handle Material</p>\n<p>Aluminum, Alloy Steel</p>\n<p>Frame Material</p>\n<p>Aluminum, Alloy Steel</p>\n\n<p>9 ft</p>\n<h1>About this item</h1>\n<p>When ordering custom graphics; the graphics will ship separately and will need to be swapped out and attached to the umbrella hardware.</p>\n<ul>\n  <li>Available electrical source--Requires 4*AA batteries (NOT INCLUDED),which can be easily purchased in common shops. Easy to carry and prepare for batteries backup.</li>\n</ul>",
+        "description_text": "Download Template\n\nHandle Material\n\nAluminum, Alloy Steel\n\nFrame Material\n\nAluminum, Alloy Steel\n\n9 ft\n\nAbout this item\n\nWhen ordering custom graphics; the graphics will ship separately and will need to be swapped out and attached to the umbrella hardware.\n\n- Available electrical source--Requires 4*AA batteries (NOT INCLUDED),which can be easily purchased in common shops. Easy to carry and prepare for batteries backup.",
+        "how_to_order_html": "<ul>\n  <li>SKU ITEM #: 206110</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
+        "how_to_order_text": "- SKU ITEM #: 206110\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
+        "dimensions_html": "<p>Size</p>",
+        "dimensions_text": "Size",
+        "warranty_html": null,
+        "warranty_text": null,
+        "source_options": [
+          {
+            "name": "Included",
+            "position": 1,
+            "values": [
+              "Frame + Graphic +Base",
+              "Graphics Only",
+              "Frame + Graphic",
+              "Frame Only",
+              "Base Only"
+            ]
+          }
+        ],
+        "source_variants": [
+          {
+            "id": 43238165807239,
+            "title": "Frame + Graphic +Base",
+            "sku": "ITEM #: 206110",
+            "available": true,
+            "price": 510.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "Frame + Graphic +Base"
+            ],
+            "requiresShipping": true,
+            "taxable": true,
+            "grams": 36287,
+            "position": 1
+          },
+          {
+            "id": 43238165840007,
+            "title": "Graphics Only",
+            "sku": "ITEM #:",
+            "available": true,
+            "price": 285.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "Graphics Only"
+            ],
+            "requiresShipping": true,
+            "taxable": true,
+            "grams": 36287,
+            "position": 2
+          },
+          {
+            "id": 43238165872775,
+            "title": "Frame + Graphic",
+            "sku": "None",
+            "available": true,
+            "price": 400.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "Frame + Graphic"
+            ],
+            "requiresShipping": true,
+            "taxable": true,
+            "grams": 36287,
+            "position": 3
+          },
+          {
+            "id": 43238165905543,
+            "title": "Frame Only",
+            "sku": "None",
+            "available": true,
+            "price": 115.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "Frame Only"
+            ],
+            "requiresShipping": true,
+            "taxable": true,
+            "grams": 36287,
+            "position": 4
+          },
+          {
+            "id": 43238165938311,
+            "title": "Base Only",
+            "sku": "None",
+            "available": true,
+            "price": 115.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "Base Only"
+            ],
+            "requiresShipping": true,
+            "taxable": true,
+            "grams": 36287,
+            "position": 5
+          }
+        ],
+        "source_variant_label": "Included",
+        "source_sizes": [
+          "Frame + Graphic +Base",
+          "Graphics Only",
+          "Frame + Graphic",
+          "Frame Only",
+          "Base Only"
+        ],
+        "source_size_variants": [
+          {
+            "value": "Frame + Graphic +Base",
+            "price": 510.0
+          },
+          {
+            "value": "Graphics Only",
+            "price": 285.0
+          },
+          {
+            "value": "Frame + Graphic",
+            "price": 400.0
+          },
+          {
+            "value": "Frame Only",
+            "price": 115.0,
+            "active": true
+          },
+          {
+            "value": "Base Only",
+            "price": 115.0,
+            "active": true
+          }
+        ],
+        "source_filter_category": [
+          "UMBRELLA"
+        ],
+        "source_filter_sizes": [
+          "Frame + Graphic +Base",
+          "Graphics Only",
+          "Frame + Graphic",
+          "Frame Only",
+          "Base Only"
+        ],
+        "source_reviews_text": "5 options",
+        "source_badge_label": "Umbrella",
+        "source_badge_subtext": "5 product images available",
+        "source_description": "Handle Material Aluminum, Alloy Steel Frame Material Aluminum, Alloy Steel 9 ft About this item When ordering custom graphics; the graphics will ship separately and will need to be swapped out and attached to the umbrella hardware. - Available electrical source--Requires 4*AA ba…",
+        "source_card_variant": "",
+        "source_add_on_group_keys": [],
+        "local_image_paths": [
+          "/assets/images/notionworx-inventory/umbrella/9-outdoor-aluminum-patio-umbrella-dye-sublimation-copy/01.jpg",
+          "/assets/images/notionworx-inventory/umbrella/9-outdoor-aluminum-patio-umbrella-dye-sublimation-copy/02.jpg",
+          "/assets/images/notionworx-inventory/umbrella/9-outdoor-aluminum-patio-umbrella-dye-sublimation-copy/03.jpg",
+          "/assets/images/notionworx-inventory/umbrella/9-outdoor-aluminum-patio-umbrella-dye-sublimation-copy/04.jpg",
+          "/assets/images/notionworx-inventory/umbrella/9-outdoor-aluminum-patio-umbrella-dye-sublimation-copy/05.jpg"
+        ],
+        "inventory_data_path": "data/inventory/notionworx/products/umbrella/9-outdoor-aluminum-patio-umbrella-dye-sublimation-copy.json",
+        "created_at": "2025-09-25T12:36:27-06:00",
+        "updated_at": "2026-08-18T21:26:11-06:00",
+        "published_at": "2025-09-28T20:17:52-06:00"
+      },
+      "sales_channels": [
+        {
+          "id": "sc_01M1E72H3K3S5QG6P0R7700SH4"
+        }
+      ]
+    }
+  ]
+}

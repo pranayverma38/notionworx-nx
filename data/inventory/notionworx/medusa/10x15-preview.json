@@ -1,0 +1,2478 @@
+{
+  "baseUrl": "https://api.notionworxcanopy.com",
+  "siteUrl": "https://notionworxcanopy.com",
+  "mode": "apply",
+  "collectionHandle": "10x15",
+  "region": {
+    "id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X",
+    "currency_code": "eur",
+    "name": "Europe"
+  },
+  "salesChannelId": "sc_01M1E72H3K3S5QG6P0R7700SH4",
+  "collection": {
+    "title": "10x15 Custom Canopies",
+    "handle": "10x15",
+    "metadata": {
+      "source": "notionworx-inventory",
+      "source_handle": "10x15",
+      "source_title": "10x15 Custom Canopies",
+      "source_description": "<p>                                                                                                                                                                                                                                  </p>",
+      "source_products_count": 14,
+      "source_image_path": "/assets/images/notionworx-inventory/collections/10x15/01.png",
+      "source_image_url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/collections/10x15/01.png",
+      "inventory_data_path": "/inventory/notionworx/collections/10x15.json"
+    }
+  },
+  "productsCount": 14,
+  "products": [
+    {
+      "title": "10x15 Custom Canopy Tent Wall – Dye-Sublimation Printed",
+      "handle": "10x15-custom-canopy-tent-wall-15ft-back-wall",
+      "external_id": "8227677405319",
+      "description": "Specsheet Warning Label Fire Certificate\n\nDescription/Feature\n\n- Wall is constructed of durable, weather-resistant 600 denier polyester\n\n- Dye sublimated on a white fabric\n\n- Hardware sold separately\n\n- Imprint Method: Full-Color Dye Sublimation\n\nKit Includes\n\n- 1: 15' Full Wall\n\n- DOES NOT INCLUDE FRAME\n\nMaterials\n\n- Wall: 600 Denier Polyester\n\nCertifications\n\n- Meets FR Rating Requirements\n\n- Primary Usage\n\n- Outdoor",
+      "status": "published",
+      "images": [
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/10x15/10x15-custom-canopy-tent-wall-15ft-back-wall/01.jpg"
+        }
+      ],
+      "thumbnail": "https://notionworxcanopy.com/assets/images/notionworx-inventory/10x15/10x15-custom-canopy-tent-wall-15ft-back-wall/01.jpg",
+      "options": [
+        {
+          "title": "Default option",
+          "values": [
+            "Default option value"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "Default variant",
+          "sku": "ITEM #: 6-15 BW",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 20500,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Default option": "Default option value"
+          },
+          "metadata": {
+            "source_variant_id": 43238179143815,
+            "source_requires_shipping": true,
+            "source_taxable": false,
+            "source_grams": 11340,
+            "source_position": 1,
+            "source_option_values": [
+              "Default Title"
+            ],
+            "source_compare_at_price": 225.5
+          }
+        }
+      ],
+      "metadata": {
+        "source": "notionworx-inventory",
+        "source_handle": "10x15-custom-canopy-tent-wall-15ft-back-wall",
+        "source_product_id": 8227677405319,
+        "source_slug": "10x15-custom-canopy-tent-wall-15ft-back-wall",
+        "source_vendor": "Notion Worx",
+        "source_product_type": null,
+        "source_primary_category": {
+          "handle": "10x15",
+          "title": "10x15 Custom Canopies"
+        },
+        "source_categories": [
+          {
+            "handle": "10x15",
+            "title": "10x15 Custom Canopies"
+          },
+          {
+            "handle": "tent",
+            "title": "Custom Canopy Tents – Personalized Pop Up Tents for Events"
+          }
+        ],
+        "source_price": {
+          "min": 205.0,
+          "max": 205.0,
+          "compareAtMin": 225.5,
+          "compareAtMax": 225.5,
+          "variantCount": 1
+        },
+        "source_tags": [],
+        "source_skus": [
+          "ITEM #: 6-15 BW"
+        ],
+        "description_html": "<h2><a href=\"https://displaytemplate.s3-us-west-2.amazonaws.com/Product+setup+instruction/Inst_10x10_TENT_Universal_curves.pdf\">Specsheet</a> <a href=\"https://drive.google.com/file/d/1jv_fBUek_UZYUHvBv_DMJG5tk42yIiah/view?usp=drive_link\">Warning Label</a> <a href=\"https://drive.google.com/file/d/1lPLYIldqjlfbOpvvoZGq-ETmb5Lb207s/view?usp=sharing\">Fire Certificate</a></h2>\n<h3>Description/Feature</h3>\n<ul>\n  <li>Wall is constructed of durable, weather-resistant 600 denier polyester</li>\n  <li>Dye sublimated on a white fabric</li>\n  <li>Hardware sold separately</li>\n  <li>Imprint Method: Full-Color Dye Sublimation<br></li>\n</ul>\n<h3>Kit Includes</h3>\n<ul>\n  <li>1: 15&#x27; Full Wall</li>\n  <li>DOES NOT INCLUDE FRAME</li>\n</ul>\n<h3>Materials</h3>\n<ul>\n  <li>Wall: 600 Denier Polyester</li>\n</ul>\n<h3>Certifications</h3>\n<ul>\n  <li>Meets FR Rating Requirements</li>\n  <li>Primary Usage</li>\n  <li>Outdoor</li>\n</ul>",
+        "description_text": "Specsheet Warning Label Fire Certificate\n\nDescription/Feature\n\n- Wall is constructed of durable, weather-resistant 600 denier polyester\n\n- Dye sublimated on a white fabric\n\n- Hardware sold separately\n\n- Imprint Method: Full-Color Dye Sublimation\n\nKit Includes\n\n- 1: 15' Full Wall\n\n- DOES NOT INCLUDE FRAME\n\nMaterials\n\n- Wall: 600 Denier Polyester\n\nCertifications\n\n- Meets FR Rating Requirements\n\n- Primary Usage\n\n- Outdoor",
+        "how_to_order_html": "<ul>\n  <li>SKU ITEM #: 6-15 BW</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
+        "how_to_order_text": "- SKU ITEM #: 6-15 BW\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
+        "dimensions_html": null,
+        "dimensions_text": null,
+        "warranty_html": "<h3>Factory Warranty</h3>\n<ul>\n  <li>We stand behind the quality of our products. Our warranty covers any factory defects or damage that occurs during shipping. However, please note that we do not cover damage resulting from extreme weather conditions, misuse, or any circumstances beyond our control.</li>\n</ul>",
+        "warranty_text": "Factory Warranty\n\n- We stand behind the quality of our products. Our warranty covers any factory defects or damage that occurs during shipping. However, please note that we do not cover damage resulting from extreme weather conditions, misuse, or any circumstances beyond our control.",
+        "source_options": [
+          {
+            "name": "Title",
+            "position": 1,
+            "values": [
+              "Default Title"
+            ]
+          }
+        ],
+        "source_variants": [
+          {
+            "id": 43238179143815,
+            "title": "Default Title",
+            "sku": "ITEM #: 6-15 BW",
+            "available": true,
+            "price": 205.0,
+            "compareAtPrice": 225.5,
+            "optionValues": [
+              "Default Title"
+            ],
+            "requiresShipping": true,
+            "taxable": false,
+            "grams": 11340,
+            "position": 1
+          }
+        ],
+        "source_variant_label": null,
+        "source_sizes": [
+          "Default option"
+        ],
+        "source_size_variants": [
+          {
+            "value": "Default option",
+            "price": 205.0,
+            "compareAtPrice": 225.5,
+            "active": true
+          }
+        ],
+        "source_filter_category": [
+          "10x15 Custom Canopies",
+          "Custom Canopy Tents – Personalized Pop Up Tents for Events"
+        ],
+        "source_filter_sizes": [],
+        "source_reviews_text": "1 option",
+        "source_badge_label": "10x15 Custom Canopies",
+        "source_badge_subtext": "1 product image available",
+        "source_description": "Description/Feature - Wall is constructed of durable, weather-resistant 600 denier polyester - Dye sublimated on a white fabric - Hardware sold separately - Imprint Method: Full-Color Dye Sublimation Kit Includes - 1: 15' Full Wall - DOES NOT INCLUDE FRAME Materials - Wall: 600…",
+        "source_card_variant": "",
+        "source_add_on_group_keys": [
+          "supplied-frame-by-customer-e760e4e24688",
+          "accessories-b04fc28012e1",
+          "upgrades-fe50b73bb3f3"
+        ],
+        "local_image_paths": [
+          "/assets/images/notionworx-inventory/10x15/10x15-custom-canopy-tent-wall-15ft-back-wall/01.jpg"
+        ],
+        "inventory_data_path": "data/inventory/notionworx/products/10x15/10x15-custom-canopy-tent-wall-15ft-back-wall.json",
+        "created_at": "2025-09-25T12:37:24-06:00",
+        "updated_at": "2026-08-18T21:23:22-06:00",
+        "published_at": "2025-09-26T09:36:43-06:00"
+      },
+      "sales_channels": [
+        {
+          "id": "sc_01M1E72H3K3S5QG6P0R7700SH4"
+        }
+      ]
+    },
+    {
+      "title": "10'x15'~ Custom Food Booth Canopy Tent Package -HEX Aluminum Frame, Full Back Wall & 3 Half Side Walls with Half Mesh with Windows.",
+      "handle": "custom-food-booth-canopy-tent-17-15",
+      "external_id": "8227672424583",
+      "description": "Specsheet Warning Label Fire Certificate\n\nCustom Food Booth Canopy Tent Package 10x15\n\nMake your food stand unforgettable with our 10x15 Custom Canopy Tent Package, designed for food vendors, farmers’ markets, festivals, and outdoor events. This professional-grade canopy combines durability, ventilation, and full customization, helping your booth stand out from the crowd.\n\nKey Features:\n\n💪 Durable Frame: Heavy-duty aluminum frame with ABS nylon hardware ensures stability and long-lasting use.\n\n🎨 Custom Printing: Full-color dye-sublimation printing on canopy top, full back wall, and half side walls for vibrant, fade-resistant graphics.\n\n🧱 Half Side Walls with Mesh: Solid fabric bottoms with mesh tops for airflow and customer visibility.\n\n🪟 Front Wall with Two Serving Windows: Efficient design for food service and interaction with customers.\n\n🚪 Left Wall with Window & Zippered Doorway: Convenient access and ventilation.\n\n🧵 Full Fabric Back Wall: Printed inward for a professional interior look.\n\n🔁 Double-Sided Printing Upgrade: Optional for maximum brand exposure on all walls.\n\n☀️ Weather-Resistant Canopy: Made of 600 Denier Polyester, UV-protected and waterproof.\n\n⚙️ Quick Pop-Up Design: Tool-free assembly allows fast setup in minutes.\n\n🧳 Wheeled Carry Bag Included: Convenient transport and storage for the frame.\n\n🎁 Complete Package: Frame, canopy top, printed walls, wheeled carry bag, free design service, and fast delivery.\n\nOptional Accessories\n\n- 6' Table Cover, Feather Flags, Sandbags\n\nMaterials\n\n- Hardware: ABS Nylon, Aluminum\n\n- Canopy: 600 Denier Polyester\n\nCertifications\n\n- Meets FR Rating Requirements\n\nPrimary Usage\n\nOutdoor events, food festivals, farmers’ markets, trade shows, and pop-up shops",
+      "status": "published",
+      "images": [
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/custom-food-booths-canopy-tents/custom-food-booth-canopy-tent-17-15/01.png"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/custom-food-booths-canopy-tents/custom-food-booth-canopy-tent-17-15/02.png"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/custom-food-booths-canopy-tents/custom-food-booth-canopy-tent-17-15/03.png"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/custom-food-booths-canopy-tents/custom-food-booth-canopy-tent-17-15/04.png"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/custom-food-booths-canopy-tents/custom-food-booth-canopy-tent-17-15/05.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/custom-food-booths-canopy-tents/custom-food-booth-canopy-tent-17-15/06.jpg"
+        }
+      ],
+      "thumbnail": "https://notionworxcanopy.com/assets/images/notionworx-inventory/custom-food-booths-canopy-tents/custom-food-booth-canopy-tent-17-15/01.png",
+      "options": [
+        {
+          "title": "Default option",
+          "values": [
+            "Default option value"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "Default variant",
+          "sku": "ITEM #: 16-15FB",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 134500,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Default option": "Default option value"
+          },
+          "metadata": {
+            "source_variant_id": 43238153846919,
+            "source_requires_shipping": true,
+            "source_taxable": false,
+            "source_grams": 36287,
+            "source_position": 1,
+            "source_option_values": [
+              "Default Title"
+            ],
+            "source_compare_at_price": 1479.5
+          }
+        }
+      ],
+      "metadata": {
+        "source": "notionworx-inventory",
+        "source_handle": "custom-food-booth-canopy-tent-17-15",
+        "source_product_id": 8227672424583,
+        "source_slug": "custom-food-booth-canopy-tent-17-15",
+        "source_vendor": "Notion Worx",
+        "source_product_type": null,
+        "source_primary_category": {
+          "handle": "custom-food-booths-canopy-tents",
+          "title": "Custom Food Booths – 5x5, 10x10, 10x15 & 10x20 Canopy Tents"
+        },
+        "source_categories": [
+          {
+            "handle": "custom-food-booths-canopy-tents",
+            "title": "Custom Food Booths – 5x5, 10x10, 10x15 & 10x20 Canopy Tents"
+          },
+          {
+            "handle": "10x15",
+            "title": "10x15 Custom Canopies"
+          }
+        ],
+        "source_price": {
+          "min": 1345.0,
+          "max": 1345.0,
+          "compareAtMin": 1479.5,
+          "compareAtMax": 1479.5,
+          "variantCount": 1
+        },
+        "source_tags": [],
+        "source_skus": [
+          "ITEM #: 16-15FB"
+        ],
+        "description_html": "<h3><a href=\"https://displaytemplate.s3-us-west-2.amazonaws.com/Product+setup+instruction/Inst_10x10_TENT_Universal_curves.pdf\">Specsheet</a> <a href=\"https://drive.google.com/file/d/1jv_fBUek_UZYUHvBv_DMJG5tk42yIiah/view?usp=drive_link\">Warning Label</a> <a href=\"https://drive.google.com/file/d/1lPLYIldqjlfbOpvvoZGq-ETmb5Lb207s/view?usp=sharing\">Fire Certificate</a></h3>\n<h3>Custom Food Booth Canopy Tent Package 10x15</h3>\n<p>Make your food stand unforgettable with our 10x15 Custom Canopy Tent Package, designed for food vendors, farmers’ markets, festivals, and outdoor events. This professional-grade canopy combines durability, ventilation, and full customization, helping your booth stand out from the crowd.</p>\n<p>Key Features:</p>\n\n<p>💪 Durable Frame: Heavy-duty aluminum frame with ABS nylon hardware ensures stability and long-lasting use.</p>\n<p>🎨 Custom Printing: Full-color dye-sublimation printing on canopy top, full back wall, and half side walls for vibrant, fade-resistant graphics.</p>\n<p>🧱 Half Side Walls with Mesh: Solid fabric bottoms with mesh tops for airflow and customer visibility.</p>\n<p>🪟 Front Wall with Two Serving Windows: Efficient design for food service and interaction with customers.</p>\n<p>🚪 Left Wall with Window &amp; Zippered Doorway: Convenient access and ventilation.</p>\n<p>🧵 Full Fabric Back Wall: Printed inward for a professional interior look.</p>\n<p>🔁 Double-Sided Printing Upgrade: Optional for maximum brand exposure on all walls.</p>\n<p>☀️ Weather-Resistant Canopy: Made of 600 Denier Polyester, UV-protected and waterproof.</p>\n<p>⚙️ Quick Pop-Up Design: Tool-free assembly allows fast setup in minutes.</p>\n<p>🧳 Wheeled Carry Bag Included: Convenient transport and storage for the frame.</p>\n<p>🎁 Complete Package: Frame, canopy top, printed walls, wheeled carry bag, free design service, and fast delivery.</p>\n<h3>Optional Accessories</h3>\n<ul>\n  <li>6&#x27; Table Cover, Feather Flags, Sandbags</li>\n</ul>\n<h3>Materials</h3>\n<ul>\n  <li>Hardware: ABS Nylon, Aluminum</li>\n  <li>Canopy: 600 Denier Polyester</li>\n</ul>\n<h3>Certifications</h3>\n<ul>\n  <li>Meets FR Rating Requirements</li>\n</ul>\n<h3>Primary Usage</h3>\n<p>Outdoor events, food festivals, farmers’ markets, trade shows, and pop-up shops</p>",
+        "description_text": "Specsheet Warning Label Fire Certificate\n\nCustom Food Booth Canopy Tent Package 10x15\n\nMake your food stand unforgettable with our 10x15 Custom Canopy Tent Package, designed for food vendors, farmers’ markets, festivals, and outdoor events. This professional-grade canopy combines durability, ventilation, and full customization, helping your booth stand out from the crowd.\n\nKey Features:\n\n💪 Durable Frame: Heavy-duty aluminum frame with ABS nylon hardware ensures stability and long-lasting use.\n\n🎨 Custom Printing: Full-color dye-sublimation printing on canopy top, full back wall, and half side walls for vibrant, fade-resistant graphics.\n\n🧱 Half Side Walls with Mesh: Solid fabric bottoms with mesh tops for airflow and customer visibility.\n\n🪟 Front Wall with Two Serving Windows: Efficient design for food service and interaction with customers.\n\n🚪 Left Wall with Window & Zippered Doorway: Convenient access and ventilation.\n\n🧵 Full Fabric Back Wall: Printed inward for a professional interior look.\n\n🔁 Double-Sided Printing Upgrade: Optional for maximum brand exposure on all walls.\n\n☀️ Weather-Resistant Canopy: Made of 600 Denier Polyester, UV-protected and waterproof.\n\n⚙️ Quick Pop-Up Design: Tool-free assembly allows fast setup in minutes.\n\n🧳 Wheeled Carry Bag Included: Convenient transport and storage for the frame.\n\n🎁 Complete Package: Frame, canopy top, printed walls, wheeled carry bag, free design service, and fast delivery.\n\nOptional Accessories\n\n- 6' Table Cover, Feather Flags, Sandbags\n\nMaterials\n\n- Hardware: ABS Nylon, Aluminum\n\n- Canopy: 600 Denier Polyester\n\nCertifications\n\n- Meets FR Rating Requirements\n\nPrimary Usage\n\nOutdoor events, food festivals, farmers’ markets, trade shows, and pop-up shops",
+        "how_to_order_html": "<ul>\n  <li>SKU ITEM #: 16-15FB</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
+        "how_to_order_text": "- SKU ITEM #: 16-15FB\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
+        "dimensions_html": "<p>🏕️ Product Size: 120&quot; W x 137&quot; H x 180&quot; D – spacious 10x15 setup for larger vendor areas.</p>",
+        "dimensions_text": "🏕️ Product Size: 120\" W x 137\" H x 180\" D – spacious 10x15 setup for larger vendor areas.",
+        "warranty_html": "<h3>Factory Warranty</h3>\n<ul>\n  <li>We stand behind the quality of our products. Our warranty covers any factory defects or damage that occurs during shipping. However, please note that we do not cover damage resulting from extreme weather conditions, misuse, or any circumstances beyond our control.</li>\n</ul>",
+        "warranty_text": "Factory Warranty\n\n- We stand behind the quality of our products. Our warranty covers any factory defects or damage that occurs during shipping. However, please note that we do not cover damage resulting from extreme weather conditions, misuse, or any circumstances beyond our control.",
+        "source_options": [
+          {
+            "name": "Title",
+            "position": 1,
+            "values": [
+              "Default Title"
+            ]
+          }
+        ],
+        "source_variants": [
+          {
+            "id": 43238153846919,
+            "title": "Default Title",
+            "sku": "ITEM #: 16-15FB",
+            "available": true,
+            "price": 1345.0,
+            "compareAtPrice": 1479.5,
+            "optionValues": [
+              "Default Title"
+            ],
+            "requiresShipping": true,
+            "taxable": false,
+            "grams": 36287,
+            "position": 1
+          }
+        ],
+        "source_variant_label": null,
+        "source_sizes": [
+          "Default option"
+        ],
+        "source_size_variants": [
+          {
+            "value": "Default option",
+            "price": 1345.0,
+            "compareAtPrice": 1479.5,
+            "active": true
+          }
+        ],
+        "source_filter_category": [
+          "Custom Food Booths – 5x5, 10x10, 10x15 & 10x20 Canopy Tents",
+          "10x15 Custom Canopies"
+        ],
+        "source_filter_sizes": [],
+        "source_reviews_text": "1 option",
+        "source_badge_label": "Custom Food Booths – 5x5, 10x10, 10x15 & 10x20 Canopy Tents",
+        "source_badge_subtext": "6 product images available",
+        "source_description": "Custom Food Booth Canopy Tent Package 10x15 Make your food stand unforgettable with our 10x15 Custom Canopy Tent Package, designed for food vendors, farmers’ markets, festivals, and outdoor events. This professional-grade canopy combines durability, ventilation, and full customi…",
+        "source_card_variant": "",
+        "source_add_on_group_keys": [
+          "accessories-ed977d180aed",
+          "upgrades-7e01c25ca7d1"
+        ],
+        "local_image_paths": [
+          "/assets/images/notionworx-inventory/custom-food-booths-canopy-tents/custom-food-booth-canopy-tent-17-15/01.png",
+          "/assets/images/notionworx-inventory/custom-food-booths-canopy-tents/custom-food-booth-canopy-tent-17-15/02.png",
+          "/assets/images/notionworx-inventory/custom-food-booths-canopy-tents/custom-food-booth-canopy-tent-17-15/03.png",
+          "/assets/images/notionworx-inventory/custom-food-booths-canopy-tents/custom-food-booth-canopy-tent-17-15/04.png",
+          "/assets/images/notionworx-inventory/custom-food-booths-canopy-tents/custom-food-booth-canopy-tent-17-15/05.jpg",
+          "/assets/images/notionworx-inventory/custom-food-booths-canopy-tents/custom-food-booth-canopy-tent-17-15/06.jpg"
+        ],
+        "inventory_data_path": "data/inventory/notionworx/products/custom-food-booths-canopy-tents/custom-food-booth-canopy-tent-17-15.json",
+        "created_at": "2025-09-25T12:34:05-06:00",
+        "updated_at": "2026-08-18T21:23:41-06:00",
+        "published_at": "2025-09-26T09:36:35-06:00"
+      },
+      "sales_channels": [
+        {
+          "id": "sc_01M1E72H3K3S5QG6P0R7700SH4"
+        }
+      ]
+    },
+    {
+      "title": "10' Canopy Tent Half Side Walls (Set of 2) with Hardware – Custom Printing Available",
+      "handle": "half-side-walls",
+      "external_id": "8227677339783",
+      "description": "Specsheet Warning Label Fire Certificate\n\n10' Half Walls – Set of 2 (Single-Sided)\n\nUpgrade your canopy setup with a set of two 10' Half Walls, designed to enhance branding visibility, define vendor space, and provide partial wind protection without blocking customer access. Made from durable 600D weather-resistant polyester and printed using premium full-color dye sublimation, these walls deliver crisp, vibrant graphics ideal for outdoor use.\nFrame not included.\n\nFeatures\n\n🛡️ 600D Weather-Resistant Polyester: Tough, long-lasting material made for outdoor conditions.\n🎨 Full-Color Dye Sublimation: High-resolution, fade-resistant printing on a white fabric base.\n🔧 Hardware Included: Comes with mounting hardware for easy installation on compatible canopy frames.\n🖨️ Imprint Method: Full-color dye sublimation for vivid, professional branding.\n\nKit Includes\n\n- 🧩 2× Half Walls\n\n- 🔩 1× Hardware Set (Mounting Kit)\n\n- ⚠️ Frame NOT Included\n\nMaterials\n\n🧵 Half Walls: 600 Denier Polyester\n\nCertifications\n\n🔥 Meets FR Rating Requirements (Fire-Resistant)\n\nPrimary Usage\n\nPerfect for outdoor events, vendor booths, markets, trade shows, food stands, and brand activations.",
+      "status": "published",
+      "images": [
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/10x15/half-side-walls/01.jpg"
+        }
+      ],
+      "thumbnail": "https://notionworxcanopy.com/assets/images/notionworx-inventory/10x15/half-side-walls/01.jpg",
+      "options": [
+        {
+          "title": "Default option",
+          "values": [
+            "Default option value"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "Default variant",
+          "sku": "ITEM #: 10-SW",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 26500,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Default option": "Default option value"
+          },
+          "metadata": {
+            "source_variant_id": 43238179012743,
+            "source_requires_shipping": true,
+            "source_taxable": false,
+            "source_grams": 9072,
+            "source_position": 1,
+            "source_option_values": [
+              "Default Title"
+            ],
+            "source_compare_at_price": 291.5
+          }
+        }
+      ],
+      "metadata": {
+        "source": "notionworx-inventory",
+        "source_handle": "half-side-walls",
+        "source_product_id": 8227677339783,
+        "source_slug": "half-side-walls",
+        "source_vendor": "Notion Worx",
+        "source_product_type": null,
+        "source_primary_category": {
+          "handle": "10x15",
+          "title": "10x15 Custom Canopies"
+        },
+        "source_categories": [
+          {
+            "handle": "10x15",
+            "title": "10x15 Custom Canopies"
+          },
+          {
+            "handle": "10x20",
+            "title": "10x20 Custom Canopies"
+          },
+          {
+            "handle": "10x10",
+            "title": "10x10 Custom Canopies"
+          },
+          {
+            "handle": "tent",
+            "title": "Custom Canopy Tents – Personalized Pop Up Tents for Events"
+          }
+        ],
+        "source_price": {
+          "min": 265,
+          "max": 265,
+          "compareAtMin": 291.5,
+          "compareAtMax": 291.5,
+          "variantCount": 1
+        },
+        "source_tags": [],
+        "source_skus": [
+          "ITEM #: 10-SW"
+        ],
+        "description_html": "<h2><a href=\"https://displaytemplate.s3-us-west-2.amazonaws.com/Product+setup+instruction/Inst_10x10_TENT_Universal_curves.pdf\">Specsheet</a> <a href=\"https://drive.google.com/file/d/1jv_fBUek_UZYUHvBv_DMJG5tk42yIiah/view?usp=drive_link\">Warning Label</a> <a href=\"https://drive.google.com/file/d/1lPLYIldqjlfbOpvvoZGq-ETmb5Lb207s/view?usp=sharing\">Fire Certificate</a></h2>\n<h2>10&#x27; Half Walls – Set of 2 (Single-Sided)</h2>\n<p>Upgrade your canopy setup with a set of two 10&#x27; Half Walls, designed to enhance branding visibility, define vendor space, and provide partial wind protection without blocking customer access. Made from durable 600D weather-resistant polyester and printed using premium full-color dye sublimation, these walls deliver crisp, vibrant graphics ideal for outdoor use.<br>Frame not included.</p>\n<h3>Features</h3>\n<p>🛡️ 600D Weather-Resistant Polyester: Tough, long-lasting material made for outdoor conditions.<br>🎨 Full-Color Dye Sublimation: High-resolution, fade-resistant printing on a white fabric base.<br>🔧 Hardware Included: Comes with mounting hardware for easy installation on compatible canopy frames.<br>🖨️ Imprint Method: Full-color dye sublimation for vivid, professional branding.</p>\n<h3>Kit Includes</h3>\n<ul>\n  <li>🧩 2× Half Walls</li>\n  <li>🔩 1× Hardware Set (Mounting Kit)</li>\n  <li>⚠️ Frame NOT Included</li>\n</ul>\n<h3>Materials</h3>\n<p>🧵 Half Walls: 600 Denier Polyester</p>\n<h3>Certifications</h3>\n<p>🔥 Meets FR Rating Requirements (Fire-Resistant)</p>\n<h3>Primary Usage</h3>\n<p>Perfect for outdoor events, vendor booths, markets, trade shows, food stands, and brand activations.</p>",
+        "description_text": "Specsheet Warning Label Fire Certificate\n\n10' Half Walls – Set of 2 (Single-Sided)\n\nUpgrade your canopy setup with a set of two 10' Half Walls, designed to enhance branding visibility, define vendor space, and provide partial wind protection without blocking customer access. Made from durable 600D weather-resistant polyester and printed using premium full-color dye sublimation, these walls deliver crisp, vibrant graphics ideal for outdoor use.\nFrame not included.\n\nFeatures\n\n🛡️ 600D Weather-Resistant Polyester: Tough, long-lasting material made for outdoor conditions.\n🎨 Full-Color Dye Sublimation: High-resolution, fade-resistant printing on a white fabric base.\n🔧 Hardware Included: Comes with mounting hardware for easy installation on compatible canopy frames.\n🖨️ Imprint Method: Full-color dye sublimation for vivid, professional branding.\n\nKit Includes\n\n- 🧩 2× Half Walls\n\n- 🔩 1× Hardware Set (Mounting Kit)\n\n- ⚠️ Frame NOT Included\n\nMaterials\n\n🧵 Half Walls: 600 Denier Polyester\n\nCertifications\n\n🔥 Meets FR Rating Requirements (Fire-Resistant)\n\nPrimary Usage\n\nPerfect for outdoor events, vendor booths, markets, trade shows, food stands, and brand activations.",
+        "how_to_order_html": "<ul>\n  <li>SKU ITEM #: 10-SW</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
+        "how_to_order_text": "- SKU ITEM #: 10-SW\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
+        "dimensions_html": null,
+        "dimensions_text": null,
+        "warranty_html": "<h2>Factory Warranty</h2>\n<p>We stand behind the quality of our products. Our warranty covers any factory defects or damage that occurs during shipping. However, please note that we do not cover damage resulting from extreme weather conditions, misuse, or any circumstances beyond our control.</p>",
+        "warranty_text": "Factory Warranty\n\nWe stand behind the quality of our products. Our warranty covers any factory defects or damage that occurs during shipping. However, please note that we do not cover damage resulting from extreme weather conditions, misuse, or any circumstances beyond our control.",
+        "source_options": [
+          {
+            "name": "Title",
+            "position": 1,
+            "values": [
+              "Default Title"
+            ]
+          }
+        ],
+        "source_variants": [
+          {
+            "id": 43238179012743,
+            "title": "Default Title",
+            "sku": "ITEM #: 10-SW",
+            "available": true,
+            "price": 265,
+            "compareAtPrice": 291.5,
+            "optionValues": [
+              "Default Title"
+            ],
+            "requiresShipping": true,
+            "taxable": false,
+            "grams": 9072,
+            "position": 1
+          }
+        ],
+        "source_variant_label": null,
+        "source_sizes": [
+          "Default option"
+        ],
+        "source_size_variants": [
+          {
+            "value": "Default option",
+            "price": 265.0,
+            "compareAtPrice": 291.5,
+            "active": true
+          }
+        ],
+        "source_filter_category": [
+          "10x15 Custom Canopies",
+          "10x20 Custom Canopies",
+          "10x10 Custom Canopies",
+          "Custom Canopy Tents – Personalized Pop Up Tents for Events"
+        ],
+        "source_filter_sizes": [],
+        "source_reviews_text": "1 option",
+        "source_badge_label": "10x15 Custom Canopies",
+        "source_badge_subtext": "1 product image available",
+        "source_description": "10' Half Walls – Set of 2 (Single-Sided) Upgrade your canopy setup with a set of two 10' Half Walls, designed to enhance branding visibility, define vendor space, and provide partial wind protection without blocking customer access. Made from durable 600D weather-resistant polye…",
+        "source_card_variant": "",
+        "source_add_on_group_keys": [
+          "supplied-frame-by-customer-e760e4e24688",
+          "accessories-b04fc28012e1",
+          "upgrades-539fa8f7d4dc"
+        ],
+        "local_image_paths": [
+          "/assets/images/notionworx-inventory/10x15/half-side-walls/01.jpg"
+        ],
+        "inventory_data_path": "data/inventory/notionworx/products/10x15/half-side-walls.json",
+        "created_at": "2025-09-25T12:37:22-06:00",
+        "updated_at": "2026-08-18T21:23:22-06:00",
+        "published_at": "2025-09-26T09:36:42-06:00"
+      },
+      "sales_channels": [
+        {
+          "id": "sc_01M1E72H3K3S5QG6P0R7700SH4"
+        }
+      ]
+    },
+    {
+      "title": "Half Wall Hardware",
+      "handle": "half-wall-hardware",
+      "external_id": "8227683139719",
+      "description": "Half Wall Support Pole spans between the tent hardware and clamps to keep your Half Wall graphic straight and secure. The pole is telescopic to fit within your carrying case with the tent hardware and extends to clamp to tent legs. Package includes 2 Hex Clamps (1 Straight and 1 Offset) to secure to tent hardware.",
+      "status": "published",
+      "images": [
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/10x15/half-wall-hardware/01.webp"
+        }
+      ],
+      "thumbnail": "https://notionworxcanopy.com/assets/images/notionworx-inventory/10x15/half-wall-hardware/01.webp",
+      "options": [
+        {
+          "title": "Default option",
+          "values": [
+            "Default option value"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "Default variant",
+          "sku": "NW-TENT-HALF-WALL-HARDWARE-43238205948039",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 8700,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Default option": "Default option value"
+          },
+          "metadata": {
+            "source_variant_id": 43238205948039,
+            "source_requires_shipping": true,
+            "source_taxable": false,
+            "source_grams": 3629,
+            "source_position": 1,
+            "source_option_values": [
+              "Default Title"
+            ],
+            "source_compare_at_price": null
+          }
+        }
+      ],
+      "metadata": {
+        "source": "notionworx-inventory",
+        "source_handle": "half-wall-hardware",
+        "source_product_id": 8227683139719,
+        "source_slug": "half-wall-hardware",
+        "source_vendor": "Notion Worx",
+        "source_product_type": null,
+        "source_primary_category": {
+          "handle": "10x15",
+          "title": "10x15 Custom Canopies"
+        },
+        "source_categories": [
+          {
+            "handle": "10x15",
+            "title": "10x15 Custom Canopies"
+          },
+          {
+            "handle": "10x20",
+            "title": "10x20 Custom Canopies"
+          },
+          {
+            "handle": "10x10",
+            "title": "10x10 Custom Canopies"
+          }
+        ],
+        "source_price": {
+          "min": 87,
+          "max": 87,
+          "compareAtMin": null,
+          "compareAtMax": null,
+          "variantCount": 1
+        },
+        "source_tags": [],
+        "source_skus": [],
+        "description_html": "<p>Half Wall Support Pole spans between the tent hardware and clamps to keep your Half Wall graphic straight and secure. The pole is telescopic to fit within your carrying case with the tent hardware and extends to clamp to tent legs. Package includes 2 Hex Clamps (1 Straight and 1 Offset) to secure to tent hardware.</p>",
+        "description_text": "Half Wall Support Pole spans between the tent hardware and clamps to keep your Half Wall graphic straight and secure. The pole is telescopic to fit within your carrying case with the tent hardware and extends to clamp to tent legs. Package includes 2 Hex Clamps (1 Straight and 1 Offset) to secure to tent hardware.",
+        "how_to_order_html": null,
+        "how_to_order_text": null,
+        "dimensions_html": null,
+        "dimensions_text": null,
+        "warranty_html": null,
+        "warranty_text": null,
+        "source_options": [
+          {
+            "name": "Title",
+            "position": 1,
+            "values": [
+              "Default Title"
+            ]
+          }
+        ],
+        "source_variants": [
+          {
+            "id": 43238205948039,
+            "title": "Default Title",
+            "sku": "None",
+            "available": true,
+            "price": 87,
+            "compareAtPrice": null,
+            "optionValues": [
+              "Default Title"
+            ],
+            "requiresShipping": true,
+            "taxable": false,
+            "grams": 3629,
+            "position": 1
+          }
+        ],
+        "source_variant_label": null,
+        "source_sizes": [
+          "Default option"
+        ],
+        "source_size_variants": [
+          {
+            "value": "Default option",
+            "price": 87.0,
+            "active": true
+          }
+        ],
+        "source_filter_category": [
+          "10x15 Custom Canopies",
+          "10x20 Custom Canopies",
+          "10x10 Custom Canopies"
+        ],
+        "source_filter_sizes": [],
+        "source_reviews_text": "1 option",
+        "source_badge_label": "10x15 Custom Canopies",
+        "source_badge_subtext": "1 product image available",
+        "source_description": "Half Wall Support Pole spans between the tent hardware and clamps to keep your Half Wall graphic straight and secure. The pole is telescopic to fit within your carrying case with the tent hardware and extends to clamp to tent legs. Package includes 2 Hex Clamps (1 Straight and 1…",
+        "source_card_variant": "",
+        "source_add_on_group_keys": [],
+        "local_image_paths": [
+          "/assets/images/notionworx-inventory/10x15/half-wall-hardware/01.webp"
+        ],
+        "inventory_data_path": "data/inventory/notionworx/products/10x15/half-wall-hardware.json",
+        "created_at": "2025-09-25T12:40:44-06:00",
+        "updated_at": "2026-08-18T21:23:38-06:00",
+        "published_at": "2025-09-28T21:06:04-06:00"
+      },
+      "sales_channels": [
+        {
+          "id": "sc_01M1E72H3K3S5QG6P0R7700SH4"
+        }
+      ]
+    },
+    {
+      "title": "LED Light Bars for Canopy Tents",
+      "handle": "led-light-bars",
+      "external_id": "8288933380231",
+      "description": "LED Light Bars for Canopy Tents\n\nBrighten up your booth and stand out at any event with our LED Light Bars for Canopy Tents — the perfect lighting solution for food vendors, trade shows, night markets, and outdoor festivals. Designed to deliver powerful illumination while remaining lightweight and easy to install, these LED bars ensure your products and branding stay visible, day or night.\n\n💡 Ultra-Bright Illumination: High-output LED bars provide even, consistent lighting across your entire canopy.\n🔆 3 Light Modes: Switch between Daylight, Warm, and Amber settings to match the mood, event style, or time of day.\n🔋 Energy-Efficient LEDs: Long-lasting, low-power-consumption lights designed for all-day use.\n⚙️ Easy Installation: Mounts securely to canopy tent frames—no tools required.\n🎪 Universal Fit: Compatible with most 10x10, 10x15, and 10x20 canopy tent structures.\n🔌 Multiple Power Options: Includes AC adapter for standard outlets; battery-pack compatible (optional).\n🎒 Portable & Lightweight: Designed for quick setup, takedown, and transport.\n🌙 Perfect for Night Events: Ideal for food booths, vendor displays, art shows, and evening festivals.\n🛠️ Durable Build: Shock-resistant housing suitable for repeated outdoor use.\n\nWhat’s Included:\n\n- (4) Light Bars\n\n- Carrying Bag\n\n- Outlet Power Cable\n\n- USB Power Cable\n\n- Battery Power Cable\n\n- 12V auxiliary Power Cable\n\n- Extension Cables\n\n- Switch Cable\n\n- 2-Way Connector\n\n- 4-Way Connector\n\n- Canopy Clips\n\n- Screw Mount Clips\n\n- Cable Ties (Hook-and-loop)\n\n- Zip Ties\n\nAdditional Notes:\n\n- 8 light bars is the max limit to connect\n\n- If used with a metal frame, lights can attach with the magnet that is on the back of them.\n\n- Lights have 3 tones: Daylight, Warm Light, and Amber (bug repelling)\n\n- 6 watts per light, 680 lumens, Voltage：12v, 0.5 amps. ETL Certified\n\nPrimary Usage:\n\nFood booths, vendor tents, farmers’ markets, night events, trade shows, craft fairs, outdoor festivals.",
+      "status": "published",
+      "images": [
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/accesories/led-light-bars/01.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/accesories/led-light-bars/02.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/accesories/led-light-bars/03.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/accesories/led-light-bars/04.jpg"
+        }
+      ],
+      "thumbnail": "https://notionworxcanopy.com/assets/images/notionworx-inventory/accesories/led-light-bars/01.jpg",
+      "options": [
+        {
+          "title": "Default option",
+          "values": [
+            "Default option value"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "Default variant",
+          "sku": "ITEM #: LLT",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 21900,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Default option": "Default option value"
+          },
+          "metadata": {
+            "source_variant_id": 43550813487239,
+            "source_requires_shipping": true,
+            "source_taxable": false,
+            "source_grams": 0,
+            "source_position": 1,
+            "source_option_values": [
+              "Default Title"
+            ],
+            "source_compare_at_price": 240.9
+          }
+        }
+      ],
+      "metadata": {
+        "source": "notionworx-inventory",
+        "source_handle": "led-light-bars",
+        "source_product_id": 8288933380231,
+        "source_slug": "led-light-bars",
+        "source_vendor": "Notion Worx",
+        "source_product_type": null,
+        "source_primary_category": {
+          "handle": "accesories",
+          "title": "Accessories"
+        },
+        "source_categories": [
+          {
+            "handle": "accesories",
+            "title": "Accessories"
+          },
+          {
+            "handle": "5x5-custom-canopy",
+            "title": "5x5 Custom Canopies"
+          },
+          {
+            "handle": "10x15",
+            "title": "10x15 Custom Canopies"
+          },
+          {
+            "handle": "10x20",
+            "title": "10x20 Custom Canopies"
+          },
+          {
+            "handle": "10x10",
+            "title": "10x10 Custom Canopies"
+          }
+        ],
+        "source_price": {
+          "min": 219,
+          "max": 219,
+          "compareAtMin": 240.9,
+          "compareAtMax": 240.9,
+          "variantCount": 1
+        },
+        "source_tags": [],
+        "source_skus": [
+          "ITEM #: LLT"
+        ],
+        "description_html": "<h2>LED Light Bars for Canopy Tents</h2>\n<p>Brighten up your booth and stand out at any event with our LED Light Bars for Canopy Tents — the perfect lighting solution for food vendors, trade shows, night markets, and outdoor festivals. Designed to deliver powerful illumination while remaining lightweight and easy to install, these LED bars ensure your products and branding stay visible, day or night.</p>\n<p>💡 Ultra-Bright Illumination: High-output LED bars provide even, consistent lighting across your entire canopy.<br>🔆 3 Light Modes: Switch between Daylight, Warm, and Amber settings to match the mood, event style, or time of day.<br>🔋 Energy-Efficient LEDs: Long-lasting, low-power-consumption lights designed for all-day use.<br>⚙️ Easy Installation: Mounts securely to canopy tent frames—no tools required.<br>🎪 Universal Fit: Compatible with most 10x10, 10x15, and 10x20 canopy tent structures.<br>🔌 Multiple Power Options: Includes AC adapter for standard outlets; battery-pack compatible (optional).<br>🎒 Portable &amp; Lightweight: Designed for quick setup, takedown, and transport.<br>🌙 Perfect for Night Events: Ideal for food booths, vendor displays, art shows, and evening festivals.<br>🛠️ Durable Build: Shock-resistant housing suitable for repeated outdoor use.</p>\n<h2>What’s Included:</h2>\n<ul>\n  <li>(4) Light Bars</li>\n  <li>Carrying Bag</li>\n  <li>Outlet Power Cable</li>\n  <li>USB Power Cable</li>\n  <li>Battery Power Cable</li>\n  <li>12V auxiliary Power Cable</li>\n  <li>Extension Cables</li>\n  <li>Switch Cable</li>\n  <li>2-Way Connector</li>\n  <li>4-Way Connector</li>\n  <li>Canopy Clips</li>\n  <li>Screw Mount Clips</li>\n  <li>Cable Ties (Hook-and-loop)</li>\n  <li>Zip Ties</li>\n</ul>\n<h2>Additional Notes:</h2>\n<ul>\n  <li>8 light bars is the max limit to connect</li>\n  <li>If used with a metal frame, lights can attach with the magnet that is on the back of them.</li>\n  <li>Lights have 3 tones: Daylight, Warm Light, and Amber (bug repelling)</li>\n  <li>6 watts per light, 680 lumens, Voltage：12v, 0.5 amps. ETL Certified</li>\n</ul>\n<h2>Primary Usage:</h2>\n<p>Food booths, vendor tents, farmers’ markets, night events, trade shows, craft fairs, outdoor festivals.</p>",
+        "description_text": "LED Light Bars for Canopy Tents\n\nBrighten up your booth and stand out at any event with our LED Light Bars for Canopy Tents — the perfect lighting solution for food vendors, trade shows, night markets, and outdoor festivals. Designed to deliver powerful illumination while remaining lightweight and easy to install, these LED bars ensure your products and branding stay visible, day or night.\n\n💡 Ultra-Bright Illumination: High-output LED bars provide even, consistent lighting across your entire canopy.\n🔆 3 Light Modes: Switch between Daylight, Warm, and Amber settings to match the mood, event style, or time of day.\n🔋 Energy-Efficient LEDs: Long-lasting, low-power-consumption lights designed for all-day use.\n⚙️ Easy Installation: Mounts securely to canopy tent frames—no tools required.\n🎪 Universal Fit: Compatible with most 10x10, 10x15, and 10x20 canopy tent structures.\n🔌 Multiple Power Options: Includes AC adapter for standard outlets; battery-pack compatible (optional).\n🎒 Portable & Lightweight: Designed for quick setup, takedown, and transport.\n🌙 Perfect for Night Events: Ideal for food booths, vendor displays, art shows, and evening festivals.\n🛠️ Durable Build: Shock-resistant housing suitable for repeated outdoor use.\n\nWhat’s Included:\n\n- (4) Light Bars\n\n- Carrying Bag\n\n- Outlet Power Cable\n\n- USB Power Cable\n\n- Battery Power Cable\n\n- 12V auxiliary Power Cable\n\n- Extension Cables\n\n- Switch Cable\n\n- 2-Way Connector\n\n- 4-Way Connector\n\n- Canopy Clips\n\n- Screw Mount Clips\n\n- Cable Ties (Hook-and-loop)\n\n- Zip Ties\n\nAdditional Notes:\n\n- 8 light bars is the max limit to connect\n\n- If used with a metal frame, lights can attach with the magnet that is on the back of them.\n\n- Lights have 3 tones: Daylight, Warm Light, and Amber (bug repelling)\n\n- 6 watts per light, 680 lumens, Voltage：12v, 0.5 amps. ETL Certified\n\nPrimary Usage:\n\nFood booths, vendor tents, farmers’ markets, night events, trade shows, craft fairs, outdoor festivals.",
+        "how_to_order_html": "<ul>\n  <li>SKU ITEM #: LLT</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
+        "how_to_order_text": "SKU ITEM #: LLT\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
+        "dimensions_html": null,
+        "dimensions_text": null,
+        "warranty_html": null,
+        "warranty_text": null,
+        "source_options": [
+          {
+            "name": "Title",
+            "position": 1,
+            "values": [
+              "Default Title"
+            ]
+          }
+        ],
+        "source_variants": [
+          {
+            "id": 43550813487239,
+            "title": "Default Title",
+            "sku": "ITEM #: LLT",
+            "available": true,
+            "price": 219,
+            "compareAtPrice": 240.9,
+            "optionValues": [
+              "Default Title"
+            ],
+            "requiresShipping": true,
+            "taxable": false,
+            "grams": 0,
+            "position": 1
+          }
+        ],
+        "source_variant_label": null,
+        "source_sizes": [
+          "Default option"
+        ],
+        "source_size_variants": [
+          {
+            "value": "Default option",
+            "price": 219.0,
+            "compareAtPrice": 240.9,
+            "active": true
+          }
+        ],
+        "source_filter_category": [
+          "Accessories",
+          "5x5 Custom Canopies",
+          "10x15 Custom Canopies",
+          "10x20 Custom Canopies",
+          "10x10 Custom Canopies"
+        ],
+        "source_filter_sizes": [],
+        "source_reviews_text": "1 option",
+        "source_badge_label": "Accessories",
+        "source_badge_subtext": "4 product images available",
+        "source_description": "LED Light Bars for Canopy Tents Brighten up your booth and stand out at any event with our LED Light Bars for Canopy Tents — the perfect lighting solution for food vendors, trade shows, night markets, and outdoor festivals. Designed to deliver powerful illumination while remaini…",
+        "source_card_variant": "",
+        "source_add_on_group_keys": [],
+        "local_image_paths": [
+          "/assets/images/notionworx-inventory/accesories/led-light-bars/01.jpg",
+          "/assets/images/notionworx-inventory/accesories/led-light-bars/02.jpg",
+          "/assets/images/notionworx-inventory/accesories/led-light-bars/03.jpg",
+          "/assets/images/notionworx-inventory/accesories/led-light-bars/04.jpg"
+        ],
+        "inventory_data_path": "data/inventory/notionworx/products/accesories/led-light-bars.json",
+        "created_at": "2025-12-03T14:55:11-07:00",
+        "updated_at": "2026-08-18T21:23:34-06:00",
+        "published_at": "2025-12-03T14:55:13-07:00"
+      },
+      "sales_channels": [
+        {
+          "id": "sc_01M1E72H3K3S5QG6P0R7700SH4"
+        }
+      ]
+    },
+    {
+      "title": "300W Portable Power Station",
+      "handle": "portable-power-station-300w",
+      "external_id": "8428094652551",
+      "description": "📦\n\nPortable Power Station 300W, Outdoor Solar Generator Backup Battery Pack 220Wh/60000mAh\n\nAbout this item\n\n- PORTABLE POWER STATION WITH ENHANCED CAPACITY: Experience the convenience with our 300W portable power station. Designed with a sleek and compact form factor measuring 8.5 x 6.7 x 4.1 inches and weighing a mere 5 lbs, this battery station is your perfect companion for home, camping, and beyond. Equipped with an upgraded 220Wh/60000mAh lithium-ion battery pack, powerful enough to charge up to 7 devices simultaneously.\n\n- PORTABLE SOLAR POWER BANK WITH 7 OUTPUTS: This portable solar power bank battery pack features with 7 outlets. 2x110V AC outlet Pure Sine Wave to charge appliances within 300W(600W Peak),3 USB ports (5V/3.1A Max), 1 USB port (5V/3A, 9V/2A), and 1 DC vehicle output port (9-12.6V, 10A max), this portable solar power bank compatible with a wide range of devices. Enjoy simultaneous charging without any disruptive fan noise, ensuring a serene and comfortable environment wherever you are\n\n- SOLAR GENERATOR OPTIONAL: This 300W power station power bank with AC outlet can also be recharged by solar panel for unparalleled flexibility to become a solar power generator station, apart from the traditional AC wall adapter and car charging methods.The 300W power station provides real-time energy level updates during recharging and discharging, along with AC output status indicators to prevent unexpected power interruptions. With enhanced recharging options for faster and more convenient charging.\n\n- BIGGER LED, BRIGHTER LIGHT: The portable power station 300W designed with premium quality LED light source on the whole back with bigger Led light, offering you a full sense of security in a dark night indoors and outdoors.\n\n- SECURED POWER STATION BANK: Our power station bank for camping boasts an advanced BMS that guarantees voltage control, optimal temperature regulation, and top-tier safety features. Silent cooling vents maintain a secure operating temperature, while built-in protections against short-circuits and overpower scenarios, offering unparalleled peace of mind. Also, the Pure Sine Wave AC inverter can better protect your sensitive devices, preserving battery life and ensuring user/device safety.\n\n- WHAT YOU GET: Apowking 220Wh/300W Rated(600W Peak) portable generator/power station x 1, AC power adapter x 1, car charging cable x 1, cigarette lighter socket to DC adapter x 1, user manua x 1.\n\n- PROTECTING TIPS: 1.Ensure the electricity power station is fully charged before use.2.If not in use for an extended period, recharge the stored battery every 2-3 months and maintain it between 40%-70% capacity. Recharge the battery before it is completely depleted.3.Store the battery in a dry environment within the temperature range of 40°F~100°F (4°C~35°C) or in moisture-proof packaging. Keep it away from heat sources and avoid direct sunlight exposure NOTE: 1.This 300W generator is designed to support devices with a power consumption lower than 300 Watt Hours. It may not be suitable for high-capacity products such as Electric Grills, Induction Cookers, Microwaves, and Refrigerators 2.When you activate the AC output function, it is normal to see a red triangle indicator for AC output verification, which will disappear within 3-5 seconds 3.The high-quality lithium-ion batteries in this generator are capable of supporting over 1000 charge cycles, ensuring long-term battery performance, reliability, and safety\n\n🔹 Key Features\n\n- ⚡ 300W AC Output – Dual pure sine wave AC outlets for stable power\n\n- 🔋 220Wh Lithium Battery – Compact but powerful for multiple devices\n\n- 🔌 Multi-Port Charging – USB-A, USB-C, and DC outputs for phones, laptops, tablets, and other gear\n\n- 🏕️ Portable & Lightweight – Easy to carry and transport for travel or outdoor use\n\n- 🛡️ Safety Protection – Built-in BMS system guards against overload and short circuits\n\n- ☀️ Versatile Power Source – Ideal for camping, home backup, RVs, emergencies, and outdoor activities\n\n🔹 Why You’ll Love It\n\n- Great for off-grid power needs\n\n- Supports essential electronics during outages\n\n- Quick and convenient setup\n\n- Durable construction for rugged use\n\n🔹 Best Suited For\n\nPortable outdoor power, camping trips, tailgating, emergency backup, RV and travel adventures, and remote work setups.",
+      "status": "published",
+      "images": [
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/accesories/portable-power-station-300w/01.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/accesories/portable-power-station-300w/02.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/accesories/portable-power-station-300w/03.jpg"
+        }
+      ],
+      "thumbnail": "https://notionworxcanopy.com/assets/images/notionworx-inventory/accesories/portable-power-station-300w/01.jpg",
+      "options": [
+        {
+          "title": "Default option",
+          "values": [
+            "Default option value"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "Default variant",
+          "sku": "PPS-300",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 15000,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Default option": "Default option value"
+          },
+          "metadata": {
+            "source_variant_id": 44004998217863,
+            "source_requires_shipping": true,
+            "source_taxable": true,
+            "source_grams": 0,
+            "source_position": 1,
+            "source_option_values": [
+              "Default Title"
+            ],
+            "source_compare_at_price": null
+          }
+        }
+      ],
+      "metadata": {
+        "source": "notionworx-inventory",
+        "source_handle": "portable-power-station-300w",
+        "source_product_id": 8428094652551,
+        "source_slug": "portable-power-station-300w",
+        "source_vendor": "Notion Worx",
+        "source_product_type": null,
+        "source_primary_category": {
+          "handle": "accesories",
+          "title": "Accessories"
+        },
+        "source_categories": [
+          {
+            "handle": "accesories",
+            "title": "Accessories"
+          },
+          {
+            "handle": "5x5-custom-canopy",
+            "title": "5x5 Custom Canopies"
+          },
+          {
+            "handle": "10x15",
+            "title": "10x15 Custom Canopies"
+          },
+          {
+            "handle": "10x20",
+            "title": "10x20 Custom Canopies"
+          },
+          {
+            "handle": "10x10",
+            "title": "10x10 Custom Canopies"
+          }
+        ],
+        "source_price": {
+          "min": 150,
+          "max": 150,
+          "compareAtMin": null,
+          "compareAtMax": null,
+          "variantCount": 1
+        },
+        "source_tags": [],
+        "source_skus": [
+          "PPS-300"
+        ],
+        "description_html": "<h2>📦</h2>\n<h1>Portable Power Station 300W, Outdoor Solar Generator Backup Battery Pack 220Wh/60000mAh</h1>\n<h3>About this item</h3>\n<ul>\n  <li><strong>PORTABLE POWER STATION WITH ENHANCED CAPACITY:</strong> Experience the convenience with our 300W portable power station. Designed with a sleek and compact form factor measuring 8.5 x 6.7 x 4.1 inches and weighing a mere 5 lbs, this battery station is your perfect companion for home, camping, and beyond. Equipped with an upgraded 220Wh/60000mAh lithium-ion battery pack, powerful enough to charge up to 7 devices simultaneously.</li>\n  <li><strong>PORTABLE SOLAR POWER BANK WITH 7 OUTPUTS:</strong> This portable solar power bank battery pack features with 7 outlets. 2x110V AC outlet Pure Sine Wave to charge appliances within 300W(600W Peak),3 USB ports (5V/3.1A Max), 1 USB port (5V/3A, 9V/2A), and 1 DC vehicle output port (9-12.6V, 10A max), this portable solar power bank compatible with a wide range of devices. Enjoy simultaneous charging without any disruptive fan noise, ensuring a serene and comfortable environment wherever you are</li>\n  <li><strong>SOLAR GENERATOR OPTIONAL:</strong> This 300W power station power bank with AC outlet can also be recharged by solar panel for unparalleled flexibility to become a solar power generator station, apart from the traditional AC wall adapter and car charging methods.The 300W power station provides real-time energy level updates during recharging and discharging, along with AC output status indicators to prevent unexpected power interruptions. With enhanced recharging options for faster and more convenient charging.</li>\n  <li><strong>BIGGER LED, BRIGHTER LIGHT:</strong> The portable power station 300W designed with premium quality LED light source on the whole back with bigger Led light, offering you a full sense of security in a dark night indoors and outdoors.</li>\n  <li><strong>SECURED POWER STATION BANK:</strong> Our power station bank for camping boasts an advanced BMS that guarantees voltage control, optimal temperature regulation, and top-tier safety features. Silent cooling vents maintain a secure operating temperature, while built-in protections against short-circuits and overpower scenarios, offering unparalleled peace of mind. Also, the Pure Sine Wave AC inverter can better protect your sensitive devices, preserving battery life and ensuring user/device safety.</li>\n  <li><strong>WHAT YOU GET:</strong> Apowking 220Wh/300W Rated(600W Peak) portable generator/power station x 1, AC power adapter x 1, car charging cable x 1, cigarette lighter socket to DC adapter x 1, user manua x 1. </li>\n  <li><strong>PROTECTING TIPS:</strong> 1.Ensure the electricity power station is fully charged before use.2.If not in use for an extended period, recharge the stored battery every 2-3 months and maintain it between 40%-70% capacity. Recharge the battery before it is completely depleted.3.Store the battery in a dry environment within the temperature range of 40°F~100°F (4°C~35°C) or in moisture-proof packaging. Keep it away from heat sources and avoid direct sunlight exposure NOTE: 1.This 300W generator is designed to support devices with a power consumption lower than 300 Watt Hours. It may not be suitable for high-capacity products such as Electric Grills, Induction Cookers, Microwaves, and Refrigerators 2.When you activate the AC output function, it is normal to see a red triangle indicator for AC output verification, which will disappear within 3-5 seconds 3.The high-quality lithium-ion batteries in this generator are capable of supporting over 1000 charge cycles, ensuring long-term battery performance, reliability, and safety</li>\n</ul>\n<p>🔹 Key Features</p>\n<ul>\n  <li>⚡ 300W AC Output – Dual pure sine wave AC outlets for stable power</li>\n  <li>🔋 220Wh Lithium Battery – Compact but powerful for multiple devices</li>\n  <li>🔌 Multi-Port Charging – USB-A, USB-C, and DC outputs for phones, laptops, tablets, and other gear</li>\n  <li>🏕️ Portable &amp; Lightweight – Easy to carry and transport for travel or outdoor use</li>\n  <li>🛡️ Safety Protection – Built-in BMS system guards against overload and short circuits</li>\n  <li>☀️ Versatile Power Source – Ideal for camping, home backup, RVs, emergencies, and outdoor activities</li>\n</ul>\n<p>🔹 Why You’ll Love It</p>\n<ul>\n  <li>Great for off-grid power needs</li>\n  <li>Supports essential electronics during outages</li>\n  <li>Quick and convenient setup</li>\n  <li>Durable construction for rugged use</li>\n</ul>\n<p>🔹 Best Suited For</p>\n<p>Portable outdoor power, camping trips, tailgating, emergency backup, RV and travel adventures, and remote work setups.</p>",
+        "description_text": "📦\n\nPortable Power Station 300W, Outdoor Solar Generator Backup Battery Pack 220Wh/60000mAh\n\nAbout this item\n\n- PORTABLE POWER STATION WITH ENHANCED CAPACITY: Experience the convenience with our 300W portable power station. Designed with a sleek and compact form factor measuring 8.5 x 6.7 x 4.1 inches and weighing a mere 5 lbs, this battery station is your perfect companion for home, camping, and beyond. Equipped with an upgraded 220Wh/60000mAh lithium-ion battery pack, powerful enough to charge up to 7 devices simultaneously.\n\n- PORTABLE SOLAR POWER BANK WITH 7 OUTPUTS: This portable solar power bank battery pack features with 7 outlets. 2x110V AC outlet Pure Sine Wave to charge appliances within 300W(600W Peak),3 USB ports (5V/3.1A Max), 1 USB port (5V/3A, 9V/2A), and 1 DC vehicle output port (9-12.6V, 10A max), this portable solar power bank compatible with a wide range of devices. Enjoy simultaneous charging without any disruptive fan noise, ensuring a serene and comfortable environment wherever you are\n\n- SOLAR GENERATOR OPTIONAL: This 300W power station power bank with AC outlet can also be recharged by solar panel for unparalleled flexibility to become a solar power generator station, apart from the traditional AC wall adapter and car charging methods.The 300W power station provides real-time energy level updates during recharging and discharging, along with AC output status indicators to prevent unexpected power interruptions. With enhanced recharging options for faster and more convenient charging.\n\n- BIGGER LED, BRIGHTER LIGHT: The portable power station 300W designed with premium quality LED light source on the whole back with bigger Led light, offering you a full sense of security in a dark night indoors and outdoors.\n\n- SECURED POWER STATION BANK: Our power station bank for camping boasts an advanced BMS that guarantees voltage control, optimal temperature regulation, and top-tier safety features. Silent cooling vents maintain a secure operating temperature, while built-in protections against short-circuits and overpower scenarios, offering unparalleled peace of mind. Also, the Pure Sine Wave AC inverter can better protect your sensitive devices, preserving battery life and ensuring user/device safety.\n\n- WHAT YOU GET: Apowking 220Wh/300W Rated(600W Peak) portable generator/power station x 1, AC power adapter x 1, car charging cable x 1, cigarette lighter socket to DC adapter x 1, user manua x 1.\n\n- PROTECTING TIPS: 1.Ensure the electricity power station is fully charged before use.2.If not in use for an extended period, recharge the stored battery every 2-3 months and maintain it between 40%-70% capacity. Recharge the battery before it is completely depleted.3.Store the battery in a dry environment within the temperature range of 40°F~100°F (4°C~35°C) or in moisture-proof packaging. Keep it away from heat sources and avoid direct sunlight exposure NOTE: 1.This 300W generator is designed to support devices with a power consumption lower than 300 Watt Hours. It may not be suitable for high-capacity products such as Electric Grills, Induction Cookers, Microwaves, and Refrigerators 2.When you activate the AC output function, it is normal to see a red triangle indicator for AC output verification, which will disappear within 3-5 seconds 3.The high-quality lithium-ion batteries in this generator are capable of supporting over 1000 charge cycles, ensuring long-term battery performance, reliability, and safety\n\n🔹 Key Features\n\n- ⚡ 300W AC Output – Dual pure sine wave AC outlets for stable power\n\n- 🔋 220Wh Lithium Battery – Compact but powerful for multiple devices\n\n- 🔌 Multi-Port Charging – USB-A, USB-C, and DC outputs for phones, laptops, tablets, and other gear\n\n- 🏕️ Portable & Lightweight – Easy to carry and transport for travel or outdoor use\n\n- 🛡️ Safety Protection – Built-in BMS system guards against overload and short circuits\n\n- ☀️ Versatile Power Source – Ideal for camping, home backup, RVs, emergencies, and outdoor activities\n\n🔹 Why You’ll Love It\n\n- Great for off-grid power needs\n\n- Supports essential electronics during outages\n\n- Quick and convenient setup\n\n- Durable construction for rugged use\n\n🔹 Best Suited For\n\nPortable outdoor power, camping trips, tailgating, emergency backup, RV and travel adventures, and remote work setups.",
+        "how_to_order_html": "<ul>\n  <li>SKU PPS-300</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
+        "how_to_order_text": "SKU PPS-300\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
+        "dimensions_html": null,
+        "dimensions_text": null,
+        "warranty_html": "<p>This portable station bank with AC outlet is covered by our 12-month warranty, so please contact our Customer Service if you have any questions at any time.</p>",
+        "warranty_text": "This portable station bank with AC outlet is covered by our 12-month warranty, so please contact our Customer Service if you have any questions at any time.",
+        "source_options": [
+          {
+            "name": "Title",
+            "position": 1,
+            "values": [
+              "Default Title"
+            ]
+          }
+        ],
+        "source_variants": [
+          {
+            "id": 44004998217863,
+            "title": "Default Title",
+            "sku": "PPS-300",
+            "available": true,
+            "price": 150,
+            "compareAtPrice": null,
+            "optionValues": [
+              "Default Title"
+            ],
+            "requiresShipping": true,
+            "taxable": true,
+            "grams": 0,
+            "position": 1
+          }
+        ],
+        "source_variant_label": null,
+        "source_sizes": [
+          "Default option"
+        ],
+        "source_size_variants": [
+          {
+            "value": "Default option",
+            "price": 150.0,
+            "active": true
+          }
+        ],
+        "source_filter_category": [
+          "Accessories",
+          "5x5 Custom Canopies",
+          "10x15 Custom Canopies",
+          "10x20 Custom Canopies",
+          "10x10 Custom Canopies"
+        ],
+        "source_filter_sizes": [],
+        "source_reviews_text": "1 option",
+        "source_badge_label": "Accessories",
+        "source_badge_subtext": "3 product images available",
+        "source_description": "📦 Portable Power Station 300W, Outdoor Solar Generator Backup Battery Pack 220Wh/60000mAh About this item - PORTABLE POWER STATION WITH ENHANCED CAPACITY: Experience the convenience with our 300W portable power station. Designed with a sleek and compact form factor measuring 8.…",
+        "source_card_variant": "",
+        "source_add_on_group_keys": [],
+        "local_image_paths": [
+          "/assets/images/notionworx-inventory/accesories/portable-power-station-300w/01.jpg",
+          "/assets/images/notionworx-inventory/accesories/portable-power-station-300w/02.jpg",
+          "/assets/images/notionworx-inventory/accesories/portable-power-station-300w/03.jpg"
+        ],
+        "inventory_data_path": "data/inventory/notionworx/products/accesories/portable-power-station-300w.json",
+        "created_at": "2026-02-25T14:08:49-07:00",
+        "updated_at": "2026-08-18T21:23:34-06:00",
+        "published_at": "2026-02-25T14:08:51-07:00"
+      },
+      "sales_channels": [
+        {
+          "id": "sc_01M1E72H3K3S5QG6P0R7700SH4"
+        }
+      ]
+    },
+    {
+      "title": "Premium 10x15 Custom Canopy Tent – HEX Aluminum Frame (Black) & 17\" Valance (Dye-Sublimation Printing)",
+      "handle": "premium-10x15-custom-canopy-tent-05-15black",
+      "external_id": "8227681828999",
+      "description": "Specsheet Warning Label Fire Certificate\n\nPremium 10'×15' Custom Canopy Tent\n\n- 40mm heavy-duty aluminum frame + wheeled carry bag\n\n- Dye-sublimation printed 600D Oxford fabric\n\n- Waterproof, Fire Resistant, UV Protection\n\n- Free Ground Shipping (FedEx) Nationwide\n\nFeatures\n\n- Canopy is constructed of durable, weather-resistant 600 denier polyester\n\n- Your artwork will be dye sublimated on a white canopy\n\n- Frame is constructed of 1.2 mm anodized aluminum\n\n- Frame features ABS glass-filled nylon joints\n\n- Hexagon-shaped legs are 1.75\" in diameter\n\n- Legs feature plastic levers for pinch-free height adjustment\n\n- Easily collapses to fit inside the included soft case with wheels\n\n- The tent can be secured to the ground with the included stake kit\n\n- Imprint Method: Full-Color Dye Sublimation\n\nKit Includes\n\n- 1: Hardware (Frame)\n\n- 1: Canopy\n\n- 1: Wheeled Carry Bag\n\n- 1: Ropes and Pegs Set\n\nOptional Accessories\n\n- 6' Table Cover\n\n- Feather Flags\n\n- Sandbags\n\nMaterials\n\n- Hardware: ABS Nylon, Aluminum\n\n- Canopy: 600 Denier Polyester\n\nCertifications\n\n- Meets FR Rating Requirements\n\n- Primary Usage\n\n- Outdoor",
+      "status": "published",
+      "images": [
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/10x15/premium-10x15-custom-canopy-tent-05-15black/01.png"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/10x15/premium-10x15-custom-canopy-tent-05-15black/02.png"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/10x15/premium-10x15-custom-canopy-tent-05-15black/03.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/10x15/premium-10x15-custom-canopy-tent-05-15black/04.jpg"
+        }
+      ],
+      "thumbnail": "https://notionworxcanopy.com/assets/images/notionworx-inventory/10x15/premium-10x15-custom-canopy-tent-05-15black/01.png",
+      "options": [
+        {
+          "title": "Default option",
+          "values": [
+            "Default option value"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "Default variant",
+          "sku": "ITEM #: 5-15B",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 89500,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Default option": "Default option value"
+          },
+          "metadata": {
+            "source_variant_id": 43238200246407,
+            "source_requires_shipping": true,
+            "source_taxable": false,
+            "source_grams": 54431,
+            "source_position": 1,
+            "source_option_values": [
+              "Default Title"
+            ],
+            "source_compare_at_price": 984.5
+          }
+        }
+      ],
+      "metadata": {
+        "source": "notionworx-inventory",
+        "source_handle": "premium-10x15-custom-canopy-tent-05-15black",
+        "source_product_id": 8227681828999,
+        "source_slug": "premium-10x15-custom-canopy-tent-05-15black",
+        "source_vendor": "Notion Worx",
+        "source_product_type": null,
+        "source_primary_category": {
+          "handle": "10x15",
+          "title": "10x15 Custom Canopies"
+        },
+        "source_categories": [
+          {
+            "handle": "10x15",
+            "title": "10x15 Custom Canopies"
+          },
+          {
+            "handle": "tent",
+            "title": "Custom Canopy Tents – Personalized Pop Up Tents for Events"
+          }
+        ],
+        "source_price": {
+          "min": 895.0,
+          "max": 895.0,
+          "compareAtMin": 984.5,
+          "compareAtMax": 984.5,
+          "variantCount": 1
+        },
+        "source_tags": [],
+        "source_skus": [
+          "ITEM #: 5-15B"
+        ],
+        "description_html": "<p><a href=\"https://displaytemplate.s3-us-west-2.amazonaws.com/Product+setup+instruction/Inst_10x10_TENT_Universal_curves.pdf\">Specsheet</a> <a href=\"https://drive.google.com/file/d/1jv_fBUek_UZYUHvBv_DMJG5tk42yIiah/view?usp=drive_link\">Warning Label</a> <a href=\"https://drive.google.com/file/d/1lPLYIldqjlfbOpvvoZGq-ETmb5Lb207s/view?usp=sharing\">Fire Certificate</a></p>\n<p>Premium 10&#x27;×15&#x27; Custom Canopy Tent</p>\n<ul>\n  <li>40mm heavy-duty aluminum frame + wheeled carry bag</li>\n  <li>Dye-sublimation printed 600D Oxford fabric</li>\n  <li>Waterproof, Fire Resistant, UV Protection</li>\n  <li>Free Ground Shipping (FedEx) Nationwide</li>\n</ul>\n<h3>Features</h3>\n<ul>\n  <li>Canopy is constructed of durable, weather-resistant 600 denier polyester</li>\n  <li>Your artwork will be dye sublimated on a white canopy</li>\n  <li>Frame is constructed of 1.2 mm anodized aluminum</li>\n  <li>Frame features ABS glass-filled nylon joints</li>\n  <li>Hexagon-shaped legs are 1.75&quot; in diameter</li>\n  <li>Legs feature plastic levers for pinch-free height adjustment</li>\n  <li>Easily collapses to fit inside the included soft case with wheels</li>\n  <li>The tent can be secured to the ground with the included stake kit</li>\n  <li>Imprint Method: Full-Color Dye Sublimation</li>\n</ul>\n<h3>Kit Includes</h3>\n<ul>\n  <li>1: Hardware (Frame)</li>\n  <li>1: Canopy</li>\n  <li>1: Wheeled Carry Bag</li>\n  <li>1: Ropes and Pegs Set</li>\n</ul>\n<h3>Optional Accessories</h3>\n<ul>\n  <li>6&#x27; Table Cover</li>\n  <li>Feather Flags</li>\n  <li>Sandbags</li>\n</ul>\n<h3>Materials</h3>\n<ul>\n  <li>Hardware: ABS Nylon, Aluminum</li>\n  <li>Canopy: 600 Denier Polyester</li>\n</ul>\n<h3>Certifications</h3>\n<ul>\n  <li>Meets FR Rating Requirements</li>\n  <li>Primary Usage</li>\n  <li>Outdoor</li>\n</ul>",
+        "description_text": "Specsheet Warning Label Fire Certificate\n\nPremium 10'×15' Custom Canopy Tent\n\n- 40mm heavy-duty aluminum frame + wheeled carry bag\n\n- Dye-sublimation printed 600D Oxford fabric\n\n- Waterproof, Fire Resistant, UV Protection\n\n- Free Ground Shipping (FedEx) Nationwide\n\nFeatures\n\n- Canopy is constructed of durable, weather-resistant 600 denier polyester\n\n- Your artwork will be dye sublimated on a white canopy\n\n- Frame is constructed of 1.2 mm anodized aluminum\n\n- Frame features ABS glass-filled nylon joints\n\n- Hexagon-shaped legs are 1.75\" in diameter\n\n- Legs feature plastic levers for pinch-free height adjustment\n\n- Easily collapses to fit inside the included soft case with wheels\n\n- The tent can be secured to the ground with the included stake kit\n\n- Imprint Method: Full-Color Dye Sublimation\n\nKit Includes\n\n- 1: Hardware (Frame)\n\n- 1: Canopy\n\n- 1: Wheeled Carry Bag\n\n- 1: Ropes and Pegs Set\n\nOptional Accessories\n\n- 6' Table Cover\n\n- Feather Flags\n\n- Sandbags\n\nMaterials\n\n- Hardware: ABS Nylon, Aluminum\n\n- Canopy: 600 Denier Polyester\n\nCertifications\n\n- Meets FR Rating Requirements\n\n- Primary Usage\n\n- Outdoor",
+        "how_to_order_html": "<ul>\n  <li>SKU ITEM #: 5-15B</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
+        "how_to_order_text": "- SKU ITEM #: 5-15B\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
+        "dimensions_html": "<h3>Product Dimensions</h3>\n<ul>\n  <li>Product Size: 175.5&quot; W x 139.25&quot; H x 126.75&quot; D</li>\n  <li>Collapsible Dimensions: 12.12&quot; W x 62.75&quot; H x 9.37&quot; D</li>\n  <li>Product Weight: 70.5 lbs</li>\n</ul>",
+        "dimensions_text": "Product Dimensions\n\n- Product Size: 175.5\" W x 139.25\" H x 126.75\" D\n\n- Collapsible Dimensions: 12.12\" W x 62.75\" H x 9.37\" D\n\n- Product Weight: 70.5 lbs",
+        "warranty_html": "<h3>Factory Warranty</h3>\n<ul>\n  <li>We stand behind the quality of our products. Our warranty covers any factory defects or damage that occurs during shipping. However, please note that we do not cover damage resulting from extreme weather conditions, misuse, or any circumstances beyond our control.</li>\n</ul>\n<ul>\n  <li>Frame must be secured to the ground to prevent wind damage (failure to secure the tent voids the warranty)</li>\n</ul>",
+        "warranty_text": "Factory Warranty\n\n- We stand behind the quality of our products. Our warranty covers any factory defects or damage that occurs during shipping. However, please note that we do not cover damage resulting from extreme weather conditions, misuse, or any circumstances beyond our control.\n\n- Frame must be secured to the ground to prevent wind damage (failure to secure the tent voids the warranty)",
+        "source_options": [
+          {
+            "name": "Title",
+            "position": 1,
+            "values": [
+              "Default Title"
+            ]
+          }
+        ],
+        "source_variants": [
+          {
+            "id": 43238200246407,
+            "title": "Default Title",
+            "sku": "ITEM #: 5-15B",
+            "available": true,
+            "price": 895.0,
+            "compareAtPrice": 984.5,
+            "optionValues": [
+              "Default Title"
+            ],
+            "requiresShipping": true,
+            "taxable": false,
+            "grams": 54431,
+            "position": 1
+          }
+        ],
+        "source_variant_label": null,
+        "source_sizes": [
+          "Default option"
+        ],
+        "source_size_variants": [
+          {
+            "value": "Default option",
+            "price": 895.0,
+            "compareAtPrice": 984.5,
+            "active": true
+          }
+        ],
+        "source_filter_category": [
+          "10x15 Custom Canopies",
+          "Custom Canopy Tents – Personalized Pop Up Tents for Events"
+        ],
+        "source_filter_sizes": [],
+        "source_reviews_text": "1 option",
+        "source_badge_label": "10x15 Custom Canopies",
+        "source_badge_subtext": "4 product images available",
+        "source_description": "Premium 10'×15' Custom Canopy Tent - 40mm heavy-duty aluminum frame + wheeled carry bag - Dye-sublimation printed 600D Oxford fabric - Waterproof, Fire Resistant, UV Protection - Free Ground Shipping (FedEx) Nationwide Features - Canopy is constructed of durable, weather-resista…",
+        "source_card_variant": "",
+        "source_add_on_group_keys": [
+          "accessories-6f1dd94d22ba",
+          "upgrades-e3dd2163249f"
+        ],
+        "local_image_paths": [
+          "/assets/images/notionworx-inventory/10x15/premium-10x15-custom-canopy-tent-05-15black/01.png",
+          "/assets/images/notionworx-inventory/10x15/premium-10x15-custom-canopy-tent-05-15black/02.png",
+          "/assets/images/notionworx-inventory/10x15/premium-10x15-custom-canopy-tent-05-15black/03.jpg",
+          "/assets/images/notionworx-inventory/10x15/premium-10x15-custom-canopy-tent-05-15black/04.jpg"
+        ],
+        "inventory_data_path": "data/inventory/notionworx/products/10x15/premium-10x15-custom-canopy-tent-05-15black.json",
+        "created_at": "2025-09-25T12:39:53-06:00",
+        "updated_at": "2026-08-18T21:23:22-06:00",
+        "published_at": "2025-09-26T09:54:04-06:00"
+      },
+      "sales_channels": [
+        {
+          "id": "sc_01M1E72H3K3S5QG6P0R7700SH4"
+        }
+      ]
+    },
+    {
+      "title": "Premium 10x15 Custom Canopy Tent – HEX Aluminum Frame (Silver) & 17\" Valance (Dye-Sublimation Printing)",
+      "handle": "premium-10x15-custom-canopy-tent-5-15",
+      "external_id": "8227677667463",
+      "description": "Specsheet Warning Label Fire Certificate\n\nPremium 10'×15' Custom Canopy Tent\n\n- 40mm heavy-duty aluminum frame + wheeled carry bag\n\n- Dye-sublimation printed 600D Oxford fabric\n\n- Waterproof, Fire Resistant, UV Protection\n\n- Free Ground Shipping (FedEx) Nationwide\n\nFeatures\n\n- Canopy is constructed of durable, weather-resistant 600 denier polyester\n\n- Your artwork will be dye sublimated on a white canopy\n\n- Frame is constructed of 1.2 mm anodized aluminum\n\n- Frame features ABS glass-filled nylon joints\n\n- Hexagon-shaped legs are 1.75\" in diameter\n\n- Legs feature plastic levers for pinch-free height adjustment\n\n- Easily collapses to fit inside the included soft case with wheels\n\n- The tent can be secured to the ground with the included stake kit\n\n- Imprint Method: Full-Color Dye Sublimation\n\nKit Includes\n\n- 1: Hardware (Frame)\n\n- 1: Canopy\n\n- 1: Wheeled Carry Bag\n\n- 1: Ropes and Pegs Set\n\nOptional Accessories\n\n- 6' Table Cover\n\n- Feather Flags\n\n- Sandbags\n\nMaterials\n\n- Hardware: ABS Nylon, Aluminum\n\n- Canopy: 600 Denier Polyester\n\nCertifications\n\n- Meets FR Rating Requirements\n\n- Primary Usage\n\n- Outdoor",
+      "status": "published",
+      "images": [
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/10x15/premium-10x15-custom-canopy-tent-5-15/01.png"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/10x15/premium-10x15-custom-canopy-tent-5-15/02.png"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/10x15/premium-10x15-custom-canopy-tent-5-15/03.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/10x15/premium-10x15-custom-canopy-tent-5-15/04.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/10x15/premium-10x15-custom-canopy-tent-5-15/05.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/10x15/premium-10x15-custom-canopy-tent-5-15/06.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/10x15/premium-10x15-custom-canopy-tent-5-15/07.jpg"
+        }
+      ],
+      "thumbnail": "https://notionworxcanopy.com/assets/images/notionworx-inventory/10x15/premium-10x15-custom-canopy-tent-5-15/01.png",
+      "options": [
+        {
+          "title": "Default option",
+          "values": [
+            "Default option value"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "Default variant",
+          "sku": "ITEM #: 5-15",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 84500,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Default option": "Default option value"
+          },
+          "metadata": {
+            "source_variant_id": 43238179471495,
+            "source_requires_shipping": true,
+            "source_taxable": false,
+            "source_grams": 36287,
+            "source_position": 1,
+            "source_option_values": [
+              "Default Title"
+            ],
+            "source_compare_at_price": 929.5
+          }
+        }
+      ],
+      "metadata": {
+        "source": "notionworx-inventory",
+        "source_handle": "premium-10x15-custom-canopy-tent-5-15",
+        "source_product_id": 8227677667463,
+        "source_slug": "premium-10x15-custom-canopy-tent-5-15",
+        "source_vendor": "Notion Worx",
+        "source_product_type": null,
+        "source_primary_category": {
+          "handle": "10x15",
+          "title": "10x15 Custom Canopies"
+        },
+        "source_categories": [
+          {
+            "handle": "10x15",
+            "title": "10x15 Custom Canopies"
+          },
+          {
+            "handle": "tent",
+            "title": "Custom Canopy Tents – Personalized Pop Up Tents for Events"
+          }
+        ],
+        "source_price": {
+          "min": 845.0,
+          "max": 845.0,
+          "compareAtMin": 929.5,
+          "compareAtMax": 929.5,
+          "variantCount": 1
+        },
+        "source_tags": [],
+        "source_skus": [
+          "ITEM #: 5-15"
+        ],
+        "description_html": "<p><a href=\"https://displaytemplate.s3-us-west-2.amazonaws.com/Product+setup+instruction/Inst_10x10_TENT_Universal_curves.pdf\">Specsheet</a> <a href=\"https://drive.google.com/file/d/1jv_fBUek_UZYUHvBv_DMJG5tk42yIiah/view?usp=drive_link\">Warning Label</a> <a href=\"https://drive.google.com/file/d/1lPLYIldqjlfbOpvvoZGq-ETmb5Lb207s/view?usp=sharing\">Fire Certificate</a></p>\n<p>Premium 10&#x27;×15&#x27; Custom Canopy Tent</p>\n<ul>\n  <li>40mm heavy-duty aluminum frame + wheeled carry bag</li>\n  <li>Dye-sublimation printed 600D Oxford fabric</li>\n  <li>Waterproof, Fire Resistant, UV Protection</li>\n  <li>Free Ground Shipping (FedEx) Nationwide</li>\n</ul>\n<h3>Features</h3>\n<ul>\n  <li>Canopy is constructed of durable, weather-resistant 600 denier polyester</li>\n  <li>Your artwork will be dye sublimated on a white canopy</li>\n  <li>Frame is constructed of 1.2 mm anodized aluminum</li>\n  <li>Frame features ABS glass-filled nylon joints</li>\n  <li>Hexagon-shaped legs are 1.75&quot; in diameter</li>\n  <li>Legs feature plastic levers for pinch-free height adjustment</li>\n  <li>Easily collapses to fit inside the included soft case with wheels</li>\n  <li>The tent can be secured to the ground with the included stake kit</li>\n  <li>Imprint Method: Full-Color Dye Sublimation</li>\n</ul>\n<h3>Kit Includes</h3>\n<ul>\n  <li>1: Hardware (Frame)</li>\n  <li>1: Canopy</li>\n  <li>1: Wheeled Carry Bag</li>\n  <li>1: Ropes and Pegs Set</li>\n</ul>\n<h3>Optional Accessories</h3>\n<ul>\n  <li>6&#x27; Table Cover</li>\n  <li>Feather Flags</li>\n  <li>Sandbags</li>\n</ul>\n<h3>Materials</h3>\n<ul>\n  <li>Hardware: ABS Nylon, Aluminum</li>\n  <li>Canopy: 600 Denier Polyester</li>\n</ul>\n<h3>Certifications</h3>\n<ul>\n  <li>Meets FR Rating Requirements</li>\n  <li>Primary Usage</li>\n  <li>Outdoor</li>\n</ul>",
+        "description_text": "Specsheet Warning Label Fire Certificate\n\nPremium 10'×15' Custom Canopy Tent\n\n- 40mm heavy-duty aluminum frame + wheeled carry bag\n\n- Dye-sublimation printed 600D Oxford fabric\n\n- Waterproof, Fire Resistant, UV Protection\n\n- Free Ground Shipping (FedEx) Nationwide\n\nFeatures\n\n- Canopy is constructed of durable, weather-resistant 600 denier polyester\n\n- Your artwork will be dye sublimated on a white canopy\n\n- Frame is constructed of 1.2 mm anodized aluminum\n\n- Frame features ABS glass-filled nylon joints\n\n- Hexagon-shaped legs are 1.75\" in diameter\n\n- Legs feature plastic levers for pinch-free height adjustment\n\n- Easily collapses to fit inside the included soft case with wheels\n\n- The tent can be secured to the ground with the included stake kit\n\n- Imprint Method: Full-Color Dye Sublimation\n\nKit Includes\n\n- 1: Hardware (Frame)\n\n- 1: Canopy\n\n- 1: Wheeled Carry Bag\n\n- 1: Ropes and Pegs Set\n\nOptional Accessories\n\n- 6' Table Cover\n\n- Feather Flags\n\n- Sandbags\n\nMaterials\n\n- Hardware: ABS Nylon, Aluminum\n\n- Canopy: 600 Denier Polyester\n\nCertifications\n\n- Meets FR Rating Requirements\n\n- Primary Usage\n\n- Outdoor",
+        "how_to_order_html": "<ul>\n  <li>SKU ITEM #: 5-15</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
+        "how_to_order_text": "- SKU ITEM #: 5-15\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
+        "dimensions_html": "<h3>Product Dimensions</h3>\n<ul>\n  <li>Product Size: 175.5&quot; W x 139.25&quot; H x 126.75&quot; D</li>\n  <li>Collapsible Dimensions: 12.12&quot; W x 62.75&quot; H x 9.37&quot; D</li>\n  <li>Product Weight: 70.5 lbs</li>\n</ul>",
+        "dimensions_text": "Product Dimensions\n\n- Product Size: 175.5\" W x 139.25\" H x 126.75\" D\n\n- Collapsible Dimensions: 12.12\" W x 62.75\" H x 9.37\" D\n\n- Product Weight: 70.5 lbs",
+        "warranty_html": "<h3>Factory Warranty</h3>\n<ul>\n  <li>We stand behind the quality of our products. Our warranty covers any factory defects or damage that occurs during shipping. However, please note that we do not cover damage resulting from extreme weather conditions, misuse, or any circumstances beyond our control.</li>\n</ul>\n<ul>\n  <li>Frame must be secured to the ground to prevent wind damage (failure to secure the tent voids the warranty)</li>\n</ul>",
+        "warranty_text": "Factory Warranty\n\n- We stand behind the quality of our products. Our warranty covers any factory defects or damage that occurs during shipping. However, please note that we do not cover damage resulting from extreme weather conditions, misuse, or any circumstances beyond our control.\n\n- Frame must be secured to the ground to prevent wind damage (failure to secure the tent voids the warranty)",
+        "source_options": [
+          {
+            "name": "Title",
+            "position": 1,
+            "values": [
+              "Default Title"
+            ]
+          }
+        ],
+        "source_variants": [
+          {
+            "id": 43238179471495,
+            "title": "Default Title",
+            "sku": "ITEM #: 5-15",
+            "available": true,
+            "price": 845.0,
+            "compareAtPrice": 929.5,
+            "optionValues": [
+              "Default Title"
+            ],
+            "requiresShipping": true,
+            "taxable": false,
+            "grams": 36287,
+            "position": 1
+          }
+        ],
+        "source_variant_label": null,
+        "source_sizes": [
+          "Default option"
+        ],
+        "source_size_variants": [
+          {
+            "value": "Default option",
+            "price": 845.0,
+            "compareAtPrice": 929.5,
+            "active": true
+          }
+        ],
+        "source_filter_category": [
+          "10x15 Custom Canopies",
+          "Custom Canopy Tents – Personalized Pop Up Tents for Events"
+        ],
+        "source_filter_sizes": [],
+        "source_reviews_text": "1 option",
+        "source_badge_label": "10x15 Custom Canopies",
+        "source_badge_subtext": "7 product images available",
+        "source_description": "Premium 10'×15' Custom Canopy Tent - 40mm heavy-duty aluminum frame + wheeled carry bag - Dye-sublimation printed 600D Oxford fabric - Waterproof, Fire Resistant, UV Protection - Free Ground Shipping (FedEx) Nationwide Features - Canopy is constructed of durable, weather-resista…",
+        "source_card_variant": "",
+        "source_add_on_group_keys": [
+          "accessories-f3775f511a07",
+          "upgrades-fade45f40b86"
+        ],
+        "local_image_paths": [
+          "/assets/images/notionworx-inventory/10x15/premium-10x15-custom-canopy-tent-5-15/01.png",
+          "/assets/images/notionworx-inventory/10x15/premium-10x15-custom-canopy-tent-5-15/02.png",
+          "/assets/images/notionworx-inventory/10x15/premium-10x15-custom-canopy-tent-5-15/03.jpg",
+          "/assets/images/notionworx-inventory/10x15/premium-10x15-custom-canopy-tent-5-15/04.jpg",
+          "/assets/images/notionworx-inventory/10x15/premium-10x15-custom-canopy-tent-5-15/05.jpg",
+          "/assets/images/notionworx-inventory/10x15/premium-10x15-custom-canopy-tent-5-15/06.jpg",
+          "/assets/images/notionworx-inventory/10x15/premium-10x15-custom-canopy-tent-5-15/07.jpg"
+        ],
+        "inventory_data_path": "data/inventory/notionworx/products/10x15/premium-10x15-custom-canopy-tent-5-15.json",
+        "created_at": "2025-09-25T12:37:33-06:00",
+        "updated_at": "2026-08-18T21:23:22-06:00",
+        "published_at": "2025-09-26T09:36:46-06:00"
+      },
+      "sales_channels": [
+        {
+          "id": "sc_01M1E72H3K3S5QG6P0R7700SH4"
+        }
+      ]
+    },
+    {
+      "title": "Premium 10x15 Custom Canopy Tent Top Only – Dye-Sublimation Print with 17\" Valance",
+      "handle": "premium-10x15-custom-canopy-tent-5-15top",
+      "external_id": "8227677569159",
+      "description": "Specsheet Warning Label Fire Certificate\n\nDescription/Feature\n\n- Canopy is constructed of durable, weather-resistant 600 denier polyester\n\n- Dye sublimated on a white canopy\n\n- Hardware sold separately\n\n- Imprint Method: Full-Color Dye Sublimation\n\nKit Includes\n\n- 1: Canopy Top\n\n- DOES NOT INCLUDE FRAME\n\nMaterials\n\n- Canopy: 600 Denier Polyester\n\nCertifications\n\n- Meets FR Rating Requirements\n\n- Primary Usage\n\n- Outdoor",
+      "status": "published",
+      "images": [
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/10x15/premium-10x15-custom-canopy-tent-5-15top/01.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/10x15/premium-10x15-custom-canopy-tent-5-15top/02.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/10x15/premium-10x15-custom-canopy-tent-5-15top/03.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/10x15/premium-10x15-custom-canopy-tent-5-15top/04.jpg"
+        }
+      ],
+      "thumbnail": "https://notionworxcanopy.com/assets/images/notionworx-inventory/10x15/premium-10x15-custom-canopy-tent-5-15top/01.jpg",
+      "options": [
+        {
+          "title": "Default option",
+          "values": [
+            "Default option value"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "Default variant",
+          "sku": "ITEM #: 5-15 TOP",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 42500,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Default option": "Default option value"
+          },
+          "metadata": {
+            "source_variant_id": 43238179373191,
+            "source_requires_shipping": true,
+            "source_taxable": false,
+            "source_grams": 4536,
+            "source_position": 1,
+            "source_option_values": [
+              "Default Title"
+            ],
+            "source_compare_at_price": 467.5
+          }
+        }
+      ],
+      "metadata": {
+        "source": "notionworx-inventory",
+        "source_handle": "premium-10x15-custom-canopy-tent-5-15top",
+        "source_product_id": 8227677569159,
+        "source_slug": "premium-10x15-custom-canopy-tent-5-15top",
+        "source_vendor": "Notion Worx",
+        "source_product_type": null,
+        "source_primary_category": {
+          "handle": "10x15",
+          "title": "10x15 Custom Canopies"
+        },
+        "source_categories": [
+          {
+            "handle": "10x15",
+            "title": "10x15 Custom Canopies"
+          },
+          {
+            "handle": "tent",
+            "title": "Custom Canopy Tents – Personalized Pop Up Tents for Events"
+          }
+        ],
+        "source_price": {
+          "min": 425.0,
+          "max": 425.0,
+          "compareAtMin": 467.5,
+          "compareAtMax": 467.5,
+          "variantCount": 1
+        },
+        "source_tags": [],
+        "source_skus": [
+          "ITEM #: 5-15 TOP"
+        ],
+        "description_html": "<h4><a href=\"https://displaytemplate.s3-us-west-2.amazonaws.com/Product+setup+instruction/Inst_10x10_TENT_Universal_curves.pdf\">Specsheet</a> <a href=\"https://drive.google.com/file/d/1jv_fBUek_UZYUHvBv_DMJG5tk42yIiah/view?usp=drive_link\">Warning Label</a> <a href=\"https://drive.google.com/file/d/1lPLYIldqjlfbOpvvoZGq-ETmb5Lb207s/view?usp=sharing\">Fire Certificate</a></h4>\n<h3>Description/Feature</h3>\n<ul>\n  <li>Canopy is constructed of durable, weather-resistant 600 denier polyester</li>\n  <li>Dye sublimated on a white canopy</li>\n  <li>Hardware sold separately</li>\n  <li>Imprint Method: Full-Color Dye Sublimation<br></li>\n</ul>\n<h3>Kit Includes</h3>\n<ul>\n  <li>1: Canopy Top</li>\n  <li>DOES NOT INCLUDE FRAME</li>\n</ul>\n<h3>Materials</h3>\n<ul>\n  <li>Canopy: 600 Denier Polyester</li>\n</ul>\n<h3>Certifications</h3>\n<ul>\n  <li>Meets FR Rating Requirements</li>\n  <li>Primary Usage</li>\n  <li>Outdoor</li>\n</ul>",
+        "description_text": "Specsheet Warning Label Fire Certificate\n\nDescription/Feature\n\n- Canopy is constructed of durable, weather-resistant 600 denier polyester\n\n- Dye sublimated on a white canopy\n\n- Hardware sold separately\n\n- Imprint Method: Full-Color Dye Sublimation\n\nKit Includes\n\n- 1: Canopy Top\n\n- DOES NOT INCLUDE FRAME\n\nMaterials\n\n- Canopy: 600 Denier Polyester\n\nCertifications\n\n- Meets FR Rating Requirements\n\n- Primary Usage\n\n- Outdoor",
+        "how_to_order_html": "<ul>\n  <li>SKU ITEM #: 5-15 TOP</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
+        "how_to_order_text": "- SKU ITEM #: 5-15 TOP\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
+        "dimensions_html": null,
+        "dimensions_text": null,
+        "warranty_html": "<h3>Factory Warranty</h3>\n<ul>\n  <li>We stand behind the quality of our products. Our warranty covers any factory defects or damage that occurs during shipping. However, please note that we do not cover damage resulting from extreme weather conditions, misuse, or any circumstances beyond our control.</li>\n</ul>",
+        "warranty_text": "Factory Warranty\n\n- We stand behind the quality of our products. Our warranty covers any factory defects or damage that occurs during shipping. However, please note that we do not cover damage resulting from extreme weather conditions, misuse, or any circumstances beyond our control.",
+        "source_options": [
+          {
+            "name": "Title",
+            "position": 1,
+            "values": [
+              "Default Title"
+            ]
+          }
+        ],
+        "source_variants": [
+          {
+            "id": 43238179373191,
+            "title": "Default Title",
+            "sku": "ITEM #: 5-15 TOP",
+            "available": true,
+            "price": 425.0,
+            "compareAtPrice": 467.5,
+            "optionValues": [
+              "Default Title"
+            ],
+            "requiresShipping": true,
+            "taxable": false,
+            "grams": 4536,
+            "position": 1
+          }
+        ],
+        "source_variant_label": null,
+        "source_sizes": [
+          "Default option"
+        ],
+        "source_size_variants": [
+          {
+            "value": "Default option",
+            "price": 425.0,
+            "compareAtPrice": 467.5,
+            "active": true
+          }
+        ],
+        "source_filter_category": [
+          "10x15 Custom Canopies",
+          "Custom Canopy Tents – Personalized Pop Up Tents for Events"
+        ],
+        "source_filter_sizes": [],
+        "source_reviews_text": "1 option",
+        "source_badge_label": "10x15 Custom Canopies",
+        "source_badge_subtext": "4 product images available",
+        "source_description": "Description/Feature - Canopy is constructed of durable, weather-resistant 600 denier polyester - Dye sublimated on a white canopy - Hardware sold separately - Imprint Method: Full-Color Dye Sublimation Kit Includes - 1: Canopy Top - DOES NOT INCLUDE FRAME Materials - Canopy: 600…",
+        "source_card_variant": "",
+        "source_add_on_group_keys": [
+          "supplied-frame-by-customer-e760e4e24688",
+          "accessories-eaa3949d5fb7",
+          "upgrades-e3dd2163249f"
+        ],
+        "local_image_paths": [
+          "/assets/images/notionworx-inventory/10x15/premium-10x15-custom-canopy-tent-5-15top/01.jpg",
+          "/assets/images/notionworx-inventory/10x15/premium-10x15-custom-canopy-tent-5-15top/02.jpg",
+          "/assets/images/notionworx-inventory/10x15/premium-10x15-custom-canopy-tent-5-15top/03.jpg",
+          "/assets/images/notionworx-inventory/10x15/premium-10x15-custom-canopy-tent-5-15top/04.jpg"
+        ],
+        "inventory_data_path": "data/inventory/notionworx/products/10x15/premium-10x15-custom-canopy-tent-5-15top.json",
+        "created_at": "2025-09-25T12:37:28-06:00",
+        "updated_at": "2026-08-18T21:23:22-06:00",
+        "published_at": "2025-09-26T09:36:45-06:00"
+      },
+      "sales_channels": [
+        {
+          "id": "sc_01M1E72H3K3S5QG6P0R7700SH4"
+        }
+      ]
+    },
+    {
+      "title": "Premium 10x15 Custom Canopy Tent – HEX Aluminum Frame (Silver) with Full Back Wall & 17\" Valance (Dye-Sublimation Printing)",
+      "handle": "premium-10x15-custom-canopy-tent-6-15",
+      "external_id": "8227672752263",
+      "description": "Specsheet Warning Label Fire Certificate\n\nPremium 10'×15' Custom Canopy Tent\n\n- 40mm heavy-duty aluminum frame + wheeled carry bag\n\n- Dye-sublimation printed 600D Oxford fabric\n\n- Waterproof, Fire Resistant, UV Protection\n\n- Free Ground Shipping (FedEx) Nationwide\n\nFeatures\n\n- Canopy is constructed of durable, weather-resistant 600 denier polyester\n\n- Your artwork will be dye sublimated on a white canopy\n\n- Frame is constructed of 1.2 mm anodized aluminum\n\n- Frame features ABS glass-filled nylon joints\n\n- Hexagon-shaped legs are 1.75\" in diameter\n\n- Legs feature plastic levers for pinch-free height adjustment\n\n- Easily collapses to fit inside the included soft case with wheels\n\n- The tent can be secured to the ground with the included stake kit\n\n- Imprint Method: Full-Color Dye Sublimation\n\nKit Includes\n\n- 1: Hardware (Frame)\n\n- 1: Canopy\n\n- 1: Full Back Wall Sigle-Sided\n\n- 1: Wheeled Carry Bag\n\n- 1: Ropes and Pegs Set\n\nOptional Accessories\n\n- 6' Table Cover\n\n- Feather Flags\n\n- Sandbags\n\nMaterials\n\n- Hardware: ABS Nylon, Aluminum\n\n- Canopy: 600 Denier Polyester\n\nCertifications\n\n- Meets FR Rating Requirements\n\n- Primary Usage\n\n- Outdoor",
+      "status": "published",
+      "images": [
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x15-custom-canopy-tent-6-15/01.png"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x15-custom-canopy-tent-6-15/02.png"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x15-custom-canopy-tent-6-15/03.png"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x15-custom-canopy-tent-6-15/04.png"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x15-custom-canopy-tent-6-15/05.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x15-custom-canopy-tent-6-15/06.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x15-custom-canopy-tent-6-15/07.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x15-custom-canopy-tent-6-15/08.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x15-custom-canopy-tent-6-15/09.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x15-custom-canopy-tent-6-15/10.jpg"
+        }
+      ],
+      "thumbnail": "https://notionworxcanopy.com/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x15-custom-canopy-tent-6-15/01.png",
+      "options": [
+        {
+          "title": "Default option",
+          "values": [
+            "Default option value"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "Default variant",
+          "sku": "ITEM #: 6-15",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 104500,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Default option": "Default option value"
+          },
+          "metadata": {
+            "source_variant_id": 43238154240135,
+            "source_requires_shipping": true,
+            "source_taxable": false,
+            "source_grams": 54431,
+            "source_position": 1,
+            "source_option_values": [
+              "Default Title"
+            ],
+            "source_compare_at_price": 1149.5
+          }
+        }
+      ],
+      "metadata": {
+        "source": "notionworx-inventory",
+        "source_handle": "premium-10x15-custom-canopy-tent-6-15",
+        "source_product_id": 8227672752263,
+        "source_slug": "premium-10x15-custom-canopy-tent-6-15",
+        "source_vendor": "Notion Worx",
+        "source_product_type": null,
+        "source_primary_category": {
+          "handle": "best-selling-10x10-custom-canopy-tents",
+          "title": "Best Selling 10x10 Custom Canopy Tents – Tradeshow & Food Booth Essentials"
+        },
+        "source_categories": [
+          {
+            "handle": "best-selling-10x10-custom-canopy-tents",
+            "title": "Best Selling 10x10 Custom Canopy Tents – Tradeshow & Food Booth Essentials"
+          },
+          {
+            "handle": "10x15",
+            "title": "10x15 Custom Canopies"
+          },
+          {
+            "handle": "tent",
+            "title": "Custom Canopy Tents – Personalized Pop Up Tents for Events"
+          }
+        ],
+        "source_price": {
+          "min": 1045.0,
+          "max": 1045.0,
+          "compareAtMin": 1149.5,
+          "compareAtMax": 1149.5,
+          "variantCount": 1
+        },
+        "source_tags": [],
+        "source_skus": [
+          "ITEM #: 6-15"
+        ],
+        "description_html": "<p><a href=\"https://displaytemplate.s3-us-west-2.amazonaws.com/Product+setup+instruction/Inst_10x10_TENT_Universal_curves.pdf\">Specsheet</a> <a href=\"https://drive.google.com/file/d/1jv_fBUek_UZYUHvBv_DMJG5tk42yIiah/view?usp=drive_link\">Warning Label</a> <a href=\"https://drive.google.com/file/d/1lPLYIldqjlfbOpvvoZGq-ETmb5Lb207s/view?usp=sharing\">Fire Certificate</a></p>\n<p>Premium 10&#x27;×15&#x27; Custom Canopy Tent</p>\n<ul>\n  <li>40mm heavy-duty aluminum frame + wheeled carry bag</li>\n  <li>Dye-sublimation printed 600D Oxford fabric</li>\n  <li>Waterproof, Fire Resistant, UV Protection</li>\n  <li>Free Ground Shipping (FedEx) Nationwide</li>\n</ul>\n<h3>Features</h3>\n<ul>\n  <li>Canopy is constructed of durable, weather-resistant 600 denier polyester</li>\n  <li>Your artwork will be dye sublimated on a white canopy</li>\n  <li>Frame is constructed of 1.2 mm anodized aluminum</li>\n  <li>Frame features ABS glass-filled nylon joints</li>\n  <li>Hexagon-shaped legs are 1.75&quot; in diameter</li>\n  <li>Legs feature plastic levers for pinch-free height adjustment</li>\n  <li>Easily collapses to fit inside the included soft case with wheels</li>\n  <li>The tent can be secured to the ground with the included stake kit</li>\n  <li>Imprint Method: Full-Color Dye Sublimation</li>\n</ul>\n<h3>Kit Includes</h3>\n<ul>\n  <li>1: Hardware (Frame)</li>\n  <li>1: Canopy</li>\n  <li>1: Full Back Wall Sigle-Sided</li>\n  <li>1: Wheeled Carry Bag</li>\n  <li>1: Ropes and Pegs Set</li>\n</ul>\n<h3>Optional Accessories</h3>\n<ul>\n  <li>6&#x27; Table Cover</li>\n  <li>Feather Flags</li>\n  <li>Sandbags</li>\n</ul>\n<h3>Materials</h3>\n<ul>\n  <li>Hardware: ABS Nylon, Aluminum</li>\n  <li>Canopy: 600 Denier Polyester</li>\n</ul>\n<h3>Certifications</h3>\n<ul>\n  <li>Meets FR Rating Requirements</li>\n  <li>Primary Usage</li>\n  <li>Outdoor</li>\n</ul>",
+        "description_text": "Specsheet Warning Label Fire Certificate\n\nPremium 10'×15' Custom Canopy Tent\n\n- 40mm heavy-duty aluminum frame + wheeled carry bag\n\n- Dye-sublimation printed 600D Oxford fabric\n\n- Waterproof, Fire Resistant, UV Protection\n\n- Free Ground Shipping (FedEx) Nationwide\n\nFeatures\n\n- Canopy is constructed of durable, weather-resistant 600 denier polyester\n\n- Your artwork will be dye sublimated on a white canopy\n\n- Frame is constructed of 1.2 mm anodized aluminum\n\n- Frame features ABS glass-filled nylon joints\n\n- Hexagon-shaped legs are 1.75\" in diameter\n\n- Legs feature plastic levers for pinch-free height adjustment\n\n- Easily collapses to fit inside the included soft case with wheels\n\n- The tent can be secured to the ground with the included stake kit\n\n- Imprint Method: Full-Color Dye Sublimation\n\nKit Includes\n\n- 1: Hardware (Frame)\n\n- 1: Canopy\n\n- 1: Full Back Wall Sigle-Sided\n\n- 1: Wheeled Carry Bag\n\n- 1: Ropes and Pegs Set\n\nOptional Accessories\n\n- 6' Table Cover\n\n- Feather Flags\n\n- Sandbags\n\nMaterials\n\n- Hardware: ABS Nylon, Aluminum\n\n- Canopy: 600 Denier Polyester\n\nCertifications\n\n- Meets FR Rating Requirements\n\n- Primary Usage\n\n- Outdoor",
+        "how_to_order_html": "<ul>\n  <li>SKU ITEM #: 6-15</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
+        "how_to_order_text": "- SKU ITEM #: 6-15\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
+        "dimensions_html": "<h3>Product Dimensions</h3>\n<ul>\n  <li>Product Size: 175.5&quot; W x 139.25&quot; H x 126.75&quot; D</li>\n  <li>Collapsible Dimensions: 12.12&quot; W x 62.75&quot; H x 9.37&quot; D</li>\n  <li>Product Weight: 70.5 lbs</li>\n</ul>",
+        "dimensions_text": "Product Dimensions\n\n- Product Size: 175.5\" W x 139.25\" H x 126.75\" D\n\n- Collapsible Dimensions: 12.12\" W x 62.75\" H x 9.37\" D\n\n- Product Weight: 70.5 lbs",
+        "warranty_html": "<h3>Factory Warranty</h3>\n<ul>\n  <li>We stand behind the quality of our products. Our warranty covers any factory defects or damage that occurs during shipping. However, please note that we do not cover damage resulting from extreme weather conditions, misuse, or any circumstances beyond our control.</li>\n</ul>\n<ul>\n  <li>Frame must be secured to the ground to prevent wind damage (failure to secure the tent voids the warranty)</li>\n</ul>",
+        "warranty_text": "Factory Warranty\n\n- We stand behind the quality of our products. Our warranty covers any factory defects or damage that occurs during shipping. However, please note that we do not cover damage resulting from extreme weather conditions, misuse, or any circumstances beyond our control.\n\n- Frame must be secured to the ground to prevent wind damage (failure to secure the tent voids the warranty)",
+        "source_options": [
+          {
+            "name": "Title",
+            "position": 1,
+            "values": [
+              "Default Title"
+            ]
+          }
+        ],
+        "source_variants": [
+          {
+            "id": 43238154240135,
+            "title": "Default Title",
+            "sku": "ITEM #: 6-15",
+            "available": true,
+            "price": 1045.0,
+            "compareAtPrice": 1149.5,
+            "optionValues": [
+              "Default Title"
+            ],
+            "requiresShipping": true,
+            "taxable": false,
+            "grams": 54431,
+            "position": 1
+          }
+        ],
+        "source_variant_label": null,
+        "source_sizes": [
+          "Default option"
+        ],
+        "source_size_variants": [
+          {
+            "value": "Default option",
+            "price": 1045.0,
+            "compareAtPrice": 1149.5,
+            "active": true
+          }
+        ],
+        "source_filter_category": [
+          "Best Selling 10x10 Custom Canopy Tents – Tradeshow & Food Booth Essentials",
+          "10x15 Custom Canopies",
+          "Custom Canopy Tents – Personalized Pop Up Tents for Events"
+        ],
+        "source_filter_sizes": [],
+        "source_reviews_text": "1 option",
+        "source_badge_label": "Best Selling 10x10 Custom Canopy Tents – Tradeshow & Food Booth Essentials",
+        "source_badge_subtext": "10 product images available",
+        "source_description": "Premium 10'×15' Custom Canopy Tent - 40mm heavy-duty aluminum frame + wheeled carry bag - Dye-sublimation printed 600D Oxford fabric - Waterproof, Fire Resistant, UV Protection - Free Ground Shipping (FedEx) Nationwide Features - Canopy is constructed of durable, weather-resista…",
+        "source_card_variant": "",
+        "source_add_on_group_keys": [
+          "accessories-fd0cc3eee457",
+          "upgrades-d45f34bc39dd"
+        ],
+        "local_image_paths": [
+          "/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x15-custom-canopy-tent-6-15/01.png",
+          "/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x15-custom-canopy-tent-6-15/02.png",
+          "/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x15-custom-canopy-tent-6-15/03.png",
+          "/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x15-custom-canopy-tent-6-15/04.png",
+          "/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x15-custom-canopy-tent-6-15/05.jpg",
+          "/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x15-custom-canopy-tent-6-15/06.jpg",
+          "/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x15-custom-canopy-tent-6-15/07.jpg",
+          "/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x15-custom-canopy-tent-6-15/08.jpg",
+          "/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x15-custom-canopy-tent-6-15/09.jpg",
+          "/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x15-custom-canopy-tent-6-15/10.jpg"
+        ],
+        "inventory_data_path": "data/inventory/notionworx/products/best-selling-10x10-custom-canopy-tents/premium-10x15-custom-canopy-tent-6-15.json",
+        "created_at": "2025-09-25T12:34:19-06:00",
+        "updated_at": "2026-08-18T21:23:22-06:00",
+        "published_at": "2025-09-26T09:36:39-06:00"
+      },
+      "sales_channels": [
+        {
+          "id": "sc_01M1E72H3K3S5QG6P0R7700SH4"
+        }
+      ]
+    },
+    {
+      "title": "Premium 10x15 Custom Canopy Tent – HEX Aluminum Frame (Silver) with Full Back Wall, Two Half Side Walls & 17\" Valance (Dye-Sublimation Printing)",
+      "handle": "premium-10x15-custom-canopy-tent-7-15",
+      "external_id": "8227672817799",
+      "description": "Specsheet Warning Label Fire Certificate\n\nPremium 10'×15' Custom Canopy Tent\n\n- 40mm heavy-duty aluminum frame + wheeled carry bag\n\n- Dye-sublimation printed 600D Oxford fabric\n\n- Waterproof, Fire Resistant, UV Protection\n\n- Free Ground Shipping (FedEx) Nationwide\n\nFeatures\n\n- Canopy is constructed of durable, weather-resistant 600 denier polyester\n\n- Your artwork will be dye sublimated on a white canopy\n\n- Frame is constructed of 1.2 mm anodized aluminum\n\n- Frame features ABS glass-filled nylon joints\n\n- Hexagon-shaped legs are 1.75\" in diameter\n\n- Legs feature plastic levers for pinch-free height adjustment\n\n- Easily collapses to fit inside the included soft case with wheels\n\n- The tent can be secured to the ground with the included stake kit\n\n- Imprint Method: Full-Color Dye Sublimation\n\nKit Includes\n\n- 1: Hardware (Frame)\n\n- 1: Canopy\n\n- 1: Full Back Wall Single-Sided\n\n- 2: Half Side Walls Single-Sided\n\n- 1: Wheeled Carry Bag\n\n- 1: Ropes and Pegs Set\n\nOptional Accessories\n\n- 6' Table Cover\n\n- Feather Flags\n\n- Sandbags\n\nMaterials\n\n- Hardware: ABS Nylon, Aluminum\n\n- Canopy: 600 Denier Polyester\n\nCertifications\n\n- Meets FR Rating Requirements\n\n- Primary Usage\n\n- Outdoor",
+      "status": "published",
+      "images": [
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x15-custom-canopy-tent-7-15/01.png"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x15-custom-canopy-tent-7-15/02.png"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x15-custom-canopy-tent-7-15/03.png"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x15-custom-canopy-tent-7-15/04.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x15-custom-canopy-tent-7-15/05.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x15-custom-canopy-tent-7-15/06.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x15-custom-canopy-tent-7-15/07.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x15-custom-canopy-tent-7-15/08.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x15-custom-canopy-tent-7-15/09.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x15-custom-canopy-tent-7-15/10.jpg"
+        }
+      ],
+      "thumbnail": "https://notionworxcanopy.com/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x15-custom-canopy-tent-7-15/01.png",
+      "options": [
+        {
+          "title": "Default option",
+          "values": [
+            "Default option value"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "Default variant",
+          "sku": "ITEM #: 7-15",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 114500,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Default option": "Default option value"
+          },
+          "metadata": {
+            "source_variant_id": 43238154305671,
+            "source_requires_shipping": true,
+            "source_taxable": false,
+            "source_grams": 54431,
+            "source_position": 1,
+            "source_option_values": [
+              "Default Title"
+            ],
+            "source_compare_at_price": 1259.5
+          }
+        }
+      ],
+      "metadata": {
+        "source": "notionworx-inventory",
+        "source_handle": "premium-10x15-custom-canopy-tent-7-15",
+        "source_product_id": 8227672817799,
+        "source_slug": "premium-10x15-custom-canopy-tent-7-15",
+        "source_vendor": "Notion Worx",
+        "source_product_type": null,
+        "source_primary_category": {
+          "handle": "best-selling-10x10-custom-canopy-tents",
+          "title": "Best Selling 10x10 Custom Canopy Tents – Tradeshow & Food Booth Essentials"
+        },
+        "source_categories": [
+          {
+            "handle": "best-selling-10x10-custom-canopy-tents",
+            "title": "Best Selling 10x10 Custom Canopy Tents – Tradeshow & Food Booth Essentials"
+          },
+          {
+            "handle": "10x15",
+            "title": "10x15 Custom Canopies"
+          },
+          {
+            "handle": "tent",
+            "title": "Custom Canopy Tents – Personalized Pop Up Tents for Events"
+          }
+        ],
+        "source_price": {
+          "min": 1145.0,
+          "max": 1145.0,
+          "compareAtMin": 1259.5,
+          "compareAtMax": 1259.5,
+          "variantCount": 1
+        },
+        "source_tags": [],
+        "source_skus": [
+          "ITEM #: 7-15"
+        ],
+        "description_html": "<p><a href=\"https://displaytemplate.s3-us-west-2.amazonaws.com/Product+setup+instruction/Inst_10x10_TENT_Universal_curves.pdf\">Specsheet</a> <a href=\"https://drive.google.com/file/d/1jv_fBUek_UZYUHvBv_DMJG5tk42yIiah/view?usp=drive_link\">Warning Label</a> <a href=\"https://drive.google.com/file/d/1lPLYIldqjlfbOpvvoZGq-ETmb5Lb207s/view?usp=sharing\">Fire Certificate</a></p>\n<p>Premium 10&#x27;×15&#x27; Custom Canopy Tent</p>\n<ul>\n  <li>40mm heavy-duty aluminum frame + wheeled carry bag</li>\n  <li>Dye-sublimation printed 600D Oxford fabric</li>\n  <li>Waterproof, Fire Resistant, UV Protection</li>\n  <li>Free Ground Shipping (FedEx) Nationwide</li>\n</ul>\n<h3>Features</h3>\n<ul>\n  <li>Canopy is constructed of durable, weather-resistant 600 denier polyester</li>\n  <li>Your artwork will be dye sublimated on a white canopy</li>\n  <li>Frame is constructed of 1.2 mm anodized aluminum</li>\n  <li>Frame features ABS glass-filled nylon joints</li>\n  <li>Hexagon-shaped legs are 1.75&quot; in diameter</li>\n  <li>Legs feature plastic levers for pinch-free height adjustment</li>\n  <li>Easily collapses to fit inside the included soft case with wheels</li>\n  <li>The tent can be secured to the ground with the included stake kit</li>\n  <li>Imprint Method: Full-Color Dye Sublimation</li>\n</ul>\n<h3>Kit Includes</h3>\n<ul>\n  <li>1: Hardware (Frame)</li>\n  <li>1: Canopy</li>\n  <li>1: Full Back Wall Single-Sided</li>\n  <li>2: Half Side Walls Single-Sided</li>\n  <li>1: Wheeled Carry Bag</li>\n  <li>1: Ropes and Pegs Set</li>\n</ul>\n<h3>Optional Accessories</h3>\n<ul>\n  <li>6&#x27; Table Cover</li>\n  <li>Feather Flags</li>\n  <li>Sandbags</li>\n</ul>\n<h3>Materials</h3>\n<ul>\n  <li>Hardware: ABS Nylon, Aluminum</li>\n  <li>Canopy: 600 Denier Polyester</li>\n</ul>\n<h3>Certifications</h3>\n<ul>\n  <li>Meets FR Rating Requirements</li>\n  <li>Primary Usage</li>\n  <li>Outdoor</li>\n</ul>",
+        "description_text": "Specsheet Warning Label Fire Certificate\n\nPremium 10'×15' Custom Canopy Tent\n\n- 40mm heavy-duty aluminum frame + wheeled carry bag\n\n- Dye-sublimation printed 600D Oxford fabric\n\n- Waterproof, Fire Resistant, UV Protection\n\n- Free Ground Shipping (FedEx) Nationwide\n\nFeatures\n\n- Canopy is constructed of durable, weather-resistant 600 denier polyester\n\n- Your artwork will be dye sublimated on a white canopy\n\n- Frame is constructed of 1.2 mm anodized aluminum\n\n- Frame features ABS glass-filled nylon joints\n\n- Hexagon-shaped legs are 1.75\" in diameter\n\n- Legs feature plastic levers for pinch-free height adjustment\n\n- Easily collapses to fit inside the included soft case with wheels\n\n- The tent can be secured to the ground with the included stake kit\n\n- Imprint Method: Full-Color Dye Sublimation\n\nKit Includes\n\n- 1: Hardware (Frame)\n\n- 1: Canopy\n\n- 1: Full Back Wall Single-Sided\n\n- 2: Half Side Walls Single-Sided\n\n- 1: Wheeled Carry Bag\n\n- 1: Ropes and Pegs Set\n\nOptional Accessories\n\n- 6' Table Cover\n\n- Feather Flags\n\n- Sandbags\n\nMaterials\n\n- Hardware: ABS Nylon, Aluminum\n\n- Canopy: 600 Denier Polyester\n\nCertifications\n\n- Meets FR Rating Requirements\n\n- Primary Usage\n\n- Outdoor",
+        "how_to_order_html": "<ul>\n  <li>SKU ITEM #: 7-15</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
+        "how_to_order_text": "- SKU ITEM #: 7-15\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
+        "dimensions_html": "<h3>Product Dimensions</h3>\n<ul>\n  <li>Product Size: 175.5&quot; W x 139.25&quot; H x 126.75&quot; D</li>\n  <li>Collapsible Dimensions: 12.12&quot; W x 62.75&quot; H x 9.37&quot; D</li>\n  <li>Product Weight: 70.5 lbs</li>\n</ul>",
+        "dimensions_text": "Product Dimensions\n\n- Product Size: 175.5\" W x 139.25\" H x 126.75\" D\n\n- Collapsible Dimensions: 12.12\" W x 62.75\" H x 9.37\" D\n\n- Product Weight: 70.5 lbs",
+        "warranty_html": "<h3>Factory Warranty</h3>\n<ul>\n  <li>We stand behind the quality of our products. Our warranty covers any factory defects or damage that occurs during shipping. However, please note that we do not cover damage resulting from extreme weather conditions, misuse, or any circumstances beyond our control.</li>\n</ul>\n<ul>\n  <li>Frame must be secured to the ground to prevent wind damage (failure to secure the tent voids the warranty)</li>\n</ul>",
+        "warranty_text": "Factory Warranty\n\n- We stand behind the quality of our products. Our warranty covers any factory defects or damage that occurs during shipping. However, please note that we do not cover damage resulting from extreme weather conditions, misuse, or any circumstances beyond our control.\n\n- Frame must be secured to the ground to prevent wind damage (failure to secure the tent voids the warranty)",
+        "source_options": [
+          {
+            "name": "Title",
+            "position": 1,
+            "values": [
+              "Default Title"
+            ]
+          }
+        ],
+        "source_variants": [
+          {
+            "id": 43238154305671,
+            "title": "Default Title",
+            "sku": "ITEM #: 7-15",
+            "available": true,
+            "price": 1145.0,
+            "compareAtPrice": 1259.5,
+            "optionValues": [
+              "Default Title"
+            ],
+            "requiresShipping": true,
+            "taxable": false,
+            "grams": 54431,
+            "position": 1
+          }
+        ],
+        "source_variant_label": null,
+        "source_sizes": [
+          "Default option"
+        ],
+        "source_size_variants": [
+          {
+            "value": "Default option",
+            "price": 1145.0,
+            "compareAtPrice": 1259.5,
+            "active": true
+          }
+        ],
+        "source_filter_category": [
+          "Best Selling 10x10 Custom Canopy Tents – Tradeshow & Food Booth Essentials",
+          "10x15 Custom Canopies",
+          "Custom Canopy Tents – Personalized Pop Up Tents for Events"
+        ],
+        "source_filter_sizes": [],
+        "source_reviews_text": "1 option",
+        "source_badge_label": "Best Selling 10x10 Custom Canopy Tents – Tradeshow & Food Booth Essentials",
+        "source_badge_subtext": "10 product images available",
+        "source_description": "Premium 10'×15' Custom Canopy Tent - 40mm heavy-duty aluminum frame + wheeled carry bag - Dye-sublimation printed 600D Oxford fabric - Waterproof, Fire Resistant, UV Protection - Free Ground Shipping (FedEx) Nationwide Features - Canopy is constructed of durable, weather-resista…",
+        "source_card_variant": "",
+        "source_add_on_group_keys": [
+          "accessories-c958ebbb8ff1",
+          "upgrades-771dc1fec7bc"
+        ],
+        "local_image_paths": [
+          "/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x15-custom-canopy-tent-7-15/01.png",
+          "/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x15-custom-canopy-tent-7-15/02.png",
+          "/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x15-custom-canopy-tent-7-15/03.png",
+          "/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x15-custom-canopy-tent-7-15/04.jpg",
+          "/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x15-custom-canopy-tent-7-15/05.jpg",
+          "/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x15-custom-canopy-tent-7-15/06.jpg",
+          "/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x15-custom-canopy-tent-7-15/07.jpg",
+          "/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x15-custom-canopy-tent-7-15/08.jpg",
+          "/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x15-custom-canopy-tent-7-15/09.jpg",
+          "/assets/images/notionworx-inventory/best-selling-10x10-custom-canopy-tents/premium-10x15-custom-canopy-tent-7-15/10.jpg"
+        ],
+        "inventory_data_path": "data/inventory/notionworx/products/best-selling-10x10-custom-canopy-tents/premium-10x15-custom-canopy-tent-7-15.json",
+        "created_at": "2025-09-25T12:34:22-06:00",
+        "updated_at": "2026-08-18T21:23:22-06:00",
+        "published_at": "2025-09-26T09:36:40-06:00"
+      },
+      "sales_channels": [
+        {
+          "id": "sc_01M1E72H3K3S5QG6P0R7700SH4"
+        }
+      ]
+    },
+    {
+      "title": "Premium 10x15 Custom Canopy Tent – HEX Aluminum Frame (Silver) with Three Full Walls & 17\" Valance (Dye-Sublimation Printing)",
+      "handle": "premium-10x15-custom-canopy-tent-8-15",
+      "external_id": "8227672785031",
+      "description": "Specsheet Warning Label Fire Certificate\n\nPremium 10'×15' Custom Canopy Tent\n\n- 40mm heavy-duty aluminum frame + wheeled carry bag\n\n- Dye-sublimation printed 600D Oxford fabric\n\n- Waterproof, Fire Resistant, UV Protection\n\n- Free Ground Shipping (FedEx) Nationwide\n\nFeatures\n\n- Canopy is constructed of durable, weather-resistant 600 denier polyester\n\n- Your artwork will be dye sublimated on a white canopy\n\n- Frame is constructed of 1.2 mm anodized aluminum\n\n- Frame features ABS glass-filled nylon joints\n\n- Hexagon-shaped legs are 1.75\" in diameter\n\n- Legs feature plastic levers for pinch-free height adjustment\n\n- Easily collapses to fit inside the included soft case with wheels\n\n- The tent can be secured to the ground with the included stake kit\n\n- Imprint Method: Full-Color Dye Sublimation\n\nKit Includes\n\n- 1: Hardware (Frame)\n\n- 1: Canopy\n\n- 3: Full Walls Single-Sided\n\n- 1: Wheeled Carry Bag\n\n- 1: Ropes and Pegs Set\n\nOptional Accessories\n\n- 6' Table Cover\n\n- Feather Flags\n\n- Sandbags\n\nMaterials\n\n- Hardware: ABS Nylon, Aluminum\n\n- Canopy: 600 Denier Polyester\n\nCertifications\n\n- Meets FR Rating Requirements\n\n- Primary Usage\n\n- Outdoor",
+      "status": "published",
+      "images": [
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/10x15/premium-10x15-custom-canopy-tent-8-15/01.png"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/10x15/premium-10x15-custom-canopy-tent-8-15/02.png"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/10x15/premium-10x15-custom-canopy-tent-8-15/03.png"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/10x15/premium-10x15-custom-canopy-tent-8-15/04.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/10x15/premium-10x15-custom-canopy-tent-8-15/05.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/10x15/premium-10x15-custom-canopy-tent-8-15/06.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/10x15/premium-10x15-custom-canopy-tent-8-15/07.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/10x15/premium-10x15-custom-canopy-tent-8-15/08.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/10x15/premium-10x15-custom-canopy-tent-8-15/09.jpg"
+        }
+      ],
+      "thumbnail": "https://notionworxcanopy.com/assets/images/notionworx-inventory/10x15/premium-10x15-custom-canopy-tent-8-15/01.png",
+      "options": [
+        {
+          "title": "Default option",
+          "values": [
+            "Default option value"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "Default variant",
+          "sku": "ITEM #: 8-15",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 124500,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Default option": "Default option value"
+          },
+          "metadata": {
+            "source_variant_id": 43238154272903,
+            "source_requires_shipping": true,
+            "source_taxable": false,
+            "source_grams": 54431,
+            "source_position": 1,
+            "source_option_values": [
+              "Default Title"
+            ],
+            "source_compare_at_price": 1369.5
+          }
+        }
+      ],
+      "metadata": {
+        "source": "notionworx-inventory",
+        "source_handle": "premium-10x15-custom-canopy-tent-8-15",
+        "source_product_id": 8227672785031,
+        "source_slug": "premium-10x15-custom-canopy-tent-8-15",
+        "source_vendor": "Notion Worx",
+        "source_product_type": null,
+        "source_primary_category": {
+          "handle": "10x15",
+          "title": "10x15 Custom Canopies"
+        },
+        "source_categories": [
+          {
+            "handle": "10x15",
+            "title": "10x15 Custom Canopies"
+          },
+          {
+            "handle": "tent",
+            "title": "Custom Canopy Tents – Personalized Pop Up Tents for Events"
+          }
+        ],
+        "source_price": {
+          "min": 1245.0,
+          "max": 1245.0,
+          "compareAtMin": 1369.5,
+          "compareAtMax": 1369.5,
+          "variantCount": 1
+        },
+        "source_tags": [],
+        "source_skus": [
+          "ITEM #: 8-15"
+        ],
+        "description_html": "<p><a href=\"https://displaytemplate.s3-us-west-2.amazonaws.com/Product+setup+instruction/Inst_10x10_TENT_Universal_curves.pdf\">Specsheet</a> <a href=\"https://drive.google.com/file/d/1jv_fBUek_UZYUHvBv_DMJG5tk42yIiah/view?usp=drive_link\">Warning Label</a> <a href=\"https://drive.google.com/file/d/1lPLYIldqjlfbOpvvoZGq-ETmb5Lb207s/view?usp=sharing\">Fire Certificate</a></p>\n<p>Premium 10&#x27;×15&#x27; Custom Canopy Tent</p>\n<ul>\n  <li>40mm heavy-duty aluminum frame + wheeled carry bag</li>\n  <li>Dye-sublimation printed 600D Oxford fabric</li>\n  <li>Waterproof, Fire Resistant, UV Protection</li>\n  <li>Free Ground Shipping (FedEx) Nationwide</li>\n</ul>\n<h3>Features</h3>\n<ul>\n  <li>Canopy is constructed of durable, weather-resistant 600 denier polyester</li>\n  <li>Your artwork will be dye sublimated on a white canopy</li>\n  <li>Frame is constructed of 1.2 mm anodized aluminum</li>\n  <li>Frame features ABS glass-filled nylon joints</li>\n  <li>Hexagon-shaped legs are 1.75&quot; in diameter</li>\n  <li>Legs feature plastic levers for pinch-free height adjustment</li>\n  <li>Easily collapses to fit inside the included soft case with wheels</li>\n  <li>The tent can be secured to the ground with the included stake kit</li>\n  <li>Imprint Method: Full-Color Dye Sublimation</li>\n</ul>\n<h3>Kit Includes</h3>\n<ul>\n  <li>1: Hardware (Frame)</li>\n  <li>1: Canopy</li>\n  <li>3: Full Walls Single-Sided</li>\n  <li>1: Wheeled Carry Bag</li>\n  <li>1: Ropes and Pegs Set</li>\n</ul>\n<h3>Optional Accessories</h3>\n<ul>\n  <li>6&#x27; Table Cover</li>\n  <li>Feather Flags</li>\n  <li>Sandbags</li>\n</ul>\n<h3>Materials</h3>\n<ul>\n  <li>Hardware: ABS Nylon, Aluminum</li>\n  <li>Canopy: 600 Denier Polyester</li>\n</ul>\n<h3>Certifications</h3>\n<ul>\n  <li>Meets FR Rating Requirements</li>\n  <li>Primary Usage</li>\n  <li>Outdoor</li>\n</ul>",
+        "description_text": "Specsheet Warning Label Fire Certificate\n\nPremium 10'×15' Custom Canopy Tent\n\n- 40mm heavy-duty aluminum frame + wheeled carry bag\n\n- Dye-sublimation printed 600D Oxford fabric\n\n- Waterproof, Fire Resistant, UV Protection\n\n- Free Ground Shipping (FedEx) Nationwide\n\nFeatures\n\n- Canopy is constructed of durable, weather-resistant 600 denier polyester\n\n- Your artwork will be dye sublimated on a white canopy\n\n- Frame is constructed of 1.2 mm anodized aluminum\n\n- Frame features ABS glass-filled nylon joints\n\n- Hexagon-shaped legs are 1.75\" in diameter\n\n- Legs feature plastic levers for pinch-free height adjustment\n\n- Easily collapses to fit inside the included soft case with wheels\n\n- The tent can be secured to the ground with the included stake kit\n\n- Imprint Method: Full-Color Dye Sublimation\n\nKit Includes\n\n- 1: Hardware (Frame)\n\n- 1: Canopy\n\n- 3: Full Walls Single-Sided\n\n- 1: Wheeled Carry Bag\n\n- 1: Ropes and Pegs Set\n\nOptional Accessories\n\n- 6' Table Cover\n\n- Feather Flags\n\n- Sandbags\n\nMaterials\n\n- Hardware: ABS Nylon, Aluminum\n\n- Canopy: 600 Denier Polyester\n\nCertifications\n\n- Meets FR Rating Requirements\n\n- Primary Usage\n\n- Outdoor",
+        "how_to_order_html": "<ul>\n  <li>SKU ITEM #: 8-15</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
+        "how_to_order_text": "- SKU ITEM #: 8-15\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
+        "dimensions_html": "<h3>Product Dimensions</h3>\n<ul>\n  <li>Product Size: 175.5&quot; W x 139.25&quot; H x 126.75&quot; D</li>\n  <li>Collapsible Dimensions: 12.12&quot; W x 62.75&quot; H x 9.37&quot; D</li>\n  <li>Product Weight: 70.5 lbs</li>\n</ul>",
+        "dimensions_text": "Product Dimensions\n\n- Product Size: 175.5\" W x 139.25\" H x 126.75\" D\n\n- Collapsible Dimensions: 12.12\" W x 62.75\" H x 9.37\" D\n\n- Product Weight: 70.5 lbs",
+        "warranty_html": "<h3>Factory Warranty</h3>\n<ul>\n  <li>We stand behind the quality of our products. Our warranty covers any factory defects or damage that occurs during shipping. However, please note that we do not cover damage resulting from extreme weather conditions, misuse, or any circumstances beyond our control.</li>\n</ul>\n<ul>\n  <li>Frame must be secured to the ground to prevent wind damage (failure to secure the tent voids the warranty)</li>\n</ul>",
+        "warranty_text": "Factory Warranty\n\n- We stand behind the quality of our products. Our warranty covers any factory defects or damage that occurs during shipping. However, please note that we do not cover damage resulting from extreme weather conditions, misuse, or any circumstances beyond our control.\n\n- Frame must be secured to the ground to prevent wind damage (failure to secure the tent voids the warranty)",
+        "source_options": [
+          {
+            "name": "Title",
+            "position": 1,
+            "values": [
+              "Default Title"
+            ]
+          }
+        ],
+        "source_variants": [
+          {
+            "id": 43238154272903,
+            "title": "Default Title",
+            "sku": "ITEM #: 8-15",
+            "available": true,
+            "price": 1245.0,
+            "compareAtPrice": 1369.5,
+            "optionValues": [
+              "Default Title"
+            ],
+            "requiresShipping": true,
+            "taxable": false,
+            "grams": 54431,
+            "position": 1
+          }
+        ],
+        "source_variant_label": null,
+        "source_sizes": [
+          "Default option"
+        ],
+        "source_size_variants": [
+          {
+            "value": "Default option",
+            "price": 1245.0,
+            "compareAtPrice": 1369.5,
+            "active": true
+          }
+        ],
+        "source_filter_category": [
+          "10x15 Custom Canopies",
+          "Custom Canopy Tents – Personalized Pop Up Tents for Events"
+        ],
+        "source_filter_sizes": [],
+        "source_reviews_text": "1 option",
+        "source_badge_label": "10x15 Custom Canopies",
+        "source_badge_subtext": "9 product images available",
+        "source_description": "Premium 10'×15' Custom Canopy Tent - 40mm heavy-duty aluminum frame + wheeled carry bag - Dye-sublimation printed 600D Oxford fabric - Waterproof, Fire Resistant, UV Protection - Free Ground Shipping (FedEx) Nationwide Features - Canopy is constructed of durable, weather-resista…",
+        "source_card_variant": "",
+        "source_add_on_group_keys": [
+          "accessories-87a7db480378",
+          "upgrades-df0f76edcef0"
+        ],
+        "local_image_paths": [
+          "/assets/images/notionworx-inventory/10x15/premium-10x15-custom-canopy-tent-8-15/01.png",
+          "/assets/images/notionworx-inventory/10x15/premium-10x15-custom-canopy-tent-8-15/02.png",
+          "/assets/images/notionworx-inventory/10x15/premium-10x15-custom-canopy-tent-8-15/03.png",
+          "/assets/images/notionworx-inventory/10x15/premium-10x15-custom-canopy-tent-8-15/04.jpg",
+          "/assets/images/notionworx-inventory/10x15/premium-10x15-custom-canopy-tent-8-15/05.jpg",
+          "/assets/images/notionworx-inventory/10x15/premium-10x15-custom-canopy-tent-8-15/06.jpg",
+          "/assets/images/notionworx-inventory/10x15/premium-10x15-custom-canopy-tent-8-15/07.jpg",
+          "/assets/images/notionworx-inventory/10x15/premium-10x15-custom-canopy-tent-8-15/08.jpg",
+          "/assets/images/notionworx-inventory/10x15/premium-10x15-custom-canopy-tent-8-15/09.jpg"
+        ],
+        "inventory_data_path": "data/inventory/notionworx/products/10x15/premium-10x15-custom-canopy-tent-8-15.json",
+        "created_at": "2025-09-25T12:34:21-06:00",
+        "updated_at": "2026-08-18T21:23:22-06:00",
+        "published_at": "2025-09-26T09:36:39-06:00"
+      },
+      "sales_channels": [
+        {
+          "id": "sc_01M1E72H3K3S5QG6P0R7700SH4"
+        }
+      ]
+    },
+    {
+      "title": "Premium 15' Aluminum Tent Frame (Silver)",
+      "handle": "premium-15-aluminum-tent-frame-silver",
+      "external_id": "8227681861767",
+      "description": "Features\n\n- Frame is constructed of 1.1 mm anodized aluminum\n\n- Frame features ABS glass-filled nylon joints\n\n- Hexagon-shaped legs are 1.75\" in diameter\n\n- Legs feature plastic levers for pinch-free height adjustment\n\n- Easy-Glide Tent Feet allow the tent frame to slide on dirt and grass, preventing the legs from catching\n\nKit Include\n\n- 1: Hardware (Frame)\n\nMaterials\n\n- Hardware: ABS Nylon, Aluminum\n\nPrimary Usage\n\n- Outdoor\n\nOrder Cutoff Time\n\n- 2:00 PM Central Daylight Time",
+      "status": "published",
+      "images": [
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/10x15/premium-15-aluminum-tent-frame-silver/01.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/10x15/premium-15-aluminum-tent-frame-silver/02.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/10x15/premium-15-aluminum-tent-frame-silver/03.jpg"
+        }
+      ],
+      "thumbnail": "https://notionworxcanopy.com/assets/images/notionworx-inventory/10x15/premium-15-aluminum-tent-frame-silver/01.jpg",
+      "options": [
+        {
+          "title": "Default option",
+          "values": [
+            "Default option value"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "Default variant",
+          "sku": "206067",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 44500,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Default option": "Default option value"
+          },
+          "metadata": {
+            "source_variant_id": 43238200279175,
+            "source_requires_shipping": true,
+            "source_taxable": false,
+            "source_grams": 54431,
+            "source_position": 1,
+            "source_option_values": [
+              "Default Title"
+            ],
+            "source_compare_at_price": null
+          }
+        }
+      ],
+      "metadata": {
+        "source": "notionworx-inventory",
+        "source_handle": "premium-15-aluminum-tent-frame-silver",
+        "source_product_id": 8227681861767,
+        "source_slug": "premium-15-aluminum-tent-frame-silver",
+        "source_vendor": "Notion Worx",
+        "source_product_type": null,
+        "source_primary_category": {
+          "handle": "10x15",
+          "title": "10x15 Custom Canopies"
+        },
+        "source_categories": [
+          {
+            "handle": "10x15",
+            "title": "10x15 Custom Canopies"
+          }
+        ],
+        "source_price": {
+          "min": 445.0,
+          "max": 445.0,
+          "compareAtMin": null,
+          "compareAtMax": null,
+          "variantCount": 1
+        },
+        "source_tags": [],
+        "source_skus": [
+          "206067"
+        ],
+        "description_html": "<h3>Features</h3>\n<ul>\n  <li>Frame is constructed of 1.1 mm anodized aluminum</li>\n  <li>Frame features ABS glass-filled nylon joints</li>\n  <li>Hexagon-shaped legs are 1.75\" in diameter</li>\n  <li>Legs feature plastic levers for pinch-free height adjustment</li>\n  <li>Easy-Glide Tent Feet allow the tent frame to slide on dirt and grass, preventing the legs from catching</li>\n</ul>\n<h3>Kit Include</h3>\n<ul>\n  <li>1: Hardware (Frame)</li>\n</ul>\n<h3>Materials</h3>\n<ul>\n  <li>Hardware: ABS Nylon, Aluminum</li>\n</ul>\n<h3>Primary Usage</h3>\n<ul>\n  <li>Outdoor</li>\n</ul>\n<h3>Order Cutoff Time</h3>\n<ul>\n  <li>2:00 PM Central Daylight Time</li>\n</ul>",
+        "description_text": "Features\n\n- Frame is constructed of 1.1 mm anodized aluminum\n\n- Frame features ABS glass-filled nylon joints\n\n- Hexagon-shaped legs are 1.75\" in diameter\n\n- Legs feature plastic levers for pinch-free height adjustment\n\n- Easy-Glide Tent Feet allow the tent frame to slide on dirt and grass, preventing the legs from catching\n\nKit Include\n\n- 1: Hardware (Frame)\n\nMaterials\n\n- Hardware: ABS Nylon, Aluminum\n\nPrimary Usage\n\n- Outdoor\n\nOrder Cutoff Time\n\n- 2:00 PM Central Daylight Time",
+        "how_to_order_html": "<h3><strong>3 Easy Steps</strong></h3><p><strong>Step 1: Shop 🛒</strong><br/><br/>Pick your products and add-ons, then add your order to the cart.</p><p><strong>Step 2: Payment 💳</strong><br/><br/>Go to your cart and choose your payment option:<br/><br/><strong>Full payment:</strong> your design gets priority 🚀<br/><br/><strong>Deposit:</strong> start the design now and pay the remaining balance after artwork approval<br/><br/><em>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</em></p><p><strong>Step 3: Artwork 🎨</strong><br/><br/>Complete checkout and upload your artwork using the provided link.<br/><br/>Don’t see it? No worries — we’ll email it to you.</p>",
+        "how_to_order_text": "3 Easy Steps\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
+        "dimensions_html": "<h3>Product Dimensions</h3>\n<ul>\n  <li><strong>15ft:</strong></li>\n  <li>Product Size: 175.5\" W x 139.25\" H x 126.75\" D</li>\n  <li>Collapsible Dimensions: 12.12\" W x 62.75\" H x 9.37\" D</li>\n  <li>Product Weight: 46 lbs</li>\n</ul>",
+        "dimensions_text": "Product Dimensions\n\n- 15ft:\n\n- Product Size: 175.5\" W x 139.25\" H x 126.75\" D\n\n- Collapsible Dimensions: 12.12\" W x 62.75\" H x 9.37\" D\n\n- Product Weight: 46 lbs",
+        "warranty_html": "<h3>Warranty</h3>\n<p>lifetime hardware warranty - Standard warranty is a parts and labor warranty which warrants product against defects in material and workmanship. It does not cover damage due to accidents, abuse, or normal wear and tear. Products found to be defective will be replaced or repaired at factory's discretion.</p>\n<ul>\n  <li>Frame must be secured to the ground to prevent wind damage (failure to secure the tent voids the warranty)</li>\n</ul>",
+        "warranty_text": "Warranty\n\nlifetime hardware warranty - Standard warranty is a parts and labor warranty which warrants product against defects in material and workmanship. It does not cover damage due to accidents, abuse, or normal wear and tear. Products found to be defective will be replaced or repaired at factory's discretion.\n\n- Frame must be secured to the ground to prevent wind damage (failure to secure the tent voids the warranty)",
+        "source_options": [
+          {
+            "name": "Title",
+            "position": 1,
+            "values": [
+              "Default Title"
+            ]
+          }
+        ],
+        "source_variants": [
+          {
+            "id": 43238200279175,
+            "title": "Default Title",
+            "sku": "206067",
+            "available": true,
+            "price": 445.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "Default Title"
+            ],
+            "requiresShipping": true,
+            "taxable": false,
+            "grams": 54431,
+            "position": 1
+          }
+        ],
+        "source_variant_label": null,
+        "source_sizes": [
+          "Default option"
+        ],
+        "source_size_variants": [
+          {
+            "value": "Default option",
+            "price": 445.0,
+            "active": true
+          }
+        ],
+        "source_filter_category": [
+          "10x15 Custom Canopies"
+        ],
+        "source_filter_sizes": [],
+        "source_reviews_text": "1 option",
+        "source_badge_label": "10x15 Custom Canopies",
+        "source_badge_subtext": "3 product images available",
+        "source_description": "Features - Frame is constructed of 1.1 mm anodized aluminum - Frame features ABS glass-filled nylon joints - Hexagon-shaped legs are 1.75\" in diameter - Legs feature plastic levers for pinch-free height adjustment - Easy-Glide Tent Feet allow the tent frame to slide on dirt and…",
+        "source_card_variant": "",
+        "source_add_on_group_keys": [],
+        "local_image_paths": [
+          "/assets/images/notionworx-inventory/10x15/premium-15-aluminum-tent-frame-silver/01.jpg",
+          "/assets/images/notionworx-inventory/10x15/premium-15-aluminum-tent-frame-silver/02.jpg",
+          "/assets/images/notionworx-inventory/10x15/premium-15-aluminum-tent-frame-silver/03.jpg"
+        ],
+        "inventory_data_path": "data/inventory/notionworx/products/10x15/premium-15-aluminum-tent-frame-silver.json",
+        "created_at": "2025-09-25T12:39:55-06:00",
+        "updated_at": "2026-08-18T21:23:41-06:00",
+        "published_at": "2025-09-28T21:06:25-06:00"
+      },
+      "sales_channels": [
+        {
+          "id": "sc_01M1E72H3K3S5QG6P0R7700SH4"
+        }
+      ]
+    },
+    {
+      "title": "Sandbag Ballast Kit for Event Tent Legs (Set of Four)",
+      "handle": "sandbag-ballast-kit-for-event-tent-legs-set-of-four",
+      "external_id": "8525433503879",
+      "description": "📦 Sandbag Ballast Kit for Event Tent Legs (Set of Four)\n\n- Keep your tent weighted down for stability. Compatible with all our tent frames. Straps around event tent legs to keep the tent weighted down. Set includes four ballasts. Each ballast has two zippered pockets for sand. Weighs 20.6 lbs. when filled with sand. Complies with Prop 65.",
+      "status": "published",
+      "images": [
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/accesories/sandbag-ballast-kit-for-event-tent-legs-set-of-four/01.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/accesories/sandbag-ballast-kit-for-event-tent-legs-set-of-four/02.jpg"
+        }
+      ],
+      "thumbnail": "https://notionworxcanopy.com/assets/images/notionworx-inventory/accesories/sandbag-ballast-kit-for-event-tent-legs-set-of-four/01.jpg",
+      "options": [
+        {
+          "title": "Default option",
+          "values": [
+            "Default option value"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "Default variant",
+          "sku": "240112",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 10000,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Default option": "Default option value"
+          },
+          "metadata": {
+            "source_variant_id": 44387877781639,
+            "source_requires_shipping": true,
+            "source_taxable": true,
+            "source_grams": 0,
+            "source_position": 1,
+            "source_option_values": [
+              "Default Title"
+            ],
+            "source_compare_at_price": null
+          }
+        }
+      ],
+      "metadata": {
+        "source": "notionworx-inventory",
+        "source_handle": "sandbag-ballast-kit-for-event-tent-legs-set-of-four",
+        "source_product_id": 8525433503879,
+        "source_slug": "sandbag-ballast-kit-for-event-tent-legs-set-of-four",
+        "source_vendor": "Notion Worx",
+        "source_product_type": null,
+        "source_primary_category": {
+          "handle": "accesories",
+          "title": "Accessories"
+        },
+        "source_categories": [
+          {
+            "handle": "accesories",
+            "title": "Accessories"
+          },
+          {
+            "handle": "5x5-custom-canopy",
+            "title": "5x5 Custom Canopies"
+          },
+          {
+            "handle": "10x15",
+            "title": "10x15 Custom Canopies"
+          },
+          {
+            "handle": "10x20",
+            "title": "10x20 Custom Canopies"
+          },
+          {
+            "handle": "10x10",
+            "title": "10x10 Custom Canopies"
+          }
+        ],
+        "source_price": {
+          "min": 100,
+          "max": 100,
+          "compareAtMin": null,
+          "compareAtMax": null,
+          "variantCount": 1
+        },
+        "source_tags": [],
+        "source_skus": [
+          "240112"
+        ],
+        "description_html": "<h2>📦 Sandbag Ballast Kit for Event Tent Legs (Set of Four)</h2>\n<ul>\n  <li>Keep your tent weighted down for stability. Compatible with all our tent frames. Straps around event tent legs to keep the tent weighted down. Set includes four ballasts. Each ballast has two zippered pockets for sand. Weighs 20.6 lbs. when filled with sand. Complies with Prop 65. </li>\n</ul>",
+        "description_text": "📦 Sandbag Ballast Kit for Event Tent Legs (Set of Four)\n\n- Keep your tent weighted down for stability. Compatible with all our tent frames. Straps around event tent legs to keep the tent weighted down. Set includes four ballasts. Each ballast has two zippered pockets for sand. Weighs 20.6 lbs. when filled with sand. Complies with Prop 65.",
+        "how_to_order_html": "<ul>\n  <li>SKU 240112</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
+        "how_to_order_text": "SKU 240112\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
+        "dimensions_html": "<p>12.5&quot; D x 14.5&quot; W x 4.75&quot; H</p>",
+        "dimensions_text": "12.5\" D x 14.5\" W x 4.75\" H",
+        "warranty_html": null,
+        "warranty_text": null,
+        "source_options": [
+          {
+            "name": "Title",
+            "position": 1,
+            "values": [
+              "Default Title"
+            ]
+          }
+        ],
+        "source_variants": [
+          {
+            "id": 44387877781639,
+            "title": "Default Title",
+            "sku": "240112",
+            "available": true,
+            "price": 100,
+            "compareAtPrice": null,
+            "optionValues": [
+              "Default Title"
+            ],
+            "requiresShipping": true,
+            "taxable": true,
+            "grams": 0,
+            "position": 1
+          }
+        ],
+        "source_variant_label": null,
+        "source_sizes": [
+          "Default option"
+        ],
+        "source_size_variants": [
+          {
+            "value": "Default option",
+            "price": 100.0,
+            "active": true
+          }
+        ],
+        "source_filter_category": [
+          "Accessories",
+          "5x5 Custom Canopies",
+          "10x15 Custom Canopies",
+          "10x20 Custom Canopies",
+          "10x10 Custom Canopies"
+        ],
+        "source_filter_sizes": [],
+        "source_reviews_text": "1 option",
+        "source_badge_label": "Accessories",
+        "source_badge_subtext": "2 product images available",
+        "source_description": "📦 Sandbag Ballast Kit for Event Tent Legs (Set of Four) - Keep your tent weighted down for stability. Compatible with all our tent frames. Straps around event tent legs to keep the tent weighted down. Set includes four ballasts. Each ballast has two zippered pockets for sand. W…",
+        "source_card_variant": "",
+        "source_add_on_group_keys": [],
+        "local_image_paths": [
+          "/assets/images/notionworx-inventory/accesories/sandbag-ballast-kit-for-event-tent-legs-set-of-four/01.jpg",
+          "/assets/images/notionworx-inventory/accesories/sandbag-ballast-kit-for-event-tent-legs-set-of-four/02.jpg"
+        ],
+        "inventory_data_path": "data/inventory/notionworx/products/accesories/sandbag-ballast-kit-for-event-tent-legs-set-of-four.json",
+        "created_at": "2026-04-03T13:22:29-06:00",
+        "updated_at": "2026-08-18T21:23:34-06:00",
+        "published_at": "2026-04-03T13:26:48-06:00"
+      },
+      "sales_channels": [
+        {
+          "id": "sc_01M1E72H3K3S5QG6P0R7700SH4"
+        }
+      ]
+    }
+  ]
+}

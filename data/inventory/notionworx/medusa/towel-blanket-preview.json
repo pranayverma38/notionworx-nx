@@ -1,0 +1,1101 @@
+{
+  "baseUrl": "https://api.notionworxcanopy.com",
+  "siteUrl": "https://notionworxcanopy.com",
+  "mode": "apply",
+  "collectionHandle": "towel-blanket",
+  "region": {
+    "id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X",
+    "currency_code": "eur",
+    "name": "Europe"
+  },
+  "salesChannelId": "sc_01M1E72H3K3S5QG6P0R7700SH4",
+  "collection": {
+    "title": "TOWEL & BLANKET",
+    "handle": "towel-blanket",
+    "metadata": {
+      "source": "notionworx-inventory",
+      "source_handle": "towel-blanket",
+      "source_title": "TOWEL & BLANKET",
+      "source_description": "",
+      "source_products_count": 6,
+      "source_image_path": "/assets/images/notionworx-inventory/collections/towel-blanket/01.jpg",
+      "source_image_url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/collections/towel-blanket/01.jpg",
+      "inventory_data_path": "/inventory/notionworx/collections/towel-blanket.json"
+    }
+  },
+  "productsCount": 6,
+  "products": [
+    {
+      "title": "Sublimated Cooling Beach Towel - 12'' x 40''",
+      "handle": "cooling-beach-towel-12-x-40",
+      "external_id": "8227675570311",
+      "description": "Download Template\n\nmin qty is 50pcs ,can mix design\n\nmoisture-wicking fabric jersey mesh",
+      "status": "published",
+      "images": [
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/towel-blanket/cooling-beach-towel-12-x-40/01.jpg"
+        }
+      ],
+      "thumbnail": "https://notionworxcanopy.com/assets/images/notionworx-inventory/towel-blanket/cooling-beach-towel-12-x-40/01.jpg",
+      "options": [
+        {
+          "title": "Default option",
+          "values": [
+            "Default option value"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "Default variant",
+          "sku": "50012",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 2000,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Default option": "Default option value"
+          },
+          "metadata": {
+            "source_variant_id": 43238165774471,
+            "source_requires_shipping": true,
+            "source_taxable": false,
+            "source_grams": 1361,
+            "source_position": 1,
+            "source_option_values": [
+              "Default Title"
+            ],
+            "source_compare_at_price": null
+          }
+        }
+      ],
+      "metadata": {
+        "source": "notionworx-inventory",
+        "source_handle": "cooling-beach-towel-12-x-40",
+        "source_product_id": 8227675570311,
+        "source_slug": "cooling-beach-towel-12-x-40",
+        "source_vendor": "Notion Worx",
+        "source_product_type": null,
+        "source_primary_category": {
+          "handle": "towel-blanket",
+          "title": "TOWEL & BLANKET"
+        },
+        "source_categories": [
+          {
+            "handle": "towel-blanket",
+            "title": "TOWEL & BLANKET"
+          }
+        ],
+        "source_price": {
+          "min": 20.0,
+          "max": 20.0,
+          "compareAtMin": null,
+          "compareAtMax": null,
+          "variantCount": 1
+        },
+        "source_tags": [],
+        "source_skus": [
+          "50012"
+        ],
+        "description_html": "<p><a href=\"https://displaytemplate.s3.us-west-2.amazonaws.com/Apparel/beach+towel+12in+x+40in.pdf\">Download Template</a></p>\n<p>min qty is 50pcs ,can mix design</p>\n<p>moisture-wicking fabric jersey mesh</p>",
+        "description_text": "Download Template\n\nmin qty is 50pcs ,can mix design\n\nmoisture-wicking fabric jersey mesh",
+        "how_to_order_html": "<ul>\n  <li>SKU 50012</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
+        "how_to_order_text": "- SKU 50012\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
+        "dimensions_html": null,
+        "dimensions_text": null,
+        "warranty_html": null,
+        "warranty_text": null,
+        "source_options": [
+          {
+            "name": "Title",
+            "position": 1,
+            "values": [
+              "Default Title"
+            ]
+          }
+        ],
+        "source_variants": [
+          {
+            "id": 43238165774471,
+            "title": "Default Title",
+            "sku": "50012",
+            "available": true,
+            "price": 20.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "Default Title"
+            ],
+            "requiresShipping": true,
+            "taxable": false,
+            "grams": 1361,
+            "position": 1
+          }
+        ],
+        "source_variant_label": null,
+        "source_sizes": [
+          "Default option"
+        ],
+        "source_size_variants": [
+          {
+            "value": "Default option",
+            "price": 20.0,
+            "active": true
+          }
+        ],
+        "source_filter_category": [
+          "TOWEL & BLANKET"
+        ],
+        "source_filter_sizes": [],
+        "source_reviews_text": "1 option",
+        "source_badge_label": "Towel & Blanket",
+        "source_badge_subtext": "1 product image available",
+        "source_description": "min qty is 50pcs ,can mix design moisture-wicking fabric jersey mesh",
+        "source_card_variant": "",
+        "source_add_on_group_keys": [],
+        "local_image_paths": [
+          "/assets/images/notionworx-inventory/towel-blanket/cooling-beach-towel-12-x-40/01.jpg"
+        ],
+        "inventory_data_path": "data/inventory/notionworx/products/towel-blanket/cooling-beach-towel-12-x-40.json",
+        "created_at": "2025-09-25T12:36:26-06:00",
+        "updated_at": "2026-08-18T21:26:03-06:00",
+        "published_at": "2025-09-28T21:05:38-06:00"
+      },
+      "sales_channels": [
+        {
+          "id": "sc_01M1E72H3K3S5QG6P0R7700SH4"
+        }
+      ]
+    },
+    {
+      "title": "Custom Sublimated Printed Chiffon bandanna scarf",
+      "handle": "custom-sublimation-printed-chiffon-bandanna-scarf",
+      "external_id": "8227675537543",
+      "description": "This is a great custom bandanna/scarf with full color sublimation.\n\nPerfect for around your neck as an accessory or even around your head.\n\nSoft lightweight chiffon scarf, this is a great fashion piece. roll hemmed.\n\nhttps://displaytemplate.s3.us-west-2.amazonaws.com/Custom+jerseys/Crew+Neck+Short+Sleeve.zip",
+      "status": "published",
+      "images": [
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/towel-blanket/custom-sublimation-printed-chiffon-bandanna-scarf/01.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/towel-blanket/custom-sublimation-printed-chiffon-bandanna-scarf/02.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/towel-blanket/custom-sublimation-printed-chiffon-bandanna-scarf/03.jpg"
+        }
+      ],
+      "thumbnail": "https://notionworxcanopy.com/assets/images/notionworx-inventory/towel-blanket/custom-sublimation-printed-chiffon-bandanna-scarf/01.jpg",
+      "options": [
+        {
+          "title": "Default option",
+          "values": [
+            "Default option value"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "Default variant",
+          "sku": "50086",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 2500,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Default option": "Default option value"
+          },
+          "metadata": {
+            "source_variant_id": 43238165741703,
+            "source_requires_shipping": true,
+            "source_taxable": false,
+            "source_grams": 454,
+            "source_position": 1,
+            "source_option_values": [
+              "Default Title"
+            ],
+            "source_compare_at_price": null
+          }
+        }
+      ],
+      "metadata": {
+        "source": "notionworx-inventory",
+        "source_handle": "custom-sublimation-printed-chiffon-bandanna-scarf",
+        "source_product_id": 8227675537543,
+        "source_slug": "custom-sublimation-printed-chiffon-bandanna-scarf",
+        "source_vendor": "Notion Worx",
+        "source_product_type": null,
+        "source_primary_category": {
+          "handle": "towel-blanket",
+          "title": "TOWEL & BLANKET"
+        },
+        "source_categories": [
+          {
+            "handle": "towel-blanket",
+            "title": "TOWEL & BLANKET"
+          }
+        ],
+        "source_price": {
+          "min": 25.0,
+          "max": 25.0,
+          "compareAtMin": null,
+          "compareAtMax": null,
+          "variantCount": 1
+        },
+        "source_tags": [],
+        "source_skus": [
+          "50086"
+        ],
+        "description_html": "<p>This is a great custom bandanna/scarf with full color sublimation.</p>\n<p>Perfect for around your neck as an accessory or even around your head.</p>\n<p>Soft lightweight chiffon scarf, this is a great fashion piece. roll hemmed.</p>\n\n<h4><a href=\"https://displaytemplate.s3.us-west-2.amazonaws.com/Custom+jerseys/Crew+Neck+Short+Sleeve.zip\">https://displaytemplate.s3.us-west-2.amazonaws.com/Custom+jerseys/Crew+Neck+Short+Sleeve.zip</a><br></h4>",
+        "description_text": "This is a great custom bandanna/scarf with full color sublimation.\n\nPerfect for around your neck as an accessory or even around your head.\n\nSoft lightweight chiffon scarf, this is a great fashion piece. roll hemmed.\n\nhttps://displaytemplate.s3.us-west-2.amazonaws.com/Custom+jerseys/Crew+Neck+Short+Sleeve.zip",
+        "how_to_order_html": "<ul>\n  <li>SKU 50086</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
+        "how_to_order_text": "- SKU 50086\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
+        "dimensions_html": "<p>Size: 24&#x27;&#x27; x 24&#x27;&#x27;</p>",
+        "dimensions_text": "Size: 24'' x 24''",
+        "warranty_html": null,
+        "warranty_text": null,
+        "source_options": [
+          {
+            "name": "Title",
+            "position": 1,
+            "values": [
+              "Default Title"
+            ]
+          }
+        ],
+        "source_variants": [
+          {
+            "id": 43238165741703,
+            "title": "Default Title",
+            "sku": "50086",
+            "available": true,
+            "price": 25.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "Default Title"
+            ],
+            "requiresShipping": true,
+            "taxable": false,
+            "grams": 454,
+            "position": 1
+          }
+        ],
+        "source_variant_label": null,
+        "source_sizes": [
+          "Default option"
+        ],
+        "source_size_variants": [
+          {
+            "value": "Default option",
+            "price": 25.0,
+            "active": true
+          }
+        ],
+        "source_filter_category": [
+          "TOWEL & BLANKET"
+        ],
+        "source_filter_sizes": [],
+        "source_reviews_text": "1 option",
+        "source_badge_label": "Towel & Blanket",
+        "source_badge_subtext": "3 product images available",
+        "source_description": "This is a great custom bandanna/scarf with full color sublimation. Perfect for around your neck as an accessory or even around your head. Soft lightweight chiffon scarf, this is a great fashion piece. roll hemmed.",
+        "source_card_variant": "",
+        "source_add_on_group_keys": [],
+        "local_image_paths": [
+          "/assets/images/notionworx-inventory/towel-blanket/custom-sublimation-printed-chiffon-bandanna-scarf/01.jpg",
+          "/assets/images/notionworx-inventory/towel-blanket/custom-sublimation-printed-chiffon-bandanna-scarf/02.jpg",
+          "/assets/images/notionworx-inventory/towel-blanket/custom-sublimation-printed-chiffon-bandanna-scarf/03.jpg"
+        ],
+        "inventory_data_path": "data/inventory/notionworx/products/towel-blanket/custom-sublimation-printed-chiffon-bandanna-scarf.json",
+        "created_at": "2025-09-25T12:36:25-06:00",
+        "updated_at": "2026-08-18T21:26:03-06:00",
+        "published_at": "2025-09-28T21:05:38-06:00"
+      },
+      "sales_channels": [
+        {
+          "id": "sc_01M1E72H3K3S5QG6P0R7700SH4"
+        }
+      ]
+    },
+    {
+      "title": "Sublimated Beach Fleece Blanket - 30\" x 60\"",
+      "handle": "sublimated-beach-fleece-blanket-30-x-60",
+      "external_id": "8227675504775",
+      "description": "Download Template\n\nfull-color, edge-to-edge sublimated fleece blanket.\n\nIncluded:\n\n- Full color sublimated design\n\nmoisture wicking fabric",
+      "status": "published",
+      "images": [
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/towel-blanket/sublimated-beach-fleece-blanket-30-x-60/01.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/towel-blanket/sublimated-beach-fleece-blanket-30-x-60/02.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/towel-blanket/sublimated-beach-fleece-blanket-30-x-60/03.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/towel-blanket/sublimated-beach-fleece-blanket-30-x-60/04.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/towel-blanket/sublimated-beach-fleece-blanket-30-x-60/05.jpg"
+        }
+      ],
+      "thumbnail": "https://notionworxcanopy.com/assets/images/notionworx-inventory/towel-blanket/sublimated-beach-fleece-blanket-30-x-60/01.jpg",
+      "options": [
+        {
+          "title": "Default option",
+          "values": [
+            "Default option value"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "Default variant",
+          "sku": "500048",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 5000,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Default option": "Default option value"
+          },
+          "metadata": {
+            "source_variant_id": 43238165708935,
+            "source_requires_shipping": true,
+            "source_taxable": false,
+            "source_grams": 907,
+            "source_position": 1,
+            "source_option_values": [
+              "Default Title"
+            ],
+            "source_compare_at_price": null
+          }
+        }
+      ],
+      "metadata": {
+        "source": "notionworx-inventory",
+        "source_handle": "sublimated-beach-fleece-blanket-30-x-60",
+        "source_product_id": 8227675504775,
+        "source_slug": "sublimated-beach-fleece-blanket-30-x-60",
+        "source_vendor": "Notion Worx",
+        "source_product_type": null,
+        "source_primary_category": {
+          "handle": "towel-blanket",
+          "title": "TOWEL & BLANKET"
+        },
+        "source_categories": [
+          {
+            "handle": "towel-blanket",
+            "title": "TOWEL & BLANKET"
+          }
+        ],
+        "source_price": {
+          "min": 50.0,
+          "max": 50.0,
+          "compareAtMin": null,
+          "compareAtMax": null,
+          "variantCount": 1
+        },
+        "source_tags": [],
+        "source_skus": [
+          "500048"
+        ],
+        "description_html": "<p><a href=\"https://displaytemplate.s3.us-west-2.amazonaws.com/Apparel/Blanket+30in+x60in.pdf\">Download Template</a></p>\n<p>full-color, edge-to-edge sublimated fleece blanket.</p>\n<p>Included:</p>\n<ul>\n  <li>Full color sublimated design</li>\n</ul>\n\n\n<p>moisture wicking fabric</p>\n<p><img src=\"https://cdn.shopify.com/s/files/1/1564/9941/files/WechatIMG9586_480x480.jpg?v=1650622776\" alt=\"\"></p>",
+        "description_text": "Download Template\n\nfull-color, edge-to-edge sublimated fleece blanket.\n\nIncluded:\n\n- Full color sublimated design\n\nmoisture wicking fabric",
+        "how_to_order_html": "<ul>\n  <li>SKU 500048</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
+        "how_to_order_text": "- SKU 500048\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
+        "dimensions_html": "<ul>\n  <li>Size: 30&quot; x 60&quot;</li>\n  <li>Weight: 1 lb</li>\n</ul>",
+        "dimensions_text": "- Size: 30\" x 60\"\n\n- Weight: 1 lb",
+        "warranty_html": null,
+        "warranty_text": null,
+        "source_options": [
+          {
+            "name": "Title",
+            "position": 1,
+            "values": [
+              "Default Title"
+            ]
+          }
+        ],
+        "source_variants": [
+          {
+            "id": 43238165708935,
+            "title": "Default Title",
+            "sku": "500048",
+            "available": true,
+            "price": 50.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "Default Title"
+            ],
+            "requiresShipping": true,
+            "taxable": false,
+            "grams": 907,
+            "position": 1
+          }
+        ],
+        "source_variant_label": null,
+        "source_sizes": [
+          "Default option"
+        ],
+        "source_size_variants": [
+          {
+            "value": "Default option",
+            "price": 50.0,
+            "active": true
+          }
+        ],
+        "source_filter_category": [
+          "TOWEL & BLANKET"
+        ],
+        "source_filter_sizes": [],
+        "source_reviews_text": "1 option",
+        "source_badge_label": "Towel & Blanket",
+        "source_badge_subtext": "5 product images available",
+        "source_description": "full-color, edge-to-edge sublimated fleece blanket. Included: - Full color sublimated design moisture wicking fabric",
+        "source_card_variant": "",
+        "source_add_on_group_keys": [],
+        "local_image_paths": [
+          "/assets/images/notionworx-inventory/towel-blanket/sublimated-beach-fleece-blanket-30-x-60/01.jpg",
+          "/assets/images/notionworx-inventory/towel-blanket/sublimated-beach-fleece-blanket-30-x-60/02.jpg",
+          "/assets/images/notionworx-inventory/towel-blanket/sublimated-beach-fleece-blanket-30-x-60/03.jpg",
+          "/assets/images/notionworx-inventory/towel-blanket/sublimated-beach-fleece-blanket-30-x-60/04.jpg",
+          "/assets/images/notionworx-inventory/towel-blanket/sublimated-beach-fleece-blanket-30-x-60/05.jpg"
+        ],
+        "inventory_data_path": "data/inventory/notionworx/products/towel-blanket/sublimated-beach-fleece-blanket-30-x-60.json",
+        "created_at": "2025-09-25T12:36:24-06:00",
+        "updated_at": "2026-08-18T21:26:03-06:00",
+        "published_at": "2025-09-28T21:05:37-06:00"
+      },
+      "sales_channels": [
+        {
+          "id": "sc_01M1E72H3K3S5QG6P0R7700SH4"
+        }
+      ]
+    },
+    {
+      "title": "Sublimated Beach Fleece Blanket - 50\" x 60\"",
+      "handle": "sublimated-beach-fleece-blanket-50-x-60",
+      "external_id": "8227675472007",
+      "description": "Download Tempplate\n\nfull-color, edge-to-edge sublimated fleece blanket.\n\nIncluded:\n\n- Full color sublimated design\n\nmoisture wicking fabric",
+      "status": "published",
+      "images": [
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/towel-blanket/sublimated-beach-fleece-blanket-50-x-60/01.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/towel-blanket/sublimated-beach-fleece-blanket-50-x-60/02.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/towel-blanket/sublimated-beach-fleece-blanket-50-x-60/03.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/towel-blanket/sublimated-beach-fleece-blanket-50-x-60/04.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/towel-blanket/sublimated-beach-fleece-blanket-50-x-60/05.jpg"
+        }
+      ],
+      "thumbnail": "https://notionworxcanopy.com/assets/images/notionworx-inventory/towel-blanket/sublimated-beach-fleece-blanket-50-x-60/01.jpg",
+      "options": [
+        {
+          "title": "Default option",
+          "values": [
+            "Default option value"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "Default variant",
+          "sku": "50011",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 6000,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Default option": "Default option value"
+          },
+          "metadata": {
+            "source_variant_id": 43238165676167,
+            "source_requires_shipping": true,
+            "source_taxable": false,
+            "source_grams": 907,
+            "source_position": 1,
+            "source_option_values": [
+              "Default Title"
+            ],
+            "source_compare_at_price": null
+          }
+        }
+      ],
+      "metadata": {
+        "source": "notionworx-inventory",
+        "source_handle": "sublimated-beach-fleece-blanket-50-x-60",
+        "source_product_id": 8227675472007,
+        "source_slug": "sublimated-beach-fleece-blanket-50-x-60",
+        "source_vendor": "Notion Worx",
+        "source_product_type": null,
+        "source_primary_category": {
+          "handle": "towel-blanket",
+          "title": "TOWEL & BLANKET"
+        },
+        "source_categories": [
+          {
+            "handle": "towel-blanket",
+            "title": "TOWEL & BLANKET"
+          }
+        ],
+        "source_price": {
+          "min": 60.0,
+          "max": 60.0,
+          "compareAtMin": null,
+          "compareAtMax": null,
+          "variantCount": 1
+        },
+        "source_tags": [],
+        "source_skus": [
+          "50011"
+        ],
+        "description_html": "<p><a href=\"https://displaytemplate.s3.us-west-2.amazonaws.com/Apparel/Blanket+50in+x60in.pdf\">Download Tempplate</a></p>\n<p>full-color, edge-to-edge sublimated fleece blanket.</p>\n<p>Included:</p>\n<ul>\n  <li>Full color sublimated design</li>\n</ul>\n\n\n<p>moisture wicking fabric</p>\n<p><img src=\"https://cdn.shopify.com/s/files/1/1564/9941/files/WechatIMG9586_480x480.jpg?v=1650622776\" alt=\"\"></p>",
+        "description_text": "Download Tempplate\n\nfull-color, edge-to-edge sublimated fleece blanket.\n\nIncluded:\n\n- Full color sublimated design\n\nmoisture wicking fabric",
+        "how_to_order_html": "<ul>\n  <li>SKU 50011</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
+        "how_to_order_text": "- SKU 50011\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
+        "dimensions_html": "<ul>\n  <li>Size: 50&quot; x 60&quot;</li>\n  <li>Weight: 1 lb</li>\n</ul>",
+        "dimensions_text": "- Size: 50\" x 60\"\n\n- Weight: 1 lb",
+        "warranty_html": null,
+        "warranty_text": null,
+        "source_options": [
+          {
+            "name": "Title",
+            "position": 1,
+            "values": [
+              "Default Title"
+            ]
+          }
+        ],
+        "source_variants": [
+          {
+            "id": 43238165676167,
+            "title": "Default Title",
+            "sku": "50011",
+            "available": true,
+            "price": 60.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "Default Title"
+            ],
+            "requiresShipping": true,
+            "taxable": false,
+            "grams": 907,
+            "position": 1
+          }
+        ],
+        "source_variant_label": null,
+        "source_sizes": [
+          "Default option"
+        ],
+        "source_size_variants": [
+          {
+            "value": "Default option",
+            "price": 60.0,
+            "active": true
+          }
+        ],
+        "source_filter_category": [
+          "TOWEL & BLANKET"
+        ],
+        "source_filter_sizes": [],
+        "source_reviews_text": "1 option",
+        "source_badge_label": "Towel & Blanket",
+        "source_badge_subtext": "5 product images available",
+        "source_description": "Download Tempplate full-color, edge-to-edge sublimated fleece blanket. Included: - Full color sublimated design moisture wicking fabric",
+        "source_card_variant": "",
+        "source_add_on_group_keys": [],
+        "local_image_paths": [
+          "/assets/images/notionworx-inventory/towel-blanket/sublimated-beach-fleece-blanket-50-x-60/01.jpg",
+          "/assets/images/notionworx-inventory/towel-blanket/sublimated-beach-fleece-blanket-50-x-60/02.jpg",
+          "/assets/images/notionworx-inventory/towel-blanket/sublimated-beach-fleece-blanket-50-x-60/03.jpg",
+          "/assets/images/notionworx-inventory/towel-blanket/sublimated-beach-fleece-blanket-50-x-60/04.jpg",
+          "/assets/images/notionworx-inventory/towel-blanket/sublimated-beach-fleece-blanket-50-x-60/05.jpg"
+        ],
+        "inventory_data_path": "data/inventory/notionworx/products/towel-blanket/sublimated-beach-fleece-blanket-50-x-60.json",
+        "created_at": "2025-09-25T12:36:22-06:00",
+        "updated_at": "2026-08-18T21:26:03-06:00",
+        "published_at": "2025-09-28T21:05:36-06:00"
+      },
+      "sales_channels": [
+        {
+          "id": "sc_01M1E72H3K3S5QG6P0R7700SH4"
+        }
+      ]
+    },
+    {
+      "title": "Sublimated Beach Fleece Blanket - 60\" x 80\"",
+      "handle": "sublimated-beach-fleece-blanket-60-x-80",
+      "external_id": "8227675439239",
+      "description": "Download Template\n\nfull-color, edge-to-edge sublimated fleece blanket.\n\nIncluded:\n\n- Full color sublimated design\n\nmoisture wicking fabric",
+      "status": "published",
+      "images": [
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/towel-blanket/sublimated-beach-fleece-blanket-60-x-80/01.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/towel-blanket/sublimated-beach-fleece-blanket-60-x-80/02.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/towel-blanket/sublimated-beach-fleece-blanket-60-x-80/03.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/towel-blanket/sublimated-beach-fleece-blanket-60-x-80/04.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/towel-blanket/sublimated-beach-fleece-blanket-60-x-80/05.jpg"
+        }
+      ],
+      "thumbnail": "https://notionworxcanopy.com/assets/images/notionworx-inventory/towel-blanket/sublimated-beach-fleece-blanket-60-x-80/01.jpg",
+      "options": [
+        {
+          "title": "Default option",
+          "values": [
+            "Default option value"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "Default variant",
+          "sku": "500049",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 8000,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Default option": "Default option value"
+          },
+          "metadata": {
+            "source_variant_id": 43238165643399,
+            "source_requires_shipping": true,
+            "source_taxable": false,
+            "source_grams": 907,
+            "source_position": 1,
+            "source_option_values": [
+              "Default Title"
+            ],
+            "source_compare_at_price": null
+          }
+        }
+      ],
+      "metadata": {
+        "source": "notionworx-inventory",
+        "source_handle": "sublimated-beach-fleece-blanket-60-x-80",
+        "source_product_id": 8227675439239,
+        "source_slug": "sublimated-beach-fleece-blanket-60-x-80",
+        "source_vendor": "Notion Worx",
+        "source_product_type": null,
+        "source_primary_category": {
+          "handle": "towel-blanket",
+          "title": "TOWEL & BLANKET"
+        },
+        "source_categories": [
+          {
+            "handle": "towel-blanket",
+            "title": "TOWEL & BLANKET"
+          }
+        ],
+        "source_price": {
+          "min": 80.0,
+          "max": 80.0,
+          "compareAtMin": null,
+          "compareAtMax": null,
+          "variantCount": 1
+        },
+        "source_tags": [],
+        "source_skus": [
+          "500049"
+        ],
+        "description_html": "<p><a href=\"https://displaytemplate.s3.us-west-2.amazonaws.com/Apparel/Blanket+60in+x80in.pdf\">Download Template</a></p>\n<p>full-color, edge-to-edge sublimated fleece blanket.</p>\n<p>Included:</p>\n<ul>\n  <li>Full color sublimated design</li>\n</ul>\n\n\n<p>moisture wicking fabric</p>\n<p><img src=\"https://cdn.shopify.com/s/files/1/1564/9941/files/WechatIMG9586_480x480.jpg?v=1650622776\" alt=\"\"></p>",
+        "description_text": "Download Template\n\nfull-color, edge-to-edge sublimated fleece blanket.\n\nIncluded:\n\n- Full color sublimated design\n\nmoisture wicking fabric",
+        "how_to_order_html": "<ul>\n  <li>SKU 500049</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
+        "how_to_order_text": "- SKU 500049\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
+        "dimensions_html": "<p>Size: 60&quot; x 80&quot;<br><br></p>",
+        "dimensions_text": "Size: 60\" x 80\"",
+        "warranty_html": null,
+        "warranty_text": null,
+        "source_options": [
+          {
+            "name": "Title",
+            "position": 1,
+            "values": [
+              "Default Title"
+            ]
+          }
+        ],
+        "source_variants": [
+          {
+            "id": 43238165643399,
+            "title": "Default Title",
+            "sku": "500049",
+            "available": true,
+            "price": 80.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "Default Title"
+            ],
+            "requiresShipping": true,
+            "taxable": false,
+            "grams": 907,
+            "position": 1
+          }
+        ],
+        "source_variant_label": null,
+        "source_sizes": [
+          "Default option"
+        ],
+        "source_size_variants": [
+          {
+            "value": "Default option",
+            "price": 80.0,
+            "active": true
+          }
+        ],
+        "source_filter_category": [
+          "TOWEL & BLANKET"
+        ],
+        "source_filter_sizes": [],
+        "source_reviews_text": "1 option",
+        "source_badge_label": "Towel & Blanket",
+        "source_badge_subtext": "5 product images available",
+        "source_description": "full-color, edge-to-edge sublimated fleece blanket. Included: - Full color sublimated design moisture wicking fabric",
+        "source_card_variant": "",
+        "source_add_on_group_keys": [],
+        "local_image_paths": [
+          "/assets/images/notionworx-inventory/towel-blanket/sublimated-beach-fleece-blanket-60-x-80/01.jpg",
+          "/assets/images/notionworx-inventory/towel-blanket/sublimated-beach-fleece-blanket-60-x-80/02.jpg",
+          "/assets/images/notionworx-inventory/towel-blanket/sublimated-beach-fleece-blanket-60-x-80/03.jpg",
+          "/assets/images/notionworx-inventory/towel-blanket/sublimated-beach-fleece-blanket-60-x-80/04.jpg",
+          "/assets/images/notionworx-inventory/towel-blanket/sublimated-beach-fleece-blanket-60-x-80/05.jpg"
+        ],
+        "inventory_data_path": "data/inventory/notionworx/products/towel-blanket/sublimated-beach-fleece-blanket-60-x-80.json",
+        "created_at": "2025-09-25T12:36:21-06:00",
+        "updated_at": "2026-08-18T21:26:03-06:00",
+        "published_at": "2025-09-28T21:05:36-06:00"
+      },
+      "sales_channels": [
+        {
+          "id": "sc_01M1E72H3K3S5QG6P0R7700SH4"
+        }
+      ]
+    },
+    {
+      "title": "Sublimated Fleece Blanket",
+      "handle": "sublimated-fleece-blanket",
+      "external_id": "8227675406471",
+      "description": "DOWNLOAD TEMPLATE\n\n100% Polyester Hand wash, machine wash, dry cleaning can be used\n\nThe washing temperature is below 45 degrees Celsius\n\nUltra-Soft 350gsm\n\nElevate Your Branding with Our Soft Plush Fleece Blanket\n\nComfort meets affordability in our versatile promotional blanket. Lightweight and cozy, it's designed for maximum impact:\n\nBudget-friendly marketing solution\n\nIdeal for outdoor events and home use\n\nCustom logo branding available\n\nHigh-value promotional tool\n\nExceptional comfort at an accessible price point",
+      "status": "published",
+      "images": [
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/towel-blanket/sublimated-fleece-blanket/01.png"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/towel-blanket/sublimated-fleece-blanket/02.png"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/towel-blanket/sublimated-fleece-blanket/03.png"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/towel-blanket/sublimated-fleece-blanket/04.png"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/towel-blanket/sublimated-fleece-blanket/05.png"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/towel-blanket/sublimated-fleece-blanket/06.png"
+        }
+      ],
+      "thumbnail": "https://notionworxcanopy.com/assets/images/notionworx-inventory/towel-blanket/sublimated-fleece-blanket/01.png",
+      "options": [
+        {
+          "title": "Size",
+          "values": [
+            "25'' x 50''",
+            "50'' x 60''",
+            "60'' x 80''"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "25'' x 50''",
+          "sku": "500157",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 3000,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Size": "25'' x 50''"
+          },
+          "metadata": {
+            "source_variant_id": 43238165545095,
+            "source_requires_shipping": true,
+            "source_taxable": true,
+            "source_grams": 907,
+            "source_position": 1,
+            "source_option_values": [
+              "25'' x 50''"
+            ],
+            "source_compare_at_price": null
+          }
+        },
+        {
+          "title": "50'' x 60''",
+          "sku": "500158",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 500,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Size": "50'' x 60''"
+          },
+          "metadata": {
+            "source_variant_id": 43238165577863,
+            "source_requires_shipping": true,
+            "source_taxable": true,
+            "source_grams": 907,
+            "source_position": 2,
+            "source_option_values": [
+              "50'' x 60''"
+            ],
+            "source_compare_at_price": null
+          }
+        },
+        {
+          "title": "60'' x 80''",
+          "sku": "500159",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 4500,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Size": "60'' x 80''"
+          },
+          "metadata": {
+            "source_variant_id": 43238165610631,
+            "source_requires_shipping": true,
+            "source_taxable": true,
+            "source_grams": 907,
+            "source_position": 3,
+            "source_option_values": [
+              "60'' x 80''"
+            ],
+            "source_compare_at_price": null
+          }
+        }
+      ],
+      "metadata": {
+        "source": "notionworx-inventory",
+        "source_handle": "sublimated-fleece-blanket",
+        "source_product_id": 8227675406471,
+        "source_slug": "sublimated-fleece-blanket",
+        "source_vendor": "Notion Worx",
+        "source_product_type": null,
+        "source_primary_category": {
+          "handle": "towel-blanket",
+          "title": "TOWEL & BLANKET"
+        },
+        "source_categories": [
+          {
+            "handle": "towel-blanket",
+            "title": "TOWEL & BLANKET"
+          }
+        ],
+        "source_price": {
+          "min": 5.0,
+          "max": 45.0,
+          "compareAtMin": null,
+          "compareAtMax": null,
+          "variantCount": 3
+        },
+        "source_tags": [],
+        "source_skus": [
+          "500157",
+          "500158",
+          "500159"
+        ],
+        "description_html": "<p><a href=\"https://www.dropbox.com/scl/fi/o82l6nv683x1v6p5xxmd7/template.zip?rlkey=jwddb6yp5yxgpd8jir90kdv5k&amp;dl=0\">DOWNLOAD TEMPLATE</a></p>\n<p>100% Polyester Hand wash, machine wash, dry cleaning can be used</p>\n<p>The washing temperature is below 45 degrees Celsius</p>\n<p>Ultra-Soft 350gsm</p>\n<p>Elevate Your Branding with Our Soft Plush Fleece Blanket</p>\n<p>Comfort meets affordability in our versatile promotional blanket. Lightweight and cozy, it&#x27;s designed for maximum impact:</p>\n<p>Budget-friendly marketing solution</p>\n<p>Ideal for outdoor events and home use</p>\n<p>Custom logo branding available</p>\n<p>High-value promotional tool</p>\n<p>Exceptional comfort at an accessible price point</p>",
+        "description_text": "DOWNLOAD TEMPLATE\n\n100% Polyester Hand wash, machine wash, dry cleaning can be used\n\nThe washing temperature is below 45 degrees Celsius\n\nUltra-Soft 350gsm\n\nElevate Your Branding with Our Soft Plush Fleece Blanket\n\nComfort meets affordability in our versatile promotional blanket. Lightweight and cozy, it's designed for maximum impact:\n\nBudget-friendly marketing solution\n\nIdeal for outdoor events and home use\n\nCustom logo branding available\n\nHigh-value promotional tool\n\nExceptional comfort at an accessible price point",
+        "how_to_order_html": "<ul>\n  <li>SKU 500157</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
+        "how_to_order_text": "- SKU 500157\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
+        "dimensions_html": null,
+        "dimensions_text": null,
+        "warranty_html": null,
+        "warranty_text": null,
+        "source_options": [
+          {
+            "name": "Size",
+            "position": 1,
+            "values": [
+              "25'' x 50''",
+              "50'' x 60''",
+              "60'' x 80''"
+            ]
+          }
+        ],
+        "source_variants": [
+          {
+            "id": 43238165545095,
+            "title": "25'' x 50''",
+            "sku": "500157",
+            "available": true,
+            "price": 30.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "25'' x 50''"
+            ],
+            "requiresShipping": true,
+            "taxable": true,
+            "grams": 907,
+            "position": 1
+          },
+          {
+            "id": 43238165577863,
+            "title": "50'' x 60''",
+            "sku": "500158",
+            "available": true,
+            "price": 5.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "50'' x 60''"
+            ],
+            "requiresShipping": true,
+            "taxable": true,
+            "grams": 907,
+            "position": 2
+          },
+          {
+            "id": 43238165610631,
+            "title": "60'' x 80''",
+            "sku": "500159",
+            "available": true,
+            "price": 45.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "60'' x 80''"
+            ],
+            "requiresShipping": true,
+            "taxable": true,
+            "grams": 907,
+            "position": 3
+          }
+        ],
+        "source_variant_label": "Size",
+        "source_sizes": [
+          "25'' x 50''",
+          "50'' x 60''",
+          "60'' x 80''"
+        ],
+        "source_size_variants": [
+          {
+            "value": "25'' x 50''",
+            "price": 30.0
+          },
+          {
+            "value": "50'' x 60''",
+            "price": 5.0,
+            "active": true
+          },
+          {
+            "value": "60'' x 80''",
+            "price": 45.0
+          }
+        ],
+        "source_filter_category": [
+          "TOWEL & BLANKET"
+        ],
+        "source_filter_sizes": [
+          "25'' x 50''",
+          "50'' x 60''",
+          "60'' x 80''"
+        ],
+        "source_reviews_text": "3 options",
+        "source_badge_label": "Towel & Blanket",
+        "source_badge_subtext": "6 product images available",
+        "source_description": "100% Polyester Hand wash, machine wash, dry cleaning can be used The washing temperature is below 45 degrees Celsius Ultra-Soft 350gsm Elevate Your Branding with Our Soft Plush Fleece Blanket Comfort meets affordability in our versatile promotional blanket. Lightweight and cozy,…",
+        "source_card_variant": "",
+        "source_add_on_group_keys": [],
+        "local_image_paths": [
+          "/assets/images/notionworx-inventory/towel-blanket/sublimated-fleece-blanket/01.png",
+          "/assets/images/notionworx-inventory/towel-blanket/sublimated-fleece-blanket/02.png",
+          "/assets/images/notionworx-inventory/towel-blanket/sublimated-fleece-blanket/03.png",
+          "/assets/images/notionworx-inventory/towel-blanket/sublimated-fleece-blanket/04.png",
+          "/assets/images/notionworx-inventory/towel-blanket/sublimated-fleece-blanket/05.png",
+          "/assets/images/notionworx-inventory/towel-blanket/sublimated-fleece-blanket/06.png"
+        ],
+        "inventory_data_path": "data/inventory/notionworx/products/towel-blanket/sublimated-fleece-blanket.json",
+        "created_at": "2025-09-25T12:36:19-06:00",
+        "updated_at": "2026-08-18T21:26:03-06:00",
+        "published_at": "2025-09-28T21:05:35-06:00"
+      },
+      "sales_channels": [
+        {
+          "id": "sc_01M1E72H3K3S5QG6P0R7700SH4"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "baseUrl": "https://api.notionworxcanopy.com",
+  "siteUrl": "https://notionworxcanopy.com",
+  "mode": "apply",
+  "collectionHandle": "kennels",
+  "region": {
+    "id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X",
+    "currency_code": "eur",
+    "name": "Europe"
+  },
+  "salesChannelId": "sc_01M1E72H3K3S5QG6P0R7700SH4",
+  "collection": {
+    "title": "Kennels",
+    "handle": "kennels",
+    "metadata": {
+      "source": "notionworx-inventory",
+      "source_handle": "kennels",
+      "source_title": "Kennels",
+      "source_description": "<p style=\"text-align: center;\"><img alt=\"\" src=\"\"><img alt=\"\" src=\"\"><img alt=\"\" src=\"\"><img alt=\"\" src=\"\"></p>",
+      "source_products_count": 0,
+      "source_image_path": "/assets/images/notionworx-inventory/collections/kennels/01.jpg",
+      "source_image_url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/collections/kennels/01.jpg",
+      "inventory_data_path": "/inventory/notionworx/collections/kennels.json"
+    }
+  },
+  "productsCount": 0,
+  "products": []
+}

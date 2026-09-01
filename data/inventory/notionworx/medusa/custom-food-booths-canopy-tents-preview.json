@@ -1,0 +1,762 @@
+{
+  "baseUrl": "https://api.notionworxcanopy.com",
+  "siteUrl": "https://notionworxcanopy.com",
+  "mode": "apply",
+  "collectionHandle": "custom-food-booths-canopy-tents",
+  "region": {
+    "id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X",
+    "currency_code": "eur",
+    "name": "Europe"
+  },
+  "salesChannelId": "sc_01M1E72H3K3S5QG6P0R7700SH4",
+  "collection": {
+    "title": "Custom Food Booths – 5x5, 10x10, 10x15 & 10x20 Canopy Tents",
+    "handle": "custom-food-booths-canopy-tents",
+    "metadata": {
+      "source": "notionworx-inventory",
+      "source_handle": "custom-food-booths-canopy-tents",
+      "source_title": "Custom Food Booths – 5x5, 10x10, 10x15 & 10x20 Canopy Tents",
+      "source_description": "<h3 data-start=\"1122\" data-end=\"1161\"><strong data-start=\"1126\" data-end=\"1159\">Custom Food Booths Collection</strong></h3>\n<p data-start=\"1163\" data-end=\"1430\">Serve your customers in style with our <strong data-start=\"1202\" data-end=\"1224\">Custom Food Booths</strong>, designed for food vendors, farmers’ markets, festivals, and outdoor events. Available in <strong data-start=\"1315\" data-end=\"1366\">all popular sizes: 5x5, 10x10, 10x15, and 10x20</strong>, our booths offer flexible options to fit any space or crowd.</p>\n<p data-start=\"1432\" data-end=\"1568\">Each booth combines <strong data-start=\"1452\" data-end=\"1505\">durability, professional branding, and easy setup</strong>, helping your stand look inviting and attract more visitors.</p>\n<p data-start=\"1570\" data-end=\"1677\">🏕️ <strong data-start=\"1574\" data-end=\"1593\">Multiple Sizes:</strong> 5x5, 10x10, 10x15, 10x20 – choose the perfect size for your booth or event space.</p>\n<p data-start=\"1679\" data-end=\"1767\">💪 <strong data-start=\"1682\" data-end=\"1701\">Durable Frames:</strong> Heavy-duty aluminum or steel frames for long-lasting stability.</p>\n<p data-start=\"1769\" data-end=\"1888\">🎨 <strong data-start=\"1772\" data-end=\"1792\">Custom Printing:</strong> Full-color dye-sublimation printing on canopy and walls for vibrant, fade-resistant branding.</p>\n<p data-start=\"1890\" data-end=\"2019\">🧱 <strong data-start=\"1893\" data-end=\"1940\">Half Side Walls with Mesh &amp; Full Back Wall:</strong> Ventilation and customer interaction combined with maximum brand visibility.</p>\n<p data-start=\"2021\" data-end=\"2114\">⚙️ <strong data-start=\"2024\" data-end=\"2048\">Quick Pop-Up Design:</strong> Tool-free setup allows you to have your booth ready in minutes.</p>\n<p data-start=\"2116\" data-end=\"2203\">🧳 <strong data-start=\"2119\" data-end=\"2150\">Wheeled Carry Bag Included:</strong> Makes transport and storage simple and convenient.</p>\n<p data-start=\"2205\" data-end=\"2413\">🎁 <strong data-start=\"2208\" data-end=\"2229\">Complete Package:</strong> Includes frame, canopy top, printed walls, wheeled carry bag, <strong data-start=\"2292\" data-end=\"2315\">free design service</strong>, and <strong data-start=\"2321\" data-end=\"2338\">fast delivery</strong>. Optional accessories include table covers, feather flags, and sandbags.</p>\n<p data-start=\"2415\" data-end=\"2574\">Perfect for <strong data-start=\"2427\" data-end=\"2490\">food vendors, pop-ups, outdoor events, and farmers’ markets</strong>, our Food Booths help you serve efficiently while showcasing your brand in style.</p>",
+      "source_products_count": 4,
+      "source_image_path": "/assets/images/notionworx-inventory/collections/custom-food-booths-canopy-tents/01.png",
+      "source_image_url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/collections/custom-food-booths-canopy-tents/01.png",
+      "inventory_data_path": "/inventory/notionworx/collections/custom-food-booths-canopy-tents.json"
+    }
+  },
+  "productsCount": 4,
+  "products": [
+    {
+      "title": "10'x10'~ Custom Food Booth Canopy Tent Package-HEX Aluminum Frame, Full Back Wall & 3 Half Side Walls with Half Mesh with Windows.",
+      "handle": "custom-food-booth-canopy-tent-16-10",
+      "external_id": "8227672522887",
+      "description": "Specsheet Warning Label Fire Certificate\n\nCustom Food Booth Canopy Tent Package 10x10\n\nMake your food stand unforgettable with our premium 10x10 Custom Canopy Tent Package, designed especially for food vendors, farmers’ markets, and outdoor events. This compact, professional-grade canopy combines durability, ventilation, and full customization to help your booth stand out from the crowd.\n\nKey Features:\n\n💪 Durable Frame: Heavy-duty aluminum frame with ABS nylon hardware for stability and long-lasting use.\n\n🎨 Custom Printing: Full-color dye-sublimation printing on canopy top and walls for vibrant, fade-resistant branding.\n\n🧱 Half Side Walls with Mesh: Solid fabric bottoms and mesh tops for airflow and customer visibility.\n\n🪟 Front Wall with Two Serving Windows: Designed for efficient food service and interaction.\n\n🚪 Left Wall with Window & Zippered Doorway: Convenient access plus ventilation.\n\n🧵 Full Fabric Back Wall: Printed inward for a clean, professional interior.\n\n🔁 Double-Sided Printing Upgrade: Optional upgrade available to maximize brand exposure on all walls.\n\n☀️ Weather-Resistant Canopy: Made of 600 Denier Polyester, UV-protected and waterproof.\n\n⚙️ Quick Pop-Up Design: Tool-free assembly — ready in minutes.\n\n🧳 Wheeled Carry Bag Included: Easy transport and storage for the frame.\n\n🎁 Complete Package: Frame, canopy top, printed walls, wheeled carry bag, free design service, and fast delivery.\n\nOptional Accessories:\n\n6' Table Cover\n\nFeather Flags\n\nSandbags\n\nMaterials:\n\nHardware: ABS Nylon, Aluminum\n\nCanopy: 600 Denier Polyester\n\nCertifications:\n\nMeets FR Rating Requirements\n\nPrimary Usage:\n\nOutdoor events, food festivals, farmers’ markets, trade shows, and pop-up shops",
+      "status": "published",
+      "images": [
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/custom-food-booths-canopy-tents/custom-food-booth-canopy-tent-16-10/01.png"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/custom-food-booths-canopy-tents/custom-food-booth-canopy-tent-16-10/02.png"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/custom-food-booths-canopy-tents/custom-food-booth-canopy-tent-16-10/03.png"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/custom-food-booths-canopy-tents/custom-food-booth-canopy-tent-16-10/04.png"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/custom-food-booths-canopy-tents/custom-food-booth-canopy-tent-16-10/05.png"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/custom-food-booths-canopy-tents/custom-food-booth-canopy-tent-16-10/06.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/custom-food-booths-canopy-tents/custom-food-booth-canopy-tent-16-10/07.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/custom-food-booths-canopy-tents/custom-food-booth-canopy-tent-16-10/08.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/custom-food-booths-canopy-tents/custom-food-booth-canopy-tent-16-10/09.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/custom-food-booths-canopy-tents/custom-food-booth-canopy-tent-16-10/10.jpg"
+        }
+      ],
+      "thumbnail": "https://notionworxcanopy.com/assets/images/notionworx-inventory/custom-food-booths-canopy-tents/custom-food-booth-canopy-tent-16-10/01.png",
+      "options": [
+        {
+          "title": "Default option",
+          "values": [
+            "Default option value"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "Default variant",
+          "sku": "ITEM #: 15-10FB",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 99500,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Default option": "Default option value"
+          },
+          "metadata": {
+            "source_variant_id": 43238153977991,
+            "source_requires_shipping": true,
+            "source_taxable": false,
+            "source_grams": 36287,
+            "source_position": 1,
+            "source_option_values": [
+              "Default Title"
+            ],
+            "source_compare_at_price": 1072.5
+          }
+        }
+      ],
+      "metadata": {
+        "source": "notionworx-inventory",
+        "source_handle": "custom-food-booth-canopy-tent-16-10",
+        "source_product_id": 8227672522887,
+        "source_slug": "custom-food-booth-canopy-tent-16-10",
+        "source_vendor": "Notion Worx",
+        "source_product_type": null,
+        "source_primary_category": {
+          "handle": "custom-food-booths-canopy-tents",
+          "title": "Custom Food Booths – 5x5, 10x10, 10x15 & 10x20 Canopy Tents"
+        },
+        "source_categories": [
+          {
+            "handle": "custom-food-booths-canopy-tents",
+            "title": "Custom Food Booths – 5x5, 10x10, 10x15 & 10x20 Canopy Tents"
+          },
+          {
+            "handle": "best-selling-10x10-custom-canopy-tents",
+            "title": "Best Selling 10x10 Custom Canopy Tents – Tradeshow & Food Booth Essentials"
+          },
+          {
+            "handle": "10x10",
+            "title": "10x10 Custom Canopies"
+          }
+        ],
+        "source_price": {
+          "min": 995,
+          "max": 995,
+          "compareAtMin": 1072.5,
+          "compareAtMax": 1072.5,
+          "variantCount": 1
+        },
+        "source_tags": [],
+        "source_skus": [
+          "ITEM #: 15-10FB"
+        ],
+        "description_html": "<h3><a href=\"https://displaytemplate.s3-us-west-2.amazonaws.com/Product+setup+instruction/Inst_10x10_TENT_Universal_curves.pdf\">Specsheet</a> <a href=\"https://drive.google.com/file/d/1jv_fBUek_UZYUHvBv_DMJG5tk42yIiah/view?usp=drive_link\">Warning Label</a> <a href=\"https://drive.google.com/file/d/1lPLYIldqjlfbOpvvoZGq-ETmb5Lb207s/view?usp=sharing\">Fire Certificate</a></h3>\n<h3>Custom Food Booth Canopy Tent Package 10x10</h3>\n<p>Make your food stand unforgettable with our premium 10x10 Custom Canopy Tent Package, designed especially for food vendors, farmers’ markets, and outdoor events. This compact, professional-grade canopy combines durability, ventilation, and full customization to help your booth stand out from the crowd.</p>\n<h3>Key Features:</h3>\n\n<p>💪 Durable Frame: Heavy-duty aluminum frame with ABS nylon hardware for stability and long-lasting use.</p>\n<p>🎨 Custom Printing: Full-color dye-sublimation printing on canopy top and walls for vibrant, fade-resistant branding.</p>\n<p>🧱 Half Side Walls with Mesh: Solid fabric bottoms and mesh tops for airflow and customer visibility.</p>\n<p>🪟 Front Wall with Two Serving Windows: Designed for efficient food service and interaction.</p>\n<p>🚪 Left Wall with Window &amp; Zippered Doorway: Convenient access plus ventilation.</p>\n<p>🧵 Full Fabric Back Wall: Printed inward for a clean, professional interior.</p>\n<p>🔁 Double-Sided Printing Upgrade: Optional upgrade available to maximize brand exposure on all walls.</p>\n<p>☀️ Weather-Resistant Canopy: Made of 600 Denier Polyester, UV-protected and waterproof.</p>\n<p>⚙️ Quick Pop-Up Design: Tool-free assembly — ready in minutes.</p>\n<p>🧳 Wheeled Carry Bag Included: Easy transport and storage for the frame.</p>\n<p>🎁 Complete Package: Frame, canopy top, printed walls, wheeled carry bag, free design service, and fast delivery.</p>\n<h3>Optional Accessories:</h3>\n<p>6&#x27; Table Cover</p>\n<p>Feather Flags</p>\n<p>Sandbags</p>\n<h3>Materials:</h3>\n<p>Hardware: ABS Nylon, Aluminum</p>\n<p>Canopy: 600 Denier Polyester</p>\n<h3>Certifications:</h3>\n<p>Meets FR Rating Requirements</p>\n<h3>Primary Usage:</h3>\n<p>Outdoor events, food festivals, farmers’ markets, trade shows, and pop-up shops</p>",
+        "description_text": "Specsheet Warning Label Fire Certificate\n\nCustom Food Booth Canopy Tent Package 10x10\n\nMake your food stand unforgettable with our premium 10x10 Custom Canopy Tent Package, designed especially for food vendors, farmers’ markets, and outdoor events. This compact, professional-grade canopy combines durability, ventilation, and full customization to help your booth stand out from the crowd.\n\nKey Features:\n\n💪 Durable Frame: Heavy-duty aluminum frame with ABS nylon hardware for stability and long-lasting use.\n\n🎨 Custom Printing: Full-color dye-sublimation printing on canopy top and walls for vibrant, fade-resistant branding.\n\n🧱 Half Side Walls with Mesh: Solid fabric bottoms and mesh tops for airflow and customer visibility.\n\n🪟 Front Wall with Two Serving Windows: Designed for efficient food service and interaction.\n\n🚪 Left Wall with Window & Zippered Doorway: Convenient access plus ventilation.\n\n🧵 Full Fabric Back Wall: Printed inward for a clean, professional interior.\n\n🔁 Double-Sided Printing Upgrade: Optional upgrade available to maximize brand exposure on all walls.\n\n☀️ Weather-Resistant Canopy: Made of 600 Denier Polyester, UV-protected and waterproof.\n\n⚙️ Quick Pop-Up Design: Tool-free assembly — ready in minutes.\n\n🧳 Wheeled Carry Bag Included: Easy transport and storage for the frame.\n\n🎁 Complete Package: Frame, canopy top, printed walls, wheeled carry bag, free design service, and fast delivery.\n\nOptional Accessories:\n\n6' Table Cover\n\nFeather Flags\n\nSandbags\n\nMaterials:\n\nHardware: ABS Nylon, Aluminum\n\nCanopy: 600 Denier Polyester\n\nCertifications:\n\nMeets FR Rating Requirements\n\nPrimary Usage:\n\nOutdoor events, food festivals, farmers’ markets, trade shows, and pop-up shops",
+        "how_to_order_html": "<ul>\n  <li>SKU ITEM #: 15-10FB</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
+        "how_to_order_text": "- SKU ITEM #: 15-10FB\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
+        "dimensions_html": "<h3>Product Dimensions:</h3>\n<p>Product Size: 120&quot; W x 137&quot; H x 120&quot; D</p>\n<p>Collapsible Dimensions: 9.12&quot; W x 62.75&quot; H x 9.12&quot; D</p>\n<p>Case Dimensions: 12.5&quot; W x 56.25&quot; H x 15.5&quot; D</p>\n<p>Product Weight: 40 lbs</p>\n<p>🏕️ Product Size: 120&quot; W x 137&quot; H x 120&quot; D – spacious 10x10 setup for larger vendor spaces.</p>",
+        "dimensions_text": "Product Dimensions:\n\nProduct Size: 120\" W x 137\" H x 120\" D\n\nCollapsible Dimensions: 9.12\" W x 62.75\" H x 9.12\" D\n\nCase Dimensions: 12.5\" W x 56.25\" H x 15.5\" D\n\nProduct Weight: 40 lbs\n\n🏕️ Product Size: 120\" W x 137\" H x 120\" D – spacious 10x10 setup for larger vendor spaces.",
+        "warranty_html": "<h3>Factory Warranty</h3>\n<ul>\n  <li>We stand behind the quality of our products. Our warranty covers any factory defects or damage that occurs during shipping. However, please note that we do not cover damage resulting from extreme weather conditions, misuse, or any circumstances beyond our control.</li>\n</ul>",
+        "warranty_text": "Factory Warranty\n\n- We stand behind the quality of our products. Our warranty covers any factory defects or damage that occurs during shipping. However, please note that we do not cover damage resulting from extreme weather conditions, misuse, or any circumstances beyond our control.",
+        "source_options": [
+          {
+            "name": "Title",
+            "position": 1,
+            "values": [
+              "Default Title"
+            ]
+          }
+        ],
+        "source_variants": [
+          {
+            "id": 43238153977991,
+            "title": "Default Title",
+            "sku": "ITEM #: 15-10FB",
+            "available": true,
+            "price": 995,
+            "compareAtPrice": 1072.5,
+            "optionValues": [
+              "Default Title"
+            ],
+            "requiresShipping": true,
+            "taxable": false,
+            "grams": 36287,
+            "position": 1
+          }
+        ],
+        "source_variant_label": null,
+        "source_sizes": [
+          "Default option"
+        ],
+        "source_size_variants": [
+          {
+            "value": "Default option",
+            "price": 995.0,
+            "compareAtPrice": 1072.5,
+            "active": true
+          }
+        ],
+        "source_filter_category": [
+          "Custom Food Booths – 5x5, 10x10, 10x15 & 10x20 Canopy Tents",
+          "Best Selling 10x10 Custom Canopy Tents – Tradeshow & Food Booth Essentials",
+          "10x10 Custom Canopies"
+        ],
+        "source_filter_sizes": [],
+        "source_reviews_text": "1 option",
+        "source_badge_label": "Custom Food Booths – 5x5, 10x10, 10x15 & 10x20 Canopy Tents",
+        "source_badge_subtext": "10 product images available",
+        "source_description": "Custom Food Booth Canopy Tent Package 10x10 Make your food stand unforgettable with our premium 10x10 Custom Canopy Tent Package, designed especially for food vendors, farmers’ markets, and outdoor events. This compact, professional-grade canopy combines durability, ventilation,…",
+        "source_card_variant": "",
+        "source_add_on_group_keys": [
+          "accessories-153e2f44088c",
+          "upgrades-03eef74ad6c2"
+        ],
+        "local_image_paths": [
+          "/assets/images/notionworx-inventory/custom-food-booths-canopy-tents/custom-food-booth-canopy-tent-16-10/01.png",
+          "/assets/images/notionworx-inventory/custom-food-booths-canopy-tents/custom-food-booth-canopy-tent-16-10/02.png",
+          "/assets/images/notionworx-inventory/custom-food-booths-canopy-tents/custom-food-booth-canopy-tent-16-10/03.png",
+          "/assets/images/notionworx-inventory/custom-food-booths-canopy-tents/custom-food-booth-canopy-tent-16-10/04.png",
+          "/assets/images/notionworx-inventory/custom-food-booths-canopy-tents/custom-food-booth-canopy-tent-16-10/05.png",
+          "/assets/images/notionworx-inventory/custom-food-booths-canopy-tents/custom-food-booth-canopy-tent-16-10/06.jpg",
+          "/assets/images/notionworx-inventory/custom-food-booths-canopy-tents/custom-food-booth-canopy-tent-16-10/07.jpg",
+          "/assets/images/notionworx-inventory/custom-food-booths-canopy-tents/custom-food-booth-canopy-tent-16-10/08.jpg",
+          "/assets/images/notionworx-inventory/custom-food-booths-canopy-tents/custom-food-booth-canopy-tent-16-10/09.jpg",
+          "/assets/images/notionworx-inventory/custom-food-booths-canopy-tents/custom-food-booth-canopy-tent-16-10/10.jpg"
+        ],
+        "inventory_data_path": "data/inventory/notionworx/products/custom-food-booths-canopy-tents/custom-food-booth-canopy-tent-16-10.json",
+        "created_at": "2025-09-25T12:34:09-06:00",
+        "updated_at": "2026-08-18T21:23:38-06:00",
+        "published_at": "2025-09-26T09:36:35-06:00"
+      },
+      "sales_channels": [
+        {
+          "id": "sc_01M1E72H3K3S5QG6P0R7700SH4"
+        }
+      ]
+    },
+    {
+      "title": "10'x15'~ Custom Food Booth Canopy Tent Package -HEX Aluminum Frame, Full Back Wall & 3 Half Side Walls with Half Mesh with Windows.",
+      "handle": "custom-food-booth-canopy-tent-17-15",
+      "external_id": "8227672424583",
+      "description": "Specsheet Warning Label Fire Certificate\n\nCustom Food Booth Canopy Tent Package 10x15\n\nMake your food stand unforgettable with our 10x15 Custom Canopy Tent Package, designed for food vendors, farmers’ markets, festivals, and outdoor events. This professional-grade canopy combines durability, ventilation, and full customization, helping your booth stand out from the crowd.\n\nKey Features:\n\n💪 Durable Frame: Heavy-duty aluminum frame with ABS nylon hardware ensures stability and long-lasting use.\n\n🎨 Custom Printing: Full-color dye-sublimation printing on canopy top, full back wall, and half side walls for vibrant, fade-resistant graphics.\n\n🧱 Half Side Walls with Mesh: Solid fabric bottoms with mesh tops for airflow and customer visibility.\n\n🪟 Front Wall with Two Serving Windows: Efficient design for food service and interaction with customers.\n\n🚪 Left Wall with Window & Zippered Doorway: Convenient access and ventilation.\n\n🧵 Full Fabric Back Wall: Printed inward for a professional interior look.\n\n🔁 Double-Sided Printing Upgrade: Optional for maximum brand exposure on all walls.\n\n☀️ Weather-Resistant Canopy: Made of 600 Denier Polyester, UV-protected and waterproof.\n\n⚙️ Quick Pop-Up Design: Tool-free assembly allows fast setup in minutes.\n\n🧳 Wheeled Carry Bag Included: Convenient transport and storage for the frame.\n\n🎁 Complete Package: Frame, canopy top, printed walls, wheeled carry bag, free design service, and fast delivery.\n\nOptional Accessories\n\n- 6' Table Cover, Feather Flags, Sandbags\n\nMaterials\n\n- Hardware: ABS Nylon, Aluminum\n\n- Canopy: 600 Denier Polyester\n\nCertifications\n\n- Meets FR Rating Requirements\n\nPrimary Usage\n\nOutdoor events, food festivals, farmers’ markets, trade shows, and pop-up shops",
+      "status": "published",
+      "images": [
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/custom-food-booths-canopy-tents/custom-food-booth-canopy-tent-17-15/01.png"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/custom-food-booths-canopy-tents/custom-food-booth-canopy-tent-17-15/02.png"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/custom-food-booths-canopy-tents/custom-food-booth-canopy-tent-17-15/03.png"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/custom-food-booths-canopy-tents/custom-food-booth-canopy-tent-17-15/04.png"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/custom-food-booths-canopy-tents/custom-food-booth-canopy-tent-17-15/05.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/custom-food-booths-canopy-tents/custom-food-booth-canopy-tent-17-15/06.jpg"
+        }
+      ],
+      "thumbnail": "https://notionworxcanopy.com/assets/images/notionworx-inventory/custom-food-booths-canopy-tents/custom-food-booth-canopy-tent-17-15/01.png",
+      "options": [
+        {
+          "title": "Default option",
+          "values": [
+            "Default option value"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "Default variant",
+          "sku": "ITEM #: 16-15FB",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 134500,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Default option": "Default option value"
+          },
+          "metadata": {
+            "source_variant_id": 43238153846919,
+            "source_requires_shipping": true,
+            "source_taxable": false,
+            "source_grams": 36287,
+            "source_position": 1,
+            "source_option_values": [
+              "Default Title"
+            ],
+            "source_compare_at_price": 1479.5
+          }
+        }
+      ],
+      "metadata": {
+        "source": "notionworx-inventory",
+        "source_handle": "custom-food-booth-canopy-tent-17-15",
+        "source_product_id": 8227672424583,
+        "source_slug": "custom-food-booth-canopy-tent-17-15",
+        "source_vendor": "Notion Worx",
+        "source_product_type": null,
+        "source_primary_category": {
+          "handle": "custom-food-booths-canopy-tents",
+          "title": "Custom Food Booths – 5x5, 10x10, 10x15 & 10x20 Canopy Tents"
+        },
+        "source_categories": [
+          {
+            "handle": "custom-food-booths-canopy-tents",
+            "title": "Custom Food Booths – 5x5, 10x10, 10x15 & 10x20 Canopy Tents"
+          },
+          {
+            "handle": "10x15",
+            "title": "10x15 Custom Canopies"
+          }
+        ],
+        "source_price": {
+          "min": 1345.0,
+          "max": 1345.0,
+          "compareAtMin": 1479.5,
+          "compareAtMax": 1479.5,
+          "variantCount": 1
+        },
+        "source_tags": [],
+        "source_skus": [
+          "ITEM #: 16-15FB"
+        ],
+        "description_html": "<h3><a href=\"https://displaytemplate.s3-us-west-2.amazonaws.com/Product+setup+instruction/Inst_10x10_TENT_Universal_curves.pdf\">Specsheet</a> <a href=\"https://drive.google.com/file/d/1jv_fBUek_UZYUHvBv_DMJG5tk42yIiah/view?usp=drive_link\">Warning Label</a> <a href=\"https://drive.google.com/file/d/1lPLYIldqjlfbOpvvoZGq-ETmb5Lb207s/view?usp=sharing\">Fire Certificate</a></h3>\n<h3>Custom Food Booth Canopy Tent Package 10x15</h3>\n<p>Make your food stand unforgettable with our 10x15 Custom Canopy Tent Package, designed for food vendors, farmers’ markets, festivals, and outdoor events. This professional-grade canopy combines durability, ventilation, and full customization, helping your booth stand out from the crowd.</p>\n<p>Key Features:</p>\n\n<p>💪 Durable Frame: Heavy-duty aluminum frame with ABS nylon hardware ensures stability and long-lasting use.</p>\n<p>🎨 Custom Printing: Full-color dye-sublimation printing on canopy top, full back wall, and half side walls for vibrant, fade-resistant graphics.</p>\n<p>🧱 Half Side Walls with Mesh: Solid fabric bottoms with mesh tops for airflow and customer visibility.</p>\n<p>🪟 Front Wall with Two Serving Windows: Efficient design for food service and interaction with customers.</p>\n<p>🚪 Left Wall with Window &amp; Zippered Doorway: Convenient access and ventilation.</p>\n<p>🧵 Full Fabric Back Wall: Printed inward for a professional interior look.</p>\n<p>🔁 Double-Sided Printing Upgrade: Optional for maximum brand exposure on all walls.</p>\n<p>☀️ Weather-Resistant Canopy: Made of 600 Denier Polyester, UV-protected and waterproof.</p>\n<p>⚙️ Quick Pop-Up Design: Tool-free assembly allows fast setup in minutes.</p>\n<p>🧳 Wheeled Carry Bag Included: Convenient transport and storage for the frame.</p>\n<p>🎁 Complete Package: Frame, canopy top, printed walls, wheeled carry bag, free design service, and fast delivery.</p>\n<h3>Optional Accessories</h3>\n<ul>\n  <li>6&#x27; Table Cover, Feather Flags, Sandbags</li>\n</ul>\n<h3>Materials</h3>\n<ul>\n  <li>Hardware: ABS Nylon, Aluminum</li>\n  <li>Canopy: 600 Denier Polyester</li>\n</ul>\n<h3>Certifications</h3>\n<ul>\n  <li>Meets FR Rating Requirements</li>\n</ul>\n<h3>Primary Usage</h3>\n<p>Outdoor events, food festivals, farmers’ markets, trade shows, and pop-up shops</p>",
+        "description_text": "Specsheet Warning Label Fire Certificate\n\nCustom Food Booth Canopy Tent Package 10x15\n\nMake your food stand unforgettable with our 10x15 Custom Canopy Tent Package, designed for food vendors, farmers’ markets, festivals, and outdoor events. This professional-grade canopy combines durability, ventilation, and full customization, helping your booth stand out from the crowd.\n\nKey Features:\n\n💪 Durable Frame: Heavy-duty aluminum frame with ABS nylon hardware ensures stability and long-lasting use.\n\n🎨 Custom Printing: Full-color dye-sublimation printing on canopy top, full back wall, and half side walls for vibrant, fade-resistant graphics.\n\n🧱 Half Side Walls with Mesh: Solid fabric bottoms with mesh tops for airflow and customer visibility.\n\n🪟 Front Wall with Two Serving Windows: Efficient design for food service and interaction with customers.\n\n🚪 Left Wall with Window & Zippered Doorway: Convenient access and ventilation.\n\n🧵 Full Fabric Back Wall: Printed inward for a professional interior look.\n\n🔁 Double-Sided Printing Upgrade: Optional for maximum brand exposure on all walls.\n\n☀️ Weather-Resistant Canopy: Made of 600 Denier Polyester, UV-protected and waterproof.\n\n⚙️ Quick Pop-Up Design: Tool-free assembly allows fast setup in minutes.\n\n🧳 Wheeled Carry Bag Included: Convenient transport and storage for the frame.\n\n🎁 Complete Package: Frame, canopy top, printed walls, wheeled carry bag, free design service, and fast delivery.\n\nOptional Accessories\n\n- 6' Table Cover, Feather Flags, Sandbags\n\nMaterials\n\n- Hardware: ABS Nylon, Aluminum\n\n- Canopy: 600 Denier Polyester\n\nCertifications\n\n- Meets FR Rating Requirements\n\nPrimary Usage\n\nOutdoor events, food festivals, farmers’ markets, trade shows, and pop-up shops",
+        "how_to_order_html": "<ul>\n  <li>SKU ITEM #: 16-15FB</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
+        "how_to_order_text": "- SKU ITEM #: 16-15FB\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
+        "dimensions_html": "<p>🏕️ Product Size: 120&quot; W x 137&quot; H x 180&quot; D – spacious 10x15 setup for larger vendor areas.</p>",
+        "dimensions_text": "🏕️ Product Size: 120\" W x 137\" H x 180\" D – spacious 10x15 setup for larger vendor areas.",
+        "warranty_html": "<h3>Factory Warranty</h3>\n<ul>\n  <li>We stand behind the quality of our products. Our warranty covers any factory defects or damage that occurs during shipping. However, please note that we do not cover damage resulting from extreme weather conditions, misuse, or any circumstances beyond our control.</li>\n</ul>",
+        "warranty_text": "Factory Warranty\n\n- We stand behind the quality of our products. Our warranty covers any factory defects or damage that occurs during shipping. However, please note that we do not cover damage resulting from extreme weather conditions, misuse, or any circumstances beyond our control.",
+        "source_options": [
+          {
+            "name": "Title",
+            "position": 1,
+            "values": [
+              "Default Title"
+            ]
+          }
+        ],
+        "source_variants": [
+          {
+            "id": 43238153846919,
+            "title": "Default Title",
+            "sku": "ITEM #: 16-15FB",
+            "available": true,
+            "price": 1345.0,
+            "compareAtPrice": 1479.5,
+            "optionValues": [
+              "Default Title"
+            ],
+            "requiresShipping": true,
+            "taxable": false,
+            "grams": 36287,
+            "position": 1
+          }
+        ],
+        "source_variant_label": null,
+        "source_sizes": [
+          "Default option"
+        ],
+        "source_size_variants": [
+          {
+            "value": "Default option",
+            "price": 1345.0,
+            "compareAtPrice": 1479.5,
+            "active": true
+          }
+        ],
+        "source_filter_category": [
+          "Custom Food Booths – 5x5, 10x10, 10x15 & 10x20 Canopy Tents",
+          "10x15 Custom Canopies"
+        ],
+        "source_filter_sizes": [],
+        "source_reviews_text": "1 option",
+        "source_badge_label": "Custom Food Booths – 5x5, 10x10, 10x15 & 10x20 Canopy Tents",
+        "source_badge_subtext": "6 product images available",
+        "source_description": "Custom Food Booth Canopy Tent Package 10x15 Make your food stand unforgettable with our 10x15 Custom Canopy Tent Package, designed for food vendors, farmers’ markets, festivals, and outdoor events. This professional-grade canopy combines durability, ventilation, and full customi…",
+        "source_card_variant": "",
+        "source_add_on_group_keys": [
+          "accessories-ed977d180aed",
+          "upgrades-7e01c25ca7d1"
+        ],
+        "local_image_paths": [
+          "/assets/images/notionworx-inventory/custom-food-booths-canopy-tents/custom-food-booth-canopy-tent-17-15/01.png",
+          "/assets/images/notionworx-inventory/custom-food-booths-canopy-tents/custom-food-booth-canopy-tent-17-15/02.png",
+          "/assets/images/notionworx-inventory/custom-food-booths-canopy-tents/custom-food-booth-canopy-tent-17-15/03.png",
+          "/assets/images/notionworx-inventory/custom-food-booths-canopy-tents/custom-food-booth-canopy-tent-17-15/04.png",
+          "/assets/images/notionworx-inventory/custom-food-booths-canopy-tents/custom-food-booth-canopy-tent-17-15/05.jpg",
+          "/assets/images/notionworx-inventory/custom-food-booths-canopy-tents/custom-food-booth-canopy-tent-17-15/06.jpg"
+        ],
+        "inventory_data_path": "data/inventory/notionworx/products/custom-food-booths-canopy-tents/custom-food-booth-canopy-tent-17-15.json",
+        "created_at": "2025-09-25T12:34:05-06:00",
+        "updated_at": "2026-08-18T21:23:41-06:00",
+        "published_at": "2025-09-26T09:36:35-06:00"
+      },
+      "sales_channels": [
+        {
+          "id": "sc_01M1E72H3K3S5QG6P0R7700SH4"
+        }
+      ]
+    },
+    {
+      "title": "10'x20'~ Custom Food Booth Canopy Tent Package-HEX Aluminum Frame, Full Back Wall & 3 Half Side Walls with Half Mesh with Windows.",
+      "handle": "custom-food-booth-canopy-tent-18-20",
+      "external_id": "8227672391815",
+      "description": "Specsheet Warning Label Fire Certificate\n\nCustom Food Booth Canopy Tent Package 10x20\n\nMake your food stand unforgettable with our premium 10x20 Custom Canopy Tent Package, designed especially for food vendors, farmers’ markets, and outdoor events. This compact, professional-grade canopy combines durability, ventilation, and full customization to help your booth stand out from the crowd.\n\nKey Features:\n\n💪 Durable Frame: Heavy-duty aluminum frame with ABS nylon hardware for strength and stability.\n\n🎨 Custom Printing: Full-color dye-sublimation printing on canopy top and walls for vibrant, fade-resistant graphics.\n\n🧱 Half Side Walls with Mesh: Solid fabric bottoms with mesh tops for airflow and visibility.\n\n🪟 Front Wall with Two Serving Windows: Efficient design for food service and customer interaction.\n\n🚪 Left Wall with Window & Zippered Doorway: Easy access plus ventilation.\n\n🧵 Full Fabric Back Wall: Printed inward for professional interior appearance.\n\n🔁 Double-Sided Printing Upgrade: Optional for maximum brand exposure on all walls.\n\n☀️ Weather-Resistant Canopy: Made of 600 Denier Polyester, UV-protected and waterproof.\n\n⚙️ Quick Pop-Up Design: Tool-free assembly for fast setup.\n\n🧳 Wheeled Carry Bag Included: Convenient transport and storage for the frame.\n\n🎁 Complete Package: Frame, canopy top, printed walls, wheeled carry bag, free design service, and fast delivery.\n\nOptional Accessories:\n\n6' Table Cover\n\nFeather Flags\n\nSandbags\n\nMaterials:\n\nHardware: ABS Nylon, Aluminum\n\nCanopy: 600 Denier Polyester\n\nCertifications:\n\nMeets FR Rating Requirements\n\nPrimary Usage:\n\nOutdoor events, food festivals, farmers’ markets, trade shows, and pop-up shops",
+      "status": "published",
+      "images": [
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/custom-food-booths-canopy-tents/custom-food-booth-canopy-tent-18-20/01.png"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/custom-food-booths-canopy-tents/custom-food-booth-canopy-tent-18-20/02.png"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/custom-food-booths-canopy-tents/custom-food-booth-canopy-tent-18-20/03.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/custom-food-booths-canopy-tents/custom-food-booth-canopy-tent-18-20/04.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/custom-food-booths-canopy-tents/custom-food-booth-canopy-tent-18-20/05.png"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/custom-food-booths-canopy-tents/custom-food-booth-canopy-tent-18-20/06.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/custom-food-booths-canopy-tents/custom-food-booth-canopy-tent-18-20/07.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/custom-food-booths-canopy-tents/custom-food-booth-canopy-tent-18-20/08.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/custom-food-booths-canopy-tents/custom-food-booth-canopy-tent-18-20/09.jpg"
+        }
+      ],
+      "thumbnail": "https://notionworxcanopy.com/assets/images/notionworx-inventory/custom-food-booths-canopy-tents/custom-food-booth-canopy-tent-18-20/01.png",
+      "options": [
+        {
+          "title": "Default option",
+          "values": [
+            "Default option value"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "Default variant",
+          "sku": "ITEM #: 17-20FB",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 144500,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Default option": "Default option value"
+          },
+          "metadata": {
+            "source_variant_id": 43238153781383,
+            "source_requires_shipping": true,
+            "source_taxable": false,
+            "source_grams": 36287,
+            "source_position": 1,
+            "source_option_values": [
+              "Default Title"
+            ],
+            "source_compare_at_price": 1589.5
+          }
+        }
+      ],
+      "metadata": {
+        "source": "notionworx-inventory",
+        "source_handle": "custom-food-booth-canopy-tent-18-20",
+        "source_product_id": 8227672391815,
+        "source_slug": "custom-food-booth-canopy-tent-18-20",
+        "source_vendor": "Notion Worx",
+        "source_product_type": null,
+        "source_primary_category": {
+          "handle": "custom-food-booths-canopy-tents",
+          "title": "Custom Food Booths – 5x5, 10x10, 10x15 & 10x20 Canopy Tents"
+        },
+        "source_categories": [
+          {
+            "handle": "custom-food-booths-canopy-tents",
+            "title": "Custom Food Booths – 5x5, 10x10, 10x15 & 10x20 Canopy Tents"
+          },
+          {
+            "handle": "10x20",
+            "title": "10x20 Custom Canopies"
+          }
+        ],
+        "source_price": {
+          "min": 1445.0,
+          "max": 1445.0,
+          "compareAtMin": 1589.5,
+          "compareAtMax": 1589.5,
+          "variantCount": 1
+        },
+        "source_tags": [],
+        "source_skus": [
+          "ITEM #: 17-20FB"
+        ],
+        "description_html": "<h3><a href=\"https://displaytemplate.s3-us-west-2.amazonaws.com/Product+setup+instruction/Inst_10x10_TENT_Universal_curves.pdf\">Specsheet</a> <a href=\"https://drive.google.com/file/d/1jv_fBUek_UZYUHvBv_DMJG5tk42yIiah/view?usp=drive_link\">Warning Label</a> <a href=\"https://drive.google.com/file/d/1lPLYIldqjlfbOpvvoZGq-ETmb5Lb207s/view?usp=sharing\">Fire Certificate</a></h3>\n<h3>Custom Food Booth Canopy Tent Package 10x20</h3>\n<p>Make your food stand unforgettable with our premium 10x20 Custom Canopy Tent Package, designed especially for food vendors, farmers’ markets, and outdoor events. This compact, professional-grade canopy combines durability, ventilation, and full customization to help your booth stand out from the crowd.</p>\n<h3>Key Features:</h3>\n\n<p>💪 Durable Frame: Heavy-duty aluminum frame with ABS nylon hardware for strength and stability.</p>\n<p>🎨 Custom Printing: Full-color dye-sublimation printing on canopy top and walls for vibrant, fade-resistant graphics.</p>\n<p>🧱 Half Side Walls with Mesh: Solid fabric bottoms with mesh tops for airflow and visibility.</p>\n<p>🪟 Front Wall with Two Serving Windows: Efficient design for food service and customer interaction.</p>\n<p>🚪 Left Wall with Window &amp; Zippered Doorway: Easy access plus ventilation.</p>\n<p>🧵 Full Fabric Back Wall: Printed inward for professional interior appearance.</p>\n<p>🔁 Double-Sided Printing Upgrade: Optional for maximum brand exposure on all walls.</p>\n<p>☀️ Weather-Resistant Canopy: Made of 600 Denier Polyester, UV-protected and waterproof.</p>\n<p>⚙️ Quick Pop-Up Design: Tool-free assembly for fast setup.</p>\n<p>🧳 Wheeled Carry Bag Included: Convenient transport and storage for the frame.</p>\n<p>🎁 Complete Package: Frame, canopy top, printed walls, wheeled carry bag, free design service, and fast delivery.</p>\n<h3>Optional Accessories:</h3>\n<p>6&#x27; Table Cover</p>\n<p>Feather Flags</p>\n<p>Sandbags</p>\n<h3>Materials:</h3>\n<p>Hardware: ABS Nylon, Aluminum</p>\n<p>Canopy: 600 Denier Polyester</p>\n<h3>Certifications:</h3>\n<p>Meets FR Rating Requirements</p>\n<h3>Primary Usage:</h3>\n<p>Outdoor events, food festivals, farmers’ markets, trade shows, and pop-up shops</p>",
+        "description_text": "Specsheet Warning Label Fire Certificate\n\nCustom Food Booth Canopy Tent Package 10x20\n\nMake your food stand unforgettable with our premium 10x20 Custom Canopy Tent Package, designed especially for food vendors, farmers’ markets, and outdoor events. This compact, professional-grade canopy combines durability, ventilation, and full customization to help your booth stand out from the crowd.\n\nKey Features:\n\n💪 Durable Frame: Heavy-duty aluminum frame with ABS nylon hardware for strength and stability.\n\n🎨 Custom Printing: Full-color dye-sublimation printing on canopy top and walls for vibrant, fade-resistant graphics.\n\n🧱 Half Side Walls with Mesh: Solid fabric bottoms with mesh tops for airflow and visibility.\n\n🪟 Front Wall with Two Serving Windows: Efficient design for food service and customer interaction.\n\n🚪 Left Wall with Window & Zippered Doorway: Easy access plus ventilation.\n\n🧵 Full Fabric Back Wall: Printed inward for professional interior appearance.\n\n🔁 Double-Sided Printing Upgrade: Optional for maximum brand exposure on all walls.\n\n☀️ Weather-Resistant Canopy: Made of 600 Denier Polyester, UV-protected and waterproof.\n\n⚙️ Quick Pop-Up Design: Tool-free assembly for fast setup.\n\n🧳 Wheeled Carry Bag Included: Convenient transport and storage for the frame.\n\n🎁 Complete Package: Frame, canopy top, printed walls, wheeled carry bag, free design service, and fast delivery.\n\nOptional Accessories:\n\n6' Table Cover\n\nFeather Flags\n\nSandbags\n\nMaterials:\n\nHardware: ABS Nylon, Aluminum\n\nCanopy: 600 Denier Polyester\n\nCertifications:\n\nMeets FR Rating Requirements\n\nPrimary Usage:\n\nOutdoor events, food festivals, farmers’ markets, trade shows, and pop-up shops",
+        "how_to_order_html": "<ul>\n  <li>SKU ITEM #: 17-20FB</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
+        "how_to_order_text": "- SKU ITEM #: 17-20FB\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
+        "dimensions_html": "<p>🏕️ Product Size: 120&quot; W x 137&quot; H x 240&quot; D – spacious 10x20 setup for large vendor areas.</p>",
+        "dimensions_text": "🏕️ Product Size: 120\" W x 137\" H x 240\" D – spacious 10x20 setup for large vendor areas.",
+        "warranty_html": "<h3>Factory Warranty</h3>\n<ul>\n  <li>We stand behind the quality of our products. Our warranty covers any factory defects or damage that occurs during shipping. However, please note that we do not cover damage resulting from extreme weather conditions, misuse, or any circumstances beyond our control.</li>\n</ul>",
+        "warranty_text": "Factory Warranty\n\n- We stand behind the quality of our products. Our warranty covers any factory defects or damage that occurs during shipping. However, please note that we do not cover damage resulting from extreme weather conditions, misuse, or any circumstances beyond our control.",
+        "source_options": [
+          {
+            "name": "Title",
+            "position": 1,
+            "values": [
+              "Default Title"
+            ]
+          }
+        ],
+        "source_variants": [
+          {
+            "id": 43238153781383,
+            "title": "Default Title",
+            "sku": "ITEM #: 17-20FB",
+            "available": true,
+            "price": 1445.0,
+            "compareAtPrice": 1589.5,
+            "optionValues": [
+              "Default Title"
+            ],
+            "requiresShipping": true,
+            "taxable": false,
+            "grams": 36287,
+            "position": 1
+          }
+        ],
+        "source_variant_label": null,
+        "source_sizes": [
+          "Default option"
+        ],
+        "source_size_variants": [
+          {
+            "value": "Default option",
+            "price": 1445.0,
+            "compareAtPrice": 1589.5,
+            "active": true
+          }
+        ],
+        "source_filter_category": [
+          "Custom Food Booths – 5x5, 10x10, 10x15 & 10x20 Canopy Tents",
+          "10x20 Custom Canopies"
+        ],
+        "source_filter_sizes": [],
+        "source_reviews_text": "1 option",
+        "source_badge_label": "Custom Food Booths – 5x5, 10x10, 10x15 & 10x20 Canopy Tents",
+        "source_badge_subtext": "9 product images available",
+        "source_description": "Custom Food Booth Canopy Tent Package 10x20 Make your food stand unforgettable with our premium 10x20 Custom Canopy Tent Package, designed especially for food vendors, farmers’ markets, and outdoor events. This compact, professional-grade canopy combines durability, ventilation,…",
+        "source_card_variant": "",
+        "source_add_on_group_keys": [
+          "accessories-43545b1d50ec",
+          "upgrades-eae09529959d"
+        ],
+        "local_image_paths": [
+          "/assets/images/notionworx-inventory/custom-food-booths-canopy-tents/custom-food-booth-canopy-tent-18-20/01.png",
+          "/assets/images/notionworx-inventory/custom-food-booths-canopy-tents/custom-food-booth-canopy-tent-18-20/02.png",
+          "/assets/images/notionworx-inventory/custom-food-booths-canopy-tents/custom-food-booth-canopy-tent-18-20/03.jpg",
+          "/assets/images/notionworx-inventory/custom-food-booths-canopy-tents/custom-food-booth-canopy-tent-18-20/04.jpg",
+          "/assets/images/notionworx-inventory/custom-food-booths-canopy-tents/custom-food-booth-canopy-tent-18-20/05.png",
+          "/assets/images/notionworx-inventory/custom-food-booths-canopy-tents/custom-food-booth-canopy-tent-18-20/06.jpg",
+          "/assets/images/notionworx-inventory/custom-food-booths-canopy-tents/custom-food-booth-canopy-tent-18-20/07.jpg",
+          "/assets/images/notionworx-inventory/custom-food-booths-canopy-tents/custom-food-booth-canopy-tent-18-20/08.jpg",
+          "/assets/images/notionworx-inventory/custom-food-booths-canopy-tents/custom-food-booth-canopy-tent-18-20/09.jpg"
+        ],
+        "inventory_data_path": "data/inventory/notionworx/products/custom-food-booths-canopy-tents/custom-food-booth-canopy-tent-18-20.json",
+        "created_at": "2025-09-25T12:34:04-06:00",
+        "updated_at": "2026-08-18T21:23:43-06:00",
+        "published_at": "2025-09-26T09:36:35-06:00"
+      },
+      "sales_channels": [
+        {
+          "id": "sc_01M1E72H3K3S5QG6P0R7700SH4"
+        }
+      ]
+    },
+    {
+      "title": "5'x5'~ Custom Food Booth Canopy Tent Package -Steel Frame, Full Back Wall & 3 Half Side Walls with Half Mesh with Windows.",
+      "handle": "custom-food-booth-canopy-tent-23-05",
+      "external_id": "8227672359047",
+      "description": "Specsheet Warning Label Fire Certificate\n\nCustom Food Booth Canopy Tent Package 5x5\n\nMake your food stand unforgettable with our premium 5x5 Custom Canopy Tent Package, designed especially for food vendors, farmers’ markets, and outdoor events. This compact, professional-grade canopy combines durability, ventilation, and full customization to help your booth stand out from the crowd.\n\nKey Features:\n\n💪 Durable Frame: Heavy-duty steel frame provides long-lasting stability and quick setup.\n\n🎨 Custom Printing: Full-color dye-sublimation printing on the canopy top and walls for vibrant, fade-resistant graphics.\n\n🧱 Half Side Walls with Mesh: Both side walls feature solid lower fabric and mesh upper panels for airflow and visibility.\n\n🪟 Front Wall with Two Serving Windows: Ideal for food service — lets you serve customers efficiently while maintaining coverage.\n\n🚪 Left Wall with Window & Zippered Doorway: Includes a window and zippered entry for easy vendor access.\n\n🧵 Full Fabric Back Wall: Solid printed fabric back wall, printed facing inward for a clean, professional interior presentation.\n\n🔁 Double-Sided Printing Upgrade: Optional double-sided printing available for any wall to maximize brand visibility.\n\n☀️ Weather-Resistant Fabric: UV-protected and waterproof materials withstand outdoor use in all conditions.\n\n⚙️ Quick Pop-Up Design: Easy tool-free setup — get your booth ready in minutes.\n\n🧳 Wheeled Carry Bag Included: Convenient wheeled transport bag for the frame, making travel and storage effortless.\n\n🎁 Complete Package: Includes frame, canopy top, printed walls, wheeled carry bag, free design service, and fast delivery.\n\nOptional Accessories:\n\n6' Table Cover\n\nFeather Flags\n\nSandbags\n\nMaterials:\n\nHardware: ABS Nylon, Aluminum\n\nCanopy: 600 Denier Polyester\n\nCertifications:\n\nMeets FR (Flame Retardant) Rating Requirements\n\nPrimary Usage:\n\nOutdoor events, food festivals, farmers’ markets, trade shows, and pop-up shops",
+      "status": "published",
+      "images": [
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/custom-food-booths-canopy-tents/custom-food-booth-canopy-tent-23-05/01.png"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/custom-food-booths-canopy-tents/custom-food-booth-canopy-tent-23-05/02.png"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/custom-food-booths-canopy-tents/custom-food-booth-canopy-tent-23-05/03.png"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/custom-food-booths-canopy-tents/custom-food-booth-canopy-tent-23-05/04.png"
+        }
+      ],
+      "thumbnail": "https://notionworxcanopy.com/assets/images/notionworx-inventory/custom-food-booths-canopy-tents/custom-food-booth-canopy-tent-23-05/01.png",
+      "options": [
+        {
+          "title": "Default option",
+          "values": [
+            "Default option value"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "Default variant",
+          "sku": "ITEM #: 14-05FB",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 79500,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Default option": "Default option value"
+          },
+          "metadata": {
+            "source_variant_id": 43238153715847,
+            "source_requires_shipping": true,
+            "source_taxable": false,
+            "source_grams": 36287,
+            "source_position": 1,
+            "source_option_values": [
+              "Default Title"
+            ],
+            "source_compare_at_price": 874.5
+          }
+        }
+      ],
+      "metadata": {
+        "source": "notionworx-inventory",
+        "source_handle": "custom-food-booth-canopy-tent-23-05",
+        "source_product_id": 8227672359047,
+        "source_slug": "custom-food-booth-canopy-tent-23-05",
+        "source_vendor": "Notion Worx",
+        "source_product_type": null,
+        "source_primary_category": {
+          "handle": "custom-food-booths-canopy-tents",
+          "title": "Custom Food Booths – 5x5, 10x10, 10x15 & 10x20 Canopy Tents"
+        },
+        "source_categories": [
+          {
+            "handle": "custom-food-booths-canopy-tents",
+            "title": "Custom Food Booths – 5x5, 10x10, 10x15 & 10x20 Canopy Tents"
+          },
+          {
+            "handle": "5x5-custom-canopy",
+            "title": "5x5 Custom Canopies"
+          }
+        ],
+        "source_price": {
+          "min": 795.0,
+          "max": 795.0,
+          "compareAtMin": 874.5,
+          "compareAtMax": 874.5,
+          "variantCount": 1
+        },
+        "source_tags": [],
+        "source_skus": [
+          "ITEM #: 14-05FB"
+        ],
+        "description_html": "<h3><a href=\"https://displaytemplate.s3-us-west-2.amazonaws.com/Product+setup+instruction/Inst_10x10_TENT_Universal_curves.pdf\">Specsheet</a> <a href=\"https://drive.google.com/file/d/1jv_fBUek_UZYUHvBv_DMJG5tk42yIiah/view?usp=drive_link\">Warning Label</a> <a href=\"https://drive.google.com/file/d/1lPLYIldqjlfbOpvvoZGq-ETmb5Lb207s/view?usp=sharing\">Fire Certificate</a></h3>\n<h3>Custom Food Booth Canopy Tent Package 5x5</h3>\n<p>Make your food stand unforgettable with our premium 5x5 Custom Canopy Tent Package, designed especially for food vendors, farmers’ markets, and outdoor events. This compact, professional-grade canopy combines durability, ventilation, and full customization to help your booth stand out from the crowd.</p>\n<h3>Key Features:</h3>\n\n<p>💪 Durable Frame: Heavy-duty steel frame provides long-lasting stability and quick setup.</p>\n<p>🎨 Custom Printing: Full-color dye-sublimation printing on the canopy top and walls for vibrant, fade-resistant graphics.</p>\n<p>🧱 Half Side Walls with Mesh: Both side walls feature solid lower fabric and mesh upper panels for airflow and visibility.</p>\n<p>🪟 Front Wall with Two Serving Windows: Ideal for food service — lets you serve customers efficiently while maintaining coverage.</p>\n<p>🚪 Left Wall with Window &amp; Zippered Doorway: Includes a window and zippered entry for easy vendor access.</p>\n<p>🧵 Full Fabric Back Wall: Solid printed fabric back wall, printed facing inward for a clean, professional interior presentation.</p>\n<p>🔁 Double-Sided Printing Upgrade: Optional double-sided printing available for any wall to maximize brand visibility.</p>\n<p>☀️ Weather-Resistant Fabric: UV-protected and waterproof materials withstand outdoor use in all conditions.</p>\n<p>⚙️ Quick Pop-Up Design: Easy tool-free setup — get your booth ready in minutes.</p>\n<p>🧳 Wheeled Carry Bag Included: Convenient wheeled transport bag for the frame, making travel and storage effortless.</p>\n<p>🎁 Complete Package: Includes frame, canopy top, printed walls, wheeled carry bag, free design service, and fast delivery.</p>\n<h3>Optional Accessories:</h3>\n<p>6&#x27; Table Cover</p>\n<p>Feather Flags</p>\n<p>Sandbags</p>\n<h3>Materials:</h3>\n<p>Hardware: ABS Nylon, Aluminum</p>\n<p>Canopy: 600 Denier Polyester</p>\n<h3>Certifications:</h3>\n<p>Meets FR (Flame Retardant) Rating Requirements</p>\n<h3>Primary Usage:</h3>\n<p>Outdoor events, food festivals, farmers’ markets, trade shows, and pop-up shops</p>",
+        "description_text": "Specsheet Warning Label Fire Certificate\n\nCustom Food Booth Canopy Tent Package 5x5\n\nMake your food stand unforgettable with our premium 5x5 Custom Canopy Tent Package, designed especially for food vendors, farmers’ markets, and outdoor events. This compact, professional-grade canopy combines durability, ventilation, and full customization to help your booth stand out from the crowd.\n\nKey Features:\n\n💪 Durable Frame: Heavy-duty steel frame provides long-lasting stability and quick setup.\n\n🎨 Custom Printing: Full-color dye-sublimation printing on the canopy top and walls for vibrant, fade-resistant graphics.\n\n🧱 Half Side Walls with Mesh: Both side walls feature solid lower fabric and mesh upper panels for airflow and visibility.\n\n🪟 Front Wall with Two Serving Windows: Ideal for food service — lets you serve customers efficiently while maintaining coverage.\n\n🚪 Left Wall with Window & Zippered Doorway: Includes a window and zippered entry for easy vendor access.\n\n🧵 Full Fabric Back Wall: Solid printed fabric back wall, printed facing inward for a clean, professional interior presentation.\n\n🔁 Double-Sided Printing Upgrade: Optional double-sided printing available for any wall to maximize brand visibility.\n\n☀️ Weather-Resistant Fabric: UV-protected and waterproof materials withstand outdoor use in all conditions.\n\n⚙️ Quick Pop-Up Design: Easy tool-free setup — get your booth ready in minutes.\n\n🧳 Wheeled Carry Bag Included: Convenient wheeled transport bag for the frame, making travel and storage effortless.\n\n🎁 Complete Package: Includes frame, canopy top, printed walls, wheeled carry bag, free design service, and fast delivery.\n\nOptional Accessories:\n\n6' Table Cover\n\nFeather Flags\n\nSandbags\n\nMaterials:\n\nHardware: ABS Nylon, Aluminum\n\nCanopy: 600 Denier Polyester\n\nCertifications:\n\nMeets FR (Flame Retardant) Rating Requirements\n\nPrimary Usage:\n\nOutdoor events, food festivals, farmers’ markets, trade shows, and pop-up shops",
+        "how_to_order_html": "<ul>\n  <li>SKU ITEM #: 14-05FB</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
+        "how_to_order_text": "- SKU ITEM #: 14-05FB\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
+        "dimensions_html": "<h3>Product Dimensions:</h3>\n<p>Product Size: 120&quot; W x 137&quot; H x 120&quot; D</p>\n<p>Collapsible Dimensions: 9.12&quot; W x 62.75&quot; H x 9.12&quot; D</p>\n<p>Case Dimensions: 12.5&quot; W x 56.25&quot; H x 15.5&quot; D</p>\n<p>Product Weight: 40 lbs</p>\n<p>🏕️ Size: 5x5 ft – perfect for compact vendor setups and small event spaces.</p>",
+        "dimensions_text": "Product Dimensions:\n\nProduct Size: 120\" W x 137\" H x 120\" D\n\nCollapsible Dimensions: 9.12\" W x 62.75\" H x 9.12\" D\n\nCase Dimensions: 12.5\" W x 56.25\" H x 15.5\" D\n\nProduct Weight: 40 lbs\n\n🏕️ Size: 5x5 ft – perfect for compact vendor setups and small event spaces.",
+        "warranty_html": "<h3>Factory Warranty</h3>\n<ul>\n  <li>We stand behind the quality of our products. Our warranty covers any factory defects or damage that occurs during shipping. However, please note that we do not cover damage resulting from extreme weather conditions, misuse, or any circumstances beyond our control.</li>\n</ul>",
+        "warranty_text": "Factory Warranty\n\n- We stand behind the quality of our products. Our warranty covers any factory defects or damage that occurs during shipping. However, please note that we do not cover damage resulting from extreme weather conditions, misuse, or any circumstances beyond our control.",
+        "source_options": [
+          {
+            "name": "Title",
+            "position": 1,
+            "values": [
+              "Default Title"
+            ]
+          }
+        ],
+        "source_variants": [
+          {
+            "id": 43238153715847,
+            "title": "Default Title",
+            "sku": "ITEM #: 14-05FB",
+            "available": true,
+            "price": 795.0,
+            "compareAtPrice": 874.5,
+            "optionValues": [
+              "Default Title"
+            ],
+            "requiresShipping": true,
+            "taxable": false,
+            "grams": 36287,
+            "position": 1
+          }
+        ],
+        "source_variant_label": null,
+        "source_sizes": [
+          "Default option"
+        ],
+        "source_size_variants": [
+          {
+            "value": "Default option",
+            "price": 795.0,
+            "compareAtPrice": 874.5,
+            "active": true
+          }
+        ],
+        "source_filter_category": [
+          "Custom Food Booths – 5x5, 10x10, 10x15 & 10x20 Canopy Tents",
+          "5x5 Custom Canopies"
+        ],
+        "source_filter_sizes": [],
+        "source_reviews_text": "1 option",
+        "source_badge_label": "Custom Food Booths – 5x5, 10x10, 10x15 & 10x20 Canopy Tents",
+        "source_badge_subtext": "4 product images available",
+        "source_description": "Custom Food Booth Canopy Tent Package 5x5 Make your food stand unforgettable with our premium 5x5 Custom Canopy Tent Package, designed especially for food vendors, farmers’ markets, and outdoor events. This compact, professional-grade canopy combines durability, ventilation, and…",
+        "source_card_variant": "",
+        "source_add_on_group_keys": [
+          "accessories-c22f40cb3ac5",
+          "upgrades-d98ba65b7098"
+        ],
+        "local_image_paths": [
+          "/assets/images/notionworx-inventory/custom-food-booths-canopy-tents/custom-food-booth-canopy-tent-23-05/01.png",
+          "/assets/images/notionworx-inventory/custom-food-booths-canopy-tents/custom-food-booth-canopy-tent-23-05/02.png",
+          "/assets/images/notionworx-inventory/custom-food-booths-canopy-tents/custom-food-booth-canopy-tent-23-05/03.png",
+          "/assets/images/notionworx-inventory/custom-food-booths-canopy-tents/custom-food-booth-canopy-tent-23-05/04.png"
+        ],
+        "inventory_data_path": "data/inventory/notionworx/products/custom-food-booths-canopy-tents/custom-food-booth-canopy-tent-23-05.json",
+        "created_at": "2025-09-25T12:34:02-06:00",
+        "updated_at": "2026-08-18T21:23:34-06:00",
+        "published_at": "2025-09-26T09:36:34-06:00"
+      },
+      "sales_channels": [
+        {
+          "id": "sc_01M1E72H3K3S5QG6P0R7700SH4"
+        }
+      ]
+    }
+  ]
+}

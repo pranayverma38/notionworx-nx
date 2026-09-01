@@ -1,0 +1,28 @@
+{
+  "baseUrl": "https://api.notionworxcanopy.com",
+  "siteUrl": "https://notionworxcanopy.com",
+  "mode": "apply",
+  "collectionHandle": "mockups",
+  "region": {
+    "id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X",
+    "currency_code": "eur",
+    "name": "Europe"
+  },
+  "salesChannelId": "sc_01M1E72H3K3S5QG6P0R7700SH4",
+  "collection": {
+    "title": "Mockups",
+    "handle": "mockups",
+    "metadata": {
+      "source": "notionworx-inventory",
+      "source_handle": "mockups",
+      "source_title": "Mockups",
+      "source_description": "<p><img src=\"\" alt=\"\"><img src=\"\" alt=\"\"><img src=\"\" alt=\"\"><img src=\"\" alt=\"\"><img src=\"\" alt=\"\"><img src=\"\" alt=\"\"><img src=\"\" alt=\"\"><img src=\"\" alt=\"\"><img src=\"\" alt=\"\"><img src=\"\" alt=\"\"></p>",
+      "source_products_count": 0,
+      "source_image_path": "/assets/images/notionworx-inventory/collections/mockups/01.png",
+      "source_image_url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/collections/mockups/01.png",
+      "inventory_data_path": "/inventory/notionworx/collections/mockups.json"
+    }
+  },
+  "productsCount": 0,
+  "products": []
+}

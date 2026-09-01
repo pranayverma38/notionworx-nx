@@ -1,0 +1,4030 @@
+{
+  "baseUrl": "https://api.notionworxcanopy.com",
+  "siteUrl": "https://notionworxcanopy.com",
+  "mode": "apply",
+  "collectionHandle": "trade-show-display",
+  "region": {
+    "id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X",
+    "currency_code": "eur",
+    "name": "Europe"
+  },
+  "salesChannelId": "sc_01M1E72H3K3S5QG6P0R7700SH4",
+  "collection": {
+    "title": "BANNERS & DISPLAYS",
+    "handle": "trade-show-display",
+    "metadata": {
+      "source": "notionworx-inventory",
+      "source_handle": "trade-show-display",
+      "source_title": "BANNERS & DISPLAYS",
+      "source_description": "",
+      "source_products_count": 13,
+      "source_image_path": "/assets/images/notionworx-inventory/collections/trade-show-display/01.jpg",
+      "source_image_url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/collections/trade-show-display/01.jpg",
+      "inventory_data_path": "/inventory/notionworx/collections/trade-show-display.json"
+    }
+  },
+  "productsCount": 13,
+  "products": [
+    {
+      "title": "10' Fabric Pop Up Display (Straight)",
+      "handle": "10-fabric-pop-up-display-straight-copy",
+      "external_id": "8227673931911",
+      "description": "https://displaytemplate.s3.us-west-2.amazonaws.com/Fabric+Display/Velcro_Fabric_Pop_Up_Display_10ft_Straight.pdf\n\nhttps://displaytemplate.s3.us-west-2.amazonaws.com/Fabric+Display/Installation_Guide_-_Pop_Up_Display.pdf Hardcase Template\n\nInstallation Guide\n\nFeatures\n\nYour artwork will be dye sublimated on polyester knit\nGraphic panel covers the front and two sides of the display's frame; the back of the frame is not covered\nHook-and-loop fasteners make it easy to install graphic panels\nLightweight aluminum frame with nylon plastic hubs\nImprint Method: Full-Color Dye Sublimation\nSingle Sided Graphic\n\n10ft Fabric Popup Includes:\n\n- (1) Single-Sided Dye-Sublimated Graphic (with Endcaps)\n\n- (1) Aluminum Frame\n\n- (1) Black Nylon Carry Bag\n\nFeatures:\n\n- Endcaps: 11.81\" end panels on both sides\n\n- Material: Stretch Fabric\n\n- Shipping Weight: 29 lbs",
+      "status": "published",
+      "images": [
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/trade-show-display/10-fabric-pop-up-display-straight-copy/01.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/trade-show-display/10-fabric-pop-up-display-straight-copy/02.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/trade-show-display/10-fabric-pop-up-display-straight-copy/03.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/trade-show-display/10-fabric-pop-up-display-straight-copy/04.jpg"
+        }
+      ],
+      "thumbnail": "https://notionworxcanopy.com/assets/images/notionworx-inventory/trade-show-display/10-fabric-pop-up-display-straight-copy/01.jpg",
+      "options": [
+        {
+          "title": "Style",
+          "values": [
+            "Kit 1 ( Frame +Graphic)",
+            "Kit 3 ( Graphic Only)"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "Kit 1 ( Frame +Graphic)",
+          "sku": "406034",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 43400,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Style": "Kit 1 ( Frame +Graphic)"
+          },
+          "metadata": {
+            "source_variant_id": 43238158696583,
+            "source_requires_shipping": true,
+            "source_taxable": false,
+            "source_grams": 15876,
+            "source_position": 1,
+            "source_sku": "406034",
+            "source_option_values": [
+              "Kit 1 ( Frame +Graphic)"
+            ],
+            "source_compare_at_price": null
+          }
+        },
+        {
+          "title": "Kit 3 ( Graphic Only)",
+          "sku": "406035",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 16700,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Style": "Kit 3 ( Graphic Only)"
+          },
+          "metadata": {
+            "source_variant_id": 43238158729351,
+            "source_requires_shipping": true,
+            "source_taxable": false,
+            "source_grams": 15876,
+            "source_position": 2,
+            "source_sku": "406035",
+            "source_option_values": [
+              "Kit 3 ( Graphic Only)"
+            ],
+            "source_compare_at_price": null
+          }
+        }
+      ],
+      "metadata": {
+        "source": "notionworx-inventory",
+        "source_handle": "10-fabric-pop-up-display-straight-copy",
+        "source_product_id": 8227673931911,
+        "source_slug": "10-fabric-pop-up-display-straight-copy",
+        "source_vendor": "Notion Worx",
+        "source_product_type": null,
+        "source_primary_category": {
+          "handle": "trade-show-display",
+          "title": "BANNERS & DISPLAYS"
+        },
+        "source_categories": [
+          {
+            "handle": "trade-show-display",
+            "title": "BANNERS & DISPLAYS"
+          }
+        ],
+        "source_price": {
+          "min": 167.0,
+          "max": 434.0,
+          "compareAtMin": null,
+          "compareAtMax": null,
+          "variantCount": 2
+        },
+        "source_tags": [],
+        "source_skus": [
+          "406034",
+          "406035"
+        ],
+        "description_html": "<p><a href=\"https://displaytemplate.s3.us-west-2.amazonaws.com/Fabric+Display/Velcro_Fabric_Pop_Up_Display_10ft_Straight.pdf\">https://displaytemplate.s3.us-west-2.amazonaws.com/Fabric+Display/Velcro_Fabric_Pop_Up_Display_10ft_Straight.pdf</a></p>\n<p><a href=\"https://displaytemplate.s3.us-west-2.amazonaws.com/Fabric+Display/Installation_Guide_-_Pop_Up_Display.pdf\">https://displaytemplate.s3.us-west-2.amazonaws.com/Fabric+Display/Installation_Guide_-_Pop_Up_Display.pdf</a> <a href=\"https://displaytemplate.s3.us-west-2.amazonaws.com/Fabric+Display/Podium.pdf\">Hardcase Template</a></p>\n<p><a href=\"https://displaytemplate.s3.us-west-2.amazonaws.com/Fabric+Display/Installation_Guide_-_Pop_Up_Display.pdf\">Installation Guide</a></p>\n<h3>Features</h3>\n<p>Your artwork will be dye sublimated on polyester knit<br>Graphic panel covers the front and two sides of the display&#x27;s frame; the back of the frame is not covered<br>Hook-and-loop fasteners make it easy to install graphic panels<br>Lightweight aluminum frame with nylon plastic hubs<br>Imprint Method: Full-Color Dye Sublimation<br>Single Sided Graphic</p>\n<h3>10ft Fabric Popup Includes:</h3>\n<ul>\n  <li>(1) Single-Sided Dye-Sublimated Graphic (with Endcaps)</li>\n  <li>(1) Aluminum Frame</li>\n  <li>(1) Black Nylon Carry Bag</li>\n</ul>\n<h3>Features:</h3>\n<ul>\n  <li>Endcaps: 11.81&quot; end panels on both sides</li>\n  <li>Material: Stretch Fabric</li>\n  <li>Shipping Weight: 29 lbs</li>\n</ul>",
+        "description_text": "https://displaytemplate.s3.us-west-2.amazonaws.com/Fabric+Display/Velcro_Fabric_Pop_Up_Display_10ft_Straight.pdf\n\nhttps://displaytemplate.s3.us-west-2.amazonaws.com/Fabric+Display/Installation_Guide_-_Pop_Up_Display.pdf Hardcase Template\n\nInstallation Guide\n\nFeatures\n\nYour artwork will be dye sublimated on polyester knit\nGraphic panel covers the front and two sides of the display's frame; the back of the frame is not covered\nHook-and-loop fasteners make it easy to install graphic panels\nLightweight aluminum frame with nylon plastic hubs\nImprint Method: Full-Color Dye Sublimation\nSingle Sided Graphic\n\n10ft Fabric Popup Includes:\n\n- (1) Single-Sided Dye-Sublimated Graphic (with Endcaps)\n\n- (1) Aluminum Frame\n\n- (1) Black Nylon Carry Bag\n\nFeatures:\n\n- Endcaps: 11.81\" end panels on both sides\n\n- Material: Stretch Fabric\n\n- Shipping Weight: 29 lbs",
+        "how_to_order_html": "<ul>\n  <li>SKU 406034</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
+        "how_to_order_text": "SKU 406034\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
+        "dimensions_html": "<ul>\n  <li>Display Size: 118&quot;W x 89&quot;H x 12&quot;D</li>\n  <li>Template Size: 142.25&quot;W x 88.5&quot;H</li>\n  <li>Shipping Dimensions: 14&quot;L x 12&quot;W x 32.75&quot;H</li>\n</ul>",
+        "dimensions_text": "- Display Size: 118\"W x 89\"H x 12\"D\n\n- Template Size: 142.25\"W x 88.5\"H\n\n- Shipping Dimensions: 14\"L x 12\"W x 32.75\"H",
+        "warranty_html": null,
+        "warranty_text": null,
+        "source_options": [
+          {
+            "name": "Style",
+            "position": 1,
+            "values": [
+              "Kit 1 ( Frame +Graphic)",
+              "Kit 3 ( Graphic Only)"
+            ]
+          }
+        ],
+        "source_variants": [
+          {
+            "id": 43238158696583,
+            "title": "Kit 1 ( Frame +Graphic)",
+            "sku": "406034",
+            "available": true,
+            "price": 434.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "Kit 1 ( Frame +Graphic)"
+            ],
+            "requiresShipping": true,
+            "taxable": false,
+            "grams": 15876,
+            "position": 1
+          },
+          {
+            "id": 43238158729351,
+            "title": "Kit 3 ( Graphic Only)",
+            "sku": "406035",
+            "available": true,
+            "price": 167.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "Kit 3 ( Graphic Only)"
+            ],
+            "requiresShipping": true,
+            "taxable": false,
+            "grams": 15876,
+            "position": 2
+          }
+        ],
+        "source_variant_label": "Style",
+        "source_sizes": [
+          "Kit 1 ( Frame +Graphic)",
+          "Kit 3 ( Graphic Only)"
+        ],
+        "source_size_variants": [
+          {
+            "value": "Kit 1 ( Frame +Graphic)",
+            "price": 434.0
+          },
+          {
+            "value": "Kit 3 ( Graphic Only)",
+            "price": 167.0,
+            "active": true
+          }
+        ],
+        "source_filter_category": [
+          "BANNERS & DISPLAYS"
+        ],
+        "source_filter_sizes": [
+          "Kit 1 ( Frame +Graphic)",
+          "Kit 3 ( Graphic Only)"
+        ],
+        "source_reviews_text": "2 options",
+        "source_badge_label": "Banners & Displays",
+        "source_badge_subtext": "4 product images available",
+        "source_description": "Hardcase Features Your artwork will be dye sublimated on polyester knit\nGraphic panel covers the front and two sides of the display's frame; the back of the frame is not covered\nHook-and-loop fasteners make it easy to install graphic panels\nLightweight aluminum frame with nylon…",
+        "source_card_variant": "",
+        "source_add_on_group_keys": [],
+        "local_image_paths": [
+          "/assets/images/notionworx-inventory/trade-show-display/10-fabric-pop-up-display-straight-copy/01.jpg",
+          "/assets/images/notionworx-inventory/trade-show-display/10-fabric-pop-up-display-straight-copy/02.jpg",
+          "/assets/images/notionworx-inventory/trade-show-display/10-fabric-pop-up-display-straight-copy/03.jpg",
+          "/assets/images/notionworx-inventory/trade-show-display/10-fabric-pop-up-display-straight-copy/04.jpg"
+        ],
+        "inventory_data_path": "data/inventory/notionworx/products/trade-show-display/10-fabric-pop-up-display-straight-copy.json",
+        "created_at": "2025-09-25T12:35:16-06:00",
+        "updated_at": "2026-08-18T21:24:32-06:00",
+        "published_at": "2025-09-26T09:36:51-06:00"
+      },
+      "sales_channels": [
+        {
+          "id": "sc_01M1E72H3K3S5QG6P0R7700SH4"
+        }
+      ]
+    },
+    {
+      "title": "10' Tube Straight Fabric Display",
+      "handle": "10-tube-straight-fabric-display-1",
+      "external_id": "8227674783879",
+      "description": "https://www.dropbox.com/scl/fo/301xbb4f0l0m4x3lfekdx/h?rlkey=2afvdgkr632jnlzw8w5va2y07&dl=0\n\ninstallation guide\n\nFeatures\n\n- This display is approximately 90\" tall\n\n- Your artwork will be dye sublimated on polyester knit\n\n- Double-sided graphic cover is viewable from both the front and back of the display\n\n- Graphic cover slips over the frame like a pillowcase\n\n- Fabric contours to the frame for a form-fitted look\n\n- Lightweight aluminum frame\n\n- Joints are labeled for step-by-step frame assembly\n\n- Push-button connectors make it easy to assemble\n\n- Slim swivel feet allow Walls to be paired at angles\n\n- Imprint Method: Full-Color Dye Sublimation\n\nMaterials\n\n- Graphic: Polyester Knit\n\n- Hardware: Aluminum\n\n- Carry Case: 600 Denier Polyester\n\nPrimary Usage\n\n- Indoor\n\nOrder Cutoff Time\n\n- 12:00 PM Central Daylight Time",
+      "status": "published",
+      "images": [
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/trade-show-display/10-tube-straight-fabric-display-1/01.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/trade-show-display/10-tube-straight-fabric-display-1/02.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/trade-show-display/10-tube-straight-fabric-display-1/03.jpg"
+        }
+      ],
+      "thumbnail": "https://notionworxcanopy.com/assets/images/notionworx-inventory/trade-show-display/10-tube-straight-fabric-display-1/01.jpg",
+      "options": [
+        {
+          "title": "Display Option",
+          "values": [
+            "Single-Sided",
+            "Double-Sided"
+          ]
+        },
+        {
+          "title": "Style",
+          "values": [
+            "Kit 1(Frame+Printing)",
+            "Kit 2 ( Graphic Only)"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "Single-Sided / Kit 1(Frame+Printing)",
+          "sku": "406024",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 47000,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Display Option": "Single-Sided",
+            "Style": "Kit 1(Frame+Printing)"
+          },
+          "metadata": {
+            "source_variant_id": 43238164594823,
+            "source_requires_shipping": true,
+            "source_taxable": false,
+            "source_grams": 22680,
+            "source_position": 1,
+            "source_sku": "406024",
+            "source_option_values": [
+              "Single-Sided",
+              "Kit 1(Frame+Printing)"
+            ],
+            "source_compare_at_price": null
+          }
+        },
+        {
+          "title": "Single-Sided / Kit 2 ( Graphic Only)",
+          "sku": "406026",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 19000,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Display Option": "Single-Sided",
+            "Style": "Kit 2 ( Graphic Only)"
+          },
+          "metadata": {
+            "source_variant_id": 43238164627591,
+            "source_requires_shipping": true,
+            "source_taxable": false,
+            "source_grams": 22680,
+            "source_position": 2,
+            "source_sku": "406026",
+            "source_option_values": [
+              "Single-Sided",
+              "Kit 2 ( Graphic Only)"
+            ],
+            "source_compare_at_price": null
+          }
+        },
+        {
+          "title": "Double-Sided / Kit 1(Frame+Printing)",
+          "sku": "406025",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 52500,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Display Option": "Double-Sided",
+            "Style": "Kit 1(Frame+Printing)"
+          },
+          "metadata": {
+            "source_variant_id": 43238164660359,
+            "source_requires_shipping": true,
+            "source_taxable": false,
+            "source_grams": 22680,
+            "source_position": 3,
+            "source_sku": "406025",
+            "source_option_values": [
+              "Double-Sided",
+              "Kit 1(Frame+Printing)"
+            ],
+            "source_compare_at_price": null
+          }
+        },
+        {
+          "title": "Double-Sided / Kit 2 ( Graphic Only)",
+          "sku": "406027",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 25000,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Display Option": "Double-Sided",
+            "Style": "Kit 2 ( Graphic Only)"
+          },
+          "metadata": {
+            "source_variant_id": 43238164693127,
+            "source_requires_shipping": true,
+            "source_taxable": false,
+            "source_grams": 22680,
+            "source_position": 4,
+            "source_sku": "406027",
+            "source_option_values": [
+              "Double-Sided",
+              "Kit 2 ( Graphic Only)"
+            ],
+            "source_compare_at_price": null
+          }
+        }
+      ],
+      "metadata": {
+        "source": "notionworx-inventory",
+        "source_handle": "10-tube-straight-fabric-display-1",
+        "source_product_id": 8227674783879,
+        "source_slug": "10-tube-straight-fabric-display-1",
+        "source_vendor": "Notion Worx",
+        "source_product_type": null,
+        "source_primary_category": {
+          "handle": "trade-show-display",
+          "title": "BANNERS & DISPLAYS"
+        },
+        "source_categories": [
+          {
+            "handle": "trade-show-display",
+            "title": "BANNERS & DISPLAYS"
+          }
+        ],
+        "source_price": {
+          "min": 190.0,
+          "max": 525.0,
+          "compareAtMin": null,
+          "compareAtMax": null,
+          "variantCount": 4
+        },
+        "source_tags": [],
+        "source_skus": [
+          "406024",
+          "406026",
+          "406025",
+          "406027"
+        ],
+        "description_html": "<p><a href=\"https://www.dropbox.com/scl/fo/301xbb4f0l0m4x3lfekdx/h?rlkey=2afvdgkr632jnlzw8w5va2y07&amp;dl=0\">https://www.dropbox.com/scl/fo/301xbb4f0l0m4x3lfekdx/h?rlkey=2afvdgkr632jnlzw8w5va2y07&amp;dl=0</a></p>\n<p><a href=\"https://displaytemplate.s3.us-west-2.amazonaws.com/Fabric+Display/Installation_Guide_-_Tension_Fabric_Display_-_Straight.pdf\">installation guide</a></p>\n<h3>Features</h3>\n<ul>\n  <li>This display is approximately 90&quot; tall</li>\n  <li>Your artwork will be dye sublimated on polyester knit</li>\n  <li>Double-sided graphic cover is viewable from both the front and back of the display</li>\n  <li>Graphic cover slips over the frame like a pillowcase</li>\n  <li>Fabric contours to the frame for a form-fitted look</li>\n  <li>Lightweight aluminum frame</li>\n  <li>Joints are labeled for step-by-step frame assembly</li>\n  <li>Push-button connectors make it easy to assemble</li>\n  <li>Slim swivel feet allow Walls to be paired at angles</li>\n  <li>Imprint Method: Full-Color Dye Sublimation</li>\n</ul>\n<h3>Materials</h3>\n<ul>\n  <li>Graphic: Polyester Knit</li>\n  <li>Hardware: Aluminum</li>\n  <li>Carry Case: 600 Denier Polyester</li>\n</ul>\n<h3>Primary Usage</h3>\n<ul>\n  <li>Indoor</li>\n</ul>\n<h3>Order Cutoff Time</h3>\n<ul>\n  <li>12:00 PM Central Daylight Time</li>\n</ul>",
+        "description_text": "https://www.dropbox.com/scl/fo/301xbb4f0l0m4x3lfekdx/h?rlkey=2afvdgkr632jnlzw8w5va2y07&dl=0\n\ninstallation guide\n\nFeatures\n\n- This display is approximately 90\" tall\n\n- Your artwork will be dye sublimated on polyester knit\n\n- Double-sided graphic cover is viewable from both the front and back of the display\n\n- Graphic cover slips over the frame like a pillowcase\n\n- Fabric contours to the frame for a form-fitted look\n\n- Lightweight aluminum frame\n\n- Joints are labeled for step-by-step frame assembly\n\n- Push-button connectors make it easy to assemble\n\n- Slim swivel feet allow Walls to be paired at angles\n\n- Imprint Method: Full-Color Dye Sublimation\n\nMaterials\n\n- Graphic: Polyester Knit\n\n- Hardware: Aluminum\n\n- Carry Case: 600 Denier Polyester\n\nPrimary Usage\n\n- Indoor\n\nOrder Cutoff Time\n\n- 12:00 PM Central Daylight Time",
+        "how_to_order_html": "<ul>\n  <li>SKU 406024</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
+        "how_to_order_text": "SKU 406024\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
+        "dimensions_html": "<h3>Size and Weight</h3>\n<ul>\n  <li>Display Size: 112”W x 89”H</li>\n  <li>Graphic Size: 115”W x 89.5”H</li>\n  <li>Weight (w/ soft canvas bag): 34 lbs</li>\n  <li>Weight (w/ podium &amp; led lights): 53 lbs</li>\n  <li>Package Size (soft canvas bag): 32”W x 11”H x 11”D</li>\n  <li>Package Size (hard case): 40”W x 21”H x 17”D</li>\n  <li>Podium Size: 37&quot;W x 37&quot;H x 20&quot;D</li>\n</ul>",
+        "dimensions_text": "Size and Weight\n\n- Display Size: 112”W x 89”H\n\n- Graphic Size: 115”W x 89.5”H\n\n- Weight (w/ soft canvas bag): 34 lbs\n\n- Weight (w/ podium & led lights): 53 lbs\n\n- Package Size (soft canvas bag): 32”W x 11”H x 11”D\n\n- Package Size (hard case): 40”W x 21”H x 17”D\n\n- Podium Size: 37\"W x 37\"H x 20\"D",
+        "warranty_html": "<h3>Warranty</h3>\n<ul>\n  <li>90 day graphic warranty with outdoor use - Outdoor usage is limited to a 90 day standard parts and labor warranty which warrants product against defects in material and workmanship. It does not cover damage due to accidents, abuse, or normal wear and tear. Products found to be defective will be replaced or repaired at factory&#x27;s discretion.</li>\n  <li>1 year graphic warranty on indoor use - Indoor use is a 1 year standard parts and labor warranty which warrants product against defects in material and workmanship. It does not cover damage due to accidents, abuse, or normal wear and tear. Products found to be defective will be replaced or repaired at factory&#x27;s discretion.</li>\n</ul>",
+        "warranty_text": "Warranty\n\n- 90 day graphic warranty with outdoor use - Outdoor usage is limited to a 90 day standard parts and labor warranty which warrants product against defects in material and workmanship. It does not cover damage due to accidents, abuse, or normal wear and tear. Products found to be defective will be replaced or repaired at factory's discretion.\n\n- 1 year graphic warranty on indoor use - Indoor use is a 1 year standard parts and labor warranty which warrants product against defects in material and workmanship. It does not cover damage due to accidents, abuse, or normal wear and tear. Products found to be defective will be replaced or repaired at factory's discretion.",
+        "source_options": [
+          {
+            "name": "Display Option",
+            "position": 1,
+            "values": [
+              "Single-Sided",
+              "Double-Sided"
+            ]
+          },
+          {
+            "name": "Style",
+            "position": 2,
+            "values": [
+              "Kit 1(Frame+Printing)",
+              "Kit 2 ( Graphic Only)"
+            ]
+          }
+        ],
+        "source_variants": [
+          {
+            "id": 43238164594823,
+            "title": "Single-Sided / Kit 1(Frame+Printing)",
+            "sku": "406024",
+            "available": true,
+            "price": 470.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "Single-Sided",
+              "Kit 1(Frame+Printing)"
+            ],
+            "requiresShipping": true,
+            "taxable": false,
+            "grams": 22680,
+            "position": 1
+          },
+          {
+            "id": 43238164627591,
+            "title": "Single-Sided / Kit 2 ( Graphic Only)",
+            "sku": "406026",
+            "available": true,
+            "price": 190.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "Single-Sided",
+              "Kit 2 ( Graphic Only)"
+            ],
+            "requiresShipping": true,
+            "taxable": false,
+            "grams": 22680,
+            "position": 2
+          },
+          {
+            "id": 43238164660359,
+            "title": "Double-Sided / Kit 1(Frame+Printing)",
+            "sku": "406025",
+            "available": true,
+            "price": 525.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "Double-Sided",
+              "Kit 1(Frame+Printing)"
+            ],
+            "requiresShipping": true,
+            "taxable": false,
+            "grams": 22680,
+            "position": 3
+          },
+          {
+            "id": 43238164693127,
+            "title": "Double-Sided / Kit 2 ( Graphic Only)",
+            "sku": "406027",
+            "available": true,
+            "price": 250.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "Double-Sided",
+              "Kit 2 ( Graphic Only)"
+            ],
+            "requiresShipping": true,
+            "taxable": false,
+            "grams": 22680,
+            "position": 4
+          }
+        ],
+        "source_variant_label": "Display Option / Style",
+        "source_sizes": [
+          "Single-Sided",
+          "Double-Sided"
+        ],
+        "source_size_variants": [
+          {
+            "value": "Single-Sided / Kit 1(Frame+Printing)",
+            "price": 470.0
+          },
+          {
+            "value": "Single-Sided / Kit 2 ( Graphic Only)",
+            "price": 190.0,
+            "active": true
+          },
+          {
+            "value": "Double-Sided / Kit 1(Frame+Printing)",
+            "price": 525.0
+          },
+          {
+            "value": "Double-Sided / Kit 2 ( Graphic Only)",
+            "price": 250.0
+          }
+        ],
+        "source_filter_category": [
+          "BANNERS & DISPLAYS"
+        ],
+        "source_filter_sizes": [
+          "Single-Sided",
+          "Double-Sided"
+        ],
+        "source_reviews_text": "4 options",
+        "source_badge_label": "Banners & Displays",
+        "source_badge_subtext": "3 product images available",
+        "source_description": "Features - This display is approximately 90\" tall - Your artwork will be dye sublimated on polyester knit - Double-sided graphic cover is viewable from both the front and back of the display - Graphic cover slips over the frame like a pillowcase - Fabric contours to the frame fo…",
+        "source_card_variant": "",
+        "source_add_on_group_keys": [],
+        "local_image_paths": [
+          "/assets/images/notionworx-inventory/trade-show-display/10-tube-straight-fabric-display-1/01.jpg",
+          "/assets/images/notionworx-inventory/trade-show-display/10-tube-straight-fabric-display-1/02.jpg",
+          "/assets/images/notionworx-inventory/trade-show-display/10-tube-straight-fabric-display-1/03.jpg"
+        ],
+        "inventory_data_path": "data/inventory/notionworx/products/trade-show-display/10-tube-straight-fabric-display-1.json",
+        "created_at": "2025-09-25T12:35:53-06:00",
+        "updated_at": "2026-08-18T21:24:32-06:00",
+        "published_at": "2025-09-26T09:36:51-06:00"
+      },
+      "sales_channels": [
+        {
+          "id": "sc_01M1E72H3K3S5QG6P0R7700SH4"
+        }
+      ]
+    },
+    {
+      "title": "20’ Tube Display Straight",
+      "handle": "20-tube-display-straight",
+      "external_id": "8227673800839",
+      "description": "Download Template\n\nhttps://displaytemplate.s3-us-west-2.amazonaws.com/Fabric+Display+Image/Fabric+Display.zip https://displaytemplate.s3-us-west-2.amazonaws.com/Product+setup+instruction/Inst_256239-256241_8FT+EUROFIT+Wall+Displays.pdf\n\nFeatures\n\n- This display is approximately 90\" tall\n\n- Your artwork will be dye sublimated on polyester knit\n\n- Double-sided graphic cover is viewable from both the front and back of the display\n\n- Graphic cover slips over the frame like a pillowcase\n\n- Fabric contours to the frame for a form-fitted look\n\n- Lightweight aluminum frame\n\n- Joints are labeled for step-by-step frame assembly\n\n- Push-button connectors make it easy to assemble\n\n- Slim swivel feet allow Walls to be paired at angles\n\n- Imprint Method: Full-Color Dye Sublimation\n\nMaterials\n\n- Graphic: Polyester Knit\n\n- Hardware: Aluminum\n\n- Carry Case: 600 Denier Polyester\n\nPrimary Usage\n\n- Indoor\n\nOrder Cutoff Time\n\n- 12:00 PM Central Daylight Time",
+      "status": "published",
+      "images": [
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/trade-show-display/20-tube-display-straight/01.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/trade-show-display/20-tube-display-straight/02.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/trade-show-display/20-tube-display-straight/03.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/trade-show-display/20-tube-display-straight/04.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/trade-show-display/20-tube-display-straight/05.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/trade-show-display/20-tube-display-straight/06.jpg"
+        }
+      ],
+      "thumbnail": "https://notionworxcanopy.com/assets/images/notionworx-inventory/trade-show-display/20-tube-display-straight/01.jpg",
+      "options": [
+        {
+          "title": "Graphic",
+          "values": [
+            "Single-Sided",
+            "Double-Sided"
+          ]
+        },
+        {
+          "title": "Included",
+          "values": [
+            "Kit 1 ( Frame +Graphic +Carry Bag)",
+            "Kit 2 (Graphic only)"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "Single-Sided / Kit 1 ( Frame +Graphic +Carry Bag)",
+          "sku": "406023",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 89000,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Graphic": "Single-Sided",
+            "Included": "Kit 1 ( Frame +Graphic +Carry Bag)"
+          },
+          "metadata": {
+            "source_variant_id": 43238158172295,
+            "source_requires_shipping": true,
+            "source_taxable": false,
+            "source_grams": 27216,
+            "source_position": 1,
+            "source_sku": "406023",
+            "source_option_values": [
+              "Single-Sided",
+              "Kit 1 ( Frame +Graphic +Carry Bag)"
+            ],
+            "source_compare_at_price": null
+          }
+        },
+        {
+          "title": "Double-Sided / Kit 1 ( Frame +Graphic +Carry Bag)",
+          "sku": "406040-36",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 100300,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Graphic": "Double-Sided",
+            "Included": "Kit 1 ( Frame +Graphic +Carry Bag)"
+          },
+          "metadata": {
+            "source_variant_id": 43238158205063,
+            "source_requires_shipping": true,
+            "source_taxable": false,
+            "source_grams": 27216,
+            "source_position": 2,
+            "source_sku": "406040-36",
+            "source_option_values": [
+              "Double-Sided",
+              "Kit 1 ( Frame +Graphic +Carry Bag)"
+            ],
+            "source_compare_at_price": null
+          }
+        },
+        {
+          "title": "Single-Sided / Kit 2 (Graphic only)",
+          "sku": "406040-37",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 36500,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Graphic": "Single-Sided",
+            "Included": "Kit 2 (Graphic only)"
+          },
+          "metadata": {
+            "source_variant_id": 43238158237831,
+            "source_requires_shipping": true,
+            "source_taxable": false,
+            "source_grams": 27216,
+            "source_position": 3,
+            "source_sku": "406040-37",
+            "source_option_values": [
+              "Single-Sided",
+              "Kit 2 (Graphic only)"
+            ],
+            "source_compare_at_price": null
+          }
+        },
+        {
+          "title": "Double-Sided / Kit 2 (Graphic only)",
+          "sku": "406040-38",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 47900,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Graphic": "Double-Sided",
+            "Included": "Kit 2 (Graphic only)"
+          },
+          "metadata": {
+            "source_variant_id": 43238158270599,
+            "source_requires_shipping": true,
+            "source_taxable": false,
+            "source_grams": 27216,
+            "source_position": 4,
+            "source_sku": "406040-38",
+            "source_option_values": [
+              "Double-Sided",
+              "Kit 2 (Graphic only)"
+            ],
+            "source_compare_at_price": null
+          }
+        }
+      ],
+      "metadata": {
+        "source": "notionworx-inventory",
+        "source_handle": "20-tube-display-straight",
+        "source_product_id": 8227673800839,
+        "source_slug": "20-tube-display-straight",
+        "source_vendor": "Notion Worx",
+        "source_product_type": null,
+        "source_primary_category": {
+          "handle": "trade-show-display",
+          "title": "BANNERS & DISPLAYS"
+        },
+        "source_categories": [
+          {
+            "handle": "trade-show-display",
+            "title": "BANNERS & DISPLAYS"
+          }
+        ],
+        "source_price": {
+          "min": 365.0,
+          "max": 1003.0,
+          "compareAtMin": null,
+          "compareAtMax": null,
+          "variantCount": 4
+        },
+        "source_tags": [],
+        "source_skus": [
+          "406023",
+          "406040-36",
+          "406040-37",
+          "406040-38"
+        ],
+        "description_html": "<h2><a href=\"https://displaytemplate.s3.us-west-2.amazonaws.com/Trade+Show+Package/20ft+Straight+Tube+Dispaly.pdf\">Download Template</a></h2>\n<p><a href=\"https://displaytemplate.s3-us-west-2.amazonaws.com/Fabric+Display+Image/Fabric+Display.zip\">https://displaytemplate.s3-us-west-2.amazonaws.com/Fabric+Display+Image/Fabric+Display.zip</a> <a href=\"https://displaytemplate.s3-us-west-2.amazonaws.com/Product+setup+instruction/Inst_256239-256241_8FT+EUROFIT+Wall+Displays.pdf\">https://displaytemplate.s3-us-west-2.amazonaws.com/Product+setup+instruction/Inst_256239-256241_8FT+EUROFIT+Wall+Displays.pdf</a></p>\n<h3>Features</h3>\n<ul>\n  <li>This display is approximately 90&quot; tall</li>\n  <li>Your artwork will be dye sublimated on polyester knit</li>\n  <li>Double-sided graphic cover is viewable from both the front and back of the display</li>\n  <li>Graphic cover slips over the frame like a pillowcase</li>\n  <li>Fabric contours to the frame for a form-fitted look</li>\n  <li>Lightweight aluminum frame</li>\n  <li>Joints are labeled for step-by-step frame assembly</li>\n  <li>Push-button connectors make it easy to assemble</li>\n  <li>Slim swivel feet allow Walls to be paired at angles</li>\n  <li>Imprint Method: Full-Color Dye Sublimation</li>\n</ul>\n<h3>Materials</h3>\n<ul>\n  <li>Graphic: Polyester Knit</li>\n  <li>Hardware: Aluminum</li>\n  <li>Carry Case: 600 Denier Polyester</li>\n</ul>\n<h3>Primary Usage</h3>\n<ul>\n  <li>Indoor</li>\n</ul>\n<h3>Order Cutoff Time</h3>\n<ul>\n  <li>12:00 PM Central Daylight Time</li>\n</ul>",
+        "description_text": "Download Template\n\nhttps://displaytemplate.s3-us-west-2.amazonaws.com/Fabric+Display+Image/Fabric+Display.zip https://displaytemplate.s3-us-west-2.amazonaws.com/Product+setup+instruction/Inst_256239-256241_8FT+EUROFIT+Wall+Displays.pdf\n\nFeatures\n\n- This display is approximately 90\" tall\n\n- Your artwork will be dye sublimated on polyester knit\n\n- Double-sided graphic cover is viewable from both the front and back of the display\n\n- Graphic cover slips over the frame like a pillowcase\n\n- Fabric contours to the frame for a form-fitted look\n\n- Lightweight aluminum frame\n\n- Joints are labeled for step-by-step frame assembly\n\n- Push-button connectors make it easy to assemble\n\n- Slim swivel feet allow Walls to be paired at angles\n\n- Imprint Method: Full-Color Dye Sublimation\n\nMaterials\n\n- Graphic: Polyester Knit\n\n- Hardware: Aluminum\n\n- Carry Case: 600 Denier Polyester\n\nPrimary Usage\n\n- Indoor\n\nOrder Cutoff Time\n\n- 12:00 PM Central Daylight Time",
+        "how_to_order_html": "<ul>\n  <li>SKU 406023</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
+        "how_to_order_text": "SKU 406023\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
+        "dimensions_html": null,
+        "dimensions_text": null,
+        "warranty_html": null,
+        "warranty_text": null,
+        "source_options": [
+          {
+            "name": "Graphic",
+            "position": 1,
+            "values": [
+              "Single-Sided",
+              "Double-Sided"
+            ]
+          },
+          {
+            "name": "Included",
+            "position": 2,
+            "values": [
+              "Kit 1 ( Frame +Graphic +Carry Bag)",
+              "Kit 2 (Graphic only)"
+            ]
+          }
+        ],
+        "source_variants": [
+          {
+            "id": 43238158172295,
+            "title": "Single-Sided / Kit 1 ( Frame +Graphic +Carry Bag)",
+            "sku": "406023",
+            "available": true,
+            "price": 890.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "Single-Sided",
+              "Kit 1 ( Frame +Graphic +Carry Bag)"
+            ],
+            "requiresShipping": true,
+            "taxable": false,
+            "grams": 27216,
+            "position": 1
+          },
+          {
+            "id": 43238158205063,
+            "title": "Double-Sided / Kit 1 ( Frame +Graphic +Carry Bag)",
+            "sku": "406040-36",
+            "available": true,
+            "price": 1003.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "Double-Sided",
+              "Kit 1 ( Frame +Graphic +Carry Bag)"
+            ],
+            "requiresShipping": true,
+            "taxable": false,
+            "grams": 27216,
+            "position": 2
+          },
+          {
+            "id": 43238158237831,
+            "title": "Single-Sided / Kit 2 (Graphic only)",
+            "sku": "406040-37",
+            "available": true,
+            "price": 365.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "Single-Sided",
+              "Kit 2 (Graphic only)"
+            ],
+            "requiresShipping": true,
+            "taxable": false,
+            "grams": 27216,
+            "position": 3
+          },
+          {
+            "id": 43238158270599,
+            "title": "Double-Sided / Kit 2 (Graphic only)",
+            "sku": "406040-38",
+            "available": true,
+            "price": 479.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "Double-Sided",
+              "Kit 2 (Graphic only)"
+            ],
+            "requiresShipping": true,
+            "taxable": false,
+            "grams": 27216,
+            "position": 4
+          }
+        ],
+        "source_variant_label": "Graphic / Included",
+        "source_sizes": [
+          "Single-Sided",
+          "Double-Sided"
+        ],
+        "source_size_variants": [
+          {
+            "value": "Single-Sided / Kit 1 ( Frame +Graphic +Carry Bag)",
+            "price": 890.0
+          },
+          {
+            "value": "Double-Sided / Kit 1 ( Frame +Graphic +Carry Bag)",
+            "price": 1003.0
+          },
+          {
+            "value": "Single-Sided / Kit 2 (Graphic only)",
+            "price": 365.0,
+            "active": true
+          },
+          {
+            "value": "Double-Sided / Kit 2 (Graphic only)",
+            "price": 479.0
+          }
+        ],
+        "source_filter_category": [
+          "BANNERS & DISPLAYS"
+        ],
+        "source_filter_sizes": [
+          "Single-Sided",
+          "Double-Sided"
+        ],
+        "source_reviews_text": "4 options",
+        "source_badge_label": "Banners & Displays",
+        "source_badge_subtext": "6 product images available",
+        "source_description": "Features - This display is approximately 90\" tall - Your artwork will be dye sublimated on polyester knit - Double-sided graphic cover is viewable from both the front and back of the display - Graphic cover slips over the frame like a pillowcase - Fabric contours to the frame fo…",
+        "source_card_variant": "",
+        "source_add_on_group_keys": [],
+        "local_image_paths": [
+          "/assets/images/notionworx-inventory/trade-show-display/20-tube-display-straight/01.jpg",
+          "/assets/images/notionworx-inventory/trade-show-display/20-tube-display-straight/02.jpg",
+          "/assets/images/notionworx-inventory/trade-show-display/20-tube-display-straight/03.jpg",
+          "/assets/images/notionworx-inventory/trade-show-display/20-tube-display-straight/04.jpg",
+          "/assets/images/notionworx-inventory/trade-show-display/20-tube-display-straight/05.jpg",
+          "/assets/images/notionworx-inventory/trade-show-display/20-tube-display-straight/06.jpg"
+        ],
+        "inventory_data_path": "data/inventory/notionworx/products/trade-show-display/20-tube-display-straight.json",
+        "created_at": "2025-09-25T12:35:10-06:00",
+        "updated_at": "2026-08-18T21:24:32-06:00",
+        "published_at": "2025-09-26T09:36:49-06:00"
+      },
+      "sales_channels": [
+        {
+          "id": "sc_01M1E72H3K3S5QG6P0R7700SH4"
+        }
+      ]
+    },
+    {
+      "title": "Deluxe Fabric Stand",
+      "handle": "3x7-5h-premiumtube-banner-stand-with-steel-feet",
+      "external_id": "8227672293511",
+      "description": "Download template https://www.dropbox.com/s/mn7yxaj6dn16psy/Tension_Fabric_Stand_3ft_Straight.pdf?dl=0\n\nAs an environmentally friendly replacement for retractable roll ups, our Premium Tube Banner Stand with Steel Feet can be assembled with ease and used repeatedly. The steel feet gives the stand stability, while allowing it to pack down to be portable for easy transport.\n\nBasic Information:\n\n- PC/CTN: 1\n\nStandard Unit Includes:\n\n- (1) Hardware\n\n- (1) Dye-sublimated Graphic\n\n- (1) Soft Carry Bag\n\n- (1) Instruction Sheet",
+      "status": "published",
+      "images": [
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/trade-show-display/3x7-5h-premiumtube-banner-stand-with-steel-feet/01.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/trade-show-display/3x7-5h-premiumtube-banner-stand-with-steel-feet/02.jpg"
+        }
+      ],
+      "thumbnail": "https://notionworxcanopy.com/assets/images/notionworx-inventory/trade-show-display/3x7-5h-premiumtube-banner-stand-with-steel-feet/01.jpg",
+      "options": [
+        {
+          "title": "Size",
+          "values": [
+            "36'' x 90''"
+          ]
+        },
+        {
+          "title": "Included",
+          "values": [
+            "Double-Sided Graphic + Frame",
+            "Graphic Only"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "36'' x 90'' / Double-Sided Graphic + Frame",
+          "sku": "406091",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 16500,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Size": "36'' x 90''",
+            "Included": "Double-Sided Graphic + Frame"
+          },
+          "metadata": {
+            "source_variant_id": 43238153617543,
+            "source_requires_shipping": true,
+            "source_taxable": false,
+            "source_grams": 13608,
+            "source_position": 1,
+            "source_sku": "406091",
+            "source_option_values": [
+              "36'' x 90''",
+              "Double-Sided Graphic + Frame"
+            ],
+            "source_compare_at_price": null
+          }
+        },
+        {
+          "title": "36'' x 90'' / Graphic Only",
+          "sku": "NW-TENT-3X7-5H-PREMIUMTUBE-BANNER-STAND-WITH-STEEL-FEET-43238153650311",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 11700,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Size": "36'' x 90''",
+            "Included": "Graphic Only"
+          },
+          "metadata": {
+            "source_variant_id": 43238153650311,
+            "source_requires_shipping": true,
+            "source_taxable": false,
+            "source_grams": 907,
+            "source_position": 2,
+            "source_sku": "None",
+            "source_option_values": [
+              "36'' x 90''",
+              "Graphic Only"
+            ],
+            "source_compare_at_price": null
+          }
+        }
+      ],
+      "metadata": {
+        "source": "notionworx-inventory",
+        "source_handle": "3x7-5h-premiumtube-banner-stand-with-steel-feet",
+        "source_product_id": 8227672293511,
+        "source_slug": "3x7-5h-premiumtube-banner-stand-with-steel-feet",
+        "source_vendor": "Notion Worx",
+        "source_product_type": null,
+        "source_primary_category": {
+          "handle": "trade-show-display",
+          "title": "BANNERS & DISPLAYS"
+        },
+        "source_categories": [
+          {
+            "handle": "trade-show-display",
+            "title": "BANNERS & DISPLAYS"
+          }
+        ],
+        "source_price": {
+          "min": 117.0,
+          "max": 165.0,
+          "compareAtMin": null,
+          "compareAtMax": null,
+          "variantCount": 2
+        },
+        "source_tags": [],
+        "source_skus": [
+          "406091"
+        ],
+        "description_html": "<p>Download template <a href=\"https://www.dropbox.com/s/mn7yxaj6dn16psy/Tension_Fabric_Stand_3ft_Straight.pdf?dl=0\">https://www.dropbox.com/s/mn7yxaj6dn16psy/Tension_Fabric_Stand_3ft_Straight.pdf?dl=0</a></p>\n<p>As an environmentally friendly replacement for retractable roll ups, our Premium Tube Banner Stand with Steel Feet can be assembled with ease and used repeatedly. The steel feet gives the stand stability, while allowing it to pack down to be portable for easy transport.</p>\n<p>Basic Information:</p>\n<ul>\n  <li>PC/CTN: 1</li>\n</ul>\n<p>Standard Unit Includes:</p>\n<ul>\n  <li>(1) Hardware</li>\n  <li>(1) Dye-sublimated Graphic</li>\n  <li>(1) Soft Carry Bag</li>\n  <li>(1) Instruction Sheet</li>\n</ul>",
+        "description_text": "Download template https://www.dropbox.com/s/mn7yxaj6dn16psy/Tension_Fabric_Stand_3ft_Straight.pdf?dl=0\n\nAs an environmentally friendly replacement for retractable roll ups, our Premium Tube Banner Stand with Steel Feet can be assembled with ease and used repeatedly. The steel feet gives the stand stability, while allowing it to pack down to be portable for easy transport.\n\nBasic Information:\n\n- PC/CTN: 1\n\nStandard Unit Includes:\n\n- (1) Hardware\n\n- (1) Dye-sublimated Graphic\n\n- (1) Soft Carry Bag\n\n- (1) Instruction Sheet",
+        "how_to_order_html": "<ul>\n  <li>SKU 406091</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
+        "how_to_order_text": "SKU 406091\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
+        "dimensions_html": "<ul>\n  <li>Product Size: 36&quot;W x 90&quot;H</li>\n  <li>Visible Graphic Size: 36&quot;W x 90&quot;H</li>\n</ul>\n<ul>\n  <li>Gross Weight: 10.56Ibs</li>\n  <li>Packing Size: 9.84&quot;x6.30&quot;x25.98&quot;</li>\n</ul>",
+        "dimensions_text": "- Product Size: 36\"W x 90\"H\n\n- Visible Graphic Size: 36\"W x 90\"H\n\n- Gross Weight: 10.56Ibs\n\n- Packing Size: 9.84\"x6.30\"x25.98\"",
+        "warranty_html": "<h3>Warranty</h3>\n<ul>\n  <li>Graphic: Three months</li>\n  <li>Hardware: Lifetime (Standard warranty is a parts and labor warranty which warrants product against defects in material and workmanship. It does not cover damage due to accidents, abuse or normal wear and tear. Products found to be defective will be replaced or repaired at factory&#x27;s discretion.)</li>\n</ul>",
+        "warranty_text": "Warranty\n\n- Graphic: Three months\n\n- Hardware: Lifetime (Standard warranty is a parts and labor warranty which warrants product against defects in material and workmanship. It does not cover damage due to accidents, abuse or normal wear and tear. Products found to be defective will be replaced or repaired at factory's discretion.)",
+        "source_options": [
+          {
+            "name": "Size",
+            "position": 1,
+            "values": [
+              "36'' x 90''"
+            ]
+          },
+          {
+            "name": "Included",
+            "position": 2,
+            "values": [
+              "Double-Sided Graphic + Frame",
+              "Graphic Only"
+            ]
+          }
+        ],
+        "source_variants": [
+          {
+            "id": 43238153617543,
+            "title": "36'' x 90'' / Double-Sided Graphic + Frame",
+            "sku": "406091",
+            "available": true,
+            "price": 165.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "36'' x 90''",
+              "Double-Sided Graphic + Frame"
+            ],
+            "requiresShipping": true,
+            "taxable": false,
+            "grams": 13608,
+            "position": 1
+          },
+          {
+            "id": 43238153650311,
+            "title": "36'' x 90'' / Graphic Only",
+            "sku": "None",
+            "available": true,
+            "price": 117.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "36'' x 90''",
+              "Graphic Only"
+            ],
+            "requiresShipping": true,
+            "taxable": false,
+            "grams": 907,
+            "position": 2
+          }
+        ],
+        "source_variant_label": "Size",
+        "source_sizes": [
+          "36'' x 90''"
+        ],
+        "source_size_variants": [
+          {
+            "value": "36'' x 90'' / Double-Sided Graphic + Frame",
+            "price": 165.0
+          },
+          {
+            "value": "36'' x 90'' / Graphic Only",
+            "price": 117.0,
+            "active": true
+          }
+        ],
+        "source_filter_category": [
+          "BANNERS & DISPLAYS"
+        ],
+        "source_filter_sizes": [
+          "36'' x 90''"
+        ],
+        "source_reviews_text": "2 options",
+        "source_badge_label": "Banners & Displays",
+        "source_badge_subtext": "2 product images available",
+        "source_description": "As an environmentally friendly replacement for retractable roll ups, our Premium Tube Banner Stand with Steel Feet can be assembled with ease and used repeatedly. The steel feet gives the stand stability, while allowing it to pack down to be portable for easy transport. Basic In…",
+        "source_card_variant": "",
+        "source_add_on_group_keys": [],
+        "local_image_paths": [
+          "/assets/images/notionworx-inventory/trade-show-display/3x7-5h-premiumtube-banner-stand-with-steel-feet/01.jpg",
+          "/assets/images/notionworx-inventory/trade-show-display/3x7-5h-premiumtube-banner-stand-with-steel-feet/02.jpg"
+        ],
+        "inventory_data_path": "data/inventory/notionworx/products/trade-show-display/3x7-5h-premiumtube-banner-stand-with-steel-feet.json",
+        "created_at": "2025-09-25T12:33:57-06:00",
+        "updated_at": "2026-08-18T21:24:32-06:00",
+        "published_at": "2025-09-26T09:36:48-06:00"
+      },
+      "sales_channels": [
+        {
+          "id": "sc_01M1E72H3K3S5QG6P0R7700SH4"
+        }
+      ]
+    },
+    {
+      "title": "8' Fabric Pop Up Display (Straight)",
+      "handle": "8-fabric-pop-up-display-straight-copy",
+      "external_id": "8227673899143",
+      "description": "8' straight pop up design template Hardcase Template . Installation Guide\n\nFeatures\n\nYour artwork will be dye sublimated on polyester knit\nGraphic panel covers the front and two sides of the display's frame; the back of the frame is not covered\nHook-and-loop fasteners make it easy to install graphic panels\nLightweight aluminum frame with nylon plastic hubs\nImprint Method: Full-Color Dye Sublimation\nSingle Sided Graphic\n\n8ft fabric pop up Includes:\n\n- (1) Single-Sided Dye-Sublimated Graphic (with Endcaps)\n\n- (1) Aluminum Frame\n\n- (1) Black Nylon Carry Bag\n\n- Endcaps: 11.81\" end panels on both sides)\n\n- Material: Stretch Fabric\n\n- Shipping Weight: 24 lbs",
+      "status": "published",
+      "images": [
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/trade-show-display/8-fabric-pop-up-display-straight-copy/01.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/trade-show-display/8-fabric-pop-up-display-straight-copy/02.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/trade-show-display/8-fabric-pop-up-display-straight-copy/03.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/trade-show-display/8-fabric-pop-up-display-straight-copy/04.jpg"
+        }
+      ],
+      "thumbnail": "https://notionworxcanopy.com/assets/images/notionworx-inventory/trade-show-display/8-fabric-pop-up-display-straight-copy/01.jpg",
+      "options": [
+        {
+          "title": "Included",
+          "values": [
+            "Kit 1 ( Frame +Printing)",
+            "Kit 2 ( Graphic Only)"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "Kit 1 ( Frame +Printing)",
+          "sku": "406055",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 36700,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Included": "Kit 1 ( Frame +Printing)"
+          },
+          "metadata": {
+            "source_variant_id": 43238158631047,
+            "source_requires_shipping": true,
+            "source_taxable": false,
+            "source_grams": 22680,
+            "source_position": 1,
+            "source_sku": "406055",
+            "source_option_values": [
+              "Kit 1 ( Frame +Printing)"
+            ],
+            "source_compare_at_price": null
+          }
+        },
+        {
+          "title": "Kit 2 ( Graphic Only)",
+          "sku": "406056",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 16700,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Included": "Kit 2 ( Graphic Only)"
+          },
+          "metadata": {
+            "source_variant_id": 43238158663815,
+            "source_requires_shipping": true,
+            "source_taxable": false,
+            "source_grams": 22680,
+            "source_position": 2,
+            "source_sku": "406056",
+            "source_option_values": [
+              "Kit 2 ( Graphic Only)"
+            ],
+            "source_compare_at_price": null
+          }
+        }
+      ],
+      "metadata": {
+        "source": "notionworx-inventory",
+        "source_handle": "8-fabric-pop-up-display-straight-copy",
+        "source_product_id": 8227673899143,
+        "source_slug": "8-fabric-pop-up-display-straight-copy",
+        "source_vendor": "Notion Worx",
+        "source_product_type": null,
+        "source_primary_category": {
+          "handle": "trade-show-display",
+          "title": "BANNERS & DISPLAYS"
+        },
+        "source_categories": [
+          {
+            "handle": "trade-show-display",
+            "title": "BANNERS & DISPLAYS"
+          }
+        ],
+        "source_price": {
+          "min": 167.0,
+          "max": 367.0,
+          "compareAtMin": null,
+          "compareAtMax": null,
+          "variantCount": 2
+        },
+        "source_tags": [],
+        "source_skus": [
+          "406055",
+          "406056"
+        ],
+        "description_html": "<p><a href=\"https://displaytemplate.s3.us-west-2.amazonaws.com/Fabric+Display/Velcro_Fabric_Pop_Up_Display_8ft_Straight.pdf\">8&#x27; straight pop up design template</a> <a href=\"https://displaytemplate.s3.us-west-2.amazonaws.com/Fabric+Display/Podium.pdf\">Hardcase Template</a>. <a href=\"https://displaytemplate.s3.us-west-2.amazonaws.com/Fabric+Display/Installation_Guide_-_Pop_Up_Display.pdf\">Installation Guide</a></p>\n<h3>Features</h3>\n<p>Your artwork will be dye sublimated on polyester knit<br>Graphic panel covers the front and two sides of the display&#x27;s frame; the back of the frame is not covered<br>Hook-and-loop fasteners make it easy to install graphic panels<br>Lightweight aluminum frame with nylon plastic hubs<br>Imprint Method: Full-Color Dye Sublimation<br>Single Sided Graphic</p>\n<h3>8ft fabric pop up Includes:</h3>\n<ul>\n  <li>(1) Single-Sided Dye-Sublimated Graphic (with Endcaps)</li>\n  <li>(1) Aluminum Frame</li>\n  <li>(1) Black Nylon Carry Bag</li>\n</ul>\n<ul>\n  <li>Endcaps: 11.81&quot; end panels on both sides)</li>\n  <li>Material: Stretch Fabric</li>\n  <li>Shipping Weight: 24 lbs</li>\n</ul>",
+        "description_text": "8' straight pop up design template Hardcase Template . Installation Guide\n\nFeatures\n\nYour artwork will be dye sublimated on polyester knit\nGraphic panel covers the front and two sides of the display's frame; the back of the frame is not covered\nHook-and-loop fasteners make it easy to install graphic panels\nLightweight aluminum frame with nylon plastic hubs\nImprint Method: Full-Color Dye Sublimation\nSingle Sided Graphic\n\n8ft fabric pop up Includes:\n\n- (1) Single-Sided Dye-Sublimated Graphic (with Endcaps)\n\n- (1) Aluminum Frame\n\n- (1) Black Nylon Carry Bag\n\n- Endcaps: 11.81\" end panels on both sides)\n\n- Material: Stretch Fabric\n\n- Shipping Weight: 24 lbs",
+        "how_to_order_html": "<ul>\n  <li>SKU 406055</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
+        "how_to_order_text": "SKU 406055\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
+        "dimensions_html": "<ul>\n  <li>Display Size: 89&quot;W x 89&quot;H x 12&quot;D</li>\n  <li>Template Size: 114&quot;W x 88.5&quot;H</li>\n  <li>Shipping Dimensions: 12&quot;L x 12&quot;W x 35&quot;H</li>\n</ul>",
+        "dimensions_text": "- Display Size: 89\"W x 89\"H x 12\"D\n\n- Template Size: 114\"W x 88.5\"H\n\n- Shipping Dimensions: 12\"L x 12\"W x 35\"H",
+        "warranty_html": null,
+        "warranty_text": null,
+        "source_options": [
+          {
+            "name": "Included",
+            "position": 1,
+            "values": [
+              "Kit 1 ( Frame +Printing)",
+              "Kit 2 ( Graphic Only)"
+            ]
+          }
+        ],
+        "source_variants": [
+          {
+            "id": 43238158631047,
+            "title": "Kit 1 ( Frame +Printing)",
+            "sku": "406055",
+            "available": true,
+            "price": 367.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "Kit 1 ( Frame +Printing)"
+            ],
+            "requiresShipping": true,
+            "taxable": false,
+            "grams": 22680,
+            "position": 1
+          },
+          {
+            "id": 43238158663815,
+            "title": "Kit 2 ( Graphic Only)",
+            "sku": "406056",
+            "available": true,
+            "price": 167.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "Kit 2 ( Graphic Only)"
+            ],
+            "requiresShipping": true,
+            "taxable": false,
+            "grams": 22680,
+            "position": 2
+          }
+        ],
+        "source_variant_label": "Included",
+        "source_sizes": [
+          "Kit 1 ( Frame +Printing)",
+          "Kit 2 ( Graphic Only)"
+        ],
+        "source_size_variants": [
+          {
+            "value": "Kit 1 ( Frame +Printing)",
+            "price": 367.0
+          },
+          {
+            "value": "Kit 2 ( Graphic Only)",
+            "price": 167.0,
+            "active": true
+          }
+        ],
+        "source_filter_category": [
+          "BANNERS & DISPLAYS"
+        ],
+        "source_filter_sizes": [
+          "Kit 1 ( Frame +Printing)",
+          "Kit 2 ( Graphic Only)"
+        ],
+        "source_reviews_text": "2 options",
+        "source_badge_label": "Banners & Displays",
+        "source_badge_subtext": "4 product images available",
+        "source_description": "8' straight pop up design Hardcase . Features Your artwork will be dye sublimated on polyester knit\nGraphic panel covers the front and two sides of the display's frame; the back of the frame is not covered\nHook-and-loop fasteners make it easy to install graphic panels\nLightweigh…",
+        "source_card_variant": "",
+        "source_add_on_group_keys": [],
+        "local_image_paths": [
+          "/assets/images/notionworx-inventory/trade-show-display/8-fabric-pop-up-display-straight-copy/01.jpg",
+          "/assets/images/notionworx-inventory/trade-show-display/8-fabric-pop-up-display-straight-copy/02.jpg",
+          "/assets/images/notionworx-inventory/trade-show-display/8-fabric-pop-up-display-straight-copy/03.jpg",
+          "/assets/images/notionworx-inventory/trade-show-display/8-fabric-pop-up-display-straight-copy/04.jpg"
+        ],
+        "inventory_data_path": "data/inventory/notionworx/products/trade-show-display/8-fabric-pop-up-display-straight-copy.json",
+        "created_at": "2025-09-25T12:35:15-06:00",
+        "updated_at": "2026-08-18T21:24:32-06:00",
+        "published_at": "2025-09-26T09:36:50-06:00"
+      },
+      "sales_channels": [
+        {
+          "id": "sc_01M1E72H3K3S5QG6P0R7700SH4"
+        }
+      ]
+    },
+    {
+      "title": "8' Tube Straight Fabric Display",
+      "handle": "8-tube-straight-fabric-display-copy",
+      "external_id": "8227673866375",
+      "description": "https://displaytemplate.s3-us-west-2.amazonaws.com/Fabric+Display/Tension_Fabric_Display_8ft_Straight.pdf\n\ninstallation guide\n\nFeatures\n\n- This display is approximately 90\" tall\n\n- Your artwork will be dye sublimated on polyester knit\n\n- Double-sided graphic cover is viewable from both the front and back of the display\n\n- Graphic cover slips over the frame like a pillowcase\n\n- Fabric contours to the frame for a form-fitted look\n\n- Lightweight aluminum frame\n\n- Joints are labeled for step-by-step frame assembly\n\n- Push-button connectors make it easy to assemble\n\n- Slim swivel feet allow Walls to be paired at angles\n\n- Imprint Method: Full-Color Dye Sublimation\n\nMaterials\n\n- Graphic: Polyester Knit\n\n- Hardware: Aluminum\n\n- Carry Case: 600 Denier Polyester\n\nPrimary Usage\n\n- Indoor\n\nOrder Cutoff Time\n\n- 12:00 PM Central Daylight Time",
+      "status": "published",
+      "images": [
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/trade-show-display/8-tube-straight-fabric-display-copy/01.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/trade-show-display/8-tube-straight-fabric-display-copy/02.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/trade-show-display/8-tube-straight-fabric-display-copy/03.jpg"
+        }
+      ],
+      "thumbnail": "https://notionworxcanopy.com/assets/images/notionworx-inventory/trade-show-display/8-tube-straight-fabric-display-copy/01.jpg",
+      "options": [
+        {
+          "title": "Display Option",
+          "values": [
+            "Single-Sided",
+            "Double-Sided"
+          ]
+        },
+        {
+          "title": "Style",
+          "values": [
+            "Kit 1 ( Frame +Printing)",
+            "Kit 3 ( Graphic Only)"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "Single-Sided / Kit 1 ( Frame +Printing)",
+          "sku": "406004",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 40000,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Display Option": "Single-Sided",
+            "Style": "Kit 1 ( Frame +Printing)"
+          },
+          "metadata": {
+            "source_variant_id": 43238158499975,
+            "source_requires_shipping": true,
+            "source_taxable": false,
+            "source_grams": 20412,
+            "source_position": 1,
+            "source_sku": "406004",
+            "source_option_values": [
+              "Single-Sided",
+              "Kit 1 ( Frame +Printing)"
+            ],
+            "source_compare_at_price": null
+          }
+        },
+        {
+          "title": "Single-Sided / Kit 3 ( Graphic Only)",
+          "sku": "406006",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 16700,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Display Option": "Single-Sided",
+            "Style": "Kit 3 ( Graphic Only)"
+          },
+          "metadata": {
+            "source_variant_id": 43238158532743,
+            "source_requires_shipping": true,
+            "source_taxable": false,
+            "source_grams": 13608,
+            "source_position": 2,
+            "source_sku": "406006",
+            "source_option_values": [
+              "Single-Sided",
+              "Kit 3 ( Graphic Only)"
+            ],
+            "source_compare_at_price": null
+          }
+        },
+        {
+          "title": "Double-Sided / Kit 1 ( Frame +Printing)",
+          "sku": "406007",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 43900,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Display Option": "Double-Sided",
+            "Style": "Kit 1 ( Frame +Printing)"
+          },
+          "metadata": {
+            "source_variant_id": 43238158565511,
+            "source_requires_shipping": true,
+            "source_taxable": false,
+            "source_grams": 20412,
+            "source_position": 3,
+            "source_sku": "406007",
+            "source_option_values": [
+              "Double-Sided",
+              "Kit 1 ( Frame +Printing)"
+            ],
+            "source_compare_at_price": null
+          }
+        },
+        {
+          "title": "Double-Sided / Kit 3 ( Graphic Only)",
+          "sku": "406009",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 19700,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Display Option": "Double-Sided",
+            "Style": "Kit 3 ( Graphic Only)"
+          },
+          "metadata": {
+            "source_variant_id": 43238158598279,
+            "source_requires_shipping": true,
+            "source_taxable": false,
+            "source_grams": 13608,
+            "source_position": 4,
+            "source_sku": "406009",
+            "source_option_values": [
+              "Double-Sided",
+              "Kit 3 ( Graphic Only)"
+            ],
+            "source_compare_at_price": null
+          }
+        }
+      ],
+      "metadata": {
+        "source": "notionworx-inventory",
+        "source_handle": "8-tube-straight-fabric-display-copy",
+        "source_product_id": 8227673866375,
+        "source_slug": "8-tube-straight-fabric-display-copy",
+        "source_vendor": "Notion Worx",
+        "source_product_type": null,
+        "source_primary_category": {
+          "handle": "trade-show-display",
+          "title": "BANNERS & DISPLAYS"
+        },
+        "source_categories": [
+          {
+            "handle": "trade-show-display",
+            "title": "BANNERS & DISPLAYS"
+          }
+        ],
+        "source_price": {
+          "min": 167.0,
+          "max": 439.0,
+          "compareAtMin": null,
+          "compareAtMax": null,
+          "variantCount": 4
+        },
+        "source_tags": [],
+        "source_skus": [
+          "406004",
+          "406006",
+          "406007",
+          "406009"
+        ],
+        "description_html": "<p><a href=\"https://displaytemplate.s3-us-west-2.amazonaws.com/Fabric+Display/Tension_Fabric_Display_8ft_Straight.pdf\">https://displaytemplate.s3-us-west-2.amazonaws.com/Fabric+Display/Tension_Fabric_Display_8ft_Straight.pdf</a></p>\n<p><a href=\"https://displaytemplate.s3.us-west-2.amazonaws.com/Fabric+Display/Installation_Guide_-_Tension_Fabric_Display_-_Straight.pdf\">installation guide</a></p>\n<h3>Features</h3>\n<ul>\n  <li>This display is approximately 90&quot; tall</li>\n  <li>Your artwork will be dye sublimated on polyester knit</li>\n  <li>Double-sided graphic cover is viewable from both the front and back of the display</li>\n  <li>Graphic cover slips over the frame like a pillowcase</li>\n  <li>Fabric contours to the frame for a form-fitted look</li>\n  <li>Lightweight aluminum frame</li>\n  <li>Joints are labeled for step-by-step frame assembly</li>\n  <li>Push-button connectors make it easy to assemble</li>\n  <li>Slim swivel feet allow Walls to be paired at angles</li>\n  <li>Imprint Method: Full-Color Dye Sublimation</li>\n</ul>\n<h3>Materials</h3>\n<ul>\n  <li>Graphic: Polyester Knit</li>\n  <li>Hardware: Aluminum</li>\n  <li>Carry Case: 600 Denier Polyester</li>\n</ul>\n<h3>Primary Usage</h3>\n<ul>\n  <li>Indoor</li>\n</ul>\n<h3>Order Cutoff Time</h3>\n<ul>\n  <li>12:00 PM Central Daylight Time</li>\n</ul>",
+        "description_text": "https://displaytemplate.s3-us-west-2.amazonaws.com/Fabric+Display/Tension_Fabric_Display_8ft_Straight.pdf\n\ninstallation guide\n\nFeatures\n\n- This display is approximately 90\" tall\n\n- Your artwork will be dye sublimated on polyester knit\n\n- Double-sided graphic cover is viewable from both the front and back of the display\n\n- Graphic cover slips over the frame like a pillowcase\n\n- Fabric contours to the frame for a form-fitted look\n\n- Lightweight aluminum frame\n\n- Joints are labeled for step-by-step frame assembly\n\n- Push-button connectors make it easy to assemble\n\n- Slim swivel feet allow Walls to be paired at angles\n\n- Imprint Method: Full-Color Dye Sublimation\n\nMaterials\n\n- Graphic: Polyester Knit\n\n- Hardware: Aluminum\n\n- Carry Case: 600 Denier Polyester\n\nPrimary Usage\n\n- Indoor\n\nOrder Cutoff Time\n\n- 12:00 PM Central Daylight Time",
+        "how_to_order_html": "<ul>\n  <li>SKU 406004</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
+        "how_to_order_text": "SKU 406004\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
+        "dimensions_html": null,
+        "dimensions_text": null,
+        "warranty_html": null,
+        "warranty_text": null,
+        "source_options": [
+          {
+            "name": "Display Option",
+            "position": 1,
+            "values": [
+              "Single-Sided",
+              "Double-Sided"
+            ]
+          },
+          {
+            "name": "Style",
+            "position": 2,
+            "values": [
+              "Kit 1 ( Frame +Printing)",
+              "Kit 3 ( Graphic Only)"
+            ]
+          }
+        ],
+        "source_variants": [
+          {
+            "id": 43238158499975,
+            "title": "Single-Sided / Kit 1 ( Frame +Printing)",
+            "sku": "406004",
+            "available": true,
+            "price": 400.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "Single-Sided",
+              "Kit 1 ( Frame +Printing)"
+            ],
+            "requiresShipping": true,
+            "taxable": false,
+            "grams": 20412,
+            "position": 1
+          },
+          {
+            "id": 43238158532743,
+            "title": "Single-Sided / Kit 3 ( Graphic Only)",
+            "sku": "406006",
+            "available": true,
+            "price": 167.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "Single-Sided",
+              "Kit 3 ( Graphic Only)"
+            ],
+            "requiresShipping": true,
+            "taxable": false,
+            "grams": 13608,
+            "position": 2
+          },
+          {
+            "id": 43238158565511,
+            "title": "Double-Sided / Kit 1 ( Frame +Printing)",
+            "sku": "406007",
+            "available": true,
+            "price": 439.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "Double-Sided",
+              "Kit 1 ( Frame +Printing)"
+            ],
+            "requiresShipping": true,
+            "taxable": false,
+            "grams": 20412,
+            "position": 3
+          },
+          {
+            "id": 43238158598279,
+            "title": "Double-Sided / Kit 3 ( Graphic Only)",
+            "sku": "406009",
+            "available": true,
+            "price": 197.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "Double-Sided",
+              "Kit 3 ( Graphic Only)"
+            ],
+            "requiresShipping": true,
+            "taxable": false,
+            "grams": 13608,
+            "position": 4
+          }
+        ],
+        "source_variant_label": "Display Option / Style",
+        "source_sizes": [
+          "Single-Sided",
+          "Double-Sided"
+        ],
+        "source_size_variants": [
+          {
+            "value": "Single-Sided / Kit 1 ( Frame +Printing)",
+            "price": 400.0
+          },
+          {
+            "value": "Single-Sided / Kit 3 ( Graphic Only)",
+            "price": 167.0,
+            "active": true
+          },
+          {
+            "value": "Double-Sided / Kit 1 ( Frame +Printing)",
+            "price": 439.0
+          },
+          {
+            "value": "Double-Sided / Kit 3 ( Graphic Only)",
+            "price": 197.0
+          }
+        ],
+        "source_filter_category": [
+          "BANNERS & DISPLAYS"
+        ],
+        "source_filter_sizes": [
+          "Single-Sided",
+          "Double-Sided"
+        ],
+        "source_reviews_text": "4 options",
+        "source_badge_label": "Banners & Displays",
+        "source_badge_subtext": "3 product images available",
+        "source_description": "Features - This display is approximately 90\" tall - Your artwork will be dye sublimated on polyester knit - Double-sided graphic cover is viewable from both the front and back of the display - Graphic cover slips over the frame like a pillowcase - Fabric contours to the frame fo…",
+        "source_card_variant": "",
+        "source_add_on_group_keys": [],
+        "local_image_paths": [
+          "/assets/images/notionworx-inventory/trade-show-display/8-tube-straight-fabric-display-copy/01.jpg",
+          "/assets/images/notionworx-inventory/trade-show-display/8-tube-straight-fabric-display-copy/02.jpg",
+          "/assets/images/notionworx-inventory/trade-show-display/8-tube-straight-fabric-display-copy/03.jpg"
+        ],
+        "inventory_data_path": "data/inventory/notionworx/products/trade-show-display/8-tube-straight-fabric-display-copy.json",
+        "created_at": "2025-09-25T12:35:14-06:00",
+        "updated_at": "2026-08-18T21:24:32-06:00",
+        "published_at": "2025-09-26T09:36:50-06:00"
+      },
+      "sales_channels": [
+        {
+          "id": "sc_01M1E72H3K3S5QG6P0R7700SH4"
+        }
+      ]
+    },
+    {
+      "title": "Full Color Custom Yard Sign",
+      "handle": "custom-yard-sign",
+      "external_id": "8315483127943",
+      "description": "Promote your message effectively with our Full Color Custom Yard Sign, a durable and professional solution for outdoor advertising, real estate, events, and political or business promotions. Printed in full color on rigid 4mm coroplast, this yard sign delivers vibrant visuals while standing up to outdoor conditions.\n\nEach sign measures 24” × 18” and comes ready to use, including metal stakes, professional setup, and delivery at no extra cost. Designed for quick installation, it’s an easy and affordable way to get your message in front of customers fast.\n\n🔹 Key Features\n\n- 🪧 Full Color Custom Printing – High-quality, vibrant graphics\n\n- 📏 Standard Size – 24\" × 18\" yard sign\n\n- 🧱 Durable Material – 4mm corrugated coroplast\n\n- 🌦️ Outdoor Ready – Weather-resistant for long-term use\n\n- 🔩 Metal Stakes Included – Easy ground installation\n\n- 🎨 Design & Setup Included – No additional setup fees\n\n- 🚚 Delivery Included – Hassle-free shipping to your location\n\n🔹 Imprint Method\n\n🖨️ Full-Color Digital Printing\n\n🔹 Materials\n\n- 🧱 Sign Material: 4mm Coroplast\n\n- 🔩 Stakes: Metal\n\n🔹 What’s Included\n\n- 📦 Full Color Custom Yard Sign (24×18)\n\n- 🔩 Metal Stake\n\n- 🎨 Design Setup\n\n- 🚚 Delivery\n\n🔹 Primary Usage\n\nOutdoor advertising, real estate signage, events, political campaigns, business promotions, construction sites, and directional signage.",
+      "status": "published",
+      "images": [
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/trade-show-display/custom-yard-sign/01.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/trade-show-display/custom-yard-sign/02.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/trade-show-display/custom-yard-sign/03.jpg"
+        }
+      ],
+      "thumbnail": "https://notionworxcanopy.com/assets/images/notionworx-inventory/trade-show-display/custom-yard-sign/01.jpg",
+      "options": [
+        {
+          "title": "Quantity:",
+          "values": [
+            "10",
+            "50",
+            "100",
+            "200",
+            "500",
+            "1000"
+          ]
+        },
+        {
+          "title": "Set up:",
+          "values": [
+            "Double Sided",
+            "Single Sided"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "10 / Double Sided",
+          "sku": "YS24X18D -10",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 8850,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Quantity:": "10",
+            "Set up:": "Double Sided"
+          },
+          "metadata": {
+            "source_variant_id": 43680699777159,
+            "source_requires_shipping": true,
+            "source_taxable": true,
+            "source_grams": 0,
+            "source_position": 1,
+            "source_sku": "YS24X18D -10",
+            "source_option_values": [
+              "10",
+              "Double Sided"
+            ],
+            "source_compare_at_price": null
+          }
+        },
+        {
+          "title": "10 / Single Sided",
+          "sku": "YS24X18S-10",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 7850,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Quantity:": "10",
+            "Set up:": "Single Sided"
+          },
+          "metadata": {
+            "source_variant_id": 43680702201991,
+            "source_requires_shipping": true,
+            "source_taxable": true,
+            "source_grams": 0,
+            "source_position": 2,
+            "source_sku": "YS24X18S-10",
+            "source_option_values": [
+              "10",
+              "Single Sided"
+            ],
+            "source_compare_at_price": null
+          }
+        },
+        {
+          "title": "50 / Double Sided",
+          "sku": "YS24X18D - 50",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 34750,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Quantity:": "50",
+            "Set up:": "Double Sided"
+          },
+          "metadata": {
+            "source_variant_id": 43680699809927,
+            "source_requires_shipping": true,
+            "source_taxable": true,
+            "source_grams": 0,
+            "source_position": 3,
+            "source_sku": "YS24X18D - 50",
+            "source_option_values": [
+              "50",
+              "Double Sided"
+            ],
+            "source_compare_at_price": null
+          }
+        },
+        {
+          "title": "50 / Single Sided",
+          "sku": "YS24X18S- 50",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 29750,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Quantity:": "50",
+            "Set up:": "Single Sided"
+          },
+          "metadata": {
+            "source_variant_id": 43680702234759,
+            "source_requires_shipping": true,
+            "source_taxable": true,
+            "source_grams": 0,
+            "source_position": 4,
+            "source_sku": "YS24X18S- 50",
+            "source_option_values": [
+              "50",
+              "Single Sided"
+            ],
+            "source_compare_at_price": null
+          }
+        },
+        {
+          "title": "100 / Double Sided",
+          "sku": "YS24X18D -100",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 67500,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Quantity:": "100",
+            "Set up:": "Double Sided"
+          },
+          "metadata": {
+            "source_variant_id": 43680699842695,
+            "source_requires_shipping": true,
+            "source_taxable": true,
+            "source_grams": 0,
+            "source_position": 5,
+            "source_sku": "YS24X18D -100",
+            "source_option_values": [
+              "100",
+              "Double Sided"
+            ],
+            "source_compare_at_price": null
+          }
+        },
+        {
+          "title": "100 / Single Sided",
+          "sku": "YS24X18S-100",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 57500,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Quantity:": "100",
+            "Set up:": "Single Sided"
+          },
+          "metadata": {
+            "source_variant_id": 43680702267527,
+            "source_requires_shipping": true,
+            "source_taxable": true,
+            "source_grams": 0,
+            "source_position": 6,
+            "source_sku": "YS24X18S-100",
+            "source_option_values": [
+              "100",
+              "Single Sided"
+            ],
+            "source_compare_at_price": null
+          }
+        },
+        {
+          "title": "200 / Double Sided",
+          "sku": "YS24X18D -200",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 129000,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Quantity:": "200",
+            "Set up:": "Double Sided"
+          },
+          "metadata": {
+            "source_variant_id": 43680699875463,
+            "source_requires_shipping": true,
+            "source_taxable": true,
+            "source_grams": 0,
+            "source_position": 7,
+            "source_sku": "YS24X18D -200",
+            "source_option_values": [
+              "200",
+              "Double Sided"
+            ],
+            "source_compare_at_price": null
+          }
+        },
+        {
+          "title": "200 / Single Sided",
+          "sku": "YS24X18S- 200",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 109000,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Quantity:": "200",
+            "Set up:": "Single Sided"
+          },
+          "metadata": {
+            "source_variant_id": 43680702300295,
+            "source_requires_shipping": true,
+            "source_taxable": true,
+            "source_grams": 0,
+            "source_position": 8,
+            "source_sku": "YS24X18S- 200",
+            "source_option_values": [
+              "200",
+              "Single Sided"
+            ],
+            "source_compare_at_price": null
+          }
+        },
+        {
+          "title": "500 / Double Sided",
+          "sku": "YS24X18D - 500",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 317500,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Quantity:": "500",
+            "Set up:": "Double Sided"
+          },
+          "metadata": {
+            "source_variant_id": 43680699908231,
+            "source_requires_shipping": true,
+            "source_taxable": true,
+            "source_grams": 0,
+            "source_position": 9,
+            "source_sku": "YS24X18D - 500",
+            "source_option_values": [
+              "500",
+              "Double Sided"
+            ],
+            "source_compare_at_price": null
+          }
+        },
+        {
+          "title": "500 / Single Sided",
+          "sku": "YS24X18S- 500",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 267500,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Quantity:": "500",
+            "Set up:": "Single Sided"
+          },
+          "metadata": {
+            "source_variant_id": 43680702333063,
+            "source_requires_shipping": true,
+            "source_taxable": true,
+            "source_grams": 0,
+            "source_position": 10,
+            "source_sku": "YS24X18S- 500",
+            "source_option_values": [
+              "500",
+              "Single Sided"
+            ],
+            "source_compare_at_price": null
+          }
+        },
+        {
+          "title": "1000 / Double Sided",
+          "sku": "YS24X18D -1000",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 625000,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Quantity:": "1000",
+            "Set up:": "Double Sided"
+          },
+          "metadata": {
+            "source_variant_id": 43680699940999,
+            "source_requires_shipping": true,
+            "source_taxable": true,
+            "source_grams": 0,
+            "source_position": 11,
+            "source_sku": "YS24X18D -1000",
+            "source_option_values": [
+              "1000",
+              "Double Sided"
+            ],
+            "source_compare_at_price": null
+          }
+        },
+        {
+          "title": "1000 / Single Sided",
+          "sku": "YS24X18S - 1000",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 525000,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Quantity:": "1000",
+            "Set up:": "Single Sided"
+          },
+          "metadata": {
+            "source_variant_id": 43680702365831,
+            "source_requires_shipping": true,
+            "source_taxable": true,
+            "source_grams": 0,
+            "source_position": 12,
+            "source_sku": "YS24X18S - 1000",
+            "source_option_values": [
+              "1000",
+              "Single Sided"
+            ],
+            "source_compare_at_price": null
+          }
+        }
+      ],
+      "metadata": {
+        "source": "notionworx-inventory",
+        "source_handle": "custom-yard-sign",
+        "source_product_id": 8315483127943,
+        "source_slug": "custom-yard-sign",
+        "source_vendor": "Notion Worx",
+        "source_product_type": null,
+        "source_primary_category": {
+          "handle": "trade-show-display",
+          "title": "BANNERS & DISPLAYS"
+        },
+        "source_categories": [
+          {
+            "handle": "trade-show-display",
+            "title": "BANNERS & DISPLAYS"
+          }
+        ],
+        "source_price": {
+          "min": 78.5,
+          "max": 6250.0,
+          "compareAtMin": null,
+          "compareAtMax": null,
+          "variantCount": 12
+        },
+        "source_tags": [],
+        "source_skus": [
+          "YS24X18D -10",
+          "YS24X18S-10",
+          "YS24X18D - 50",
+          "YS24X18S- 50",
+          "YS24X18D -100",
+          "YS24X18S-100",
+          "YS24X18D -200",
+          "YS24X18S- 200",
+          "YS24X18D - 500",
+          "YS24X18S- 500",
+          "YS24X18D -1000",
+          "YS24X18S - 1000"
+        ],
+        "description_html": "<p>Promote your message effectively with our Full Color Custom Yard Sign, a durable and professional solution for outdoor advertising, real estate, events, and political or business promotions. Printed in full color on rigid 4mm coroplast, this yard sign delivers vibrant visuals while standing up to outdoor conditions.</p>\n<p>Each sign measures 24” × 18” and comes ready to use, including metal stakes, professional setup, and delivery at no extra cost. Designed for quick installation, it’s an easy and affordable way to get your message in front of customers fast.</p>\n<h2>🔹 Key Features</h2>\n<ul>\n  <li>🪧 Full Color Custom Printing – High-quality, vibrant graphics</li>\n  <li>📏 Standard Size – 24&quot; × 18&quot; yard sign</li>\n  <li>🧱 Durable Material – 4mm corrugated coroplast</li>\n  <li>🌦️ Outdoor Ready – Weather-resistant for long-term use</li>\n  <li>🔩 Metal Stakes Included – Easy ground installation</li>\n  <li>🎨 Design &amp; Setup Included – No additional setup fees</li>\n  <li>🚚 Delivery Included – Hassle-free shipping to your location</li>\n</ul>\n<h2>🔹 Imprint Method</h2>\n<p>🖨️ Full-Color Digital Printing</p>\n<h2>🔹 Materials</h2>\n<ul>\n  <li>🧱 Sign Material: 4mm Coroplast</li>\n  <li>🔩 Stakes: Metal</li>\n</ul>\n<h2>🔹 What’s Included</h2>\n<ul>\n  <li>📦 Full Color Custom Yard Sign (24×18)</li>\n  <li>🔩 Metal Stake</li>\n  <li>🎨 Design Setup</li>\n  <li>🚚 Delivery</li>\n</ul>\n<h2>🔹 Primary Usage</h2>\n<p>Outdoor advertising, real estate signage, events, political campaigns, business promotions, construction sites, and directional signage.</p>",
+        "description_text": "Promote your message effectively with our Full Color Custom Yard Sign, a durable and professional solution for outdoor advertising, real estate, events, and political or business promotions. Printed in full color on rigid 4mm coroplast, this yard sign delivers vibrant visuals while standing up to outdoor conditions.\n\nEach sign measures 24” × 18” and comes ready to use, including metal stakes, professional setup, and delivery at no extra cost. Designed for quick installation, it’s an easy and affordable way to get your message in front of customers fast.\n\n🔹 Key Features\n\n- 🪧 Full Color Custom Printing – High-quality, vibrant graphics\n\n- 📏 Standard Size – 24\" × 18\" yard sign\n\n- 🧱 Durable Material – 4mm corrugated coroplast\n\n- 🌦️ Outdoor Ready – Weather-resistant for long-term use\n\n- 🔩 Metal Stakes Included – Easy ground installation\n\n- 🎨 Design & Setup Included – No additional setup fees\n\n- 🚚 Delivery Included – Hassle-free shipping to your location\n\n🔹 Imprint Method\n\n🖨️ Full-Color Digital Printing\n\n🔹 Materials\n\n- 🧱 Sign Material: 4mm Coroplast\n\n- 🔩 Stakes: Metal\n\n🔹 What’s Included\n\n- 📦 Full Color Custom Yard Sign (24×18)\n\n- 🔩 Metal Stake\n\n- 🎨 Design Setup\n\n- 🚚 Delivery\n\n🔹 Primary Usage\n\nOutdoor advertising, real estate signage, events, political campaigns, business promotions, construction sites, and directional signage.",
+        "how_to_order_html": "<ul>\n  <li>SKU YS24X18D -10</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
+        "how_to_order_text": "SKU YS24X18D -10\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
+        "dimensions_html": null,
+        "dimensions_text": null,
+        "warranty_html": "<h2>Warranty</h2>\n<p>We stand behind the quality of our products. Our warranty covers any factory defects or damage that occurs during shipping. However, please note that we do not cover damage resulting from extreme weather conditions, misuse, or any circumstances beyond our control.</p>",
+        "warranty_text": "Warranty\n\nWe stand behind the quality of our products. Our warranty covers any factory defects or damage that occurs during shipping. However, please note that we do not cover damage resulting from extreme weather conditions, misuse, or any circumstances beyond our control.",
+        "source_options": [
+          {
+            "name": "Quantity:",
+            "position": 1,
+            "values": [
+              "10",
+              "50",
+              "100",
+              "200",
+              "500",
+              "1000"
+            ]
+          },
+          {
+            "name": "Set up:",
+            "position": 2,
+            "values": [
+              "Double Sided",
+              "Single Sided"
+            ]
+          }
+        ],
+        "source_variants": [
+          {
+            "id": 43680699777159,
+            "title": "10 / Double Sided",
+            "sku": "YS24X18D -10",
+            "available": true,
+            "price": 88.5,
+            "compareAtPrice": null,
+            "optionValues": [
+              "10",
+              "Double Sided"
+            ],
+            "requiresShipping": true,
+            "taxable": true,
+            "grams": 0,
+            "position": 1
+          },
+          {
+            "id": 43680702201991,
+            "title": "10 / Single Sided",
+            "sku": "YS24X18S-10",
+            "available": true,
+            "price": 78.5,
+            "compareAtPrice": null,
+            "optionValues": [
+              "10",
+              "Single Sided"
+            ],
+            "requiresShipping": true,
+            "taxable": true,
+            "grams": 0,
+            "position": 2
+          },
+          {
+            "id": 43680699809927,
+            "title": "50 / Double Sided",
+            "sku": "YS24X18D - 50",
+            "available": true,
+            "price": 347.5,
+            "compareAtPrice": null,
+            "optionValues": [
+              "50",
+              "Double Sided"
+            ],
+            "requiresShipping": true,
+            "taxable": true,
+            "grams": 0,
+            "position": 3
+          },
+          {
+            "id": 43680702234759,
+            "title": "50 / Single Sided",
+            "sku": "YS24X18S- 50",
+            "available": true,
+            "price": 297.5,
+            "compareAtPrice": null,
+            "optionValues": [
+              "50",
+              "Single Sided"
+            ],
+            "requiresShipping": true,
+            "taxable": true,
+            "grams": 0,
+            "position": 4
+          },
+          {
+            "id": 43680699842695,
+            "title": "100 / Double Sided",
+            "sku": "YS24X18D -100",
+            "available": true,
+            "price": 675.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "100",
+              "Double Sided"
+            ],
+            "requiresShipping": true,
+            "taxable": true,
+            "grams": 0,
+            "position": 5
+          },
+          {
+            "id": 43680702267527,
+            "title": "100 / Single Sided",
+            "sku": "YS24X18S-100",
+            "available": true,
+            "price": 575.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "100",
+              "Single Sided"
+            ],
+            "requiresShipping": true,
+            "taxable": true,
+            "grams": 0,
+            "position": 6
+          },
+          {
+            "id": 43680699875463,
+            "title": "200 / Double Sided",
+            "sku": "YS24X18D -200",
+            "available": true,
+            "price": 1290.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "200",
+              "Double Sided"
+            ],
+            "requiresShipping": true,
+            "taxable": true,
+            "grams": 0,
+            "position": 7
+          },
+          {
+            "id": 43680702300295,
+            "title": "200 / Single Sided",
+            "sku": "YS24X18S- 200",
+            "available": true,
+            "price": 1090.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "200",
+              "Single Sided"
+            ],
+            "requiresShipping": true,
+            "taxable": true,
+            "grams": 0,
+            "position": 8
+          },
+          {
+            "id": 43680699908231,
+            "title": "500 / Double Sided",
+            "sku": "YS24X18D - 500",
+            "available": true,
+            "price": 3175.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "500",
+              "Double Sided"
+            ],
+            "requiresShipping": true,
+            "taxable": true,
+            "grams": 0,
+            "position": 9
+          },
+          {
+            "id": 43680702333063,
+            "title": "500 / Single Sided",
+            "sku": "YS24X18S- 500",
+            "available": true,
+            "price": 2675.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "500",
+              "Single Sided"
+            ],
+            "requiresShipping": true,
+            "taxable": true,
+            "grams": 0,
+            "position": 10
+          },
+          {
+            "id": 43680699940999,
+            "title": "1000 / Double Sided",
+            "sku": "YS24X18D -1000",
+            "available": true,
+            "price": 6250.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "1000",
+              "Double Sided"
+            ],
+            "requiresShipping": true,
+            "taxable": true,
+            "grams": 0,
+            "position": 11
+          },
+          {
+            "id": 43680702365831,
+            "title": "1000 / Single Sided",
+            "sku": "YS24X18S - 1000",
+            "available": true,
+            "price": 5250.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "1000",
+              "Single Sided"
+            ],
+            "requiresShipping": true,
+            "taxable": true,
+            "grams": 0,
+            "position": 12
+          }
+        ],
+        "source_variant_label": "Quantity: / Set up:",
+        "source_sizes": [
+          "10",
+          "50",
+          "100",
+          "200",
+          "500",
+          "1000"
+        ],
+        "source_size_variants": [
+          {
+            "value": "10 / Double Sided",
+            "price": 88.5
+          },
+          {
+            "value": "10 / Single Sided",
+            "price": 78.5,
+            "active": true
+          },
+          {
+            "value": "50 / Double Sided",
+            "price": 347.5
+          },
+          {
+            "value": "50 / Single Sided",
+            "price": 297.5
+          },
+          {
+            "value": "100 / Double Sided",
+            "price": 675.0
+          },
+          {
+            "value": "100 / Single Sided",
+            "price": 575.0
+          },
+          {
+            "value": "200 / Double Sided",
+            "price": 1290.0
+          },
+          {
+            "value": "200 / Single Sided",
+            "price": 1090.0
+          },
+          {
+            "value": "500 / Double Sided",
+            "price": 3175.0
+          },
+          {
+            "value": "500 / Single Sided",
+            "price": 2675.0
+          },
+          {
+            "value": "1000 / Double Sided",
+            "price": 6250.0
+          },
+          {
+            "value": "1000 / Single Sided",
+            "price": 5250.0
+          }
+        ],
+        "source_filter_category": [
+          "BANNERS & DISPLAYS"
+        ],
+        "source_filter_sizes": [
+          "10",
+          "50",
+          "100",
+          "200",
+          "500",
+          "1000"
+        ],
+        "source_reviews_text": "12 options",
+        "source_badge_label": "Banners & Displays",
+        "source_badge_subtext": "3 product images available",
+        "source_description": "Promote your message effectively with our Full Color Custom Yard Sign, a durable and professional solution for outdoor advertising, real estate, events, and political or business promotions. Printed in full color on rigid 4mm coroplast, this yard sign delivers vibrant visuals wh…",
+        "source_card_variant": "",
+        "source_add_on_group_keys": [],
+        "local_image_paths": [
+          "/assets/images/notionworx-inventory/trade-show-display/custom-yard-sign/01.jpg",
+          "/assets/images/notionworx-inventory/trade-show-display/custom-yard-sign/02.jpg",
+          "/assets/images/notionworx-inventory/trade-show-display/custom-yard-sign/03.jpg"
+        ],
+        "inventory_data_path": "data/inventory/notionworx/products/trade-show-display/custom-yard-sign.json",
+        "created_at": "2025-12-26T15:33:39-07:00",
+        "updated_at": "2026-08-18T21:24:32-06:00",
+        "published_at": "2025-12-26T15:33:40-07:00"
+      },
+      "sales_channels": [
+        {
+          "id": "sc_01M1E72H3K3S5QG6P0R7700SH4"
+        }
+      ]
+    },
+    {
+      "title": "Deluxe Retractable Banner",
+      "handle": "deluxe-retractable-33-x-80",
+      "external_id": "8227678191751",
+      "description": "https://www.dropbox.com/scl/fi/h7716dd1hs1t9cv4ugrs2/Deluxe-Retractable_33x81.pdf?rlkey=n12rkdbktw7k0y1cdt2zljbf8&dl=0 https://displaytemplate.s3.us-west-2.amazonaws.com/Retractable/retractable+banner+33inch+x81inch.pdf\n\nMaterial Options:\n\n- 13 oz. Matte Vinyl Banner\n\nSafety Margins: (To ensure all graphic elements appear)\n\n- Top: 1\"\n\n- Bottom: 3\"\n\nProduct Features:\n\n- Aluminum Retractable Hardware\n\n- Carrying Bag",
+      "status": "published",
+      "images": [
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/trade-show-display/deluxe-retractable-33-x-80/01.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/trade-show-display/deluxe-retractable-33-x-80/02.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/trade-show-display/deluxe-retractable-33-x-80/03.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/trade-show-display/deluxe-retractable-33-x-80/04.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/trade-show-display/deluxe-retractable-33-x-80/05.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/trade-show-display/deluxe-retractable-33-x-80/06.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/trade-show-display/deluxe-retractable-33-x-80/07.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/trade-show-display/deluxe-retractable-33-x-80/08.jpg"
+        }
+      ],
+      "thumbnail": "https://notionworxcanopy.com/assets/images/notionworx-inventory/trade-show-display/deluxe-retractable-33-x-80/01.jpg",
+      "options": [
+        {
+          "title": "Default option",
+          "values": [
+            "Default option value"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "Default variant",
+          "sku": "406022",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 15000,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Default option": "Default option value"
+          },
+          "metadata": {
+            "source_variant_id": 43238180618375,
+            "source_requires_shipping": true,
+            "source_taxable": false,
+            "source_grams": 9072,
+            "source_position": 1,
+            "source_sku": "406022",
+            "source_option_values": [
+              "Default Title"
+            ],
+            "source_compare_at_price": null
+          }
+        }
+      ],
+      "metadata": {
+        "source": "notionworx-inventory",
+        "source_handle": "deluxe-retractable-33-x-80",
+        "source_product_id": 8227678191751,
+        "source_slug": "deluxe-retractable-33-x-80",
+        "source_vendor": "Notion Worx",
+        "source_product_type": null,
+        "source_primary_category": {
+          "handle": "trade-show-display",
+          "title": "BANNERS & DISPLAYS"
+        },
+        "source_categories": [
+          {
+            "handle": "trade-show-display",
+            "title": "BANNERS & DISPLAYS"
+          }
+        ],
+        "source_price": {
+          "min": 150.0,
+          "max": 150.0,
+          "compareAtMin": null,
+          "compareAtMax": null,
+          "variantCount": 1
+        },
+        "source_tags": [],
+        "source_skus": [
+          "406022"
+        ],
+        "description_html": "<p><a href=\"https://www.dropbox.com/scl/fi/h7716dd1hs1t9cv4ugrs2/Deluxe-Retractable_33x81.pdf?rlkey=n12rkdbktw7k0y1cdt2zljbf8&amp;dl=0\">https://www.dropbox.com/scl/fi/h7716dd1hs1t9cv4ugrs2/Deluxe-Retractable_33x81.pdf?rlkey=n12rkdbktw7k0y1cdt2zljbf8&amp;dl=0</a> <a href=\"https://displaytemplate.s3.us-west-2.amazonaws.com/Retractable/retractable+banner+33inch+x81inch.pdf\">https://displaytemplate.s3.us-west-2.amazonaws.com/Retractable/retractable+banner+33inch+x81inch.pdf</a></p>\n<p>Material Options:</p>\n<ul>\n  <li>13 oz. Matte Vinyl Banner</li>\n</ul>\n<p>Safety Margins: (To ensure all graphic elements appear)</p>\n<ul>\n  <li>Top: 1&quot;</li>\n  <li>Bottom: 3&quot;</li>\n</ul>\n<p>Product Features:</p>\n<ul>\n  <li>Aluminum Retractable Hardware</li>\n  <li>Carrying Bag</li>\n</ul>",
+        "description_text": "https://www.dropbox.com/scl/fi/h7716dd1hs1t9cv4ugrs2/Deluxe-Retractable_33x81.pdf?rlkey=n12rkdbktw7k0y1cdt2zljbf8&dl=0 https://displaytemplate.s3.us-west-2.amazonaws.com/Retractable/retractable+banner+33inch+x81inch.pdf\n\nMaterial Options:\n\n- 13 oz. Matte Vinyl Banner\n\nSafety Margins: (To ensure all graphic elements appear)\n\n- Top: 1\"\n\n- Bottom: 3\"\n\nProduct Features:\n\n- Aluminum Retractable Hardware\n\n- Carrying Bag",
+        "how_to_order_html": "<ul>\n  <li>SKU 406022</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
+        "how_to_order_text": "SKU 406022\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
+        "dimensions_html": "<ul>\n  <li>one 33&quot; x 81&quot; Graphics</li>\n</ul>",
+        "dimensions_text": "- one 33\" x 81\" Graphics",
+        "warranty_html": null,
+        "warranty_text": null,
+        "source_options": [
+          {
+            "name": "Title",
+            "position": 1,
+            "values": [
+              "Default Title"
+            ]
+          }
+        ],
+        "source_variants": [
+          {
+            "id": 43238180618375,
+            "title": "Default Title",
+            "sku": "406022",
+            "available": true,
+            "price": 150.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "Default Title"
+            ],
+            "requiresShipping": true,
+            "taxable": false,
+            "grams": 9072,
+            "position": 1
+          }
+        ],
+        "source_variant_label": null,
+        "source_sizes": [
+          "Default option"
+        ],
+        "source_size_variants": [
+          {
+            "value": "Default option",
+            "price": 150.0,
+            "active": true
+          }
+        ],
+        "source_filter_category": [
+          "BANNERS & DISPLAYS"
+        ],
+        "source_filter_sizes": [],
+        "source_reviews_text": "1 option",
+        "source_badge_label": "Banners & Displays",
+        "source_badge_subtext": "8 product images available",
+        "source_description": "Material Options: - 13 oz. Matte Vinyl Banner Safety Margins: (To ensure all graphic elements appear) - Top: 1\" - Bottom: 3\" Product Features: - Aluminum Retractable Hardware - Carrying Bag",
+        "source_card_variant": "",
+        "source_add_on_group_keys": [],
+        "local_image_paths": [
+          "/assets/images/notionworx-inventory/trade-show-display/deluxe-retractable-33-x-80/01.jpg",
+          "/assets/images/notionworx-inventory/trade-show-display/deluxe-retractable-33-x-80/02.jpg",
+          "/assets/images/notionworx-inventory/trade-show-display/deluxe-retractable-33-x-80/03.jpg",
+          "/assets/images/notionworx-inventory/trade-show-display/deluxe-retractable-33-x-80/04.jpg",
+          "/assets/images/notionworx-inventory/trade-show-display/deluxe-retractable-33-x-80/05.jpg",
+          "/assets/images/notionworx-inventory/trade-show-display/deluxe-retractable-33-x-80/06.jpg",
+          "/assets/images/notionworx-inventory/trade-show-display/deluxe-retractable-33-x-80/07.jpg",
+          "/assets/images/notionworx-inventory/trade-show-display/deluxe-retractable-33-x-80/08.jpg"
+        ],
+        "inventory_data_path": "data/inventory/notionworx/products/trade-show-display/deluxe-retractable-33-x-80.json",
+        "created_at": "2025-09-25T12:37:47-06:00",
+        "updated_at": "2026-08-18T21:24:32-06:00",
+        "published_at": "2025-09-26T09:36:52-06:00"
+      },
+      "sales_channels": [
+        {
+          "id": "sc_01M1E72H3K3S5QG6P0R7700SH4"
+        }
+      ]
+    },
+    {
+      "title": "Premium 3' x 7.5' Fabric Stand",
+      "handle": "premium-3-x-7-5-fabric-stand-copy",
+      "external_id": "8227673768071",
+      "description": "Design Template . Assembly Instructions\n\nFeatures\n\n- Steel base with black powder-coated finish\n\n- Plastic feet elevate the base and keep the display stable\n\n- Graphic cover slips over the frame like a pillowcase\n\n- Artwork is dye sublimated on polyester knit\n\n- Double-sided graphic cover is viewable from both the front and back of the display\n\n- Multiple sizes can be arranged together for endless display possibilities\n\n- Imprint Method: Full-Color Dye Sublimation\n\n- Double Sided Graphic\n\nMaterials\n\n- Graphic: Polyester Knit\n\n- Hardware: Aluminum, Steel\n\n- Carry Case: 600 Denier Polyester\n\nPrimary Usage\n\n- Indoor\n\nOrder Cutoff Time\n\n- 12:00 PM Central Daylight Time",
+      "status": "published",
+      "images": [
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/trade-show-display/premium-3-x-7-5-fabric-stand-copy/01.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/trade-show-display/premium-3-x-7-5-fabric-stand-copy/02.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/trade-show-display/premium-3-x-7-5-fabric-stand-copy/03.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/trade-show-display/premium-3-x-7-5-fabric-stand-copy/04.jpg"
+        }
+      ],
+      "thumbnail": "https://notionworxcanopy.com/assets/images/notionworx-inventory/trade-show-display/premium-3-x-7-5-fabric-stand-copy/01.jpg",
+      "options": [
+        {
+          "title": "Style",
+          "values": [
+            "Kit 1 ( Frame +Double-Sided Graphic)",
+            "Kit 2 (Graphic Only Double-Sided)"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "Kit 1 ( Frame +Double-Sided Graphic)",
+          "sku": "406015",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 16500,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Style": "Kit 1 ( Frame +Double-Sided Graphic)"
+          },
+          "metadata": {
+            "source_variant_id": 43238158106759,
+            "source_requires_shipping": true,
+            "source_taxable": false,
+            "source_grams": 18144,
+            "source_position": 1,
+            "source_sku": "406015",
+            "source_option_values": [
+              "Kit 1 ( Frame +Double-Sided Graphic)"
+            ],
+            "source_compare_at_price": null
+          }
+        },
+        {
+          "title": "Kit 2 (Graphic Only Double-Sided)",
+          "sku": "406015-2",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 11700,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Style": "Kit 2 (Graphic Only Double-Sided)"
+          },
+          "metadata": {
+            "source_variant_id": 43238158139527,
+            "source_requires_shipping": true,
+            "source_taxable": false,
+            "source_grams": 18144,
+            "source_position": 2,
+            "source_sku": "406015-2",
+            "source_option_values": [
+              "Kit 2 (Graphic Only Double-Sided)"
+            ],
+            "source_compare_at_price": null
+          }
+        }
+      ],
+      "metadata": {
+        "source": "notionworx-inventory",
+        "source_handle": "premium-3-x-7-5-fabric-stand-copy",
+        "source_product_id": 8227673768071,
+        "source_slug": "premium-3-x-7-5-fabric-stand-copy",
+        "source_vendor": "Notion Worx",
+        "source_product_type": null,
+        "source_primary_category": {
+          "handle": "trade-show-display",
+          "title": "BANNERS & DISPLAYS"
+        },
+        "source_categories": [
+          {
+            "handle": "trade-show-display",
+            "title": "BANNERS & DISPLAYS"
+          }
+        ],
+        "source_price": {
+          "min": 117.0,
+          "max": 165.0,
+          "compareAtMin": null,
+          "compareAtMax": null,
+          "variantCount": 2
+        },
+        "source_tags": [],
+        "source_skus": [
+          "406015",
+          "406015-2"
+        ],
+        "description_html": "<p><a href=\"https://displaytemplate.s3.us-west-2.amazonaws.com/Fabric+Display/Tension_Fabric_Stand_3ft_Straight.pdf\">Design Template</a>. <a href=\"https://www.dropbox.com/s/ef40npkhi2a0b72/Installation_Guide_Tension_Fabric_Stand_3ft_Straight.jpg?dl=0\">Assembly Instructions</a></p>\n<h3>Features</h3>\n<ul>\n  <li>Steel base with black powder-coated finish</li>\n  <li>Plastic feet elevate the base and keep the display stable</li>\n  <li>Graphic cover slips over the frame like a pillowcase</li>\n  <li>Artwork is dye sublimated on polyester knit</li>\n  <li>Double-sided graphic cover is viewable from both the front and back of the display</li>\n  <li>Multiple sizes can be arranged together for endless display possibilities</li>\n  <li>Imprint Method: Full-Color Dye Sublimation</li>\n  <li>Double Sided Graphic</li>\n</ul>\n<h3>Materials</h3>\n<ul>\n  <li>Graphic: Polyester Knit</li>\n  <li>Hardware: Aluminum, Steel</li>\n  <li>Carry Case: 600 Denier Polyester</li>\n</ul>\n<h3>Primary Usage</h3>\n<ul>\n  <li>Indoor</li>\n</ul>\n<h3>Order Cutoff Time</h3>\n<ul>\n  <li>12:00 PM Central Daylight Time</li>\n</ul>",
+        "description_text": "Design Template . Assembly Instructions\n\nFeatures\n\n- Steel base with black powder-coated finish\n\n- Plastic feet elevate the base and keep the display stable\n\n- Graphic cover slips over the frame like a pillowcase\n\n- Artwork is dye sublimated on polyester knit\n\n- Double-sided graphic cover is viewable from both the front and back of the display\n\n- Multiple sizes can be arranged together for endless display possibilities\n\n- Imprint Method: Full-Color Dye Sublimation\n\n- Double Sided Graphic\n\nMaterials\n\n- Graphic: Polyester Knit\n\n- Hardware: Aluminum, Steel\n\n- Carry Case: 600 Denier Polyester\n\nPrimary Usage\n\n- Indoor\n\nOrder Cutoff Time\n\n- 12:00 PM Central Daylight Time",
+        "how_to_order_html": "<ul>\n  <li>SKU 406015</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
+        "how_to_order_text": "SKU 406015\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
+        "dimensions_html": null,
+        "dimensions_text": null,
+        "warranty_html": "<h3>Warranty</h3>\n<p>1 Year Product Warranty - Standard warranty is a one year parts and labor warranty which warrants product against defects in material and workmanship. It does not cover damage due to accidents, abuse, or normal wear and tear. Products found to be defective will be replaced or repaired at factory&#x27;s discretion.</p>",
+        "warranty_text": "Warranty\n\n1 Year Product Warranty - Standard warranty is a one year parts and labor warranty which warrants product against defects in material and workmanship. It does not cover damage due to accidents, abuse, or normal wear and tear. Products found to be defective will be replaced or repaired at factory's discretion.",
+        "source_options": [
+          {
+            "name": "Style",
+            "position": 1,
+            "values": [
+              "Kit 1 ( Frame +Double-Sided Graphic)",
+              "Kit 2 (Graphic Only Double-Sided)"
+            ]
+          }
+        ],
+        "source_variants": [
+          {
+            "id": 43238158106759,
+            "title": "Kit 1 ( Frame +Double-Sided Graphic)",
+            "sku": "406015",
+            "available": true,
+            "price": 165.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "Kit 1 ( Frame +Double-Sided Graphic)"
+            ],
+            "requiresShipping": true,
+            "taxable": false,
+            "grams": 18144,
+            "position": 1
+          },
+          {
+            "id": 43238158139527,
+            "title": "Kit 2 (Graphic Only Double-Sided)",
+            "sku": "406015-2",
+            "available": true,
+            "price": 117.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "Kit 2 (Graphic Only Double-Sided)"
+            ],
+            "requiresShipping": true,
+            "taxable": false,
+            "grams": 18144,
+            "position": 2
+          }
+        ],
+        "source_variant_label": "Style",
+        "source_sizes": [
+          "Kit 1 ( Frame +Double-Sided Graphic)",
+          "Kit 2 (Graphic Only Double-Sided)"
+        ],
+        "source_size_variants": [
+          {
+            "value": "Kit 1 ( Frame +Double-Sided Graphic)",
+            "price": 165.0
+          },
+          {
+            "value": "Kit 2 (Graphic Only Double-Sided)",
+            "price": 117.0,
+            "active": true
+          }
+        ],
+        "source_filter_category": [
+          "BANNERS & DISPLAYS"
+        ],
+        "source_filter_sizes": [
+          "Kit 1 ( Frame +Double-Sided Graphic)",
+          "Kit 2 (Graphic Only Double-Sided)"
+        ],
+        "source_reviews_text": "2 options",
+        "source_badge_label": "Banners & Displays",
+        "source_badge_subtext": "4 product images available",
+        "source_description": "Design . Assembly Instructions Features - Steel base with black powder-coated finish - Plastic feet elevate the base and keep the display stable - Graphic cover slips over the frame like a pillowcase - Artwork is dye sublimated on polyester knit - Double-sided graphic cover is v…",
+        "source_card_variant": "",
+        "source_add_on_group_keys": [],
+        "local_image_paths": [
+          "/assets/images/notionworx-inventory/trade-show-display/premium-3-x-7-5-fabric-stand-copy/01.jpg",
+          "/assets/images/notionworx-inventory/trade-show-display/premium-3-x-7-5-fabric-stand-copy/02.jpg",
+          "/assets/images/notionworx-inventory/trade-show-display/premium-3-x-7-5-fabric-stand-copy/03.jpg",
+          "/assets/images/notionworx-inventory/trade-show-display/premium-3-x-7-5-fabric-stand-copy/04.jpg"
+        ],
+        "inventory_data_path": "data/inventory/notionworx/products/trade-show-display/premium-3-x-7-5-fabric-stand-copy.json",
+        "created_at": "2025-09-25T12:35:09-06:00",
+        "updated_at": "2026-08-18T21:24:32-06:00",
+        "published_at": "2025-09-26T09:36:48-06:00"
+      },
+      "sales_channels": [
+        {
+          "id": "sc_01M1E72H3K3S5QG6P0R7700SH4"
+        }
+      ]
+    },
+    {
+      "title": "Premium Retractable Banner",
+      "handle": "premium-retractable-36",
+      "external_id": "8227678158983",
+      "description": "Download Template\n\nKit include\n\n1 pc frame\n\n1pc vinyl graphic\n\nMaterial Options:\n\n- 13 oz. Matte Vinyl Banner\n\nSafety Margins: (To ensure all graphic elements appear)\n\n- Top: 1\"\n\n- Bottom: 3\"",
+      "status": "published",
+      "images": [
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/trade-show-display/premium-retractable-36/01.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/trade-show-display/premium-retractable-36/02.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/trade-show-display/premium-retractable-36/03.png"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/trade-show-display/premium-retractable-36/04.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/trade-show-display/premium-retractable-36/05.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/trade-show-display/premium-retractable-36/06.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/trade-show-display/premium-retractable-36/07.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/trade-show-display/premium-retractable-36/08.jpg"
+        }
+      ],
+      "thumbnail": "https://notionworxcanopy.com/assets/images/notionworx-inventory/trade-show-display/premium-retractable-36/01.jpg",
+      "options": [
+        {
+          "title": "Size",
+          "values": [
+            "36'' x 92''",
+            "36''x 80''",
+            "36'' x 69''"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "36'' x 92''",
+          "sku": "406019",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 17500,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Size": "36'' x 92''"
+          },
+          "metadata": {
+            "source_variant_id": 43238180421767,
+            "source_requires_shipping": true,
+            "source_taxable": false,
+            "source_grams": 9072,
+            "source_position": 1,
+            "source_sku": "406019",
+            "source_option_values": [
+              "36'' x 92''"
+            ],
+            "source_compare_at_price": null
+          }
+        },
+        {
+          "title": "36''x 80''",
+          "sku": "406080",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 16500,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Size": "36''x 80''"
+          },
+          "metadata": {
+            "source_variant_id": 43238180487303,
+            "source_requires_shipping": true,
+            "source_taxable": false,
+            "source_grams": 9072,
+            "source_position": 2,
+            "source_sku": "406080",
+            "source_option_values": [
+              "36''x 80''"
+            ],
+            "source_compare_at_price": null
+          }
+        },
+        {
+          "title": "36'' x 69''",
+          "sku": "406081",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 15500,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Size": "36'' x 69''"
+          },
+          "metadata": {
+            "source_variant_id": 43238180552839,
+            "source_requires_shipping": true,
+            "source_taxable": false,
+            "source_grams": 9072,
+            "source_position": 3,
+            "source_sku": "406081",
+            "source_option_values": [
+              "36'' x 69''"
+            ],
+            "source_compare_at_price": null
+          }
+        }
+      ],
+      "metadata": {
+        "source": "notionworx-inventory",
+        "source_handle": "premium-retractable-36",
+        "source_product_id": 8227678158983,
+        "source_slug": "premium-retractable-36",
+        "source_vendor": "Notion Worx",
+        "source_product_type": null,
+        "source_primary_category": {
+          "handle": "trade-show-display",
+          "title": "BANNERS & DISPLAYS"
+        },
+        "source_categories": [
+          {
+            "handle": "trade-show-display",
+            "title": "BANNERS & DISPLAYS"
+          }
+        ],
+        "source_price": {
+          "min": 155.0,
+          "max": 175.0,
+          "compareAtMin": null,
+          "compareAtMax": null,
+          "variantCount": 3
+        },
+        "source_tags": [],
+        "source_skus": [
+          "406019",
+          "406080",
+          "406081"
+        ],
+        "description_html": "<p><a href=\"https://www.dropbox.com/scl/fi/5c3yku9nt6jgtf0gccncp/Premium.zip?rlkey=lvasp8ue51yrufc9gw8woydmi&amp;dl=0\">Download Template</a></p>\n<p><img src=\"https://cdn.shopify.com/s/files/1/1564/9941/files/WX20240912-212211_2x_ecfeb021-5306-43ef-9dfa-ae718355db1e.png?v=1726147400\" alt=\"\"></p>\n\n<h3>Kit include</h3>\n<p>1 pc frame</p>\n<p>1pc vinyl graphic</p>\n\n\n<p>Material Options:</p>\n<ul>\n  <li>13 oz. Matte Vinyl Banner</li>\n</ul>\n<p>Safety Margins: (To ensure all graphic elements appear)</p>\n<ul>\n  <li>Top: 1&quot;</li>\n  <li>Bottom: 3&quot;</li>\n</ul>",
+        "description_text": "Download Template\n\nKit include\n\n1 pc frame\n\n1pc vinyl graphic\n\nMaterial Options:\n\n- 13 oz. Matte Vinyl Banner\n\nSafety Margins: (To ensure all graphic elements appear)\n\n- Top: 1\"\n\n- Bottom: 3\"",
+        "how_to_order_html": "<ul>\n  <li>SKU 406019</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
+        "how_to_order_text": "SKU 406019\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
+        "dimensions_html": "<p>Retractable stand is very appealing and features a sleek and stealthy base. Use it to gain attention of those passing by. This stand has adjustable poles to allow for graphic size adjustment. Stand includes a traveling bag.</p>\n<ul>\n  <li>Shipping Dimensions: 41&quot; H x 13&quot; W x 5&quot; D</li>\n</ul>\n<p>Stand Size: 37.5&quot; W x 9.5&quot; D x 3&quot; H (36&#x27;&#x27;)</p>\n<ul>\n  <li>Shipping Weight: 17 lbs</li>\n</ul>",
+        "dimensions_text": "Retractable stand is very appealing and features a sleek and stealthy base. Use it to gain attention of those passing by. This stand has adjustable poles to allow for graphic size adjustment. Stand includes a traveling bag.\n\n- Shipping Dimensions: 41\" H x 13\" W x 5\" D\n\nStand Size: 37.5\" W x 9.5\" D x 3\" H (36'')\n\n- Shipping Weight: 17 lbs",
+        "warranty_html": "<p>1 Year Product Warranty - Standard warranty is a one year parts and labor warranty which warrants product against defects in material and workmanship. It does not cover damage due to accidents, abuse, or normal wear and tear. Products found to be defective will be replaced or repaired at factory&#x27;s discretion</p>",
+        "warranty_text": "1 Year Product Warranty - Standard warranty is a one year parts and labor warranty which warrants product against defects in material and workmanship. It does not cover damage due to accidents, abuse, or normal wear and tear. Products found to be defective will be replaced or repaired at factory's discretion",
+        "source_options": [
+          {
+            "name": "Size",
+            "position": 1,
+            "values": [
+              "36'' x 92''",
+              "36''x 80''",
+              "36'' x 69''"
+            ]
+          }
+        ],
+        "source_variants": [
+          {
+            "id": 43238180421767,
+            "title": "36'' x 92''",
+            "sku": "406019",
+            "available": true,
+            "price": 175.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "36'' x 92''"
+            ],
+            "requiresShipping": true,
+            "taxable": false,
+            "grams": 9072,
+            "position": 1
+          },
+          {
+            "id": 43238180487303,
+            "title": "36''x 80''",
+            "sku": "406080",
+            "available": true,
+            "price": 165.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "36''x 80''"
+            ],
+            "requiresShipping": true,
+            "taxable": false,
+            "grams": 9072,
+            "position": 2
+          },
+          {
+            "id": 43238180552839,
+            "title": "36'' x 69''",
+            "sku": "406081",
+            "available": true,
+            "price": 155.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "36'' x 69''"
+            ],
+            "requiresShipping": true,
+            "taxable": false,
+            "grams": 9072,
+            "position": 3
+          }
+        ],
+        "source_variant_label": "Size",
+        "source_sizes": [
+          "36'' x 92''",
+          "36''x 80''",
+          "36'' x 69''"
+        ],
+        "source_size_variants": [
+          {
+            "value": "36'' x 92''",
+            "price": 175.0
+          },
+          {
+            "value": "36''x 80''",
+            "price": 165.0
+          },
+          {
+            "value": "36'' x 69''",
+            "price": 155.0,
+            "active": true
+          }
+        ],
+        "source_filter_category": [
+          "BANNERS & DISPLAYS"
+        ],
+        "source_filter_sizes": [
+          "36'' x 92''",
+          "36''x 80''",
+          "36'' x 69''"
+        ],
+        "source_reviews_text": "3 options",
+        "source_badge_label": "Banners & Displays",
+        "source_badge_subtext": "8 product images available",
+        "source_description": "Kit include 1 pc frame 1pc vinyl graphic Material Options: - 13 oz. Matte Vinyl Banner Safety Margins: (To ensure all graphic elements appear) - Top: 1\" - Bottom: 3\"",
+        "source_card_variant": "",
+        "source_add_on_group_keys": [],
+        "local_image_paths": [
+          "/assets/images/notionworx-inventory/trade-show-display/premium-retractable-36/01.jpg",
+          "/assets/images/notionworx-inventory/trade-show-display/premium-retractable-36/02.jpg",
+          "/assets/images/notionworx-inventory/trade-show-display/premium-retractable-36/03.png",
+          "/assets/images/notionworx-inventory/trade-show-display/premium-retractable-36/04.jpg",
+          "/assets/images/notionworx-inventory/trade-show-display/premium-retractable-36/05.jpg",
+          "/assets/images/notionworx-inventory/trade-show-display/premium-retractable-36/06.jpg",
+          "/assets/images/notionworx-inventory/trade-show-display/premium-retractable-36/07.jpg",
+          "/assets/images/notionworx-inventory/trade-show-display/premium-retractable-36/08.jpg"
+        ],
+        "inventory_data_path": "data/inventory/notionworx/products/trade-show-display/premium-retractable-36.json",
+        "created_at": "2025-09-25T12:37:45-06:00",
+        "updated_at": "2026-08-18T21:24:32-06:00",
+        "published_at": "2025-09-26T09:36:52-06:00"
+      },
+      "sales_channels": [
+        {
+          "id": "sc_01M1E72H3K3S5QG6P0R7700SH4"
+        }
+      ]
+    },
+    {
+      "title": "Standard Retractable",
+      "handle": "retractable-banner-stand",
+      "external_id": "8227678257287",
+      "description": "https://www.dropbox.com/s/u3tyvb2kbf4clkw/standard.zip?dl=0 https://www.dropbox.com/scl/fi/glfw3s4ryvm4ria2f9g32/Standard.zip?rlkey=kw276vrn58sbwq6lvur53q291&dl=0 https://www.dropbox.com/s/vsp8tf6dmsiihyb/Standard%20Retracable.zip?dl=0 https://www.dropbox.com/scl/fo/0ponqyh6jyuyglb3aeiw4/AOgvo2J6BAtwRQobM0kmLL0?rlkey=vynnie2sfwmcxdwwffwihl18h&dl=0 https://www.dropbox.com/scl/fo/0ponqyh6jyuyglb3aeiw4/AOgvo2J6BAtwRQobM0kmLL0?rlkey=vynnie2sfwmcxdwwffwihl18h&dl=0\n\nThe retractable stand is very appealing and features a sleek and stealthy base. Use it to gain the attention of those passing by. . Stand includes a traveling bag.\n\nMaterial Options:\n\n- 13 oz. Matte Vinyl Banner\n\nSafety Margins: (To ensure all graphic elements appear)\n\n- Top: 1\"\n\n- Bottom: 3\"",
+      "status": "published",
+      "images": [
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/trade-show-display/retractable-banner-stand/01.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/trade-show-display/retractable-banner-stand/02.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/trade-show-display/retractable-banner-stand/03.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/trade-show-display/retractable-banner-stand/04.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/trade-show-display/retractable-banner-stand/05.jpg"
+        }
+      ],
+      "thumbnail": "https://notionworxcanopy.com/assets/images/notionworx-inventory/trade-show-display/retractable-banner-stand/01.jpg",
+      "options": [
+        {
+          "title": "Default option",
+          "values": [
+            "Default option value"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "Default variant",
+          "sku": "406021",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 12500,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Default option": "Default option value"
+          },
+          "metadata": {
+            "source_variant_id": 43238181634183,
+            "source_requires_shipping": true,
+            "source_taxable": false,
+            "source_grams": 3629,
+            "source_position": 1,
+            "source_sku": "406021",
+            "source_option_values": [
+              "Default Title"
+            ],
+            "source_compare_at_price": null
+          }
+        }
+      ],
+      "metadata": {
+        "source": "notionworx-inventory",
+        "source_handle": "retractable-banner-stand",
+        "source_product_id": 8227678257287,
+        "source_slug": "retractable-banner-stand",
+        "source_vendor": "Notion Worx",
+        "source_product_type": null,
+        "source_primary_category": {
+          "handle": "trade-show-display",
+          "title": "BANNERS & DISPLAYS"
+        },
+        "source_categories": [
+          {
+            "handle": "trade-show-display",
+            "title": "BANNERS & DISPLAYS"
+          }
+        ],
+        "source_price": {
+          "min": 125.0,
+          "max": 125.0,
+          "compareAtMin": null,
+          "compareAtMax": null,
+          "variantCount": 1
+        },
+        "source_tags": [],
+        "source_skus": [
+          "406021"
+        ],
+        "description_html": "<p><a href=\"https://www.dropbox.com/s/u3tyvb2kbf4clkw/standard.zip?dl=0\">https://www.dropbox.com/s/u3tyvb2kbf4clkw/standard.zip?dl=0</a> <a href=\"https://www.dropbox.com/scl/fi/glfw3s4ryvm4ria2f9g32/Standard.zip?rlkey=kw276vrn58sbwq6lvur53q291&amp;dl=0\">https://www.dropbox.com/scl/fi/glfw3s4ryvm4ria2f9g32/Standard.zip?rlkey=kw276vrn58sbwq6lvur53q291&amp;dl=0</a> <a href=\"https://www.dropbox.com/s/vsp8tf6dmsiihyb/Standard%20Retracable.zip?dl=0\">https://www.dropbox.com/s/vsp8tf6dmsiihyb/Standard%20Retracable.zip?dl=0</a> <a href=\"https://www.dropbox.com/scl/fo/0ponqyh6jyuyglb3aeiw4/AOgvo2J6BAtwRQobM0kmLL0?rlkey=vynnie2sfwmcxdwwffwihl18h&amp;dl=0\">https://www.dropbox.com/scl/fo/0ponqyh6jyuyglb3aeiw4/AOgvo2J6BAtwRQobM0kmLL0?rlkey=vynnie2sfwmcxdwwffwihl18h&amp;dl=0</a> <a href=\"https://www.dropbox.com/scl/fo/0ponqyh6jyuyglb3aeiw4/AOgvo2J6BAtwRQobM0kmLL0?rlkey=vynnie2sfwmcxdwwffwihl18h&amp;dl=0\">https://www.dropbox.com/scl/fo/0ponqyh6jyuyglb3aeiw4/AOgvo2J6BAtwRQobM0kmLL0?rlkey=vynnie2sfwmcxdwwffwihl18h&amp;dl=0</a></p>\n<p>The retractable stand is very appealing and features a sleek and stealthy base. Use it to gain the attention of those passing by. . Stand includes a traveling bag.</p>\n<p>Material Options:</p>\n<ul>\n  <li>13 oz. Matte Vinyl Banner</li>\n</ul>\n<p>Safety Margins: (To ensure all graphic elements appear)</p>\n<ul>\n  <li>Top: 1&quot;</li>\n  <li>Bottom: 3&quot;</li>\n</ul>",
+        "description_text": "https://www.dropbox.com/s/u3tyvb2kbf4clkw/standard.zip?dl=0 https://www.dropbox.com/scl/fi/glfw3s4ryvm4ria2f9g32/Standard.zip?rlkey=kw276vrn58sbwq6lvur53q291&dl=0 https://www.dropbox.com/s/vsp8tf6dmsiihyb/Standard%20Retracable.zip?dl=0 https://www.dropbox.com/scl/fo/0ponqyh6jyuyglb3aeiw4/AOgvo2J6BAtwRQobM0kmLL0?rlkey=vynnie2sfwmcxdwwffwihl18h&dl=0 https://www.dropbox.com/scl/fo/0ponqyh6jyuyglb3aeiw4/AOgvo2J6BAtwRQobM0kmLL0?rlkey=vynnie2sfwmcxdwwffwihl18h&dl=0\n\nThe retractable stand is very appealing and features a sleek and stealthy base. Use it to gain the attention of those passing by. . Stand includes a traveling bag.\n\nMaterial Options:\n\n- 13 oz. Matte Vinyl Banner\n\nSafety Margins: (To ensure all graphic elements appear)\n\n- Top: 1\"\n\n- Bottom: 3\"",
+        "how_to_order_html": "<ul>\n  <li>SKU 406021</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
+        "how_to_order_text": "SKU 406021\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
+        "dimensions_html": null,
+        "dimensions_text": null,
+        "warranty_html": null,
+        "warranty_text": null,
+        "source_options": [
+          {
+            "name": "Title",
+            "position": 1,
+            "values": [
+              "Default Title"
+            ]
+          }
+        ],
+        "source_variants": [
+          {
+            "id": 43238181634183,
+            "title": "Default Title",
+            "sku": "406021",
+            "available": true,
+            "price": 125.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "Default Title"
+            ],
+            "requiresShipping": true,
+            "taxable": false,
+            "grams": 3629,
+            "position": 1
+          }
+        ],
+        "source_variant_label": null,
+        "source_sizes": [
+          "Default option"
+        ],
+        "source_size_variants": [
+          {
+            "value": "Default option",
+            "price": 125.0,
+            "active": true
+          }
+        ],
+        "source_filter_category": [
+          "BANNERS & DISPLAYS"
+        ],
+        "source_filter_sizes": [],
+        "source_reviews_text": "1 option",
+        "source_badge_label": "Banners & Displays",
+        "source_badge_subtext": "5 product images available",
+        "source_description": "The retractable stand is very appealing and features a sleek and stealthy base. Use it to gain the attention of those passing by. . Stand includes a traveling bag. Material Options: - 13 oz. Matte Vinyl Banner Safety Margins: (To ensure all graphic elements appear) - Top: 1\" - B…",
+        "source_card_variant": "",
+        "source_add_on_group_keys": [],
+        "local_image_paths": [
+          "/assets/images/notionworx-inventory/trade-show-display/retractable-banner-stand/01.jpg",
+          "/assets/images/notionworx-inventory/trade-show-display/retractable-banner-stand/02.jpg",
+          "/assets/images/notionworx-inventory/trade-show-display/retractable-banner-stand/03.jpg",
+          "/assets/images/notionworx-inventory/trade-show-display/retractable-banner-stand/04.jpg",
+          "/assets/images/notionworx-inventory/trade-show-display/retractable-banner-stand/05.jpg"
+        ],
+        "inventory_data_path": "data/inventory/notionworx/products/trade-show-display/retractable-banner-stand.json",
+        "created_at": "2025-09-25T12:37:50-06:00",
+        "updated_at": "2026-08-18T21:24:32-06:00",
+        "published_at": "2025-09-26T09:36:53-06:00"
+      },
+      "sales_channels": [
+        {
+          "id": "sc_01M1E72H3K3S5QG6P0R7700SH4"
+        }
+      ]
+    },
+    {
+      "title": "Step and Repeat Backdrop- 8'x8' and 8'x10' Including Hardware and Carry Bag",
+      "handle": "step-and-repeat-backdrop-copy",
+      "external_id": "8227673833607",
+      "description": "DOWNLOAD TEMPLATE\n\nOur Back Drop- Large Tube is portable and ideal for a background display for all types of indoor events such as trade show booths and photo shoots. These stands have telescoping 1.625\" diameter poles that extend out, meaning they are adjustable to certain sizes. Stand also includes travel bag. Insert are constructed with pole pockets. T his kit includes the adjustable display stand hardware, full-color graphics on premium polyester knit fabric, and a soft carry case.\n\nFeatures\n\n- Digitally printed at 720 x 720 resolution\n\n- Dye sublimation\n\n- Scratch resistant\n\n- Washable\n\n- Curl-free edge\n\n- Easy to install & replace graphic\n\n- Indoor Display",
+      "status": "published",
+      "images": [
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/trade-show-display/step-and-repeat-backdrop-copy/01.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/trade-show-display/step-and-repeat-backdrop-copy/02.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/trade-show-display/step-and-repeat-backdrop-copy/03.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/trade-show-display/step-and-repeat-backdrop-copy/04.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/trade-show-display/step-and-repeat-backdrop-copy/05.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/trade-show-display/step-and-repeat-backdrop-copy/06.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/trade-show-display/step-and-repeat-backdrop-copy/07.jpg"
+        }
+      ],
+      "thumbnail": "https://notionworxcanopy.com/assets/images/notionworx-inventory/trade-show-display/step-and-repeat-backdrop-copy/01.jpg",
+      "options": [
+        {
+          "title": "Size",
+          "values": [
+            "8' x 8'",
+            "10' x 8'"
+          ]
+        },
+        {
+          "title": "Includes",
+          "values": [
+            "Kit 1 (Banner + Frame + Carry Bag)",
+            "Kit 3 ( Graphic Only)",
+            "Kit 2 ( Frame Only)"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "8' x 8' / Kit 1 (Banner + Frame + Carry Bag)",
+          "sku": "406001",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 26500,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Size": "8' x 8'",
+            "Includes": "Kit 1 (Banner + Frame + Carry Bag)"
+          },
+          "metadata": {
+            "source_variant_id": 43238158401671,
+            "source_requires_shipping": true,
+            "source_taxable": true,
+            "source_grams": 22680,
+            "source_position": 1,
+            "source_sku": "406001",
+            "source_option_values": [
+              "8' x 8'",
+              "Kit 1 (Banner + Frame + Carry Bag)"
+            ],
+            "source_compare_at_price": null
+          }
+        },
+        {
+          "title": "8' x 8' / Kit 3 ( Graphic Only)",
+          "sku": "406001",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 16500,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Size": "8' x 8'",
+            "Includes": "Kit 3 ( Graphic Only)"
+          },
+          "metadata": {
+            "source_variant_id": 43238158434439,
+            "source_requires_shipping": true,
+            "source_taxable": true,
+            "source_grams": 22680,
+            "source_position": 2,
+            "source_sku": "406001",
+            "source_option_values": [
+              "8' x 8'",
+              "Kit 3 ( Graphic Only)"
+            ],
+            "source_compare_at_price": null
+          }
+        },
+        {
+          "title": "8' x 8' / Kit 2 ( Frame Only)",
+          "sku": "NW-TENT-STEP-AND-REPEAT-BACKDROP-COPY-43238158467207",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 15500,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Size": "8' x 8'",
+            "Includes": "Kit 2 ( Frame Only)"
+          },
+          "metadata": {
+            "source_variant_id": 43238158467207,
+            "source_requires_shipping": true,
+            "source_taxable": false,
+            "source_grams": 22680,
+            "source_position": 3,
+            "source_sku": "None",
+            "source_option_values": [
+              "8' x 8'",
+              "Kit 2 ( Frame Only)"
+            ],
+            "source_compare_at_price": null
+          }
+        },
+        {
+          "title": "10' x 8' / Kit 1 (Banner + Frame + Carry Bag)",
+          "sku": "406002",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 27500,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Size": "10' x 8'",
+            "Includes": "Kit 1 (Banner + Frame + Carry Bag)"
+          },
+          "metadata": {
+            "source_variant_id": 43238158303367,
+            "source_requires_shipping": true,
+            "source_taxable": false,
+            "source_grams": 22680,
+            "source_position": 4,
+            "source_sku": "406002",
+            "source_option_values": [
+              "10' x 8'",
+              "Kit 1 (Banner + Frame + Carry Bag)"
+            ],
+            "source_compare_at_price": null
+          }
+        },
+        {
+          "title": "10' x 8' / Kit 3 ( Graphic Only)",
+          "sku": "406002",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 17500,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Size": "10' x 8'",
+            "Includes": "Kit 3 ( Graphic Only)"
+          },
+          "metadata": {
+            "source_variant_id": 43238158336135,
+            "source_requires_shipping": true,
+            "source_taxable": false,
+            "source_grams": 22680,
+            "source_position": 5,
+            "source_sku": "406002",
+            "source_option_values": [
+              "10' x 8'",
+              "Kit 3 ( Graphic Only)"
+            ],
+            "source_compare_at_price": null
+          }
+        },
+        {
+          "title": "10' x 8' / Kit 2 ( Frame Only)",
+          "sku": "NW-TENT-STEP-AND-REPEAT-BACKDROP-COPY-43238158368903",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 16500,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Size": "10' x 8'",
+            "Includes": "Kit 2 ( Frame Only)"
+          },
+          "metadata": {
+            "source_variant_id": 43238158368903,
+            "source_requires_shipping": true,
+            "source_taxable": false,
+            "source_grams": 22680,
+            "source_position": 6,
+            "source_sku": "None",
+            "source_option_values": [
+              "10' x 8'",
+              "Kit 2 ( Frame Only)"
+            ],
+            "source_compare_at_price": null
+          }
+        }
+      ],
+      "metadata": {
+        "source": "notionworx-inventory",
+        "source_handle": "step-and-repeat-backdrop-copy",
+        "source_product_id": 8227673833607,
+        "source_slug": "step-and-repeat-backdrop-copy",
+        "source_vendor": "Notion Worx",
+        "source_product_type": null,
+        "source_primary_category": {
+          "handle": "trade-show-display",
+          "title": "BANNERS & DISPLAYS"
+        },
+        "source_categories": [
+          {
+            "handle": "trade-show-display",
+            "title": "BANNERS & DISPLAYS"
+          }
+        ],
+        "source_price": {
+          "min": 155.0,
+          "max": 275.0,
+          "compareAtMin": null,
+          "compareAtMax": null,
+          "variantCount": 6
+        },
+        "source_tags": [],
+        "source_skus": [
+          "406001",
+          "406002"
+        ],
+        "description_html": "<p><a href=\"https://displaytemplate.s3-us-west-2.amazonaws.com/Fabric+Display/step+and+repeat+template.zip\">DOWNLOAD TEMPLATE</a></p>\n<p>Our Back Drop- Large Tube is portable and ideal for a background display for all types of indoor events such as trade show booths and photo shoots. These stands have telescoping 1.625&quot; diameter poles that extend out, meaning they are adjustable to certain sizes. Stand also includes travel bag. Insert are constructed with pole pockets. T his kit includes the adjustable display stand hardware, full-color graphics on premium polyester knit fabric, and a soft carry case.</p>\n<h3>Features</h3>\n<ul>\n  <li>Digitally printed at 720 x 720 resolution</li>\n  <li>Dye sublimation</li>\n  <li>Scratch resistant</li>\n  <li>Washable</li>\n  <li>Curl-free edge</li>\n  <li>Easy to install &amp; replace graphic</li>\n  <li>Indoor Display</li>\n</ul>",
+        "description_text": "DOWNLOAD TEMPLATE\n\nOur Back Drop- Large Tube is portable and ideal for a background display for all types of indoor events such as trade show booths and photo shoots. These stands have telescoping 1.625\" diameter poles that extend out, meaning they are adjustable to certain sizes. Stand also includes travel bag. Insert are constructed with pole pockets. T his kit includes the adjustable display stand hardware, full-color graphics on premium polyester knit fabric, and a soft carry case.\n\nFeatures\n\n- Digitally printed at 720 x 720 resolution\n\n- Dye sublimation\n\n- Scratch resistant\n\n- Washable\n\n- Curl-free edge\n\n- Easy to install & replace graphic\n\n- Indoor Display",
+        "how_to_order_html": "<ul>\n  <li>SKU 406001</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
+        "how_to_order_text": "SKU 406001\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
+        "dimensions_html": null,
+        "dimensions_text": null,
+        "warranty_html": null,
+        "warranty_text": null,
+        "source_options": [
+          {
+            "name": "Size",
+            "position": 1,
+            "values": [
+              "8' x 8'",
+              "10' x 8'"
+            ]
+          },
+          {
+            "name": "Includes",
+            "position": 2,
+            "values": [
+              "Kit 1 (Banner + Frame + Carry Bag)",
+              "Kit 3 ( Graphic Only)",
+              "Kit 2 ( Frame Only)"
+            ]
+          }
+        ],
+        "source_variants": [
+          {
+            "id": 43238158401671,
+            "title": "8' x 8' / Kit 1 (Banner + Frame + Carry Bag)",
+            "sku": "406001",
+            "available": true,
+            "price": 265.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "8' x 8'",
+              "Kit 1 (Banner + Frame + Carry Bag)"
+            ],
+            "requiresShipping": true,
+            "taxable": true,
+            "grams": 22680,
+            "position": 1
+          },
+          {
+            "id": 43238158434439,
+            "title": "8' x 8' / Kit 3 ( Graphic Only)",
+            "sku": "406001",
+            "available": true,
+            "price": 165.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "8' x 8'",
+              "Kit 3 ( Graphic Only)"
+            ],
+            "requiresShipping": true,
+            "taxable": true,
+            "grams": 22680,
+            "position": 2
+          },
+          {
+            "id": 43238158467207,
+            "title": "8' x 8' / Kit 2 ( Frame Only)",
+            "sku": "None",
+            "available": true,
+            "price": 155.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "8' x 8'",
+              "Kit 2 ( Frame Only)"
+            ],
+            "requiresShipping": true,
+            "taxable": false,
+            "grams": 22680,
+            "position": 3
+          },
+          {
+            "id": 43238158303367,
+            "title": "10' x 8' / Kit 1 (Banner + Frame + Carry Bag)",
+            "sku": "406002",
+            "available": true,
+            "price": 275.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "10' x 8'",
+              "Kit 1 (Banner + Frame + Carry Bag)"
+            ],
+            "requiresShipping": true,
+            "taxable": false,
+            "grams": 22680,
+            "position": 4
+          },
+          {
+            "id": 43238158336135,
+            "title": "10' x 8' / Kit 3 ( Graphic Only)",
+            "sku": "406002",
+            "available": true,
+            "price": 175.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "10' x 8'",
+              "Kit 3 ( Graphic Only)"
+            ],
+            "requiresShipping": true,
+            "taxable": false,
+            "grams": 22680,
+            "position": 5
+          },
+          {
+            "id": 43238158368903,
+            "title": "10' x 8' / Kit 2 ( Frame Only)",
+            "sku": "None",
+            "available": true,
+            "price": 165.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "10' x 8'",
+              "Kit 2 ( Frame Only)"
+            ],
+            "requiresShipping": true,
+            "taxable": false,
+            "grams": 22680,
+            "position": 6
+          }
+        ],
+        "source_variant_label": "Size",
+        "source_sizes": [
+          "8' x 8'",
+          "10' x 8'"
+        ],
+        "source_size_variants": [
+          {
+            "value": "8' x 8' / Kit 1 (Banner + Frame + Carry Bag)",
+            "price": 265.0
+          },
+          {
+            "value": "8' x 8' / Kit 3 ( Graphic Only)",
+            "price": 165.0
+          },
+          {
+            "value": "8' x 8' / Kit 2 ( Frame Only)",
+            "price": 155.0,
+            "active": true
+          },
+          {
+            "value": "10' x 8' / Kit 1 (Banner + Frame + Carry Bag)",
+            "price": 275.0
+          },
+          {
+            "value": "10' x 8' / Kit 3 ( Graphic Only)",
+            "price": 175.0
+          },
+          {
+            "value": "10' x 8' / Kit 2 ( Frame Only)",
+            "price": 165.0
+          }
+        ],
+        "source_filter_category": [
+          "BANNERS & DISPLAYS"
+        ],
+        "source_filter_sizes": [
+          "8' x 8'",
+          "10' x 8'"
+        ],
+        "source_reviews_text": "6 options",
+        "source_badge_label": "Banners & Displays",
+        "source_badge_subtext": "7 product images available",
+        "source_description": "Our Back Drop- Large Tube is portable and ideal for a background display for all types of indoor events such as trade show booths and photo shoots. These stands have telescoping 1.625\" diameter poles that extend out, meaning they are adjustable to certain sizes. Stand also inclu…",
+        "source_card_variant": "",
+        "source_add_on_group_keys": [],
+        "local_image_paths": [
+          "/assets/images/notionworx-inventory/trade-show-display/step-and-repeat-backdrop-copy/01.jpg",
+          "/assets/images/notionworx-inventory/trade-show-display/step-and-repeat-backdrop-copy/02.jpg",
+          "/assets/images/notionworx-inventory/trade-show-display/step-and-repeat-backdrop-copy/03.jpg",
+          "/assets/images/notionworx-inventory/trade-show-display/step-and-repeat-backdrop-copy/04.jpg",
+          "/assets/images/notionworx-inventory/trade-show-display/step-and-repeat-backdrop-copy/05.jpg",
+          "/assets/images/notionworx-inventory/trade-show-display/step-and-repeat-backdrop-copy/06.jpg",
+          "/assets/images/notionworx-inventory/trade-show-display/step-and-repeat-backdrop-copy/07.jpg"
+        ],
+        "inventory_data_path": "data/inventory/notionworx/products/trade-show-display/step-and-repeat-backdrop-copy.json",
+        "created_at": "2025-09-25T12:35:12-06:00",
+        "updated_at": "2026-08-18T21:24:32-06:00",
+        "published_at": "2025-09-26T09:36:49-06:00"
+      },
+      "sales_channels": [
+        {
+          "id": "sc_01M1E72H3K3S5QG6P0R7700SH4"
+        }
+      ]
+    },
+    {
+      "title": "X-Stand",
+      "handle": "x-stand",
+      "external_id": "8227678224519",
+      "description": "MADE IN USA.SHIP NEXT DAY 4:00PM FROM CALIFORNIA FACILITY\n\nShowcase your promotional banner with the X-stand. It is durable and is the most cost effective display. Stand includes a free travel bag, making it easy to carry to trade show exhibits, lobby exhibits, and much more.\n\nFeatures\n\n- Durable and most cost effective display\n\n- Includes a free travel bag\n\n- High resolution digitally printed\n\nMaterial Options:\n\n- 13 oz. Matte Vinyl Banner",
+      "status": "published",
+      "images": [
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/trade-show-display/x-stand/01.png"
+        }
+      ],
+      "thumbnail": "https://notionworxcanopy.com/assets/images/notionworx-inventory/trade-show-display/x-stand/01.png",
+      "options": [
+        {
+          "title": "Size",
+          "values": [
+            "24\" x 63\"",
+            "32\" x 71\""
+          ]
+        },
+        {
+          "title": "Material",
+          "values": [
+            "13 oz. Matte Vinyl Banner"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "24\" x 63\" / 13 oz. Matte Vinyl Banner",
+          "sku": "406030",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 7900,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Size": "24\" x 63\"",
+            "Material": "13 oz. Matte Vinyl Banner"
+          },
+          "metadata": {
+            "source_variant_id": 43238180683911,
+            "source_requires_shipping": true,
+            "source_taxable": false,
+            "source_grams": 4536,
+            "source_position": 1,
+            "source_sku": "406030",
+            "source_option_values": [
+              "24\" x 63\"",
+              "13 oz. Matte Vinyl Banner"
+            ],
+            "source_compare_at_price": null
+          }
+        },
+        {
+          "title": "32\" x 71\" / 13 oz. Matte Vinyl Banner",
+          "sku": "606030",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 9900,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Size": "32\" x 71\"",
+            "Material": "13 oz. Matte Vinyl Banner"
+          },
+          "metadata": {
+            "source_variant_id": 43238180716679,
+            "source_requires_shipping": true,
+            "source_taxable": false,
+            "source_grams": 4536,
+            "source_position": 2,
+            "source_sku": "606030",
+            "source_option_values": [
+              "32\" x 71\"",
+              "13 oz. Matte Vinyl Banner"
+            ],
+            "source_compare_at_price": null
+          }
+        }
+      ],
+      "metadata": {
+        "source": "notionworx-inventory",
+        "source_handle": "x-stand",
+        "source_product_id": 8227678224519,
+        "source_slug": "x-stand",
+        "source_vendor": "Notion Worx",
+        "source_product_type": null,
+        "source_primary_category": {
+          "handle": "trade-show-display",
+          "title": "BANNERS & DISPLAYS"
+        },
+        "source_categories": [
+          {
+            "handle": "trade-show-display",
+            "title": "BANNERS & DISPLAYS"
+          }
+        ],
+        "source_price": {
+          "min": 79.0,
+          "max": 99.0,
+          "compareAtMin": null,
+          "compareAtMax": null,
+          "variantCount": 2
+        },
+        "source_tags": [],
+        "source_skus": [
+          "406030",
+          "606030"
+        ],
+        "description_html": "<p>MADE IN USA.SHIP NEXT DAY 4:00PM FROM CALIFORNIA FACILITY</p>\n\n<p>Showcase your promotional banner with the X-stand. It is durable and is the most cost effective display. Stand includes a free travel bag, making it easy to carry to trade show exhibits, lobby exhibits, and much more.</p>\n<h3>Features</h3>\n<ul>\n  <li>Durable and most cost effective display</li>\n  <li>Includes a free travel bag</li>\n  <li>High resolution digitally printed</li>\n</ul>\n<p>Material Options:</p>\n<ul>\n  <li>13 oz. Matte Vinyl Banner</li>\n</ul>",
+        "description_text": "MADE IN USA.SHIP NEXT DAY 4:00PM FROM CALIFORNIA FACILITY\n\nShowcase your promotional banner with the X-stand. It is durable and is the most cost effective display. Stand includes a free travel bag, making it easy to carry to trade show exhibits, lobby exhibits, and much more.\n\nFeatures\n\n- Durable and most cost effective display\n\n- Includes a free travel bag\n\n- High resolution digitally printed\n\nMaterial Options:\n\n- 13 oz. Matte Vinyl Banner",
+        "how_to_order_html": "<ul>\n  <li>SKU 406030</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
+        "how_to_order_text": "SKU 406030\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
+        "dimensions_html": "<p>template <a href=\"https://www.dropbox.com/s/gc7acne658bct72/32x71%27%27%20x%20banner.pdf?dl=0\">32&#x27;&#x27;x71&#x27;&#x27;</a>. <a href=\"https://www.dropbox.com/s/fu4nmroxd56i2ge/24x63%27%27%20x%20banner.pdf?dl=0\">24&#x27;&#x27; x63&#x27;&#x27;</a></p>",
+        "dimensions_text": "template 32''x71'' . 24'' x63''",
+        "warranty_html": null,
+        "warranty_text": null,
+        "source_options": [
+          {
+            "name": "Size",
+            "position": 1,
+            "values": [
+              "24\" x 63\"",
+              "32\" x 71\""
+            ]
+          },
+          {
+            "name": "Material",
+            "position": 2,
+            "values": [
+              "13 oz. Matte Vinyl Banner"
+            ]
+          }
+        ],
+        "source_variants": [
+          {
+            "id": 43238180683911,
+            "title": "24\" x 63\" / 13 oz. Matte Vinyl Banner",
+            "sku": "406030",
+            "available": true,
+            "price": 79.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "24\" x 63\"",
+              "13 oz. Matte Vinyl Banner"
+            ],
+            "requiresShipping": true,
+            "taxable": false,
+            "grams": 4536,
+            "position": 1
+          },
+          {
+            "id": 43238180716679,
+            "title": "32\" x 71\" / 13 oz. Matte Vinyl Banner",
+            "sku": "606030",
+            "available": true,
+            "price": 99.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "32\" x 71\"",
+              "13 oz. Matte Vinyl Banner"
+            ],
+            "requiresShipping": true,
+            "taxable": false,
+            "grams": 4536,
+            "position": 2
+          }
+        ],
+        "source_variant_label": "Size",
+        "source_sizes": [
+          "24\" x 63\"",
+          "32\" x 71\""
+        ],
+        "source_size_variants": [
+          {
+            "value": "24\" x 63\" / 13 oz. Matte Vinyl Banner",
+            "price": 79.0,
+            "active": true
+          },
+          {
+            "value": "32\" x 71\" / 13 oz. Matte Vinyl Banner",
+            "price": 99.0
+          }
+        ],
+        "source_filter_category": [
+          "BANNERS & DISPLAYS"
+        ],
+        "source_filter_sizes": [
+          "24\" x 63\"",
+          "32\" x 71\""
+        ],
+        "source_reviews_text": "2 options",
+        "source_badge_label": "Banners & Displays",
+        "source_badge_subtext": "1 product image available",
+        "source_description": "MADE IN USA.SHIP NEXT DAY 4:00PM FROM CALIFORNIA FACILITY Showcase your promotional banner with the X-stand. It is durable and is the most cost effective display. Stand includes a free travel bag, making it easy to carry to trade show exhibits, lobby exhibits, and much more. Fea…",
+        "source_card_variant": "",
+        "source_add_on_group_keys": [],
+        "local_image_paths": [
+          "/assets/images/notionworx-inventory/trade-show-display/x-stand/01.png"
+        ],
+        "inventory_data_path": "data/inventory/notionworx/products/trade-show-display/x-stand.json",
+        "created_at": "2025-09-25T12:37:48-06:00",
+        "updated_at": "2026-08-18T21:24:32-06:00",
+        "published_at": "2025-09-26T09:36:53-06:00"
+      },
+      "sales_channels": [
+        {
+          "id": "sc_01M1E72H3K3S5QG6P0R7700SH4"
+        }
+      ]
+    }
+  ]
+}

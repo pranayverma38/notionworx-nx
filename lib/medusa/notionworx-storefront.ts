@@ -33,6 +33,13 @@ const localProductsBySourceHandle = new Map(
     .map((product) => [product.sourceHandle.trim(), product]),
 );
 
+const localCollectionCategoriesByName = new Map(
+  categoriesCollection.map((category) => [
+    category.name.trim().toLowerCase(),
+    category,
+  ]),
+);
+
 type JsonValue =
   | string
   | number
@@ -652,6 +659,78 @@ function buildVariantChoices(
   };
 }
 
+function normalizeSourceSizeVariants(
+  metadata: JsonRecord | null | undefined,
+): {
+  variantLabel?: string;
+  sizes?: string[];
+  sizeVariants?: ProductSizeVariant[];
+} {
+  const sourceVariantLabel = readMetadataString(metadata, [
+    "source_variant_label",
+    "sourceVariantLabel",
+  ]);
+  const sourceSizeVariants = readMetadataRecordArray(metadata, "source_size_variants")
+    .map((entry) => {
+      const value = readJsonRecordString(entry, "value");
+      const price = readJsonRecordNumber(entry, "price");
+      const compareAtPrice = readJsonRecordNumber(entry, "compareAtPrice");
+      const activeValue = entry.active;
+
+      if (!value || typeof price !== "number") {
+        return null;
+      }
+
+      return {
+        value,
+        price,
+        ...(typeof compareAtPrice === "number" && compareAtPrice > price
+          ? { compareAtPrice }
+          : {}),
+        ...(activeValue === true ? { active: true } : {}),
+      } satisfies ProductSizeVariant;
+    })
+    .filter((entry): entry is ProductSizeVariant => entry != null);
+
+  const uniqueEntries = Array.from(
+    new Map(sourceSizeVariants.map((entry) => [entry.value, entry])).values(),
+  );
+
+  if (
+    uniqueEntries.length <= 1 &&
+    (!sourceVariantLabel || isDefaultOptionTitle(sourceVariantLabel))
+  ) {
+    return {};
+  }
+
+  if (uniqueEntries.length === 0) {
+    return {};
+  }
+
+  const hasExplicitActive = uniqueEntries.some((entry) => entry.active);
+  const minPrice = Math.min(
+    ...uniqueEntries.map((entry) =>
+      typeof entry.price === "number" ? entry.price : Number.POSITIVE_INFINITY,
+    ),
+  );
+  const normalizedEntries = uniqueEntries.map((entry) => ({
+    ...entry,
+    ...(hasExplicitActive
+      ? {}
+      : entry.price === minPrice
+        ? { active: true }
+        : {}),
+  }));
+
+  return {
+    ...(sourceVariantLabel && !isDefaultOptionTitle(sourceVariantLabel)
+      ? { variantLabel: sourceVariantLabel }
+      : {}),
+    sizes: normalizedEntries.map((entry) => entry.value),
+    sizeVariants: normalizedEntries,
+  };
+}
+
 function isProductInStock(variants: MedusaVariant[]): boolean {
   return variants.some((variant) => {
     if (variant.allow_backorder) {
@@ -696,12 +775,25 @@ function mapMedusaProductToStorefrontProduct(
   const sourceOptions = readMetadataRecordArray(metadata, "source_options");
   const sourceVariants = readMetadataRecordArray(metadata, "source_variants");
   const sourceCategoryTitles = readSourceCategoryTitles(metadata);
-  const variantChoices = buildVariantChoices(
+  const liveVariantChoices = buildVariantChoices(
     product,
     variants,
     sourceOptions,
     sourceVariants,
   );
+  const sourceVariantChoices = normalizeSourceSizeVariants(metadata);
+  const shouldPreferSourceVariantChoices =
+    normalizeCollectionName(
+      sourceVariantChoices.variantLabel ?? liveVariantChoices.variantLabel,
+    ) === "FRAME TYPE" &&
+    (sourceVariantChoices.sizeVariants?.length ?? 0) >=
+      (liveVariantChoices.sizeVariants?.length ?? 0);
+  const variantChoices =
+    shouldPreferSourceVariantChoices && sourceVariantChoices.sizeVariants?.length
+      ? sourceVariantChoices
+      : liveVariantChoices.sizeVariants?.length
+        ? liveVariantChoices
+        : sourceVariantChoices;
   const descriptionHtml = readMetadataString(metadata, [
     "description_html",
     "descriptionHtml",
@@ -879,6 +971,26 @@ type MedusaMappedCollection = {
   products: ShopProduct[];
 };
 
+function productBelongsToCollection(
+  product: ShopProduct,
+  collection: MedusaCollection,
+): boolean {
+  const normalizedCollectionName = normalizeCollectionName(
+    collection.title?.trim() || "",
+  );
+
+  if (!normalizedCollectionName) {
+    return false;
+  }
+
+  return (
+    product.filterCategory.some(
+      (category) =>
+        normalizeCollectionName(category) === normalizedCollectionName,
+    ) || normalizeCollectionName(product.category) === normalizedCollectionName
+  );
+}
+
 const getMedusaMigratedCollections = cache(
   async (): Promise<MedusaMappedCollection[]> => {
     const collections = await getMedusaCollections();
@@ -889,7 +1001,7 @@ const getMedusaMigratedCollections = cache(
 
     const regionId = await getDefaultRegionId();
 
-    return (
+    const fetchedCollections = (
       await Promise.all(
         collections
           .filter(
@@ -962,6 +1074,36 @@ const getMedusaMigratedCollections = cache(
         entry.products.length > 0 ||
         Boolean(entry.collection.title?.trim()),
     );
+
+    const uniqueProducts = new Map<string, ShopProduct>();
+    for (const entry of fetchedCollections) {
+      for (const product of entry.products) {
+        const key =
+          (typeof product.sourceHandle === "string" &&
+          product.sourceHandle.trim().length > 0
+            ? product.sourceHandle.trim()
+            : undefined) ?? `medusa:${product.id}`;
+
+        if (!uniqueProducts.has(key)) {
+          uniqueProducts.set(key, product);
+        }
+      }
+    }
+
+    const products = [...uniqueProducts.values()];
+
+    return fetchedCollections
+      .map(({ collection }) => ({
+        collection,
+        products: products.filter((product) =>
+          productBelongsToCollection(product, collection),
+        ),
+      }))
+      .filter(
+        (entry) =>
+          entry.products.length > 0 ||
+          Boolean(entry.collection.title?.trim()),
+      );
   },
 );
 
@@ -988,6 +1130,9 @@ function buildCollectionCategory(
     collection.title?.trim() ||
     readMetadataString(metadata, ["source_title", "title"]) ||
     APPAREL_CATEGORY_NAME;
+  const localCategoryFallback = localCollectionCategoriesByName.get(
+    displayName.trim().toLowerCase(),
+  );
   const image =
     normalizeImageUrl(
       readMetadataString(metadata, [
@@ -999,6 +1144,7 @@ function buildCollectionCategory(
       ]),
     ) ??
     pickImageUrls(collection)[0] ??
+    localCategoryFallback?.img ??
     fallbackImage;
 
   return {

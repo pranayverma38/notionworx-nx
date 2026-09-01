@@ -270,6 +270,27 @@ def sanitize_sku_seed(value: str) -> str:
     return token or "VARIANT"
 
 
+def synthesize_variant_sku(
+    *,
+    product_handle: str,
+    source_variant: JsonDict,
+    variant_index: int,
+    suffix_override: str | None = None,
+) -> str:
+    """Build a stable synthetic SKU for one source variant."""
+    source_variant_id = source_variant.get("id")
+    suffix = (
+        suffix_override
+        or (
+            str(source_variant_id)
+            if source_variant_id is not None
+            else str(source_variant.get("sku") or "")
+        ).strip()
+        or f"{variant_index + 1}"
+    )
+    return f"NW-TENT-{sanitize_sku_seed(product_handle)}-{sanitize_sku_seed(suffix)}"
+
+
 def resolve_variant_sku(
     *,
     product_handle: str,
@@ -281,13 +302,53 @@ def resolve_variant_sku(
     if raw_sku and raw_sku.lower() not in {"none", "null", "n/a"}:
         return raw_sku
 
-    source_variant_id = source_variant.get("id")
-    suffix = (
-        str(source_variant_id)
-        if source_variant_id is not None
-        else f"{variant_index + 1}"
+    return synthesize_variant_sku(
+        product_handle=product_handle,
+        source_variant=source_variant,
+        variant_index=variant_index,
     )
-    return f"NW-TENT-{sanitize_sku_seed(product_handle)}-{sanitize_sku_seed(suffix)}"
+
+
+def ensure_unique_variant_skus(
+    *,
+    product_handle: str,
+    source_variants: list[JsonDict],
+    variants: list[JsonDict],
+    reserved_skus: set[str] | None,
+) -> list[JsonDict]:
+    """Replace colliding variant SKUs with stable synthetic fallbacks."""
+    if reserved_skus is None:
+        return variants
+
+    seen_in_payload: set[str] = set()
+    for index, variant in enumerate(variants):
+        sku = str(variant.get("sku") or "").strip()
+        source_variant = source_variants[index] if index < len(source_variants) else {}
+
+        if not sku or sku in seen_in_payload or sku in reserved_skus:
+            variant["sku"] = synthesize_variant_sku(
+                product_handle=product_handle,
+                source_variant=source_variant,
+                variant_index=index,
+                suffix_override=sku or None,
+            )
+            sku = str(variant["sku"]).strip()
+
+        seen_in_payload.add(sku)
+        reserved_skus.add(sku)
+
+    return variants
+
+
+def collect_existing_variant_skus(existing_products: dict[str, JsonDict]) -> set[str]:
+    """Return all non-empty variant SKUs currently present in Medusa."""
+    skus: set[str] = set()
+    for product in existing_products.values():
+        for variant in product.get("variants", []):
+            sku = str(variant.get("sku") or "").strip()
+            if sku:
+                skus.add(sku)
+    return skus
 
 
 def build_collection_payload(collection: JsonDict, *, site_url: str) -> JsonDict:
@@ -352,6 +413,7 @@ def build_variant_payload(
             "source_taxable": source_variant.get("taxable"),
             "source_grams": source_variant.get("grams"),
             "source_position": source_variant.get("position"),
+            "source_sku": source_variant.get("sku"),
             "source_option_values": source_variant.get("optionValues", []),
             "source_compare_at_price": compare_at_price,
         },
@@ -393,6 +455,7 @@ def build_default_variant_payload(
             "source_taxable": source_variant.get("taxable"),
             "source_grams": source_variant.get("grams"),
             "source_position": source_variant.get("position"),
+            "source_sku": source_variant.get("sku"),
             "source_option_values": source_variant.get("optionValues", []),
             "source_compare_at_price": source_variant.get("compareAtPrice"),
         },
@@ -467,6 +530,7 @@ def build_product_payload(
     sales_channel_id: str | None,
     site_url: str,
     region: RegionContext | None,
+    reserved_skus: set[str] | None = None,
 ) -> JsonDict:
     """Build a Medusa admin create-product payload."""
     source_product = bundle.source_product
@@ -507,6 +571,13 @@ def build_product_payload(
             )
         ]
         options = [{"title": "Default option", "values": ["Default option value"]}]
+
+    variants = ensure_unique_variant_skus(
+        product_handle=source_product["handle"],
+        source_variants=source_variants or [default_source_variant],
+        variants=variants,
+        reserved_skus=reserved_skus,
+    )
 
     payload: JsonDict = {
         "title": source_product["name"],
@@ -592,7 +663,10 @@ def sync_existing_product_data(
 
         payload = build_product_update_payload(
             bundle,
-            collection_id=collection_id,
+            # Preserve an existing primary Medusa collection assignment so
+            # overlapping collection syncs refresh fidelity metadata without
+            # bouncing the product between collections.
+            collection_id=existing.get("collection_id") or collection_id,
             sales_channel_id=sales_channel_id,
         )
 
@@ -802,6 +876,11 @@ def main() -> None:
         collection_payload,
     )
     collection_id = collection_response["id"]
+    existing_products_before_create = fetch_existing_products(
+        args.base_url,
+        args.admin_api_key,
+    )
+    reserved_skus = collect_existing_variant_skus(existing_products_before_create)
 
     product_payloads_with_collection = [
         build_product_payload(
@@ -810,6 +889,7 @@ def main() -> None:
             sales_channel_id=sales_channel_id,
             site_url=args.site_url,
             region=region,
+            reserved_skus=reserved_skus,
         )
         for bundle in bundles
     ]

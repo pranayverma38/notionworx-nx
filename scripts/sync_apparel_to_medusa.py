@@ -461,12 +461,26 @@ def fetch_existing_collection(base_url: str, admin_api_key: str, handle: str) ->
 
 def fetch_existing_products(base_url: str, admin_api_key: str) -> dict[str, JsonDict]:
     """Fetch a handle-indexed map of existing Medusa admin products."""
-    payload = http_json(
-        "GET",
-        f"{base_url.rstrip('/')}/admin/products?limit=250",
-        headers=admin_headers(admin_api_key),
-    )
-    products = payload.get("products", [])
+    products: list[JsonDict] = []
+    offset = 0
+    limit = 250
+
+    while True:
+        payload = http_json(
+            "GET",
+            f"{base_url.rstrip('/')}/admin/products?limit={limit}&offset={offset}",
+            headers=admin_headers(admin_api_key),
+        )
+        page = payload.get("products", [])
+        if not page:
+            break
+
+        products.extend(page)
+        offset += len(page)
+        total = payload.get("count")
+        if isinstance(total, int) and offset >= total:
+            break
+
     return {
         str(product["handle"]): product
         for product in products

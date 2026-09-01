@@ -1,0 +1,2081 @@
+{
+  "baseUrl": "https://api.notionworxcanopy.com",
+  "siteUrl": "https://notionworxcanopy.com",
+  "mode": "apply",
+  "collectionHandle": "seg-products",
+  "region": {
+    "id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X",
+    "currency_code": "eur",
+    "name": "Europe"
+  },
+  "salesChannelId": "sc_01M1E72H3K3S5QG6P0R7700SH4",
+  "collection": {
+    "title": "SEG PRODUCTS",
+    "handle": "seg-products",
+    "metadata": {
+      "source": "notionworx-inventory",
+      "source_handle": "seg-products",
+      "source_title": "SEG PRODUCTS",
+      "source_description": "",
+      "source_products_count": 6,
+      "source_image_path": null,
+      "source_image_url": null,
+      "inventory_data_path": "/inventory/notionworx/collections/seg-products.json"
+    }
+  },
+  "productsCount": 6,
+  "products": [
+    {
+      "title": "10ft SEG Backlit Fabric Display",
+      "handle": "10ft-seg-backlit-fabric-display",
+      "external_id": "8227678355591",
+      "description": "Download Template\n\nThis illuminated large format trade show display is suitable for all large-scale marketing purposes. Radiant and eye-catching with its bright illumination, this display is perfectly suited for attracting the attention of a wide amount of customers and clientele.\n\nSEG displays utilize a silicone edge graphic (SEG) to create a seamless and visually appealing presentation. It is commonly used in the field of visual marketing and trade shows. The silicone strip is designed to fit into a channel on the display frame. This creates a taut and smooth appearance without any visible seams on the front surface of the display. Changing out SEG graphics is a breeze.\n\nInterior LED lighting enhances the backlit fabric prints making these displays true show-stoppers.\n\nFeatures\n\n- High resolution UV printed\n\n- UV safe that will last for years\n\n- Blackout Fabric included for Single Sided option\n\nMaterial:\n\n- 6 oz. Premium Backlit Fabric\n\n- Aluminum Frame",
+      "status": "published",
+      "images": [
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/seg-products/10ft-seg-backlit-fabric-display/01.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/seg-products/10ft-seg-backlit-fabric-display/02.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/seg-products/10ft-seg-backlit-fabric-display/03.jpg"
+        }
+      ],
+      "thumbnail": "https://notionworxcanopy.com/assets/images/notionworx-inventory/seg-products/10ft-seg-backlit-fabric-display/01.jpg",
+      "options": [
+        {
+          "title": "Style",
+          "values": [
+            "Frame + Graphics",
+            "Graphic Only"
+          ]
+        },
+        {
+          "title": "Graphics",
+          "values": [
+            "Single Sided",
+            "Double Sided"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "Frame + Graphics / Single Sided",
+          "sku": "70022",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 266500,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Style": "Frame + Graphics",
+            "Graphics": "Single Sided"
+          },
+          "metadata": {
+            "source_variant_id": 43238181765255,
+            "source_requires_shipping": true,
+            "source_taxable": true,
+            "source_grams": 54431,
+            "source_position": 1,
+            "source_option_values": [
+              "Frame + Graphics",
+              "Single Sided"
+            ],
+            "source_compare_at_price": null
+          }
+        },
+        {
+          "title": "Frame + Graphics / Double Sided",
+          "sku": "70023",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 333400,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Style": "Frame + Graphics",
+            "Graphics": "Double Sided"
+          },
+          "metadata": {
+            "source_variant_id": 43238181798023,
+            "source_requires_shipping": true,
+            "source_taxable": true,
+            "source_grams": 54431,
+            "source_position": 2,
+            "source_option_values": [
+              "Frame + Graphics",
+              "Double Sided"
+            ],
+            "source_compare_at_price": null
+          }
+        },
+        {
+          "title": "Graphic Only / Single Sided",
+          "sku": "70024",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 41700,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Style": "Graphic Only",
+            "Graphics": "Single Sided"
+          },
+          "metadata": {
+            "source_variant_id": 43238181830791,
+            "source_requires_shipping": true,
+            "source_taxable": true,
+            "source_grams": 54431,
+            "source_position": 3,
+            "source_option_values": [
+              "Graphic Only",
+              "Single Sided"
+            ],
+            "source_compare_at_price": null
+          }
+        },
+        {
+          "title": "Graphic Only / Double Sided",
+          "sku": "70025",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 58400,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Style": "Graphic Only",
+            "Graphics": "Double Sided"
+          },
+          "metadata": {
+            "source_variant_id": 43238181863559,
+            "source_requires_shipping": true,
+            "source_taxable": true,
+            "source_grams": 54431,
+            "source_position": 4,
+            "source_option_values": [
+              "Graphic Only",
+              "Double Sided"
+            ],
+            "source_compare_at_price": null
+          }
+        }
+      ],
+      "metadata": {
+        "source": "notionworx-inventory",
+        "source_handle": "10ft-seg-backlit-fabric-display",
+        "source_product_id": 8227678355591,
+        "source_slug": "10ft-seg-backlit-fabric-display",
+        "source_vendor": "Notion Worx",
+        "source_product_type": null,
+        "source_primary_category": {
+          "handle": "seg-products",
+          "title": "SEG PRODUCTS"
+        },
+        "source_categories": [
+          {
+            "handle": "seg-products",
+            "title": "SEG PRODUCTS"
+          }
+        ],
+        "source_price": {
+          "min": 417.0,
+          "max": 3334.0,
+          "compareAtMin": null,
+          "compareAtMax": null,
+          "variantCount": 4
+        },
+        "source_tags": [],
+        "source_skus": [
+          "70022",
+          "70023",
+          "70024",
+          "70025"
+        ],
+        "description_html": "<p><a href=\"https://www.dropbox.com/sh/uqvu5qgh4cry9dl/AAD6SE3dkGiKNDIjSIkodkLSa?dl=0\">Download Template</a></p>\n<p>This illuminated large format trade show display is suitable for all large-scale marketing purposes. Radiant and eye-catching with its bright illumination, this display is perfectly suited for attracting the attention of a wide amount of customers and clientele.</p>\n<p>SEG displays utilize a silicone edge graphic (SEG) to create a seamless and visually appealing presentation. It is commonly used in the field of visual marketing and trade shows. The silicone strip is designed to fit into a channel on the display frame. This creates a taut and smooth appearance without any visible seams on the front surface of the display. Changing out SEG graphics is a breeze.</p>\n<p>Interior LED lighting enhances the backlit fabric prints making these displays true show-stoppers.</p>\n<h3>Features</h3>\n<ul>\n  <li>High resolution UV printed</li>\n  <li>UV safe that will last for years</li>\n  <li>Blackout Fabric included for Single Sided option</li>\n</ul>\n<p>Material:</p>\n<ul>\n  <li>6 oz. Premium Backlit Fabric</li>\n  <li>Aluminum Frame</li>\n</ul>",
+        "description_text": "Download Template\n\nThis illuminated large format trade show display is suitable for all large-scale marketing purposes. Radiant and eye-catching with its bright illumination, this display is perfectly suited for attracting the attention of a wide amount of customers and clientele.\n\nSEG displays utilize a silicone edge graphic (SEG) to create a seamless and visually appealing presentation. It is commonly used in the field of visual marketing and trade shows. The silicone strip is designed to fit into a channel on the display frame. This creates a taut and smooth appearance without any visible seams on the front surface of the display. Changing out SEG graphics is a breeze.\n\nInterior LED lighting enhances the backlit fabric prints making these displays true show-stoppers.\n\nFeatures\n\n- High resolution UV printed\n\n- UV safe that will last for years\n\n- Blackout Fabric included for Single Sided option\n\nMaterial:\n\n- 6 oz. Premium Backlit Fabric\n\n- Aluminum Frame",
+        "how_to_order_html": "<ul>\n  <li>SKU 70022</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
+        "how_to_order_text": "SKU 70022\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
+        "dimensions_html": "<h3>Size and Weight</h3>\n<ul>\n  <li>Display Size: 118.1&quot;W x 88.6&quot;H x 17&quot;D</li>\n  <li>Weight: 31 lbs (each box, 2 boxes total)</li>\n  <li>Package Size: 57&quot;W x 13.5&quot;H x 7.5&quot;D (box1) and 48.5&quot;W x 13.5&quot;H x 7.5&quot;D (box2)</li>\n</ul>",
+        "dimensions_text": "Size and Weight\n\n- Display Size: 118.1\"W x 88.6\"H x 17\"D\n\n- Weight: 31 lbs (each box, 2 boxes total)\n\n- Package Size: 57\"W x 13.5\"H x 7.5\"D (box1) and 48.5\"W x 13.5\"H x 7.5\"D (box2)",
+        "warranty_html": null,
+        "warranty_text": null,
+        "source_options": [
+          {
+            "name": "Style",
+            "position": 1,
+            "values": [
+              "Frame + Graphics",
+              "Graphic Only"
+            ]
+          },
+          {
+            "name": "Graphics",
+            "position": 2,
+            "values": [
+              "Single Sided",
+              "Double Sided"
+            ]
+          }
+        ],
+        "source_variants": [
+          {
+            "id": 43238181765255,
+            "title": "Frame + Graphics / Single Sided",
+            "sku": "70022",
+            "available": true,
+            "price": 2665.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "Frame + Graphics",
+              "Single Sided"
+            ],
+            "requiresShipping": true,
+            "taxable": true,
+            "grams": 54431,
+            "position": 1
+          },
+          {
+            "id": 43238181798023,
+            "title": "Frame + Graphics / Double Sided",
+            "sku": "70023",
+            "available": true,
+            "price": 3334.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "Frame + Graphics",
+              "Double Sided"
+            ],
+            "requiresShipping": true,
+            "taxable": true,
+            "grams": 54431,
+            "position": 2
+          },
+          {
+            "id": 43238181830791,
+            "title": "Graphic Only / Single Sided",
+            "sku": "70024",
+            "available": true,
+            "price": 417.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "Graphic Only",
+              "Single Sided"
+            ],
+            "requiresShipping": true,
+            "taxable": true,
+            "grams": 54431,
+            "position": 3
+          },
+          {
+            "id": 43238181863559,
+            "title": "Graphic Only / Double Sided",
+            "sku": "70025",
+            "available": true,
+            "price": 584.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "Graphic Only",
+              "Double Sided"
+            ],
+            "requiresShipping": true,
+            "taxable": true,
+            "grams": 54431,
+            "position": 4
+          }
+        ],
+        "source_variant_label": "Style / Graphics",
+        "source_sizes": [
+          "Frame + Graphics",
+          "Graphic Only"
+        ],
+        "source_size_variants": [
+          {
+            "value": "Frame + Graphics / Single Sided",
+            "price": 2665.0
+          },
+          {
+            "value": "Frame + Graphics / Double Sided",
+            "price": 3334.0
+          },
+          {
+            "value": "Graphic Only / Single Sided",
+            "price": 417.0,
+            "active": true
+          },
+          {
+            "value": "Graphic Only / Double Sided",
+            "price": 584.0
+          }
+        ],
+        "source_filter_category": [
+          "SEG PRODUCTS"
+        ],
+        "source_filter_sizes": [
+          "Frame + Graphics",
+          "Graphic Only"
+        ],
+        "source_reviews_text": "4 options",
+        "source_badge_label": "SEG Products",
+        "source_badge_subtext": "3 product images available",
+        "source_description": "This illuminated large format trade show display is suitable for all large-scale marketing purposes. Radiant and eye-catching with its bright illumination, this display is perfectly suited for attracting the attention of a wide amount of customers and clientele. SEG displays uti…",
+        "source_card_variant": "",
+        "source_add_on_group_keys": [],
+        "local_image_paths": [
+          "/assets/images/notionworx-inventory/seg-products/10ft-seg-backlit-fabric-display/01.jpg",
+          "/assets/images/notionworx-inventory/seg-products/10ft-seg-backlit-fabric-display/02.jpg",
+          "/assets/images/notionworx-inventory/seg-products/10ft-seg-backlit-fabric-display/03.jpg"
+        ],
+        "inventory_data_path": "data/inventory/notionworx/products/seg-products/10ft-seg-backlit-fabric-display.json",
+        "created_at": "2025-09-25T12:37:52-06:00",
+        "updated_at": "2026-08-18T21:24:48-06:00",
+        "published_at": "2025-09-26T09:36:16-06:00"
+      },
+      "sales_channels": [
+        {
+          "id": "sc_01M1E72H3K3S5QG6P0R7700SH4"
+        }
+      ]
+    },
+    {
+      "title": "10ft SEG Backlit Popup Display",
+      "handle": "10ft-seg-backlit-popup-display",
+      "external_id": "8227678421127",
+      "description": "Download Template\n\nAn affordable and compact choice, our illuminated pop-up display is perfect for eye-level marketing opportunities. Suitable for placement on a table or stand, this display is an attention grabber that is sure to impress potential customers and clientele.\n\nOur Popup hardware makes for quick and easy assembly at tradeshows, events and in-store marketing. The interior LED lights really plus up the backlit fabric prints, adding pop to this Popup display.\n\nFeatures\n\n- High resolution UV printed\n\n- UV safe that will last for years\n\n- Blackout Fabric included for Single Sided option\n\nMaterial:\n\n- 6 oz. Premium Backlit Fabric\n\n- Aluminum Frame",
+      "status": "published",
+      "images": [
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/seg-products/10ft-seg-backlit-popup-display/01.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/seg-products/10ft-seg-backlit-popup-display/02.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/seg-products/10ft-seg-backlit-popup-display/03.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/seg-products/10ft-seg-backlit-popup-display/04.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/seg-products/10ft-seg-backlit-popup-display/05.jpg"
+        }
+      ],
+      "thumbnail": "https://notionworxcanopy.com/assets/images/notionworx-inventory/seg-products/10ft-seg-backlit-popup-display/01.jpg",
+      "options": [
+        {
+          "title": "Style",
+          "values": [
+            "Frame + Graphics",
+            "Graphics Only"
+          ]
+        },
+        {
+          "title": "Graphics",
+          "values": [
+            "Single-Sided",
+            "Double-Sided"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "Frame + Graphics / Single-Sided",
+          "sku": "70014",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 250000,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Style": "Frame + Graphics",
+            "Graphics": "Single-Sided"
+          },
+          "metadata": {
+            "source_variant_id": 43238182027399,
+            "source_requires_shipping": true,
+            "source_taxable": true,
+            "source_grams": 54431,
+            "source_position": 1,
+            "source_option_values": [
+              "Frame + Graphics",
+              "Single-Sided"
+            ],
+            "source_compare_at_price": null
+          }
+        },
+        {
+          "title": "Frame + Graphics / Double-Sided",
+          "sku": "70015",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 300000,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Style": "Frame + Graphics",
+            "Graphics": "Double-Sided"
+          },
+          "metadata": {
+            "source_variant_id": 43238182060167,
+            "source_requires_shipping": true,
+            "source_taxable": true,
+            "source_grams": 54431,
+            "source_position": 2,
+            "source_option_values": [
+              "Frame + Graphics",
+              "Double-Sided"
+            ],
+            "source_compare_at_price": null
+          }
+        },
+        {
+          "title": "Graphics Only / Single-Sided",
+          "sku": "70016",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 36700,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Style": "Graphics Only",
+            "Graphics": "Single-Sided"
+          },
+          "metadata": {
+            "source_variant_id": 43238182092935,
+            "source_requires_shipping": true,
+            "source_taxable": true,
+            "source_grams": 54431,
+            "source_position": 3,
+            "source_option_values": [
+              "Graphics Only",
+              "Single-Sided"
+            ],
+            "source_compare_at_price": null
+          }
+        },
+        {
+          "title": "Graphics Only / Double-Sided",
+          "sku": "70017",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 63400,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Style": "Graphics Only",
+            "Graphics": "Double-Sided"
+          },
+          "metadata": {
+            "source_variant_id": 43238182125703,
+            "source_requires_shipping": true,
+            "source_taxable": true,
+            "source_grams": 54431,
+            "source_position": 4,
+            "source_option_values": [
+              "Graphics Only",
+              "Double-Sided"
+            ],
+            "source_compare_at_price": null
+          }
+        }
+      ],
+      "metadata": {
+        "source": "notionworx-inventory",
+        "source_handle": "10ft-seg-backlit-popup-display",
+        "source_product_id": 8227678421127,
+        "source_slug": "10ft-seg-backlit-popup-display",
+        "source_vendor": "Notion Worx",
+        "source_product_type": null,
+        "source_primary_category": {
+          "handle": "seg-products",
+          "title": "SEG PRODUCTS"
+        },
+        "source_categories": [
+          {
+            "handle": "seg-products",
+            "title": "SEG PRODUCTS"
+          }
+        ],
+        "source_price": {
+          "min": 367.0,
+          "max": 3000.0,
+          "compareAtMin": null,
+          "compareAtMax": null,
+          "variantCount": 4
+        },
+        "source_tags": [],
+        "source_skus": [
+          "70014",
+          "70015",
+          "70016",
+          "70017"
+        ],
+        "description_html": "<p><a href=\"https://www.dropbox.com/sh/diguz957reo3teq/AABbNmx79TuKrUZC4eUpATg3a?dl=0\">Download Template</a></p>\n<p>An affordable and compact choice, our illuminated pop-up display is perfect for eye-level marketing opportunities. Suitable for placement on a table or stand, this display is an attention grabber that is sure to impress potential customers and clientele.</p>\n<p>Our Popup hardware makes for quick and easy assembly at tradeshows, events and in-store marketing. The interior LED lights really plus up the backlit fabric prints, adding pop to this Popup display.</p>\n<h3>Features</h3>\n<ul>\n  <li>High resolution UV printed</li>\n  <li>UV safe that will last for years</li>\n  <li>Blackout Fabric included for Single Sided option</li>\n</ul>\n<p>Material:</p>\n<ul>\n  <li>6 oz. Premium Backlit Fabric</li>\n  <li>Aluminum Frame</li>\n</ul>",
+        "description_text": "Download Template\n\nAn affordable and compact choice, our illuminated pop-up display is perfect for eye-level marketing opportunities. Suitable for placement on a table or stand, this display is an attention grabber that is sure to impress potential customers and clientele.\n\nOur Popup hardware makes for quick and easy assembly at tradeshows, events and in-store marketing. The interior LED lights really plus up the backlit fabric prints, adding pop to this Popup display.\n\nFeatures\n\n- High resolution UV printed\n\n- UV safe that will last for years\n\n- Blackout Fabric included for Single Sided option\n\nMaterial:\n\n- 6 oz. Premium Backlit Fabric\n\n- Aluminum Frame",
+        "how_to_order_html": "<ul>\n  <li>SKU 70014</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
+        "how_to_order_text": "SKU 70014\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
+        "dimensions_html": "<h3>Size and Weight</h3>\n<ul>\n  <li>Assembled Dimensions: 117.3&quot;W x 87.8&quot;H x 15&quot;D</li>\n  <li>Weight: 44 lb (box1) and 13 lb (box2)</li>\n  <li>Package Size: 38&quot;W x 14.5&quot;H x 11&quot;D (box1) and 30&quot;W x 8&quot;H x 5.5&quot;D (box2)</li>\n</ul>",
+        "dimensions_text": "Size and Weight\n\n- Assembled Dimensions: 117.3\"W x 87.8\"H x 15\"D\n\n- Weight: 44 lb (box1) and 13 lb (box2)\n\n- Package Size: 38\"W x 14.5\"H x 11\"D (box1) and 30\"W x 8\"H x 5.5\"D (box2)",
+        "warranty_html": null,
+        "warranty_text": null,
+        "source_options": [
+          {
+            "name": "Style",
+            "position": 1,
+            "values": [
+              "Frame + Graphics",
+              "Graphics Only"
+            ]
+          },
+          {
+            "name": "Graphics",
+            "position": 2,
+            "values": [
+              "Single-Sided",
+              "Double-Sided"
+            ]
+          }
+        ],
+        "source_variants": [
+          {
+            "id": 43238182027399,
+            "title": "Frame + Graphics / Single-Sided",
+            "sku": "70014",
+            "available": true,
+            "price": 2500.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "Frame + Graphics",
+              "Single-Sided"
+            ],
+            "requiresShipping": true,
+            "taxable": true,
+            "grams": 54431,
+            "position": 1
+          },
+          {
+            "id": 43238182060167,
+            "title": "Frame + Graphics / Double-Sided",
+            "sku": "70015",
+            "available": true,
+            "price": 3000.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "Frame + Graphics",
+              "Double-Sided"
+            ],
+            "requiresShipping": true,
+            "taxable": true,
+            "grams": 54431,
+            "position": 2
+          },
+          {
+            "id": 43238182092935,
+            "title": "Graphics Only / Single-Sided",
+            "sku": "70016",
+            "available": true,
+            "price": 367.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "Graphics Only",
+              "Single-Sided"
+            ],
+            "requiresShipping": true,
+            "taxable": true,
+            "grams": 54431,
+            "position": 3
+          },
+          {
+            "id": 43238182125703,
+            "title": "Graphics Only / Double-Sided",
+            "sku": "70017",
+            "available": true,
+            "price": 634.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "Graphics Only",
+              "Double-Sided"
+            ],
+            "requiresShipping": true,
+            "taxable": true,
+            "grams": 54431,
+            "position": 4
+          }
+        ],
+        "source_variant_label": "Style / Graphics",
+        "source_sizes": [
+          "Frame + Graphics",
+          "Graphics Only"
+        ],
+        "source_size_variants": [
+          {
+            "value": "Frame + Graphics / Single-Sided",
+            "price": 2500.0
+          },
+          {
+            "value": "Frame + Graphics / Double-Sided",
+            "price": 3000.0
+          },
+          {
+            "value": "Graphics Only / Single-Sided",
+            "price": 367.0,
+            "active": true
+          },
+          {
+            "value": "Graphics Only / Double-Sided",
+            "price": 634.0
+          }
+        ],
+        "source_filter_category": [
+          "SEG PRODUCTS"
+        ],
+        "source_filter_sizes": [
+          "Frame + Graphics",
+          "Graphics Only"
+        ],
+        "source_reviews_text": "4 options",
+        "source_badge_label": "SEG Products",
+        "source_badge_subtext": "5 product images available",
+        "source_description": "An affordable and compact choice, our illuminated pop-up display is perfect for eye-level marketing opportunities. Suitable for placement on a table or stand, this display is an attention grabber that is sure to impress potential customers and clientele. Our Popup hardware makes…",
+        "source_card_variant": "",
+        "source_add_on_group_keys": [],
+        "local_image_paths": [
+          "/assets/images/notionworx-inventory/seg-products/10ft-seg-backlit-popup-display/01.jpg",
+          "/assets/images/notionworx-inventory/seg-products/10ft-seg-backlit-popup-display/02.jpg",
+          "/assets/images/notionworx-inventory/seg-products/10ft-seg-backlit-popup-display/03.jpg",
+          "/assets/images/notionworx-inventory/seg-products/10ft-seg-backlit-popup-display/04.jpg",
+          "/assets/images/notionworx-inventory/seg-products/10ft-seg-backlit-popup-display/05.jpg"
+        ],
+        "inventory_data_path": "data/inventory/notionworx/products/seg-products/10ft-seg-backlit-popup-display.json",
+        "created_at": "2025-09-25T12:37:56-06:00",
+        "updated_at": "2026-08-18T21:24:48-06:00",
+        "published_at": "2025-09-26T09:36:17-06:00"
+      },
+      "sales_channels": [
+        {
+          "id": "sc_01M1E72H3K3S5QG6P0R7700SH4"
+        }
+      ]
+    },
+    {
+      "title": "10ft SEG Fabric Display (Non-Lit )",
+      "handle": "10ft-seg-fabric-display",
+      "external_id": "8227678519431",
+      "description": "Download Template\n\nThis large format display is suitable for all large-scale marketing purposes. Substantial and eye-catching, this display is great for catching the attention of a wide amount of customers and clientele.\n\nSEG displays utilize a silicone edge graphic (SEG) to create a seamless and visually appealing presentation. It is commonly used in the field of visual marketing and trade shows. The silicone strip is designed to fit into a channel on the display frame. This creates a taut and smooth appearance without any visible seams on the front surface of the display. Changing out SEG graphics is a breeze.\n\nFeatures\n\n- High resolution UV printed\n\n- UV safe that will last for years\n\nMaterial:\n\n- 6 oz. Premium Backlit Fabric\n\n- Aluminum Frame",
+      "status": "published",
+      "images": [
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/seg-products/10ft-seg-fabric-display/01.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/seg-products/10ft-seg-fabric-display/02.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/seg-products/10ft-seg-fabric-display/03.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/seg-products/10ft-seg-fabric-display/04.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/seg-products/10ft-seg-fabric-display/05.jpg"
+        }
+      ],
+      "thumbnail": "https://notionworxcanopy.com/assets/images/notionworx-inventory/seg-products/10ft-seg-fabric-display/01.jpg",
+      "options": [
+        {
+          "title": "Style",
+          "values": [
+            "Frame + Graphics",
+            "Graphics Only"
+          ]
+        },
+        {
+          "title": "Graphic",
+          "values": [
+            "Single-Sided",
+            "Double-Sided"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "Frame + Graphics / Single-Sided",
+          "sku": "70001",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 116500,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Style": "Frame + Graphics",
+            "Graphic": "Single-Sided"
+          },
+          "metadata": {
+            "source_variant_id": 43238182322311,
+            "source_requires_shipping": true,
+            "source_taxable": true,
+            "source_grams": 54431,
+            "source_position": 1,
+            "source_option_values": [
+              "Frame + Graphics",
+              "Single-Sided"
+            ],
+            "source_compare_at_price": null
+          }
+        },
+        {
+          "title": "Frame + Graphics / Double-Sided",
+          "sku": "70002",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 136200,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Style": "Frame + Graphics",
+            "Graphic": "Double-Sided"
+          },
+          "metadata": {
+            "source_variant_id": 43238182355079,
+            "source_requires_shipping": true,
+            "source_taxable": true,
+            "source_grams": 54431,
+            "source_position": 2,
+            "source_option_values": [
+              "Frame + Graphics",
+              "Double-Sided"
+            ],
+            "source_compare_at_price": null
+          }
+        },
+        {
+          "title": "Graphics Only / Single-Sided",
+          "sku": "70003",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 30000,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Style": "Graphics Only",
+            "Graphic": "Single-Sided"
+          },
+          "metadata": {
+            "source_variant_id": 43238182387847,
+            "source_requires_shipping": true,
+            "source_taxable": true,
+            "source_grams": 54431,
+            "source_position": 3,
+            "source_option_values": [
+              "Graphics Only",
+              "Single-Sided"
+            ],
+            "source_compare_at_price": null
+          }
+        },
+        {
+          "title": "Graphics Only / Double-Sided",
+          "sku": "70004",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 58700,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Style": "Graphics Only",
+            "Graphic": "Double-Sided"
+          },
+          "metadata": {
+            "source_variant_id": 43238182420615,
+            "source_requires_shipping": true,
+            "source_taxable": true,
+            "source_grams": 54431,
+            "source_position": 4,
+            "source_option_values": [
+              "Graphics Only",
+              "Double-Sided"
+            ],
+            "source_compare_at_price": null
+          }
+        }
+      ],
+      "metadata": {
+        "source": "notionworx-inventory",
+        "source_handle": "10ft-seg-fabric-display",
+        "source_product_id": 8227678519431,
+        "source_slug": "10ft-seg-fabric-display",
+        "source_vendor": "Notion Worx",
+        "source_product_type": null,
+        "source_primary_category": {
+          "handle": "seg-products",
+          "title": "SEG PRODUCTS"
+        },
+        "source_categories": [
+          {
+            "handle": "seg-products",
+            "title": "SEG PRODUCTS"
+          }
+        ],
+        "source_price": {
+          "min": 300.0,
+          "max": 1362.0,
+          "compareAtMin": null,
+          "compareAtMax": null,
+          "variantCount": 4
+        },
+        "source_tags": [],
+        "source_skus": [
+          "70001",
+          "70002",
+          "70003",
+          "70004"
+        ],
+        "description_html": "<p><a href=\"https://www.dropbox.com/sh/vmm7qb4ehki8kpo/AABBAKDI1wuYhG0yUtlfeMtEa?dl=0\">Download Template</a></p>\n<p>This large format display is suitable for all large-scale marketing purposes. Substantial and eye-catching, this display is great for catching the attention of a wide amount of customers and clientele.</p>\n<p>SEG displays utilize a silicone edge graphic (SEG) to create a seamless and visually appealing presentation. It is commonly used in the field of visual marketing and trade shows. The silicone strip is designed to fit into a channel on the display frame. This creates a taut and smooth appearance without any visible seams on the front surface of the display. Changing out SEG graphics is a breeze.</p>\n<h3>Features</h3>\n<ul>\n  <li>High resolution UV printed</li>\n  <li>UV safe that will last for years</li>\n</ul>\n<p>Material:</p>\n<ul>\n  <li>6 oz. Premium Backlit Fabric</li>\n  <li>Aluminum Frame</li>\n</ul>",
+        "description_text": "Download Template\n\nThis large format display is suitable for all large-scale marketing purposes. Substantial and eye-catching, this display is great for catching the attention of a wide amount of customers and clientele.\n\nSEG displays utilize a silicone edge graphic (SEG) to create a seamless and visually appealing presentation. It is commonly used in the field of visual marketing and trade shows. The silicone strip is designed to fit into a channel on the display frame. This creates a taut and smooth appearance without any visible seams on the front surface of the display. Changing out SEG graphics is a breeze.\n\nFeatures\n\n- High resolution UV printed\n\n- UV safe that will last for years\n\nMaterial:\n\n- 6 oz. Premium Backlit Fabric\n\n- Aluminum Frame",
+        "how_to_order_html": "<ul>\n  <li>SKU 70001</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
+        "how_to_order_text": "SKU 70001\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
+        "dimensions_html": "<h3>Size and Weight</h3>\n<ul>\n  <li>Display Size: 118.1&quot;W x 88.6&quot;D x 18&quot;D</li>\n  <li>Weight: 38 lbs</li>\n  <li>Package Size: 48&quot;W x8.5&quot;H x 8&quot;D</li>\n</ul>",
+        "dimensions_text": "Size and Weight\n\n- Display Size: 118.1\"W x 88.6\"D x 18\"D\n\n- Weight: 38 lbs\n\n- Package Size: 48\"W x8.5\"H x 8\"D",
+        "warranty_html": null,
+        "warranty_text": null,
+        "source_options": [
+          {
+            "name": "Style",
+            "position": 1,
+            "values": [
+              "Frame + Graphics",
+              "Graphics Only"
+            ]
+          },
+          {
+            "name": "Graphic",
+            "position": 2,
+            "values": [
+              "Single-Sided",
+              "Double-Sided"
+            ]
+          }
+        ],
+        "source_variants": [
+          {
+            "id": 43238182322311,
+            "title": "Frame + Graphics / Single-Sided",
+            "sku": "70001",
+            "available": true,
+            "price": 1165.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "Frame + Graphics",
+              "Single-Sided"
+            ],
+            "requiresShipping": true,
+            "taxable": true,
+            "grams": 54431,
+            "position": 1
+          },
+          {
+            "id": 43238182355079,
+            "title": "Frame + Graphics / Double-Sided",
+            "sku": "70002",
+            "available": true,
+            "price": 1362.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "Frame + Graphics",
+              "Double-Sided"
+            ],
+            "requiresShipping": true,
+            "taxable": true,
+            "grams": 54431,
+            "position": 2
+          },
+          {
+            "id": 43238182387847,
+            "title": "Graphics Only / Single-Sided",
+            "sku": "70003",
+            "available": true,
+            "price": 300.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "Graphics Only",
+              "Single-Sided"
+            ],
+            "requiresShipping": true,
+            "taxable": true,
+            "grams": 54431,
+            "position": 3
+          },
+          {
+            "id": 43238182420615,
+            "title": "Graphics Only / Double-Sided",
+            "sku": "70004",
+            "available": true,
+            "price": 587.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "Graphics Only",
+              "Double-Sided"
+            ],
+            "requiresShipping": true,
+            "taxable": true,
+            "grams": 54431,
+            "position": 4
+          }
+        ],
+        "source_variant_label": "Style / Graphic",
+        "source_sizes": [
+          "Frame + Graphics",
+          "Graphics Only"
+        ],
+        "source_size_variants": [
+          {
+            "value": "Frame + Graphics / Single-Sided",
+            "price": 1165.0
+          },
+          {
+            "value": "Frame + Graphics / Double-Sided",
+            "price": 1362.0
+          },
+          {
+            "value": "Graphics Only / Single-Sided",
+            "price": 300.0,
+            "active": true
+          },
+          {
+            "value": "Graphics Only / Double-Sided",
+            "price": 587.0
+          }
+        ],
+        "source_filter_category": [
+          "SEG PRODUCTS"
+        ],
+        "source_filter_sizes": [
+          "Frame + Graphics",
+          "Graphics Only"
+        ],
+        "source_reviews_text": "4 options",
+        "source_badge_label": "SEG Products",
+        "source_badge_subtext": "5 product images available",
+        "source_description": "This large format display is suitable for all large-scale marketing purposes. Substantial and eye-catching, this display is great for catching the attention of a wide amount of customers and clientele. SEG displays utilize a silicone edge graphic (SEG) to create a seamless and v…",
+        "source_card_variant": "",
+        "source_add_on_group_keys": [],
+        "local_image_paths": [
+          "/assets/images/notionworx-inventory/seg-products/10ft-seg-fabric-display/01.jpg",
+          "/assets/images/notionworx-inventory/seg-products/10ft-seg-fabric-display/02.jpg",
+          "/assets/images/notionworx-inventory/seg-products/10ft-seg-fabric-display/03.jpg",
+          "/assets/images/notionworx-inventory/seg-products/10ft-seg-fabric-display/04.jpg",
+          "/assets/images/notionworx-inventory/seg-products/10ft-seg-fabric-display/05.jpg"
+        ],
+        "inventory_data_path": "data/inventory/notionworx/products/seg-products/10ft-seg-fabric-display.json",
+        "created_at": "2025-09-25T12:38:00-06:00",
+        "updated_at": "2026-08-18T21:24:48-06:00",
+        "published_at": "2025-09-26T09:36:18-06:00"
+      },
+      "sales_channels": [
+        {
+          "id": "sc_01M1E72H3K3S5QG6P0R7700SH4"
+        }
+      ]
+    },
+    {
+      "title": "20ft SEG Fabric Display (Non-Lit )",
+      "handle": "20ft-seg-fabric-display",
+      "external_id": "8227678486663",
+      "description": "Download Template\n\nOur largest SEG display at 20 feet wide, this impressive fabric wall is ideal for any large-scale marketing purpose. Proudly display marketing material on our largest offered format to attract attention from a broad range of customers and clientele.\n\nSEG displays utilize a silicone edge graphic (SEG) to create a seamless and visually appealing presentation. It is commonly used in the field of visual marketing and trade shows. The silicone strip is designed to fit into a channel on the display frame. This creates a taut and smooth appearance without any visible seams on the front surface of the display. Changing out SEG graphics is a breeze.\n\nFeatures\n\n- High resolution UV printed\n\n- UV safe that will last for years\n\nMaterial:\n\n- 6 oz. Premium Backlit Fabric\n\n- Aluminum Frame",
+      "status": "published",
+      "images": [
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/seg-products/20ft-seg-fabric-display/01.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/seg-products/20ft-seg-fabric-display/02.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/seg-products/20ft-seg-fabric-display/03.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/seg-products/20ft-seg-fabric-display/04.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/seg-products/20ft-seg-fabric-display/05.jpg"
+        }
+      ],
+      "thumbnail": "https://notionworxcanopy.com/assets/images/notionworx-inventory/seg-products/20ft-seg-fabric-display/01.jpg",
+      "options": [
+        {
+          "title": "Style",
+          "values": [
+            "Frame + Graphics",
+            "Graphics Only"
+          ]
+        },
+        {
+          "title": "Graphics",
+          "values": [
+            "Single-Sided",
+            "Double-Sided"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "Frame + Graphics / Single-Sided",
+          "sku": "70005",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 200000,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Style": "Frame + Graphics",
+            "Graphics": "Single-Sided"
+          },
+          "metadata": {
+            "source_variant_id": 43238182191239,
+            "source_requires_shipping": true,
+            "source_taxable": true,
+            "source_grams": 54431,
+            "source_position": 1,
+            "source_option_values": [
+              "Frame + Graphics",
+              "Single-Sided"
+            ],
+            "source_compare_at_price": null
+          }
+        },
+        {
+          "title": "Frame + Graphics / Double-Sided",
+          "sku": "70006",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 254200,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Style": "Frame + Graphics",
+            "Graphics": "Double-Sided"
+          },
+          "metadata": {
+            "source_variant_id": 43238182224007,
+            "source_requires_shipping": true,
+            "source_taxable": true,
+            "source_grams": 54431,
+            "source_position": 2,
+            "source_option_values": [
+              "Frame + Graphics",
+              "Double-Sided"
+            ],
+            "source_compare_at_price": null
+          }
+        },
+        {
+          "title": "Graphics Only / Single-Sided",
+          "sku": "70007",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 65000,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Style": "Graphics Only",
+            "Graphics": "Single-Sided"
+          },
+          "metadata": {
+            "source_variant_id": 43238182256775,
+            "source_requires_shipping": true,
+            "source_taxable": true,
+            "source_grams": 54431,
+            "source_position": 3,
+            "source_option_values": [
+              "Graphics Only",
+              "Single-Sided"
+            ],
+            "source_compare_at_price": null
+          }
+        },
+        {
+          "title": "Graphics Only / Double-Sided",
+          "sku": "70008",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 116700,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Style": "Graphics Only",
+            "Graphics": "Double-Sided"
+          },
+          "metadata": {
+            "source_variant_id": 43238182289543,
+            "source_requires_shipping": true,
+            "source_taxable": true,
+            "source_grams": 54431,
+            "source_position": 4,
+            "source_option_values": [
+              "Graphics Only",
+              "Double-Sided"
+            ],
+            "source_compare_at_price": null
+          }
+        }
+      ],
+      "metadata": {
+        "source": "notionworx-inventory",
+        "source_handle": "20ft-seg-fabric-display",
+        "source_product_id": 8227678486663,
+        "source_slug": "20ft-seg-fabric-display",
+        "source_vendor": "Notion Worx",
+        "source_product_type": null,
+        "source_primary_category": {
+          "handle": "seg-products",
+          "title": "SEG PRODUCTS"
+        },
+        "source_categories": [
+          {
+            "handle": "seg-products",
+            "title": "SEG PRODUCTS"
+          }
+        ],
+        "source_price": {
+          "min": 650.0,
+          "max": 2542.0,
+          "compareAtMin": null,
+          "compareAtMax": null,
+          "variantCount": 4
+        },
+        "source_tags": [],
+        "source_skus": [
+          "70005",
+          "70006",
+          "70007",
+          "70008"
+        ],
+        "description_html": "<p><a href=\"https://www.dropbox.com/sh/fuzroek7gcuvciw/AAAdQTXnH92m7U975Eh8VU0Ca?dl=0\">Download Template</a></p>\n<p>Our largest SEG display at 20 feet wide, this impressive fabric wall is ideal for any large-scale marketing purpose. Proudly display marketing material on our largest offered format to attract attention from a broad range of customers and clientele.</p>\n<p>SEG displays utilize a silicone edge graphic (SEG) to create a seamless and visually appealing presentation. It is commonly used in the field of visual marketing and trade shows. The silicone strip is designed to fit into a channel on the display frame. This creates a taut and smooth appearance without any visible seams on the front surface of the display. Changing out SEG graphics is a breeze.</p>\n<h3>Features</h3>\n<ul>\n  <li>High resolution UV printed</li>\n  <li>UV safe that will last for years</li>\n</ul>\n<p>Material:</p>\n<ul>\n  <li>6 oz. Premium Backlit Fabric</li>\n  <li>Aluminum Frame</li>\n</ul>",
+        "description_text": "Download Template\n\nOur largest SEG display at 20 feet wide, this impressive fabric wall is ideal for any large-scale marketing purpose. Proudly display marketing material on our largest offered format to attract attention from a broad range of customers and clientele.\n\nSEG displays utilize a silicone edge graphic (SEG) to create a seamless and visually appealing presentation. It is commonly used in the field of visual marketing and trade shows. The silicone strip is designed to fit into a channel on the display frame. This creates a taut and smooth appearance without any visible seams on the front surface of the display. Changing out SEG graphics is a breeze.\n\nFeatures\n\n- High resolution UV printed\n\n- UV safe that will last for years\n\nMaterial:\n\n- 6 oz. Premium Backlit Fabric\n\n- Aluminum Frame",
+        "how_to_order_html": "<ul>\n  <li>SKU 70005</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
+        "how_to_order_text": "SKU 70005\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
+        "dimensions_html": "<h3>Size and Weight</h3>\n<ul>\n  <li>Display Size: 236.2&quot;W x 88.6&quot;H x 18&quot;D</li>\n  <li>Weight: 38.5 lbs (each box, 2 boxes total)</li>\n  <li>Package Size: 48&quot;W x 9&quot;H x 8.5&quot;D (each box, 2 boxes total)</li>\n</ul>",
+        "dimensions_text": "Size and Weight\n\n- Display Size: 236.2\"W x 88.6\"H x 18\"D\n\n- Weight: 38.5 lbs (each box, 2 boxes total)\n\n- Package Size: 48\"W x 9\"H x 8.5\"D (each box, 2 boxes total)",
+        "warranty_html": null,
+        "warranty_text": null,
+        "source_options": [
+          {
+            "name": "Style",
+            "position": 1,
+            "values": [
+              "Frame + Graphics",
+              "Graphics Only"
+            ]
+          },
+          {
+            "name": "Graphics",
+            "position": 2,
+            "values": [
+              "Single-Sided",
+              "Double-Sided"
+            ]
+          }
+        ],
+        "source_variants": [
+          {
+            "id": 43238182191239,
+            "title": "Frame + Graphics / Single-Sided",
+            "sku": "70005",
+            "available": true,
+            "price": 2000.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "Frame + Graphics",
+              "Single-Sided"
+            ],
+            "requiresShipping": true,
+            "taxable": true,
+            "grams": 54431,
+            "position": 1
+          },
+          {
+            "id": 43238182224007,
+            "title": "Frame + Graphics / Double-Sided",
+            "sku": "70006",
+            "available": true,
+            "price": 2542.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "Frame + Graphics",
+              "Double-Sided"
+            ],
+            "requiresShipping": true,
+            "taxable": true,
+            "grams": 54431,
+            "position": 2
+          },
+          {
+            "id": 43238182256775,
+            "title": "Graphics Only / Single-Sided",
+            "sku": "70007",
+            "available": true,
+            "price": 650.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "Graphics Only",
+              "Single-Sided"
+            ],
+            "requiresShipping": true,
+            "taxable": true,
+            "grams": 54431,
+            "position": 3
+          },
+          {
+            "id": 43238182289543,
+            "title": "Graphics Only / Double-Sided",
+            "sku": "70008",
+            "available": true,
+            "price": 1167.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "Graphics Only",
+              "Double-Sided"
+            ],
+            "requiresShipping": true,
+            "taxable": true,
+            "grams": 54431,
+            "position": 4
+          }
+        ],
+        "source_variant_label": "Style / Graphics",
+        "source_sizes": [
+          "Frame + Graphics",
+          "Graphics Only"
+        ],
+        "source_size_variants": [
+          {
+            "value": "Frame + Graphics / Single-Sided",
+            "price": 2000.0
+          },
+          {
+            "value": "Frame + Graphics / Double-Sided",
+            "price": 2542.0
+          },
+          {
+            "value": "Graphics Only / Single-Sided",
+            "price": 650.0,
+            "active": true
+          },
+          {
+            "value": "Graphics Only / Double-Sided",
+            "price": 1167.0
+          }
+        ],
+        "source_filter_category": [
+          "SEG PRODUCTS"
+        ],
+        "source_filter_sizes": [
+          "Frame + Graphics",
+          "Graphics Only"
+        ],
+        "source_reviews_text": "4 options",
+        "source_badge_label": "SEG Products",
+        "source_badge_subtext": "5 product images available",
+        "source_description": "Our largest SEG display at 20 feet wide, this impressive fabric wall is ideal for any large-scale marketing purpose. Proudly display marketing material on our largest offered format to attract attention from a broad range of customers and clientele. SEG displays utilize a silico…",
+        "source_card_variant": "",
+        "source_add_on_group_keys": [],
+        "local_image_paths": [
+          "/assets/images/notionworx-inventory/seg-products/20ft-seg-fabric-display/01.jpg",
+          "/assets/images/notionworx-inventory/seg-products/20ft-seg-fabric-display/02.jpg",
+          "/assets/images/notionworx-inventory/seg-products/20ft-seg-fabric-display/03.jpg",
+          "/assets/images/notionworx-inventory/seg-products/20ft-seg-fabric-display/04.jpg",
+          "/assets/images/notionworx-inventory/seg-products/20ft-seg-fabric-display/05.jpg"
+        ],
+        "inventory_data_path": "data/inventory/notionworx/products/seg-products/20ft-seg-fabric-display.json",
+        "created_at": "2025-09-25T12:37:58-06:00",
+        "updated_at": "2026-08-18T21:24:48-06:00",
+        "published_at": "2025-09-26T09:36:18-06:00"
+      },
+      "sales_channels": [
+        {
+          "id": "sc_01M1E72H3K3S5QG6P0R7700SH4"
+        }
+      ]
+    },
+    {
+      "title": "3ft SEG Fabric Stand (Non-Lit )",
+      "handle": "3ft-seg-fabric-stand",
+      "external_id": "8227678552199",
+      "description": "Download Template\n\nA fabric stand perfect for showcasing your business at marketing events. Lightweight, portable and versatile, this stand can be used to partition your marketing space into unique configurations for maximum branding presence.\n\nSEG displays utilize a silicone edge graphic (SEG) to create a seamless and visually appealing presentation. It is commonly used in the field of visual marketing and trade shows. The silicone strip is designed to fit into a channel on the display frame. This creates a taut and smooth appearance without any visible seams on the front surface of the display. Changing out SEG graphics is a breeze.\n\nFeatures\n\n- High resolution UV printed\n\n- UV safe that will last for years\n\nMaterial:\n\n- 6 oz. Premium Backlit Fabric\n\n- Aluminum Frame",
+      "status": "published",
+      "images": [
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/seg-products/3ft-seg-fabric-stand/01.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/seg-products/3ft-seg-fabric-stand/02.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/seg-products/3ft-seg-fabric-stand/03.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/seg-products/3ft-seg-fabric-stand/04.jpg"
+        }
+      ],
+      "thumbnail": "https://notionworxcanopy.com/assets/images/notionworx-inventory/seg-products/3ft-seg-fabric-stand/01.jpg",
+      "options": [
+        {
+          "title": "Style",
+          "values": [
+            "Frame + Graphic",
+            "Graphic Only"
+          ]
+        },
+        {
+          "title": "Graphic",
+          "values": [
+            "Single-Sided",
+            "Double-Sided"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "Frame + Graphic / Single-Sided",
+          "sku": "70009",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 28200,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Style": "Frame + Graphic",
+            "Graphic": "Single-Sided"
+          },
+          "metadata": {
+            "source_variant_id": 43238182453383,
+            "source_requires_shipping": true,
+            "source_taxable": true,
+            "source_grams": 22680,
+            "source_position": 1,
+            "source_option_values": [
+              "Frame + Graphic",
+              "Single-Sided"
+            ],
+            "source_compare_at_price": null
+          }
+        },
+        {
+          "title": "Frame + Graphic / Double-Sided",
+          "sku": "70010",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 33100,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Style": "Frame + Graphic",
+            "Graphic": "Double-Sided"
+          },
+          "metadata": {
+            "source_variant_id": 43238182486151,
+            "source_requires_shipping": true,
+            "source_taxable": true,
+            "source_grams": 22680,
+            "source_position": 2,
+            "source_option_values": [
+              "Frame + Graphic",
+              "Double-Sided"
+            ],
+            "source_compare_at_price": null
+          }
+        },
+        {
+          "title": "Graphic Only / Single-Sided",
+          "sku": "70012",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 8400,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Style": "Graphic Only",
+            "Graphic": "Single-Sided"
+          },
+          "metadata": {
+            "source_variant_id": 43238182518919,
+            "source_requires_shipping": true,
+            "source_taxable": true,
+            "source_grams": 22680,
+            "source_position": 3,
+            "source_option_values": [
+              "Graphic Only",
+              "Single-Sided"
+            ],
+            "source_compare_at_price": null
+          }
+        },
+        {
+          "title": "Graphic Only / Double-Sided",
+          "sku": "70013",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 16000,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Style": "Graphic Only",
+            "Graphic": "Double-Sided"
+          },
+          "metadata": {
+            "source_variant_id": 43238182551687,
+            "source_requires_shipping": true,
+            "source_taxable": true,
+            "source_grams": 22680,
+            "source_position": 4,
+            "source_option_values": [
+              "Graphic Only",
+              "Double-Sided"
+            ],
+            "source_compare_at_price": null
+          }
+        }
+      ],
+      "metadata": {
+        "source": "notionworx-inventory",
+        "source_handle": "3ft-seg-fabric-stand",
+        "source_product_id": 8227678552199,
+        "source_slug": "3ft-seg-fabric-stand",
+        "source_vendor": "Notion Worx",
+        "source_product_type": null,
+        "source_primary_category": {
+          "handle": "seg-products",
+          "title": "SEG PRODUCTS"
+        },
+        "source_categories": [
+          {
+            "handle": "seg-products",
+            "title": "SEG PRODUCTS"
+          }
+        ],
+        "source_price": {
+          "min": 84.0,
+          "max": 331.0,
+          "compareAtMin": null,
+          "compareAtMax": null,
+          "variantCount": 4
+        },
+        "source_tags": [],
+        "source_skus": [
+          "70009",
+          "70010",
+          "70012",
+          "70013"
+        ],
+        "description_html": "<p><a href=\"https://www.dropbox.com/sh/2p6on1smbmb1u19/AABAVWl32-ZiFX4ZdkwwLZrca?dl=0\">Download Template</a></p>\n<p>A fabric stand perfect for showcasing your business at marketing events. Lightweight, portable and versatile, this stand can be used to partition your marketing space into unique configurations for maximum branding presence.</p>\n<p>SEG displays utilize a silicone edge graphic (SEG) to create a seamless and visually appealing presentation. It is commonly used in the field of visual marketing and trade shows. The silicone strip is designed to fit into a channel on the display frame. This creates a taut and smooth appearance without any visible seams on the front surface of the display. Changing out SEG graphics is a breeze.</p>\n<h3>Features</h3>\n<ul>\n  <li>High resolution UV printed</li>\n  <li>UV safe that will last for years</li>\n</ul>\n<p>Material:</p>\n<ul>\n  <li>6 oz. Premium Backlit Fabric</li>\n  <li>Aluminum Frame</li>\n</ul>",
+        "description_text": "Download Template\n\nA fabric stand perfect for showcasing your business at marketing events. Lightweight, portable and versatile, this stand can be used to partition your marketing space into unique configurations for maximum branding presence.\n\nSEG displays utilize a silicone edge graphic (SEG) to create a seamless and visually appealing presentation. It is commonly used in the field of visual marketing and trade shows. The silicone strip is designed to fit into a channel on the display frame. This creates a taut and smooth appearance without any visible seams on the front surface of the display. Changing out SEG graphics is a breeze.\n\nFeatures\n\n- High resolution UV printed\n\n- UV safe that will last for years\n\nMaterial:\n\n- 6 oz. Premium Backlit Fabric\n\n- Aluminum Frame",
+        "how_to_order_html": "<ul>\n  <li>SKU 70009</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
+        "how_to_order_text": "SKU 70009\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
+        "dimensions_html": "<h3>Size and Weight</h3>\n<ul>\n  <li>Display Size: 33.45&quot;W x 78.75&quot;H x 18D</li>\n  <li>Weight: 13 lbs</li>\n  <li>Package Size: 43&quot;W x 8.25&quot;H x 2.75&quot;D</li>\n</ul>",
+        "dimensions_text": "Size and Weight\n\n- Display Size: 33.45\"W x 78.75\"H x 18D\n\n- Weight: 13 lbs\n\n- Package Size: 43\"W x 8.25\"H x 2.75\"D",
+        "warranty_html": null,
+        "warranty_text": null,
+        "source_options": [
+          {
+            "name": "Style",
+            "position": 1,
+            "values": [
+              "Frame + Graphic",
+              "Graphic Only"
+            ]
+          },
+          {
+            "name": "Graphic",
+            "position": 2,
+            "values": [
+              "Single-Sided",
+              "Double-Sided"
+            ]
+          }
+        ],
+        "source_variants": [
+          {
+            "id": 43238182453383,
+            "title": "Frame + Graphic / Single-Sided",
+            "sku": "70009",
+            "available": true,
+            "price": 282.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "Frame + Graphic",
+              "Single-Sided"
+            ],
+            "requiresShipping": true,
+            "taxable": true,
+            "grams": 22680,
+            "position": 1
+          },
+          {
+            "id": 43238182486151,
+            "title": "Frame + Graphic / Double-Sided",
+            "sku": "70010",
+            "available": true,
+            "price": 331.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "Frame + Graphic",
+              "Double-Sided"
+            ],
+            "requiresShipping": true,
+            "taxable": true,
+            "grams": 22680,
+            "position": 2
+          },
+          {
+            "id": 43238182518919,
+            "title": "Graphic Only / Single-Sided",
+            "sku": "70012",
+            "available": true,
+            "price": 84.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "Graphic Only",
+              "Single-Sided"
+            ],
+            "requiresShipping": true,
+            "taxable": true,
+            "grams": 22680,
+            "position": 3
+          },
+          {
+            "id": 43238182551687,
+            "title": "Graphic Only / Double-Sided",
+            "sku": "70013",
+            "available": true,
+            "price": 160.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "Graphic Only",
+              "Double-Sided"
+            ],
+            "requiresShipping": true,
+            "taxable": true,
+            "grams": 22680,
+            "position": 4
+          }
+        ],
+        "source_variant_label": "Style / Graphic",
+        "source_sizes": [
+          "Frame + Graphic",
+          "Graphic Only"
+        ],
+        "source_size_variants": [
+          {
+            "value": "Frame + Graphic / Single-Sided",
+            "price": 282.0
+          },
+          {
+            "value": "Frame + Graphic / Double-Sided",
+            "price": 331.0
+          },
+          {
+            "value": "Graphic Only / Single-Sided",
+            "price": 84.0,
+            "active": true
+          },
+          {
+            "value": "Graphic Only / Double-Sided",
+            "price": 160.0
+          }
+        ],
+        "source_filter_category": [
+          "SEG PRODUCTS"
+        ],
+        "source_filter_sizes": [
+          "Frame + Graphic",
+          "Graphic Only"
+        ],
+        "source_reviews_text": "4 options",
+        "source_badge_label": "SEG Products",
+        "source_badge_subtext": "4 product images available",
+        "source_description": "A fabric stand perfect for showcasing your business at marketing events. Lightweight, portable and versatile, this stand can be used to partition your marketing space into unique configurations for maximum branding presence. SEG displays utilize a silicone edge graphic (SEG) to…",
+        "source_card_variant": "",
+        "source_add_on_group_keys": [],
+        "local_image_paths": [
+          "/assets/images/notionworx-inventory/seg-products/3ft-seg-fabric-stand/01.jpg",
+          "/assets/images/notionworx-inventory/seg-products/3ft-seg-fabric-stand/02.jpg",
+          "/assets/images/notionworx-inventory/seg-products/3ft-seg-fabric-stand/03.jpg",
+          "/assets/images/notionworx-inventory/seg-products/3ft-seg-fabric-stand/04.jpg"
+        ],
+        "inventory_data_path": "data/inventory/notionworx/products/seg-products/3ft-seg-fabric-stand.json",
+        "created_at": "2025-09-25T12:38:02-06:00",
+        "updated_at": "2026-08-18T21:24:48-06:00",
+        "published_at": "2025-09-26T09:36:19-06:00"
+      },
+      "sales_channels": [
+        {
+          "id": "sc_01M1E72H3K3S5QG6P0R7700SH4"
+        }
+      ]
+    },
+    {
+      "title": "8ft SEG Backlit Popup Display",
+      "handle": "8ft-seg-backlit-popup-display",
+      "external_id": "8227678388359",
+      "description": "Download Template\n\nAn affordable and very compact choice, our illuminated pop-up display is perfect for eye-level marketing opportunities. Suitable for placement on a table or stand, this display is an attention grabber that is sure to impress potential customers and clientele.\n\nOur Popup hardware makes for quick and easy assembly at tradeshows, events and in-store marketing. The interior LED lights really plus up the backlit fabric prints, adding pop to this Popup display.\n\nFeatures\n\n- High resolution UV printed\n\n- UV safe that will last for years\n\n- Blackout Fabric included for Single Sided option\n\nMaterial:\n\n- 6 oz. Premium Backlit Fabric\n\n- Aluminum Frame",
+      "status": "published",
+      "images": [
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/seg-products/8ft-seg-backlit-popup-display/01.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/seg-products/8ft-seg-backlit-popup-display/02.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/seg-products/8ft-seg-backlit-popup-display/03.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/seg-products/8ft-seg-backlit-popup-display/04.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/seg-products/8ft-seg-backlit-popup-display/05.jpg"
+        }
+      ],
+      "thumbnail": "https://notionworxcanopy.com/assets/images/notionworx-inventory/seg-products/8ft-seg-backlit-popup-display/01.jpg",
+      "options": [
+        {
+          "title": "Style",
+          "values": [
+            "Frame + Graphics",
+            "Graphics Only"
+          ]
+        },
+        {
+          "title": "Graphics",
+          "values": [
+            "Single - Sided",
+            "Double - Sided"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "Frame + Graphics / Single - Sided",
+          "sku": "70018",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 200000,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Style": "Frame + Graphics",
+            "Graphics": "Single - Sided"
+          },
+          "metadata": {
+            "source_variant_id": 43238181896327,
+            "source_requires_shipping": true,
+            "source_taxable": true,
+            "source_grams": 54431,
+            "source_position": 1,
+            "source_option_values": [
+              "Frame + Graphics",
+              "Single - Sided"
+            ],
+            "source_compare_at_price": null
+          }
+        },
+        {
+          "title": "Frame + Graphics / Double - Sided",
+          "sku": "70019",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 216700,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Style": "Frame + Graphics",
+            "Graphics": "Double - Sided"
+          },
+          "metadata": {
+            "source_variant_id": 43238181929095,
+            "source_requires_shipping": true,
+            "source_taxable": true,
+            "source_grams": 54431,
+            "source_position": 2,
+            "source_option_values": [
+              "Frame + Graphics",
+              "Double - Sided"
+            ],
+            "source_compare_at_price": null
+          }
+        },
+        {
+          "title": "Graphics Only / Single - Sided",
+          "sku": "70020",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 28400,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Style": "Graphics Only",
+            "Graphics": "Single - Sided"
+          },
+          "metadata": {
+            "source_variant_id": 43238181961863,
+            "source_requires_shipping": true,
+            "source_taxable": true,
+            "source_grams": 54431,
+            "source_position": 3,
+            "source_option_values": [
+              "Graphics Only",
+              "Single - Sided"
+            ],
+            "source_compare_at_price": null
+          }
+        },
+        {
+          "title": "Graphics Only / Double - Sided",
+          "sku": "70021",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 50000,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Style": "Graphics Only",
+            "Graphics": "Double - Sided"
+          },
+          "metadata": {
+            "source_variant_id": 43238181994631,
+            "source_requires_shipping": true,
+            "source_taxable": true,
+            "source_grams": 54431,
+            "source_position": 4,
+            "source_option_values": [
+              "Graphics Only",
+              "Double - Sided"
+            ],
+            "source_compare_at_price": null
+          }
+        }
+      ],
+      "metadata": {
+        "source": "notionworx-inventory",
+        "source_handle": "8ft-seg-backlit-popup-display",
+        "source_product_id": 8227678388359,
+        "source_slug": "8ft-seg-backlit-popup-display",
+        "source_vendor": "Notion Worx",
+        "source_product_type": null,
+        "source_primary_category": {
+          "handle": "seg-products",
+          "title": "SEG PRODUCTS"
+        },
+        "source_categories": [
+          {
+            "handle": "seg-products",
+            "title": "SEG PRODUCTS"
+          }
+        ],
+        "source_price": {
+          "min": 284.0,
+          "max": 2167.0,
+          "compareAtMin": null,
+          "compareAtMax": null,
+          "variantCount": 4
+        },
+        "source_tags": [],
+        "source_skus": [
+          "70018",
+          "70019",
+          "70020",
+          "70021"
+        ],
+        "description_html": "<p><a href=\"https://www.dropbox.com/sh/5br0vl7j11rht8s/AACMSSrmUiBWENr80YbMY7s2a?dl=0\">Download Template</a></p>\n<p>An affordable and very compact choice, our illuminated pop-up display is perfect for eye-level marketing opportunities. Suitable for placement on a table or stand, this display is an attention grabber that is sure to impress potential customers and clientele.</p>\n<p>Our Popup hardware makes for quick and easy assembly at tradeshows, events and in-store marketing. The interior LED lights really plus up the backlit fabric prints, adding pop to this Popup display.</p>\n<h3>Features</h3>\n<ul>\n  <li>High resolution UV printed</li>\n  <li>UV safe that will last for years</li>\n  <li>Blackout Fabric included for Single Sided option</li>\n</ul>\n<p>Material:</p>\n<ul>\n  <li>6 oz. Premium Backlit Fabric</li>\n  <li>Aluminum Frame</li>\n</ul>",
+        "description_text": "Download Template\n\nAn affordable and very compact choice, our illuminated pop-up display is perfect for eye-level marketing opportunities. Suitable for placement on a table or stand, this display is an attention grabber that is sure to impress potential customers and clientele.\n\nOur Popup hardware makes for quick and easy assembly at tradeshows, events and in-store marketing. The interior LED lights really plus up the backlit fabric prints, adding pop to this Popup display.\n\nFeatures\n\n- High resolution UV printed\n\n- UV safe that will last for years\n\n- Blackout Fabric included for Single Sided option\n\nMaterial:\n\n- 6 oz. Premium Backlit Fabric\n\n- Aluminum Frame",
+        "how_to_order_html": "<ul>\n  <li>SKU 70018</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
+        "how_to_order_text": "SKU 70018\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
+        "dimensions_html": "<h3>Size and Weight</h3>\n<ul>\n  <li>Assembled Size: 87.8&quot;W x 87.8&quot;H x 15&quot;D</li>\n  <li>Weight: 37 lb (box1) and 10 lb (box2)</li>\n  <li>Package Size: 38&quot;W x14.5&quot;H x11&quot;D (box1) and 30&quot;W x 8&quot;H x 5.5&quot;D (box2)</li>\n</ul>",
+        "dimensions_text": "Size and Weight\n\n- Assembled Size: 87.8\"W x 87.8\"H x 15\"D\n\n- Weight: 37 lb (box1) and 10 lb (box2)\n\n- Package Size: 38\"W x14.5\"H x11\"D (box1) and 30\"W x 8\"H x 5.5\"D (box2)",
+        "warranty_html": null,
+        "warranty_text": null,
+        "source_options": [
+          {
+            "name": "Style",
+            "position": 1,
+            "values": [
+              "Frame + Graphics",
+              "Graphics Only"
+            ]
+          },
+          {
+            "name": "Graphics",
+            "position": 2,
+            "values": [
+              "Single - Sided",
+              "Double - Sided"
+            ]
+          }
+        ],
+        "source_variants": [
+          {
+            "id": 43238181896327,
+            "title": "Frame + Graphics / Single - Sided",
+            "sku": "70018",
+            "available": true,
+            "price": 2000.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "Frame + Graphics",
+              "Single - Sided"
+            ],
+            "requiresShipping": true,
+            "taxable": true,
+            "grams": 54431,
+            "position": 1
+          },
+          {
+            "id": 43238181929095,
+            "title": "Frame + Graphics / Double - Sided",
+            "sku": "70019",
+            "available": true,
+            "price": 2167.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "Frame + Graphics",
+              "Double - Sided"
+            ],
+            "requiresShipping": true,
+            "taxable": true,
+            "grams": 54431,
+            "position": 2
+          },
+          {
+            "id": 43238181961863,
+            "title": "Graphics Only / Single - Sided",
+            "sku": "70020",
+            "available": true,
+            "price": 284.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "Graphics Only",
+              "Single - Sided"
+            ],
+            "requiresShipping": true,
+            "taxable": true,
+            "grams": 54431,
+            "position": 3
+          },
+          {
+            "id": 43238181994631,
+            "title": "Graphics Only / Double - Sided",
+            "sku": "70021",
+            "available": true,
+            "price": 500.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "Graphics Only",
+              "Double - Sided"
+            ],
+            "requiresShipping": true,
+            "taxable": true,
+            "grams": 54431,
+            "position": 4
+          }
+        ],
+        "source_variant_label": "Style / Graphics",
+        "source_sizes": [
+          "Frame + Graphics",
+          "Graphics Only"
+        ],
+        "source_size_variants": [
+          {
+            "value": "Frame + Graphics / Single - Sided",
+            "price": 2000.0
+          },
+          {
+            "value": "Frame + Graphics / Double - Sided",
+            "price": 2167.0
+          },
+          {
+            "value": "Graphics Only / Single - Sided",
+            "price": 284.0,
+            "active": true
+          },
+          {
+            "value": "Graphics Only / Double - Sided",
+            "price": 500.0
+          }
+        ],
+        "source_filter_category": [
+          "SEG PRODUCTS"
+        ],
+        "source_filter_sizes": [
+          "Frame + Graphics",
+          "Graphics Only"
+        ],
+        "source_reviews_text": "4 options",
+        "source_badge_label": "SEG Products",
+        "source_badge_subtext": "5 product images available",
+        "source_description": "An affordable and very compact choice, our illuminated pop-up display is perfect for eye-level marketing opportunities. Suitable for placement on a table or stand, this display is an attention grabber that is sure to impress potential customers and clientele. Our Popup hardware…",
+        "source_card_variant": "",
+        "source_add_on_group_keys": [],
+        "local_image_paths": [
+          "/assets/images/notionworx-inventory/seg-products/8ft-seg-backlit-popup-display/01.jpg",
+          "/assets/images/notionworx-inventory/seg-products/8ft-seg-backlit-popup-display/02.jpg",
+          "/assets/images/notionworx-inventory/seg-products/8ft-seg-backlit-popup-display/03.jpg",
+          "/assets/images/notionworx-inventory/seg-products/8ft-seg-backlit-popup-display/04.jpg",
+          "/assets/images/notionworx-inventory/seg-products/8ft-seg-backlit-popup-display/05.jpg"
+        ],
+        "inventory_data_path": "data/inventory/notionworx/products/seg-products/8ft-seg-backlit-popup-display.json",
+        "created_at": "2025-09-25T12:37:53-06:00",
+        "updated_at": "2026-08-18T21:24:48-06:00",
+        "published_at": "2025-09-26T09:36:17-06:00"
+      },
+      "sales_channels": [
+        {
+          "id": "sc_01M1E72H3K3S5QG6P0R7700SH4"
+        }
+      ]
+    }
+  ]
+}

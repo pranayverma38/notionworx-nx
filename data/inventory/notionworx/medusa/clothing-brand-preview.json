@@ -1,0 +1,28 @@
+{
+  "baseUrl": "https://api.notionworxcanopy.com",
+  "siteUrl": "https://notionworxcanopy.com",
+  "mode": "apply",
+  "collectionHandle": "clothing-brand",
+  "region": {
+    "id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X",
+    "currency_code": "eur",
+    "name": "Europe"
+  },
+  "salesChannelId": "sc_01M1E72H3K3S5QG6P0R7700SH4",
+  "collection": {
+    "title": "Clothing Brand",
+    "handle": "clothing-brand",
+    "metadata": {
+      "source": "notionworx-inventory",
+      "source_handle": "clothing-brand",
+      "source_title": "Clothing Brand",
+      "source_description": "<p><img src=\"\" alt=\"\"></p>",
+      "source_products_count": 0,
+      "source_image_path": "/assets/images/notionworx-inventory/collections/clothing-brand/01.jpg",
+      "source_image_url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/collections/clothing-brand/01.jpg",
+      "inventory_data_path": "/inventory/notionworx/collections/clothing-brand.json"
+    }
+  },
+  "productsCount": 0,
+  "products": []
+}

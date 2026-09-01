@@ -1,0 +1,921 @@
+{
+  "baseUrl": "https://api.notionworxcanopy.com",
+  "siteUrl": "https://notionworxcanopy.com",
+  "mode": "apply",
+  "collectionHandle": "trade-show-essentials",
+  "region": {
+    "id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X",
+    "currency_code": "eur",
+    "name": "Europe"
+  },
+  "salesChannelId": "sc_01M1E72H3K3S5QG6P0R7700SH4",
+  "collection": {
+    "title": "Trade Show Essentials – 10x10, 10x15 & 10x20 Custom Canopy Tents for Events & Exhibits",
+    "handle": "trade-show-essentials",
+    "metadata": {
+      "source": "notionworx-inventory",
+      "source_handle": "trade-show-essentials",
+      "source_title": "Trade Show Essentials – 10x10, 10x15 & 10x20 Custom Canopy Tents for Events & Exhibits",
+      "source_description": "<h3 data-start=\"1323\" data-end=\"1364\"><strong data-start=\"1327\" data-end=\"1362\">Trade Show Essentials Collection</strong></h3>\n<p data-start=\"1366\" data-end=\"1585\">Make a lasting impression at your next event with our <strong data-start=\"1420\" data-end=\"1455\">Tradeshow Essentials Collection</strong>, featuring <strong data-start=\"1467\" data-end=\"1512\">premium Custom Canopy Tent Packages</strong> designed for professionals who demand quality, style, and performance.</p>\n<p data-start=\"1587\" data-end=\"1761\">Each tent in this collection combines <strong data-start=\"1625\" data-end=\"1675\">durability, easy setup, and full customization</strong>, helping your brand stand out at trade shows, exhibitions, and outdoor activations.</p>\n<p data-start=\"1763\" data-end=\"1872\">💪 <strong data-start=\"1766\" data-end=\"1797\">Strong HEX Aluminum Frames:</strong> Engineered for long-lasting stability and a polished, professional look.</p>\n<p data-start=\"1874\" data-end=\"2008\">🎨 <strong data-start=\"1877\" data-end=\"1907\">Vivid Full-Color Printing:</strong> High-quality dye-sublimation printing ensures your logo and graphics stay bright and eye-catching.</p>\n<p data-start=\"2010\" data-end=\"2093\">⚙️ <strong data-start=\"2013\" data-end=\"2037\">Quick Pop-Up Design:</strong> Fast, tool-free setup ideal for busy event schedules.</p>\n<p data-start=\"2095\" data-end=\"2223\">🧵 <strong data-start=\"2098\" data-end=\"2122\">Custom Wall Options:</strong> Choose from full back walls, half side walls, or complete enclosure packages for maximum branding.</p>\n<p data-start=\"2225\" data-end=\"2300\">🧳 <strong data-start=\"2228\" data-end=\"2260\">Wheeled Carry Bags Included:</strong> Convenient for transport and storage.</p>\n<p data-start=\"2302\" data-end=\"2390\">🎁 <strong data-start=\"2305\" data-end=\"2330\">All Packages Include:</strong> Free design service, durable hardware, and fast delivery.</p>\n<p data-start=\"2392\" data-end=\"2576\">Perfect for <strong data-start=\"2404\" data-end=\"2469\">trade shows, expos, product demos, and branded outdoor events</strong>, our Tradeshow Essentials canopy tents help you look professional and attract attention wherever you go.</p>",
+      "source_products_count": 4,
+      "source_image_path": "/assets/images/notionworx-inventory/collections/trade-show-essentials/01.png",
+      "source_image_url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/collections/trade-show-essentials/01.png",
+      "inventory_data_path": "/inventory/notionworx/collections/trade-show-essentials.json"
+    }
+  },
+  "productsCount": 4,
+  "products": [
+    {
+      "title": "Trade Show Essential 10x10 Custom Canopy Tent – HEX Aluminum Frame, Full Back Wall & Half Side Walls + Flags + Table Cover",
+      "handle": "trade-show-essential-10x10-custom-canopy-tent-10-13",
+      "external_id": "8250396508295",
+      "description": "Specsheet Warning Label Fire Certificate\n\nTrade Show Essential 10x10 Custom Canopy Tent\n\nMake your booth stand out at trade shows, festivals, and outdoor events with our 10x10 Trade Show Essential Custom Canopy Tent. This professional-grade canopy combines durability, branding, and convenient setup, helping you attract more visitors and make a lasting impression.\n\nKey Features:\n\n💪 HEX Aluminum Frame (Silver): Strong and lightweight for reliable stability.\n\n🎨 Custom Printing: Dye-sublimation printing on canopy top, full back wall, and half side walls for vibrant, fade-resistant branding.\n\n🧱 Half Side Walls with Mesh Option: Solid fabric bottoms with optional mesh tops for airflow and customer visibility.\n\n🧵 Full Back Wall: Printed inward for professional interior appearance and brand exposure.\n\n☀️ Weather-Resistant Canopy: 600 Denier Polyester, UV-protected and waterproof.\n\n⚙️ Quick Pop-Up Design: Tool-free assembly allows fast setup in minutes.\n\n🧳 Wheeled Carry Bag Included: Convenient transport and storage for the frame.\n\n🎁 Complete Package: Frame, canopy top, printed walls, wheeled carry bag, free design service, and fast delivery.\n\n- Included Accessories:\n\n- 2-12' Double Sided Stand Alone Flags, Table Cover\n\n- 1- 6' Stretch Table Cover\n\nMaterials\n\n- Hardware: ABS Nylon, Aluminum\n\n- Canopy: 600 Denier Polyester\n\nCertifications\n\n- Meets FR Rating Requirements\n\nPrimary Usage\n\nTrade shows, outdoor events, food festivals, farmers’ markets, pop-up shops, and brand activations",
+      "status": "published",
+      "images": [
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/trade-show-essentials/trade-show-essential-10x10-custom-canopy-tent-10-13/01.png"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/trade-show-essentials/trade-show-essential-10x10-custom-canopy-tent-10-13/02.png"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/trade-show-essentials/trade-show-essential-10x10-custom-canopy-tent-10-13/03.png"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/trade-show-essentials/trade-show-essential-10x10-custom-canopy-tent-10-13/04.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/trade-show-essentials/trade-show-essential-10x10-custom-canopy-tent-10-13/05.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/trade-show-essentials/trade-show-essential-10x10-custom-canopy-tent-10-13/06.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/trade-show-essentials/trade-show-essential-10x10-custom-canopy-tent-10-13/07.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/trade-show-essentials/trade-show-essential-10x10-custom-canopy-tent-10-13/08.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/trade-show-essentials/trade-show-essential-10x10-custom-canopy-tent-10-13/09.jpg"
+        }
+      ],
+      "thumbnail": "https://notionworxcanopy.com/assets/images/notionworx-inventory/trade-show-essentials/trade-show-essential-10x10-custom-canopy-tent-10-13/01.png",
+      "options": [
+        {
+          "title": "Frame Type",
+          "values": [
+            "Hex Aluminum",
+            "Steel"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "Hex Aluminum",
+          "sku": "ITEM #: 13-10",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 119000,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Frame Type": "Hex Aluminum"
+          },
+          "metadata": {
+            "source_variant_id": 43410421350535,
+            "source_requires_shipping": true,
+            "source_taxable": false,
+            "source_grams": 54431,
+            "source_position": 1,
+            "source_option_values": [
+              "Hex Aluminum"
+            ],
+            "source_compare_at_price": 1280
+          }
+        },
+        {
+          "title": "Steel",
+          "sku": "ITEM #: 13-10S",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 109000,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Frame Type": "Steel"
+          },
+          "metadata": {
+            "source_variant_id": 43410421383303,
+            "source_requires_shipping": true,
+            "source_taxable": false,
+            "source_grams": 54431,
+            "source_position": 2,
+            "source_option_values": [
+              "Steel"
+            ],
+            "source_compare_at_price": 1180
+          }
+        }
+      ],
+      "metadata": {
+        "source": "notionworx-inventory",
+        "source_handle": "trade-show-essential-10x10-custom-canopy-tent-10-13",
+        "source_product_id": 8250396508295,
+        "source_slug": "trade-show-essential-10x10-custom-canopy-tent-10-13",
+        "source_vendor": "Notion Worx",
+        "source_product_type": null,
+        "source_primary_category": {
+          "handle": "trade-show-essentials",
+          "title": "Trade Show Essentials – 10x10, 10x15 & 10x20 Custom Canopy Tents for Events & Exhibits"
+        },
+        "source_categories": [
+          {
+            "handle": "trade-show-essentials",
+            "title": "Trade Show Essentials – 10x10, 10x15 & 10x20 Custom Canopy Tents for Events & Exhibits"
+          },
+          {
+            "handle": "best-selling-10x10-custom-canopy-tents",
+            "title": "Best Selling 10x10 Custom Canopy Tents – Tradeshow & Food Booth Essentials"
+          },
+          {
+            "handle": "10x10",
+            "title": "10x10 Custom Canopies"
+          },
+          {
+            "handle": "tent",
+            "title": "Custom Canopy Tents – Personalized Pop Up Tents for Events"
+          }
+        ],
+        "source_price": {
+          "min": 1090,
+          "max": 1190,
+          "compareAtMin": 1180,
+          "compareAtMax": 1280,
+          "variantCount": 2
+        },
+        "source_tags": [],
+        "source_skus": [
+          "ITEM #: 13-10",
+          "ITEM #: 13-10S"
+        ],
+        "description_html": "<h4><a href=\"https://displaytemplate.s3-us-west-2.amazonaws.com/Product+setup+instruction/Inst_10x10_TENT_Universal_curves.pdf\">Specsheet</a> <a href=\"https://drive.google.com/file/d/1jv_fBUek_UZYUHvBv_DMJG5tk42yIiah/view?usp=drive_link\">Warning Label</a> <a href=\"https://drive.google.com/file/d/1lPLYIldqjlfbOpvvoZGq-ETmb5Lb207s/view?usp=sharing\">Fire Certificate</a></h4>\n<h3>Trade Show Essential 10x10 Custom Canopy Tent</h3>\n<p>Make your booth stand out at trade shows, festivals, and outdoor events with our 10x10 Trade Show Essential Custom Canopy Tent. This professional-grade canopy combines durability, branding, and convenient setup, helping you attract more visitors and make a lasting impression.</p>\n<p>Key Features:</p>\n\n<p>💪 HEX Aluminum Frame (Silver): Strong and lightweight for reliable stability.</p>\n<p>🎨 Custom Printing: Dye-sublimation printing on canopy top, full back wall, and half side walls for vibrant, fade-resistant branding.</p>\n<p>🧱 Half Side Walls with Mesh Option: Solid fabric bottoms with optional mesh tops for airflow and customer visibility.</p>\n<p>🧵 Full Back Wall: Printed inward for professional interior appearance and brand exposure.</p>\n<p>☀️ Weather-Resistant Canopy: 600 Denier Polyester, UV-protected and waterproof.</p>\n<p>⚙️ Quick Pop-Up Design: Tool-free assembly allows fast setup in minutes.</p>\n<p>🧳 Wheeled Carry Bag Included: Convenient transport and storage for the frame.</p>\n<p>🎁 Complete Package: Frame, canopy top, printed walls, wheeled carry bag, free design service, and fast delivery.</p>\n<ul>\n  <li>Included Accessories:</li>\n  <li>2-12&#x27; Double Sided Stand Alone Flags, Table Cover</li>\n  <li>1- 6&#x27; Stretch Table Cover</li>\n</ul>\n<h3>Materials</h3>\n<ul>\n  <li>Hardware: ABS Nylon, Aluminum</li>\n  <li>Canopy: 600 Denier Polyester</li>\n</ul>\n<h3>Certifications</h3>\n<ul>\n  <li>Meets FR Rating Requirements</li>\n</ul>\n<h3>Primary Usage</h3>\n<p>Trade shows, outdoor events, food festivals, farmers’ markets, pop-up shops, and brand activations</p>",
+        "description_text": "Specsheet Warning Label Fire Certificate\n\nTrade Show Essential 10x10 Custom Canopy Tent\n\nMake your booth stand out at trade shows, festivals, and outdoor events with our 10x10 Trade Show Essential Custom Canopy Tent. This professional-grade canopy combines durability, branding, and convenient setup, helping you attract more visitors and make a lasting impression.\n\nKey Features:\n\n💪 HEX Aluminum Frame (Silver): Strong and lightweight for reliable stability.\n\n🎨 Custom Printing: Dye-sublimation printing on canopy top, full back wall, and half side walls for vibrant, fade-resistant branding.\n\n🧱 Half Side Walls with Mesh Option: Solid fabric bottoms with optional mesh tops for airflow and customer visibility.\n\n🧵 Full Back Wall: Printed inward for professional interior appearance and brand exposure.\n\n☀️ Weather-Resistant Canopy: 600 Denier Polyester, UV-protected and waterproof.\n\n⚙️ Quick Pop-Up Design: Tool-free assembly allows fast setup in minutes.\n\n🧳 Wheeled Carry Bag Included: Convenient transport and storage for the frame.\n\n🎁 Complete Package: Frame, canopy top, printed walls, wheeled carry bag, free design service, and fast delivery.\n\n- Included Accessories:\n\n- 2-12' Double Sided Stand Alone Flags, Table Cover\n\n- 1- 6' Stretch Table Cover\n\nMaterials\n\n- Hardware: ABS Nylon, Aluminum\n\n- Canopy: 600 Denier Polyester\n\nCertifications\n\n- Meets FR Rating Requirements\n\nPrimary Usage\n\nTrade shows, outdoor events, food festivals, farmers’ markets, pop-up shops, and brand activations",
+        "how_to_order_html": "<ul>\n  <li>SKU ITEM #: 13-10</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
+        "how_to_order_text": "- SKU ITEM #: 13-10\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
+        "dimensions_html": "<p>🏕️ Product Size: 120&quot; W x 137&quot; H x 120&quot; D – spacious 10x10 setup for vendor booths.</p>",
+        "dimensions_text": "🏕️ Product Size: 120\" W x 137\" H x 120\" D – spacious 10x10 setup for vendor booths.",
+        "warranty_html": "<h3>Factory Warranty</h3>\n<ul>\n  <li>We stand behind the quality of our products. Our warranty covers any factory defects or damage that occurs during shipping. However, please note that we do not cover damage resulting from extreme weather conditions, misuse, or any circumstances beyond our control.</li>\n</ul>",
+        "warranty_text": "Factory Warranty\n\n- We stand behind the quality of our products. Our warranty covers any factory defects or damage that occurs during shipping. However, please note that we do not cover damage resulting from extreme weather conditions, misuse, or any circumstances beyond our control.",
+        "source_options": [
+          {
+            "name": "Frame Type",
+            "position": 1,
+            "values": [
+              "Hex Aluminum",
+              "Steel"
+            ]
+          }
+        ],
+        "source_variants": [
+          {
+            "id": 43410421350535,
+            "title": "Hex Aluminum",
+            "sku": "ITEM #: 13-10",
+            "available": true,
+            "price": 1190,
+            "compareAtPrice": 1280,
+            "optionValues": [
+              "Hex Aluminum"
+            ],
+            "requiresShipping": true,
+            "taxable": false,
+            "grams": 54431,
+            "position": 1
+          },
+          {
+            "id": 43410421383303,
+            "title": "Steel",
+            "sku": "ITEM #: 13-10S",
+            "available": true,
+            "price": 1090,
+            "compareAtPrice": 1180,
+            "optionValues": [
+              "Steel"
+            ],
+            "requiresShipping": true,
+            "taxable": false,
+            "grams": 54431,
+            "position": 2
+          }
+        ],
+        "source_variant_label": "Frame Type",
+        "source_sizes": [
+          "Hex Aluminum",
+          "Steel"
+        ],
+        "source_size_variants": [
+          {
+            "value": "Hex Aluminum",
+            "price": 1190.0,
+            "compareAtPrice": 1280.0
+          },
+          {
+            "value": "Steel",
+            "price": 1090.0,
+            "compareAtPrice": 1180.0,
+            "active": true
+          }
+        ],
+        "source_filter_category": [
+          "Trade Show Essentials – 10x10, 10x15 & 10x20 Custom Canopy Tents for Events & Exhibits",
+          "Best Selling 10x10 Custom Canopy Tents – Tradeshow & Food Booth Essentials",
+          "10x10 Custom Canopies",
+          "Custom Canopy Tents – Personalized Pop Up Tents for Events"
+        ],
+        "source_filter_sizes": [
+          "Hex Aluminum",
+          "Steel"
+        ],
+        "source_reviews_text": "2 options",
+        "source_badge_label": "Trade Show Essentials – 10x10, 10x15 & 10x20 Custom Canopy Tents For Events & Exhibits",
+        "source_badge_subtext": "9 product images available",
+        "source_description": "Trade Show Essential 10x10 Custom Canopy Tent Make your booth stand out at trade shows, festivals, and outdoor events with our 10x10 Trade Show Essential Custom Canopy Tent. This professional-grade canopy combines durability, branding, and convenient setup, helping you attract m…",
+        "source_card_variant": "",
+        "source_add_on_group_keys": [
+          "accessories-18e19ef5bfc8",
+          "upgrades-8b5bc85cb203"
+        ],
+        "local_image_paths": [
+          "/assets/images/notionworx-inventory/trade-show-essentials/trade-show-essential-10x10-custom-canopy-tent-10-13/01.png",
+          "/assets/images/notionworx-inventory/trade-show-essentials/trade-show-essential-10x10-custom-canopy-tent-10-13/02.png",
+          "/assets/images/notionworx-inventory/trade-show-essentials/trade-show-essential-10x10-custom-canopy-tent-10-13/03.png",
+          "/assets/images/notionworx-inventory/trade-show-essentials/trade-show-essential-10x10-custom-canopy-tent-10-13/04.jpg",
+          "/assets/images/notionworx-inventory/trade-show-essentials/trade-show-essential-10x10-custom-canopy-tent-10-13/05.jpg",
+          "/assets/images/notionworx-inventory/trade-show-essentials/trade-show-essential-10x10-custom-canopy-tent-10-13/06.jpg",
+          "/assets/images/notionworx-inventory/trade-show-essentials/trade-show-essential-10x10-custom-canopy-tent-10-13/07.jpg",
+          "/assets/images/notionworx-inventory/trade-show-essentials/trade-show-essential-10x10-custom-canopy-tent-10-13/08.jpg",
+          "/assets/images/notionworx-inventory/trade-show-essentials/trade-show-essential-10x10-custom-canopy-tent-10-13/09.jpg"
+        ],
+        "inventory_data_path": "data/inventory/notionworx/products/trade-show-essentials/trade-show-essential-10x10-custom-canopy-tent-10-13.json",
+        "created_at": "2025-10-28T13:08:52-06:00",
+        "updated_at": "2026-08-18T21:23:22-06:00",
+        "published_at": "2025-10-28T13:08:52-06:00"
+      },
+      "sales_channels": [
+        {
+          "id": "sc_01M1E72H3K3S5QG6P0R7700SH4"
+        }
+      ]
+    },
+    {
+      "title": "Trade Show Essential 10x10 Custom Canopy Tent – HEX Aluminum Frame, Full Back Wall & Half Side Walls + Mounted Flags + Table Cover",
+      "handle": "trade-show-essential-10x10-custom-canopy-tent-13-10a",
+      "external_id": "8250400604295",
+      "description": "Specsheet Warning Label Fire Certificate\n\nTrade Show Essential 10x10 Custom Canopy Tent\n\nMake your booth stand out at trade shows, festivals, and outdoor events with our 10x10 Tradeshow Essential Custom Canopy Tent. This professional-grade canopy combines durability, branding, and convenient setup, helping you attract more visitors and make a lasting impression.\n\nKey Features:\n\n💪 HEX Aluminum Frame (Silver): Strong and lightweight for reliable stability.\n\n🎨 Custom Printing: Dye-sublimation printing on canopy top, full back wall, and half side walls for vibrant, fade-resistant branding.\n\n🧱 Half Side Walls with Mesh Option: Solid fabric bottoms with optional mesh tops for airflow and customer visibility.\n\n🧵 Full Back Wall: Printed inward for professional interior appearance and brand exposure.\n\n☀️ Weather-Resistant Canopy: 600 Denier Polyester, UV-protected and waterproof.\n\n⚙️ Quick Pop-Up Design: Tool-free assembly allows fast setup in minutes.\n\n🧳 Wheeled Carry Bag Included: Convenient transport and storage for the frame.\n\n🎁 Complete Package: Frame, canopy top, printed walls, wheeled carry bag, free design service, and fast delivery.\n\n- Included Accessories:\n\n- 2-12' Double Sided Mounted Flags, Table Cover\n\n- 1- 6' Stretch Table Cover\n\nMaterials\n\n- Hardware: ABS Nylon, Aluminum\n\n- Canopy: 600 Denier Polyester\n\nCertifications\n\n- Meets FR Rating Requirements\n\nPrimary Usage\n\nTrade shows, outdoor events, food festivals, farmers’ markets, pop-up shops, and brand activations",
+      "status": "published",
+      "images": [
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/trade-show-essentials/trade-show-essential-10x10-custom-canopy-tent-13-10a/01.png"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/trade-show-essentials/trade-show-essential-10x10-custom-canopy-tent-13-10a/02.png"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/trade-show-essentials/trade-show-essential-10x10-custom-canopy-tent-13-10a/03.png"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/trade-show-essentials/trade-show-essential-10x10-custom-canopy-tent-13-10a/04.png"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/trade-show-essentials/trade-show-essential-10x10-custom-canopy-tent-13-10a/05.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/trade-show-essentials/trade-show-essential-10x10-custom-canopy-tent-13-10a/06.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/trade-show-essentials/trade-show-essential-10x10-custom-canopy-tent-13-10a/07.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/trade-show-essentials/trade-show-essential-10x10-custom-canopy-tent-13-10a/08.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/trade-show-essentials/trade-show-essential-10x10-custom-canopy-tent-13-10a/09.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/trade-show-essentials/trade-show-essential-10x10-custom-canopy-tent-13-10a/10.jpg"
+        }
+      ],
+      "thumbnail": "https://notionworxcanopy.com/assets/images/notionworx-inventory/trade-show-essentials/trade-show-essential-10x10-custom-canopy-tent-13-10a/01.png",
+      "options": [
+        {
+          "title": "Frame Type",
+          "values": [
+            "Hex Aluminum",
+            "Steel"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "Hex Aluminum",
+          "sku": "ITEM #: 13-10A",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 119000,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Frame Type": "Hex Aluminum"
+          },
+          "metadata": {
+            "source_variant_id": 43410449367175,
+            "source_requires_shipping": true,
+            "source_taxable": false,
+            "source_grams": 54431,
+            "source_position": 1,
+            "source_option_values": [
+              "Hex Aluminum"
+            ],
+            "source_compare_at_price": 1280
+          }
+        },
+        {
+          "title": "Steel",
+          "sku": "ITEM #: 13-10AS",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 109000,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Frame Type": "Steel"
+          },
+          "metadata": {
+            "source_variant_id": 43410449399943,
+            "source_requires_shipping": true,
+            "source_taxable": false,
+            "source_grams": 54431,
+            "source_position": 2,
+            "source_option_values": [
+              "Steel"
+            ],
+            "source_compare_at_price": 1180
+          }
+        }
+      ],
+      "metadata": {
+        "source": "notionworx-inventory",
+        "source_handle": "trade-show-essential-10x10-custom-canopy-tent-13-10a",
+        "source_product_id": 8250400604295,
+        "source_slug": "trade-show-essential-10x10-custom-canopy-tent-13-10a",
+        "source_vendor": "Notion Worx",
+        "source_product_type": null,
+        "source_primary_category": {
+          "handle": "trade-show-essentials",
+          "title": "Trade Show Essentials – 10x10, 10x15 & 10x20 Custom Canopy Tents for Events & Exhibits"
+        },
+        "source_categories": [
+          {
+            "handle": "trade-show-essentials",
+            "title": "Trade Show Essentials – 10x10, 10x15 & 10x20 Custom Canopy Tents for Events & Exhibits"
+          },
+          {
+            "handle": "best-selling-10x10-custom-canopy-tents",
+            "title": "Best Selling 10x10 Custom Canopy Tents – Tradeshow & Food Booth Essentials"
+          },
+          {
+            "handle": "10x10",
+            "title": "10x10 Custom Canopies"
+          },
+          {
+            "handle": "tent",
+            "title": "Custom Canopy Tents – Personalized Pop Up Tents for Events"
+          }
+        ],
+        "source_price": {
+          "min": 1090,
+          "max": 1190,
+          "compareAtMin": 1180,
+          "compareAtMax": 1280,
+          "variantCount": 2
+        },
+        "source_tags": [],
+        "source_skus": [
+          "ITEM #: 13-10A",
+          "ITEM #: 13-10AS"
+        ],
+        "description_html": "<h4><a href=\"https://displaytemplate.s3-us-west-2.amazonaws.com/Product+setup+instruction/Inst_10x10_TENT_Universal_curves.pdf\">Specsheet</a> <a href=\"https://drive.google.com/file/d/1jv_fBUek_UZYUHvBv_DMJG5tk42yIiah/view?usp=drive_link\">Warning Label</a> <a href=\"https://drive.google.com/file/d/1lPLYIldqjlfbOpvvoZGq-ETmb5Lb207s/view?usp=sharing\">Fire Certificate</a></h4>\n<h3>Trade Show Essential 10x10 Custom Canopy Tent</h3>\n<p>Make your booth stand out at trade shows, festivals, and outdoor events with our 10x10 Tradeshow Essential Custom Canopy Tent. This professional-grade canopy combines durability, branding, and convenient setup, helping you attract more visitors and make a lasting impression.</p>\n<p>Key Features:</p>\n\n<p>💪 HEX Aluminum Frame (Silver): Strong and lightweight for reliable stability.</p>\n<p>🎨 Custom Printing: Dye-sublimation printing on canopy top, full back wall, and half side walls for vibrant, fade-resistant branding.</p>\n<p>🧱 Half Side Walls with Mesh Option: Solid fabric bottoms with optional mesh tops for airflow and customer visibility.</p>\n<p>🧵 Full Back Wall: Printed inward for professional interior appearance and brand exposure.</p>\n<p>☀️ Weather-Resistant Canopy: 600 Denier Polyester, UV-protected and waterproof.</p>\n<p>⚙️ Quick Pop-Up Design: Tool-free assembly allows fast setup in minutes.</p>\n<p>🧳 Wheeled Carry Bag Included: Convenient transport and storage for the frame.</p>\n<p>🎁 Complete Package: Frame, canopy top, printed walls, wheeled carry bag, free design service, and fast delivery.</p>\n<ul>\n  <li>Included Accessories:</li>\n  <li>2-12&#x27; Double Sided Mounted Flags, Table Cover</li>\n  <li>1- 6&#x27; Stretch Table Cover</li>\n</ul>\n<h3>Materials</h3>\n<ul>\n  <li>Hardware: ABS Nylon, Aluminum</li>\n  <li>Canopy: 600 Denier Polyester</li>\n</ul>\n<h3>Certifications</h3>\n<ul>\n  <li>Meets FR Rating Requirements</li>\n</ul>\n<h3>Primary Usage</h3>\n<p>Trade shows, outdoor events, food festivals, farmers’ markets, pop-up shops, and brand activations</p>",
+        "description_text": "Specsheet Warning Label Fire Certificate\n\nTrade Show Essential 10x10 Custom Canopy Tent\n\nMake your booth stand out at trade shows, festivals, and outdoor events with our 10x10 Tradeshow Essential Custom Canopy Tent. This professional-grade canopy combines durability, branding, and convenient setup, helping you attract more visitors and make a lasting impression.\n\nKey Features:\n\n💪 HEX Aluminum Frame (Silver): Strong and lightweight for reliable stability.\n\n🎨 Custom Printing: Dye-sublimation printing on canopy top, full back wall, and half side walls for vibrant, fade-resistant branding.\n\n🧱 Half Side Walls with Mesh Option: Solid fabric bottoms with optional mesh tops for airflow and customer visibility.\n\n🧵 Full Back Wall: Printed inward for professional interior appearance and brand exposure.\n\n☀️ Weather-Resistant Canopy: 600 Denier Polyester, UV-protected and waterproof.\n\n⚙️ Quick Pop-Up Design: Tool-free assembly allows fast setup in minutes.\n\n🧳 Wheeled Carry Bag Included: Convenient transport and storage for the frame.\n\n🎁 Complete Package: Frame, canopy top, printed walls, wheeled carry bag, free design service, and fast delivery.\n\n- Included Accessories:\n\n- 2-12' Double Sided Mounted Flags, Table Cover\n\n- 1- 6' Stretch Table Cover\n\nMaterials\n\n- Hardware: ABS Nylon, Aluminum\n\n- Canopy: 600 Denier Polyester\n\nCertifications\n\n- Meets FR Rating Requirements\n\nPrimary Usage\n\nTrade shows, outdoor events, food festivals, farmers’ markets, pop-up shops, and brand activations",
+        "how_to_order_html": "<ul>\n  <li>SKU ITEM #: 13-10A</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
+        "how_to_order_text": "- SKU ITEM #: 13-10A\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
+        "dimensions_html": "<p>🏕️ Product Size: 120&quot; W x 137&quot; H x 120&quot; D – spacious 10x10 setup for vendor booths.</p>",
+        "dimensions_text": "🏕️ Product Size: 120\" W x 137\" H x 120\" D – spacious 10x10 setup for vendor booths.",
+        "warranty_html": "<h3>Factory Warranty</h3>\n<ul>\n  <li>We stand behind the quality of our products. Our warranty covers any factory defects or damage that occurs during shipping. However, please note that we do not cover damage resulting from extreme weather conditions, misuse, or any circumstances beyond our control.</li>\n</ul>",
+        "warranty_text": "Factory Warranty\n\n- We stand behind the quality of our products. Our warranty covers any factory defects or damage that occurs during shipping. However, please note that we do not cover damage resulting from extreme weather conditions, misuse, or any circumstances beyond our control.",
+        "source_options": [
+          {
+            "name": "Frame Type",
+            "position": 1,
+            "values": [
+              "Hex Aluminum",
+              "Steel"
+            ]
+          }
+        ],
+        "source_variants": [
+          {
+            "id": 43410449367175,
+            "title": "Hex Aluminum",
+            "sku": "ITEM #: 13-10A",
+            "available": true,
+            "price": 1190,
+            "compareAtPrice": 1280,
+            "optionValues": [
+              "Hex Aluminum"
+            ],
+            "requiresShipping": true,
+            "taxable": false,
+            "grams": 54431,
+            "position": 1
+          },
+          {
+            "id": 43410449399943,
+            "title": "Steel",
+            "sku": "ITEM #: 13-10AS",
+            "available": true,
+            "price": 1090,
+            "compareAtPrice": 1180,
+            "optionValues": [
+              "Steel"
+            ],
+            "requiresShipping": true,
+            "taxable": false,
+            "grams": 54431,
+            "position": 2
+          }
+        ],
+        "source_variant_label": "Frame Type",
+        "source_sizes": [
+          "Hex Aluminum",
+          "Steel"
+        ],
+        "source_size_variants": [
+          {
+            "value": "Hex Aluminum",
+            "price": 1190.0,
+            "compareAtPrice": 1280.0
+          },
+          {
+            "value": "Steel",
+            "price": 1090.0,
+            "compareAtPrice": 1180.0,
+            "active": true
+          }
+        ],
+        "source_filter_category": [
+          "Trade Show Essentials – 10x10, 10x15 & 10x20 Custom Canopy Tents for Events & Exhibits",
+          "Best Selling 10x10 Custom Canopy Tents – Tradeshow & Food Booth Essentials",
+          "10x10 Custom Canopies",
+          "Custom Canopy Tents – Personalized Pop Up Tents for Events"
+        ],
+        "source_filter_sizes": [
+          "Hex Aluminum",
+          "Steel"
+        ],
+        "source_reviews_text": "2 options",
+        "source_badge_label": "Trade Show Essentials – 10x10, 10x15 & 10x20 Custom Canopy Tents For Events & Exhibits",
+        "source_badge_subtext": "10 product images available",
+        "source_description": "Trade Show Essential 10x10 Custom Canopy Tent Make your booth stand out at trade shows, festivals, and outdoor events with our 10x10 Tradeshow Essential Custom Canopy Tent. This professional-grade canopy combines durability, branding, and convenient setup, helping you attract mo…",
+        "source_card_variant": "",
+        "source_add_on_group_keys": [
+          "accessories-a426cf12dc19",
+          "upgrades-8b5bc85cb203"
+        ],
+        "local_image_paths": [
+          "/assets/images/notionworx-inventory/trade-show-essentials/trade-show-essential-10x10-custom-canopy-tent-13-10a/01.png",
+          "/assets/images/notionworx-inventory/trade-show-essentials/trade-show-essential-10x10-custom-canopy-tent-13-10a/02.png",
+          "/assets/images/notionworx-inventory/trade-show-essentials/trade-show-essential-10x10-custom-canopy-tent-13-10a/03.png",
+          "/assets/images/notionworx-inventory/trade-show-essentials/trade-show-essential-10x10-custom-canopy-tent-13-10a/04.png",
+          "/assets/images/notionworx-inventory/trade-show-essentials/trade-show-essential-10x10-custom-canopy-tent-13-10a/05.jpg",
+          "/assets/images/notionworx-inventory/trade-show-essentials/trade-show-essential-10x10-custom-canopy-tent-13-10a/06.jpg",
+          "/assets/images/notionworx-inventory/trade-show-essentials/trade-show-essential-10x10-custom-canopy-tent-13-10a/07.jpg",
+          "/assets/images/notionworx-inventory/trade-show-essentials/trade-show-essential-10x10-custom-canopy-tent-13-10a/08.jpg",
+          "/assets/images/notionworx-inventory/trade-show-essentials/trade-show-essential-10x10-custom-canopy-tent-13-10a/09.jpg",
+          "/assets/images/notionworx-inventory/trade-show-essentials/trade-show-essential-10x10-custom-canopy-tent-13-10a/10.jpg"
+        ],
+        "inventory_data_path": "data/inventory/notionworx/products/trade-show-essentials/trade-show-essential-10x10-custom-canopy-tent-13-10a.json",
+        "created_at": "2025-10-28T13:18:38-06:00",
+        "updated_at": "2026-08-18T21:23:22-06:00",
+        "published_at": "2025-10-28T13:18:38-06:00"
+      },
+      "sales_channels": [
+        {
+          "id": "sc_01M1E72H3K3S5QG6P0R7700SH4"
+        }
+      ]
+    },
+    {
+      "title": "PACKAGE #7-TSE-Trade Show Essential 10x15 Custom Canopy Tent – HEX Aluminum Frame, Full Back Wall & Half Side Walls + Flags + Table Cover",
+      "handle": "trade-show-essential-10x15-custom-canopy-tent-14-15",
+      "external_id": "8258260238471",
+      "description": "Specsheet Warning Label Fire Certificate\n\nTrade Show Essential 10x15 Custom Canopy Tent\n\nMake your booth unforgettable with our 10x15 Trade Show Essential Custom Canopy Tent, designed for trade shows, exhibitions, and outdoor events. This professional-grade tent combines durability, branding, and convenient setup, helping your brand stand out and attract more visitors.\n\n💪 HEX Aluminum Frame (Silver): Strong, lightweight, and stable for long-lasting use.\n\n🎨 Custom Printing: Full-color dye-sublimation printing on canopy top, full back wall, and half side walls for vibrant, fade-resistant branding.\n\n🧱 Half Side Walls with Mesh: Solid fabric bottoms with mesh tops for ventilation and visibility.\n\n🧵 Full Back Wall: Printed inward for professional interior presentation.\n\n🪁 Optional Accessories: 2-12' Double Sided Stand Alone Flags and Table Cover to complete your setup.\n\n☀️ Weather-Resistant Canopy: Made of 600 Denier Polyester, UV-protected and waterproof.\n\n⚙️ Quick Pop-Up Design: Tool-free assembly for fast setup in minutes.\n\n🧳 Wheeled Carry Bag Included: Convenient transport and storage for the frame.\n\n🎁 Complete Package: Frame, canopy top, printed walls, wheeled carry bag, free design service, fast delivery, and optional accessories for a fully branded booth.\n\nPrimary Usage: Trade shows, outdoor events, brand activations, pop-up booths, and exhibitions.",
+      "status": "published",
+      "images": [
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/trade-show-essentials/trade-show-essential-10x15-custom-canopy-tent-14-15/01.png"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/trade-show-essentials/trade-show-essential-10x15-custom-canopy-tent-14-15/02.png"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/trade-show-essentials/trade-show-essential-10x15-custom-canopy-tent-14-15/03.png"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/trade-show-essentials/trade-show-essential-10x15-custom-canopy-tent-14-15/04.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/trade-show-essentials/trade-show-essential-10x15-custom-canopy-tent-14-15/05.png"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/trade-show-essentials/trade-show-essential-10x15-custom-canopy-tent-14-15/06.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/trade-show-essentials/trade-show-essential-10x15-custom-canopy-tent-14-15/07.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/trade-show-essentials/trade-show-essential-10x15-custom-canopy-tent-14-15/08.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/trade-show-essentials/trade-show-essential-10x15-custom-canopy-tent-14-15/09.jpg"
+        }
+      ],
+      "thumbnail": "https://notionworxcanopy.com/assets/images/notionworx-inventory/trade-show-essentials/trade-show-essential-10x15-custom-canopy-tent-14-15/01.png",
+      "options": [
+        {
+          "title": "Default option",
+          "values": [
+            "Default option value"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "Default variant",
+          "sku": "ITEM #: 18-15",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 159500,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Default option": "Default option value"
+          },
+          "metadata": {
+            "source_variant_id": 43429401919623,
+            "source_requires_shipping": true,
+            "source_taxable": false,
+            "source_grams": 0,
+            "source_position": 1,
+            "source_option_values": [
+              "Default Title"
+            ],
+            "source_compare_at_price": 1694.5
+          }
+        }
+      ],
+      "metadata": {
+        "source": "notionworx-inventory",
+        "source_handle": "trade-show-essential-10x15-custom-canopy-tent-14-15",
+        "source_product_id": 8258260238471,
+        "source_slug": "trade-show-essential-10x15-custom-canopy-tent-14-15",
+        "source_vendor": "Notion Worx",
+        "source_product_type": null,
+        "source_primary_category": {
+          "handle": "trade-show-essentials",
+          "title": "Trade Show Essentials – 10x10, 10x15 & 10x20 Custom Canopy Tents for Events & Exhibits"
+        },
+        "source_categories": [
+          {
+            "handle": "trade-show-essentials",
+            "title": "Trade Show Essentials – 10x10, 10x15 & 10x20 Custom Canopy Tents for Events & Exhibits"
+          },
+          {
+            "handle": "best-selling-10x10-custom-canopy-tents",
+            "title": "Best Selling 10x10 Custom Canopy Tents – Tradeshow & Food Booth Essentials"
+          }
+        ],
+        "source_price": {
+          "min": 1595.0,
+          "max": 1595.0,
+          "compareAtMin": 1694.5,
+          "compareAtMax": 1694.5,
+          "variantCount": 1
+        },
+        "source_tags": [],
+        "source_skus": [
+          "ITEM #: 18-15"
+        ],
+        "description_html": "<p><a href=\"https://displaytemplate.s3-us-west-2.amazonaws.com/Product+setup+instruction/Inst_10x10_TENT_Universal_curves.pdf\">Specsheet</a> <a href=\"https://drive.google.com/file/d/1jv_fBUek_UZYUHvBv_DMJG5tk42yIiah/view?usp=drive_link\">Warning Label</a> <a href=\"https://drive.google.com/file/d/1lPLYIldqjlfbOpvvoZGq-ETmb5Lb207s/view?usp=sharing\">Fire Certificate</a></p>\n<h3>Trade Show Essential 10x15 Custom Canopy Tent</h3>\n<p>Make your booth unforgettable with our 10x15 Trade Show Essential Custom Canopy Tent, designed for trade shows, exhibitions, and outdoor events. This professional-grade tent combines durability, branding, and convenient setup, helping your brand stand out and attract more visitors.</p>\n\n<p>💪 HEX Aluminum Frame (Silver): Strong, lightweight, and stable for long-lasting use.</p>\n<p>🎨 Custom Printing: Full-color dye-sublimation printing on canopy top, full back wall, and half side walls for vibrant, fade-resistant branding.</p>\n<p>🧱 Half Side Walls with Mesh: Solid fabric bottoms with mesh tops for ventilation and visibility.</p>\n<p>🧵 Full Back Wall: Printed inward for professional interior presentation.</p>\n<p>🪁 Optional Accessories: 2-12&#x27; Double Sided Stand Alone Flags and Table Cover to complete your setup.</p>\n<p>☀️ Weather-Resistant Canopy: Made of 600 Denier Polyester, UV-protected and waterproof.</p>\n<p>⚙️ Quick Pop-Up Design: Tool-free assembly for fast setup in minutes.</p>\n<p>🧳 Wheeled Carry Bag Included: Convenient transport and storage for the frame.</p>\n<p>🎁 Complete Package: Frame, canopy top, printed walls, wheeled carry bag, free design service, fast delivery, and optional accessories for a fully branded booth.</p>\n<p>Primary Usage: Trade shows, outdoor events, brand activations, pop-up booths, and exhibitions.</p>",
+        "description_text": "Specsheet Warning Label Fire Certificate\n\nTrade Show Essential 10x15 Custom Canopy Tent\n\nMake your booth unforgettable with our 10x15 Trade Show Essential Custom Canopy Tent, designed for trade shows, exhibitions, and outdoor events. This professional-grade tent combines durability, branding, and convenient setup, helping your brand stand out and attract more visitors.\n\n💪 HEX Aluminum Frame (Silver): Strong, lightweight, and stable for long-lasting use.\n\n🎨 Custom Printing: Full-color dye-sublimation printing on canopy top, full back wall, and half side walls for vibrant, fade-resistant branding.\n\n🧱 Half Side Walls with Mesh: Solid fabric bottoms with mesh tops for ventilation and visibility.\n\n🧵 Full Back Wall: Printed inward for professional interior presentation.\n\n🪁 Optional Accessories: 2-12' Double Sided Stand Alone Flags and Table Cover to complete your setup.\n\n☀️ Weather-Resistant Canopy: Made of 600 Denier Polyester, UV-protected and waterproof.\n\n⚙️ Quick Pop-Up Design: Tool-free assembly for fast setup in minutes.\n\n🧳 Wheeled Carry Bag Included: Convenient transport and storage for the frame.\n\n🎁 Complete Package: Frame, canopy top, printed walls, wheeled carry bag, free design service, fast delivery, and optional accessories for a fully branded booth.\n\nPrimary Usage: Trade shows, outdoor events, brand activations, pop-up booths, and exhibitions.",
+        "how_to_order_html": "<ul>\n  <li>SKU ITEM #: 18-15</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
+        "how_to_order_text": "- SKU ITEM #: 18-15\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
+        "dimensions_html": "<p>🏕️ Product Size: 120&quot; W x 137&quot; H x 180&quot; D – spacious 10x15 setup for large trade show booths.</p>",
+        "dimensions_text": "🏕️ Product Size: 120\" W x 137\" H x 180\" D – spacious 10x15 setup for large trade show booths.",
+        "warranty_html": "<h3>Factory Warranty</h3>\n<ul>\n  <li>We stand behind the quality of our products. Our warranty covers any factory defects or damage that occurs during shipping. However, please note that we do not cover damage resulting from extreme weather conditions, misuse, or any circumstances beyond our control.</li>\n</ul>",
+        "warranty_text": "Factory Warranty\n\n- We stand behind the quality of our products. Our warranty covers any factory defects or damage that occurs during shipping. However, please note that we do not cover damage resulting from extreme weather conditions, misuse, or any circumstances beyond our control.",
+        "source_options": [
+          {
+            "name": "Title",
+            "position": 1,
+            "values": [
+              "Default Title"
+            ]
+          }
+        ],
+        "source_variants": [
+          {
+            "id": 43429401919623,
+            "title": "Default Title",
+            "sku": "ITEM #: 18-15",
+            "available": true,
+            "price": 1595.0,
+            "compareAtPrice": 1694.5,
+            "optionValues": [
+              "Default Title"
+            ],
+            "requiresShipping": true,
+            "taxable": false,
+            "grams": 0,
+            "position": 1
+          }
+        ],
+        "source_variant_label": null,
+        "source_sizes": [
+          "Default option"
+        ],
+        "source_size_variants": [
+          {
+            "value": "Default option",
+            "price": 1595.0,
+            "compareAtPrice": 1694.5,
+            "active": true
+          }
+        ],
+        "source_filter_category": [
+          "Trade Show Essentials – 10x10, 10x15 & 10x20 Custom Canopy Tents for Events & Exhibits",
+          "Best Selling 10x10 Custom Canopy Tents – Tradeshow & Food Booth Essentials"
+        ],
+        "source_filter_sizes": [],
+        "source_reviews_text": "1 option",
+        "source_badge_label": "Trade Show Essentials – 10x10, 10x15 & 10x20 Custom Canopy Tents For Events & Exhibits",
+        "source_badge_subtext": "9 product images available",
+        "source_description": "Trade Show Essential 10x15 Custom Canopy Tent Make your booth unforgettable with our 10x15 Trade Show Essential Custom Canopy Tent, designed for trade shows, exhibitions, and outdoor events. This professional-grade tent combines durability, branding, and convenient setup, helpin…",
+        "source_card_variant": "",
+        "source_add_on_group_keys": [
+          "accessories-9b2fa44d6f32",
+          "upgrades-0bc9c2dc566d"
+        ],
+        "local_image_paths": [
+          "/assets/images/notionworx-inventory/trade-show-essentials/trade-show-essential-10x15-custom-canopy-tent-14-15/01.png",
+          "/assets/images/notionworx-inventory/trade-show-essentials/trade-show-essential-10x15-custom-canopy-tent-14-15/02.png",
+          "/assets/images/notionworx-inventory/trade-show-essentials/trade-show-essential-10x15-custom-canopy-tent-14-15/03.png",
+          "/assets/images/notionworx-inventory/trade-show-essentials/trade-show-essential-10x15-custom-canopy-tent-14-15/04.jpg",
+          "/assets/images/notionworx-inventory/trade-show-essentials/trade-show-essential-10x15-custom-canopy-tent-14-15/05.png",
+          "/assets/images/notionworx-inventory/trade-show-essentials/trade-show-essential-10x15-custom-canopy-tent-14-15/06.jpg",
+          "/assets/images/notionworx-inventory/trade-show-essentials/trade-show-essential-10x15-custom-canopy-tent-14-15/07.jpg",
+          "/assets/images/notionworx-inventory/trade-show-essentials/trade-show-essential-10x15-custom-canopy-tent-14-15/08.jpg",
+          "/assets/images/notionworx-inventory/trade-show-essentials/trade-show-essential-10x15-custom-canopy-tent-14-15/09.jpg"
+        ],
+        "inventory_data_path": "data/inventory/notionworx/products/trade-show-essentials/trade-show-essential-10x15-custom-canopy-tent-14-15.json",
+        "created_at": "2025-11-03T12:12:58-07:00",
+        "updated_at": "2026-08-18T21:23:46-06:00",
+        "published_at": "2025-11-03T12:13:02-07:00"
+      },
+      "sales_channels": [
+        {
+          "id": "sc_01M1E72H3K3S5QG6P0R7700SH4"
+        }
+      ]
+    },
+    {
+      "title": "Trade Show Essential 10x20 Custom Canopy Tent – HEX Aluminum Frame, Full Back Wall & Half Side Walls + Flags + Table Cover",
+      "handle": "trade-show-essential-10x20-custom-canopy-tent-15-20",
+      "external_id": "8258263482503",
+      "description": "Specsheet Warning Label Fire Certificate\n\nTrade Show Essential 10x20 Custom Canopy Tent\n\nMake your booth unforgettable with our 10x20 Trade Show Essential Custom Canopy Tent, designed for trade shows, large exhibitions, and outdoor events. This professional-grade tent combines durability, branding, and convenient setup, helping your brand attract more visitors and make a lasting impression.\n\n💪 HEX Aluminum Frame (Silver): Strong, lightweight, and stable for reliable long-term use.\n\n🎨 Custom Printing: Full-color dye-sublimation printing on canopy top, full back wall, and half side walls for vibrant, fade-resistant branding.\n\n🧱 Half Side Walls with Mesh: Solid fabric bottoms with mesh tops for ventilation and customer visibility.\n\n🧵 Full Back Wall: Printed inward for a professional interior appearance.\n\n🪁 Optional Accessories: 2-12' Double Sided Stand Alone Flags and Table Cover to complete your setup.\n\n☀️ Weather-Resistant Canopy: Made of 600 Denier Polyester, UV-protected and waterproof.\n\n⚙️ Quick Pop-Up Design: Tool-free assembly for fast setup in minutes.\n\n🧳 Wheeled Carry Bag Included: Convenient transport and storage for the frame.\n\n🎁 Complete Package: Frame, canopy top, printed walls, wheeled carry bag, free design service, fast delivery, and optional accessories for a fully branded booth.\n\nPrimary Usage: Trade shows, large outdoor events, brand activations, pop-up booths, and exhibitions.",
+      "status": "published",
+      "images": [
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/trade-show-essentials/trade-show-essential-10x20-custom-canopy-tent-15-20/01.png"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/trade-show-essentials/trade-show-essential-10x20-custom-canopy-tent-15-20/02.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/trade-show-essentials/trade-show-essential-10x20-custom-canopy-tent-15-20/03.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/trade-show-essentials/trade-show-essential-10x20-custom-canopy-tent-15-20/04.png"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/trade-show-essentials/trade-show-essential-10x20-custom-canopy-tent-15-20/05.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/trade-show-essentials/trade-show-essential-10x20-custom-canopy-tent-15-20/06.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/trade-show-essentials/trade-show-essential-10x20-custom-canopy-tent-15-20/07.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/trade-show-essentials/trade-show-essential-10x20-custom-canopy-tent-15-20/08.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/trade-show-essentials/trade-show-essential-10x20-custom-canopy-tent-15-20/09.jpg"
+        }
+      ],
+      "thumbnail": "https://notionworxcanopy.com/assets/images/notionworx-inventory/trade-show-essentials/trade-show-essential-10x20-custom-canopy-tent-15-20/01.png",
+      "options": [
+        {
+          "title": "Default option",
+          "values": [
+            "Default option value"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "Default variant",
+          "sku": "ITEM #:19-20",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 179500,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Default option": "Default option value"
+          },
+          "metadata": {
+            "source_variant_id": 43429412143239,
+            "source_requires_shipping": true,
+            "source_taxable": false,
+            "source_grams": 0,
+            "source_position": 1,
+            "source_option_values": [
+              "Default Title"
+            ],
+            "source_compare_at_price": 1804.5
+          }
+        }
+      ],
+      "metadata": {
+        "source": "notionworx-inventory",
+        "source_handle": "trade-show-essential-10x20-custom-canopy-tent-15-20",
+        "source_product_id": 8258263482503,
+        "source_slug": "trade-show-essential-10x20-custom-canopy-tent-15-20",
+        "source_vendor": "Notion Worx",
+        "source_product_type": null,
+        "source_primary_category": {
+          "handle": "trade-show-essentials",
+          "title": "Trade Show Essentials – 10x10, 10x15 & 10x20 Custom Canopy Tents for Events & Exhibits"
+        },
+        "source_categories": [
+          {
+            "handle": "trade-show-essentials",
+            "title": "Trade Show Essentials – 10x10, 10x15 & 10x20 Custom Canopy Tents for Events & Exhibits"
+          },
+          {
+            "handle": "best-selling-10x10-custom-canopy-tents",
+            "title": "Best Selling 10x10 Custom Canopy Tents – Tradeshow & Food Booth Essentials"
+          }
+        ],
+        "source_price": {
+          "min": 1795.0,
+          "max": 1795.0,
+          "compareAtMin": 1804.5,
+          "compareAtMax": 1804.5,
+          "variantCount": 1
+        },
+        "source_tags": [],
+        "source_skus": [
+          "ITEM #:19-20"
+        ],
+        "description_html": "<h4><a href=\"https://displaytemplate.s3-us-west-2.amazonaws.com/Product+setup+instruction/Inst_10x10_TENT_Universal_curves.pdf\">Specsheet</a> <a href=\"https://drive.google.com/file/d/1jv_fBUek_UZYUHvBv_DMJG5tk42yIiah/view?usp=drive_link\">Warning Label</a> <a href=\"https://drive.google.com/file/d/1lPLYIldqjlfbOpvvoZGq-ETmb5Lb207s/view?usp=sharing\">Fire Certificate</a></h4>\n<h3>Trade Show Essential 10x20 Custom Canopy Tent</h3>\n<p>Make your booth unforgettable with our 10x20 Trade Show Essential Custom Canopy Tent, designed for trade shows, large exhibitions, and outdoor events. This professional-grade tent combines durability, branding, and convenient setup, helping your brand attract more visitors and make a lasting impression.</p>\n\n<p>💪 HEX Aluminum Frame (Silver): Strong, lightweight, and stable for reliable long-term use.</p>\n<p>🎨 Custom Printing: Full-color dye-sublimation printing on canopy top, full back wall, and half side walls for vibrant, fade-resistant branding.</p>\n<p>🧱 Half Side Walls with Mesh: Solid fabric bottoms with mesh tops for ventilation and customer visibility.</p>\n<p>🧵 Full Back Wall: Printed inward for a professional interior appearance.</p>\n<p>🪁 Optional Accessories: 2-12&#x27; Double Sided Stand Alone Flags and Table Cover to complete your setup.</p>\n<p>☀️ Weather-Resistant Canopy: Made of 600 Denier Polyester, UV-protected and waterproof.</p>\n<p>⚙️ Quick Pop-Up Design: Tool-free assembly for fast setup in minutes.</p>\n<p>🧳 Wheeled Carry Bag Included: Convenient transport and storage for the frame.</p>\n<p>🎁 Complete Package: Frame, canopy top, printed walls, wheeled carry bag, free design service, fast delivery, and optional accessories for a fully branded booth.</p>\n<p>Primary Usage: Trade shows, large outdoor events, brand activations, pop-up booths, and exhibitions.</p>",
+        "description_text": "Specsheet Warning Label Fire Certificate\n\nTrade Show Essential 10x20 Custom Canopy Tent\n\nMake your booth unforgettable with our 10x20 Trade Show Essential Custom Canopy Tent, designed for trade shows, large exhibitions, and outdoor events. This professional-grade tent combines durability, branding, and convenient setup, helping your brand attract more visitors and make a lasting impression.\n\n💪 HEX Aluminum Frame (Silver): Strong, lightweight, and stable for reliable long-term use.\n\n🎨 Custom Printing: Full-color dye-sublimation printing on canopy top, full back wall, and half side walls for vibrant, fade-resistant branding.\n\n🧱 Half Side Walls with Mesh: Solid fabric bottoms with mesh tops for ventilation and customer visibility.\n\n🧵 Full Back Wall: Printed inward for a professional interior appearance.\n\n🪁 Optional Accessories: 2-12' Double Sided Stand Alone Flags and Table Cover to complete your setup.\n\n☀️ Weather-Resistant Canopy: Made of 600 Denier Polyester, UV-protected and waterproof.\n\n⚙️ Quick Pop-Up Design: Tool-free assembly for fast setup in minutes.\n\n🧳 Wheeled Carry Bag Included: Convenient transport and storage for the frame.\n\n🎁 Complete Package: Frame, canopy top, printed walls, wheeled carry bag, free design service, fast delivery, and optional accessories for a fully branded booth.\n\nPrimary Usage: Trade shows, large outdoor events, brand activations, pop-up booths, and exhibitions.",
+        "how_to_order_html": "<ul>\n  <li>SKU ITEM #:19-20</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
+        "how_to_order_text": "- SKU ITEM #:19-20\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
+        "dimensions_html": "<p>🏕️ Product Size: 120&quot; W x 137&quot; H x 240&quot; D – spacious 10x20 setup for maximum trade show coverage.</p>",
+        "dimensions_text": "🏕️ Product Size: 120\" W x 137\" H x 240\" D – spacious 10x20 setup for maximum trade show coverage.",
+        "warranty_html": "<h3>Factory Warranty</h3>\n<ul>\n  <li>We stand behind the quality of our products. Our warranty covers any factory defects or damage that occurs during shipping. However, please note that we do not cover damage resulting from extreme weather conditions, misuse, or any circumstances beyond our control.</li>\n</ul>",
+        "warranty_text": "Factory Warranty\n\n- We stand behind the quality of our products. Our warranty covers any factory defects or damage that occurs during shipping. However, please note that we do not cover damage resulting from extreme weather conditions, misuse, or any circumstances beyond our control.",
+        "source_options": [
+          {
+            "name": "Title",
+            "position": 1,
+            "values": [
+              "Default Title"
+            ]
+          }
+        ],
+        "source_variants": [
+          {
+            "id": 43429412143239,
+            "title": "Default Title",
+            "sku": "ITEM #:19-20",
+            "available": true,
+            "price": 1795.0,
+            "compareAtPrice": 1804.5,
+            "optionValues": [
+              "Default Title"
+            ],
+            "requiresShipping": true,
+            "taxable": false,
+            "grams": 0,
+            "position": 1
+          }
+        ],
+        "source_variant_label": null,
+        "source_sizes": [
+          "Default option"
+        ],
+        "source_size_variants": [
+          {
+            "value": "Default option",
+            "price": 1795.0,
+            "compareAtPrice": 1804.5,
+            "active": true
+          }
+        ],
+        "source_filter_category": [
+          "Trade Show Essentials – 10x10, 10x15 & 10x20 Custom Canopy Tents for Events & Exhibits",
+          "Best Selling 10x10 Custom Canopy Tents – Tradeshow & Food Booth Essentials"
+        ],
+        "source_filter_sizes": [],
+        "source_reviews_text": "1 option",
+        "source_badge_label": "Trade Show Essentials – 10x10, 10x15 & 10x20 Custom Canopy Tents For Events & Exhibits",
+        "source_badge_subtext": "9 product images available",
+        "source_description": "Trade Show Essential 10x20 Custom Canopy Tent Make your booth unforgettable with our 10x20 Trade Show Essential Custom Canopy Tent, designed for trade shows, large exhibitions, and outdoor events. This professional-grade tent combines durability, branding, and convenient setup,…",
+        "source_card_variant": "",
+        "source_add_on_group_keys": [
+          "accessories-25d1f0408a5d",
+          "upgrades-c6e1b29af6ef"
+        ],
+        "local_image_paths": [
+          "/assets/images/notionworx-inventory/trade-show-essentials/trade-show-essential-10x20-custom-canopy-tent-15-20/01.png",
+          "/assets/images/notionworx-inventory/trade-show-essentials/trade-show-essential-10x20-custom-canopy-tent-15-20/02.jpg",
+          "/assets/images/notionworx-inventory/trade-show-essentials/trade-show-essential-10x20-custom-canopy-tent-15-20/03.jpg",
+          "/assets/images/notionworx-inventory/trade-show-essentials/trade-show-essential-10x20-custom-canopy-tent-15-20/04.png",
+          "/assets/images/notionworx-inventory/trade-show-essentials/trade-show-essential-10x20-custom-canopy-tent-15-20/05.jpg",
+          "/assets/images/notionworx-inventory/trade-show-essentials/trade-show-essential-10x20-custom-canopy-tent-15-20/06.jpg",
+          "/assets/images/notionworx-inventory/trade-show-essentials/trade-show-essential-10x20-custom-canopy-tent-15-20/07.jpg",
+          "/assets/images/notionworx-inventory/trade-show-essentials/trade-show-essential-10x20-custom-canopy-tent-15-20/08.jpg",
+          "/assets/images/notionworx-inventory/trade-show-essentials/trade-show-essential-10x20-custom-canopy-tent-15-20/09.jpg"
+        ],
+        "inventory_data_path": "data/inventory/notionworx/products/trade-show-essentials/trade-show-essential-10x20-custom-canopy-tent-15-20.json",
+        "created_at": "2025-11-03T12:23:52-07:00",
+        "updated_at": "2026-08-18T21:23:46-06:00",
+        "published_at": "2025-11-03T12:23:55-07:00"
+      },
+      "sales_channels": [
+        {
+          "id": "sc_01M1E72H3K3S5QG6P0R7700SH4"
+        }
+      ]
+    }
+  ]
+}

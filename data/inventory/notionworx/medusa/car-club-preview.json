@@ -1,0 +1,28 @@
+{
+  "baseUrl": "https://api.notionworxcanopy.com",
+  "siteUrl": "https://notionworxcanopy.com",
+  "mode": "apply",
+  "collectionHandle": "car-club",
+  "region": {
+    "id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X",
+    "currency_code": "eur",
+    "name": "Europe"
+  },
+  "salesChannelId": "sc_01M1E72H3K3S5QG6P0R7700SH4",
+  "collection": {
+    "title": "Car Club",
+    "handle": "car-club",
+    "metadata": {
+      "source": "notionworx-inventory",
+      "source_handle": "car-club",
+      "source_title": "Car Club",
+      "source_description": "<p><img src=\"\" alt=\"\" style=\"display: block; margin-left: auto; margin-right: auto;\"></p>\n<p><img src=\"\" alt=\"\" style=\"display: block; margin-left: auto; margin-right: auto;\"><img src=\"\" alt=\"\" style=\"display: block; margin-left: auto; margin-right: auto;\"><img src=\"\" alt=\"\" style=\"display: block; margin-left: auto; margin-right: auto;\"><img src=\"\" alt=\"\" style=\"display: block; margin-left: auto; margin-right: auto;\"><img src=\"\" alt=\"\" style=\"display: block; margin-left: auto; margin-right: auto;\"><img src=\"\" alt=\"\" style=\"display: block; margin-left: auto; margin-right: auto;\"><img src=\"\" alt=\"\" style=\"display: block; margin-left: auto; margin-right: auto;\"><img src=\"\" alt=\"\" style=\"display: block; margin-left: auto; margin-right: auto;\"><img src=\"\" alt=\"\" style=\"display: block; margin-left: auto; margin-right: auto;\"><img src=\"\" alt=\"\" style=\"display: block; margin-left: auto; margin-right: auto;\"><img src=\"\" alt=\"\" style=\"display: block; margin-left: auto; margin-right: auto;\"><img src=\"\" alt=\"\" style=\"display: block; margin-left: auto; margin-right: auto;\"><img src=\"\" alt=\"\" style=\"display: block; margin-left: auto; margin-right: auto;\"></p>",
+      "source_products_count": 0,
+      "source_image_path": "/assets/images/notionworx-inventory/collections/car-club/01.png",
+      "source_image_url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/collections/car-club/01.png",
+      "inventory_data_path": "/inventory/notionworx/collections/car-club.json"
+    }
+  },
+  "productsCount": 0,
+  "products": []
+}

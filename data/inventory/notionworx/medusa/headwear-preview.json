@@ -1,0 +1,199 @@
+{
+  "baseUrl": "https://api.notionworxcanopy.com",
+  "siteUrl": "https://notionworxcanopy.com",
+  "mode": "apply",
+  "collectionHandle": "headwear",
+  "region": {
+    "id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X",
+    "currency_code": "eur",
+    "name": "Europe"
+  },
+  "salesChannelId": "sc_01M1E72H3K3S5QG6P0R7700SH4",
+  "collection": {
+    "title": "HEADWEAR",
+    "handle": "headwear",
+    "metadata": {
+      "source": "notionworx-inventory",
+      "source_handle": "headwear",
+      "source_title": "HEADWEAR",
+      "source_description": "",
+      "source_products_count": 1,
+      "source_image_path": "/assets/images/notionworx-inventory/collections/headwear/01.jpg",
+      "source_image_url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/collections/headwear/01.jpg",
+      "inventory_data_path": "/inventory/notionworx/collections/headwear.json"
+    }
+  },
+  "productsCount": 1,
+  "products": [
+    {
+      "title": "Sublimated Bucket Hat #500093",
+      "handle": "sublimated-bucket-hat",
+      "external_id": "8227675635847",
+      "description": "- Download Template\n\n- 100% polyester bucket hat\n\n- Full color edge to edge dye-sublimation\n\n- Reversible, both side imprint\n\n- Perfect for any kind of event!\n\nWe ship to Canada!",
+      "status": "published",
+      "images": [
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/headwear/sublimated-bucket-hat/01.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/headwear/sublimated-bucket-hat/02.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/headwear/sublimated-bucket-hat/03.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/headwear/sublimated-bucket-hat/04.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/headwear/sublimated-bucket-hat/05.jpg"
+        }
+      ],
+      "thumbnail": "https://notionworxcanopy.com/assets/images/notionworx-inventory/headwear/sublimated-bucket-hat/01.jpg",
+      "options": [
+        {
+          "title": "Default option",
+          "values": [
+            "Default option value"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "Default variant",
+          "sku": "500093",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 1400,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Default option": "Default option value"
+          },
+          "metadata": {
+            "source_variant_id": 43238165971079,
+            "source_requires_shipping": true,
+            "source_taxable": true,
+            "source_grams": 907,
+            "source_position": 1,
+            "source_sku": "500093",
+            "source_option_values": [
+              "Default Title"
+            ],
+            "source_compare_at_price": null
+          }
+        }
+      ],
+      "metadata": {
+        "source": "notionworx-inventory",
+        "source_handle": "sublimated-bucket-hat",
+        "source_product_id": 8227675635847,
+        "source_slug": "sublimated-bucket-hat",
+        "source_vendor": "Notion Worx",
+        "source_product_type": null,
+        "source_primary_category": {
+          "handle": "headwear",
+          "title": "HEADWEAR"
+        },
+        "source_categories": [
+          {
+            "handle": "headwear",
+            "title": "HEADWEAR"
+          },
+          {
+            "handle": "bag",
+            "title": "BAG"
+          }
+        ],
+        "source_price": {
+          "min": 14.0,
+          "max": 14.0,
+          "compareAtMin": null,
+          "compareAtMax": null,
+          "variantCount": 1
+        },
+        "source_tags": [],
+        "source_skus": [
+          "500093"
+        ],
+        "description_html": "<ul>\n  <li><a href=\"https://www.dropbox.com/scl/fi/m8gfiv0hwtnyi16aue5w4/bucket-hat-1.pdf?rlkey=ipaynvlaaekjr1ed5cdxptqez&amp;dl=0\">Download Template</a></li>\n  <li>100% polyester bucket hat</li>\n  <li>Full color edge to edge dye-sublimation</li>\n  <li>Reversible, both side imprint</li>\n  <li>Perfect for any kind of event!</li>\n</ul>\n<img src=\"https://www.showdowndisplays.com/cdn/StaticMisc/canada-flag.jpg\" alt=\"\">\n<p>We ship to Canada!</p>",
+        "description_text": "- Download Template\n\n- 100% polyester bucket hat\n\n- Full color edge to edge dye-sublimation\n\n- Reversible, both side imprint\n\n- Perfect for any kind of event!\n\nWe ship to Canada!",
+        "how_to_order_html": "<ul>\n  <li>SKU 500093</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
+        "how_to_order_text": "SKU 500093\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
+        "dimensions_html": null,
+        "dimensions_text": null,
+        "warranty_html": null,
+        "warranty_text": null,
+        "source_options": [
+          {
+            "name": "Title",
+            "position": 1,
+            "values": [
+              "Default Title"
+            ]
+          }
+        ],
+        "source_variants": [
+          {
+            "id": 43238165971079,
+            "title": "Default Title",
+            "sku": "500093",
+            "available": true,
+            "price": 14.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "Default Title"
+            ],
+            "requiresShipping": true,
+            "taxable": true,
+            "grams": 907,
+            "position": 1
+          }
+        ],
+        "source_variant_label": null,
+        "source_sizes": [
+          "Default option"
+        ],
+        "source_size_variants": [
+          {
+            "value": "Default option",
+            "price": 14.0,
+            "active": true
+          }
+        ],
+        "source_filter_category": [
+          "HEADWEAR",
+          "BAG"
+        ],
+        "source_filter_sizes": [],
+        "source_reviews_text": "1 option",
+        "source_badge_label": "Headwear",
+        "source_badge_subtext": "5 product images available",
+        "source_description": "- - 100% polyester bucket hat - Full color edge to edge dye-sublimation - Reversible, both side imprint - Perfect for any kind of event! We ship to Canada!",
+        "source_card_variant": "",
+        "source_add_on_group_keys": [],
+        "local_image_paths": [
+          "/assets/images/notionworx-inventory/headwear/sublimated-bucket-hat/01.jpg",
+          "/assets/images/notionworx-inventory/headwear/sublimated-bucket-hat/02.jpg",
+          "/assets/images/notionworx-inventory/headwear/sublimated-bucket-hat/03.jpg",
+          "/assets/images/notionworx-inventory/headwear/sublimated-bucket-hat/04.jpg",
+          "/assets/images/notionworx-inventory/headwear/sublimated-bucket-hat/05.jpg"
+        ],
+        "inventory_data_path": "data/inventory/notionworx/products/headwear/sublimated-bucket-hat.json",
+        "created_at": "2025-09-25T12:36:29-06:00",
+        "updated_at": "2026-08-18T21:25:51-06:00",
+        "published_at": "2025-09-28T20:18:35-06:00"
+      },
+      "sales_channels": [
+        {
+          "id": "sc_01M1E72H3K3S5QG6P0R7700SH4"
+        }
+      ]
+    }
+  ]
+}

@@ -1,11 +1,16 @@
 "use client";
 
 import { useProduct } from "@/context/ProductContext";
+import { FrameTypeVariantPicker } from "./FrameTypeVariantPicker";
 import { COLOR_PICKERS } from "./colorPickersMap";
 import { SIZE_PICKERS } from "./sizePickersMap";
 import type { ProductVariantColorType, ProductVariantSizeType } from "./types";
 
 export type { ProductVariantColorType, ProductVariantSizeType } from "./types";
+
+function isFrameTypeVariantLabel(label: string) {
+  return label.trim().toLowerCase() === "frame type";
+}
 
 export function ProductVariantPicker({
   colorType = "image",
@@ -37,12 +42,21 @@ export function ProductVariantPicker({
         />
       )}
       {sizes.length > 0 && (
-        <SizePicker
-          sizes={sizes}
-          variantLabel={variantLabel}
-          currentSize={currentSize}
-          setCurrentSize={setCurrentSize}
-        />
+        isFrameTypeVariantLabel(variantLabel) ? (
+          <FrameTypeVariantPicker
+            sizes={sizes}
+            variantLabel={variantLabel}
+            currentSize={currentSize}
+            setCurrentSize={setCurrentSize}
+          />
+        ) : (
+          <SizePicker
+            sizes={sizes}
+            variantLabel={variantLabel}
+            currentSize={currentSize}
+            setCurrentSize={setCurrentSize}
+          />
+        )
       )}
     </>
   );
