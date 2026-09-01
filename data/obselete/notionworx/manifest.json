@@ -1,0 +1,515 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-01T13:49:06Z",
+  "collectionCount": 1,
+  "categoryFolderCount": 2,
+  "productCount": 45,
+  "uncategorizedProductCount": 0,
+  "imageCount": 91,
+  "collections": [
+    {
+      "handle": "apparel",
+      "title": "APPAREL",
+      "productsCount": 45,
+      "filePath": "data/obselete/notionworx/collections/apparel.json"
+    }
+  ],
+  "products": [
+    {
+      "handle": "1-4-zipper-jacket-full-dye-sublimation",
+      "name": "150GSM Mesh Jersey 1/4 Zipper Jacket (Full Dye Sublimation) #500024",
+      "primaryCategoryHandle": "apparel",
+      "primaryCategoryTitle": "APPAREL",
+      "dataPath": "data/obselete/notionworx/products/apparel/1-4-zipper-jacket-full-dye-sublimation.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/apparel/1-4-zipper-jacket-full-dye-sublimation/01.jpg"
+      ]
+    },
+    {
+      "handle": "120gsm-milk-silk-1-4-zip-polo-shirt-full-dye-sublimation-500058",
+      "name": "120GSM Milk Silk 1/4 Zip Polo Shirt (Full Dye Sublimation) #500058",
+      "primaryCategoryHandle": "apparel",
+      "primaryCategoryTitle": "APPAREL",
+      "dataPath": "data/obselete/notionworx/products/apparel/120gsm-milk-silk-1-4-zip-polo-shirt-full-dye-sublimation-500058.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-1-4-zip-polo-shirt-full-dye-sublimation-500058/01.jpg"
+      ]
+    },
+    {
+      "handle": "120gsm-milk-silk-1-4-zipper-jacket-full-dye-sublimation-500059",
+      "name": "120GSM Milk Silk 1/4 Zipper Jacket (Full Dye Sublimation) #500059",
+      "primaryCategoryHandle": "apparel",
+      "primaryCategoryTitle": "APPAREL",
+      "dataPath": "data/obselete/notionworx/products/apparel/120gsm-milk-silk-1-4-zipper-jacket-full-dye-sublimation-500059.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-1-4-zipper-jacket-full-dye-sublimation-500059/01.jpg"
+      ]
+    },
+    {
+      "handle": "120gsm-milk-silk-crew-neck-sleeveless-full-dye-sublimation-500005",
+      "name": "120GSM Milk Silk Crew Neck Sleeveless (Full Dye Sublimation) #500046",
+      "primaryCategoryHandle": "apparel",
+      "primaryCategoryTitle": "APPAREL",
+      "dataPath": "data/obselete/notionworx/products/apparel/120gsm-milk-silk-crew-neck-sleeveless-full-dye-sublimation-500005.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-crew-neck-sleeveless-full-dye-sublimation-500005/01.jpg",
+        "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-crew-neck-sleeveless-full-dye-sublimation-500005/02.jpg",
+        "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-crew-neck-sleeveless-full-dye-sublimation-500005/03.png",
+        "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-crew-neck-sleeveless-full-dye-sublimation-500005/04.png",
+        "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-crew-neck-sleeveless-full-dye-sublimation-500005/05.png"
+      ]
+    },
+    {
+      "handle": "120gsm-milk-silk-custom-button-down-baseball-jersey-full-dye-sublimation-50058",
+      "name": "120GSM Milk Silk Custom Button Down Baseball Jersey (Full Dye Sublimation) #500044",
+      "primaryCategoryHandle": "apparel",
+      "primaryCategoryTitle": "APPAREL",
+      "dataPath": "data/obselete/notionworx/products/apparel/120gsm-milk-silk-custom-button-down-baseball-jersey-full-dye-sublimation-50058.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-custom-button-down-baseball-jersey-full-dye-sublimation-50058/01.jpg"
+      ]
+    },
+    {
+      "handle": "120gsm-milk-silk-long-sleeve-crew-neck-full-dye-sublimation-500003",
+      "name": "120GSM Milk Silk Long Sleeve Crew Neck (Full Dye Sublimation)#500041",
+      "primaryCategoryHandle": "apparel",
+      "primaryCategoryTitle": "APPAREL",
+      "dataPath": "data/obselete/notionworx/products/apparel/120gsm-milk-silk-long-sleeve-crew-neck-full-dye-sublimation-500003.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-long-sleeve-crew-neck-full-dye-sublimation-500003/01.jpg",
+        "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-long-sleeve-crew-neck-full-dye-sublimation-500003/02.jpg"
+      ]
+    },
+    {
+      "handle": "120gsm-milk-silk-long-sleeve-hoodie-t-shirt-full-dye-sublimation-500138",
+      "name": "120GSM Milk Silk Long Sleeve Hoodie T-shirt (Full Dye Sublimation)#500138",
+      "primaryCategoryHandle": "apparel",
+      "primaryCategoryTitle": "APPAREL",
+      "dataPath": "data/obselete/notionworx/products/apparel/120gsm-milk-silk-long-sleeve-hoodie-t-shirt-full-dye-sublimation-500138.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-long-sleeve-hoodie-t-shirt-full-dye-sublimation-500138/01.jpg",
+        "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-long-sleeve-hoodie-t-shirt-full-dye-sublimation-500138/02.jpg",
+        "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-long-sleeve-hoodie-t-shirt-full-dye-sublimation-500138/03.jpg"
+      ]
+    },
+    {
+      "handle": "120gsm-milk-silk-long-sleeve-v-neck-full-dye-sublimation-500004",
+      "name": "120GSM Milk Silk Long Sleeve V- neck (Full Dye Sublimation)#500042",
+      "primaryCategoryHandle": "apparel",
+      "primaryCategoryTitle": "APPAREL",
+      "dataPath": "data/obselete/notionworx/products/apparel/120gsm-milk-silk-long-sleeve-v-neck-full-dye-sublimation-500004.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-long-sleeve-v-neck-full-dye-sublimation-500004/01.jpg",
+        "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-long-sleeve-v-neck-full-dye-sublimation-500004/02.png"
+      ]
+    },
+    {
+      "handle": "120gsm-milk-silk-short-sleeve-crew-neck-full-dye-sublimation-500040",
+      "name": "120GSM Milk Silk Short Sleeve Crew Neck (Full Dye Sublimation) #500040",
+      "primaryCategoryHandle": "apparel",
+      "primaryCategoryTitle": "APPAREL",
+      "dataPath": "data/obselete/notionworx/products/apparel/120gsm-milk-silk-short-sleeve-crew-neck-full-dye-sublimation-500040.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-short-sleeve-crew-neck-full-dye-sublimation-500040/01.jpg",
+        "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-short-sleeve-crew-neck-full-dye-sublimation-500040/02.jpg"
+      ]
+    },
+    {
+      "handle": "120gsm-milk-silk-short-sleeve-v-neck-full-dye-sublimation-500001",
+      "name": "120GSM Milk Silk Short Sleeve V Neck (Full Dye Sublimation)#500043",
+      "primaryCategoryHandle": "apparel",
+      "primaryCategoryTitle": "APPAREL",
+      "dataPath": "data/obselete/notionworx/products/apparel/120gsm-milk-silk-short-sleeve-v-neck-full-dye-sublimation-500001.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-short-sleeve-v-neck-full-dye-sublimation-500001/01.jpg",
+        "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-short-sleeve-v-neck-full-dye-sublimation-500001/02.jpg"
+      ]
+    },
+    {
+      "handle": "120gsm-milk-silk-sport-polo-shirt-full-button-full-dye-sublimation-500075",
+      "name": "120GSM Milk Silk Sport Polo Shirt Full Button (Full Dye Sublimation) #500075",
+      "primaryCategoryHandle": "apparel",
+      "primaryCategoryTitle": "APPAREL",
+      "dataPath": "data/obselete/notionworx/products/apparel/120gsm-milk-silk-sport-polo-shirt-full-button-full-dye-sublimation-500075.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-sport-polo-shirt-full-button-full-dye-sublimation-500075/01.png",
+        "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-sport-polo-shirt-full-button-full-dye-sublimation-500075/02.png",
+        "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-sport-polo-shirt-full-button-full-dye-sublimation-500075/03.png"
+      ]
+    },
+    {
+      "handle": "120gsm-milk-silk-sport-polo-shirt-full-dye-sublimation-500045",
+      "name": "120GSM Milk Silk Sport Polo Shirt (Full Dye Sublimation) #500045",
+      "primaryCategoryHandle": "apparel",
+      "primaryCategoryTitle": "APPAREL",
+      "dataPath": "data/obselete/notionworx/products/apparel/120gsm-milk-silk-sport-polo-shirt-full-dye-sublimation-500045.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-sport-polo-shirt-full-dye-sublimation-500045/01.png",
+        "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-sport-polo-shirt-full-dye-sublimation-500045/02.png",
+        "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-sport-polo-shirt-full-dye-sublimation-500045/03.png",
+        "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-sport-polo-shirt-full-dye-sublimation-500045/04.webp"
+      ]
+    },
+    {
+      "handle": "120gsm-milk-silk-v-neck-sleeveless-full-dye-sublimation-500087",
+      "name": "120GSM Milk Silk V Neck Sleeveless (Full Dye Sublimation) #500087",
+      "primaryCategoryHandle": "apparel",
+      "primaryCategoryTitle": "APPAREL",
+      "dataPath": "data/obselete/notionworx/products/apparel/120gsm-milk-silk-v-neck-sleeveless-full-dye-sublimation-500087.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-v-neck-sleeveless-full-dye-sublimation-500087/01.jpg"
+      ]
+    },
+    {
+      "handle": "150gsm-mesh-cycling-jersey-long-sleeve-full-dye-sublimation",
+      "name": "150GSM Mesh Cycling Jersey Long Sleeve (Full Dye Sublimation) #500034",
+      "primaryCategoryHandle": "apparel",
+      "primaryCategoryTitle": "APPAREL",
+      "dataPath": "data/obselete/notionworx/products/apparel/150gsm-mesh-cycling-jersey-long-sleeve-full-dye-sublimation.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/apparel/150gsm-mesh-cycling-jersey-long-sleeve-full-dye-sublimation/01.jpg"
+      ]
+    },
+    {
+      "handle": "150gsm-mesh-jersey-1-4-zip-polo-shirt-full-dye-sublimation-500052",
+      "name": "150GSM Mesh Jersey 1/4 Zip Polo Shirt (Full Dye Sublimation) #500052",
+      "primaryCategoryHandle": "apparel",
+      "primaryCategoryTitle": "APPAREL",
+      "dataPath": "data/obselete/notionworx/products/apparel/150gsm-mesh-jersey-1-4-zip-polo-shirt-full-dye-sublimation-500052.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/apparel/150gsm-mesh-jersey-1-4-zip-polo-shirt-full-dye-sublimation-500052/01.jpg"
+      ]
+    },
+    {
+      "handle": "150gsm-mesh-jersey-football-jersey-full-dye-sublimation-500150",
+      "name": "150GSM Mesh Jersey Football Jersey (Full Dye Sublimation) #500150",
+      "primaryCategoryHandle": "apparel",
+      "primaryCategoryTitle": "APPAREL",
+      "dataPath": "data/obselete/notionworx/products/apparel/150gsm-mesh-jersey-football-jersey-full-dye-sublimation-500150.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/apparel/150gsm-mesh-jersey-football-jersey-full-dye-sublimation-500150/01.jpg",
+        "/assets/images/notionworx-inventory/apparel/150gsm-mesh-jersey-football-jersey-full-dye-sublimation-500150/02.jpg",
+        "/assets/images/notionworx-inventory/apparel/150gsm-mesh-jersey-football-jersey-full-dye-sublimation-500150/03.jpg",
+        "/assets/images/notionworx-inventory/apparel/150gsm-mesh-jersey-football-jersey-full-dye-sublimation-500150/04.jpg",
+        "/assets/images/notionworx-inventory/apparel/150gsm-mesh-jersey-football-jersey-full-dye-sublimation-500150/05.jpg"
+      ]
+    },
+    {
+      "handle": "150gsm-mesh-jersey-v-neck-sleeveless-full-dye-sublimation-500086",
+      "name": "150GSM Mesh Jersey V Neck Sleeveless (Full Dye Sublimation) #500086",
+      "primaryCategoryHandle": "apparel",
+      "primaryCategoryTitle": "APPAREL",
+      "dataPath": "data/obselete/notionworx/products/apparel/150gsm-mesh-jersey-v-neck-sleeveless-full-dye-sublimation-500086.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/apparel/150gsm-mesh-jersey-v-neck-sleeveless-full-dye-sublimation-500086/01.jpg"
+      ]
+    },
+    {
+      "handle": "crew-neck-sleeveless-full-dye-sublimation",
+      "name": "150GSM Mesh Jersey Crew Neck Sleeveless (Full Dye Sublimation) #500005",
+      "primaryCategoryHandle": "apparel",
+      "primaryCategoryTitle": "APPAREL",
+      "dataPath": "data/obselete/notionworx/products/apparel/crew-neck-sleeveless-full-dye-sublimation.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/apparel/crew-neck-sleeveless-full-dye-sublimation/01.jpg",
+        "/assets/images/notionworx-inventory/apparel/crew-neck-sleeveless-full-dye-sublimation/02.jpg",
+        "/assets/images/notionworx-inventory/apparel/crew-neck-sleeveless-full-dye-sublimation/03.png",
+        "/assets/images/notionworx-inventory/apparel/crew-neck-sleeveless-full-dye-sublimation/04.png",
+        "/assets/images/notionworx-inventory/apparel/crew-neck-sleeveless-full-dye-sublimation/05.png"
+      ]
+    },
+    {
+      "handle": "custom-2-button-baseball-jersey-full-dye-sublimation-50059",
+      "name": "150GSM Mesh Jersey Custom 2 Button Baseball Jersey (Full Dye Sublimation) #50059",
+      "primaryCategoryHandle": "apparel",
+      "primaryCategoryTitle": "APPAREL",
+      "dataPath": "data/obselete/notionworx/products/apparel/custom-2-button-baseball-jersey-full-dye-sublimation-50059.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/apparel/custom-2-button-baseball-jersey-full-dye-sublimation-50059/01.jpg"
+      ]
+    },
+    {
+      "handle": "custom-baseball-jersey-full-dye-sublimation",
+      "name": "150GSM Mesh Jersey Custom Button Down Baseball Jersey (Full Dye Sublimation) #50058",
+      "primaryCategoryHandle": "apparel",
+      "primaryCategoryTitle": "APPAREL",
+      "dataPath": "data/obselete/notionworx/products/apparel/custom-baseball-jersey-full-dye-sublimation.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/apparel/custom-baseball-jersey-full-dye-sublimation/01.jpg"
+      ]
+    },
+    {
+      "handle": "custom-hockey-jersey-full-dye-sublimation-500021",
+      "name": "150GSM Mesh Jersey Custom Hockey Jersey (Full Dye Sublimation) #500021",
+      "primaryCategoryHandle": "apparel",
+      "primaryCategoryTitle": "APPAREL",
+      "dataPath": "data/obselete/notionworx/products/apparel/custom-hockey-jersey-full-dye-sublimation-500021.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/apparel/custom-hockey-jersey-full-dye-sublimation-500021/01.jpg"
+      ]
+    },
+    {
+      "handle": "custom-lanyard-with-badge-holder",
+      "name": "Custom Lanyard with Badge Holder",
+      "primaryCategoryHandle": "accesories",
+      "primaryCategoryTitle": "Accessories",
+      "dataPath": "data/obselete/notionworx/products/accesories/custom-lanyard-with-badge-holder.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/accesories/custom-lanyard-with-badge-holder/01.jpg",
+        "/assets/images/notionworx-inventory/accesories/custom-lanyard-with-badge-holder/02.jpg",
+        "/assets/images/notionworx-inventory/accesories/custom-lanyard-with-badge-holder/03.jpg",
+        "/assets/images/notionworx-inventory/accesories/custom-lanyard-with-badge-holder/04.jpg",
+        "/assets/images/notionworx-inventory/accesories/custom-lanyard-with-badge-holder/05.jpg"
+      ]
+    },
+    {
+      "handle": "cycling-jerseys-full-dye-sublimation",
+      "name": "150GSM Mesh Jersey Cycling Jerseys (Full Dye Sublimation) #500033",
+      "primaryCategoryHandle": "apparel",
+      "primaryCategoryTitle": "APPAREL",
+      "dataPath": "data/obselete/notionworx/products/apparel/cycling-jerseys-full-dye-sublimation.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/apparel/cycling-jerseys-full-dye-sublimation/01.jpg",
+        "/assets/images/notionworx-inventory/apparel/cycling-jerseys-full-dye-sublimation/02.jpg"
+      ]
+    },
+    {
+      "handle": "full-zipper-hoodie-full-dye-sublimation-500025",
+      "name": "Full Zipper Hoodie (Full Dye Sublimation) #500025",
+      "primaryCategoryHandle": "apparel",
+      "primaryCategoryTitle": "APPAREL",
+      "dataPath": "data/obselete/notionworx/products/apparel/full-zipper-hoodie-full-dye-sublimation-500025.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/apparel/full-zipper-hoodie-full-dye-sublimation-500025/01.webp",
+        "/assets/images/notionworx-inventory/apparel/full-zipper-hoodie-full-dye-sublimation-500025/02.png"
+      ]
+    },
+    {
+      "handle": "grs-spf-50-120gsm-milk-silk-long-sleeve-crew-neck-full-dye-sublimation-500080",
+      "name": "GRS/SPF 50+ 120GSM Milk Silk Long Sleeve Crew Neck (Full Dye Sublimation)#500080",
+      "primaryCategoryHandle": "apparel",
+      "primaryCategoryTitle": "APPAREL",
+      "dataPath": "data/obselete/notionworx/products/apparel/grs-spf-50-120gsm-milk-silk-long-sleeve-crew-neck-full-dye-sublimation-500080.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/apparel/grs-spf-50-120gsm-milk-silk-long-sleeve-crew-neck-full-dye-sublimation-500080/01.jpg"
+      ]
+    },
+    {
+      "handle": "grs-spf-50-120gsm-milk-silk-short-sleeve-crew-neck-full-dye-sublimation-500079",
+      "name": "GRS/SPF 50+ 120GSM Milk Silk Short Sleeve Crew Neck (Full Dye Sublimation) #500079",
+      "primaryCategoryHandle": "apparel",
+      "primaryCategoryTitle": "APPAREL",
+      "dataPath": "data/obselete/notionworx/products/apparel/grs-spf-50-120gsm-milk-silk-short-sleeve-crew-neck-full-dye-sublimation-500079.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/apparel/grs-spf-50-120gsm-milk-silk-short-sleeve-crew-neck-full-dye-sublimation-500079/01.jpg"
+      ]
+    },
+    {
+      "handle": "grs-spf-50-150gsm-mesh-cycling-jersey-long-sleeve-full-dye-sublimation-500092",
+      "name": "GRS/SPF 50+ 150GSM Mesh Cycling Jersey Long Sleeve (Full Dye Sublimation) #500092",
+      "primaryCategoryHandle": "apparel",
+      "primaryCategoryTitle": "APPAREL",
+      "dataPath": "data/obselete/notionworx/products/apparel/grs-spf-50-150gsm-mesh-cycling-jersey-long-sleeve-full-dye-sublimation-500092.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/apparel/grs-spf-50-150gsm-mesh-cycling-jersey-long-sleeve-full-dye-sublimation-500092/01.jpg"
+      ]
+    },
+    {
+      "handle": "grs-spf-50-150gsm-mesh-jersey-cycling-jerseys-full-dye-sublimation-500091",
+      "name": "GRS/SPF 50+150GSM Mesh Jersey Cycling Jerseys (Full Dye Sublimation) #500091",
+      "primaryCategoryHandle": "apparel",
+      "primaryCategoryTitle": "APPAREL",
+      "dataPath": "data/obselete/notionworx/products/apparel/grs-spf-50-150gsm-mesh-jersey-cycling-jerseys-full-dye-sublimation-500091.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/apparel/grs-spf-50-150gsm-mesh-jersey-cycling-jerseys-full-dye-sublimation-500091/01.jpg",
+        "/assets/images/notionworx-inventory/apparel/grs-spf-50-150gsm-mesh-jersey-cycling-jerseys-full-dye-sublimation-500091/02.jpg",
+        "/assets/images/notionworx-inventory/apparel/grs-spf-50-150gsm-mesh-jersey-cycling-jerseys-full-dye-sublimation-500091/03.jpg",
+        "/assets/images/notionworx-inventory/apparel/grs-spf-50-150gsm-mesh-jersey-cycling-jerseys-full-dye-sublimation-500091/04.jpg",
+        "/assets/images/notionworx-inventory/apparel/grs-spf-50-150gsm-mesh-jersey-cycling-jerseys-full-dye-sublimation-500091/05.jpg"
+      ]
+    },
+    {
+      "handle": "grs-spf-50-150gsm-mesh-jersey-long-sleeve-crew-neck-full-dye-sublimation-500078",
+      "name": "GRS/SPF 50+ 150GSM Mesh Jersey Long Sleeve Crew Neck (Full Dye Sublimation) #500078",
+      "primaryCategoryHandle": "apparel",
+      "primaryCategoryTitle": "APPAREL",
+      "dataPath": "data/obselete/notionworx/products/apparel/grs-spf-50-150gsm-mesh-jersey-long-sleeve-crew-neck-full-dye-sublimation-500078.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/apparel/grs-spf-50-150gsm-mesh-jersey-long-sleeve-crew-neck-full-dye-sublimation-500078/01.jpg"
+      ]
+    },
+    {
+      "handle": "grs-spf-50-150gsm-mesh-jersey-long-sleeve-hoodie-t-shirt-full-dye-sublimation-500081",
+      "name": "GRS/SPF 50+ 150GSM Mesh Jersey Long Sleeve Hoodie T-shirt (Full Dye Sublimation)#500081",
+      "primaryCategoryHandle": "apparel",
+      "primaryCategoryTitle": "APPAREL",
+      "dataPath": "data/obselete/notionworx/products/apparel/grs-spf-50-150gsm-mesh-jersey-long-sleeve-hoodie-t-shirt-full-dye-sublimation-500081.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/apparel/grs-spf-50-150gsm-mesh-jersey-long-sleeve-hoodie-t-shirt-full-dye-sublimation-500081/01.jpg"
+      ]
+    },
+    {
+      "handle": "grs-spf-50-150gsm-mesh-jersey-long-sleeve-hoodie-t-shirt-full-dye-sublimation-500152",
+      "name": "GRS/SPF 50+ 120GSM Milk Silk Jersey Long Sleeve Hoodie T-shirt (Full Dye Sublimation)#500152",
+      "primaryCategoryHandle": "apparel",
+      "primaryCategoryTitle": "APPAREL",
+      "dataPath": "data/obselete/notionworx/products/apparel/grs-spf-50-150gsm-mesh-jersey-long-sleeve-hoodie-t-shirt-full-dye-sublimation-500152.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/apparel/grs-spf-50-150gsm-mesh-jersey-long-sleeve-hoodie-t-shirt-full-dye-sublimation-500152/01.jpg"
+      ]
+    },
+    {
+      "handle": "grs-spf-50-150gsm-mesh-jersey-short-sleeve-crew-neck-full-dye-sublimation-500077",
+      "name": "GRS/SPF 50+ 150GSM Mesh Jersey Short Sleeve Crew Neck (Full Dye Sublimation) #500077",
+      "primaryCategoryHandle": "apparel",
+      "primaryCategoryTitle": "APPAREL",
+      "dataPath": "data/obselete/notionworx/products/apparel/grs-spf-50-150gsm-mesh-jersey-short-sleeve-crew-neck-full-dye-sublimation-500077.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/apparel/grs-spf-50-150gsm-mesh-jersey-short-sleeve-crew-neck-full-dye-sublimation-500077/01.jpg"
+      ]
+    },
+    {
+      "handle": "long-sleeve-hoodie-t-shirt-full-dye-sublimation-500039",
+      "name": "150GSM Mesh Jersey Long Sleeve Hoodie T-shirt (Full Dye Sublimation)#500039",
+      "primaryCategoryHandle": "apparel",
+      "primaryCategoryTitle": "APPAREL",
+      "dataPath": "data/obselete/notionworx/products/apparel/long-sleeve-hoodie-t-shirt-full-dye-sublimation-500039.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/apparel/long-sleeve-hoodie-t-shirt-full-dye-sublimation-500039/01.webp"
+      ]
+    },
+    {
+      "handle": "long-sleeve-jersey-v-neck-full-dye-sublimation",
+      "name": "150GSM Mesh Jersey Long Sleeve V- neck (Full Dye Sublimation)#500004",
+      "primaryCategoryHandle": "apparel",
+      "primaryCategoryTitle": "APPAREL",
+      "dataPath": "data/obselete/notionworx/products/apparel/long-sleeve-jersey-v-neck-full-dye-sublimation.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/apparel/long-sleeve-jersey-v-neck-full-dye-sublimation/01.jpg",
+        "/assets/images/notionworx-inventory/apparel/long-sleeve-jersey-v-neck-full-dye-sublimation/02.jpg",
+        "/assets/images/notionworx-inventory/apparel/long-sleeve-jersey-v-neck-full-dye-sublimation/03.jpg",
+        "/assets/images/notionworx-inventory/apparel/long-sleeve-jersey-v-neck-full-dye-sublimation/04.jpg"
+      ]
+    },
+    {
+      "handle": "long-sleeve-round-neck-full-dye-sublimation",
+      "name": "150GSM Mesh Jersey Long Sleeve Crew Neck (Full Dye Sublimation)#500003",
+      "primaryCategoryHandle": "apparel",
+      "primaryCategoryTitle": "APPAREL",
+      "dataPath": "data/obselete/notionworx/products/apparel/long-sleeve-round-neck-full-dye-sublimation.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/apparel/long-sleeve-round-neck-full-dye-sublimation/01.webp",
+        "/assets/images/notionworx-inventory/apparel/long-sleeve-round-neck-full-dye-sublimation/02.jpg"
+      ]
+    },
+    {
+      "handle": "racerback-tank-full-dye-sublimation-500031",
+      "name": "150GSM Mesh Jersey Racerback Tank (Full Dye Sublimation) #500031",
+      "primaryCategoryHandle": "apparel",
+      "primaryCategoryTitle": "APPAREL",
+      "dataPath": "data/obselete/notionworx/products/apparel/racerback-tank-full-dye-sublimation-500031.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/apparel/racerback-tank-full-dye-sublimation-500031/01.jpg"
+      ]
+    },
+    {
+      "handle": "reversible-jersey-full-dye-sublimation",
+      "name": "Reversible Jersey - (Full Dye Sublimation) #50072",
+      "primaryCategoryHandle": "apparel",
+      "primaryCategoryTitle": "APPAREL",
+      "dataPath": "data/obselete/notionworx/products/apparel/reversible-jersey-full-dye-sublimation.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/apparel/reversible-jersey-full-dye-sublimation/01.jpg",
+        "/assets/images/notionworx-inventory/apparel/reversible-jersey-full-dye-sublimation/02.jpg"
+      ]
+    },
+    {
+      "handle": "short-sleeve-crew-neck-full-dye-sublimation",
+      "name": "150GSM Mesh Jersey Short Sleeve Crew Neck (Full Dye Sublimation) #500002",
+      "primaryCategoryHandle": "apparel",
+      "primaryCategoryTitle": "APPAREL",
+      "dataPath": "data/obselete/notionworx/products/apparel/short-sleeve-crew-neck-full-dye-sublimation.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/apparel/short-sleeve-crew-neck-full-dye-sublimation/01.jpg"
+      ]
+    },
+    {
+      "handle": "short-sleeve-hoodie-t-shirst-full-dye-sublimation-500038",
+      "name": "120GSM Milk Silk Short Sleeve Hoodie T-shirt (Full Dye Sublimation) #500038",
+      "primaryCategoryHandle": "apparel",
+      "primaryCategoryTitle": "APPAREL",
+      "dataPath": "data/obselete/notionworx/products/apparel/short-sleeve-hoodie-t-shirst-full-dye-sublimation-500038.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/apparel/short-sleeve-hoodie-t-shirst-full-dye-sublimation-500038/01.png"
+      ]
+    },
+    {
+      "handle": "short-sleeve-v-neck-full-dye-sublimation",
+      "name": "150GSM Mesh Jersey Short Sleeve V Neck (Full Dye Sublimation)#500001",
+      "primaryCategoryHandle": "apparel",
+      "primaryCategoryTitle": "APPAREL",
+      "dataPath": "data/obselete/notionworx/products/apparel/short-sleeve-v-neck-full-dye-sublimation.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/apparel/short-sleeve-v-neck-full-dye-sublimation/01.jpg",
+        "/assets/images/notionworx-inventory/apparel/short-sleeve-v-neck-full-dye-sublimation/02.jpg"
+      ]
+    },
+    {
+      "handle": "sleeveless-hoodie-full-dye-sublimation-500053",
+      "name": "Sleeveless Hoodie Full Dye Sublimation #500053",
+      "primaryCategoryHandle": "apparel",
+      "primaryCategoryTitle": "APPAREL",
+      "dataPath": "data/obselete/notionworx/products/apparel/sleeveless-hoodie-full-dye-sublimation-500053.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/apparel/sleeveless-hoodie-full-dye-sublimation-500053/01.jpg"
+      ]
+    },
+    {
+      "handle": "sport-polo-shirt-full-sublimation",
+      "name": "150GSM Mesh Jersey Sport Polo Shirt (Full Dye Sublimation) #50009",
+      "primaryCategoryHandle": "apparel",
+      "primaryCategoryTitle": "APPAREL",
+      "dataPath": "data/obselete/notionworx/products/apparel/sport-polo-shirt-full-sublimation.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/apparel/sport-polo-shirt-full-sublimation/01.png",
+        "/assets/images/notionworx-inventory/apparel/sport-polo-shirt-full-sublimation/02.png",
+        "/assets/images/notionworx-inventory/apparel/sport-polo-shirt-full-sublimation/03.png",
+        "/assets/images/notionworx-inventory/apparel/sport-polo-shirt-full-sublimation/04.webp"
+      ]
+    },
+    {
+      "handle": "sweatshirt-full-dye-sublimated-500019",
+      "name": "Sweatshirt Full Dye Sublimated #500019",
+      "primaryCategoryHandle": "apparel",
+      "primaryCategoryTitle": "APPAREL",
+      "dataPath": "data/obselete/notionworx/products/apparel/sweatshirt-full-dye-sublimated-500019.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/apparel/sweatshirt-full-dye-sublimated-500019/01.jpg",
+        "/assets/images/notionworx-inventory/apparel/sweatshirt-full-dye-sublimated-500019/02.jpg"
+      ]
+    },
+    {
+      "handle": "tradition-pullover-lace-hoodie-dna-stretch",
+      "name": "Hoodie Full Dye Sublimation #500016",
+      "primaryCategoryHandle": "apparel",
+      "primaryCategoryTitle": "APPAREL",
+      "dataPath": "data/obselete/notionworx/products/apparel/tradition-pullover-lace-hoodie-dna-stretch.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/apparel/tradition-pullover-lace-hoodie-dna-stretch/01.jpg",
+        "/assets/images/notionworx-inventory/apparel/tradition-pullover-lace-hoodie-dna-stretch/02.webp",
+        "/assets/images/notionworx-inventory/apparel/tradition-pullover-lace-hoodie-dna-stretch/03.jpg"
+      ]
+    },
+    {
+      "handle": "tropical-print-shirt-full-dye-sublimation-500036",
+      "name": "Tropical Print Shirt (Full Dye Sublimation) #500036",
+      "primaryCategoryHandle": "apparel",
+      "primaryCategoryTitle": "APPAREL",
+      "dataPath": "data/obselete/notionworx/products/apparel/tropical-print-shirt-full-dye-sublimation-500036.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/apparel/tropical-print-shirt-full-dye-sublimation-500036/01.jpg",
+        "/assets/images/notionworx-inventory/apparel/tropical-print-shirt-full-dye-sublimation-500036/02.jpg"
+      ]
+    }
+  ]
+}

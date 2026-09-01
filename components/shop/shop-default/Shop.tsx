@@ -26,11 +26,13 @@ export default function Shop({
   itemPerPage,
   variant,
   isFullWidth = false,
+  products = shopDefaultProducts,
 }: {
   defaultCategories?: string[];
   itemPerPage?: number;
   variant?: ShopVariantProp;
   isFullWidth?: boolean;
+  products?: ShopProduct[];
 }) {
   const variants = useMemo(() => normalizeShopVariants(variant), [variant]);
 
@@ -51,7 +53,7 @@ export default function Shop({
   } = useShopState({
     defaultCategories,
     itemPerPage,
-    products: shopDefaultProducts,
+    products,
   });
 
   const infiniteScroll = variants.includes("infinityScroll");
@@ -101,7 +103,7 @@ export default function Shop({
         state,
         dispatch,
         getFilterCount,
-        sourceProducts: shopDefaultProducts,
+        sourceProducts: products,
       },
       pagedVisibleProducts,
       totalPages,
@@ -126,6 +128,7 @@ export default function Shop({
       pagedVisibleProducts,
       totalPages,
       pageItems,
+      products,
     ],
   );
 

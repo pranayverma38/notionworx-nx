@@ -25,6 +25,14 @@ export function getProductDetailTabs(product?: ProductCardItem): ProductDetailTa
     },
   ];
 
+  if (hasContent(product?.howToOrderHtml, product?.howToOrderText)) {
+    tabs.push({
+      key: "how-to-order",
+      id: "how-to-order",
+      label: "How to Order",
+    });
+  }
+
   if (hasContent(product?.dimensionsHtml, product?.dimensionsText)) {
     tabs.push({
       key: "dimensions",
@@ -38,14 +46,6 @@ export function getProductDetailTabs(product?: ProductCardItem): ProductDetailTa
       key: "warranty",
       id: "warranty",
       label: "Warranty",
-    });
-  }
-
-  if (hasContent(product?.howToOrderHtml, product?.howToOrderText)) {
-    tabs.push({
-      key: "how-to-order",
-      id: "how-to-order",
-      label: "How to Order",
     });
   }
 

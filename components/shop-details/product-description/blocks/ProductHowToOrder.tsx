@@ -8,95 +8,69 @@ type ProductHowToOrderProps = {
 };
 
 type ParsedHowToOrderStep = {
-  title: string;
-  details: string[];
+  index: string;
+  titleHtml: string;
+  detailHtmlParts: string[];
 };
 
-function decodeHtmlText(text: string): string {
-  return text
+type ParsedHowToOrderContent = {
+  sku?: string;
+  heading?: string;
+  steps: ParsedHowToOrderStep[];
+};
+
+function stripHtml(value: string) {
+  return value
+    .replace(/<br\s*\/?>/gi, "\n")
+    .replace(/<[^>]+>/g, " ")
     .replace(/&nbsp;/gi, " ")
-    .replace(/&amp;/gi, "&")
-    .replace(/&quot;/gi, '"')
-    .replace(/&#39;/gi, "'")
-    .replace(/&lt;/gi, "<")
-    .replace(/&gt;/gi, ">");
+    .replace(/\s+/g, " ")
+    .trim();
 }
 
-function htmlToPlainText(html?: string): string {
-  if (!html) {
-    return "";
+function parseStructuredHowToOrder(html?: string): ParsedHowToOrderContent | null {
+  const normalizedHtml = html?.trim();
+
+  if (!normalizedHtml) {
+    return null;
   }
 
-  return decodeHtmlText(
-    html
-      .replace(/<br\s*\/?>/gi, "\n")
-      .replace(/<\/p>/gi, "\n\n")
-      .replace(/<\/li>/gi, "\n")
-      .replace(/<li\b[^>]*>/gi, "- ")
-      .replace(/<\/h[1-6]>/gi, "\n\n")
-      .replace(/<[^>]+>/g, " ")
-      .replace(/\n\s+\n/g, "\n\n")
-      .replace(/[ \t]+/g, " "),
-  ).trim();
-}
+  const skuMatch = normalizedHtml.match(
+    /<li\b[^>]*>\s*SKU\s*<br\s*\/?>\s*([\s\S]*?)<\/li>/i,
+  );
+  const headingMatch = normalizedHtml.match(/<h[1-6]\b[^>]*>([\s\S]*?)<\/h[1-6]>/i);
+  const paragraphMatches = [...normalizedHtml.matchAll(/<p\b[^>]*>([\s\S]*?)<\/p>/gi)];
 
-function parseHowToOrderContent(product?: ProductCardItem): {
-  heading: string | null;
-  introLines: string[];
-  steps: ParsedHowToOrderStep[];
-} {
-  const rawText =
-    product?.howToOrderText?.trim() || htmlToPlainText(product?.howToOrderHtml);
-  const normalizedText = rawText
-    .replace(/(3 Easy Steps)\s+(Step\s+\d+\s*:)/gi, "$1\n\n$2")
-    .replace(/(SKU[^\n]*)\s+(3 Easy Steps)/gi, "$1\n\n$2");
-  const blocks = normalizedText
-    .split(/\n\s*\n+/)
-    .map((block) => block.replace(/\s*\n\s*/g, " ").trim())
-    .filter(Boolean);
+  const steps = paragraphMatches
+    .map((match) => match[1]?.trim())
+    .filter(Boolean)
+    .map((paragraphHtml) => {
+      const parts = paragraphHtml.split(/<br\s*\/?>\s*<br\s*\/?>/i).map((part) => part.trim());
+      const titleHtml = parts[0] || "";
+      const titleText = stripHtml(titleHtml);
+      const stepMatch = titleText.match(/^Step\s+(\d+)\s*:/i);
 
-  const introLines: string[] = [];
-  const steps: ParsedHowToOrderStep[] = [];
-  let heading: string | null = null;
-  let currentStep: ParsedHowToOrderStep | null = null;
-
-  for (const block of blocks) {
-    if (/^3 Easy Steps$/i.test(block)) {
-      heading = block;
-      continue;
-    }
-
-    if (/^Step\s+\d+\s*:/i.test(block)) {
-      if (currentStep) {
-        steps.push(currentStep);
+      if (!stepMatch) {
+        return null;
       }
 
-      currentStep = {
-        title: block,
-        details: [],
-      };
-      continue;
-    }
+      return {
+        index: stepMatch[1].padStart(2, "0"),
+        titleHtml,
+        detailHtmlParts: parts.slice(1).filter(Boolean),
+      } satisfies ParsedHowToOrderStep;
+    })
+    .filter(Boolean) as ParsedHowToOrderStep[];
 
-    if (currentStep) {
-      currentStep.details.push(block.replace(/^-+\s*/, ""));
-      continue;
-    }
-
-    const cleanedBlock = block.replace(/^-+\s*/, "");
-
-    if (/^3 Easy Steps$/i.test(cleanedBlock) || /^Step\s+\d+\s*:/i.test(cleanedBlock)) {
-      continue;
-    }
-
-    introLines.push(cleanedBlock);
+  if (!steps.length) {
+    return null;
   }
 
-  if (currentStep) {
-    steps.push(currentStep);
-  }
-
-  return { heading, introLines, steps };
+  return {
+    sku: skuMatch ? stripHtml(skuMatch[1]) : undefined,
+    heading: headingMatch ? stripHtml(headingMatch[1]) : undefined,
+    steps,
+  };
 }
 
 export function ProductHowToOrder({
@@ -110,54 +84,58 @@ export function ProductHowToOrder({
     ) : (
       <div className="h6 desc_title">How to Order</div>
     );
-  const { heading, introLines, steps } = parseHowToOrderContent(product);
-  const hasStructuredSteps = steps.length > 0;
+  const structuredContent = parseStructuredHowToOrder(product?.howToOrderHtml);
 
   return (
     <div className={`${wrapperClassName} product-detail-single-layout`}>
       <div className="box-desc product-detail-description-card product-detail-description-main">
         {title}
-        {hasStructuredSteps ? (
-          <div className="how-to-order-structured">
-            {introLines.length ? (
-              <div className="how-to-order-meta">
-                {introLines.map((line) => (
-                  <div key={line} className="how-to-order-meta-item">
-                    {line}
-                  </div>
+        <div className="desc_info">
+          {structuredContent ? (
+            <div className="how-to-order-structured">
+              {structuredContent.sku ? (
+                <div className="how-to-order-meta">
+                  <span className="how-to-order-meta-item">
+                    SKU {structuredContent.sku}
+                  </span>
+                </div>
+              ) : null}
+              {structuredContent.heading ? (
+                <h3 className="how-to-order-heading">{structuredContent.heading}</h3>
+              ) : null}
+              <div className="how-to-order-step-list">
+                {structuredContent.steps.map((step) => (
+                  <article
+                    key={`${step.index}-${stripHtml(step.titleHtml)}`}
+                    className="how-to-order-step-card"
+                  >
+                    <div className="how-to-order-step-index">{step.index}</div>
+                    <div className="how-to-order-step-content">
+                      <h4
+                        className="how-to-order-step-title"
+                        dangerouslySetInnerHTML={{ __html: step.titleHtml }}
+                      />
+                      <div className="how-to-order-step-details">
+                        {step.detailHtmlParts.map((detailHtml, index) => (
+                          <p
+                            key={`${step.index}-${index}`}
+                            dangerouslySetInnerHTML={{ __html: detailHtml }}
+                          />
+                        ))}
+                      </div>
+                    </div>
+                  </article>
                 ))}
               </div>
-            ) : null}
-
-            {heading ? <h3 className="how-to-order-heading">{heading}</h3> : null}
-
-            <div className="how-to-order-step-list">
-              {steps.map((step, index) => (
-                <article key={step.title} className="how-to-order-step-card">
-                  <div className="how-to-order-step-index">
-                    {String(index + 1).padStart(2, "0")}
-                  </div>
-                  <div className="how-to-order-step-content">
-                    <h4 className="how-to-order-step-title">{step.title}</h4>
-                    <div className="how-to-order-step-details">
-                      {step.details.map((detail) => (
-                        <p key={detail}>{detail}</p>
-                      ))}
-                    </div>
-                  </div>
-                </article>
-              ))}
             </div>
-          </div>
-        ) : (
-          <div className="desc_info">
+          ) : (
             <ProductLongFormContent
               html={product?.howToOrderHtml}
               text={product?.howToOrderText}
               fallbackText="Ordering instructions will be added once the crawl content is available."
             />
-          </div>
-        )}
+          )}
+        </div>
       </div>
     </div>
   );

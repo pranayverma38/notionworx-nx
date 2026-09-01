@@ -3,66 +3,6 @@
 export const storefrontProducts = [
   {
     "id": 1,
-    "sourceProductId": 8227680583815,
-    "sourceHandle": "1-4-zipper-jacket-full-dye-sublimation",
-    "sourceSlug": "1-4-zipper-jacket-full-dye-sublimation",
-    "img": "/assets/images/notionworx-inventory/apparel/1-4-zipper-jacket-full-dye-sublimation/01.jpg",
-    "imgHover": "/assets/images/notionworx-inventory/apparel/1-4-zipper-jacket-full-dye-sublimation/01.jpg",
-    "images": [
-      {
-        "src": "/assets/images/notionworx-inventory/apparel/1-4-zipper-jacket-full-dye-sublimation/01.jpg"
-      }
-    ],
-    "name": "150GSM Mesh Jersey 1/4 Zipper Jacket (Full Dye Sublimation) #500024",
-    "price": 29,
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL",
-      "YXS"
-    ],
-    "variantLabel": "Size",
-    "cardVariant": "",
-    "filterBrands": [
-      "Notion Worx"
-    ],
-    "filterCategory": [
-      "APPAREL"
-    ],
-    "filterColor": [],
-    "filterSizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL",
-      "YXS"
-    ],
-    "tags": [],
-    "rating": 0,
-    "inStock": true,
-    "isStockOut": false,
-    "services": [],
-    "category": "APPAREL",
-    "description": "(NOTE: Neck collar only can do solid color) Need Help with Artwork Setup? 95% polyester.5% spandex jerseymesh moisture wicking fabric",
-    "descriptionHtml": "<h3><a href=\"https://displaytemplate.s3.us-west-2.amazonaws.com/Apparel/Custom+jersey/1-4+zipper+jacket.zip\">Download Template</a> (NOTE: Neck collar only can do solid color) <a href=\"https://soardistusa.com/apps/help-center#hc-creative-services\">Need Help with Artwork Setup?</a></h3>\n<p>95% polyester.5% spandex jerseymesh moisture wicking fabric</p>\n<p><img src=\"https://cdn.shopifycdn.net/s/files/1/1564/9941/files/moisture_wicking_fabric_480x480.jpg?v=1645131173\" alt=\"\"> <img src=\"https://cdn.shopifycdn.net/s/files/1/1564/9941/files/Moisture-Wicking-Performance_480x480.jpg?v=1645131249\" alt=\"\"></p>",
-    "descriptionText": "Download Template (NOTE: Neck collar only can do solid color) Need Help with Artwork Setup?\n\n95% polyester.5% spandex jerseymesh moisture wicking fabric",
-    "howToOrderHtml": "<ul>\n  <li>SKU<br>500024</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
-    "howToOrderText": "- SKU\n  500024\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
-    "sku": "500024",
-    "reviewsText": "13 options",
-    "soldLabel": "Available to order",
-    "badgeLabel": "Apparel",
-    "badgeSubtext": "1 product image available"
-  },
-  {
-    "id": 2,
     "sourceProductId": 8227673931911,
     "sourceHandle": "10-fabric-pop-up-display-straight-copy",
     "sourceSlug": "10-fabric-pop-up-display-straight-copy",
@@ -120,7 +60,7 @@ export const storefrontProducts = [
     "badgeSubtext": "4 product images available"
   },
   {
-    "id": 3,
+    "id": 2,
     "sourceProductId": 8227683369095,
     "sourceHandle": "10-premium-rectangle-flag-pole",
     "sourceSlug": "10-premium-rectangle-flag-pole",
@@ -164,7 +104,7 @@ export const storefrontProducts = [
     "badgeSubtext": "1 product image available"
   },
   {
-    "id": 4,
+    "id": 3,
     "sourceProductId": 8227674783879,
     "sourceHandle": "10-tube-straight-fabric-display-1",
     "sourceSlug": "10-tube-straight-fabric-display-1",
@@ -221,7 +161,7 @@ export const storefrontProducts = [
     "badgeSubtext": "3 product images available"
   },
   {
-    "id": 5,
+    "id": 4,
     "sourceProductId": 8227677438087,
     "sourceHandle": "10ft-back-wall",
     "sourceSlug": "10ft-back-wall",
@@ -505,7 +445,7 @@ export const storefrontProducts = [
     "badgeSubtext": "2 product images available"
   },
   {
-    "id": 6,
+    "id": 5,
     "sourceProductId": 8311852105863,
     "sourceHandle": "10ft-canopy-awning",
     "sourceSlug": "10ft-canopy-awning",
@@ -553,7 +493,7 @@ export const storefrontProducts = [
     "badgeSubtext": "2 product images available"
   },
   {
-    "id": 7,
+    "id": 6,
     "sourceProductId": 8227678355591,
     "sourceHandle": "10ft-seg-backlit-fabric-display",
     "sourceSlug": "10ft-seg-backlit-fabric-display",
@@ -608,7 +548,7 @@ export const storefrontProducts = [
     "badgeSubtext": "3 product images available"
   },
   {
-    "id": 8,
+    "id": 7,
     "sourceProductId": 8227678421127,
     "sourceHandle": "10ft-seg-backlit-popup-display",
     "sourceSlug": "10ft-seg-backlit-popup-display",
@@ -669,7 +609,7 @@ export const storefrontProducts = [
     "badgeSubtext": "5 product images available"
   },
   {
-    "id": 9,
+    "id": 8,
     "sourceProductId": 8227678519431,
     "sourceHandle": "10ft-seg-fabric-display",
     "sourceSlug": "10ft-seg-fabric-display",
@@ -730,7 +670,7 @@ export const storefrontProducts = [
     "badgeSubtext": "5 product images available"
   },
   {
-    "id": 10,
+    "id": 9,
     "sourceProductId": 8227677405319,
     "sourceHandle": "10x15-custom-canopy-tent-wall-15ft-back-wall",
     "sourceSlug": "10x15-custom-canopy-tent-wall-15ft-back-wall",
@@ -1011,7 +951,7 @@ export const storefrontProducts = [
     "badgeSubtext": "1 product image available"
   },
   {
-    "id": 11,
+    "id": 10,
     "sourceProductId": 8227677372551,
     "sourceHandle": "10x20-custom-canopy-tent-20ft-back-wall",
     "sourceSlug": "10x20-custom-canopy-tent-20ft-back-wall",
@@ -1295,443 +1235,7 @@ export const storefrontProducts = [
     "badgeSubtext": "2 product images available"
   },
   {
-    "id": 12,
-    "sourceProductId": 8227679371399,
-    "sourceHandle": "120gsm-milk-silk-1-4-zip-polo-shirt-full-dye-sublimation-500058",
-    "sourceSlug": "120gsm-milk-silk-1-4-zip-polo-shirt-full-dye-sublimation-500058",
-    "img": "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-1-4-zip-polo-shirt-full-dye-sublimation-500058/01.jpg",
-    "imgHover": "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-1-4-zip-polo-shirt-full-dye-sublimation-500058/01.jpg",
-    "images": [
-      {
-        "src": "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-1-4-zip-polo-shirt-full-dye-sublimation-500058/01.jpg"
-      }
-    ],
-    "name": "120GSM Milk Silk 1/4 Zip Polo Shirt (Full Dye Sublimation) #500058",
-    "price": 29,
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL",
-      "5XL"
-    ],
-    "variantLabel": "Size",
-    "cardVariant": "",
-    "filterBrands": [
-      "Notion Worx"
-    ],
-    "filterCategory": [
-      "APPAREL"
-    ],
-    "filterColor": [],
-    "filterSizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL",
-      "5XL"
-    ],
-    "tags": [],
-    "rating": 0,
-    "inStock": true,
-    "isStockOut": false,
-    "services": [],
-    "category": "APPAREL",
-    "description": "Download Update (NOTE: Neck collar only can do solid color) Need Help with Artwork Setup? 95% polyester 5% spandex 120gsm 3.54oz milk silk moisture wicking fabric",
-    "descriptionHtml": "<h3><a href=\"https://displaytemplate.s3.us-west-2.amazonaws.com/Apparel/polo+shirt+12.28.zip\">Download Update Template</a> (NOTE: Neck collar only can do solid color)</h3>\n<h3><a href=\"https://soardistusa.com/apps/help-center#hc-creative-services\">Need Help with Artwork Setup?</a></h3>\n<p>95% polyester 5% spandex 120gsm 3.54oz milk silk moisture wicking fabric<br></p>\n<p><img src=\"https://cdn.shopifycdn.net/s/files/1/1564/9941/files/WX20220809-005036_2x_c1d5e75f-8d8b-4b14-88ad-8fa880b627cb.png?v=1659977456\" alt=\"\"></p>\n<p><img src=\"https://cdn.shopifycdn.net/s/files/1/1564/9941/files/Moisture-Wicking-Performance_480x480.jpg?v=1645131249\" alt=\"\"></p>",
-    "descriptionText": "Download Update Template (NOTE: Neck collar only can do solid color)\n\nNeed Help with Artwork Setup?\n\n95% polyester 5% spandex 120gsm 3.54oz milk silk moisture wicking fabric",
-    "howToOrderHtml": "<ul>\n  <li>SKU<br>500058-S</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
-    "howToOrderText": "- SKU\n  500058-S\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
-    "sku": "500058-S",
-    "reviewsText": "14 options",
-    "soldLabel": "Available to order",
-    "badgeLabel": "Apparel",
-    "badgeSubtext": "1 product image available"
-  },
-  {
-    "id": 13,
-    "sourceProductId": 8227679338631,
-    "sourceHandle": "120gsm-milk-silk-1-4-zipper-jacket-full-dye-sublimation-500059",
-    "sourceSlug": "120gsm-milk-silk-1-4-zipper-jacket-full-dye-sublimation-500059",
-    "img": "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-1-4-zipper-jacket-full-dye-sublimation-500059/01.jpg",
-    "imgHover": "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-1-4-zipper-jacket-full-dye-sublimation-500059/01.jpg",
-    "images": [
-      {
-        "src": "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-1-4-zipper-jacket-full-dye-sublimation-500059/01.jpg"
-      }
-    ],
-    "name": "120GSM Milk Silk 1/4 Zipper Jacket (Full Dye Sublimation) #500059",
-    "price": 29,
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL",
-      "YXS"
-    ],
-    "variantLabel": "Size",
-    "cardVariant": "",
-    "filterBrands": [
-      "Notion Worx"
-    ],
-    "filterCategory": [
-      "APPAREL"
-    ],
-    "filterColor": [],
-    "filterSizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL",
-      "YXS"
-    ],
-    "tags": [],
-    "rating": 0,
-    "inStock": true,
-    "isStockOut": false,
-    "services": [],
-    "category": "APPAREL",
-    "description": "(NOTE: Neck collar only can do solid color) Need Help with Artwork Setup? 95% polyester 5% spandex 120gsm 3.54oz milk silk moisture wicking fabric",
-    "descriptionHtml": "<h3><a href=\"https://displaytemplate.s3.us-west-2.amazonaws.com/Apparel/Custom+jersey/1-4+zipper+jacket.zip\">Download Template</a> (NOTE: Neck collar only can do solid color) <a href=\"https://soardistusa.com/apps/help-center#hc-creative-services\">Need Help with Artwork Setup?</a></h3>\n<p>95% polyester 5% spandex 120gsm 3.54oz milk silk moisture wicking fabric</p>\n<p><img src=\"https://cdn.shopifycdn.net/s/files/1/1564/9941/files/WX20220809-005036_2x_c1d5e75f-8d8b-4b14-88ad-8fa880b627cb.png?v=1659977456\" alt=\"\"> <img src=\"https://cdn.shopifycdn.net/s/files/1/1564/9941/files/Moisture-Wicking-Performance_480x480.jpg?v=1645131249\" alt=\"\"></p>",
-    "descriptionText": "Download Template (NOTE: Neck collar only can do solid color) Need Help with Artwork Setup?\n\n95% polyester 5% spandex 120gsm 3.54oz milk silk moisture wicking fabric",
-    "reviewsText": "12 options",
-    "soldLabel": "Available to order",
-    "badgeLabel": "Apparel",
-    "badgeSubtext": "1 product image available"
-  },
-  {
-    "id": 14,
-    "sourceProductId": 8227679535239,
-    "sourceHandle": "120gsm-milk-silk-crew-neck-sleeveless-full-dye-sublimation-500005",
-    "sourceSlug": "120gsm-milk-silk-crew-neck-sleeveless-full-dye-sublimation-500005",
-    "img": "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-crew-neck-sleeveless-full-dye-sublimation-500005/01.jpg",
-    "imgHover": "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-crew-neck-sleeveless-full-dye-sublimation-500005/02.jpg",
-    "images": [
-      {
-        "src": "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-crew-neck-sleeveless-full-dye-sublimation-500005/01.jpg"
-      },
-      {
-        "src": "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-crew-neck-sleeveless-full-dye-sublimation-500005/02.jpg"
-      },
-      {
-        "src": "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-crew-neck-sleeveless-full-dye-sublimation-500005/03.png"
-      },
-      {
-        "src": "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-crew-neck-sleeveless-full-dye-sublimation-500005/04.png"
-      },
-      {
-        "src": "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-crew-neck-sleeveless-full-dye-sublimation-500005/05.png"
-      }
-    ],
-    "name": "120GSM Milk Silk Crew Neck Sleeveless (Full Dye Sublimation) #500046",
-    "price": 12.5,
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
-    ],
-    "variantLabel": "Size",
-    "cardVariant": "",
-    "filterBrands": [
-      "Notion Worx"
-    ],
-    "filterCategory": [
-      "APPAREL"
-    ],
-    "filterColor": [],
-    "filterSizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
-    ],
-    "tags": [],
-    "rating": 0,
-    "inStock": true,
-    "isStockOut": false,
-    "services": [],
-    "category": "APPAREL",
-    "description": "Need Help with Artwork Setup? 95% polyester 5% spandex 120gsm 3.54oz milk silk moisture wicking fabric",
-    "descriptionHtml": "<h4><a href=\"https://displaytemplate.s3.us-west-2.amazonaws.com/Apparel/Custom+jersey/crewneck+sleeveless.zip\">download template</a> <a href=\"https://soardistusa.com/apps/help-center#hc-creative-services\">Need Help with Artwork Setup?</a></h4>\n<p>95% polyester 5% spandex 120gsm 3.54oz milk silk moisture wicking fabric<br></p>\n<p><img src=\"https://cdn.shopifycdn.net/s/files/1/1564/9941/files/WX20220809-005036_2x_c1d5e75f-8d8b-4b14-88ad-8fa880b627cb.png?v=1659977456\" alt=\"\"> <img src=\"https://cdn.shopifycdn.net/s/files/1/1564/9941/files/Moisture-Wicking-Performance_480x480.jpg?v=1645131249\" alt=\"\"></p>",
-    "descriptionText": "download template Need Help with Artwork Setup?\n\n95% polyester 5% spandex 120gsm 3.54oz milk silk moisture wicking fabric",
-    "reviewsText": "7 options",
-    "soldLabel": "Available to order",
-    "badgeLabel": "Apparel",
-    "badgeSubtext": "5 product images available"
-  },
-  {
-    "id": 15,
-    "sourceProductId": 8227679666311,
-    "sourceHandle": "120gsm-milk-silk-custom-button-down-baseball-jersey-full-dye-sublimation-50058",
-    "sourceSlug": "120gsm-milk-silk-custom-button-down-baseball-jersey-full-dye-sublimation-50058",
-    "img": "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-custom-button-down-baseball-jersey-full-dye-sublimation-50058/01.jpg",
-    "imgHover": "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-custom-button-down-baseball-jersey-full-dye-sublimation-50058/01.jpg",
-    "images": [
-      {
-        "src": "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-custom-button-down-baseball-jersey-full-dye-sublimation-50058/01.jpg"
-      }
-    ],
-    "name": "120GSM Milk Silk Custom Button Down Baseball Jersey (Full Dye Sublimation) #500044",
-    "price": 29,
-    "sizes": [
-      "L",
-      "XS",
-      "S",
-      "M",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
-    ],
-    "variantLabel": "Size",
-    "cardVariant": "",
-    "filterBrands": [
-      "Notion Worx"
-    ],
-    "filterCategory": [
-      "APPAREL"
-    ],
-    "filterColor": [],
-    "filterSizes": [
-      "L",
-      "XS",
-      "S",
-      "M",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
-    ],
-    "tags": [],
-    "rating": 0,
-    "inStock": true,
-    "isStockOut": false,
-    "services": [],
-    "category": "APPAREL",
-    "description": "Need Help with Artwork Setup? 95% polyester 5% spandex 120gsm 3.54oz milk silk moisture wicking fabric",
-    "descriptionHtml": "<h4><a href=\"https://www.dropbox.com/s/inny84x35h8r221/Baseball%20Jersey%20UPDATE%201-31.zip?dl=0\">Download Template</a> <a href=\"https://soardistusa.com/apps/help-center#hc-creative-services\">Need Help with Artwork Setup?</a></h4>\n<p>95% polyester 5% spandex 120gsm 3.54oz milk silk moisture wicking fabric<br></p>\n<p><img src=\"https://cdn.shopifycdn.net/s/files/1/1564/9941/files/WX20220809-005036_2x_c1d5e75f-8d8b-4b14-88ad-8fa880b627cb.png?v=1659977456\" alt=\"\"> <img src=\"https://cdn.shopifycdn.net/s/files/1/1564/9941/files/Moisture-Wicking-Performance_480x480.jpg?v=1645131249\" alt=\"\"></p>",
-    "descriptionText": "Download Template Need Help with Artwork Setup?\n\n95% polyester 5% spandex 120gsm 3.54oz milk silk moisture wicking fabric",
-    "howToOrderHtml": "<ul>\n  <li>SKU<br>500044</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
-    "howToOrderText": "- SKU\n  500044\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
-    "sku": "500044",
-    "reviewsText": "15 options",
-    "soldLabel": "Available to order",
-    "badgeLabel": "Apparel",
-    "badgeSubtext": "1 product image available"
-  },
-  {
-    "id": 16,
-    "sourceProductId": 8227679797383,
-    "sourceHandle": "120gsm-milk-silk-long-sleeve-crew-neck-full-dye-sublimation-500003",
-    "sourceSlug": "120gsm-milk-silk-long-sleeve-crew-neck-full-dye-sublimation-500003",
-    "img": "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-long-sleeve-crew-neck-full-dye-sublimation-500003/01.jpg",
-    "imgHover": "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-long-sleeve-crew-neck-full-dye-sublimation-500003/02.jpg",
-    "images": [
-      {
-        "src": "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-long-sleeve-crew-neck-full-dye-sublimation-500003/01.jpg"
-      },
-      {
-        "src": "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-long-sleeve-crew-neck-full-dye-sublimation-500003/02.jpg"
-      }
-    ],
-    "name": "120GSM Milk Silk Long Sleeve Crew Neck (Full Dye Sublimation)#500041",
-    "price": 12.5,
-    "sizes": [
-      "L",
-      "YS",
-      "YM",
-      "YL",
-      "S",
-      "M",
-      "XL",
-      "2XL"
-    ],
-    "variantLabel": "Size",
-    "cardVariant": "",
-    "filterBrands": [
-      "Notion Worx"
-    ],
-    "filterCategory": [
-      "APPAREL"
-    ],
-    "filterColor": [],
-    "filterSizes": [
-      "L",
-      "YS",
-      "YM",
-      "YL",
-      "S",
-      "M",
-      "XL",
-      "2XL"
-    ],
-    "tags": [],
-    "rating": 0,
-    "inStock": true,
-    "isStockOut": false,
-    "services": [],
-    "category": "APPAREL",
-    "description": "95% polyester 5% spandex 120gsm 3.54oz milk silk moisture wicking fabric",
-    "descriptionHtml": "<p>95% polyester 5% spandex 120gsm 3.54oz milk silk moisture wicking fabric<br></p>\n<p><img src=\"https://cdn.shopifycdn.net/s/files/1/1564/9941/files/WX20220809-005036_2x_c1d5e75f-8d8b-4b14-88ad-8fa880b627cb.png?v=1659977456\" alt=\"\"></p>\n<p><img src=\"https://cdn.shopifycdn.net/s/files/1/1564/9941/files/Moisture-Wicking-Performance_480x480.jpg?v=1645131249\" alt=\"\"></p>",
-    "descriptionText": "95% polyester 5% spandex 120gsm 3.54oz milk silk moisture wicking fabric",
-    "howToOrderHtml": "<ul>\n  <li>SKU<br>500041</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
-    "howToOrderText": "- SKU\n  500041\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
-    "sku": "500041",
-    "reviewsText": "14 options",
-    "soldLabel": "Available to order",
-    "badgeLabel": "Apparel",
-    "badgeSubtext": "2 product images available"
-  },
-  {
-    "id": 17,
-    "sourceProductId": 8227671769223,
-    "sourceHandle": "120gsm-milk-silk-long-sleeve-hoodie-t-shirt-full-dye-sublimation-500138",
-    "sourceSlug": "120gsm-milk-silk-long-sleeve-hoodie-t-shirt-full-dye-sublimation-500138",
-    "img": "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-long-sleeve-hoodie-t-shirt-full-dye-sublimation-500138/01.jpg",
-    "imgHover": "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-long-sleeve-hoodie-t-shirt-full-dye-sublimation-500138/02.jpg",
-    "images": [
-      {
-        "src": "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-long-sleeve-hoodie-t-shirt-full-dye-sublimation-500138/01.jpg"
-      },
-      {
-        "src": "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-long-sleeve-hoodie-t-shirt-full-dye-sublimation-500138/02.jpg"
-      },
-      {
-        "src": "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-long-sleeve-hoodie-t-shirt-full-dye-sublimation-500138/03.jpg"
-      }
-    ],
-    "name": "120GSM Milk Silk Long Sleeve Hoodie T-shirt (Full Dye Sublimation)#500138",
-    "price": 21,
-    "sizes": [
-      "L",
-      "YS",
-      "YM",
-      "YL",
-      "S",
-      "M",
-      "XL",
-      "2XL"
-    ],
-    "variantLabel": "Size",
-    "cardVariant": "",
-    "filterBrands": [
-      "Notion Worx"
-    ],
-    "filterCategory": [
-      "APPAREL"
-    ],
-    "filterColor": [],
-    "filterSizes": [
-      "L",
-      "YS",
-      "YM",
-      "YL",
-      "S",
-      "M",
-      "XL",
-      "2XL"
-    ],
-    "tags": [],
-    "rating": 0,
-    "inStock": true,
-    "isStockOut": false,
-    "services": [],
-    "category": "APPAREL",
-    "description": "Need Help with Artwork Setup? 100% polyester 120gsm 3.54oz milk silk moisture wicking fabric",
-    "descriptionHtml": "<p><a href=\"https://www.dropbox.com/scl/fo/qdbcoh36kj3pnihxwpvkw/h?rlkey=15rf9waatajwskj4brj81o5r8&amp;dl=0\">Download Template</a> <a href=\"https://soardistusa.com/apps/help-center#hc-creative-services\">Need Help with Artwork Setup?</a></p>\n<p>100% polyester 120gsm 3.54oz milk silk moisture wicking fabric<br></p>\n<p><img src=\"https://cdn.shopifycdn.net/s/files/1/1564/9941/files/WX20220809-005036_2x_c1d5e75f-8d8b-4b14-88ad-8fa880b627cb.png?v=1659977456\" alt=\"\"></p>\n<p><img src=\"https://cdn.shopifycdn.net/s/files/1/1564/9941/files/Moisture-Wicking-Performance_480x480.jpg?v=1645131249\" alt=\"\"></p>",
-    "descriptionText": "Download Template Need Help with Artwork Setup?\n\n100% polyester 120gsm 3.54oz milk silk moisture wicking fabric",
-    "howToOrderHtml": "<ul>\n  <li>SKU<br>500138</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
-    "howToOrderText": "- SKU\n  500138\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
-    "sku": "500138",
-    "reviewsText": "14 options",
-    "soldLabel": "Available to order",
-    "badgeLabel": "Apparel",
-    "badgeSubtext": "3 product images available"
-  },
-  {
-    "id": 18,
-    "sourceProductId": 8227679731847,
-    "sourceHandle": "120gsm-milk-silk-long-sleeve-v-neck-full-dye-sublimation-500004",
-    "sourceSlug": "120gsm-milk-silk-long-sleeve-v-neck-full-dye-sublimation-500004",
-    "img": "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-long-sleeve-v-neck-full-dye-sublimation-500004/01.jpg",
-    "imgHover": "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-long-sleeve-v-neck-full-dye-sublimation-500004/02.png",
-    "images": [
-      {
-        "src": "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-long-sleeve-v-neck-full-dye-sublimation-500004/01.jpg"
-      },
-      {
-        "src": "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-long-sleeve-v-neck-full-dye-sublimation-500004/02.png"
-      }
-    ],
-    "name": "120GSM Milk Silk Long Sleeve V- neck (Full Dye Sublimation)#500042",
-    "price": 12.5,
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL",
-      "5XL"
-    ],
-    "variantLabel": "Size",
-    "cardVariant": "",
-    "filterBrands": [
-      "Notion Worx"
-    ],
-    "filterCategory": [
-      "APPAREL"
-    ],
-    "filterColor": [],
-    "filterSizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL",
-      "5XL"
-    ],
-    "tags": [],
-    "rating": 0,
-    "inStock": true,
-    "isStockOut": false,
-    "services": [],
-    "category": "APPAREL",
-    "description": "Need Help with Artwork Setup? 95% polyester 5% spandex 120gsm 3.54oz milk silk moisture wicking fabric",
-    "descriptionHtml": "<p><a href=\"https://displaytemplate.s3.us-west-2.amazonaws.com/Apparel/Custom+jersey/v+neck+long+sleeve.zip\">Download Template</a> <a href=\"https://soardistusa.com/apps/help-center#hc-creative-services\">Need Help with Artwork Setup?</a></p>\n<p>95% polyester 5% spandex 120gsm 3.54oz milk silk moisture wicking fabric<br></p>\n<p><img src=\"https://cdn.shopifycdn.net/s/files/1/1564/9941/files/WX20220809-005036_2x_c1d5e75f-8d8b-4b14-88ad-8fa880b627cb.png?v=1659977456\" alt=\"\"></p>\n<p><img src=\"https://cdn.shopifycdn.net/s/files/1/1564/9941/files/Moisture-Wicking-Performance_480x480.jpg?v=1645131249\" alt=\"\"></p>",
-    "descriptionText": "Download Template Need Help with Artwork Setup?\n\n95% polyester 5% spandex 120gsm 3.54oz milk silk moisture wicking fabric",
-    "howToOrderHtml": "<ul>\n  <li>SKU<br>500042</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
-    "howToOrderText": "- SKU\n  500042\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
-    "sku": "500042",
-    "reviewsText": "14 options",
-    "soldLabel": "Available to order",
-    "badgeLabel": "Apparel",
-    "badgeSubtext": "2 product images available"
-  },
-  {
-    "id": 19,
+    "id": 11,
     "sourceProductId": 8227679436935,
     "sourceHandle": "120gsm-milk-silk-racerback-tank-full-dye-sublimation-500031",
     "sourceSlug": "120gsm-milk-silk-racerback-tank-full-dye-sublimation-500031",
@@ -1791,317 +1295,7 @@ export const storefrontProducts = [
     "badgeSubtext": "2 product images available"
   },
   {
-    "id": 20,
-    "sourceProductId": 8227679862919,
-    "sourceHandle": "120gsm-milk-silk-short-sleeve-crew-neck-full-dye-sublimation-500040",
-    "sourceSlug": "120gsm-milk-silk-short-sleeve-crew-neck-full-dye-sublimation-500040",
-    "img": "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-short-sleeve-crew-neck-full-dye-sublimation-500040/01.jpg",
-    "imgHover": "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-short-sleeve-crew-neck-full-dye-sublimation-500040/02.jpg",
-    "images": [
-      {
-        "src": "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-short-sleeve-crew-neck-full-dye-sublimation-500040/01.jpg"
-      },
-      {
-        "src": "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-short-sleeve-crew-neck-full-dye-sublimation-500040/02.jpg"
-      }
-    ],
-    "name": "120GSM Milk Silk Short Sleeve Crew Neck (Full Dye Sublimation) #500040",
-    "price": 12.5,
-    "sizes": [
-      "L",
-      "S",
-      "M",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL",
-      "5XL"
-    ],
-    "variantLabel": "Size",
-    "cardVariant": "",
-    "filterBrands": [
-      "Notion Worx"
-    ],
-    "filterCategory": [
-      "APPAREL"
-    ],
-    "filterColor": [],
-    "filterSizes": [
-      "L",
-      "S",
-      "M",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL",
-      "5XL"
-    ],
-    "tags": [],
-    "rating": 0,
-    "inStock": true,
-    "isStockOut": false,
-    "services": [],
-    "category": "APPAREL",
-    "description": ". Need Help with Artwork Setup? 95% polyester 5% spandex 120gsm 3.54oz milk silk moisture wicking fabric",
-    "descriptionHtml": "<h4><a href=\"https://www.dropbox.com/scl/fo/engd2w7dgy4rl7hrreyql/h?dl=0&amp;rlkey=rkmjpazxjblughidn7f2lmrzu\">Download Template.</a></h4>\n<h4><a href=\"https://soardistusa.com/apps/help-center#hc-creative-services\">Need Help with Artwork Setup?</a></h4>\n<p>95% polyester 5% spandex 120gsm 3.54oz milk silk moisture wicking fabric<br></p>\n<p><img src=\"https://cdn.shopifycdn.net/s/files/1/1564/9941/files/WX20220809-005036_2x_c1d5e75f-8d8b-4b14-88ad-8fa880b627cb.png?v=1659977456\" alt=\"\"></p>\n<p><img src=\"https://cdn.shopifycdn.net/s/files/1/1564/9941/files/Moisture-Wicking-Performance_480x480.jpg?v=1645131249\" alt=\"\"></p>",
-    "descriptionText": "Download Template.\n\nNeed Help with Artwork Setup?\n\n95% polyester 5% spandex 120gsm 3.54oz milk silk moisture wicking fabric",
-    "howToOrderHtml": "<ul>\n  <li>SKU<br>500040</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
-    "howToOrderText": "- SKU\n  500040\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
-    "sku": "500040",
-    "reviewsText": "16 options",
-    "soldLabel": "Available to order",
-    "badgeLabel": "Apparel",
-    "badgeSubtext": "2 product images available"
-  },
-  {
-    "id": 21,
-    "sourceProductId": 8227679699079,
-    "sourceHandle": "120gsm-milk-silk-short-sleeve-v-neck-full-dye-sublimation-500001",
-    "sourceSlug": "120gsm-milk-silk-short-sleeve-v-neck-full-dye-sublimation-500001",
-    "img": "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-short-sleeve-v-neck-full-dye-sublimation-500001/01.jpg",
-    "imgHover": "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-short-sleeve-v-neck-full-dye-sublimation-500001/02.jpg",
-    "images": [
-      {
-        "src": "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-short-sleeve-v-neck-full-dye-sublimation-500001/01.jpg"
-      },
-      {
-        "src": "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-short-sleeve-v-neck-full-dye-sublimation-500001/02.jpg"
-      }
-    ],
-    "name": "120GSM Milk Silk Short Sleeve V Neck (Full Dye Sublimation)#500043",
-    "price": 12.5,
-    "sizes": [
-      "L",
-      "YS",
-      "YM",
-      "YL",
-      "S",
-      "M",
-      "XL",
-      "2XL"
-    ],
-    "variantLabel": "Size",
-    "cardVariant": "",
-    "filterBrands": [
-      "Notion Worx"
-    ],
-    "filterCategory": [
-      "APPAREL"
-    ],
-    "filterColor": [],
-    "filterSizes": [
-      "L",
-      "YS",
-      "YM",
-      "YL",
-      "S",
-      "M",
-      "XL",
-      "2XL"
-    ],
-    "tags": [],
-    "rating": 0,
-    "inStock": true,
-    "isStockOut": false,
-    "services": [],
-    "category": "APPAREL",
-    "description": "Need Help with Artwork Setup? Material: 120gsm milk silk polyester.95% polyester. 5% spandex moisture wicking fabric",
-    "descriptionHtml": "<h3><a href=\"https://www.dropbox.com/scl/fo/9m8mos9jhcgwtf1mt19w9/h?dl=0&amp;rlkey=i0x94482gopbpj12scwyxma85\">Download Template</a></h3>\n<h3><a href=\"https://soardistusa.com/apps/help-center#hc-creative-services\">Need Help with Artwork Setup?</a></h3>\n<p>Material: 120gsm milk silk polyester.95% polyester. 5% spandex</p>\n<p>moisture wicking fabric</p>\n<p><img src=\"https://cdn.shopifycdn.net/s/files/1/1564/9941/files/WX20220809-005036_2x_c1d5e75f-8d8b-4b14-88ad-8fa880b627cb.png?v=1659977456\" alt=\"\"> <img src=\"https://cdn.shopifycdn.net/s/files/1/1564/9941/files/Moisture-Wicking-Performance_480x480.jpg?v=1645131249\" alt=\"\"></p>",
-    "descriptionText": "Download Template\n\nNeed Help with Artwork Setup?\n\nMaterial: 120gsm milk silk polyester.95% polyester. 5% spandex\n\nmoisture wicking fabric",
-    "howToOrderHtml": "<ul>\n  <li>SKU<br>500043</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
-    "howToOrderText": "- SKU\n  500043\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
-    "sku": "500043",
-    "reviewsText": "14 options",
-    "soldLabel": "Available to order",
-    "badgeLabel": "Apparel",
-    "badgeSubtext": "2 product images available"
-  },
-  {
-    "id": 22,
-    "sourceProductId": 8227672850567,
-    "sourceHandle": "120gsm-milk-silk-sport-polo-shirt-full-button-full-dye-sublimation-500075",
-    "sourceSlug": "120gsm-milk-silk-sport-polo-shirt-full-button-full-dye-sublimation-500075",
-    "img": "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-sport-polo-shirt-full-button-full-dye-sublimation-500075/01.png",
-    "imgHover": "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-sport-polo-shirt-full-button-full-dye-sublimation-500075/02.png",
-    "images": [
-      {
-        "src": "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-sport-polo-shirt-full-button-full-dye-sublimation-500075/01.png"
-      },
-      {
-        "src": "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-sport-polo-shirt-full-button-full-dye-sublimation-500075/02.png"
-      },
-      {
-        "src": "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-sport-polo-shirt-full-button-full-dye-sublimation-500075/03.png"
-      }
-    ],
-    "name": "120GSM Milk Silk Sport Polo Shirt Full Button (Full Dye Sublimation) #500075",
-    "price": 17,
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL",
-      "5XL"
-    ],
-    "variantLabel": "Size",
-    "cardVariant": "",
-    "filterBrands": [
-      "Notion Worx"
-    ],
-    "filterCategory": [
-      "APPAREL"
-    ],
-    "filterColor": [],
-    "filterSizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL",
-      "5XL"
-    ],
-    "tags": [],
-    "rating": 0,
-    "inStock": true,
-    "isStockOut": false,
-    "services": [],
-    "category": "APPAREL",
-    "description": "(NOTE: Neck collar only can do solid color) Need Help with Artwork Setup? 100% polyester. 120gsm 3.54oz jersey mesh moisture wicking fabric",
-    "descriptionHtml": "<h3><a href=\"https://www.dropbox.com/scl/fo/m25jm8prhcjo3qg1ssy1y/AAWCCwSlaNCAfTX9fII_cqA?rlkey=wz4wnsjku7goaqzi2zg7ilzom&amp;st=85s4uazq&amp;dl=0\">Download Template</a> (NOTE: Neck collar only can do solid color) <a href=\"https://soardistusa.com/apps/help-center#hc-creative-services\">Need Help with Artwork Setup?</a></h3>\n<p>100% polyester. 120gsm 3.54oz jersey mesh moisture wicking fabric</p>\n<p><img src=\"https://cdn.shopifycdn.net/s/files/1/1564/9941/files/WX20220809-005036_2x_c1d5e75f-8d8b-4b14-88ad-8fa880b627cb.png?v=1659977456\" alt=\"\"></p>",
-    "descriptionText": "Download Template (NOTE: Neck collar only can do solid color) Need Help with Artwork Setup?\n\n100% polyester. 120gsm 3.54oz jersey mesh moisture wicking fabric",
-    "reviewsText": "14 options",
-    "soldLabel": "Available to order",
-    "badgeLabel": "Apparel",
-    "badgeSubtext": "3 product images available"
-  },
-  {
-    "id": 23,
-    "sourceProductId": 8227679568007,
-    "sourceHandle": "120gsm-milk-silk-sport-polo-shirt-full-dye-sublimation-500045",
-    "sourceSlug": "120gsm-milk-silk-sport-polo-shirt-full-dye-sublimation-500045",
-    "img": "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-sport-polo-shirt-full-dye-sublimation-500045/01.png",
-    "imgHover": "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-sport-polo-shirt-full-dye-sublimation-500045/02.png",
-    "images": [
-      {
-        "src": "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-sport-polo-shirt-full-dye-sublimation-500045/01.png"
-      },
-      {
-        "src": "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-sport-polo-shirt-full-dye-sublimation-500045/02.png"
-      },
-      {
-        "src": "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-sport-polo-shirt-full-dye-sublimation-500045/03.png"
-      },
-      {
-        "src": "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-sport-polo-shirt-full-dye-sublimation-500045/04.webp"
-      }
-    ],
-    "name": "120GSM Milk Silk Sport Polo Shirt (Full Dye Sublimation) #500045",
-    "price": 29,
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL",
-      "5XL"
-    ],
-    "variantLabel": "Size",
-    "cardVariant": "",
-    "filterBrands": [
-      "Notion Worx"
-    ],
-    "filterCategory": [
-      "APPAREL"
-    ],
-    "filterColor": [],
-    "filterSizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL",
-      "5XL"
-    ],
-    "tags": [],
-    "rating": 0,
-    "inStock": true,
-    "isStockOut": false,
-    "services": [],
-    "category": "APPAREL",
-    "description": "Download Update (NOTE: Neck collar only can do solid color) Need Help with Artwork Setup? 95% polyester 5% spandex 120gsm 3.54oz milk silk moisture wicking fabric",
-    "descriptionHtml": "<h3><a href=\"https://displaytemplate.s3.us-west-2.amazonaws.com/Apparel/polo+shirt+12.28.zip\">Download Update Template</a> (NOTE: Neck collar only can do solid color) <a href=\"https://soardistusa.com/apps/help-center#hc-creative-services\">Need Help with Artwork Setup?</a></h3>\n<p>95% polyester 5% spandex 120gsm 3.54oz milk silk moisture wicking fabric<br></p>\n<p><img src=\"https://cdn.shopifycdn.net/s/files/1/1564/9941/files/WX20220809-005036_2x_c1d5e75f-8d8b-4b14-88ad-8fa880b627cb.png?v=1659977456\" alt=\"\"> <img src=\"https://cdn.shopifycdn.net/s/files/1/1564/9941/files/Moisture-Wicking-Performance_480x480.jpg?v=1645131249\" alt=\"\"></p>",
-    "descriptionText": "Download Update Template (NOTE: Neck collar only can do solid color) Need Help with Artwork Setup?\n\n95% polyester 5% spandex 120gsm 3.54oz milk silk moisture wicking fabric",
-    "reviewsText": "14 options",
-    "soldLabel": "Available to order",
-    "badgeLabel": "Apparel",
-    "badgeSubtext": "4 product images available"
-  },
-  {
-    "id": 24,
-    "sourceProductId": 8227679240327,
-    "sourceHandle": "120gsm-milk-silk-v-neck-sleeveless-full-dye-sublimation-500087",
-    "sourceSlug": "120gsm-milk-silk-v-neck-sleeveless-full-dye-sublimation-500087",
-    "img": "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-v-neck-sleeveless-full-dye-sublimation-500087/01.jpg",
-    "imgHover": "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-v-neck-sleeveless-full-dye-sublimation-500087/01.jpg",
-    "images": [
-      {
-        "src": "/assets/images/notionworx-inventory/apparel/120gsm-milk-silk-v-neck-sleeveless-full-dye-sublimation-500087/01.jpg"
-      }
-    ],
-    "name": "120GSM Milk Silk V Neck Sleeveless (Full Dye Sublimation) #500087",
-    "price": 12.5,
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
-    ],
-    "variantLabel": "Size",
-    "cardVariant": "",
-    "filterBrands": [
-      "Notion Worx"
-    ],
-    "filterCategory": [
-      "APPAREL"
-    ],
-    "filterColor": [],
-    "filterSizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
-    ],
-    "tags": [],
-    "rating": 0,
-    "inStock": true,
-    "isStockOut": false,
-    "services": [],
-    "category": "APPAREL",
-    "description": "Need Help with Artwork Setup? 95% polyester 5% spandex 120gsm 3.54oz milk silk moisture wicking fabric",
-    "descriptionHtml": "<h4><a href=\"https://www.dropbox.com/s/c54iyei2s0tfb0p/v%20neck%20sleeveless.zip?dl=0\">download template</a> <a href=\"https://soardistusa.com/apps/help-center#hc-creative-services\">Need Help with Artwork Setup?</a></h4>\n<p>95% polyester 5% spandex 120gsm 3.54oz milk silk moisture wicking fabric<br></p>\n<p><img src=\"https://cdn.shopifycdn.net/s/files/1/1564/9941/files/WX20220809-005036_2x_c1d5e75f-8d8b-4b14-88ad-8fa880b627cb.png?v=1659977456\" alt=\"\"> <img src=\"https://cdn.shopifycdn.net/s/files/1/1564/9941/files/Moisture-Wicking-Performance_480x480.jpg?v=1645131249\" alt=\"\"></p>",
-    "descriptionText": "download template Need Help with Artwork Setup?\n\n95% polyester 5% spandex 120gsm 3.54oz milk silk moisture wicking fabric",
-    "reviewsText": "7 options",
-    "soldLabel": "Available to order",
-    "badgeLabel": "Apparel",
-    "badgeSubtext": "1 product image available"
-  },
-  {
-    "id": 25,
+    "id": 12,
     "sourceProductId": 8227683401863,
     "sourceHandle": "14-5-premium-rectangle-flag-pole",
     "sourceSlug": "14-5-premium-rectangle-flag-pole",
@@ -2145,246 +1339,7 @@ export const storefrontProducts = [
     "badgeSubtext": "1 product image available"
   },
   {
-    "id": 26,
-    "sourceProductId": 8227679207559,
-    "sourceHandle": "150gsm-mesh-cycling-jersey-long-sleeve-full-dye-sublimation",
-    "sourceSlug": "150gsm-mesh-cycling-jersey-long-sleeve-full-dye-sublimation",
-    "img": "/assets/images/notionworx-inventory/apparel/150gsm-mesh-cycling-jersey-long-sleeve-full-dye-sublimation/01.jpg",
-    "imgHover": "/assets/images/notionworx-inventory/apparel/150gsm-mesh-cycling-jersey-long-sleeve-full-dye-sublimation/01.jpg",
-    "images": [
-      {
-        "src": "/assets/images/notionworx-inventory/apparel/150gsm-mesh-cycling-jersey-long-sleeve-full-dye-sublimation/01.jpg"
-      }
-    ],
-    "name": "150GSM Mesh Cycling Jersey Long Sleeve (Full Dye Sublimation) #500034",
-    "price": 84,
-    "sizes": [
-      "Men's",
-      "Women's"
-    ],
-    "cardVariant": "",
-    "filterBrands": [
-      "Notion Worx"
-    ],
-    "filterCategory": [
-      "APPAREL"
-    ],
-    "filterColor": [],
-    "filterSizes": [
-      "Men's",
-      "Women's"
-    ],
-    "tags": [],
-    "rating": 0,
-    "inStock": true,
-    "isStockOut": false,
-    "services": [],
-    "category": "APPAREL",
-    "description": "- Need Help with Artwork Setup? - Download Templ ate - 95% polyester 5% spandex 4.42oz jersey mesh moisture wicking fabric - Cycling shirt -With 3 pockets on back of jersey It is very convenience for storage, There is a silicone anti-skid band on the bottom of the cycling jersey…",
-    "descriptionHtml": "<ul>\n  <li><a href=\"https://soardistusa.com/apps/help-center#hc-creative-services\">Need Help with Artwork Setup?</a></li>\n  <li><a href=\"https://www.dropbox.com/scl/fo/xrps4elkrjwb7j7runr7g/h?rlkey=ehv6phvg3rzx2aip4oq3vw33g&amp;st=f1z7kzke&amp;dl=0\">Download Templ</a> <a href=\"https://displaytemplate.s3.us-west-2.amazonaws.com/Apparel/Custom+jersey/cycling+jersey.zip\">ate</a></li>\n</ul>\n<ul>\n  <li>95% polyester 5% spandex 4.42oz jersey mesh moisture wicking fabric</li>\n  <li>Cycling shirt -With 3 pockets on back of jersey It is very convenience for storage, There is a silicone anti-skid band on the bottom of the cycling jersey to prevent the clothes from sliding when riding.Cycle jersey material: 100% polyester,The breathable and wicking mesh fabric draws sweat away from body quickly</li>\n  <li>Premium &amp; comfortable - This cyclist’s jersey is suitable for all levels cyclists, which includes road bike or mountain biker,gym exercise.Whenever you&#x27;re sweaty the Jersey never adhere to your skin, It has a quick-dry feature which makes you feel more comfortable.3 rear pockets can stash pump, repair tool kits, tires, phone, food or clothing for change.</li>\n</ul>",
-    "descriptionText": "- Need Help with Artwork Setup?\n\n- Download Templ ate\n\n- 95% polyester 5% spandex 4.42oz jersey mesh moisture wicking fabric\n\n- Cycling shirt -With 3 pockets on back of jersey It is very convenience for storage, There is a silicone anti-skid band on the bottom of the cycling jersey to prevent the clothes from sliding when riding.Cycle jersey material: 100% polyester,The breathable and wicking mesh fabric draws sweat away from body quickly\n\n- Premium & comfortable - This cyclist’s jersey is suitable for all levels cyclists, which includes road bike or mountain biker,gym exercise.Whenever you're sweaty the Jersey never adhere to your skin, It has a quick-dry feature which makes you feel more comfortable.3 rear pockets can stash pump, repair tool kits, tires, phone, food or clothing for change.",
-    "howToOrderHtml": "<ul>\n  <li>SKU<br>500034</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
-    "howToOrderText": "- SKU\n  500034\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
-    "sku": "500034",
-    "reviewsText": "16 options",
-    "soldLabel": "Available to order",
-    "badgeLabel": "Apparel",
-    "badgeSubtext": "1 product image available"
-  },
-  {
-    "id": 27,
-    "sourceProductId": 8227679404167,
-    "sourceHandle": "150gsm-mesh-jersey-1-4-zip-polo-shirt-full-dye-sublimation-500052",
-    "sourceSlug": "150gsm-mesh-jersey-1-4-zip-polo-shirt-full-dye-sublimation-500052",
-    "img": "/assets/images/notionworx-inventory/apparel/150gsm-mesh-jersey-1-4-zip-polo-shirt-full-dye-sublimation-500052/01.jpg",
-    "imgHover": "/assets/images/notionworx-inventory/apparel/150gsm-mesh-jersey-1-4-zip-polo-shirt-full-dye-sublimation-500052/01.jpg",
-    "images": [
-      {
-        "src": "/assets/images/notionworx-inventory/apparel/150gsm-mesh-jersey-1-4-zip-polo-shirt-full-dye-sublimation-500052/01.jpg"
-      }
-    ],
-    "name": "150GSM Mesh Jersey 1/4 Zip Polo Shirt (Full Dye Sublimation) #500052",
-    "price": 29,
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL",
-      "5XL"
-    ],
-    "variantLabel": "Size",
-    "cardVariant": "",
-    "filterBrands": [
-      "Notion Worx"
-    ],
-    "filterCategory": [
-      "APPAREL"
-    ],
-    "filterColor": [],
-    "filterSizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL",
-      "5XL"
-    ],
-    "tags": [],
-    "rating": 0,
-    "inStock": true,
-    "isStockOut": false,
-    "services": [],
-    "category": "APPAREL",
-    "description": "Download Update (NOTE: Neck collar only can do solid color) Need Help with Artwork Setup? 95% polyester.5% spandex jerseymesh moisture wicking fabric",
-    "descriptionHtml": "<h3><a href=\"https://displaytemplate.s3.us-west-2.amazonaws.com/Apparel/polo+shirt+12.28.zip\">Download Update Template</a> (NOTE: Neck collar only can do solid color) <a href=\"https://soardistusa.com/apps/help-center#hc-creative-services\">Need Help with Artwork Setup?</a></h3>\n<p>95% polyester.5% spandex jerseymesh moisture wicking fabric</p>\n<p><img src=\"https://cdn.shopifycdn.net/s/files/1/1564/9941/files/moisture_wicking_fabric_480x480.jpg?v=1645131173\" alt=\"\"> <img src=\"https://cdn.shopifycdn.net/s/files/1/1564/9941/files/Moisture-Wicking-Performance_480x480.jpg?v=1645131249\" alt=\"\"></p>",
-    "descriptionText": "Download Update Template (NOTE: Neck collar only can do solid color) Need Help with Artwork Setup?\n\n95% polyester.5% spandex jerseymesh moisture wicking fabric",
-    "howToOrderHtml": "<ul>\n  <li>SKU<br>500052</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
-    "howToOrderText": "- SKU\n  500052\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
-    "sku": "500052",
-    "reviewsText": "14 options",
-    "soldLabel": "Available to order",
-    "badgeLabel": "Apparel",
-    "badgeSubtext": "1 product image available"
-  },
-  {
-    "id": 28,
-    "sourceProductId": 8227672031367,
-    "sourceHandle": "150gsm-mesh-jersey-football-jersey-full-dye-sublimation-500150",
-    "sourceSlug": "150gsm-mesh-jersey-football-jersey-full-dye-sublimation-500150",
-    "img": "/assets/images/notionworx-inventory/apparel/150gsm-mesh-jersey-football-jersey-full-dye-sublimation-500150/01.jpg",
-    "imgHover": "/assets/images/notionworx-inventory/apparel/150gsm-mesh-jersey-football-jersey-full-dye-sublimation-500150/02.jpg",
-    "images": [
-      {
-        "src": "/assets/images/notionworx-inventory/apparel/150gsm-mesh-jersey-football-jersey-full-dye-sublimation-500150/01.jpg"
-      },
-      {
-        "src": "/assets/images/notionworx-inventory/apparel/150gsm-mesh-jersey-football-jersey-full-dye-sublimation-500150/02.jpg"
-      },
-      {
-        "src": "/assets/images/notionworx-inventory/apparel/150gsm-mesh-jersey-football-jersey-full-dye-sublimation-500150/03.jpg"
-      },
-      {
-        "src": "/assets/images/notionworx-inventory/apparel/150gsm-mesh-jersey-football-jersey-full-dye-sublimation-500150/04.jpg"
-      },
-      {
-        "src": "/assets/images/notionworx-inventory/apparel/150gsm-mesh-jersey-football-jersey-full-dye-sublimation-500150/05.jpg"
-      }
-    ],
-    "name": "150GSM Mesh Jersey Football Jersey (Full Dye Sublimation) #500150",
-    "price": 29,
-    "sizes": [
-      "S",
-      "XS",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
-    ],
-    "variantLabel": "Size",
-    "cardVariant": "",
-    "filterBrands": [
-      "Notion Worx"
-    ],
-    "filterCategory": [
-      "APPAREL"
-    ],
-    "filterColor": [],
-    "filterSizes": [
-      "S",
-      "XS",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
-    ],
-    "tags": [],
-    "rating": 0,
-    "inStock": true,
-    "isStockOut": false,
-    "services": [],
-    "category": "APPAREL",
-    "description": "Material: 100% polyester, jersey mesh premium rib collar and sleeve cuff stock color : white,black,red,yellow,blue,if need other color ,turnaround time is 2 week moisture-wicking fabric 150gsm - 4.42oz The football jerseys offered for sale on this platform are intended solely fo…",
-    "descriptionHtml": "<p><a href=\"https://www.dropbox.com/scl/fo/levlzd3ijxaqs9so7w8in/ALmpTu-SXaA7CIGGZpu41Pc?rlkey=xfutswi9eahpndlkp2dupnoau&amp;dl=0\">Download Template</a></p>\n<p>Material: 100% polyester, jersey mesh</p>\n<p>premium rib collar and sleeve cuff</p>\n<p>stock color : white,black,red,yellow,blue,if need other color ,turnaround time is 2 week</p>\n<p>moisture-wicking fabric</p>\n<p>150gsm - 4.42oz</p>\n<p>The football jerseys offered for sale on this platform are intended solely for the purpose of fan support, collectible, and casual wear. By purchasing and wearing our football jerseys, you acknowledge that they are not intended for gameplay, and we shall not be held responsible for any damages.</p>\n<p><img src=\"https://cdn.shopifycdn.net/s/files/1/1564/9941/files/moisture_wicking_fabric_480x480.jpg?v=1645131173\" alt=\"\"></p>\n<p><img src=\"https://cdn.shopifycdn.net/s/files/1/1564/9941/files/Moisture-Wicking-Performance_480x480.jpg?v=1645131249\" alt=\"\"></p>",
-    "descriptionText": "Download Template\n\nMaterial: 100% polyester, jersey mesh\n\npremium rib collar and sleeve cuff\n\nstock color : white,black,red,yellow,blue,if need other color ,turnaround time is 2 week\n\nmoisture-wicking fabric\n\n150gsm - 4.42oz\n\nThe football jerseys offered for sale on this platform are intended solely for the purpose of fan support, collectible, and casual wear. By purchasing and wearing our football jerseys, you acknowledge that they are not intended for gameplay, and we shall not be held responsible for any damages.",
-    "howToOrderHtml": "<ul>\n  <li>SKU<br>500150</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
-    "howToOrderText": "- SKU\n  500150\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
-    "sku": "500150",
-    "reviewsText": "12 options",
-    "soldLabel": "Available to order",
-    "badgeLabel": "Influxer",
-    "badgeSubtext": "5 product images available"
-  },
-  {
-    "id": 29,
-    "sourceProductId": 8227679305863,
-    "sourceHandle": "150gsm-mesh-jersey-v-neck-sleeveless-full-dye-sublimation-500086",
-    "sourceSlug": "150gsm-mesh-jersey-v-neck-sleeveless-full-dye-sublimation-500086",
-    "img": "/assets/images/notionworx-inventory/apparel/150gsm-mesh-jersey-v-neck-sleeveless-full-dye-sublimation-500086/01.jpg",
-    "imgHover": "/assets/images/notionworx-inventory/apparel/150gsm-mesh-jersey-v-neck-sleeveless-full-dye-sublimation-500086/01.jpg",
-    "images": [
-      {
-        "src": "/assets/images/notionworx-inventory/apparel/150gsm-mesh-jersey-v-neck-sleeveless-full-dye-sublimation-500086/01.jpg"
-      }
-    ],
-    "name": "150GSM Mesh Jersey V Neck Sleeveless (Full Dye Sublimation) #500086",
-    "price": 12.5,
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL",
-      "YXS"
-    ],
-    "variantLabel": "Size",
-    "cardVariant": "",
-    "filterBrands": [
-      "Notion Worx"
-    ],
-    "filterCategory": [
-      "APPAREL"
-    ],
-    "filterColor": [],
-    "filterSizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL",
-      "YXS"
-    ],
-    "tags": [],
-    "rating": 0,
-    "inStock": true,
-    "isStockOut": false,
-    "services": [],
-    "category": "APPAREL",
-    "description": "Need Help with Artwork Setup? 95% polyester 5% spandex 4.42oz jersey mesh moisture wicking fabric",
-    "descriptionHtml": "<h4><a href=\"https://www.dropbox.com/s/c54iyei2s0tfb0p/v%20neck%20sleeveless.zip?dl=0\">download template</a> <a href=\"https://soardistusa.com/apps/help-center#hc-creative-services\">Need Help with Artwork Setup?</a></h4>\n<p>95% polyester 5% spandex 4.42oz jersey mesh moisture wicking fabric</p>\n<p><img src=\"https://cdn.shopifycdn.net/s/files/1/1564/9941/files/moisture_wicking_fabric_480x480.jpg?v=1645131173\" alt=\"\"> <img src=\"https://cdn.shopifycdn.net/s/files/1/1564/9941/files/Moisture-Wicking-Performance_480x480.jpg?v=1645131249\" alt=\"\"></p>",
-    "descriptionText": "download template Need Help with Artwork Setup?\n\n95% polyester 5% spandex 4.42oz jersey mesh moisture wicking fabric",
-    "howToOrderHtml": "<ul>\n  <li>SKU<br>500005-S</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
-    "howToOrderText": "- SKU\n  500005-S\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
-    "sku": "500005-S",
-    "reviewsText": "12 options",
-    "soldLabel": "Available to order",
-    "badgeLabel": "Apparel",
-    "badgeSubtext": "1 product image available"
-  },
-  {
-    "id": 30,
+    "id": 13,
     "sourceProductId": 8227682386055,
     "sourceHandle": "15roller-bag",
     "sourceSlug": "15roller-bag",
@@ -2430,7 +1385,7 @@ export const storefrontProducts = [
     "badgeSubtext": "3 product images available"
   },
   {
-    "id": 31,
+    "id": 14,
     "sourceProductId": 8227681468551,
     "sourceHandle": "17-5-premium-universal-fiberglass-flag-pole-with-carry-bag",
     "sourceSlug": "17-5-premium-universal-fiberglass-flag-pole-with-carry-bag",
@@ -2474,7 +1429,7 @@ export const storefrontProducts = [
     "badgeSubtext": "1 product image available"
   },
   {
-    "id": 32,
+    "id": 15,
     "sourceProductId": 8227681435783,
     "sourceHandle": "170-premium-universal-fiberglass-flag-pole-with-carry-bag",
     "sourceSlug": "170-premium-universal-fiberglass-flag-pole-with-carry-bag",
@@ -2518,7 +1473,7 @@ export const storefrontProducts = [
     "badgeSubtext": "1 product image available"
   },
   {
-    "id": 33,
+    "id": 16,
     "sourceProductId": 8227682418823,
     "sourceHandle": "20-roller-bag",
     "sourceSlug": "20-roller-bag",
@@ -2558,7 +1513,7 @@ export const storefrontProducts = [
     "badgeSubtext": "1 product image available"
   },
   {
-    "id": 34,
+    "id": 17,
     "sourceProductId": 8227673800839,
     "sourceHandle": "20-tube-display-straight",
     "sourceSlug": "20-tube-display-straight",
@@ -2620,7 +1575,7 @@ export const storefrontProducts = [
     "badgeSubtext": "6 product images available"
   },
   {
-    "id": 35,
+    "id": 18,
     "sourceProductId": 8227678486663,
     "sourceHandle": "20ft-seg-fabric-display",
     "sourceSlug": "20ft-seg-fabric-display",
@@ -2681,7 +1636,7 @@ export const storefrontProducts = [
     "badgeSubtext": "5 product images available"
   },
   {
-    "id": 36,
+    "id": 19,
     "sourceProductId": 8227678552199,
     "sourceHandle": "3ft-seg-fabric-stand",
     "sourceSlug": "3ft-seg-fabric-stand",
@@ -2739,7 +1694,7 @@ export const storefrontProducts = [
     "badgeSubtext": "4 product images available"
   },
   {
-    "id": 37,
+    "id": 20,
     "sourceProductId": 8227672293511,
     "sourceHandle": "3x7-5h-premiumtube-banner-stand-with-steel-feet",
     "sourceSlug": "3x7-5h-premiumtube-banner-stand-with-steel-feet",
@@ -2792,7 +1747,7 @@ export const storefrontProducts = [
     "badgeSubtext": "2 product images available"
   },
   {
-    "id": 38,
+    "id": 21,
     "sourceProductId": 8227672588423,
     "sourceHandle": "5x5-custom-canopy-tent-19-05",
     "sourceSlug": "5x5-custom-canopy-tent-19-05",
@@ -3087,7 +2042,7 @@ export const storefrontProducts = [
     "badgeSubtext": "9 product images available"
   },
   {
-    "id": 39,
+    "id": 22,
     "sourceProductId": 8227672621191,
     "sourceHandle": "5x5-custom-canopy-tent-20-05",
     "sourceSlug": "5x5-custom-canopy-tent-20-05",
@@ -3377,7 +2332,7 @@ export const storefrontProducts = [
     "badgeSubtext": "8 product images available"
   },
   {
-    "id": 40,
+    "id": 23,
     "sourceProductId": 8232522973319,
     "sourceHandle": "5x5-custom-canopy-tent-21-05",
     "sourceSlug": "5x5-custom-canopy-tent-21-05",
@@ -3688,7 +2643,7 @@ export const storefrontProducts = [
     "badgeSubtext": "6 product images available"
   },
   {
-    "id": 41,
+    "id": 24,
     "sourceProductId": 8227672555655,
     "sourceHandle": "5x5-custom-canopy-tent-22-05",
     "sourceSlug": "5x5-custom-canopy-tent-22-05",
@@ -3994,7 +2949,7 @@ export const storefrontProducts = [
     "badgeSubtext": "4 product images available"
   },
   {
-    "id": 42,
+    "id": 25,
     "sourceProductId": 8227683336327,
     "sourceHandle": "6-5-premium-rectangle-flag-pole",
     "sourceSlug": "6-5-premium-rectangle-flag-pole",
@@ -4038,7 +2993,7 @@ export const storefrontProducts = [
     "badgeSubtext": "1 product image available"
   },
   {
-    "id": 43,
+    "id": 26,
     "sourceProductId": 8258921857159,
     "sourceHandle": "6ft-heavy-duty-folding-table",
     "sourceSlug": "6ft-heavy-duty-folding-table",
@@ -4082,7 +3037,7 @@ export const storefrontProducts = [
     "badgeSubtext": "1 product image available"
   },
   {
-    "id": 44,
+    "id": 27,
     "sourceProductId": 8227675832455,
     "sourceHandle": "7-flagpole",
     "sourceSlug": "7-flagpole",
@@ -4117,7 +3072,7 @@ export const storefrontProducts = [
     "badgeSubtext": "1 product image available"
   },
   {
-    "id": 45,
+    "id": 28,
     "sourceProductId": 8227673899143,
     "sourceHandle": "8-fabric-pop-up-display-straight-copy",
     "sourceSlug": "8-fabric-pop-up-display-straight-copy",
@@ -4175,7 +3130,7 @@ export const storefrontProducts = [
     "badgeSubtext": "4 product images available"
   },
   {
-    "id": 46,
+    "id": 29,
     "sourceProductId": 8227673866375,
     "sourceHandle": "8-tube-straight-fabric-display-copy",
     "sourceSlug": "8-tube-straight-fabric-display-copy",
@@ -4228,7 +3183,7 @@ export const storefrontProducts = [
     "badgeSubtext": "3 product images available"
   },
   {
-    "id": 47,
+    "id": 30,
     "sourceProductId": 8258923135111,
     "sourceHandle": "8ft-heavy-duty-folding-table",
     "sourceSlug": "8ft-heavy-duty-folding-table",
@@ -4272,7 +3227,7 @@ export const storefrontProducts = [
     "badgeSubtext": "1 product image available"
   },
   {
-    "id": 48,
+    "id": 31,
     "sourceProductId": 8227678388359,
     "sourceHandle": "8ft-seg-backlit-popup-display",
     "sourceSlug": "8ft-seg-backlit-popup-display",
@@ -4333,7 +3288,7 @@ export const storefrontProducts = [
     "badgeSubtext": "5 product images available"
   },
   {
-    "id": 49,
+    "id": 32,
     "sourceProductId": 8227675603079,
     "sourceHandle": "9-outdoor-aluminum-patio-umbrella-dye-sublimation-copy",
     "sourceSlug": "9-outdoor-aluminum-patio-umbrella-dye-sublimation-copy",
@@ -4400,7 +3355,7 @@ export const storefrontProducts = [
     "badgeSubtext": "5 product images available"
   },
   {
-    "id": 50,
+    "id": 33,
     "sourceProductId": 8227678945415,
     "sourceHandle": "belt-bag-dye-sublimated-1-38-strap-500060",
     "sourceSlug": "belt-bag-dye-sublimated-1-38-strap-500060",
@@ -4445,7 +3400,7 @@ export const storefrontProducts = [
     "badgeSubtext": "2 product images available"
   },
   {
-    "id": 51,
+    "id": 34,
     "sourceProductId": 8266743447687,
     "sourceHandle": "canopy-counter-bar-top",
     "sourceSlug": "canopy-counter-bar-top",
@@ -4493,7 +3448,7 @@ export const storefrontProducts = [
     "badgeSubtext": "2 product images available"
   },
   {
-    "id": 52,
+    "id": 35,
     "sourceProductId": 8227675570311,
     "sourceHandle": "cooling-beach-towel-12-x-40",
     "sourceSlug": "cooling-beach-towel-12-x-40",
@@ -4533,79 +3488,7 @@ export const storefrontProducts = [
     "badgeSubtext": "1 product image available"
   },
   {
-    "id": 53,
-    "sourceProductId": 8227680157831,
-    "sourceHandle": "crew-neck-sleeveless-full-dye-sublimation",
-    "sourceSlug": "crew-neck-sleeveless-full-dye-sublimation",
-    "img": "/assets/images/notionworx-inventory/apparel/crew-neck-sleeveless-full-dye-sublimation/01.jpg",
-    "imgHover": "/assets/images/notionworx-inventory/apparel/crew-neck-sleeveless-full-dye-sublimation/02.jpg",
-    "images": [
-      {
-        "src": "/assets/images/notionworx-inventory/apparel/crew-neck-sleeveless-full-dye-sublimation/01.jpg"
-      },
-      {
-        "src": "/assets/images/notionworx-inventory/apparel/crew-neck-sleeveless-full-dye-sublimation/02.jpg"
-      },
-      {
-        "src": "/assets/images/notionworx-inventory/apparel/crew-neck-sleeveless-full-dye-sublimation/03.png"
-      },
-      {
-        "src": "/assets/images/notionworx-inventory/apparel/crew-neck-sleeveless-full-dye-sublimation/04.png"
-      },
-      {
-        "src": "/assets/images/notionworx-inventory/apparel/crew-neck-sleeveless-full-dye-sublimation/05.png"
-      }
-    ],
-    "name": "150GSM Mesh Jersey Crew Neck Sleeveless (Full Dye Sublimation) #500005",
-    "price": 12.5,
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL",
-      "YXS"
-    ],
-    "variantLabel": "Size",
-    "cardVariant": "",
-    "filterBrands": [
-      "Notion Worx"
-    ],
-    "filterCategory": [
-      "APPAREL"
-    ],
-    "filterColor": [],
-    "filterSizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL",
-      "YXS"
-    ],
-    "tags": [],
-    "rating": 0,
-    "inStock": true,
-    "isStockOut": false,
-    "services": [],
-    "category": "APPAREL",
-    "description": "Need Help with Artwork Setup? 95% polyester 5% spandex 4.42oz jersey mesh moisture wicking fabric",
-    "descriptionHtml": "<h4><a href=\"https://displaytemplate.s3.us-west-2.amazonaws.com/Apparel/Custom+jersey/crewneck+sleeveless.zip\">download template</a> <a href=\"https://soardistusa.com/apps/help-center#hc-creative-services\">Need Help with Artwork Setup?</a></h4>\n<p>95% polyester 5% spandex 4.42oz jersey mesh moisture wicking fabric</p>\n<p><img src=\"https://cdn.shopifycdn.net/s/files/1/1564/9941/files/moisture_wicking_fabric_480x480.jpg?v=1645131173\" alt=\"\"> <img src=\"https://cdn.shopifycdn.net/s/files/1/1564/9941/files/Moisture-Wicking-Performance_480x480.jpg?v=1645131249\" alt=\"\"></p>",
-    "descriptionText": "download template Need Help with Artwork Setup?\n\n95% polyester 5% spandex 4.42oz jersey mesh moisture wicking fabric",
-    "howToOrderHtml": "<ul>\n  <li>SKU<br>500005-S</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
-    "howToOrderText": "- SKU\n  500005-S\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
-    "sku": "500005-S",
-    "reviewsText": "12 options",
-    "soldLabel": "Available to order",
-    "badgeLabel": "Apparel",
-    "badgeSubtext": "5 product images available"
-  },
-  {
-    "id": 54,
+    "id": 36,
     "sourceProductId": 8227681599623,
     "sourceHandle": "cross-base",
     "sourceSlug": "cross-base",
@@ -4647,67 +3530,7 @@ export const storefrontProducts = [
     "badgeSubtext": "1 product image available"
   },
   {
-    "id": 55,
-    "sourceProductId": 8227680649351,
-    "sourceHandle": "custom-2-button-baseball-jersey-full-dye-sublimation-50059",
-    "sourceSlug": "custom-2-button-baseball-jersey-full-dye-sublimation-50059",
-    "img": "/assets/images/notionworx-inventory/apparel/custom-2-button-baseball-jersey-full-dye-sublimation-50059/01.jpg",
-    "imgHover": "/assets/images/notionworx-inventory/apparel/custom-2-button-baseball-jersey-full-dye-sublimation-50059/01.jpg",
-    "images": [
-      {
-        "src": "/assets/images/notionworx-inventory/apparel/custom-2-button-baseball-jersey-full-dye-sublimation-50059/01.jpg"
-      }
-    ],
-    "name": "150GSM Mesh Jersey Custom 2 Button Baseball Jersey (Full Dye Sublimation) #50059",
-    "price": 29,
-    "sizes": [
-      "L",
-      "XS",
-      "S",
-      "M",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
-    ],
-    "variantLabel": "Size",
-    "cardVariant": "",
-    "filterBrands": [
-      "Notion Worx"
-    ],
-    "filterCategory": [
-      "APPAREL"
-    ],
-    "filterColor": [],
-    "filterSizes": [
-      "L",
-      "XS",
-      "S",
-      "M",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
-    ],
-    "tags": [],
-    "rating": 0,
-    "inStock": true,
-    "isStockOut": false,
-    "services": [],
-    "category": "APPAREL",
-    "description": "Need Help with Artwork Setup? 95% polyester 5% spandex ,stretch mesh jersey moisture wicking fabric",
-    "descriptionHtml": "<h4><a href=\"https://displaytemplate.s3.us-west-2.amazonaws.com/Apparel/Custom+jersey/2+button+baseball+jersey.zip\">Download Template</a> <a href=\"https://soardistusa.com/apps/help-center#hc-creative-services\">Need Help with Artwork Setup?</a></h4>\n<p>95% polyester 5% spandex ,stretch mesh jersey moisture wicking fabric</p>\n<p><img src=\"https://cdn.shopifycdn.net/s/files/1/1564/9941/files/moisture_wicking_fabric_480x480.jpg?v=1645131173\" alt=\"\"> <img src=\"https://cdn.shopifycdn.net/s/files/1/1564/9941/files/Moisture-Wicking-Performance_480x480.jpg?v=1645131249\" alt=\"\"></p>",
-    "descriptionText": "Download Template Need Help with Artwork Setup?\n\n95% polyester 5% spandex ,stretch mesh jersey moisture wicking fabric",
-    "howToOrderHtml": "<ul>\n  <li>SKU<br>50059</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
-    "howToOrderText": "- SKU\n  50059\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
-    "sku": "50059",
-    "reviewsText": "15 options",
-    "soldLabel": "Available to order",
-    "badgeLabel": "Apparel",
-    "badgeSubtext": "1 product image available"
-  },
-  {
-    "id": 56,
+    "id": 37,
     "sourceProductId": 8227678978183,
     "sourceHandle": "custom-2-zipper-fanny-pack-dye-sublimated",
     "sourceSlug": "custom-2-zipper-fanny-pack-dye-sublimated",
@@ -4749,67 +3572,7 @@ export const storefrontProducts = [
     "badgeSubtext": "1 product image available"
   },
   {
-    "id": 57,
-    "sourceProductId": 8227680190599,
-    "sourceHandle": "custom-baseball-jersey-full-dye-sublimation",
-    "sourceSlug": "custom-baseball-jersey-full-dye-sublimation",
-    "img": "/assets/images/notionworx-inventory/apparel/custom-baseball-jersey-full-dye-sublimation/01.jpg",
-    "imgHover": "/assets/images/notionworx-inventory/apparel/custom-baseball-jersey-full-dye-sublimation/01.jpg",
-    "images": [
-      {
-        "src": "/assets/images/notionworx-inventory/apparel/custom-baseball-jersey-full-dye-sublimation/01.jpg"
-      }
-    ],
-    "name": "150GSM Mesh Jersey Custom Button Down Baseball Jersey (Full Dye Sublimation) #50058",
-    "price": 29,
-    "sizes": [
-      "L",
-      "XS",
-      "S",
-      "M",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
-    ],
-    "variantLabel": "Size",
-    "cardVariant": "",
-    "filterBrands": [
-      "Notion Worx"
-    ],
-    "filterCategory": [
-      "APPAREL"
-    ],
-    "filterColor": [],
-    "filterSizes": [
-      "L",
-      "XS",
-      "S",
-      "M",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
-    ],
-    "tags": [],
-    "rating": 0,
-    "inStock": true,
-    "isStockOut": false,
-    "services": [],
-    "category": "APPAREL",
-    "description": "Download Roster Need Help with Artwork Setup? 95% polyester 5% spandex,stretch mesh jersey moisture-wicking fabric",
-    "descriptionHtml": "<h4><a href=\"https://www.dropbox.com/s/inny84x35h8r221/Baseball%20Jersey%20UPDATE%201-31.zip?dl=0\">Download Template</a> <a href=\"https://www.dropbox.com/s/dqst11s9odom2zr/roster%20template.xlsx?dl=0\">Download Roster Template</a> <a href=\"https://soardistusa.com/apps/help-center#hc-creative-services\">Need Help with Artwork Setup?</a></h4>\n<p>95% polyester 5% spandex,stretch mesh jersey moisture-wicking fabric</p>\n<p><img src=\"https://cdn.shopifycdn.net/s/files/1/1564/9941/files/moisture_wicking_fabric_480x480.jpg?v=1645131173\" alt=\"\"> <img src=\"https://cdn.shopifycdn.net/s/files/1/1564/9941/files/Moisture-Wicking-Performance_480x480.jpg?v=1645131249\" alt=\"\"></p>\n<h4><br></h4>",
-    "descriptionText": "Download Template Download Roster Template Need Help with Artwork Setup?\n\n95% polyester 5% spandex,stretch mesh jersey moisture-wicking fabric",
-    "howToOrderHtml": "<ul>\n  <li>SKU<br>50058</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
-    "howToOrderText": "- SKU\n  50058\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
-    "sku": "50058",
-    "reviewsText": "15 options",
-    "soldLabel": "Available to order",
-    "badgeLabel": "Apparel",
-    "badgeSubtext": "1 product image available"
-  },
-  {
-    "id": 58,
+    "id": 38,
     "sourceProductId": 8227679109255,
     "sourceHandle": "custom-duffel-bag-dye-sublimated",
     "sourceSlug": "custom-duffel-bag-dye-sublimated",
@@ -4863,7 +3626,7 @@ export const storefrontProducts = [
     "badgeSubtext": "5 product images available"
   },
   {
-    "id": 59,
+    "id": 39,
     "sourceProductId": 8227679010951,
     "sourceHandle": "custom-fanny-pack-dye-sublimated",
     "sourceSlug": "custom-fanny-pack-dye-sublimated",
@@ -4914,7 +3677,7 @@ export const storefrontProducts = [
     "badgeSubtext": "4 product images available"
   },
   {
-    "id": 60,
+    "id": 40,
     "sourceProductId": 8227672522887,
     "sourceHandle": "custom-food-booth-canopy-tent-16-10",
     "sourceSlug": "custom-food-booth-canopy-tent-16-10",
@@ -5276,7 +4039,7 @@ export const storefrontProducts = [
     "badgeSubtext": "10 product images available"
   },
   {
-    "id": 61,
+    "id": 41,
     "sourceProductId": 8227672424583,
     "sourceHandle": "custom-food-booth-canopy-tent-17-15",
     "sourceSlug": "custom-food-booth-canopy-tent-17-15",
@@ -5593,7 +4356,7 @@ export const storefrontProducts = [
     "badgeSubtext": "6 product images available"
   },
   {
-    "id": 62,
+    "id": 42,
     "sourceProductId": 8227672391815,
     "sourceHandle": "custom-food-booth-canopy-tent-18-20",
     "sourceSlug": "custom-food-booth-canopy-tent-18-20",
@@ -5919,7 +4682,7 @@ export const storefrontProducts = [
     "badgeSubtext": "9 product images available"
   },
   {
-    "id": 63,
+    "id": 43,
     "sourceProductId": 8227672359047,
     "sourceHandle": "custom-food-booth-canopy-tent-23-05",
     "sourceSlug": "custom-food-booth-canopy-tent-23-05",
@@ -6230,130 +4993,7 @@ export const storefrontProducts = [
     "badgeSubtext": "4 product images available"
   },
   {
-    "id": 64,
-    "sourceProductId": 8227680125063,
-    "sourceHandle": "custom-hockey-jersey-full-dye-sublimation-500021",
-    "sourceSlug": "custom-hockey-jersey-full-dye-sublimation-500021",
-    "img": "/assets/images/notionworx-inventory/apparel/custom-hockey-jersey-full-dye-sublimation-500021/01.jpg",
-    "imgHover": "/assets/images/notionworx-inventory/apparel/custom-hockey-jersey-full-dye-sublimation-500021/01.jpg",
-    "images": [
-      {
-        "src": "/assets/images/notionworx-inventory/apparel/custom-hockey-jersey-full-dye-sublimation-500021/01.jpg"
-      }
-    ],
-    "name": "150GSM Mesh Jersey Custom Hockey Jersey (Full Dye Sublimation) #500021",
-    "price": 57.5,
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL",
-      "5XL"
-    ],
-    "variantLabel": "Size",
-    "cardVariant": "",
-    "filterBrands": [
-      "Notion Worx"
-    ],
-    "filterCategory": [
-      "APPAREL"
-    ],
-    "filterColor": [],
-    "filterSizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL",
-      "5XL"
-    ],
-    "tags": [],
-    "rating": 0,
-    "inStock": true,
-    "isStockOut": false,
-    "services": [],
-    "category": "APPAREL",
-    "description": "Need Help with Artwork Setup? 95% polyester 5% spandex 4.42oz jersey mesh moisture-wicking fabric",
-    "descriptionHtml": "<p><a href=\"https://www.dropbox.com/sh/chqig6s4l32upo9/AAAL-GhOEbRevaKf-VdU6fT4a?dl=0\">Download Template</a> <a href=\"https://soardistusa.com/apps/help-center#hc-creative-services\">Need Help with Artwork Setup?</a></p>\n<p>95% polyester 5% spandex 4.42oz jersey mesh moisture-wicking fabric</p>\n<p><img src=\"https://cdn.shopifycdn.net/s/files/1/1564/9941/files/hockey_size.png?v=1656174625\" alt=\"\"></p>",
-    "descriptionText": "Download Template Need Help with Artwork Setup?\n\n95% polyester 5% spandex 4.42oz jersey mesh moisture-wicking fabric",
-    "howToOrderHtml": "<ul>\n  <li>SKU<br>500021</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
-    "howToOrderText": "- SKU\n  500021\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
-    "sku": "500021",
-    "reviewsText": "8 options",
-    "soldLabel": "Available to order",
-    "badgeLabel": "Apparel",
-    "badgeSubtext": "1 product image available"
-  },
-  {
-    "id": 65,
-    "sourceProductId": 8299735187591,
-    "sourceHandle": "custom-lanyard-with-badge-holder",
-    "sourceSlug": "custom-lanyard-with-badge-holder",
-    "img": "/assets/images/notionworx-inventory/accesories/custom-lanyard-with-badge-holder/01.jpg",
-    "imgHover": "/assets/images/notionworx-inventory/accesories/custom-lanyard-with-badge-holder/02.jpg",
-    "images": [
-      {
-        "src": "/assets/images/notionworx-inventory/accesories/custom-lanyard-with-badge-holder/01.jpg"
-      },
-      {
-        "src": "/assets/images/notionworx-inventory/accesories/custom-lanyard-with-badge-holder/02.jpg"
-      },
-      {
-        "src": "/assets/images/notionworx-inventory/accesories/custom-lanyard-with-badge-holder/03.jpg"
-      },
-      {
-        "src": "/assets/images/notionworx-inventory/accesories/custom-lanyard-with-badge-holder/04.jpg"
-      },
-      {
-        "src": "/assets/images/notionworx-inventory/accesories/custom-lanyard-with-badge-holder/05.jpg"
-      }
-    ],
-    "name": "Custom Lanyard with Badge Holder",
-    "price": 210,
-    "sizes": [
-      "1\" Wide",
-      "3/4\" Wide",
-      "5/8\" Wide"
-    ],
-    "variantLabel": "Size",
-    "cardVariant": "",
-    "filterBrands": [
-      "Notion Worx"
-    ],
-    "filterCategory": [
-      "Accessories",
-      "APPAREL"
-    ],
-    "filterColor": [],
-    "filterSizes": [
-      "1\" Wide",
-      "3/4\" Wide",
-      "5/8\" Wide"
-    ],
-    "tags": [],
-    "rating": 0,
-    "inStock": true,
-    "isStockOut": false,
-    "services": [],
-    "category": "Accessories",
-    "description": "Custom Lanyard with Badge Holder Upgrade your event or workplace ID setup with our Custom Lanyards, designed for durability, comfort, and professional branding. Perfect for trade shows, conferences, corporate events, staff IDs, and promotional giveaways, our lanyards combine fun…",
-    "descriptionHtml": "<h2>Custom Lanyard with Badge Holder</h2>\n<p>Upgrade your event or workplace ID setup with our Custom Lanyards, designed for durability, comfort, and professional branding. Perfect for trade shows, conferences, corporate events, staff IDs, and promotional giveaways, our lanyards combine functionality with high-impact customization.</p>\n<p>Available in multiple widths and attachment options, these lanyards are fully customizable to match your brand and event needs — with design, setup, and delivery already included.</p>\n<h3>Key Features</h3>\n<p>🎨 Full Custom Printing: High-quality printing ensures your logo and artwork look sharp and professional.<br>📏 Multiple Width Options: Available in 1&quot;, 3/4&quot;, and 5/8&quot; to suit different styles and comfort preferences.<br>🔗 Attachment Options: Choose from lobster claw, bulldog clip, J-hook, or keyring attachments.<br>💪 Durable &amp; Comfortable: Made from premium materials designed for all-day wear.<br>🪪 Versatile Use: Ideal for holding ID badges, access cards, keys, or event passes.<br>🧯 Safety Ready: Breakaway option available for added safety in active environments.<br>🎁 All-Inclusive Pricing: Setup fee, design service, and delivery are included — no hidden costs.<br>⏱️ Production Turnaround: Approximately 3 weeks from design approval and full payment.</p>\n<h3>Why Choose Our Custom Lanyards</h3>\n<ul>\n  <li>✔ Enhances brand visibility at events</li>\n  <li>✔ Professional look for staff and attendees</li>\n  <li>✔ Comfortable for extended wear</li>\n  <li>✔ Reliable attachments for everyday use</li>\n  <li>✔ Hassle-free ordering with full service included</li>\n</ul>\n<h3>Primary Usage</h3>\n<p>Trade shows, conferences, corporate events, employee IDs, schools, conventions, festivals, brand activations, and promotional giveaways.</p>",
-    "descriptionText": "Custom Lanyard with Badge Holder\n\nUpgrade your event or workplace ID setup with our Custom Lanyards, designed for durability, comfort, and professional branding. Perfect for trade shows, conferences, corporate events, staff IDs, and promotional giveaways, our lanyards combine functionality with high-impact customization.\n\nAvailable in multiple widths and attachment options, these lanyards are fully customizable to match your brand and event needs — with design, setup, and delivery already included.\n\nKey Features\n\n🎨 Full Custom Printing: High-quality printing ensures your logo and artwork look sharp and professional.\n📏 Multiple Width Options: Available in 1\", 3/4\", and 5/8\" to suit different styles and comfort preferences.\n🔗 Attachment Options: Choose from lobster claw, bulldog clip, J-hook, or keyring attachments.\n💪 Durable & Comfortable: Made from premium materials designed for all-day wear.\n🪪 Versatile Use: Ideal for holding ID badges, access cards, keys, or event passes.\n🧯 Safety Ready: Breakaway option available for added safety in active environments.\n🎁 All-Inclusive Pricing: Setup fee, design service, and delivery are included — no hidden costs.\n⏱️ Production Turnaround: Approximately 3 weeks from design approval and full payment.\n\nWhy Choose Our Custom Lanyards\n\n- ✔ Enhances brand visibility at events\n\n- ✔ Professional look for staff and attendees\n\n- ✔ Comfortable for extended wear\n\n- ✔ Reliable attachments for everyday use\n\n- ✔ Hassle-free ordering with full service included\n\nPrimary Usage\n\nTrade shows, conferences, corporate events, employee IDs, schools, conventions, festivals, brand activations, and promotional giveaways.",
-    "howToOrderHtml": "<ul>\n  <li>SKU<br>NWGON100BC-1</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
-    "howToOrderText": "- SKU\n  NWGON100BC-1\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
-    "sku": "NWGON100BC-1",
-    "reviewsText": "60 options",
-    "soldLabel": "Available to order",
-    "badgeLabel": "Accessories",
-    "badgeSubtext": "5 product images available"
-  },
-  {
-    "id": 66,
+    "id": 44,
     "sourceProductId": 8229364990087,
     "sourceHandle": "custom-pole-flags",
     "sourceSlug": "custom-pole-flags",
@@ -6420,7 +5060,7 @@ export const storefrontProducts = [
     "badgeSubtext": "4 product images available"
   },
   {
-    "id": 67,
+    "id": 45,
     "sourceProductId": 8227675537543,
     "sourceHandle": "custom-sublimation-printed-chiffon-bandanna-scarf",
     "sourceSlug": "custom-sublimation-printed-chiffon-bandanna-scarf",
@@ -6468,7 +5108,7 @@ export const storefrontProducts = [
     "badgeSubtext": "3 product images available"
   },
   {
-    "id": 68,
+    "id": 46,
     "sourceProductId": 8227679076487,
     "sourceHandle": "custom-tote-bag-dye-sublimated",
     "sourceSlug": "custom-tote-bag-dye-sublimated",
@@ -6516,7 +5156,7 @@ export const storefrontProducts = [
     "badgeSubtext": "3 product images available"
   },
   {
-    "id": 69,
+    "id": 47,
     "sourceProductId": 8519820345479,
     "sourceHandle": "custom-vinyl-stickers",
     "sourceSlug": "custom-vinyl-stickers",
@@ -6585,7 +5225,7 @@ export const storefrontProducts = [
     "badgeSubtext": "6 product images available"
   },
   {
-    "id": 70,
+    "id": 48,
     "sourceProductId": 8315483127943,
     "sourceHandle": "custom-yard-sign",
     "sourceSlug": "custom-yard-sign",
@@ -6648,70 +5288,7 @@ export const storefrontProducts = [
     "badgeSubtext": "3 product images available"
   },
   {
-    "id": 71,
-    "sourceProductId": 8227680026759,
-    "sourceHandle": "cycling-jerseys-full-dye-sublimation",
-    "sourceSlug": "cycling-jerseys-full-dye-sublimation",
-    "img": "/assets/images/notionworx-inventory/apparel/cycling-jerseys-full-dye-sublimation/01.jpg",
-    "imgHover": "/assets/images/notionworx-inventory/apparel/cycling-jerseys-full-dye-sublimation/02.jpg",
-    "images": [
-      {
-        "src": "/assets/images/notionworx-inventory/apparel/cycling-jerseys-full-dye-sublimation/01.jpg"
-      },
-      {
-        "src": "/assets/images/notionworx-inventory/apparel/cycling-jerseys-full-dye-sublimation/02.jpg"
-      }
-    ],
-    "name": "150GSM Mesh Jersey Cycling Jerseys (Full Dye Sublimation) #500033",
-    "price": 75,
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
-    ],
-    "variantLabel": "Size",
-    "cardVariant": "",
-    "filterBrands": [
-      "Notion Worx"
-    ],
-    "filterCategory": [
-      "APPAREL"
-    ],
-    "filterColor": [],
-    "filterSizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
-    ],
-    "tags": [],
-    "rating": 0,
-    "inStock": true,
-    "isStockOut": false,
-    "services": [],
-    "category": "APPAREL",
-    "description": "Download Templ ate Need Help with Artwork Setup? - 95% polyester 5% spandex 4.42oz jersey mesh moisture wicking fabric - Cycling shirt -With 3 pockets on back of jersey It is very convenience for storage, There is a silicone anti-skid band on the bottom of the cycling jersey to…",
-    "descriptionHtml": "<p><a href=\"https://www.dropbox.com/scl/fo/s70jmq574mcu4vpv37pxm/h?rlkey=oezm0wfm61zekiy09xs43ls3f&amp;st=w51qe0xr&amp;dl=0\">Download Templ</a> <a href=\"https://displaytemplate.s3.us-west-2.amazonaws.com/Apparel/Custom+jersey/cycling+jersey.zip\">ate</a> <a href=\"https://soardistusa.com/apps/help-center#hc-creative-services\">Need Help with Artwork Setup?</a><br><br></p>\n<ul>\n  <li>95% polyester 5% spandex 4.42oz jersey mesh moisture wicking fabric</li>\n  <li>Cycling shirt -With 3 pockets on back of jersey It is very convenience for storage, There is a silicone anti-skid band on the bottom of the cycling jersey to prevent the clothes from sliding when riding.Cycle jersey material: 100% polyester,The breathable and wicking mesh fabric draws sweat away from body quickly</li>\n  <li>Premium &amp; comfortable - This cyclist’s jersey is suitable for all levels cyclists, which includes road bike or mountain biker,gym exercise.Whenever you&#x27;re sweaty the Jersey never adhere to your skin, It has a quick-dry feature which makes you feel more comfortable.3 rear pockets can stash pump, repair tool kits, tires, phone, food or clothing for change.</li>\n</ul>",
-    "descriptionText": "Download Templ ate Need Help with Artwork Setup?\n\n- 95% polyester 5% spandex 4.42oz jersey mesh moisture wicking fabric\n\n- Cycling shirt -With 3 pockets on back of jersey It is very convenience for storage, There is a silicone anti-skid band on the bottom of the cycling jersey to prevent the clothes from sliding when riding.Cycle jersey material: 100% polyester,The breathable and wicking mesh fabric draws sweat away from body quickly\n\n- Premium & comfortable - This cyclist’s jersey is suitable for all levels cyclists, which includes road bike or mountain biker,gym exercise.Whenever you're sweaty the Jersey never adhere to your skin, It has a quick-dry feature which makes you feel more comfortable.3 rear pockets can stash pump, repair tool kits, tires, phone, food or clothing for change.",
-    "howToOrderHtml": "<ul>\n  <li>SKU<br>500033</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
-    "howToOrderText": "- SKU\n  500033\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
-    "sku": "500033",
-    "reviewsText": "8 options",
-    "soldLabel": "Available to order",
-    "badgeLabel": "Apparel",
-    "badgeSubtext": "2 product images available"
-  },
-  {
-    "id": 72,
+    "id": 49,
     "sourceProductId": 8227678191751,
     "sourceHandle": "deluxe-retractable-33-x-80",
     "sourceSlug": "deluxe-retractable-33-x-80",
@@ -6774,7 +5351,7 @@ export const storefrontProducts = [
     "badgeSubtext": "8 product images available"
   },
   {
-    "id": 73,
+    "id": 50,
     "sourceProductId": 8227674718343,
     "sourceHandle": "draped-table-cover",
     "sourceSlug": "draped-table-cover",
@@ -6831,7 +5408,7 @@ export const storefrontProducts = [
     "badgeSubtext": "2 product images available"
   },
   {
-    "id": 74,
+    "id": 51,
     "sourceProductId": 8227679142023,
     "sourceHandle": "drawstring-bag-dye-sublimated",
     "sourceSlug": "drawstring-bag-dye-sublimated",
@@ -6885,7 +5462,7 @@ export const storefrontProducts = [
     "badgeSubtext": "5 product images available"
   },
   {
-    "id": 75,
+    "id": 52,
     "sourceProductId": 8229364531335,
     "sourceHandle": "flag-pole-and-bracket",
     "sourceSlug": "flag-pole-and-bracket",
@@ -6928,7 +5505,7 @@ export const storefrontProducts = [
     "badgeSubtext": "2 product images available"
   },
   {
-    "id": 76,
+    "id": 53,
     "sourceProductId": 8227681271943,
     "sourceHandle": "flag-pole-base-accerrories",
     "sourceSlug": "flag-pole-base-accerrories",
@@ -6973,550 +5550,7 @@ export const storefrontProducts = [
     "badgeSubtext": "2 product images available"
   },
   {
-    "id": 77,
-    "sourceProductId": 8227678814343,
-    "sourceHandle": "full-zipper-hoodie-full-dye-sublimation-500025",
-    "sourceSlug": "full-zipper-hoodie-full-dye-sublimation-500025",
-    "img": "/assets/images/notionworx-inventory/apparel/full-zipper-hoodie-full-dye-sublimation-500025/01.webp",
-    "imgHover": "/assets/images/notionworx-inventory/apparel/full-zipper-hoodie-full-dye-sublimation-500025/02.png",
-    "images": [
-      {
-        "src": "/assets/images/notionworx-inventory/apparel/full-zipper-hoodie-full-dye-sublimation-500025/01.webp"
-      },
-      {
-        "src": "/assets/images/notionworx-inventory/apparel/full-zipper-hoodie-full-dye-sublimation-500025/02.png"
-      }
-    ],
-    "name": "Full Zipper Hoodie (Full Dye Sublimation) #500025",
-    "price": 39,
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "YS",
-      "YM"
-    ],
-    "variantLabel": "Size",
-    "cardVariant": "",
-    "filterBrands": [
-      "Notion Worx"
-    ],
-    "filterCategory": [
-      "APPAREL"
-    ],
-    "filterColor": [],
-    "filterSizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "YS",
-      "YM"
-    ],
-    "tags": [],
-    "rating": 0,
-    "inStock": true,
-    "isStockOut": false,
-    "services": [],
-    "category": "APPAREL",
-    "description": "Need Help with Artwork Setup? Get customers excited with our Pullover Full-Color Sublimated Hoodie! This sublimated hoodie is an awesome giveaway and is sure to attract a lot of attention! It is ideal for promotional events giving you maximum brand exposure during indoor or outd…",
-    "descriptionHtml": "<h4><a href=\"https://www.dropbox.com/scl/fo/ta0melume013nh03tvtct/h?rlkey=aqkv794ui1nzmew66bkfgwjsk&amp;dl=0\">Download Template</a> <a href=\"https://soardistusa.com/apps/help-center#hc-creative-services\">Need Help with Artwork Setup?</a></h4>\n<p>Get customers excited with our Pullover Full-Color Sublimated Hoodie! This sublimated hoodie is an awesome giveaway and is sure to attract a lot of attention! It is ideal for promotional events giving you maximum brand exposure during indoor or outdoor activities. This trendy unisex sublimation hoodie features edge to edge imprint with pockets, WITH rope on hat. It is made of 7.37 oz polyester.<br></p>",
-    "descriptionText": "Download Template Need Help with Artwork Setup?\n\nGet customers excited with our Pullover Full-Color Sublimated Hoodie! This sublimated hoodie is an awesome giveaway and is sure to attract a lot of attention! It is ideal for promotional events giving you maximum brand exposure during indoor or outdoor activities. This trendy unisex sublimation hoodie features edge to edge imprint with pockets, WITH rope on hat. It is made of 7.37 oz polyester.",
-    "howToOrderHtml": "<ul>\n  <li>SKU<br>500025</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
-    "howToOrderText": "- SKU\n  500025\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
-    "sku": "500025",
-    "reviewsText": "9 options",
-    "soldLabel": "Available to order",
-    "badgeLabel": "Apparel",
-    "badgeSubtext": "2 product images available"
-  },
-  {
-    "id": 78,
-    "sourceProductId": 8227671900295,
-    "sourceHandle": "grs-spf-50-120gsm-milk-silk-long-sleeve-crew-neck-full-dye-sublimation-500080",
-    "sourceSlug": "grs-spf-50-120gsm-milk-silk-long-sleeve-crew-neck-full-dye-sublimation-500080",
-    "img": "/assets/images/notionworx-inventory/apparel/grs-spf-50-120gsm-milk-silk-long-sleeve-crew-neck-full-dye-sublimation-500080/01.jpg",
-    "imgHover": "/assets/images/notionworx-inventory/apparel/grs-spf-50-120gsm-milk-silk-long-sleeve-crew-neck-full-dye-sublimation-500080/01.jpg",
-    "images": [
-      {
-        "src": "/assets/images/notionworx-inventory/apparel/grs-spf-50-120gsm-milk-silk-long-sleeve-crew-neck-full-dye-sublimation-500080/01.jpg"
-      }
-    ],
-    "name": "GRS/SPF 50+ 120GSM Milk Silk Long Sleeve Crew Neck (Full Dye Sublimation)#500080",
-    "price": 50,
-    "sizes": [
-      "L",
-      "YS",
-      "YM",
-      "YL",
-      "S",
-      "M",
-      "XL",
-      "2XL"
-    ],
-    "variantLabel": "Size",
-    "cardVariant": "",
-    "filterBrands": [
-      "Notion Worx"
-    ],
-    "filterCategory": [
-      "APPAREL"
-    ],
-    "filterColor": [],
-    "filterSizes": [
-      "L",
-      "YS",
-      "YM",
-      "YL",
-      "S",
-      "M",
-      "XL",
-      "2XL"
-    ],
-    "tags": [],
-    "rating": 0,
-    "inStock": true,
-    "isStockOut": false,
-    "services": [],
-    "category": "APPAREL",
-    "description": "Need Help with Artwork Setup? 95% polyester 5% spandex 120gsm 3.54oz milk silk moisture wicking fabric",
-    "descriptionHtml": "<p><a href=\"https://www.dropbox.com/scl/fo/p28jit37q2bbl8i68lxr2/h?rlkey=i3s7ptm88hnk3icumi0a2sm7s&amp;st=loxz8cl9&amp;dl=0\">Download Template</a> <a href=\"https://soardistusa.com/apps/help-center#hc-creative-services\">Need Help with Artwork Setup?</a></p>\n<p>95% polyester 5% spandex 120gsm 3.54oz milk silk moisture wicking fabric<br></p>\n<p><img src=\"https://cdn.shopifycdn.net/s/files/1/1564/9941/files/WX20220809-005036_2x_c1d5e75f-8d8b-4b14-88ad-8fa880b627cb.png?v=1659977456\" alt=\"\"></p>\n<p><img src=\"https://cdn.shopifycdn.net/s/files/1/1564/9941/files/Moisture-Wicking-Performance_480x480.jpg?v=1645131249\" alt=\"\"></p>",
-    "descriptionText": "Download Template Need Help with Artwork Setup?\n\n95% polyester 5% spandex 120gsm 3.54oz milk silk moisture wicking fabric",
-    "howToOrderHtml": "<ul>\n  <li>SKU<br>500080</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
-    "howToOrderText": "- SKU\n  500080\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
-    "sku": "500080",
-    "reviewsText": "14 options",
-    "soldLabel": "Available to order",
-    "badgeLabel": "Apparel",
-    "badgeSubtext": "1 product image available"
-  },
-  {
-    "id": 79,
-    "sourceProductId": 8227671933063,
-    "sourceHandle": "grs-spf-50-120gsm-milk-silk-short-sleeve-crew-neck-full-dye-sublimation-500079",
-    "sourceSlug": "grs-spf-50-120gsm-milk-silk-short-sleeve-crew-neck-full-dye-sublimation-500079",
-    "img": "/assets/images/notionworx-inventory/apparel/grs-spf-50-120gsm-milk-silk-short-sleeve-crew-neck-full-dye-sublimation-500079/01.jpg",
-    "imgHover": "/assets/images/notionworx-inventory/apparel/grs-spf-50-120gsm-milk-silk-short-sleeve-crew-neck-full-dye-sublimation-500079/01.jpg",
-    "images": [
-      {
-        "src": "/assets/images/notionworx-inventory/apparel/grs-spf-50-120gsm-milk-silk-short-sleeve-crew-neck-full-dye-sublimation-500079/01.jpg"
-      }
-    ],
-    "name": "GRS/SPF 50+ 120GSM Milk Silk Short Sleeve Crew Neck (Full Dye Sublimation) #500079",
-    "price": 50,
-    "sizes": [
-      "L",
-      "S",
-      "M",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL",
-      "5XL"
-    ],
-    "variantLabel": "Size",
-    "cardVariant": "",
-    "filterBrands": [
-      "Notion Worx"
-    ],
-    "filterCategory": [
-      "APPAREL"
-    ],
-    "filterColor": [],
-    "filterSizes": [
-      "L",
-      "S",
-      "M",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL",
-      "5XL"
-    ],
-    "tags": [],
-    "rating": 0,
-    "inStock": true,
-    "isStockOut": false,
-    "services": [],
-    "category": "APPAREL",
-    "description": "Need Help with Artwork Setup? 95% polyester 5% spandex 120gsm 3.54oz milk silk moisture wicking fabric",
-    "descriptionHtml": "<h4><a href=\"https://www.dropbox.com/scl/fo/ln2ugsm8edktfewjxia5p/AKBVzrlQdp63iXv15beeAwo?rlkey=l4rmornj3yfyc6qaawfw3taqd&amp;st=03jc7r21&amp;dl=0\">Download Template</a> <a href=\"https://soardistusa.com/apps/help-center#hc-creative-services\">Need Help with Artwork Setup?</a></h4>\n<p>95% polyester 5% spandex 120gsm 3.54oz milk silk moisture wicking fabric<br></p>\n<p><img src=\"https://cdn.shopifycdn.net/s/files/1/1564/9941/files/WX20220809-005036_2x_c1d5e75f-8d8b-4b14-88ad-8fa880b627cb.png?v=1659977456\" alt=\"\"></p>\n<p><img src=\"https://cdn.shopifycdn.net/s/files/1/1564/9941/files/Moisture-Wicking-Performance_480x480.jpg?v=1645131249\" alt=\"\"></p>",
-    "descriptionText": "Download Template Need Help with Artwork Setup?\n\n95% polyester 5% spandex 120gsm 3.54oz milk silk moisture wicking fabric",
-    "howToOrderHtml": "<ul>\n  <li>SKU<br>500079</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
-    "howToOrderText": "- SKU\n  500079\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
-    "sku": "500079",
-    "reviewsText": "16 options",
-    "soldLabel": "Available to order",
-    "badgeLabel": "Apparel",
-    "badgeSubtext": "1 product image available"
-  },
-  {
-    "id": 80,
-    "sourceProductId": 8227671801991,
-    "sourceHandle": "grs-spf-50-150gsm-mesh-cycling-jersey-long-sleeve-full-dye-sublimation-500092",
-    "sourceSlug": "grs-spf-50-150gsm-mesh-cycling-jersey-long-sleeve-full-dye-sublimation-500092",
-    "img": "/assets/images/notionworx-inventory/apparel/grs-spf-50-150gsm-mesh-cycling-jersey-long-sleeve-full-dye-sublimation-500092/01.jpg",
-    "imgHover": "/assets/images/notionworx-inventory/apparel/grs-spf-50-150gsm-mesh-cycling-jersey-long-sleeve-full-dye-sublimation-500092/01.jpg",
-    "images": [
-      {
-        "src": "/assets/images/notionworx-inventory/apparel/grs-spf-50-150gsm-mesh-cycling-jersey-long-sleeve-full-dye-sublimation-500092/01.jpg"
-      }
-    ],
-    "name": "GRS/SPF 50+ 150GSM Mesh Cycling Jersey Long Sleeve (Full Dye Sublimation) #500092",
-    "price": 92,
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL"
-    ],
-    "variantLabel": "Size",
-    "cardVariant": "",
-    "filterBrands": [
-      "Notion Worx"
-    ],
-    "filterCategory": [
-      "APPAREL"
-    ],
-    "filterColor": [],
-    "filterSizes": [
-      "S",
-      "M",
-      "L",
-      "XL"
-    ],
-    "tags": [],
-    "rating": 0,
-    "inStock": true,
-    "isStockOut": false,
-    "services": [],
-    "category": "APPAREL",
-    "description": "Need Help with Artwork Setup? - Premium & comfortable - Unisex Style - Eco Friendly material option - Made from 100% polyester, 150gsm - 4.42oz SPF Protected Jersey Mesh Material - Athletic Stretch, Breathable, and moisture wicking fabric. - Modern cycling style with 3 storage p…",
-    "descriptionHtml": "<p><a href=\"https://www.dropbox.com/scl/fo/xrps4elkrjwb7j7runr7g/h?rlkey=ehv6phvg3rzx2aip4oq3vw33g&amp;st=eyjbrdw1&amp;dl=0\">Download Template</a> <a href=\"https://www.dropbox.com/scl/fo/xrps4elkrjwb7j7runr7g/h?rlkey=ehv6phvg3rzx2aip4oq3vw33g&amp;dl=0\"></a> <a href=\"https://soardistusa.com/apps/help-center#hc-creative-services\">Need Help with Artwork Setup?</a><br><br></p>\n<ul>\n  <li>Premium &amp; comfortable - Unisex Style</li>\n  <li>Eco Friendly material option</li>\n  <li>Made from 100% polyester, 150gsm - 4.42oz SPF Protected Jersey Mesh Material</li>\n  <li>Athletic Stretch, Breathable, and moisture wicking fabric.</li>\n  <li>Modern cycling style with 3 storage pockets located on the back.</li>\n  <li>Silicone anti-skid band on the bottom of the cycling jersey to prevent the jersey from sliding up while riding.</li>\n  <li>This fully customizable cyclist’s jersey looks fantastic and is suitable for all levels of cyclists that participate in road, mountain, or exercise biking. This is a quick-dry material that wicks moisture away and breathes to keep you cool and comfortable while in motion. Great for short recreational rides or long distance treks there is ample storage to hold your phone keys, extra water bottles and other essentials.<br></li>\n</ul>",
-    "descriptionText": "Download Template Need Help with Artwork Setup?\n\n- Premium & comfortable - Unisex Style\n\n- Eco Friendly material option\n\n- Made from 100% polyester, 150gsm - 4.42oz SPF Protected Jersey Mesh Material\n\n- Athletic Stretch, Breathable, and moisture wicking fabric.\n\n- Modern cycling style with 3 storage pockets located on the back.\n\n- Silicone anti-skid band on the bottom of the cycling jersey to prevent the jersey from sliding up while riding.\n\n- This fully customizable cyclist’s jersey looks fantastic and is suitable for all levels of cyclists that participate in road, mountain, or exercise biking. This is a quick-dry material that wicks moisture away and breathes to keep you cool and comfortable while in motion. Great for short recreational rides or long distance treks there is ample storage to hold your phone keys, extra water bottles and other essentials.",
-    "howToOrderHtml": "<ul>\n  <li>SKU<br>500092</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
-    "howToOrderText": "- SKU\n  500092\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
-    "sku": "500092",
-    "reviewsText": "4 options",
-    "soldLabel": "Available to order",
-    "badgeLabel": "Apparel",
-    "badgeSubtext": "1 product image available"
-  },
-  {
-    "id": 81,
-    "sourceProductId": 8227672064135,
-    "sourceHandle": "grs-spf-50-150gsm-mesh-jersey-cycling-jerseys-full-dye-sublimation-500091",
-    "sourceSlug": "grs-spf-50-150gsm-mesh-jersey-cycling-jerseys-full-dye-sublimation-500091",
-    "img": "/assets/images/notionworx-inventory/apparel/grs-spf-50-150gsm-mesh-jersey-cycling-jerseys-full-dye-sublimation-500091/01.jpg",
-    "imgHover": "/assets/images/notionworx-inventory/apparel/grs-spf-50-150gsm-mesh-jersey-cycling-jerseys-full-dye-sublimation-500091/02.jpg",
-    "images": [
-      {
-        "src": "/assets/images/notionworx-inventory/apparel/grs-spf-50-150gsm-mesh-jersey-cycling-jerseys-full-dye-sublimation-500091/01.jpg"
-      },
-      {
-        "src": "/assets/images/notionworx-inventory/apparel/grs-spf-50-150gsm-mesh-jersey-cycling-jerseys-full-dye-sublimation-500091/02.jpg"
-      },
-      {
-        "src": "/assets/images/notionworx-inventory/apparel/grs-spf-50-150gsm-mesh-jersey-cycling-jerseys-full-dye-sublimation-500091/03.jpg"
-      },
-      {
-        "src": "/assets/images/notionworx-inventory/apparel/grs-spf-50-150gsm-mesh-jersey-cycling-jerseys-full-dye-sublimation-500091/04.jpg"
-      },
-      {
-        "src": "/assets/images/notionworx-inventory/apparel/grs-spf-50-150gsm-mesh-jersey-cycling-jerseys-full-dye-sublimation-500091/05.jpg"
-      }
-    ],
-    "name": "GRS/SPF 50+150GSM Mesh Jersey Cycling Jerseys (Full Dye Sublimation) #500091",
-    "price": 84,
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL"
-    ],
-    "variantLabel": "Size",
-    "cardVariant": "",
-    "filterBrands": [
-      "Notion Worx"
-    ],
-    "filterCategory": [
-      "APPAREL"
-    ],
-    "filterColor": [],
-    "filterSizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL"
-    ],
-    "tags": [],
-    "rating": 0,
-    "inStock": true,
-    "isStockOut": false,
-    "services": [],
-    "category": "APPAREL",
-    "description": "Need Help with Artwork Setup? - Premium & comfortable - Unisex Style - Made from 100% polyester, 150gsm - 4.42oz SPF Protected Jersey Mesh Material - Athletic Stretch, Breathable, and moisture wicking fabric. - Modern cycling style with 3 storage pockets located on the back. - S…",
-    "descriptionHtml": "<p><a href=\"https://www.dropbox.com/scl/fo/s70jmq574mcu4vpv37pxm/h?rlkey=oezm0wfm61zekiy09xs43ls3f&amp;st=nvmkjepq&amp;dl=0\">Download Template</a> <a href=\"https://www.dropbox.com/scl/fo/ll51cacuzmtny99dwg4gl/h?dl=0&amp;rlkey=21yefrmhm1ztspy6bo2ympy2r\"></a> <a href=\"https://soardistusa.com/apps/help-center#hc-creative-services\">Need Help with Artwork Setup?</a><br><br></p>\n<ul>\n  <li>Premium &amp; comfortable - Unisex Style</li>\n  <li>Made from 100% polyester, 150gsm - 4.42oz SPF Protected Jersey Mesh Material</li>\n  <li>Athletic Stretch, Breathable, and moisture wicking fabric.</li>\n  <li>Modern cycling style with 3 storage pockets located on the back.</li>\n  <li>Silicone anti-skid band on the bottom of the cycling jersey to prevent the jersey from sliding up while riding.</li>\n  <li>This fully customizable cyclist’s jersey looks fantastic and is suitable for all levels of cyclists that participate in road, mountain, or exercise biking. This is a quick-dry material that wicks moisture away and breathes to keep you cool and comfortable while in motion. Great for short recreational rides or long distance treks there is ample storage to hold your phone keys, extra water bottles and other essentials.</li>\n</ul>",
-    "descriptionText": "Download Template Need Help with Artwork Setup?\n\n- Premium & comfortable - Unisex Style\n\n- Made from 100% polyester, 150gsm - 4.42oz SPF Protected Jersey Mesh Material\n\n- Athletic Stretch, Breathable, and moisture wicking fabric.\n\n- Modern cycling style with 3 storage pockets located on the back.\n\n- Silicone anti-skid band on the bottom of the cycling jersey to prevent the jersey from sliding up while riding.\n\n- This fully customizable cyclist’s jersey looks fantastic and is suitable for all levels of cyclists that participate in road, mountain, or exercise biking. This is a quick-dry material that wicks moisture away and breathes to keep you cool and comfortable while in motion. Great for short recreational rides or long distance treks there is ample storage to hold your phone keys, extra water bottles and other essentials.",
-    "sku": "500091",
-    "reviewsText": "7 options",
-    "soldLabel": "Available to order",
-    "badgeLabel": "Apparel",
-    "badgeSubtext": "5 product images available"
-  },
-  {
-    "id": 82,
-    "sourceProductId": 8227671965831,
-    "sourceHandle": "grs-spf-50-150gsm-mesh-jersey-long-sleeve-crew-neck-full-dye-sublimation-500078",
-    "sourceSlug": "grs-spf-50-150gsm-mesh-jersey-long-sleeve-crew-neck-full-dye-sublimation-500078",
-    "img": "/assets/images/notionworx-inventory/apparel/grs-spf-50-150gsm-mesh-jersey-long-sleeve-crew-neck-full-dye-sublimation-500078/01.jpg",
-    "imgHover": "/assets/images/notionworx-inventory/apparel/grs-spf-50-150gsm-mesh-jersey-long-sleeve-crew-neck-full-dye-sublimation-500078/01.jpg",
-    "images": [
-      {
-        "src": "/assets/images/notionworx-inventory/apparel/grs-spf-50-150gsm-mesh-jersey-long-sleeve-crew-neck-full-dye-sublimation-500078/01.jpg"
-      }
-    ],
-    "name": "GRS/SPF 50+ 150GSM Mesh Jersey Long Sleeve Crew Neck (Full Dye Sublimation) #500078",
-    "price": 50,
-    "sizes": [
-      "L",
-      "S",
-      "M",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL",
-      "5XL"
-    ],
-    "variantLabel": "Size",
-    "cardVariant": "",
-    "filterBrands": [
-      "Notion Worx"
-    ],
-    "filterCategory": [
-      "APPAREL"
-    ],
-    "filterColor": [],
-    "filterSizes": [
-      "L",
-      "S",
-      "M",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL",
-      "5XL"
-    ],
-    "tags": [],
-    "rating": 0,
-    "inStock": true,
-    "isStockOut": false,
-    "services": [],
-    "category": "APPAREL",
-    "description": ". Need Help with Artwork Setup? 100% polyester 150gsm - 4.42oz jersey mesh moisture wicking fabric",
-    "descriptionHtml": "<h4><a href=\"https://www.dropbox.com/scl/fo/p28jit37q2bbl8i68lxr2/h?rlkey=i3s7ptm88hnk3icumi0a2sm7s&amp;st=loxz8cl9&amp;dl=0\">Download Template.</a> <a href=\"https://soardistusa.com/apps/help-center#hc-creative-services\">Need Help with Artwork Setup?</a></h4>\n<p>100% polyester 150gsm - 4.42oz jersey mesh moisture wicking fabric</p>\n<p><img src=\"https://cdn.shopifycdn.net/s/files/1/1564/9941/files/WX20220810-020007_2x_7ebf13a4-04d8-4405-a210-74406e3f7457.png?v=1660068037\" alt=\"\"></p>\n<p><br></p>\n<p><img src=\"https://cdn.shopifycdn.net/s/files/1/1564/9941/files/Moisture-Wicking-Performance_480x480.jpg?v=1645131249\" alt=\"\"></p>",
-    "descriptionText": "Download Template. Need Help with Artwork Setup?\n\n100% polyester 150gsm - 4.42oz jersey mesh moisture wicking fabric",
-    "howToOrderHtml": "<ul>\n  <li>SKU<br>500078</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
-    "howToOrderText": "- SKU\n  500078\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
-    "sku": "500078",
-    "reviewsText": "16 options",
-    "soldLabel": "Available to order",
-    "badgeLabel": "Apparel",
-    "badgeSubtext": "1 product image available"
-  },
-  {
-    "id": 83,
-    "sourceProductId": 8227671834759,
-    "sourceHandle": "grs-spf-50-150gsm-mesh-jersey-long-sleeve-hoodie-t-shirt-full-dye-sublimation-500081",
-    "sourceSlug": "grs-spf-50-150gsm-mesh-jersey-long-sleeve-hoodie-t-shirt-full-dye-sublimation-500081",
-    "img": "/assets/images/notionworx-inventory/apparel/grs-spf-50-150gsm-mesh-jersey-long-sleeve-hoodie-t-shirt-full-dye-sublimation-500081/01.jpg",
-    "imgHover": "/assets/images/notionworx-inventory/apparel/grs-spf-50-150gsm-mesh-jersey-long-sleeve-hoodie-t-shirt-full-dye-sublimation-500081/01.jpg",
-    "images": [
-      {
-        "src": "/assets/images/notionworx-inventory/apparel/grs-spf-50-150gsm-mesh-jersey-long-sleeve-hoodie-t-shirt-full-dye-sublimation-500081/01.jpg"
-      }
-    ],
-    "name": "GRS/SPF 50+ 150GSM Mesh Jersey Long Sleeve Hoodie T-shirt (Full Dye Sublimation)#500081",
-    "price": 50,
-    "sizes": [
-      "L",
-      "YS",
-      "YM",
-      "YL",
-      "S",
-      "M",
-      "XL",
-      "2XL"
-    ],
-    "variantLabel": "Size",
-    "cardVariant": "",
-    "filterBrands": [
-      "Notion Worx"
-    ],
-    "filterCategory": [
-      "APPAREL"
-    ],
-    "filterColor": [],
-    "filterSizes": [
-      "L",
-      "YS",
-      "YM",
-      "YL",
-      "S",
-      "M",
-      "XL",
-      "2XL"
-    ],
-    "tags": [],
-    "rating": 0,
-    "inStock": true,
-    "isStockOut": false,
-    "services": [],
-    "category": "APPAREL",
-    "description": "Need Help with Artwork Setup? Material: 100% polyester, jersey mesh moisture wicking fabric 150gsm - 4.42oz",
-    "descriptionHtml": "<p><a href=\"https://www.dropbox.com/scl/fo/qdbcoh36kj3pnihxwpvkw/h?rlkey=15rf9waatajwskj4brj81o5r8&amp;dl=0\">Download Template</a> <a href=\"https://soardistusa.com/apps/help-center#hc-creative-services\">Need Help with Artwork Setup?</a></p>\n<p>Material: 100% polyester, jersey mesh</p>\n<p>moisture wicking fabric</p>\n<p>150gsm - 4.42oz</p>\n<p><img src=\"https://cdn.shopifycdn.net/s/files/1/1564/9941/files/moisture_wicking_fabric_480x480.jpg?v=1645131173\" alt=\"\"> <img src=\"https://cdn.shopifycdn.net/s/files/1/1564/9941/files/Moisture-Wicking-Performance_480x480.jpg?v=1645131249\" alt=\"\"></p>",
-    "descriptionText": "Download Template Need Help with Artwork Setup?\n\nMaterial: 100% polyester, jersey mesh\n\nmoisture wicking fabric\n\n150gsm - 4.42oz",
-    "howToOrderHtml": "<ul>\n  <li>SKU<br>500081</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
-    "howToOrderText": "- SKU\n  500081\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
-    "sku": "500081",
-    "reviewsText": "14 options",
-    "soldLabel": "Available to order",
-    "badgeLabel": "Apparel",
-    "badgeSubtext": "1 product image available"
-  },
-  {
-    "id": 84,
-    "sourceProductId": 8227671736455,
-    "sourceHandle": "grs-spf-50-150gsm-mesh-jersey-long-sleeve-hoodie-t-shirt-full-dye-sublimation-500152",
-    "sourceSlug": "grs-spf-50-150gsm-mesh-jersey-long-sleeve-hoodie-t-shirt-full-dye-sublimation-500152",
-    "img": "/assets/images/notionworx-inventory/apparel/grs-spf-50-150gsm-mesh-jersey-long-sleeve-hoodie-t-shirt-full-dye-sublimation-500152/01.jpg",
-    "imgHover": "/assets/images/notionworx-inventory/apparel/grs-spf-50-150gsm-mesh-jersey-long-sleeve-hoodie-t-shirt-full-dye-sublimation-500152/01.jpg",
-    "images": [
-      {
-        "src": "/assets/images/notionworx-inventory/apparel/grs-spf-50-150gsm-mesh-jersey-long-sleeve-hoodie-t-shirt-full-dye-sublimation-500152/01.jpg"
-      }
-    ],
-    "name": "GRS/SPF 50+ 120GSM Milk Silk Jersey Long Sleeve Hoodie T-shirt (Full Dye Sublimation)#500152",
-    "price": 50,
-    "sizes": [
-      "L",
-      "YS",
-      "YM",
-      "YL",
-      "S",
-      "M",
-      "XL",
-      "2XL"
-    ],
-    "variantLabel": "Size",
-    "cardVariant": "",
-    "filterBrands": [
-      "Notion Worx"
-    ],
-    "filterCategory": [
-      "APPAREL"
-    ],
-    "filterColor": [],
-    "filterSizes": [
-      "L",
-      "YS",
-      "YM",
-      "YL",
-      "S",
-      "M",
-      "XL",
-      "2XL"
-    ],
-    "tags": [],
-    "rating": 0,
-    "inStock": true,
-    "isStockOut": false,
-    "services": [],
-    "category": "APPAREL",
-    "description": "Need Help with Artwork Setup? Material: 100% polyester milk silk moisture wicking fabric 120gsm -3.54oz",
-    "descriptionHtml": "<p><a href=\"https://www.dropbox.com/scl/fo/qdbcoh36kj3pnihxwpvkw/h?rlkey=15rf9waatajwskj4brj81o5r8&amp;dl=0\">Download Template</a> <a href=\"https://soardistusa.com/apps/help-center#hc-creative-services\">Need Help with Artwork Setup?</a></p>\n<p>Material: 100% polyester milk silk</p>\n<p>moisture wicking fabric</p>\n<p>120gsm -3.54oz</p>\n<p><img src=\"https://cdn.shopifycdn.net/s/files/1/1564/9941/files/Moisture-Wicking-Performance_480x480.jpg?v=1645131249\" alt=\"\"></p>",
-    "descriptionText": "Download Template Need Help with Artwork Setup?\n\nMaterial: 100% polyester milk silk\n\nmoisture wicking fabric\n\n120gsm -3.54oz",
-    "howToOrderHtml": "<ul>\n  <li>SKU<br>500152</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
-    "howToOrderText": "- SKU\n  500152\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
-    "sku": "500152",
-    "reviewsText": "14 options",
-    "soldLabel": "Available to order",
-    "badgeLabel": "Apparel",
-    "badgeSubtext": "1 product image available"
-  },
-  {
-    "id": 85,
-    "sourceProductId": 8227671998599,
-    "sourceHandle": "grs-spf-50-150gsm-mesh-jersey-short-sleeve-crew-neck-full-dye-sublimation-500077",
-    "sourceSlug": "grs-spf-50-150gsm-mesh-jersey-short-sleeve-crew-neck-full-dye-sublimation-500077",
-    "img": "/assets/images/notionworx-inventory/apparel/grs-spf-50-150gsm-mesh-jersey-short-sleeve-crew-neck-full-dye-sublimation-500077/01.jpg",
-    "imgHover": "/assets/images/notionworx-inventory/apparel/grs-spf-50-150gsm-mesh-jersey-short-sleeve-crew-neck-full-dye-sublimation-500077/01.jpg",
-    "images": [
-      {
-        "src": "/assets/images/notionworx-inventory/apparel/grs-spf-50-150gsm-mesh-jersey-short-sleeve-crew-neck-full-dye-sublimation-500077/01.jpg"
-      }
-    ],
-    "name": "GRS/SPF 50+ 150GSM Mesh Jersey Short Sleeve Crew Neck (Full Dye Sublimation) #500077",
-    "price": 50,
-    "sizes": [
-      "L",
-      "S",
-      "M",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL",
-      "5XL"
-    ],
-    "variantLabel": "Size",
-    "cardVariant": "",
-    "filterBrands": [
-      "Notion Worx"
-    ],
-    "filterCategory": [
-      "APPAREL"
-    ],
-    "filterColor": [],
-    "filterSizes": [
-      "L",
-      "S",
-      "M",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL",
-      "5XL"
-    ],
-    "tags": [],
-    "rating": 0,
-    "inStock": true,
-    "isStockOut": false,
-    "services": [],
-    "category": "APPAREL",
-    "description": ". Need Help with Artwork Setup? 100% polyester 150gsm - 4.42oz jersey mesh moisture wicking fabric",
-    "descriptionHtml": "<h4><a href=\"https://www.dropbox.com/scl/fo/ln2ugsm8edktfewjxia5p/AKBVzrlQdp63iXv15beeAwo?rlkey=l4rmornj3yfyc6qaawfw3taqd&amp;st=03jc7r21&amp;dl=0\">Download Template</a>. <a href=\"https://soardistusa.com/apps/help-center#hc-creative-services\">Need Help with Artwork Setup?</a></h4>\n<p>100% polyester 150gsm - 4.42oz jersey mesh moisture wicking fabric</p>\n<p><img src=\"https://cdn.shopifycdn.net/s/files/1/1564/9941/files/WX20220810-020007_2x_7ebf13a4-04d8-4405-a210-74406e3f7457.png?v=1660068037\" alt=\"\"></p>\n<p><br></p>\n<p><img src=\"https://cdn.shopifycdn.net/s/files/1/1564/9941/files/Moisture-Wicking-Performance_480x480.jpg?v=1645131249\" alt=\"\"></p>",
-    "descriptionText": "Download Template . Need Help with Artwork Setup?\n\n100% polyester 150gsm - 4.42oz jersey mesh moisture wicking fabric",
-    "howToOrderHtml": "<ul>\n  <li>SKU<br>500077</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
-    "howToOrderText": "- SKU\n  500077\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
-    "sku": "500077",
-    "reviewsText": "16 options",
-    "soldLabel": "Available to order",
-    "badgeLabel": "Apparel",
-    "badgeSubtext": "1 product image available"
-  },
-  {
-    "id": 86,
+    "id": 54,
     "sourceProductId": 8227677339783,
     "sourceHandle": "half-side-walls",
     "sourceSlug": "half-side-walls",
@@ -7799,7 +5833,7 @@ export const storefrontProducts = [
     "badgeSubtext": "1 product image available"
   },
   {
-    "id": 87,
+    "id": 55,
     "sourceProductId": 8227683139719,
     "sourceHandle": "half-wall-hardware",
     "sourceSlug": "half-wall-hardware",
@@ -7838,7 +5872,7 @@ export const storefrontProducts = [
     "badgeSubtext": "1 product image available"
   },
   {
-    "id": 88,
+    "id": 56,
     "sourceProductId": 8288933380231,
     "sourceHandle": "led-light-bars",
     "sourceSlug": "led-light-bars",
@@ -7893,196 +5927,7 @@ export const storefrontProducts = [
     "badgeSubtext": "4 product images available"
   },
   {
-    "id": 89,
-    "sourceProductId": 8227679895687,
-    "sourceHandle": "long-sleeve-hoodie-t-shirt-full-dye-sublimation-500039",
-    "sourceSlug": "long-sleeve-hoodie-t-shirt-full-dye-sublimation-500039",
-    "img": "/assets/images/notionworx-inventory/apparel/long-sleeve-hoodie-t-shirt-full-dye-sublimation-500039/01.webp",
-    "imgHover": "/assets/images/notionworx-inventory/apparel/long-sleeve-hoodie-t-shirt-full-dye-sublimation-500039/01.webp",
-    "images": [
-      {
-        "src": "/assets/images/notionworx-inventory/apparel/long-sleeve-hoodie-t-shirt-full-dye-sublimation-500039/01.webp"
-      }
-    ],
-    "name": "150GSM Mesh Jersey Long Sleeve Hoodie T-shirt (Full Dye Sublimation)#500039",
-    "price": 21,
-    "sizes": [
-      "L",
-      "YS",
-      "YM",
-      "YL",
-      "S",
-      "M",
-      "XL",
-      "2XL"
-    ],
-    "variantLabel": "Size",
-    "cardVariant": "",
-    "filterBrands": [
-      "Notion Worx"
-    ],
-    "filterCategory": [
-      "APPAREL"
-    ],
-    "filterColor": [],
-    "filterSizes": [
-      "L",
-      "YS",
-      "YM",
-      "YL",
-      "S",
-      "M",
-      "XL",
-      "2XL"
-    ],
-    "tags": [],
-    "rating": 0,
-    "inStock": true,
-    "isStockOut": false,
-    "services": [],
-    "category": "APPAREL",
-    "description": "Need Help with Artwork Setup? Material: 95% polyester. 5% spandex , jersey mesh moisture wicking fabric",
-    "descriptionHtml": "<p><a href=\"https://www.dropbox.com/scl/fo/wruedm69wqnlzm0hllat0/h?rlkey=psere42207nx2d3qwr6t15oeb&amp;dl=0\">Download Template</a> <a href=\"https://soardistusa.com/apps/help-center#hc-creative-services\">Need Help with Artwork Setup?</a></p>\n<p>Material: 95% polyester. 5% spandex , jersey mesh</p>\n<p>moisture wicking fabric</p>\n<p><img src=\"https://cdn.shopifycdn.net/s/files/1/1564/9941/files/moisture_wicking_fabric_480x480.jpg?v=1645131173\" alt=\"\"> <img src=\"https://cdn.shopifycdn.net/s/files/1/1564/9941/files/Moisture-Wicking-Performance_480x480.jpg?v=1645131249\" alt=\"\"></p>",
-    "descriptionText": "Download Template Need Help with Artwork Setup?\n\nMaterial: 95% polyester. 5% spandex , jersey mesh\n\nmoisture wicking fabric",
-    "reviewsText": "14 options",
-    "soldLabel": "Available to order",
-    "badgeLabel": "Apparel",
-    "badgeSubtext": "1 product image available"
-  },
-  {
-    "id": 90,
-    "sourceProductId": 8227680387207,
-    "sourceHandle": "long-sleeve-jersey-v-neck-full-dye-sublimation",
-    "sourceSlug": "long-sleeve-jersey-v-neck-full-dye-sublimation",
-    "img": "/assets/images/notionworx-inventory/apparel/long-sleeve-jersey-v-neck-full-dye-sublimation/01.jpg",
-    "imgHover": "/assets/images/notionworx-inventory/apparel/long-sleeve-jersey-v-neck-full-dye-sublimation/02.jpg",
-    "images": [
-      {
-        "src": "/assets/images/notionworx-inventory/apparel/long-sleeve-jersey-v-neck-full-dye-sublimation/01.jpg"
-      },
-      {
-        "src": "/assets/images/notionworx-inventory/apparel/long-sleeve-jersey-v-neck-full-dye-sublimation/02.jpg"
-      },
-      {
-        "src": "/assets/images/notionworx-inventory/apparel/long-sleeve-jersey-v-neck-full-dye-sublimation/03.jpg"
-      },
-      {
-        "src": "/assets/images/notionworx-inventory/apparel/long-sleeve-jersey-v-neck-full-dye-sublimation/04.jpg"
-      }
-    ],
-    "name": "150GSM Mesh Jersey Long Sleeve V- neck (Full Dye Sublimation)#500004",
-    "price": 12.5,
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
-    ],
-    "variantLabel": "Size",
-    "cardVariant": "",
-    "filterBrands": [
-      "Notion Worx"
-    ],
-    "filterCategory": [
-      "APPAREL"
-    ],
-    "filterColor": [],
-    "filterSizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
-    ],
-    "tags": [],
-    "rating": 0,
-    "inStock": true,
-    "isStockOut": false,
-    "services": [],
-    "category": "APPAREL",
-    "description": "Need Help with Artwork Setup? Material: 95% polyester. 5% spandex , jersey mesh moisture wicking fabric",
-    "descriptionHtml": "<p><a href=\"https://displaytemplate.s3.us-west-2.amazonaws.com/Apparel/Custom+jersey/v+neck+long+sleeve.zip\">Download Template</a> <a href=\"https://soardistusa.com/apps/help-center#hc-creative-services\">Need Help with Artwork Setup?</a></p>\n<p>Material: 95% polyester. 5% spandex , jersey mesh moisture wicking fabric</p>\n<p><img src=\"https://cdn.shopifycdn.net/s/files/1/1564/9941/files/moisture_wicking_fabric_480x480.jpg?v=1645131173\" alt=\"\"></p>\n<p><img src=\"https://cdn.shopifycdn.net/s/files/1/1564/9941/files/Moisture-Wicking-Performance_480x480.jpg?v=1645131249\" alt=\"\"></p>",
-    "descriptionText": "Download Template Need Help with Artwork Setup?\n\nMaterial: 95% polyester. 5% spandex , jersey mesh moisture wicking fabric",
-    "howToOrderHtml": "<ul>\n  <li>SKU<br>500004</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
-    "howToOrderText": "- SKU\n  500004\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
-    "sku": "500004",
-    "reviewsText": "15 options",
-    "soldLabel": "Available to order",
-    "badgeLabel": "Apparel",
-    "badgeSubtext": "4 product images available"
-  },
-  {
-    "id": 91,
-    "sourceProductId": 8227680321671,
-    "sourceHandle": "long-sleeve-round-neck-full-dye-sublimation",
-    "sourceSlug": "long-sleeve-round-neck-full-dye-sublimation",
-    "img": "/assets/images/notionworx-inventory/apparel/long-sleeve-round-neck-full-dye-sublimation/01.webp",
-    "imgHover": "/assets/images/notionworx-inventory/apparel/long-sleeve-round-neck-full-dye-sublimation/02.jpg",
-    "images": [
-      {
-        "src": "/assets/images/notionworx-inventory/apparel/long-sleeve-round-neck-full-dye-sublimation/01.webp"
-      },
-      {
-        "src": "/assets/images/notionworx-inventory/apparel/long-sleeve-round-neck-full-dye-sublimation/02.jpg"
-      }
-    ],
-    "name": "150GSM Mesh Jersey Long Sleeve Crew Neck (Full Dye Sublimation)#500003",
-    "price": 12.5,
-    "sizes": [
-      "L",
-      "YS",
-      "YM",
-      "YL",
-      "S",
-      "M",
-      "XL",
-      "2XL"
-    ],
-    "variantLabel": "Size",
-    "cardVariant": "",
-    "filterBrands": [
-      "Notion Worx"
-    ],
-    "filterCategory": [
-      "APPAREL"
-    ],
-    "filterColor": [],
-    "filterSizes": [
-      "L",
-      "YS",
-      "YM",
-      "YL",
-      "S",
-      "M",
-      "XL",
-      "2XL"
-    ],
-    "tags": [],
-    "rating": 0,
-    "inStock": true,
-    "isStockOut": false,
-    "services": [],
-    "category": "APPAREL",
-    "description": "Need Help with Artwork Setup? Material: 95% polyester. 5% spandex , jersey mesh moisture wicking fabric",
-    "descriptionHtml": "<p><a href=\"https://www.dropbox.com/scl/fo/vow9xsuc000vfn0xo3pex/h?dl=0&amp;rlkey=tdobvl6g32wlx6lul6c9r0dt5\">Download Template</a> <a href=\"https://soardistusa.com/apps/help-center#hc-creative-services\">Need Help with Artwork Setup?</a></p>\n<p>Material: 95% polyester. 5% spandex , jersey mesh</p>\n<p>moisture wicking fabric</p>\n<p><img src=\"https://cdn.shopifycdn.net/s/files/1/1564/9941/files/moisture_wicking_fabric_480x480.jpg?v=1645131173\" alt=\"\"> <img src=\"https://cdn.shopifycdn.net/s/files/1/1564/9941/files/Moisture-Wicking-Performance_480x480.jpg?v=1645131249\" alt=\"\"></p>",
-    "descriptionText": "Download Template Need Help with Artwork Setup?\n\nMaterial: 95% polyester. 5% spandex , jersey mesh\n\nmoisture wicking fabric",
-    "howToOrderHtml": "<ul>\n  <li>SKU<br>500003</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
-    "howToOrderText": "- SKU\n  500003\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
-    "sku": "500003",
-    "reviewsText": "16 options",
-    "soldLabel": "Available to order",
-    "badgeLabel": "Apparel",
-    "badgeSubtext": "2 product images available"
-  },
-  {
-    "id": 92,
+    "id": 57,
     "sourceProductId": 8229364498567,
     "sourceHandle": "pole-banner-set",
     "sourceSlug": "pole-banner-set",
@@ -8132,7 +5977,7 @@ export const storefrontProducts = [
     "badgeSubtext": "3 product images available"
   },
   {
-    "id": 93,
+    "id": 58,
     "sourceProductId": 8428094652551,
     "sourceHandle": "portable-power-station-300w",
     "sourceSlug": "portable-power-station-300w",
@@ -8184,7 +6029,7 @@ export const storefrontProducts = [
     "badgeSubtext": "3 product images available"
   },
   {
-    "id": 94,
+    "id": 59,
     "sourceProductId": 8227670360199,
     "sourceHandle": "premium-10-tent-top-square-banner",
     "sourceSlug": "premium-10-tent-top-square-banner",
@@ -8236,7 +6081,7 @@ export const storefrontProducts = [
     "badgeSubtext": "3 product images available"
   },
   {
-    "id": 95,
+    "id": 60,
     "sourceProductId": 8227677798535,
     "sourceHandle": "premium-10x10-custom-canopy-1-10",
     "sourceSlug": "premium-10x10-custom-canopy-1-10",
@@ -8620,7 +6465,7 @@ export const storefrontProducts = [
     "badgeSubtext": "12 product images available"
   },
   {
-    "id": 96,
+    "id": 61,
     "sourceProductId": 8227677700231,
     "sourceHandle": "premium-10x10-custom-canopy-1-10black",
     "sourceSlug": "premium-10x10-custom-canopy-1-10black",
@@ -9045,7 +6890,7 @@ export const storefrontProducts = [
     "badgeSubtext": "7 product images available"
   },
   {
-    "id": 97,
+    "id": 62,
     "sourceProductId": 8227677601927,
     "sourceHandle": "premium-10x10-custom-canopy-1-10top",
     "sourceSlug": "premium-10x10-custom-canopy-1-10top",
@@ -9504,7 +7349,7 @@ export const storefrontProducts = [
     "badgeSubtext": "4 product images available"
   },
   {
-    "id": 98,
+    "id": 63,
     "sourceProductId": 8227673079943,
     "sourceHandle": "premium-10x10-custom-canopy-2-10",
     "sourceSlug": "premium-10x10-custom-canopy-2-10",
@@ -9910,7 +7755,7 @@ export const storefrontProducts = [
     "badgeSubtext": "11 product images available"
   },
   {
-    "id": 99,
+    "id": 64,
     "sourceProductId": 8227673112711,
     "sourceHandle": "premium-10x10-custom-canopy-3-10",
     "sourceSlug": "premium-10x10-custom-canopy-3-10",
@@ -10346,7 +8191,7 @@ export const storefrontProducts = [
     "badgeSubtext": "10 product images available"
   },
   {
-    "id": 100,
+    "id": 65,
     "sourceProductId": 8227673047175,
     "sourceHandle": "premium-10x10-custom-canopy-4-10",
     "sourceSlug": "premium-10x10-custom-canopy-4-10",
@@ -10782,7 +8627,7 @@ export const storefrontProducts = [
     "badgeSubtext": "10 product images available"
   },
   {
-    "id": 101,
+    "id": 66,
     "sourceProductId": 8227681828999,
     "sourceHandle": "premium-10x15-custom-canopy-tent-05-15black",
     "sourceSlug": "premium-10x15-custom-canopy-tent-05-15black",
@@ -11115,7 +8960,7 @@ export const storefrontProducts = [
     "badgeSubtext": "4 product images available"
   },
   {
-    "id": 102,
+    "id": 67,
     "sourceProductId": 8227677667463,
     "sourceHandle": "premium-10x15-custom-canopy-tent-5-15",
     "sourceSlug": "premium-10x15-custom-canopy-tent-5-15",
@@ -11418,7 +9263,7 @@ export const storefrontProducts = [
     "badgeSubtext": "7 product images available"
   },
   {
-    "id": 103,
+    "id": 68,
     "sourceProductId": 8227677569159,
     "sourceHandle": "premium-10x15-custom-canopy-tent-5-15top",
     "sourceSlug": "premium-10x15-custom-canopy-tent-5-15top",
@@ -11795,7 +9640,7 @@ export const storefrontProducts = [
     "badgeSubtext": "4 product images available"
   },
   {
-    "id": 104,
+    "id": 69,
     "sourceProductId": 8227672752263,
     "sourceHandle": "premium-10x15-custom-canopy-tent-6-15",
     "sourceSlug": "premium-10x15-custom-canopy-tent-6-15",
@@ -12106,7 +9951,7 @@ export const storefrontProducts = [
     "badgeSubtext": "10 product images available"
   },
   {
-    "id": 105,
+    "id": 70,
     "sourceProductId": 8227672817799,
     "sourceHandle": "premium-10x15-custom-canopy-tent-7-15",
     "sourceSlug": "premium-10x15-custom-canopy-tent-7-15",
@@ -12451,7 +10296,7 @@ export const storefrontProducts = [
     "badgeSubtext": "10 product images available"
   },
   {
-    "id": 106,
+    "id": 71,
     "sourceProductId": 8227672785031,
     "sourceHandle": "premium-10x15-custom-canopy-tent-8-15",
     "sourceSlug": "premium-10x15-custom-canopy-tent-8-15",
@@ -12792,7 +10637,7 @@ export const storefrontProducts = [
     "badgeSubtext": "9 product images available"
   },
   {
-    "id": 107,
+    "id": 72,
     "sourceProductId": 8227672653959,
     "sourceHandle": "premium-10x20-custom-canopy-tent-10-20",
     "sourceSlug": "premium-10x20-custom-canopy-tent-10-20",
@@ -13106,7 +10951,7 @@ export const storefrontProducts = [
     "badgeSubtext": "11 product images available"
   },
   {
-    "id": 108,
+    "id": 73,
     "sourceProductId": 8227672719495,
     "sourceHandle": "premium-10x20-custom-canopy-tent-11-20",
     "sourceSlug": "premium-10x20-custom-canopy-tent-11-20",
@@ -13451,7 +11296,7 @@ export const storefrontProducts = [
     "badgeSubtext": "10 product images available"
   },
   {
-    "id": 109,
+    "id": 74,
     "sourceProductId": 8227672686727,
     "sourceHandle": "premium-10x20-custom-canopy-tent-12-20",
     "sourceSlug": "premium-10x20-custom-canopy-tent-12-20",
@@ -13798,7 +11643,7 @@ export const storefrontProducts = [
     "badgeSubtext": "11 product images available"
   },
   {
-    "id": 110,
+    "id": 75,
     "sourceProductId": 8227673014407,
     "sourceHandle": "premium-10x20-custom-canopy-tent-9-20black",
     "sourceSlug": "premium-10x20-custom-canopy-tent-9-20black",
@@ -14133,7 +11978,7 @@ export const storefrontProducts = [
     "badgeSubtext": "5 product images available"
   },
   {
-    "id": 111,
+    "id": 76,
     "sourceProductId": 8227677470855,
     "sourceHandle": "premium-10x20-custom-canopy-tent-9-20top",
     "sourceSlug": "premium-10x20-custom-canopy-tent-9-20top",
@@ -14510,7 +12355,7 @@ export const storefrontProducts = [
     "badgeSubtext": "4 product images available"
   },
   {
-    "id": 112,
+    "id": 77,
     "sourceProductId": 8227677634695,
     "sourceHandle": "premium-10x20-custom-canopy-tent-hex-9-20",
     "sourceSlug": "premium-10x20-custom-canopy-tent-hex-9-20",
@@ -14819,7 +12664,7 @@ export const storefrontProducts = [
     "badgeSubtext": "9 product images available"
   },
   {
-    "id": 113,
+    "id": 78,
     "sourceProductId": 8229365022855,
     "sourceHandle": "premium-12-teardrop-flags",
     "sourceSlug": "premium-12-teardrop-flags",
@@ -14887,7 +12732,7 @@ export const storefrontProducts = [
     "badgeSubtext": "6 product images available"
   },
   {
-    "id": 114,
+    "id": 79,
     "sourceProductId": 8227681861767,
     "sourceHandle": "premium-15-aluminum-tent-frame-silver",
     "sourceSlug": "premium-15-aluminum-tent-frame-silver",
@@ -14937,7 +12782,7 @@ export const storefrontProducts = [
     "badgeSubtext": "3 product images available"
   },
   {
-    "id": 115,
+    "id": 80,
     "sourceProductId": 8227681992839,
     "sourceHandle": "premium-20-aluminum-tent-frame-black",
     "sourceSlug": "premium-20-aluminum-tent-frame-black",
@@ -14981,7 +12826,7 @@ export const storefrontProducts = [
     "badgeSubtext": "1 product image available"
   },
   {
-    "id": 116,
+    "id": 81,
     "sourceProductId": 8227681960071,
     "sourceHandle": "premium-20-aluminum-tent-frame-silver",
     "sourceSlug": "premium-20-aluminum-tent-frame-silver",
@@ -15031,7 +12876,7 @@ export const storefrontProducts = [
     "badgeSubtext": "3 product images available"
   },
   {
-    "id": 117,
+    "id": 82,
     "sourceProductId": 8227673768071,
     "sourceHandle": "premium-3-x-7-5-fabric-stand-copy",
     "sourceSlug": "premium-3-x-7-5-fabric-stand-copy",
@@ -15089,7 +12934,7 @@ export const storefrontProducts = [
     "badgeSubtext": "4 product images available"
   },
   {
-    "id": 118,
+    "id": 83,
     "sourceProductId": 8227670327431,
     "sourceHandle": "premium-aluminum-10-flat-top-tent-kit-full-bleed-dye-sublimation-17-valance-1",
     "sourceSlug": "premium-aluminum-10-flat-top-tent-kit-full-bleed-dye-sublimation-17-valance-1",
@@ -15136,7 +12981,7 @@ export const storefrontProducts = [
     "badgeSubtext": "2 product images available"
   },
   {
-    "id": 119,
+    "id": 84,
     "sourceProductId": 8227681304711,
     "sourceHandle": "premium-aluminum-tent-frame",
     "sourceSlug": "premium-aluminum-tent-frame",
@@ -15189,7 +13034,7 @@ export const storefrontProducts = [
     "badgeSubtext": "5 product images available"
   },
   {
-    "id": 120,
+    "id": 85,
     "sourceProductId": 8227681697927,
     "sourceHandle": "premium-aluminum-tent-frame-black",
     "sourceSlug": "premium-aluminum-tent-frame-black",
@@ -15236,7 +13081,7 @@ export const storefrontProducts = [
     "badgeSubtext": "2 product images available"
   },
   {
-    "id": 121,
+    "id": 86,
     "sourceProductId": 8229364727943,
     "sourceHandle": "premium-angled-flags",
     "sourceSlug": "premium-angled-flags",
@@ -15302,7 +13147,7 @@ export const storefrontProducts = [
     "badgeSubtext": "5 product images available"
   },
   {
-    "id": 122,
+    "id": 87,
     "sourceProductId": 8229364826247,
     "sourceHandle": "premium-blade-flags",
     "sourceSlug": "premium-blade-flags",
@@ -15371,7 +13216,7 @@ export const storefrontProducts = [
     "badgeSubtext": "6 product images available"
   },
   {
-    "id": 123,
+    "id": 88,
     "sourceProductId": 8229364629639,
     "sourceHandle": "premium-concave-flags",
     "sourceSlug": "premium-concave-flags",
@@ -15441,7 +13286,7 @@ export const storefrontProducts = [
     "badgeSubtext": "5 product images available"
   },
   {
-    "id": 124,
+    "id": 89,
     "sourceProductId": 8229364695175,
     "sourceHandle": "premium-convex-flags",
     "sourceSlug": "premium-convex-flags",
@@ -15507,7 +13352,7 @@ export const storefrontProducts = [
     "badgeSubtext": "5 product images available"
   },
   {
-    "id": 125,
+    "id": 90,
     "sourceProductId": 8227674685575,
     "sourceHandle": "premium-fitted-table-cover-full-color-dye-sublimation-full-bleed",
     "sourceSlug": "premium-fitted-table-cover-full-color-dye-sublimation-full-bleed",
@@ -15564,7 +13409,7 @@ export const storefrontProducts = [
     "badgeSubtext": "2 product images available"
   },
   {
-    "id": 126,
+    "id": 91,
     "sourceProductId": 8229364793479,
     "sourceHandle": "premium-rectangle-flags",
     "sourceSlug": "premium-rectangle-flags",
@@ -15633,7 +13478,7 @@ export const storefrontProducts = [
     "badgeSubtext": "6 product images available"
   },
   {
-    "id": 127,
+    "id": 92,
     "sourceProductId": 8227678158983,
     "sourceHandle": "premium-retractable-36",
     "sourceSlug": "premium-retractable-36",
@@ -15708,7 +13553,7 @@ export const storefrontProducts = [
     "badgeSubtext": "8 product images available"
   },
   {
-    "id": 128,
+    "id": 93,
     "sourceProductId": 8229364662407,
     "sourceHandle": "premium-straight-flags",
     "sourceSlug": "premium-straight-flags",
@@ -15774,7 +13619,7 @@ export const storefrontProducts = [
     "badgeSubtext": "5 product images available"
   },
   {
-    "id": 129,
+    "id": 94,
     "sourceProductId": 8229364760711,
     "sourceHandle": "premium-teardrop-flags",
     "sourceSlug": "premium-teardrop-flags",
@@ -15843,7 +13688,7 @@ export const storefrontProducts = [
     "badgeSubtext": "6 product images available"
   },
   {
-    "id": 130,
+    "id": 95,
     "sourceProductId": 8227681403015,
     "sourceHandle": "premium-universal-flag-fiberglass-pole-s",
     "sourceSlug": "premium-universal-flag-fiberglass-pole-s",
@@ -15887,7 +13732,7 @@ export const storefrontProducts = [
     "badgeSubtext": "1 product image available"
   },
   {
-    "id": 131,
+    "id": 96,
     "sourceProductId": 8227678322823,
     "sourceHandle": "premium-x-base",
     "sourceSlug": "premium-x-base",
@@ -15935,47 +13780,7 @@ export const storefrontProducts = [
     "badgeSubtext": "3 product images available"
   },
   {
-    "id": 132,
-    "sourceProductId": 8227680714887,
-    "sourceHandle": "racerback-tank-full-dye-sublimation-500031",
-    "sourceSlug": "racerback-tank-full-dye-sublimation-500031",
-    "img": "/assets/images/notionworx-inventory/apparel/racerback-tank-full-dye-sublimation-500031/01.jpg",
-    "imgHover": "/assets/images/notionworx-inventory/apparel/racerback-tank-full-dye-sublimation-500031/01.jpg",
-    "images": [
-      {
-        "src": "/assets/images/notionworx-inventory/apparel/racerback-tank-full-dye-sublimation-500031/01.jpg"
-      }
-    ],
-    "name": "150GSM Mesh Jersey Racerback Tank (Full Dye Sublimation) #500031",
-    "price": 12.5,
-    "cardVariant": "",
-    "filterBrands": [
-      "Notion Worx"
-    ],
-    "filterCategory": [
-      "APPAREL"
-    ],
-    "filterColor": [],
-    "filterSizes": [],
-    "tags": [],
-    "rating": 0,
-    "inStock": true,
-    "isStockOut": false,
-    "services": [],
-    "category": "APPAREL",
-    "description": "150gsm mesh jersey polyester",
-    "descriptionHtml": "<h4><a href=\"https://www.dropbox.com/s/urzevu1ki7f8vf7/racerback%20template.zip?dl=0\">Download Template</a></h4>\n<p>150gsm mesh jersey polyester</p>\n<p><br></p>",
-    "descriptionText": "Download Template\n\n150gsm mesh jersey polyester",
-    "howToOrderHtml": "<ul>\n  <li>SKU<br>500031</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
-    "howToOrderText": "- SKU\n  500031\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
-    "sku": "500031",
-    "reviewsText": "1 option",
-    "soldLabel": "Available to order",
-    "badgeLabel": "Apparel",
-    "badgeSubtext": "1 product image available"
-  },
-  {
-    "id": 133,
+    "id": 97,
     "sourceProductId": 8227678257287,
     "sourceHandle": "retractable-banner-stand",
     "sourceSlug": "retractable-banner-stand",
@@ -16027,70 +13832,7 @@ export const storefrontProducts = [
     "badgeSubtext": "5 product images available"
   },
   {
-    "id": 134,
-    "sourceProductId": 8227680288903,
-    "sourceHandle": "reversible-jersey-full-dye-sublimation",
-    "sourceSlug": "reversible-jersey-full-dye-sublimation",
-    "img": "/assets/images/notionworx-inventory/apparel/reversible-jersey-full-dye-sublimation/01.jpg",
-    "imgHover": "/assets/images/notionworx-inventory/apparel/reversible-jersey-full-dye-sublimation/02.jpg",
-    "images": [
-      {
-        "src": "/assets/images/notionworx-inventory/apparel/reversible-jersey-full-dye-sublimation/01.jpg"
-      },
-      {
-        "src": "/assets/images/notionworx-inventory/apparel/reversible-jersey-full-dye-sublimation/02.jpg"
-      }
-    ],
-    "name": "Reversible Jersey - (Full Dye Sublimation) #50072",
-    "price": 25,
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL",
-      "YS"
-    ],
-    "variantLabel": "Size",
-    "cardVariant": "",
-    "filterBrands": [
-      "Notion Worx"
-    ],
-    "filterCategory": [
-      "APPAREL"
-    ],
-    "filterColor": [],
-    "filterSizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL",
-      "YS"
-    ],
-    "tags": [],
-    "rating": 0,
-    "inStock": true,
-    "isStockOut": false,
-    "services": [],
-    "category": "APPAREL",
-    "description": "Need Help with Artwork Setup? Material: 95% polyester. 5% spandex, jersey mesh moisture wicking fabric",
-    "descriptionHtml": "<p><a href=\"https://displaytemplate.s3.us-west-2.amazonaws.com/Apparel/Custom+jersey/reversible+jersey.zip\">Download Template</a> <a href=\"https://soardistusa.com/apps/help-center#hc-creative-services\">Need Help with Artwork Setup?</a></p>\n<p>Material: 95% polyester. 5% spandex, jersey mesh moisture wicking fabric</p>",
-    "descriptionText": "Download Template Need Help with Artwork Setup?\n\nMaterial: 95% polyester. 5% spandex, jersey mesh moisture wicking fabric",
-    "howToOrderHtml": "<ul>\n  <li>SKU<br>50072-S</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
-    "howToOrderText": "- SKU\n  50072-S\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
-    "sku": "50072-S",
-    "reviewsText": "11 options",
-    "soldLabel": "Available to order",
-    "badgeLabel": "Apparel",
-    "badgeSubtext": "2 product images available"
-  },
-  {
-    "id": 135,
+    "id": 98,
     "sourceProductId": 8227680452743,
     "sourceHandle": "ropes-stakes-4pcs",
     "sourceSlug": "ropes-stakes-4pcs",
@@ -16127,7 +13869,7 @@ export const storefrontProducts = [
     "badgeSubtext": "1 product image available"
   },
   {
-    "id": 136,
+    "id": 99,
     "sourceProductId": 8525433503879,
     "sourceHandle": "sandbag-ballast-kit-for-event-tent-legs-set-of-four",
     "sourceSlug": "sandbag-ballast-kit-for-event-tent-legs-set-of-four",
@@ -16176,319 +13918,7 @@ export const storefrontProducts = [
     "badgeSubtext": "2 product images available"
   },
   {
-    "id": 137,
-    "sourceProductId": 8227680354439,
-    "sourceHandle": "short-sleeve-crew-neck-full-dye-sublimation",
-    "sourceSlug": "short-sleeve-crew-neck-full-dye-sublimation",
-    "img": "/assets/images/notionworx-inventory/apparel/short-sleeve-crew-neck-full-dye-sublimation/01.jpg",
-    "imgHover": "/assets/images/notionworx-inventory/apparel/short-sleeve-crew-neck-full-dye-sublimation/01.jpg",
-    "images": [
-      {
-        "src": "/assets/images/notionworx-inventory/apparel/short-sleeve-crew-neck-full-dye-sublimation/01.jpg"
-      }
-    ],
-    "name": "150GSM Mesh Jersey Short Sleeve Crew Neck (Full Dye Sublimation) #500002",
-    "price": 12.5,
-    "sizes": [
-      "L",
-      "S",
-      "M",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL",
-      "5XL"
-    ],
-    "variantLabel": "Size",
-    "cardVariant": "",
-    "filterBrands": [
-      "Notion Worx"
-    ],
-    "filterCategory": [
-      "APPAREL"
-    ],
-    "filterColor": [],
-    "filterSizes": [
-      "L",
-      "S",
-      "M",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL",
-      "5XL"
-    ],
-    "tags": [],
-    "rating": 0,
-    "inStock": true,
-    "isStockOut": false,
-    "services": [],
-    "category": "APPAREL",
-    "description": ". Need Help with Artwork Setup? 1:95% polyester 5% spandex 150gsm 4.42oz jersey mesh moisture wicking fabric",
-    "descriptionHtml": "<h4><a href=\"https://www.dropbox.com/scl/fo/engd2w7dgy4rl7hrreyql/h?dl=0&amp;rlkey=rkmjpazxjblughidn7f2lmrzu\">Download Template.</a></h4>\n<h4><a href=\"https://soardistusa.com/apps/help-center#hc-creative-services\">Need Help with Artwork Setup?</a></h4>\n<p>1:95% polyester 5% spandex 150gsm 4.42oz jersey mesh moisture wicking fabric</p>\n<p><img src=\"https://cdn.shopifycdn.net/s/files/1/1564/9941/files/WX20220810-020007_2x_7ebf13a4-04d8-4405-a210-74406e3f7457.png?v=1660068037\" alt=\"\"></p>\n<p><br></p>\n<p><img src=\"https://cdn.shopifycdn.net/s/files/1/1564/9941/files/Moisture-Wicking-Performance_480x480.jpg?v=1645131249\" alt=\"\"></p>",
-    "descriptionText": "Download Template.\n\nNeed Help with Artwork Setup?\n\n1:95% polyester 5% spandex 150gsm 4.42oz jersey mesh moisture wicking fabric",
-    "howToOrderHtml": "<ul>\n  <li>SKU<br>500002</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
-    "howToOrderText": "- SKU\n  500002\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
-    "sku": "500002",
-    "reviewsText": "16 options",
-    "soldLabel": "Available to order",
-    "badgeLabel": "Apparel",
-    "badgeSubtext": "1 product image available"
-  },
-  {
-    "id": 138,
-    "sourceProductId": 8227679928455,
-    "sourceHandle": "short-sleeve-hoodie-t-shirst-full-dye-sublimation-500038",
-    "sourceSlug": "short-sleeve-hoodie-t-shirst-full-dye-sublimation-500038",
-    "img": "/assets/images/notionworx-inventory/apparel/short-sleeve-hoodie-t-shirst-full-dye-sublimation-500038/01.png",
-    "imgHover": "/assets/images/notionworx-inventory/apparel/short-sleeve-hoodie-t-shirst-full-dye-sublimation-500038/01.png",
-    "images": [
-      {
-        "src": "/assets/images/notionworx-inventory/apparel/short-sleeve-hoodie-t-shirst-full-dye-sublimation-500038/01.png"
-      }
-    ],
-    "name": "120GSM Milk Silk Short Sleeve Hoodie T-shirt (Full Dye Sublimation) #500038",
-    "price": 21,
-    "sizes": [
-      "L",
-      "S",
-      "M",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL",
-      "5XL"
-    ],
-    "variantLabel": "Size",
-    "cardVariant": "",
-    "filterBrands": [
-      "Notion Worx"
-    ],
-    "filterCategory": [
-      "APPAREL"
-    ],
-    "filterColor": [],
-    "filterSizes": [
-      "L",
-      "S",
-      "M",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL",
-      "5XL"
-    ],
-    "tags": [],
-    "rating": 0,
-    "inStock": true,
-    "isStockOut": false,
-    "services": [],
-    "category": "APPAREL",
-    "description": "95% polyester 5% spandex 120gsm 3.54oz milk silk moisture wicking fabric Need Help with Artwork Setup?",
-    "descriptionHtml": "<h4>95% polyester 5% spandex 120gsm 3.54oz milk silk moisture wicking fabric<br></h4>\n<p><a href=\"https://displaytemplate.s3.us-west-2.amazonaws.com/Apparel/Custom+jersey/Short+Sleeve+Hoodie+T-shirt.zip\">Download Template</a> <a href=\"https://soardistusa.com/apps/help-center#hc-creative-services\">Need Help with Artwork Setup?</a></p>\n<p><img src=\"https://cdn.shopifycdn.net/s/files/1/1564/9941/files/Moisture-Wicking-Performance_480x480.jpg?v=1645131249\" alt=\"\"></p>",
-    "descriptionText": "95% polyester 5% spandex 120gsm 3.54oz milk silk moisture wicking fabric\n\nDownload Template Need Help with Artwork Setup?",
-    "howToOrderHtml": "<ul>\n  <li>SKU<br>500038</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
-    "howToOrderText": "- SKU\n  500038\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
-    "sku": "500038",
-    "reviewsText": "15 options",
-    "soldLabel": "Available to order",
-    "badgeLabel": "Apparel",
-    "badgeSubtext": "1 product image available"
-  },
-  {
-    "id": 139,
-    "sourceProductId": 8227682877575,
-    "sourceHandle": "short-sleeve-v-neck-full-dye-sublimation",
-    "sourceSlug": "short-sleeve-v-neck-full-dye-sublimation",
-    "img": "/assets/images/notionworx-inventory/apparel/short-sleeve-v-neck-full-dye-sublimation/01.jpg",
-    "imgHover": "/assets/images/notionworx-inventory/apparel/short-sleeve-v-neck-full-dye-sublimation/02.jpg",
-    "images": [
-      {
-        "src": "/assets/images/notionworx-inventory/apparel/short-sleeve-v-neck-full-dye-sublimation/01.jpg"
-      },
-      {
-        "src": "/assets/images/notionworx-inventory/apparel/short-sleeve-v-neck-full-dye-sublimation/02.jpg"
-      }
-    ],
-    "name": "150GSM Mesh Jersey Short Sleeve V Neck (Full Dye Sublimation)#500001",
-    "price": 12.5,
-    "sizes": [
-      "L",
-      "YXS",
-      "YS",
-      "YM",
-      "YL",
-      "YXL",
-      "XS",
-      "S"
-    ],
-    "variantLabel": "Size",
-    "cardVariant": "",
-    "filterBrands": [
-      "Notion Worx"
-    ],
-    "filterCategory": [
-      "APPAREL"
-    ],
-    "filterColor": [],
-    "filterSizes": [
-      "L",
-      "YXS",
-      "YS",
-      "YM",
-      "YL",
-      "YXL",
-      "XS",
-      "S"
-    ],
-    "tags": [],
-    "rating": 0,
-    "inStock": true,
-    "isStockOut": false,
-    "services": [],
-    "category": "APPAREL",
-    "description": "Need Help with Artwork Setup? Material: 95% polyester. 5% spandex, jersey mesh moisture wicking fabric",
-    "descriptionHtml": "<h3><a href=\"https://www.dropbox.com/scl/fo/9m8mos9jhcgwtf1mt19w9/h?dl=0&amp;rlkey=i0x94482gopbpj12scwyxma85\">Download Template</a></h3>\n<h3><a href=\"https://soardistusa.com/apps/help-center#hc-creative-services\">Need Help with Artwork Setup?</a></h3>\n<p>Material: 95% polyester. 5% spandex, jersey mesh</p>\n<p>moisture wicking fabric</p>\n<p><img src=\"https://cdn.shopifycdn.net/s/files/1/1564/9941/files/moisture_wicking_fabric_480x480.jpg?v=1645131173\" alt=\"\"> <img src=\"https://cdn.shopifycdn.net/s/files/1/1564/9941/files/Moisture-Wicking-Performance_480x480.jpg?v=1645131249\" alt=\"\"></p>",
-    "descriptionText": "Download Template\n\nNeed Help with Artwork Setup?\n\nMaterial: 95% polyester. 5% spandex, jersey mesh\n\nmoisture wicking fabric",
-    "howToOrderHtml": "<ul>\n  <li>SKU<br>500001</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
-    "howToOrderText": "- SKU\n  500001\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
-    "sku": "500001",
-    "reviewsText": "16 options",
-    "soldLabel": "Available to order",
-    "badgeLabel": "Apparel",
-    "badgeSubtext": "2 product images available"
-  },
-  {
-    "id": 140,
-    "sourceProductId": 8227678781575,
-    "sourceHandle": "sleeveless-hoodie-full-dye-sublimation-500053",
-    "sourceSlug": "sleeveless-hoodie-full-dye-sublimation-500053",
-    "img": "/assets/images/notionworx-inventory/apparel/sleeveless-hoodie-full-dye-sublimation-500053/01.jpg",
-    "imgHover": "/assets/images/notionworx-inventory/apparel/sleeveless-hoodie-full-dye-sublimation-500053/01.jpg",
-    "images": [
-      {
-        "src": "/assets/images/notionworx-inventory/apparel/sleeveless-hoodie-full-dye-sublimation-500053/01.jpg"
-      }
-    ],
-    "name": "Sleeveless Hoodie Full Dye Sublimation #500053",
-    "price": 29,
-    "sizes": [
-      "YS",
-      "YM",
-      "YL",
-      "YXL",
-      "S",
-      "M",
-      "L",
-      "XL"
-    ],
-    "variantLabel": "Size",
-    "cardVariant": "",
-    "filterBrands": [
-      "Notion Worx"
-    ],
-    "filterCategory": [
-      "APPAREL"
-    ],
-    "filterColor": [],
-    "filterSizes": [
-      "YS",
-      "YM",
-      "YL",
-      "YXL",
-      "S",
-      "M",
-      "L",
-      "XL"
-    ],
-    "tags": [],
-    "rating": 0,
-    "inStock": true,
-    "isStockOut": false,
-    "services": [],
-    "category": "APPAREL",
-    "description": "Need Help with Artwork Setup? Get customers excited with our Sleeveless Pullover Full-Color Sublimated Hoodie! This sublimated hoodie is an awesome giveaway and is sure to attract a lot of attention! It is ideal for promotional events giving you maximum brand exposure during ind…",
-    "descriptionHtml": "<h4><a href=\"https://displaytemplate.s3.us-west-2.amazonaws.com/Apparel/Custom+jersey/sleeveless+hoodie+t-shirt.zip\">Download Template</a> <a href=\"https://soardistusa.com/apps/help-center#hc-creative-services\">Need Help with Artwork Setup?</a></h4>\n<p><br></p>\n<p>Get customers excited with our Sleeveless Pullover Full-Color Sublimated Hoodie! This sublimated hoodie is an awesome giveaway and is sure to attract a lot of attention! It is ideal for promotional events giving you maximum brand exposure during indoor or outdoor activities. This trendy unisex sublimation hoodie features edge to edge imprint with pockets, no string on hood . It is made of 7.37 oz 95% polyester.5% spandex<br></p>",
-    "descriptionText": "Download Template Need Help with Artwork Setup?\n\nGet customers excited with our Sleeveless Pullover Full-Color Sublimated Hoodie! This sublimated hoodie is an awesome giveaway and is sure to attract a lot of attention! It is ideal for promotional events giving you maximum brand exposure during indoor or outdoor activities. This trendy unisex sublimation hoodie features edge to edge imprint with pockets, no string on hood . It is made of 7.37 oz 95% polyester.5% spandex",
-    "howToOrderHtml": "<ul>\n  <li>SKU<br>500053</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
-    "howToOrderText": "- SKU\n  500053\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
-    "sku": "500053",
-    "reviewsText": "15 options",
-    "soldLabel": "Available to order",
-    "badgeLabel": "Apparel",
-    "badgeSubtext": "1 product image available"
-  },
-  {
-    "id": 141,
-    "sourceProductId": 8227682943111,
-    "sourceHandle": "sport-polo-shirt-full-sublimation",
-    "sourceSlug": "sport-polo-shirt-full-sublimation",
-    "img": "/assets/images/notionworx-inventory/apparel/sport-polo-shirt-full-sublimation/01.png",
-    "imgHover": "/assets/images/notionworx-inventory/apparel/sport-polo-shirt-full-sublimation/02.png",
-    "images": [
-      {
-        "src": "/assets/images/notionworx-inventory/apparel/sport-polo-shirt-full-sublimation/01.png"
-      },
-      {
-        "src": "/assets/images/notionworx-inventory/apparel/sport-polo-shirt-full-sublimation/02.png"
-      },
-      {
-        "src": "/assets/images/notionworx-inventory/apparel/sport-polo-shirt-full-sublimation/03.png"
-      },
-      {
-        "src": "/assets/images/notionworx-inventory/apparel/sport-polo-shirt-full-sublimation/04.webp"
-      }
-    ],
-    "name": "150GSM Mesh Jersey Sport Polo Shirt (Full Dye Sublimation) #50009",
-    "price": 29,
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL",
-      "5XL"
-    ],
-    "variantLabel": "Size",
-    "cardVariant": "",
-    "filterBrands": [
-      "Notion Worx"
-    ],
-    "filterCategory": [
-      "APPAREL"
-    ],
-    "filterColor": [],
-    "filterSizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL",
-      "5XL"
-    ],
-    "tags": [],
-    "rating": 0,
-    "inStock": true,
-    "isStockOut": false,
-    "services": [],
-    "category": "APPAREL",
-    "description": "95% polyester.5% spandex jerseymesh moisture wicking fabric",
-    "descriptionHtml": "<p>95% polyester.5% spandex jerseymesh moisture wicking fabric</p>\n<p><img src=\"https://cdn.shopifycdn.net/s/files/1/1564/9941/files/moisture_wicking_fabric_480x480.jpg?v=1645131173\" alt=\"\"> <img src=\"https://cdn.shopifycdn.net/s/files/1/1564/9941/files/Moisture-Wicking-Performance_480x480.jpg?v=1645131249\" alt=\"\"></p>",
-    "descriptionText": "95% polyester.5% spandex jerseymesh moisture wicking fabric",
-    "howToOrderHtml": "<ul>\n  <li>SKU<br>50009</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
-    "howToOrderText": "- SKU\n  50009\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
-    "sku": "50009",
-    "reviewsText": "14 options",
-    "soldLabel": "Available to order",
-    "badgeLabel": "Apparel",
-    "badgeSubtext": "4 product images available"
-  },
-  {
-    "id": 142,
+    "id": 100,
     "sourceProductId": 8227673833607,
     "sourceHandle": "step-and-repeat-backdrop-copy",
     "sourceSlug": "step-and-repeat-backdrop-copy",
@@ -16554,7 +13984,7 @@ export const storefrontProducts = [
     "badgeSubtext": "7 product images available"
   },
   {
-    "id": 143,
+    "id": 101,
     "sourceProductId": 8227674652807,
     "sourceHandle": "stretch-table-cover",
     "sourceSlug": "stretch-table-cover",
@@ -16623,7 +14053,7 @@ export const storefrontProducts = [
     "badgeSubtext": "6 product images available"
   },
   {
-    "id": 144,
+    "id": 102,
     "sourceProductId": 8227675504775,
     "sourceHandle": "sublimated-beach-fleece-blanket-30-x-60",
     "sourceSlug": "sublimated-beach-fleece-blanket-30-x-60",
@@ -16677,7 +14107,7 @@ export const storefrontProducts = [
     "badgeSubtext": "5 product images available"
   },
   {
-    "id": 145,
+    "id": 103,
     "sourceProductId": 8227675472007,
     "sourceHandle": "sublimated-beach-fleece-blanket-50-x-60",
     "sourceSlug": "sublimated-beach-fleece-blanket-50-x-60",
@@ -16731,7 +14161,7 @@ export const storefrontProducts = [
     "badgeSubtext": "5 product images available"
   },
   {
-    "id": 146,
+    "id": 104,
     "sourceProductId": 8227675439239,
     "sourceHandle": "sublimated-beach-fleece-blanket-60-x-80",
     "sourceSlug": "sublimated-beach-fleece-blanket-60-x-80",
@@ -16785,7 +14215,7 @@ export const storefrontProducts = [
     "badgeSubtext": "5 product images available"
   },
   {
-    "id": 147,
+    "id": 105,
     "sourceProductId": 8227675635847,
     "sourceHandle": "sublimated-bucket-hat",
     "sourceSlug": "sublimated-bucket-hat",
@@ -16838,7 +14268,7 @@ export const storefrontProducts = [
     "badgeSubtext": "5 product images available"
   },
   {
-    "id": 148,
+    "id": 106,
     "sourceProductId": 8227675406471,
     "sourceHandle": "sublimated-fleece-blanket",
     "sourceSlug": "sublimated-fleece-blanket",
@@ -16903,66 +14333,7 @@ export const storefrontProducts = [
     "badgeSubtext": "6 product images available"
   },
   {
-    "id": 149,
-    "sourceProductId": 8227678879879,
-    "sourceHandle": "sweatshirt-full-dye-sublimated-500019",
-    "sourceSlug": "sweatshirt-full-dye-sublimated-500019",
-    "img": "/assets/images/notionworx-inventory/apparel/sweatshirt-full-dye-sublimated-500019/01.jpg",
-    "imgHover": "/assets/images/notionworx-inventory/apparel/sweatshirt-full-dye-sublimated-500019/02.jpg",
-    "images": [
-      {
-        "src": "/assets/images/notionworx-inventory/apparel/sweatshirt-full-dye-sublimated-500019/01.jpg"
-      },
-      {
-        "src": "/assets/images/notionworx-inventory/apparel/sweatshirt-full-dye-sublimated-500019/02.jpg"
-      }
-    ],
-    "name": "Sweatshirt Full Dye Sublimated #500019",
-    "price": 29,
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL"
-    ],
-    "variantLabel": "Size",
-    "cardVariant": "",
-    "filterBrands": [
-      "Notion Worx"
-    ],
-    "filterCategory": [
-      "APPAREL"
-    ],
-    "filterColor": [],
-    "filterSizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL"
-    ],
-    "tags": [],
-    "rating": 0,
-    "inStock": true,
-    "isStockOut": false,
-    "services": [],
-    "category": "APPAREL",
-    "description": "Need Help with Artwork Setup? This trendy unisex sublimation sweatshirt features edge to edge imprint It is made of 7.37 oz 95% polyester.5% spandex",
-    "descriptionHtml": "<h4><a href=\"https://www.dropbox.com/scl/fo/d510is1nn510vzn7k58j4/h?rlkey=h40i5yxxfnm7tv7ok3s2g91wt&amp;dl=0\">Download Template</a> <a href=\"https://soardistusa.com/apps/help-center#hc-creative-services\">Need Help with Artwork Setup?</a></h4>\n<p>This trendy unisex sublimation sweatshirt features edge to edge imprint It is made of 7.37 oz 95% polyester.5% spandex</p>",
-    "descriptionText": "Download Template Need Help with Artwork Setup?\n\nThis trendy unisex sublimation sweatshirt features edge to edge imprint It is made of 7.37 oz 95% polyester.5% spandex",
-    "howToOrderHtml": "<ul>\n  <li>SKU<br>500019-S</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
-    "howToOrderText": "- SKU\n  500019-S\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
-    "sku": "500019-S",
-    "reviewsText": "6 options",
-    "soldLabel": "Available to order",
-    "badgeLabel": "Apparel",
-    "badgeSubtext": "2 product images available"
-  },
-  {
-    "id": 150,
+    "id": 107,
     "sourceProductId": 8227674030215,
     "sourceHandle": "table-runner",
     "sourceSlug": "table-runner",
@@ -17016,7 +14387,7 @@ export const storefrontProducts = [
     "badgeSubtext": "1 product image available"
   },
   {
-    "id": 151,
+    "id": 108,
     "sourceProductId": 8227681370247,
     "sourceHandle": "tent-frame-roller-bag-carry-case",
     "sourceSlug": "tent-frame-roller-bag-carry-case",
@@ -17064,7 +14435,7 @@ export const storefrontProducts = [
     "badgeSubtext": "2 product images available"
   },
   {
-    "id": 152,
+    "id": 109,
     "sourceProductId": 8227670392967,
     "sourceHandle": "tent-leg-cover",
     "sourceSlug": "tent-leg-cover",
@@ -17113,7 +14484,7 @@ export const storefrontProducts = [
     "badgeSubtext": "1 product image available"
   },
   {
-    "id": 153,
+    "id": 110,
     "sourceProductId": 8227670425735,
     "sourceHandle": "tent-quarter-wall-dye-sublimated",
     "sourceSlug": "tent-quarter-wall-dye-sublimated",
@@ -17165,7 +14536,7 @@ export const storefrontProducts = [
     "badgeSubtext": "1 product image available"
   },
   {
-    "id": 154,
+    "id": 111,
     "sourceProductId": 8250396508295,
     "sourceHandle": "trade-show-essential-10x10-custom-canopy-tent-10-13",
     "sourceSlug": "trade-show-essential-10x10-custom-canopy-tent-10-13",
@@ -17523,7 +14894,7 @@ export const storefrontProducts = [
     "badgeSubtext": "9 product images available"
   },
   {
-    "id": 155,
+    "id": 112,
     "sourceProductId": 8250400604295,
     "sourceHandle": "trade-show-essential-10x10-custom-canopy-tent-13-10a",
     "sourceSlug": "trade-show-essential-10x10-custom-canopy-tent-13-10a",
@@ -17884,7 +15255,7 @@ export const storefrontProducts = [
     "badgeSubtext": "10 product images available"
   },
   {
-    "id": 156,
+    "id": 113,
     "sourceProductId": 8258260238471,
     "sourceHandle": "trade-show-essential-10x15-custom-canopy-tent-14-15",
     "sourceSlug": "trade-show-essential-10x15-custom-canopy-tent-14-15",
@@ -18175,7 +15546,7 @@ export const storefrontProducts = [
     "badgeSubtext": "9 product images available"
   },
   {
-    "id": 157,
+    "id": 114,
     "sourceProductId": 8258263482503,
     "sourceHandle": "trade-show-essential-10x20-custom-canopy-tent-15-20",
     "sourceSlug": "trade-show-essential-10x20-custom-canopy-tent-15-20",
@@ -18466,132 +15837,7 @@ export const storefrontProducts = [
     "badgeSubtext": "9 product images available"
   },
   {
-    "id": 158,
-    "sourceProductId": 8227678912647,
-    "sourceHandle": "tradition-pullover-lace-hoodie-dna-stretch",
-    "sourceSlug": "tradition-pullover-lace-hoodie-dna-stretch",
-    "img": "/assets/images/notionworx-inventory/apparel/tradition-pullover-lace-hoodie-dna-stretch/01.jpg",
-    "imgHover": "/assets/images/notionworx-inventory/apparel/tradition-pullover-lace-hoodie-dna-stretch/02.webp",
-    "images": [
-      {
-        "src": "/assets/images/notionworx-inventory/apparel/tradition-pullover-lace-hoodie-dna-stretch/01.jpg"
-      },
-      {
-        "src": "/assets/images/notionworx-inventory/apparel/tradition-pullover-lace-hoodie-dna-stretch/02.webp"
-      },
-      {
-        "src": "/assets/images/notionworx-inventory/apparel/tradition-pullover-lace-hoodie-dna-stretch/03.jpg"
-      }
-    ],
-    "name": "Hoodie Full Dye Sublimation #500016",
-    "price": 29,
-    "sizes": [
-      "YS",
-      "YM",
-      "YL",
-      "YXL",
-      "S",
-      "M",
-      "L",
-      "XL"
-    ],
-    "variantLabel": "Size",
-    "cardVariant": "",
-    "filterBrands": [
-      "Notion Worx"
-    ],
-    "filterCategory": [
-      "APPAREL"
-    ],
-    "filterColor": [],
-    "filterSizes": [
-      "YS",
-      "YM",
-      "YL",
-      "YXL",
-      "S",
-      "M",
-      "L",
-      "XL"
-    ],
-    "tags": [],
-    "rating": 0,
-    "inStock": true,
-    "isStockOut": false,
-    "services": [],
-    "category": "APPAREL",
-    "description": "Need Help with Artwork Setup? Get customers excited with our Pullover Full-Color Sublimated Hoodie! This sublimated hoodie is an awesome giveaway and is sure to attract a lot of attention! It is ideal for promotional events giving you maximum brand exposure during indoor or outd…",
-    "descriptionHtml": "<h4><a href=\"https://www.dropbox.com/scl/fo/3ib0lya75w85efyes19tg/h?rlkey=1yszveey007he14qsse5lsgfx&amp;dl=0\">Download Template</a> <a href=\"https://soardistusa.com/apps/help-center#hc-creative-services\">Need Help with Artwork Setup?</a></h4>\n<p><br></p>\n<p>Get customers excited with our Pullover Full-Color Sublimated Hoodie! This sublimated hoodie is an awesome giveaway and is sure to attract a lot of attention! It is ideal for promotional events giving you maximum brand exposure during indoor or outdoor activities. This trendy unisex sublimation hoodie features edge to edge imprint with pockets, no string on hood . It is made of 7.37 oz 95% polyester.5% spandex<br></p>",
-    "descriptionText": "Download Template Need Help with Artwork Setup?\n\nGet customers excited with our Pullover Full-Color Sublimated Hoodie! This sublimated hoodie is an awesome giveaway and is sure to attract a lot of attention! It is ideal for promotional events giving you maximum brand exposure during indoor or outdoor activities. This trendy unisex sublimation hoodie features edge to edge imprint with pockets, no string on hood . It is made of 7.37 oz 95% polyester.5% spandex",
-    "sku": "500016-S",
-    "reviewsText": "15 options",
-    "soldLabel": "Available to order",
-    "badgeLabel": "Apparel",
-    "badgeSubtext": "3 product images available"
-  },
-  {
-    "id": 159,
-    "sourceProductId": 8227679993991,
-    "sourceHandle": "tropical-print-shirt-full-dye-sublimation-500036",
-    "sourceSlug": "tropical-print-shirt-full-dye-sublimation-500036",
-    "img": "/assets/images/notionworx-inventory/apparel/tropical-print-shirt-full-dye-sublimation-500036/01.jpg",
-    "imgHover": "/assets/images/notionworx-inventory/apparel/tropical-print-shirt-full-dye-sublimation-500036/02.jpg",
-    "images": [
-      {
-        "src": "/assets/images/notionworx-inventory/apparel/tropical-print-shirt-full-dye-sublimation-500036/01.jpg"
-      },
-      {
-        "src": "/assets/images/notionworx-inventory/apparel/tropical-print-shirt-full-dye-sublimation-500036/02.jpg"
-      }
-    ],
-    "name": "Tropical Print Shirt (Full Dye Sublimation) #500036",
-    "price": 29,
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
-    ],
-    "variantLabel": "Size",
-    "cardVariant": "",
-    "filterBrands": [
-      "Soardist"
-    ],
-    "filterCategory": [
-      "APPAREL"
-    ],
-    "filterColor": [],
-    "filterSizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
-    ],
-    "tags": [],
-    "rating": 0,
-    "inStock": true,
-    "isStockOut": false,
-    "services": [],
-    "category": "APPAREL",
-    "description": "4-way 135gsm polyester",
-    "descriptionHtml": "<p><a href=\"https://www.dropbox.com/home/zheng%20Daisy/File%20requests/Ticket/2024/10.26/95962/Apparel%20Templates/Sport%20Polo%20Shirt%20Full%20Button\">Download Template</a></p>\n<p>4-way 135gsm polyester <img src=\"https://cdn.shopifycdn.net/s/files/1/1564/9941/files/WechatIMG6283.png?v=1658474417\" alt=\"\"></p>\n<p><br></p>",
-    "descriptionText": "Download Template\n\n4-way 135gsm polyester",
-    "howToOrderHtml": "<ul>\n  <li>SKU<br>500036</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
-    "howToOrderText": "- SKU\n  500036\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
-    "sku": "500036",
-    "reviewsText": "7 options",
-    "soldLabel": "Available to order",
-    "badgeLabel": "Apparel",
-    "badgeSubtext": "2 product images available"
-  },
-  {
-    "id": 160,
+    "id": 115,
     "sourceProductId": 8227678224519,
     "sourceHandle": "x-stand",
     "sourceSlug": "x-stand",
@@ -18644,12 +15890,6 @@ export const storefrontProducts = [
 
 export const storefrontCategories = [
   {
-    "name": "APPAREL",
-    "img": "/assets/images/notionworx-inventory/collections/apparel/01.jpg",
-    "quantity": "45 Products",
-    "href": "/shop-default?category=APPAREL"
-  },
-  {
     "name": "Custom Canopy Tents – Personalized Pop Up Tents for Events",
     "img": "/assets/images/notionworx-inventory/collections/tent/01.png",
     "quantity": "31 Products",
@@ -18698,12 +15938,6 @@ export const storefrontCategories = [
     "href": "/shop-default?category=5x5%20Custom%20Canopies"
   },
   {
-    "name": "Accessories",
-    "img": "/assets/images/notionworx-inventory/collections/accesories/01.jpg",
-    "quantity": "7 Products",
-    "href": "/shop-default?category=Accessories"
-  },
-  {
     "name": "BAG",
     "img": "/assets/images/notionworx-inventory/bag/belt-bag-dye-sublimated-1-38-strap-500060/01.jpg",
     "quantity": "7 Products",
@@ -18714,6 +15948,12 @@ export const storefrontCategories = [
     "img": "/assets/images/notionworx-inventory/collections/table-cover/01.jpg",
     "quantity": "6 Products",
     "href": "/shop-default?category=TABLE%20COVER"
+  },
+  {
+    "name": "Accessories",
+    "img": "/assets/images/notionworx-inventory/collections/accesories/01.jpg",
+    "quantity": "6 Products",
+    "href": "/shop-default?category=Accessories"
   },
   {
     "name": "SEG PRODUCTS",
@@ -18874,25 +16114,11 @@ export const storefrontCollectionGalleries = [
     "handle": "accesories",
     "title": "Accessories",
     "description": "",
-    "productsCount": 7,
+    "productsCount": 6,
     "image": "/assets/images/notionworx-inventory/collections/accesories/01.jpg",
     "images": [
       {
         "src": "/assets/images/notionworx-inventory/collections/accesories/01.jpg",
-        "width": null,
-        "height": null
-      }
-    ]
-  },
-  {
-    "handle": "apparel",
-    "title": "APPAREL",
-    "description": "",
-    "productsCount": 45,
-    "image": "/assets/images/notionworx-inventory/collections/apparel/01.jpg",
-    "images": [
-      {
-        "src": "/assets/images/notionworx-inventory/collections/apparel/01.jpg",
         "width": null,
         "height": null
       }

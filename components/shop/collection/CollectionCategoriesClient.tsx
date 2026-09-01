@@ -1,16 +1,20 @@
-"use client";
-
 import Image from "next/image";
 import Link from "next/link";
 
-import { categoriesCollection } from "@/data/categories";
+import type { Category } from "@/types/categories";
 
-export default function CollectionCategoriesClient() {
+export default function CollectionCategoriesClient({
+  categories,
+}: {
+  categories: Category[];
+}) {
   return (
     <div className="flat-spacing">
       <div className="container">
         <div className="tf-grid-layout ssm-col-2 xl-col-4 gap-lg-30">
-          {categoriesCollection.map((category) => (
+          {categories
+            .filter((category) => Boolean(category.img))
+            .map((category) => (
             <article
               key={category.name}
               className="notionworx-collection-card hover-img4"
@@ -23,7 +27,7 @@ export default function CollectionCategoriesClient() {
                   loading="lazy"
                   width={396}
                   height={330}
-                  src={category.img}
+                  src={category.img as string}
                   alt={category.name}
                 />
               </Link>

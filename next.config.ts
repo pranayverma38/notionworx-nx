@@ -67,6 +67,10 @@ const nextConfig: NextConfig = {
       },
       {
         protocol: "https",
+        hostname: "api.notionworxcanopy.com",
+      },
+      {
+        protocol: "https",
         hostname: "s3.amazonaws.com",
       },
     ],

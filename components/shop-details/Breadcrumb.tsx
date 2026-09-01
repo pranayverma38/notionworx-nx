@@ -3,12 +3,15 @@
 import { useMemo } from "react";
 import Link from "next/link";
 import { useParams, usePathname } from "next/navigation";
-import { products } from "@/data/products/products";
+import { products as localProducts } from "@/data/products/products";
 import type { ProductCardItem } from "@/types/productCard";
 
-function useAdjacentProductIds(currentId: number) {
+function useAdjacentProductIds(
+  currentId: number,
+  catalogProducts: ProductCardItem[],
+) {
   return useMemo(() => {
-    const sorted = [...products].sort((a, b) => a.id - b.id);
+    const sorted = [...catalogProducts].sort((a, b) => Number(a.id) - Number(b.id));
     const idx = sorted.findIndex((p) => p.id === currentId);
     if (idx === -1) {
       return { prevId: null as number | null, nextId: null as number | null };
@@ -17,7 +20,7 @@ function useAdjacentProductIds(currentId: number) {
       prevId: idx > 0 ? sorted[idx - 1].id : null,
       nextId: idx < sorted.length - 1 ? sorted[idx + 1].id : null,
     };
-  }, [currentId]);
+  }, [catalogProducts, currentId]);
 }
 
 function NavArrow({
@@ -51,7 +54,13 @@ function NavArrow({
   );
 }
 
-export default function Breadcrumb({ product }: { product: ProductCardItem }) {
+export default function Breadcrumb({
+  product,
+  catalogProducts = localProducts,
+}: {
+  product: ProductCardItem;
+  catalogProducts?: ProductCardItem[];
+}) {
   const params = useParams();
   const pathname = usePathname() ?? "";
 
@@ -65,7 +74,7 @@ export default function Breadcrumb({ product }: { product: ProductCardItem }) {
       ? pathname.slice(0, pathname.lastIndexOf("/"))
       : "";
 
-  const { prevId, nextId } = useAdjacentProductIds(currentId);
+  const { prevId, nextId } = useAdjacentProductIds(currentId, catalogProducts);
 
   const prevHref =
     basePath && prevId != null ? `${basePath}/${prevId}` : undefined;

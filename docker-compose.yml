@@ -1,6 +1,9 @@
 x-env-values:
   # Fill these once here. They are reused for both build-time and runtime envs.
   host_port: &host_port "3001"
+  medusa_backend_url: &medusa_backend_url "https://api.notionworxcanopy.com"
+  medusa_api_key: &medusa_api_key "pk_a3e8c2ab278dc946329ea2ba8f041be114e2623af87e9d720e88fa9ea0953567"
+  medusa_admin_api_key: &medusa_admin_api_key "sk_e75d465d4f7ed8e313698e02f6b8bb2a826bc5e85d308e9d4736226af74ac398"
   next_public_supabase_url: &next_public_supabase_url ""
   next_public_supabase_anon_key: &next_public_supabase_anon_key ""
   azure_openai_image_endpoint: &azure_openai_image_endpoint ""
@@ -32,6 +35,9 @@ services:
       NEXT_TELEMETRY_DISABLED: "1"
       PORT: "3000"
       HOSTNAME: 0.0.0.0
+      MEDUSA_BACKEND_URL: *medusa_backend_url
+      MEDUSA_API_KEY: *medusa_api_key
+      MEDUSA_ADMIN_API_KEY: *medusa_admin_api_key
       NEXT_PUBLIC_SUPABASE_URL: *next_public_supabase_url
       NEXT_PUBLIC_SUPABASE_ANON_KEY: *next_public_supabase_anon_key
       AZURE_OPENAI_IMAGE_ENDPOINT: *azure_openai_image_endpoint
