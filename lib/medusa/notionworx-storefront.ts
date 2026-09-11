@@ -408,6 +408,33 @@ const getAdminCollectionProducts = cache(async (collectionId: string): Promise<M
   return payload?.products ?? [];
 });
 
+const getAllStoreProducts = cache(async (regionId?: string): Promise<MedusaProduct[]> => {
+  const query = new URLSearchParams({
+    limit: "250",
+  });
+
+  if (regionId) {
+    query.set("region_id", regionId);
+  }
+
+  const payload = await fetchMedusaJson<MedusaProductsResponse>(
+    `/store/products?${query.toString()}`,
+  );
+
+  return payload?.products ?? [];
+});
+
+const getAllAdminProducts = cache(async (): Promise<MedusaProduct[]> => {
+  const query = new URLSearchParams({
+    limit: "250",
+  });
+  const payload = await fetchMedusaAdminJson<MedusaProductsResponse>(
+    `/admin/products?${query.toString()}`,
+  );
+
+  return payload?.products ?? [];
+});
+
 function normalizeDisplayPrice(amount: number | undefined | null): number | undefined {
   if (typeof amount !== "number" || !Number.isFinite(amount)) {
     return undefined;
@@ -990,6 +1017,35 @@ type MedusaMappedCollection = {
   products: ShopProduct[];
 };
 
+function getCollectionMapKey(collection?: MedusaCollection | null): string | undefined {
+  if (!collection) {
+    return undefined;
+  }
+
+  const id = collection.id?.trim();
+  if (id) {
+    return `id:${id}`;
+  }
+
+  const handle = collection.handle?.trim();
+  if (handle) {
+    return `handle:${handle}`;
+  }
+
+  const title = collection.title?.trim();
+  if (title) {
+    return `title:${title.toLowerCase()}`;
+  }
+
+  return undefined;
+}
+
+let migratedCollectionsCache:
+  | { expiresAt: number; value: MedusaMappedCollection[] }
+  | null = null;
+let migratedCollectionsPromise: Promise<MedusaMappedCollection[]> | null = null;
+const MIGRATED_COLLECTIONS_CACHE_TTL_MS = 5 * 60 * 1000;
+
 function productBelongsToCollection(
   product: ShopProduct,
   collection: MedusaCollection,
@@ -1012,6 +1068,16 @@ function productBelongsToCollection(
 
 const getMedusaMigratedCollections = cache(
   async (): Promise<MedusaMappedCollection[]> => {
+    const cachedValue = migratedCollectionsCache;
+    if (cachedValue && cachedValue.expiresAt > Date.now()) {
+      return cachedValue.value;
+    }
+
+    if (migratedCollectionsPromise) {
+      return migratedCollectionsPromise;
+    }
+
+    migratedCollectionsPromise = (async () => {
     const collections = await getMedusaCollections();
 
     if (collections.length === 0) {
@@ -1020,79 +1086,103 @@ const getMedusaMigratedCollections = cache(
 
     const regionId = await getDefaultRegionId();
 
-    const fetchedCollections = (
-      await Promise.all(
-        collections
-          .filter(
-            (collection): collection is MedusaCollection & { id: string } =>
-              typeof collection.id === "string" && collection.id.trim().length > 0,
-          )
-          .map(async (collection) => {
-            const query = new URLSearchParams({
-              limit: "250",
-              collection_id: collection.id,
-            });
-
-            if (regionId) {
-              query.set("region_id", regionId);
-            }
-
-            const payload = await fetchMedusaJson<MedusaProductsResponse>(
-              `/store/products?${query.toString()}`,
-            );
-            const storeProducts = payload?.products ?? [];
-            const adminProducts = await getAdminCollectionProducts(collection.id);
-            const adminProductsById = new Map(
-              adminProducts
-                .filter(
-                  (product): product is MedusaProduct & { id: string } =>
-                    typeof product.id === "string" &&
-                    product.id.trim().length > 0,
-                )
-                .map((product) => [product.id.trim(), product]),
-            );
-            const adminProductsByHandle = new Map(
-              adminProducts
-                .filter(
-                  (product): product is MedusaProduct & { handle: string } =>
-                    typeof product.handle === "string" &&
-                    product.handle.trim().length > 0,
-                )
-                .map((product) => [product.handle.trim(), product]),
-            );
-
-            const products = storeProducts
-              .map((product) => {
-                const adminProduct =
-                  (product.id
-                    ? adminProductsById.get(product.id.trim())
-                    : undefined) ??
-                  (product.handle
-                    ? adminProductsByHandle.get(product.handle.trim())
-                    : undefined);
-                const mergedProduct: MedusaProduct =
-                  adminProduct?.metadata != null
-                    ? {
-                        ...product,
-                        metadata: adminProduct.metadata,
-                      }
-                    : product;
-
-                return mapMedusaProductToStorefrontProduct(
-                  mergedProduct,
-                  collection,
-                );
-              })
-              .filter((product): product is ShopProduct => product != null);
-
-            return { collection, products };
-          }),
-      )
-    ).filter(
-      (entry) =>
-        entry.products.length > 0 ||
-        Boolean(entry.collection.title?.trim()),
+    const collectionEntries = collections.filter(
+      (collection): collection is MedusaCollection & { id: string } =>
+        typeof collection.id === "string" && collection.id.trim().length > 0,
     );
+    const collectionsByKey = new Map(
+      collectionEntries
+        .map((collection) => {
+          const key = getCollectionMapKey(collection);
+          return key ? ([key, collection] as const) : null;
+        })
+        .filter(
+          (
+            entry,
+          ): entry is readonly [string, MedusaCollection & { id: string }] => entry != null,
+        ),
+    );
+    const storeProducts = await getAllStoreProducts(regionId);
+    const adminProducts = await getAllAdminProducts();
+    const adminProductsById = new Map(
+      adminProducts
+        .filter(
+          (product): product is MedusaProduct & { id: string } =>
+            typeof product.id === "string" &&
+            product.id.trim().length > 0,
+        )
+        .map((product) => [product.id.trim(), product]),
+    );
+    const adminProductsByHandle = new Map(
+      adminProducts
+        .filter(
+          (product): product is MedusaProduct & { handle: string } =>
+            typeof product.handle === "string" &&
+            product.handle.trim().length > 0,
+        )
+        .map((product) => [product.handle.trim(), product]),
+    );
+    const mappedByCollectionKey = new Map<string, ShopProduct[]>();
+
+    for (const storeProduct of storeProducts) {
+      const adminProduct =
+        (storeProduct.id
+          ? adminProductsById.get(storeProduct.id.trim())
+          : undefined) ??
+        (storeProduct.handle
+          ? adminProductsByHandle.get(storeProduct.handle.trim())
+          : undefined);
+      const mergedProduct: MedusaProduct =
+        adminProduct?.metadata != null
+          ? {
+              ...storeProduct,
+              metadata: adminProduct.metadata,
+            }
+          : storeProduct;
+      const collectionKey =
+        getCollectionMapKey(mergedProduct.collection) ??
+        (typeof mergedProduct.collection_id === "string" &&
+        mergedProduct.collection_id.trim().length > 0
+          ? `id:${mergedProduct.collection_id.trim()}`
+          : undefined);
+      const resolvedCollection =
+        (collectionKey ? collectionsByKey.get(collectionKey) : undefined) ??
+        mergedProduct.collection;
+
+      if (!resolvedCollection) {
+        continue;
+      }
+
+      const mappedProduct = mapMedusaProductToStorefrontProduct(
+        mergedProduct,
+        resolvedCollection,
+      );
+
+      if (!mappedProduct) {
+        continue;
+      }
+
+      const resolvedCollectionKey = getCollectionMapKey(resolvedCollection);
+      if (!resolvedCollectionKey) {
+        continue;
+      }
+
+      const existingProducts = mappedByCollectionKey.get(resolvedCollectionKey) ?? [];
+      existingProducts.push(mappedProduct);
+      mappedByCollectionKey.set(resolvedCollectionKey, existingProducts);
+    }
+
+    const fetchedCollections = collectionEntries
+      .map((collection) => ({
+        collection,
+        products:
+          mappedByCollectionKey.get(getCollectionMapKey(collection) ?? "") ?? [],
+      }))
+      .filter(
+        (entry) =>
+          entry.products.length > 0 ||
+          Boolean(entry.collection.title?.trim()),
+      );
 
     const uniqueProducts = new Map<string, ShopProduct>();
     for (const entry of fetchedCollections) {
@@ -1111,7 +1201,7 @@ const getMedusaMigratedCollections = cache(
 
     const products = [...uniqueProducts.values()];
 
-    return fetchedCollections
+    const result = fetchedCollections
       .map(({ collection }) => ({
         collection,
         products: products.filter((product) =>
@@ -1123,6 +1213,17 @@ const getMedusaMigratedCollections = cache(
           entry.products.length > 0 ||
           Boolean(entry.collection.title?.trim()),
       );
+    migratedCollectionsCache = {
+      value: result,
+      expiresAt: Date.now() + MIGRATED_COLLECTIONS_CACHE_TTL_MS,
+    };
+
+    return result;
+    })().finally(() => {
+      migratedCollectionsPromise = null;
+    });
+
+    return migratedCollectionsPromise;
   },
 );
 

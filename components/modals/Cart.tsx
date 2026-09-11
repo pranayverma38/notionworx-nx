@@ -7,7 +7,7 @@ import { useMemo, useState } from "react";
 import CartAddOnSummary from "@/components/common/CartAddOnSummary";
 import { useContextElement, type CartProduct } from "@/context/Context";
 import type { ProductId } from "@/context/store";
-import { products } from "@/data/products/products";
+import { useStorefrontCatalog } from "@/hooks/useStorefrontCatalog";
 import { formatPrice } from "@/utils/formatPrice";
 import {
   MiniCartToolButtons,
@@ -23,6 +23,7 @@ export default function Cart({
 }) {
   const { cartProducts, updateQuantity, totalPrice, removeFromCart } =
     useContextElement();
+  const { products } = useStorefrontCatalog();
   const [showRecommendations, setShowRecommendations] = useState(true);
   const [activeTool, setActiveTool] = useState<
     "note" | "shipping" | "coupon" | null

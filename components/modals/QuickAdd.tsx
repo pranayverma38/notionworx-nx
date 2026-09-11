@@ -6,7 +6,7 @@ import { useRouter } from "next/navigation";
 import { useMemo, useState } from "react";
 
 import { useContextElement } from "@/context/Context";
-import { products } from "@/data/products/products";
+import { useStorefrontCatalog } from "@/hooks/useStorefrontCatalog";
 import { formatPrice } from "@/utils/formatPrice";
 
 export default function QuickAdd({
@@ -15,31 +15,37 @@ export default function QuickAdd({
   registerModalElement?: (el: HTMLElement | null) => void;
 }) {
   const router = useRouter();
+  const { products } = useStorefrontCatalog();
   const { quickAddItem, addProductToCart, isAddedToCartProducts } =
     useContextElement();
 
   const product = useMemo(
     () =>
-      products.find((item) => item.id === Number(quickAddItem)) ?? products[0],
-    [quickAddItem],
+      quickAddItem == null
+        ? null
+        : products.find((item) => item.id === Number(quickAddItem)) ?? null,
+    [products, quickAddItem],
   );
 
   const [selectedColorIndex, setSelectedColorIndex] = useState(0);
   const [selectedSizeIndex, setSelectedSizeIndex] = useState(0);
   const [quantity, setQuantity] = useState(1);
 
-  const hasSizes = Boolean(product.sizes?.length);
-  const sizeOptions = product.sizes ?? [];
-  const selectedColor = product.colors?.[selectedColorIndex];
+  const hasSizes = Boolean(product?.sizes?.length);
+  const sizeOptions = product?.sizes ?? [];
+  const selectedColor = product?.colors?.[selectedColorIndex];
   const selectedSize = sizeOptions[selectedSizeIndex] ?? null;
   const previewImage =
     selectedColor?.img ??
-    product.img ??
-    product.images?.[0]?.src ??
+    product?.img ??
+    product?.images?.[0]?.src ??
     "/assets/images/product/product-1.jpg";
-  const requiresConfiguration = Boolean(product.addOnGroups?.length);
+  const requiresConfiguration = Boolean(product?.addOnGroups?.length);
 
   const handleAddToCart = () => {
+    if (!product) {
+      return;
+    }
     if (requiresConfiguration) {
       router.push(`/product-detail/${product.id}`);
       return;
@@ -50,6 +56,16 @@ export default function QuickAdd({
       selectedSize: selectedSize ?? undefined,
     });
   };
+
+  if (!product) {
+    return (
+      <div
+        ref={registerModalElement}
+        className="modal modalCentered fade modal-quickadd"
+        id="quickAdd"
+      />
+    );
+  }
 
   return (
     <div

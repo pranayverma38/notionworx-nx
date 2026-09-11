@@ -2,12 +2,10 @@
 
 import { useMemo, useState } from "react";
 
-import { products as localProducts, topPicsProducts } from "@/data/products/products";
 import type { ProductCardItem } from "@/types/productCard";
 import ProductCard from "../ui/ProductCard";
 import TfSwiper from "../ui/TfSwiper";
 
-/** Tab ids must match `filterTabIds` on `topPicsProducts` in data */
 const RELATED_TABS = [
   { id: "related", label: "Related Products" },
   { id: "recently", label: "Recently Viewed" },
@@ -17,17 +15,24 @@ const DEFAULT_TAB_ID = "related";
 
 export default function RelatedProducts({
   currentProduct,
-  catalogProducts = localProducts,
+  catalogProducts = [],
 }: {
   currentProduct?: ProductCardItem;
   catalogProducts?: ProductCardItem[];
 }) {
   const [activeTabId, setActiveTabId] = useState(DEFAULT_TAB_ID);
 
-  const fallbackVisible = useMemo(
-    () => topPicsProducts.filter((p) => p.filterTabIds?.includes(activeTabId)),
-    [activeTabId],
-  );
+  const fallbackVisible = useMemo(() => {
+    const baseProducts = currentProduct
+      ? catalogProducts.filter((product) => product.id !== currentProduct.id)
+      : catalogProducts;
+
+    if (activeTabId === "recently") {
+      return baseProducts.slice(4, 12);
+    }
+
+    return baseProducts.slice(0, 8);
+  }, [activeTabId, catalogProducts, currentProduct]);
 
   const visible = useMemo(() => {
     if (!currentProduct) {

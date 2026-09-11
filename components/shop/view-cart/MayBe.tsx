@@ -1,8 +1,12 @@
-import { products } from "@/data/products/products";
+"use client";
+
 import ProductCard from "@/components/ui/ProductCard";
 import TfSwiper from "@/components/ui/TfSwiper";
+import { useStorefrontCatalog } from "@/hooks/useStorefrontCatalog";
 
 function MayBe() {
+  const { products } = useStorefrontCatalog();
+
   return (
     <section className="flat-spacing">
       <div className="container">

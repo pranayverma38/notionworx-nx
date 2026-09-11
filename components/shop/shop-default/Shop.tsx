@@ -1,7 +1,7 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import { shopDefaultProducts } from "@/data/products/products";
+import { useStorefrontCatalog } from "@/hooks/useStorefrontCatalog";
 import { useShopState } from "./useShopState";
 import { SORT_OPTIONS } from "./ShopFilterBody";
 import { ShopMainColumn } from "./ShopMainColumn";
@@ -27,7 +27,7 @@ export default function Shop({
   itemPerPage,
   variant,
   isFullWidth = false,
-  products = shopDefaultProducts,
+  products,
 }: {
   defaultCategories?: string[];
   itemPerPage?: number;
@@ -36,6 +36,8 @@ export default function Shop({
   products?: ShopProduct[];
 }) {
   const variants = useMemo(() => normalizeShopVariants(variant), [variant]);
+  const { products: liveProducts } = useStorefrontCatalog();
+  const resolvedProducts = products ?? (liveProducts as ShopProduct[]);
 
   const [viewMode, setViewMode] = useState<"grid" | "list">("grid");
   const [gridCols, setGridCols] = useState<GridCols>(() =>
@@ -54,7 +56,7 @@ export default function Shop({
   } = useShopState({
     defaultCategories,
     itemPerPage,
-    products,
+    products: resolvedProducts,
   });
 
   const infiniteScroll = variants.includes("infinityScroll");
@@ -104,7 +106,7 @@ export default function Shop({
         state,
         dispatch,
         getFilterCount,
-        sourceProducts: products,
+        sourceProducts: resolvedProducts,
       },
       pagedVisibleProducts,
       totalPages,
@@ -129,7 +131,7 @@ export default function Shop({
       pagedVisibleProducts,
       totalPages,
       pageItems,
-      products,
+      resolvedProducts,
     ],
   );
 

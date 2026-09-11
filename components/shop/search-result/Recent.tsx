@@ -1,8 +1,11 @@
-import { products } from "@/data/products/products";
+"use client";
+
 import ProductCard from "@/components/ui/ProductCard";
 import TfSwiper from "@/components/ui/TfSwiper";
+import { useStorefrontCatalog } from "@/hooks/useStorefrontCatalog";
 
 function Recent({ query = "" }: { query?: string }) {
+  const { products } = useStorefrontCatalog();
   const normalizedQuery = query.trim().toLowerCase();
   const filteredProducts = normalizedQuery
     ? products.filter((product) => {

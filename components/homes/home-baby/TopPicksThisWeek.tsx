@@ -4,7 +4,7 @@ import { useMemo, useState } from "react";
 
 import TfSwiper from "@/components/ui/TfSwiper";
 import ProductCard from "@/components/ui/ProductCard";
-import { products } from "@/data/products/products";
+import { useStorefrontCatalog } from "@/hooks/useStorefrontCatalog";
 import type { ProductCardItem } from "@/types/productCard";
 
 const TOP_PICK_COLLECTION_TABS = [
@@ -37,6 +37,7 @@ function belongsToCollection(
 
 function TopPicksThisWeek() {
   const [activeTabId, setActiveTabId] = useState<string>(DEFAULT_TAB_ID);
+  const { products } = useStorefrontCatalog();
 
   const visible = useMemo(
     () => {

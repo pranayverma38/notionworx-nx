@@ -2,9 +2,12 @@ import Breadcrumb from "@/components/shop-details/Breadcrumb";
 import ProductDescription from "@/components/shop-details/ProductDescription";
 import RelatedProducts from "@/components/shop-details/RelatedProducts";
 import ProductSection from "@/components/shop-details/ProductSection";
-import { products } from "@/data/products/products";
 import type { Metadata } from "next";
-import { buildShopProductMetadata } from "@/lib/metadata/shop-product";
+import { notFound } from "next/navigation";
+import {
+  buildShopProductMetadata,
+  getShopProductPageData,
+} from "@/lib/metadata/shop-product";
 import type { ProductSingleImage } from "@/types/productCard";
 
 /**
@@ -55,7 +58,7 @@ export async function generateMetadata({
   params: Promise<{ id: string }>;
 }): Promise<Metadata> {
   const { id } = await params;
-  return buildShopProductMetadata(id, "Product stacked");
+  return await buildShopProductMetadata(id, "Product stacked");
 }
 
 export default async function page({
@@ -64,24 +67,29 @@ export default async function page({
   params: Promise<{ id: string }>;
 }) {
   const { id } = await params;
-  const base = products.find((p) => p.id === Number(id)) || products[0];
-  const product = {
-    ...base,
+  const { product, catalogProducts } = await getShopProductPageData(id);
+
+  if (!product) {
+    notFound();
+  }
+
+  const pageProduct = {
+    ...product,
     img: productStackedImages[0].src,
   };
 
   return (
     <>
-      <Breadcrumb product={product} />
+      <Breadcrumb product={pageProduct} catalogProducts={catalogProducts} />
       <ProductSection
-        product={product}
+        product={pageProduct}
         mediaLayout="stacked"
         extraImages={productStackedImages}
         initialColor="green"
         initialSize="L"
       />
-<ProductDescription product={product} />
-      <RelatedProducts />
+<ProductDescription product={pageProduct} />
+      <RelatedProducts currentProduct={pageProduct} catalogProducts={catalogProducts} />
     </>
   );
 }

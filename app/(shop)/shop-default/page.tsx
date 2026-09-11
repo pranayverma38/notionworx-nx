@@ -1,6 +1,5 @@
-import Shop from "@/components/shop/shop-default/Shop";
 import PageTitleHeader from "@/components/ui/PageTitleHeader";
-import { shopDefaultProducts } from "@/data/products/products";
+import ShopDefaultClient from "@/components/shop/shop-default/ShopDefaultClient";
 import {
   SHOP_LISTING_DESCRIPTION,
   shopRouteMetadata,
@@ -30,10 +29,9 @@ export default async function page({
           </>
         }
       />
-      <Shop
+      <ShopDefaultClient
         defaultCategories={activeCategory ? [activeCategory] : []}
         itemPerPage={30}
-        products={shopDefaultProducts}
       />
       {/* /Page Title */}
     </>

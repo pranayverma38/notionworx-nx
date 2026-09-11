@@ -11,27 +11,29 @@ import {
   getInitialVariantSelectionValue,
   resolveConfiguredBasePrice,
 } from "@/lib/product-variants";
-import { products, stickyBarProduct } from "@/data/products/products";
 import { useContextElement } from "@/context/Context";
+import { useStorefrontCatalog } from "@/hooks/useStorefrontCatalog";
 
 export default function StickyProduct() {
   const params = useParams();
+  const { products } = useStorefrontCatalog();
   const idParam = params?.id;
   const rawId = Array.isArray(idParam) ? idParam[0] : idParam;
   const product = useMemo(() => {
     const parsed = Number(rawId);
     if (!Number.isFinite(parsed)) {
-      return stickyBarProduct;
+      return products[0] ?? null;
     }
 
-    return products.find((item) => item.id === parsed) ?? stickyBarProduct;
-  }, [rawId]);
+    return products.find((item) => item.id === parsed) ?? products[0] ?? null;
+  }, [products, rawId]);
   const [isVisible, setIsVisible] = useState(false);
   const [quantity, setQuantity] = useState(1);
-  const selectableSizes =
-    product.sizeVariants?.map((variant) => variant.value) ?? product.sizes ?? [];
+  const selectableSizes = product
+    ? product.sizeVariants?.map((variant) => variant.value) ?? product.sizes ?? []
+    : [];
   const [selectedSize, setSelectedSize] = useState(
-    getInitialVariantSelectionValue(product.sizeVariants) ??
+    getInitialVariantSelectionValue(product?.sizeVariants) ??
       selectableSizes[0] ??
       "",
   );
@@ -39,23 +41,25 @@ export default function StickyProduct() {
   const resolvedSelectedSize =
     selectableSizes.includes(selectedSize) && selectedSize
       ? selectedSize
-      : (getInitialVariantSelectionValue(product.sizeVariants) ??
+      : (getInitialVariantSelectionValue(product?.sizeVariants) ??
           selectableSizes[0] ??
           "");
-  const variantLabel = product.variantLabel?.trim() || "Size";
-  const hasAddOnGroups = Boolean(product.addOnGroups?.length);
+  const variantLabel = product?.variantLabel?.trim() || "Size";
+  const hasAddOnGroups = Boolean(product?.addOnGroups?.length);
   const unitPrice = resolveConfiguredBasePrice(
-    product.price,
-    product.sizeVariants,
+    product?.price ?? 0,
+    product?.sizeVariants,
     resolvedSelectedSize || undefined,
   );
 
   const { addProductToCart, cartProducts, updateQuantity } =
     useContextElement();
-  const configurationKey = buildProductConfigurationKey({
-    productId: getProductConfigurationIdentity(product),
-    selectedSize: resolvedSelectedSize || undefined,
-  });
+  const configurationKey = product
+    ? buildProductConfigurationKey({
+        productId: getProductConfigurationIdentity(product),
+        selectedSize: resolvedSelectedSize || undefined,
+      })
+    : "";
   const isInCart = cartProducts.some(
     (item) => item.configurationKey === configurationKey,
   );
@@ -109,6 +113,10 @@ export default function StickyProduct() {
   }, [isVisible]);
 
   const handleAddToCart = () => {
+    if (!product) {
+      return;
+    }
+
     if (hasAddOnGroups) {
       const addOnSection = document.getElementById("product-addons-form");
       const header = document.querySelector("header.tf-header");
@@ -140,6 +148,10 @@ export default function StickyProduct() {
       });
     }
   };
+
+  if (!product) {
+    return null;
+  }
 
   return (
     <div

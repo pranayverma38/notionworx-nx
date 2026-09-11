@@ -3,7 +3,6 @@
 import { create } from "zustand";
 import { persist, type StorageValue } from "zustand/middleware";
 
-import { products } from "@/data/products/products";
 import {
   buildProductConfigurationKey,
   filterValidProductAddOnSelections,
@@ -34,15 +33,15 @@ export type ProductId = number | string;
 interface StoreState {
   cartProducts: CartProduct[];
   compareItem: Product[];
-  quickViewItem: Product;
-  quickAddItem: ProductId;
+  quickViewItem: Product | null;
+  quickAddItem: ProductId | null;
   totalPrice: number;
   activeCartProduct: CartProduct | null;
   setCartProducts: (
     value: CartProduct[] | ((prev: CartProduct[]) => CartProduct[]),
   ) => void;
-  setQuickViewItem: (item: Product) => void;
-  setQuickAddItem: (id: ProductId) => void;
+  setQuickViewItem: (item: Product | null) => void;
+  setQuickAddItem: (id: ProductId | null) => void;
   setCompareItem: (value: Product[] | ((prev: Product[]) => Product[])) => void;
   setActiveCartProduct: (item: CartProduct | null) => void;
   isAddedToCartProducts: (id: ProductId) => boolean;
@@ -69,8 +68,8 @@ export const useStore = create<StoreState>()(
     (set, get) => ({
       cartProducts: [],
       compareItem: [],
-      quickViewItem: products[0],
-      quickAddItem: 1,
+      quickViewItem: null,
+      quickAddItem: null,
       totalPrice: 0,
       activeCartProduct: null,
 

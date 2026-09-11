@@ -1,16 +1,17 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
-import { products } from "@/data/products/products";
 import { categoriesCollection } from "@/data/categories";
 import ProductCard from "@/components/ui/ProductCard";
 import TfSwiper from "@/components/ui/TfSwiper";
+import { useStorefrontCatalog } from "@/hooks/useStorefrontCatalog";
 
 export default function Search({
   registerModalElement,
 }: {
   registerModalElement?: (el: HTMLElement | null) => void;
 }) {
+  const { products } = useStorefrontCatalog();
   const [query, setQuery] = useState("");
   const [debouncedQuery, setDebouncedQuery] = useState("");
 

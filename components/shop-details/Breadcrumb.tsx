@@ -3,7 +3,6 @@
 import { useMemo } from "react";
 import Link from "next/link";
 import { useParams, usePathname } from "next/navigation";
-import { products as localProducts } from "@/data/products/products";
 import type { ProductCardItem } from "@/types/productCard";
 
 function useAdjacentProductIds(
@@ -56,7 +55,7 @@ function NavArrow({
 
 export default function Breadcrumb({
   product,
-  catalogProducts = localProducts,
+  catalogProducts = [],
 }: {
   product: ProductCardItem;
   catalogProducts?: ProductCardItem[];
