@@ -23,6 +23,19 @@
       "inventory_data_path": "/inventory/notionworx/collections/flags.json"
     }
   },
+  "productCategory": {
+    "name": "FLAGS",
+    "description": "",
+    "handle": "flags",
+    "is_active": true,
+    "is_internal": false,
+    "metadata": {
+      "source": "notionworx-inventory",
+      "source_handle": "flags",
+      "source_title": "FLAGS",
+      "inventory_data_path": "/inventory/notionworx/collections/flags.json"
+    }
+  },
   "productsCount": 20,
   "products": [
     {
@@ -141,23 +154,25 @@
         ],
         "source_variant_label": null,
         "source_sizes": [
-          "Default option"
+          "Default Title"
         ],
         "source_size_variants": [
           {
-            "value": "Default option",
-            "price": 40.0,
+            "value": "Default Title",
+            "price": 40,
             "active": true
           }
         ],
         "source_filter_category": [
           "FLAGS"
         ],
-        "source_filter_sizes": [],
-        "source_reviews_text": "1 option",
-        "source_badge_label": "Flags",
+        "source_filter_sizes": [
+          "Default Title"
+        ],
+        "source_reviews_text": null,
+        "source_badge_label": "FLAGS",
         "source_badge_subtext": "1 product image available",
-        "source_description": "Product Descrption Materials - Carry Case: 600 Denier Polyester Features Fiber glass poles are strong and flexible\nPolished aluminum collar pole segment ends and ergonomic\nDesigned for use with universal flags (flags sold separately)\nFlag attaches to a fixed hook on the pole usi…",
+        "source_description": "setup instruction\n\nProduct Descrption\n\nMaterials\n\n- Carry Case: 600 Denier Polyester\n\nFeatures\n\nFiber glass poles are strong and flexible\nPolished aluminum collar pole segment ends and ergonomic\nDesigned for use with universal flags (flags sold separately)\nFlag attaches to a fixed hook on the pole using the included bungee tie kit\nCarbon composite poles are strong and flexible\nUniform carbon composite overlay pole construction with high-gloss black paint finish\nPolished aluminum collar pole segment ends and ergonomic, rubber-reinforced base grip",
         "source_card_variant": "",
         "source_add_on_group_keys": [],
         "local_image_paths": [
@@ -290,23 +305,25 @@
         ],
         "source_variant_label": null,
         "source_sizes": [
-          "Default option"
+          "Default Title"
         ],
         "source_size_variants": [
           {
-            "value": "Default option",
-            "price": 45.0,
+            "value": "Default Title",
+            "price": 45,
             "active": true
           }
         ],
         "source_filter_category": [
           "FLAGS"
         ],
-        "source_filter_sizes": [],
-        "source_reviews_text": "1 option",
-        "source_badge_label": "Flags",
+        "source_filter_sizes": [
+          "Default Title"
+        ],
+        "source_reviews_text": null,
+        "source_badge_label": "FLAGS",
         "source_badge_subtext": "1 product image available",
-        "source_description": "Product Descrption Materials - Carry Case: 600 Denier Polyester Features Fiber glass poles are strong and flexible\nPolished aluminum collar pole segment ends and ergonomic\nDesigned for use with universal flags (flags sold separately)\nFlag attaches to a fixed hook on the pole usi…",
+        "source_description": "setup instruction\n\nProduct Descrption\n\nMaterials\n\n- Carry Case: 600 Denier Polyester\n\nFeatures\n\nFiber glass poles are strong and flexible\nPolished aluminum collar pole segment ends and ergonomic\nDesigned for use with universal flags (flags sold separately)\nFlag attaches to a fixed hook on the pole using the included bungee tie kit\nCarbon composite poles are strong and flexible\nUniform carbon composite overlay pole construction with high-gloss black paint finish\nPolished aluminum collar pole segment ends and ergonomic, rubber-reinforced base grip",
         "source_card_variant": "",
         "source_add_on_group_keys": [],
         "local_image_paths": [
@@ -439,23 +456,25 @@
         ],
         "source_variant_label": null,
         "source_sizes": [
-          "Default option"
+          "Default Title"
         ],
         "source_size_variants": [
           {
-            "value": "Default option",
-            "price": 45.0,
+            "value": "Default Title",
+            "price": 45,
             "active": true
           }
         ],
         "source_filter_category": [
           "FLAGS"
         ],
-        "source_filter_sizes": [],
-        "source_reviews_text": "1 option",
-        "source_badge_label": "Flags",
+        "source_filter_sizes": [
+          "Default Title"
+        ],
+        "source_reviews_text": null,
+        "source_badge_label": "FLAGS",
         "source_badge_subtext": "1 product image available",
-        "source_description": "Product Descrption Materials - Carry Case: 600 Denier Polyester Package Include: 1pc basic pole 3 sections 2pc middle extension section 1pc carry bag Features Fiber glass poles are strong and flexible\nPolished aluminum collar pole segment ends and ergonomic\nDesigned for use with…",
+        "source_description": "setup instruction\n\nProduct Descrption\n\nMaterials\n\n- Carry Case: 600 Denier Polyester\n\nPackage Include:\n\n1pc basic pole 3 sections\n\n2pc middle extension section\n\n1pc carry bag\n\nFeatures\n\nFiber glass poles are strong and flexible\nPolished aluminum collar pole segment ends and ergonomic\nDesigned for use with universal flags (flags sold separately)\nFlag attaches to a fixed hook on the pole using the included bungee tie kit\nCarbon composite poles are strong and flexible\nUniform carbon composite overlay pole construction with high-gloss black paint finish\nPolished aluminum collar pole segment ends and ergonomic, rubber-reinforced base grip",
         "source_card_variant": "",
         "source_add_on_group_keys": [],
         "local_image_paths": [
@@ -588,23 +607,25 @@
         ],
         "source_variant_label": null,
         "source_sizes": [
-          "Default option"
+          "Default Title"
         ],
         "source_size_variants": [
           {
-            "value": "Default option",
-            "price": 40.0,
+            "value": "Default Title",
+            "price": 40,
             "active": true
           }
         ],
         "source_filter_category": [
           "FLAGS"
         ],
-        "source_filter_sizes": [],
-        "source_reviews_text": "1 option",
-        "source_badge_label": "Flags",
+        "source_filter_sizes": [
+          "Default Title"
+        ],
+        "source_reviews_text": null,
+        "source_badge_label": "FLAGS",
         "source_badge_subtext": "1 product image available",
-        "source_description": "Product Descrption Materials - Carry Case: 600 Denier Polyester Package Include: 1pc basic pole 3 sections 1pc middle extension section 1pc carry bag Features Fiber glass poles are strong and flexible\nPolished aluminum collar pole segment ends and ergonomic\nDesigned for use with…",
+        "source_description": "setup instruction\n\nProduct Descrption\n\nMaterials\n\n- Carry Case: 600 Denier Polyester\n\nPackage Include:\n\n1pc basic pole 3 sections\n\n1pc middle extension section\n\n1pc carry bag\n\nFeatures\n\nFiber glass poles are strong and flexible\nPolished aluminum collar pole segment ends and ergonomic\nDesigned for use with universal flags (flags sold separately)\nFlag attaches to a fixed hook on the pole using the included bungee tie kit\nCarbon composite poles are strong and flexible\nUniform carbon composite overlay pole construction with high-gloss black paint finish\nPolished aluminum collar pole segment ends and ergonomic, rubber-reinforced base grip",
         "source_card_variant": "",
         "source_add_on_group_keys": [],
         "local_image_paths": [
@@ -737,23 +758,25 @@
         ],
         "source_variant_label": null,
         "source_sizes": [
-          "Default option"
+          "Default Title"
         ],
         "source_size_variants": [
           {
-            "value": "Default option",
-            "price": 37.0,
+            "value": "Default Title",
+            "price": 37,
             "active": true
           }
         ],
         "source_filter_category": [
           "FLAGS"
         ],
-        "source_filter_sizes": [],
-        "source_reviews_text": "1 option",
-        "source_badge_label": "Flags",
+        "source_filter_sizes": [
+          "Default Title"
+        ],
+        "source_reviews_text": null,
+        "source_badge_label": "FLAGS",
         "source_badge_subtext": "1 product image available",
-        "source_description": "Product Descrption Materials - Carry Case: 600 Denier Polyester Features Fiber glass poles are strong and flexible\nPolished aluminum collar pole segment ends and ergonomic\nDesigned for use with universal flags (flags sold separately)\nFlag attaches to a fixed hook on the pole usi…",
+        "source_description": "setup instruction\n\nProduct Descrption\n\nMaterials\n\n- Carry Case: 600 Denier Polyester\n\nFeatures\n\nFiber glass poles are strong and flexible\nPolished aluminum collar pole segment ends and ergonomic\nDesigned for use with universal flags (flags sold separately)\nFlag attaches to a fixed hook on the pole using the included bungee tie kit\nCarbon composite poles are strong and flexible\nUniform carbon composite overlay pole construction with high-gloss black paint finish\nPolished aluminum collar pole segment ends and ergonomic, rubber-reinforced base grip",
         "source_card_variant": "",
         "source_add_on_group_keys": [],
         "local_image_paths": [
@@ -884,21 +907,23 @@
         ],
         "source_variant_label": null,
         "source_sizes": [
-          "Default option"
+          "Default Title"
         ],
         "source_size_variants": [
           {
-            "value": "Default option",
-            "price": 37.0,
+            "value": "Default Title",
+            "price": 37,
             "active": true
           }
         ],
         "source_filter_category": [
           "FLAGS"
         ],
-        "source_filter_sizes": [],
-        "source_reviews_text": "1 option",
-        "source_badge_label": "Flags",
+        "source_filter_sizes": [
+          "Default Title"
+        ],
+        "source_reviews_text": null,
+        "source_badge_label": "FLAGS",
         "source_badge_subtext": "1 product image available",
         "source_description": "",
         "source_card_variant": "",
@@ -1033,23 +1058,25 @@
         ],
         "source_variant_label": null,
         "source_sizes": [
-          "Default option"
+          "Default Title"
         ],
         "source_size_variants": [
           {
-            "value": "Default option",
-            "price": 57.0,
+            "value": "Default Title",
+            "price": 57,
             "active": true
           }
         ],
         "source_filter_category": [
           "FLAGS"
         ],
-        "source_filter_sizes": [],
-        "source_reviews_text": "1 option",
-        "source_badge_label": "Flags",
+        "source_filter_sizes": [
+          "Default Title"
+        ],
+        "source_reviews_text": null,
+        "source_badge_label": "FLAGS",
         "source_badge_subtext": "1 product image available",
-        "source_description": "Cross Base: - Each foot has a hole to accommodate ground spikes - Pole hardware and flag sold separately",
+        "source_description": "Cross Base:\n\n- Each foot has a hole to accommodate ground spikes\n\n- Pole hardware and flag sold separately",
         "source_card_variant": "",
         "source_add_on_group_keys": [],
         "local_image_paths": [
@@ -1293,8 +1320,7 @@
         "warranty_text": "Warranty\n\nWe stand behind the quality of our products. Our warranty covers any factory defects or damage that occurs during shipping. However, please note that we do not cover damage resulting from extreme weather conditions, misuse, or any circumstances beyond our control.",
         "source_options": [
           {
-            "name": "Size",
-            "position": 1,
+            "title": "Size",
             "values": [
               "2'x3'",
               "3'x5'",
@@ -1392,24 +1418,24 @@
         "source_size_variants": [
           {
             "value": "2'x3'",
-            "price": 120.0,
+            "price": 120,
             "active": true
           },
           {
             "value": "3'x5'",
-            "price": 180.0
+            "price": 180
           },
           {
             "value": "4'x6'",
-            "price": 200.0
+            "price": 200
           },
           {
             "value": "4'x8'",
-            "price": 220.0
+            "price": 220
           },
           {
             "value": "5'x10'",
-            "price": 280.0
+            "price": 280
           }
         ],
         "source_filter_category": [
@@ -1422,10 +1448,10 @@
           "4'x8'",
           "5'x10'"
         ],
-        "source_reviews_text": "5 options",
-        "source_badge_label": "Flags",
+        "source_reviews_text": null,
+        "source_badge_label": "FLAGS",
         "source_badge_subtext": "4 product images available",
-        "source_description": "Show your brand, message, or design with confidence using our Custom Pole Flags, designed for easy installation and long-lasting performance indoors or outdoors. These flags are double-sided by default and come complete with a pole and mounting bracket, making them a turnkey sol…",
+        "source_description": "Show your brand, message, or design with confidence using our Custom Pole Flags, designed for easy installation and long-lasting performance indoors or outdoors. These flags are double-sided by default and come complete with a pole and mounting bracket, making them a turnkey solution for storefronts, buildings, events, and promotions.\n\nDesigned to work with any standard flagpole, these flags are easy to hang and built with reinforced stitching for added durability, even in outdoor conditions.\n\n🔹 Key Features\n\n- 🚩 Double-Sided Printing Included – Your design is visible from both sides\n\n- 🧵 Durable Polyester Fabric – 4oz banner material for indoor & outdoor use\n\n- 🎨 Full-Color Dye Sublimation – Sharp, vibrant, fade-resistant printing\n\n- 🪝 Easy to Hang – Compatible with any standard flagpole\n\n- 🔩 Grommets Included – Two brass grommets on top left & bottom\n\n- 🧱 Reinforced Construction –\n\n- • Canvas heading with brass grommets\n\n- • Double-stitched top & bottom\n\n- • Quad-stitched fly end for extra strength\n\n- 📐 Custom Sizes Available – Call for quote (restrictions may apply)\n\n🔹 Imprint Method\n\n🖨️ Full-Color Dye Sublimation\n\n🔹 Materials\n\n- 🧵 Flag: 4oz Polyester / Super Poly Knit Fabric\n\n- 🔩 Grommets: Brass\n\n- 🪡 Finish: Canvas heading with reinforced stitching\n\n🔹 What’s Included\n\n- 📦 1× Double-Sided Custom Pole Flag\n\n- 🪵 1× Pole\n\n- 🧱 1× Mounting Bracket\n\n🔹 Primary Usage\n\nStorefronts, buildings, outdoor promotions, events, schools, businesses, branding displays, and advertising.",
         "source_card_variant": "",
         "source_add_on_group_keys": [],
         "local_image_paths": [
@@ -1564,23 +1590,25 @@
         ],
         "source_variant_label": null,
         "source_sizes": [
-          "Default option"
+          "Default Title"
         ],
         "source_size_variants": [
           {
-            "value": "Default option",
-            "price": 85.0,
+            "value": "Default Title",
+            "price": 85,
             "active": true
           }
         ],
         "source_filter_category": [
           "FLAGS"
         ],
-        "source_filter_sizes": [],
-        "source_reviews_text": "1 option",
-        "source_badge_label": "Flags",
+        "source_filter_sizes": [
+          "Default Title"
+        ],
+        "source_reviews_text": null,
+        "source_badge_label": "FLAGS",
         "source_badge_subtext": "2 product images available",
-        "source_description": "The Flag Pole and Bracket Kit is perfect for those wishing to display their Custom Pole Flag. Buy the pole or the bracket separately or as a set. The bracket has two positions for displaying the pole. The tangle-free pole has a top section that spins on ball bearings, this will…",
+        "source_description": "The Flag Pole and Bracket Kit is perfect for those wishing to display their Custom Pole Flag. Buy the pole or the bracket separately or as a set.\n\nThe bracket has two positions for displaying the pole.\n\nThe tangle-free pole has a top section that spins on ball bearings, this will increase the life of your flag. Also included are clips to secure the flag into place and a plastic ring for use with grommets. Recommended for 2x3 or 3x5 flags.\n\n- 2 Piece - 74.5 Aluminum Pole with Chrome Ball\n\n- Powder coated white flag bracket",
         "source_card_variant": "",
         "source_add_on_group_keys": [],
         "local_image_paths": [
@@ -1717,23 +1745,25 @@
         ],
         "source_variant_label": null,
         "source_sizes": [
-          "Default option"
+          "Default Title"
         ],
         "source_size_variants": [
           {
-            "value": "Default option",
-            "price": 35.0,
+            "value": "Default Title",
+            "price": 35,
             "active": true
           }
         ],
         "source_filter_category": [
           "FLAGS"
         ],
-        "source_filter_sizes": [],
-        "source_reviews_text": "1 option",
-        "source_badge_label": "Flags",
+        "source_filter_sizes": [
+          "Default Title"
+        ],
+        "source_reviews_text": null,
+        "source_badge_label": "FLAGS",
         "source_badge_subtext": "2 product images available",
-        "source_description": "This ground spike can be stuck into the ground to work as a base for sail sign hardware. - Ball bearings provide smooth, 360º rotation - Pole hardware and flag sold separately - Ground spike is constructed of chrome-plated steel with a nylon polymer bearing cover - Material: ste…",
+        "source_description": "This ground spike can be stuck into the ground to work as a base for sail sign hardware.\n\n- Ball bearings provide smooth, 360º rotation\n\n- Pole hardware and flag sold separately\n\n- Ground spike is constructed of chrome-plated steel with a nylon polymer bearing cover\n\n- Material: steel",
         "source_card_variant": "",
         "source_add_on_group_keys": [],
         "local_image_paths": [
@@ -1873,24 +1903,26 @@
         ],
         "source_variant_label": null,
         "source_sizes": [
-          "Default option"
+          "Default Title"
         ],
         "source_size_variants": [
           {
-            "value": "Default option",
-            "price": 280.0,
-            "compareAtPrice": 308.0,
+            "value": "Default Title",
+            "price": 280,
+            "compareAtPrice": 308,
             "active": true
           }
         ],
         "source_filter_category": [
           "FLAGS"
         ],
-        "source_filter_sizes": [],
-        "source_reviews_text": "1 option",
-        "source_badge_label": "Flags",
+        "source_filter_sizes": [
+          "Default Title"
+        ],
+        "source_reviews_text": null,
+        "source_badge_label": "FLAGS",
         "source_badge_subtext": "3 product images available",
-        "source_description": "Promote your brand with maximum visibility using our Pole Banner Set, designed for street poles, light posts, and outdoor installations. These double-sided banners deliver high-impact messaging from both directions, making them ideal for storefronts, downtown promotions, campuse…",
+        "source_description": "Promote your brand with maximum visibility using our Pole Banner Set, designed for street poles, light posts, and outdoor installations. These double-sided banners deliver high-impact messaging from both directions, making them ideal for storefronts, downtown promotions, campuses, events, and municipal branding.\n\nEach banner is printed front and back at high resolution (720 × 720 DPI) on durable 18 oz. blockout vinyl, ensuring vibrant graphics with zero show-through. The set includes all required hardware,\n\nBuilt for long-term outdoor use, the banners are waterproof, UV safe, and can include wind slits to extend lifespan in high-wind environments. Reinforced construction and quality materials ensure a clean, professional display that lasts.\n\n🔹 Key Features\n\n- 🏙️ Pole Banner Set – Designed for street poles and light posts\n\n- 📐 Banner Width – 24 inches wide\n\n- 🔁 Double-Sided Graphics – One banner printed front & back\n\n- 🎨 High-Resolution Printing – Digitally printed at 720 × 720 DPI\n\n- 💪 Heavy-Duty Hardware Included –\n\n- • 2 Fiberglass Arms\n\n- • 2 Mounting Brackets\n\n- • 4 Steel Bands\n\n- 🌦️ Outdoor-Ready – Waterproof & UV safe\n\n- 💨 Wind Slits Available – Optional for increased durability\n\n- 🔩 Brass Grommets – One on each corner for added strength\n\n- 🧵 Reinforced Construction –\n\n- • No hems\n\n- • Double-stitched pole pockets (top & bottom)\n\n- 📏 Pole Compatibility – Metal cable tie fits poles up to 12\" diameter\n\n- 🪢 Steel Bands Length – 40\" long\n\n🔹 Material Option\n\n🧱 Banner Material: 18 oz. Blockout Vinyl\n\n🔹 Imprint Method\n\n🖨️ High-Resolution Digital Printing (720 × 720 DPI)\n\n🔹 Artwork Setup Guidelines\n\nHow to set up your artwork for the Pole Banner Set:\n\n📐 Your submitted graphic must match the exact print dimensions ordered.\n🪜 There are 2-inch pole pockets at the top and bottom of the banner.\n⚠️ The seams from the hemmed pole pockets will be visible 2 inches from the top and bottom of the graphic—please keep important content clear of this area.\n\n🔹 What’s Included\n\n- 📦 1× Double-Sided Pole Banner (Front & Back Printed)\n\n- 🦾 2× Fiberglass Arms\n\n- 🧱 2× Mounting Brackets\n\n- 🪢 4× Steel Bands\n\n🔹 Primary Usage\n\nStreet poles, light posts, downtown banners, storefr",
         "source_card_variant": "",
         "source_add_on_group_keys": [],
         "local_image_paths": [
@@ -2287,8 +2319,7 @@
         "warranty_text": "Warranty\n\nWe stand behind the quality of our products. Our warranty covers any factory defects or damage that occurs during shipping. However, please note that we do not cover damage resulting from extreme weather conditions, misuse, or any circumstances beyond our control.",
         "source_options": [
           {
-            "name": "Size",
-            "position": 1,
+            "title": "Size",
             "values": [
               "9'",
               "12'",
@@ -2296,8 +2327,7 @@
             ]
           },
           {
-            "name": "Hardware",
-            "position": 2,
+            "title": "Hardware",
             "values": [
               "Cross Base w/ Water Bag",
               "Ground Stake",
@@ -2453,62 +2483,73 @@
         ],
         "source_variant_label": "Size",
         "source_sizes": [
-          "9'",
-          "12'",
-          "15'"
+          "9' / Cross Base w/ Water Bag",
+          "9' / Ground Stake",
+          "9' / Mounting Kit",
+          "12' / Cross Base w/ Water Bag",
+          "12' / Ground Stake",
+          "12' / Mounting Kit",
+          "15' / Cross Base w/ Water Bag",
+          "15' / Ground Stake",
+          "15' / Mounting Kit"
         ],
         "source_size_variants": [
           {
             "value": "9' / Cross Base w/ Water Bag",
-            "price": 140.0,
+            "price": 140,
             "active": true
           },
           {
             "value": "9' / Ground Stake",
-            "price": 140.0,
-            "active": true
+            "price": 140
           },
           {
             "value": "9' / Mounting Kit",
-            "price": 150.0
+            "price": 150
           },
           {
             "value": "12' / Cross Base w/ Water Bag",
-            "price": 150.0
+            "price": 150
           },
           {
             "value": "12' / Ground Stake",
-            "price": 150.0
+            "price": 150
           },
           {
             "value": "12' / Mounting Kit",
-            "price": 160.0
+            "price": 160
           },
           {
             "value": "15' / Cross Base w/ Water Bag",
-            "price": 160.0
+            "price": 160
           },
           {
             "value": "15' / Ground Stake",
-            "price": 160.0
+            "price": 160
           },
           {
             "value": "15' / Mounting Kit",
-            "price": 170.0
+            "price": 170
           }
         ],
         "source_filter_category": [
           "FLAGS"
         ],
         "source_filter_sizes": [
-          "9'",
-          "12'",
-          "15'"
+          "9' / Cross Base w/ Water Bag",
+          "9' / Ground Stake",
+          "9' / Mounting Kit",
+          "12' / Cross Base w/ Water Bag",
+          "12' / Ground Stake",
+          "12' / Mounting Kit",
+          "15' / Cross Base w/ Water Bag",
+          "15' / Ground Stake",
+          "15' / Mounting Kit"
         ],
-        "source_reviews_text": "9 options",
-        "source_badge_label": "Flags",
+        "source_reviews_text": null,
+        "source_badge_label": "FLAGS",
         "source_badge_subtext": "5 product images available",
-        "source_description": "Capture attention from every direction with our Premium Angled Flags, designed for high-impact branding at trade shows, outdoor events, storefronts, festivals, and canopy setups. The angled shape creates a bold visual flow that naturally attracts attention and increases brand vi…",
+        "source_description": "Capture attention from every direction with our Premium Angled Flags, designed for high-impact branding at trade shows, outdoor events, storefronts, festivals, and canopy setups. The angled shape creates a bold visual flow that naturally attracts attention and increases brand visibility.\n\nAvailable in 9ft, 12ft, and 15ft heights, all flags are double-sided by default, ensuring your message is seen from both sides. Your artwork is printed using high-resolution full-color dye sublimation on durable knitted polyester fabric for vibrant, long-lasting results.\n\nEach flag comes standard with a cross base and water bag, making it ideal for both indoor and outdoor use. For added versatility, you can upgrade to ground stakes or a mounting kit, allowing the flag to be securely mounted directly to a canopy tent.\n\nBuilt with strong yet flexible fiberglass poles, these flags are engineered to perform reliably in various environments while remaining lightweight and easy to transport.\n\n🔹 Key Features\n\n- 🚩 Angled Flag Design – Dynamic shape for maximum visibility\n\n- 🔁 Double-Sided Printing Included – Standard on all flags\n\n- 🎨 Full-Color Dye Sublimation – Sharp, fade-resistant printing\n\n- 💪 Fiberglass Poles – Lightweight, flexible, and durable\n\n- ⚓ Base Included – Cross base + water bag included by default\n\n- 🏕️ Multiple Mounting Options – Upgrade to ground stakes or canopy mounting kit\n\n- 🧳 Portable & Easy Setup – Fast assembly for events and promotions\n\n🔹 Imprint Method\n\n🖨️ Full-Color Dye Sublimation\n\n🔹 Materials\n\n- 🧵 Graphic / Flag: Knitted Polyester\n\n- 🦾 Hardware: 100% Epoxy Fiberglass\n\n- 🎒 Carry Case: 600 Denier Polyester\n\n🔹 Primary Usage\n\nTrade shows, outdoor events, canopy tents, vendor booths, storefront advertising, festivals, promotions, and brand activations.",
         "source_card_variant": "",
         "source_add_on_group_keys": [],
         "local_image_paths": [
@@ -2876,8 +2917,7 @@
         "warranty_text": "Warranty\n\nWe stand behind the quality of our products. Our warranty covers any factory defects or damage that occurs during shipping. However, please note that we do not cover damage resulting from extreme weather conditions, misuse, or any circumstances beyond our control.",
         "source_options": [
           {
-            "name": "Size",
-            "position": 1,
+            "title": "Size",
             "values": [
               "11'",
               "16'",
@@ -2885,8 +2925,7 @@
             ]
           },
           {
-            "name": "Hardware",
-            "position": 2,
+            "title": "Hardware",
             "values": [
               "Cross Base w/ Water Bag",
               "Ground Stakes",
@@ -3026,58 +3065,67 @@
         ],
         "source_variant_label": "Size",
         "source_sizes": [
-          "11'",
-          "16'",
-          "21'"
+          "11' / Cross Base w/ Water Bag",
+          "11' / Ground Stakes",
+          "11' / Mounting Kit",
+          "16' / Cross Base w/ Water Bag",
+          "16' / Ground Stakes",
+          "16' / Mounting Kit",
+          "21' / Cross Base w/ Water Bag",
+          "21' / Ground Stakes"
         ],
         "source_size_variants": [
           {
             "value": "11' / Cross Base w/ Water Bag",
-            "price": 150.0,
+            "price": 150,
             "active": true
           },
           {
             "value": "11' / Ground Stakes",
-            "price": 150.0,
-            "active": true
+            "price": 150
           },
           {
             "value": "11' / Mounting Kit",
-            "price": 160.0
+            "price": 160
           },
           {
             "value": "16' / Cross Base w/ Water Bag",
-            "price": 170.0
+            "price": 170
           },
           {
             "value": "16' / Ground Stakes",
-            "price": 170.0
+            "price": 170
           },
           {
             "value": "16' / Mounting Kit",
-            "price": 180.0
+            "price": 180
           },
           {
             "value": "21' / Cross Base w/ Water Bag",
-            "price": 200.0
+            "price": 200
           },
           {
             "value": "21' / Ground Stakes",
-            "price": 200.0
+            "price": 200
           }
         ],
         "source_filter_category": [
           "FLAGS"
         ],
         "source_filter_sizes": [
-          "11'",
-          "16'",
-          "21'"
+          "11' / Cross Base w/ Water Bag",
+          "11' / Ground Stakes",
+          "11' / Mounting Kit",
+          "16' / Cross Base w/ Water Bag",
+          "16' / Ground Stakes",
+          "16' / Mounting Kit",
+          "21' / Cross Base w/ Water Bag",
+          "21' / Ground Stakes"
         ],
-        "source_reviews_text": "8 options",
-        "source_badge_label": "Flags",
+        "source_reviews_text": null,
+        "source_badge_label": "FLAGS",
         "source_badge_subtext": "6 product images available",
-        "source_description": "Command attention from afar with our Premium Blade Flags, designed for maximum height, visibility, and brand impact at trade shows, outdoor events, storefronts, festivals, and large-scale promotions. The tall blade-style shape delivers a sleek, vertical presentation that stands…",
+        "source_description": "Command attention from afar with our Premium Blade Flags, designed for maximum height, visibility, and brand impact at trade shows, outdoor events, storefronts, festivals, and large-scale promotions. The tall blade-style shape delivers a sleek, vertical presentation that stands out even in crowded environments.\n\nEach flag comes standard with a cross base and water bag, making it suitable for indoor and outdoor use. For added versatility, you may upgrade to ground stakes or a canopy mounting kit, allowing the flag to be securely mounted directly to a canopy tent.\n\nConstructed with strong yet flexible fiberglass poles, these flags are lightweight, durable, and easy to assemble—perfect for vendors who need height, stability, and professional presentation.\n\n🔹 Key Features\n\n- 🚩 Blade Flag Design – Tall, vertical shape for long-distance visibility\n\n- 🔁 Double-Sided Printing Included – Standard on all flags\n\n- 🎨 Full-Color Dye Sublimation – Sharp, fade-resistant graphics\n\n- 💪 Fiberglass Poles – Lightweight, flexible, and durable\n\n- ⚓ Base Included – Cross base + water bag included\n\n- 🏕️ Multiple Mounting Options – Optional ground stakes or canopy mounting kit\n\n- 🧳 Portable & Easy Setup – Ideal for large events and promotions\n\n🔹 Imprint Method\n\n🖨️ Full-Color Dye Sublimation\n\n🔹 Materials\n\n- 🧵 Graphic / Flag: Knitted Polyester\n\n- 🦾 Hardware: 100% Epoxy Fiberglass\n\n- 🎒 Carry Case: 600 Denier Polyester\n\n🔹 Primary Usage\n\nTrade shows, outdoor events, vendor booths, canopy tents, storefront advertising, festivals, promotions, and brand activations.",
         "source_card_variant": "",
         "source_add_on_group_keys": [],
         "local_image_paths": [
@@ -3679,8 +3727,7 @@
         "warranty_text": "Warranty\n\nWe stand behind the quality of our products. Our warranty covers any factory defects or damage that occurs during shipping. However, please note that we do not cover damage resulting from extreme weather conditions, misuse, or any circumstances beyond our control.",
         "source_options": [
           {
-            "name": "Size",
-            "position": 1,
+            "title": "Size",
             "values": [
               "7'",
               "9'",
@@ -3690,8 +3737,7 @@
             ]
           },
           {
-            "name": "Hardware",
-            "position": 2,
+            "title": "Hardware",
             "values": [
               "Cross Base w/ Water Bag",
               "Ground Stakes",
@@ -3943,90 +3989,109 @@
         ],
         "source_variant_label": "Size",
         "source_sizes": [
-          "7'",
-          "9'",
-          "12'",
-          "14'",
-          "15'"
+          "7' / Cross Base w/ Water Bag",
+          "7' / Ground Stakes",
+          "7' / Mounting Kit",
+          "9' / Cross Base w/ Water Bag",
+          "9' / Ground Stakes",
+          "9' / Mounting Kit",
+          "12' / Cross Base w/ Water Bag",
+          "12' / Ground Stakes",
+          "12' / Mounting Kit",
+          "14' / Cross Base w/ Water Bag",
+          "14' / Ground Stakes",
+          "14' / Mounting Kit",
+          "15' / Cross Base w/ Water Bag",
+          "15' / Ground Stakes",
+          "15' / Mounting Kit"
         ],
         "source_size_variants": [
           {
             "value": "7' / Cross Base w/ Water Bag",
-            "price": 110.0,
+            "price": 110,
             "active": true
           },
           {
             "value": "7' / Ground Stakes",
-            "price": 110.0,
-            "active": true
+            "price": 110
           },
           {
             "value": "7' / Mounting Kit",
-            "price": 130.0
+            "price": 130
           },
           {
             "value": "9' / Cross Base w/ Water Bag",
-            "price": 140.0
+            "price": 140
           },
           {
             "value": "9' / Ground Stakes",
-            "price": 140.0
+            "price": 140
           },
           {
             "value": "9' / Mounting Kit",
-            "price": 150.0
+            "price": 150
           },
           {
             "value": "12' / Cross Base w/ Water Bag",
-            "price": 150.0
+            "price": 150
           },
           {
             "value": "12' / Ground Stakes",
-            "price": 150.0
+            "price": 150
           },
           {
             "value": "12' / Mounting Kit",
-            "price": 160.0
+            "price": 160
           },
           {
             "value": "14' / Cross Base w/ Water Bag",
-            "price": 155.0
+            "price": 155
           },
           {
             "value": "14' / Ground Stakes",
-            "price": 155.0
+            "price": 155
           },
           {
             "value": "14' / Mounting Kit",
-            "price": 165.0
+            "price": 165
           },
           {
             "value": "15' / Cross Base w/ Water Bag",
-            "price": 160.0
+            "price": 160
           },
           {
             "value": "15' / Ground Stakes",
-            "price": 160.0
+            "price": 160
           },
           {
             "value": "15' / Mounting Kit",
-            "price": 170.0
+            "price": 170
           }
         ],
         "source_filter_category": [
           "FLAGS"
         ],
         "source_filter_sizes": [
-          "7'",
-          "9'",
-          "12'",
-          "14'",
-          "15'"
+          "7' / Cross Base w/ Water Bag",
+          "7' / Ground Stakes",
+          "7' / Mounting Kit",
+          "9' / Cross Base w/ Water Bag",
+          "9' / Ground Stakes",
+          "9' / Mounting Kit",
+          "12' / Cross Base w/ Water Bag",
+          "12' / Ground Stakes",
+          "12' / Mounting Kit",
+          "14' / Cross Base w/ Water Bag",
+          "14' / Ground Stakes",
+          "14' / Mounting Kit",
+          "15' / Cross Base w/ Water Bag",
+          "15' / Ground Stakes",
+          "15' / Mounting Kit"
         ],
-        "source_reviews_text": "15 options",
-        "source_badge_label": "Flags",
+        "source_reviews_text": null,
+        "source_badge_label": "FLAGS",
         "source_badge_subtext": "5 product images available",
-        "source_description": "Premium Concave Feather Flags Make your brand stand out from every angle with our Premium Concave Feather Flags, designed for high visibility at outdoor events, trade shows, storefronts, and festivals. Featuring a sleek feather-style silhouette, these flags deliver strong visual…",
+        "source_description": "Premium Concave Feather Flags\n\nMake your brand stand out from every angle with our Premium Concave Feather Flags, designed for high visibility at outdoor events, trade shows, storefronts, and festivals. Featuring a sleek feather-style silhouette, these flags deliver strong visual impact and professional branding in both indoor and outdoor environments.\n\nAll flags are double-sided by default, ensuring maximum exposure, and are printed using full-color dye sublimation on premium poly knit fabric for vibrant, long-lasting graphics.\n\nKey Features\n\n🎏 Concave Feather Shape: Eye-catching feather-style design that moves naturally in the wind.\n🎨 Double-Sided Printing Included: Graphics are visible from both sides at no extra cost.\n🖨️ Full-Color Dye Sublimation: Artwork printed on white super poly knit fabric for rich, fade-resistant color.\n🧵 Reinforced Edge Construction: Fiberglass pole pockets create a clean black outline along the flag edge.\n💪 Flexible Fiberglass Poles: Strong, durable, and wind-resistant construction.\n⚙️ Ergonomic Aluminum Collar: Polished aluminum pole segments for smooth assembly and stability.\n🪨 Cross Base + Water Bag Included: Ideal for hard, flat surfaces both indoors and outdoors.\n🔩 Multiple Mounting Options: Upgrade to ground stakes or a canopy mounting kit to attach flags directly to a canopy tent.\n🌬️ Wind Speed Rating: Designed to perform in winds up to 18–23 mph.\n\nMaterials\n\n- 🎒 Carry Case: 600 Denier Polyester\n\n- 🧵 Flag Graphic: 110g Knitted Polyester\n\n- 🔩 Hardware: 100% Epoxy Fiberglass\n\nPrimary Usage\n\nOutdoor advertising, trade shows, festivals, storefronts, farmers markets, brand activations, sports events, and canopy tent setups.",
         "source_card_variant": "",
         "source_add_on_group_keys": [],
         "local_image_paths": [
@@ -4425,8 +4490,7 @@
         "warranty_text": "Warranty\n\nWe stand behind the quality of our products. Our warranty covers any factory defects or damage that occurs during shipping. However, please note that we do not cover damage resulting from extreme weather conditions, misuse, or any circumstances beyond our control.",
         "source_options": [
           {
-            "name": "Size",
-            "position": 1,
+            "title": "Size",
             "values": [
               "9'",
               "12'",
@@ -4434,8 +4498,7 @@
             ]
           },
           {
-            "name": "Hardware",
-            "position": 2,
+            "title": "Hardware",
             "values": [
               "Cross Base w/ Water Bag",
               "Ground Stake",
@@ -4591,62 +4654,73 @@
         ],
         "source_variant_label": "Size",
         "source_sizes": [
-          "9'",
-          "12'",
-          "15'"
+          "9' / Cross Base w/ Water Bag",
+          "9' / Ground Stake",
+          "9' / Mounting Kit",
+          "12' / Cross Base w/ Water Bag",
+          "12' / Ground Stake",
+          "12' / Mounting Kit",
+          "15' / Cross Base w/ Water Bag",
+          "15' / Ground Stake",
+          "15' / Mounting Kit"
         ],
         "source_size_variants": [
           {
             "value": "9' / Cross Base w/ Water Bag",
-            "price": 140.0,
+            "price": 140,
             "active": true
           },
           {
             "value": "9' / Ground Stake",
-            "price": 140.0,
-            "active": true
+            "price": 140
           },
           {
             "value": "9' / Mounting Kit",
-            "price": 150.0
+            "price": 150
           },
           {
             "value": "12' / Cross Base w/ Water Bag",
-            "price": 150.0
+            "price": 150
           },
           {
             "value": "12' / Ground Stake",
-            "price": 150.0
+            "price": 150
           },
           {
             "value": "12' / Mounting Kit",
-            "price": 160.0
+            "price": 160
           },
           {
             "value": "15' / Cross Base w/ Water Bag",
-            "price": 160.0
+            "price": 160
           },
           {
             "value": "15' / Ground Stake",
-            "price": 160.0
+            "price": 160
           },
           {
             "value": "15' / Mounting Kit",
-            "price": 170.0
+            "price": 170
           }
         ],
         "source_filter_category": [
           "FLAGS"
         ],
         "source_filter_sizes": [
-          "9'",
-          "12'",
-          "15'"
+          "9' / Cross Base w/ Water Bag",
+          "9' / Ground Stake",
+          "9' / Mounting Kit",
+          "12' / Cross Base w/ Water Bag",
+          "12' / Ground Stake",
+          "12' / Mounting Kit",
+          "15' / Cross Base w/ Water Bag",
+          "15' / Ground Stake",
+          "15' / Mounting Kit"
         ],
-        "source_reviews_text": "9 options",
-        "source_badge_label": "Flags",
+        "source_reviews_text": null,
+        "source_badge_label": "FLAGS",
         "source_badge_subtext": "5 product images available",
-        "source_description": "Stand out from the crowd with our Premium Convex Feather Flags, designed to deliver maximum visibility and smooth visual flow at trade shows, outdoor events, storefronts, festivals, and vendor booths. The convex curved shape creates a bold, eye-catching presentation that natural…",
+        "source_description": "Stand out from the crowd with our Premium Convex Feather Flags, designed to deliver maximum visibility and smooth visual flow at trade shows, outdoor events, storefronts, festivals, and vendor booths. The convex curved shape creates a bold, eye-catching presentation that naturally draws attention from a distance.\n\nEach flag includes a cross base and water bag as standard, making it perfect for indoor and outdoor use. For added flexibility, you may upgrade to ground stakes or a canopy mounting kit, allowing the flag to be securely mounted directly to a canopy tent.\n\nBuilt with strong yet flexible fiberglass poles, these flags are engineered to withstand regular use while remaining lightweight and easy to transport.\n\n🔹 Key Features\n\n- 🚩 Convex Feather Shape – Smooth curved design for high visual impact\n\n- 🔁 Double-Sided Printing Included – Standard on all flags\n\n- 🎨 Full-Color Dye Sublimation – Sharp, fade-resistant graphics\n\n- 💪 Fiberglass Poles – Durable, flexible, and lightweight\n\n- ⚓ Base Included – Cross base + water bag included\n\n- 🏕️ Multiple Mounting Options – Optional ground stakes or canopy mounting kit\n\n- 🧳 Portable & Easy Setup – Ideal for events, promotions, and displays\n\n🔹 Imprint Method\n\n🖨️ Full-Color Dye Sublimation\n\n🔹 Materials\n\n- 🧵 Graphic / Flag: Knitted Polyester\n\n- 🦾 Hardware: 100% Epoxy Fiberglass\n\n- 🎒 Carry Case: 600 Denier Polyester\n\n🔹 Primary Usage\n\nTrade shows, outdoor events, vendor booths, canopy tents, storefronts, festivals, promotions, and brand activations.",
         "source_card_variant": "",
         "source_add_on_group_keys": [],
         "local_image_paths": [
@@ -5042,8 +5116,7 @@
         "warranty_text": "Warranty\n\nWe stand behind the quality of our products. Our warranty covers any factory defects or damage that occurs during shipping. However, please note that we do not cover damage resulting from extreme weather conditions, misuse, or any circumstances beyond our control.",
         "source_options": [
           {
-            "name": "Size",
-            "position": 1,
+            "title": "Size",
             "values": [
               "6.5'",
               "10'",
@@ -5051,8 +5124,7 @@
             ]
           },
           {
-            "name": "Hardware",
-            "position": 2,
+            "title": "Hardware",
             "values": [
               "Cross Base w/ Water Bag",
               "Ground Stakes",
@@ -5208,62 +5280,73 @@
         ],
         "source_variant_label": "Size",
         "source_sizes": [
-          "6.5'",
-          "10'",
-          "14.5'"
+          "6.5' / Cross Base w/ Water Bag",
+          "6.5' / Ground Stakes",
+          "6.5' / Mounting Kit",
+          "10' / Cross Base w/ Water Bag",
+          "10' / Ground Stakes",
+          "10' / Mounting Kit",
+          "14.5' / Cross Base w/ Water Bag",
+          "14.5' / Ground Stakes",
+          "14.5' / Mounting Kit"
         ],
         "source_size_variants": [
           {
             "value": "6.5' / Cross Base w/ Water Bag",
-            "price": 140.0,
+            "price": 140,
             "active": true
           },
           {
             "value": "6.5' / Ground Stakes",
-            "price": 140.0,
-            "active": true
+            "price": 140
           },
           {
             "value": "6.5' / Mounting Kit",
-            "price": 150.0
+            "price": 150
           },
           {
             "value": "10' / Cross Base w/ Water Bag",
-            "price": 150.0
+            "price": 150
           },
           {
             "value": "10' / Ground Stakes",
-            "price": 150.0
+            "price": 150
           },
           {
             "value": "10' / Mounting Kit",
-            "price": 160.0
+            "price": 160
           },
           {
             "value": "14.5' / Cross Base w/ Water Bag",
-            "price": 160.0
+            "price": 160
           },
           {
             "value": "14.5' / Ground Stakes",
-            "price": 160.0
+            "price": 160
           },
           {
             "value": "14.5' / Mounting Kit",
-            "price": 170.0
+            "price": 170
           }
         ],
         "source_filter_category": [
           "FLAGS"
         ],
         "source_filter_sizes": [
-          "6.5'",
-          "10'",
-          "14.5'"
+          "6.5' / Cross Base w/ Water Bag",
+          "6.5' / Ground Stakes",
+          "6.5' / Mounting Kit",
+          "10' / Cross Base w/ Water Bag",
+          "10' / Ground Stakes",
+          "10' / Mounting Kit",
+          "14.5' / Cross Base w/ Water Bag",
+          "14.5' / Ground Stakes",
+          "14.5' / Mounting Kit"
         ],
-        "source_reviews_text": "9 options",
-        "source_badge_label": "Flags",
+        "source_reviews_text": null,
+        "source_badge_label": "FLAGS",
         "source_badge_subtext": "6 product images available",
-        "source_description": "Make a strong visual impact with our Premium Rectangle Flags, designed for maximum branding space and clear messaging at trade shows, outdoor events, storefronts, festivals, and vendor booths. The rectangular shape provides a clean, bold layout that keeps your logo and message h…",
+        "source_description": "Make a strong visual impact with our Premium Rectangle Flags, designed for maximum branding space and clear messaging at trade shows, outdoor events, storefronts, festivals, and vendor booths. The rectangular shape provides a clean, bold layout that keeps your logo and message highly readable from a distance.\n\nEach flag comes standard with a cross base and water bag, making it suitable for both indoor and outdoor environments. For additional flexibility, you may upgrade to ground stakes or a canopy mounting kit, allowing the flag to be securely mounted directly to a canopy tent.\n\nConstructed with strong yet flexible fiberglass poles, these flags are lightweight, durable, and easy to assemble—ideal for vendors who need reliable, professional signage.\n\n🔹 Key Features\n\n- 🚩 Rectangle Flag Design – Large print area for bold, clear branding\n\n- 🔁 Double-Sided Printing Included – Standard on all flags\n\n- 🎨 Full-Color Dye Sublimation – Sharp, fade-resistant graphics\n\n- 💪 Fiberglass Poles – Lightweight, flexible, and durable\n\n- ⚓ Base Included – Cross base + water bag included\n\n- 🏕️ Multiple Mounting Options – Optional ground stakes or canopy mounting kit\n\n- 🧳 Portable & Easy Setup – Perfect for events and promotions\n\n🔹 Imprint Method\n\n🖨️ Full-Color Dye Sublimation\n\n🔹 Materials\n\n- 🧵 Graphic / Flag: Knitted Polyester\n\n- 🦾 Hardware: 100% Epoxy Fiberglass\n\n- 🎒 Carry Case: 600 Denier Polyester\n\n🔹 Primary Usage\n\nTrade shows, outdoor events, vendor booths, canopy tents, storefront advertising, festivals, promotions, and brand activations.",
         "source_card_variant": "",
         "source_add_on_group_keys": [],
         "local_image_paths": [
@@ -5663,8 +5746,7 @@
         "warranty_text": "Warranty\n\nWe stand behind the quality of our products. Our warranty covers any factory defects or damage that occurs during shipping. However, please note that we do not cover damage resulting from extreme weather conditions, misuse, or any circumstances beyond our control.",
         "source_options": [
           {
-            "name": "Size",
-            "position": 1,
+            "title": "Size",
             "values": [
               "9'",
               "12'",
@@ -5672,8 +5754,7 @@
             ]
           },
           {
-            "name": "Hardware",
-            "position": 2,
+            "title": "Hardware",
             "values": [
               "Cross Base w/ Water Bag",
               "Ground Stakes",
@@ -5829,62 +5910,73 @@
         ],
         "source_variant_label": "Size",
         "source_sizes": [
-          "9'",
-          "12'",
-          "15'"
+          "9' / Cross Base w/ Water Bag",
+          "9' / Ground Stakes",
+          "9' / Mounting Kit",
+          "12' / Cross Base w/ Water Bag",
+          "12' / Ground Stakes",
+          "12' / Mounting Kit",
+          "15' / Cross Base w/ Water Bag",
+          "15' / Ground Stakes",
+          "15' / Mounting Kit"
         ],
         "source_size_variants": [
           {
             "value": "9' / Cross Base w/ Water Bag",
-            "price": 140.0,
+            "price": 140,
             "active": true
           },
           {
             "value": "9' / Ground Stakes",
-            "price": 140.0,
-            "active": true
+            "price": 140
           },
           {
             "value": "9' / Mounting Kit",
-            "price": 150.0
+            "price": 150
           },
           {
             "value": "12' / Cross Base w/ Water Bag",
-            "price": 150.0
+            "price": 150
           },
           {
             "value": "12' / Ground Stakes",
-            "price": 150.0
+            "price": 150
           },
           {
             "value": "12' / Mounting Kit",
-            "price": 160.0
+            "price": 160
           },
           {
             "value": "15' / Cross Base w/ Water Bag",
-            "price": 160.0
+            "price": 160
           },
           {
             "value": "15' / Ground Stakes",
-            "price": 160.0
+            "price": 160
           },
           {
             "value": "15' / Mounting Kit",
-            "price": 170.0
+            "price": 170
           }
         ],
         "source_filter_category": [
           "FLAGS"
         ],
         "source_filter_sizes": [
-          "9'",
-          "12'",
-          "15'"
+          "9' / Cross Base w/ Water Bag",
+          "9' / Ground Stakes",
+          "9' / Mounting Kit",
+          "12' / Cross Base w/ Water Bag",
+          "12' / Ground Stakes",
+          "12' / Mounting Kit",
+          "15' / Cross Base w/ Water Bag",
+          "15' / Ground Stakes",
+          "15' / Mounting Kit"
         ],
-        "source_reviews_text": "9 options",
-        "source_badge_label": "Flags",
+        "source_reviews_text": null,
+        "source_badge_label": "FLAGS",
         "source_badge_subtext": "5 product images available",
-        "source_description": "Make a bold and professional statement with our Premium Straight Flags, designed for clean, vertical branding at trade shows, outdoor events, storefronts, festivals, and canopy displays. The straight-edge design offers a modern, structured look that keeps your message clear, rea…",
+        "source_description": "Make a bold and professional statement with our Premium Straight Flags, designed for clean, vertical branding at trade shows, outdoor events, storefronts, festivals, and canopy displays. The straight-edge design offers a modern, structured look that keeps your message clear, readable, and impactful from a distance.\n\nEach flag includes a cross base and water bag as standard, making it suitable for both indoor and outdoor environments. For added versatility, you can upgrade to ground stakes or a canopy mounting kit, allowing the flag to be securely mounted directly onto a canopy tent.\n\nBuilt with strong yet flexible fiberglass poles, these flags are lightweight, durable, and easy to set up—perfect for vendors who need reliability and professional presentation.\n\n🔹 Key Features\n\n- 🚩 Straight Flag Design – Clean, vertical shape for maximum readability\n\n- 🔁 Double-Sided Printing Included – Standard on all flags\n\n- 🎨 Full-Color Dye Sublimation – Sharp, fade-resistant graphics\n\n- 💪 Fiberglass Poles – Lightweight, flexible, and durable\n\n- ⚓ Base Included – Cross base + water bag included\n\n- 🏕️ Multiple Mounting Options – Optional ground stakes or canopy mounting kit\n\n- 🧳 Portable & Easy Setup – Fast assembly for events and promotions\n\n🔹 Imprint Method\n\n🖨️ Full-Color Dye Sublimation\n\n🔹 Materials\n\n- 🧵 Graphic / Flag: Knitted Polyester\n\n- 🦾 Hardware: 100% Epoxy Fiberglass\n\n- 🎒 Carry Case: 600 Denier Polyester\n\n🔹 Primary Usage\n\nTrade shows, outdoor events, vendor booths, canopy tents, storefront advertising, festivals, promotions, and brand activations.",
         "source_card_variant": "",
         "source_add_on_group_keys": [],
         "local_image_paths": [
@@ -6280,8 +6372,7 @@
         "warranty_text": "Warranty\n\nWe stand behind the quality of our products. Our warranty covers any factory defects or damage that occurs during shipping. However, please note that we do not cover damage resulting from extreme weather conditions, misuse, or any circumstances beyond our control.",
         "source_options": [
           {
-            "name": "Size",
-            "position": 1,
+            "title": "Size",
             "values": [
               "8'",
               "10'",
@@ -6289,8 +6380,7 @@
             ]
           },
           {
-            "name": "Hardware",
-            "position": 2,
+            "title": "Hardware",
             "values": [
               "Cross Base w/ Water Bag",
               "Ground Stake",
@@ -6446,62 +6536,73 @@
         ],
         "source_variant_label": "Size",
         "source_sizes": [
-          "8'",
-          "10'",
-          "14'"
+          "8' / Cross Base w/ Water Bag",
+          "8' / Ground Stake",
+          "8' / Mounting Kit",
+          "10' / Cross Base w/ Water Bag",
+          "10' / Ground Stake",
+          "10' / Mounting Kit",
+          "14' / Cross Base w/ Water Bag",
+          "14' / Ground Stake",
+          "14' / Mounting Kit"
         ],
         "source_size_variants": [
           {
             "value": "8' / Cross Base w/ Water Bag",
-            "price": 140.0,
+            "price": 140,
             "active": true
           },
           {
             "value": "8' / Ground Stake",
-            "price": 140.0,
-            "active": true
+            "price": 140
           },
           {
             "value": "8' / Mounting Kit",
-            "price": 150.0
+            "price": 150
           },
           {
             "value": "10' / Cross Base w/ Water Bag",
-            "price": 150.0
+            "price": 150
           },
           {
             "value": "10' / Ground Stake",
-            "price": 150.0
+            "price": 150
           },
           {
             "value": "10' / Mounting Kit",
-            "price": 160.0
+            "price": 160
           },
           {
             "value": "14' / Cross Base w/ Water Bag",
-            "price": 160.0
+            "price": 160
           },
           {
             "value": "14' / Ground Stake",
-            "price": 160.0
+            "price": 160
           },
           {
             "value": "14' / Mounting Kit",
-            "price": 170.0
+            "price": 170
           }
         ],
         "source_filter_category": [
           "FLAGS"
         ],
         "source_filter_sizes": [
-          "8'",
-          "10'",
-          "14'"
+          "8' / Cross Base w/ Water Bag",
+          "8' / Ground Stake",
+          "8' / Mounting Kit",
+          "10' / Cross Base w/ Water Bag",
+          "10' / Ground Stake",
+          "10' / Mounting Kit",
+          "14' / Cross Base w/ Water Bag",
+          "14' / Ground Stake",
+          "14' / Mounting Kit"
         ],
-        "source_reviews_text": "9 options",
-        "source_badge_label": "Flags",
+        "source_reviews_text": null,
+        "source_badge_label": "FLAGS",
         "source_badge_subtext": "6 product images available",
-        "source_description": "Promote your brand with confidence using our Premium Teardrop Flags, designed for dynamic visibility at trade shows, outdoor events, storefronts, festivals, and vendor booths. The teardrop shape maintains its form even in windy conditions, keeping your message clean, readable, a…",
+        "source_description": "Promote your brand with confidence using our Premium Teardrop Flags, designed for dynamic visibility at trade shows, outdoor events, storefronts, festivals, and vendor booths. The teardrop shape maintains its form even in windy conditions, keeping your message clean, readable, and eye-catching at all times.\n\nEach flag comes standard with a cross base and water bag, making it ideal for both indoor and outdoor environments. For added flexibility, you may upgrade to ground stakes or a canopy mounting kit, allowing the flag to be securely mounted directly to a canopy tent.\n\nBuilt with strong yet flexible fiberglass poles, these flags are lightweight, durable, and easy to assemble—perfect for vendors who demand performance and professional presentation.\n\n🔹 Key Features\n\n- 🚩 Teardrop Flag Design – Aerodynamic shape for stability and visibility\n\n- 🔁 Double-Sided Printing Included – Standard on all flags\n\n- 🎨 Full-Color Dye Sublimation – Sharp, fade-resistant graphics\n\n- 💪 Fiberglass Poles – Lightweight, flexible, and durable\n\n- ⚓ Base Included – Cross base + water bag included\n\n- 🏕️ Multiple Mounting Options – Optional ground stakes or canopy mounting kit\n\n- 🧳 Portable & Easy Setup – Ideal for events, promotions, and displays\n\n🔹 Imprint Method\n\n🖨️ Full-Color Dye Sublimation\n\n🔹 Materials\n\n- 🧵 Graphic / Flag: Knitted Polyester\n\n- 🦾 Hardware: 100% Epoxy Fiberglass\n\n- 🎒 Carry Case: 600 Denier Polyester\n\n🔹 Primary Usage\n\nTrade shows, outdoor events, vendor booths, canopy tents, storefront advertising, festivals, promotions, and brand activations.",
         "source_card_variant": "",
         "source_add_on_group_keys": [],
         "local_image_paths": [
@@ -6639,23 +6740,25 @@
         ],
         "source_variant_label": null,
         "source_sizes": [
-          "Default option"
+          "Default Title"
         ],
         "source_size_variants": [
           {
-            "value": "Default option",
-            "price": 37.0,
+            "value": "Default Title",
+            "price": 37,
             "active": true
           }
         ],
         "source_filter_category": [
           "FLAGS"
         ],
-        "source_filter_sizes": [],
-        "source_reviews_text": "1 option",
-        "source_badge_label": "Flags",
+        "source_filter_sizes": [
+          "Default Title"
+        ],
+        "source_reviews_text": null,
+        "source_badge_label": "FLAGS",
         "source_badge_subtext": "1 product image available",
-        "source_description": "Product Descrption Materials - Carry Case: 600 Denier Polyester Package Include: 1pc basic pole 3 sections 1pc carry bag Features Fiber glass poles are strong and flexible\nPolished aluminum collar pole segment ends and ergonomic\nDesigned for use with universal flags (flags sold…",
+        "source_description": "setup instruction\n\nProduct Descrption\n\nMaterials\n\n- Carry Case: 600 Denier Polyester\n\nPackage Include:\n\n1pc basic pole 3 sections\n\n1pc carry bag\n\nFeatures\n\nFiber glass poles are strong and flexible\nPolished aluminum collar pole segment ends and ergonomic\nDesigned for use with universal flags (flags sold separately)\nFlag attaches to a fixed hook on the pole using the included bungee tie kit\nCarbon composite poles are strong and flexible\nUniform carbon composite overlay pole construction with high-gloss black paint finish\nPolished aluminum collar pole segment ends and ergonomic, rubber-reinforced base grip",
         "source_card_variant": "",
         "source_add_on_group_keys": [],
         "local_image_paths": [
@@ -6794,23 +6897,25 @@
         ],
         "source_variant_label": null,
         "source_sizes": [
-          "Default option"
+          "Default Title"
         ],
         "source_size_variants": [
           {
-            "value": "Default option",
-            "price": 57.0,
+            "value": "Default Title",
+            "price": 57,
             "active": true
           }
         ],
         "source_filter_category": [
           "FLAGS"
         ],
-        "source_filter_sizes": [],
-        "source_reviews_text": "1 option",
-        "source_badge_label": "Flags",
+        "source_filter_sizes": [
+          "Default Title"
+        ],
+        "source_reviews_text": null,
+        "source_badge_label": "FLAGS",
         "source_badge_subtext": "3 product images available",
-        "source_description": "Foldable Can be used indoors or outside. Each Pc Pack By Individual Box,6 pcs Into One Carton fit for all feather,teardrop and rectangle flag pole",
+        "source_description": "Foldable Can be used indoors or outside.\n\nEach Pc Pack By Individual Box,6 pcs Into One Carton\n\nfit for all feather,teardrop and rectangle flag pole",
         "source_card_variant": "",
         "source_add_on_group_keys": [],
         "local_image_paths": [

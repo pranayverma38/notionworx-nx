@@ -23,6 +23,19 @@
       "inventory_data_path": "/inventory/notionworx/collections/towel-blanket.json"
     }
   },
+  "productCategory": {
+    "name": "TOWEL & BLANKET",
+    "description": "",
+    "handle": "towel-blanket",
+    "is_active": true,
+    "is_internal": false,
+    "metadata": {
+      "source": "notionworx-inventory",
+      "source_handle": "towel-blanket",
+      "source_title": "TOWEL & BLANKET",
+      "inventory_data_path": "/inventory/notionworx/collections/towel-blanket.json"
+    }
+  },
   "productsCount": 6,
   "products": [
     {
@@ -69,6 +82,7 @@
             "source_taxable": false,
             "source_grams": 1361,
             "source_position": 1,
+            "source_sku": "50012",
             "source_option_values": [
               "Default Title"
             ],
@@ -140,23 +154,25 @@
         ],
         "source_variant_label": null,
         "source_sizes": [
-          "Default option"
+          "Default Title"
         ],
         "source_size_variants": [
           {
-            "value": "Default option",
-            "price": 20.0,
+            "value": "Default Title",
+            "price": 20,
             "active": true
           }
         ],
         "source_filter_category": [
           "TOWEL & BLANKET"
         ],
-        "source_filter_sizes": [],
-        "source_reviews_text": "1 option",
-        "source_badge_label": "Towel & Blanket",
+        "source_filter_sizes": [
+          "Default Title"
+        ],
+        "source_reviews_text": null,
+        "source_badge_label": "TOWEL & BLANKET",
         "source_badge_subtext": "1 product image available",
-        "source_description": "min qty is 50pcs ,can mix design moisture-wicking fabric jersey mesh",
+        "source_description": "Download Template\n\nmin qty is 50pcs ,can mix design\n\nmoisture-wicking fabric jersey mesh",
         "source_card_variant": "",
         "source_add_on_group_keys": [],
         "local_image_paths": [
@@ -223,6 +239,7 @@
             "source_taxable": false,
             "source_grams": 454,
             "source_position": 1,
+            "source_sku": "50086",
             "source_option_values": [
               "Default Title"
             ],
@@ -294,23 +311,25 @@
         ],
         "source_variant_label": null,
         "source_sizes": [
-          "Default option"
+          "Default Title"
         ],
         "source_size_variants": [
           {
-            "value": "Default option",
-            "price": 25.0,
+            "value": "Default Title",
+            "price": 25,
             "active": true
           }
         ],
         "source_filter_category": [
           "TOWEL & BLANKET"
         ],
-        "source_filter_sizes": [],
-        "source_reviews_text": "1 option",
-        "source_badge_label": "Towel & Blanket",
+        "source_filter_sizes": [
+          "Default Title"
+        ],
+        "source_reviews_text": null,
+        "source_badge_label": "TOWEL & BLANKET",
         "source_badge_subtext": "3 product images available",
-        "source_description": "This is a great custom bandanna/scarf with full color sublimation. Perfect for around your neck as an accessory or even around your head. Soft lightweight chiffon scarf, this is a great fashion piece. roll hemmed.",
+        "source_description": "This is a great custom bandanna/scarf with full color sublimation.\n\nPerfect for around your neck as an accessory or even around your head.\n\nSoft lightweight chiffon scarf, this is a great fashion piece. roll hemmed.\n\nhttps://displaytemplate.s3.us-west-2.amazonaws.com/Custom+jerseys/Crew+Neck+Short+Sleeve.zip",
         "source_card_variant": "",
         "source_add_on_group_keys": [],
         "local_image_paths": [
@@ -385,6 +404,7 @@
             "source_taxable": false,
             "source_grams": 907,
             "source_position": 1,
+            "source_sku": "500048",
             "source_option_values": [
               "Default Title"
             ],
@@ -456,23 +476,25 @@
         ],
         "source_variant_label": null,
         "source_sizes": [
-          "Default option"
+          "Default Title"
         ],
         "source_size_variants": [
           {
-            "value": "Default option",
-            "price": 50.0,
+            "value": "Default Title",
+            "price": 50,
             "active": true
           }
         ],
         "source_filter_category": [
           "TOWEL & BLANKET"
         ],
-        "source_filter_sizes": [],
-        "source_reviews_text": "1 option",
-        "source_badge_label": "Towel & Blanket",
+        "source_filter_sizes": [
+          "Default Title"
+        ],
+        "source_reviews_text": null,
+        "source_badge_label": "TOWEL & BLANKET",
         "source_badge_subtext": "5 product images available",
-        "source_description": "full-color, edge-to-edge sublimated fleece blanket. Included: - Full color sublimated design moisture wicking fabric",
+        "source_description": "Download Template\n\nfull-color, edge-to-edge sublimated fleece blanket.\n\nIncluded:\n\n- Full color sublimated design\n\nmoisture wicking fabric",
         "source_card_variant": "",
         "source_add_on_group_keys": [],
         "local_image_paths": [
@@ -549,6 +571,7 @@
             "source_taxable": false,
             "source_grams": 907,
             "source_position": 1,
+            "source_sku": "50011",
             "source_option_values": [
               "Default Title"
             ],
@@ -620,23 +643,25 @@
         ],
         "source_variant_label": null,
         "source_sizes": [
-          "Default option"
+          "Default Title"
         ],
         "source_size_variants": [
           {
-            "value": "Default option",
-            "price": 60.0,
+            "value": "Default Title",
+            "price": 60,
             "active": true
           }
         ],
         "source_filter_category": [
           "TOWEL & BLANKET"
         ],
-        "source_filter_sizes": [],
-        "source_reviews_text": "1 option",
-        "source_badge_label": "Towel & Blanket",
+        "source_filter_sizes": [
+          "Default Title"
+        ],
+        "source_reviews_text": null,
+        "source_badge_label": "TOWEL & BLANKET",
         "source_badge_subtext": "5 product images available",
-        "source_description": "Download Tempplate full-color, edge-to-edge sublimated fleece blanket. Included: - Full color sublimated design moisture wicking fabric",
+        "source_description": "Download Tempplate\n\nfull-color, edge-to-edge sublimated fleece blanket.\n\nIncluded:\n\n- Full color sublimated design\n\nmoisture wicking fabric",
         "source_card_variant": "",
         "source_add_on_group_keys": [],
         "local_image_paths": [
@@ -713,6 +738,7 @@
             "source_taxable": false,
             "source_grams": 907,
             "source_position": 1,
+            "source_sku": "500049",
             "source_option_values": [
               "Default Title"
             ],
@@ -784,23 +810,25 @@
         ],
         "source_variant_label": null,
         "source_sizes": [
-          "Default option"
+          "Default Title"
         ],
         "source_size_variants": [
           {
-            "value": "Default option",
-            "price": 80.0,
+            "value": "Default Title",
+            "price": 80,
             "active": true
           }
         ],
         "source_filter_category": [
           "TOWEL & BLANKET"
         ],
-        "source_filter_sizes": [],
-        "source_reviews_text": "1 option",
-        "source_badge_label": "Towel & Blanket",
+        "source_filter_sizes": [
+          "Default Title"
+        ],
+        "source_reviews_text": null,
+        "source_badge_label": "TOWEL & BLANKET",
         "source_badge_subtext": "5 product images available",
-        "source_description": "full-color, edge-to-edge sublimated fleece blanket. Included: - Full color sublimated design moisture wicking fabric",
+        "source_description": "Download Template\n\nfull-color, edge-to-edge sublimated fleece blanket.\n\nIncluded:\n\n- Full color sublimated design\n\nmoisture wicking fabric",
         "source_card_variant": "",
         "source_add_on_group_keys": [],
         "local_image_paths": [
@@ -882,6 +910,7 @@
             "source_taxable": true,
             "source_grams": 907,
             "source_position": 1,
+            "source_sku": "500157",
             "source_option_values": [
               "25'' x 50''"
             ],
@@ -911,6 +940,7 @@
             "source_taxable": true,
             "source_grams": 907,
             "source_position": 2,
+            "source_sku": "500158",
             "source_option_values": [
               "50'' x 60''"
             ],
@@ -940,6 +970,7 @@
             "source_taxable": true,
             "source_grams": 907,
             "source_position": 3,
+            "source_sku": "500159",
             "source_option_values": [
               "60'' x 80''"
             ],
@@ -987,8 +1018,7 @@
         "warranty_text": null,
         "source_options": [
           {
-            "name": "Size",
-            "position": 1,
+            "title": "Size",
             "values": [
               "25'' x 50''",
               "50'' x 60''",
@@ -1052,16 +1082,16 @@
         "source_size_variants": [
           {
             "value": "25'' x 50''",
-            "price": 30.0
-          },
-          {
-            "value": "50'' x 60''",
-            "price": 5.0,
+            "price": 30,
             "active": true
           },
           {
+            "value": "50'' x 60''",
+            "price": 5
+          },
+          {
             "value": "60'' x 80''",
-            "price": 45.0
+            "price": 45
           }
         ],
         "source_filter_category": [
@@ -1072,10 +1102,10 @@
           "50'' x 60''",
           "60'' x 80''"
         ],
-        "source_reviews_text": "3 options",
-        "source_badge_label": "Towel & Blanket",
+        "source_reviews_text": null,
+        "source_badge_label": "TOWEL & BLANKET",
         "source_badge_subtext": "6 product images available",
-        "source_description": "100% Polyester Hand wash, machine wash, dry cleaning can be used The washing temperature is below 45 degrees Celsius Ultra-Soft 350gsm Elevate Your Branding with Our Soft Plush Fleece Blanket Comfort meets affordability in our versatile promotional blanket. Lightweight and cozy,…",
+        "source_description": "DOWNLOAD TEMPLATE\n\n100% Polyester Hand wash, machine wash, dry cleaning can be used\n\nThe washing temperature is below 45 degrees Celsius\n\nUltra-Soft 350gsm\n\nElevate Your Branding with Our Soft Plush Fleece Blanket\n\nComfort meets affordability in our versatile promotional blanket. Lightweight and cozy, it's designed for maximum impact:\n\nBudget-friendly marketing solution\n\nIdeal for outdoor events and home use\n\nCustom logo branding available\n\nHigh-value promotional tool\n\nExceptional comfort at an accessible price point",
         "source_card_variant": "",
         "source_add_on_group_keys": [],
         "local_image_paths": [

@@ -23,6 +23,19 @@
       "inventory_data_path": "/inventory/notionworx/collections/bag.json"
     }
   },
+  "productCategory": {
+    "name": "BAG",
+    "description": "",
+    "handle": "bag",
+    "is_active": true,
+    "is_internal": false,
+    "metadata": {
+      "source": "notionworx-inventory",
+      "source_handle": "bag",
+      "source_title": "BAG",
+      "inventory_data_path": "/inventory/notionworx/collections/bag.json"
+    }
+  },
   "productsCount": 7,
   "products": [
     {
@@ -72,6 +85,7 @@
             "source_taxable": true,
             "source_grams": 454,
             "source_position": 1,
+            "source_sku": "500060",
             "source_option_values": [
               "Default Title"
             ],
@@ -143,23 +157,25 @@
         ],
         "source_variant_label": null,
         "source_sizes": [
-          "Default option"
+          "Default Title"
         ],
         "source_size_variants": [
           {
-            "value": "Default option",
-            "price": 11.0,
+            "value": "Default Title",
+            "price": 11,
             "active": true
           }
         ],
         "source_filter_category": [
           "BAG"
         ],
-        "source_filter_sizes": [],
-        "source_reviews_text": "1 option",
+        "source_filter_sizes": [
+          "Default Title"
+        ],
+        "source_reviews_text": null,
         "source_badge_label": "BAG",
         "source_badge_subtext": "2 product images available",
-        "source_description": "Need Help with Artwork Setup? 600d oxford material one layer black inside with strap 0.98'' width Webbing width: 1.38\"",
+        "source_description": "Download template Need Help with Artwork Setup?\n\n600d oxford material\n\none layer black inside with strap 0.98'' width\n\nWebbing width: 1.38\"",
         "source_card_variant": "",
         "source_add_on_group_keys": [],
         "local_image_paths": [
@@ -221,6 +237,7 @@
             "source_taxable": true,
             "source_grams": 454,
             "source_position": 1,
+            "source_sku": "500050",
             "source_option_values": [
               "Default Title"
             ],
@@ -292,23 +309,25 @@
         ],
         "source_variant_label": null,
         "source_sizes": [
-          "Default option"
+          "Default Title"
         ],
         "source_size_variants": [
           {
-            "value": "Default option",
-            "price": 6.0,
+            "value": "Default Title",
+            "price": 6,
             "active": true
           }
         ],
         "source_filter_category": [
           "BAG"
         ],
-        "source_filter_sizes": [],
-        "source_reviews_text": "1 option",
+        "source_filter_sizes": [
+          "Default Title"
+        ],
+        "source_reviews_text": null,
         "source_badge_label": "BAG",
         "source_badge_subtext": "1 product image available",
-        "source_description": "Need Help with Artwork Setup? Material: 600D Oxford, 1 layers ,out is printed, the inner is black color) Sublimation Full-color Fanny pack waist bag. This fanny pack includes edge-to-edge, full-color printing. perfect sports bags for team or giveaway. Constructed from sturdy 600…",
+        "source_description": "Download Template Need Help with Artwork Setup?\n\nMaterial: 600D Oxford, 1 layers ,out is printed, the inner is black color)\n\nSublimation Full-color Fanny pack waist bag. This fanny pack includes edge-to-edge, full-color printing. perfect sports bags for team or giveaway. Constructed from sturdy 600D Polyester, this adjustable fanny pack waist bag straps are comfortable and stylish. this practical promotion will make a lasting impression once imprinted in full color and sublimated with your logo or company name.",
         "source_card_variant": "",
         "source_add_on_group_keys": [],
         "local_image_paths": [
@@ -381,6 +400,7 @@
             "source_taxable": false,
             "source_grams": 454,
             "source_position": 1,
+            "source_sku": "500028",
             "source_option_values": [
               "Default Title"
             ],
@@ -452,23 +472,25 @@
         ],
         "source_variant_label": null,
         "source_sizes": [
-          "Default option"
+          "Default Title"
         ],
         "source_size_variants": [
           {
-            "value": "Default option",
-            "price": 34.0,
+            "value": "Default Title",
+            "price": 34,
             "active": true
           }
         ],
         "source_filter_category": [
           "BAG"
         ],
-        "source_filter_sizes": [],
-        "source_reviews_text": "1 option",
+        "source_filter_sizes": [
+          "Default Title"
+        ],
+        "source_reviews_text": null,
         "source_badge_label": "BAG",
         "source_badge_subtext": "5 product images available",
-        "source_description": "Need Help with Artwork Setup? Step up your game! These unique, personalized duffel bags offer a sporty, stylish way to promote your brand with sports clubs or teams, school teams like cheerleading and dance teams, gyms, travel agencies and more. Your clients won't be able to put…",
+        "source_description": "download template Need Help with Artwork Setup?\n\nStep up your game! These unique, personalized duffel bags offer a sporty, stylish way to promote your brand with sports clubs or teams, school teams like cheerleading and dance teams, gyms, travel agencies and more. Your clients won't be able to put these high quality, personalized duffle bags down.\n\nStylish and durable, our personalized duffel bags can be used anywhere! Clients will tote them to the gym, team practice, dance class. This bag is the perfect size for a quick getaway or just running errands on the weekend. We've crafted this personalized duffel bag using durable 420D bee oxford polyester poplin fabric. and comes with webbing handles and printed round ends. Personalize it with a name, monogram, sport team or business logo. And get your brand the exposure it deserves.",
         "source_card_variant": "",
         "source_add_on_group_keys": [],
         "local_image_paths": [
@@ -542,6 +564,7 @@
             "source_taxable": true,
             "source_grams": 454,
             "source_position": 1,
+            "source_sku": "500030",
             "source_option_values": [
               "Default Title"
             ],
@@ -613,23 +636,25 @@
         ],
         "source_variant_label": null,
         "source_sizes": [
-          "Default option"
+          "Default Title"
         ],
         "source_size_variants": [
           {
-            "value": "Default option",
-            "price": 6.0,
+            "value": "Default Title",
+            "price": 6,
             "active": true
           }
         ],
         "source_filter_category": [
           "BAG"
         ],
-        "source_filter_sizes": [],
-        "source_reviews_text": "1 option",
+        "source_filter_sizes": [
+          "Default Title"
+        ],
+        "source_reviews_text": null,
         "source_badge_label": "BAG",
         "source_badge_subtext": "4 product images available",
-        "source_description": "Need Help with Artwork Setup? Material: 600D Oxford, 2 layers ,out layer is printed, the inner layer is black color) Sublimation Full-color Fanny pack waist bag. This fanny pack includes edge-to-edge, full-color printing. perfect sports bags for team or giveaway. Constructed fro…",
+        "source_description": "Download Template Need Help with Artwork Setup?\n\nMaterial: 600D Oxford, 2 layers ,out layer is printed, the inner layer is black color)\n\nSublimation Full-color Fanny pack waist bag. This fanny pack includes edge-to-edge, full-color printing. perfect sports bags for team or giveaway. Constructed from sturdy 600D Polyester, this adjustable fanny pack waist bag straps are comfortable and stylish. this practical promotion will make a lasting impression once imprinted in full color and sublimated with your logo or company name.",
         "source_card_variant": "",
         "source_add_on_group_keys": [],
         "local_image_paths": [
@@ -699,6 +724,7 @@
             "source_taxable": false,
             "source_grams": 2268,
             "source_position": 1,
+            "source_sku": "500029",
             "source_option_values": [
               "Default Title"
             ],
@@ -770,23 +796,25 @@
         ],
         "source_variant_label": null,
         "source_sizes": [
-          "Default option"
+          "Default Title"
         ],
         "source_size_variants": [
           {
-            "value": "Default option",
-            "price": 11.0,
+            "value": "Default Title",
+            "price": 11,
             "active": true
           }
         ],
         "source_filter_category": [
           "BAG"
         ],
-        "source_filter_sizes": [],
-        "source_reviews_text": "1 option",
+        "source_filter_sizes": [
+          "Default Title"
+        ],
+        "source_reviews_text": null,
         "source_badge_label": "BAG",
         "source_badge_subtext": "3 product images available",
-        "source_description": "Need Help with Artwork Setup? bee 420d Oxford Give your customers and prospects a stylish way to carry their items around and stay close to your brand after the event is over. This custom tote bag is ideal for any event, trade show or conference. These also make great souvenirs…",
+        "source_description": "download template Need Help with Artwork Setup?\n\nbee 420d Oxford\n\nGive your customers and prospects a stylish way to carry their items around and stay close to your brand after the event is over. This custom tote bag is ideal for any event, trade show or conference. These also make great souvenirs for your bridal shower, family reunion, graduation or any family get together. PLUS these custom tote bags are low-cost, so giving them away won't break your marketing budget.\n\nJust easily add your logo, a special photo, a favorite team or even your favorite artwork and we will do the rest.",
         "source_card_variant": "",
         "source_add_on_group_keys": [],
         "local_image_paths": [
@@ -861,6 +889,7 @@
             "source_taxable": false,
             "source_grams": 454,
             "source_position": 1,
+            "source_sku": "ITEM #: 500027",
             "source_option_values": [
               "Default Title"
             ],
@@ -932,23 +961,25 @@
         ],
         "source_variant_label": null,
         "source_sizes": [
-          "Default option"
+          "Default Title"
         ],
         "source_size_variants": [
           {
-            "value": "Default option",
-            "price": 6.0,
+            "value": "Default Title",
+            "price": 6,
             "active": true
           }
         ],
         "source_filter_category": [
           "BAG"
         ],
-        "source_filter_sizes": [],
-        "source_reviews_text": "1 option",
+        "source_filter_sizes": [
+          "Default Title"
+        ],
+        "source_reviews_text": null,
         "source_badge_label": "BAG",
         "source_badge_subtext": "5 product images available",
-        "source_description": "Need Help with Artwork Setup? Features - bee 420 Denier Polyester Poplin - Flame retardant: Product does not contain Prop 65 chemicals - Classic custom tote bag with handles - Seamless appearing design on all 2 sides - Imprint Method: Full-Color Dye Sublimation - Unlimited desig…",
+        "source_description": "download template Need Help with Artwork Setup?\n\nFeatures\n\n- bee 420 Denier Polyester Poplin\n\n- Flame retardant: Product does not contain Prop 65 chemicals\n\n- Classic custom tote bag with handles\n\n- Seamless appearing design on all 2 sides\n\n- Imprint Method: Full-Color Dye Sublimation\n\n- Unlimited design capabilities\n\n- Customizable templates",
         "source_card_variant": "",
         "source_add_on_group_keys": [],
         "local_image_paths": [
@@ -1025,6 +1056,7 @@
             "source_taxable": true,
             "source_grams": 907,
             "source_position": 1,
+            "source_sku": "500093",
             "source_option_values": [
               "Default Title"
             ],
@@ -1100,12 +1132,12 @@
         ],
         "source_variant_label": null,
         "source_sizes": [
-          "Default option"
+          "Default Title"
         ],
         "source_size_variants": [
           {
-            "value": "Default option",
-            "price": 14.0,
+            "value": "Default Title",
+            "price": 14,
             "active": true
           }
         ],
@@ -1113,11 +1145,13 @@
           "HEADWEAR",
           "BAG"
         ],
-        "source_filter_sizes": [],
-        "source_reviews_text": "1 option",
-        "source_badge_label": "Headwear",
+        "source_filter_sizes": [
+          "Default Title"
+        ],
+        "source_reviews_text": null,
+        "source_badge_label": "HEADWEAR",
         "source_badge_subtext": "5 product images available",
-        "source_description": "- - 100% polyester bucket hat - Full color edge to edge dye-sublimation - Reversible, both side imprint - Perfect for any kind of event! We ship to Canada!",
+        "source_description": "- Download Template\n\n- 100% polyester bucket hat\n\n- Full color edge to edge dye-sublimation\n\n- Reversible, both side imprint\n\n- Perfect for any kind of event!\n\nWe ship to Canada!",
         "source_card_variant": "",
         "source_add_on_group_keys": [],
         "local_image_paths": [

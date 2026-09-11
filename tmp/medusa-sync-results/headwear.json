@@ -1,0 +1,55 @@
+{
+  "mode": "apply",
+  "previewPath": "/Users/pranayverma/Desktop/notionworx-nx/data/inventory/notionworx/medusa/headwear-preview.json",
+  "collectionId": "pcol_01M1F64TY5R4WR9TNFJ8X7Q4BG",
+  "collectionHandle": "headwear",
+  "productCategoryId": "pcat_01M28WWYQXFZS0D1M3366NXW85",
+  "productCategoryCreated": true,
+  "sourceProductsCount": 1,
+  "createdProducts": 0,
+  "skippedProducts": 1,
+  "failedProducts": 0,
+  "createdHandles": [],
+  "skippedHandles": [
+    "sublimated-bucket-hat"
+  ],
+  "createFailures": [],
+  "contentUpdatedProducts": 1,
+  "contentFailedProducts": 0,
+  "contentUpdatedHandles": [
+    "sublimated-bucket-hat"
+  ],
+  "contentFailures": [],
+  "imageUpdatedProducts": 0,
+  "imageSkippedProducts": 1,
+  "imageFailedProducts": 0,
+  "uploadedImages": 0,
+  "imageUpdatedHandles": [],
+  "imageFailures": [],
+  "productCategoryAddedProducts": 1,
+  "productCategoryAlreadyPresentProducts": 0,
+  "productCategoryMissingProducts": 0,
+  "productCategoryFailedProducts": 0,
+  "productCategoryAddedHandles": [
+    "sublimated-bucket-hat"
+  ],
+  "productCategoryAlreadyPresentHandles": [],
+  "productCategoryMissingHandles": [],
+  "productCategoryFailures": [],
+  "verification": {
+    "storeCollectionId": "pcol_01M1F64TY5R4WR9TNFJ8X7Q4BG",
+    "adminCollectionId": "pcol_01M1F64TY5R4WR9TNFJ8X7Q4BG",
+    "storeProductsCount": 0,
+    "adminProductsCount": 0,
+    "storeProductHandles": [],
+    "adminProductHandles": []
+  },
+  "productCategoryVerification": {
+    "productCategoryId": "pcat_01M28WWYQXFZS0D1M3366NXW85",
+    "productCategoryHandle": "headwear",
+    "productCategoryProductsCount": 1,
+    "productCategoryProductHandles": [
+      "sublimated-bucket-hat"
+    ]
+  }
+}

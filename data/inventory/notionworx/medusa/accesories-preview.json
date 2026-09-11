@@ -17,13 +17,26 @@
       "source_handle": "accesories",
       "source_title": "Accessories",
       "source_description": "",
-      "source_products_count": 6,
+      "source_products_count": 7,
       "source_image_path": "/assets/images/notionworx-inventory/collections/accesories/01.jpg",
       "source_image_url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/collections/accesories/01.jpg",
       "inventory_data_path": "/inventory/notionworx/collections/accesories.json"
     }
   },
-  "productsCount": 6,
+  "productCategory": {
+    "name": "Accessories",
+    "description": "",
+    "handle": "accesories",
+    "is_active": true,
+    "is_internal": false,
+    "metadata": {
+      "source": "notionworx-inventory",
+      "source_handle": "accesories",
+      "source_title": "Accessories",
+      "inventory_data_path": "/inventory/notionworx/collections/accesories.json"
+    }
+  },
+  "productsCount": 7,
   "products": [
     {
       "title": "10ft Canopy Awning",
@@ -158,12 +171,15 @@
             "active": true
           }
         ],
-        "source_filter_category": [],
+        "source_filter_category": [
+          "Accessories",
+          "10x10 Custom Canopies"
+        ],
         "source_filter_sizes": [
           "Default Title"
         ],
         "source_reviews_text": null,
-        "source_badge_label": null,
+        "source_badge_label": "Accessories",
         "source_badge_subtext": "2 product images available",
         "source_description": "Enhance your canopy setup with our 10ft Awning for Canopy Tents, designed to add extra shade, weather protection, and branding space to your pop-up canopy. Perfect for food booths, trade shows, outdoor events, and vendor setups, this awning extends your coverage while creating a more inviting and professional display.\n\nThe awning features full-color dye-sublimation printing, allowing you to showcase your logo, messaging, or graphics with vibrant, fade-resistant results. Made from durable, weather-resistant polyester, it’s built for reliable outdoor performance and easy integration with standard 10ft canopy frames.\n\nQuick to install and easy to remove, this awning is an ideal upgrade for vendors looking to maximize both functionality and brand visibility.\n\n🔹 Key Features\n\n- 🏕️10ft Canopy Awning– Designed to fit standard 10ft pop-up canopy tents\n\n- 🌤️Extended Shade Coverage– Adds protection from sun and light weather\n\n- 🎨Custom Full-Color Printing– High-resolution dye-sublimation graphics\n\n- ☀️Outdoor-Ready Fabric– Weather-resistant and UV-protected polyester\n\n- ⚙️Easy Attachment– Installs quickly onto compatible canopy frames\n\n- 🧳Lightweight & Portable– Easy to transport and store\n\n- 🏷️Branding Upgrade– Creates additional advertising space at the front of your booth\n\n🔹 Imprint Method\n\n🖨️ Full-Color Dye Sublimation\n\n🔹 Materials\n\n🧵 Awning Fabric: Durable 600D Polyester (Weather-Resistant)\n\n🔹 Compatibility\n\n- 📐 Designed for 10ft wide pop-up canopy tents\n\n- ⚠️ Canopy not included\n\n🔹 Primary Usage\n\nFood booths, trade shows, outdoor events, vendor tents, festivals, markets, pop-up shops, and brand activations.",
         "source_card_variant": "",
@@ -316,12 +332,15 @@
             "active": true
           }
         ],
-        "source_filter_category": [],
+        "source_filter_category": [
+          "Accessories",
+          "10x10 Custom Canopies"
+        ],
         "source_filter_sizes": [
           "Default Title"
         ],
         "source_reviews_text": null,
-        "source_badge_label": null,
+        "source_badge_label": "Accessories",
         "source_badge_subtext": "2 product images available",
         "source_description": "Canopy Counter / Bar Top\n\nUpgrade your canopy setup with our Canopy Counter / Bar Top, the perfect addition for food vendors, trade shows, and outdoor events. Designed for functionality and style, this durable counter provides a convenient surface for serving, displaying products, or engaging with customers.\n\n💪Durable Construction: Built with sturdy materials to support heavy use during events and exhibitions.\n\n⚙️Easy Installation: Attaches securely to your canopy frame in minutes — no tools required.\n\n📏Perfect Fit: Custom-designed to fit most standard 10x10 and 10x15 canopy frames.\n\n🎨Customizable Surface: Available in multiple finishes and branding options for a professional look.\n\n🚚Portable & Lightweight: Easy to transport, set up, and store with your existing canopy gear.\n\n🎯Multi-Purpose Use: Ideal for serving food, displaying merchandise, or using as a checkout counter at events.\n\nMaterials\n\n3 Sturdy Steel Support Legs\n\nCustomize Banner with Your Logo or Branding\n\nPrimary Usage\n\nTrade shows, food booths, vendor markets, outdoor bars, and branded events",
         "source_card_variant": "",
@@ -334,6 +353,3647 @@
         "created_at": "2025-11-11T11:43:21-07:00",
         "updated_at": "2026-08-18T21:23:38-06:00",
         "published_at": "2025-11-11T11:43:23-07:00"
+      },
+      "sales_channels": [
+        {
+          "id": "sc_01M1E72H3K3S5QG6P0R7700SH4"
+        }
+      ]
+    },
+    {
+      "title": "Custom Lanyard with Badge Holder",
+      "handle": "custom-lanyard-with-badge-holder",
+      "external_id": "8299735187591",
+      "description": "Custom Lanyard with Badge Holder\n\nUpgrade your event or workplace ID setup with our Custom Lanyards, designed for durability, comfort, and professional branding. Perfect for trade shows, conferences, corporate events, staff IDs, and promotional giveaways, our lanyards combine functionality with high-impact customization.\n\nAvailable in multiple widths and attachment options, these lanyards are fully customizable to match your brand and event needs — with design, setup, and delivery already included.\n\nKey Features\n\n🎨 Full Custom Printing: High-quality printing ensures your logo and artwork look sharp and professional.\n📏 Multiple Width Options: Available in 1\", 3/4\", and 5/8\" to suit different styles and comfort preferences.\n🔗 Attachment Options: Choose from lobster claw, bulldog clip, J-hook, or keyring attachments.\n💪 Durable & Comfortable: Made from premium materials designed for all-day wear.\n🪪 Versatile Use: Ideal for holding ID badges, access cards, keys, or event passes.\n🧯 Safety Ready: Breakaway option available for added safety in active environments.\n🎁 All-Inclusive Pricing: Setup fee, design service, and delivery are included — no hidden costs.\n⏱️ Production Turnaround: Approximately 3 weeks from design approval and full payment.\n\nWhy Choose Our Custom Lanyards\n\n✔ Enhances brand visibility at events\n✔ Professional look for staff and attendees\n✔ Comfortable for extended wear\n✔ Reliable attachments for everyday use\n✔ Hassle-free ordering with full service included\n\nPrimary Usage\n\nTrade shows, conferences, corporate events, employee IDs, schools, conventions, festivals, brand activations, and promotional giveaways.",
+      "status": "published",
+      "images": [
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/accesories/custom-lanyard-with-badge-holder/01.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/accesories/custom-lanyard-with-badge-holder/02.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/accesories/custom-lanyard-with-badge-holder/03.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/accesories/custom-lanyard-with-badge-holder/04.jpg"
+        },
+        {
+          "url": "https://notionworxcanopy.com/assets/images/notionworx-inventory/accesories/custom-lanyard-with-badge-holder/05.jpg"
+        }
+      ],
+      "thumbnail": "https://notionworxcanopy.com/assets/images/notionworx-inventory/accesories/custom-lanyard-with-badge-holder/01.jpg",
+      "options": [
+        {
+          "title": "Size",
+          "values": [
+            "1\" Wide",
+            "3/4\" Wide",
+            "5/8\" Wide"
+          ]
+        },
+        {
+          "title": "Quantity",
+          "values": [
+            "100",
+            "200",
+            "300",
+            "500",
+            "1000"
+          ]
+        },
+        {
+          "title": "Attachment Options",
+          "values": [
+            "Bulldog Clip",
+            "J-hook",
+            "Keyring",
+            "Lobster Claw"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "1\" Wide / 100 / Bulldog Clip",
+          "sku": "NWGON100BC-1",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 21800,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Size": "1\" Wide",
+            "Quantity": "100",
+            "Attachment Options": "Bulldog Clip"
+          },
+          "metadata": {
+            "source_variant_id": 43615675842695,
+            "source_requires_shipping": true,
+            "source_taxable": true,
+            "source_grams": 0,
+            "source_position": 1,
+            "source_sku": "NWGON100BC-1",
+            "source_option_values": [
+              "1\" Wide",
+              "100",
+              "Bulldog Clip"
+            ],
+            "source_compare_at_price": null
+          }
+        },
+        {
+          "title": "1\" Wide / 100 / J-hook",
+          "sku": "NWGON100JH-1",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 21800,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Size": "1\" Wide",
+            "Quantity": "100",
+            "Attachment Options": "J-hook"
+          },
+          "metadata": {
+            "source_variant_id": 43615675875463,
+            "source_requires_shipping": true,
+            "source_taxable": true,
+            "source_grams": 0,
+            "source_position": 2,
+            "source_sku": "NWGON100JH-1",
+            "source_option_values": [
+              "1\" Wide",
+              "100",
+              "J-hook"
+            ],
+            "source_compare_at_price": null
+          }
+        },
+        {
+          "title": "1\" Wide / 100 / Keyring",
+          "sku": "NWGON100KR-1",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 21800,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Size": "1\" Wide",
+            "Quantity": "100",
+            "Attachment Options": "Keyring"
+          },
+          "metadata": {
+            "source_variant_id": 43615675908231,
+            "source_requires_shipping": true,
+            "source_taxable": true,
+            "source_grams": 0,
+            "source_position": 3,
+            "source_sku": "NWGON100KR-1",
+            "source_option_values": [
+              "1\" Wide",
+              "100",
+              "Keyring"
+            ],
+            "source_compare_at_price": null
+          }
+        },
+        {
+          "title": "1\" Wide / 100 / Lobster Claw",
+          "sku": "NWGON100LC-1",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 21800,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Size": "1\" Wide",
+            "Quantity": "100",
+            "Attachment Options": "Lobster Claw"
+          },
+          "metadata": {
+            "source_variant_id": 43615675940999,
+            "source_requires_shipping": true,
+            "source_taxable": true,
+            "source_grams": 0,
+            "source_position": 4,
+            "source_sku": "NWGON100LC-1",
+            "source_option_values": [
+              "1\" Wide",
+              "100",
+              "Lobster Claw"
+            ],
+            "source_compare_at_price": null
+          }
+        },
+        {
+          "title": "1\" Wide / 200 / Bulldog Clip",
+          "sku": "NWGON200BC-1",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 34600,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Size": "1\" Wide",
+            "Quantity": "200",
+            "Attachment Options": "Bulldog Clip"
+          },
+          "metadata": {
+            "source_variant_id": 43615675973767,
+            "source_requires_shipping": true,
+            "source_taxable": true,
+            "source_grams": 0,
+            "source_position": 5,
+            "source_sku": "NWGON200BC-1",
+            "source_option_values": [
+              "1\" Wide",
+              "200",
+              "Bulldog Clip"
+            ],
+            "source_compare_at_price": null
+          }
+        },
+        {
+          "title": "1\" Wide / 200 / J-hook",
+          "sku": "NWGON200JH-1",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 34600,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Size": "1\" Wide",
+            "Quantity": "200",
+            "Attachment Options": "J-hook"
+          },
+          "metadata": {
+            "source_variant_id": 43615676006535,
+            "source_requires_shipping": true,
+            "source_taxable": true,
+            "source_grams": 0,
+            "source_position": 6,
+            "source_sku": "NWGON200JH-1",
+            "source_option_values": [
+              "1\" Wide",
+              "200",
+              "J-hook"
+            ],
+            "source_compare_at_price": null
+          }
+        },
+        {
+          "title": "1\" Wide / 200 / Keyring",
+          "sku": "NWGON200KR-1",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 34600,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Size": "1\" Wide",
+            "Quantity": "200",
+            "Attachment Options": "Keyring"
+          },
+          "metadata": {
+            "source_variant_id": 43615676039303,
+            "source_requires_shipping": true,
+            "source_taxable": true,
+            "source_grams": 0,
+            "source_position": 7,
+            "source_sku": "NWGON200KR-1",
+            "source_option_values": [
+              "1\" Wide",
+              "200",
+              "Keyring"
+            ],
+            "source_compare_at_price": null
+          }
+        },
+        {
+          "title": "1\" Wide / 200 / Lobster Claw",
+          "sku": "NWGON200LC-1",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 34600,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Size": "1\" Wide",
+            "Quantity": "200",
+            "Attachment Options": "Lobster Claw"
+          },
+          "metadata": {
+            "source_variant_id": 43615676072071,
+            "source_requires_shipping": true,
+            "source_taxable": true,
+            "source_grams": 0,
+            "source_position": 8,
+            "source_sku": "NWGON200LC-1",
+            "source_option_values": [
+              "1\" Wide",
+              "200",
+              "Lobster Claw"
+            ],
+            "source_compare_at_price": null
+          }
+        },
+        {
+          "title": "1\" Wide / 300 / Bulldog Clip",
+          "sku": "NWGON300BC-1",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 31400,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Size": "1\" Wide",
+            "Quantity": "300",
+            "Attachment Options": "Bulldog Clip"
+          },
+          "metadata": {
+            "source_variant_id": 43615676104839,
+            "source_requires_shipping": true,
+            "source_taxable": true,
+            "source_grams": 0,
+            "source_position": 9,
+            "source_sku": "NWGON300BC-1",
+            "source_option_values": [
+              "1\" Wide",
+              "300",
+              "Bulldog Clip"
+            ],
+            "source_compare_at_price": null
+          }
+        },
+        {
+          "title": "1\" Wide / 300 / J-hook",
+          "sku": "NWGON300JH-1",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 31400,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Size": "1\" Wide",
+            "Quantity": "300",
+            "Attachment Options": "J-hook"
+          },
+          "metadata": {
+            "source_variant_id": 43615676137607,
+            "source_requires_shipping": true,
+            "source_taxable": true,
+            "source_grams": 0,
+            "source_position": 10,
+            "source_sku": "NWGON300JH-1",
+            "source_option_values": [
+              "1\" Wide",
+              "300",
+              "J-hook"
+            ],
+            "source_compare_at_price": null
+          }
+        },
+        {
+          "title": "1\" Wide / 300 / Keyring",
+          "sku": "NWGON300KR-1",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 31400,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Size": "1\" Wide",
+            "Quantity": "300",
+            "Attachment Options": "Keyring"
+          },
+          "metadata": {
+            "source_variant_id": 43615676170375,
+            "source_requires_shipping": true,
+            "source_taxable": true,
+            "source_grams": 0,
+            "source_position": 11,
+            "source_sku": "NWGON300KR-1",
+            "source_option_values": [
+              "1\" Wide",
+              "300",
+              "Keyring"
+            ],
+            "source_compare_at_price": null
+          }
+        },
+        {
+          "title": "1\" Wide / 300 / Lobster Claw",
+          "sku": "NWGON300LC-1",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 31400,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Size": "1\" Wide",
+            "Quantity": "300",
+            "Attachment Options": "Lobster Claw"
+          },
+          "metadata": {
+            "source_variant_id": 43615676203143,
+            "source_requires_shipping": true,
+            "source_taxable": true,
+            "source_grams": 0,
+            "source_position": 12,
+            "source_sku": "NWGON300LC-1",
+            "source_option_values": [
+              "1\" Wide",
+              "300",
+              "Lobster Claw"
+            ],
+            "source_compare_at_price": null
+          }
+        },
+        {
+          "title": "1\" Wide / 500 / Bulldog Clip",
+          "sku": "NWGON500BC-1",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 47000,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Size": "1\" Wide",
+            "Quantity": "500",
+            "Attachment Options": "Bulldog Clip"
+          },
+          "metadata": {
+            "source_variant_id": 43615676235911,
+            "source_requires_shipping": true,
+            "source_taxable": true,
+            "source_grams": 0,
+            "source_position": 13,
+            "source_sku": "NWGON500BC-1",
+            "source_option_values": [
+              "1\" Wide",
+              "500",
+              "Bulldog Clip"
+            ],
+            "source_compare_at_price": null
+          }
+        },
+        {
+          "title": "1\" Wide / 500 / J-hook",
+          "sku": "NWGON500JH-1",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 47000,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Size": "1\" Wide",
+            "Quantity": "500",
+            "Attachment Options": "J-hook"
+          },
+          "metadata": {
+            "source_variant_id": 43615676268679,
+            "source_requires_shipping": true,
+            "source_taxable": true,
+            "source_grams": 0,
+            "source_position": 14,
+            "source_sku": "NWGON500JH-1",
+            "source_option_values": [
+              "1\" Wide",
+              "500",
+              "J-hook"
+            ],
+            "source_compare_at_price": null
+          }
+        },
+        {
+          "title": "1\" Wide / 500 / Keyring",
+          "sku": "NWGONKR500-1",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 47000,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Size": "1\" Wide",
+            "Quantity": "500",
+            "Attachment Options": "Keyring"
+          },
+          "metadata": {
+            "source_variant_id": 43615676301447,
+            "source_requires_shipping": true,
+            "source_taxable": true,
+            "source_grams": 0,
+            "source_position": 15,
+            "source_sku": "NWGONKR500-1",
+            "source_option_values": [
+              "1\" Wide",
+              "500",
+              "Keyring"
+            ],
+            "source_compare_at_price": null
+          }
+        },
+        {
+          "title": "1\" Wide / 500 / Lobster Claw",
+          "sku": "NWGON500LC-1",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 47000,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Size": "1\" Wide",
+            "Quantity": "500",
+            "Attachment Options": "Lobster Claw"
+          },
+          "metadata": {
+            "source_variant_id": 43615676334215,
+            "source_requires_shipping": true,
+            "source_taxable": true,
+            "source_grams": 0,
+            "source_position": 16,
+            "source_sku": "NWGON500LC-1",
+            "source_option_values": [
+              "1\" Wide",
+              "500",
+              "Lobster Claw"
+            ],
+            "source_compare_at_price": null
+          }
+        },
+        {
+          "title": "1\" Wide / 1000 / Bulldog Clip",
+          "sku": "NWGON1000BC-1",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 85000,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Size": "1\" Wide",
+            "Quantity": "1000",
+            "Attachment Options": "Bulldog Clip"
+          },
+          "metadata": {
+            "source_variant_id": 43615676366983,
+            "source_requires_shipping": true,
+            "source_taxable": true,
+            "source_grams": 0,
+            "source_position": 17,
+            "source_sku": "NWGON1000BC-1",
+            "source_option_values": [
+              "1\" Wide",
+              "1000",
+              "Bulldog Clip"
+            ],
+            "source_compare_at_price": null
+          }
+        },
+        {
+          "title": "1\" Wide / 1000 / J-hook",
+          "sku": "NWGON1000JH-1",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 85000,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Size": "1\" Wide",
+            "Quantity": "1000",
+            "Attachment Options": "J-hook"
+          },
+          "metadata": {
+            "source_variant_id": 43615676399751,
+            "source_requires_shipping": true,
+            "source_taxable": true,
+            "source_grams": 0,
+            "source_position": 18,
+            "source_sku": "NWGON1000JH-1",
+            "source_option_values": [
+              "1\" Wide",
+              "1000",
+              "J-hook"
+            ],
+            "source_compare_at_price": null
+          }
+        },
+        {
+          "title": "1\" Wide / 1000 / Keyring",
+          "sku": "NWGON1000KR-1",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 85000,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Size": "1\" Wide",
+            "Quantity": "1000",
+            "Attachment Options": "Keyring"
+          },
+          "metadata": {
+            "source_variant_id": 43615676432519,
+            "source_requires_shipping": true,
+            "source_taxable": true,
+            "source_grams": 0,
+            "source_position": 19,
+            "source_sku": "NWGON1000KR-1",
+            "source_option_values": [
+              "1\" Wide",
+              "1000",
+              "Keyring"
+            ],
+            "source_compare_at_price": null
+          }
+        },
+        {
+          "title": "1\" Wide / 1000 / Lobster Claw",
+          "sku": "NWGON1000LC-1",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 85000,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Size": "1\" Wide",
+            "Quantity": "1000",
+            "Attachment Options": "Lobster Claw"
+          },
+          "metadata": {
+            "source_variant_id": 43615676465287,
+            "source_requires_shipping": true,
+            "source_taxable": true,
+            "source_grams": 0,
+            "source_position": 20,
+            "source_sku": "NWGON1000LC-1",
+            "source_option_values": [
+              "1\" Wide",
+              "1000",
+              "Lobster Claw"
+            ],
+            "source_compare_at_price": null
+          }
+        },
+        {
+          "title": "3/4\" Wide / 100 / Bulldog Clip",
+          "sku": "NWGON100BC-34",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 21400,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Size": "3/4\" Wide",
+            "Quantity": "100",
+            "Attachment Options": "Bulldog Clip"
+          },
+          "metadata": {
+            "source_variant_id": 43615676498055,
+            "source_requires_shipping": true,
+            "source_taxable": true,
+            "source_grams": 0,
+            "source_position": 21,
+            "source_sku": "NWGON100BC-34",
+            "source_option_values": [
+              "3/4\" Wide",
+              "100",
+              "Bulldog Clip"
+            ],
+            "source_compare_at_price": null
+          }
+        },
+        {
+          "title": "3/4\" Wide / 100 / J-hook",
+          "sku": "NWGON100JH-34",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 21400,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Size": "3/4\" Wide",
+            "Quantity": "100",
+            "Attachment Options": "J-hook"
+          },
+          "metadata": {
+            "source_variant_id": 43615676530823,
+            "source_requires_shipping": true,
+            "source_taxable": true,
+            "source_grams": 0,
+            "source_position": 22,
+            "source_sku": "NWGON100JH-34",
+            "source_option_values": [
+              "3/4\" Wide",
+              "100",
+              "J-hook"
+            ],
+            "source_compare_at_price": null
+          }
+        },
+        {
+          "title": "3/4\" Wide / 100 / Keyring",
+          "sku": "NWGON100KR-34",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 21400,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Size": "3/4\" Wide",
+            "Quantity": "100",
+            "Attachment Options": "Keyring"
+          },
+          "metadata": {
+            "source_variant_id": 43615676563591,
+            "source_requires_shipping": true,
+            "source_taxable": true,
+            "source_grams": 0,
+            "source_position": 23,
+            "source_sku": "NWGON100KR-34",
+            "source_option_values": [
+              "3/4\" Wide",
+              "100",
+              "Keyring"
+            ],
+            "source_compare_at_price": null
+          }
+        },
+        {
+          "title": "3/4\" Wide / 100 / Lobster Claw",
+          "sku": "NWGON100LB-34",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 21400,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Size": "3/4\" Wide",
+            "Quantity": "100",
+            "Attachment Options": "Lobster Claw"
+          },
+          "metadata": {
+            "source_variant_id": 43615676596359,
+            "source_requires_shipping": true,
+            "source_taxable": true,
+            "source_grams": 0,
+            "source_position": 24,
+            "source_sku": "NWGON100LB-34",
+            "source_option_values": [
+              "3/4\" Wide",
+              "100",
+              "Lobster Claw"
+            ],
+            "source_compare_at_price": null
+          }
+        },
+        {
+          "title": "3/4\" Wide / 200 / Bulldog Clip",
+          "sku": "NWGON200BC-34",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 33800,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Size": "3/4\" Wide",
+            "Quantity": "200",
+            "Attachment Options": "Bulldog Clip"
+          },
+          "metadata": {
+            "source_variant_id": 43615676629127,
+            "source_requires_shipping": true,
+            "source_taxable": true,
+            "source_grams": 0,
+            "source_position": 25,
+            "source_sku": "NWGON200BC-34",
+            "source_option_values": [
+              "3/4\" Wide",
+              "200",
+              "Bulldog Clip"
+            ],
+            "source_compare_at_price": null
+          }
+        },
+        {
+          "title": "3/4\" Wide / 200 / J-hook",
+          "sku": "NWGON200JH-34",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 33800,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Size": "3/4\" Wide",
+            "Quantity": "200",
+            "Attachment Options": "J-hook"
+          },
+          "metadata": {
+            "source_variant_id": 43615676661895,
+            "source_requires_shipping": true,
+            "source_taxable": true,
+            "source_grams": 0,
+            "source_position": 26,
+            "source_sku": "NWGON200JH-34",
+            "source_option_values": [
+              "3/4\" Wide",
+              "200",
+              "J-hook"
+            ],
+            "source_compare_at_price": null
+          }
+        },
+        {
+          "title": "3/4\" Wide / 200 / Keyring",
+          "sku": "NWGON200KR-34",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 33800,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Size": "3/4\" Wide",
+            "Quantity": "200",
+            "Attachment Options": "Keyring"
+          },
+          "metadata": {
+            "source_variant_id": 43615676694663,
+            "source_requires_shipping": true,
+            "source_taxable": true,
+            "source_grams": 0,
+            "source_position": 27,
+            "source_sku": "NWGON200KR-34",
+            "source_option_values": [
+              "3/4\" Wide",
+              "200",
+              "Keyring"
+            ],
+            "source_compare_at_price": null
+          }
+        },
+        {
+          "title": "3/4\" Wide / 200 / Lobster Claw",
+          "sku": "NWGON200LC-34",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 33800,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Size": "3/4\" Wide",
+            "Quantity": "200",
+            "Attachment Options": "Lobster Claw"
+          },
+          "metadata": {
+            "source_variant_id": 43615676727431,
+            "source_requires_shipping": true,
+            "source_taxable": true,
+            "source_grams": 0,
+            "source_position": 28,
+            "source_sku": "NWGON200LC-34",
+            "source_option_values": [
+              "3/4\" Wide",
+              "200",
+              "Lobster Claw"
+            ],
+            "source_compare_at_price": null
+          }
+        },
+        {
+          "title": "3/4\" Wide / 300 / Bulldog Clip",
+          "sku": "NWGON300BC-34",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 30200,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Size": "3/4\" Wide",
+            "Quantity": "300",
+            "Attachment Options": "Bulldog Clip"
+          },
+          "metadata": {
+            "source_variant_id": 43615676760199,
+            "source_requires_shipping": true,
+            "source_taxable": true,
+            "source_grams": 0,
+            "source_position": 29,
+            "source_sku": "NWGON300BC-34",
+            "source_option_values": [
+              "3/4\" Wide",
+              "300",
+              "Bulldog Clip"
+            ],
+            "source_compare_at_price": null
+          }
+        },
+        {
+          "title": "3/4\" Wide / 300 / J-hook",
+          "sku": "NWGON300JH-34",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 30200,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Size": "3/4\" Wide",
+            "Quantity": "300",
+            "Attachment Options": "J-hook"
+          },
+          "metadata": {
+            "source_variant_id": 43615676792967,
+            "source_requires_shipping": true,
+            "source_taxable": true,
+            "source_grams": 0,
+            "source_position": 30,
+            "source_sku": "NWGON300JH-34",
+            "source_option_values": [
+              "3/4\" Wide",
+              "300",
+              "J-hook"
+            ],
+            "source_compare_at_price": null
+          }
+        },
+        {
+          "title": "3/4\" Wide / 300 / Keyring",
+          "sku": "NWGON300KR-34",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 30200,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Size": "3/4\" Wide",
+            "Quantity": "300",
+            "Attachment Options": "Keyring"
+          },
+          "metadata": {
+            "source_variant_id": 43615676825735,
+            "source_requires_shipping": true,
+            "source_taxable": true,
+            "source_grams": 0,
+            "source_position": 31,
+            "source_sku": "NWGON300KR-34",
+            "source_option_values": [
+              "3/4\" Wide",
+              "300",
+              "Keyring"
+            ],
+            "source_compare_at_price": null
+          }
+        },
+        {
+          "title": "3/4\" Wide / 300 / Lobster Claw",
+          "sku": "NWGON300LC-34",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 30200,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Size": "3/4\" Wide",
+            "Quantity": "300",
+            "Attachment Options": "Lobster Claw"
+          },
+          "metadata": {
+            "source_variant_id": 43615676858503,
+            "source_requires_shipping": true,
+            "source_taxable": true,
+            "source_grams": 0,
+            "source_position": 32,
+            "source_sku": "NWGON300LC-34",
+            "source_option_values": [
+              "3/4\" Wide",
+              "300",
+              "Lobster Claw"
+            ],
+            "source_compare_at_price": null
+          }
+        },
+        {
+          "title": "3/4\" Wide / 500 / Bulldog Clip",
+          "sku": "NWGON500BC-34",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 45000,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Size": "3/4\" Wide",
+            "Quantity": "500",
+            "Attachment Options": "Bulldog Clip"
+          },
+          "metadata": {
+            "source_variant_id": 43615676891271,
+            "source_requires_shipping": true,
+            "source_taxable": true,
+            "source_grams": 0,
+            "source_position": 33,
+            "source_sku": "NWGON500BC-34",
+            "source_option_values": [
+              "3/4\" Wide",
+              "500",
+              "Bulldog Clip"
+            ],
+            "source_compare_at_price": null
+          }
+        },
+        {
+          "title": "3/4\" Wide / 500 / J-hook",
+          "sku": "NWGON500JH-34",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 45000,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Size": "3/4\" Wide",
+            "Quantity": "500",
+            "Attachment Options": "J-hook"
+          },
+          "metadata": {
+            "source_variant_id": 43615676924039,
+            "source_requires_shipping": true,
+            "source_taxable": true,
+            "source_grams": 0,
+            "source_position": 34,
+            "source_sku": "NWGON500JH-34",
+            "source_option_values": [
+              "3/4\" Wide",
+              "500",
+              "J-hook"
+            ],
+            "source_compare_at_price": null
+          }
+        },
+        {
+          "title": "3/4\" Wide / 500 / Keyring",
+          "sku": "NWGON500KR-34",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 45000,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Size": "3/4\" Wide",
+            "Quantity": "500",
+            "Attachment Options": "Keyring"
+          },
+          "metadata": {
+            "source_variant_id": 43615676956807,
+            "source_requires_shipping": true,
+            "source_taxable": true,
+            "source_grams": 0,
+            "source_position": 35,
+            "source_sku": "NWGON500KR-34",
+            "source_option_values": [
+              "3/4\" Wide",
+              "500",
+              "Keyring"
+            ],
+            "source_compare_at_price": null
+          }
+        },
+        {
+          "title": "3/4\" Wide / 500 / Lobster Claw",
+          "sku": "NWGON500LC-34",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 45000,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Size": "3/4\" Wide",
+            "Quantity": "500",
+            "Attachment Options": "Lobster Claw"
+          },
+          "metadata": {
+            "source_variant_id": 43615676989575,
+            "source_requires_shipping": true,
+            "source_taxable": true,
+            "source_grams": 0,
+            "source_position": 36,
+            "source_sku": "NWGON500LC-34",
+            "source_option_values": [
+              "3/4\" Wide",
+              "500",
+              "Lobster Claw"
+            ],
+            "source_compare_at_price": null
+          }
+        },
+        {
+          "title": "3/4\" Wide / 1000 / Bulldog Clip",
+          "sku": "NWGON1000BC-34",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 81000,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Size": "3/4\" Wide",
+            "Quantity": "1000",
+            "Attachment Options": "Bulldog Clip"
+          },
+          "metadata": {
+            "source_variant_id": 43615677022343,
+            "source_requires_shipping": true,
+            "source_taxable": true,
+            "source_grams": 0,
+            "source_position": 37,
+            "source_sku": "NWGON1000BC-34",
+            "source_option_values": [
+              "3/4\" Wide",
+              "1000",
+              "Bulldog Clip"
+            ],
+            "source_compare_at_price": null
+          }
+        },
+        {
+          "title": "3/4\" Wide / 1000 / J-hook",
+          "sku": "NWGON1000JH-34",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 81000,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Size": "3/4\" Wide",
+            "Quantity": "1000",
+            "Attachment Options": "J-hook"
+          },
+          "metadata": {
+            "source_variant_id": 43615677055111,
+            "source_requires_shipping": true,
+            "source_taxable": true,
+            "source_grams": 0,
+            "source_position": 38,
+            "source_sku": "NWGON1000JH-34",
+            "source_option_values": [
+              "3/4\" Wide",
+              "1000",
+              "J-hook"
+            ],
+            "source_compare_at_price": null
+          }
+        },
+        {
+          "title": "3/4\" Wide / 1000 / Keyring",
+          "sku": "NWGON1000KR-34",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 81000,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Size": "3/4\" Wide",
+            "Quantity": "1000",
+            "Attachment Options": "Keyring"
+          },
+          "metadata": {
+            "source_variant_id": 43615677087879,
+            "source_requires_shipping": true,
+            "source_taxable": true,
+            "source_grams": 0,
+            "source_position": 39,
+            "source_sku": "NWGON1000KR-34",
+            "source_option_values": [
+              "3/4\" Wide",
+              "1000",
+              "Keyring"
+            ],
+            "source_compare_at_price": null
+          }
+        },
+        {
+          "title": "3/4\" Wide / 1000 / Lobster Claw",
+          "sku": "NWGON1000LC-34",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 81000,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Size": "3/4\" Wide",
+            "Quantity": "1000",
+            "Attachment Options": "Lobster Claw"
+          },
+          "metadata": {
+            "source_variant_id": 43615677120647,
+            "source_requires_shipping": true,
+            "source_taxable": true,
+            "source_grams": 0,
+            "source_position": 40,
+            "source_sku": "NWGON1000LC-34",
+            "source_option_values": [
+              "3/4\" Wide",
+              "1000",
+              "Lobster Claw"
+            ],
+            "source_compare_at_price": null
+          }
+        },
+        {
+          "title": "5/8\" Wide / 100 / Bulldog Clip",
+          "sku": "NWGON100BC-58",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 21000,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Size": "5/8\" Wide",
+            "Quantity": "100",
+            "Attachment Options": "Bulldog Clip"
+          },
+          "metadata": {
+            "source_variant_id": 43615677153415,
+            "source_requires_shipping": true,
+            "source_taxable": true,
+            "source_grams": 0,
+            "source_position": 41,
+            "source_sku": "NWGON100BC-58",
+            "source_option_values": [
+              "5/8\" Wide",
+              "100",
+              "Bulldog Clip"
+            ],
+            "source_compare_at_price": null
+          }
+        },
+        {
+          "title": "5/8\" Wide / 100 / J-hook",
+          "sku": "NWGON100JH-58",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 21000,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Size": "5/8\" Wide",
+            "Quantity": "100",
+            "Attachment Options": "J-hook"
+          },
+          "metadata": {
+            "source_variant_id": 43615677186183,
+            "source_requires_shipping": true,
+            "source_taxable": true,
+            "source_grams": 0,
+            "source_position": 42,
+            "source_sku": "NWGON100JH-58",
+            "source_option_values": [
+              "5/8\" Wide",
+              "100",
+              "J-hook"
+            ],
+            "source_compare_at_price": null
+          }
+        },
+        {
+          "title": "5/8\" Wide / 100 / Keyring",
+          "sku": "NWGON100KR-58",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 21000,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Size": "5/8\" Wide",
+            "Quantity": "100",
+            "Attachment Options": "Keyring"
+          },
+          "metadata": {
+            "source_variant_id": 43615677218951,
+            "source_requires_shipping": true,
+            "source_taxable": true,
+            "source_grams": 0,
+            "source_position": 43,
+            "source_sku": "NWGON100KR-58",
+            "source_option_values": [
+              "5/8\" Wide",
+              "100",
+              "Keyring"
+            ],
+            "source_compare_at_price": null
+          }
+        },
+        {
+          "title": "5/8\" Wide / 100 / Lobster Claw",
+          "sku": "NWGON100LC-58",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 21000,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Size": "5/8\" Wide",
+            "Quantity": "100",
+            "Attachment Options": "Lobster Claw"
+          },
+          "metadata": {
+            "source_variant_id": 43615677251719,
+            "source_requires_shipping": true,
+            "source_taxable": true,
+            "source_grams": 0,
+            "source_position": 44,
+            "source_sku": "NWGON100LC-58",
+            "source_option_values": [
+              "5/8\" Wide",
+              "100",
+              "Lobster Claw"
+            ],
+            "source_compare_at_price": null
+          }
+        },
+        {
+          "title": "5/8\" Wide / 200 / Bulldog Clip",
+          "sku": "NWGON200BC-58",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 33000,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Size": "5/8\" Wide",
+            "Quantity": "200",
+            "Attachment Options": "Bulldog Clip"
+          },
+          "metadata": {
+            "source_variant_id": 43615677284487,
+            "source_requires_shipping": true,
+            "source_taxable": true,
+            "source_grams": 0,
+            "source_position": 45,
+            "source_sku": "NWGON200BC-58",
+            "source_option_values": [
+              "5/8\" Wide",
+              "200",
+              "Bulldog Clip"
+            ],
+            "source_compare_at_price": null
+          }
+        },
+        {
+          "title": "5/8\" Wide / 200 / J-hook",
+          "sku": "NWGON200JH-58",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 33000,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Size": "5/8\" Wide",
+            "Quantity": "200",
+            "Attachment Options": "J-hook"
+          },
+          "metadata": {
+            "source_variant_id": 43615677317255,
+            "source_requires_shipping": true,
+            "source_taxable": true,
+            "source_grams": 0,
+            "source_position": 46,
+            "source_sku": "NWGON200JH-58",
+            "source_option_values": [
+              "5/8\" Wide",
+              "200",
+              "J-hook"
+            ],
+            "source_compare_at_price": null
+          }
+        },
+        {
+          "title": "5/8\" Wide / 200 / Keyring",
+          "sku": "NWGON200KR-58",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 33000,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Size": "5/8\" Wide",
+            "Quantity": "200",
+            "Attachment Options": "Keyring"
+          },
+          "metadata": {
+            "source_variant_id": 43615677350023,
+            "source_requires_shipping": true,
+            "source_taxable": true,
+            "source_grams": 0,
+            "source_position": 47,
+            "source_sku": "NWGON200KR-58",
+            "source_option_values": [
+              "5/8\" Wide",
+              "200",
+              "Keyring"
+            ],
+            "source_compare_at_price": null
+          }
+        },
+        {
+          "title": "5/8\" Wide / 200 / Lobster Claw",
+          "sku": "NWGON200LC-58",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 33000,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Size": "5/8\" Wide",
+            "Quantity": "200",
+            "Attachment Options": "Lobster Claw"
+          },
+          "metadata": {
+            "source_variant_id": 43615677382791,
+            "source_requires_shipping": true,
+            "source_taxable": true,
+            "source_grams": 0,
+            "source_position": 48,
+            "source_sku": "NWGON200LC-58",
+            "source_option_values": [
+              "5/8\" Wide",
+              "200",
+              "Lobster Claw"
+            ],
+            "source_compare_at_price": null
+          }
+        },
+        {
+          "title": "5/8\" Wide / 300 / Bulldog Clip",
+          "sku": "NWGON300BC-58",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 29000,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Size": "5/8\" Wide",
+            "Quantity": "300",
+            "Attachment Options": "Bulldog Clip"
+          },
+          "metadata": {
+            "source_variant_id": 43615677415559,
+            "source_requires_shipping": true,
+            "source_taxable": true,
+            "source_grams": 0,
+            "source_position": 49,
+            "source_sku": "NWGON300BC-58",
+            "source_option_values": [
+              "5/8\" Wide",
+              "300",
+              "Bulldog Clip"
+            ],
+            "source_compare_at_price": null
+          }
+        },
+        {
+          "title": "5/8\" Wide / 300 / J-hook",
+          "sku": "NWGON300JH-58",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 29000,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Size": "5/8\" Wide",
+            "Quantity": "300",
+            "Attachment Options": "J-hook"
+          },
+          "metadata": {
+            "source_variant_id": 43615677448327,
+            "source_requires_shipping": true,
+            "source_taxable": true,
+            "source_grams": 0,
+            "source_position": 50,
+            "source_sku": "NWGON300JH-58",
+            "source_option_values": [
+              "5/8\" Wide",
+              "300",
+              "J-hook"
+            ],
+            "source_compare_at_price": null
+          }
+        },
+        {
+          "title": "5/8\" Wide / 300 / Keyring",
+          "sku": "NWGON300KR-58",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 29000,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Size": "5/8\" Wide",
+            "Quantity": "300",
+            "Attachment Options": "Keyring"
+          },
+          "metadata": {
+            "source_variant_id": 43615677481095,
+            "source_requires_shipping": true,
+            "source_taxable": true,
+            "source_grams": 0,
+            "source_position": 51,
+            "source_sku": "NWGON300KR-58",
+            "source_option_values": [
+              "5/8\" Wide",
+              "300",
+              "Keyring"
+            ],
+            "source_compare_at_price": null
+          }
+        },
+        {
+          "title": "5/8\" Wide / 300 / Lobster Claw",
+          "sku": "NWGON300LC-58",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 29000,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Size": "5/8\" Wide",
+            "Quantity": "300",
+            "Attachment Options": "Lobster Claw"
+          },
+          "metadata": {
+            "source_variant_id": 43615677513863,
+            "source_requires_shipping": true,
+            "source_taxable": true,
+            "source_grams": 0,
+            "source_position": 52,
+            "source_sku": "NWGON300LC-58",
+            "source_option_values": [
+              "5/8\" Wide",
+              "300",
+              "Lobster Claw"
+            ],
+            "source_compare_at_price": null
+          }
+        },
+        {
+          "title": "5/8\" Wide / 500 / Bulldog Clip",
+          "sku": "NWGON500BC-58",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 43000,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Size": "5/8\" Wide",
+            "Quantity": "500",
+            "Attachment Options": "Bulldog Clip"
+          },
+          "metadata": {
+            "source_variant_id": 43615677546631,
+            "source_requires_shipping": true,
+            "source_taxable": true,
+            "source_grams": 0,
+            "source_position": 53,
+            "source_sku": "NWGON500BC-58",
+            "source_option_values": [
+              "5/8\" Wide",
+              "500",
+              "Bulldog Clip"
+            ],
+            "source_compare_at_price": null
+          }
+        },
+        {
+          "title": "5/8\" Wide / 500 / J-hook",
+          "sku": "NWGON500JH-58",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 43000,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Size": "5/8\" Wide",
+            "Quantity": "500",
+            "Attachment Options": "J-hook"
+          },
+          "metadata": {
+            "source_variant_id": 43615677579399,
+            "source_requires_shipping": true,
+            "source_taxable": true,
+            "source_grams": 0,
+            "source_position": 54,
+            "source_sku": "NWGON500JH-58",
+            "source_option_values": [
+              "5/8\" Wide",
+              "500",
+              "J-hook"
+            ],
+            "source_compare_at_price": null
+          }
+        },
+        {
+          "title": "5/8\" Wide / 500 / Keyring",
+          "sku": "NWGON500KR-58",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 43000,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Size": "5/8\" Wide",
+            "Quantity": "500",
+            "Attachment Options": "Keyring"
+          },
+          "metadata": {
+            "source_variant_id": 43615677612167,
+            "source_requires_shipping": true,
+            "source_taxable": true,
+            "source_grams": 0,
+            "source_position": 55,
+            "source_sku": "NWGON500KR-58",
+            "source_option_values": [
+              "5/8\" Wide",
+              "500",
+              "Keyring"
+            ],
+            "source_compare_at_price": null
+          }
+        },
+        {
+          "title": "5/8\" Wide / 500 / Lobster Claw",
+          "sku": "NWGON500LC-58",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 43000,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Size": "5/8\" Wide",
+            "Quantity": "500",
+            "Attachment Options": "Lobster Claw"
+          },
+          "metadata": {
+            "source_variant_id": 43615677644935,
+            "source_requires_shipping": true,
+            "source_taxable": true,
+            "source_grams": 0,
+            "source_position": 56,
+            "source_sku": "NWGON500LC-58",
+            "source_option_values": [
+              "5/8\" Wide",
+              "500",
+              "Lobster Claw"
+            ],
+            "source_compare_at_price": null
+          }
+        },
+        {
+          "title": "5/8\" Wide / 1000 / Bulldog Clip",
+          "sku": "NWGON1000BC-58",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 77000,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Size": "5/8\" Wide",
+            "Quantity": "1000",
+            "Attachment Options": "Bulldog Clip"
+          },
+          "metadata": {
+            "source_variant_id": 43615677677703,
+            "source_requires_shipping": true,
+            "source_taxable": true,
+            "source_grams": 0,
+            "source_position": 57,
+            "source_sku": "NWGON1000BC-58",
+            "source_option_values": [
+              "5/8\" Wide",
+              "1000",
+              "Bulldog Clip"
+            ],
+            "source_compare_at_price": null
+          }
+        },
+        {
+          "title": "5/8\" Wide / 1000 / J-hook",
+          "sku": "NWGON1000JH-58",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 77000,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Size": "5/8\" Wide",
+            "Quantity": "1000",
+            "Attachment Options": "J-hook"
+          },
+          "metadata": {
+            "source_variant_id": 43615677710471,
+            "source_requires_shipping": true,
+            "source_taxable": true,
+            "source_grams": 0,
+            "source_position": 58,
+            "source_sku": "NWGON1000JH-58",
+            "source_option_values": [
+              "5/8\" Wide",
+              "1000",
+              "J-hook"
+            ],
+            "source_compare_at_price": null
+          }
+        },
+        {
+          "title": "5/8\" Wide / 1000 / Keyring",
+          "sku": "NWGON1000KR-58",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 77000,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Size": "5/8\" Wide",
+            "Quantity": "1000",
+            "Attachment Options": "Keyring"
+          },
+          "metadata": {
+            "source_variant_id": 43615677743239,
+            "source_requires_shipping": true,
+            "source_taxable": true,
+            "source_grams": 0,
+            "source_position": 59,
+            "source_sku": "NWGON1000KR-58",
+            "source_option_values": [
+              "5/8\" Wide",
+              "1000",
+              "Keyring"
+            ],
+            "source_compare_at_price": null
+          }
+        },
+        {
+          "title": "5/8\" Wide / 1000 / Lobster Claw",
+          "sku": "NWGON1000LC-58",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 77000,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Size": "5/8\" Wide",
+            "Quantity": "1000",
+            "Attachment Options": "Lobster Claw"
+          },
+          "metadata": {
+            "source_variant_id": 43615677776007,
+            "source_requires_shipping": true,
+            "source_taxable": true,
+            "source_grams": 0,
+            "source_position": 60,
+            "source_sku": "NWGON1000LC-58",
+            "source_option_values": [
+              "5/8\" Wide",
+              "1000",
+              "Lobster Claw"
+            ],
+            "source_compare_at_price": null
+          }
+        }
+      ],
+      "metadata": {
+        "source": "notionworx-inventory",
+        "source_handle": "custom-lanyard-with-badge-holder",
+        "source_product_id": 8299735187591,
+        "source_slug": "custom-lanyard-with-badge-holder",
+        "source_vendor": "Notion Worx",
+        "source_product_type": null,
+        "source_primary_category": {
+          "handle": "accesories",
+          "title": "Accessories"
+        },
+        "source_categories": [
+          {
+            "handle": "accesories",
+            "title": "Accessories"
+          },
+          {
+            "handle": "apparel",
+            "title": "APPAREL"
+          }
+        ],
+        "source_price": {
+          "min": 210.0,
+          "max": 850.0,
+          "compareAtMin": null,
+          "compareAtMax": null,
+          "variantCount": 60
+        },
+        "source_tags": [],
+        "source_skus": [
+          "NWGON100BC-1",
+          "NWGON100JH-1",
+          "NWGON100KR-1",
+          "NWGON100LC-1",
+          "NWGON200BC-1",
+          "NWGON200JH-1",
+          "NWGON200KR-1",
+          "NWGON200LC-1",
+          "NWGON300BC-1",
+          "NWGON300JH-1",
+          "NWGON300KR-1",
+          "NWGON300LC-1",
+          "NWGON500BC-1",
+          "NWGON500JH-1",
+          "NWGONKR500-1",
+          "NWGON500LC-1",
+          "NWGON1000BC-1",
+          "NWGON1000JH-1",
+          "NWGON1000KR-1",
+          "NWGON1000LC-1",
+          "NWGON100BC-34",
+          "NWGON100JH-34",
+          "NWGON100KR-34",
+          "NWGON100LB-34",
+          "NWGON200BC-34",
+          "NWGON200JH-34",
+          "NWGON200KR-34",
+          "NWGON200LC-34",
+          "NWGON300BC-34",
+          "NWGON300JH-34",
+          "NWGON300KR-34",
+          "NWGON300LC-34",
+          "NWGON500BC-34",
+          "NWGON500JH-34",
+          "NWGON500KR-34",
+          "NWGON500LC-34",
+          "NWGON1000BC-34",
+          "NWGON1000JH-34",
+          "NWGON1000KR-34",
+          "NWGON1000LC-34",
+          "NWGON100BC-58",
+          "NWGON100JH-58",
+          "NWGON100KR-58",
+          "NWGON100LC-58",
+          "NWGON200BC-58",
+          "NWGON200JH-58",
+          "NWGON200KR-58",
+          "NWGON200LC-58",
+          "NWGON300BC-58",
+          "NWGON300JH-58",
+          "NWGON300KR-58",
+          "NWGON300LC-58",
+          "NWGON500BC-58",
+          "NWGON500JH-58",
+          "NWGON500KR-58",
+          "NWGON500LC-58",
+          "NWGON1000BC-58",
+          "NWGON1000JH-58",
+          "NWGON1000KR-58",
+          "NWGON1000LC-58"
+        ],
+        "description_html": "<h2>Custom Lanyard with Badge Holder</h2>\n<p>Upgrade your event or workplace ID setup with our Custom Lanyards, designed for durability, comfort, and professional branding. Perfect for trade shows, conferences, corporate events, staff IDs, and promotional giveaways, our lanyards combine functionality with high-impact customization.</p>\n<p>Available in multiple widths and attachment options, these lanyards are fully customizable to match your brand and event needs — with design, setup, and delivery already included.</p>\n<h3>Key Features</h3>\n<p>🎨 Full Custom Printing: High-quality printing ensures your logo and artwork look sharp and professional.<br>📏 Multiple Width Options: Available in 1&quot;, 3/4&quot;, and 5/8&quot; to suit different styles and comfort preferences.<br>🔗 Attachment Options: Choose from lobster claw, bulldog clip, J-hook, or keyring attachments.<br>💪 Durable &amp; Comfortable: Made from premium materials designed for all-day wear.<br>🪪 Versatile Use: Ideal for holding ID badges, access cards, keys, or event passes.<br>🧯 Safety Ready: Breakaway option available for added safety in active environments.<br>🎁 All-Inclusive Pricing: Setup fee, design service, and delivery are included — no hidden costs.<br>⏱️ Production Turnaround: Approximately 3 weeks from design approval and full payment.</p>\n<h3>Why Choose Our Custom Lanyards</h3>\n<p>✔ Enhances brand visibility at events<br>✔ Professional look for staff and attendees<br>✔ Comfortable for extended wear<br>✔ Reliable attachments for everyday use<br>✔ Hassle-free ordering with full service included</p>\n<h3>Primary Usage</h3>\n<p>Trade shows, conferences, corporate events, employee IDs, schools, conventions, festivals, brand activations, and promotional giveaways.</p>",
+        "description_text": "Custom Lanyard with Badge Holder\n\nUpgrade your event or workplace ID setup with our Custom Lanyards, designed for durability, comfort, and professional branding. Perfect for trade shows, conferences, corporate events, staff IDs, and promotional giveaways, our lanyards combine functionality with high-impact customization.\n\nAvailable in multiple widths and attachment options, these lanyards are fully customizable to match your brand and event needs — with design, setup, and delivery already included.\n\nKey Features\n\n🎨 Full Custom Printing: High-quality printing ensures your logo and artwork look sharp and professional.\n📏 Multiple Width Options: Available in 1\", 3/4\", and 5/8\" to suit different styles and comfort preferences.\n🔗 Attachment Options: Choose from lobster claw, bulldog clip, J-hook, or keyring attachments.\n💪 Durable & Comfortable: Made from premium materials designed for all-day wear.\n🪪 Versatile Use: Ideal for holding ID badges, access cards, keys, or event passes.\n🧯 Safety Ready: Breakaway option available for added safety in active environments.\n🎁 All-Inclusive Pricing: Setup fee, design service, and delivery are included — no hidden costs.\n⏱️ Production Turnaround: Approximately 3 weeks from design approval and full payment.\n\nWhy Choose Our Custom Lanyards\n\n✔ Enhances brand visibility at events\n✔ Professional look for staff and attendees\n✔ Comfortable for extended wear\n✔ Reliable attachments for everyday use\n✔ Hassle-free ordering with full service included\n\nPrimary Usage\n\nTrade shows, conferences, corporate events, employee IDs, schools, conventions, festivals, brand activations, and promotional giveaways.",
+        "how_to_order_html": "<ul>\n  <li>SKU<br>NWGON100BC-1</li>\n</ul>\n<h3>3 Easy Steps</h3>\n<p>Step 1: Shop 🛒<br><br>Pick your products and add-ons, then add your order to the cart.</p>\n<p>Step 2: Payment 💳<br><br>Go to your cart and choose your payment option:<br><br>Full payment: your design gets priority 🚀<br><br>Deposit: start the design now and pay the remaining balance after artwork approval<br><br>(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)</p>\n<p>Step 3: Artwork 🎨<br><br>Complete checkout and upload your artwork using the provided link.<br><br>Don’t see it? No worries — we’ll email it to you.</p>",
+        "how_to_order_text": "- SKU\n  NWGON100BC-1\n\n3 Easy Steps\n\nStep 1: Shop 🛒\n\nPick your products and add-ons, then add your order to the cart.\n\nStep 2: Payment 💳\n\nGo to your cart and choose your payment option:\n\nFull payment: your design gets priority 🚀\n\nDeposit: start the design now and pay the remaining balance after artwork approval\n\n(Deposit option applies only to orders over $295 USD. Orders below this amount require full payment.)\n\nStep 3: Artwork 🎨\n\nComplete checkout and upload your artwork using the provided link.\n\nDon’t see it? No worries — we’ll email it to you.",
+        "dimensions_html": null,
+        "dimensions_text": null,
+        "warranty_html": null,
+        "warranty_text": null,
+        "source_options": [
+          {
+            "title": "Size",
+            "values": [
+              "1\" Wide",
+              "3/4\" Wide",
+              "5/8\" Wide"
+            ]
+          },
+          {
+            "title": "Quantity",
+            "values": [
+              "100",
+              "200",
+              "300",
+              "500",
+              "1000"
+            ]
+          },
+          {
+            "title": "Attachment Options",
+            "values": [
+              "Bulldog Clip",
+              "J-hook",
+              "Keyring",
+              "Lobster Claw"
+            ]
+          }
+        ],
+        "source_variants": [
+          {
+            "id": 43615675842695,
+            "title": "1\" Wide / 100 / Bulldog Clip",
+            "sku": "NWGON100BC-1",
+            "available": true,
+            "price": 218.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "1\" Wide",
+              "100",
+              "Bulldog Clip"
+            ],
+            "requiresShipping": true,
+            "taxable": true,
+            "grams": 0,
+            "position": 1
+          },
+          {
+            "id": 43615675875463,
+            "title": "1\" Wide / 100 / J-hook",
+            "sku": "NWGON100JH-1",
+            "available": true,
+            "price": 218.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "1\" Wide",
+              "100",
+              "J-hook"
+            ],
+            "requiresShipping": true,
+            "taxable": true,
+            "grams": 0,
+            "position": 2
+          },
+          {
+            "id": 43615675908231,
+            "title": "1\" Wide / 100 / Keyring",
+            "sku": "NWGON100KR-1",
+            "available": true,
+            "price": 218.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "1\" Wide",
+              "100",
+              "Keyring"
+            ],
+            "requiresShipping": true,
+            "taxable": true,
+            "grams": 0,
+            "position": 3
+          },
+          {
+            "id": 43615675940999,
+            "title": "1\" Wide / 100 / Lobster Claw",
+            "sku": "NWGON100LC-1",
+            "available": true,
+            "price": 218.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "1\" Wide",
+              "100",
+              "Lobster Claw"
+            ],
+            "requiresShipping": true,
+            "taxable": true,
+            "grams": 0,
+            "position": 4
+          },
+          {
+            "id": 43615675973767,
+            "title": "1\" Wide / 200 / Bulldog Clip",
+            "sku": "NWGON200BC-1",
+            "available": true,
+            "price": 346.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "1\" Wide",
+              "200",
+              "Bulldog Clip"
+            ],
+            "requiresShipping": true,
+            "taxable": true,
+            "grams": 0,
+            "position": 5
+          },
+          {
+            "id": 43615676006535,
+            "title": "1\" Wide / 200 / J-hook",
+            "sku": "NWGON200JH-1",
+            "available": true,
+            "price": 346.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "1\" Wide",
+              "200",
+              "J-hook"
+            ],
+            "requiresShipping": true,
+            "taxable": true,
+            "grams": 0,
+            "position": 6
+          },
+          {
+            "id": 43615676039303,
+            "title": "1\" Wide / 200 / Keyring",
+            "sku": "NWGON200KR-1",
+            "available": true,
+            "price": 346.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "1\" Wide",
+              "200",
+              "Keyring"
+            ],
+            "requiresShipping": true,
+            "taxable": true,
+            "grams": 0,
+            "position": 7
+          },
+          {
+            "id": 43615676072071,
+            "title": "1\" Wide / 200 / Lobster Claw",
+            "sku": "NWGON200LC-1",
+            "available": true,
+            "price": 346.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "1\" Wide",
+              "200",
+              "Lobster Claw"
+            ],
+            "requiresShipping": true,
+            "taxable": true,
+            "grams": 0,
+            "position": 8
+          },
+          {
+            "id": 43615676104839,
+            "title": "1\" Wide / 300 / Bulldog Clip",
+            "sku": "NWGON300BC-1",
+            "available": true,
+            "price": 314.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "1\" Wide",
+              "300",
+              "Bulldog Clip"
+            ],
+            "requiresShipping": true,
+            "taxable": true,
+            "grams": 0,
+            "position": 9
+          },
+          {
+            "id": 43615676137607,
+            "title": "1\" Wide / 300 / J-hook",
+            "sku": "NWGON300JH-1",
+            "available": true,
+            "price": 314.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "1\" Wide",
+              "300",
+              "J-hook"
+            ],
+            "requiresShipping": true,
+            "taxable": true,
+            "grams": 0,
+            "position": 10
+          },
+          {
+            "id": 43615676170375,
+            "title": "1\" Wide / 300 / Keyring",
+            "sku": "NWGON300KR-1",
+            "available": true,
+            "price": 314.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "1\" Wide",
+              "300",
+              "Keyring"
+            ],
+            "requiresShipping": true,
+            "taxable": true,
+            "grams": 0,
+            "position": 11
+          },
+          {
+            "id": 43615676203143,
+            "title": "1\" Wide / 300 / Lobster Claw",
+            "sku": "NWGON300LC-1",
+            "available": true,
+            "price": 314.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "1\" Wide",
+              "300",
+              "Lobster Claw"
+            ],
+            "requiresShipping": true,
+            "taxable": true,
+            "grams": 0,
+            "position": 12
+          },
+          {
+            "id": 43615676235911,
+            "title": "1\" Wide / 500 / Bulldog Clip",
+            "sku": "NWGON500BC-1",
+            "available": true,
+            "price": 470.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "1\" Wide",
+              "500",
+              "Bulldog Clip"
+            ],
+            "requiresShipping": true,
+            "taxable": true,
+            "grams": 0,
+            "position": 13
+          },
+          {
+            "id": 43615676268679,
+            "title": "1\" Wide / 500 / J-hook",
+            "sku": "NWGON500JH-1",
+            "available": true,
+            "price": 470.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "1\" Wide",
+              "500",
+              "J-hook"
+            ],
+            "requiresShipping": true,
+            "taxable": true,
+            "grams": 0,
+            "position": 14
+          },
+          {
+            "id": 43615676301447,
+            "title": "1\" Wide / 500 / Keyring",
+            "sku": "NWGONKR500-1",
+            "available": true,
+            "price": 470.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "1\" Wide",
+              "500",
+              "Keyring"
+            ],
+            "requiresShipping": true,
+            "taxable": true,
+            "grams": 0,
+            "position": 15
+          },
+          {
+            "id": 43615676334215,
+            "title": "1\" Wide / 500 / Lobster Claw",
+            "sku": "NWGON500LC-1",
+            "available": true,
+            "price": 470.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "1\" Wide",
+              "500",
+              "Lobster Claw"
+            ],
+            "requiresShipping": true,
+            "taxable": true,
+            "grams": 0,
+            "position": 16
+          },
+          {
+            "id": 43615676366983,
+            "title": "1\" Wide / 1000 / Bulldog Clip",
+            "sku": "NWGON1000BC-1",
+            "available": true,
+            "price": 850.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "1\" Wide",
+              "1000",
+              "Bulldog Clip"
+            ],
+            "requiresShipping": true,
+            "taxable": true,
+            "grams": 0,
+            "position": 17
+          },
+          {
+            "id": 43615676399751,
+            "title": "1\" Wide / 1000 / J-hook",
+            "sku": "NWGON1000JH-1",
+            "available": true,
+            "price": 850.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "1\" Wide",
+              "1000",
+              "J-hook"
+            ],
+            "requiresShipping": true,
+            "taxable": true,
+            "grams": 0,
+            "position": 18
+          },
+          {
+            "id": 43615676432519,
+            "title": "1\" Wide / 1000 / Keyring",
+            "sku": "NWGON1000KR-1",
+            "available": true,
+            "price": 850.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "1\" Wide",
+              "1000",
+              "Keyring"
+            ],
+            "requiresShipping": true,
+            "taxable": true,
+            "grams": 0,
+            "position": 19
+          },
+          {
+            "id": 43615676465287,
+            "title": "1\" Wide / 1000 / Lobster Claw",
+            "sku": "NWGON1000LC-1",
+            "available": true,
+            "price": 850.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "1\" Wide",
+              "1000",
+              "Lobster Claw"
+            ],
+            "requiresShipping": true,
+            "taxable": true,
+            "grams": 0,
+            "position": 20
+          },
+          {
+            "id": 43615676498055,
+            "title": "3/4\" Wide / 100 / Bulldog Clip",
+            "sku": "NWGON100BC-34",
+            "available": true,
+            "price": 214.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "3/4\" Wide",
+              "100",
+              "Bulldog Clip"
+            ],
+            "requiresShipping": true,
+            "taxable": true,
+            "grams": 0,
+            "position": 21
+          },
+          {
+            "id": 43615676530823,
+            "title": "3/4\" Wide / 100 / J-hook",
+            "sku": "NWGON100JH-34",
+            "available": true,
+            "price": 214.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "3/4\" Wide",
+              "100",
+              "J-hook"
+            ],
+            "requiresShipping": true,
+            "taxable": true,
+            "grams": 0,
+            "position": 22
+          },
+          {
+            "id": 43615676563591,
+            "title": "3/4\" Wide / 100 / Keyring",
+            "sku": "NWGON100KR-34",
+            "available": true,
+            "price": 214.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "3/4\" Wide",
+              "100",
+              "Keyring"
+            ],
+            "requiresShipping": true,
+            "taxable": true,
+            "grams": 0,
+            "position": 23
+          },
+          {
+            "id": 43615676596359,
+            "title": "3/4\" Wide / 100 / Lobster Claw",
+            "sku": "NWGON100LB-34",
+            "available": true,
+            "price": 214.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "3/4\" Wide",
+              "100",
+              "Lobster Claw"
+            ],
+            "requiresShipping": true,
+            "taxable": true,
+            "grams": 0,
+            "position": 24
+          },
+          {
+            "id": 43615676629127,
+            "title": "3/4\" Wide / 200 / Bulldog Clip",
+            "sku": "NWGON200BC-34",
+            "available": true,
+            "price": 338.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "3/4\" Wide",
+              "200",
+              "Bulldog Clip"
+            ],
+            "requiresShipping": true,
+            "taxable": true,
+            "grams": 0,
+            "position": 25
+          },
+          {
+            "id": 43615676661895,
+            "title": "3/4\" Wide / 200 / J-hook",
+            "sku": "NWGON200JH-34",
+            "available": true,
+            "price": 338.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "3/4\" Wide",
+              "200",
+              "J-hook"
+            ],
+            "requiresShipping": true,
+            "taxable": true,
+            "grams": 0,
+            "position": 26
+          },
+          {
+            "id": 43615676694663,
+            "title": "3/4\" Wide / 200 / Keyring",
+            "sku": "NWGON200KR-34",
+            "available": true,
+            "price": 338.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "3/4\" Wide",
+              "200",
+              "Keyring"
+            ],
+            "requiresShipping": true,
+            "taxable": true,
+            "grams": 0,
+            "position": 27
+          },
+          {
+            "id": 43615676727431,
+            "title": "3/4\" Wide / 200 / Lobster Claw",
+            "sku": "NWGON200LC-34",
+            "available": true,
+            "price": 338.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "3/4\" Wide",
+              "200",
+              "Lobster Claw"
+            ],
+            "requiresShipping": true,
+            "taxable": true,
+            "grams": 0,
+            "position": 28
+          },
+          {
+            "id": 43615676760199,
+            "title": "3/4\" Wide / 300 / Bulldog Clip",
+            "sku": "NWGON300BC-34",
+            "available": true,
+            "price": 302.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "3/4\" Wide",
+              "300",
+              "Bulldog Clip"
+            ],
+            "requiresShipping": true,
+            "taxable": true,
+            "grams": 0,
+            "position": 29
+          },
+          {
+            "id": 43615676792967,
+            "title": "3/4\" Wide / 300 / J-hook",
+            "sku": "NWGON300JH-34",
+            "available": true,
+            "price": 302.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "3/4\" Wide",
+              "300",
+              "J-hook"
+            ],
+            "requiresShipping": true,
+            "taxable": true,
+            "grams": 0,
+            "position": 30
+          },
+          {
+            "id": 43615676825735,
+            "title": "3/4\" Wide / 300 / Keyring",
+            "sku": "NWGON300KR-34",
+            "available": true,
+            "price": 302.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "3/4\" Wide",
+              "300",
+              "Keyring"
+            ],
+            "requiresShipping": true,
+            "taxable": true,
+            "grams": 0,
+            "position": 31
+          },
+          {
+            "id": 43615676858503,
+            "title": "3/4\" Wide / 300 / Lobster Claw",
+            "sku": "NWGON300LC-34",
+            "available": true,
+            "price": 302.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "3/4\" Wide",
+              "300",
+              "Lobster Claw"
+            ],
+            "requiresShipping": true,
+            "taxable": true,
+            "grams": 0,
+            "position": 32
+          },
+          {
+            "id": 43615676891271,
+            "title": "3/4\" Wide / 500 / Bulldog Clip",
+            "sku": "NWGON500BC-34",
+            "available": true,
+            "price": 450.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "3/4\" Wide",
+              "500",
+              "Bulldog Clip"
+            ],
+            "requiresShipping": true,
+            "taxable": true,
+            "grams": 0,
+            "position": 33
+          },
+          {
+            "id": 43615676924039,
+            "title": "3/4\" Wide / 500 / J-hook",
+            "sku": "NWGON500JH-34",
+            "available": true,
+            "price": 450.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "3/4\" Wide",
+              "500",
+              "J-hook"
+            ],
+            "requiresShipping": true,
+            "taxable": true,
+            "grams": 0,
+            "position": 34
+          },
+          {
+            "id": 43615676956807,
+            "title": "3/4\" Wide / 500 / Keyring",
+            "sku": "NWGON500KR-34",
+            "available": true,
+            "price": 450.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "3/4\" Wide",
+              "500",
+              "Keyring"
+            ],
+            "requiresShipping": true,
+            "taxable": true,
+            "grams": 0,
+            "position": 35
+          },
+          {
+            "id": 43615676989575,
+            "title": "3/4\" Wide / 500 / Lobster Claw",
+            "sku": "NWGON500LC-34",
+            "available": true,
+            "price": 450.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "3/4\" Wide",
+              "500",
+              "Lobster Claw"
+            ],
+            "requiresShipping": true,
+            "taxable": true,
+            "grams": 0,
+            "position": 36
+          },
+          {
+            "id": 43615677022343,
+            "title": "3/4\" Wide / 1000 / Bulldog Clip",
+            "sku": "NWGON1000BC-34",
+            "available": true,
+            "price": 810.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "3/4\" Wide",
+              "1000",
+              "Bulldog Clip"
+            ],
+            "requiresShipping": true,
+            "taxable": true,
+            "grams": 0,
+            "position": 37
+          },
+          {
+            "id": 43615677055111,
+            "title": "3/4\" Wide / 1000 / J-hook",
+            "sku": "NWGON1000JH-34",
+            "available": true,
+            "price": 810.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "3/4\" Wide",
+              "1000",
+              "J-hook"
+            ],
+            "requiresShipping": true,
+            "taxable": true,
+            "grams": 0,
+            "position": 38
+          },
+          {
+            "id": 43615677087879,
+            "title": "3/4\" Wide / 1000 / Keyring",
+            "sku": "NWGON1000KR-34",
+            "available": true,
+            "price": 810.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "3/4\" Wide",
+              "1000",
+              "Keyring"
+            ],
+            "requiresShipping": true,
+            "taxable": true,
+            "grams": 0,
+            "position": 39
+          },
+          {
+            "id": 43615677120647,
+            "title": "3/4\" Wide / 1000 / Lobster Claw",
+            "sku": "NWGON1000LC-34",
+            "available": true,
+            "price": 810.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "3/4\" Wide",
+              "1000",
+              "Lobster Claw"
+            ],
+            "requiresShipping": true,
+            "taxable": true,
+            "grams": 0,
+            "position": 40
+          },
+          {
+            "id": 43615677153415,
+            "title": "5/8\" Wide / 100 / Bulldog Clip",
+            "sku": "NWGON100BC-58",
+            "available": true,
+            "price": 210.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "5/8\" Wide",
+              "100",
+              "Bulldog Clip"
+            ],
+            "requiresShipping": true,
+            "taxable": true,
+            "grams": 0,
+            "position": 41
+          },
+          {
+            "id": 43615677186183,
+            "title": "5/8\" Wide / 100 / J-hook",
+            "sku": "NWGON100JH-58",
+            "available": true,
+            "price": 210.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "5/8\" Wide",
+              "100",
+              "J-hook"
+            ],
+            "requiresShipping": true,
+            "taxable": true,
+            "grams": 0,
+            "position": 42
+          },
+          {
+            "id": 43615677218951,
+            "title": "5/8\" Wide / 100 / Keyring",
+            "sku": "NWGON100KR-58",
+            "available": true,
+            "price": 210.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "5/8\" Wide",
+              "100",
+              "Keyring"
+            ],
+            "requiresShipping": true,
+            "taxable": true,
+            "grams": 0,
+            "position": 43
+          },
+          {
+            "id": 43615677251719,
+            "title": "5/8\" Wide / 100 / Lobster Claw",
+            "sku": "NWGON100LC-58",
+            "available": true,
+            "price": 210.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "5/8\" Wide",
+              "100",
+              "Lobster Claw"
+            ],
+            "requiresShipping": true,
+            "taxable": true,
+            "grams": 0,
+            "position": 44
+          },
+          {
+            "id": 43615677284487,
+            "title": "5/8\" Wide / 200 / Bulldog Clip",
+            "sku": "NWGON200BC-58",
+            "available": true,
+            "price": 330.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "5/8\" Wide",
+              "200",
+              "Bulldog Clip"
+            ],
+            "requiresShipping": true,
+            "taxable": true,
+            "grams": 0,
+            "position": 45
+          },
+          {
+            "id": 43615677317255,
+            "title": "5/8\" Wide / 200 / J-hook",
+            "sku": "NWGON200JH-58",
+            "available": true,
+            "price": 330.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "5/8\" Wide",
+              "200",
+              "J-hook"
+            ],
+            "requiresShipping": true,
+            "taxable": true,
+            "grams": 0,
+            "position": 46
+          },
+          {
+            "id": 43615677350023,
+            "title": "5/8\" Wide / 200 / Keyring",
+            "sku": "NWGON200KR-58",
+            "available": true,
+            "price": 330.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "5/8\" Wide",
+              "200",
+              "Keyring"
+            ],
+            "requiresShipping": true,
+            "taxable": true,
+            "grams": 0,
+            "position": 47
+          },
+          {
+            "id": 43615677382791,
+            "title": "5/8\" Wide / 200 / Lobster Claw",
+            "sku": "NWGON200LC-58",
+            "available": true,
+            "price": 330.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "5/8\" Wide",
+              "200",
+              "Lobster Claw"
+            ],
+            "requiresShipping": true,
+            "taxable": true,
+            "grams": 0,
+            "position": 48
+          },
+          {
+            "id": 43615677415559,
+            "title": "5/8\" Wide / 300 / Bulldog Clip",
+            "sku": "NWGON300BC-58",
+            "available": true,
+            "price": 290.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "5/8\" Wide",
+              "300",
+              "Bulldog Clip"
+            ],
+            "requiresShipping": true,
+            "taxable": true,
+            "grams": 0,
+            "position": 49
+          },
+          {
+            "id": 43615677448327,
+            "title": "5/8\" Wide / 300 / J-hook",
+            "sku": "NWGON300JH-58",
+            "available": true,
+            "price": 290.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "5/8\" Wide",
+              "300",
+              "J-hook"
+            ],
+            "requiresShipping": true,
+            "taxable": true,
+            "grams": 0,
+            "position": 50
+          },
+          {
+            "id": 43615677481095,
+            "title": "5/8\" Wide / 300 / Keyring",
+            "sku": "NWGON300KR-58",
+            "available": true,
+            "price": 290.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "5/8\" Wide",
+              "300",
+              "Keyring"
+            ],
+            "requiresShipping": true,
+            "taxable": true,
+            "grams": 0,
+            "position": 51
+          },
+          {
+            "id": 43615677513863,
+            "title": "5/8\" Wide / 300 / Lobster Claw",
+            "sku": "NWGON300LC-58",
+            "available": true,
+            "price": 290.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "5/8\" Wide",
+              "300",
+              "Lobster Claw"
+            ],
+            "requiresShipping": true,
+            "taxable": true,
+            "grams": 0,
+            "position": 52
+          },
+          {
+            "id": 43615677546631,
+            "title": "5/8\" Wide / 500 / Bulldog Clip",
+            "sku": "NWGON500BC-58",
+            "available": true,
+            "price": 430.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "5/8\" Wide",
+              "500",
+              "Bulldog Clip"
+            ],
+            "requiresShipping": true,
+            "taxable": true,
+            "grams": 0,
+            "position": 53
+          },
+          {
+            "id": 43615677579399,
+            "title": "5/8\" Wide / 500 / J-hook",
+            "sku": "NWGON500JH-58",
+            "available": true,
+            "price": 430.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "5/8\" Wide",
+              "500",
+              "J-hook"
+            ],
+            "requiresShipping": true,
+            "taxable": true,
+            "grams": 0,
+            "position": 54
+          },
+          {
+            "id": 43615677612167,
+            "title": "5/8\" Wide / 500 / Keyring",
+            "sku": "NWGON500KR-58",
+            "available": true,
+            "price": 430.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "5/8\" Wide",
+              "500",
+              "Keyring"
+            ],
+            "requiresShipping": true,
+            "taxable": true,
+            "grams": 0,
+            "position": 55
+          },
+          {
+            "id": 43615677644935,
+            "title": "5/8\" Wide / 500 / Lobster Claw",
+            "sku": "NWGON500LC-58",
+            "available": true,
+            "price": 430.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "5/8\" Wide",
+              "500",
+              "Lobster Claw"
+            ],
+            "requiresShipping": true,
+            "taxable": true,
+            "grams": 0,
+            "position": 56
+          },
+          {
+            "id": 43615677677703,
+            "title": "5/8\" Wide / 1000 / Bulldog Clip",
+            "sku": "NWGON1000BC-58",
+            "available": true,
+            "price": 770.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "5/8\" Wide",
+              "1000",
+              "Bulldog Clip"
+            ],
+            "requiresShipping": true,
+            "taxable": true,
+            "grams": 0,
+            "position": 57
+          },
+          {
+            "id": 43615677710471,
+            "title": "5/8\" Wide / 1000 / J-hook",
+            "sku": "NWGON1000JH-58",
+            "available": true,
+            "price": 770.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "5/8\" Wide",
+              "1000",
+              "J-hook"
+            ],
+            "requiresShipping": true,
+            "taxable": true,
+            "grams": 0,
+            "position": 58
+          },
+          {
+            "id": 43615677743239,
+            "title": "5/8\" Wide / 1000 / Keyring",
+            "sku": "NWGON1000KR-58",
+            "available": true,
+            "price": 770.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "5/8\" Wide",
+              "1000",
+              "Keyring"
+            ],
+            "requiresShipping": true,
+            "taxable": true,
+            "grams": 0,
+            "position": 59
+          },
+          {
+            "id": 43615677776007,
+            "title": "5/8\" Wide / 1000 / Lobster Claw",
+            "sku": "NWGON1000LC-58",
+            "available": true,
+            "price": 770.0,
+            "compareAtPrice": null,
+            "optionValues": [
+              "5/8\" Wide",
+              "1000",
+              "Lobster Claw"
+            ],
+            "requiresShipping": true,
+            "taxable": true,
+            "grams": 0,
+            "position": 60
+          }
+        ],
+        "source_variant_label": "Size / Quantity / Attachment Options",
+        "source_sizes": [
+          "1\" Wide / 100 / Bulldog Clip",
+          "1\" Wide / 100 / J-hook",
+          "1\" Wide / 100 / Keyring",
+          "1\" Wide / 100 / Lobster Claw",
+          "1\" Wide / 200 / Bulldog Clip",
+          "1\" Wide / 200 / J-hook",
+          "1\" Wide / 200 / Keyring",
+          "1\" Wide / 200 / Lobster Claw",
+          "1\" Wide / 300 / Bulldog Clip",
+          "1\" Wide / 300 / J-hook",
+          "1\" Wide / 300 / Keyring",
+          "1\" Wide / 300 / Lobster Claw",
+          "1\" Wide / 500 / Bulldog Clip",
+          "1\" Wide / 500 / J-hook",
+          "1\" Wide / 500 / Keyring",
+          "1\" Wide / 500 / Lobster Claw",
+          "1\" Wide / 1000 / Bulldog Clip",
+          "1\" Wide / 1000 / J-hook",
+          "1\" Wide / 1000 / Keyring",
+          "1\" Wide / 1000 / Lobster Claw",
+          "3/4\" Wide / 100 / Bulldog Clip",
+          "3/4\" Wide / 100 / J-hook",
+          "3/4\" Wide / 100 / Keyring",
+          "3/4\" Wide / 100 / Lobster Claw",
+          "3/4\" Wide / 200 / Bulldog Clip",
+          "3/4\" Wide / 200 / J-hook",
+          "3/4\" Wide / 200 / Keyring",
+          "3/4\" Wide / 200 / Lobster Claw",
+          "3/4\" Wide / 300 / Bulldog Clip",
+          "3/4\" Wide / 300 / J-hook",
+          "3/4\" Wide / 300 / Keyring",
+          "3/4\" Wide / 300 / Lobster Claw",
+          "3/4\" Wide / 500 / Bulldog Clip",
+          "3/4\" Wide / 500 / J-hook",
+          "3/4\" Wide / 500 / Keyring",
+          "3/4\" Wide / 500 / Lobster Claw",
+          "3/4\" Wide / 1000 / Bulldog Clip",
+          "3/4\" Wide / 1000 / J-hook",
+          "3/4\" Wide / 1000 / Keyring",
+          "3/4\" Wide / 1000 / Lobster Claw",
+          "5/8\" Wide / 100 / Bulldog Clip",
+          "5/8\" Wide / 100 / J-hook",
+          "5/8\" Wide / 100 / Keyring",
+          "5/8\" Wide / 100 / Lobster Claw",
+          "5/8\" Wide / 200 / Bulldog Clip",
+          "5/8\" Wide / 200 / J-hook",
+          "5/8\" Wide / 200 / Keyring",
+          "5/8\" Wide / 200 / Lobster Claw",
+          "5/8\" Wide / 300 / Bulldog Clip",
+          "5/8\" Wide / 300 / J-hook",
+          "5/8\" Wide / 300 / Keyring",
+          "5/8\" Wide / 300 / Lobster Claw",
+          "5/8\" Wide / 500 / Bulldog Clip",
+          "5/8\" Wide / 500 / J-hook",
+          "5/8\" Wide / 500 / Keyring",
+          "5/8\" Wide / 500 / Lobster Claw",
+          "5/8\" Wide / 1000 / Bulldog Clip",
+          "5/8\" Wide / 1000 / J-hook",
+          "5/8\" Wide / 1000 / Keyring",
+          "5/8\" Wide / 1000 / Lobster Claw"
+        ],
+        "source_size_variants": [
+          {
+            "value": "1\" Wide / 100 / Bulldog Clip",
+            "price": 218,
+            "active": true
+          },
+          {
+            "value": "1\" Wide / 100 / J-hook",
+            "price": 218
+          },
+          {
+            "value": "1\" Wide / 100 / Keyring",
+            "price": 218
+          },
+          {
+            "value": "1\" Wide / 100 / Lobster Claw",
+            "price": 218
+          },
+          {
+            "value": "1\" Wide / 200 / Bulldog Clip",
+            "price": 346
+          },
+          {
+            "value": "1\" Wide / 200 / J-hook",
+            "price": 346
+          },
+          {
+            "value": "1\" Wide / 200 / Keyring",
+            "price": 346
+          },
+          {
+            "value": "1\" Wide / 200 / Lobster Claw",
+            "price": 346
+          },
+          {
+            "value": "1\" Wide / 300 / Bulldog Clip",
+            "price": 314
+          },
+          {
+            "value": "1\" Wide / 300 / J-hook",
+            "price": 314
+          },
+          {
+            "value": "1\" Wide / 300 / Keyring",
+            "price": 314
+          },
+          {
+            "value": "1\" Wide / 300 / Lobster Claw",
+            "price": 314
+          },
+          {
+            "value": "1\" Wide / 500 / Bulldog Clip",
+            "price": 470
+          },
+          {
+            "value": "1\" Wide / 500 / J-hook",
+            "price": 470
+          },
+          {
+            "value": "1\" Wide / 500 / Keyring",
+            "price": 470
+          },
+          {
+            "value": "1\" Wide / 500 / Lobster Claw",
+            "price": 470
+          },
+          {
+            "value": "1\" Wide / 1000 / Bulldog Clip",
+            "price": 850
+          },
+          {
+            "value": "1\" Wide / 1000 / J-hook",
+            "price": 850
+          },
+          {
+            "value": "1\" Wide / 1000 / Keyring",
+            "price": 850
+          },
+          {
+            "value": "1\" Wide / 1000 / Lobster Claw",
+            "price": 850
+          },
+          {
+            "value": "3/4\" Wide / 100 / Bulldog Clip",
+            "price": 214
+          },
+          {
+            "value": "3/4\" Wide / 100 / J-hook",
+            "price": 214
+          },
+          {
+            "value": "3/4\" Wide / 100 / Keyring",
+            "price": 214
+          },
+          {
+            "value": "3/4\" Wide / 100 / Lobster Claw",
+            "price": 214
+          },
+          {
+            "value": "3/4\" Wide / 200 / Bulldog Clip",
+            "price": 338
+          },
+          {
+            "value": "3/4\" Wide / 200 / J-hook",
+            "price": 338
+          },
+          {
+            "value": "3/4\" Wide / 200 / Keyring",
+            "price": 338
+          },
+          {
+            "value": "3/4\" Wide / 200 / Lobster Claw",
+            "price": 338
+          },
+          {
+            "value": "3/4\" Wide / 300 / Bulldog Clip",
+            "price": 302
+          },
+          {
+            "value": "3/4\" Wide / 300 / J-hook",
+            "price": 302
+          },
+          {
+            "value": "3/4\" Wide / 300 / Keyring",
+            "price": 302
+          },
+          {
+            "value": "3/4\" Wide / 300 / Lobster Claw",
+            "price": 302
+          },
+          {
+            "value": "3/4\" Wide / 500 / Bulldog Clip",
+            "price": 450
+          },
+          {
+            "value": "3/4\" Wide / 500 / J-hook",
+            "price": 450
+          },
+          {
+            "value": "3/4\" Wide / 500 / Keyring",
+            "price": 450
+          },
+          {
+            "value": "3/4\" Wide / 500 / Lobster Claw",
+            "price": 450
+          },
+          {
+            "value": "3/4\" Wide / 1000 / Bulldog Clip",
+            "price": 810
+          },
+          {
+            "value": "3/4\" Wide / 1000 / J-hook",
+            "price": 810
+          },
+          {
+            "value": "3/4\" Wide / 1000 / Keyring",
+            "price": 810
+          },
+          {
+            "value": "3/4\" Wide / 1000 / Lobster Claw",
+            "price": 810
+          },
+          {
+            "value": "5/8\" Wide / 100 / Bulldog Clip",
+            "price": 210
+          },
+          {
+            "value": "5/8\" Wide / 100 / J-hook",
+            "price": 210
+          },
+          {
+            "value": "5/8\" Wide / 100 / Keyring",
+            "price": 210
+          },
+          {
+            "value": "5/8\" Wide / 100 / Lobster Claw",
+            "price": 210
+          },
+          {
+            "value": "5/8\" Wide / 200 / Bulldog Clip",
+            "price": 330
+          },
+          {
+            "value": "5/8\" Wide / 200 / J-hook",
+            "price": 330
+          },
+          {
+            "value": "5/8\" Wide / 200 / Keyring",
+            "price": 330
+          },
+          {
+            "value": "5/8\" Wide / 200 / Lobster Claw",
+            "price": 330
+          },
+          {
+            "value": "5/8\" Wide / 300 / Bulldog Clip",
+            "price": 290
+          },
+          {
+            "value": "5/8\" Wide / 300 / J-hook",
+            "price": 290
+          },
+          {
+            "value": "5/8\" Wide / 300 / Keyring",
+            "price": 290
+          },
+          {
+            "value": "5/8\" Wide / 300 / Lobster Claw",
+            "price": 290
+          },
+          {
+            "value": "5/8\" Wide / 500 / Bulldog Clip",
+            "price": 430
+          },
+          {
+            "value": "5/8\" Wide / 500 / J-hook",
+            "price": 430
+          },
+          {
+            "value": "5/8\" Wide / 500 / Keyring",
+            "price": 430
+          },
+          {
+            "value": "5/8\" Wide / 500 / Lobster Claw",
+            "price": 430
+          },
+          {
+            "value": "5/8\" Wide / 1000 / Bulldog Clip",
+            "price": 770
+          },
+          {
+            "value": "5/8\" Wide / 1000 / J-hook",
+            "price": 770
+          },
+          {
+            "value": "5/8\" Wide / 1000 / Keyring",
+            "price": 770
+          },
+          {
+            "value": "5/8\" Wide / 1000 / Lobster Claw",
+            "price": 770
+          }
+        ],
+        "source_filter_category": [
+          "Accessories",
+          "APPAREL"
+        ],
+        "source_filter_sizes": [
+          "1\" Wide / 100 / Bulldog Clip",
+          "1\" Wide / 100 / J-hook",
+          "1\" Wide / 100 / Keyring",
+          "1\" Wide / 100 / Lobster Claw",
+          "1\" Wide / 200 / Bulldog Clip",
+          "1\" Wide / 200 / J-hook",
+          "1\" Wide / 200 / Keyring",
+          "1\" Wide / 200 / Lobster Claw",
+          "1\" Wide / 300 / Bulldog Clip",
+          "1\" Wide / 300 / J-hook",
+          "1\" Wide / 300 / Keyring",
+          "1\" Wide / 300 / Lobster Claw",
+          "1\" Wide / 500 / Bulldog Clip",
+          "1\" Wide / 500 / J-hook",
+          "1\" Wide / 500 / Keyring",
+          "1\" Wide / 500 / Lobster Claw",
+          "1\" Wide / 1000 / Bulldog Clip",
+          "1\" Wide / 1000 / J-hook",
+          "1\" Wide / 1000 / Keyring",
+          "1\" Wide / 1000 / Lobster Claw",
+          "3/4\" Wide / 100 / Bulldog Clip",
+          "3/4\" Wide / 100 / J-hook",
+          "3/4\" Wide / 100 / Keyring",
+          "3/4\" Wide / 100 / Lobster Claw",
+          "3/4\" Wide / 200 / Bulldog Clip",
+          "3/4\" Wide / 200 / J-hook",
+          "3/4\" Wide / 200 / Keyring",
+          "3/4\" Wide / 200 / Lobster Claw",
+          "3/4\" Wide / 300 / Bulldog Clip",
+          "3/4\" Wide / 300 / J-hook",
+          "3/4\" Wide / 300 / Keyring",
+          "3/4\" Wide / 300 / Lobster Claw",
+          "3/4\" Wide / 500 / Bulldog Clip",
+          "3/4\" Wide / 500 / J-hook",
+          "3/4\" Wide / 500 / Keyring",
+          "3/4\" Wide / 500 / Lobster Claw",
+          "3/4\" Wide / 1000 / Bulldog Clip",
+          "3/4\" Wide / 1000 / J-hook",
+          "3/4\" Wide / 1000 / Keyring",
+          "3/4\" Wide / 1000 / Lobster Claw",
+          "5/8\" Wide / 100 / Bulldog Clip",
+          "5/8\" Wide / 100 / J-hook",
+          "5/8\" Wide / 100 / Keyring",
+          "5/8\" Wide / 100 / Lobster Claw",
+          "5/8\" Wide / 200 / Bulldog Clip",
+          "5/8\" Wide / 200 / J-hook",
+          "5/8\" Wide / 200 / Keyring",
+          "5/8\" Wide / 200 / Lobster Claw",
+          "5/8\" Wide / 300 / Bulldog Clip",
+          "5/8\" Wide / 300 / J-hook",
+          "5/8\" Wide / 300 / Keyring",
+          "5/8\" Wide / 300 / Lobster Claw",
+          "5/8\" Wide / 500 / Bulldog Clip",
+          "5/8\" Wide / 500 / J-hook",
+          "5/8\" Wide / 500 / Keyring",
+          "5/8\" Wide / 500 / Lobster Claw",
+          "5/8\" Wide / 1000 / Bulldog Clip",
+          "5/8\" Wide / 1000 / J-hook",
+          "5/8\" Wide / 1000 / Keyring",
+          "5/8\" Wide / 1000 / Lobster Claw"
+        ],
+        "source_reviews_text": null,
+        "source_badge_label": "Accessories",
+        "source_badge_subtext": "5 product images available",
+        "source_description": "Custom Lanyard with Badge Holder\n\nUpgrade your event or workplace ID setup with our Custom Lanyards, designed for durability, comfort, and professional branding. Perfect for trade shows, conferences, corporate events, staff IDs, and promotional giveaways, our lanyards combine functionality with high-impact customization.\n\nAvailable in multiple widths and attachment options, these lanyards are fully customizable to match your brand and event needs — with design, setup, and delivery already included.\n\nKey Features\n\n🎨 Full Custom Printing: High-quality printing ensures your logo and artwork look sharp and professional.\n📏 Multiple Width Options: Available in 1\", 3/4\", and 5/8\" to suit different styles and comfort preferences.\n🔗 Attachment Options: Choose from lobster claw, bulldog clip, J-hook, or keyring attachments.\n💪 Durable & Comfortable: Made from premium materials designed for all-day wear.\n🪪 Versatile Use: Ideal for holding ID badges, access cards, keys, or event passes.\n🧯 Safety Ready: Breakaway option available for added safety in active environments.\n🎁 All-Inclusive Pricing: Setup fee, design service, and delivery are included — no hidden costs.\n⏱️ Production Turnaround: Approximately 3 weeks from design approval and full payment.\n\nWhy Choose Our Custom Lanyards\n\n✔ Enhances brand visibility at events\n✔ Professional look for staff and attendees\n✔ Comfortable for extended wear\n✔ Reliable attachments for everyday use\n✔ Hassle-free ordering with full service included\n\nPrimary Usage\n\nTrade shows, conferences, corporate events, employee IDs, schools, conventions, festivals, brand activations, and promotional giveaways.",
+        "source_card_variant": "",
+        "source_add_on_group_keys": [],
+        "local_image_paths": [
+          "/assets/images/notionworx-inventory/accesories/custom-lanyard-with-badge-holder/01.jpg",
+          "/assets/images/notionworx-inventory/accesories/custom-lanyard-with-badge-holder/02.jpg",
+          "/assets/images/notionworx-inventory/accesories/custom-lanyard-with-badge-holder/03.jpg",
+          "/assets/images/notionworx-inventory/accesories/custom-lanyard-with-badge-holder/04.jpg",
+          "/assets/images/notionworx-inventory/accesories/custom-lanyard-with-badge-holder/05.jpg"
+        ],
+        "inventory_data_path": "data/obselete/notionworx/products/accesories/custom-lanyard-with-badge-holder.json",
+        "created_at": "2025-12-16T11:24:53-07:00",
+        "updated_at": "2026-08-18T21:24:30-06:00",
+        "published_at": "2025-12-16T11:24:53-07:00"
       },
       "sales_channels": [
         {
@@ -492,12 +4152,18 @@
             "active": true
           }
         ],
-        "source_filter_category": [],
+        "source_filter_category": [
+          "Accessories",
+          "5x5 Custom Canopies",
+          "10x15 Custom Canopies",
+          "10x20 Custom Canopies",
+          "10x10 Custom Canopies"
+        ],
         "source_filter_sizes": [
           "Default Title"
         ],
         "source_reviews_text": null,
-        "source_badge_label": null,
+        "source_badge_label": "Accessories",
         "source_badge_subtext": "4 product images available",
         "source_description": "LED Light Bars for Canopy Tents\n\nBrighten up your booth and stand out at any event with our LED Light Bars for Canopy Tents — the perfect lighting solution for food vendors, trade shows, night markets, and outdoor festivals. Designed to deliver powerful illumination while remaining lightweight and easy to install, these LED bars ensure your products and branding stay visible, day or night.\n\n💡 Ultra-Bright Illumination: High-output LED bars provide even, consistent lighting across your entire canopy.\n🔆 3 Light Modes: Switch between Daylight, Warm, and Amber settings to match the mood, event style, or time of day.\n🔋 Energy-Efficient LEDs: Long-lasting, low-power-consumption lights designed for all-day use.\n⚙️ Easy Installation: Mounts securely to canopy tent frames—no tools required.\n🎪 Universal Fit: Compatible with most 10x10, 10x15, and 10x20 canopy tent structures.\n🔌 Multiple Power Options: Includes AC adapter for standard outlets; battery-pack compatible (optional).\n🎒 Portable & Lightweight: Designed for quick setup, takedown, and transport.\n🌙 Perfect for Night Events: Ideal for food booths, vendor displays, art shows, and evening festivals.\n🛠️ Durable Build: Shock-resistant housing suitable for repeated outdoor use.\n\nWhat’s Included:\n\n- (4) Light Bars\n\n- Carrying Bag\n\n- Outlet Power Cable\n\n- USB Power Cable\n\n- Battery Power Cable\n\n- 12V auxiliary Power Cable\n\n- Extension Cables\n\n- Switch Cable\n\n- 2-Way Connector\n\n- 4-Way Connector\n\n- Canopy Clips\n\n- Screw Mount Clips\n\n- Cable Ties (Hook-and-loop)\n\n- Zip Ties\n\nAdditional Notes:\n\n- 8 light bars is the max limit to connect\n\n- If used with a metal frame, lights can attach with the magnet that is on the back of them.\n\n- Lights have 3 tones: Daylight, Warm Light, and Amber (bug repelling)\n\n- 6 watts per light, 680 lumens, Voltage：12v, 0.5 amps. ETL Certified\n\nPrimary Usage:\n\nFood booths, vendor tents, farmers’ markets, night events, trade shows, craft fairs, outdoor festivals.",
         "source_card_variant": "",
@@ -666,12 +4332,18 @@
             "active": true
           }
         ],
-        "source_filter_category": [],
+        "source_filter_category": [
+          "Accessories",
+          "5x5 Custom Canopies",
+          "10x15 Custom Canopies",
+          "10x20 Custom Canopies",
+          "10x10 Custom Canopies"
+        ],
         "source_filter_sizes": [
           "Default Title"
         ],
         "source_reviews_text": null,
-        "source_badge_label": null,
+        "source_badge_label": "Accessories",
         "source_badge_subtext": "3 product images available",
         "source_description": "📦\n\nPortable Power Station 300W, Outdoor Solar Generator Backup Battery Pack 220Wh/60000mAh\n\nAbout this item\n\n- PORTABLE POWER STATION WITH ENHANCED CAPACITY: Experience the convenience with our 300W portable power station. Designed with a sleek and compact form factor measuring 8.5 x 6.7 x 4.1 inches and weighing a mere 5 lbs, this battery station is your perfect companion for home, camping, and beyond. Equipped with an upgraded 220Wh/60000mAh lithium-ion battery pack, powerful enough to charge up to 7 devices simultaneously.\n\n- PORTABLE SOLAR POWER BANK WITH 7 OUTPUTS: This portable solar power bank battery pack features with 7 outlets. 2x110V AC outlet Pure Sine Wave to charge appliances within 300W(600W Peak),3 USB ports (5V/3.1A Max), 1 USB port (5V/3A, 9V/2A), and 1 DC vehicle output port (9-12.6V, 10A max), this portable solar power bank compatible with a wide range of devices. Enjoy simultaneous charging without any disruptive fan noise, ensuring a serene and comfortable environment wherever you are\n\n- SOLAR GENERATOR OPTIONAL: This 300W power station power bank with AC outlet can also be recharged by solar panel for unparalleled flexibility to become a solar power generator station, apart from the traditional AC wall adapter and car charging methods.The 300W power station provides real-time energy level updates during recharging and discharging, along with AC output status indicators to prevent unexpected power interruptions. With enhanced recharging options for faster and more convenient charging.\n\n- BIGGER LED, BRIGHTER LIGHT: The portable power station 300W designed with premium quality LED light source on the whole back with bigger Led light, offering you a full sense of security in a dark night indoors and outdoors.\n\n- SECURED POWER STATION BANK: Our power station bank for camping boasts an advanced BMS that guarantees voltage control, optimal temperature regulation, and top-tier safety features. Silent cooling vents maintain a secure operating temperature, while built-in protections against short-circuits and overpower scenarios, offering unparalleled peace of mind. Also, the Pure Sine Wave AC inverter can better protect your sensitive devices, preserving battery life and ensuring user/device safety.\n\n- WHAT YOU GET: Apowking 220Wh/300W Rated(600W Peak) portable generator/power station x 1, AC power adapter x 1, car charging cable x 1, cigarette lighter socket to DC adapter x 1, user manua x 1.\n\n- PROTECTING TIPS: 1.Ensure the electricity power station is fully charged before use.2.If not in use for an extended period, recharge the stored battery every 2-3 months and maintain it between 40%-70% capacity. Recharge the battery before it is completely depleted.3.Store the battery in a dry environment within the temperature range of 40°F~100°F (4°C~35°C) or in moisture-proof packaging. Keep it away from heat sources and avoid direct sunlight exposure NOTE: 1.This 300W generator is designed to support devices with a power consumption lower than 300 Watt Hours. It may not be suitable for high-capacity products such as Electric Grills, Induction Cookers, Microwaves, and Refrigerators 2.When you activate the AC output function, it is normal to see a red triangle indicator for AC output verification, which will disappear within 3-5 seconds 3.The high-quality lithium-ion batteries in this generator are capable of supporting over 1000 charge cycles, ensuring long-term battery performance, reliability, and safety\n\n🔹 Key Features\n\n- ⚡ 300W AC Output – Dual pure sine wave AC outlets for stable power\n\n- 🔋 220Wh Lithium Battery – Compact but powerful for multiple devices\n\n- 🔌 Multi-Port Charging – USB-A, USB-C, and DC outputs for phones, laptops, tablets, and other gear\n\n- 🏕️ Portable & Lightweight – Easy to carry and transport for travel or outdoor use\n\n- 🛡️ Safety Protection – Built-in BMS system guards against overload and short circuits\n\n- ☀️ Versatile Power Source – Ideal for camping, home backup, RVs, emergencies, and outdoor activities\n\n🔹 Why You’ll Love It\n\n- Great for off-grid power needs\n\n- Supports essential electronics during outages\n\n- Quick and convenient setup\n\n- Durable construction for rugged use\n\n🔹 Best Suited For\n\nPortable outdoor power, camping trips, tailgating, emergency backup, RV and travel adventures, and remote work setups.",
         "source_card_variant": "",
@@ -832,12 +4504,16 @@
             "active": true
           }
         ],
-        "source_filter_category": [],
+        "source_filter_category": [
+          "Accessories",
+          "10x10 Custom Canopies",
+          "Custom Canopy Tents – Personalized Pop Up Tents for Events"
+        ],
         "source_filter_sizes": [
           "Default Title"
         ],
         "source_reviews_text": null,
-        "source_badge_label": null,
+        "source_badge_label": "Accessories",
         "source_badge_subtext": "3 product images available",
         "source_description": "Download Template Fire Certificate\n\nThe polyester will perfectly present your logo when it is stretched suitably to fit the frame. Each of our tent billboard banners is equipped with an aluminum tubing frame. When the frame and graphic are set up, just simply attach the banner to the tent legs and then secure it with the Flag Mount Holder (we have different types, please choose the correct one for your tent). You can adjust the banner height by sliding the clamps up or down.\n\nIncluded:\n\n1pc pole\n\n2pc base\n\n2pc Flag Holder Kits\n\n1pc single sided graphics",
         "source_card_variant": "",
@@ -1002,12 +4678,18 @@
             "active": true
           }
         ],
-        "source_filter_category": [],
+        "source_filter_category": [
+          "Accessories",
+          "5x5 Custom Canopies",
+          "10x15 Custom Canopies",
+          "10x20 Custom Canopies",
+          "10x10 Custom Canopies"
+        ],
         "source_filter_sizes": [
           "Default Title"
         ],
         "source_reviews_text": null,
-        "source_badge_label": null,
+        "source_badge_label": "Accessories",
         "source_badge_subtext": "2 product images available",
         "source_description": "📦 Sandbag Ballast Kit for Event Tent Legs (Set of Four)\n\n- Keep your tent weighted down for stability. Compatible with all our tent frames. Straps around event tent legs to keep the tent weighted down. Set includes four ballasts. Each ballast has two zippered pockets for sand. Weighs 20.6 lbs. when filled with sand. Complies with Prop 65.",
         "source_card_variant": "",

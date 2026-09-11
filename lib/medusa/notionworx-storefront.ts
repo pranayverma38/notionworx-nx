@@ -21,7 +21,7 @@ import type {
 import type { ShopProduct } from "@/types/shopFilter";
 
 const APPAREL_CATEGORY_NAME = "APPAREL";
-const APPAREL_COLLECTION_HANDLE = "apparel";
+const APPAREL_CATEGORY_HANDLE = "apparel";
 const DEFAULT_OPTION_TITLES = new Set(["default option", "default title", "title"]);
 
 const localProductsBySourceHandle = new Map(
@@ -59,6 +59,13 @@ type MedusaCollection = {
   products?: unknown[];
   thumbnail?: string | null;
   images?: Array<string | { url?: string | null }> | null;
+};
+
+type MedusaProductCategory = {
+  id?: string;
+  name?: string;
+  handle?: string;
+  metadata?: JsonRecord | null;
 };
 
 type MedusaProductOption = {
@@ -104,17 +111,18 @@ type MedusaProduct = {
   metadata?: JsonRecord | null;
   collection?: MedusaCollection | null;
   collection_id?: string | null;
+  categories?: MedusaProductCategory[] | null;
   options?: MedusaProductOption[] | null;
   variants?: MedusaVariant[] | null;
   tags?: Array<string | { value?: string | null }> | null;
 };
 
-type MedusaCollectionsResponse = {
-  collections?: MedusaCollection[];
-};
-
 type MedusaProductsResponse = {
   products?: MedusaProduct[];
+};
+
+type MedusaProductCategoriesResponse = {
+  product_categories?: MedusaProductCategory[];
 };
 
 type MedusaRegionsResponse = {
@@ -159,16 +167,16 @@ function normalizeCollectionName(value?: string | null): string {
   return value?.trim().toUpperCase() ?? "";
 }
 
-function isApparelCollection(collection?: MedusaCollection | null): boolean {
-  if (!collection) return false;
+function isApparelCategory(category?: MedusaProductCategory | null): boolean {
+  if (!category) return false;
 
   return (
-    normalizeCollectionName(collection.title) === APPAREL_CATEGORY_NAME ||
-    collection.handle?.trim().toLowerCase() === APPAREL_COLLECTION_HANDLE ||
-    normalizeCollectionName(readMetadataString(collection.metadata, ["title"])) ===
+    normalizeCollectionName(category.name) === APPAREL_CATEGORY_NAME ||
+    category.handle?.trim().toLowerCase() === APPAREL_CATEGORY_HANDLE ||
+    normalizeCollectionName(readMetadataString(category.metadata, ["title"])) ===
       APPAREL_CATEGORY_NAME ||
-    readMetadataString(collection.metadata, ["source_handle"]) ===
-      APPAREL_COLLECTION_HANDLE
+    readMetadataString(category.metadata, ["source_handle"]) ===
+      APPAREL_CATEGORY_HANDLE
   );
 }
 
@@ -389,25 +397,6 @@ const getDefaultRegionId = cache(async () => {
   return regions.find((region) => Boolean(region.id))?.id ?? undefined;
 });
 
-const getMedusaCollections = cache(async () => {
-  const payload = await fetchMedusaJson<MedusaCollectionsResponse>(
-    "/store/collections?limit=250",
-  );
-
-  return payload?.collections ?? [];
-});
-
-const getAdminCollectionProducts = cache(async (collectionId: string): Promise<MedusaProduct[]> => {
-  const query = new URLSearchParams({
-    limit: "250",
-    collection_id: collectionId,
-  });
-  const payload = await fetchMedusaAdminJson<MedusaProductsResponse>(
-    `/admin/products?${query.toString()}`,
-  );
-  return payload?.products ?? [];
-});
-
 const getAllStoreProducts = cache(async (regionId?: string): Promise<MedusaProduct[]> => {
   const query = new URLSearchParams({
     limit: "250",
@@ -427,12 +416,24 @@ const getAllStoreProducts = cache(async (regionId?: string): Promise<MedusaProdu
 const getAllAdminProducts = cache(async (): Promise<MedusaProduct[]> => {
   const query = new URLSearchParams({
     limit: "250",
+    fields: "*categories",
   });
   const payload = await fetchMedusaAdminJson<MedusaProductsResponse>(
     `/admin/products?${query.toString()}`,
   );
 
   return payload?.products ?? [];
+});
+
+const getAllAdminProductCategories = cache(async (): Promise<MedusaProductCategory[]> => {
+  const query = new URLSearchParams({
+    limit: "250",
+  });
+  const payload = await fetchMedusaAdminJson<MedusaProductCategoriesResponse>(
+    `/admin/product-categories?${query.toString()}`,
+  );
+
+  return payload?.product_categories ?? [];
 });
 
 function normalizeDisplayPrice(amount: number | undefined | null): number | undefined {
@@ -483,18 +484,6 @@ function extractSourceCompareAtPrice(sourcePrice: JsonRecord | undefined, source
   return Math.min(...variantCompareAtValues);
 }
 
-function collectOptionValues(option?: MedusaProductOption | null): string[] {
-  return (option?.values ?? [])
-    .map((value) => {
-      if (typeof value === "string") {
-        return value.trim();
-      }
-
-      return value?.value?.trim() ?? "";
-    })
-    .filter(Boolean);
-}
-
 function buildVariantOptionsMap(variant: MedusaVariant): Record<string, string> {
   const optionMap: Record<string, string> = {};
 
@@ -514,18 +503,134 @@ function isDefaultOptionTitle(title?: string | null): boolean {
   return !normalized || DEFAULT_OPTION_TITLES.has(normalized);
 }
 
-function readSourceCategoryTitles(metadata: JsonRecord | null | undefined): string[] {
-  return readMetadataRecordArray(metadata, "source_categories")
-    .map((category) => readJsonRecordString(category, "title"))
-    .filter((title): title is string => Boolean(title));
-}
-
 function readSourcePrimaryCategoryTitle(
   metadata: JsonRecord | null | undefined,
 ): string | undefined {
   return readJsonRecordString(
     readMetadataRecord(metadata, "source_primary_category"),
     "title",
+  );
+}
+
+type ProductCategoryEntry = Pick<
+  MedusaProductCategory,
+  "id" | "handle" | "name" | "metadata"
+>;
+
+function uniqueStrings(values: Array<string | undefined>): string[] {
+  return Array.from(
+    new Set(
+      values
+        .map((value) => value?.trim())
+        .filter((value): value is string => Boolean(value)),
+    ),
+  );
+}
+
+function buildSourceCategoryEntry(
+  record: JsonRecord | undefined,
+): ProductCategoryEntry | null {
+  if (!record) {
+    return null;
+  }
+
+  const handle = readJsonRecordString(record, "handle");
+  const name =
+    readJsonRecordString(record, "title") ?? readJsonRecordString(record, "name");
+
+  if (!handle && !name) {
+    return null;
+  }
+
+  return {
+    ...(handle ? { handle } : {}),
+    ...(name ? { name } : {}),
+    metadata: record,
+  };
+}
+
+function getCategoryMapKey(
+  category?: Pick<MedusaProductCategory, "id" | "handle" | "name"> | null,
+): string | undefined {
+  if (!category) {
+    return undefined;
+  }
+
+  const id = category.id?.trim();
+  if (id) {
+    return `id:${id}`;
+  }
+
+  const handle = category.handle?.trim();
+  if (handle) {
+    return `handle:${handle.toLowerCase()}`;
+  }
+
+  const name = category.name?.trim();
+  if (name) {
+    return `name:${normalizeCollectionName(name)}`;
+  }
+
+  return undefined;
+}
+
+function getProductCategoryEntries(product: MedusaProduct): ProductCategoryEntry[] {
+  const metadata = product.metadata;
+  const entries: ProductCategoryEntry[] = [];
+
+  const primarySourceCategory = buildSourceCategoryEntry(
+    readMetadataRecord(metadata, "source_primary_category"),
+  );
+  if (primarySourceCategory) {
+    entries.push(primarySourceCategory);
+  }
+
+  for (const sourceCategory of readMetadataRecordArray(metadata, "source_categories")) {
+    const entry = buildSourceCategoryEntry(sourceCategory);
+    if (entry) {
+      entries.push(entry);
+    }
+  }
+
+  for (const category of product.categories ?? []) {
+    const id = category.id?.trim();
+    const handle = category.handle?.trim();
+    const name = category.name?.trim();
+    if (!id && !handle && !name) {
+      continue;
+    }
+    entries.push({
+      ...(id ? { id } : {}),
+      ...(handle ? { handle } : {}),
+      ...(name ? { name } : {}),
+      ...(category.metadata ? { metadata: category.metadata } : {}),
+    });
+  }
+
+  const uniqueEntries = new Map<string, ProductCategoryEntry>();
+  for (const entry of entries) {
+    const key = getCategoryMapKey(entry);
+    if (!key) {
+      continue;
+    }
+    if (!uniqueEntries.has(key)) {
+      uniqueEntries.set(key, entry);
+      continue;
+    }
+
+    const existing = uniqueEntries.get(key)!;
+    uniqueEntries.set(key, {
+      ...entry,
+      id: existing.id ?? entry.id,
+      handle: existing.handle ?? entry.handle,
+      name: existing.name ?? entry.name,
+      metadata: existing.metadata ?? entry.metadata,
+    });
+  }
+
+  return [...uniqueEntries.values()].filter(
+    (entry): entry is ProductCategoryEntry & { name: string } =>
+      typeof entry.name === "string" && entry.name.trim().length > 0,
   );
 }
 
@@ -795,7 +900,7 @@ function getPrimaryVariant(variants: MedusaVariant[]): MedusaVariant | undefined
 
 function mapMedusaProductToStorefrontProduct(
   product: MedusaProduct,
-  collection: MedusaCollection,
+  fallbackCategoryName?: string,
 ): ShopProduct | null {
   const medusaId = product.id?.trim();
   const handle = product.handle?.trim();
@@ -816,7 +921,10 @@ function mapMedusaProductToStorefrontProduct(
   const sourcePrice = readMetadataRecord(metadata, "source_price");
   const sourceOptions = readMetadataRecordArray(metadata, "source_options");
   const sourceVariants = readMetadataRecordArray(metadata, "source_variants");
-  const sourceCategoryTitles = readSourceCategoryTitles(metadata);
+  const categoryEntries = getProductCategoryEntries(product);
+  const liveCategoryTitles = uniqueStrings(
+    categoryEntries.map((entry) => entry.name),
+  );
   const liveVariantChoices = buildVariantChoices(
     product,
     variants,
@@ -924,12 +1032,11 @@ function mapMedusaProductToStorefrontProduct(
       ? sourceVariants.some((variant) => variant.available !== false)
       : undefined;
   const inStock = sourceInStock ?? isProductInStock(variants);
-  const filterCategory =
-    localFallback?.filterCategory && localFallback.filterCategory.length > 0
-      ? [...localFallback.filterCategory]
-      : sourceCategoryTitles.length > 0
-        ? sourceCategoryTitles
-        : [collection.title?.trim() || ""].filter(Boolean);
+  const filterCategory = uniqueStrings([
+    ...liveCategoryTitles,
+    ...(localFallback?.filterCategory ?? []),
+    fallbackCategoryName,
+  ]);
   const filterBrands =
     localFallback?.filterBrands && localFallback.filterBrands.length > 0
       ? [...localFallback.filterBrands]
@@ -947,9 +1054,10 @@ function mapMedusaProductToStorefrontProduct(
       : sizes;
   const description = localFallback?.description ?? descriptionText;
   const category =
-    localFallback?.category ??
     readSourcePrimaryCategoryTitle(metadata) ??
-    collection.title?.trim() ??
+    categoryEntries[0]?.name?.trim() ??
+    localFallback?.category ??
+    fallbackCategoryName ??
     "";
 
   return {
@@ -1003,7 +1111,7 @@ function mapMedusaProductToStorefrontProduct(
       localFallback?.soldLabel ?? (inStock ? "Available to order" : "Currently unavailable"),
     badgeLabel:
       localFallback?.badgeLabel ??
-      (normalizeCollectionName(collection.title) === APPAREL_CATEGORY_NAME
+      (normalizeCollectionName(category) === APPAREL_CATEGORY_NAME
         ? "Medusa"
         : undefined),
     ...(localFallback?.badgeSubtext
@@ -1013,61 +1121,20 @@ function mapMedusaProductToStorefrontProduct(
 }
 
 type MedusaMappedCollection = {
-  collection: MedusaCollection;
+  category: ProductCategoryEntry & { name: string };
   products: ShopProduct[];
 };
 
-function getCollectionMapKey(collection?: MedusaCollection | null): string | undefined {
-  if (!collection) {
-    return undefined;
-  }
-
-  const id = collection.id?.trim();
-  if (id) {
-    return `id:${id}`;
-  }
-
-  const handle = collection.handle?.trim();
-  if (handle) {
-    return `handle:${handle}`;
-  }
-
-  const title = collection.title?.trim();
-  if (title) {
-    return `title:${title.toLowerCase()}`;
-  }
-
-  return undefined;
-}
-
 let migratedCollectionsCache:
-  | { expiresAt: number; value: MedusaMappedCollection[] }
+  | { expiresAt: number; value: { categories: MedusaMappedCollection[]; products: ShopProduct[] } }
   | null = null;
-let migratedCollectionsPromise: Promise<MedusaMappedCollection[]> | null = null;
+let migratedCollectionsPromise:
+  | Promise<{ categories: MedusaMappedCollection[]; products: ShopProduct[] }>
+  | null = null;
 const MIGRATED_COLLECTIONS_CACHE_TTL_MS = 5 * 60 * 1000;
 
-function productBelongsToCollection(
-  product: ShopProduct,
-  collection: MedusaCollection,
-): boolean {
-  const normalizedCollectionName = normalizeCollectionName(
-    collection.title?.trim() || "",
-  );
-
-  if (!normalizedCollectionName) {
-    return false;
-  }
-
-  return (
-    product.filterCategory.some(
-      (category) =>
-        normalizeCollectionName(category) === normalizedCollectionName,
-    ) || normalizeCollectionName(product.category) === normalizedCollectionName
-  );
-}
-
 const getMedusaMigratedCollections = cache(
-  async (): Promise<MedusaMappedCollection[]> => {
+  async (): Promise<{ categories: MedusaMappedCollection[]; products: ShopProduct[] }> => {
     const cachedValue = migratedCollectionsCache;
     if (cachedValue && cachedValue.expiresAt > Date.now()) {
       return cachedValue.value;
@@ -1078,147 +1145,153 @@ const getMedusaMigratedCollections = cache(
     }
 
     migratedCollectionsPromise = (async () => {
-    const collections = await getMedusaCollections();
+      const regionId = await getDefaultRegionId();
+      const [storeProducts, adminProducts, adminCategories] = await Promise.all([
+        getAllStoreProducts(regionId),
+        getAllAdminProducts(),
+        getAllAdminProductCategories(),
+      ]);
+      const sourceProducts = storeProducts.length > 0 ? storeProducts : adminProducts;
 
-    if (collections.length === 0) {
-      return [];
-    }
+      if (sourceProducts.length === 0) {
+        return { categories: [], products: [] };
+      }
 
-    const regionId = await getDefaultRegionId();
-
-    const collectionEntries = collections.filter(
-      (collection): collection is MedusaCollection & { id: string } =>
-        typeof collection.id === "string" && collection.id.trim().length > 0,
-    );
-    const collectionsByKey = new Map(
-      collectionEntries
-        .map((collection) => {
-          const key = getCollectionMapKey(collection);
-          return key ? ([key, collection] as const) : null;
-        })
-        .filter(
-          (
-            entry,
-          ): entry is readonly [string, MedusaCollection & { id: string }] => entry != null,
-        ),
-    );
-    const storeProducts = await getAllStoreProducts(regionId);
-    const adminProducts = await getAllAdminProducts();
-    const adminProductsById = new Map(
-      adminProducts
-        .filter(
-          (product): product is MedusaProduct & { id: string } =>
-            typeof product.id === "string" &&
-            product.id.trim().length > 0,
-        )
-        .map((product) => [product.id.trim(), product]),
-    );
-    const adminProductsByHandle = new Map(
-      adminProducts
-        .filter(
-          (product): product is MedusaProduct & { handle: string } =>
-            typeof product.handle === "string" &&
-            product.handle.trim().length > 0,
-        )
-        .map((product) => [product.handle.trim(), product]),
-    );
-    const mappedByCollectionKey = new Map<string, ShopProduct[]>();
-
-    for (const storeProduct of storeProducts) {
-      const adminProduct =
-        (storeProduct.id
-          ? adminProductsById.get(storeProduct.id.trim())
-          : undefined) ??
-        (storeProduct.handle
-          ? adminProductsByHandle.get(storeProduct.handle.trim())
-          : undefined);
-      const mergedProduct: MedusaProduct =
-        adminProduct?.metadata != null
-          ? {
-              ...storeProduct,
-              metadata: adminProduct.metadata,
+      const adminProductsById = new Map(
+        adminProducts
+          .filter(
+            (product): product is MedusaProduct & { id: string } =>
+              typeof product.id === "string" &&
+              product.id.trim().length > 0,
+          )
+          .map((product) => [product.id.trim(), product]),
+      );
+      const adminProductsByHandle = new Map(
+        adminProducts
+          .filter(
+            (product): product is MedusaProduct & { handle: string } =>
+              typeof product.handle === "string" &&
+              product.handle.trim().length > 0,
+          )
+          .map((product) => [product.handle.trim(), product]),
+      );
+      const categoriesByKey = new Map<
+        string,
+        ProductCategoryEntry & { name: string }
+      >(
+        adminCategories
+          .map((category) => {
+            const key = getCategoryMapKey(category);
+            const name = category.name?.trim();
+            if (!key || !name) {
+              return null;
             }
-          : storeProduct;
-      const collectionKey =
-        getCollectionMapKey(mergedProduct.collection) ??
-        (typeof mergedProduct.collection_id === "string" &&
-        mergedProduct.collection_id.trim().length > 0
-          ? `id:${mergedProduct.collection_id.trim()}`
-          : undefined);
-      const resolvedCollection =
-        (collectionKey ? collectionsByKey.get(collectionKey) : undefined) ??
-        mergedProduct.collection;
 
-      if (!resolvedCollection) {
-        continue;
-      }
-
-      const mappedProduct = mapMedusaProductToStorefrontProduct(
-        mergedProduct,
-        resolvedCollection,
+            return [
+              key,
+              {
+                ...category,
+                name,
+              },
+            ] as const;
+          })
+          .filter(
+            (
+              entry,
+            ): entry is readonly [string, ProductCategoryEntry & { name: string }] =>
+              entry != null,
+          ),
       );
+      const uniqueProducts = new Map<string, ShopProduct>();
+      const productsByCategoryKey = new Map<string, Map<string, ShopProduct>>();
 
-      if (!mappedProduct) {
-        continue;
-      }
+      for (const sourceProduct of sourceProducts) {
+        const adminProduct =
+          (sourceProduct.id
+            ? adminProductsById.get(sourceProduct.id.trim())
+            : undefined) ??
+          (sourceProduct.handle
+            ? adminProductsByHandle.get(sourceProduct.handle.trim())
+            : undefined);
+        const mergedProduct: MedusaProduct = {
+          ...sourceProduct,
+          ...(adminProduct?.metadata != null
+            ? { metadata: adminProduct.metadata }
+            : {}),
+          ...(adminProduct?.categories != null
+            ? { categories: adminProduct.categories }
+            : {}),
+        };
+        const categoryEntries = getProductCategoryEntries(mergedProduct);
 
-      const resolvedCollectionKey = getCollectionMapKey(resolvedCollection);
-      if (!resolvedCollectionKey) {
-        continue;
-      }
+        for (const categoryEntry of categoryEntries) {
+          const key = getCategoryMapKey(categoryEntry);
+          const name = categoryEntry.name?.trim();
+          if (!key || !name || categoriesByKey.has(key)) {
+            continue;
+          }
 
-      const existingProducts = mappedByCollectionKey.get(resolvedCollectionKey) ?? [];
-      existingProducts.push(mappedProduct);
-      mappedByCollectionKey.set(resolvedCollectionKey, existingProducts);
-    }
+          categoriesByKey.set(key, {
+            ...categoryEntry,
+            name,
+          });
+        }
 
-    const fetchedCollections = collectionEntries
-      .map((collection) => ({
-        collection,
-        products:
-          mappedByCollectionKey.get(getCollectionMapKey(collection) ?? "") ?? [],
-      }))
-      .filter(
-        (entry) =>
-          entry.products.length > 0 ||
-          Boolean(entry.collection.title?.trim()),
-      );
+        const mappedProduct = mapMedusaProductToStorefrontProduct(
+          mergedProduct,
+          categoryEntries[0]?.name,
+        );
 
-    const uniqueProducts = new Map<string, ShopProduct>();
-    for (const entry of fetchedCollections) {
-      for (const product of entry.products) {
-        const key =
-          (typeof product.sourceHandle === "string" &&
-          product.sourceHandle.trim().length > 0
-            ? product.sourceHandle.trim()
-            : undefined) ?? `medusa:${product.id}`;
+        if (!mappedProduct) {
+          continue;
+        }
 
-        if (!uniqueProducts.has(key)) {
-          uniqueProducts.set(key, product);
+        const productKey =
+          (typeof mappedProduct.sourceHandle === "string" &&
+          mappedProduct.sourceHandle.trim().length > 0
+            ? mappedProduct.sourceHandle.trim()
+            : undefined) ?? `medusa:${mappedProduct.id}`;
+        if (!uniqueProducts.has(productKey)) {
+          uniqueProducts.set(productKey, mappedProduct);
+        }
+
+        const resolvedProduct = uniqueProducts.get(productKey)!;
+        for (const categoryEntry of categoryEntries) {
+          const categoryKey = getCategoryMapKey(categoryEntry);
+          if (!categoryKey) {
+            continue;
+          }
+
+          const categoryProducts =
+            productsByCategoryKey.get(categoryKey) ?? new Map<string, ShopProduct>();
+          categoryProducts.set(productKey, resolvedProduct);
+          productsByCategoryKey.set(categoryKey, categoryProducts);
         }
       }
-    }
 
-    const products = [...uniqueProducts.values()];
+      const result = {
+        categories: [...categoriesByKey.entries()]
+          .map(([key, category]) => ({
+            category,
+            products: [...(productsByCategoryKey.get(key)?.values() ?? [])],
+          }))
+          .filter(
+            (entry) =>
+              entry.products.length > 0 && Boolean(entry.category.name?.trim()),
+          )
+          .sort(
+            (left, right) =>
+              right.products.length - left.products.length ||
+              left.category.name.localeCompare(right.category.name),
+          ),
+        products: [...uniqueProducts.values()],
+      };
+      migratedCollectionsCache = {
+        value: result,
+        expiresAt: Date.now() + MIGRATED_COLLECTIONS_CACHE_TTL_MS,
+      };
 
-    const result = fetchedCollections
-      .map(({ collection }) => ({
-        collection,
-        products: products.filter((product) =>
-          productBelongsToCollection(product, collection),
-        ),
-      }))
-      .filter(
-        (entry) =>
-          entry.products.length > 0 ||
-          Boolean(entry.collection.title?.trim()),
-      );
-    migratedCollectionsCache = {
-      value: result,
-      expiresAt: Date.now() + MIGRATED_COLLECTIONS_CACHE_TTL_MS,
-    };
-
-    return result;
+      return result;
     })().finally(() => {
       migratedCollectionsPromise = null;
     });
@@ -1241,13 +1314,13 @@ function parseCategoryQuantity(quantity?: string): number | null {
 }
 
 function buildCollectionCategory(
-  collection: MedusaCollection,
+  category: ProductCategoryEntry & { name: string },
   count: number,
   fallbackImage?: string,
 ): Category {
-  const metadata = collection.metadata;
+  const metadata = category.metadata;
   const displayName =
-    collection.title?.trim() ||
+    category.name?.trim() ||
     readMetadataString(metadata, ["source_title", "title"]) ||
     APPAREL_CATEGORY_NAME;
   const localCategoryFallback = localCollectionCategoriesByName.get(
@@ -1263,7 +1336,6 @@ function buildCollectionCategory(
         "thumbnail",
       ]),
     ) ??
-    pickImageUrls(collection)[0] ??
     localCategoryFallback?.img ??
     fallbackImage;
 
@@ -1275,14 +1347,14 @@ function buildCollectionCategory(
   };
 }
 
-export const getCollectionPageCategories = cache(async (): Promise<Category[]> => {
+export const getCategoryPageCategories = cache(async (): Promise<Category[]> => {
   const migratedCollections = await getMedusaMigratedCollections();
-  if (migratedCollections.length === 0) {
+  if (migratedCollections.categories.length === 0) {
     return [...categoriesCollection];
   }
 
-  const mappedCategories = migratedCollections.map(({ collection, products }) =>
-    buildCollectionCategory(collection, products.length, products[0]?.img),
+  const mappedCategories = migratedCollections.categories.map(({ category, products }) =>
+    buildCollectionCategory(category, products.length, products[0]?.img),
   );
   const migratedCategoryNames = new Set(
     mappedCategories.map((category) => normalizeCollectionName(category.name)),
@@ -1301,9 +1373,11 @@ export const getCollectionPageCategories = cache(async (): Promise<Category[]> =
     );
 });
 
+export const getCollectionPageCategories = getCategoryPageCategories;
+
 export const getShopCatalogProducts = cache(async (): Promise<ShopProduct[]> => {
-  const migratedCollections = await getMedusaMigratedCollections();
-  const migratedProducts = migratedCollections.flatMap((entry) => entry.products);
+  const migratedCatalog = await getMedusaMigratedCollections();
+  const migratedProducts = migratedCatalog.products;
   const migratedProductsByHandle = new Map(
     migratedProducts
       .filter(
@@ -1343,17 +1417,18 @@ export const getShopProductByRouteId = cache(
 );
 
 export async function getMedusaApparelStatus() {
-  const collection =
-    (await getMedusaCollections()).find((entry) => isApparelCollection(entry)) ??
-    null;
+  const migratedCatalog = await getMedusaMigratedCollections();
+  const category =
+    migratedCatalog.categories.find((entry) => isApparelCategory(entry.category))
+      ?.category ?? null;
   const products =
-    (await getMedusaMigratedCollections()).find((entry) =>
-      isApparelCollection(entry.collection),
+    migratedCatalog.categories.find((entry) =>
+      isApparelCategory(entry.category),
     )?.products ?? [];
 
   return {
     hasConfiguredStoreAccess: Boolean(getMedusaConfig()),
-    collection,
+    collection: category,
     productsCount: products.length,
   };
 }

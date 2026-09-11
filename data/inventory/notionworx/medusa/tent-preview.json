@@ -23,6 +23,19 @@
       "inventory_data_path": "/inventory/notionworx/collections/tent.json"
     }
   },
+  "productCategory": {
+    "name": "Custom Canopy Tents – Personalized Pop Up Tents for Events",
+    "description": "<p><img height=\"582\" width=\"1035\" style=\"display: block; margin-left: auto; margin-right: auto;\" alt=\"\" src=\"\"></p>",
+    "handle": "tent",
+    "is_active": true,
+    "is_internal": false,
+    "metadata": {
+      "source": "notionworx-inventory",
+      "source_handle": "tent",
+      "source_title": "Custom Canopy Tents – Personalized Pop Up Tents for Events",
+      "inventory_data_path": "/inventory/notionworx/collections/tent.json"
+    }
+  },
   "productsCount": 31,
   "products": [
     {
@@ -199,25 +212,28 @@
         "source_size_variants": [
           {
             "value": "Hex Aluminum",
-            "price": 255.0,
-            "compareAtPrice": 270.5
+            "price": 255,
+            "compareAtPrice": 270.5,
+            "active": true
           },
           {
             "value": "Steel",
-            "price": 155.0,
-            "compareAtPrice": 170.5,
-            "active": true
+            "price": 155,
+            "compareAtPrice": 170.5
           }
         ],
         "source_filter_category": [
           "10x10 Custom Canopies",
           "Custom Canopy Tents – Personalized Pop Up Tents for Events"
         ],
-        "source_filter_sizes": [],
-        "source_reviews_text": "1 option",
+        "source_filter_sizes": [
+          "Hex Aluminum",
+          "Steel"
+        ],
+        "source_reviews_text": null,
         "source_badge_label": "10x10 Custom Canopies",
         "source_badge_subtext": "2 product images available",
-        "source_description": "Description/Feature - Wall is constructed of durable, weather-resistant 600 denier polyester - Dye sublimated on a white fabric - Hardware sold separately - Imprint Method: Full-Color Dye Sublimation Kit Includes - 1: 10' Full Wall - DOES NOT INCLUDE FRAME Materials - Wall: 600…",
+        "source_description": "Specsheet Warning Label Fire Certificate\n\nDescription/Feature\n\n- Wall is constructed of durable, weather-resistant 600 denier polyester\n\n- Dye sublimated on a white fabric\n\n- Hardware sold separately\n\n- Imprint Method: Full-Color Dye Sublimation\n\nKit Includes\n\n- 1: 10' Full Wall\n\n- DOES NOT INCLUDE FRAME\n\nMaterials\n\n- Wall: 600 Denier Polyester\n\nCertifications\n\n- Meets FR Rating Requirements\n\n- Primary Usage\n\n- Outdoor",
         "source_card_variant": "",
         "source_add_on_group_keys": [
           "accessories-b04fc28012e1",
@@ -409,25 +425,28 @@
         "source_size_variants": [
           {
             "value": "Hex Aluminum",
-            "price": 305.0,
-            "compareAtPrice": 325.5
+            "price": 305,
+            "compareAtPrice": 325.5,
+            "active": true
           },
           {
             "value": "Steel",
-            "price": 205.0,
-            "compareAtPrice": 225.5,
-            "active": true
+            "price": 205,
+            "compareAtPrice": 225.5
           }
         ],
         "source_filter_category": [
           "10x15 Custom Canopies",
           "Custom Canopy Tents – Personalized Pop Up Tents for Events"
         ],
-        "source_filter_sizes": [],
-        "source_reviews_text": "1 option",
+        "source_filter_sizes": [
+          "Hex Aluminum",
+          "Steel"
+        ],
+        "source_reviews_text": null,
         "source_badge_label": "10x15 Custom Canopies",
         "source_badge_subtext": "1 product image available",
-        "source_description": "Description/Feature - Wall is constructed of durable, weather-resistant 600 denier polyester - Dye sublimated on a white fabric - Hardware sold separately - Imprint Method: Full-Color Dye Sublimation Kit Includes - 1: 15' Full Wall - DOES NOT INCLUDE FRAME Materials - Wall: 600…",
+        "source_description": "Specsheet Warning Label Fire Certificate\n\nDescription/Feature\n\n- Wall is constructed of durable, weather-resistant 600 denier polyester\n\n- Dye sublimated on a white fabric\n\n- Hardware sold separately\n\n- Imprint Method: Full-Color Dye Sublimation\n\nKit Includes\n\n- 1: 15' Full Wall\n\n- DOES NOT INCLUDE FRAME\n\nMaterials\n\n- Wall: 600 Denier Polyester\n\nCertifications\n\n- Meets FR Rating Requirements\n\n- Primary Usage\n\n- Outdoor",
         "source_card_variant": "",
         "source_add_on_group_keys": [
           "accessories-b04fc28012e1",
@@ -621,25 +640,28 @@
         "source_size_variants": [
           {
             "value": "Hex Aluminum",
-            "price": 355.0,
-            "compareAtPrice": 380.5
+            "price": 355,
+            "compareAtPrice": 380.5,
+            "active": true
           },
           {
             "value": "Steel",
-            "price": 255.0,
-            "compareAtPrice": 280.5,
-            "active": true
+            "price": 255,
+            "compareAtPrice": 280.5
           }
         ],
         "source_filter_category": [
           "10x20 Custom Canopies",
           "Custom Canopy Tents – Personalized Pop Up Tents for Events"
         ],
-        "source_filter_sizes": [],
-        "source_reviews_text": "1 option",
+        "source_filter_sizes": [
+          "Hex Aluminum",
+          "Steel"
+        ],
+        "source_reviews_text": null,
         "source_badge_label": "10x20 Custom Canopies",
         "source_badge_subtext": "2 product images available",
-        "source_description": "20' Full Wall – Single-Sided (Wall Only) Enhance your canopy setup with a durable 20' Full Wall, perfect for increased privacy, shade, branding space, and wind protection. Made from 600D weather-resistant polyester and printed using high-quality dye sublimation, this wall delive…",
+        "source_description": "Specsheet Warning Label Fire Certificate\n\n20' Full Wall – Single-Sided (Wall Only)\n\nEnhance your canopy setup with a durable 20' Full Wall, perfect for increased privacy, shade, branding space, and wind protection. Made from 600D weather-resistant polyester and printed using high-quality dye sublimation, this wall delivers sharp, vibrant graphics built to withstand outdoor conditions.\nFrame not included.\n\nFeatures\n\n- 🛡️ 600D Weather-Resistant Polyester: Strong, long-lasting fabric ideal for outdoor environments.\n\n- 🎨 Full-Color Dye Sublimation: High-resolution printing on a white base for vivid, fade-resistant graphics.\n\n- 🔧 Wall Only: Hardware and frame sold separately.\n\n- 🖨️ Imprint Method: Full-color dye sublimation for premium visual impact.\n\nKit Includes\n\n- 🧱 1× 20' Full Wall (Single-Sided)\n\n- ⚠️ Frame NOT Included\n\nMaterials\n\n🧵 Wall: 600 Denier Polyester\n\nCertifications\n\n🔥 Meets FR Rating Requirements (Fire-Resistant)\n\nPrimary Usage\n\nIdeal for outdoor vendor setups, festivals, trade shows, food booths, markets, and branded activations.",
         "source_card_variant": "",
         "source_add_on_group_keys": [
           "accessories-b04fc28012e1",
@@ -804,12 +826,12 @@
         ],
         "source_variant_label": null,
         "source_sizes": [
-          "Default option"
+          "Default Title"
         ],
         "source_size_variants": [
           {
-            "value": "Default option",
-            "price": 345.0,
+            "value": "Default Title",
+            "price": 345,
             "compareAtPrice": 379.5,
             "active": true
           }
@@ -818,11 +840,13 @@
           "5x5 Custom Canopies",
           "Custom Canopy Tents – Personalized Pop Up Tents for Events"
         ],
-        "source_filter_sizes": [],
-        "source_reviews_text": "1 option",
+        "source_filter_sizes": [
+          "Default Title"
+        ],
+        "source_reviews_text": null,
         "source_badge_label": "5x5 Custom Canopies",
         "source_badge_subtext": "9 product images available",
-        "source_description": "- Heavy-duty steel frame + wheeled carry bag - Dye-sublimation printed 600D Oxford fabric - Waterproof, Fire Resistant, UV Protection - Free Ground Shipping (FedEx) Nationwide Features - Canopy is constructed of durable, weather-resistant 600 denier polyester - Your artwork will…",
+        "source_description": "Specsheet Warning Label Fire Certificate\n\n- Heavy-duty steel frame + wheeled carry bag\n\n- Dye-sublimation printed 600D Oxford fabric\n\n- Waterproof, Fire Resistant, UV Protection\n\n- Free Ground Shipping (FedEx) Nationwide\n\nFeatures\n\n- Canopy is constructed of durable, weather-resistant 600 denier polyester\n\n- Your artwork will be dye sublimated on a white canopy\n\n- Crank-up canopy creates a taut, clean peak\n\n- Frame is constructed of Steel\n\n- Frame features ABS glass-filled nylon joints\n\n- Square-shaped legs are 1.75\" in diameter\n\n- Legs feature plastic levers for pinch-free height adjustment\n\n- Easily collapses to fit inside the included soft case with wheels\n\n- The tent can be secured to the ground with the included stake kit\n\n- Imprint Method: Full-Color Dye Sublimation\n\nKit Includes\n\n- 1: Hardware (Frame)\n\n- 1: Canopy\n\n- 1: Wheeled Carry Bag\n\n- 1: Ropes and Pegs Set\n\nOptional Accessories\n\n- 6' Table Cover\n\n- Feather Flags\n\n- Sandbags\n\nMaterials\n\n- Hardware: ABS Nylon, Steel\n\n- Canopy: 600 Denier Polyester\n\nCertifications\n\n- Meets FR Rating Requirements\n\n- Primary Usage\n\n- Outdoor",
         "source_card_variant": "",
         "source_add_on_group_keys": [
           "accessories-5f4c5b4d4db6",
@@ -991,12 +1015,12 @@
         ],
         "source_variant_label": null,
         "source_sizes": [
-          "Default option"
+          "Default Title"
         ],
         "source_size_variants": [
           {
-            "value": "Default option",
-            "price": 445.0,
+            "value": "Default Title",
+            "price": 445,
             "compareAtPrice": 489.5,
             "active": true
           }
@@ -1005,11 +1029,13 @@
           "5x5 Custom Canopies",
           "Custom Canopy Tents – Personalized Pop Up Tents for Events"
         ],
-        "source_filter_sizes": [],
-        "source_reviews_text": "1 option",
+        "source_filter_sizes": [
+          "Default Title"
+        ],
+        "source_reviews_text": null,
         "source_badge_label": "5x5 Custom Canopies",
         "source_badge_subtext": "8 product images available",
-        "source_description": "- Heavy-duty steel frame + wheeled carry bag - Back Wall Single Side Fully Printed With Unlimited Colors & Graphics - Dye-sublimation printed 600D Oxford fabric - Waterproof, Fire Resistant, UV Protection - Free Ground Shipping (FedEx) Nationwide Features - Canopy is constructed…",
+        "source_description": "Specsheet Warning Label Fire Certificate\n\n- Heavy-duty steel frame + wheeled carry bag\n\n- Back Wall Single Side Fully Printed With Unlimited Colors & Graphics\n\n- Dye-sublimation printed 600D Oxford fabric\n\n- Waterproof, Fire Resistant, UV Protection\n\n- Free Ground Shipping (FedEx) Nationwide\n\nFeatures\n\n- Canopy is constructed of durable, weather-resistant 600 denier polyester\n\n- Your artwork will be dye sublimated on a white canopy\n\n- Crank-up canopy creates a taut, clean peak\n\n- Frame is constructed of Steel\n\n- Frame features ABS glass-filled nylon joints\n\n- Square-shaped legs are 1.75\" in diameter\n\n- Legs feature plastic levers for pinch-free height adjustment\n\n- Easily collapses to fit inside the included soft case with wheels\n\n- The tent can be secured to the ground with the included stake kit\n\n- Imprint Method: Full-Color Dye Sublimation\n\nKit Includes\n\n- 1: Hardware (Frame)\n\n- 1: Canopy\n\n- 1: Full Wall\n\n- 1: Wheeled Carry Bag\n\n- 1: Ropes and Pegs Set\n\nOptional Accessories\n\n- 6' Table Cover\n\n- Feather Flags\n\n- Sandbags\n\nMaterials\n\n- Hardware: ABS Nylon, Steel\n\n- Canopy: 600 Denier Polyester\n\nCertifications\n\n- Meets FR Rating Requirements\n\n- Primary Usage\n\n- Outdoor",
         "source_card_variant": "",
         "source_add_on_group_keys": [
           "accessories-c1676e2ed19d",
@@ -1165,12 +1191,12 @@
         ],
         "source_variant_label": null,
         "source_sizes": [
-          "Default option"
+          "Default Title"
         ],
         "source_size_variants": [
           {
-            "value": "Default option",
-            "price": 745.0,
+            "value": "Default Title",
+            "price": 745,
             "compareAtPrice": 819.5,
             "active": true
           }
@@ -1179,11 +1205,13 @@
           "5x5 Custom Canopies",
           "Custom Canopy Tents – Personalized Pop Up Tents for Events"
         ],
-        "source_filter_sizes": [],
-        "source_reviews_text": "1 option",
+        "source_filter_sizes": [
+          "Default Title"
+        ],
+        "source_reviews_text": null,
         "source_badge_label": "5x5 Custom Canopies",
         "source_badge_subtext": "4 product images available",
-        "source_description": "- Heavy-duty steel frame + wheeled carry bag - 3 Full Wall Single Side Fully Printed With Unlimited Colors & Graphics - Dye-sublimation printed 600D Oxford fabric - Waterproof, Fire Resistant, UV Protection - Free Ground Shipping (FedEx) Nationwide Features - Canopy is construct…",
+        "source_description": "Specsheet Warning Label Fire Certificate\n\n- Heavy-duty steel frame + wheeled carry bag\n\n- 3 Full Wall Single Side Fully Printed With Unlimited Colors & Graphics\n\n- Dye-sublimation printed 600D Oxford fabric\n\n- Waterproof, Fire Resistant, UV Protection\n\n- Free Ground Shipping (FedEx) Nationwide\n\nFeatures\n\n- Canopy is constructed of durable, weather-resistant 600 denier polyester\n\n- Your artwork will be dye sublimated on a white canopy\n\n- Crank-up canopy creates a taut, clean peak\n\n- Frame is constructed of Steel\n\n- Frame features ABS glass-filled nylon joints\n\n- Square-shaped legs are 1.75\" in diameter\n\n- Legs feature plastic levers for pinch-free height adjustment\n\n- Easily collapses to fit inside the included soft case with wheels\n\n- The tent can be secured to the ground with the included stake kit\n\n- Imprint Method: Full-Color Dye Sublimation\n\nKit Includes\n\n- 1: Hardware (Frame)\n\n- 1: Canopy\n\n- 3: Full Wall\n\n- 1: Wheeled Carry Bag\n\n- 1: Ropes and Pegs Set\n\nOptional Accessories\n\n- 6' Table Cover\n\n- Feather Flags\n\n- Sandbags\n\nMaterials\n\n- Hardware: ABS Nylon, Steel\n\n- Canopy: 600 Denier Polyester\n\nCertifications\n\n- Meets FR Rating Requirements\n\n- Primary Usage\n\n- Outdoor",
         "source_card_variant": "",
         "source_add_on_group_keys": [
           "accessories-9b967e8142c5",
@@ -1385,14 +1413,14 @@
         "source_size_variants": [
           {
             "value": "Hex Aluminum",
-            "price": 365.0,
-            "compareAtPrice": 391.5
+            "price": 365,
+            "compareAtPrice": 391.5,
+            "active": true
           },
           {
             "value": "Steel",
-            "price": 265.0,
-            "compareAtPrice": 291.5,
-            "active": true
+            "price": 265,
+            "compareAtPrice": 291.5
           }
         ],
         "source_filter_category": [
@@ -1401,11 +1429,14 @@
           "10x10 Custom Canopies",
           "Custom Canopy Tents – Personalized Pop Up Tents for Events"
         ],
-        "source_filter_sizes": [],
-        "source_reviews_text": "1 option",
+        "source_filter_sizes": [
+          "Hex Aluminum",
+          "Steel"
+        ],
+        "source_reviews_text": null,
         "source_badge_label": "10x15 Custom Canopies",
         "source_badge_subtext": "1 product image available",
-        "source_description": "10' Half Walls – Set of 2 (Single-Sided) Upgrade your canopy setup with a set of two 10' Half Walls, designed to enhance branding visibility, define vendor space, and provide partial wind protection without blocking customer access. Made from durable 600D weather-resistant polye…",
+        "source_description": "Specsheet Warning Label Fire Certificate\n\n10' Half Walls – Set of 2 (Single-Sided)\n\nUpgrade your canopy setup with a set of two 10' Half Walls, designed to enhance branding visibility, define vendor space, and provide partial wind protection without blocking customer access. Made from durable 600D weather-resistant polyester and printed using premium full-color dye sublimation, these walls deliver crisp, vibrant graphics ideal for outdoor use.\nFrame not included.\n\nFeatures\n\n🛡️ 600D Weather-Resistant Polyester: Tough, long-lasting material made for outdoor conditions.\n🎨 Full-Color Dye Sublimation: High-resolution, fade-resistant printing on a white fabric base.\n🔧 Hardware Included: Comes with mounting hardware for easy installation on compatible canopy frames.\n🖨️ Imprint Method: Full-color dye sublimation for vivid, professional branding.\n\nKit Includes\n\n- 🧩 2× Half Walls\n\n- 🔩 1× Hardware Set (Mounting Kit)\n\n- ⚠️ Frame NOT Included\n\nMaterials\n\n🧵 Half Walls: 600 Denier Polyester\n\nCertifications\n\n🔥 Meets FR Rating Requirements (Fire-Resistant)\n\nPrimary Usage\n\nPerfect for outdoor events, vendor booths, markets, trade shows, food stands, and brand activations.",
         "source_card_variant": "",
         "source_add_on_group_keys": [
           "accessories-b04fc28012e1",
@@ -1555,12 +1586,12 @@
         ],
         "source_variant_label": null,
         "source_sizes": [
-          "Default option"
+          "Default Title"
         ],
         "source_size_variants": [
           {
-            "value": "Default option",
-            "price": 285.0,
+            "value": "Default Title",
+            "price": 285,
             "compareAtPrice": 313.5,
             "active": true
           }
@@ -1570,11 +1601,13 @@
           "10x10 Custom Canopies",
           "Custom Canopy Tents – Personalized Pop Up Tents for Events"
         ],
-        "source_filter_sizes": [],
-        "source_reviews_text": "1 option",
+        "source_filter_sizes": [
+          "Default Title"
+        ],
+        "source_reviews_text": null,
         "source_badge_label": "Accessories",
         "source_badge_subtext": "3 product images available",
-        "source_description": "The polyester will perfectly present your logo when it is stretched suitably to fit the frame. Each of our tent billboard banners is equipped with an aluminum tubing frame. When the frame and graphic are set up, just simply attach the banner to the tent legs and then secure it w…",
+        "source_description": "Download Template Fire Certificate\n\nThe polyester will perfectly present your logo when it is stretched suitably to fit the frame. Each of our tent billboard banners is equipped with an aluminum tubing frame. When the frame and graphic are set up, just simply attach the banner to the tent legs and then secure it with the Flag Mount Holder (we have different types, please choose the correct one for your tent). You can adjust the banner height by sliding the clamps up or down.\n\nIncluded:\n\n1pc pole\n\n2pc base\n\n2pc Flag Holder Kits\n\n1pc single sided graphics",
         "source_card_variant": "",
         "source_add_on_group_keys": [],
         "local_image_paths": [
@@ -1803,14 +1836,14 @@
         "source_size_variants": [
           {
             "value": "Hex Aluminum",
-            "price": 545.0,
-            "compareAtPrice": 599.5
+            "price": 545,
+            "compareAtPrice": 599.5,
+            "active": true
           },
           {
             "value": "Steel",
-            "price": 445.0,
-            "compareAtPrice": 599.5,
-            "active": true
+            "price": 445,
+            "compareAtPrice": 599.5
           }
         ],
         "source_filter_category": [
@@ -1822,10 +1855,10 @@
           "Hex Aluminum",
           "Steel"
         ],
-        "source_reviews_text": "2 options",
+        "source_reviews_text": null,
         "source_badge_label": "Best Selling 10x10 Custom Canopy Tents – Tradeshow & Food Booth Essentials",
         "source_badge_subtext": "12 product images available",
-        "source_description": "Premium 10'×10' Custom Canopy Tent - 40mm heavy-duty aluminum frame + wheeled carry bag - Dye-sublimation printed 600D Oxford fabric - Waterproof, Fire Resistant, UV Protection - Free Ground Shipping (FedEx) Nationwide Features - Canopy is constructed of durable, weather-resista…",
+        "source_description": "Specsheet Warning Label Fire Certificate\n\nPremium 10'×10' Custom Canopy Tent\n\n- 40mm heavy-duty aluminum frame + wheeled carry bag\n\n- Dye-sublimation printed 600D Oxford fabric\n\n- Waterproof, Fire Resistant, UV Protection\n\n- Free Ground Shipping (FedEx) Nationwide\n\nFeatures\n\n- Canopy is constructed of durable, weather-resistant 600 denier polyester\n\n- Your artwork will be dye sublimated on a white canopy\n\n- Frame is constructed of 1.2 mm anodized aluminum\n\n- Frame features ABS glass-filled nylon joints\n\n- Hexagon-shaped legs are 1.75\" in diameter\n\n- Legs feature plastic levers for pinch-free height adjustment\n\n- Easily collapses to fit inside the included soft case with wheels\n\n- The tent can be secured to the ground with the included stake kit\n\n- Imprint Method: Full-Color Dye Sublimation\n\nKit Includes\n\n- 1: Hardware (Frame)\n\n- 1: Canopy\n\n- 1: Wheeled Carry Bag\n\n- 1: Ropes and Pegs Set\n\nOptional Accessories\n\n- 6' Table Cover\n\n- Feather Flags\n\n- Sandbags\n\nMaterials\n\n- Hardware: ABS Nylon, Aluminum\n\n- Canopy: 600 Denier Polyester\n\nCertifications\n\n- Meets FR Rating Requirements\n\n- Primary Usage\n\n- Outdoor",
         "source_card_variant": "",
         "source_add_on_group_keys": [
           "accessories-1f9c4cf80ed7",
@@ -1994,12 +2027,12 @@
         ],
         "source_variant_label": null,
         "source_sizes": [
-          "Default option"
+          "Default Title"
         ],
         "source_size_variants": [
           {
-            "value": "Default option",
-            "price": 625.0,
+            "value": "Default Title",
+            "price": 625,
             "compareAtPrice": 709.5,
             "active": true
           }
@@ -2008,11 +2041,13 @@
           "10x10 Custom Canopies",
           "Custom Canopy Tents – Personalized Pop Up Tents for Events"
         ],
-        "source_filter_sizes": [],
-        "source_reviews_text": "1 option",
+        "source_filter_sizes": [
+          "Default Title"
+        ],
+        "source_reviews_text": null,
         "source_badge_label": "10x10 Custom Canopies",
         "source_badge_subtext": "7 product images available",
-        "source_description": "Premium 10'×10' Custom Canopy Tent - 40mm heavy-duty aluminum frame + wheeled carry bag - Dye-sublimation printed 600D Oxford fabric - Waterproof, Fire Resistant, UV Protection - Free Ground Shipping (FedEx) Nationwide Features - Canopy is constructed of durable, weather-resista…",
+        "source_description": "Specsheet Warning Label Fire Certificate\n\nPremium 10'×10' Custom Canopy Tent\n\n- 40mm heavy-duty aluminum frame + wheeled carry bag\n\n- Dye-sublimation printed 600D Oxford fabric\n\n- Waterproof, Fire Resistant, UV Protection\n\n- Free Ground Shipping (FedEx) Nationwide\n\nFeatures\n\n- Canopy is constructed of durable, weather-resistant 600 denier polyester\n\n- Your artwork will be dye sublimated on a white canopy\n\n- Frame is constructed of 1.2 mm anodized aluminum\n\n- Frame features ABS glass-filled nylon joints\n\n- Hexagon-shaped legs are 1.75\" in diameter\n\n- Legs feature plastic levers for pinch-free height adjustment\n\n- Easily collapses to fit inside the included soft case with wheels\n\n- The tent can be secured to the ground with the included stake kit\n\n- Imprint Method: Full-Color Dye Sublimation\n\nKit Includes\n\n- 1: Hardware (Frame)\n\n- 1: Canopy\n\n- 1: Wheeled Carry Bag\n\n- 1: Ropes and Pegs Set\n\nOptional Accessories\n\n- 6' and 8' Table Cover\n\n- Feather Flags\n\n- Sandbags\n\nMaterials\n\n- Hardware: ABS Nylon, Aluminum\n\n- Canopy: 600 Denier Polyester\n\nCertifications\n\n- Meets FR Rating Requirements\n\n- Primary Usage\n\n- Outdoor",
         "source_card_variant": "",
         "source_add_on_group_keys": [
           "accessories-be9c383cf27f",
@@ -2218,25 +2253,28 @@
         "source_size_variants": [
           {
             "value": "Hex Aluminum",
-            "price": 395.0,
-            "compareAtPrice": 424.5
+            "price": 395,
+            "compareAtPrice": 424.5,
+            "active": true
           },
           {
             "value": "Steel",
-            "price": 295.0,
-            "compareAtPrice": 324.5,
-            "active": true
+            "price": 295,
+            "compareAtPrice": 324.5
           }
         ],
         "source_filter_category": [
           "10x10 Custom Canopies",
           "Custom Canopy Tents – Personalized Pop Up Tents for Events"
         ],
-        "source_filter_sizes": [],
-        "source_reviews_text": "1 option",
+        "source_filter_sizes": [
+          "Hex Aluminum",
+          "Steel"
+        ],
+        "source_reviews_text": null,
         "source_badge_label": "10x10 Custom Canopies",
         "source_badge_subtext": "4 product images available",
-        "source_description": "Description/Feature - OUR CANOPY TOPS FIT MOST FRAMES BUT NOT 100% GUARANTEED - Canopy is constructed of durable, weather-resistant 600 denier polyester - Dye sublimated on a white canopy - Hardware sold separately - Imprint Method: Full-Color Dye Sublimation Kit Includes - 1: C…",
+        "source_description": "Specsheet Warning Label Fire Certificate\n\nDescription/Feature\n\n- OUR CANOPY TOPS FIT MOST FRAMES BUT NOT 100% GUARANTEED\n\n- Canopy is constructed of durable, weather-resistant 600 denier polyester\n\n- Dye sublimated on a white canopy\n\n- Hardware sold separately\n\n- Imprint Method: Full-Color Dye Sublimation\n\nKit Includes\n\n- 1: Canopy Top\n\n- DOES NOT INCLUDE FRAME\n\nMaterials\n\n- Canopy: 600 Denier Polyester\n\nCertifications\n\n- Meets FR Rating Requirements\n\n- Primary Usage\n\n- Outdoor",
         "source_card_variant": "",
         "source_add_on_group_keys": [
           "accessories-b92af9a437d6",
@@ -2466,14 +2504,14 @@
         "source_size_variants": [
           {
             "value": "Hex Aluminum",
-            "price": 645.0,
-            "compareAtPrice": 709.5
+            "price": 645,
+            "compareAtPrice": 709.5,
+            "active": true
           },
           {
             "value": "Steel",
-            "price": 545.0,
-            "compareAtPrice": 709.5,
-            "active": true
+            "price": 545,
+            "compareAtPrice": 709.5
           }
         ],
         "source_filter_category": [
@@ -2485,10 +2523,10 @@
           "Hex Aluminum",
           "Steel"
         ],
-        "source_reviews_text": "2 options",
+        "source_reviews_text": null,
         "source_badge_label": "Best Selling 10x10 Custom Canopy Tents – Tradeshow & Food Booth Essentials",
         "source_badge_subtext": "11 product images available",
-        "source_description": "Premium 10'×10' Custom Canopy Tent - 40mm heavy-duty aluminum frame + wheeled carry bag - Dye-sublimation printed 600D Oxford fabric - Back Wall Single Side Fully Printed With Unlimited Colors & Graphics - Waterproof, Fire Resistant, UV Protection - Free Ground Shipping (FedEx)…",
+        "source_description": "Specsheet Warning Label Fire Certificate\n\nPremium 10'×10' Custom Canopy Tent\n\n- 40mm heavy-duty aluminum frame + wheeled carry bag\n\n- Dye-sublimation printed 600D Oxford fabric\n\n- Back Wall Single Side Fully Printed With Unlimited Colors & Graphics\n\n- Waterproof, Fire Resistant, UV Protection\n\n- Free Ground Shipping (FedEx) Nationwide\n\n- (4) Velcro Loop Added To Inside Of Valance Edge (Easy To Connect Full Walls)\n\nFeatures\n\n- Canopy is constructed of durable, weather-resistant 600 denier polyester\n\n- Your artwork will be dye sublimated on a white canopy\n\n- Frame is constructed of 1.2 mm anodized aluminum\n\n- Frame features ABS glass-filled nylon joints\n\n- Hexagon-shaped legs are 1.75\" in diameter\n\n- Legs feature plastic levers for pinch-free height adjustment\n\n- Easily collapses to fit inside the included soft case with wheels\n\n- The tent can be secured to the ground with the included stake kit\n\n- Imprint Method: Full-Color Dye Sublimation\n\nKit Includes\n\n- 1: Hardware (Frame)\n\n- 1: Canopy\n\n- 1: Full Back Wall\n\n- 1: Wheeled Carry Bag\n\n- 1: Ropes and Pegs Set\n\nOptional Accessories\n\n- 6' Table Cover\n\n- Feather Flags\n\n- Sandbags\n\nMaterials\n\n- Hardware: ABS Nylon, Aluminum\n\n- Canopy: 600 Denier Polyester\n\nCertifications\n\n- Meets FR Rating Requirements\n\n- Primary Usage\n\n- Outdoor",
         "source_card_variant": "",
         "source_add_on_group_keys": [
           "accessories-d77573d3da84",
@@ -2722,14 +2760,14 @@
         "source_size_variants": [
           {
             "value": "Hex Aluminum",
-            "price": 845.0,
-            "compareAtPrice": 929.5
+            "price": 845,
+            "compareAtPrice": 929.5,
+            "active": true
           },
           {
             "value": "Steel",
-            "price": 745.0,
-            "compareAtPrice": 929.5,
-            "active": true
+            "price": 745,
+            "compareAtPrice": 929.5
           }
         ],
         "source_filter_category": [
@@ -2741,10 +2779,10 @@
           "Hex Aluminum",
           "Steel"
         ],
-        "source_reviews_text": "2 options",
+        "source_reviews_text": null,
         "source_badge_label": "Best Selling 10x10 Custom Canopy Tents – Tradeshow & Food Booth Essentials",
         "source_badge_subtext": "10 product images available",
-        "source_description": "Premium 10'×10' Custom Canopy Tent - 40mm heavy-duty aluminum frame + wheeled carry bag - Dye-sublimation printed 600D Oxford fabric - Back Wall Single Side Fully Printed With Unlimited Colors & Graphics - Half Walls Single Side Fully Printed With Unlimited Colors & Graphics (Se…",
+        "source_description": "Specsheet Warning Label Fire Certificate\n\nPremium 10'×10' Custom Canopy Tent\n\n- 40mm heavy-duty aluminum frame + wheeled carry bag\n\n- Dye-sublimation printed 600D Oxford fabric\n\n- Back Wall Single Side Fully Printed With Unlimited Colors & Graphics\n\n- Half Walls Single Side Fully Printed With Unlimited Colors & Graphics (Set of 2)\n\n- Waterproof, Fire Resistant, UV Protection\n\n- Free Ground Shipping (FedEx) Nationwide\n\n- (4) Velcro Loop Added To Inside Of Valance Edge (Easy To Connect Full Walls)\n\nFeatures\n\n- Canopy is constructed of durable, weather-resistant 600 denier polyester\n\n- Your artwork will be dye sublimated on a white canopy\n\n- Frame is constructed of 1.2 mm anodized aluminum\n\n- Frame features ABS glass-filled nylon joints\n\n- Hexagon-shaped legs are 1.75\" in diameter\n\n- Legs feature plastic levers for pinch-free height adjustment\n\n- Easily collapses to fit inside the included soft case with wheels\n\n- The tent can be secured to the ground with the included stake kit\n\n- Imprint Method: Full-Color Dye Sublimation\n\nKit Includes\n\n- 1: Hardware (Frame)\n\n- 1: Canopy\n\n- 1: Back Wall\n\n- 2: Side Half Walls (Hardware Included)\n\n- 1: Wheeled Carry Bag\n\n- 1: Ropes and Pegs Set\n\nOptional Accessories\n\n- 6' Table Cover\n\n- Feather Flags\n\n- Sandbags\n\nMaterials\n\n- Hardware: ABS Nylon, Aluminum\n\n- Canopy: 600 Denier Polyester\n\nCertifications\n\n- Meets FR Rating Requirements\n\n- Primary Usage\n\n- Outdoor",
         "source_card_variant": "",
         "source_add_on_group_keys": [
           "accessories-03e84e060864",
@@ -2973,14 +3011,12 @@
         "source_size_variants": [
           {
             "value": "Hex Aluminum",
-            "price": 945.0,
-            "compareAtPrice": 1039.5
+            "price": 945,
+            "active": true
           },
           {
             "value": "Steel",
-            "price": 845.0,
-            "compareAtPrice": 1039.5,
-            "active": true
+            "price": 845
           }
         ],
         "source_filter_category": [
@@ -2991,10 +3027,10 @@
           "Hex Aluminum",
           "Steel"
         ],
-        "source_reviews_text": "2 options",
+        "source_reviews_text": null,
         "source_badge_label": "10x10 Custom Canopies",
         "source_badge_subtext": "10 product images available",
-        "source_description": "Premium 10'×10' Custom Canopy Tent - 40mm heavy-duty aluminum frame + wheeled carry bag - Dye-sublimation printed 600D Oxford fabric - Back Wall Single Side Fully Printed With Unlimited Colors & Graphics - Full Side Walls Single Side Fully Printed With Unlimited Colors & Graphic…",
+        "source_description": "Specsheet Warning Label Fire Certificate\n\nPremium 10'×10' Custom Canopy Tent\n\n- 40mm heavy-duty aluminum frame + wheeled carry bag\n\n- Dye-sublimation printed 600D Oxford fabric\n\n- Back Wall Single Side Fully Printed With Unlimited Colors & Graphics\n\n- Full Side Walls Single Side Fully Printed With Unlimited Colors & Graphics (Set of 2)\n\n- Waterproof, Fire Resistant, UV Protection\n\n- Free Ground Shipping (FedEx) Nationwide\n\n- (4) Velcro Loop Added To Inside Of Valance Edge (Easy To Connect Full Walls)\n\nFeatures\n\n- Canopy is constructed of durable, weather-resistant 600 denier polyester\n\n- Your artwork will be dye sublimated on a white canopy\n\n- Frame is constructed of 1.2 mm anodized aluminum\n\n- Frame features ABS glass-filled nylon joints\n\n- Hexagon-shaped legs are 1.75\" in diameter\n\n- Legs feature plastic levers for pinch-free height adjustment\n\n- Easily collapses to fit inside the included soft case with wheels\n\n- The tent can be secured to the ground with the included stake kit\n\n- Imprint Method: Full-Color Dye Sublimation\n\nKit Includes\n\n- 1: Hardware (Frame)\n\n- 1: Canopy\n\n- 1: Back Wall\n\n- 2: Full Side Walls\n\n- 1: Wheeled Carry Bag\n\n- 1: Ropes and Pegs Set\n\nOptional Accessories\n\n- 6' Table Cover\n\n- Feather Flags\n\n- Sandbags\n\nMaterials\n\n- Hardware: ABS Nylon, Aluminum\n\n- Canopy: 600 Denier Polyester\n\nCertifications\n\n- Meets FR Rating Requirements\n\n- Primary Usage\n\n- Outdoor",
         "source_card_variant": "",
         "source_add_on_group_keys": [
           "accessories-bbf5e6d825ec",
@@ -3152,12 +3188,12 @@
         ],
         "source_variant_label": null,
         "source_sizes": [
-          "Default option"
+          "Default Title"
         ],
         "source_size_variants": [
           {
-            "value": "Default option",
-            "price": 895.0,
+            "value": "Default Title",
+            "price": 895,
             "compareAtPrice": 984.5,
             "active": true
           }
@@ -3166,11 +3202,13 @@
           "10x15 Custom Canopies",
           "Custom Canopy Tents – Personalized Pop Up Tents for Events"
         ],
-        "source_filter_sizes": [],
-        "source_reviews_text": "1 option",
+        "source_filter_sizes": [
+          "Default Title"
+        ],
+        "source_reviews_text": null,
         "source_badge_label": "10x15 Custom Canopies",
         "source_badge_subtext": "4 product images available",
-        "source_description": "Premium 10'×15' Custom Canopy Tent - 40mm heavy-duty aluminum frame + wheeled carry bag - Dye-sublimation printed 600D Oxford fabric - Waterproof, Fire Resistant, UV Protection - Free Ground Shipping (FedEx) Nationwide Features - Canopy is constructed of durable, weather-resista…",
+        "source_description": "Specsheet Warning Label Fire Certificate\n\nPremium 10'×15' Custom Canopy Tent\n\n- 40mm heavy-duty aluminum frame + wheeled carry bag\n\n- Dye-sublimation printed 600D Oxford fabric\n\n- Waterproof, Fire Resistant, UV Protection\n\n- Free Ground Shipping (FedEx) Nationwide\n\nFeatures\n\n- Canopy is constructed of durable, weather-resistant 600 denier polyester\n\n- Your artwork will be dye sublimated on a white canopy\n\n- Frame is constructed of 1.2 mm anodized aluminum\n\n- Frame features ABS glass-filled nylon joints\n\n- Hexagon-shaped legs are 1.75\" in diameter\n\n- Legs feature plastic levers for pinch-free height adjustment\n\n- Easily collapses to fit inside the included soft case with wheels\n\n- The tent can be secured to the ground with the included stake kit\n\n- Imprint Method: Full-Color Dye Sublimation\n\nKit Includes\n\n- 1: Hardware (Frame)\n\n- 1: Canopy\n\n- 1: Wheeled Carry Bag\n\n- 1: Ropes and Pegs Set\n\nOptional Accessories\n\n- 6' Table Cover\n\n- Feather Flags\n\n- Sandbags\n\nMaterials\n\n- Hardware: ABS Nylon, Aluminum\n\n- Canopy: 600 Denier Polyester\n\nCertifications\n\n- Meets FR Rating Requirements\n\n- Primary Usage\n\n- Outdoor",
         "source_card_variant": "",
         "source_add_on_group_keys": [
           "accessories-6f1dd94d22ba",
@@ -3331,12 +3369,12 @@
         ],
         "source_variant_label": null,
         "source_sizes": [
-          "Default option"
+          "Default Title"
         ],
         "source_size_variants": [
           {
-            "value": "Default option",
-            "price": 845.0,
+            "value": "Default Title",
+            "price": 845,
             "compareAtPrice": 929.5,
             "active": true
           }
@@ -3345,11 +3383,13 @@
           "10x15 Custom Canopies",
           "Custom Canopy Tents – Personalized Pop Up Tents for Events"
         ],
-        "source_filter_sizes": [],
-        "source_reviews_text": "1 option",
+        "source_filter_sizes": [
+          "Default Title"
+        ],
+        "source_reviews_text": null,
         "source_badge_label": "10x15 Custom Canopies",
         "source_badge_subtext": "7 product images available",
-        "source_description": "Premium 10'×15' Custom Canopy Tent - 40mm heavy-duty aluminum frame + wheeled carry bag - Dye-sublimation printed 600D Oxford fabric - Waterproof, Fire Resistant, UV Protection - Free Ground Shipping (FedEx) Nationwide Features - Canopy is constructed of durable, weather-resista…",
+        "source_description": "Specsheet Warning Label Fire Certificate\n\nPremium 10'×15' Custom Canopy Tent\n\n- 40mm heavy-duty aluminum frame + wheeled carry bag\n\n- Dye-sublimation printed 600D Oxford fabric\n\n- Waterproof, Fire Resistant, UV Protection\n\n- Free Ground Shipping (FedEx) Nationwide\n\nFeatures\n\n- Canopy is constructed of durable, weather-resistant 600 denier polyester\n\n- Your artwork will be dye sublimated on a white canopy\n\n- Frame is constructed of 1.2 mm anodized aluminum\n\n- Frame features ABS glass-filled nylon joints\n\n- Hexagon-shaped legs are 1.75\" in diameter\n\n- Legs feature plastic levers for pinch-free height adjustment\n\n- Easily collapses to fit inside the included soft case with wheels\n\n- The tent can be secured to the ground with the included stake kit\n\n- Imprint Method: Full-Color Dye Sublimation\n\nKit Includes\n\n- 1: Hardware (Frame)\n\n- 1: Canopy\n\n- 1: Wheeled Carry Bag\n\n- 1: Ropes and Pegs Set\n\nOptional Accessories\n\n- 6' Table Cover\n\n- Feather Flags\n\n- Sandbags\n\nMaterials\n\n- Hardware: ABS Nylon, Aluminum\n\n- Canopy: 600 Denier Polyester\n\nCertifications\n\n- Meets FR Rating Requirements\n\n- Primary Usage\n\n- Outdoor",
         "source_card_variant": "",
         "source_add_on_group_keys": [
           "accessories-f3775f511a07",
@@ -3555,25 +3595,28 @@
         "source_size_variants": [
           {
             "value": "Hex Aluminum",
-            "price": 525.0,
-            "compareAtPrice": 567.5
+            "price": 525,
+            "compareAtPrice": 567.5,
+            "active": true
           },
           {
             "value": "Steel",
-            "price": 425.0,
-            "compareAtPrice": 467.5,
-            "active": true
+            "price": 425,
+            "compareAtPrice": 467.5
           }
         ],
         "source_filter_category": [
           "10x15 Custom Canopies",
           "Custom Canopy Tents – Personalized Pop Up Tents for Events"
         ],
-        "source_filter_sizes": [],
-        "source_reviews_text": "1 option",
+        "source_filter_sizes": [
+          "Hex Aluminum",
+          "Steel"
+        ],
+        "source_reviews_text": null,
         "source_badge_label": "10x15 Custom Canopies",
         "source_badge_subtext": "4 product images available",
-        "source_description": "Description/Feature - Canopy is constructed of durable, weather-resistant 600 denier polyester - Dye sublimated on a white canopy - Hardware sold separately - Imprint Method: Full-Color Dye Sublimation Kit Includes - 1: Canopy Top - DOES NOT INCLUDE FRAME Materials - Canopy: 600…",
+        "source_description": "Specsheet Warning Label Fire Certificate\n\nDescription/Feature\n\n- Canopy is constructed of durable, weather-resistant 600 denier polyester\n\n- Dye sublimated on a white canopy\n\n- Hardware sold separately\n\n- Imprint Method: Full-Color Dye Sublimation\n\nKit Includes\n\n- 1: Canopy Top\n\n- DOES NOT INCLUDE FRAME\n\nMaterials\n\n- Canopy: 600 Denier Polyester\n\nCertifications\n\n- Meets FR Rating Requirements\n\n- Primary Usage\n\n- Outdoor",
         "source_card_variant": "",
         "source_add_on_group_keys": [
           "accessories-eaa3949d5fb7",
@@ -3747,13 +3790,13 @@
         ],
         "source_variant_label": null,
         "source_sizes": [
-          "Default option"
+          "Default Title"
         ],
         "source_size_variants": [
           {
-            "value": "Default option",
-            "price": 1045.0,
-            "compareAtPrice": 1149.5,
+            "value": "Default Title",
+            "price": 10.45,
+            "compareAtPrice": 11.495,
             "active": true
           }
         ],
@@ -3762,11 +3805,13 @@
           "10x15 Custom Canopies",
           "Custom Canopy Tents – Personalized Pop Up Tents for Events"
         ],
-        "source_filter_sizes": [],
-        "source_reviews_text": "1 option",
+        "source_filter_sizes": [
+          "Default Title"
+        ],
+        "source_reviews_text": null,
         "source_badge_label": "Best Selling 10x10 Custom Canopy Tents – Tradeshow & Food Booth Essentials",
         "source_badge_subtext": "10 product images available",
-        "source_description": "Premium 10'×15' Custom Canopy Tent - 40mm heavy-duty aluminum frame + wheeled carry bag - Dye-sublimation printed 600D Oxford fabric - Waterproof, Fire Resistant, UV Protection - Free Ground Shipping (FedEx) Nationwide Features - Canopy is constructed of durable, weather-resista…",
+        "source_description": "Specsheet Warning Label Fire Certificate\n\nPremium 10'×15' Custom Canopy Tent\n\n- 40mm heavy-duty aluminum frame + wheeled carry bag\n\n- Dye-sublimation printed 600D Oxford fabric\n\n- Waterproof, Fire Resistant, UV Protection\n\n- Free Ground Shipping (FedEx) Nationwide\n\nFeatures\n\n- Canopy is constructed of durable, weather-resistant 600 denier polyester\n\n- Your artwork will be dye sublimated on a white canopy\n\n- Frame is constructed of 1.2 mm anodized aluminum\n\n- Frame features ABS glass-filled nylon joints\n\n- Hexagon-shaped legs are 1.75\" in diameter\n\n- Legs feature plastic levers for pinch-free height adjustment\n\n- Easily collapses to fit inside the included soft case with wheels\n\n- The tent can be secured to the ground with the included stake kit\n\n- Imprint Method: Full-Color Dye Sublimation\n\nKit Includes\n\n- 1: Hardware (Frame)\n\n- 1: Canopy\n\n- 1: Full Back Wall Sigle-Sided\n\n- 1: Wheeled Carry Bag\n\n- 1: Ropes and Pegs Set\n\nOptional Accessories\n\n- 6' Table Cover\n\n- Feather Flags\n\n- Sandbags\n\nMaterials\n\n- Hardware: ABS Nylon, Aluminum\n\n- Canopy: 600 Denier Polyester\n\nCertifications\n\n- Meets FR Rating Requirements\n\n- Primary Usage\n\n- Outdoor",
         "source_card_variant": "",
         "source_add_on_group_keys": [
           "accessories-fd0cc3eee457",
@@ -3946,13 +3991,13 @@
         ],
         "source_variant_label": null,
         "source_sizes": [
-          "Default option"
+          "Default Title"
         ],
         "source_size_variants": [
           {
-            "value": "Default option",
-            "price": 1145.0,
-            "compareAtPrice": 1259.5,
+            "value": "Default Title",
+            "price": 11.45,
+            "compareAtPrice": 12.595,
             "active": true
           }
         ],
@@ -3961,11 +4006,13 @@
           "10x15 Custom Canopies",
           "Custom Canopy Tents – Personalized Pop Up Tents for Events"
         ],
-        "source_filter_sizes": [],
-        "source_reviews_text": "1 option",
+        "source_filter_sizes": [
+          "Default Title"
+        ],
+        "source_reviews_text": null,
         "source_badge_label": "Best Selling 10x10 Custom Canopy Tents – Tradeshow & Food Booth Essentials",
         "source_badge_subtext": "10 product images available",
-        "source_description": "Premium 10'×15' Custom Canopy Tent - 40mm heavy-duty aluminum frame + wheeled carry bag - Dye-sublimation printed 600D Oxford fabric - Waterproof, Fire Resistant, UV Protection - Free Ground Shipping (FedEx) Nationwide Features - Canopy is constructed of durable, weather-resista…",
+        "source_description": "Specsheet Warning Label Fire Certificate\n\nPremium 10'×15' Custom Canopy Tent\n\n- 40mm heavy-duty aluminum frame + wheeled carry bag\n\n- Dye-sublimation printed 600D Oxford fabric\n\n- Waterproof, Fire Resistant, UV Protection\n\n- Free Ground Shipping (FedEx) Nationwide\n\nFeatures\n\n- Canopy is constructed of durable, weather-resistant 600 denier polyester\n\n- Your artwork will be dye sublimated on a white canopy\n\n- Frame is constructed of 1.2 mm anodized aluminum\n\n- Frame features ABS glass-filled nylon joints\n\n- Hexagon-shaped legs are 1.75\" in diameter\n\n- Legs feature plastic levers for pinch-free height adjustment\n\n- Easily collapses to fit inside the included soft case with wheels\n\n- The tent can be secured to the ground with the included stake kit\n\n- Imprint Method: Full-Color Dye Sublimation\n\nKit Includes\n\n- 1: Hardware (Frame)\n\n- 1: Canopy\n\n- 1: Full Back Wall Single-Sided\n\n- 2: Half Side Walls Single-Sided\n\n- 1: Wheeled Carry Bag\n\n- 1: Ropes and Pegs Set\n\nOptional Accessories\n\n- 6' Table Cover\n\n- Feather Flags\n\n- Sandbags\n\nMaterials\n\n- Hardware: ABS Nylon, Aluminum\n\n- Canopy: 600 Denier Polyester\n\nCertifications\n\n- Meets FR Rating Requirements\n\n- Primary Usage\n\n- Outdoor",
         "source_card_variant": "",
         "source_add_on_group_keys": [
           "accessories-c958ebbb8ff1",
@@ -4138,13 +4185,13 @@
         ],
         "source_variant_label": null,
         "source_sizes": [
-          "Default option"
+          "Default Title"
         ],
         "source_size_variants": [
           {
-            "value": "Default option",
-            "price": 1245.0,
-            "compareAtPrice": 1369.5,
+            "value": "Default Title",
+            "price": 12.45,
+            "compareAtPrice": 13.695,
             "active": true
           }
         ],
@@ -4152,11 +4199,13 @@
           "10x15 Custom Canopies",
           "Custom Canopy Tents – Personalized Pop Up Tents for Events"
         ],
-        "source_filter_sizes": [],
-        "source_reviews_text": "1 option",
+        "source_filter_sizes": [
+          "Default Title"
+        ],
+        "source_reviews_text": null,
         "source_badge_label": "10x15 Custom Canopies",
         "source_badge_subtext": "9 product images available",
-        "source_description": "Premium 10'×15' Custom Canopy Tent - 40mm heavy-duty aluminum frame + wheeled carry bag - Dye-sublimation printed 600D Oxford fabric - Waterproof, Fire Resistant, UV Protection - Free Ground Shipping (FedEx) Nationwide Features - Canopy is constructed of durable, weather-resista…",
+        "source_description": "Specsheet Warning Label Fire Certificate\n\nPremium 10'×15' Custom Canopy Tent\n\n- 40mm heavy-duty aluminum frame + wheeled carry bag\n\n- Dye-sublimation printed 600D Oxford fabric\n\n- Waterproof, Fire Resistant, UV Protection\n\n- Free Ground Shipping (FedEx) Nationwide\n\nFeatures\n\n- Canopy is constructed of durable, weather-resistant 600 denier polyester\n\n- Your artwork will be dye sublimated on a white canopy\n\n- Frame is constructed of 1.2 mm anodized aluminum\n\n- Frame features ABS glass-filled nylon joints\n\n- Hexagon-shaped legs are 1.75\" in diameter\n\n- Legs feature plastic levers for pinch-free height adjustment\n\n- Easily collapses to fit inside the included soft case with wheels\n\n- The tent can be secured to the ground with the included stake kit\n\n- Imprint Method: Full-Color Dye Sublimation\n\nKit Includes\n\n- 1: Hardware (Frame)\n\n- 1: Canopy\n\n- 3: Full Walls Single-Sided\n\n- 1: Wheeled Carry Bag\n\n- 1: Ropes and Pegs Set\n\nOptional Accessories\n\n- 6' Table Cover\n\n- Feather Flags\n\n- Sandbags\n\nMaterials\n\n- Hardware: ABS Nylon, Aluminum\n\n- Canopy: 600 Denier Polyester\n\nCertifications\n\n- Meets FR Rating Requirements\n\n- Primary Usage\n\n- Outdoor",
         "source_card_variant": "",
         "source_add_on_group_keys": [
           "accessories-87a7db480378",
@@ -4338,13 +4387,13 @@
         ],
         "source_variant_label": null,
         "source_sizes": [
-          "Default option"
+          "Default Title"
         ],
         "source_size_variants": [
           {
-            "value": "Default option",
-            "price": 1145.0,
-            "compareAtPrice": 1259.5,
+            "value": "Default Title",
+            "price": 11.45,
+            "compareAtPrice": 12.595,
             "active": true
           }
         ],
@@ -4353,11 +4402,13 @@
           "10x20 Custom Canopies",
           "Custom Canopy Tents – Personalized Pop Up Tents for Events"
         ],
-        "source_filter_sizes": [],
-        "source_reviews_text": "1 option",
+        "source_filter_sizes": [
+          "Default Title"
+        ],
+        "source_reviews_text": null,
         "source_badge_label": "Best Selling 10x10 Custom Canopy Tents – Tradeshow & Food Booth Essentials",
         "source_badge_subtext": "11 product images available",
-        "source_description": "Premium 10'×20' Custom Canopy Tent Elevate your event setup with our Premium 10'×20' Custom Canopy Tent, engineered for professional vendors who need maximum space, durability, and high-impact branding. This oversized canopy features a 40mm heavy-duty aluminum frame, fully custo…",
+        "source_description": "Specsheet Warning Label Fire Certificate\n\nPremium 10'×20' Custom Canopy Tent\n\nElevate your event setup with our Premium 10'×20' Custom Canopy Tent, engineered for professional vendors who need maximum space, durability, and high-impact branding. This oversized canopy features a 40mm heavy-duty aluminum frame, fully custom 600D dye-sublimation canopy, and includes a single-sided full back wall for superior privacy and visual impact.\nComes complete with a wheeled carry bag and free nationwide FedEx ground shipping.\n\nKey Features\n\n🛡️ Durable 600D Polyester Canopy: Weather-resistant fabric designed for long-term outdoor use.\n\n🎨 Full-Color Dye Sublimation: Your artwork is printed in high resolution on a white canopy for vibrant, fade-resistant results.\n\n💪 Heavy-Duty Frame: Built with 1.2 mm anodized aluminum for superior strength.\n\n🔩 Reinforced Hardware: Frame equipped with ABS glass-filled nylon joints for added durability.\n\n📏 HEX Legs for Stability: Hexagon-shaped legs measuring 1.75\"provide maximum support.\n\n⬆️ Pinch-Free Height Adjustment: Plastic levers allow smooth and safe height changes.\n\n🧱 Full Back Wall (Single-Sided): Included for enhanced branding, shade, privacy, and weather protection.\n\n🧳 Portable & Convenient: Easily collapses to fit into the included wheeled soft carry bag.\n\n🪢\n\n🖨️ Imprint Method: High-quality Full-Color Dye Sublimation.\n\nKit Includes\n\n- 🧩 1× Aluminum Frame\n\n- 🎪 1× Custom Printed Canopy\n\n- 🧱 1× Full Back Wall (Single-Sided)\n\n- 🧳 1× Wheeled Carry Bag\n\n- 🪢 1× Ropes & Pegs Set\n\nOptional Accessories\n\n- 6' Table Cover\n\n- Feather Flags\n\n- Sandbags\n\nMaterials\n\n- 🔧 Hardware: ABS Nylon, Aluminum\n\n- 🧵 Canopy: 600 Denier Polyester\n\nCertifications\n\n🔥 Meets FR Rating Requirements\n\nPrimary Usage\n\nOutdoor events, trade shows, food booths, festivals, markets, brand activations, and vendor setups.",
         "source_card_variant": "",
         "source_add_on_group_keys": [
           "accessories-45a444f93734",
@@ -4538,13 +4589,13 @@
         ],
         "source_variant_label": null,
         "source_sizes": [
-          "Default option"
+          "Default Title"
         ],
         "source_size_variants": [
           {
-            "value": "Default option",
-            "price": 1245.0,
-            "compareAtPrice": 1369.5,
+            "value": "Default Title",
+            "price": 12.45,
+            "compareAtPrice": 13.695,
             "active": true
           }
         ],
@@ -4553,11 +4604,13 @@
           "10x20 Custom Canopies",
           "Custom Canopy Tents – Personalized Pop Up Tents for Events"
         ],
-        "source_filter_sizes": [],
-        "source_reviews_text": "1 option",
+        "source_filter_sizes": [
+          "Default Title"
+        ],
+        "source_reviews_text": null,
         "source_badge_label": "Best Selling 10x10 Custom Canopy Tents – Tradeshow & Food Booth Essentials",
         "source_badge_subtext": "10 product images available",
-        "source_description": "Premium 10'×20' Custom Canopy Tent Built for serious vendors and outdoor professionals, our Premium 10'×20' Custom Canopy Tent delivers durability, stability, and full visual impact. Featuring a 40mm heavy-duty aluminum frame, fully customizable 600D dye-sublimated canopy, and c…",
+        "source_description": "Specsheet Warning Label Fire Certificate\n\nPremium 10'×20' Custom Canopy Tent\n\nBuilt for serious vendors and outdoor professionals, our Premium 10'×20' Custom Canopy Tent delivers durability, stability, and full visual impact. Featuring a 40mm heavy-duty aluminum frame, fully customizable 600D dye-sublimated canopy, and complete weather protection, this setup is ideal for trade shows, festivals, food booths, and branded outdoor events.\n\nIncludes a wheeled carry bag for easy transport and free nationwide FedEx ground shipping.\n\nFeatures\n\n- 🛡️ Durable 600D Polyester Canopy: Weather-resistant, long-lasting outdoor fabric.\n\n- 🎨 Full-Color Dye Sublimation: Your artwork is printed in vibrant, high-resolution detail.\n\n- 💪 Heavy-Duty Aluminum Frame: Constructed with 1.2 mm anodized aluminum.\n\n- 🔩 Reinforced ABS Hardware: ABS glass-filled nylon joints for added frame strength.\n\n- 📏 1.75\" HEX Legs: Hexagon-shaped legs for enhanced stability.\n\n- ⬆️ Pinch-Free Adjustment: Plastic lever system for smooth height changes.\n\n- 🧳 Easy Transport: Collapses to fit inside the included soft wheeled carry bag.\n\n- 🪢\n\n- 🖨️ Imprint Method: Premium full-color dye sublimation.\n\nKit Includes\n\n- 🧩 1× Frame Hardware\n\n- 🎪 1× Custom Printed Canopy\n\n- 🧱 1× Full Back Wall (Single-Sided)\n\n- 🧩 2× Half Side Walls (Single-Sided)\n\n- 🧳 1× Wheeled Carry Bag\n\n- 🪢 1× Ropes & Pegs Set\n\nOptional Accessories\n\n- 6' Table Cover\n\n- Feather Flags\n\n- Sandbags\n\nMaterials\n\n- 🔧 Hardware: ABS Nylon, Aluminum\n\n- 🧵 Canopy Fabric: 600D Polyester\n\nCertifications\n\n🔥 Meets FR Rating Requirements\n\nPrimary Usage\n\nOutdoor events, vendor booths, markets, trade shows, festivals, brand activations, and corporate setups.",
         "source_card_variant": "",
         "source_add_on_group_keys": [
           "accessories-c9a707384752",
@@ -4736,13 +4789,13 @@
         ],
         "source_variant_label": null,
         "source_sizes": [
-          "Default option"
+          "Default Title"
         ],
         "source_size_variants": [
           {
-            "value": "Default option",
-            "price": 1345.0,
-            "compareAtPrice": 1479.5,
+            "value": "Default Title",
+            "price": 13.45,
+            "compareAtPrice": 14.795,
             "active": true
           }
         ],
@@ -4750,11 +4803,13 @@
           "10x20 Custom Canopies",
           "Custom Canopy Tents – Personalized Pop Up Tents for Events"
         ],
-        "source_filter_sizes": [],
-        "source_reviews_text": "1 option",
+        "source_filter_sizes": [
+          "Default Title"
+        ],
+        "source_reviews_text": null,
         "source_badge_label": "10x20 Custom Canopies",
         "source_badge_subtext": "11 product images available",
-        "source_description": "Premium 10'×20' Custom Canopy Tent Elevate your event setup with our Premium 10'×20' Custom Canopy Tent, engineered for professional vendors who need maximum space, durability, and high-impact branding. This oversized canopy features a 40mm heavy-duty aluminum frame, a fully cus…",
+        "source_description": "Specsheet Warning Label Fire Certificate\n\nPremium 10'×20' Custom Canopy Tent\n\nElevate your event setup with our Premium 10'×20' Custom Canopy Tent, engineered for professional vendors who need maximum space, durability, and high-impact branding. This oversized canopy features a 40mm heavy-duty aluminum frame, a fully custom 600D dye-sublimation canopy, and includes three single-sided full walls for complete coverage, privacy, and strong visual presence. Comes complete with a wheeled carry bag and free nationwide FedEx ground shipping.\n\nKey Features\n\n- 🛡️ Durable 600D Polyester Canopy: Built with weather-resistant, long-lasting fabric ideal for outdoor use.\n\n- 🎨 Full-Color Dye Sublimation: High-resolution, fade-resistant printing on a crisp white canopy for vibrant artwork.\n\n- 💪 Heavy-Duty Aluminum Frame: Constructed with 1.2 mm anodized aluminum for superior strength and reliability.\n\n- 🔩 Reinforced ABS Hardware: ABS glass-filled nylon joints add durability and reduce wear.\n\n- 📏 1.75\" HEX-Shaped Legs: Hexagon legs for enhanced structural support and improved wind resistance.\n\n- ⬆️ Pinch-Free Height Adjustment: Plastic lever system enables smooth, safe height changes.\n\n- 🧱 Three Full Walls (Single-Sided): Provides maximum branding area, privacy, shade, and weather protection.\n\n- 🧳 Portable & Convenient: Collapses easily and stows in the included wheeled soft carry bag for transport.\n\n- 🪢\n\n- 🖨️ Imprint Method: Premium full-color dye sublimation for crisp, long-lasting graphics.\n\n- 🚚 Shipping: Free ground shipping (FedEx) nationwide.\n\nKit Includes\n\n- 🧩 1× Aluminum Frame\n\n- 🎪 1× Custom Printed Canopy\n\n- 🧱 3× Full Walls (Single-Sided)\n\n- 🧳 1× Wheeled Carry Bag\n\n- 🪢 1× Ropes & Pegs Set\n\nOptional Accessories\n\n- 6' Table Cover\n\n- Feather Flags\n\n- Sandbags\n\nMaterials\n\n- 🔧 Hardware: ABS Nylon, Aluminum\n\n- 🧵 Canopy: 600 Denier Polyester\n\nCertifications\n\n🔥 Meets FR Rating Requirements (Fire-Resistant)\n\nPrimary Usage\n\nOutdoor events, trade shows, food booths, festivals, markets, brand activations, and vendor setups.",
         "source_card_variant": "",
         "source_add_on_group_keys": [
           "accessories-7e319f863083",
@@ -4916,13 +4971,12 @@
         ],
         "source_variant_label": null,
         "source_sizes": [
-          "Default option"
+          "Default Title"
         ],
         "source_size_variants": [
           {
-            "value": "Default option",
-            "price": 995.0,
-            "compareAtPrice": 1094.5,
+            "value": "Default Title",
+            "price": 995,
             "active": true
           }
         ],
@@ -4930,11 +4984,13 @@
           "10x20 Custom Canopies",
           "Custom Canopy Tents – Personalized Pop Up Tents for Events"
         ],
-        "source_filter_sizes": [],
-        "source_reviews_text": "1 option",
+        "source_filter_sizes": [
+          "Default Title"
+        ],
+        "source_reviews_text": null,
         "source_badge_label": "10x20 Custom Canopies",
         "source_badge_subtext": "5 product images available",
-        "source_description": "Premium 10×20 Custom Canopy Tent Take your event setup to the next level with our Premium 10'×20' Custom Canopy Tent, engineered for vendors who need maximum space, durability, and high-impact branding. Built with a 40mm heavy-duty aluminum frame and a fully customizable 600D dy…",
+        "source_description": "Specsheet Warning Label Fire Certificate\n\nPremium 10×20 Custom Canopy Tent\n\nTake your event setup to the next level with our Premium 10'×20' Custom Canopy Tent, engineered for vendors who need maximum space, durability, and high-impact branding. Built with a 40mm heavy-duty aluminum frame and a fully customizable 600D dye-sublimated canopy, this oversized tent is perfect for food booths, trade shows, festivals, corporate events, and outdoor markets.\n\nDesigned for performance and convenience, it includes a wheeled carry bag for easy transport, reinforced hardware for long-term reliability, and full weather protection to keep your team and equipment covered in any condition.\n\nKey Features\n\n- 💪 Heavy-Duty Frame: 40mm anodized aluminum with ABS glass-filled nylon joints for superior stability.\n\n- 🎨 Premium Printing: High-resolution full-color dye-sublimation on durable 600D Oxford polyester canopy.\n\n- ☀️ Weather-Ready: Waterproof, UV-protected, and fire-resistant for reliable outdoor use.\n\n- 🔧 Pinch-Free Adjustment: Hexagonal 1.75\" legs with plastic levers for smooth, safe height changes.\n\n- 🧳 Portable Design: Collapses easily and fits into the included soft wheeled carry bag.\n\n- 🪁\n\n- 🚚 Free Ground Shipping Nationwide (FedEx).\n\nKit Includes\n\n- 🧩 1× 40mm Aluminum Frame\n\n- 🎪 1× Custom Printed Canopy\n\n- 🧳 1× Wheeled Carry Bag\n\n- 🪢 1× Ropes & Pegs Set\n\nOptional Accessories\n\n- 6' Table Cover\n\n- Feather Flags\n\n- Sandbags\n\nMaterials\n\n- 🔧 Hardware: ABS Nylon, Aluminum\n\n- 🧵 Canopy: 600 Denier Polyester\n\nCertifications\n\n🔥 Meets FR Rating Requirements (Fire-Resistant)\n\nPrimary Usage\n\nOutdoor vendor booths, trade shows, food stands, festivals, markets, brand activations, and corporate events.",
         "source_card_variant": "",
         "source_add_on_group_keys": [
           "accessories-568da1ba4676",
@@ -5138,25 +5194,28 @@
         "source_size_variants": [
           {
             "value": "Hex Aluminum",
-            "price": 595.0,
-            "compareAtPrice": 644.5
+            "price": 595,
+            "compareAtPrice": 644.5,
+            "active": true
           },
           {
             "value": "Steel",
-            "price": 495.0,
-            "compareAtPrice": 544.5,
-            "active": true
+            "price": 495,
+            "compareAtPrice": 544.5
           }
         ],
         "source_filter_category": [
           "10x20 Custom Canopies",
           "Custom Canopy Tents – Personalized Pop Up Tents for Events"
         ],
-        "source_filter_sizes": [],
-        "source_reviews_text": "1 option",
+        "source_filter_sizes": [
+          "Hex Aluminum",
+          "Steel"
+        ],
+        "source_reviews_text": null,
         "source_badge_label": "10x20 Custom Canopies",
         "source_badge_subtext": "4 product images available",
-        "source_description": "Replacement 10'×20' Canopy Top (Canopy Only) Upgrade or refresh your existing tent with our durable 10'×20' Replacement Canopy Top, designed for long-lasting outdoor performance and vibrant full-color branding. Made from 600D weather-resistant polyester and printed using premium…",
+        "source_description": "Specsheet Warning Label Fire Certificate\n\nReplacement 10'×20' Canopy Top (Canopy Only)\n\nUpgrade or refresh your existing tent with our durable 10'×20' Replacement Canopy Top, designed for long-lasting outdoor performance and vibrant full-color branding. Made from 600D weather-resistant polyester and printed using premium dye sublimation, this canopy delivers exceptional color quality, durability, and protection from the elements.\nFrame not included.\n\nFeatures\n\n🛡️ 600D Weather-Resistant Polyester: Built to withstand sun, wind, and light rain for reliable outdoor use.\n🎨 Full-Color Dye Sublimation: Your artwork is printed in high-resolution on a crisp white canopy for vivid, long-lasting color.\n🔧 Canopy Top Only: Hardware/frame sold separately.\n🖨️ Imprint Method: Premium full-color dye sublimation for maximum visual impact.\n\nKit Includes\n\n- 🎪 1× Replacement Canopy Top\n\n- ⚠️ Frame NOT Included\n\nMaterials\n\n🧵 Canopy: 600 Denier Polyester\n\nCertifications\n\n🔥 Meets FR Rating Requirements (Fire-Resistant)\n\nPrimary Usage\n\nPerfect for outdoor events, vendor setups, festivals, markets, trade shows, and brand activations.",
         "source_card_variant": "",
         "source_add_on_group_keys": [
           "accessories-c610b2ea55ef",
@@ -5323,13 +5382,12 @@
         ],
         "source_variant_label": null,
         "source_sizes": [
-          "Default option"
+          "Default Title"
         ],
         "source_size_variants": [
           {
-            "value": "Default option",
-            "price": 945.0,
-            "compareAtPrice": 1039.5,
+            "value": "Default Title",
+            "price": 945,
             "active": true
           }
         ],
@@ -5337,11 +5395,13 @@
           "10x20 Custom Canopies",
           "Custom Canopy Tents – Personalized Pop Up Tents for Events"
         ],
-        "source_filter_sizes": [],
-        "source_reviews_text": "1 option",
+        "source_filter_sizes": [
+          "Default Title"
+        ],
+        "source_reviews_text": null,
         "source_badge_label": "10x20 Custom Canopies",
         "source_badge_subtext": "9 product images available",
-        "source_description": "Premium 10×20 Custom Canopy Tent Take your event setup to the next level with our Premium 10'×20' Custom Canopy Tent, engineered for vendors who need maximum space, durability, and high-impact branding. Built with a 40mm heavy-duty aluminum frame and a fully customizable 600D dy…",
+        "source_description": "Specsheet Warning Label Fire Certificate\n\nPremium 10×20 Custom Canopy Tent\n\nTake your event setup to the next level with our Premium 10'×20' Custom Canopy Tent, engineered for vendors who need maximum space, durability, and high-impact branding. Built with a 40mm heavy-duty aluminum frame and a fully customizable 600D dye-sublimated canopy, this oversized tent is perfect for food booths, trade shows, festivals, corporate events, and outdoor markets.\n\nDesigned for performance and convenience, it includes a wheeled carry bag for easy transport, reinforced hardware for long-term reliability, and full weather protection to keep your team and equipment covered in any condition.\n\nKey Features\n\n- 💪 Heavy-Duty Frame: 40mm anodized aluminum with ABS glass-filled nylon joints for superior stability.\n\n- 🎨 Premium Printing: High-resolution full-color dye-sublimation on durable 600D Oxford polyester canopy.\n\n- ☀️ Weather-Ready: Waterproof, UV-protected, and fire-resistant for reliable outdoor use.\n\n- 🔧 Pinch-Free Adjustment: Hexagonal 1.75\" legs with plastic levers for smooth, safe height changes.\n\n- 🧳 Portable Design: Collapses easily and fits into the included soft wheeled carry bag.\n\n- 🪁\n\n- 🚚 Free Ground Shipping Nationwide (FedEx).\n\nKit Includes\n\n- 🧩 1× 40mm Aluminum Frame\n\n- 🎪 1× Custom Printed Canopy\n\n- 🧳 1× Wheeled Carry Bag\n\n- 🪢 1× Ropes & Pegs Set\n\nOptional Accessories\n\n- 6' Table Cover\n\n- Feather Flags\n\n- Sandbags\n\nMaterials\n\n- 🔧 Hardware: ABS Nylon, Aluminum\n\n- 🧵 Canopy: 600 Denier Polyester\n\nCertifications\n\n🔥 Meets FR Rating Requirements (Fire-Resistant)\n\nPrimary Usage\n\nOutdoor vendor booths, trade shows, food stands, festivals, markets, brand activations, and corporate events.",
         "source_card_variant": "",
         "source_add_on_group_keys": [
           "accessories-bcefaa84e800",
@@ -5488,23 +5548,25 @@
         ],
         "source_variant_label": null,
         "source_sizes": [
-          "Default option"
+          "Default Title"
         ],
         "source_size_variants": [
           {
-            "value": "Default option",
-            "price": 592.0,
+            "value": "Default Title",
+            "price": 592,
             "active": true
           }
         ],
         "source_filter_category": [
           "Custom Canopy Tents – Personalized Pop Up Tents for Events"
         ],
-        "source_filter_sizes": [],
-        "source_reviews_text": "1 option",
-        "source_badge_label": "Custom Canopy Tents – Personalized Pop Up Tents For Events",
+        "source_filter_sizes": [
+          "Default Title"
+        ],
+        "source_reviews_text": null,
+        "source_badge_label": "Custom Canopy Tents – Personalized Pop Up Tents for Events",
         "source_badge_subtext": "2 product images available",
-        "source_description": ". Custom Corner Features - Canopy is constructed of durable, weather-resistant 600 denier polyester - Your artwork will be dye sublimated on a white canopy - Crank-up canopy creates a taut, clean peak - Frame is constructed of 1.2 mm anodized aluminum - Frame features ABS glass-…",
+        "source_description": "https://www.dropbox.com/scl/fi/6qlxac9aesqmq88bwq5re/10FT-flag-top-canopy.pdf?rlkey=t9uhhxkpkromphswwrf08owqx&dl=0\n\nSpecsheet . Custom Corner Warning Label Fire Certificate\n\nFeatures\n\n- Canopy is constructed of durable, weather-resistant 600 denier polyester\n\n- Your artwork will be dye sublimated on a white canopy\n\n- Crank-up canopy creates a taut, clean peak\n\n- Frame is constructed of 1.2 mm anodized aluminum\n\n- Frame features ABS glass-filled nylon joints\n\n- Hexagon-shaped legs are 1.75\" in diameter\n\n- Legs feature plastic levers for pinch-free height adjustment\n\n- Easily collapses to fit inside the included soft case with wheels\n\n- The tent can be secured to the ground with the included stake kit\n\n- Imprint Method: Full-Color Dye Sublimation\n\nKit Includes\n\n- 1: Hardware (Frame)\n\n- 1: Canopy\n\n- 1: Carrying Bag w/ Wheels\n\n- 1:Ground stakes and ropes\n\nOptional Accessories\n\n- Sandbags\n\nMaterials\n\n- Hardware: ABS Nylon, Aluminum\n\n- Canopy: 600 Denier Polyester\n\nCertifications\n\n- Meets FR Rating Requirements\n\n- Primary Usage\n\n- Outdoor\n\n- Order Cutoff Time\n\n- 12:00 PM Central Daylight Time",
         "source_card_variant": "",
         "source_add_on_group_keys": [],
         "local_image_paths": [
@@ -5691,12 +5753,12 @@
         "source_size_variants": [
           {
             "value": "Single Sided",
-            "price": 250.0,
+            "price": 250,
             "active": true
           },
           {
             "value": "Double Sided",
-            "price": 334.0
+            "price": 334
           }
         ],
         "source_filter_category": [
@@ -5706,10 +5768,10 @@
           "Single Sided",
           "Double Sided"
         ],
-        "source_reviews_text": "2 options",
-        "source_badge_label": "Custom Canopy Tents – Personalized Pop Up Tents For Events",
+        "source_reviews_text": null,
+        "source_badge_label": "Custom Canopy Tents – Personalized Pop Up Tents for Events",
         "source_badge_subtext": "1 product image available",
-        "source_description": "The leg cover uses the same fabric we used for making the tent, which is water-proof, anti UV, and fire retardant. It finished with Velcros strap on top and bottom, so you can attach and secure it around any of the tent leg easily. And the edge is firmly stitched to prevent the…",
+        "source_description": "Download Template Fire Certificate\n\nThe leg cover uses the same fabric we used for making the tent, which is water-proof, anti UV, and fire retardant. It finished with Velcros strap on top and bottom, so you can attach and secure it around any of the tent leg easily. And the edge is firmly stitched to prevent the cover from fraying.\n\nprice included 4 leg cover",
         "source_card_variant": "",
         "source_add_on_group_keys": [],
         "local_image_paths": [
@@ -6102,49 +6164,55 @@
         ],
         "source_variant_label": "Size",
         "source_sizes": [
-          "10'",
-          "15'",
-          "20'"
+          "10' / Single-Sided",
+          "15' / Single-Sided",
+          "20' / Single-Sided",
+          "10' / Double-Sided",
+          "15' / Double-Sided",
+          "20' / Double-Sided"
         ],
         "source_size_variants": [
           {
             "value": "10' / Single-Sided",
-            "price": 109.0,
+            "price": 109,
             "active": true
           },
           {
             "value": "15' / Single-Sided",
-            "price": 164.0
+            "price": 164
           },
           {
             "value": "20' / Single-Sided",
-            "price": 217.0
+            "price": 217
           },
           {
             "value": "10' / Double-Sided",
-            "price": 217.0
+            "price": 217
           },
           {
             "value": "15' / Double-Sided",
-            "price": 325.0
+            "price": 325
           },
           {
             "value": "20' / Double-Sided",
-            "price": 434.0
+            "price": 434
           }
         ],
         "source_filter_category": [
           "Custom Canopy Tents – Personalized Pop Up Tents for Events"
         ],
         "source_filter_sizes": [
-          "10'",
-          "15'",
-          "20'"
+          "10' / Single-Sided",
+          "15' / Single-Sided",
+          "20' / Single-Sided",
+          "10' / Double-Sided",
+          "15' / Double-Sided",
+          "20' / Double-Sided"
         ],
-        "source_reviews_text": "6 options",
-        "source_badge_label": "Custom Canopy Tents – Personalized Pop Up Tents For Events",
+        "source_reviews_text": null,
+        "source_badge_label": "Custom Canopy Tents – Personalized Pop Up Tents for Events",
         "source_badge_subtext": "1 product image available",
-        "source_description": "Download 10ft Download 15ft Download 20ft Constructed of durable 600 denier polyester\nYour artwork will be dye sublimated on the wall; Tent quarter wall features hook-and-loop straps that can be secured around tent legs\nImprint Method: Full-Color Dye Sublimation Materials - Cano…",
+        "source_description": "Download 10ft Template\n\nDownload 15ft Template\n\nDownload 20ft Template\n\nFire Certificate\n\nConstructed of durable 600 denier polyester\nYour artwork will be dye sublimated on the wall;\n\nTent quarter wall features hook-and-loop straps that can be secured around tent legs\nImprint Method: Full-Color Dye Sublimation\n\nMaterials\n\n- Canopy: 600 Denier Polyester\n\nOrder Cutoff Time\n\n- 12:00 PM Central Daylight Time",
         "source_card_variant": "",
         "source_add_on_group_keys": [],
         "local_image_paths": [
@@ -6366,14 +6434,14 @@
         "source_size_variants": [
           {
             "value": "Hex Aluminum",
-            "price": 1190.0,
-            "compareAtPrice": 1280.0
+            "price": 11.9,
+            "compareAtPrice": 12.8,
+            "active": true
           },
           {
             "value": "Steel",
-            "price": 1090.0,
-            "compareAtPrice": 1180.0,
-            "active": true
+            "price": 10.9,
+            "compareAtPrice": 11.8
           }
         ],
         "source_filter_category": [
@@ -6386,10 +6454,10 @@
           "Hex Aluminum",
           "Steel"
         ],
-        "source_reviews_text": "2 options",
-        "source_badge_label": "Trade Show Essentials – 10x10, 10x15 & 10x20 Custom Canopy Tents For Events & Exhibits",
+        "source_reviews_text": null,
+        "source_badge_label": "Trade Show Essentials – 10x10, 10x15 & 10x20 Custom Canopy Tents for Events & Exhibits",
         "source_badge_subtext": "9 product images available",
-        "source_description": "Trade Show Essential 10x10 Custom Canopy Tent Make your booth stand out at trade shows, festivals, and outdoor events with our 10x10 Trade Show Essential Custom Canopy Tent. This professional-grade canopy combines durability, branding, and convenient setup, helping you attract m…",
+        "source_description": "Specsheet Warning Label Fire Certificate\n\nTrade Show Essential 10x10 Custom Canopy Tent\n\nMake your booth stand out at trade shows, festivals, and outdoor events with our 10x10 Trade Show Essential Custom Canopy Tent. This professional-grade canopy combines durability, branding, and convenient setup, helping you attract more visitors and make a lasting impression.\n\nKey Features:\n\n💪 HEX Aluminum Frame (Silver): Strong and lightweight for reliable stability.\n\n🎨 Custom Printing: Dye-sublimation printing on canopy top, full back wall, and half side walls for vibrant, fade-resistant branding.\n\n🧱 Half Side Walls with Mesh Option: Solid fabric bottoms with optional mesh tops for airflow and customer visibility.\n\n🧵 Full Back Wall: Printed inward for professional interior appearance and brand exposure.\n\n☀️ Weather-Resistant Canopy: 600 Denier Polyester, UV-protected and waterproof.\n\n⚙️ Quick Pop-Up Design: Tool-free assembly allows fast setup in minutes.\n\n🧳 Wheeled Carry Bag Included: Convenient transport and storage for the frame.\n\n🎁 Complete Package: Frame, canopy top, printed walls, wheeled carry bag, free design service, and fast delivery.\n\n- Included Accessories:\n\n- 2-12' Double Sided Stand Alone Flags, Table Cover\n\n- 1- 6' Stretch Table Cover\n\nMaterials\n\n- Hardware: ABS Nylon, Aluminum\n\n- Canopy: 600 Denier Polyester\n\nCertifications\n\n- Meets FR Rating Requirements\n\nPrimary Usage\n\nTrade shows, outdoor events, food festivals, farmers’ markets, pop-up shops, and brand activations",
         "source_card_variant": "",
         "source_add_on_group_keys": [
           "accessories-18e19ef5bfc8",
@@ -6625,14 +6693,14 @@
         "source_size_variants": [
           {
             "value": "Hex Aluminum",
-            "price": 1190.0,
-            "compareAtPrice": 1280.0
+            "price": 11.9,
+            "compareAtPrice": 12.8,
+            "active": true
           },
           {
             "value": "Steel",
-            "price": 1090.0,
-            "compareAtPrice": 1180.0,
-            "active": true
+            "price": 10.9,
+            "compareAtPrice": 11.8
           }
         ],
         "source_filter_category": [
@@ -6645,10 +6713,10 @@
           "Hex Aluminum",
           "Steel"
         ],
-        "source_reviews_text": "2 options",
-        "source_badge_label": "Trade Show Essentials – 10x10, 10x15 & 10x20 Custom Canopy Tents For Events & Exhibits",
+        "source_reviews_text": null,
+        "source_badge_label": "Trade Show Essentials – 10x10, 10x15 & 10x20 Custom Canopy Tents for Events & Exhibits",
         "source_badge_subtext": "10 product images available",
-        "source_description": "Trade Show Essential 10x10 Custom Canopy Tent Make your booth stand out at trade shows, festivals, and outdoor events with our 10x10 Tradeshow Essential Custom Canopy Tent. This professional-grade canopy combines durability, branding, and convenient setup, helping you attract mo…",
+        "source_description": "Specsheet Warning Label Fire Certificate\n\nTrade Show Essential 10x10 Custom Canopy Tent\n\nMake your booth stand out at trade shows, festivals, and outdoor events with our 10x10 Tradeshow Essential Custom Canopy Tent. This professional-grade canopy combines durability, branding, and convenient setup, helping you attract more visitors and make a lasting impression.\n\nKey Features:\n\n💪 HEX Aluminum Frame (Silver): Strong and lightweight for reliable stability.\n\n🎨 Custom Printing: Dye-sublimation printing on canopy top, full back wall, and half side walls for vibrant, fade-resistant branding.\n\n🧱 Half Side Walls with Mesh Option: Solid fabric bottoms with optional mesh tops for airflow and customer visibility.\n\n🧵 Full Back Wall: Printed inward for professional interior appearance and brand exposure.\n\n☀️ Weather-Resistant Canopy: 600 Denier Polyester, UV-protected and waterproof.\n\n⚙️ Quick Pop-Up Design: Tool-free assembly allows fast setup in minutes.\n\n🧳 Wheeled Carry Bag Included: Convenient transport and storage for the frame.\n\n🎁 Complete Package: Frame, canopy top, printed walls, wheeled carry bag, free design service, and fast delivery.\n\n- Included Accessories:\n\n- 2-12' Double Sided Mounted Flags, Table Cover\n\n- 1- 6' Stretch Table Cover\n\nMaterials\n\n- Hardware: ABS Nylon, Aluminum\n\n- Canopy: 600 Denier Polyester\n\nCertifications\n\n- Meets FR Rating Requirements\n\nPrimary Usage\n\nTrade shows, outdoor events, food festivals, farmers’ markets, pop-up shops, and brand activations",
         "source_card_variant": "",
         "source_add_on_group_keys": [
           "accessories-a426cf12dc19",

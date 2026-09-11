@@ -23,6 +23,19 @@
       "inventory_data_path": "/inventory/notionworx/collections/umbrella.json"
     }
   },
+  "productCategory": {
+    "name": "UMBRELLA",
+    "description": "",
+    "handle": "umbrella",
+    "is_active": true,
+    "is_internal": false,
+    "metadata": {
+      "source": "notionworx-inventory",
+      "source_handle": "umbrella",
+      "source_title": "UMBRELLA",
+      "inventory_data_path": "/inventory/notionworx/collections/umbrella.json"
+    }
+  },
   "productsCount": 1,
   "products": [
     {
@@ -252,8 +265,7 @@
         "warranty_text": null,
         "source_options": [
           {
-            "name": "Included",
-            "position": 1,
+            "title": "Included",
             "values": [
               "Frame + Graphic +Base",
               "Graphics Only",
@@ -351,25 +363,24 @@
         "source_size_variants": [
           {
             "value": "Frame + Graphic +Base",
-            "price": 510.0
+            "price": 510,
+            "active": true
           },
           {
             "value": "Graphics Only",
-            "price": 285.0
+            "price": 285
           },
           {
             "value": "Frame + Graphic",
-            "price": 400.0
+            "price": 400
           },
           {
             "value": "Frame Only",
-            "price": 115.0,
-            "active": true
+            "price": 115
           },
           {
             "value": "Base Only",
-            "price": 115.0,
-            "active": true
+            "price": 115
           }
         ],
         "source_filter_category": [
@@ -382,10 +393,10 @@
           "Frame Only",
           "Base Only"
         ],
-        "source_reviews_text": "5 options",
-        "source_badge_label": "Umbrella",
+        "source_reviews_text": null,
+        "source_badge_label": "UMBRELLA",
         "source_badge_subtext": "5 product images available",
-        "source_description": "Handle Material Aluminum, Alloy Steel Frame Material Aluminum, Alloy Steel 9 ft About this item When ordering custom graphics; the graphics will ship separately and will need to be swapped out and attached to the umbrella hardware. - Available electrical source--Requires 4*AA ba…",
+        "source_description": "Download Template\n\nHandle Material\n\nAluminum, Alloy Steel\n\nFrame Material\n\nAluminum, Alloy Steel\n\n9 ft\n\nAbout this item\n\nWhen ordering custom graphics; the graphics will ship separately and will need to be swapped out and attached to the umbrella hardware.\n\n- Available electrical source--Requires 4*AA batteries (NOT INCLUDED),which can be easily purchased in common shops. Easy to carry and prepare for batteries backup.",
         "source_card_variant": "",
         "source_add_on_group_keys": [],
         "local_image_paths": [

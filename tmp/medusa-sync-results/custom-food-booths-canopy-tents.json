@@ -1,0 +1,67 @@
+{
+  "mode": "apply",
+  "previewPath": "/Users/pranayverma/Desktop/notionworx-nx/data/inventory/notionworx/medusa/custom-food-booths-canopy-tents-preview.json",
+  "collectionId": "pcol_01M1F5HJN1XG9QDCT84RASK13X",
+  "collectionHandle": "custom-food-booths-canopy-tents",
+  "productCategoryId": "pcat_01M28WQG4HYN7R71FNQRBZ5G6S",
+  "productCategoryCreated": true,
+  "sourceProductsCount": 4,
+  "createdProducts": 0,
+  "skippedProducts": 4,
+  "failedProducts": 0,
+  "createdHandles": [],
+  "skippedHandles": [
+    "custom-food-booth-canopy-tent-16-10",
+    "custom-food-booth-canopy-tent-17-15",
+    "custom-food-booth-canopy-tent-18-20",
+    "custom-food-booth-canopy-tent-23-05"
+  ],
+  "createFailures": [],
+  "contentUpdatedProducts": 4,
+  "contentFailedProducts": 0,
+  "contentUpdatedHandles": [
+    "custom-food-booth-canopy-tent-16-10",
+    "custom-food-booth-canopy-tent-17-15",
+    "custom-food-booth-canopy-tent-18-20",
+    "custom-food-booth-canopy-tent-23-05"
+  ],
+  "contentFailures": [],
+  "imageUpdatedProducts": 0,
+  "imageSkippedProducts": 4,
+  "imageFailedProducts": 0,
+  "uploadedImages": 0,
+  "imageUpdatedHandles": [],
+  "imageFailures": [],
+  "productCategoryAddedProducts": 4,
+  "productCategoryAlreadyPresentProducts": 0,
+  "productCategoryMissingProducts": 0,
+  "productCategoryFailedProducts": 0,
+  "productCategoryAddedHandles": [
+    "custom-food-booth-canopy-tent-16-10",
+    "custom-food-booth-canopy-tent-17-15",
+    "custom-food-booth-canopy-tent-18-20",
+    "custom-food-booth-canopy-tent-23-05"
+  ],
+  "productCategoryAlreadyPresentHandles": [],
+  "productCategoryMissingHandles": [],
+  "productCategoryFailures": [],
+  "verification": {
+    "storeCollectionId": "pcol_01M1F5HJN1XG9QDCT84RASK13X",
+    "adminCollectionId": "pcol_01M1F5HJN1XG9QDCT84RASK13X",
+    "storeProductsCount": 0,
+    "adminProductsCount": 0,
+    "storeProductHandles": [],
+    "adminProductHandles": []
+  },
+  "productCategoryVerification": {
+    "productCategoryId": "pcat_01M28WQG4HYN7R71FNQRBZ5G6S",
+    "productCategoryHandle": "custom-food-booths-canopy-tents",
+    "productCategoryProductsCount": 4,
+    "productCategoryProductHandles": [
+      "custom-food-booth-canopy-tent-16-10",
+      "custom-food-booth-canopy-tent-17-15",
+      "custom-food-booth-canopy-tent-18-20",
+      "custom-food-booth-canopy-tent-23-05"
+    ]
+  }
+}

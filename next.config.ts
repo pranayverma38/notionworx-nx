@@ -84,7 +84,7 @@ const nextConfig: NextConfig = {
       })),
       {
         source: "/shop-sub-collection",
-        destination: "/collection",
+        destination: "/categories",
         permanent: false,
       },
       ...demoProductRoutes.map((source) => ({

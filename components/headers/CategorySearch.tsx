@@ -14,7 +14,7 @@ export default function CategorySearch({
   const [query, setQuery] = useState("");
 
   const categories = [
-    { value: "all", label: "All Categories", href: "/collection" },
+    { value: "all", label: "All Categories", href: "/categories" },
     ...categoriesCollection.map((category) => ({
       value: category.name.toLowerCase().replace(/[^a-z0-9]+/g, "-"),
       label: category.name,

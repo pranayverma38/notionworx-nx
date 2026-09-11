@@ -2,15 +2,14 @@ import Image from "next/image";
 import Link from "next/link";
 import { categoriesCollection } from "@/data/categories";
 
-const canopyCollectionNames = [
-  "5x5 Custom Canopies",
-  "10x10 Custom Canopies",
-  "10x15 Custom Canopies",
-  "10x20 Custom Canopies",
-] as const;
+type CanopyCollectionName =
+  | "5x5 Custom Canopies"
+  | "10x10 Custom Canopies"
+  | "10x15 Custom Canopies"
+  | "10x20 Custom Canopies";
 const CANOPY_CARD_HEIGHT = 280;
 
-function getCollection(name: (typeof canopyCollectionNames)[number]) {
+function getCollection(name: CanopyCollectionName) {
   return categoriesCollection.find((category) => category.name === name);
 }
 
@@ -29,7 +28,7 @@ export default function PromoCollection() {
       <div className="container">
         <div className="tf-grid-layout md-col-2 xl-col-3 xl-gap-20">
           <div className="banner-image-text type-abs style-4">
-            <Link href="/collection" className="bn-image img-style">
+            <Link href="/categories" className="bn-image img-style">
               <Image
                 loading="lazy"
                 width={450}
@@ -63,13 +62,13 @@ export default function PromoCollection() {
               }}
             >
               <Link
-                href="/collection"
+                href="/categories"
                 className="title h3 fw-medium text-white link"
               >
                 The Ultimate Marketing Tool!
               </Link>
               <Link
-                href="/collection"
+                href="/categories"
                 className="btn-action tf-btn btn-white small"
               >
                 Explore Canopies
@@ -82,7 +81,7 @@ export default function PromoCollection() {
                 key={collection.name}
                 className="box-image_v03 hover-img4"
               >
-                <Link href={collection.href ?? "/collection"} className="box-image_img img-style4">
+                <Link href={collection.href ?? "/categories"} className="box-image_img img-style4">
                   <Image
                     loading="lazy"
                     width={450}
@@ -98,7 +97,7 @@ export default function PromoCollection() {
                 </Link>
                 <div className="box-image_content">
                   <Link
-                    href={collection.href ?? "/collection"}
+                    href={collection.href ?? "/categories"}
                     className="title h6 fw-medium link"
                   >
                     {collection.name}
@@ -114,7 +113,7 @@ export default function PromoCollection() {
                 key={collection.name}
                 className="box-image_v03 hover-img4"
               >
-                <Link href={collection.href ?? "/collection"} className="box-image_img img-style4">
+                <Link href={collection.href ?? "/categories"} className="box-image_img img-style4">
                   <Image
                     loading="lazy"
                     width={450}
@@ -130,7 +129,7 @@ export default function PromoCollection() {
                 </Link>
                 <div className="box-image_content">
                   <Link
-                    href={collection.href ?? "/collection"}
+                    href={collection.href ?? "/categories"}
                     className="title h6 fw-medium link"
                   >
                     {collection.name}

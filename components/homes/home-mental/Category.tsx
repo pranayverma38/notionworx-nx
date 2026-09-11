@@ -15,10 +15,10 @@ function Category() {
             </p>
           </div>
           <Link
-            href="/collection"
+            href="/categories"
             className="tf-btn-line-2 style-primary py-4"
           >
-            <span className="fw-semibold"> View All Category </span>
+            <span className="fw-semibold"> View All Categories </span>
           </Link>
         </div>
         <TfSwiper

@@ -22,6 +22,19 @@
       "obsolete_data_path": "/obselete/notionworx/collections/apparel.json"
     }
   },
+  "productCategory": {
+    "name": "APPAREL",
+    "description": "",
+    "handle": "apparel",
+    "is_active": true,
+    "is_internal": false,
+    "metadata": {
+      "source": "notionworx-obsolete",
+      "source_handle": "apparel",
+      "source_title": "APPAREL",
+      "obsolete_data_path": "/obselete/notionworx/collections/apparel.json"
+    }
+  },
   "productsCount": 45,
   "products": [
     {

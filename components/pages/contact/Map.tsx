@@ -30,8 +30,8 @@ export default function Map() {
                   want help with artwork setup.
                 </p>
                 <div className="d-flex flex-column gap-12">
-                  <Link href="/collection" className="tf-btn animate-btn">
-                    Browse collections
+                  <Link href="/categories" className="tf-btn animate-btn">
+                    Browse categories
                   </Link>
                   <Link href="/shop-default" className="tf-btn btn-line">
                     Shop all products

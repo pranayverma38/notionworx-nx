@@ -54,7 +54,7 @@ export const heroSlidesAuto: HeroSlide[] = [
 export const heroSlidesBaby: HeroSlide[] = [
   {
     img: "/assets/images/notionworx/hero/car-club-banner.png",
-    href: "/collection",
+    href: "/categories",
     alt: "Car Club Shades hero banner",
     subtitle: "Make your ride’s spot impossible to miss",
     title: "Car Club Shades",
@@ -62,7 +62,7 @@ export const heroSlidesBaby: HeroSlide[] = [
   },
   {
     img: "/assets/images/notionworx/hero/food-booth-banner.png",
-    href: "/collection",
+    href: "/categories",
     alt: "Custom Food Booths hero banner",
     subtitle: "Your food, your brand—built to shine at any market",
     title: "Custom Food Booths",
@@ -70,7 +70,7 @@ export const heroSlidesBaby: HeroSlide[] = [
   },
   {
     img: "/assets/images/notionworx/hero/trade-show-banner.jpg",
-    href: "/collection",
+    href: "/categories",
     alt: "Trade Show Essentials hero banner",
     subtitle: "Show up prepared, polished, and unforgettable",
     title: "Trade Show Essentials",
@@ -78,7 +78,7 @@ export const heroSlidesBaby: HeroSlide[] = [
   },
   {
     img: "/assets/images/notionworx/hero/team-banner.jpg",
-    href: "/collection",
+    href: "/categories",
     alt: "Big Team? No Problem! hero banner",
     subtitle: "Wide shade, strong presence—built for game day",
     title: "Big Team? No Problem!",
@@ -86,7 +86,7 @@ export const heroSlidesBaby: HeroSlide[] = [
   },
   {
     img: "/assets/images/notionworx/hero/brand-banner.jpg",
-    href: "/collection",
+    href: "/categories",
     alt: "Take Your Brand To The Next Level hero banner",
     subtitle: "Make a statement with wide shade and standout presence",
     title: "Take Your Brand To The Next Level",
@@ -152,21 +152,21 @@ export const heroDecorSlides: HeroSlide[] = [
     alt: "Image",
     subtitle: "Elevate Your Workspace",
     title: "Office decor that\nsparks creativity.",
-    ctaText: "Explore Collection",
+    ctaText: "Explore Categories",
   },
   {
     img: "/assets/images/slider/slider-14.jpg",
     alt: "Image",
     subtitle: "Creative Desk Accents",
     title: "Small details, big\ninspiration.",
-    ctaText: "Explore Collection",
+    ctaText: "Explore Categories",
   },
   {
     img: "/assets/images/slider/slider-15.jpg",
     alt: "Image",
     subtitle: "Inspire Your Workspace",
     title: "Stay focused and\ninspired every day.",
-    ctaText: "Explore Collection",
+    ctaText: "Explore Categories",
   },
 ];
 

@@ -1,0 +1,89 @@
+{
+  "mode": "apply",
+  "previewPath": "/Users/pranayverma/Desktop/notionworx-nx/data/inventory/notionworx/medusa/seg-products-preview.json",
+  "collectionId": "pcol_01M1F55S7RSPTBA8C0SWVTA27G",
+  "collectionHandle": "seg-products",
+  "productCategoryId": "pcat_01M28WXYZEFWN9HAZ6JJ7YC5N7",
+  "productCategoryCreated": true,
+  "sourceProductsCount": 6,
+  "createdProducts": 0,
+  "skippedProducts": 6,
+  "failedProducts": 0,
+  "createdHandles": [],
+  "skippedHandles": [
+    "10ft-seg-backlit-fabric-display",
+    "10ft-seg-backlit-popup-display",
+    "10ft-seg-fabric-display",
+    "20ft-seg-fabric-display",
+    "3ft-seg-fabric-stand",
+    "8ft-seg-backlit-popup-display"
+  ],
+  "createFailures": [],
+  "contentUpdatedProducts": 6,
+  "contentFailedProducts": 0,
+  "contentUpdatedHandles": [
+    "10ft-seg-backlit-fabric-display",
+    "10ft-seg-backlit-popup-display",
+    "10ft-seg-fabric-display",
+    "20ft-seg-fabric-display",
+    "3ft-seg-fabric-stand",
+    "8ft-seg-backlit-popup-display"
+  ],
+  "contentFailures": [],
+  "imageUpdatedProducts": 0,
+  "imageSkippedProducts": 6,
+  "imageFailedProducts": 0,
+  "uploadedImages": 0,
+  "imageUpdatedHandles": [],
+  "imageFailures": [],
+  "productCategoryAddedProducts": 6,
+  "productCategoryAlreadyPresentProducts": 0,
+  "productCategoryMissingProducts": 0,
+  "productCategoryFailedProducts": 0,
+  "productCategoryAddedHandles": [
+    "10ft-seg-backlit-fabric-display",
+    "10ft-seg-backlit-popup-display",
+    "10ft-seg-fabric-display",
+    "20ft-seg-fabric-display",
+    "3ft-seg-fabric-stand",
+    "8ft-seg-backlit-popup-display"
+  ],
+  "productCategoryAlreadyPresentHandles": [],
+  "productCategoryMissingHandles": [],
+  "productCategoryFailures": [],
+  "verification": {
+    "storeCollectionId": "pcol_01M1F55S7RSPTBA8C0SWVTA27G",
+    "adminCollectionId": "pcol_01M1F55S7RSPTBA8C0SWVTA27G",
+    "storeProductsCount": 6,
+    "adminProductsCount": 6,
+    "storeProductHandles": [
+      "10ft-seg-backlit-fabric-display",
+      "10ft-seg-backlit-popup-display",
+      "10ft-seg-fabric-display",
+      "20ft-seg-fabric-display",
+      "3ft-seg-fabric-stand",
+      "8ft-seg-backlit-popup-display"
+    ],
+    "adminProductHandles": [
+      "10ft-seg-backlit-fabric-display",
+      "10ft-seg-backlit-popup-display",
+      "10ft-seg-fabric-display",
+      "20ft-seg-fabric-display",
+      "3ft-seg-fabric-stand",
+      "8ft-seg-backlit-popup-display"
+    ]
+  },
+  "productCategoryVerification": {
+    "productCategoryId": "pcat_01M28WXYZEFWN9HAZ6JJ7YC5N7",
+    "productCategoryHandle": "seg-products",
+    "productCategoryProductsCount": 6,
+    "productCategoryProductHandles": [
+      "10ft-seg-backlit-fabric-display",
+      "10ft-seg-backlit-popup-display",
+      "10ft-seg-fabric-display",
+      "20ft-seg-fabric-display",
+      "3ft-seg-fabric-stand",
+      "8ft-seg-backlit-popup-display"
+    ]
+  }
+}

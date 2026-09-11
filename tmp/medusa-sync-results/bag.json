@@ -1,0 +1,95 @@
+{
+  "mode": "apply",
+  "previewPath": "/Users/pranayverma/Desktop/notionworx-nx/data/inventory/notionworx/medusa/bag-preview.json",
+  "collectionId": "pcol_01M1F4VWYXW6SEXE257NM79N59",
+  "collectionHandle": "bag",
+  "productCategoryId": "pcat_01M28VKQY7YDNA4QXEPH0FJST5",
+  "productCategoryCreated": false,
+  "sourceProductsCount": 7,
+  "createdProducts": 0,
+  "skippedProducts": 7,
+  "failedProducts": 0,
+  "createdHandles": [],
+  "skippedHandles": [
+    "belt-bag-dye-sublimated-1-38-strap-500060",
+    "custom-2-zipper-fanny-pack-dye-sublimated",
+    "custom-duffel-bag-dye-sublimated",
+    "custom-fanny-pack-dye-sublimated",
+    "custom-tote-bag-dye-sublimated",
+    "drawstring-bag-dye-sublimated",
+    "sublimated-bucket-hat"
+  ],
+  "createFailures": [],
+  "contentUpdatedProducts": 7,
+  "contentFailedProducts": 0,
+  "contentUpdatedHandles": [
+    "belt-bag-dye-sublimated-1-38-strap-500060",
+    "custom-2-zipper-fanny-pack-dye-sublimated",
+    "custom-duffel-bag-dye-sublimated",
+    "custom-fanny-pack-dye-sublimated",
+    "custom-tote-bag-dye-sublimated",
+    "drawstring-bag-dye-sublimated",
+    "sublimated-bucket-hat"
+  ],
+  "contentFailures": [],
+  "imageUpdatedProducts": 0,
+  "imageSkippedProducts": 7,
+  "imageFailedProducts": 0,
+  "uploadedImages": 0,
+  "imageUpdatedHandles": [],
+  "imageFailures": [],
+  "productCategoryAddedProducts": 0,
+  "productCategoryAlreadyPresentProducts": 7,
+  "productCategoryMissingProducts": 0,
+  "productCategoryFailedProducts": 0,
+  "productCategoryAddedHandles": [],
+  "productCategoryAlreadyPresentHandles": [
+    "belt-bag-dye-sublimated-1-38-strap-500060",
+    "custom-2-zipper-fanny-pack-dye-sublimated",
+    "custom-duffel-bag-dye-sublimated",
+    "custom-fanny-pack-dye-sublimated",
+    "custom-tote-bag-dye-sublimated",
+    "drawstring-bag-dye-sublimated",
+    "sublimated-bucket-hat"
+  ],
+  "productCategoryMissingHandles": [],
+  "productCategoryFailures": [],
+  "verification": {
+    "storeCollectionId": "pcol_01M1F4VWYXW6SEXE257NM79N59",
+    "adminCollectionId": "pcol_01M1F4VWYXW6SEXE257NM79N59",
+    "storeProductsCount": 7,
+    "adminProductsCount": 7,
+    "storeProductHandles": [
+      "belt-bag-dye-sublimated-1-38-strap-500060",
+      "custom-2-zipper-fanny-pack-dye-sublimated",
+      "custom-duffel-bag-dye-sublimated",
+      "custom-fanny-pack-dye-sublimated",
+      "custom-tote-bag-dye-sublimated",
+      "drawstring-bag-dye-sublimated",
+      "sublimated-bucket-hat"
+    ],
+    "adminProductHandles": [
+      "belt-bag-dye-sublimated-1-38-strap-500060",
+      "custom-2-zipper-fanny-pack-dye-sublimated",
+      "custom-duffel-bag-dye-sublimated",
+      "custom-fanny-pack-dye-sublimated",
+      "custom-tote-bag-dye-sublimated",
+      "drawstring-bag-dye-sublimated",
+      "sublimated-bucket-hat"
+    ]
+  },
+  "productCategoryVerification": {
+    "productCategoryId": "pcat_01M28VKQY7YDNA4QXEPH0FJST5",
+    "productCategoryHandle": "bag",
+    "productCategoryProductsCount": 7,
+    "productCategoryProductHandles": [
+      "belt-bag-dye-sublimated-1-38-strap-500060",
+      "custom-2-zipper-fanny-pack-dye-sublimated",
+      "custom-duffel-bag-dye-sublimated",
+      "custom-fanny-pack-dye-sublimated",
+      "custom-tote-bag-dye-sublimated",
+      "drawstring-bag-dye-sublimated",
+      "sublimated-bucket-hat"
+    ]
+  }
+}

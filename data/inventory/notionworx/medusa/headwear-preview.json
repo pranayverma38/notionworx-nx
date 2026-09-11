@@ -23,6 +23,19 @@
       "inventory_data_path": "/inventory/notionworx/collections/headwear.json"
     }
   },
+  "productCategory": {
+    "name": "HEADWEAR",
+    "description": "",
+    "handle": "headwear",
+    "is_active": true,
+    "is_internal": false,
+    "metadata": {
+      "source": "notionworx-inventory",
+      "source_handle": "headwear",
+      "source_title": "HEADWEAR",
+      "inventory_data_path": "/inventory/notionworx/collections/headwear.json"
+    }
+  },
   "productsCount": 1,
   "products": [
     {
@@ -157,12 +170,12 @@
         ],
         "source_variant_label": null,
         "source_sizes": [
-          "Default option"
+          "Default Title"
         ],
         "source_size_variants": [
           {
-            "value": "Default option",
-            "price": 14.0,
+            "value": "Default Title",
+            "price": 14,
             "active": true
           }
         ],
@@ -170,11 +183,13 @@
           "HEADWEAR",
           "BAG"
         ],
-        "source_filter_sizes": [],
-        "source_reviews_text": "1 option",
-        "source_badge_label": "Headwear",
+        "source_filter_sizes": [
+          "Default Title"
+        ],
+        "source_reviews_text": null,
+        "source_badge_label": "HEADWEAR",
         "source_badge_subtext": "5 product images available",
-        "source_description": "- - 100% polyester bucket hat - Full color edge to edge dye-sublimation - Reversible, both side imprint - Perfect for any kind of event! We ship to Canada!",
+        "source_description": "- Download Template\n\n- 100% polyester bucket hat\n\n- Full color edge to edge dye-sublimation\n\n- Reversible, both side imprint\n\n- Perfect for any kind of event!\n\nWe ship to Canada!",
         "source_card_variant": "",
         "source_add_on_group_keys": [],
         "local_image_paths": [

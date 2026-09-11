@@ -23,6 +23,19 @@
       "inventory_data_path": "/inventory/notionworx/collections/table-cover.json"
     }
   },
+  "productCategory": {
+    "name": "TABLE COVER",
+    "description": "",
+    "handle": "table-cover",
+    "is_active": true,
+    "is_internal": false,
+    "metadata": {
+      "source": "notionworx-inventory",
+      "source_handle": "table-cover",
+      "source_title": "TABLE COVER",
+      "inventory_data_path": "/inventory/notionworx/collections/table-cover.json"
+    }
+  },
   "productsCount": 6,
   "products": [
     {
@@ -69,6 +82,7 @@
             "source_taxable": false,
             "source_grams": 0,
             "source_position": 1,
+            "source_sku": "ITEM #: FT6FT",
             "source_option_values": [
               "Default Title"
             ],
@@ -140,24 +154,26 @@
         ],
         "source_variant_label": null,
         "source_sizes": [
-          "Default option"
+          "Default Title"
         ],
         "source_size_variants": [
           {
-            "value": "Default option",
-            "price": 85.0,
-            "compareAtPrice": 105.0,
+            "value": "Default Title",
+            "price": 85,
+            "compareAtPrice": 105,
             "active": true
           }
         ],
         "source_filter_category": [
           "TABLE COVER"
         ],
-        "source_filter_sizes": [],
-        "source_reviews_text": "1 option",
-        "source_badge_label": "Table Cover",
+        "source_filter_sizes": [
+          "Default Title"
+        ],
+        "source_reviews_text": null,
+        "source_badge_label": "TABLE COVER",
         "source_badge_subtext": "1 product image available",
-        "source_description": "6ft Heavy-Duty Folding Table Upgrade your event setup with our 6ft Heavy-Duty Folding Table, designed for vendors, trade shows, and outdoor events. This versatile, durable table provides a reliable surface for product displays, food service, or marketing materials. 💪 Heavy-Duty…",
+        "source_description": "6ft Heavy-Duty Folding Table\n\nUpgrade your event setup with our 6ft Heavy-Duty Folding Table, designed for vendors, trade shows, and outdoor events. This versatile, durable table provides a reliable surface for product displays, food service, or marketing materials.\n\n💪 Heavy-Duty Construction: Built with a high-strength steel frame and reinforced plastic tabletop for long-lasting durability.\n\n📏 Spacious Surface: 6ft length provides ample space for serving, display, or workspace needs.\n\n⚙️ Folding Design: Easily collapses for compact storage and quick transport.\n\n🚚 Portable & Lightweight: Designed for easy carrying to events and setups.\n\n🧽 Easy to Clean: Smooth surface resists stains and is simple to wipe down after use.\n\n🎯 Multi-Purpose Use: Ideal for trade shows, food booths, vendor markets, parties, and outdoor events.\n\nMaterials\n\n- Frame: Steel\n\n- Tabletop: High-Density Polyethylene (HDPE)\n\nPrimary Usage\n\nTrade shows, food booths, vendor markets, catering, and outdoor events",
         "source_card_variant": "",
         "source_add_on_group_keys": [],
         "local_image_paths": [
@@ -218,6 +234,7 @@
             "source_taxable": false,
             "source_grams": 0,
             "source_position": 1,
+            "source_sku": "ITEM #: FT8FT",
             "source_option_values": [
               "Default Title"
             ],
@@ -289,24 +306,26 @@
         ],
         "source_variant_label": null,
         "source_sizes": [
-          "Default option"
+          "Default Title"
         ],
         "source_size_variants": [
           {
-            "value": "Default option",
-            "price": 95.0,
-            "compareAtPrice": 115.0,
+            "value": "Default Title",
+            "price": 95,
+            "compareAtPrice": 115,
             "active": true
           }
         ],
         "source_filter_category": [
           "TABLE COVER"
         ],
-        "source_filter_sizes": [],
-        "source_reviews_text": "1 option",
-        "source_badge_label": "Table Cover",
+        "source_filter_sizes": [
+          "Default Title"
+        ],
+        "source_reviews_text": null,
+        "source_badge_label": "TABLE COVER",
         "source_badge_subtext": "1 product image available",
-        "source_description": "8ft Heavy-Duty Folding Table Take your booth or event setup to the next level with our 8ft Heavy-Duty Folding Table, built for durability, stability, and convenience. Perfect for trade shows, food booths, catering, and outdoor events, this table provides extra space without comp…",
+        "source_description": "8ft Heavy-Duty Folding Table\n\nTake your booth or event setup to the next level with our 8ft Heavy-Duty Folding Table, built for durability, stability, and convenience. Perfect for trade shows, food booths, catering, and outdoor events, this table provides extra space without compromising portability.\n\n💪 Heavy-Duty Construction: Sturdy steel frame and reinforced high-density plastic tabletop designed to support heavy loads and withstand daily use.\n\n📏 Extra-Large Surface: 8ft length offers generous workspace for product displays, food service, or multi-purpose setups.\n\n⚙️ Folding Design: Easily folds in half for compact storage and transport.\n\n🚚 Portable & Lightweight: Despite its size, the table is easy to move and set up anywhere.\n\n🧽 Easy to Clean: Smooth, non-porous surface wipes clean quickly after use.\n\n🎯 Versatile Applications: Ideal for trade shows, food booths, vendor markets, catering services, and outdoor events.\n\nMaterials\n\n- Frame: Steel\n\n- Tabletop: High-Density Polyethylene (HDPE)\n\nPrimary Usage\n\nTrade shows, food booths, vendor markets, catering, and outdoor events",
         "source_card_variant": "",
         "source_add_on_group_keys": [],
         "local_image_paths": [
@@ -372,6 +391,7 @@
             "source_taxable": false,
             "source_grams": 2722,
             "source_position": 1,
+            "source_sku": "DTC4FT",
             "source_option_values": [
               "4'"
             ],
@@ -401,6 +421,7 @@
             "source_taxable": false,
             "source_grams": 2722,
             "source_position": 2,
+            "source_sku": "DTC6FT",
             "source_option_values": [
               "6'"
             ],
@@ -430,6 +451,7 @@
             "source_taxable": false,
             "source_grams": 2722,
             "source_position": 3,
+            "source_sku": "DTC8FT",
             "source_option_values": [
               "8'"
             ],
@@ -477,8 +499,7 @@
         "warranty_text": "Warranty\n\nWe stand behind the quality of our products. Our warranty covers any factory defects or damage that occurs during shipping. However, please note that we do not cover damage resulting from extreme weather conditions, misuse, or any circumstances beyond our control.",
         "source_options": [
           {
-            "name": "Size",
-            "position": 1,
+            "title": "Size",
             "values": [
               "4'",
               "6'",
@@ -542,16 +563,16 @@
         "source_size_variants": [
           {
             "value": "4'",
-            "price": 135.0,
+            "price": 135,
             "active": true
           },
           {
             "value": "6'",
-            "price": 145.0
+            "price": 145
           },
           {
             "value": "8'",
-            "price": 155.0
+            "price": 155
           }
         ],
         "source_filter_category": [
@@ -562,10 +583,10 @@
           "6'",
           "8'"
         ],
-        "source_reviews_text": "3 options",
-        "source_badge_label": "Table Cover",
+        "source_reviews_text": null,
+        "source_badge_label": "TABLE COVER",
         "source_badge_subtext": "2 product images available",
-        "source_description": "Create a polished, professional table display with our Draped Table Cover, designed to deliver full-bleed branding with a classic, elegant look. Ideal for trade shows, vendor booths, corporate events, and promotional displays, this table cover provides a clean presentation while…",
+        "source_description": "Create a polished, professional table display with our Draped Table Cover, designed to deliver full-bleed branding with a classic, elegant look. Ideal for trade shows, vendor booths, corporate events, and promotional displays, this table cover provides a clean presentation while allowing easy access underneath the table.\n\nPrinted using high-resolution full-color dye sublimation, your artwork appears vibrant, sharp, and long-lasting. The draped polyester fabric hangs naturally on all sides, creating a refined appearance that works across a wide range of event environments.\n\n🔹 Key Features\n\n- 🧵 Display Polyester Fabric – Smooth draped finish for a professional look\n\n- 🎨 Full-Color Dye Sublimation – Vivid, fade-resistant graphics\n\n- 🖼️ Full Bleed Printing – Edge-to-edge custom branding\n\n- 📏 Multiple Sizes Available – Fits standard 4ft, 6ft, and 8ft tables\n\n- ⚙️ Easy Setup – Simple drape-on design for fast installation\n\n- 🧳 Lightweight & Portable – Easy to fold and transport\n\n🔹 Imprint Method\n\n🖨️ Full-Color Dye Sublimation (Full Bleed)\n\n🔹 Materials\n\n🧵 Fabric: Display Polyester\n\n🔹 Primary Usage\n\nTrade shows, exhibitions, vendor booths, conferences, retail promotions, pop-up shops, and brand activations.",
         "source_card_variant": "",
         "source_add_on_group_keys": [],
         "local_image_paths": [
@@ -632,6 +653,7 @@
             "source_taxable": false,
             "source_grams": 2722,
             "source_position": 1,
+            "source_sku": "FTC6FT",
             "source_option_values": [
               "6'"
             ],
@@ -661,6 +683,7 @@
             "source_taxable": false,
             "source_grams": 2722,
             "source_position": 2,
+            "source_sku": "FTC4FT",
             "source_option_values": [
               "4'"
             ],
@@ -690,6 +713,7 @@
             "source_taxable": false,
             "source_grams": 2722,
             "source_position": 3,
+            "source_sku": "FTC8FT",
             "source_option_values": [
               "8'"
             ],
@@ -737,8 +761,7 @@
         "warranty_text": "Warranty\n\nWe stand behind the quality of our products. Our warranty covers any factory defects or damage that occurs during shipping. However, please note that we do not cover damage resulting from extreme weather conditions, misuse, or any circumstances beyond our control.",
         "source_options": [
           {
-            "name": "Size",
-            "position": 1,
+            "title": "Size",
             "values": [
               "6'",
               "4'",
@@ -802,16 +825,16 @@
         "source_size_variants": [
           {
             "value": "6'",
-            "price": 145.0
-          },
-          {
-            "value": "4'",
-            "price": 135.0,
+            "price": 145,
             "active": true
           },
           {
+            "value": "4'",
+            "price": 135
+          },
+          {
             "value": "8'",
-            "price": 155.0
+            "price": 155
           }
         ],
         "source_filter_category": [
@@ -822,10 +845,10 @@
           "4'",
           "8'"
         ],
-        "source_reviews_text": "3 options",
-        "source_badge_label": "Table Cover",
+        "source_reviews_text": null,
+        "source_badge_label": "TABLE COVER",
         "source_badge_subtext": "2 product images available",
-        "source_description": "Create a polished, professional table display with our Fitted Table Cover, designed to deliver full-bleed, edge-to-edge branding with a tailored, structured fit. Ideal for trade shows, vendor booths, exhibitions, and corporate events, this cover instantly elevates your brand pre…",
+        "source_description": "Create a polished, professional table display with our Fitted Table Cover, designed to deliver full-bleed, edge-to-edge branding with a tailored, structured fit. Ideal for trade shows, vendor booths, exhibitions, and corporate events, this cover instantly elevates your brand presentation while maintaining a clean and organized look.\n\nPrinted using high-resolution full-color dye sublimation, your artwork appears vibrant, sharp, and long-lasting. The fitted design covers three sides of the table, leaving the back open for easy storage access—making it a practical and cost-effective solution for busy event environments.\n\n🔹 Key Features\n\n- 🎨 Full-Color Dye Sublimation – Crisp, vibrant, fade-resistant graphics\n\n- 🖼️ Full Bleed Printing – Edge-to-edge custom branding\n\n- 🧵 Display Polyester Fabric – Durable material with a professional finish\n\n- 📐 Fitted Table Design – Clean, tailored look for event tables\n\n- 📦 Open Back (Economy Style) – Easy access for storage under the table\n\n- 🎒 Optional Carry Bag – Convenient transport and storage\n\n🔹 Available Table Sizes\n\n- 📏 8ft Table: 96\"W × 30\"H × 30\"D\n\n- 📏 6ft Table: 72\"W × 30\"H × 30\"D\n\n- 📏 4ft Table: 48\"W × 30\"H × 24\"D\n\n- 📏 4ft Tall Table: 48\"W × 36\"H × 24\"D\n\n🔹 Imprint Method\n\n🖨️ Full-Color Dye Sublimation (Full Bleed)\n\n🔹 Materials\n\n🧵 Fabric: Display Polyester\n\n🔹 Primary Usage\n\nTrade shows, exhibitions, vendor booths, conferences, retail promotions, pop-up shops, brand activations, and corporate events.",
         "source_card_variant": "",
         "source_add_on_group_keys": [],
         "local_image_paths": [
@@ -904,6 +927,7 @@
             "source_taxable": false,
             "source_grams": 3629,
             "source_position": 1,
+            "source_sku": "STC6FT",
             "source_option_values": [
               "6ft"
             ],
@@ -933,6 +957,7 @@
             "source_taxable": false,
             "source_grams": 3629,
             "source_position": 2,
+            "source_sku": "STC4FT",
             "source_option_values": [
               "4ft"
             ],
@@ -962,6 +987,7 @@
             "source_taxable": false,
             "source_grams": 3629,
             "source_position": 3,
+            "source_sku": "STC8FT",
             "source_option_values": [
               "8ft"
             ],
@@ -1009,8 +1035,7 @@
         "warranty_text": "Warranty\n\nWe stand behind the quality of our products. Our warranty covers any factory defects or damage that occurs during shipping. However, please note that we do not cover damage resulting from extreme weather conditions, misuse, or any circumstances beyond our control.",
         "source_options": [
           {
-            "name": "Size",
-            "position": 1,
+            "title": "Size",
             "values": [
               "6ft",
               "4ft",
@@ -1074,16 +1099,16 @@
         "source_size_variants": [
           {
             "value": "6ft",
-            "price": 135.0
-          },
-          {
-            "value": "4ft",
-            "price": 125.0,
+            "price": 135,
             "active": true
           },
           {
+            "value": "4ft",
+            "price": 125
+          },
+          {
             "value": "8ft",
-            "price": 145.0
+            "price": 145
           }
         ],
         "source_filter_category": [
@@ -1094,10 +1119,10 @@
           "4ft",
           "8ft"
         ],
-        "source_reviews_text": "3 options",
-        "source_badge_label": "Table Cover",
+        "source_reviews_text": null,
+        "source_badge_label": "TABLE COVER",
         "source_badge_subtext": "6 product images available",
-        "source_description": "Create a clean, professional presentation with our Stretch Table Cover, designed to deliver edge-to-edge (full bleed) branding with a sleek, wrinkle-free fit. Perfect for trade shows, events, vendor booths, and promotions, this cover transforms standard tables into polished bran…",
+        "source_description": "Create a clean, professional presentation with our Stretch Table Cover, designed to deliver edge-to-edge (full bleed) branding with a sleek, wrinkle-free fit. Perfect for trade shows, events, vendor booths, and promotions, this cover transforms standard tables into polished brand displays.\n\nPrinted using high-resolution full-color dye sublimation on Power Stretch polyester material, your artwork appears vibrant, sharp, and long-lasting. A rear zipper closure ensures a snug, tailored fit that stays in place throughout your event while maintaining a smooth, professional look.\n\n🔹 Key Features\n\n- 🧵 Power Stretch Polyester Fabric – Durable, wrinkle-resistant, and form-fitting\n\n- 🎨 Full-Color Dye Sublimation – Vibrant, fade-resistant custom graphics\n\n- 🖼️ Full Bleed Printing – Edge-to-edge branding coverage\n\n- 🔒 Rear Zipper Closure – Secure, snug fit with a clean finish\n\n- 📏 Multiple Size Options – Available for 4ft, 6ft, and 8ft tables\n\n- 🧳 Carry Bag Included – Easy transport and storage\n\n- ⚙️ Easy Setup – Slip-on design for fast installation\n\n🔹 Imprint Method\n\n🖨️ Full-Color Dye Sublimation (Full Bleed)\n\n🔹 Materials\n\n🧵 Fabric: Stretch Polyester Blend\n\n🔹 Compatibility\n\n📐 Designed to fit standard event tables (size options available)\n\n🔹 Primary Usage\n\nTrade shows, exhibitions, vendor booths, conferences, retail promotions, pop-up shops, and brand activations.",
         "source_card_variant": "",
         "source_add_on_group_keys": [],
         "local_image_paths": [
@@ -1165,6 +1190,7 @@
             "source_taxable": false,
             "source_grams": 907,
             "source_position": 1,
+            "source_sku": "TR24X80",
             "source_option_values": [
               "24\"x80\""
             ],
@@ -1194,6 +1220,7 @@
             "source_taxable": false,
             "source_grams": 907,
             "source_position": 2,
+            "source_sku": "TR34X80",
             "source_option_values": [
               "34\"x80\""
             ],
@@ -1223,6 +1250,7 @@
             "source_taxable": false,
             "source_grams": 907,
             "source_position": 3,
+            "source_sku": "TR60X80",
             "source_option_values": [
               "60\"x80\""
             ],
@@ -1270,8 +1298,7 @@
         "warranty_text": "Warranty\n\nWe stand behind the quality of our products. Our warranty covers any factory defects or damage that occurs during shipping. However, please note that we do not cover damage resulting from extreme weather conditions, misuse, or any circumstances beyond our control.",
         "source_options": [
           {
-            "name": "Size",
-            "position": 1,
+            "title": "Size",
             "values": [
               "24\"x80\"",
               "34\"x80\"",
@@ -1335,16 +1362,16 @@
         "source_size_variants": [
           {
             "value": "24\"x80\"",
-            "price": 50.0,
+            "price": 50,
             "active": true
           },
           {
             "value": "34\"x80\"",
-            "price": 70.0
+            "price": 70
           },
           {
             "value": "60\"x80\"",
-            "price": 80.0
+            "price": 80
           }
         ],
         "source_filter_category": [
@@ -1355,10 +1382,10 @@
           "34\"x80\"",
           "60\"x80\""
         ],
-        "source_reviews_text": "3 options",
-        "source_badge_label": "Table Cover",
+        "source_reviews_text": null,
+        "source_badge_label": "TABLE COVER",
         "source_badge_subtext": "1 product image available",
-        "source_description": "Enhance your table presentation with our Custom Table Runner, designed to add bold branding and a professional touch to any event setup. Perfect for trade shows, vendor booths, conferences, and promotions, this runner delivers high-impact visuals without covering the entire tabl…",
+        "source_description": "Enhance your table presentation with our Custom Table Runner, designed to add bold branding and a professional touch to any event setup. Perfect for trade shows, vendor booths, conferences, and promotions, this runner delivers high-impact visuals without covering the entire table.\n\nPrinted using full-color dye sublimation with full bleed, your artwork appears vibrant, crisp, and long-lasting. The sleek runner design allows your brand to stand out while maintaining a clean, modern table display.\n\n🔹 Key Features\n\n- 🎨 Full-Color Dye Sublimation – Sharp, vibrant, fade-resistant graphics\n\n- 🖼️ Full Bleed Printing – Edge-to-edge custom branding\n\n- 🧵 Display Polyester Fabric – Smooth finish with professional drape\n\n- ⚙️ Easy Setup – Simply lay over any standard table\n\n- 🧳 Lightweight & Portable – Ideal for travel and events\n\n- 🏷️ Versatile Branding – Perfect accent for existing table covers\n\n🔹 Imprint Method\n\n🖨️ Full-Color Dye Sublimation (Full Bleed)\n\n🔹 Materials\n\n🧵 Fabric: Display Polyester\n\n🔹 Primary Usage\n\nTrade shows, exhibitions, vendor booths, conferences, retail promotions, pop-up shops, brand activations, and corporate events.",
         "source_card_variant": "",
         "source_add_on_group_keys": [],
         "local_image_paths": [

@@ -40,6 +40,21 @@ function normalizeImageUrl(value) {
   return normalized || undefined;
 }
 
+function readInventoryCategoryImage(metadata) {
+  const inventoryDataPath = readMetadataString(metadata, ["inventory_data_path"]);
+  if (!inventoryDataPath) {
+    return undefined;
+  }
+
+  const absolutePath = path.join(repoRoot, inventoryDataPath.replace(/^\/+/, ""));
+  try {
+    const inventoryCategory = readJson(absolutePath);
+    return normalizeImageUrl(inventoryCategory?.image?.localPath);
+  } catch {
+    return undefined;
+  }
+}
+
 function readMetadataRecord(metadata, key) {
   const value = metadata?.[key];
   return value && typeof value === "object" && !Array.isArray(value) ? value : undefined;
@@ -182,8 +197,20 @@ function buildProduct(product, sharedAddOnCatalog, orderIndexByHandle) {
         )
         .filter(Boolean)
     : [];
+  const sourceCategoryTitles = [
+    ...readMetadataRecordArray(metadata, "source_categories")
+      .map((category) => normalizeString(category?.title))
+      .filter(Boolean),
+    ...readMetadataStringArray(metadata, ["source_category_titles"]),
+  ];
+  const medusaCategoryTitles = Array.isArray(product.categories)
+    ? product.categories
+        .map((category) => normalizeString(category?.name))
+        .filter(Boolean)
+    : [];
   const filterCategory = firstNonEmptyArray(
-    readMetadataStringArray(metadata, ["source_categories", "source_category_titles"]),
+    sourceCategoryTitles,
+    medusaCategoryTitles,
     [normalizeString(product.collection?.title)].filter(Boolean),
   );
   const images = (product.images ?? [])
@@ -340,6 +367,46 @@ function buildProduct(product, sharedAddOnCatalog, orderIndexByHandle) {
   };
 }
 
+function productMatchesCategory(product, category, categoryTitle) {
+  const metadata = product.metadata ?? {};
+  const categoryHandle = normalizeString(category.handle);
+  const normalizedCategoryTitle = normalizeString(categoryTitle);
+
+  const sourceCategoryRecords = readMetadataRecordArray(metadata, "source_categories");
+  const sourceCategoryHandles = sourceCategoryRecords
+    .map((category) => normalizeString(category?.handle))
+    .filter(Boolean);
+  if (sourceCategoryHandles.includes(categoryHandle)) {
+    return true;
+  }
+
+  const sourceCategoryTitles = new Set([
+    ...sourceCategoryRecords
+      .map((category) => normalizeString(category?.title))
+      .filter(Boolean),
+    ...readMetadataStringArray(metadata, ["source_category_titles"]),
+  ]);
+  if (sourceCategoryTitles.has(normalizedCategoryTitle)) {
+    return true;
+  }
+
+  const medusaCategoryHandles = Array.isArray(product.categories)
+    ? product.categories
+        .map((category) => normalizeString(category?.handle))
+        .filter(Boolean)
+    : [];
+  if (medusaCategoryHandles.includes(categoryHandle)) {
+    return true;
+  }
+
+  const medusaCategoryTitles = Array.isArray(product.categories)
+    ? product.categories
+        .map((category) => normalizeString(category?.name))
+        .filter(Boolean)
+    : [];
+  return medusaCategoryTitles.includes(normalizedCategoryTitle);
+}
+
 async function fetchPaginated(pathname, headers, key) {
   const baseUrl = getRequiredEnv("MEDUSA_BACKEND_URL").replace(/\/+$/, "");
   const records = [];
@@ -376,16 +443,16 @@ async function fetchPaginated(pathname, headers, key) {
 
 async function main() {
   const adminApiKey = getRequiredEnv("MEDUSA_ADMIN_API_KEY");
-  const collections = await fetchPaginated(
-    "/admin/collections",
+  const productCategories = await fetchPaginated(
+    "/admin/product-categories",
     {
       Authorization: `Basic ${adminApiKey}`,
       Accept: "application/json",
     },
-    "collections",
+    "product_categories",
   );
   const products = await fetchPaginated(
-    "/admin/products",
+    "/admin/products?fields=*categories",
     {
       Authorization: `Basic ${adminApiKey}`,
       Accept: "application/json",
@@ -416,25 +483,22 @@ async function main() {
     storefrontProducts.map((product) => [product.sourceHandle, product]),
   );
 
-  const storefrontCategories = collections
-    .map((collection) => {
+  const storefrontCategories = productCategories
+    .map((category) => {
       const title =
-        readMetadataString(collection.metadata, ["source_title", "title"]) ??
-        normalizeString(collection.title);
+        readMetadataString(category.metadata, ["source_title", "title"]) ??
+        normalizeString(category.name);
       if (!title) {
         return null;
       }
 
-      const collectionProducts = products.filter((product) => {
-        const collectionId = normalizeString(product.collection_id);
-        const nestedCollectionId = normalizeString(product.collection?.id);
-        return collectionId === normalizeString(collection.id) ||
-          nestedCollectionId === normalizeString(collection.id);
-      });
-      const matchingProductImage = collectionProducts
+      const categoryProducts = products.filter((product) =>
+        productMatchesCategory(product, category, title),
+      );
+      const matchingProductImage = categoryProducts
         .map((product) => storefrontProductsByHandle.get(normalizeString(product.handle)))
         .find(Boolean)?.img;
-      const sourceImageUrl = readMetadataString(collection.metadata, [
+      const sourceImageUrl = readMetadataString(category.metadata, [
         "source_image_url",
         "image_url",
         "thumbnail",
@@ -444,17 +508,19 @@ async function main() {
         : undefined;
       const img =
         matchingProductImage ??
+        readInventoryCategoryImage(category.metadata) ??
         localSourceImage ??
         sourceImageUrl;
 
       return {
         name: title,
         img,
-        quantity: `${collectionProducts.length} Product${collectionProducts.length === 1 ? "" : "s"}`,
+        quantity: `${categoryProducts.length} Product${categoryProducts.length === 1 ? "" : "s"}`,
         href: `/shop-default?category=${encodeURIComponent(title)}`,
       };
     })
     .filter((category) => category && category.img)
+    .filter((category) => Number.parseInt(category.quantity, 10) > 0)
     .sort((left, right) => {
       const leftCount = Number.parseInt(left.quantity, 10) || 0;
       const rightCount = Number.parseInt(right.quantity, 10) || 0;
@@ -472,7 +538,7 @@ export const storefrontCollectionGalleries = [] as const;
 
   writeFileSync(outputPath, fileContents);
   console.log(
-    `Generated Medusa storefront adapter with ${storefrontProducts.length} products and ${storefrontCategories.length} categories.`,
+    `Generated Medusa storefront adapter with ${storefrontProducts.length} products and ${storefrontCategories.length} product categories.`,
   );
 }
 

@@ -1,7 +1,7 @@
 import type { Category } from "@/types/categories";
 import { storefrontCategories } from "@/data/inventory/notionworx/storefront.generated";
 
-/** All Categories grid — collection page (`/collection`) */
+/** All Categories grid — categories page (`/categories`) */
 export const categoriesCollection: Category[] = storefrontCategories.map(
   (category) => ({
     name: category.name,

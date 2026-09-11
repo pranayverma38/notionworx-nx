@@ -1,0 +1,79 @@
+{
+  "mode": "apply",
+  "previewPath": "/Users/pranayverma/Desktop/notionworx-nx/data/inventory/notionworx/medusa/accesories-preview.json",
+  "collectionId": "pcol_01M1F54C7V8G6NQA0Y816W7N4E",
+  "collectionHandle": "accesories",
+  "productCategoryId": "pcat_01M28VHRKACBNWQQ1CAKRVD52P",
+  "productCategoryCreated": false,
+  "sourceProductsCount": 7,
+  "createdProducts": 0,
+  "skippedProducts": 7,
+  "failedProducts": 0,
+  "createdHandles": [],
+  "skippedHandles": [
+    "10ft-canopy-awning",
+    "canopy-counter-bar-top",
+    "custom-lanyard-with-badge-holder",
+    "led-light-bars",
+    "portable-power-station-300w",
+    "premium-10-tent-top-square-banner",
+    "sandbag-ballast-kit-for-event-tent-legs-set-of-four"
+  ],
+  "createFailures": [],
+  "contentUpdatedProducts": 7,
+  "contentFailedProducts": 0,
+  "contentUpdatedHandles": [
+    "10ft-canopy-awning",
+    "canopy-counter-bar-top",
+    "custom-lanyard-with-badge-holder",
+    "led-light-bars",
+    "portable-power-station-300w",
+    "premium-10-tent-top-square-banner",
+    "sandbag-ballast-kit-for-event-tent-legs-set-of-four"
+  ],
+  "contentFailures": [],
+  "imageUpdatedProducts": 0,
+  "imageSkippedProducts": 7,
+  "imageFailedProducts": 0,
+  "uploadedImages": 0,
+  "imageUpdatedHandles": [],
+  "imageFailures": [],
+  "productCategoryAddedProducts": 0,
+  "productCategoryAlreadyPresentProducts": 7,
+  "productCategoryMissingProducts": 0,
+  "productCategoryFailedProducts": 0,
+  "productCategoryAddedHandles": [],
+  "productCategoryAlreadyPresentHandles": [
+    "10ft-canopy-awning",
+    "canopy-counter-bar-top",
+    "custom-lanyard-with-badge-holder",
+    "led-light-bars",
+    "portable-power-station-300w",
+    "premium-10-tent-top-square-banner",
+    "sandbag-ballast-kit-for-event-tent-legs-set-of-four"
+  ],
+  "productCategoryMissingHandles": [],
+  "productCategoryFailures": [],
+  "verification": {
+    "storeCollectionId": "pcol_01M1F54C7V8G6NQA0Y816W7N4E",
+    "adminCollectionId": "pcol_01M1F54C7V8G6NQA0Y816W7N4E",
+    "storeProductsCount": 0,
+    "adminProductsCount": 0,
+    "storeProductHandles": [],
+    "adminProductHandles": []
+  },
+  "productCategoryVerification": {
+    "productCategoryId": "pcat_01M28VHRKACBNWQQ1CAKRVD52P",
+    "productCategoryHandle": "accesories",
+    "productCategoryProductsCount": 7,
+    "productCategoryProductHandles": [
+      "custom-lanyard-with-badge-holder",
+      "premium-10-tent-top-square-banner",
+      "10ft-canopy-awning",
+      "canopy-counter-bar-top",
+      "led-light-bars",
+      "portable-power-station-300w",
+      "sandbag-ballast-kit-for-event-tent-legs-set-of-four"
+    ]
+  }
+}

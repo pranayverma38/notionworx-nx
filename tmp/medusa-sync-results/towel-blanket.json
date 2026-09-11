@@ -1,0 +1,89 @@
+{
+  "mode": "apply",
+  "previewPath": "/Users/pranayverma/Desktop/notionworx-nx/data/inventory/notionworx/medusa/towel-blanket-preview.json",
+  "collectionId": "pcol_01M1F59ZA42KG4F7BVKXCPZGT3",
+  "collectionHandle": "towel-blanket",
+  "productCategoryId": "pcat_01M28X1JKDBSC61G438V39HC2H",
+  "productCategoryCreated": true,
+  "sourceProductsCount": 6,
+  "createdProducts": 0,
+  "skippedProducts": 6,
+  "failedProducts": 0,
+  "createdHandles": [],
+  "skippedHandles": [
+    "cooling-beach-towel-12-x-40",
+    "custom-sublimation-printed-chiffon-bandanna-scarf",
+    "sublimated-beach-fleece-blanket-30-x-60",
+    "sublimated-beach-fleece-blanket-50-x-60",
+    "sublimated-beach-fleece-blanket-60-x-80",
+    "sublimated-fleece-blanket"
+  ],
+  "createFailures": [],
+  "contentUpdatedProducts": 6,
+  "contentFailedProducts": 0,
+  "contentUpdatedHandles": [
+    "cooling-beach-towel-12-x-40",
+    "custom-sublimation-printed-chiffon-bandanna-scarf",
+    "sublimated-beach-fleece-blanket-30-x-60",
+    "sublimated-beach-fleece-blanket-50-x-60",
+    "sublimated-beach-fleece-blanket-60-x-80",
+    "sublimated-fleece-blanket"
+  ],
+  "contentFailures": [],
+  "imageUpdatedProducts": 0,
+  "imageSkippedProducts": 6,
+  "imageFailedProducts": 0,
+  "uploadedImages": 0,
+  "imageUpdatedHandles": [],
+  "imageFailures": [],
+  "productCategoryAddedProducts": 6,
+  "productCategoryAlreadyPresentProducts": 0,
+  "productCategoryMissingProducts": 0,
+  "productCategoryFailedProducts": 0,
+  "productCategoryAddedHandles": [
+    "cooling-beach-towel-12-x-40",
+    "custom-sublimation-printed-chiffon-bandanna-scarf",
+    "sublimated-beach-fleece-blanket-30-x-60",
+    "sublimated-beach-fleece-blanket-50-x-60",
+    "sublimated-beach-fleece-blanket-60-x-80",
+    "sublimated-fleece-blanket"
+  ],
+  "productCategoryAlreadyPresentHandles": [],
+  "productCategoryMissingHandles": [],
+  "productCategoryFailures": [],
+  "verification": {
+    "storeCollectionId": "pcol_01M1F59ZA42KG4F7BVKXCPZGT3",
+    "adminCollectionId": "pcol_01M1F59ZA42KG4F7BVKXCPZGT3",
+    "storeProductsCount": 6,
+    "adminProductsCount": 6,
+    "storeProductHandles": [
+      "cooling-beach-towel-12-x-40",
+      "custom-sublimation-printed-chiffon-bandanna-scarf",
+      "sublimated-beach-fleece-blanket-30-x-60",
+      "sublimated-beach-fleece-blanket-50-x-60",
+      "sublimated-beach-fleece-blanket-60-x-80",
+      "sublimated-fleece-blanket"
+    ],
+    "adminProductHandles": [
+      "cooling-beach-towel-12-x-40",
+      "custom-sublimation-printed-chiffon-bandanna-scarf",
+      "sublimated-beach-fleece-blanket-30-x-60",
+      "sublimated-beach-fleece-blanket-50-x-60",
+      "sublimated-beach-fleece-blanket-60-x-80",
+      "sublimated-fleece-blanket"
+    ]
+  },
+  "productCategoryVerification": {
+    "productCategoryId": "pcat_01M28X1JKDBSC61G438V39HC2H",
+    "productCategoryHandle": "towel-blanket",
+    "productCategoryProductsCount": 6,
+    "productCategoryProductHandles": [
+      "cooling-beach-towel-12-x-40",
+      "custom-sublimation-printed-chiffon-bandanna-scarf",
+      "sublimated-beach-fleece-blanket-30-x-60",
+      "sublimated-beach-fleece-blanket-50-x-60",
+      "sublimated-beach-fleece-blanket-60-x-80",
+      "sublimated-fleece-blanket"
+    ]
+  }
+}

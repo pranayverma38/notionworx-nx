@@ -53,7 +53,7 @@ export const navShop: NavMenuGroup[] = [
     title: "CATALOG",
     links: [
       { href: "/shop-default", text: "Shop Default" },
-      { href: "/collection", text: "Collections" },
+      { href: "/categories", text: "Categories" },
       { href: "/shop-sub-collection", text: "Shop Sub Collection" },
       { href: "/search-result", text: "Search Result" },
       { href: "/view-cart", text: "View Cart" },

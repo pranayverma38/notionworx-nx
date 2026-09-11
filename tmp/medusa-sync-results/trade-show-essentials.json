@@ -1,0 +1,67 @@
+{
+  "mode": "apply",
+  "previewPath": "/Users/pranayverma/Desktop/notionworx-nx/data/inventory/notionworx/medusa/trade-show-essentials-preview.json",
+  "collectionId": "pcol_01M1F5JPNY83NEDBKZPXQQP86V",
+  "collectionHandle": "trade-show-essentials",
+  "productCategoryId": "pcat_01M28X3B94JM9RRTH1TYX4EYQ7",
+  "productCategoryCreated": true,
+  "sourceProductsCount": 4,
+  "createdProducts": 0,
+  "skippedProducts": 4,
+  "failedProducts": 0,
+  "createdHandles": [],
+  "skippedHandles": [
+    "trade-show-essential-10x10-custom-canopy-tent-10-13",
+    "trade-show-essential-10x10-custom-canopy-tent-13-10a",
+    "trade-show-essential-10x15-custom-canopy-tent-14-15",
+    "trade-show-essential-10x20-custom-canopy-tent-15-20"
+  ],
+  "createFailures": [],
+  "contentUpdatedProducts": 4,
+  "contentFailedProducts": 0,
+  "contentUpdatedHandles": [
+    "trade-show-essential-10x10-custom-canopy-tent-10-13",
+    "trade-show-essential-10x10-custom-canopy-tent-13-10a",
+    "trade-show-essential-10x15-custom-canopy-tent-14-15",
+    "trade-show-essential-10x20-custom-canopy-tent-15-20"
+  ],
+  "contentFailures": [],
+  "imageUpdatedProducts": 0,
+  "imageSkippedProducts": 4,
+  "imageFailedProducts": 0,
+  "uploadedImages": 0,
+  "imageUpdatedHandles": [],
+  "imageFailures": [],
+  "productCategoryAddedProducts": 4,
+  "productCategoryAlreadyPresentProducts": 0,
+  "productCategoryMissingProducts": 0,
+  "productCategoryFailedProducts": 0,
+  "productCategoryAddedHandles": [
+    "trade-show-essential-10x10-custom-canopy-tent-10-13",
+    "trade-show-essential-10x10-custom-canopy-tent-13-10a",
+    "trade-show-essential-10x15-custom-canopy-tent-14-15",
+    "trade-show-essential-10x20-custom-canopy-tent-15-20"
+  ],
+  "productCategoryAlreadyPresentHandles": [],
+  "productCategoryMissingHandles": [],
+  "productCategoryFailures": [],
+  "verification": {
+    "storeCollectionId": "pcol_01M1F5JPNY83NEDBKZPXQQP86V",
+    "adminCollectionId": "pcol_01M1F5JPNY83NEDBKZPXQQP86V",
+    "storeProductsCount": 0,
+    "adminProductsCount": 0,
+    "storeProductHandles": [],
+    "adminProductHandles": []
+  },
+  "productCategoryVerification": {
+    "productCategoryId": "pcat_01M28X3B94JM9RRTH1TYX4EYQ7",
+    "productCategoryHandle": "trade-show-essentials",
+    "productCategoryProductsCount": 4,
+    "productCategoryProductHandles": [
+      "trade-show-essential-10x10-custom-canopy-tent-10-13",
+      "trade-show-essential-10x10-custom-canopy-tent-13-10a",
+      "trade-show-essential-10x15-custom-canopy-tent-14-15",
+      "trade-show-essential-10x20-custom-canopy-tent-15-20"
+    ]
+  }
+}

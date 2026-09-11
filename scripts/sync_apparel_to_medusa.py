@@ -173,6 +173,23 @@ def build_collection_payload(collection: JsonDict, *, site_url: str) -> JsonDict
     }
 
 
+def build_product_category_payload(collection: JsonDict) -> JsonDict:
+    """Build a Medusa product category create payload."""
+    return {
+        "name": collection["title"],
+        "description": collection.get("description", ""),
+        "handle": collection["handle"],
+        "is_active": True,
+        "is_internal": False,
+        "metadata": {
+            "source": "notionworx-obsolete",
+            "source_handle": collection["handle"],
+            "source_title": collection["title"],
+            "obsolete_data_path": f"/obselete/notionworx/collections/{collection['handle']}.json",
+        },
+    }
+
+
 def build_variant_payload(
     variant: JsonDict,
     option_names: list[str],
@@ -468,7 +485,10 @@ def fetch_existing_products(base_url: str, admin_api_key: str) -> dict[str, Json
     while True:
         payload = http_json(
             "GET",
-            f"{base_url.rstrip('/')}/admin/products?limit={limit}&offset={offset}",
+            (
+                f"{base_url.rstrip('/')}/admin/products"
+                f"?fields=*categories&limit={limit}&offset={offset}"
+            ),
             headers=admin_headers(admin_api_key),
         )
         page = payload.get("products", [])
@@ -518,6 +538,59 @@ def create_collection_if_missing(
         payload=payload,
     )
     return response["collection"]
+
+
+def fetch_existing_product_categories(
+    base_url: str,
+    admin_api_key: str,
+) -> dict[str, JsonDict]:
+    """Fetch a handle-indexed map of existing Medusa product categories."""
+    categories: list[JsonDict] = []
+    offset = 0
+    limit = 250
+
+    while True:
+        payload = http_json(
+            "GET",
+            f"{base_url.rstrip('/')}/admin/product-categories?limit={limit}&offset={offset}",
+            headers=admin_headers(admin_api_key),
+        )
+        page = payload.get("product_categories", [])
+        if not page:
+            break
+
+        categories.extend(page)
+        offset += len(page)
+        total = payload.get("count")
+        if isinstance(total, int) and offset >= total:
+            break
+
+    return {
+        str(category["handle"]): category
+        for category in categories
+        if category.get("handle")
+    }
+
+
+def create_product_category_if_missing(
+    base_url: str,
+    admin_api_key: str,
+    payload: JsonDict,
+) -> tuple[JsonDict, bool]:
+    """Create the APPAREL product category if it doesn't already exist."""
+    existing = fetch_existing_product_categories(base_url, admin_api_key).get(
+        payload["handle"]
+    )
+    if existing:
+        return existing, False
+
+    response = http_json(
+        "POST",
+        f"{base_url.rstrip('/')}/admin/product-categories",
+        headers=admin_headers(admin_api_key),
+        payload=payload,
+    )
+    return response["product_category"], True
 
 
 def create_missing_products(
@@ -605,6 +678,115 @@ def sync_existing_product_data(
     }
 
 
+def fetch_product_category_with_products(
+    base_url: str,
+    admin_api_key: str,
+    category_id: str,
+) -> JsonDict:
+    """Fetch one product category including its linked products."""
+    response = http_json(
+        "GET",
+        f"{base_url.rstrip('/')}/admin/product-categories/{category_id}?fields=id,handle,name,*products",
+        headers=admin_headers(admin_api_key),
+    )
+    return response.get("product_category", {})
+
+
+def sync_product_category_membership(
+    base_url: str,
+    admin_api_key: str,
+    products: list[JsonDict],
+    existing_products: dict[str, JsonDict],
+    *,
+    product_category: JsonDict,
+) -> dict[str, Any]:
+    """Link all synced products into the mirrored APPAREL product category."""
+    category_handle = str(product_category.get("handle") or "").strip()
+    category_id = str(product_category.get("id") or "").strip()
+    if not category_handle or not category_id:
+        return {
+            "added": [],
+            "already_present": [],
+            "missing_products": [],
+            "failed": [
+                {
+                    "handle": category_handle or "<unknown>",
+                    "error": "Invalid product category payload.",
+                }
+            ],
+        }
+
+    product_ids_to_add: list[str] = []
+    handles_by_product_id: dict[str, str] = {}
+    already_present: list[str] = []
+    missing_products: list[str] = []
+
+    for product in products:
+        handle = str(product.get("handle") or "").strip()
+        if not handle:
+            continue
+
+        existing = existing_products.get(handle)
+        if not existing:
+            missing_products.append(handle)
+            continue
+
+        existing_category_handles = {
+            str(category.get("handle") or "").strip()
+            for category in existing.get("categories", [])
+            if isinstance(category, dict)
+        }
+        if category_handle in existing_category_handles:
+            already_present.append(handle)
+            continue
+
+        product_id = str(existing.get("id") or "").strip()
+        if not product_id:
+            missing_products.append(handle)
+            continue
+
+        product_ids_to_add.append(product_id)
+        handles_by_product_id[product_id] = handle
+
+    if not product_ids_to_add:
+        return {
+            "added": [],
+            "already_present": already_present,
+            "missing_products": missing_products,
+            "failed": [],
+        }
+
+    try:
+        http_json(
+            "POST",
+            f"{base_url.rstrip('/')}/admin/product-categories/{category_id}/products",
+            headers=admin_headers(admin_api_key),
+            payload={"add": product_ids_to_add},
+        )
+    except RuntimeError as exc:
+        return {
+            "added": [],
+            "already_present": already_present,
+            "missing_products": missing_products,
+            "failed": [
+                {"handle": handles_by_product_id[product_id], "error": str(exc)}
+                for product_id in product_ids_to_add
+            ],
+        }
+
+    added_handles = [
+        handles_by_product_id[product_id]
+        for product_id in product_ids_to_add
+        if product_id in handles_by_product_id
+    ]
+    return {
+        "added": added_handles,
+        "already_present": already_present,
+        "missing_products": missing_products,
+        "failed": [],
+    }
+
+
 def sync_product_images(
     base_url: str,
     admin_api_key: str,
@@ -686,6 +868,41 @@ def sync_product_images(
     }
 
 
+def verify_product_category_state(
+    *,
+    base_url: str,
+    admin_api_key: str,
+    category_handle: str,
+) -> JsonDict:
+    """Fetch post-sync product category membership for APPAREL."""
+    product_categories = fetch_existing_product_categories(base_url, admin_api_key)
+    product_category = product_categories.get(category_handle)
+    if not product_category or not product_category.get("id"):
+        return {
+            "productCategoryId": None,
+            "productCategoryHandle": category_handle,
+            "productCategoryProductsCount": 0,
+            "productCategoryProductHandles": [],
+        }
+
+    category_with_products = fetch_product_category_with_products(
+        base_url,
+        admin_api_key,
+        str(product_category["id"]),
+    )
+    products = category_with_products.get("products", [])
+    return {
+        "productCategoryId": product_category.get("id"),
+        "productCategoryHandle": category_handle,
+        "productCategoryProductsCount": len(products),
+        "productCategoryProductHandles": [
+            product.get("handle")
+            for product in products
+            if isinstance(product, dict) and product.get("handle")
+        ],
+    }
+
+
 def parse_args() -> argparse.Namespace:
     """Parse CLI arguments."""
     parser = argparse.ArgumentParser(description=__doc__)
@@ -734,6 +951,7 @@ def main() -> None:
     )
 
     collection_payload = build_collection_payload(collection, site_url=args.site_url)
+    product_category_payload = build_product_category_payload(collection)
     collection_id = None
 
     product_payloads = [
@@ -758,6 +976,7 @@ def main() -> None:
         ),
         "salesChannelId": sales_channel_id,
         "collection": collection_payload,
+        "productCategory": product_category_payload,
         "productsCount": len(product_payloads),
         "products": product_payloads,
     }
@@ -787,6 +1006,11 @@ def main() -> None:
         args.base_url,
         args.admin_api_key,
         collection_payload,
+    )
+    product_category_response, product_category_created = create_product_category_if_missing(
+        args.base_url,
+        args.admin_api_key,
+        product_category_payload,
     )
     collection_id = collection_response["id"]
 
@@ -824,6 +1048,19 @@ def main() -> None:
         products,
         existing_products,
     )
+    existing_products = fetch_existing_products(args.base_url, args.admin_api_key)
+    product_category_result = sync_product_category_membership(
+        args.base_url,
+        args.admin_api_key,
+        products,
+        existing_products,
+        product_category=product_category_response,
+    )
+    product_category_verification = verify_product_category_state(
+        base_url=args.base_url,
+        admin_api_key=args.admin_api_key,
+        category_handle=collection_payload["handle"],
+    )
 
     print(
         json.dumps(
@@ -832,6 +1069,8 @@ def main() -> None:
                 "previewPath": args.preview_path,
                 "collectionId": collection_id,
                 "collectionHandle": collection_payload["handle"],
+                "productCategoryId": product_category_response.get("id"),
+                "productCategoryCreated": product_category_created,
                 "createdProducts": len(product_result["created"]),
                 "skippedProducts": len(product_result["skipped"]),
                 "failedProducts": len(product_result["failed"]),
@@ -848,6 +1087,23 @@ def main() -> None:
                 "uploadedImages": image_result["uploaded_images"],
                 "imageUpdatedHandles": image_result["updated"],
                 "imageFailures": image_result["failed"],
+                "productCategoryAddedProducts": len(product_category_result["added"]),
+                "productCategoryAlreadyPresentProducts": len(
+                    product_category_result["already_present"]
+                ),
+                "productCategoryMissingProducts": len(
+                    product_category_result["missing_products"]
+                ),
+                "productCategoryFailedProducts": len(product_category_result["failed"]),
+                "productCategoryAddedHandles": product_category_result["added"],
+                "productCategoryAlreadyPresentHandles": product_category_result[
+                    "already_present"
+                ],
+                "productCategoryMissingHandles": product_category_result[
+                    "missing_products"
+                ],
+                "productCategoryFailures": product_category_result["failed"],
+                "productCategoryVerification": product_category_verification,
             },
             indent=2,
         )

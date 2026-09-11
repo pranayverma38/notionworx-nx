@@ -47,7 +47,7 @@ function Hero() {
 
                     <div className="notionworx-hero-actions">
                       <Link
-                        href={slide.href ?? "/collection"}
+                        href={slide.href ?? "/categories"}
                         className="tf-btn btn-white style-2 small notionworx-hero-button"
                       >
                         {slide.ctaText}

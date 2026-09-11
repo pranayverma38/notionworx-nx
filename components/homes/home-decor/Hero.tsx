@@ -46,7 +46,7 @@ function Hero() {
                     <div className="group-action">
                       <div className="fade-item fade-item-3">
                         <Link
-                          href="/collection"
+                          href="/categories"
                           className="tf-btn btn-white style-2"
                         >
                           {slide.ctaText}

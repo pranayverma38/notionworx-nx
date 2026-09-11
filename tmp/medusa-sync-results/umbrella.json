@@ -1,0 +1,59 @@
+{
+  "mode": "apply",
+  "previewPath": "/Users/pranayverma/Desktop/notionworx-nx/data/inventory/notionworx/medusa/umbrella-preview.json",
+  "collectionId": "pcol_01M1F65J5GDWCTMY3DHQ9EDVEH",
+  "collectionHandle": "umbrella",
+  "productCategoryId": "pcat_01M28X4VHCTHRAN48BXRYRAXHH",
+  "productCategoryCreated": true,
+  "sourceProductsCount": 1,
+  "createdProducts": 0,
+  "skippedProducts": 1,
+  "failedProducts": 0,
+  "createdHandles": [],
+  "skippedHandles": [
+    "9-outdoor-aluminum-patio-umbrella-dye-sublimation-copy"
+  ],
+  "createFailures": [],
+  "contentUpdatedProducts": 1,
+  "contentFailedProducts": 0,
+  "contentUpdatedHandles": [
+    "9-outdoor-aluminum-patio-umbrella-dye-sublimation-copy"
+  ],
+  "contentFailures": [],
+  "imageUpdatedProducts": 0,
+  "imageSkippedProducts": 1,
+  "imageFailedProducts": 0,
+  "uploadedImages": 0,
+  "imageUpdatedHandles": [],
+  "imageFailures": [],
+  "productCategoryAddedProducts": 1,
+  "productCategoryAlreadyPresentProducts": 0,
+  "productCategoryMissingProducts": 0,
+  "productCategoryFailedProducts": 0,
+  "productCategoryAddedHandles": [
+    "9-outdoor-aluminum-patio-umbrella-dye-sublimation-copy"
+  ],
+  "productCategoryAlreadyPresentHandles": [],
+  "productCategoryMissingHandles": [],
+  "productCategoryFailures": [],
+  "verification": {
+    "storeCollectionId": "pcol_01M1F65J5GDWCTMY3DHQ9EDVEH",
+    "adminCollectionId": "pcol_01M1F65J5GDWCTMY3DHQ9EDVEH",
+    "storeProductsCount": 1,
+    "adminProductsCount": 1,
+    "storeProductHandles": [
+      "9-outdoor-aluminum-patio-umbrella-dye-sublimation-copy"
+    ],
+    "adminProductHandles": [
+      "9-outdoor-aluminum-patio-umbrella-dye-sublimation-copy"
+    ]
+  },
+  "productCategoryVerification": {
+    "productCategoryId": "pcat_01M28X4VHCTHRAN48BXRYRAXHH",
+    "productCategoryHandle": "umbrella",
+    "productCategoryProductsCount": 1,
+    "productCategoryProductHandles": [
+      "9-outdoor-aluminum-patio-umbrella-dye-sublimation-copy"
+    ]
+  }
+}

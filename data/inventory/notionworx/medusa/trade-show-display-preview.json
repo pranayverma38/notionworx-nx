@@ -23,6 +23,19 @@
       "inventory_data_path": "/inventory/notionworx/collections/trade-show-display.json"
     }
   },
+  "productCategory": {
+    "name": "BANNERS & DISPLAYS",
+    "description": "",
+    "handle": "trade-show-display",
+    "is_active": true,
+    "is_internal": false,
+    "metadata": {
+      "source": "notionworx-inventory",
+      "source_handle": "trade-show-display",
+      "source_title": "BANNERS & DISPLAYS",
+      "inventory_data_path": "/inventory/notionworx/collections/trade-show-display.json"
+    }
+  },
   "productsCount": 13,
   "products": [
     {
@@ -156,8 +169,7 @@
         "warranty_text": null,
         "source_options": [
           {
-            "name": "Style",
-            "position": 1,
+            "title": "Style",
             "values": [
               "Kit 1 ( Frame +Graphic)",
               "Kit 3 ( Graphic Only)"
@@ -204,12 +216,12 @@
         "source_size_variants": [
           {
             "value": "Kit 1 ( Frame +Graphic)",
-            "price": 434.0
+            "price": 434,
+            "active": true
           },
           {
             "value": "Kit 3 ( Graphic Only)",
-            "price": 167.0,
-            "active": true
+            "price": 167
           }
         ],
         "source_filter_category": [
@@ -219,10 +231,10 @@
           "Kit 1 ( Frame +Graphic)",
           "Kit 3 ( Graphic Only)"
         ],
-        "source_reviews_text": "2 options",
-        "source_badge_label": "Banners & Displays",
+        "source_reviews_text": null,
+        "source_badge_label": "BANNERS & DISPLAYS",
         "source_badge_subtext": "4 product images available",
-        "source_description": "Hardcase Features Your artwork will be dye sublimated on polyester knit\nGraphic panel covers the front and two sides of the display's frame; the back of the frame is not covered\nHook-and-loop fasteners make it easy to install graphic panels\nLightweight aluminum frame with nylon…",
+        "source_description": "https://displaytemplate.s3.us-west-2.amazonaws.com/Fabric+Display/Velcro_Fabric_Pop_Up_Display_10ft_Straight.pdf\n\nhttps://displaytemplate.s3.us-west-2.amazonaws.com/Fabric+Display/Installation_Guide_-_Pop_Up_Display.pdf Hardcase Template\n\nInstallation Guide\n\nFeatures\n\nYour artwork will be dye sublimated on polyester knit\nGraphic panel covers the front and two sides of the display's frame; the back of the frame is not covered\nHook-and-loop fasteners make it easy to install graphic panels\nLightweight aluminum frame with nylon plastic hubs\nImprint Method: Full-Color Dye Sublimation\nSingle Sided Graphic\n\n10ft Fabric Popup Includes:\n\n- (1) Single-Sided Dye-Sublimated Graphic (with Endcaps)\n\n- (1) Aluminum Frame\n\n- (1) Black Nylon Carry Bag\n\nFeatures:\n\n- Endcaps: 11.81\" end panels on both sides\n\n- Material: Stretch Fabric\n\n- Shipping Weight: 29 lbs",
         "source_card_variant": "",
         "source_add_on_group_keys": [],
         "local_image_paths": [
@@ -447,16 +459,14 @@
         "warranty_text": "Warranty\n\n- 90 day graphic warranty with outdoor use - Outdoor usage is limited to a 90 day standard parts and labor warranty which warrants product against defects in material and workmanship. It does not cover damage due to accidents, abuse, or normal wear and tear. Products found to be defective will be replaced or repaired at factory's discretion.\n\n- 1 year graphic warranty on indoor use - Indoor use is a 1 year standard parts and labor warranty which warrants product against defects in material and workmanship. It does not cover damage due to accidents, abuse, or normal wear and tear. Products found to be defective will be replaced or repaired at factory's discretion.",
         "source_options": [
           {
-            "name": "Display Option",
-            "position": 1,
+            "title": "Display Option",
             "values": [
               "Single-Sided",
               "Double-Sided"
             ]
           },
           {
-            "name": "Style",
-            "position": 2,
+            "title": "Style",
             "values": [
               "Kit 1(Frame+Printing)",
               "Kit 2 ( Graphic Only)"
@@ -531,39 +541,43 @@
         ],
         "source_variant_label": "Display Option / Style",
         "source_sizes": [
-          "Single-Sided",
-          "Double-Sided"
+          "Single-Sided / Kit 1(Frame+Printing)",
+          "Single-Sided / Kit 2 ( Graphic Only)",
+          "Double-Sided / Kit 1(Frame+Printing)",
+          "Double-Sided / Kit 2 ( Graphic Only)"
         ],
         "source_size_variants": [
           {
             "value": "Single-Sided / Kit 1(Frame+Printing)",
-            "price": 470.0
-          },
-          {
-            "value": "Single-Sided / Kit 2 ( Graphic Only)",
-            "price": 190.0,
+            "price": 470,
             "active": true
           },
           {
+            "value": "Single-Sided / Kit 2 ( Graphic Only)",
+            "price": 190
+          },
+          {
             "value": "Double-Sided / Kit 1(Frame+Printing)",
-            "price": 525.0
+            "price": 525
           },
           {
             "value": "Double-Sided / Kit 2 ( Graphic Only)",
-            "price": 250.0
+            "price": 250
           }
         ],
         "source_filter_category": [
           "BANNERS & DISPLAYS"
         ],
         "source_filter_sizes": [
-          "Single-Sided",
-          "Double-Sided"
+          "Single-Sided / Kit 1(Frame+Printing)",
+          "Single-Sided / Kit 2 ( Graphic Only)",
+          "Double-Sided / Kit 1(Frame+Printing)",
+          "Double-Sided / Kit 2 ( Graphic Only)"
         ],
-        "source_reviews_text": "4 options",
-        "source_badge_label": "Banners & Displays",
+        "source_reviews_text": null,
+        "source_badge_label": "BANNERS & DISPLAYS",
         "source_badge_subtext": "3 product images available",
-        "source_description": "Features - This display is approximately 90\" tall - Your artwork will be dye sublimated on polyester knit - Double-sided graphic cover is viewable from both the front and back of the display - Graphic cover slips over the frame like a pillowcase - Fabric contours to the frame fo…",
+        "source_description": "https://www.dropbox.com/scl/fo/301xbb4f0l0m4x3lfekdx/h?rlkey=2afvdgkr632jnlzw8w5va2y07&dl=0\n\ninstallation guide\n\nFeatures\n\n- This display is approximately 90\" tall\n\n- Your artwork will be dye sublimated on polyester knit\n\n- Double-sided graphic cover is viewable from both the front and back of the display\n\n- Graphic cover slips over the frame like a pillowcase\n\n- Fabric contours to the frame for a form-fitted look\n\n- Lightweight aluminum frame\n\n- Joints are labeled for step-by-step frame assembly\n\n- Push-button connectors make it easy to assemble\n\n- Slim swivel feet allow Walls to be paired at angles\n\n- Imprint Method: Full-Color Dye Sublimation\n\nMaterials\n\n- Graphic: Polyester Knit\n\n- Hardware: Aluminum\n\n- Carry Case: 600 Denier Polyester\n\nPrimary Usage\n\n- Indoor\n\nOrder Cutoff Time\n\n- 12:00 PM Central Daylight Time",
         "source_card_variant": "",
         "source_add_on_group_keys": [],
         "local_image_paths": [
@@ -796,16 +810,14 @@
         "warranty_text": null,
         "source_options": [
           {
-            "name": "Graphic",
-            "position": 1,
+            "title": "Graphic",
             "values": [
               "Single-Sided",
               "Double-Sided"
             ]
           },
           {
-            "name": "Included",
-            "position": 2,
+            "title": "Included",
             "values": [
               "Kit 1 ( Frame +Graphic +Carry Bag)",
               "Kit 2 (Graphic only)"
@@ -880,39 +892,43 @@
         ],
         "source_variant_label": "Graphic / Included",
         "source_sizes": [
-          "Single-Sided",
-          "Double-Sided"
+          "Single-Sided / Kit 1 ( Frame +Graphic +Carry Bag)",
+          "Double-Sided / Kit 1 ( Frame +Graphic +Carry Bag)",
+          "Single-Sided / Kit 2 (Graphic only)",
+          "Double-Sided / Kit 2 (Graphic only)"
         ],
         "source_size_variants": [
           {
             "value": "Single-Sided / Kit 1 ( Frame +Graphic +Carry Bag)",
-            "price": 890.0
-          },
-          {
-            "value": "Double-Sided / Kit 1 ( Frame +Graphic +Carry Bag)",
-            "price": 1003.0
-          },
-          {
-            "value": "Single-Sided / Kit 2 (Graphic only)",
-            "price": 365.0,
+            "price": 890,
             "active": true
           },
           {
+            "value": "Double-Sided / Kit 1 ( Frame +Graphic +Carry Bag)",
+            "price": 10.03
+          },
+          {
+            "value": "Single-Sided / Kit 2 (Graphic only)",
+            "price": 365
+          },
+          {
             "value": "Double-Sided / Kit 2 (Graphic only)",
-            "price": 479.0
+            "price": 479
           }
         ],
         "source_filter_category": [
           "BANNERS & DISPLAYS"
         ],
         "source_filter_sizes": [
-          "Single-Sided",
-          "Double-Sided"
+          "Single-Sided / Kit 1 ( Frame +Graphic +Carry Bag)",
+          "Double-Sided / Kit 1 ( Frame +Graphic +Carry Bag)",
+          "Single-Sided / Kit 2 (Graphic only)",
+          "Double-Sided / Kit 2 (Graphic only)"
         ],
-        "source_reviews_text": "4 options",
-        "source_badge_label": "Banners & Displays",
+        "source_reviews_text": null,
+        "source_badge_label": "BANNERS & DISPLAYS",
         "source_badge_subtext": "6 product images available",
-        "source_description": "Features - This display is approximately 90\" tall - Your artwork will be dye sublimated on polyester knit - Double-sided graphic cover is viewable from both the front and back of the display - Graphic cover slips over the frame like a pillowcase - Fabric contours to the frame fo…",
+        "source_description": "Download Template\n\nhttps://displaytemplate.s3-us-west-2.amazonaws.com/Fabric+Display+Image/Fabric+Display.zip https://displaytemplate.s3-us-west-2.amazonaws.com/Product+setup+instruction/Inst_256239-256241_8FT+EUROFIT+Wall+Displays.pdf\n\nFeatures\n\n- This display is approximately 90\" tall\n\n- Your artwork will be dye sublimated on polyester knit\n\n- Double-sided graphic cover is viewable from both the front and back of the display\n\n- Graphic cover slips over the frame like a pillowcase\n\n- Fabric contours to the frame for a form-fitted look\n\n- Lightweight aluminum frame\n\n- Joints are labeled for step-by-step frame assembly\n\n- Push-button connectors make it easy to assemble\n\n- Slim swivel feet allow Walls to be paired at angles\n\n- Imprint Method: Full-Color Dye Sublimation\n\nMaterials\n\n- Graphic: Polyester Knit\n\n- Hardware: Aluminum\n\n- Carry Case: 600 Denier Polyester\n\nPrimary Usage\n\n- Indoor\n\nOrder Cutoff Time\n\n- 12:00 PM Central Daylight Time",
         "source_card_variant": "",
         "source_add_on_group_keys": [],
         "local_image_paths": [
@@ -1068,15 +1084,13 @@
         "warranty_text": "Warranty\n\n- Graphic: Three months\n\n- Hardware: Lifetime (Standard warranty is a parts and labor warranty which warrants product against defects in material and workmanship. It does not cover damage due to accidents, abuse or normal wear and tear. Products found to be defective will be replaced or repaired at factory's discretion.)",
         "source_options": [
           {
-            "name": "Size",
-            "position": 1,
+            "title": "Size",
             "values": [
               "36'' x 90''"
             ]
           },
           {
-            "name": "Included",
-            "position": 2,
+            "title": "Included",
             "values": [
               "Double-Sided Graphic + Frame",
               "Graphic Only"
@@ -1119,29 +1133,31 @@
         ],
         "source_variant_label": "Size",
         "source_sizes": [
-          "36'' x 90''"
+          "36'' x 90'' / Double-Sided Graphic + Frame",
+          "36'' x 90'' / Graphic Only"
         ],
         "source_size_variants": [
           {
             "value": "36'' x 90'' / Double-Sided Graphic + Frame",
-            "price": 165.0
+            "price": 165,
+            "active": true
           },
           {
             "value": "36'' x 90'' / Graphic Only",
-            "price": 117.0,
-            "active": true
+            "price": 117
           }
         ],
         "source_filter_category": [
           "BANNERS & DISPLAYS"
         ],
         "source_filter_sizes": [
-          "36'' x 90''"
+          "36'' x 90'' / Double-Sided Graphic + Frame",
+          "36'' x 90'' / Graphic Only"
         ],
-        "source_reviews_text": "2 options",
-        "source_badge_label": "Banners & Displays",
+        "source_reviews_text": null,
+        "source_badge_label": "BANNERS & DISPLAYS",
         "source_badge_subtext": "2 product images available",
-        "source_description": "As an environmentally friendly replacement for retractable roll ups, our Premium Tube Banner Stand with Steel Feet can be assembled with ease and used repeatedly. The steel feet gives the stand stability, while allowing it to pack down to be portable for easy transport. Basic In…",
+        "source_description": "Download template https://www.dropbox.com/s/mn7yxaj6dn16psy/Tension_Fabric_Stand_3ft_Straight.pdf?dl=0\n\nAs an environmentally friendly replacement for retractable roll ups, our Premium Tube Banner Stand with Steel Feet can be assembled with ease and used repeatedly. The steel feet gives the stand stability, while allowing it to pack down to be portable for easy transport.\n\nBasic Information:\n\n- PC/CTN: 1\n\nStandard Unit Includes:\n\n- (1) Hardware\n\n- (1) Dye-sublimated Graphic\n\n- (1) Soft Carry Bag\n\n- (1) Instruction Sheet",
         "source_card_variant": "",
         "source_add_on_group_keys": [],
         "local_image_paths": [
@@ -1290,8 +1306,7 @@
         "warranty_text": null,
         "source_options": [
           {
-            "name": "Included",
-            "position": 1,
+            "title": "Included",
             "values": [
               "Kit 1 ( Frame +Printing)",
               "Kit 2 ( Graphic Only)"
@@ -1338,12 +1353,12 @@
         "source_size_variants": [
           {
             "value": "Kit 1 ( Frame +Printing)",
-            "price": 367.0
+            "price": 367,
+            "active": true
           },
           {
             "value": "Kit 2 ( Graphic Only)",
-            "price": 167.0,
-            "active": true
+            "price": 167
           }
         ],
         "source_filter_category": [
@@ -1353,10 +1368,10 @@
           "Kit 1 ( Frame +Printing)",
           "Kit 2 ( Graphic Only)"
         ],
-        "source_reviews_text": "2 options",
-        "source_badge_label": "Banners & Displays",
+        "source_reviews_text": null,
+        "source_badge_label": "BANNERS & DISPLAYS",
         "source_badge_subtext": "4 product images available",
-        "source_description": "8' straight pop up design Hardcase . Features Your artwork will be dye sublimated on polyester knit\nGraphic panel covers the front and two sides of the display's frame; the back of the frame is not covered\nHook-and-loop fasteners make it easy to install graphic panels\nLightweigh…",
+        "source_description": "8' straight pop up design template Hardcase Template . Installation Guide\n\nFeatures\n\nYour artwork will be dye sublimated on polyester knit\nGraphic panel covers the front and two sides of the display's frame; the back of the frame is not covered\nHook-and-loop fasteners make it easy to install graphic panels\nLightweight aluminum frame with nylon plastic hubs\nImprint Method: Full-Color Dye Sublimation\nSingle Sided Graphic\n\n8ft fabric pop up Includes:\n\n- (1) Single-Sided Dye-Sublimated Graphic (with Endcaps)\n\n- (1) Aluminum Frame\n\n- (1) Black Nylon Carry Bag\n\n- Endcaps: 11.81\" end panels on both sides)\n\n- Material: Stretch Fabric\n\n- Shipping Weight: 24 lbs",
         "source_card_variant": "",
         "source_add_on_group_keys": [],
         "local_image_paths": [
@@ -1581,16 +1596,14 @@
         "warranty_text": null,
         "source_options": [
           {
-            "name": "Display Option",
-            "position": 1,
+            "title": "Display Option",
             "values": [
               "Single-Sided",
               "Double-Sided"
             ]
           },
           {
-            "name": "Style",
-            "position": 2,
+            "title": "Style",
             "values": [
               "Kit 1 ( Frame +Printing)",
               "Kit 3 ( Graphic Only)"
@@ -1665,39 +1678,43 @@
         ],
         "source_variant_label": "Display Option / Style",
         "source_sizes": [
-          "Single-Sided",
-          "Double-Sided"
+          "Single-Sided / Kit 1 ( Frame +Printing)",
+          "Single-Sided / Kit 3 ( Graphic Only)",
+          "Double-Sided / Kit 1 ( Frame +Printing)",
+          "Double-Sided / Kit 3 ( Graphic Only)"
         ],
         "source_size_variants": [
           {
             "value": "Single-Sided / Kit 1 ( Frame +Printing)",
-            "price": 400.0
-          },
-          {
-            "value": "Single-Sided / Kit 3 ( Graphic Only)",
-            "price": 167.0,
+            "price": 400,
             "active": true
           },
           {
+            "value": "Single-Sided / Kit 3 ( Graphic Only)",
+            "price": 167
+          },
+          {
             "value": "Double-Sided / Kit 1 ( Frame +Printing)",
-            "price": 439.0
+            "price": 439
           },
           {
             "value": "Double-Sided / Kit 3 ( Graphic Only)",
-            "price": 197.0
+            "price": 197
           }
         ],
         "source_filter_category": [
           "BANNERS & DISPLAYS"
         ],
         "source_filter_sizes": [
-          "Single-Sided",
-          "Double-Sided"
+          "Single-Sided / Kit 1 ( Frame +Printing)",
+          "Single-Sided / Kit 3 ( Graphic Only)",
+          "Double-Sided / Kit 1 ( Frame +Printing)",
+          "Double-Sided / Kit 3 ( Graphic Only)"
         ],
-        "source_reviews_text": "4 options",
-        "source_badge_label": "Banners & Displays",
+        "source_reviews_text": null,
+        "source_badge_label": "BANNERS & DISPLAYS",
         "source_badge_subtext": "3 product images available",
-        "source_description": "Features - This display is approximately 90\" tall - Your artwork will be dye sublimated on polyester knit - Double-sided graphic cover is viewable from both the front and back of the display - Graphic cover slips over the frame like a pillowcase - Fabric contours to the frame fo…",
+        "source_description": "https://displaytemplate.s3-us-west-2.amazonaws.com/Fabric+Display/Tension_Fabric_Display_8ft_Straight.pdf\n\ninstallation guide\n\nFeatures\n\n- This display is approximately 90\" tall\n\n- Your artwork will be dye sublimated on polyester knit\n\n- Double-sided graphic cover is viewable from both the front and back of the display\n\n- Graphic cover slips over the frame like a pillowcase\n\n- Fabric contours to the frame for a form-fitted look\n\n- Lightweight aluminum frame\n\n- Joints are labeled for step-by-step frame assembly\n\n- Push-button connectors make it easy to assemble\n\n- Slim swivel feet allow Walls to be paired at angles\n\n- Imprint Method: Full-Color Dye Sublimation\n\nMaterials\n\n- Graphic: Polyester Knit\n\n- Hardware: Aluminum\n\n- Carry Case: 600 Denier Polyester\n\nPrimary Usage\n\n- Indoor\n\nOrder Cutoff Time\n\n- 12:00 PM Central Daylight Time",
         "source_card_variant": "",
         "source_add_on_group_keys": [],
         "local_image_paths": [
@@ -2189,8 +2206,7 @@
         "warranty_text": "Warranty\n\nWe stand behind the quality of our products. Our warranty covers any factory defects or damage that occurs during shipping. However, please note that we do not cover damage resulting from extreme weather conditions, misuse, or any circumstances beyond our control.",
         "source_options": [
           {
-            "name": "Quantity:",
-            "position": 1,
+            "title": "Quantity:",
             "values": [
               "10",
               "50",
@@ -2201,8 +2217,7 @@
             ]
           },
           {
-            "name": "Set up:",
-            "position": 2,
+            "title": "Set up:",
             "values": [
               "Double Sided",
               "Single Sided"
@@ -2405,22 +2420,28 @@
         ],
         "source_variant_label": "Quantity: / Set up:",
         "source_sizes": [
-          "10",
-          "50",
-          "100",
-          "200",
-          "500",
-          "1000"
+          "10 / Double Sided",
+          "10 / Single Sided",
+          "50 / Double Sided",
+          "50 / Single Sided",
+          "100 / Double Sided",
+          "100 / Single Sided",
+          "200 / Double Sided",
+          "200 / Single Sided",
+          "500 / Double Sided",
+          "500 / Single Sided",
+          "1000 / Double Sided",
+          "1000 / Single Sided"
         ],
         "source_size_variants": [
           {
             "value": "10 / Double Sided",
-            "price": 88.5
+            "price": 88.5,
+            "active": true
           },
           {
             "value": "10 / Single Sided",
-            "price": 78.5,
-            "active": true
+            "price": 78.5
           },
           {
             "value": "50 / Double Sided",
@@ -2432,52 +2453,58 @@
           },
           {
             "value": "100 / Double Sided",
-            "price": 675.0
+            "price": 675
           },
           {
             "value": "100 / Single Sided",
-            "price": 575.0
+            "price": 575
           },
           {
             "value": "200 / Double Sided",
-            "price": 1290.0
+            "price": 12.9
           },
           {
             "value": "200 / Single Sided",
-            "price": 1090.0
+            "price": 10.9
           },
           {
             "value": "500 / Double Sided",
-            "price": 3175.0
+            "price": 31.75
           },
           {
             "value": "500 / Single Sided",
-            "price": 2675.0
+            "price": 26.75
           },
           {
             "value": "1000 / Double Sided",
-            "price": 6250.0
+            "price": 62.5
           },
           {
             "value": "1000 / Single Sided",
-            "price": 5250.0
+            "price": 52.5
           }
         ],
         "source_filter_category": [
           "BANNERS & DISPLAYS"
         ],
         "source_filter_sizes": [
-          "10",
-          "50",
-          "100",
-          "200",
-          "500",
-          "1000"
+          "10 / Double Sided",
+          "10 / Single Sided",
+          "50 / Double Sided",
+          "50 / Single Sided",
+          "100 / Double Sided",
+          "100 / Single Sided",
+          "200 / Double Sided",
+          "200 / Single Sided",
+          "500 / Double Sided",
+          "500 / Single Sided",
+          "1000 / Double Sided",
+          "1000 / Single Sided"
         ],
-        "source_reviews_text": "12 options",
-        "source_badge_label": "Banners & Displays",
+        "source_reviews_text": null,
+        "source_badge_label": "BANNERS & DISPLAYS",
         "source_badge_subtext": "3 product images available",
-        "source_description": "Promote your message effectively with our Full Color Custom Yard Sign, a durable and professional solution for outdoor advertising, real estate, events, and political or business promotions. Printed in full color on rigid 4mm coroplast, this yard sign delivers vibrant visuals wh…",
+        "source_description": "Promote your message effectively with our Full Color Custom Yard Sign, a durable and professional solution for outdoor advertising, real estate, events, and political or business promotions. Printed in full color on rigid 4mm coroplast, this yard sign delivers vibrant visuals while standing up to outdoor conditions.\n\nEach sign measures 24” × 18” and comes ready to use, including metal stakes, professional setup, and delivery at no extra cost. Designed for quick installation, it’s an easy and affordable way to get your message in front of customers fast.\n\n🔹 Key Features\n\n- 🪧 Full Color Custom Printing – High-quality, vibrant graphics\n\n- 📏 Standard Size – 24\" × 18\" yard sign\n\n- 🧱 Durable Material – 4mm corrugated coroplast\n\n- 🌦️ Outdoor Ready – Weather-resistant for long-term use\n\n- 🔩 Metal Stakes Included – Easy ground installation\n\n- 🎨 Design & Setup Included – No additional setup fees\n\n- 🚚 Delivery Included – Hassle-free shipping to your location\n\n🔹 Imprint Method\n\n🖨️ Full-Color Digital Printing\n\n🔹 Materials\n\n- 🧱 Sign Material: 4mm Coroplast\n\n- 🔩 Stakes: Metal\n\n🔹 What’s Included\n\n- 📦 Full Color Custom Yard Sign (24×18)\n\n- 🔩 Metal Stake\n\n- 🎨 Design Setup\n\n- 🚚 Delivery\n\n🔹 Primary Usage\n\nOutdoor advertising, real estate signage, events, political campaigns, business promotions, construction sites, and directional signage.",
         "source_card_variant": "",
         "source_add_on_group_keys": [],
         "local_image_paths": [
@@ -2633,23 +2660,25 @@
         ],
         "source_variant_label": null,
         "source_sizes": [
-          "Default option"
+          "Default Title"
         ],
         "source_size_variants": [
           {
-            "value": "Default option",
-            "price": 150.0,
+            "value": "Default Title",
+            "price": 150,
             "active": true
           }
         ],
         "source_filter_category": [
           "BANNERS & DISPLAYS"
         ],
-        "source_filter_sizes": [],
-        "source_reviews_text": "1 option",
-        "source_badge_label": "Banners & Displays",
+        "source_filter_sizes": [
+          "Default Title"
+        ],
+        "source_reviews_text": null,
+        "source_badge_label": "BANNERS & DISPLAYS",
         "source_badge_subtext": "8 product images available",
-        "source_description": "Material Options: - 13 oz. Matte Vinyl Banner Safety Margins: (To ensure all graphic elements appear) - Top: 1\" - Bottom: 3\" Product Features: - Aluminum Retractable Hardware - Carrying Bag",
+        "source_description": "https://www.dropbox.com/scl/fi/h7716dd1hs1t9cv4ugrs2/Deluxe-Retractable_33x81.pdf?rlkey=n12rkdbktw7k0y1cdt2zljbf8&dl=0 https://displaytemplate.s3.us-west-2.amazonaws.com/Retractable/retractable+banner+33inch+x81inch.pdf\n\nMaterial Options:\n\n- 13 oz. Matte Vinyl Banner\n\nSafety Margins: (To ensure all graphic elements appear)\n\n- Top: 1\"\n\n- Bottom: 3\"\n\nProduct Features:\n\n- Aluminum Retractable Hardware\n\n- Carrying Bag",
         "source_card_variant": "",
         "source_add_on_group_keys": [],
         "local_image_paths": [
@@ -2804,8 +2833,7 @@
         "warranty_text": "Warranty\n\n1 Year Product Warranty - Standard warranty is a one year parts and labor warranty which warrants product against defects in material and workmanship. It does not cover damage due to accidents, abuse, or normal wear and tear. Products found to be defective will be replaced or repaired at factory's discretion.",
         "source_options": [
           {
-            "name": "Style",
-            "position": 1,
+            "title": "Style",
             "values": [
               "Kit 1 ( Frame +Double-Sided Graphic)",
               "Kit 2 (Graphic Only Double-Sided)"
@@ -2852,12 +2880,12 @@
         "source_size_variants": [
           {
             "value": "Kit 1 ( Frame +Double-Sided Graphic)",
-            "price": 165.0
+            "price": 165,
+            "active": true
           },
           {
             "value": "Kit 2 (Graphic Only Double-Sided)",
-            "price": 117.0,
-            "active": true
+            "price": 117
           }
         ],
         "source_filter_category": [
@@ -2867,10 +2895,10 @@
           "Kit 1 ( Frame +Double-Sided Graphic)",
           "Kit 2 (Graphic Only Double-Sided)"
         ],
-        "source_reviews_text": "2 options",
-        "source_badge_label": "Banners & Displays",
+        "source_reviews_text": null,
+        "source_badge_label": "BANNERS & DISPLAYS",
         "source_badge_subtext": "4 product images available",
-        "source_description": "Design . Assembly Instructions Features - Steel base with black powder-coated finish - Plastic feet elevate the base and keep the display stable - Graphic cover slips over the frame like a pillowcase - Artwork is dye sublimated on polyester knit - Double-sided graphic cover is v…",
+        "source_description": "Design Template . Assembly Instructions\n\nFeatures\n\n- Steel base with black powder-coated finish\n\n- Plastic feet elevate the base and keep the display stable\n\n- Graphic cover slips over the frame like a pillowcase\n\n- Artwork is dye sublimated on polyester knit\n\n- Double-sided graphic cover is viewable from both the front and back of the display\n\n- Multiple sizes can be arranged together for endless display possibilities\n\n- Imprint Method: Full-Color Dye Sublimation\n\n- Double Sided Graphic\n\nMaterials\n\n- Graphic: Polyester Knit\n\n- Hardware: Aluminum, Steel\n\n- Carry Case: 600 Denier Polyester\n\nPrimary Usage\n\n- Indoor\n\nOrder Cutoff Time\n\n- 12:00 PM Central Daylight Time",
         "source_card_variant": "",
         "source_add_on_group_keys": [],
         "local_image_paths": [
@@ -3065,8 +3093,7 @@
         "warranty_text": "1 Year Product Warranty - Standard warranty is a one year parts and labor warranty which warrants product against defects in material and workmanship. It does not cover damage due to accidents, abuse, or normal wear and tear. Products found to be defective will be replaced or repaired at factory's discretion",
         "source_options": [
           {
-            "name": "Size",
-            "position": 1,
+            "title": "Size",
             "values": [
               "36'' x 92''",
               "36''x 80''",
@@ -3130,16 +3157,16 @@
         "source_size_variants": [
           {
             "value": "36'' x 92''",
-            "price": 175.0
+            "price": 175,
+            "active": true
           },
           {
             "value": "36''x 80''",
-            "price": 165.0
+            "price": 165
           },
           {
             "value": "36'' x 69''",
-            "price": 155.0,
-            "active": true
+            "price": 155
           }
         ],
         "source_filter_category": [
@@ -3150,10 +3177,10 @@
           "36''x 80''",
           "36'' x 69''"
         ],
-        "source_reviews_text": "3 options",
-        "source_badge_label": "Banners & Displays",
+        "source_reviews_text": null,
+        "source_badge_label": "BANNERS & DISPLAYS",
         "source_badge_subtext": "8 product images available",
-        "source_description": "Kit include 1 pc frame 1pc vinyl graphic Material Options: - 13 oz. Matte Vinyl Banner Safety Margins: (To ensure all graphic elements appear) - Top: 1\" - Bottom: 3\"",
+        "source_description": "Download Template\n\nKit include\n\n1 pc frame\n\n1pc vinyl graphic\n\nMaterial Options:\n\n- 13 oz. Matte Vinyl Banner\n\nSafety Margins: (To ensure all graphic elements appear)\n\n- Top: 1\"\n\n- Bottom: 3\"",
         "source_card_variant": "",
         "source_add_on_group_keys": [],
         "local_image_paths": [
@@ -3305,23 +3332,25 @@
         ],
         "source_variant_label": null,
         "source_sizes": [
-          "Default option"
+          "Default Title"
         ],
         "source_size_variants": [
           {
-            "value": "Default option",
-            "price": 125.0,
+            "value": "Default Title",
+            "price": 125,
             "active": true
           }
         ],
         "source_filter_category": [
           "BANNERS & DISPLAYS"
         ],
-        "source_filter_sizes": [],
-        "source_reviews_text": "1 option",
-        "source_badge_label": "Banners & Displays",
+        "source_filter_sizes": [
+          "Default Title"
+        ],
+        "source_reviews_text": null,
+        "source_badge_label": "BANNERS & DISPLAYS",
         "source_badge_subtext": "5 product images available",
-        "source_description": "The retractable stand is very appealing and features a sleek and stealthy base. Use it to gain the attention of those passing by. . Stand includes a traveling bag. Material Options: - 13 oz. Matte Vinyl Banner Safety Margins: (To ensure all graphic elements appear) - Top: 1\" - B…",
+        "source_description": "https://www.dropbox.com/s/u3tyvb2kbf4clkw/standard.zip?dl=0 https://www.dropbox.com/scl/fi/glfw3s4ryvm4ria2f9g32/Standard.zip?rlkey=kw276vrn58sbwq6lvur53q291&dl=0 https://www.dropbox.com/s/vsp8tf6dmsiihyb/Standard%20Retracable.zip?dl=0 https://www.dropbox.com/scl/fo/0ponqyh6jyuyglb3aeiw4/AOgvo2J6BAtwRQobM0kmLL0?rlkey=vynnie2sfwmcxdwwffwihl18h&dl=0 https://www.dropbox.com/scl/fo/0ponqyh6jyuyglb3aeiw4/AOgvo2J6BAtwRQobM0kmLL0?rlkey=vynnie2sfwmcxdwwffwihl18h&dl=0\n\nThe retractable stand is very appealing and features a sleek and stealthy base. Use it to gain the attention of those passing by. . Stand includes a traveling bag.\n\nMaterial Options:\n\n- 13 oz. Matte Vinyl Banner\n\nSafety Margins: (To ensure all graphic elements appear)\n\n- Top: 1\"\n\n- Bottom: 3\"",
         "source_card_variant": "",
         "source_add_on_group_keys": [],
         "local_image_paths": [
@@ -3622,16 +3651,14 @@
         "warranty_text": null,
         "source_options": [
           {
-            "name": "Size",
-            "position": 1,
+            "title": "Size",
             "values": [
               "8' x 8'",
               "10' x 8'"
             ]
           },
           {
-            "name": "Includes",
-            "position": 2,
+            "title": "Includes",
             "values": [
               "Kit 1 (Banner + Frame + Carry Bag)",
               "Kit 3 ( Graphic Only)",
@@ -3739,47 +3766,55 @@
         ],
         "source_variant_label": "Size",
         "source_sizes": [
-          "8' x 8'",
-          "10' x 8'"
+          "8' x 8' / Kit 1 (Banner + Frame + Carry Bag)",
+          "8' x 8' / Kit 3 ( Graphic Only)",
+          "8' x 8' / Kit 2 ( Frame Only)",
+          "10' x 8' / Kit 1 (Banner + Frame + Carry Bag)",
+          "10' x 8' / Kit 3 ( Graphic Only)",
+          "10' x 8' / Kit 2 ( Frame Only)"
         ],
         "source_size_variants": [
           {
             "value": "8' x 8' / Kit 1 (Banner + Frame + Carry Bag)",
-            "price": 265.0
-          },
-          {
-            "value": "8' x 8' / Kit 3 ( Graphic Only)",
-            "price": 165.0
-          },
-          {
-            "value": "8' x 8' / Kit 2 ( Frame Only)",
-            "price": 155.0,
+            "price": 265,
             "active": true
           },
           {
+            "value": "8' x 8' / Kit 3 ( Graphic Only)",
+            "price": 165
+          },
+          {
+            "value": "8' x 8' / Kit 2 ( Frame Only)",
+            "price": 155
+          },
+          {
             "value": "10' x 8' / Kit 1 (Banner + Frame + Carry Bag)",
-            "price": 275.0
+            "price": 275
           },
           {
             "value": "10' x 8' / Kit 3 ( Graphic Only)",
-            "price": 175.0
+            "price": 175
           },
           {
             "value": "10' x 8' / Kit 2 ( Frame Only)",
-            "price": 165.0
+            "price": 165
           }
         ],
         "source_filter_category": [
           "BANNERS & DISPLAYS"
         ],
         "source_filter_sizes": [
-          "8' x 8'",
-          "10' x 8'"
+          "8' x 8' / Kit 1 (Banner + Frame + Carry Bag)",
+          "8' x 8' / Kit 3 ( Graphic Only)",
+          "8' x 8' / Kit 2 ( Frame Only)",
+          "10' x 8' / Kit 1 (Banner + Frame + Carry Bag)",
+          "10' x 8' / Kit 3 ( Graphic Only)",
+          "10' x 8' / Kit 2 ( Frame Only)"
         ],
-        "source_reviews_text": "6 options",
-        "source_badge_label": "Banners & Displays",
+        "source_reviews_text": null,
+        "source_badge_label": "BANNERS & DISPLAYS",
         "source_badge_subtext": "7 product images available",
-        "source_description": "Our Back Drop- Large Tube is portable and ideal for a background display for all types of indoor events such as trade show booths and photo shoots. These stands have telescoping 1.625\" diameter poles that extend out, meaning they are adjustable to certain sizes. Stand also inclu…",
+        "source_description": "DOWNLOAD TEMPLATE\n\nOur Back Drop- Large Tube is portable and ideal for a background display for all types of indoor events such as trade show booths and photo shoots. These stands have telescoping 1.625\" diameter poles that extend out, meaning they are adjustable to certain sizes. Stand also includes travel bag. Insert are constructed with pole pockets. T his kit includes the adjustable display stand hardware, full-color graphics on premium polyester knit fabric, and a soft carry case.\n\nFeatures\n\n- Digitally printed at 720 x 720 resolution\n\n- Dye sublimation\n\n- Scratch resistant\n\n- Washable\n\n- Curl-free edge\n\n- Easy to install & replace graphic\n\n- Indoor Display",
         "source_card_variant": "",
         "source_add_on_group_keys": [],
         "local_image_paths": [
@@ -3934,16 +3969,14 @@
         "warranty_text": null,
         "source_options": [
           {
-            "name": "Size",
-            "position": 1,
+            "title": "Size",
             "values": [
               "24\" x 63\"",
               "32\" x 71\""
             ]
           },
           {
-            "name": "Material",
-            "position": 2,
+            "title": "Material",
             "values": [
               "13 oz. Matte Vinyl Banner"
             ]
@@ -3985,31 +4018,31 @@
         ],
         "source_variant_label": "Size",
         "source_sizes": [
-          "24\" x 63\"",
-          "32\" x 71\""
+          "24\" x 63\" / 13 oz. Matte Vinyl Banner",
+          "32\" x 71\" / 13 oz. Matte Vinyl Banner"
         ],
         "source_size_variants": [
           {
             "value": "24\" x 63\" / 13 oz. Matte Vinyl Banner",
-            "price": 79.0,
+            "price": 79,
             "active": true
           },
           {
             "value": "32\" x 71\" / 13 oz. Matte Vinyl Banner",
-            "price": 99.0
+            "price": 99
           }
         ],
         "source_filter_category": [
           "BANNERS & DISPLAYS"
         ],
         "source_filter_sizes": [
-          "24\" x 63\"",
-          "32\" x 71\""
+          "24\" x 63\" / 13 oz. Matte Vinyl Banner",
+          "32\" x 71\" / 13 oz. Matte Vinyl Banner"
         ],
-        "source_reviews_text": "2 options",
-        "source_badge_label": "Banners & Displays",
+        "source_reviews_text": null,
+        "source_badge_label": "BANNERS & DISPLAYS",
         "source_badge_subtext": "1 product image available",
-        "source_description": "MADE IN USA.SHIP NEXT DAY 4:00PM FROM CALIFORNIA FACILITY Showcase your promotional banner with the X-stand. It is durable and is the most cost effective display. Stand includes a free travel bag, making it easy to carry to trade show exhibits, lobby exhibits, and much more. Fea…",
+        "source_description": "MADE IN USA.SHIP NEXT DAY 4:00PM FROM CALIFORNIA FACILITY\n\nShowcase your promotional banner with the X-stand. It is durable and is the most cost effective display. Stand includes a free travel bag, making it easy to carry to trade show exhibits, lobby exhibits, and much more.\n\nFeatures\n\n- Durable and most cost effective display\n\n- Includes a free travel bag\n\n- High resolution digitally printed\n\nMaterial Options:\n\n- 13 oz. Matte Vinyl Banner",
         "source_card_variant": "",
         "source_add_on_group_keys": [],
         "local_image_paths": [

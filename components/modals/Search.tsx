@@ -38,7 +38,7 @@ export default function Search({
         );
       })
       .slice(0, 8);
-  }, [debouncedQuery]);
+  }, [debouncedQuery, products]);
 
   return (
     <div
@@ -75,7 +75,7 @@ export default function Search({
             </button>
           </form>
           <div className="search-feature">
-            <p className="h5 mb-16">Suggested Collections</p>
+            <p className="h5 mb-16">Suggested Categories</p>
             <div className="tf-list-tag">
               {featuredKeywords.map((keyword) => (
                 <button

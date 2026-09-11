@@ -3,9 +3,9 @@
   "generatedAt": "2026-09-01T13:49:06Z",
   "collectionCount": 30,
   "categoryFolderCount": 18,
-  "productCount": 174,
+  "productCount": 175,
   "uncategorizedProductCount": 64,
-  "imageCount": 516,
+  "imageCount": 521,
   "collections": [
     {
       "handle": "10x10",
@@ -34,7 +34,7 @@
     {
       "handle": "accesories",
       "title": "Accessories",
-      "productsCount": 6,
+      "productsCount": 7,
       "filePath": "data/inventory/notionworx/collections/accesories.json"
     },
     {
@@ -675,6 +675,20 @@
         "/assets/images/notionworx-inventory/custom-food-booths-canopy-tents/custom-food-booth-canopy-tent-16-10/08.jpg",
         "/assets/images/notionworx-inventory/custom-food-booths-canopy-tents/custom-food-booth-canopy-tent-16-10/09.jpg",
         "/assets/images/notionworx-inventory/custom-food-booths-canopy-tents/custom-food-booth-canopy-tent-16-10/10.jpg"
+      ]
+    },
+    {
+      "handle": "custom-lanyard-with-badge-holder",
+      "name": "Custom Lanyard with Badge Holder",
+      "primaryCategoryHandle": "accesories",
+      "primaryCategoryTitle": "Accessories",
+      "dataPath": "data/obselete/notionworx/products/accesories/custom-lanyard-with-badge-holder.json",
+      "imagePaths": [
+        "/assets/images/notionworx-inventory/accesories/custom-lanyard-with-badge-holder/01.jpg",
+        "/assets/images/notionworx-inventory/accesories/custom-lanyard-with-badge-holder/02.jpg",
+        "/assets/images/notionworx-inventory/accesories/custom-lanyard-with-badge-holder/03.jpg",
+        "/assets/images/notionworx-inventory/accesories/custom-lanyard-with-badge-holder/04.jpg",
+        "/assets/images/notionworx-inventory/accesories/custom-lanyard-with-badge-holder/05.jpg"
       ]
     },
     {

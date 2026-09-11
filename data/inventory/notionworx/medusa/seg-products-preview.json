@@ -23,6 +23,19 @@
       "inventory_data_path": "/inventory/notionworx/collections/seg-products.json"
     }
   },
+  "productCategory": {
+    "name": "SEG PRODUCTS",
+    "description": "",
+    "handle": "seg-products",
+    "is_active": true,
+    "is_internal": false,
+    "metadata": {
+      "source": "notionworx-inventory",
+      "source_handle": "seg-products",
+      "source_title": "SEG PRODUCTS",
+      "inventory_data_path": "/inventory/notionworx/collections/seg-products.json"
+    }
+  },
   "productsCount": 6,
   "products": [
     {
@@ -84,6 +97,7 @@
             "source_taxable": true,
             "source_grams": 54431,
             "source_position": 1,
+            "source_sku": "70022",
             "source_option_values": [
               "Frame + Graphics",
               "Single Sided"
@@ -115,6 +129,7 @@
             "source_taxable": true,
             "source_grams": 54431,
             "source_position": 2,
+            "source_sku": "70023",
             "source_option_values": [
               "Frame + Graphics",
               "Double Sided"
@@ -146,6 +161,7 @@
             "source_taxable": true,
             "source_grams": 54431,
             "source_position": 3,
+            "source_sku": "70024",
             "source_option_values": [
               "Graphic Only",
               "Single Sided"
@@ -177,6 +193,7 @@
             "source_taxable": true,
             "source_grams": 54431,
             "source_position": 4,
+            "source_sku": "70025",
             "source_option_values": [
               "Graphic Only",
               "Double Sided"
@@ -226,16 +243,14 @@
         "warranty_text": null,
         "source_options": [
           {
-            "name": "Style",
-            "position": 1,
+            "title": "Style",
             "values": [
               "Frame + Graphics",
               "Graphic Only"
             ]
           },
           {
-            "name": "Graphics",
-            "position": 2,
+            "title": "Graphics",
             "values": [
               "Single Sided",
               "Double Sided"
@@ -310,39 +325,43 @@
         ],
         "source_variant_label": "Style / Graphics",
         "source_sizes": [
-          "Frame + Graphics",
-          "Graphic Only"
+          "Frame + Graphics / Single Sided",
+          "Frame + Graphics / Double Sided",
+          "Graphic Only / Single Sided",
+          "Graphic Only / Double Sided"
         ],
         "source_size_variants": [
           {
             "value": "Frame + Graphics / Single Sided",
-            "price": 2665.0
-          },
-          {
-            "value": "Frame + Graphics / Double Sided",
-            "price": 3334.0
-          },
-          {
-            "value": "Graphic Only / Single Sided",
-            "price": 417.0,
+            "price": 26.65,
             "active": true
           },
           {
+            "value": "Frame + Graphics / Double Sided",
+            "price": 33.34
+          },
+          {
+            "value": "Graphic Only / Single Sided",
+            "price": 417
+          },
+          {
             "value": "Graphic Only / Double Sided",
-            "price": 584.0
+            "price": 584
           }
         ],
         "source_filter_category": [
           "SEG PRODUCTS"
         ],
         "source_filter_sizes": [
-          "Frame + Graphics",
-          "Graphic Only"
+          "Frame + Graphics / Single Sided",
+          "Frame + Graphics / Double Sided",
+          "Graphic Only / Single Sided",
+          "Graphic Only / Double Sided"
         ],
-        "source_reviews_text": "4 options",
-        "source_badge_label": "SEG Products",
+        "source_reviews_text": null,
+        "source_badge_label": "SEG PRODUCTS",
         "source_badge_subtext": "3 product images available",
-        "source_description": "This illuminated large format trade show display is suitable for all large-scale marketing purposes. Radiant and eye-catching with its bright illumination, this display is perfectly suited for attracting the attention of a wide amount of customers and clientele. SEG displays uti…",
+        "source_description": "Download Template\n\nThis illuminated large format trade show display is suitable for all large-scale marketing purposes. Radiant and eye-catching with its bright illumination, this display is perfectly suited for attracting the attention of a wide amount of customers and clientele.\n\nSEG displays utilize a silicone edge graphic (SEG) to create a seamless and visually appealing presentation. It is commonly used in the field of visual marketing and trade shows. The silicone strip is designed to fit into a channel on the display frame. This creates a taut and smooth appearance without any visible seams on the front surface of the display. Changing out SEG graphics is a breeze.\n\nInterior LED lighting enhances the backlit fabric prints making these displays true show-stoppers.\n\nFeatures\n\n- High resolution UV printed\n\n- UV safe that will last for years\n\n- Blackout Fabric included for Single Sided option\n\nMaterial:\n\n- 6 oz. Premium Backlit Fabric\n\n- Aluminum Frame",
         "source_card_variant": "",
         "source_add_on_group_keys": [],
         "local_image_paths": [
@@ -426,6 +445,7 @@
             "source_taxable": true,
             "source_grams": 54431,
             "source_position": 1,
+            "source_sku": "70014",
             "source_option_values": [
               "Frame + Graphics",
               "Single-Sided"
@@ -457,6 +477,7 @@
             "source_taxable": true,
             "source_grams": 54431,
             "source_position": 2,
+            "source_sku": "70015",
             "source_option_values": [
               "Frame + Graphics",
               "Double-Sided"
@@ -488,6 +509,7 @@
             "source_taxable": true,
             "source_grams": 54431,
             "source_position": 3,
+            "source_sku": "70016",
             "source_option_values": [
               "Graphics Only",
               "Single-Sided"
@@ -519,6 +541,7 @@
             "source_taxable": true,
             "source_grams": 54431,
             "source_position": 4,
+            "source_sku": "70017",
             "source_option_values": [
               "Graphics Only",
               "Double-Sided"
@@ -568,16 +591,14 @@
         "warranty_text": null,
         "source_options": [
           {
-            "name": "Style",
-            "position": 1,
+            "title": "Style",
             "values": [
               "Frame + Graphics",
               "Graphics Only"
             ]
           },
           {
-            "name": "Graphics",
-            "position": 2,
+            "title": "Graphics",
             "values": [
               "Single-Sided",
               "Double-Sided"
@@ -652,39 +673,43 @@
         ],
         "source_variant_label": "Style / Graphics",
         "source_sizes": [
-          "Frame + Graphics",
-          "Graphics Only"
+          "Frame + Graphics / Single-Sided",
+          "Frame + Graphics / Double-Sided",
+          "Graphics Only / Single-Sided",
+          "Graphics Only / Double-Sided"
         ],
         "source_size_variants": [
           {
             "value": "Frame + Graphics / Single-Sided",
-            "price": 2500.0
-          },
-          {
-            "value": "Frame + Graphics / Double-Sided",
-            "price": 3000.0
-          },
-          {
-            "value": "Graphics Only / Single-Sided",
-            "price": 367.0,
+            "price": 25,
             "active": true
           },
           {
+            "value": "Frame + Graphics / Double-Sided",
+            "price": 30
+          },
+          {
+            "value": "Graphics Only / Single-Sided",
+            "price": 367
+          },
+          {
             "value": "Graphics Only / Double-Sided",
-            "price": 634.0
+            "price": 634
           }
         ],
         "source_filter_category": [
           "SEG PRODUCTS"
         ],
         "source_filter_sizes": [
-          "Frame + Graphics",
-          "Graphics Only"
+          "Frame + Graphics / Single-Sided",
+          "Frame + Graphics / Double-Sided",
+          "Graphics Only / Single-Sided",
+          "Graphics Only / Double-Sided"
         ],
-        "source_reviews_text": "4 options",
-        "source_badge_label": "SEG Products",
+        "source_reviews_text": null,
+        "source_badge_label": "SEG PRODUCTS",
         "source_badge_subtext": "5 product images available",
-        "source_description": "An affordable and compact choice, our illuminated pop-up display is perfect for eye-level marketing opportunities. Suitable for placement on a table or stand, this display is an attention grabber that is sure to impress potential customers and clientele. Our Popup hardware makes…",
+        "source_description": "Download Template\n\nAn affordable and compact choice, our illuminated pop-up display is perfect for eye-level marketing opportunities. Suitable for placement on a table or stand, this display is an attention grabber that is sure to impress potential customers and clientele.\n\nOur Popup hardware makes for quick and easy assembly at tradeshows, events and in-store marketing. The interior LED lights really plus up the backlit fabric prints, adding pop to this Popup display.\n\nFeatures\n\n- High resolution UV printed\n\n- UV safe that will last for years\n\n- Blackout Fabric included for Single Sided option\n\nMaterial:\n\n- 6 oz. Premium Backlit Fabric\n\n- Aluminum Frame",
         "source_card_variant": "",
         "source_add_on_group_keys": [],
         "local_image_paths": [
@@ -770,6 +795,7 @@
             "source_taxable": true,
             "source_grams": 54431,
             "source_position": 1,
+            "source_sku": "70001",
             "source_option_values": [
               "Frame + Graphics",
               "Single-Sided"
@@ -801,6 +827,7 @@
             "source_taxable": true,
             "source_grams": 54431,
             "source_position": 2,
+            "source_sku": "70002",
             "source_option_values": [
               "Frame + Graphics",
               "Double-Sided"
@@ -832,6 +859,7 @@
             "source_taxable": true,
             "source_grams": 54431,
             "source_position": 3,
+            "source_sku": "70003",
             "source_option_values": [
               "Graphics Only",
               "Single-Sided"
@@ -863,6 +891,7 @@
             "source_taxable": true,
             "source_grams": 54431,
             "source_position": 4,
+            "source_sku": "70004",
             "source_option_values": [
               "Graphics Only",
               "Double-Sided"
@@ -912,16 +941,14 @@
         "warranty_text": null,
         "source_options": [
           {
-            "name": "Style",
-            "position": 1,
+            "title": "Style",
             "values": [
               "Frame + Graphics",
               "Graphics Only"
             ]
           },
           {
-            "name": "Graphic",
-            "position": 2,
+            "title": "Graphic",
             "values": [
               "Single-Sided",
               "Double-Sided"
@@ -996,39 +1023,43 @@
         ],
         "source_variant_label": "Style / Graphic",
         "source_sizes": [
-          "Frame + Graphics",
-          "Graphics Only"
+          "Frame + Graphics / Single-Sided",
+          "Frame + Graphics / Double-Sided",
+          "Graphics Only / Single-Sided",
+          "Graphics Only / Double-Sided"
         ],
         "source_size_variants": [
           {
             "value": "Frame + Graphics / Single-Sided",
-            "price": 1165.0
-          },
-          {
-            "value": "Frame + Graphics / Double-Sided",
-            "price": 1362.0
-          },
-          {
-            "value": "Graphics Only / Single-Sided",
-            "price": 300.0,
+            "price": 11.65,
             "active": true
           },
           {
+            "value": "Frame + Graphics / Double-Sided",
+            "price": 13.62
+          },
+          {
+            "value": "Graphics Only / Single-Sided",
+            "price": 300
+          },
+          {
             "value": "Graphics Only / Double-Sided",
-            "price": 587.0
+            "price": 587
           }
         ],
         "source_filter_category": [
           "SEG PRODUCTS"
         ],
         "source_filter_sizes": [
-          "Frame + Graphics",
-          "Graphics Only"
+          "Frame + Graphics / Single-Sided",
+          "Frame + Graphics / Double-Sided",
+          "Graphics Only / Single-Sided",
+          "Graphics Only / Double-Sided"
         ],
-        "source_reviews_text": "4 options",
-        "source_badge_label": "SEG Products",
+        "source_reviews_text": null,
+        "source_badge_label": "SEG PRODUCTS",
         "source_badge_subtext": "5 product images available",
-        "source_description": "This large format display is suitable for all large-scale marketing purposes. Substantial and eye-catching, this display is great for catching the attention of a wide amount of customers and clientele. SEG displays utilize a silicone edge graphic (SEG) to create a seamless and v…",
+        "source_description": "Download Template\n\nThis large format display is suitable for all large-scale marketing purposes. Substantial and eye-catching, this display is great for catching the attention of a wide amount of customers and clientele.\n\nSEG displays utilize a silicone edge graphic (SEG) to create a seamless and visually appealing presentation. It is commonly used in the field of visual marketing and trade shows. The silicone strip is designed to fit into a channel on the display frame. This creates a taut and smooth appearance without any visible seams on the front surface of the display. Changing out SEG graphics is a breeze.\n\nFeatures\n\n- High resolution UV printed\n\n- UV safe that will last for years\n\nMaterial:\n\n- 6 oz. Premium Backlit Fabric\n\n- Aluminum Frame",
         "source_card_variant": "",
         "source_add_on_group_keys": [],
         "local_image_paths": [
@@ -1114,6 +1145,7 @@
             "source_taxable": true,
             "source_grams": 54431,
             "source_position": 1,
+            "source_sku": "70005",
             "source_option_values": [
               "Frame + Graphics",
               "Single-Sided"
@@ -1145,6 +1177,7 @@
             "source_taxable": true,
             "source_grams": 54431,
             "source_position": 2,
+            "source_sku": "70006",
             "source_option_values": [
               "Frame + Graphics",
               "Double-Sided"
@@ -1176,6 +1209,7 @@
             "source_taxable": true,
             "source_grams": 54431,
             "source_position": 3,
+            "source_sku": "70007",
             "source_option_values": [
               "Graphics Only",
               "Single-Sided"
@@ -1207,6 +1241,7 @@
             "source_taxable": true,
             "source_grams": 54431,
             "source_position": 4,
+            "source_sku": "70008",
             "source_option_values": [
               "Graphics Only",
               "Double-Sided"
@@ -1256,16 +1291,14 @@
         "warranty_text": null,
         "source_options": [
           {
-            "name": "Style",
-            "position": 1,
+            "title": "Style",
             "values": [
               "Frame + Graphics",
               "Graphics Only"
             ]
           },
           {
-            "name": "Graphics",
-            "position": 2,
+            "title": "Graphics",
             "values": [
               "Single-Sided",
               "Double-Sided"
@@ -1340,39 +1373,43 @@
         ],
         "source_variant_label": "Style / Graphics",
         "source_sizes": [
-          "Frame + Graphics",
-          "Graphics Only"
+          "Frame + Graphics / Single-Sided",
+          "Frame + Graphics / Double-Sided",
+          "Graphics Only / Single-Sided",
+          "Graphics Only / Double-Sided"
         ],
         "source_size_variants": [
           {
             "value": "Frame + Graphics / Single-Sided",
-            "price": 2000.0
-          },
-          {
-            "value": "Frame + Graphics / Double-Sided",
-            "price": 2542.0
-          },
-          {
-            "value": "Graphics Only / Single-Sided",
-            "price": 650.0,
+            "price": 20,
             "active": true
           },
           {
+            "value": "Frame + Graphics / Double-Sided",
+            "price": 25.42
+          },
+          {
+            "value": "Graphics Only / Single-Sided",
+            "price": 650
+          },
+          {
             "value": "Graphics Only / Double-Sided",
-            "price": 1167.0
+            "price": 11.67
           }
         ],
         "source_filter_category": [
           "SEG PRODUCTS"
         ],
         "source_filter_sizes": [
-          "Frame + Graphics",
-          "Graphics Only"
+          "Frame + Graphics / Single-Sided",
+          "Frame + Graphics / Double-Sided",
+          "Graphics Only / Single-Sided",
+          "Graphics Only / Double-Sided"
         ],
-        "source_reviews_text": "4 options",
-        "source_badge_label": "SEG Products",
+        "source_reviews_text": null,
+        "source_badge_label": "SEG PRODUCTS",
         "source_badge_subtext": "5 product images available",
-        "source_description": "Our largest SEG display at 20 feet wide, this impressive fabric wall is ideal for any large-scale marketing purpose. Proudly display marketing material on our largest offered format to attract attention from a broad range of customers and clientele. SEG displays utilize a silico…",
+        "source_description": "Download Template\n\nOur largest SEG display at 20 feet wide, this impressive fabric wall is ideal for any large-scale marketing purpose. Proudly display marketing material on our largest offered format to attract attention from a broad range of customers and clientele.\n\nSEG displays utilize a silicone edge graphic (SEG) to create a seamless and visually appealing presentation. It is commonly used in the field of visual marketing and trade shows. The silicone strip is designed to fit into a channel on the display frame. This creates a taut and smooth appearance without any visible seams on the front surface of the display. Changing out SEG graphics is a breeze.\n\nFeatures\n\n- High resolution UV printed\n\n- UV safe that will last for years\n\nMaterial:\n\n- 6 oz. Premium Backlit Fabric\n\n- Aluminum Frame",
         "source_card_variant": "",
         "source_add_on_group_keys": [],
         "local_image_paths": [
@@ -1455,6 +1492,7 @@
             "source_taxable": true,
             "source_grams": 22680,
             "source_position": 1,
+            "source_sku": "70009",
             "source_option_values": [
               "Frame + Graphic",
               "Single-Sided"
@@ -1486,6 +1524,7 @@
             "source_taxable": true,
             "source_grams": 22680,
             "source_position": 2,
+            "source_sku": "70010",
             "source_option_values": [
               "Frame + Graphic",
               "Double-Sided"
@@ -1517,6 +1556,7 @@
             "source_taxable": true,
             "source_grams": 22680,
             "source_position": 3,
+            "source_sku": "70012",
             "source_option_values": [
               "Graphic Only",
               "Single-Sided"
@@ -1548,6 +1588,7 @@
             "source_taxable": true,
             "source_grams": 22680,
             "source_position": 4,
+            "source_sku": "70013",
             "source_option_values": [
               "Graphic Only",
               "Double-Sided"
@@ -1597,16 +1638,14 @@
         "warranty_text": null,
         "source_options": [
           {
-            "name": "Style",
-            "position": 1,
+            "title": "Style",
             "values": [
               "Frame + Graphic",
               "Graphic Only"
             ]
           },
           {
-            "name": "Graphic",
-            "position": 2,
+            "title": "Graphic",
             "values": [
               "Single-Sided",
               "Double-Sided"
@@ -1681,39 +1720,43 @@
         ],
         "source_variant_label": "Style / Graphic",
         "source_sizes": [
-          "Frame + Graphic",
-          "Graphic Only"
+          "Frame + Graphic / Single-Sided",
+          "Frame + Graphic / Double-Sided",
+          "Graphic Only / Single-Sided",
+          "Graphic Only / Double-Sided"
         ],
         "source_size_variants": [
           {
             "value": "Frame + Graphic / Single-Sided",
-            "price": 282.0
-          },
-          {
-            "value": "Frame + Graphic / Double-Sided",
-            "price": 331.0
-          },
-          {
-            "value": "Graphic Only / Single-Sided",
-            "price": 84.0,
+            "price": 282,
             "active": true
           },
           {
+            "value": "Frame + Graphic / Double-Sided",
+            "price": 331
+          },
+          {
+            "value": "Graphic Only / Single-Sided",
+            "price": 84
+          },
+          {
             "value": "Graphic Only / Double-Sided",
-            "price": 160.0
+            "price": 160
           }
         ],
         "source_filter_category": [
           "SEG PRODUCTS"
         ],
         "source_filter_sizes": [
-          "Frame + Graphic",
-          "Graphic Only"
+          "Frame + Graphic / Single-Sided",
+          "Frame + Graphic / Double-Sided",
+          "Graphic Only / Single-Sided",
+          "Graphic Only / Double-Sided"
         ],
-        "source_reviews_text": "4 options",
-        "source_badge_label": "SEG Products",
+        "source_reviews_text": null,
+        "source_badge_label": "SEG PRODUCTS",
         "source_badge_subtext": "4 product images available",
-        "source_description": "A fabric stand perfect for showcasing your business at marketing events. Lightweight, portable and versatile, this stand can be used to partition your marketing space into unique configurations for maximum branding presence. SEG displays utilize a silicone edge graphic (SEG) to…",
+        "source_description": "Download Template\n\nA fabric stand perfect for showcasing your business at marketing events. Lightweight, portable and versatile, this stand can be used to partition your marketing space into unique configurations for maximum branding presence.\n\nSEG displays utilize a silicone edge graphic (SEG) to create a seamless and visually appealing presentation. It is commonly used in the field of visual marketing and trade shows. The silicone strip is designed to fit into a channel on the display frame. This creates a taut and smooth appearance without any visible seams on the front surface of the display. Changing out SEG graphics is a breeze.\n\nFeatures\n\n- High resolution UV printed\n\n- UV safe that will last for years\n\nMaterial:\n\n- 6 oz. Premium Backlit Fabric\n\n- Aluminum Frame",
         "source_card_variant": "",
         "source_add_on_group_keys": [],
         "local_image_paths": [
@@ -1798,6 +1841,7 @@
             "source_taxable": true,
             "source_grams": 54431,
             "source_position": 1,
+            "source_sku": "70018",
             "source_option_values": [
               "Frame + Graphics",
               "Single - Sided"
@@ -1829,6 +1873,7 @@
             "source_taxable": true,
             "source_grams": 54431,
             "source_position": 2,
+            "source_sku": "70019",
             "source_option_values": [
               "Frame + Graphics",
               "Double - Sided"
@@ -1860,6 +1905,7 @@
             "source_taxable": true,
             "source_grams": 54431,
             "source_position": 3,
+            "source_sku": "70020",
             "source_option_values": [
               "Graphics Only",
               "Single - Sided"
@@ -1891,6 +1937,7 @@
             "source_taxable": true,
             "source_grams": 54431,
             "source_position": 4,
+            "source_sku": "70021",
             "source_option_values": [
               "Graphics Only",
               "Double - Sided"
@@ -1940,16 +1987,14 @@
         "warranty_text": null,
         "source_options": [
           {
-            "name": "Style",
-            "position": 1,
+            "title": "Style",
             "values": [
               "Frame + Graphics",
               "Graphics Only"
             ]
           },
           {
-            "name": "Graphics",
-            "position": 2,
+            "title": "Graphics",
             "values": [
               "Single - Sided",
               "Double - Sided"
@@ -2024,39 +2069,43 @@
         ],
         "source_variant_label": "Style / Graphics",
         "source_sizes": [
-          "Frame + Graphics",
-          "Graphics Only"
+          "Frame + Graphics / Single - Sided",
+          "Frame + Graphics / Double - Sided",
+          "Graphics Only / Single - Sided",
+          "Graphics Only / Double - Sided"
         ],
         "source_size_variants": [
           {
             "value": "Frame + Graphics / Single - Sided",
-            "price": 2000.0
-          },
-          {
-            "value": "Frame + Graphics / Double - Sided",
-            "price": 2167.0
-          },
-          {
-            "value": "Graphics Only / Single - Sided",
-            "price": 284.0,
+            "price": 20,
             "active": true
           },
           {
+            "value": "Frame + Graphics / Double - Sided",
+            "price": 21.67
+          },
+          {
+            "value": "Graphics Only / Single - Sided",
+            "price": 284
+          },
+          {
             "value": "Graphics Only / Double - Sided",
-            "price": 500.0
+            "price": 500
           }
         ],
         "source_filter_category": [
           "SEG PRODUCTS"
         ],
         "source_filter_sizes": [
-          "Frame + Graphics",
-          "Graphics Only"
+          "Frame + Graphics / Single - Sided",
+          "Frame + Graphics / Double - Sided",
+          "Graphics Only / Single - Sided",
+          "Graphics Only / Double - Sided"
         ],
-        "source_reviews_text": "4 options",
-        "source_badge_label": "SEG Products",
+        "source_reviews_text": null,
+        "source_badge_label": "SEG PRODUCTS",
         "source_badge_subtext": "5 product images available",
-        "source_description": "An affordable and very compact choice, our illuminated pop-up display is perfect for eye-level marketing opportunities. Suitable for placement on a table or stand, this display is an attention grabber that is sure to impress potential customers and clientele. Our Popup hardware…",
+        "source_description": "Download Template\n\nAn affordable and very compact choice, our illuminated pop-up display is perfect for eye-level marketing opportunities. Suitable for placement on a table or stand, this display is an attention grabber that is sure to impress potential customers and clientele.\n\nOur Popup hardware makes for quick and easy assembly at tradeshows, events and in-store marketing. The interior LED lights really plus up the backlit fabric prints, adding pop to this Popup display.\n\nFeatures\n\n- High resolution UV printed\n\n- UV safe that will last for years\n\n- Blackout Fabric included for Single Sided option\n\nMaterial:\n\n- 6 oz. Premium Backlit Fabric\n\n- Aluminum Frame",
         "source_card_variant": "",
         "source_add_on_group_keys": [],
         "local_image_paths": [

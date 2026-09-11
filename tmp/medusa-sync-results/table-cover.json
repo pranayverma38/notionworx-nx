@@ -1,0 +1,89 @@
+{
+  "mode": "apply",
+  "previewPath": "/Users/pranayverma/Desktop/notionworx-nx/data/inventory/notionworx/medusa/table-cover-preview.json",
+  "collectionId": "pcol_01M1F50NR8Y9V8M4KPFKYX3174",
+  "collectionHandle": "table-cover",
+  "productCategoryId": "pcat_01M28WZRE061S0Y4J91TE1F25Q",
+  "productCategoryCreated": true,
+  "sourceProductsCount": 6,
+  "createdProducts": 0,
+  "skippedProducts": 6,
+  "failedProducts": 0,
+  "createdHandles": [],
+  "skippedHandles": [
+    "6ft-heavy-duty-folding-table",
+    "8ft-heavy-duty-folding-table",
+    "draped-table-cover",
+    "premium-fitted-table-cover-full-color-dye-sublimation-full-bleed",
+    "stretch-table-cover",
+    "table-runner"
+  ],
+  "createFailures": [],
+  "contentUpdatedProducts": 6,
+  "contentFailedProducts": 0,
+  "contentUpdatedHandles": [
+    "6ft-heavy-duty-folding-table",
+    "8ft-heavy-duty-folding-table",
+    "draped-table-cover",
+    "premium-fitted-table-cover-full-color-dye-sublimation-full-bleed",
+    "stretch-table-cover",
+    "table-runner"
+  ],
+  "contentFailures": [],
+  "imageUpdatedProducts": 0,
+  "imageSkippedProducts": 6,
+  "imageFailedProducts": 0,
+  "uploadedImages": 0,
+  "imageUpdatedHandles": [],
+  "imageFailures": [],
+  "productCategoryAddedProducts": 6,
+  "productCategoryAlreadyPresentProducts": 0,
+  "productCategoryMissingProducts": 0,
+  "productCategoryFailedProducts": 0,
+  "productCategoryAddedHandles": [
+    "6ft-heavy-duty-folding-table",
+    "8ft-heavy-duty-folding-table",
+    "draped-table-cover",
+    "premium-fitted-table-cover-full-color-dye-sublimation-full-bleed",
+    "stretch-table-cover",
+    "table-runner"
+  ],
+  "productCategoryAlreadyPresentHandles": [],
+  "productCategoryMissingHandles": [],
+  "productCategoryFailures": [],
+  "verification": {
+    "storeCollectionId": "pcol_01M1F50NR8Y9V8M4KPFKYX3174",
+    "adminCollectionId": "pcol_01M1F50NR8Y9V8M4KPFKYX3174",
+    "storeProductsCount": 6,
+    "adminProductsCount": 6,
+    "storeProductHandles": [
+      "6ft-heavy-duty-folding-table",
+      "8ft-heavy-duty-folding-table",
+      "draped-table-cover",
+      "premium-fitted-table-cover-full-color-dye-sublimation-full-bleed",
+      "stretch-table-cover",
+      "table-runner"
+    ],
+    "adminProductHandles": [
+      "6ft-heavy-duty-folding-table",
+      "8ft-heavy-duty-folding-table",
+      "draped-table-cover",
+      "premium-fitted-table-cover-full-color-dye-sublimation-full-bleed",
+      "stretch-table-cover",
+      "table-runner"
+    ]
+  },
+  "productCategoryVerification": {
+    "productCategoryId": "pcat_01M28WZRE061S0Y4J91TE1F25Q",
+    "productCategoryHandle": "table-cover",
+    "productCategoryProductsCount": 6,
+    "productCategoryProductHandles": [
+      "6ft-heavy-duty-folding-table",
+      "8ft-heavy-duty-folding-table",
+      "draped-table-cover",
+      "premium-fitted-table-cover-full-color-dye-sublimation-full-bleed",
+      "stretch-table-cover",
+      "table-runner"
+    ]
+  }
+}
