@@ -1,6 +1,5 @@
 import { Metadata } from "next";
 import Hero from "@/components/homes/home-baby/Hero";
-import TentAssemblyAnimation from "@/components/homes/home-baby/TentAssemblyAnimation";
 import TopPicksThisWeek from "@/components/homes/home-baby/TopPicksThisWeek";
 import Testimonials from "@/components/homes/home-baby/Testimonials";
 import PromoCollection from "@/components/homes/home-baby/PromoCollection";
@@ -15,7 +14,6 @@ export default function HomeBabyPage() {
       <>
         <Hero />
         <PromoCollection />
-        <TentAssemblyAnimation />
         <TopPicksThisWeek />
         <Testimonials />
       </>
