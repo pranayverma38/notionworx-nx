@@ -83,16 +83,6 @@ export const storefrontProducts = [
     ],
     "name": "10' Premium Rectangle Flag Pole",
     "price": 40,
-    "sizes": [
-      "Default Title"
-    ],
-    "sizeVariants": [
-      {
-        "value": "Default Title",
-        "price": 40,
-        "active": true
-      }
-    ],
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -101,9 +91,7 @@ export const storefrontProducts = [
       "FLAGS"
     ],
     "filterColor": [],
-    "filterSizes": [
-      "Default Title"
-    ],
+    "filterSizes": [],
     "tags": [],
     "rating": 0,
     "inStock": true,
@@ -475,17 +463,6 @@ export const storefrontProducts = [
     ],
     "name": "10ft Canopy Awning",
     "price": 235,
-    "sizes": [
-      "Default Title"
-    ],
-    "sizeVariants": [
-      {
-        "value": "Default Title",
-        "price": 235,
-        "compareAtPrice": 258.5,
-        "active": true
-      }
-    ],
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -495,9 +472,7 @@ export const storefrontProducts = [
       "10x10 Custom Canopies"
     ],
     "filterColor": [],
-    "filterSizes": [
-      "Default Title"
-    ],
+    "filterSizes": [],
     "tags": [],
     "rating": 0,
     "inStock": true,
@@ -1374,16 +1349,6 @@ export const storefrontProducts = [
     ],
     "name": "14.5' Premium Rectangle Flag Pole",
     "price": 45,
-    "sizes": [
-      "Default Title"
-    ],
-    "sizeVariants": [
-      {
-        "value": "Default Title",
-        "price": 45,
-        "active": true
-      }
-    ],
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -1392,9 +1357,7 @@ export const storefrontProducts = [
       "FLAGS"
     ],
     "filterColor": [],
-    "filterSizes": [
-      "Default Title"
-    ],
+    "filterSizes": [],
     "tags": [],
     "rating": 0,
     "inStock": true,
@@ -1434,16 +1397,6 @@ export const storefrontProducts = [
     ],
     "name": "15' Roller Bag",
     "price": 55,
-    "sizes": [
-      "Default Title"
-    ],
-    "sizeVariants": [
-      {
-        "value": "Default Title",
-        "price": 55,
-        "active": true
-      }
-    ],
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -1452,9 +1405,7 @@ export const storefrontProducts = [
       "Uncategorized"
     ],
     "filterColor": [],
-    "filterSizes": [
-      "Default Title"
-    ],
+    "filterSizes": [],
     "tags": [],
     "rating": 0,
     "inStock": false,
@@ -1483,16 +1434,6 @@ export const storefrontProducts = [
     ],
     "name": "15' Premium Universal Flag Pole",
     "price": 45,
-    "sizes": [
-      "Default Title"
-    ],
-    "sizeVariants": [
-      {
-        "value": "Default Title",
-        "price": 45,
-        "active": true
-      }
-    ],
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -1501,9 +1442,7 @@ export const storefrontProducts = [
       "FLAGS"
     ],
     "filterColor": [],
-    "filterSizes": [
-      "Default Title"
-    ],
+    "filterSizes": [],
     "tags": [],
     "rating": 0,
     "inStock": true,
@@ -1536,16 +1475,6 @@ export const storefrontProducts = [
     ],
     "name": "12' Premium Universal Flag Pole",
     "price": 40,
-    "sizes": [
-      "Default Title"
-    ],
-    "sizeVariants": [
-      {
-        "value": "Default Title",
-        "price": 40,
-        "active": true
-      }
-    ],
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -1554,9 +1483,7 @@ export const storefrontProducts = [
       "FLAGS"
     ],
     "filterColor": [],
-    "filterSizes": [
-      "Default Title"
-    ],
+    "filterSizes": [],
     "tags": [],
     "rating": 0,
     "inStock": true,
@@ -1589,16 +1516,6 @@ export const storefrontProducts = [
     ],
     "name": "20' Roller Bag",
     "price": 90,
-    "sizes": [
-      "Default Title"
-    ],
-    "sizeVariants": [
-      {
-        "value": "Default Title",
-        "price": 90,
-        "active": true
-      }
-    ],
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -1607,9 +1524,7 @@ export const storefrontProducts = [
       "10x20 Custom Canopies"
     ],
     "filterColor": [],
-    "filterSizes": [
-      "Default Title"
-    ],
+    "filterSizes": [],
     "tags": [],
     "rating": 0,
     "inStock": true,
@@ -1978,17 +1893,6 @@ export const storefrontProducts = [
     ],
     "name": "5x5 Custom Canopy Tent Package – Steel Frame with Full-Color Printing",
     "price": 345,
-    "sizes": [
-      "Default Title"
-    ],
-    "sizeVariants": [
-      {
-        "value": "Default Title",
-        "price": 345,
-        "compareAtPrice": 379.5,
-        "active": true
-      }
-    ],
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -1998,9 +1902,7 @@ export const storefrontProducts = [
       "Custom Canopy Tents – Personalized Pop Up Tents for Events"
     ],
     "filterColor": [],
-    "filterSizes": [
-      "Default Title"
-    ],
+    "filterSizes": [],
     "tags": [],
     "rating": 0,
     "inStock": true,
@@ -2279,17 +2181,6 @@ export const storefrontProducts = [
     ],
     "name": "5x5 Custom Canopy Tent – Steel Frame with Full Back Wall & Logo Printing",
     "price": 445,
-    "sizes": [
-      "Default Title"
-    ],
-    "sizeVariants": [
-      {
-        "value": "Default Title",
-        "price": 445,
-        "compareAtPrice": 489.5,
-        "active": true
-      }
-    ],
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -2299,9 +2190,7 @@ export const storefrontProducts = [
       "Custom Canopy Tents – Personalized Pop Up Tents for Events"
     ],
     "filterColor": [],
-    "filterSizes": [
-      "Default Title"
-    ],
+    "filterSizes": [],
     "tags": [],
     "rating": 0,
     "inStock": true,
@@ -2572,17 +2461,6 @@ export const storefrontProducts = [
     ],
     "name": "5x5 Custom Canopy Tent – Steel Frame with Full Back Wall & Two Half Side Walls (Logo Printing)",
     "price": 645,
-    "sizes": [
-      "Default Title"
-    ],
-    "sizeVariants": [
-      {
-        "value": "Default Title",
-        "price": 645,
-        "compareAtPrice": 709.5,
-        "active": true
-      }
-    ],
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -2591,9 +2469,7 @@ export const storefrontProducts = [
       "5x5 Custom Canopies"
     ],
     "filterColor": [],
-    "filterSizes": [
-      "Default Title"
-    ],
+    "filterSizes": [],
     "tags": [],
     "rating": 0,
     "inStock": true,
@@ -2886,17 +2762,6 @@ export const storefrontProducts = [
     ],
     "name": "5x5 Custom Canopy Tent – Steel Frame with Three Full Walls & Logo Printing",
     "price": 745,
-    "sizes": [
-      "Default Title"
-    ],
-    "sizeVariants": [
-      {
-        "value": "Default Title",
-        "price": 745,
-        "compareAtPrice": 819.5,
-        "active": true
-      }
-    ],
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -2906,9 +2771,7 @@ export const storefrontProducts = [
       "Custom Canopy Tents – Personalized Pop Up Tents for Events"
     ],
     "filterColor": [],
-    "filterSizes": [
-      "Default Title"
-    ],
+    "filterSizes": [],
     "tags": [],
     "rating": 0,
     "inStock": true,
@@ -3191,16 +3054,6 @@ export const storefrontProducts = [
     ],
     "name": "6.5' Premium Rectangle Flag Pole",
     "price": 37,
-    "sizes": [
-      "Default Title"
-    ],
-    "sizeVariants": [
-      {
-        "value": "Default Title",
-        "price": 37,
-        "active": true
-      }
-    ],
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -3209,9 +3062,7 @@ export const storefrontProducts = [
       "FLAGS"
     ],
     "filterColor": [],
-    "filterSizes": [
-      "Default Title"
-    ],
+    "filterSizes": [],
     "tags": [],
     "rating": 0,
     "inStock": true,
@@ -3244,17 +3095,6 @@ export const storefrontProducts = [
     ],
     "name": "6ft Heavy-Duty Folding Table – Portable, Durable & Easy Setup",
     "price": 85,
-    "sizes": [
-      "Default Title"
-    ],
-    "sizeVariants": [
-      {
-        "value": "Default Title",
-        "price": 85,
-        "compareAtPrice": 105,
-        "active": true
-      }
-    ],
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -3263,9 +3103,7 @@ export const storefrontProducts = [
       "TABLE COVER"
     ],
     "filterColor": [],
-    "filterSizes": [
-      "Default Title"
-    ],
+    "filterSizes": [],
     "tags": [],
     "rating": 0,
     "inStock": true,
@@ -3296,16 +3134,6 @@ export const storefrontProducts = [
     ],
     "name": "7' Flagpole",
     "price": 37,
-    "sizes": [
-      "Default Title"
-    ],
-    "sizeVariants": [
-      {
-        "value": "Default Title",
-        "price": 37,
-        "active": true
-      }
-    ],
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -3314,9 +3142,7 @@ export const storefrontProducts = [
       "FLAGS"
     ],
     "filterColor": [],
-    "filterSizes": [
-      "Default Title"
-    ],
+    "filterSizes": [],
     "tags": [],
     "rating": 0,
     "inStock": true,
@@ -3486,17 +3312,6 @@ export const storefrontProducts = [
     ],
     "name": "8ft Heavy-Duty Folding Table – Extra Large, Durable & Portable",
     "price": 95,
-    "sizes": [
-      "Default Title"
-    ],
-    "sizeVariants": [
-      {
-        "value": "Default Title",
-        "price": 95,
-        "compareAtPrice": 115,
-        "active": true
-      }
-    ],
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -3505,9 +3320,7 @@ export const storefrontProducts = [
       "TABLE COVER"
     ],
     "filterColor": [],
-    "filterSizes": [
-      "Default Title"
-    ],
+    "filterSizes": [],
     "tags": [],
     "rating": 0,
     "inStock": true,
@@ -3716,16 +3529,6 @@ export const storefrontProducts = [
     ],
     "name": "Belt Bag (Dye Sublimated) 1.38\" Strap #500060",
     "price": 11,
-    "sizes": [
-      "Default Title"
-    ],
-    "sizeVariants": [
-      {
-        "value": "Default Title",
-        "price": 11,
-        "active": true
-      }
-    ],
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -3734,9 +3537,7 @@ export const storefrontProducts = [
       "BAG"
     ],
     "filterColor": [],
-    "filterSizes": [
-      "Default Title"
-    ],
+    "filterSizes": [],
     "tags": [],
     "rating": 0,
     "inStock": true,
@@ -3771,17 +3572,6 @@ export const storefrontProducts = [
     ],
     "name": "Canopy Counter / Bar Top – Custom Portable Countertop for Canopy Tents",
     "price": 550,
-    "sizes": [
-      "Default Title"
-    ],
-    "sizeVariants": [
-      {
-        "value": "Default Title",
-        "price": 550,
-        "compareAtPrice": 605,
-        "active": true
-      }
-    ],
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -3791,9 +3581,7 @@ export const storefrontProducts = [
       "10x10 Custom Canopies"
     ],
     "filterColor": [],
-    "filterSizes": [
-      "Default Title"
-    ],
+    "filterSizes": [],
     "tags": [],
     "rating": 0,
     "inStock": true,
@@ -3824,16 +3612,6 @@ export const storefrontProducts = [
     ],
     "name": "Sublimated Cooling Beach Towel - 12'' x 40''",
     "price": 20,
-    "sizes": [
-      "Default Title"
-    ],
-    "sizeVariants": [
-      {
-        "value": "Default Title",
-        "price": 20,
-        "active": true
-      }
-    ],
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -3842,9 +3620,7 @@ export const storefrontProducts = [
       "TOWEL & BLANKET"
     ],
     "filterColor": [],
-    "filterSizes": [
-      "Default Title"
-    ],
+    "filterSizes": [],
     "tags": [],
     "rating": 0,
     "inStock": true,
@@ -3873,16 +3649,6 @@ export const storefrontProducts = [
     ],
     "name": "Cross Base BA-7",
     "price": 57,
-    "sizes": [
-      "Default Title"
-    ],
-    "sizeVariants": [
-      {
-        "value": "Default Title",
-        "price": 57,
-        "active": true
-      }
-    ],
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -3891,9 +3657,7 @@ export const storefrontProducts = [
       "FLAGS"
     ],
     "filterColor": [],
-    "filterSizes": [
-      "Default Title"
-    ],
+    "filterSizes": [],
     "tags": [],
     "rating": 0,
     "inStock": true,
@@ -3924,16 +3688,6 @@ export const storefrontProducts = [
     ],
     "name": "Custom 2 zipper Fanny Pack (Dye Sublimated) #500050",
     "price": 6,
-    "sizes": [
-      "Default Title"
-    ],
-    "sizeVariants": [
-      {
-        "value": "Default Title",
-        "price": 6,
-        "active": true
-      }
-    ],
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -3942,9 +3696,7 @@ export const storefrontProducts = [
       "BAG"
     ],
     "filterColor": [],
-    "filterSizes": [
-      "Default Title"
-    ],
+    "filterSizes": [],
     "tags": [],
     "rating": 0,
     "inStock": true,
@@ -3988,16 +3740,6 @@ export const storefrontProducts = [
     ],
     "name": "Custom Duffel Bag (Dye Sublimated) #500028",
     "price": 34,
-    "sizes": [
-      "Default Title"
-    ],
-    "sizeVariants": [
-      {
-        "value": "Default Title",
-        "price": 34,
-        "active": true
-      }
-    ],
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -4006,9 +3748,7 @@ export const storefrontProducts = [
       "BAG"
     ],
     "filterColor": [],
-    "filterSizes": [
-      "Default Title"
-    ],
+    "filterSizes": [],
     "tags": [],
     "rating": 0,
     "inStock": true,
@@ -4049,16 +3789,6 @@ export const storefrontProducts = [
     ],
     "name": "Custom Fanny Pack (Dye Sublimated) #500030",
     "price": 6,
-    "sizes": [
-      "Default Title"
-    ],
-    "sizeVariants": [
-      {
-        "value": "Default Title",
-        "price": 6,
-        "active": true
-      }
-    ],
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -4067,9 +3797,7 @@ export const storefrontProducts = [
       "BAG"
     ],
     "filterColor": [],
-    "filterSizes": [
-      "Default Title"
-    ],
+    "filterSizes": [],
     "tags": [],
     "rating": 0,
     "inStock": true,
@@ -4128,16 +3856,6 @@ export const storefrontProducts = [
     ],
     "name": "10'x10'~ Custom Food Booth Canopy Tent Package-HEX Aluminum Frame, Full Back Wall & 3 Half Side Walls with Half Mesh with Windows.",
     "price": 995,
-    "sizes": [
-      "Default Title"
-    ],
-    "sizeVariants": [
-      {
-        "value": "Default Title",
-        "price": 995,
-        "active": true
-      }
-    ],
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -4148,9 +3866,7 @@ export const storefrontProducts = [
       "10x10 Custom Canopies"
     ],
     "filterColor": [],
-    "filterSizes": [
-      "Default Title"
-    ],
+    "filterSizes": [],
     "tags": [],
     "rating": 0,
     "inStock": true,
@@ -4905,17 +4621,6 @@ export const storefrontProducts = [
     ],
     "name": "10'x15'~ Custom Food Booth Canopy Tent Package -HEX Aluminum Frame, Full Back Wall & 3 Half Side Walls with Half Mesh with Windows.",
     "price": 1345,
-    "sizes": [
-      "Default Title"
-    ],
-    "sizeVariants": [
-      {
-        "value": "Default Title",
-        "price": 13.45,
-        "compareAtPrice": 14.795,
-        "active": true
-      }
-    ],
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -4925,9 +4630,7 @@ export const storefrontProducts = [
       "10x15 Custom Canopies"
     ],
     "filterColor": [],
-    "filterSizes": [
-      "Default Title"
-    ],
+    "filterSizes": [],
     "tags": [],
     "rating": 0,
     "inStock": true,
@@ -5240,17 +4943,6 @@ export const storefrontProducts = [
     ],
     "name": "10'x20'~ Custom Food Booth Canopy Tent Package-HEX Aluminum Frame, Full Back Wall & 3 Half Side Walls with Half Mesh with Windows.",
     "price": 1445,
-    "sizes": [
-      "Default Title"
-    ],
-    "sizeVariants": [
-      {
-        "value": "Default Title",
-        "price": 14.45,
-        "compareAtPrice": 15.895,
-        "active": true
-      }
-    ],
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -5260,9 +4952,7 @@ export const storefrontProducts = [
       "10x20 Custom Canopies"
     ],
     "filterColor": [],
-    "filterSizes": [
-      "Default Title"
-    ],
+    "filterSizes": [],
     "tags": [],
     "rating": 0,
     "inStock": true,
@@ -5560,17 +5250,6 @@ export const storefrontProducts = [
     ],
     "name": "5'x5'~ Custom Food Booth Canopy Tent Package -Steel Frame, Full Back Wall & 3 Half Side Walls with Half Mesh with Windows.",
     "price": 795,
-    "sizes": [
-      "Default Title"
-    ],
-    "sizeVariants": [
-      {
-        "value": "Default Title",
-        "price": 795,
-        "compareAtPrice": 874.5,
-        "active": true
-      }
-    ],
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -5580,9 +5259,7 @@ export const storefrontProducts = [
       "5x5 Custom Canopies"
     ],
     "filterColor": [],
-    "filterSizes": [
-      "Default Title"
-    ],
+    "filterSizes": [],
     "tags": [],
     "rating": 0,
     "inStock": true,
@@ -5966,16 +5643,6 @@ export const storefrontProducts = [
     ],
     "name": "Custom Sublimated Printed Chiffon bandanna scarf",
     "price": 25,
-    "sizes": [
-      "Default Title"
-    ],
-    "sizeVariants": [
-      {
-        "value": "Default Title",
-        "price": 25,
-        "active": true
-      }
-    ],
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -5984,9 +5651,7 @@ export const storefrontProducts = [
       "TOWEL & BLANKET"
     ],
     "filterColor": [],
-    "filterSizes": [
-      "Default Title"
-    ],
+    "filterSizes": [],
     "tags": [],
     "rating": 0,
     "inStock": true,
@@ -6024,16 +5689,6 @@ export const storefrontProducts = [
     ],
     "name": "Custom Tote Bag (Dye Sublimated) #500029",
     "price": 11,
-    "sizes": [
-      "Default Title"
-    ],
-    "sizeVariants": [
-      {
-        "value": "Default Title",
-        "price": 11,
-        "active": true
-      }
-    ],
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -6042,9 +5697,7 @@ export const storefrontProducts = [
       "BAG"
     ],
     "filterColor": [],
-    "filterSizes": [
-      "Default Title"
-    ],
+    "filterSizes": [],
     "tags": [],
     "rating": 0,
     "inStock": true,
@@ -6496,16 +6149,6 @@ export const storefrontProducts = [
     ],
     "name": "Deluxe Retractable Banner",
     "price": 150,
-    "sizes": [
-      "Default Title"
-    ],
-    "sizeVariants": [
-      {
-        "value": "Default Title",
-        "price": 150,
-        "active": true
-      }
-    ],
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -6514,9 +6157,7 @@ export const storefrontProducts = [
       "BANNERS & DISPLAYS"
     ],
     "filterColor": [],
-    "filterSizes": [
-      "Default Title"
-    ],
+    "filterSizes": [],
     "tags": [],
     "rating": 0,
     "inStock": true,
@@ -6631,16 +6272,6 @@ export const storefrontProducts = [
     ],
     "name": "Drawstring Bag (Dye Sublimated) #500027",
     "price": 6,
-    "sizes": [
-      "Default Title"
-    ],
-    "sizeVariants": [
-      {
-        "value": "Default Title",
-        "price": 6,
-        "active": true
-      }
-    ],
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -6649,9 +6280,7 @@ export const storefrontProducts = [
       "BAG"
     ],
     "filterColor": [],
-    "filterSizes": [
-      "Default Title"
-    ],
+    "filterSizes": [],
     "tags": [],
     "rating": 0,
     "inStock": true,
@@ -6686,16 +6315,6 @@ export const storefrontProducts = [
     ],
     "name": "Flag Pole and Bracket",
     "price": 85,
-    "sizes": [
-      "Default Title"
-    ],
-    "sizeVariants": [
-      {
-        "value": "Default Title",
-        "price": 85,
-        "active": true
-      }
-    ],
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -6704,9 +6323,7 @@ export const storefrontProducts = [
       "FLAGS"
     ],
     "filterColor": [],
-    "filterSizes": [
-      "Default Title"
-    ],
+    "filterSizes": [],
     "tags": [],
     "rating": 0,
     "inStock": true,
@@ -6739,16 +6356,6 @@ export const storefrontProducts = [
     ],
     "name": "Spike Base BA-10",
     "price": 35,
-    "sizes": [
-      "Default Title"
-    ],
-    "sizeVariants": [
-      {
-        "value": "Default Title",
-        "price": 35,
-        "active": true
-      }
-    ],
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -6757,9 +6364,7 @@ export const storefrontProducts = [
       "FLAGS"
     ],
     "filterColor": [],
-    "filterSizes": [
-      "Default Title"
-    ],
+    "filterSizes": [],
     "tags": [],
     "rating": 0,
     "inStock": true,
@@ -7043,16 +6648,6 @@ export const storefrontProducts = [
     ],
     "name": "Half Wall Hardware",
     "price": 87,
-    "sizes": [
-      "Default Title"
-    ],
-    "sizeVariants": [
-      {
-        "value": "Default Title",
-        "price": 87,
-        "active": true
-      }
-    ],
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -7063,9 +6658,7 @@ export const storefrontProducts = [
       "10x10 Custom Canopies"
     ],
     "filterColor": [],
-    "filterSizes": [
-      "Default Title"
-    ],
+    "filterSizes": [],
     "tags": [],
     "rating": 0,
     "inStock": true,
@@ -7102,17 +6695,6 @@ export const storefrontProducts = [
     ],
     "name": "LED Light Bars for Canopy Tents",
     "price": 219,
-    "sizes": [
-      "Default Title"
-    ],
-    "sizeVariants": [
-      {
-        "value": "Default Title",
-        "price": 219,
-        "compareAtPrice": 240.9,
-        "active": true
-      }
-    ],
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -7125,9 +6707,7 @@ export const storefrontProducts = [
       "10x10 Custom Canopies"
     ],
     "filterColor": [],
-    "filterSizes": [
-      "Default Title"
-    ],
+    "filterSizes": [],
     "tags": [],
     "rating": 0,
     "inStock": true,
@@ -7163,17 +6743,6 @@ export const storefrontProducts = [
     ],
     "name": "Pole Banner Set – Double-Sided Custom Vinyl Banners with Mounting Hardware",
     "price": 280,
-    "sizes": [
-      "Default Title"
-    ],
-    "sizeVariants": [
-      {
-        "value": "Default Title",
-        "price": 280,
-        "compareAtPrice": 308,
-        "active": true
-      }
-    ],
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -7182,9 +6751,7 @@ export const storefrontProducts = [
       "FLAGS"
     ],
     "filterColor": [],
-    "filterSizes": [
-      "Default Title"
-    ],
+    "filterSizes": [],
     "tags": [],
     "rating": 0,
     "inStock": true,
@@ -7222,16 +6789,6 @@ export const storefrontProducts = [
     ],
     "name": "300W Portable Power Station",
     "price": 150,
-    "sizes": [
-      "Default Title"
-    ],
-    "sizeVariants": [
-      {
-        "value": "Default Title",
-        "price": 150,
-        "active": true
-      }
-    ],
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -7244,9 +6801,7 @@ export const storefrontProducts = [
       "10x10 Custom Canopies"
     ],
     "filterColor": [],
-    "filterSizes": [
-      "Default Title"
-    ],
+    "filterSizes": [],
     "tags": [],
     "rating": 0,
     "inStock": true,
@@ -7284,17 +6839,6 @@ export const storefrontProducts = [
     ],
     "name": "Premium 10' Tent Top Billboard Banner",
     "price": 285,
-    "sizes": [
-      "Default Title"
-    ],
-    "sizeVariants": [
-      {
-        "value": "Default Title",
-        "price": 285,
-        "compareAtPrice": 313.5,
-        "active": true
-      }
-    ],
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -7305,9 +6849,7 @@ export const storefrontProducts = [
       "Custom Canopy Tents – Personalized Pop Up Tents for Events"
     ],
     "filterColor": [],
-    "filterSizes": [
-      "Default Title"
-    ],
+    "filterSizes": [],
     "tags": [],
     "rating": 0,
     "inStock": true,
@@ -7751,17 +7293,6 @@ export const storefrontProducts = [
     ],
     "name": "PACKAGE #1 -B ~ Premium 10x10 Custom Canopy Tent – Frame of Choice (HEX Aluminum or Steel) (Black) & 17\" Valance (Dye-Sublimation Printing)",
     "price": 625,
-    "sizes": [
-      "Default Title"
-    ],
-    "sizeVariants": [
-      {
-        "value": "Default Title",
-        "price": 625,
-        "compareAtPrice": 709.5,
-        "active": true
-      }
-    ],
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -7771,9 +7302,7 @@ export const storefrontProducts = [
       "Custom Canopy Tents – Personalized Pop Up Tents for Events"
     ],
     "filterColor": [],
-    "filterSizes": [
-      "Default Title"
-    ],
+    "filterSizes": [],
     "tags": [],
     "rating": 0,
     "inStock": true,
@@ -9912,17 +9441,6 @@ export const storefrontProducts = [
     ],
     "name": "Premium 10x15 Custom Canopy Tent – HEX Aluminum Frame (Black) & 17\" Valance (Dye-Sublimation Printing)",
     "price": 895,
-    "sizes": [
-      "Default Title"
-    ],
-    "sizeVariants": [
-      {
-        "value": "Default Title",
-        "price": 895,
-        "compareAtPrice": 984.5,
-        "active": true
-      }
-    ],
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -9932,9 +9450,7 @@ export const storefrontProducts = [
       "Custom Canopy Tents – Personalized Pop Up Tents for Events"
     ],
     "filterColor": [],
-    "filterSizes": [
-      "Default Title"
-    ],
+    "filterSizes": [],
     "tags": [],
     "rating": 0,
     "inStock": true,
@@ -10263,17 +9779,6 @@ export const storefrontProducts = [
     ],
     "name": "Premium 10x15 Custom Canopy Tent – HEX Aluminum Frame (Silver) & 17\" Valance (Dye-Sublimation Printing)",
     "price": 845,
-    "sizes": [
-      "Default Title"
-    ],
-    "sizeVariants": [
-      {
-        "value": "Default Title",
-        "price": 845,
-        "compareAtPrice": 929.5,
-        "active": true
-      }
-    ],
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -10283,9 +9788,7 @@ export const storefrontProducts = [
       "Custom Canopy Tents – Personalized Pop Up Tents for Events"
     ],
     "filterColor": [],
-    "filterSizes": [
-      "Default Title"
-    ],
+    "filterSizes": [],
     "tags": [],
     "rating": 0,
     "inStock": true,
@@ -10932,17 +10435,6 @@ export const storefrontProducts = [
     ],
     "name": "Premium 10x15 Custom Canopy Tent – HEX Aluminum Frame (Silver) with Full Back Wall & 17\" Valance (Dye-Sublimation Printing)",
     "price": 1045,
-    "sizes": [
-      "Default Title"
-    ],
-    "sizeVariants": [
-      {
-        "value": "Default Title",
-        "price": 10.45,
-        "compareAtPrice": 11.495,
-        "active": true
-      }
-    ],
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -10953,9 +10445,7 @@ export const storefrontProducts = [
       "Custom Canopy Tents – Personalized Pop Up Tents for Events"
     ],
     "filterColor": [],
-    "filterSizes": [
-      "Default Title"
-    ],
+    "filterSizes": [],
     "tags": [],
     "rating": 0,
     "inStock": true,
@@ -11252,17 +10742,6 @@ export const storefrontProducts = [
     ],
     "name": "Premium 10x15 Custom Canopy Tent – HEX Aluminum Frame (Silver) with Full Back Wall, Two Half Side Walls & 17\" Valance (Dye-Sublimation Printing)",
     "price": 1145,
-    "sizes": [
-      "Default Title"
-    ],
-    "sizeVariants": [
-      {
-        "value": "Default Title",
-        "price": 11.45,
-        "compareAtPrice": 12.595,
-        "active": true
-      }
-    ],
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -11273,9 +10752,7 @@ export const storefrontProducts = [
       "Custom Canopy Tents – Personalized Pop Up Tents for Events"
     ],
     "filterColor": [],
-    "filterSizes": [
-      "Default Title"
-    ],
+    "filterSizes": [],
     "tags": [],
     "rating": 0,
     "inStock": true,
@@ -11603,17 +11080,6 @@ export const storefrontProducts = [
     ],
     "name": "Premium 10x15 Custom Canopy Tent – HEX Aluminum Frame (Silver) with Three Full Walls & 17\" Valance (Dye-Sublimation Printing)",
     "price": 1245,
-    "sizes": [
-      "Default Title"
-    ],
-    "sizeVariants": [
-      {
-        "value": "Default Title",
-        "price": 12.45,
-        "compareAtPrice": 13.695,
-        "active": true
-      }
-    ],
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -11623,9 +11089,7 @@ export const storefrontProducts = [
       "Custom Canopy Tents – Personalized Pop Up Tents for Events"
     ],
     "filterColor": [],
-    "filterSizes": [
-      "Default Title"
-    ],
+    "filterSizes": [],
     "tags": [],
     "rating": 0,
     "inStock": true,
@@ -11959,17 +11423,6 @@ export const storefrontProducts = [
     ],
     "name": "Premium 10x20 Custom Canopy Tent – HEX Aluminum Frame (Silver) with Full Back Wall & 17\" Valance (Dye-Sublimation Printing)",
     "price": 1145,
-    "sizes": [
-      "Default Title"
-    ],
-    "sizeVariants": [
-      {
-        "value": "Default Title",
-        "price": 11.45,
-        "compareAtPrice": 12.595,
-        "active": true
-      }
-    ],
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -11980,9 +11433,7 @@ export const storefrontProducts = [
       "Custom Canopy Tents – Personalized Pop Up Tents for Events"
     ],
     "filterColor": [],
-    "filterSizes": [
-      "Default Title"
-    ],
+    "filterSizes": [],
     "tags": [],
     "rating": 0,
     "inStock": true,
@@ -12279,17 +11730,6 @@ export const storefrontProducts = [
     ],
     "name": "Premium 10x20 Custom Canopy Tent – HEX Aluminum Frame (Silver) with Full Back Wall, Two Half Side Walls & 17\" Valance (Dye-Sublimation Printing)",
     "price": 1245,
-    "sizes": [
-      "Default Title"
-    ],
-    "sizeVariants": [
-      {
-        "value": "Default Title",
-        "price": 12.45,
-        "compareAtPrice": 13.695,
-        "active": true
-      }
-    ],
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -12300,9 +11740,7 @@ export const storefrontProducts = [
       "Custom Canopy Tents – Personalized Pop Up Tents for Events"
     ],
     "filterColor": [],
-    "filterSizes": [
-      "Default Title"
-    ],
+    "filterSizes": [],
     "tags": [],
     "rating": 0,
     "inStock": true,
@@ -12636,17 +12074,6 @@ export const storefrontProducts = [
     ],
     "name": "Premium 10x20 Custom Canopy Tent – HEX Aluminum Frame (Silver) with Three Full Walls & 17\" Valance (Dye-Sublimation Printing)",
     "price": 1345,
-    "sizes": [
-      "Default Title"
-    ],
-    "sizeVariants": [
-      {
-        "value": "Default Title",
-        "price": 13.45,
-        "compareAtPrice": 14.795,
-        "active": true
-      }
-    ],
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -12656,9 +12083,7 @@ export const storefrontProducts = [
       "Custom Canopy Tents – Personalized Pop Up Tents for Events"
     ],
     "filterColor": [],
-    "filterSizes": [
-      "Default Title"
-    ],
+    "filterSizes": [],
     "tags": [],
     "rating": 0,
     "inStock": true,
@@ -12974,16 +12399,6 @@ export const storefrontProducts = [
     ],
     "name": "Premium 10x20 Custom Canopy Tent – HEX Aluminum Frame (Black) & 17\" Valance (Dye-Sublimation Printing)",
     "price": 995,
-    "sizes": [
-      "Default Title"
-    ],
-    "sizeVariants": [
-      {
-        "value": "Default Title",
-        "price": 995,
-        "active": true
-      }
-    ],
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -12993,9 +12408,7 @@ export const storefrontProducts = [
       "Custom Canopy Tents – Personalized Pop Up Tents for Events"
     ],
     "filterColor": [],
-    "filterSizes": [
-      "Default Title"
-    ],
+    "filterSizes": [],
     "tags": [],
     "rating": 0,
     "inStock": true,
@@ -13677,16 +13090,6 @@ export const storefrontProducts = [
     ],
     "name": "Premium 10x20 Custom Canopy Tent – HEX Aluminum Frame (Silver) & 17\" Valance (Dye-Sublimation Printing)",
     "price": 945,
-    "sizes": [
-      "Default Title"
-    ],
-    "sizeVariants": [
-      {
-        "value": "Default Title",
-        "price": 945,
-        "active": true
-      }
-    ],
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -13696,9 +13099,7 @@ export const storefrontProducts = [
       "Custom Canopy Tents – Personalized Pop Up Tents for Events"
     ],
     "filterColor": [],
-    "filterSizes": [
-      "Default Title"
-    ],
+    "filterSizes": [],
     "tags": [],
     "rating": 0,
     "inStock": true,
@@ -14094,16 +13495,6 @@ export const storefrontProducts = [
     ],
     "name": "Premium 15' Aluminum Tent Frame (Silver)",
     "price": 445,
-    "sizes": [
-      "Default Title"
-    ],
-    "sizeVariants": [
-      {
-        "value": "Default Title",
-        "price": 445,
-        "active": true
-      }
-    ],
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -14112,9 +13503,7 @@ export const storefrontProducts = [
       "10x15 Custom Canopies"
     ],
     "filterColor": [],
-    "filterSizes": [
-      "Default Title"
-    ],
+    "filterSizes": [],
     "tags": [],
     "rating": 0,
     "inStock": true,
@@ -14147,16 +13536,6 @@ export const storefrontProducts = [
     ],
     "name": "Premium 20' Aluminum Tent Frame (Black)",
     "price": 683,
-    "sizes": [
-      "Default Title"
-    ],
-    "sizeVariants": [
-      {
-        "value": "Default Title",
-        "price": 683,
-        "active": true
-      }
-    ],
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -14165,9 +13544,7 @@ export const storefrontProducts = [
       "10x20 Custom Canopies"
     ],
     "filterColor": [],
-    "filterSizes": [
-      "Default Title"
-    ],
+    "filterSizes": [],
     "tags": [],
     "rating": 0,
     "inStock": true,
@@ -14207,16 +13584,6 @@ export const storefrontProducts = [
     ],
     "name": "Premium 20' Aluminum Tent Frame (Silver)",
     "price": 680,
-    "sizes": [
-      "Default Title"
-    ],
-    "sizeVariants": [
-      {
-        "value": "Default Title",
-        "price": 680,
-        "active": true
-      }
-    ],
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -14225,9 +13592,7 @@ export const storefrontProducts = [
       "10x20 Custom Canopies"
     ],
     "filterColor": [],
-    "filterSizes": [
-      "Default Title"
-    ],
+    "filterSizes": [],
     "tags": [],
     "rating": 0,
     "inStock": true,
@@ -14333,16 +13698,6 @@ export const storefrontProducts = [
     ],
     "name": "Premium Aluminum 10' Flat Top Tent Kit (Full-Bleed Dye Sublimation) 17\" Valance",
     "price": 592,
-    "sizes": [
-      "Default Title"
-    ],
-    "sizeVariants": [
-      {
-        "value": "Default Title",
-        "price": 592,
-        "active": true
-      }
-    ],
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -14351,9 +13706,7 @@ export const storefrontProducts = [
       "Custom Canopy Tents – Personalized Pop Up Tents for Events"
     ],
     "filterColor": [],
-    "filterSizes": [
-      "Default Title"
-    ],
+    "filterSizes": [],
     "tags": [],
     "rating": 0,
     "inStock": true,
@@ -14399,16 +13752,6 @@ export const storefrontProducts = [
     ],
     "name": "Premium 10' x 10' HEX Aluminum Tent Frame (Silver)",
     "price": 300,
-    "sizes": [
-      "Default Title"
-    ],
-    "sizeVariants": [
-      {
-        "value": "Default Title",
-        "price": 300,
-        "active": true
-      }
-    ],
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -14417,9 +13760,7 @@ export const storefrontProducts = [
       "10x10 Custom Canopies"
     ],
     "filterColor": [],
-    "filterSizes": [
-      "Default Title"
-    ],
+    "filterSizes": [],
     "tags": [],
     "rating": 0,
     "inStock": true,
@@ -14454,16 +13795,6 @@ export const storefrontProducts = [
     ],
     "name": "Premium 10' x 10' HEX Aluminum Tent Frame  (Black)",
     "price": 350,
-    "sizes": [
-      "Default Title"
-    ],
-    "sizeVariants": [
-      {
-        "value": "Default Title",
-        "price": 350,
-        "active": true
-      }
-    ],
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -14472,9 +13803,7 @@ export const storefrontProducts = [
       "10x10 Custom Canopies"
     ],
     "filterColor": [],
-    "filterSizes": [
-      "Default Title"
-    ],
+    "filterSizes": [],
     "tags": [],
     "rating": 0,
     "inStock": true,
@@ -15520,16 +14849,6 @@ export const storefrontProducts = [
     ],
     "name": "8' Premium Universal Flag Pole",
     "price": 37,
-    "sizes": [
-      "Default Title"
-    ],
-    "sizeVariants": [
-      {
-        "value": "Default Title",
-        "price": 37,
-        "active": true
-      }
-    ],
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -15538,9 +14857,7 @@ export const storefrontProducts = [
       "FLAGS"
     ],
     "filterColor": [],
-    "filterSizes": [
-      "Default Title"
-    ],
+    "filterSizes": [],
     "tags": [],
     "rating": 0,
     "inStock": true,
@@ -15580,16 +14897,6 @@ export const storefrontProducts = [
     ],
     "name": "X Base BA-9",
     "price": 57,
-    "sizes": [
-      "Default Title"
-    ],
-    "sizeVariants": [
-      {
-        "value": "Default Title",
-        "price": 57,
-        "active": true
-      }
-    ],
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -15598,9 +14905,7 @@ export const storefrontProducts = [
       "FLAGS"
     ],
     "filterColor": [],
-    "filterSizes": [
-      "Default Title"
-    ],
+    "filterSizes": [],
     "tags": [],
     "rating": 0,
     "inStock": true,
@@ -15644,16 +14949,6 @@ export const storefrontProducts = [
     ],
     "name": "Standard Retractable",
     "price": 125,
-    "sizes": [
-      "Default Title"
-    ],
-    "sizeVariants": [
-      {
-        "value": "Default Title",
-        "price": 125,
-        "active": true
-      }
-    ],
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -15662,9 +14957,7 @@ export const storefrontProducts = [
       "BANNERS & DISPLAYS"
     ],
     "filterColor": [],
-    "filterSizes": [
-      "Default Title"
-    ],
+    "filterSizes": [],
     "tags": [],
     "rating": 0,
     "inStock": true,
@@ -15693,16 +14986,6 @@ export const storefrontProducts = [
     ],
     "name": "Ropes &Stakes (4pcs)",
     "price": 20,
-    "sizes": [
-      "Default Title"
-    ],
-    "sizeVariants": [
-      {
-        "value": "Default Title",
-        "price": 20,
-        "active": true
-      }
-    ],
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -15711,9 +14994,7 @@ export const storefrontProducts = [
       "Uncategorized"
     ],
     "filterColor": [],
-    "filterSizes": [
-      "Default Title"
-    ],
+    "filterSizes": [],
     "tags": [],
     "rating": 0,
     "inStock": true,
@@ -15744,16 +15025,6 @@ export const storefrontProducts = [
     ],
     "name": "Sandbag Ballast Kit for Event Tent Legs (Set of Four)",
     "price": 100,
-    "sizes": [
-      "Default Title"
-    ],
-    "sizeVariants": [
-      {
-        "value": "Default Title",
-        "price": 100,
-        "active": true
-      }
-    ],
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -15766,9 +15037,7 @@ export const storefrontProducts = [
       "10x10 Custom Canopies"
     ],
     "filterColor": [],
-    "filterSizes": [
-      "Default Title"
-    ],
+    "filterSizes": [],
     "tags": [],
     "rating": 0,
     "inStock": true,
@@ -15995,16 +15264,6 @@ export const storefrontProducts = [
     ],
     "name": "Sublimated Beach Fleece Blanket - 30\" x 60\"",
     "price": 50,
-    "sizes": [
-      "Default Title"
-    ],
-    "sizeVariants": [
-      {
-        "value": "Default Title",
-        "price": 50,
-        "active": true
-      }
-    ],
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -16013,9 +15272,7 @@ export const storefrontProducts = [
       "TOWEL & BLANKET"
     ],
     "filterColor": [],
-    "filterSizes": [
-      "Default Title"
-    ],
+    "filterSizes": [],
     "tags": [],
     "rating": 0,
     "inStock": true,
@@ -16059,16 +15316,6 @@ export const storefrontProducts = [
     ],
     "name": "Sublimated Beach Fleece Blanket - 50\" x 60\"",
     "price": 60,
-    "sizes": [
-      "Default Title"
-    ],
-    "sizeVariants": [
-      {
-        "value": "Default Title",
-        "price": 60,
-        "active": true
-      }
-    ],
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -16077,9 +15324,7 @@ export const storefrontProducts = [
       "TOWEL & BLANKET"
     ],
     "filterColor": [],
-    "filterSizes": [
-      "Default Title"
-    ],
+    "filterSizes": [],
     "tags": [],
     "rating": 0,
     "inStock": true,
@@ -16123,16 +15368,6 @@ export const storefrontProducts = [
     ],
     "name": "Sublimated Beach Fleece Blanket - 60\" x 80\"",
     "price": 80,
-    "sizes": [
-      "Default Title"
-    ],
-    "sizeVariants": [
-      {
-        "value": "Default Title",
-        "price": 80,
-        "active": true
-      }
-    ],
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -16141,9 +15376,7 @@ export const storefrontProducts = [
       "TOWEL & BLANKET"
     ],
     "filterColor": [],
-    "filterSizes": [
-      "Default Title"
-    ],
+    "filterSizes": [],
     "tags": [],
     "rating": 0,
     "inStock": true,
@@ -16187,16 +15420,6 @@ export const storefrontProducts = [
     ],
     "name": "Sublimated Bucket Hat #500093",
     "price": 14,
-    "sizes": [
-      "Default Title"
-    ],
-    "sizeVariants": [
-      {
-        "value": "Default Title",
-        "price": 14,
-        "active": true
-      }
-    ],
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -16206,9 +15429,7 @@ export const storefrontProducts = [
       "BAG"
     ],
     "filterColor": [],
-    "filterSizes": [
-      "Default Title"
-    ],
+    "filterSizes": [],
     "tags": [],
     "rating": 0,
     "inStock": true,
@@ -17343,17 +16564,6 @@ export const storefrontProducts = [
     ],
     "name": "PACKAGE #7-TSE-Trade Show Essential 10x15 Custom Canopy Tent – HEX Aluminum Frame, Full Back Wall & Half Side Walls + Flags + Table Cover",
     "price": 1595,
-    "sizes": [
-      "Default Title"
-    ],
-    "sizeVariants": [
-      {
-        "value": "Default Title",
-        "price": 15.95,
-        "compareAtPrice": 16.945,
-        "active": true
-      }
-    ],
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -17363,9 +16573,7 @@ export const storefrontProducts = [
       "Best Selling 10x10 Custom Canopy Tents – Tradeshow & Food Booth Essentials"
     ],
     "filterColor": [],
-    "filterSizes": [
-      "Default Title"
-    ],
+    "filterSizes": [],
     "tags": [],
     "rating": 0,
     "inStock": true,
@@ -17643,17 +16851,6 @@ export const storefrontProducts = [
     ],
     "name": "Trade Show Essential 10x20 Custom Canopy Tent – HEX Aluminum Frame, Full Back Wall & Half Side Walls + Flags + Table Cover",
     "price": 1795,
-    "sizes": [
-      "Default Title"
-    ],
-    "sizeVariants": [
-      {
-        "value": "Default Title",
-        "price": 17.95,
-        "compareAtPrice": 18.045,
-        "active": true
-      }
-    ],
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -17663,9 +16860,7 @@ export const storefrontProducts = [
       "Best Selling 10x10 Custom Canopy Tents – Tradeshow & Food Booth Essentials"
     ],
     "filterColor": [],
-    "filterSizes": [
-      "Default Title"
-    ],
+    "filterSizes": [],
     "tags": [],
     "rating": 0,
     "inStock": true,
@@ -18200,7 +17395,7 @@ export const storefrontProducts = [
     "description": "Download Template (https://displaytemplate.s3.us-west-2.amazonaws.com/Apparel/Custom+jersey/1-4+zipper+jacket.zip) (NOTE: Neck collar only can do solid color) Need Help with Artwork Setup? (https://soardistusa.com/apps/help-center#hc-creative-services)\n\n95% polyester 5% spandex 120gsm 3.54oz milk silk moisture wicking fabric\n\nImage: https://cdn.shopifycdn.net/s/files/1/1564/9941/files/WX20220809-005036_2x_c1d5e75f-8d8b-4b14-88ad-8fa880b627cb.png?v=1659977456 Image: https://cdn.shopifycdn.net/s/files/1/1564/9941/files/Moisture-Wicking-Performance_480x480.jpg?v=1645131249",
     "descriptionHtml": "<h3><a href=\"https://displaytemplate.s3.us-west-2.amazonaws.com/Apparel/Custom+jersey/1-4+zipper+jacket.zip\">Download Template</a> (NOTE: Neck collar only can do solid color) <a href=\"https://soardistusa.com/apps/help-center#hc-creative-services\">Need Help with Artwork Setup?</a></h3>\n<p>95% polyester 5% spandex 120gsm 3.54oz milk silk moisture wicking fabric</p>\n<p><img src=\"https://cdn.shopifycdn.net/s/files/1/1564/9941/files/WX20220809-005036_2x_c1d5e75f-8d8b-4b14-88ad-8fa880b627cb.png?v=1659977456\" alt=\"\"> <img src=\"https://cdn.shopifycdn.net/s/files/1/1564/9941/files/Moisture-Wicking-Performance_480x480.jpg?v=1645131249\" alt=\"\"></p>",
     "descriptionText": "Download Template (https://displaytemplate.s3.us-west-2.amazonaws.com/Apparel/Custom+jersey/1-4+zipper+jacket.zip) (NOTE: Neck collar only can do solid color) Need Help with Artwork Setup? (https://soardistusa.com/apps/help-center#hc-creative-services)\n\n95% polyester 5% spandex 120gsm 3.54oz milk silk moisture wicking fabric\n\nImage: https://cdn.shopifycdn.net/s/files/1/1564/9941/files/WX20220809-005036_2x_c1d5e75f-8d8b-4b14-88ad-8fa880b627cb.png?v=1659977456 Image: https://cdn.shopifycdn.net/s/files/1/1564/9941/files/Moisture-Wicking-Performance_480x480.jpg?v=1645131249",
-    "sku": "None",
+    "sku": "NW-APPAREL-120GSM-MILK-SILK-1-4-ZIPPER-JACKET-FULL-DYE-SUBLIMATION-500059-43238185730183",
     "badgeLabel": "APPAREL",
     "badgeSubtext": "1 product image available"
   },
@@ -18296,7 +17491,7 @@ export const storefrontProducts = [
     "description": "download template (https://displaytemplate.s3.us-west-2.amazonaws.com/Apparel/Custom+jersey/crewneck+sleeveless.zip) Need Help with Artwork Setup? (https://soardistusa.com/apps/help-center#hc-creative-services)\n\n95% polyester 5% spandex 120gsm 3.54oz milk silk moisture wicking fabric\n\nImage: https://cdn.shopifycdn.net/s/files/1/1564/9941/files/WX20220809-005036_2x_c1d5e75f-8d8b-4b14-88ad-8fa880b627cb.png?v=1659977456 Image: https://cdn.shopifycdn.net/s/files/1/1564/9941/files/Moisture-Wicking-Performance_480x480.jpg?v=1645131249",
     "descriptionHtml": "<h4><a href=\"https://displaytemplate.s3.us-west-2.amazonaws.com/Apparel/Custom+jersey/crewneck+sleeveless.zip\">download template</a> <a href=\"https://soardistusa.com/apps/help-center#hc-creative-services\">Need Help with Artwork Setup?</a></h4>\n<p>95% polyester 5% spandex 120gsm 3.54oz milk silk moisture wicking fabric<br></p>\n<p><img src=\"https://cdn.shopifycdn.net/s/files/1/1564/9941/files/WX20220809-005036_2x_c1d5e75f-8d8b-4b14-88ad-8fa880b627cb.png?v=1659977456\" alt=\"\"> <img src=\"https://cdn.shopifycdn.net/s/files/1/1564/9941/files/Moisture-Wicking-Performance_480x480.jpg?v=1645131249\" alt=\"\"></p>",
     "descriptionText": "download template (https://displaytemplate.s3.us-west-2.amazonaws.com/Apparel/Custom+jersey/crewneck+sleeveless.zip) Need Help with Artwork Setup? (https://soardistusa.com/apps/help-center#hc-creative-services)\n\n95% polyester 5% spandex 120gsm 3.54oz milk silk moisture wicking fabric\n\nImage: https://cdn.shopifycdn.net/s/files/1/1564/9941/files/WX20220809-005036_2x_c1d5e75f-8d8b-4b14-88ad-8fa880b627cb.png?v=1659977456 Image: https://cdn.shopifycdn.net/s/files/1/1564/9941/files/Moisture-Wicking-Performance_480x480.jpg?v=1645131249",
-    "sku": "NW-APPAREL-8227679535239",
+    "sku": "NW-APPAREL-120GSM-MILK-SILK-CREW-NECK-SLEEVELESS-FULL-DYE-SUBLIMATION-500005-43238187761799",
     "badgeLabel": "APPAREL",
     "badgeSubtext": "5 product images available"
   },
@@ -19369,7 +18564,7 @@ export const storefrontProducts = [
     "description": "Download Update Template (https://displaytemplate.s3.us-west-2.amazonaws.com/Apparel/polo+shirt+12.28.zip) (NOTE: Neck collar only can do solid color) Need Help with Artwork Setup? (https://soardistusa.com/apps/help-center#hc-creative-services)\n\n95% polyester 5% spandex 120gsm 3.54oz milk silk moisture wicking fabric\n\nImage: https://cdn.shopifycdn.net/s/files/1/1564/9941/files/WX20220809-005036_2x_c1d5e75f-8d8b-4b14-88ad-8fa880b627cb.png?v=1659977456 Image: https://cdn.shopifycdn.net/s/files/1/1564/9941/files/Moisture-Wicking-Performance_480x480.jpg?v=1645131249",
     "descriptionHtml": "<h3><a href=\"https://displaytemplate.s3.us-west-2.amazonaws.com/Apparel/polo+shirt+12.28.zip\">Download Update Template</a> (NOTE: Neck collar only can do solid color) <a href=\"https://soardistusa.com/apps/help-center#hc-creative-services\">Need Help with Artwork Setup?</a></h3>\n<p>95% polyester 5% spandex 120gsm 3.54oz milk silk moisture wicking fabric<br></p>\n<p><img src=\"https://cdn.shopifycdn.net/s/files/1/1564/9941/files/WX20220809-005036_2x_c1d5e75f-8d8b-4b14-88ad-8fa880b627cb.png?v=1659977456\" alt=\"\"> <img src=\"https://cdn.shopifycdn.net/s/files/1/1564/9941/files/Moisture-Wicking-Performance_480x480.jpg?v=1645131249\" alt=\"\"></p>",
     "descriptionText": "Download Update Template (https://displaytemplate.s3.us-west-2.amazonaws.com/Apparel/polo+shirt+12.28.zip) (NOTE: Neck collar only can do solid color) Need Help with Artwork Setup? (https://soardistusa.com/apps/help-center#hc-creative-services)\n\n95% polyester 5% spandex 120gsm 3.54oz milk silk moisture wicking fabric\n\nImage: https://cdn.shopifycdn.net/s/files/1/1564/9941/files/WX20220809-005036_2x_c1d5e75f-8d8b-4b14-88ad-8fa880b627cb.png?v=1659977456 Image: https://cdn.shopifycdn.net/s/files/1/1564/9941/files/Moisture-Wicking-Performance_480x480.jpg?v=1645131249",
-    "sku": "NW-APPAREL-8227679568007",
+    "sku": "NW-APPAREL-120GSM-MILK-SILK-SPORT-POLO-SHIRT-FULL-DYE-SUBLIMATION-500045-43238187991175",
     "badgeLabel": "APPAREL",
     "badgeSubtext": "4 product images available"
   },
@@ -19501,7 +18696,7 @@ export const storefrontProducts = [
     "description": "Download Template (https://www.dropbox.com/scl/fo/m25jm8prhcjo3qg1ssy1y/AAWCCwSlaNCAfTX9fII_cqA?rlkey=wz4wnsjku7goaqzi2zg7ilzom&st=85s4uazq&dl=0) (NOTE: Neck collar only can do solid color) Need Help with Artwork Setup? (https://soardistusa.com/apps/help-center#hc-creative-services)\n\n100% polyester. 120gsm 3.54oz jersey mesh moisture wicking fabric\n\nImage: https://cdn.shopifycdn.net/s/files/1/1564/9941/files/WX20220809-005036_2x_c1d5e75f-8d8b-4b14-88ad-8fa880b627cb.png?v=1659977456",
     "descriptionHtml": "<h3><a href=\"https://www.dropbox.com/scl/fo/m25jm8prhcjo3qg1ssy1y/AAWCCwSlaNCAfTX9fII_cqA?rlkey=wz4wnsjku7goaqzi2zg7ilzom&amp;st=85s4uazq&amp;dl=0\">Download Template</a> (NOTE: Neck collar only can do solid color) <a href=\"https://soardistusa.com/apps/help-center#hc-creative-services\">Need Help with Artwork Setup?</a></h3>\n<p>100% polyester. 120gsm 3.54oz jersey mesh moisture wicking fabric</p>\n<p><img src=\"https://cdn.shopifycdn.net/s/files/1/1564/9941/files/WX20220809-005036_2x_c1d5e75f-8d8b-4b14-88ad-8fa880b627cb.png?v=1659977456\" alt=\"\"></p>",
     "descriptionText": "Download Template (https://www.dropbox.com/scl/fo/m25jm8prhcjo3qg1ssy1y/AAWCCwSlaNCAfTX9fII_cqA?rlkey=wz4wnsjku7goaqzi2zg7ilzom&st=85s4uazq&dl=0) (NOTE: Neck collar only can do solid color) Need Help with Artwork Setup? (https://soardistusa.com/apps/help-center#hc-creative-services)\n\n100% polyester. 120gsm 3.54oz jersey mesh moisture wicking fabric\n\nImage: https://cdn.shopifycdn.net/s/files/1/1564/9941/files/WX20220809-005036_2x_c1d5e75f-8d8b-4b14-88ad-8fa880b627cb.png?v=1659977456",
-    "sku": "NW-APPAREL-8227672850567",
+    "sku": "NW-APPAREL-120GSM-MILK-SILK-SPORT-POLO-SHIRT-FULL-BUTTON-FULL-DYE-SUBLIMATION-500075-43238154338439",
     "badgeLabel": "APPAREL",
     "badgeSubtext": "3 product images available"
   },
@@ -19584,7 +18779,7 @@ export const storefrontProducts = [
     "description": "download template (https://www.dropbox.com/s/c54iyei2s0tfb0p/v%20neck%20sleeveless.zip?dl=0) Need Help with Artwork Setup? (https://soardistusa.com/apps/help-center#hc-creative-services)\n\n95% polyester 5% spandex 120gsm 3.54oz milk silk moisture wicking fabric\n\nImage: https://cdn.shopifycdn.net/s/files/1/1564/9941/files/WX20220809-005036_2x_c1d5e75f-8d8b-4b14-88ad-8fa880b627cb.png?v=1659977456 Image: https://cdn.shopifycdn.net/s/files/1/1564/9941/files/Moisture-Wicking-Performance_480x480.jpg?v=1645131249",
     "descriptionHtml": "<h4><a href=\"https://www.dropbox.com/s/c54iyei2s0tfb0p/v%20neck%20sleeveless.zip?dl=0\">download template</a> <a href=\"https://soardistusa.com/apps/help-center#hc-creative-services\">Need Help with Artwork Setup?</a></h4>\n<p>95% polyester 5% spandex 120gsm 3.54oz milk silk moisture wicking fabric<br></p>\n<p><img src=\"https://cdn.shopifycdn.net/s/files/1/1564/9941/files/WX20220809-005036_2x_c1d5e75f-8d8b-4b14-88ad-8fa880b627cb.png?v=1659977456\" alt=\"\"> <img src=\"https://cdn.shopifycdn.net/s/files/1/1564/9941/files/Moisture-Wicking-Performance_480x480.jpg?v=1645131249\" alt=\"\"></p>",
     "descriptionText": "download template (https://www.dropbox.com/s/c54iyei2s0tfb0p/v%20neck%20sleeveless.zip?dl=0) Need Help with Artwork Setup? (https://soardistusa.com/apps/help-center#hc-creative-services)\n\n95% polyester 5% spandex 120gsm 3.54oz milk silk moisture wicking fabric\n\nImage: https://cdn.shopifycdn.net/s/files/1/1564/9941/files/WX20220809-005036_2x_c1d5e75f-8d8b-4b14-88ad-8fa880b627cb.png?v=1659977456 Image: https://cdn.shopifycdn.net/s/files/1/1564/9941/files/Moisture-Wicking-Performance_480x480.jpg?v=1645131249",
-    "sku": "NW-APPAREL-8227679240327",
+    "sku": "NW-APPAREL-120GSM-MILK-SILK-V-NECK-SLEEVELESS-FULL-DYE-SUBLIMATION-500087-43238185074823",
     "badgeLabel": "APPAREL",
     "badgeSubtext": "1 product image available"
   },
@@ -20947,7 +20142,7 @@ export const storefrontProducts = [
     "description": "Download Template (https://www.dropbox.com/scl/fo/wruedm69wqnlzm0hllat0/h?rlkey=psere42207nx2d3qwr6t15oeb&dl=0) Need Help with Artwork Setup? (https://soardistusa.com/apps/help-center#hc-creative-services)\n\nMaterial: 95% polyester. 5% spandex , jersey mesh\n\nmoisture wicking fabric\n\nImage: https://cdn.shopifycdn.net/s/files/1/1564/9941/files/moisture_wicking_fabric_480x480.jpg?v=1645131173 Image: https://cdn.shopifycdn.net/s/files/1/1564/9941/files/Moisture-Wicking-Performance_480x480.jpg?v=1645131249",
     "descriptionHtml": "<p><a href=\"https://www.dropbox.com/scl/fo/wruedm69wqnlzm0hllat0/h?rlkey=psere42207nx2d3qwr6t15oeb&amp;dl=0\">Download Template</a> <a href=\"https://soardistusa.com/apps/help-center#hc-creative-services\">Need Help with Artwork Setup?</a></p>\n<p>Material: 95% polyester. 5% spandex , jersey mesh</p>\n<p>moisture wicking fabric</p>\n<p><img src=\"https://cdn.shopifycdn.net/s/files/1/1564/9941/files/moisture_wicking_fabric_480x480.jpg?v=1645131173\" alt=\"\"> <img src=\"https://cdn.shopifycdn.net/s/files/1/1564/9941/files/Moisture-Wicking-Performance_480x480.jpg?v=1645131249\" alt=\"\"></p>",
     "descriptionText": "Download Template (https://www.dropbox.com/scl/fo/wruedm69wqnlzm0hllat0/h?rlkey=psere42207nx2d3qwr6t15oeb&dl=0) Need Help with Artwork Setup? (https://soardistusa.com/apps/help-center#hc-creative-services)\n\nMaterial: 95% polyester. 5% spandex , jersey mesh\n\nmoisture wicking fabric\n\nImage: https://cdn.shopifycdn.net/s/files/1/1564/9941/files/moisture_wicking_fabric_480x480.jpg?v=1645131173 Image: https://cdn.shopifycdn.net/s/files/1/1564/9941/files/Moisture-Wicking-Performance_480x480.jpg?v=1645131249",
-    "sku": "NW-APPAREL-8227679895687",
+    "sku": "NW-APPAREL-LONG-SLEEVE-HOODIE-T-SHIRT-FULL-DYE-SUBLIMATION-500039-43238191202439",
     "badgeLabel": "APPAREL",
     "badgeSubtext": "1 product image available"
   },
@@ -21107,16 +20302,6 @@ export const storefrontProducts = [
     ],
     "name": "150GSM Mesh Jersey Racerback Tank (Full Dye Sublimation) #500031",
     "price": 12.5,
-    "sizes": [
-      "Default Title"
-    ],
-    "sizeVariants": [
-      {
-        "value": "Default Title",
-        "price": 12.5,
-        "active": true
-      }
-    ],
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"
@@ -21125,9 +20310,7 @@ export const storefrontProducts = [
       "APPAREL"
     ],
     "filterColor": [],
-    "filterSizes": [
-      "Default Title"
-    ],
+    "filterSizes": [],
     "tags": [],
     "rating": 0,
     "inStock": true,

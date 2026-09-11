@@ -126,13 +126,24 @@ function firstDefined(values) {
   return values.find((value) => value != null);
 }
 
+function isDefaultVariantValue(value) {
+  const normalized = normalizeString(value).toLowerCase();
+  return (
+    !normalized ||
+    normalized === "default option" ||
+    normalized === "default title" ||
+    normalized === "default variant" ||
+    normalized === "title"
+  );
+}
+
 function buildSizeVariants(metadata, variants) {
   const sourceVariants =
     readMetadataRecordArray(metadata, "source_variants") ||
     readMetadataRecordArray(variants?.[0]?.metadata, "source_variants");
 
   if (sourceVariants.length > 0) {
-    return sourceVariants
+    const entries = sourceVariants
       .map((variant, index) => {
         const title = normalizeString(variant.title);
         const price = readPriceAmount(variant.price);
@@ -150,6 +161,10 @@ function buildSizeVariants(metadata, variants) {
         };
       })
       .filter(Boolean);
+    if (entries.length === 1 && isDefaultVariantValue(entries[0]?.value)) {
+      return [];
+    }
+    return entries;
   }
 
   const options =
@@ -165,7 +180,7 @@ function buildSizeVariants(metadata, variants) {
     .filter((entry) => typeof entry === "string" && entry.trim())
     .map((entry) => entry.trim());
 
-  if (values.length === 0) {
+  if (values.length === 0 || (values.length === 1 && isDefaultVariantValue(values[0]))) {
     return [];
   }
 

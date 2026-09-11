@@ -374,6 +374,12 @@ def build_source_variant_label(option_names: list[str], source_variant: JsonDict
     return "Default option"
 
 
+def is_default_variant_selector_value(value: str | None) -> bool:
+    """Return whether a storefront selector value is only a placeholder/default label."""
+    normalized = (value or "").strip().lower()
+    return normalized in {"default option", "default title", "default variant", "title"}
+
+
 def build_storefront_variant_catalog(
     *,
     option_definitions: list[JsonDict],
@@ -425,6 +431,11 @@ def build_storefront_variant_catalog(
         if float(entry_copy["price"]) == min_price:
             entry_copy["active"] = True
         unique_entries.append(entry_copy)
+
+    if len(unique_entries) == 1 and is_default_variant_selector_value(
+        str(unique_entries[0].get("value") or ""),
+    ):
+        return None, [], []
 
     variant_label = " / ".join(str(option["title"]) for option in option_definitions)
     if not variant_label:
@@ -973,7 +984,33 @@ def build_product_update_payload(
     return payload
 
 
-def build_frame_type_variant_update_payload(
+def is_default_variant_title(value: str | None) -> bool:
+    """Return whether a variant title is only a placeholder/default label."""
+    return (value or "").strip().lower() in {
+        "default option",
+        "default title",
+        "default variant",
+    }
+
+
+def pick_default_source_variant(
+    source_product: JsonDict,
+    source_variants: list[JsonDict],
+) -> JsonDict:
+    """Pick the source variant that should inherit an existing default Medusa variant id."""
+    return next(
+        (
+            variant
+            for variant in source_variants
+            if variant.get("defaultSelected") is True
+            or float(variant.get("price") or 0)
+            == float(source_product.get("price", {}).get("min") or 0)
+        ),
+        source_variants[0],
+    )
+
+
+def build_variant_model_update_payload(
     bundle: SourceProductBundle,
     existing_product: JsonDict,
     *,
@@ -981,61 +1018,83 @@ def build_frame_type_variant_update_payload(
     sales_channel_id: str | None,
     region: RegionContext | None,
 ) -> JsonDict | None:
-    """Build an in-place product update that converts default variants to Frame Type variants."""
+    """Build an in-place product update that promotes real source variants into Medusa."""
     option_definitions, source_variants = resolve_variant_model(bundle)
-    if not (
+    is_frame_type_model = (
         len(option_definitions) == 1
         and str(option_definitions[0].get("title") or "").strip().lower() == "frame type"
         and len(source_variants) >= 2
-    ):
+    )
+    if not option_definitions or len(source_variants) <= 1 or is_frame_type_model:
         return None
 
-    metadata = build_product_metadata(bundle)
     source_product = bundle.source_product
-    existing_options = existing_product.get("options", [])
-    existing_variants = existing_product.get("variants", [])
-    existing_option_id = (
-        str(existing_options[0].get("id")).strip()
-        if existing_options and existing_options[0].get("id")
-        else None
+    payload = build_product_update_payload(
+        bundle,
+        collection_id=collection_id,
+        sales_channel_id=sales_channel_id,
     )
-
-    payload: JsonDict = {
-        "title": source_product["name"],
-        "handle": source_product["handle"],
-        "external_id": (
-            str(source_product.get("id"))
-            if source_product.get("id") is not None
-            else None
-        ),
-        "description": metadata.get("description_text") or "",
-        "status": "published",
-        "metadata": metadata,
-        "options": [
-            {
-                **({"id": existing_option_id} if existing_option_id else {}),
-                "title": "Frame Type",
-                "values": [str(option_value) for option_value in option_definitions[0]["values"]],
-            }
-        ],
+    existing_options = [
+        option for option in existing_product.get("options", []) if isinstance(option, dict)
+    ]
+    existing_variants = [
+        variant for variant in existing_product.get("variants", []) if isinstance(variant, dict)
+    ]
+    matched_option_ids: set[str] = set()
+    fallback_option_ids = [
+        str(option.get("id")).strip()
+        for option in existing_options
+        if option.get("id")
+    ]
+    existing_option_by_title = {
+        str(option.get("title") or "").strip().lower(): option
+        for option in existing_options
+        if str(option.get("title") or "").strip()
     }
 
-    if collection_id:
-        payload["collection_id"] = collection_id
+    option_payloads: list[JsonDict] = []
+    for option in option_definitions:
+        option_title = str(option.get("title") or "").strip()
+        existing_option = existing_option_by_title.get(option_title.lower())
+        option_id = (
+            str(existing_option.get("id")).strip()
+            if existing_option and existing_option.get("id")
+            else None
+        )
+        if option_id and option_id in matched_option_ids:
+            option_id = None
+        if option_id:
+            matched_option_ids.add(option_id)
+        else:
+            option_id = next(
+                (candidate for candidate in fallback_option_ids if candidate not in matched_option_ids),
+                None,
+            )
+            if option_id:
+                matched_option_ids.add(option_id)
 
-    if sales_channel_id:
-        payload["sales_channels"] = [{"id": sales_channel_id}]
+        option_payloads.append(
+            {
+                **({"id": option_id} if option_id else {}),
+                "title": option_title,
+                "values": [str(value) for value in option.get("values", [])],
+            }
+        )
 
-    option_names = [str(option_definitions[0]["title"])]
-    default_source_variant = next(
-        (
-            variant
-            for variant in source_variants
-            if variant.get("defaultSelected") is True
-            or float(variant.get("price") or 0) == float(source_product.get("price", {}).get("min") or 0)
-        ),
-        source_variants[0],
-    )
+    payload["options"] = option_payloads
+    option_names = [str(option["title"]) for option in option_definitions]
+    default_source_variant = pick_default_source_variant(source_product, source_variants)
+    existing_variant_by_source_id = {
+        str((variant.get("metadata") or {}).get("source_variant_id")): variant
+        for variant in existing_variants
+        if isinstance(variant.get("metadata"), dict)
+        and (variant.get("metadata") or {}).get("source_variant_id") is not None
+    }
+    existing_variant_by_sku = {
+        str(variant.get("sku") or "").strip(): variant
+        for variant in existing_variants
+        if str(variant.get("sku") or "").strip()
+    }
     existing_variant_by_title = {
         str(variant.get("title") or "").strip(): variant
         for variant in existing_variants
@@ -1052,8 +1111,27 @@ def build_frame_type_variant_update_payload(
             product_handle=source_product["handle"],
             variant_index=index,
         )
-        existing_variant = existing_variant_by_title.get(str(source_variant.get("title") or "").strip())
-        if not existing_variant and current_default_variant and source_variant == default_source_variant:
+        source_variant_id = source_variant.get("id")
+        source_variant_sku = str(source_variant.get("sku") or "").strip()
+        source_variant_title = str(source_variant.get("title") or "").strip()
+        existing_variant = (
+            existing_variant_by_source_id.get(str(source_variant_id))
+            if source_variant_id is not None
+            else None
+        )
+        if not existing_variant and source_variant_sku:
+            existing_variant = existing_variant_by_sku.get(source_variant_sku)
+        if not existing_variant and source_variant_title:
+            existing_variant = existing_variant_by_title.get(source_variant_title)
+        if (
+            not existing_variant
+            and current_default_variant
+            and source_variant == default_source_variant
+            and (
+                len(existing_variants) == 1
+                or is_default_variant_title(current_default_variant.get("title"))
+            )
+        ):
             existing_variant = current_default_variant
         if existing_variant and existing_variant.get("id"):
             variant_payload["id"] = existing_variant["id"]
@@ -1089,7 +1167,7 @@ def sync_existing_product_data(
             continue
 
         target_collection_id = existing.get("collection_id") or collection_id
-        payload = build_frame_type_variant_update_payload(
+        payload = build_variant_model_update_payload(
             bundle,
             existing,
             collection_id=target_collection_id,

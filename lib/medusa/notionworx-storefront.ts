@@ -503,6 +503,11 @@ function isDefaultOptionTitle(title?: string | null): boolean {
   return !normalized || DEFAULT_OPTION_TITLES.has(normalized);
 }
 
+function isDefaultVariantSelectionValue(value?: string | null): boolean {
+  const normalized = value?.trim().toLowerCase();
+  return !normalized || DEFAULT_OPTION_TITLES.has(normalized) || normalized === "default variant";
+}
+
 function readSourcePrimaryCategoryTitle(
   metadata: JsonRecord | null | undefined,
 ): string | undefined {
@@ -787,6 +792,13 @@ function buildVariantChoices(
     return {};
   }
 
+  if (
+    uniqueEntries.length === 1 &&
+    isDefaultVariantSelectionValue(uniqueEntries[0]?.value)
+  ) {
+    return {};
+  }
+
   const minPrice = Math.min(
     ...uniqueEntries.map((entry) =>
       typeof entry.price === "number" ? entry.price : Number.POSITIVE_INFINITY,
@@ -842,6 +854,13 @@ function normalizeSourceSizeVariants(
   const uniqueEntries = Array.from(
     new Map(sourceSizeVariants.map((entry) => [entry.value, entry])).values(),
   );
+
+  if (
+    uniqueEntries.length === 1 &&
+    isDefaultVariantSelectionValue(uniqueEntries[0]?.value)
+  ) {
+    return {};
+  }
 
   if (
     uniqueEntries.length <= 1 &&
