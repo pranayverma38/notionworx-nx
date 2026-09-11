@@ -9,6 +9,7 @@ import { ShopPageLayout } from "./ShopPageLayout";
 import { ShopOffcanvas } from "./ShopOffcanvas";
 import { ShopProvider, type ShopContextValue } from "./ShopContext";
 import type { GridCols } from "./shopGridCols";
+import type { ShopProduct } from "@/types/shopFilter";
 import {
   computePageItems,
   normalizeShopVariants,

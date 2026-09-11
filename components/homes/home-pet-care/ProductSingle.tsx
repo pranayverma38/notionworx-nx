@@ -15,6 +15,24 @@ function formatPrice(value: number | string): string {
   return "$" + num.toFixed(2);
 }
 
+function resolveVariantPrice(
+  price: number | string | undefined,
+  fallback: number,
+): number {
+  if (typeof price === "number") {
+    return price;
+  }
+
+  if (typeof price === "string" && price.trim()) {
+    const parsedPrice = Number.parseFloat(price);
+    if (Number.isFinite(parsedPrice)) {
+      return parsedPrice;
+    }
+  }
+
+  return fallback;
+}
+
 const product = bannerProductSingleItems[5];
 const imagesData = product.images ?? [];
 
@@ -35,6 +53,7 @@ function ProductSingleInner() {
     : `/${mainImage.src}`;
 
   const activeSizeObj = sizes.find((s) => s.value === currentSize) || sizes[0];
+  const activePrice = resolveVariantPrice(activeSizeObj?.price, product.price);
 
   return (
     <section className="flat-spacing">
@@ -96,7 +115,7 @@ function ProductSingleInner() {
                     </div>
                     <div className="detail-price mb-8">
                       <h4 className="price-on-sale">
-                        {formatPrice(activeSizeObj?.price || product.price)}
+                        {formatPrice(activePrice)}
                       </h4>
                       {product.priceOld != null && (
                         <p className="cl-text-3 text-decoration-line-through">
@@ -214,11 +233,7 @@ function ProductSingleInner() {
                           style={{ cursor: "pointer" }}
                         >
                           Add To Cart -{" "}
-                          {formatPrice(
-                            parseFloat(
-                              activeSizeObj?.price || product.price.toString(),
-                            ) * quantity,
-                          )}
+                          {formatPrice(activePrice * quantity)}
                         </div>
                       </div>
                     </div>

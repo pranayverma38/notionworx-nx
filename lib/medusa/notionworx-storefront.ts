@@ -620,7 +620,7 @@ function buildVariantChoices(
   }
 
   const entries = variants
-    .map((variant) => {
+    .map((variant): ProductSizeVariant | null => {
       const sourceVariant = findMatchingSourceVariant(
         sourceVariants,
         variant,
@@ -686,7 +686,7 @@ function normalizeSourceSizeVariants(
     "sourceVariantLabel",
   ]);
   const sourceSizeVariants = readMetadataRecordArray(metadata, "source_size_variants")
-    .map((entry) => {
+    .map((entry): ProductSizeVariant | null => {
       const value = readJsonRecordString(entry, "value");
       const price = readJsonRecordNumber(entry, "price");
       const compareAtPrice = readJsonRecordNumber(entry, "compareAtPrice");

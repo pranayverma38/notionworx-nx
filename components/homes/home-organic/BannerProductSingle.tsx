@@ -18,6 +18,24 @@ function formatPrice(value: number): string {
   return "$" + value.toFixed(2);
 }
 
+function resolveVariantPrice(
+  price: number | string | undefined,
+  fallback: number,
+): number {
+  if (typeof price === "number") {
+    return price;
+  }
+
+  if (typeof price === "string" && price.trim()) {
+    const parsedPrice = Number.parseFloat(price);
+    if (Number.isFinite(parsedPrice)) {
+      return parsedPrice;
+    }
+  }
+
+  return fallback;
+}
+
 const product = bannerProductSingleItems[4];
 const imagesData = product.images ?? [];
 
@@ -42,9 +60,7 @@ function BannerProductSingleInner() {
     [currentSize, sizes],
   );
 
-  const currentPrice = currentVariant?.price
-    ? parseFloat(currentVariant.price)
-    : product.price;
+  const currentPrice = resolveVariantPrice(currentVariant?.price, product.price);
 
   const [swiper, setSwiper] = useState<SwiperType | null>(null);
 

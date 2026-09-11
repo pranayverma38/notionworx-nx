@@ -6,6 +6,25 @@ import { featuredMentalProducts } from "@/data/products/products";
 
 const p = featuredMentalProducts;
 
+function renderFeaturedProduct(product: (typeof p)[number] | undefined, className = "") {
+  if (!product) {
+    return null;
+  }
+
+  return (
+    <ProductCard
+      variant="miniList"
+      product={product}
+      cardClass={className}
+      imgWidth={160}
+      imgHeight={160}
+      actionBotLabel="Add to cart"
+      actionBotHref="#shoppingCart"
+      actionBotDataToggle="offcanvas"
+    />
+  );
+}
+
 function FeaturedBannersSlide() {
   return (
     <div className="tf-list vertical gap-16">
@@ -97,36 +116,9 @@ function Featured() {
         >
           {/* Slide 1 — three products; third hidden below md (shown in slide 4) */}
           <div className="tf-list vertical gap-16">
-            <ProductCard
-              variant="miniList"
-              product={p[0]}
-              cardClass="wow fadeInUp"
-              imgWidth={160}
-              imgHeight={160}
-              actionBotLabel="Add to cart"
-              actionBotHref="#shoppingCart"
-              actionBotDataToggle="offcanvas"
-            />
-            <ProductCard
-              variant="miniList"
-              product={p[1]}
-              cardClass="wow fadeInUp"
-              imgWidth={160}
-              imgHeight={160}
-              actionBotLabel="Add to cart"
-              actionBotHref="#shoppingCart"
-              actionBotDataToggle="offcanvas"
-            />
-            <ProductCard
-              variant="miniList"
-              product={p[2]}
-              cardClass="wow fadeInUp d-none d-md-flex"
-              imgWidth={160}
-              imgHeight={160}
-              actionBotLabel="Add to cart"
-              actionBotHref="#shoppingCart"
-              actionBotDataToggle="offcanvas"
-            />
+            {renderFeaturedProduct(p[0], "wow fadeInUp")}
+            {renderFeaturedProduct(p[1], "wow fadeInUp")}
+            {renderFeaturedProduct(p[2], "wow fadeInUp d-none d-md-flex")}
           </div>
 
           {/* Slide 2 — promo banners, xl+ only */}
@@ -134,58 +126,15 @@ function Featured() {
 
           {/* Slide 3 — three products */}
           <div className="tf-list vertical gap-16">
-            <ProductCard
-              variant="miniList"
-              product={p[3]}
-              cardClass="wow fadeInUp"
-              imgWidth={160}
-              imgHeight={160}
-              actionBotLabel="Add to cart"
-              actionBotHref="#shoppingCart"
-              actionBotDataToggle="offcanvas"
-            />
-            <ProductCard
-              variant="miniList"
-              product={p[4]}
-              cardClass="wow fadeInUp"
-              imgWidth={160}
-              imgHeight={160}
-              actionBotLabel="Add to cart"
-              actionBotHref="#shoppingCart"
-              actionBotDataToggle="offcanvas"
-            />
-            <ProductCard
-              variant="miniList"
-              product={p[5]}
-              cardClass="wow fadeInUp d-none d-md-flex"
-              imgWidth={160}
-              imgHeight={160}
-              actionBotLabel="Add to cart"
-              actionBotHref="#shoppingCart"
-              actionBotDataToggle="offcanvas"
-            />
+            {renderFeaturedProduct(p[3], "wow fadeInUp")}
+            {renderFeaturedProduct(p[4], "wow fadeInUp")}
+            {renderFeaturedProduct(p[5], "wow fadeInUp d-none d-md-flex")}
           </div>
 
           {/* Slide 4 — mobile-only duplicates for items hidden on small screens */}
           <div className="tf-list vertical gap-16">
-            <ProductCard
-              variant="miniList"
-              product={p[2]}
-              imgWidth={160}
-              imgHeight={160}
-              actionBotLabel="Add to cart"
-              actionBotHref="#shoppingCart"
-              actionBotDataToggle="offcanvas"
-            />
-            <ProductCard
-              variant="miniList"
-              product={p[5]}
-              imgWidth={160}
-              imgHeight={160}
-              actionBotLabel="Add to cart"
-              actionBotHref="#shoppingCart"
-              actionBotDataToggle="offcanvas"
-            />
+            {renderFeaturedProduct(p[2])}
+            {renderFeaturedProduct(p[5])}
           </div>
         </TfSwiper>
       </div>
