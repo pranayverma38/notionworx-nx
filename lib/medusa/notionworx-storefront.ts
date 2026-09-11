@@ -12,6 +12,7 @@ import {
   getSharedProductAddOnKeysByHandle,
 } from "@/lib/notionworx-shared-addons";
 import type { Category } from "@/types/categories";
+import type { ProductAddOnGroup } from "@/types/productAddons";
 import type {
   ProductCardItem,
   ProductSingleImage,
@@ -501,6 +502,20 @@ function readSourcePrimaryCategoryTitle(
   );
 }
 
+function isFrameTypeAddOnGroup(group: ProductAddOnGroup): boolean {
+  const options = group.items ?? [];
+  if (options.length < 2 || group.selectionMode !== "single") {
+    return false;
+  }
+
+  return options.every((option) => {
+    const sourceFieldName = option.metadata?.sourceFieldName?.toLowerCase() ?? "";
+    const hoverDescription = option.hoverDescription?.toLowerCase() ?? "";
+
+    return sourceFieldName.includes("frame type") || hoverDescription.includes("frame type");
+  });
+}
+
 function getMeaningfulOptionTitles(
   product: MedusaProduct,
   sourceOptions: JsonRecord[],
@@ -870,9 +885,13 @@ function mapMedusaProductToStorefrontProduct(
     metadataAddOnGroupKeys.length > 0
       ? metadataAddOnGroupKeys
       : getSharedProductAddOnKeysByHandle(handle);
-  const addOnGroups =
+  const rawAddOnGroups =
     getSharedProductAddOnGroupsByKeys(addOnGroupKeys) ??
     getSharedProductAddOnGroupsByHandle(handle);
+  const addOnGroups =
+    variantLabel?.trim().toLowerCase() === "frame type"
+      ? rawAddOnGroups?.filter((group) => !isFrameTypeAddOnGroup(group))
+      : rawAddOnGroups;
   const sourceInStock =
     sourceVariants.length > 0
       ? sourceVariants.some((variant) => variant.available !== false)

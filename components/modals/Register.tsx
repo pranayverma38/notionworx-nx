@@ -4,7 +4,6 @@ import { useRouter } from "next/navigation";
 import { useState, useRef } from "react";
 
 import { PasswordField } from "@/components/forms/PasswordField";
-import { createClient, withTimeout } from "@/lib/supabase/client";
 
 const COUNTRY_CODES = [
   { code: "+1", label: "🇺🇸 +1" }, { code: "+44", label: "🇬🇧 +44" },
@@ -16,7 +15,6 @@ const COUNTRY_CODES = [
 
 export default function Register({ registerModalElement }: { registerModalElement?: (el: HTMLElement | null) => void }) {
   const router = useRouter();
-  const supabase = createClient();
   const [firstName, setFirstName] = useState("");
   const [lastName, setLastName] = useState("");
   const [phoneCode, setPhoneCode] = useState("+1");
@@ -37,22 +35,30 @@ export default function Register({ registerModalElement }: { registerModalElemen
 
     setLoading(true);
     try {
-      const { error: signUpError } = await withTimeout(
-        supabase.auth.signUp({
-          email, password,
-          options: { data: { first_name: firstName, last_name: lastName, phone_country_code: phoneCode, phone_number: phone } },
-        })
-      );
-      if (signUpError) { setError(signUpError.message); return; }
+      const response = await fetch("/api/auth/register", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        credentials: "include",
+        body: JSON.stringify({
+          firstName,
+          lastName,
+          phoneCode,
+          phone,
+          email,
+          password,
+        }),
+      });
+      const payload = (await response.json()) as { error?: string };
 
-      const { error: signInError } = await withTimeout(supabase.auth.signInWithPassword({ email, password }));
-      if (signInError) {
-        setSuccess("Account created! Please log in.");
-        setTimeout(() => { closeRef.current?.click(); router.push("/login"); }, 2000);
+      if (!response.ok) {
+        setError(payload.error ?? "Unable to create your account.");
         return;
       }
 
       closeRef.current?.click();
+      setSuccess("");
       router.push("/account-page");
       router.refresh();
     } catch (err: unknown) {

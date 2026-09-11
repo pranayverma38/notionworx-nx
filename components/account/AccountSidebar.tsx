@@ -14,6 +14,7 @@ export default function AccountSidebar() {
   async function handleLogout() {
     await signOut();
     router.push("/login");
+    router.refresh();
   }
 
   return (

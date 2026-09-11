@@ -1,29 +1,29 @@
 "use client";
 
 import { useEffect, useState } from "react";
+
 import { AccountSection } from "@/components/account/AccountSection";
-import { createClient } from "@/lib/supabase/client";
 import { useAuth } from "@/context/AuthContext";
-import type { Tables } from "@/types/supabase";
-
-type Address = Tables<"addresses">;
-
-const COUNTRIES = [
-  "United States", "United Kingdom", "India", "Australia", "Canada",
-  "Germany", "France", "Japan", "Singapore", "UAE", "Other",
-];
+import { ACCOUNT_COUNTRIES } from "@/lib/medusa/countries";
+import type { AccountAddress } from "@/types/medusa";
 
 type FormState = {
-  company: string; country: string; street_address: string;
-  city: string; state: string; zip: string; phone: string; email: string;
+  company: string;
+  countryCode: string;
+  address1: string;
+  address2: string;
+  city: string;
+  state: string;
+  zip: string;
+  phone: string;
 };
 type Errors = Partial<Record<keyof FormState, string>>;
 
 function validateForm(form: FormState): Errors {
   const e: Errors = {};
-  if (!form.country) e.country = "Please select a country.";
-  if (!form.street_address.trim()) e.street_address = "Street address is required.";
-  else if (form.street_address.trim().length < 5) e.street_address = "Enter a valid street address.";
+  if (!form.countryCode) e.countryCode = "Please select a country.";
+  if (!form.address1.trim()) e.address1 = "Street address is required.";
+  else if (form.address1.trim().length < 5) e.address1 = "Enter a valid street address.";
   if (!form.city.trim()) e.city = "City is required.";
   else if (form.city.trim().length < 2) e.city = "Enter a valid city name.";
   if (!form.state.trim()) e.state = "State is required.";
@@ -31,17 +31,23 @@ function validateForm(form: FormState): Errors {
   else if (!/^[A-Za-z0-9\s\-]{3,10}$/.test(form.zip.trim())) e.zip = "Enter a valid ZIP / postal code.";
   if (!form.phone.trim()) e.phone = "Phone number is required.";
   else if (!/^\+?[\d\s\-()]{7,15}$/.test(form.phone.trim())) e.phone = "Enter a valid phone number.";
-  if (!form.email.trim()) e.email = "Email is required.";
-  else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(form.email)) e.email = "Enter a valid email address.";
   return e;
 }
 
-const EMPTY: FormState = { company: "", country: "", street_address: "", city: "", state: "", zip: "", phone: "", email: "" };
+const EMPTY: FormState = {
+  company: "",
+  countryCode: "",
+  address1: "",
+  address2: "",
+  city: "",
+  state: "",
+  zip: "",
+  phone: "",
+};
 
 export default function AccountAddresses() {
   const { user } = useAuth();
-  const supabase = createClient();
-  const [address, setAddress] = useState<Address | null>(null);
+  const [address, setAddress] = useState<AccountAddress | null>(null);
   const [form, setForm] = useState<FormState>(EMPTY);
   const [errors, setErrors] = useState<Errors>({});
   const [touched, setTouched] = useState<Partial<Record<keyof FormState, boolean>>>({});
@@ -49,22 +55,51 @@ export default function AccountAddresses() {
   const [msg, setMsg] = useState("");
 
   useEffect(() => {
-    if (!user) return;
-    supabase.from("addresses").select("*").eq("user_id", user.id)
-      .order("created_at", { ascending: true }).limit(1).maybeSingle()
-      .then(({ data }) => {
-        if (data) {
-          setAddress(data);
-          setForm({
-            company: data.company ?? "", country: data.country,
-            street_address: data.street_address, city: data.city,
-            state: data.state, zip: data.zip,
-            phone: data.phone, email: data.email,
-          });
-        } else {
-          setForm(f => ({ ...f, email: user.email ?? "" }));
-        }
+    if (!user) {
+      setAddress(null);
+      setForm(EMPTY);
+      return;
+    }
+
+    let isCancelled = false;
+
+    async function loadAddress() {
+      const response = await fetch("/api/account/addresses", {
+        method: "GET",
+        credentials: "include",
+        cache: "no-store",
       });
+      const payload = (await response.json()) as {
+        addresses?: AccountAddress[];
+      };
+
+      if (!response.ok || isCancelled) {
+        return;
+      }
+
+      const nextAddress = payload.addresses?.[0] ?? null;
+      setAddress(nextAddress);
+      setForm(
+        nextAddress
+          ? {
+              company: nextAddress.company,
+              countryCode: nextAddress.countryCode,
+              address1: nextAddress.address1,
+              address2: nextAddress.address2,
+              city: nextAddress.city,
+              state: nextAddress.state,
+              zip: nextAddress.zip,
+              phone: nextAddress.phone,
+            }
+          : EMPTY,
+      );
+    }
+
+    void loadAddress();
+
+    return () => {
+      isCancelled = true;
+    };
   }, [user]);
 
   function handleChange(e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>) {
@@ -84,25 +119,68 @@ export default function AccountAddresses() {
 
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
-    setTouched({ company: true, country: true, street_address: true, city: true, state: true, zip: true, phone: true, email: true });
+    setTouched({
+      company: true,
+      countryCode: true,
+      address1: true,
+      address2: true,
+      city: true,
+      state: true,
+      zip: true,
+      phone: true,
+    });
     const errs = validateForm(form);
     setErrors(errs);
     if (Object.keys(errs).length > 0) return;
 
     if (!user) return;
     setSaving(true); setMsg("");
-    const payload = { ...form, user_id: user.id, is_default: true };
-    const { error } = address
-      ? await supabase.from("addresses").update(payload).eq("id", address.id)
-      : await supabase.from("addresses").insert(payload);
 
-    if (error) { setMsg(`Error: ${error.message}`); }
-    else {
+    try {
+      const response = await fetch("/api/account/addresses", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        credentials: "include",
+        body: JSON.stringify({
+          addressId: address?.id ?? "",
+          company: form.company,
+          countryCode: form.countryCode,
+          address1: form.address1,
+          address2: form.address2,
+          city: form.city,
+          state: form.state,
+          zip: form.zip,
+          phone: form.phone,
+        }),
+      });
+      const payload = (await response.json()) as {
+        error?: string;
+        addresses?: AccountAddress[];
+      };
+
+      if (!response.ok) {
+        setMsg(`Error: ${payload.error ?? "Unable to save your address."}`);
+        return;
+      }
+
       setMsg("Address saved successfully!");
-      const { data } = await supabase.from("addresses").select("*").eq("user_id", user.id).maybeSingle();
-      if (data) setAddress(data);
+      const nextAddress = payload.addresses?.[0] ?? null;
+      if (nextAddress) {
+        setAddress(nextAddress);
+      }
+    } catch (requestError) {
+      setMsg(
+        `Error: ${
+          requestError instanceof Error
+            ? requestError.message
+            : "Unable to save your address."
+        }`,
+      );
+    } finally {
+      setSaving(false);
     }
-    setSaving(false);
   }
 
   function field(name: keyof FormState) {
@@ -127,17 +205,26 @@ export default function AccountAddresses() {
 
             <fieldset className="tf-field">
               <label htmlFor="addr-country" className="tf-lable fw-medium">Country / Region <span className="text-primary">*</span></label>
-              <select id="addr-country" {...field("country")} required>
+              <select id="addr-country" {...field("countryCode")} required>
                 <option value="">Select a country</option>
-                {COUNTRIES.map(c => <option key={c} value={c}>{c}</option>)}
+                {ACCOUNT_COUNTRIES.map((country) => (
+                  <option key={country.code} value={country.code}>
+                    {country.label}
+                  </option>
+                ))}
               </select>
-              {errors.country && touched.country && <div className="text-danger mt-1" style={{ fontSize: "0.8rem" }}>{errors.country}</div>}
+              {errors.countryCode && touched.countryCode && <div className="text-danger mt-1" style={{ fontSize: "0.8rem" }}>{errors.countryCode}</div>}
             </fieldset>
 
             <fieldset className="tf-field">
               <label htmlFor="addr-street" className="tf-lable fw-medium">Street Address <span className="text-primary">*</span></label>
-              <input type="text" id="addr-street" placeholder="House number and street name" {...field("street_address")} required />
-              {errors.street_address && touched.street_address && <div className="text-danger mt-1" style={{ fontSize: "0.8rem" }}>{errors.street_address}</div>}
+              <input type="text" id="addr-street" placeholder="House number and street name" {...field("address1")} required />
+              {errors.address1 && touched.address1 && <div className="text-danger mt-1" style={{ fontSize: "0.8rem" }}>{errors.address1}</div>}
+            </fieldset>
+
+            <fieldset className="tf-field">
+              <label htmlFor="addr-street-2" className="tf-lable fw-medium">Apartment, suite, etc. (optional)</label>
+              <input type="text" id="addr-street-2" placeholder="Apartment, suite, unit, etc." {...field("address2")} />
             </fieldset>
 
             <div className="tf-grid-layout sm-col-2">
@@ -167,9 +254,14 @@ export default function AccountAddresses() {
             </div>
 
             <fieldset className="tf-field">
-              <label htmlFor="addr-email" className="tf-lable fw-medium">Email <span className="text-primary">*</span></label>
-              <input type="email" id="addr-email" placeholder="you@example.com" {...field("email")} required />
-              {errors.email && touched.email && <div className="text-danger mt-1" style={{ fontSize: "0.8rem" }}>{errors.email}</div>}
+              <label htmlFor="addr-email" className="tf-lable fw-medium">Account Email</label>
+              <input
+                type="email"
+                id="addr-email"
+                value={user?.email ?? ""}
+                readOnly
+                style={{ background: "#f5f5f5", cursor: "not-allowed" }}
+              />
             </fieldset>
           </div>
 

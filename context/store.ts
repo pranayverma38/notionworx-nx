@@ -11,21 +11,8 @@ import {
   getProductConfigurationIdentity,
 } from "@/lib/product-addons";
 import { resolveConfiguredBasePrice } from "@/lib/product-variants";
-import {
-  fetchCartFromServer,
-  removeCartItem,
-  syncLocalCartToServer,
-  updateCartItemQuantity,
-  upsertCartItem,
-} from "@/lib/supabase/cart";
 import type { ProductCardItem } from "@/types/productCard";
 import type { ProductAddOnSelection } from "@/types/productAddons";
-
-// userId stored separately so cart helpers never need to call getUser()
-let _currentUserId: string | null = null;
-export function setCurrentUserId(id: string | null) {
-  _currentUserId = id;
-}
 
 export type Product = ProductCardItem;
 export interface CartProductSelectionInput {
@@ -50,9 +37,7 @@ interface StoreState {
   quickViewItem: Product;
   quickAddItem: ProductId;
   totalPrice: number;
-  cartOwnerId: string | null;
   activeCartProduct: CartProduct | null;
-  isLoggedIn: boolean;
   setCartProducts: (
     value: CartProduct[] | ((prev: CartProduct[]) => CartProduct[]),
   ) => void;
@@ -72,26 +57,12 @@ interface StoreState {
   removeFromCompareItem: (id: ProductId) => void;
   isAddedToCompareItem: (id: ProductId) => boolean;
   removeFromCart: (id: ProductId) => void;
-  /** Call on login: merges guest carts and reconciles same-user persisted carts. */
-  loadServerCart: (userId: string) => Promise<void>;
-  /** Call on logout: clears local cart */
+  /** Clears the locally persisted cart. */
   clearLocalCart: () => void;
-  setIsLoggedIn: (v: boolean) => void;
 }
 
 const getTotalPrice = (cart: CartProduct[]) =>
   cart.reduce((acc, product) => acc + product.quantity * product.price, 0);
-
-function resolvePersistedCartOwner(
-  isLoggedIn: boolean,
-  cartOwnerId: string | null,
-) {
-  if (isLoggedIn && _currentUserId) {
-    return _currentUserId;
-  }
-
-  return cartOwnerId;
-}
 
 export const useStore = create<StoreState>()(
   persist(
@@ -101,11 +72,7 @@ export const useStore = create<StoreState>()(
       quickViewItem: products[0],
       quickAddItem: 1,
       totalPrice: 0,
-      cartOwnerId: null,
       activeCartProduct: null,
-      isLoggedIn: false,
-
-      setIsLoggedIn: (v) => set({ isLoggedIn: v }),
 
       setCartProducts: (value) =>
         set((state) => {
@@ -133,7 +100,7 @@ export const useStore = create<StoreState>()(
         ),
 
       addProductToCart: (item, qty = 1, selection) => {
-        const { cartProducts, cartOwnerId, isLoggedIn } = get();
+        const { cartProducts } = get();
         const cartItem = normalizeCartProduct(item, qty, selection);
 
         if (
@@ -148,16 +115,12 @@ export const useStore = create<StoreState>()(
         const next = [...cartProducts, cartItem];
         set({
           cartProducts: next,
-          cartOwnerId: resolvePersistedCartOwner(isLoggedIn, cartOwnerId),
           totalPrice: getTotalPrice(next),
         });
-        if (isLoggedIn && _currentUserId) {
-          upsertCartItem(_currentUserId, cartItem).catch(console.error);
-        }
       },
 
       updateQuantity: (id, qty) => {
-        const { cartProducts, cartOwnerId, isLoggedIn } = get();
+        const { cartProducts } = get();
         const cartItem = resolveCartProduct(cartProducts, id);
         if (!cartItem || qty < 1) return;
 
@@ -168,16 +131,8 @@ export const useStore = create<StoreState>()(
         );
         set({
           cartProducts: items,
-          cartOwnerId: resolvePersistedCartOwner(isLoggedIn, cartOwnerId),
           totalPrice: getTotalPrice(items),
         });
-        if (isLoggedIn && _currentUserId) {
-          updateCartItemQuantity(
-            _currentUserId,
-            cartItem.configurationKey,
-            qty,
-          ).catch(console.error);
-        }
       },
 
       quantityInCart: (id) => {
@@ -209,7 +164,7 @@ export const useStore = create<StoreState>()(
         get().compareItem.some((elm) => elm.id === id),
 
       removeFromCart: (id) => {
-        const { cartProducts, cartOwnerId, isLoggedIn } = get();
+        const { cartProducts } = get();
         const cartItem = resolveCartProduct(cartProducts, id);
         if (!cartItem) return;
 
@@ -218,50 +173,14 @@ export const useStore = create<StoreState>()(
         );
         set({
           cartProducts: next,
-          cartOwnerId: resolvePersistedCartOwner(isLoggedIn, cartOwnerId),
           totalPrice: getTotalPrice(next),
-        });
-        if (isLoggedIn && _currentUserId) {
-          removeCartItem(_currentUserId, cartItem.configurationKey).catch(
-            console.error,
-          );
-        }
-      },
-
-      loadServerCart: async (userId: string) => {
-        const { cartProducts, cartOwnerId } = get();
-        const hasSameUserCart = cartOwnerId === userId;
-        const hasGuestCart = cartOwnerId === null && cartProducts.length > 0;
-
-        // Treat the same user's persisted cart as authoritative so removals
-        // are not resurrected by stale rows after a fast refresh.
-        if (hasSameUserCart) {
-          await syncLocalCartToServer(userId, cartProducts, {
-            mode: "replace",
-          }).catch(console.error);
-        } else if (hasGuestCart) {
-          await syncLocalCartToServer(userId, cartProducts, {
-            mode: "merge",
-          }).catch(console.error);
-        }
-
-        const serverCart = await fetchCartFromServer(userId).catch(
-          () => [] as CartProduct[],
-        );
-        const normalizedServerCart = normalizeCartProducts(serverCart);
-        set({
-          cartProducts: normalizedServerCart,
-          cartOwnerId: userId,
-          totalPrice: getTotalPrice(normalizedServerCart),
         });
       },
 
       clearLocalCart: () => {
         set({
           cartProducts: [],
-          cartOwnerId: null,
           totalPrice: 0,
-          isLoggedIn: false,
         });
       },
     }),
@@ -269,7 +188,6 @@ export const useStore = create<StoreState>()(
       name: "amerce-store",
       partialize: (state) => ({
         cartProducts: state.cartProducts,
-        cartOwnerId: state.cartOwnerId,
         totalPrice: state.totalPrice,
       }),
       storage: {
@@ -277,7 +195,6 @@ export const useStore = create<StoreState>()(
           name,
         ): StorageValue<{
           cartProducts: CartProduct[];
-          cartOwnerId: string | null;
           totalPrice: number;
         }> | null => {
           if (typeof window === "undefined") return null;
@@ -286,7 +203,6 @@ export const useStore = create<StoreState>()(
           try {
             const parsed = JSON.parse(str) as StorageValue<{
               cartProducts: CartProduct[];
-              cartOwnerId: string | null;
               totalPrice: number;
             }>;
             if (parsed?.state?.cartProducts) {
@@ -294,9 +210,6 @@ export const useStore = create<StoreState>()(
                 parsed.state.cartProducts,
               );
               parsed.state.totalPrice = getTotalPrice(parsed.state.cartProducts);
-            }
-            if (parsed?.state && parsed.state.cartOwnerId === undefined) {
-              parsed.state.cartOwnerId = null;
             }
             return parsed;
           } catch {
@@ -307,7 +220,6 @@ export const useStore = create<StoreState>()(
           name,
           value: StorageValue<{
             cartProducts: CartProduct[];
-            cartOwnerId: string | null;
             totalPrice: number;
           }>,
         ) => {
@@ -345,9 +257,6 @@ function getContextSnapshot(state: StoreState) {
     quantityInCart: state.quantityInCart,
     activeCartProduct: state.activeCartProduct,
     setActiveCartProduct: state.setActiveCartProduct,
-    isLoggedIn: state.isLoggedIn,
-    setIsLoggedIn: state.setIsLoggedIn,
-    loadServerCart: state.loadServerCart,
     clearLocalCart: state.clearLocalCart,
     removeFromCart: state.removeFromCart,
   };

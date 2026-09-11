@@ -54,6 +54,20 @@ function cleanAddOnDescription(description?: string): string | undefined {
     : normalized;
 }
 
+function isFrameTypeAddOnGroup(group: ProductAddOnGroup): boolean {
+  const items = group.items ?? [];
+  if (group.selectionMode !== "single" || items.length < 2) {
+    return false;
+  }
+
+  return items.every((item) => {
+    const sourceFieldName = item.metadata?.sourceFieldName?.toLowerCase() ?? "";
+    const hoverDescription = item.hoverDescription?.toLowerCase() ?? "";
+
+    return sourceFieldName.includes("frame type") || hoverDescription.includes("frame type");
+  });
+}
+
 function sanitizeProductAddOnGroups(
   groups?: ProductAddOnGroup[],
 ): ProductAddOnGroup[] | undefined {
@@ -62,6 +76,10 @@ function sanitizeProductAddOnGroups(
   }
 
   const sanitizedGroups = groups.flatMap((group) => {
+    if (isFrameTypeAddOnGroup(group)) {
+      return [];
+    }
+
     const sanitizedItems = (group.items ?? []).flatMap((item) => {
       const nextItem = isConditionalAddOnOption(item) ? null : cloneAddOnOption(item);
       return nextItem ? [nextItem] : [];

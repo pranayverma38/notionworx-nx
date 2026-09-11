@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import { useEffect, useMemo, useState } from "react";
+import { useMemo, useState } from "react";
 
 import CartAddOnSummary from "@/components/common/CartAddOnSummary";
 import { useContextElement, type CartProduct } from "@/context/Context";
@@ -69,16 +69,12 @@ export default function ShoppingCart() {
   const discount = 0;
   const orderTotal = Math.max(0, totalPrice - discount);
   const depositEligible = orderTotal > DEPOSIT_ELIGIBILITY_THRESHOLD;
+  const selectedPayMode =
+    depositEligible && payMode === "deposit" ? "deposit" : "full";
   const parsedDeposit = Math.max(MIN_DEPOSIT, Math.min(orderTotal, parseFloat(depositAmount) || MIN_DEPOSIT));
-  const amountDue = payMode === "full" ? orderTotal : parsedDeposit;
+  const amountDue = selectedPayMode === "full" ? orderTotal : parsedDeposit;
   const amountToFreeship = Math.max(0, FREE_SHIPPING_THRESHOLD - totalPrice);
   const shipProgress = Math.min(100, (totalPrice / FREE_SHIPPING_THRESHOLD) * 100);
-
-  useEffect(() => {
-    if (!depositEligible && payMode === "deposit") {
-      setPayMode("full");
-    }
-  }, [depositEligible, payMode]);
 
   const removeLine = (id: ProductId) => removeFromCart(id);
   const setQty = (id: ProductId, qty: number) => {
@@ -230,8 +226,8 @@ export default function ShoppingCart() {
                     <button key={mode} onClick={() => setPayMode(mode)} style={{
                       padding: "9px 8px", borderRadius: "9px", cursor: "pointer",
                       border: "none",
-                      background: payMode === mode ? "#111" : "transparent",
-                      color: disabled ? "#9ca3af" : payMode === mode ? "#fff" : "#6b7280",
+                      background: selectedPayMode === mode ? "#111" : "transparent",
+                      color: disabled ? "#9ca3af" : selectedPayMode === mode ? "#fff" : "#6b7280",
                       opacity: disabled ? 0.7 : 1,
                       fontWeight: 600, fontSize: "0.82rem",
                       transition: "background 0.25s, color 0.25s",
@@ -251,7 +247,7 @@ export default function ShoppingCart() {
                 )}
 
                 {/* Deposit amount input — always rendered, CSS drives open/close */}
-                <div className={`deposit-panel${payMode === "deposit" ? " open" : ""}`}
+                <div className={`deposit-panel${selectedPayMode === "deposit" ? " open" : ""}`}
                   style={{ background: "#f9fafb", borderRadius: "10px", padding: "0 14px" }}>
                   <div style={{ padding: "14px 0" }}>
                     <label style={{ fontSize: "0.82rem", fontWeight: 600, color: "#374151", display: "block", marginBottom: "8px" }}>
@@ -286,13 +282,13 @@ export default function ShoppingCart() {
 
               {/* Amount due */}
               <div style={{
-                background: payMode === "deposit" ? "#fffbeb" : "#f0fdf4",
-                border: `1px solid ${payMode === "deposit" ? "#fde68a" : "#bbf7d0"}`,
+                background: selectedPayMode === "deposit" ? "#fffbeb" : "#f0fdf4",
+                border: `1px solid ${selectedPayMode === "deposit" ? "#fde68a" : "#bbf7d0"}`,
                 borderRadius: "10px", padding: "12px 16px", marginBottom: "16px",
                 display: "flex", justifyContent: "space-between", alignItems: "center"
               }}>
                 <span style={{ fontWeight: 600, fontSize: "0.88rem", color: "#374151" }}>
-                  {payMode === "deposit" ? "Due Today" : "Total Due"}
+                  {selectedPayMode === "deposit" ? "Due Today" : "Total Due"}
                 </span>
                 <span style={{ fontWeight: 800, fontSize: "1.25rem", color: "#111" }}>
                   {formatPrice(amountDue)}

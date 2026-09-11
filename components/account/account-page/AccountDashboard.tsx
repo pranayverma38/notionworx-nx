@@ -2,25 +2,54 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
+
 import { AccountSection } from "@/components/account/AccountSection";
-import { createClient } from "@/lib/supabase/client";
 import { useAuth } from "@/context/AuthContext";
 import { formatPrice } from "@/utils/formatPrice";
-import type { Tables } from "@/types/supabase";
-
-type Order = Tables<"orders">;
+import type { AccountOrder } from "@/types/medusa";
 
 export default function AccountDashboard() {
   const { user } = useAuth();
-  const supabase = createClient();
-  const [orders, setOrders] = useState<Order[]>([]);
+  const [orders, setOrders] = useState<AccountOrder[]>([]);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    if (!user) return;
-    supabase.from("orders").select("*").eq("user_id", user.id)
-      .order("created_at", { ascending: false })
-      .then(({ data }) => { setOrders(data ?? []); setLoading(false); });
+    if (!user) {
+      setOrders([]);
+      setLoading(false);
+      return;
+    }
+
+    let isCancelled = false;
+
+    async function loadOrders() {
+      try {
+        const response = await fetch("/api/account/orders", {
+          method: "GET",
+          credentials: "include",
+          cache: "no-store",
+        });
+        const payload = (await response.json()) as {
+          orders?: AccountOrder[];
+        };
+
+        if (!response.ok || isCancelled) {
+          return;
+        }
+
+        setOrders(payload.orders ?? []);
+      } finally {
+        if (!isCancelled) {
+          setLoading(false);
+        }
+      }
+    }
+
+    void loadOrders();
+
+    return () => {
+      isCancelled = true;
+    };
   }, [user]);
 
   const stats = {
@@ -32,11 +61,13 @@ export default function AccountDashboard() {
 
   const recentOrders = orders.slice(0, 5);
 
-  const STATUS_CONFIG: Record<string, { label: string; cls: string }> = {
+  const STATUS_CONFIG: Record<AccountOrder["status"], { label: string; cls: string }> = {
     pending:   { label: "Pending",   cls: "stt-pending" },
-    delivery:  { label: "Delivery",  cls: "stt-delivery" },
+    requires_action: { label: "Action Needed", cls: "stt-delivery" },
     completed: { label: "Completed", cls: "stt-completed" },
     canceled:  { label: "Canceled",  cls: "stt-canceled" },
+    draft: { label: "Draft", cls: "stt-pending" },
+    archived: { label: "Archived", cls: "stt-completed" },
   };
 
   return (
@@ -89,10 +120,12 @@ export default function AccountDashboard() {
                   const cfg = STATUS_CONFIG[order.status] ?? STATUS_CONFIG.pending;
                   return (
                     <tr key={order.id} className="tb-order-item">
-                      <td className="tb-order_code fw-medium">{order.order_number}</td>
-                      <td className="tb-order_price fw-medium">{formatPrice(order.total_price)}</td>
+                      <td className="tb-order_code fw-medium">
+                        {order.displayId != null ? `#${order.displayId}` : order.id}
+                      </td>
+                      <td className="tb-order_price fw-medium">{formatPrice(order.total)}</td>
                       <td className="cl-text-2" style={{ fontSize: "0.85rem" }}>
-                        {new Date(order.created_at).toLocaleDateString()}
+                        {new Date(order.createdAt).toLocaleDateString()}
                       </td>
                       <td>
                         <div className={`tb-order_status text-label ${cfg.cls}`}>{cfg.label}</div>

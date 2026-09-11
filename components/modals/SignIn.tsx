@@ -4,7 +4,6 @@ import { useRouter } from "next/navigation";
 import { useState, useRef } from "react";
 
 import { PasswordField } from "@/components/forms/PasswordField";
-import { createClient, withTimeout } from "@/lib/supabase/client";
 
 export default function SignIn({
   registerModalElement,
@@ -12,7 +11,6 @@ export default function SignIn({
   registerModalElement?: (el: HTMLElement | null) => void;
 }) {
   const router = useRouter();
-  const supabase = createClient();
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
@@ -24,10 +22,21 @@ export default function SignIn({
     setError("");
     setLoading(true);
     try {
-      const { error } = await withTimeout(supabase.auth.signInWithPassword({ email, password }));
+      const response = await fetch("/api/auth/login", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        credentials: "include",
+        body: JSON.stringify({
+          email,
+          password,
+        }),
+      });
+      const payload = (await response.json()) as { error?: string };
 
-      if (error) {
-        setError(error.message);
+      if (!response.ok) {
+        setError(payload.error ?? "Unable to sign in.");
         return;
       }
 
@@ -35,6 +44,7 @@ export default function SignIn({
       closeRef.current?.click();
       setEmail("");
       setPassword("");
+      router.push("/account-page");
       router.refresh();
     } catch (err: unknown) {
       const msg = err instanceof Error ? err.message : "Something went wrong. Please try again.";

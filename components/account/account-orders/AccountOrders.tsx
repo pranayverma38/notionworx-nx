@@ -1,56 +1,80 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
-import { AccountSection } from "@/components/account/AccountSection";
-import { createClient } from "@/lib/supabase/client";
-import { useAuth } from "@/context/AuthContext";
-import type { Tables } from "@/types/supabase";
-import { formatPrice } from "@/utils/formatPrice";
 
-type Order = Tables<"orders">;
-type OrderStatus = "pending" | "delivery" | "completed" | "canceled";
+import { AccountSection } from "@/components/account/AccountSection";
+import { useAuth } from "@/context/AuthContext";
+import { formatPrice } from "@/utils/formatPrice";
+import type { AccountOrder } from "@/types/medusa";
+
+type OrderStatus = AccountOrder["status"];
 
 const STATUS_CONFIG: Record<OrderStatus, { label: string; cls: string }> = {
   pending:   { label: "Pending",   cls: "stt-pending" },
-  delivery:  { label: "Delivery",  cls: "stt-delivery" },
+  requires_action: { label: "Action Needed", cls: "stt-delivery" },
   completed: { label: "Completed", cls: "stt-completed" },
-  canceled:  { label: "Canceled",  cls: "stt-canceled" },
+  canceled: { label: "Canceled", cls: "stt-canceled" },
+  draft: { label: "Draft", cls: "stt-pending" },
+  archived: { label: "Archived", cls: "stt-completed" },
 };
 
 const TABS = [
   { id: "all-order", label: "All Order" },
   { id: "pending",   label: "Pending" },
-  { id: "delivery",  label: "Delivery" },
+  { id: "requires_action", label: "Action Needed" },
   { id: "completed", label: "Completed" },
   { id: "canceled",  label: "Canceled" },
 ] as const;
 
 export default function AccountOrders() {
   const { user } = useAuth();
-  const supabase = createClient();
-  const [orders, setOrders] = useState<Order[]>([]);
+  const [orders, setOrders] = useState<AccountOrder[]>([]);
   const [loading, setLoading] = useState(true);
   const [activeTab, setActiveTab] = useState("all-order");
-  const [canceling, setCanceling] = useState<string | null>(null);
 
   useEffect(() => {
-    if (!user) return;
-    supabase.from("orders").select("*").eq("user_id", user.id)
-      .order("created_at", { ascending: false })
-      .then(({ data }) => { setOrders(data ?? []); setLoading(false); });
+    if (!user) {
+      setOrders([]);
+      setLoading(false);
+      return;
+    }
+
+    let isCancelled = false;
+
+    async function loadOrders() {
+      try {
+        const response = await fetch("/api/account/orders", {
+          method: "GET",
+          credentials: "include",
+          cache: "no-store",
+        });
+        const payload = (await response.json()) as {
+          orders?: AccountOrder[];
+        };
+
+        if (!response.ok || isCancelled) {
+          return;
+        }
+
+        setOrders(payload.orders ?? []);
+      } finally {
+        if (!isCancelled) {
+          setLoading(false);
+        }
+      }
+    }
+
+    void loadOrders();
+
+    return () => {
+      isCancelled = true;
+    };
   }, [user]);
 
   const visible = useMemo(() =>
     activeTab === "all-order" ? orders : orders.filter(o => o.status === activeTab),
     [orders, activeTab]
   );
-
-  async function cancelOrder(orderId: string) {
-    setCanceling(orderId);
-    await supabase.from("orders").update({ status: "canceled" }).eq("id", orderId);
-    setOrders(prev => prev.map(o => o.id === orderId ? { ...o, status: "canceled" } : o));
-    setCanceling(null);
-  }
 
   return (
     <AccountSection title="Your Orders" sectionClassName="flat-spacing flat-animate-tab">
@@ -79,14 +103,15 @@ export default function AccountOrders() {
             ) : (
               <div className="my-order_list d-grid gap-24">
                 {visible.map(order => {
-                  const cfg = STATUS_CONFIG[order.status as OrderStatus] ?? STATUS_CONFIG.pending;
-                  const items = Array.isArray(order.items) ? order.items as Record<string, unknown>[] : [];
-                  const canCancel = order.status === "pending" || order.status === "delivery";
+                  const cfg = STATUS_CONFIG[order.status] ?? STATUS_CONFIG.pending;
+                  const items = order.items ?? [];
                   return (
                     <div key={order.id} className="wg-my-order">
                       <div className="order-heading">
                         <div className="order_number fw-medium">
-                          Order: <span className="number-code fw-semibold">{order.order_number}</span>
+                          Order: <span className="number-code fw-semibold">
+                            {order.displayId != null ? `#${order.displayId}` : order.id}
+                          </span>
                         </div>
                         <div className="order_status fw-medium d-flex align-items-center gap-8">
                           Status:
@@ -99,28 +124,22 @@ export default function AccountOrders() {
                         ) : items.map((item, i) => (
                           <div key={i} className="order_prd_item">
                             <div className="prd__info">
-                              <p className="name fw-medium">{String(item.name ?? "Product")}</p>
-                              {item.variant && <p className="type cl-text-2">{String(item.variant)}</p>}
+                              <p className="name fw-medium">{item.name}</p>
+                              {item.variant && <p className="type cl-text-2">{item.variant}</p>}
                             </div>
                             <div className="prd__price fw-medium">
-                              <span className="quantity">{Number(item.qty ?? 1)}</span>x
-                              <span className="price">{formatPrice(Number(item.price ?? 0))}</span>
+                              <span className="quantity">{item.quantity}</span>x
+                              <span className="price">{formatPrice(item.unitPrice)}</span>
                             </div>
                           </div>
                         ))}
                         <div className="group-btn d-flex gap-8 mt-12">
                           <span className="fw-medium cl-text-2">
-                            Total: <strong>{formatPrice(order.total_price)}</strong>
+                            Total: <strong>{formatPrice(order.total)}</strong>
                           </span>
-                          {canCancel && (
-                            <button
-                              className="action-order tf-btn btn-stroke small ms-auto"
-                              disabled={canceling === order.id}
-                              onClick={() => cancelOrder(order.id)}
-                            >
-                              {canceling === order.id ? "Canceling…" : "Cancel Order"}
-                            </button>
-                          )}
+                          <span className="cl-text-2 ms-auto">
+                            {new Date(order.createdAt).toLocaleDateString()}
+                          </span>
                         </div>
                       </div>
                     </div>

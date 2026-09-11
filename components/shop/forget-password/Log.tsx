@@ -1,8 +1,55 @@
+"use client";
+
 import Link from "next/link";
+import { useState } from "react";
 
 import { PreventDefaultForm } from "@/components/forms/PreventDefaultForm";
 
 function Log() {
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+  const [error, setError] = useState("");
+  const [loading, setLoading] = useState(false);
+
+  async function handleSubmit(event: React.FormEvent) {
+    event.preventDefault();
+    setMessage("");
+    setError("");
+    setLoading(true);
+
+    try {
+      const response = await fetch("/api/auth/reset-password", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ email }),
+      });
+      const payload = (await response.json()) as {
+        error?: string;
+        message?: string;
+      };
+
+      if (!response.ok) {
+        setError(payload.error ?? "Unable to request a password reset.");
+        return;
+      }
+
+      setMessage(
+        payload.message ??
+          "If that email exists, password reset instructions will be handled by Medusa.",
+      );
+    } catch (requestError) {
+      setError(
+        requestError instanceof Error
+          ? requestError.message
+          : "Unable to request a password reset.",
+      );
+    } finally {
+      setLoading(false);
+    }
+  }
+
   return (
     <>
       <section className="section-log flat-spacing">
@@ -14,26 +61,30 @@ function Log() {
                 <p className="cl-text-2 mb-20">
                   We’ll send instructions to reset your password.
                 </p>
-                <PreventDefaultForm className="form-log">
+                <PreventDefaultForm className="form-log" onSubmit={handleSubmit}>
                   <div className="form-content">
+                    {error && <div className="alert alert-danger mb-3">{error}</div>}
+                    {message && <div className="alert alert-success mb-3">{message}</div>}
                     <fieldset className="tf-field">
                       <label
                         htmlFor="forgot-user2"
                         className="tf-lable fw-medium"
                       >
-                        Username or email address{" "}
+                        Email address{" "}
                         <span className="text-primary">*</span>
                       </label>
                       <input
-                        type="text"
+                        type="email"
                         id="forgot-user2"
-                        placeholder="Username or email address*"
+                        placeholder="Email address*"
                         required
+                        value={email}
+                        onChange={(event) => setEmail(event.target.value)}
                       />
                     </fieldset>
                   </div>
-                  <button type="submit" className="tf-btn animate-btn">
-                    Get Reset Code
+                  <button type="submit" className="tf-btn animate-btn" disabled={loading}>
+                    {loading ? "Submitting..." : "Send Reset Instructions"}
                   </button>
                 </PreventDefaultForm>
               </div>

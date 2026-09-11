@@ -57,6 +57,7 @@ class SourceProductBundle:
     manifest_record: JsonDict
     storefront_product: JsonDict
     add_on_group_keys: list[str]
+    shared_add_on_groups: list[JsonDict]
 
 
 def extract_exported_json_array(path: Path, export_name: str) -> list[JsonDict]:
@@ -98,6 +99,19 @@ def load_shared_addon_keys_by_handle() -> dict[str, list[str]]:
     }
 
 
+def load_shared_addon_groups_by_key() -> dict[str, JsonDict]:
+    """Return shared add-on group payloads indexed by group key."""
+    payload = read_json(SHARED_ADDON_CATALOG_PATH)
+    groups = payload.get("groups", {})
+    if not isinstance(groups, dict):
+        return {}
+    return {
+        str(key): value
+        for key, value in groups.items()
+        if isinstance(value, dict)
+    }
+
+
 def load_collection_bundles(
     collection_handle: str,
 ) -> tuple[JsonDict, list[SourceProductBundle]]:
@@ -124,6 +138,7 @@ def load_collection_bundles(
     }
     storefront_products_by_handle = load_storefront_products_by_handle()
     shared_addon_keys_by_handle = load_shared_addon_keys_by_handle()
+    shared_addon_groups_by_key = load_shared_addon_groups_by_key()
 
     bundles: list[SourceProductBundle] = []
     for handle in collection.get("productHandles", []):
@@ -139,6 +154,11 @@ def load_collection_bundles(
                 manifest_record=manifest_record,
                 storefront_product=storefront_products_by_handle.get(handle, {}),
                 add_on_group_keys=shared_addon_keys_by_handle.get(handle, []),
+                shared_add_on_groups=[
+                    shared_addon_groups_by_key[key]
+                    for key in shared_addon_keys_by_handle.get(handle, [])
+                    if key in shared_addon_groups_by_key
+                ],
             )
         )
 
@@ -187,6 +207,156 @@ def build_option_definitions(source_product: JsonDict) -> list[JsonDict]:
     return option_definitions
 
 
+def is_frame_type_add_on_group(group: JsonDict) -> bool:
+    """Return whether a shared add-on group represents Frame Type choices."""
+    if str(group.get("selectionMode") or "").strip().lower() != "single":
+        return False
+
+    items = group.get("items", [])
+    if not isinstance(items, list) or len(items) < 2:
+        return False
+
+    def looks_like_frame_type(item: JsonDict) -> bool:
+        metadata = item.get("metadata", {})
+        source_field_name = (
+            str(metadata.get("sourceFieldName") or "").strip().lower()
+            if isinstance(metadata, dict)
+            else ""
+        )
+        hover_description = str(item.get("hoverDescription") or "").strip().lower()
+        return "frame type" in source_field_name or "frame type" in hover_description
+
+    return all(isinstance(item, dict) and looks_like_frame_type(item) for item in items)
+
+
+def get_frame_type_add_on_group(
+    bundle: SourceProductBundle,
+) -> tuple[str | None, JsonDict | None]:
+    """Return the shared Frame Type group key/payload when present."""
+    for key, group in zip(bundle.add_on_group_keys, bundle.shared_add_on_groups):
+        if is_frame_type_add_on_group(group):
+            return key, group
+    return None, None
+
+
+def build_synthetic_frame_type_option_definitions(frame_type_group: JsonDict) -> list[JsonDict]:
+    """Build a Medusa option definition from the shared Frame Type add-on group."""
+    values = [
+        str(item.get("title") or "").strip()
+        for item in frame_type_group.get("items", [])
+        if isinstance(item, dict) and str(item.get("title") or "").strip()
+    ]
+    values = unique_preserving_order(values)
+    if not values:
+        return []
+    return [{"title": "Frame Type", "values": values}]
+
+
+def build_synthetic_frame_type_source_variants(
+    source_product: JsonDict,
+    frame_type_group: JsonDict,
+) -> list[JsonDict]:
+    """Synthesize real variants from the shared Frame Type add-on choices."""
+    base_variant = next(
+        (
+            variant
+            for variant in source_product.get("variants", [])
+            if isinstance(variant, dict)
+        ),
+        {},
+    )
+    base_price = float(base_variant.get("price") or source_product.get("price", {}).get("min") or 0)
+    compare_at_raw = base_variant.get("compareAtPrice")
+    try:
+        base_compare_at_price = float(compare_at_raw) if compare_at_raw is not None else None
+    except (TypeError, ValueError):
+        base_compare_at_price = None
+
+    base_sku = str(base_variant.get("sku") or "").strip()
+    synthetic_variants: list[JsonDict] = []
+
+    for index, item in enumerate(frame_type_group.get("items", [])):
+        if not isinstance(item, dict):
+            continue
+
+        title = str(item.get("title") or "").strip()
+        if not title:
+            continue
+
+        item_price = item.get("price", {})
+        surcharge_raw = item_price.get("surcharge") if isinstance(item_price, dict) else 0
+        try:
+            surcharge = float(surcharge_raw or 0)
+        except (TypeError, ValueError):
+            surcharge = 0.0
+
+        synthetic_variant: JsonDict = {
+            "title": title,
+            "sku": (
+                base_sku
+                if item.get("defaultSelected") or surcharge == 0
+                else f"{base_sku}-HEX" if base_sku else f"HEX-{index + 1}"
+            ),
+            "available": base_variant.get("available", True),
+            "price": base_price + surcharge,
+            "optionValues": [title],
+            "requiresShipping": base_variant.get("requiresShipping"),
+            "taxable": base_variant.get("taxable"),
+            "grams": base_variant.get("grams"),
+            "position": index + 1,
+        }
+        if base_compare_at_price is not None and base_compare_at_price > 0:
+            synthetic_variant["compareAtPrice"] = base_compare_at_price + surcharge
+        if item.get("defaultSelected") is True:
+            synthetic_variant["defaultSelected"] = True
+
+        synthetic_variants.append(synthetic_variant)
+
+    return synthetic_variants
+
+
+def resolve_variant_model(bundle: SourceProductBundle) -> tuple[list[JsonDict], list[JsonDict]]:
+    """Resolve the effective Medusa option/variant model for one product."""
+    source_product = bundle.source_product
+    option_definitions = build_option_definitions(source_product)
+    source_variants = [
+        variant
+        for variant in source_product.get("variants", [])
+        if isinstance(variant, dict)
+    ]
+
+    if option_definitions and source_variants:
+        return option_definitions, source_variants
+
+    _frame_type_key, frame_type_group = get_frame_type_add_on_group(bundle)
+    if frame_type_group:
+        synthetic_option_definitions = build_synthetic_frame_type_option_definitions(
+            frame_type_group,
+        )
+        synthetic_source_variants = build_synthetic_frame_type_source_variants(
+            source_product,
+            frame_type_group,
+        )
+        if synthetic_option_definitions and synthetic_source_variants:
+            return synthetic_option_definitions, synthetic_source_variants
+
+    return option_definitions, source_variants
+
+
+def get_effective_add_on_group_keys(bundle: SourceProductBundle) -> list[str]:
+    """Return shared add-on keys, excluding Frame Type when modeled as variants."""
+    option_definitions, source_variants = resolve_variant_model(bundle)
+    has_frame_type_variants = (
+        len(option_definitions) == 1
+        and str(option_definitions[0].get("title") or "").strip().lower() == "frame type"
+        and len(source_variants) >= 2
+    )
+    frame_type_key, _frame_type_group = get_frame_type_add_on_group(bundle)
+    if not has_frame_type_variants or not frame_type_key:
+        return list(bundle.add_on_group_keys)
+    return [key for key in bundle.add_on_group_keys if key != frame_type_key]
+
+
 def build_source_variant_label(option_names: list[str], source_variant: JsonDict) -> str:
     """Build the storefront selector value for one source variant."""
     option_values = [
@@ -205,13 +375,12 @@ def build_source_variant_label(option_names: list[str], source_variant: JsonDict
 
 
 def build_storefront_variant_catalog(
-    source_product: JsonDict,
     *,
     option_definitions: list[JsonDict],
+    source_variants: list[JsonDict],
 ) -> tuple[str | None, list[str], list[JsonDict]]:
     """Build selector metadata mirroring the storefront's variant behavior."""
     option_names = [str(option["title"]) for option in option_definitions]
-    source_variants = source_product.get("variants", [])
     entries: list[JsonDict] = []
 
     for source_variant in source_variants:
@@ -468,10 +637,10 @@ def build_product_metadata(
     """Build fidelity-critical Medusa metadata for one product."""
     source_product = bundle.source_product
     storefront_product = bundle.storefront_product
-    option_definitions = build_option_definitions(source_product)
+    option_definitions, source_variants = resolve_variant_model(bundle)
     variant_label, sizes, size_variants = build_storefront_variant_catalog(
-        source_product,
         option_definitions=option_definitions,
+        source_variants=source_variants,
     )
 
     return {
@@ -498,8 +667,8 @@ def build_product_metadata(
         "dimensions_text": storefront_product.get("dimensionsText"),
         "warranty_html": storefront_product.get("warrantyHtml"),
         "warranty_text": storefront_product.get("warrantyText"),
-        "source_options": source_product.get("options", []),
-        "source_variants": source_product.get("variants", []),
+        "source_options": option_definitions or source_product.get("options", []),
+        "source_variants": source_variants or source_product.get("variants", []),
         "source_variant_label": storefront_product.get("variantLabel") or variant_label,
         "source_sizes": storefront_product.get("sizes", []) or sizes,
         "source_size_variants": storefront_product.get("sizeVariants", []) or size_variants,
@@ -510,7 +679,7 @@ def build_product_metadata(
         "source_badge_subtext": storefront_product.get("badgeSubtext"),
         "source_description": storefront_product.get("description"),
         "source_card_variant": storefront_product.get("cardVariant", ""),
-        "source_add_on_group_keys": bundle.add_on_group_keys,
+        "source_add_on_group_keys": get_effective_add_on_group_keys(bundle),
         "local_image_paths": [
             image.get("localPath")
             for image in source_product.get("images", [])
@@ -540,12 +709,7 @@ def build_product_payload(
         if join_public_url(site_url, image.get("localPath"))
     ]
     thumbnail = images[0]["url"] if images else None
-    option_definitions = build_option_definitions(source_product)
-    source_variants = [
-        variant
-        for variant in source_product.get("variants", [])
-        if isinstance(variant, dict)
-    ]
+    option_definitions, source_variants = resolve_variant_model(bundle)
     metadata = build_product_metadata(bundle)
 
     if option_definitions and source_variants:
@@ -637,6 +801,96 @@ def build_product_update_payload(
     return payload
 
 
+def build_frame_type_variant_update_payload(
+    bundle: SourceProductBundle,
+    existing_product: JsonDict,
+    *,
+    collection_id: str | None,
+    sales_channel_id: str | None,
+    region: RegionContext | None,
+) -> JsonDict | None:
+    """Build an in-place product update that converts default variants to Frame Type variants."""
+    option_definitions, source_variants = resolve_variant_model(bundle)
+    if not (
+        len(option_definitions) == 1
+        and str(option_definitions[0].get("title") or "").strip().lower() == "frame type"
+        and len(source_variants) >= 2
+    ):
+        return None
+
+    metadata = build_product_metadata(bundle)
+    source_product = bundle.source_product
+    existing_options = existing_product.get("options", [])
+    existing_variants = existing_product.get("variants", [])
+    existing_option_id = (
+        str(existing_options[0].get("id")).strip()
+        if existing_options and existing_options[0].get("id")
+        else None
+    )
+
+    payload: JsonDict = {
+        "title": source_product["name"],
+        "handle": source_product["handle"],
+        "external_id": (
+            str(source_product.get("id"))
+            if source_product.get("id") is not None
+            else None
+        ),
+        "description": metadata.get("description_text") or "",
+        "status": "published",
+        "metadata": metadata,
+        "options": [
+            {
+                **({"id": existing_option_id} if existing_option_id else {}),
+                "title": "Frame Type",
+                "values": [str(option_value) for option_value in option_definitions[0]["values"]],
+            }
+        ],
+    }
+
+    if collection_id:
+        payload["collection_id"] = collection_id
+
+    if sales_channel_id:
+        payload["sales_channels"] = [{"id": sales_channel_id}]
+
+    option_names = [str(option_definitions[0]["title"])]
+    default_source_variant = next(
+        (
+            variant
+            for variant in source_variants
+            if variant.get("defaultSelected") is True
+            or float(variant.get("price") or 0) == float(source_product.get("price", {}).get("min") or 0)
+        ),
+        source_variants[0],
+    )
+    existing_variant_by_title = {
+        str(variant.get("title") or "").strip(): variant
+        for variant in existing_variants
+        if variant.get("title")
+    }
+    current_default_variant = existing_variants[0] if existing_variants else None
+
+    variant_payloads: list[JsonDict] = []
+    for index, source_variant in enumerate(source_variants):
+        variant_payload = build_variant_payload(
+            source_variant,
+            option_names,
+            region,
+            product_handle=source_product["handle"],
+            variant_index=index,
+        )
+        existing_variant = existing_variant_by_title.get(str(source_variant.get("title") or "").strip())
+        if not existing_variant and current_default_variant and source_variant == default_source_variant:
+            existing_variant = current_default_variant
+        if existing_variant and existing_variant.get("id"):
+            variant_payload["id"] = existing_variant["id"]
+        variant_payloads.append(variant_payload)
+
+    payload["variants"] = variant_payloads
+    return payload
+
+
 def sync_existing_product_data(
     base_url: str,
     admin_api_key: str,
@@ -645,6 +899,7 @@ def sync_existing_product_data(
     *,
     collection_id: str | None,
     sales_channel_id: str | None,
+    region: RegionContext | None,
 ) -> dict[str, Any]:
     """Refresh fidelity-critical metadata on existing Medusa products."""
     updated_handles: list[str] = []
@@ -661,12 +916,19 @@ def sync_existing_product_data(
             )
             continue
 
-        payload = build_product_update_payload(
+        target_collection_id = existing.get("collection_id") or collection_id
+        payload = build_frame_type_variant_update_payload(
+            bundle,
+            existing,
+            collection_id=target_collection_id,
+            sales_channel_id=sales_channel_id,
+            region=region,
+        ) or build_product_update_payload(
             bundle,
             # Preserve an existing primary Medusa collection assignment so
             # overlapping collection syncs refresh fidelity metadata without
             # bouncing the product between collections.
-            collection_id=existing.get("collection_id") or collection_id,
+            collection_id=target_collection_id,
             sales_channel_id=sales_channel_id,
         )
 
@@ -907,6 +1169,7 @@ def main() -> None:
         existing_products,
         collection_id=collection_id,
         sales_channel_id=sales_channel_id,
+        region=region,
     )
     existing_products = fetch_existing_products(args.base_url, args.admin_api_key)
     image_result = sync_product_images(

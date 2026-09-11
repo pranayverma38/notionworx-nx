@@ -5,7 +5,6 @@ import { useRouter } from "next/navigation";
 import { useState } from "react";
 
 import { PasswordField } from "@/components/forms/PasswordField";
-import { createClient, withTimeout } from "@/lib/supabase/client";
 
 const COUNTRY_CODES = [
   { code: "+1", label: "🇺🇸 +1" }, { code: "+44", label: "🇬🇧 +44" },
@@ -17,7 +16,6 @@ const COUNTRY_CODES = [
 
 function Log() {
   const router = useRouter();
-  const supabase = createClient();
   const [firstName, setFirstName] = useState("");
   const [lastName, setLastName] = useState("");
   const [phoneCode, setPhoneCode] = useState("+1");
@@ -36,16 +34,27 @@ function Log() {
 
     setLoading(true);
     try {
-      const { error: signUpError } = await withTimeout(
-        supabase.auth.signUp({
-          email, password,
-          options: { data: { first_name: firstName, last_name: lastName, phone_country_code: phoneCode, phone_number: phone } },
-        })
-      );
-      if (signUpError) { setError(signUpError.message); return; }
+      const response = await fetch("/api/auth/register", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        credentials: "include",
+        body: JSON.stringify({
+          firstName,
+          lastName,
+          phoneCode,
+          phone,
+          email,
+          password,
+        }),
+      });
+      const payload = (await response.json()) as { error?: string };
 
-      const { error: signInError } = await withTimeout(supabase.auth.signInWithPassword({ email, password }));
-      if (signInError) { setError("Account created! Please log in."); setTimeout(() => router.push("/login"), 2000); return; }
+      if (!response.ok) {
+        setError(payload.error ?? "Unable to create your account.");
+        return;
+      }
 
       router.push("/account-page");
       router.refresh();

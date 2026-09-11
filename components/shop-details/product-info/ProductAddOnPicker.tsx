@@ -19,14 +19,6 @@ export function ProductAddOnPicker() {
     setAddOnSelections,
     addOnSelectionSubtotal,
   } = useProduct();
-  const frameTypeGroups = useMemo(
-    () => addOnGroups.filter(isFrameTypeSelectorGroup),
-    [addOnGroups],
-  );
-  const standardGroups = useMemo(
-    () => addOnGroups.filter((group) => !isFrameTypeSelectorGroup(group)),
-    [addOnGroups],
-  );
 
   const selectedKeys = useMemo(
     () =>
@@ -48,20 +40,7 @@ export function ProductAddOnPicker() {
 
   return (
     <div id="product-addons-form" className="product-addons">
-      {frameTypeGroups.map((group) => (
-        <FrameTypeSelector
-          key={group.id}
-          group={group}
-          selectedKeys={selectedKeys}
-          onSelect={(option) =>
-            setAddOnSelections((previousSelections) =>
-              selectSingleOption(previousSelections, group, option),
-            )
-          }
-        />
-      ))}
-
-      {standardGroups.length ? (
+      {addOnGroups.length ? (
         <div className="product-addons__header">
           <div className="product-addons__header-copy">
             <h5 className="product-addons__title">Accessories &amp; Upgrades</h5>
@@ -81,7 +60,7 @@ export function ProductAddOnPicker() {
         </div>
       ) : null}
 
-      {standardGroups.map((group) => (
+      {addOnGroups.map((group) => (
         <section key={group.id} className="product-addons__group">
           <div className="product-addons__group-header">
             <div>
@@ -192,104 +171,6 @@ export function ProductAddOnPicker() {
         </section>
       ))}
     </div>
-  );
-}
-
-function FrameTypeSelector({
-  group,
-  selectedKeys,
-  onSelect,
-}: {
-  group: ProductAddOnGroup;
-  selectedKeys: Set<string>;
-  onSelect: (option: ProductAddOnOption) => void;
-}) {
-  const options = group.items ?? [];
-  const [isInfoOpen, setIsInfoOpen] = useState(false);
-  const selectedOption =
-    options.find((option) =>
-      selectedKeys.has(buildSelectionKey(group.id, option.id)),
-    ) ?? null;
-
-  return (
-    <section className="product-addons__frame-group">
-      <div className="product-addons__frame-header">
-        <p className="product-addons__frame-label">Frame Type</p>
-        <button
-          type="button"
-          className="product-addons__frame-info"
-          aria-label="Open frame type reference"
-          onClick={() => setIsInfoOpen(true)}
-        >
-          i
-        </button>
-      </div>
-      <div className="product-addons__frame-toggle" role="group" aria-label="Frame Type">
-        {options.map((option) => {
-          const isSelected = selectedKeys.has(
-            buildSelectionKey(group.id, option.id),
-          );
-
-          return (
-            <button
-              key={`${group.id}:${option.id}`}
-              type="button"
-              className={`product-addons__frame-button${
-                isSelected ? " is-active" : ""
-              }`}
-              onClick={() => onSelect(option)}
-              aria-pressed={isSelected}
-              title={getFrameTypeHoverText(option)}
-            >
-              {option.title}
-            </button>
-          );
-        })}
-      </div>
-      {selectedOption && isHexAluminumFrameType(selectedOption) ? (
-        <p className="product-addons__frame-note">
-          Hex Aluminum adds {formatPrice(selectedOption.price.surcharge)} per unit.
-        </p>
-      ) : null}
-      {isInfoOpen ? (
-        <div
-          className="product-addons__info-modal"
-          role="dialog"
-          aria-modal="true"
-          aria-label="Frame type reference"
-        >
-          <button
-            type="button"
-            className="product-addons__info-backdrop"
-            aria-label="Close frame type reference"
-            onClick={() => setIsInfoOpen(false)}
-          />
-          <div className="product-addons__info-dialog">
-            <div className="product-addons__info-dialog-header">
-              <h5 className="product-addons__info-title">Frame Type Reference</h5>
-              <button
-                type="button"
-                className="product-addons__info-close"
-                aria-label="Close frame type reference"
-                onClick={() => setIsInfoOpen(false)}
-              >
-                ×
-              </button>
-            </div>
-            <div className="product-addons__info-image-wrap">
-              <Image
-                src="/assets/images/frame-type/frame-type-info.jpeg"
-                alt="Frame type reference"
-                width={1536}
-                height={1024}
-                className="product-addons__info-image"
-                style={{ width: "100%", height: "auto" }}
-              />
-            </div>
-          </div>
-        </div>
-      ) : null}
-    </section>
   );
 }
 
@@ -536,76 +417,4 @@ function buildSelectionKey(
   return `${groupId}::${subgroupId ?? ""}::${addOnId}`;
 }
 
-function selectSingleOption(
-  selections: ProductAddOnSelection[],
-  group: ProductAddOnGroup,
-  option: ProductAddOnOption,
-  subgroup?: ProductAddOnSubgroup,
-): ProductAddOnSelection[] {
-  const selectionKey = buildSelectionKey(group.id, option.id, subgroup?.id);
-  const exists = selections.some(
-    (selection) =>
-      buildSelectionKey(
-        selection.groupId,
-        selection.addOnId,
-        selection.subgroupId,
-      ) === selectionKey,
-  );
 
-  if (exists) {
-    return selections;
-  }
-
-  const nextSelections = selections.filter(
-    (selection) =>
-      selection.groupId !== group.id ||
-      (selection.subgroupId ?? "") !== (subgroup?.id ?? ""),
-  );
-
-  return [
-    ...nextSelections,
-    {
-      groupId: group.id,
-      ...(subgroup?.id ? { subgroupId: subgroup.id } : {}),
-      addOnId: option.id,
-      quantity: Math.max(1, option.minQuantity ?? 1),
-    },
-  ];
-}
-
-function isFrameTypeSelectorGroup(group: ProductAddOnGroup): boolean {
-  const options = group.items ?? [];
-  if (options.length !== 2 || group.selectionMode !== "single") {
-    return false;
-  }
-
-  return options.every((option) => {
-    const sourceFieldName = option.metadata?.sourceFieldName?.toLowerCase() ?? "";
-    const hoverDescription = option.hoverDescription?.toLowerCase() ?? "";
-
-    return (
-      option.allowsQuantity === false &&
-      (sourceFieldName.includes("frame type") ||
-        hoverDescription.includes("frame type"))
-    );
-  });
-}
-
-function isHexAluminumFrameType(option: ProductAddOnOption): boolean {
-  return option.title.toLowerCase().includes("hex aluminum");
-}
-
-function getFrameTypeHoverText(option: ProductAddOnOption): string {
-  if (!isHexAluminumFrameType(option)) {
-    return option.title;
-  }
-
-  return [
-    `${option.title} (+${formatPrice(option.price.surcharge)} per unit)`,
-    "1. Larger & Stronger 40 MM Hex Legs",
-    "2. Adjustable Height",
-    "3. Rust Free Anodized Aluminum",
-    "4. Commercial Quality Construction",
-    "5. Light Weight & Easy To Transport",
-  ].join("\n");
-}

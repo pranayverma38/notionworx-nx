@@ -1,9 +1,8 @@
 "use client";
 
 import { useEffect, useState } from "react";
+
 import { AccountSection } from "@/components/account/AccountSection";
-import { PasswordField } from "@/components/forms/PasswordField";
-import { createClient, withTimeout } from "@/lib/supabase/client";
 import { useAuth } from "@/context/AuthContext";
 
 const COUNTRY_CODES = [
@@ -16,7 +15,6 @@ const COUNTRY_CODES = [
 
 export default function AccountSetting() {
   const { user } = useAuth();
-  const supabase = createClient();
 
   const [firstName, setFirstName] = useState("");
   const [lastName, setLastName] = useState("");
@@ -28,58 +26,135 @@ export default function AccountSetting() {
   const [saving, setSaving] = useState(false);
   const [infoMsg, setInfoMsg] = useState("");
 
-  const [currentPassword, setCurrentPassword] = useState("");
-  const [newPassword, setNewPassword] = useState("");
-  const [confirmNewPassword, setConfirmNewPassword] = useState("");
   const [pwSaving, setPwSaving] = useState(false);
   const [pwMsg, setPwMsg] = useState("");
 
-  // Load profile on mount
   useEffect(() => {
-    if (!user) return;
+    if (!user) {
+      return;
+    }
+
+    let isCancelled = false;
+
+    async function loadProfile() {
+      const response = await fetch("/api/account/profile", {
+        method: "GET",
+        credentials: "include",
+        cache: "no-store",
+      });
+      const payload = (await response.json()) as {
+        customer?: {
+          firstName: string;
+          lastName: string;
+          phoneCode: string;
+          phone: string;
+          gender: string;
+          dateOfBirth: string;
+          email: string;
+          companyName: string;
+        };
+      };
+
+      const customer = payload.customer;
+      if (!response.ok || !customer || isCancelled) {
+        return;
+      }
+
+      setFirstName(customer.firstName ?? "");
+      setLastName(customer.lastName ?? "");
+      setPhoneCode(customer.phoneCode ?? "+1");
+      setPhone(customer.phone ?? "");
+      setGender(customer.gender ?? "");
+      setDob(customer.dateOfBirth ?? "");
+      setEmail(customer.email ?? "");
+    }
+
     setEmail(user.email ?? "");
-    supabase.from("profiles").select("*").eq("id", user.id).single().then(({ data }) => {
-      if (!data) return;
-      setFirstName(data.first_name ?? "");
-      setLastName(data.last_name ?? "");
-      setPhoneCode(data.phone_country_code ?? "+1");
-      setPhone(data.phone_number ?? "");
-      setGender(data.gender ?? "");
-      setDob(data.date_of_birth ?? "");
-    });
+    void loadProfile();
+
+    return () => {
+      isCancelled = true;
+    };
   }, [user]);
 
   async function handleInfoSave(e: React.FormEvent) {
     e.preventDefault();
     if (!user) return;
     setSaving(true); setInfoMsg("");
-    const { error } = await supabase.from("profiles").update({
-      first_name: firstName, last_name: lastName,
-      phone_country_code: phoneCode, phone_number: phone,
-      gender: gender || null, date_of_birth: dob || null,
-    }).eq("id", user.id);
-    setInfoMsg(error ? `Error: ${error.message}` : "Profile updated successfully!");
-    setSaving(false);
+
+    try {
+      const response = await fetch("/api/account/profile", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        credentials: "include",
+        body: JSON.stringify({
+          firstName,
+          lastName,
+          phoneCode,
+          phone,
+          companyName: "",
+          gender,
+          dateOfBirth: dob,
+        }),
+      });
+      const payload = (await response.json()) as {
+        error?: string;
+      };
+
+      setInfoMsg(
+        response.ok
+          ? "Profile updated successfully!"
+          : `Error: ${payload.error ?? "Unable to update your profile."}`,
+      );
+    } catch (requestError) {
+      setInfoMsg(
+        `Error: ${
+          requestError instanceof Error
+            ? requestError.message
+            : "Unable to update your profile."
+        }`,
+      );
+    } finally {
+      setSaving(false);
+    }
   }
 
   async function handlePasswordSave(e: React.FormEvent) {
     e.preventDefault();
     setPwMsg("");
-    if (newPassword !== confirmNewPassword) { setPwMsg("New passwords do not match."); return; }
-    if (newPassword.length < 6) { setPwMsg("Password must be at least 6 characters."); return; }
     setPwSaving(true);
+
     try {
-      // Re-authenticate then update
-      const { error: signInErr } = await withTimeout(
-        supabase.auth.signInWithPassword({ email: user?.email ?? "", password: currentPassword })
+      const response = await fetch("/api/auth/reset-password", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          email: user?.email ?? "",
+        }),
+      });
+      const payload = (await response.json()) as {
+        error?: string;
+        message?: string;
+      };
+
+      if (!response.ok) {
+        setPwMsg(`Error: ${payload.error ?? "Unable to start the password reset flow."}`);
+        return;
+      }
+
+      setPwMsg(
+        payload.message ??
+          "Password reset instructions will be handled by the Medusa backend.",
       );
-      if (signInErr) { setPwMsg("Current password is incorrect."); return; }
-      const { error } = await withTimeout(supabase.auth.updateUser({ password: newPassword }));
-      if (error) { setPwMsg(`Error: ${error.message}`); return; }
-      setPwMsg("Password changed successfully!");
-      setCurrentPassword(""); setNewPassword(""); setConfirmNewPassword("");
-    } catch { setPwMsg("Something went wrong. Please try again."); }
-    finally { setPwSaving(false); }
+    } catch {
+      setPwMsg("Something went wrong. Please try again.");
+    } finally {
+      setPwSaving(false);
+    }
   }
 
   return (
@@ -140,30 +215,25 @@ export default function AccountSetting() {
           </div>
         </form>
 
-        {/* ── Change Password ── */}
-        <p className="mb-12 h6 fw-medium">Change Password</p>
+        {/* ── Password Reset ── */}
+        <p className="mb-12 h6 fw-medium">Password Reset</p>
         <form className="form-setting" onSubmit={handlePasswordSave}>
           <div className="form-content">
             {pwMsg && (
-              <div className={`alert mb-3 ${pwMsg.startsWith("Error") || pwMsg.includes("incorrect") || pwMsg.includes("match") || pwMsg.includes("wrong") ? "alert-danger" : "alert-success"}`}>
+              <div className={`alert mb-3 ${pwMsg.startsWith("Error") ? "alert-danger" : "alert-success"}`}>
                 {pwMsg}
               </div>
             )}
-            <fieldset className="tf-field password-wrapper">
-              <label htmlFor="s-cur-pw" className="tf-lable fw-medium">Current Password <span className="text-primary">*</span></label>
-              <PasswordField id="s-cur-pw" placeholder="Current password" required value={currentPassword} onChange={e => setCurrentPassword(e.target.value)} />
-            </fieldset>
-            <fieldset className="tf-field password-wrapper">
-              <label htmlFor="s-new-pw" className="tf-lable fw-medium">New Password <span className="text-primary">*</span></label>
-              <PasswordField id="s-new-pw" placeholder="New password" required value={newPassword} onChange={e => setNewPassword(e.target.value)} />
-            </fieldset>
-            <fieldset className="tf-field password-wrapper">
-              <label htmlFor="s-confirm-pw" className="tf-lable fw-medium">Confirm New Password <span className="text-primary">*</span></label>
-              <PasswordField id="s-confirm-pw" placeholder="Confirm new password" required value={confirmNewPassword} onChange={e => setConfirmNewPassword(e.target.value)} />
-            </fieldset>
+            <p className="cl-text-2">
+              Medusa’s customer API uses a reset-password flow rather than an authenticated
+              change-password endpoint. Send a reset email to your account address to update
+              your password securely.
+            </p>
           </div>
           <div className="btn-submit">
-            <button type="submit" className="tf-btn animate-btn" disabled={pwSaving}>{pwSaving ? "Updating…" : "Update Password"}</button>
+            <button type="submit" className="tf-btn animate-btn" disabled={pwSaving}>
+              {pwSaving ? "Sending…" : "Send Reset Instructions"}
+            </button>
           </div>
         </form>
       </div>
