@@ -42,15 +42,46 @@
       "thumbnail": "https://notionworxcanopy.com/assets/images/notionworx-inventory/10x10/10ft-back-wall/01.jpg",
       "options": [
         {
-          "title": "Default option",
+          "title": "Frame Type",
           "values": [
-            "Default option value"
+            "Hex Aluminum",
+            "Steel"
           ]
         }
       ],
       "variants": [
         {
-          "title": "Default variant",
+          "title": "Hex Aluminum",
+          "sku": "ITEM #: 10-BW-HEX",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 25500,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Frame Type": "Hex Aluminum"
+          },
+          "metadata": {
+            "source_variant_id": null,
+            "source_requires_shipping": true,
+            "source_taxable": false,
+            "source_grams": 4536,
+            "source_position": 1,
+            "source_sku": "ITEM #: 10-BW-HEX",
+            "source_option_values": [
+              "Hex Aluminum"
+            ],
+            "source_compare_at_price": 270.5
+          }
+        },
+        {
+          "title": "Steel",
           "sku": "ITEM #: 10-BW",
           "manage_inventory": false,
           "allow_backorder": true,
@@ -64,16 +95,17 @@
             }
           ],
           "options": {
-            "Default option": "Default option value"
+            "Frame Type": "Steel"
           },
           "metadata": {
-            "source_variant_id": 43238179209351,
+            "source_variant_id": null,
             "source_requires_shipping": true,
             "source_taxable": false,
             "source_grams": 4536,
-            "source_position": 1,
+            "source_position": 2,
+            "source_sku": "ITEM #: 10-BW",
             "source_option_values": [
-              "Default Title"
+              "Steel"
             ],
             "source_compare_at_price": 170.5
           }
@@ -121,37 +153,57 @@
         "warranty_text": "Factory Warranty\n\n- We stand behind the quality of our products. Our warranty covers any factory defects or damage that occurs during shipping. However, please note that we do not cover damage resulting from extreme weather conditions, misuse, or any circumstances beyond our control.",
         "source_options": [
           {
-            "name": "Title",
-            "position": 1,
+            "title": "Frame Type",
             "values": [
-              "Default Title"
+              "Hex Aluminum",
+              "Steel"
             ]
           }
         ],
         "source_variants": [
           {
-            "id": 43238179209351,
-            "title": "Default Title",
-            "sku": "ITEM #: 10-BW",
+            "title": "Hex Aluminum",
+            "sku": "ITEM #: 10-BW-HEX",
             "available": true,
-            "price": 155,
-            "compareAtPrice": 170.5,
+            "price": 255.0,
             "optionValues": [
-              "Default Title"
+              "Hex Aluminum"
             ],
             "requiresShipping": true,
             "taxable": false,
             "grams": 4536,
-            "position": 1
+            "position": 1,
+            "compareAtPrice": 270.5
+          },
+          {
+            "title": "Steel",
+            "sku": "ITEM #: 10-BW",
+            "available": true,
+            "price": 155.0,
+            "optionValues": [
+              "Steel"
+            ],
+            "requiresShipping": true,
+            "taxable": false,
+            "grams": 4536,
+            "position": 2,
+            "compareAtPrice": 170.5,
+            "defaultSelected": true
           }
         ],
-        "source_variant_label": null,
+        "source_variant_label": "Frame Type",
         "source_sizes": [
-          "Default option"
+          "Hex Aluminum",
+          "Steel"
         ],
         "source_size_variants": [
           {
-            "value": "Default option",
+            "value": "Hex Aluminum",
+            "price": 255.0,
+            "compareAtPrice": 270.5
+          },
+          {
+            "value": "Steel",
             "price": 155.0,
             "compareAtPrice": 170.5,
             "active": true
@@ -168,7 +220,6 @@
         "source_description": "Description/Feature - Wall is constructed of durable, weather-resistant 600 denier polyester - Dye sublimated on a white fabric - Hardware sold separately - Imprint Method: Full-Color Dye Sublimation Kit Includes - 1: 10' Full Wall - DOES NOT INCLUDE FRAME Materials - Wall: 600…",
         "source_card_variant": "",
         "source_add_on_group_keys": [
-          "supplied-frame-by-customer-e760e4e24688",
           "accessories-b04fc28012e1",
           "upgrades-d839e0054300"
         ],
@@ -234,6 +285,7 @@
             "source_taxable": false,
             "source_grams": 0,
             "source_position": 1,
+            "source_sku": "10-CA",
             "source_option_values": [
               "Default Title"
             ],
@@ -392,6 +444,7 @@
             "source_taxable": false,
             "source_grams": 0,
             "source_position": 1,
+            "source_sku": "ITEM #: 1-10CT",
             "source_option_values": [
               "Default Title"
             ],
@@ -574,6 +627,7 @@
             "source_taxable": false,
             "source_grams": 36287,
             "source_position": 1,
+            "source_sku": "ITEM #: 15-10FB",
             "source_option_values": [
               "Default Title"
             ],
@@ -715,15 +769,46 @@
       "thumbnail": "https://notionworxcanopy.com/assets/images/notionworx-inventory/10x15/half-side-walls/01.jpg",
       "options": [
         {
-          "title": "Default option",
+          "title": "Frame Type",
           "values": [
-            "Default option value"
+            "Hex Aluminum",
+            "Steel"
           ]
         }
       ],
       "variants": [
         {
-          "title": "Default variant",
+          "title": "Hex Aluminum",
+          "sku": "ITEM #: 10-SW-HEX",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 36500,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Frame Type": "Hex Aluminum"
+          },
+          "metadata": {
+            "source_variant_id": null,
+            "source_requires_shipping": true,
+            "source_taxable": false,
+            "source_grams": 9072,
+            "source_position": 1,
+            "source_sku": "ITEM #: 10-SW-HEX",
+            "source_option_values": [
+              "Hex Aluminum"
+            ],
+            "source_compare_at_price": 391.5
+          }
+        },
+        {
+          "title": "Steel",
           "sku": "ITEM #: 10-SW",
           "manage_inventory": false,
           "allow_backorder": true,
@@ -737,16 +822,17 @@
             }
           ],
           "options": {
-            "Default option": "Default option value"
+            "Frame Type": "Steel"
           },
           "metadata": {
-            "source_variant_id": 43238179012743,
+            "source_variant_id": null,
             "source_requires_shipping": true,
             "source_taxable": false,
             "source_grams": 9072,
-            "source_position": 1,
+            "source_position": 2,
+            "source_sku": "ITEM #: 10-SW",
             "source_option_values": [
-              "Default Title"
+              "Steel"
             ],
             "source_compare_at_price": 291.5
           }
@@ -802,37 +888,57 @@
         "warranty_text": "Factory Warranty\n\nWe stand behind the quality of our products. Our warranty covers any factory defects or damage that occurs during shipping. However, please note that we do not cover damage resulting from extreme weather conditions, misuse, or any circumstances beyond our control.",
         "source_options": [
           {
-            "name": "Title",
-            "position": 1,
+            "title": "Frame Type",
             "values": [
-              "Default Title"
+              "Hex Aluminum",
+              "Steel"
             ]
           }
         ],
         "source_variants": [
           {
-            "id": 43238179012743,
-            "title": "Default Title",
-            "sku": "ITEM #: 10-SW",
+            "title": "Hex Aluminum",
+            "sku": "ITEM #: 10-SW-HEX",
             "available": true,
-            "price": 265,
-            "compareAtPrice": 291.5,
+            "price": 365.0,
             "optionValues": [
-              "Default Title"
+              "Hex Aluminum"
             ],
             "requiresShipping": true,
             "taxable": false,
             "grams": 9072,
-            "position": 1
+            "position": 1,
+            "compareAtPrice": 391.5
+          },
+          {
+            "title": "Steel",
+            "sku": "ITEM #: 10-SW",
+            "available": true,
+            "price": 265.0,
+            "optionValues": [
+              "Steel"
+            ],
+            "requiresShipping": true,
+            "taxable": false,
+            "grams": 9072,
+            "position": 2,
+            "compareAtPrice": 291.5,
+            "defaultSelected": true
           }
         ],
-        "source_variant_label": null,
+        "source_variant_label": "Frame Type",
         "source_sizes": [
-          "Default option"
+          "Hex Aluminum",
+          "Steel"
         ],
         "source_size_variants": [
           {
-            "value": "Default option",
+            "value": "Hex Aluminum",
+            "price": 365.0,
+            "compareAtPrice": 391.5
+          },
+          {
+            "value": "Steel",
             "price": 265.0,
             "compareAtPrice": 291.5,
             "active": true
@@ -851,7 +957,6 @@
         "source_description": "10' Half Walls – Set of 2 (Single-Sided) Upgrade your canopy setup with a set of two 10' Half Walls, designed to enhance branding visibility, define vendor space, and provide partial wind protection without blocking customer access. Made from durable 600D weather-resistant polye…",
         "source_card_variant": "",
         "source_add_on_group_keys": [
-          "supplied-frame-by-customer-e760e4e24688",
           "accessories-b04fc28012e1",
           "upgrades-539fa8f7d4dc"
         ],
@@ -913,6 +1018,7 @@
             "source_taxable": false,
             "source_grams": 3629,
             "source_position": 1,
+            "source_sku": "None",
             "source_option_values": [
               "Default Title"
             ],
@@ -1078,6 +1184,7 @@
             "source_taxable": false,
             "source_grams": 0,
             "source_position": 1,
+            "source_sku": "ITEM #: LLT",
             "source_option_values": [
               "Default Title"
             ],
@@ -1256,6 +1363,7 @@
             "source_taxable": true,
             "source_grams": 0,
             "source_position": 1,
+            "source_sku": "PPS-300",
             "source_option_values": [
               "Default Title"
             ],
@@ -1432,6 +1540,7 @@
             "source_taxable": false,
             "source_grams": 9072,
             "source_position": 1,
+            "source_sku": "10-BB",
             "source_option_values": [
               "Default Title"
             ],
@@ -1627,6 +1736,7 @@
             "source_taxable": false,
             "source_grams": 36287,
             "source_position": 1,
+            "source_sku": "ITEM #: 1-10",
             "source_option_values": [
               "Hex Aluminum"
             ],
@@ -1656,6 +1766,7 @@
             "source_taxable": false,
             "source_grams": 36287,
             "source_position": 2,
+            "source_sku": "ITEM #: 1-10S",
             "source_option_values": [
               "Steel"
             ],
@@ -1710,8 +1821,7 @@
         "warranty_text": "Factory Warranty\n\n- We stand behind the quality of our products. Our warranty covers any factory defects or damage that occurs during shipping. However, please note that we do not cover damage resulting from extreme weather conditions, misuse, or any circumstances beyond our control.\n\n- Frame must be secured to the ground to prevent wind damage (failure to secure the tent voids the warranty)",
         "source_options": [
           {
-            "name": "Frame Type",
-            "position": 1,
+            "title": "Frame Type",
             "values": [
               "Hex Aluminum",
               "Steel"
@@ -1873,6 +1983,7 @@
             "source_taxable": false,
             "source_grams": 54431,
             "source_position": 1,
+            "source_sku": "Item #: 1-10Black",
             "source_option_values": [
               "Default Title"
             ],
@@ -2015,15 +2126,46 @@
       "thumbnail": "https://notionworxcanopy.com/assets/images/notionworx-inventory/10x10/premium-10x10-custom-canopy-1-10top/01.jpg",
       "options": [
         {
-          "title": "Default option",
+          "title": "Frame Type",
           "values": [
-            "Default option value"
+            "Hex Aluminum",
+            "Steel"
           ]
         }
       ],
       "variants": [
         {
-          "title": "Default variant",
+          "title": "Hex Aluminum",
+          "sku": "ITEM #: 1-10 TOP-HEX",
+          "manage_inventory": false,
+          "allow_backorder": true,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 39500,
+              "rules": {
+                "region_id": "reg_01M1E72MXQPP0NFZVD0BXD5X6X"
+              }
+            }
+          ],
+          "options": {
+            "Frame Type": "Hex Aluminum"
+          },
+          "metadata": {
+            "source_variant_id": null,
+            "source_requires_shipping": true,
+            "source_taxable": false,
+            "source_grams": 4536,
+            "source_position": 1,
+            "source_sku": "ITEM #: 1-10 TOP-HEX",
+            "source_option_values": [
+              "Hex Aluminum"
+            ],
+            "source_compare_at_price": 424.5
+          }
+        },
+        {
+          "title": "Steel",
           "sku": "ITEM #: 1-10 TOP",
           "manage_inventory": false,
           "allow_backorder": true,
@@ -2037,16 +2179,17 @@
             }
           ],
           "options": {
-            "Default option": "Default option value"
+            "Frame Type": "Steel"
           },
           "metadata": {
-            "source_variant_id": 43238179405959,
+            "source_variant_id": null,
             "source_requires_shipping": true,
             "source_taxable": false,
             "source_grams": 4536,
-            "source_position": 1,
+            "source_position": 2,
+            "source_sku": "ITEM #: 1-10 TOP",
             "source_option_values": [
-              "Default Title"
+              "Steel"
             ],
             "source_compare_at_price": 324.5
           }
@@ -2094,37 +2237,57 @@
         "warranty_text": "Factory Warranty\n\n- We stand behind the quality of our products. Our warranty covers any factory defects or damage that occurs during shipping. However, please note that we do not cover damage resulting from extreme weather conditions, misuse, or any circumstances beyond our control.",
         "source_options": [
           {
-            "name": "Title",
-            "position": 1,
+            "title": "Frame Type",
             "values": [
-              "Default Title"
+              "Hex Aluminum",
+              "Steel"
             ]
           }
         ],
         "source_variants": [
           {
-            "id": 43238179405959,
-            "title": "Default Title",
-            "sku": "ITEM #: 1-10 TOP",
+            "title": "Hex Aluminum",
+            "sku": "ITEM #: 1-10 TOP-HEX",
             "available": true,
-            "price": 295,
-            "compareAtPrice": 324.5,
+            "price": 395.0,
             "optionValues": [
-              "Default Title"
+              "Hex Aluminum"
             ],
             "requiresShipping": true,
             "taxable": false,
             "grams": 4536,
-            "position": 1
+            "position": 1,
+            "compareAtPrice": 424.5
+          },
+          {
+            "title": "Steel",
+            "sku": "ITEM #: 1-10 TOP",
+            "available": true,
+            "price": 295.0,
+            "optionValues": [
+              "Steel"
+            ],
+            "requiresShipping": true,
+            "taxable": false,
+            "grams": 4536,
+            "position": 2,
+            "compareAtPrice": 324.5,
+            "defaultSelected": true
           }
         ],
-        "source_variant_label": null,
+        "source_variant_label": "Frame Type",
         "source_sizes": [
-          "Default option"
+          "Hex Aluminum",
+          "Steel"
         ],
         "source_size_variants": [
           {
-            "value": "Default option",
+            "value": "Hex Aluminum",
+            "price": 395.0,
+            "compareAtPrice": 424.5
+          },
+          {
+            "value": "Steel",
             "price": 295.0,
             "compareAtPrice": 324.5,
             "active": true
@@ -2141,7 +2304,6 @@
         "source_description": "Description/Feature - OUR CANOPY TOPS FIT MOST FRAMES BUT NOT 100% GUARANTEED - Canopy is constructed of durable, weather-resistant 600 denier polyester - Dye sublimated on a white canopy - Hardware sold separately - Imprint Method: Full-Color Dye Sublimation Kit Includes - 1: C…",
         "source_card_variant": "",
         "source_add_on_group_keys": [
-          "supplied-frame-by-customer-e760e4e24688",
           "accessories-b92af9a437d6",
           "upgrades-c4c3953630b8"
         ],
@@ -2237,6 +2399,7 @@
             "source_taxable": false,
             "source_grams": 54431,
             "source_position": 1,
+            "source_sku": "ITEM #: 2-10",
             "source_option_values": [
               "Hex Aluminum"
             ],
@@ -2266,6 +2429,7 @@
             "source_taxable": false,
             "source_grams": 54431,
             "source_position": 2,
+            "source_sku": "ITEM #: 2-10S",
             "source_option_values": [
               "Steel"
             ],
@@ -2320,8 +2484,7 @@
         "warranty_text": "Factory Warranty\n\n- We stand behind the quality of our products. Our warranty covers any factory defects or damage that occurs during shipping. However, please note that we do not cover damage resulting from extreme weather conditions, misuse, or any circumstances beyond our control.\n\n- Frame must be secured to the ground to prevent wind damage (failure to secure the tent voids the warranty)",
         "source_options": [
           {
-            "name": "Frame Type",
-            "position": 1,
+            "title": "Frame Type",
             "values": [
               "Hex Aluminum",
               "Steel"
@@ -2492,6 +2655,7 @@
             "source_taxable": false,
             "source_grams": 54431,
             "source_position": 1,
+            "source_sku": "ITEM #: 3-10",
             "source_option_values": [
               "Hex Aluminum"
             ],
@@ -2521,6 +2685,7 @@
             "source_taxable": false,
             "source_grams": 54431,
             "source_position": 2,
+            "source_sku": "ITEM #: 3-10S",
             "source_option_values": [
               "Steel"
             ],
@@ -2575,8 +2740,7 @@
         "warranty_text": "Factory Warranty\n\n- We stand behind the quality of our products. Our warranty covers any factory defects or damage that occurs during shipping. However, please note that we do not cover damage resulting from extreme weather conditions, misuse, or any circumstances beyond our control.\n\n- Frame must be secured to the ground to prevent wind damage (failure to secure the tent voids the warranty)",
         "source_options": [
           {
-            "name": "Frame Type",
-            "position": 1,
+            "title": "Frame Type",
             "values": [
               "Hex Aluminum",
               "Steel"
@@ -2746,6 +2910,7 @@
             "source_taxable": false,
             "source_grams": 54431,
             "source_position": 1,
+            "source_sku": "Item #: 4-10",
             "source_option_values": [
               "Hex Aluminum"
             ],
@@ -2775,6 +2940,7 @@
             "source_taxable": false,
             "source_grams": 54431,
             "source_position": 2,
+            "source_sku": "Item #: 4-10S",
             "source_option_values": [
               "Steel"
             ],
@@ -2825,8 +2991,7 @@
         "warranty_text": "Factory Warranty\n\n- We stand behind the quality of our products. Our warranty covers any factory defects or damage that occurs during shipping. However, please note that we do not cover damage resulting from extreme weather conditions, misuse, or any circumstances beyond our control.\n\n- Frame must be secured to the ground to prevent wind damage (failure to secure the tent voids the warranty)",
         "source_options": [
           {
-            "name": "Frame Type",
-            "position": 1,
+            "title": "Frame Type",
             "values": [
               "Hex Aluminum",
               "Steel"
@@ -2979,6 +3144,7 @@
             "source_taxable": false,
             "source_grams": 27216,
             "source_position": 1,
+            "source_sku": "None",
             "source_option_values": [
               "Default Title"
             ],
@@ -3132,6 +3298,7 @@
             "source_taxable": false,
             "source_grams": 27216,
             "source_position": 1,
+            "source_sku": "206061",
             "source_option_values": [
               "Default Title"
             ],
@@ -3284,6 +3451,7 @@
             "source_taxable": true,
             "source_grams": 0,
             "source_position": 1,
+            "source_sku": "240112",
             "source_option_values": [
               "Default Title"
             ],
@@ -3456,6 +3624,7 @@
             "source_taxable": false,
             "source_grams": 2722,
             "source_position": 1,
+            "source_sku": "206068",
             "source_option_values": [
               "Chicago"
             ],
@@ -3501,8 +3670,7 @@
         "warranty_text": null,
         "source_options": [
           {
-            "name": "Warehouse ship from",
-            "position": 1,
+            "title": "Warehouse ship from",
             "values": [
               "Chicago"
             ]
@@ -3632,6 +3800,7 @@
             "source_taxable": false,
             "source_grams": 54431,
             "source_position": 1,
+            "source_sku": "ITEM #: 13-10",
             "source_option_values": [
               "Hex Aluminum"
             ],
@@ -3661,6 +3830,7 @@
             "source_taxable": false,
             "source_grams": 54431,
             "source_position": 2,
+            "source_sku": "ITEM #: 13-10S",
             "source_option_values": [
               "Steel"
             ],
@@ -3719,8 +3889,7 @@
         "warranty_text": "Factory Warranty\n\n- We stand behind the quality of our products. Our warranty covers any factory defects or damage that occurs during shipping. However, please note that we do not cover damage resulting from extreme weather conditions, misuse, or any circumstances beyond our control.",
         "source_options": [
           {
-            "name": "Frame Type",
-            "position": 1,
+            "title": "Frame Type",
             "values": [
               "Hex Aluminum",
               "Steel"
@@ -3890,6 +4059,7 @@
             "source_taxable": false,
             "source_grams": 54431,
             "source_position": 1,
+            "source_sku": "ITEM #: 13-10A",
             "source_option_values": [
               "Hex Aluminum"
             ],
@@ -3919,6 +4089,7 @@
             "source_taxable": false,
             "source_grams": 54431,
             "source_position": 2,
+            "source_sku": "ITEM #: 13-10AS",
             "source_option_values": [
               "Steel"
             ],
@@ -3977,8 +4148,7 @@
         "warranty_text": "Factory Warranty\n\n- We stand behind the quality of our products. Our warranty covers any factory defects or damage that occurs during shipping. However, please note that we do not cover damage resulting from extreme weather conditions, misuse, or any circumstances beyond our control.",
         "source_options": [
           {
-            "name": "Frame Type",
-            "position": 1,
+            "title": "Frame Type",
             "values": [
               "Hex Aluminum",
               "Steel"

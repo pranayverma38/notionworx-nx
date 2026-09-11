@@ -1,6 +1,6 @@
 import CollectionCategoriesClient from "@/components/shop/collection/CollectionCategoriesClient";
 import PageTitleHeader from "@/components/ui/PageTitleHeader";
-import { getCollectionPageCategories } from "@/lib/medusa/notionworx-storefront";
+import { categoriesCollection } from "@/data/categories";
 import { shopRouteMetadata } from "@/lib/metadata/shop";
 
 export const metadata = shopRouteMetadata(
@@ -8,9 +8,7 @@ export const metadata = shopRouteMetadata(
   "Explore storefront collections for canopies, displays, flags, apparel, and event essentials.",
 );
 
-export default async function page() {
-  const categories = await getCollectionPageCategories();
-
+export default function page() {
   return (
     <>
       {/* Page Title */}
@@ -27,7 +25,7 @@ export default async function page() {
       />
       {/* /Page Title */}
       {/* Collection */}
-      <CollectionCategoriesClient categories={categories} />
+      <CollectionCategoriesClient categories={categoriesCollection} />
       {/* /Collection */}
     </>
   );

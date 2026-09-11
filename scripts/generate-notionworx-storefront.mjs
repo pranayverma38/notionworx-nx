@@ -20,6 +20,15 @@ const sharedProductAddOnCatalogPath = path.join(
   "data/inventory/notionworx/product-addons.shared.generated.json",
 );
 
+if (
+  process.env.MEDUSA_BACKEND_URL?.trim() &&
+  process.env.MEDUSA_API_KEY?.trim() &&
+  process.env.MEDUSA_ADMIN_API_KEY?.trim()
+) {
+  await import("./generate-medusa-storefront.mjs");
+  process.exit(0);
+}
+
 const COLOR_SWATCHES = [
   "bg-black",
   "bg-white",

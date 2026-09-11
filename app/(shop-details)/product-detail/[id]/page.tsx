@@ -8,10 +8,6 @@ import {
   AMERCE_DEFAULT_DESCRIPTION,
   AMERCE_SITE_TITLE,
 } from "@/lib/metadata/shop-product";
-import {
-  getShopCatalogProducts,
-  getShopProductByRouteId,
-} from "@/lib/medusa/notionworx-storefront";
 
 export async function generateMetadata({
   params,
@@ -19,7 +15,9 @@ export async function generateMetadata({
   params: Promise<{ id: string }>;
 }): Promise<Metadata> {
   const { id } = await params;
-  const product = (await getShopProductByRouteId(id)) ?? localProducts[0];
+  const parsedId = Number(id);
+  const product =
+    localProducts.find((entry) => entry.id === parsedId) ?? localProducts[0];
   const title = `${product.name} | Product detail | ${AMERCE_SITE_TITLE}`;
   const rawDescription =
     product.description && product.description.trim().length > 0
@@ -38,15 +36,17 @@ export default async function page({
   params: Promise<{ id: string }>;
 }) {
   const { id } = await params;
-  const catalogProducts = await getShopCatalogProducts();
-  const product = (await getShopProductByRouteId(id)) ?? catalogProducts[0] ?? localProducts[0];
+  const parsedId = Number(id);
+  const product =
+    localProducts.find((entry) => entry.id === parsedId) ??
+    localProducts[0];
 
   return (
     <>
-      <Breadcrumb product={product} catalogProducts={catalogProducts} />
+      <Breadcrumb product={product} catalogProducts={localProducts} />
       <ProductSection product={product} />
       <ProductDescription product={product} />
-      <RelatedProducts currentProduct={product} catalogProducts={catalogProducts} />
+      <RelatedProducts currentProduct={product} catalogProducts={localProducts} />
     </>
   );
 }

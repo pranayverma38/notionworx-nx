@@ -1105,6 +1105,13 @@
       justify-content: space-between;
     }
 
+    .variant-picker-values {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
     .size-btn:not(.select-item) {
       min-width: 56px;
       width: auto;

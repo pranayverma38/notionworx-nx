@@ -1,6 +1,6 @@
 import Shop from "@/components/shop/shop-default/Shop";
 import PageTitleHeader from "@/components/ui/PageTitleHeader";
-import { getShopCatalogProducts } from "@/lib/medusa/notionworx-storefront";
+import { shopDefaultProducts } from "@/data/products/products";
 import {
   SHOP_LISTING_DESCRIPTION,
   shopRouteMetadata,
@@ -15,7 +15,6 @@ export default async function page({
 }) {
   const { category } = await searchParams;
   const activeCategory = category?.trim() || null;
-  const products = await getShopCatalogProducts();
 
   return (
     <>
@@ -34,7 +33,7 @@ export default async function page({
       <Shop
         defaultCategories={activeCategory ? [activeCategory] : []}
         itemPerPage={30}
-        products={products}
+        products={shopDefaultProducts}
       />
       {/* /Page Title */}
     </>
