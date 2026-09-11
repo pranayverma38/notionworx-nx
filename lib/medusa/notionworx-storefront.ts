@@ -561,14 +561,14 @@ function getCategoryMapKey(
     return undefined;
   }
 
-  const id = category.id?.trim();
-  if (id) {
-    return `id:${id}`;
-  }
-
   const handle = category.handle?.trim();
   if (handle) {
     return `handle:${handle.toLowerCase()}`;
+  }
+
+  const id = category.id?.trim();
+  if (id) {
+    return `id:${id}`;
   }
 
   const name = category.name?.trim();
@@ -1372,19 +1372,20 @@ export const getCategoryPageCategories = cache(async (): Promise<Category[]> => 
     return [...categoriesCollection];
   }
 
-  const mappedCategories = migratedCollections.categories.map(({ category, products }) =>
-    buildCollectionCategory(category, products.length, products[0]?.img),
-  );
-  const migratedCategoryNames = new Set(
-    mappedCategories.map((category) => normalizeCollectionName(category.name)),
+  const uniqueCategories = Array.from(
+    new Map(
+      migratedCollections.categories.map(({ category, products }) => {
+        const mappedCategory = buildCollectionCategory(
+          category,
+          products.length,
+          products[0]?.img,
+        );
+        return [normalizeCollectionName(mappedCategory.name), mappedCategory] as const;
+      }),
+    ).values(),
   );
 
-  return [...categoriesCollection]
-    .filter(
-      (category) =>
-        !migratedCategoryNames.has(normalizeCollectionName(category.name)),
-    )
-    .concat(mappedCategories)
+  return uniqueCategories
     .sort(
       (left, right) =>
         (parseCategoryQuantity(right.quantity) ?? -1) -

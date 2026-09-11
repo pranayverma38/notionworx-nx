@@ -8,13 +8,19 @@ export default function CollectionCategoriesClient({
 }: {
   categories: Category[];
 }) {
+  const visibleCategories = Array.from(
+    new Map(
+      categories
+        .filter((category) => Boolean(category.img))
+        .map((category) => [category.name.trim().toUpperCase(), category] as const),
+    ).values(),
+  );
+
   return (
     <div className="flat-spacing">
       <div className="container">
         <div className="tf-grid-layout ssm-col-2 xl-col-4 gap-lg-30">
-          {categories
-            .filter((category) => Boolean(category.img))
-            .map((category) => (
+          {visibleCategories.map((category) => (
             <article
               key={category.name}
               className="notionworx-collection-card hover-img4"
