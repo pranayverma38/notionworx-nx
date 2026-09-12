@@ -191,7 +191,7 @@ export default function StickyProduct() {
                   }}
                 >
                   <p className="title" style={{ margin: 0 }}>
-                    This product has accessories and upgrades.
+                    This product has a guided setup flow.
                   </p>
                   <p
                     style={{
@@ -201,8 +201,8 @@ export default function StickyProduct() {
                       lineHeight: 1.45,
                     }}
                   >
-                    Scroll back to customize add-ons and quantities before
-                    adding it to the cart.
+                    Scroll back to choose accessories, upgrades, and quantities
+                    before adding it to the cart.
                   </p>
                 </div>
               ) : selectableSizes.length ? (
