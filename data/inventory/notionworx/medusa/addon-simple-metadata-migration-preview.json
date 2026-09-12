@@ -1,0 +1,512 @@
+{
+  "apply": true,
+  "totalProductsSeen": 213,
+  "totalParentsSeen": 0,
+  "updated": [],
+  "legacyOnlyCleaned": [
+    {
+      "handle": "nw-addon-double-sided-walls-double-sided-10ft-back-wall",
+      "id": "prod_01M2B668XRAMC1HJJ0M0JGWS6F",
+      "clearedKeys": [
+        "source_add_on_group_keys"
+      ]
+    },
+    {
+      "handle": "nw-addon-double-sided-walls-double-sided-15ft-back-wall",
+      "id": "prod_01M2B66EKK6A3Z000YTFS500N6",
+      "clearedKeys": [
+        "source_add_on_group_keys"
+      ]
+    },
+    {
+      "handle": "nw-addon-double-sided-walls-double-sided-15ft-back-wall-half-side-walls",
+      "id": "prod_01M2B66M6Z1KGGY1F1290RP0WZ",
+      "clearedKeys": [
+        "source_add_on_group_keys"
+      ]
+    },
+    {
+      "handle": "nw-addon-double-sided-walls-double-sided-20ft-back-wall",
+      "id": "prod_01M2B66ST836DG87KD9Y2M6CPD",
+      "clearedKeys": [
+        "source_add_on_group_keys"
+      ]
+    },
+    {
+      "handle": "nw-addon-double-sided-walls-double-sided-20ft-back-wall-half-side-walls",
+      "id": "prod_01M2B66ZD9GK0B6RRC8V9ANKPZ",
+      "clearedKeys": [
+        "source_add_on_group_keys"
+      ]
+    },
+    {
+      "handle": "nw-addon-double-sided-walls-double-sided-5ft-back-wall",
+      "id": "prod_01M2B674Z3GCY2TDE2SZFAMCY6",
+      "clearedKeys": [
+        "source_add_on_group_keys"
+      ]
+    },
+    {
+      "handle": "nw-addon-double-sided-walls-double-sided-5ft-back-wall-half-side-walls",
+      "id": "prod_01M2B67AJMEQN6P007CVCR1Y1Z",
+      "clearedKeys": [
+        "source_add_on_group_keys"
+      ]
+    },
+    {
+      "handle": "nw-addon-double-sided-walls-double-sided-5ft-half-side-walls",
+      "id": "prod_01M2B67G4639N995CNVRZ3F98D",
+      "clearedKeys": [
+        "source_add_on_group_keys"
+      ]
+    },
+    {
+      "handle": "nw-addon-double-sided-walls-double-sided-5ft-side-walls",
+      "id": "prod_01M2B67NPC72GEZDWHSBV60B56",
+      "clearedKeys": [
+        "source_add_on_group_keys"
+      ]
+    },
+    {
+      "handle": "nw-addon-double-sided-walls-double-sided-5ft-three-full-walls",
+      "id": "prod_01M2B67V8GRBM6APXYG77H1NFT",
+      "clearedKeys": [
+        "source_add_on_group_keys"
+      ]
+    },
+    {
+      "handle": "nw-addon-double-sided-walls-double-sided-back-half-side-walls",
+      "id": "prod_01M2B680TXQKNSR6Q8DF0GPKFY",
+      "clearedKeys": [
+        "source_add_on_group_keys"
+      ]
+    },
+    {
+      "handle": "nw-addon-double-sided-walls-double-sided-back-wall",
+      "id": "prod_01M2B686DG0C1SM0HPZ4V20CDJ",
+      "clearedKeys": [
+        "source_add_on_group_keys"
+      ]
+    },
+    {
+      "handle": "nw-addon-double-sided-walls-double-sided-full-side-wall",
+      "id": "prod_01M2B68BZNEYK8NJJRZWPWXB5E",
+      "clearedKeys": [
+        "source_add_on_group_keys"
+      ]
+    },
+    {
+      "handle": "nw-addon-double-sided-walls-double-sided-full-side-walls",
+      "id": "prod_01M2B68HHYT9JTM3CN8P3M09XF",
+      "clearedKeys": [
+        "source_add_on_group_keys"
+      ]
+    },
+    {
+      "handle": "nw-addon-double-sided-walls-double-sided-half-side-walls",
+      "id": "prod_01M2B68Q6PFQ8S9YWQFQYPG3FJ",
+      "clearedKeys": [
+        "source_add_on_group_keys"
+      ]
+    },
+    {
+      "handle": "nw-addon-double-sided-walls-double-sided-side-walls",
+      "id": "prod_01M2B68WSCSX90MXM74K396CGS",
+      "clearedKeys": [
+        "source_add_on_group_keys"
+      ]
+    },
+    {
+      "handle": "nw-addon-double-sided-walls-double-sided-three-full-walls",
+      "id": "prod_01M2B692CM3QXG50JZYBHQ9Z33",
+      "clearedKeys": [
+        "source_add_on_group_keys"
+      ]
+    },
+    {
+      "handle": "nw-addon-essentials-10ft-awning",
+      "id": "prod_01M2B6981V5DC0VYTXD5H97K56",
+      "clearedKeys": [
+        "source_add_on_group_keys"
+      ]
+    },
+    {
+      "handle": "nw-addon-essentials-10ft-billboard",
+      "id": "prod_01M2B69DRX9G0FTXGP5DH3VEM2",
+      "clearedKeys": [
+        "source_add_on_group_keys"
+      ]
+    },
+    {
+      "handle": "nw-addon-essentials-10ft-counter-top-w-vinyl-banner",
+      "id": "prod_01M2B69KHDCYE1CWHMVHHWXP3B",
+      "clearedKeys": [
+        "source_add_on_group_keys"
+      ]
+    },
+    {
+      "handle": "nw-addon-essentials-4-pc-set",
+      "id": "prod_01M2B69S7GR1VKX3SJV4657H6Y",
+      "clearedKeys": [
+        "source_add_on_group_keys"
+      ]
+    },
+    {
+      "handle": "nw-addon-essentials-6-pc-set",
+      "id": "prod_01M2B69YYNTWHJWETF660CT3NE",
+      "clearedKeys": [
+        "source_add_on_group_keys"
+      ]
+    },
+    {
+      "handle": "nw-addon-essentials-led-light",
+      "id": "prod_01M2B6A4NCKCQW2EAM7E90WF9B",
+      "clearedKeys": [
+        "source_add_on_group_keys"
+      ]
+    },
+    {
+      "handle": "nw-addon-essentials-led-lights",
+      "id": "prod_01M2B6AAC2TWGWM04HKTG92YTE",
+      "clearedKeys": [
+        "source_add_on_group_keys"
+      ]
+    },
+    {
+      "handle": "nw-addon-essentials-led-ligths",
+      "id": "prod_01M2B6AG2P1TF0TG66SFKQAHK3",
+      "clearedKeys": [
+        "source_add_on_group_keys"
+      ]
+    },
+    {
+      "handle": "nw-addon-essentials-set-of-6-sandbags",
+      "id": "prod_01M2B6ANSFESW4ZCD6RFQQZGYC",
+      "clearedKeys": [
+        "source_add_on_group_keys"
+      ]
+    },
+    {
+      "handle": "nw-addon-feather-flags-12ft-stand-alone-flag-w-cross-base",
+      "id": "prod_01M2B6AVGZAPV1B8X7N3ZGD231",
+      "clearedKeys": [
+        "source_add_on_group_keys"
+      ]
+    },
+    {
+      "handle": "nw-addon-feather-flags-15ft-stand-alone-flag-w-cross-base",
+      "id": "prod_01M2B6B18G8AN06FY87K9RMA7C",
+      "clearedKeys": [
+        "source_add_on_group_keys"
+      ]
+    },
+    {
+      "handle": "nw-addon-feather-flags-9ft-mounted-flag-w-mounting-kit",
+      "id": "prod_01M2B6B6Z6FAZT1F0RDNSCXHCT",
+      "clearedKeys": [
+        "source_add_on_group_keys"
+      ]
+    },
+    {
+      "handle": "nw-addon-feather-flags-9ft-stand-alone-flag-w-cross-base",
+      "id": "prod_01M2B6BCNQB6MRYJZWGCREWM6F",
+      "clearedKeys": [
+        "source_add_on_group_keys"
+      ]
+    },
+    {
+      "handle": "nw-addon-feather-flags-make-it-15ft-stand-alone-flag-w-cross-base",
+      "id": "prod_01M2B6BJC5ZA93S7624K1JNYNT",
+      "clearedKeys": [
+        "source_add_on_group_keys"
+      ]
+    },
+    {
+      "handle": "nw-addon-full-walls-fabric-from-bottom-to-top-no-mesh-make-it-full-front-wall",
+      "id": "prod_01M2B6BR2GXSH5885G0H7WJVA3",
+      "clearedKeys": [
+        "source_add_on_group_keys"
+      ]
+    },
+    {
+      "handle": "nw-addon-full-walls-fabric-from-bottom-to-top-no-mesh-make-it-full-front-wall-side-walls",
+      "id": "prod_01M2B6BXNP4F7PDN1J5C6Z74Q0",
+      "clearedKeys": [
+        "source_add_on_group_keys"
+      ]
+    },
+    {
+      "handle": "nw-addon-full-walls-fabric-from-bottom-to-top-no-mesh-make-it-full-side-walls",
+      "id": "prod_01M2B6C38JFY5S498XCP3V2T13",
+      "clearedKeys": [
+        "source_add_on_group_keys"
+      ]
+    },
+    {
+      "handle": "nw-addon-full-walls-fabric-from-bottom-to-top-no-mesh-make-it-full-side-walls-full-front-wall",
+      "id": "prod_01M2B6C8WCQ8BBHP043G1DETCW",
+      "clearedKeys": [
+        "source_add_on_group_keys"
+      ]
+    },
+    {
+      "handle": "nw-addon-table-cover-4ft-stretch-table-cover",
+      "id": "prod_01M2B6CE9VQT8Q4CNY7DDMN1H9",
+      "clearedKeys": [
+        "source_add_on_group_keys"
+      ]
+    },
+    {
+      "handle": "nw-addon-table-cover-6ft-draped-table-cover",
+      "id": "prod_01M2B6CM1XYJ9NMH6070S4XBYC",
+      "clearedKeys": [
+        "source_add_on_group_keys"
+      ]
+    },
+    {
+      "handle": "nw-addon-table-cover-6ft-fitted-table-cover",
+      "id": "prod_01M2B6CSQV9YTD2N0GS3TDV2TH",
+      "clearedKeys": [
+        "source_add_on_group_keys"
+      ]
+    },
+    {
+      "handle": "nw-addon-table-cover-6ft-stretch-table-cover",
+      "id": "prod_01M2B6CZFB8R9K6V16CJQY3FGB",
+      "clearedKeys": [
+        "source_add_on_group_keys"
+      ]
+    },
+    {
+      "handle": "nw-addon-table-cover-make-it-6ft-draped-for",
+      "id": "prod_01M2B6D572AAXMSXD7PJHGV6SQ",
+      "clearedKeys": [
+        "source_add_on_group_keys"
+      ]
+    },
+    {
+      "handle": "nw-addon-table-cover-make-it-6ft-fitted-for",
+      "id": "prod_01M2B6DAZ7AJV0GZWPT1VZWEZR",
+      "clearedKeys": [
+        "source_add_on_group_keys"
+      ]
+    },
+    {
+      "handle": "nw-addon-vented-top-vent",
+      "id": "prod_01M2B6DGQ5QHYPSRHFKQJ9GBNX",
+      "clearedKeys": [
+        "source_add_on_group_keys"
+      ]
+    },
+    {
+      "handle": "nw-addon-walls-15ft-back-wall",
+      "id": "prod_01M2B6DPDCNXPNC5P29HV8PGNP",
+      "clearedKeys": [
+        "source_add_on_group_keys"
+      ]
+    },
+    {
+      "handle": "nw-addon-walls-15ft-back-wall-half-side-walls",
+      "id": "prod_01M2B6DW3XT5RZY3W499CN78A8",
+      "clearedKeys": [
+        "source_add_on_group_keys"
+      ]
+    },
+    {
+      "handle": "nw-addon-walls-15ft-three-full-walls",
+      "id": "prod_01M2B6E1VN1AHNNHE42TRKCA51",
+      "clearedKeys": [
+        "source_add_on_group_keys"
+      ]
+    },
+    {
+      "handle": "nw-addon-walls-20ft-back-wall",
+      "id": "prod_01M2B6E7J4FGZ7F5D88EGZ0RBM",
+      "clearedKeys": [
+        "source_add_on_group_keys"
+      ]
+    },
+    {
+      "handle": "nw-addon-walls-20ft-back-wall-half-side-walls",
+      "id": "prod_01M2B6ED8H4H18B9XWXTMCZYPR",
+      "clearedKeys": [
+        "source_add_on_group_keys"
+      ]
+    },
+    {
+      "handle": "nw-addon-walls-20ft-three-full-walls",
+      "id": "prod_01M2B6EK0C52J9TVF50M1YXXGD",
+      "clearedKeys": [
+        "source_add_on_group_keys"
+      ]
+    },
+    {
+      "handle": "nw-addon-walls-back-wall",
+      "id": "prod_01M2B6ERPV9QNAPHEC2EVDVG3P",
+      "clearedKeys": [
+        "source_add_on_group_keys"
+      ]
+    },
+    {
+      "handle": "nw-addon-walls-back-wall-half-side-walls",
+      "id": "prod_01M2B6EYCTGHQDSEZ6VVTH6FWP",
+      "clearedKeys": [
+        "source_add_on_group_keys"
+      ]
+    },
+    {
+      "handle": "nw-addon-walls-three-full-walls",
+      "id": "prod_01M2B6F4347F43R5RAFBGHT0JD",
+      "clearedKeys": [
+        "source_add_on_group_keys"
+      ]
+    },
+    {
+      "handle": "nw-addon-weighted-sandbags-4-pc-set",
+      "id": "prod_01M2B6F9SBABCW2NY5G4S5ZH7Q",
+      "clearedKeys": [
+        "source_add_on_group_keys"
+      ]
+    }
+  ],
+  "skipped": [
+    {
+      "handle": "10ft-back-wall",
+      "reason": "already_simple"
+    },
+    {
+      "handle": "10x15-custom-canopy-tent-wall-15ft-back-wall",
+      "reason": "already_simple"
+    },
+    {
+      "handle": "10x20-custom-canopy-tent-20ft-back-wall",
+      "reason": "already_simple"
+    },
+    {
+      "handle": "5x5-custom-canopy-tent-19-05",
+      "reason": "already_simple"
+    },
+    {
+      "handle": "5x5-custom-canopy-tent-20-05",
+      "reason": "already_simple"
+    },
+    {
+      "handle": "5x5-custom-canopy-tent-21-05",
+      "reason": "already_simple"
+    },
+    {
+      "handle": "5x5-custom-canopy-tent-22-05",
+      "reason": "already_simple"
+    },
+    {
+      "handle": "custom-food-booth-canopy-tent-16-10",
+      "reason": "already_simple"
+    },
+    {
+      "handle": "custom-food-booth-canopy-tent-17-15",
+      "reason": "already_simple"
+    },
+    {
+      "handle": "custom-food-booth-canopy-tent-18-20",
+      "reason": "already_simple"
+    },
+    {
+      "handle": "custom-food-booth-canopy-tent-23-05",
+      "reason": "already_simple"
+    },
+    {
+      "handle": "half-side-walls",
+      "reason": "already_simple"
+    },
+    {
+      "handle": "premium-10x10-custom-canopy-1-10",
+      "reason": "already_simple"
+    },
+    {
+      "handle": "premium-10x10-custom-canopy-1-10black",
+      "reason": "already_simple"
+    },
+    {
+      "handle": "premium-10x10-custom-canopy-1-10top",
+      "reason": "already_simple"
+    },
+    {
+      "handle": "premium-10x10-custom-canopy-2-10",
+      "reason": "already_simple"
+    },
+    {
+      "handle": "premium-10x10-custom-canopy-3-10",
+      "reason": "already_simple"
+    },
+    {
+      "handle": "premium-10x10-custom-canopy-4-10",
+      "reason": "already_simple"
+    },
+    {
+      "handle": "premium-10x15-custom-canopy-tent-05-15black",
+      "reason": "already_simple"
+    },
+    {
+      "handle": "premium-10x15-custom-canopy-tent-5-15",
+      "reason": "already_simple"
+    },
+    {
+      "handle": "premium-10x15-custom-canopy-tent-5-15top",
+      "reason": "already_simple"
+    },
+    {
+      "handle": "premium-10x15-custom-canopy-tent-6-15",
+      "reason": "already_simple"
+    },
+    {
+      "handle": "premium-10x15-custom-canopy-tent-7-15",
+      "reason": "already_simple"
+    },
+    {
+      "handle": "premium-10x15-custom-canopy-tent-8-15",
+      "reason": "already_simple"
+    },
+    {
+      "handle": "premium-10x20-custom-canopy-tent-10-20",
+      "reason": "already_simple"
+    },
+    {
+      "handle": "premium-10x20-custom-canopy-tent-11-20",
+      "reason": "already_simple"
+    },
+    {
+      "handle": "premium-10x20-custom-canopy-tent-12-20",
+      "reason": "already_simple"
+    },
+    {
+      "handle": "premium-10x20-custom-canopy-tent-9-20black",
+      "reason": "already_simple"
+    },
+    {
+      "handle": "premium-10x20-custom-canopy-tent-9-20top",
+      "reason": "already_simple"
+    },
+    {
+      "handle": "premium-10x20-custom-canopy-tent-hex-9-20",
+      "reason": "already_simple"
+    },
+    {
+      "handle": "trade-show-essential-10x10-custom-canopy-tent-10-13",
+      "reason": "already_simple"
+    },
+    {
+      "handle": "trade-show-essential-10x10-custom-canopy-tent-13-10a",
+      "reason": "already_simple"
+    },
+    {
+      "handle": "trade-show-essential-10x15-custom-canopy-tent-14-15",
+      "reason": "already_simple"
+    },
+    {
+      "handle": "trade-show-essential-10x20-custom-canopy-tent-15-20",
+      "reason": "already_simple"
+    }
+  ],
+  "failed": [],
+  "keysWritten": {}
+}

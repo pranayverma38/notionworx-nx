@@ -19,6 +19,7 @@ import argparse
 import json
 import os
 import re
+from collections import defaultdict
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Any
@@ -947,6 +948,34 @@ def build_default_variant_payload(
     }
 
 
+def build_simple_addon_metadata_from_links(links: list[JsonDict]) -> dict[str, str]:
+    """Group rich add-on links into Accessories_*/Upgrades_* comma-separated IDs."""
+    buckets: dict[str, list[str]] = defaultdict(list)
+    for link in links:
+        if not isinstance(link, dict):
+            continue
+        product_id = str(link.get("medusa_product_id") or "").strip()
+        if not product_id:
+            continue
+        kind = str(link.get("kind") or "accessory").strip().lower()
+        subgroup = (
+            str(link.get("subgroup_title") or "").strip()
+            or str(link.get("subgroup_id") or "").strip()
+            or ("Upgrades" if kind == "upgrade" else "Accessories")
+        )
+        prefix = "Upgrades" if kind == "upgrade" else "Accessories"
+        token = re.sub(r"[^A-Za-z0-9]+", "_", subgroup)
+        token = re.sub(r"_+", "_", token).strip("_") or "General"
+        key = f"{prefix}_{token}"
+        buckets[key].append(product_id)
+
+    return {
+        key: ", ".join(unique_preserving_order(product_ids))
+        for key, product_ids in sorted(buckets.items())
+        if product_ids
+    }
+
+
 def build_product_metadata(
     bundle: SourceProductBundle,
 ) -> JsonDict:
@@ -954,29 +983,14 @@ def build_product_metadata(
     source_product = bundle.source_product
     storefront_product = bundle.storefront_product
     add_on_product_links = build_add_on_product_links(bundle)
-    accessory_product_ids = unique_preserving_order(
-        [
-            str(link.get("medusa_product_id") or "").strip()
-            for link in add_on_product_links
-            if str(link.get("kind") or "").strip().lower() == "accessory"
-            and str(link.get("medusa_product_id") or "").strip()
-        ]
-    )
-    upgrade_product_ids = unique_preserving_order(
-        [
-            str(link.get("medusa_product_id") or "").strip()
-            for link in add_on_product_links
-            if str(link.get("kind") or "").strip().lower() == "upgrade"
-            and str(link.get("medusa_product_id") or "").strip()
-        ]
-    )
+    simple_addon_metadata = build_simple_addon_metadata_from_links(add_on_product_links)
     option_definitions, source_variants = resolve_variant_model(bundle)
     variant_label, sizes, size_variants = build_storefront_variant_catalog(
         option_definitions=option_definitions,
         source_variants=source_variants,
     )
 
-    return {
+    metadata: JsonDict = {
         "source": "notionworx-inventory",
         "source_handle": source_product.get("handle"),
         "source_product_id": source_product.get("id"),
@@ -1012,10 +1026,11 @@ def build_product_metadata(
         "source_badge_subtext": storefront_product.get("badgeSubtext"),
         "source_description": storefront_product.get("description"),
         "source_card_variant": storefront_product.get("cardVariant", ""),
-        "source_add_on_group_keys": get_effective_add_on_group_keys(bundle),
-        "source_add_on_product_links": add_on_product_links,
-        "source_accessory_product_ids": accessory_product_ids,
-        "source_upgrade_product_ids": upgrade_product_ids,
+        # Clear legacy complex add-on association fields.
+        "source_add_on_group_keys": "",
+        "source_add_on_product_links": "",
+        "source_accessory_product_ids": "",
+        "source_upgrade_product_ids": "",
         "local_image_paths": [
             image.get("localPath")
             for image in source_product.get("images", [])
@@ -1026,6 +1041,8 @@ def build_product_metadata(
         "updated_at": source_product.get("updatedAt"),
         "published_at": source_product.get("publishedAt"),
     }
+    metadata.update(simple_addon_metadata)
+    return metadata
 
 
 def build_product_payload(

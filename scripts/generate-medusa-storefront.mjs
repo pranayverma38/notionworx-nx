@@ -115,72 +115,6 @@ function readMetadataRecordArrayByKeys(metadata, keys) {
   return [];
 }
 
-function buildFallbackAddOnLinksFromProductIds(metadata, addOnProductsById) {
-  const buildLinksForKind = (kind, keys) =>
-    readMetadataStringArray(metadata, keys).flatMap((productId) => {
-      const linkedProduct = addOnProductsById.get(productId);
-      if (!linkedProduct) {
-        return [];
-      }
-
-      const linkedMetadata = linkedProduct.metadata ?? {};
-      const subgroupTitle =
-        readMetadataStringArray(linkedMetadata, [
-          "source_add_on_subgroup_titles",
-          "sourceAddOnSubgroupTitles",
-        ])[0] || undefined;
-      const optionId =
-        readMetadataString(linkedMetadata, [
-          "source_add_on_option_id",
-          "sourceAddOnOptionId",
-        ]) ||
-        normalizeString(linkedProduct.handle) ||
-        productId;
-
-      return [
-        {
-          kind,
-          group_id: kind === "upgrade" ? "upgrades" : "accessories",
-          group_title: kind === "upgrade" ? "Upgrades" : "Accessories",
-          subgroup_title: subgroupTitle,
-          add_on_id: optionId,
-          title: normalizeString(linkedProduct.title) || undefined,
-          handle: normalizeString(linkedProduct.handle) || undefined,
-          sku: normalizeString(linkedProduct?.variants?.[0]?.sku) || undefined,
-          medusa_product_id: productId,
-          medusa_variant_id: normalizeString(linkedProduct?.variants?.[0]?.id) || undefined,
-          allows_quantity: readMetadataBoolean(linkedMetadata, [
-            "source_add_on_allows_quantity",
-            "sourceAddOnAllowsQuantity",
-          ]),
-          min_quantity: readMetadataNumber(linkedMetadata, [
-            "source_add_on_min_quantity",
-            "sourceAddOnMinQuantity",
-          ]),
-          step: readMetadataNumber(linkedMetadata, [
-            "source_add_on_step",
-            "sourceAddOnStep",
-          ]),
-          surcharge: readMetadataNumber(linkedMetadata, [
-            "source_add_on_price_surcharge",
-            "sourceAddOnPriceSurcharge",
-          ]),
-        },
-      ];
-    });
-
-  return [
-    ...buildLinksForKind("accessory", [
-      "source_accessory_product_ids",
-      "sourceAccessoryProductIds",
-    ]),
-    ...buildLinksForKind("upgrade", [
-      "source_upgrade_product_ids",
-      "sourceUpgradeProductIds",
-    ]),
-  ];
-}
-
 function firstNonEmptyArray(...candidates) {
   for (const candidate of candidates) {
     if (Array.isArray(candidate) && candidate.length > 0) {
@@ -217,58 +151,50 @@ function firstDefined(values) {
   return values.find((value) => value != null);
 }
 
-function buildAddOnProductLinkKey(groupId, addOnId, subgroupId) {
-  return `${groupId}::${subgroupId || ""}::${addOnId}`;
-}
+const SIMPLE_ADDON_METADATA_KEY = /^(Accessories|Upgrades)_(.+)$/;
 
-function readAddOnLinkString(record, keys) {
-  for (const key of keys) {
-    const value = record?.[key];
-    if (typeof value === "string" && value.trim()) {
-      return value.trim();
-    }
+function parseCommaSeparatedProductIds(value) {
+  if (typeof value !== "string" || !value.trim()) {
+    return [];
   }
-  return undefined;
-}
-
-function readAddOnLinkNumber(record, keys) {
-  for (const key of keys) {
-    const value = record?.[key];
-    if (typeof value === "number" && Number.isFinite(value)) {
-      return value;
-    }
-    if (typeof value === "string" && value.trim()) {
-      const parsed = Number(value);
-      if (Number.isFinite(parsed)) {
-        return parsed;
-      }
-    }
+  const seen = new Set();
+  const ids = [];
+  for (const part of value.split(/[,\n]+/)) {
+    const id = part.trim();
+    if (!id || seen.has(id)) continue;
+    seen.add(id);
+    ids.push(id);
   }
-  return undefined;
+  return ids;
 }
 
-function readAddOnLinkBoolean(record, keys) {
-  for (const key of keys) {
-    const value = record?.[key];
-    if (typeof value === "boolean") {
-      return value;
-    }
-    if (typeof value === "string") {
-      const normalized = value.trim().toLowerCase();
-      if (normalized === "true") {
-        return true;
-      }
-      if (normalized === "false") {
-        return false;
-      }
-    }
+function subgroupTitleFromMetadataToken(token) {
+  return String(token || "").replace(/_+/g, " ").trim() || "General";
+}
+
+function readSimpleAddOnMetadataEntries(metadata) {
+  if (!metadata || typeof metadata !== "object") {
+    return [];
   }
-  return undefined;
-}
-
-function normalizeAddOnSelectionMode(value) {
-  const normalized = normalizeString(value).toLowerCase();
-  return normalized === "single" || normalized === "multiple" ? normalized : undefined;
+  const entries = [];
+  for (const [rawKey, rawValue] of Object.entries(metadata)) {
+    const match = SIMPLE_ADDON_METADATA_KEY.exec(String(rawKey).trim());
+    if (!match) continue;
+    const productIds = parseCommaSeparatedProductIds(rawValue);
+    if (!productIds.length) continue;
+    const prefix = match[1];
+    const subgroupToken = match[2];
+    const kind = prefix === "Upgrades" ? "upgrade" : "accessory";
+    entries.push({
+      kind,
+      groupId: kind === "upgrade" ? "upgrades" : "accessories",
+      groupTitle: kind === "upgrade" ? "Upgrades" : "Accessories",
+      subgroupId: subgroupToken.toLowerCase(),
+      subgroupTitle: subgroupTitleFromMetadataToken(subgroupToken),
+      productIds,
+    });
+  }
+  return entries;
 }
 
 function isStandaloneAddOnProduct(product) {
@@ -280,38 +206,21 @@ function isStandaloneAddOnProduct(product) {
   );
 }
 
-function resolveLinkedAddOnProduct(link, addOnProductsById, addOnProductsByHandle) {
-  const medusaProductId = readAddOnLinkString(link, ["medusa_product_id", "medusaProductId"]);
-  if (medusaProductId && addOnProductsById.has(medusaProductId)) {
-    return addOnProductsById.get(medusaProductId);
-  }
-  const handle = readAddOnLinkString(link, ["handle"]);
-  if (handle && addOnProductsByHandle.has(handle)) {
-    return addOnProductsByHandle.get(handle);
-  }
-  return undefined;
-}
-
-function buildAddOnOptionFromLink(link, addOnProductsById, addOnProductsByHandle) {
-  const linkedProduct = resolveLinkedAddOnProduct(link, addOnProductsById, addOnProductsByHandle);
-  const linkedMetadata = linkedProduct?.metadata ?? {};
-  const linkedVariant = linkedProduct?.variants?.[0];
-  const linkedMedusaProductId =
-    normalizeString(linkedProduct?.id) ||
-    readAddOnLinkString(link, ["medusa_product_id", "medusaProductId"]);
-  const linkedMedusaVariantId =
-    normalizeString(linkedVariant?.id) ||
-    readAddOnLinkString(link, ["medusa_variant_id", "medusaVariantId"]);
-  const handle = normalizeString(linkedProduct?.handle) || readAddOnLinkString(link, ["handle"]);
-  const title = normalizeString(linkedProduct?.title) || readAddOnLinkString(link, ["title"]);
-  const addOnId = readAddOnLinkString(link, ["add_on_id", "addOnId"]) || handle;
+function buildAddOnOptionFromProduct(product, kind, subgroupTitle, groupTitle) {
+  const linkedMetadata = product?.metadata ?? {};
+  const linkedVariant = product?.variants?.[0];
+  const handle = normalizeString(product?.handle) || undefined;
+  const title = normalizeString(product?.title) || undefined;
+  const addOnId =
+    readMetadataString(linkedMetadata, ["source_add_on_option_id", "sourceAddOnOptionId"]) ||
+    handle ||
+    normalizeString(product?.id);
   if (!addOnId || !title) {
     return null;
   }
 
   const price =
     readPriceAmount(linkedVariant?.prices?.[0]?.amount) ||
-    readAddOnLinkNumber(link, ["surcharge"]) ||
     readMetadataNumber(linkedMetadata, [
       "source_add_on_price_surcharge",
       "sourceAddOnPriceSurcharge",
@@ -320,49 +229,36 @@ function buildAddOnOptionFromLink(link, addOnProductsById, addOnProductsByHandle
     return null;
   }
 
-  const subgroupTitle = readAddOnLinkString(link, ["subgroup_title", "subgroupTitle"]);
-  const groupTitle = readAddOnLinkString(link, ["group_title", "groupTitle"]);
-  const hoverDescription =
-    readAddOnLinkString(link, ["hover_description", "hoverDescription"]) ||
-    [subgroupTitle || groupTitle, `(+ $${price.toFixed(2)})`].filter(Boolean).join(" · ");
-  const linkedSourceProductId = readAddOnLinkNumber(link, [
-    "linked_source_product_id",
-    "linkedSourceProductId",
+  const hoverDescription = [subgroupTitle || groupTitle, `(+ $${price.toFixed(2)})`]
+    .filter(Boolean)
+    .join(" · ");
+  const allowsQuantity = readMetadataBoolean(linkedMetadata, [
+    "source_add_on_allows_quantity",
+    "sourceAddOnAllowsQuantity",
   ]);
-  const linkedStorefrontProductId = readAddOnLinkNumber(link, [
-    "linked_storefront_product_id",
-    "linkedStorefrontProductId",
+  const minQuantity = readMetadataNumber(linkedMetadata, [
+    "source_add_on_min_quantity",
+    "sourceAddOnMinQuantity",
   ]);
-  const allowsQuantity =
-    readAddOnLinkBoolean(link, ["allows_quantity", "allowsQuantity"]) ??
-    readMetadataBoolean(linkedMetadata, [
-      "source_add_on_allows_quantity",
-      "sourceAddOnAllowsQuantity",
-    ]);
-  const minQuantity =
-    readAddOnLinkNumber(link, ["min_quantity", "minQuantity"]) ??
-    readMetadataNumber(linkedMetadata, ["source_add_on_min_quantity", "sourceAddOnMinQuantity"]);
-  const maxQuantity = readAddOnLinkNumber(link, ["max_quantity", "maxQuantity"]);
-  const step =
-    readAddOnLinkNumber(link, ["step"]) ??
-    readMetadataNumber(linkedMetadata, ["source_add_on_step", "sourceAddOnStep"]);
+  const step = readMetadataNumber(linkedMetadata, ["source_add_on_step", "sourceAddOnStep"]);
+  const image = normalizeImageUrl(product?.thumbnail);
 
   return {
     id: addOnId,
     kind:
-      normalizeString(readAddOnLinkString(link, ["kind"])).toLowerCase() === "upgrade"
+      normalizeString(
+        readMetadataString(linkedMetadata, ["source_add_on_kind", "sourceAddOnKind"]),
+      ).toLowerCase() === "upgrade"
         ? "upgrade"
-        : "accessory",
+        : kind,
     title,
     ...(handle ? { handle } : {}),
-    ...(linkedMedusaProductId ? { linkedMedusaProductId } : {}),
-    ...(linkedMedusaVariantId ? { linkedMedusaVariantId } : {}),
-    ...(typeof linkedSourceProductId === "number" ? { linkedSourceProductId } : {}),
-    ...(typeof linkedStorefrontProductId === "number"
-      ? { linkedStorefrontProductId }
+    ...(normalizeString(product?.id) ? { linkedMedusaProductId: normalizeString(product?.id) } : {}),
+    ...(normalizeString(linkedVariant?.id)
+      ? { linkedMedusaVariantId: normalizeString(linkedVariant?.id) }
       : {}),
     ...(normalizeString(linkedVariant?.sku) ? { sku: normalizeString(linkedVariant?.sku) } : {}),
-    ...(normalizeImageUrl(linkedProduct?.thumbnail) ? { image: normalizeImageUrl(linkedProduct?.thumbnail) } : {}),
+    ...(image ? { image } : {}),
     ...(hoverDescription ? { hoverDescription } : {}),
     price: {
       surcharge: price,
@@ -370,64 +266,26 @@ function buildAddOnOptionFromLink(link, addOnProductsById, addOnProductsByHandle
     },
     ...(typeof allowsQuantity === "boolean" ? { allowsQuantity } : {}),
     ...(typeof minQuantity === "number" ? { minQuantity } : {}),
-    ...(typeof maxQuantity === "number" ? { maxQuantity } : {}),
     ...(typeof step === "number" ? { step } : {}),
   };
 }
 
-function buildAddOnGroupsFromLinks(metadata, addOnProductsById, addOnProductsByHandle) {
-  const explicitLinks = readMetadataRecordArrayByKeys(metadata, [
-    "source_add_on_product_links",
-    "sourceAddOnProductLinks",
-  ]);
-  const links =
-    explicitLinks.length > 0
-      ? explicitLinks
-      : buildFallbackAddOnLinksFromProductIds(metadata, addOnProductsById);
-  if (!links.length) {
+function buildAddOnGroupsFromSimpleMetadata(metadata, addOnProductsById) {
+  const entries = readSimpleAddOnMetadataEntries(metadata);
+  if (!entries.length) {
     return undefined;
   }
 
   const groups = new Map();
-  for (const link of links) {
-    const kind =
-      normalizeString(readAddOnLinkString(link, ["kind"])).toLowerCase() === "upgrade"
-        ? "upgrade"
-        : "accessory";
-    const groupId = readAddOnLinkString(link, ["group_id", "groupId"]) || kind;
-    const groupTitle =
-      readAddOnLinkString(link, ["group_title", "groupTitle"]) ||
-      (kind === "upgrade" ? "Upgrades" : "Accessories");
-    const groupKey = `${kind}:${groupId}`;
-    const option = buildAddOnOptionFromLink(link, addOnProductsById, addOnProductsByHandle);
-    if (!option) {
-      continue;
-    }
-
+  for (const entry of entries) {
+    const groupKey = `${entry.kind}:${entry.groupId}`;
     if (!groups.has(groupKey)) {
       groups.set(groupKey, {
-        id: groupId,
-        kind,
-        title: groupTitle,
+        id: entry.groupId,
+        kind: entry.kind,
+        title: entry.groupTitle,
         displayStyle: "grid",
-        ...(normalizeAddOnSelectionMode(
-          readAddOnLinkString(link, ["group_selection_mode", "groupSelectionMode"]),
-        )
-          ? {
-              selectionMode: normalizeAddOnSelectionMode(
-                readAddOnLinkString(link, ["group_selection_mode", "groupSelectionMode"]),
-              ),
-            }
-          : {}),
-        ...(typeof readAddOnLinkNumber(link, ["group_max_selections", "groupMaxSelections"]) ===
-        "number"
-          ? {
-              maxSelections: readAddOnLinkNumber(link, [
-                "group_max_selections",
-                "groupMaxSelections",
-              ]),
-            }
-          : {}),
+        selectionMode: "multiple",
         items: [],
         subgroups: [],
         _subgroupsByKey: new Map(),
@@ -435,53 +293,37 @@ function buildAddOnGroupsFromLinks(metadata, addOnProductsById, addOnProductsByH
     }
 
     const group = groups.get(groupKey);
-    const subgroupId = readAddOnLinkString(link, ["subgroup_id", "subgroupId"]);
-    const subgroupTitle = readAddOnLinkString(link, ["subgroup_title", "subgroupTitle"]);
-    if (subgroupId || subgroupTitle) {
-      const subgroupKey = subgroupId || subgroupTitle || option.id;
-      if (!group._subgroupsByKey.has(subgroupKey)) {
-        const subgroup = {
-          id: subgroupId || subgroupKey,
-          title: subgroupTitle || groupTitle,
-          ...(normalizeAddOnSelectionMode(
-            readAddOnLinkString(link, ["subgroup_selection_mode", "subgroupSelectionMode"]),
-          )
-            ? {
-                selectionMode: normalizeAddOnSelectionMode(
-                  readAddOnLinkString(link, ["subgroup_selection_mode", "subgroupSelectionMode"]),
-                ),
-              }
-            : {}),
-          ...(typeof readAddOnLinkNumber(link, [
-            "subgroup_max_selections",
-            "subgroupMaxSelections",
-          ]) === "number"
-            ? {
-                maxSelections: readAddOnLinkNumber(link, [
-                  "subgroup_max_selections",
-                  "subgroupMaxSelections",
-                ]),
-              }
-            : {}),
-          items: [],
-        };
-        group._subgroupsByKey.set(subgroupKey, subgroup);
-        group.subgroups.push(subgroup);
-      }
-      group._subgroupsByKey.get(subgroupKey).items.push(option);
-      continue;
+    if (!group._subgroupsByKey.has(entry.subgroupId)) {
+      const subgroup = {
+        id: entry.subgroupId,
+        title: entry.subgroupTitle,
+        selectionMode: "single",
+        items: [],
+      };
+      group._subgroupsByKey.set(entry.subgroupId, subgroup);
+      group.subgroups.push(subgroup);
     }
 
-    group.items.push(option);
+    const subgroup = group._subgroupsByKey.get(entry.subgroupId);
+    for (const productId of entry.productIds) {
+      const linkedProduct = addOnProductsById.get(productId);
+      if (!linkedProduct) continue;
+      const option = buildAddOnOptionFromProduct(
+        linkedProduct,
+        entry.kind,
+        entry.subgroupTitle,
+        entry.groupTitle,
+      );
+      if (option) subgroup.items.push(option);
+    }
   }
 
   return [...groups.values()]
     .map(({ _subgroupsByKey, ...group }) => ({
       ...group,
-      ...(group.items.length ? { items: group.items } : {}),
-      ...(group.subgroups.length ? { subgroups: group.subgroups } : {}),
+      subgroups: group.subgroups.filter((subgroup) => subgroup.items.length > 0),
     }))
-    .filter((group) => (group.items?.length || 0) > 0 || (group.subgroups?.length || 0) > 0);
+    .filter((group) => (group.subgroups?.length || 0) > 0);
 }
 
 function isDefaultVariantValue(value) {
@@ -609,11 +451,7 @@ function buildProduct(product, addOnProductsById, addOnProductsByHandle, orderIn
   const descriptionText =
     readMetadataString(metadata, ["description_text", "descriptionText"]) ??
     normalizeString(product.description);
-  const addOnGroups = buildAddOnGroupsFromLinks(
-    metadata,
-    addOnProductsById,
-    addOnProductsByHandle,
-  );
+  const addOnGroups = buildAddOnGroupsFromSimpleMetadata(metadata, addOnProductsById);
   const sourceVariants =
     readMetadataRecordArray(metadata, "source_variants") ||
     readMetadataRecordArray(primaryVariant?.metadata, "source_variants");

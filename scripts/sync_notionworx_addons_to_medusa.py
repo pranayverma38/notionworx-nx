@@ -11,6 +11,8 @@ from __future__ import annotations
 import argparse
 import json
 import os
+import re
+from collections import defaultdict
 from dataclasses import dataclass, field
 from datetime import UTC, datetime
 from pathlib import Path
@@ -293,7 +295,6 @@ def build_addon_product_metadata(record: AddOnOptionRecord) -> JsonDict:
         "source_add_on_group_titles": record.group_titles,
         "source_add_on_subgroup_ids": record.subgroup_ids,
         "source_add_on_subgroup_titles": record.subgroup_titles,
-        "source_add_on_group_keys": record.group_keys,
         "source_add_on_parent_handles": record.parent_handles,
         "source_add_on_parent_count": len(record.parent_handles),
         "source_add_on_price_surcharge": record.price,
@@ -461,67 +462,66 @@ def sync_addon_products(
     return synced_links, summary
 
 
-def build_parent_addon_links(
+OLD_ADDON_METADATA_KEYS = [
+    "source_add_on_product_links",
+    "sourceAddOnProductLinks",
+    "source_accessory_product_ids",
+    "sourceAccessoryProductIds",
+    "source_upgrade_product_ids",
+    "sourceUpgradeProductIds",
+    "source_add_on_group_keys",
+    "sourceAddOnGroupKeys",
+]
+
+
+def slugify_subgroup(value: str) -> str:
+    """Convert a subgroup title into a metadata-safe token."""
+    token = re.sub(r"[^A-Za-z0-9]+", "_", value.strip())
+    token = re.sub(r"_+", "_", token).strip("_")
+    return token or "General"
+
+
+def build_simple_addon_key(kind: str, subgroup_title: str) -> str:
+    """Build Accessories_Table_Cover / Upgrades_Vented_Top style keys."""
+    prefix = "Upgrades" if kind.strip().lower() == "upgrade" else "Accessories"
+    return f"{prefix}_{slugify_subgroup(subgroup_title)}"
+
+
+def build_parent_simple_addon_metadata(
     *,
-    parent_handle: str,
     group_keys: list[str],
     groups_by_key: dict[str, JsonDict],
     synced_links: dict[str, JsonDict],
-) -> list[JsonDict]:
-    """Build one parent-product metadata link payload."""
-    links: list[JsonDict] = []
+) -> dict[str, str]:
+    """Build simple comma-separated add-on metadata for one parent product."""
+    buckets: dict[str, list[str]] = defaultdict(list)
 
     for group_key in group_keys:
         group = groups_by_key.get(group_key)
-        if not group:
+        if not group or is_frame_type_group(group):
             continue
-        if is_frame_type_group(group):
-            continue
-
-        group_id = read_string(group.get("id"))
-        group_title = read_string(group.get("title"))
 
         for subgroup, option in iter_group_options(group):
             option_id = read_string(option.get("id"))
             link = synced_links.get(option_id or "")
-            if not option_id or not link:
+            product_id = str((link or {}).get("id") or "").strip()
+            if not option_id or not product_id:
                 continue
 
-            links.append(
-                {
-                    "group_key": group_key,
-                    "group_id": group_id,
-                    "group_title": group_title,
-                    "group_selection_mode": read_string(group.get("selectionMode")),
-                    "group_max_selections": read_number(group.get("maxSelections")),
-                    "subgroup_id": read_string(subgroup.get("id")) if subgroup else None,
-                    "subgroup_title": read_string(subgroup.get("title")) if subgroup else None,
-                    "subgroup_selection_mode": (
-                        read_string(subgroup.get("selectionMode")) if subgroup else None
-                    ),
-                    "subgroup_max_selections": (
-                        read_number(subgroup.get("maxSelections")) if subgroup else None
-                    ),
-                    "add_on_id": option_id,
-                    "kind": read_string(option.get("kind")),
-                    "title": read_string(option.get("title")),
-                    "hover_title": read_string(option.get("hoverTitle")),
-                    "hover_description": read_string(option.get("hoverDescription")),
-                    "allows_quantity": option.get("allowsQuantity")
-                    if isinstance(option.get("allowsQuantity"), bool)
-                    else None,
-                    "min_quantity": read_number(option.get("minQuantity")),
-                    "max_quantity": read_number(option.get("maxQuantity")),
-                    "step": read_number(option.get("step")),
-                    "handle": link.get("handle"),
-                    "sku": link.get("sku"),
-                    "medusa_product_id": link.get("id"),
-                    "medusa_variant_id": link.get("variant_id"),
-                    "surcharge": read_number(((option.get("price") or {}).get("surcharge"))),
-                }
+            kind = read_string(option.get("kind")) or "accessory"
+            subgroup_title = (
+                (read_string(subgroup.get("title")) if subgroup else None)
+                or (read_string(subgroup.get("id")) if subgroup else None)
+                or ("Upgrades" if kind.lower() == "upgrade" else "Accessories")
             )
+            key = build_simple_addon_key(kind, subgroup_title)
+            buckets[key].append(product_id)
 
-    return links
+    return {
+        key: ", ".join(unique_preserving_order(product_ids))
+        for key, product_ids in sorted(buckets.items())
+        if product_ids
+    }
 
 
 def sync_parent_product_metadata(
@@ -534,7 +534,7 @@ def sync_parent_product_metadata(
     synced_links: dict[str, JsonDict],
     apply: bool,
 ) -> JsonDict:
-    """Attach linked accessory/upgrade product metadata to all parent products."""
+    """Attach simple accessory/upgrade product metadata to all parent products."""
     summary: JsonDict = {
         "totalParents": len(products_by_handle),
         "updated": [],
@@ -548,36 +548,21 @@ def sync_parent_product_metadata(
             summary["missing"].append(parent_handle)
             continue
 
-        links = build_parent_addon_links(
-            parent_handle=parent_handle,
+        simple_fields = build_parent_simple_addon_metadata(
             group_keys=group_keys,
             groups_by_key=groups_by_key,
             synced_links=synced_links,
         )
-        accessory_ids = unique_preserving_order(
-            [
-                str(link.get("medusa_product_id") or "").strip()
-                for link in links
-                if str(link.get("kind") or "").strip().lower() == "accessory"
-            ]
-        )
-        upgrade_ids = unique_preserving_order(
-            [
-                str(link.get("medusa_product_id") or "").strip()
-                for link in links
-                if str(link.get("kind") or "").strip().lower() == "upgrade"
-            ]
-        )
 
         merged_metadata = dict(existing_product.get("metadata") or {})
-        merged_metadata.update(
-            {
-                "source_add_on_group_keys": group_keys,
-                "source_add_on_product_links": links,
-                "source_accessory_product_ids": accessory_ids,
-                "source_upgrade_product_ids": upgrade_ids,
-            }
-        )
+        # Clear any previous simple keys so stale subgroups do not linger.
+        for key in list(merged_metadata):
+            if str(key).startswith(("Accessories_", "Upgrades_")):
+                merged_metadata[key] = ""
+        for old_key in OLD_ADDON_METADATA_KEYS:
+            if old_key in merged_metadata:
+                merged_metadata[old_key] = ""
+        merged_metadata.update(simple_fields)
         summary["updated"].append(parent_handle)
 
         if not apply:
