@@ -38,6 +38,7 @@ export interface ProductCardProps {
   imgWidth?: number;
   imgHeight?: number;
   showRatting?: boolean;
+  hideActionCtas?: boolean;
 }
 
 export default function ProductCard({
@@ -56,6 +57,7 @@ export default function ProductCard({
   imgHeight = 440,
   shopMeta,
   showRatting = true,
+  hideActionCtas = false,
 }: ProductCardProps) {
   const defaultImage = product.img ?? "";
   const [activeImage, setActiveImage] = useState(defaultImage);
@@ -88,6 +90,7 @@ export default function ProductCard({
     actionBotHref,
     actionBotDataToggle,
     wowDelay,
+    hideActionCtas,
   });
 
   if (variant === "shopList") {

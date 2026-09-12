@@ -389,6 +389,11 @@
   &.square {
     aspect-ratio: 1;
 
+    .product-img {
+      display: block;
+      height: 100%;
+    }
+
     img {
       aspect-ratio: 1;
     }

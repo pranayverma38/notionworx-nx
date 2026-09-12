@@ -22,8 +22,13 @@ export function ProductCardBottomSection() {
     actionBotLabel,
     actionBotHref,
     actionBotDataToggle,
+    hideActionCtas,
   } = useProductCard();
   const isQuickAddAction = actionBotHref === "#quickAdd";
+
+  if (hideActionCtas) {
+    return hasSize ? <VariantSizeBox sizes={product.sizes!} /> : null;
+  }
 
   if (gridVariant === "shopGridHover06") {
     return (

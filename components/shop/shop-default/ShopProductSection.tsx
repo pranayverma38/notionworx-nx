@@ -72,10 +72,11 @@ export function ShopProductSection() {
             <ProductCard
               key={`${product.id}-grid-${i}`}
               product={product}
-              wrapperClass={product.cardVariant}
+              wrapperClass={`${product.cardVariant ?? ""} square`.trim()}
               variant={gridCardVariant}
               cardClass="grid"
               shopMeta={shopMetaFor(product)}
+              hideActionCtas
             />
           ))
         )}

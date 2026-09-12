@@ -10,7 +10,12 @@ export function ProductCardActionList() {
     gridVariant,
     isShopGridHoverBar,
     shopHoverActionClass,
+    hideActionCtas,
   } = useProductCard();
+
+  if (hideActionCtas) {
+    return null;
+  }
 
   if (gridVariant === "shopGridHover05" || gridVariant === "shopGridHover06") {
     return (
