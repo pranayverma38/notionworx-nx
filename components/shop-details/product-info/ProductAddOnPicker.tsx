@@ -84,7 +84,7 @@ export function ProductAddOnPicker() {
             </span>
           </div>
 
-          {(group.subgroups ?? []).map((subgroup, index) => {
+          {(group.subgroups ?? []).map((subgroup) => {
             const prefersFlatGrid =
               subgroup.selectionMode === "multiple" && subgroup.items.length > 1;
 
@@ -158,7 +158,6 @@ export function ProductAddOnPicker() {
                 title={subgroup.title}
                 description={subgroup.description}
                 options={subgroup.items}
-                stepNumber={index + 1}
               />
             );
           })}
@@ -204,7 +203,6 @@ export function ProductAddOnPicker() {
                 group={group}
                 title={group.title}
                 options={group.items ?? []}
-                stepNumber={(group.subgroups?.length ?? 0) + 1}
               />
             )
           ) : null}
@@ -240,14 +238,12 @@ function GuidedAddOnConfigurator({
   title,
   description,
   options,
-  stepNumber,
 }: {
   group: ProductAddOnGroup;
   subgroup?: ProductAddOnSubgroup;
   title: string;
   description?: string;
   options: ProductAddOnOption[];
-  stepNumber: number;
 }) {
   const { addOnSelections, setAddOnSelections } = useProduct();
   const [preferredSizeKey, setPreferredSizeKey] = useState<string>("");
@@ -285,41 +281,29 @@ function GuidedAddOnConfigurator({
     <div className="product-addons__journey">
       <div className="product-addons__journey-step">
         <div className="product-addons__journey-body">
-          <div className="product-addons__journey-topbar">
-            <span className="product-addons__journey-step-badge">
-              Step {stepNumber}
-            </span>
-            {selectedChoice ? (
-              <div className="product-addons__journey-selection-pill">
-                <span className="product-addons__journey-selection-label">
-                  Selected
-                </span>
-                <span className="product-addons__journey-selection-value">
-                  {model.kind === "size-and-choice" && selectedChoice.sizeLabel
-                    ? `${selectedChoice.sizeLabel} · ${selectedChoiceLabel}`
-                    : selectedChoiceLabel}
-                  {selectedQuantity > 1 ? ` · Qty ${selectedQuantity}` : ""}
-                </span>
-              </div>
-            ) : null}
-          </div>
           <div className="product-addons__journey-heading">
             <div className="product-addons__journey-heading-main">
               <h6 className="product-addons__journey-title">{title}</h6>
               <p className="product-addons__journey-copy">
                 {description?.trim() || getConfiguratorIntroCopy(title, options.length)}
               </p>
+              {selectedChoice ? (
+                <p className="product-addons__journey-selection-text">
+                  <span>Selected:</span>{" "}
+                  {model.kind === "size-and-choice" && selectedChoice.sizeLabel
+                    ? `${selectedChoice.sizeLabel} · ${selectedChoiceLabel}`
+                    : selectedChoiceLabel}
+                  {selectedQuantity > 1 ? ` · Qty ${selectedQuantity}` : ""}
+                </p>
+              ) : null}
             </div>
           </div>
 
           {model.kind === "size-and-choice" ? (
             <div className="product-addons__journey-panel">
-              <div className="product-addons__journey-label-row">
-                <span className="product-addons__journey-label">Step 1</span>
-                <p className="product-addons__journey-prompt">
-                  {getSizePromptCopy(title)}
-                </p>
-              </div>
+              <p className="product-addons__journey-prompt">
+                {getSizePromptCopy(title)}
+              </p>
               <div className="product-addons__choice-strip" role="list">
                 {model.sizes.map((size) => {
                   const isActive = resolvedSizeKey === size.key;
@@ -348,14 +332,9 @@ function GuidedAddOnConfigurator({
           ) : null}
 
           <div className="product-addons__journey-panel">
-            <div className="product-addons__journey-label-row">
-              <span className="product-addons__journey-label">
-                {model.kind === "size-and-choice" ? "Step 2" : "Step 1"}
-              </span>
-              <p className="product-addons__journey-prompt">
-                {getChoicePromptCopy(title)}
-              </p>
-            </div>
+            <p className="product-addons__journey-prompt">
+              {getChoicePromptCopy(title)}
+            </p>
             <div className="product-addons__journey-grid">
               {visibleChoices.map((choice) => (
                 <GuidedOptionCard
@@ -366,12 +345,14 @@ function GuidedAddOnConfigurator({
                   isSelected={selectedChoice?.option.id === choice.option.id}
                   onSelect={() =>
                     setAddOnSelections((previousSelections) =>
-                      selectSingleSelection(
-                        previousSelections,
-                        group,
-                        choice.option,
-                        subgroup,
-                      ),
+                      selectedChoice?.option.id === choice.option.id
+                        ? clearSelection(previousSelections, group.id, subgroup?.id)
+                        : selectSingleSelection(
+                            previousSelections,
+                            group,
+                            choice.option,
+                            subgroup,
+                          ),
                     )
                   }
                 />
@@ -383,54 +364,51 @@ function GuidedAddOnConfigurator({
             <div className="product-addons__journey-footer">
               {selectedChoice.option.allowsQuantity !== false ? (
                 <div className="product-addons__journey-quantity">
-                  <div className="product-addons__journey-label-row">
-                    <span className="product-addons__journey-label">
-                      {model.kind === "size-and-choice" ? "Step 3" : "Step 2"}
-                    </span>
+                  <div className="product-addons__journey-quantity-row">
                     <p className="product-addons__journey-prompt">
                       {getQuantityPromptCopy(title)}
                     </p>
-                  </div>
-                  <div className="product-addon-card__quantity-stepper">
-                    <button
-                      type="button"
-                      onClick={() =>
-                        setAddOnSelections((previousSelections) =>
-                          updateSelectionQuantity(
-                            previousSelections,
-                            group.id,
-                            selectedChoice.option.id,
-                            subgroup?.id,
-                            Math.max(1, selectedQuantity - 1),
-                          ),
-                        )
-                      }
-                      className="product-addon-card__quantity-button"
-                      aria-label={`Decrease ${selectedChoice.option.title} quantity`}
-                    >
-                      -
-                    </button>
-                    <span className="product-addon-card__quantity-value">
-                      {selectedQuantity}
-                    </span>
-                    <button
-                      type="button"
-                      onClick={() =>
-                        setAddOnSelections((previousSelections) =>
-                          updateSelectionQuantity(
-                            previousSelections,
-                            group.id,
-                            selectedChoice.option.id,
-                            subgroup?.id,
-                            selectedQuantity + 1,
-                          ),
-                        )
-                      }
-                      className="product-addon-card__quantity-button"
-                      aria-label={`Increase ${selectedChoice.option.title} quantity`}
-                    >
-                      +
-                    </button>
+                    <div className="product-addon-card__quantity-stepper">
+                      <button
+                        type="button"
+                        onClick={() =>
+                          setAddOnSelections((previousSelections) =>
+                            updateSelectionQuantity(
+                              previousSelections,
+                              group.id,
+                              selectedChoice.option.id,
+                              subgroup?.id,
+                              selectedQuantity - 1,
+                            ),
+                          )
+                        }
+                        className="product-addon-card__quantity-button"
+                        aria-label={`Decrease ${selectedChoice.option.title} quantity`}
+                      >
+                        -
+                      </button>
+                      <span className="product-addon-card__quantity-value">
+                        {selectedQuantity}
+                      </span>
+                      <button
+                        type="button"
+                        onClick={() =>
+                          setAddOnSelections((previousSelections) =>
+                            updateSelectionQuantity(
+                              previousSelections,
+                              group.id,
+                              selectedChoice.option.id,
+                              subgroup?.id,
+                              selectedQuantity + 1,
+                            ),
+                          )
+                        }
+                        className="product-addon-card__quantity-button"
+                        aria-label={`Increase ${selectedChoice.option.title} quantity`}
+                      >
+                        +
+                      </button>
+                    </div>
                   </div>
                 </div>
               ) : null}
@@ -1077,6 +1055,14 @@ function updateSelectionQuantity(
   subgroupId: string | undefined,
   nextQuantity: number,
 ): ProductAddOnSelection[] {
+  if (nextQuantity <= 0) {
+    return selections.filter(
+      (selection) =>
+        buildSelectionKey(selection.groupId, selection.addOnId, selection.subgroupId) !==
+        buildSelectionKey(groupId, addOnId, subgroupId),
+    );
+  }
+
   return selections.map((selection) =>
     buildSelectionKey(selection.groupId, selection.addOnId, selection.subgroupId) ===
     buildSelectionKey(groupId, addOnId, subgroupId)

@@ -1485,8 +1485,8 @@
 
   .product-addons__journey-step {
     display: grid;
-    gap: 12px;
-    padding: 18px;
+    gap: 10px;
+    padding: 16px;
     border-radius: 22px;
     border: 1px solid #e2e8f0;
     background:
@@ -1496,64 +1496,8 @@
 
   .product-addons__journey-body {
     display: grid;
-    gap: 16px;
+    gap: 14px;
     min-width: 0;
-  }
-
-  .product-addons__journey-topbar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 10px;
-    flex-wrap: wrap;
-  }
-
-  .product-addons__journey-step-badge {
-    display: inline-flex;
-    align-items: center;
-    min-height: 30px;
-    padding: 0 12px;
-    border-radius: 999px;
-    border: 1px solid #dbe3ef;
-    background: #fff;
-    color: #0f172a;
-    font-size: 11px;
-    line-height: 16px;
-    font-weight: 700;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-  }
-
-  .product-addons__journey-selection-pill {
-    display: inline-flex;
-    align-items: center;
-    gap: 8px;
-    min-height: 34px;
-    max-width: 100%;
-    padding: 6px 12px;
-    border-radius: 999px;
-    background: #eff6ff;
-    border: 1px solid #bfdbfe;
-  }
-
-  .product-addons__journey-selection-label {
-    color: #1d4ed8;
-    font-size: 11px;
-    line-height: 16px;
-    font-weight: 700;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    white-space: nowrap;
-  }
-
-  .product-addons__journey-selection-value {
-    color: #0f172a;
-    font-size: 12px;
-    line-height: 18px;
-    font-weight: 600;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
   }
 
   .product-addons__journey-heading {
@@ -1582,32 +1526,26 @@
     line-height: 20px;
   }
 
+  .product-addons__journey-selection-text {
+    margin: 2px 0 0;
+    color: #334155;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 600;
+
+    span {
+      color: #1d4ed8;
+      font-weight: 700;
+    }
+  }
+
   .product-addons__journey-panel {
     display: grid;
-    gap: 12px;
-    padding: 14px;
+    gap: 10px;
+    padding: 12px 14px;
     border-radius: 18px;
     background: rgba(255, 255, 255, 0.88);
     border: 1px solid #edf2f7;
-  }
-
-  .product-addons__journey-label-row {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    flex-wrap: wrap;
-  }
-
-  .product-addons__journey-label {
-    padding: 4px 8px;
-    border-radius: 999px;
-    background: #eff6ff;
-    color: #1d4ed8;
-    font-size: 11px;
-    line-height: 16px;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.06em;
   }
 
   .product-addons__journey-prompt {
@@ -1626,31 +1564,32 @@
   }
 
   .product-addons__choice-chip {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     min-width: 88px;
-    min-height: 48px;
-    padding: 0 18px;
-    border: 1px solid #cfd8e3;
-    border-radius: 18px;
-    background: linear-gradient(180deg, #ffffff 0%, #f8fafc 100%);
+    min-height: 44px;
+    padding: 0 20px;
+    border: 1px solid #d7dee7;
+    border-radius: 14px;
+    background: #fff;
     color: #334155;
     font-size: 14px;
     line-height: 20px;
-    font-weight: 700;
-    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.85);
+    font-weight: 600;
+    white-space: nowrap;
     @include transition3;
 
     &:hover {
-      border-color: #94a3b8;
-      background: #fff;
+      border-color: #b8c2cf;
+      background: #f8fafc;
       color: var(--text);
-      transform: translateY(-1px);
     }
 
     &.is-active {
-      border-color: #1d4ed8;
-      background: linear-gradient(180deg, #1f5eff 0%, #1d4ed8 100%);
-      color: #fff;
-      box-shadow: 0 10px 22px rgba(29, 78, 216, 0.22);
+      border-color: #111827;
+      background: #f8fafc;
+      color: #111827;
     }
   }
 
@@ -1663,15 +1602,21 @@
   .product-addons__journey-footer {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    gap: 16px;
+    justify-content: flex-start;
+    gap: 12px;
     flex-wrap: wrap;
-    padding-top: 2px;
   }
 
   .product-addons__journey-quantity {
-    display: grid;
-    gap: 8px;
+    width: 100%;
+  }
+
+  .product-addons__journey-quantity-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    flex-wrap: wrap;
   }
 
   .product-addons__options-grid {
@@ -1981,6 +1926,10 @@
       .product-addons__journey-panel {
         padding: 12px;
         border-radius: 16px;
+      }
+
+      .product-addons__journey-quantity-row {
+        align-items: stretch;
       }
 
       .product-addons__choice-strip {
