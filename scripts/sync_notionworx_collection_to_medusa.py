@@ -45,8 +45,11 @@ INVENTORY_ROOT = REPO_ROOT / "data" / "inventory" / "notionworx"
 INVENTORY_MANIFEST_PATH = INVENTORY_ROOT / "manifest.json"
 STOREFRONT_GENERATED_PATH = INVENTORY_ROOT / "storefront.generated.ts"
 SHARED_ADDON_CATALOG_PATH = INVENTORY_ROOT / "product-addons.shared.generated.json"
+ADDON_MEDUSA_LINKS_PATH = INVENTORY_ROOT / "product-addons.medusa.generated.json"
 DEFAULT_PREVIEW_DIR = INVENTORY_ROOT / "medusa"
 DEFAULT_OPTION_TITLES = {"default option", "default title", "title"}
+
+_addon_medusa_links_by_option_id: dict[str, JsonDict] | None = None
 
 
 @dataclass(frozen=True)
@@ -175,6 +178,136 @@ def unique_preserving_order(values: list[str]) -> list[str]:
         seen.add(value)
         result.append(value)
     return result
+
+
+def load_addon_medusa_links_by_option_id() -> dict[str, JsonDict]:
+    """Return Medusa add-on products indexed by shared add-on option id."""
+    global _addon_medusa_links_by_option_id
+
+    if _addon_medusa_links_by_option_id is not None:
+        return _addon_medusa_links_by_option_id
+
+    if not ADDON_MEDUSA_LINKS_PATH.is_file():
+        _addon_medusa_links_by_option_id = {}
+        return _addon_medusa_links_by_option_id
+
+    payload = read_json(ADDON_MEDUSA_LINKS_PATH)
+    options = payload.get("options", {})
+    if not isinstance(options, dict):
+        _addon_medusa_links_by_option_id = {}
+        return _addon_medusa_links_by_option_id
+
+    _addon_medusa_links_by_option_id = {
+        str(option_id): value
+        for option_id, value in options.items()
+        if isinstance(option_id, str) and isinstance(value, dict)
+    }
+    return _addon_medusa_links_by_option_id
+
+
+def build_add_on_product_links(bundle: SourceProductBundle) -> list[JsonDict]:
+    """Return linked Medusa add-on product metadata for one source product."""
+    medusa_links_by_option_id = load_addon_medusa_links_by_option_id()
+    if not medusa_links_by_option_id:
+        return []
+
+    effective_keys = set(get_effective_add_on_group_keys(bundle))
+    links: list[JsonDict] = []
+
+    for group_key, group in zip(bundle.add_on_group_keys, bundle.shared_add_on_groups):
+        if group_key not in effective_keys or not isinstance(group, dict):
+            continue
+
+        group_id = str(group.get("id") or "").strip()
+        group_title = str(group.get("title") or "").strip()
+
+        for subgroup in group.get("subgroups", []):
+            if not isinstance(subgroup, dict):
+                continue
+
+            subgroup_id = str(subgroup.get("id") or "").strip()
+            subgroup_title = str(subgroup.get("title") or "").strip()
+            for option in subgroup.get("items", []):
+                if not isinstance(option, dict):
+                    continue
+                option_id = str(option.get("id") or "").strip()
+                medusa_link = medusa_links_by_option_id.get(option_id)
+                if not option_id or not medusa_link:
+                    continue
+
+                links.append(
+                    {
+                        "group_key": group_key,
+                        "group_id": group_id,
+                        "group_title": group_title,
+                        "group_selection_mode": group.get("selectionMode"),
+                        "group_max_selections": group.get("maxSelections"),
+                        "subgroup_id": subgroup_id,
+                        "subgroup_title": subgroup_title,
+                        "subgroup_selection_mode": subgroup.get("selectionMode"),
+                        "subgroup_max_selections": subgroup.get("maxSelections"),
+                        "add_on_id": option_id,
+                        "kind": option.get("kind"),
+                        "title": option.get("title"),
+                        "hover_title": option.get("hoverTitle"),
+                        "hover_description": option.get("hoverDescription"),
+                        "allows_quantity": option.get("allowsQuantity"),
+                        "min_quantity": option.get("minQuantity"),
+                        "max_quantity": option.get("maxQuantity"),
+                        "step": option.get("step"),
+                        "handle": medusa_link.get("handle"),
+                        "sku": medusa_link.get("sku"),
+                        "medusa_product_id": medusa_link.get("id"),
+                        "medusa_variant_id": medusa_link.get("variant_id"),
+                        "linked_storefront_product_id": medusa_link.get(
+                            "linked_storefront_product_id"
+                        ),
+                        "linked_source_product_id": medusa_link.get(
+                            "linked_source_product_id"
+                        ),
+                        "surcharge": ((option.get("price") or {}).get("surcharge")),
+                    }
+                )
+
+        for option in group.get("items", []):
+            if not isinstance(option, dict):
+                continue
+            option_id = str(option.get("id") or "").strip()
+            medusa_link = medusa_links_by_option_id.get(option_id)
+            if not option_id or not medusa_link:
+                continue
+
+            links.append(
+                {
+                    "group_key": group_key,
+                    "group_id": group_id,
+                    "group_title": group_title,
+                    "group_selection_mode": group.get("selectionMode"),
+                    "group_max_selections": group.get("maxSelections"),
+                    "add_on_id": option_id,
+                    "kind": option.get("kind"),
+                    "title": option.get("title"),
+                    "hover_title": option.get("hoverTitle"),
+                    "hover_description": option.get("hoverDescription"),
+                    "allows_quantity": option.get("allowsQuantity"),
+                    "min_quantity": option.get("minQuantity"),
+                    "max_quantity": option.get("maxQuantity"),
+                    "step": option.get("step"),
+                    "handle": medusa_link.get("handle"),
+                    "sku": medusa_link.get("sku"),
+                    "medusa_product_id": medusa_link.get("id"),
+                    "medusa_variant_id": medusa_link.get("variant_id"),
+                    "linked_storefront_product_id": medusa_link.get(
+                        "linked_storefront_product_id"
+                    ),
+                    "linked_source_product_id": medusa_link.get(
+                        "linked_source_product_id"
+                    ),
+                    "surcharge": ((option.get("price") or {}).get("surcharge")),
+                }
+            )
+
+    return links
 
 
 def is_meaningful_option_name(name: str | None) -> bool:
@@ -820,6 +953,23 @@ def build_product_metadata(
     """Build fidelity-critical Medusa metadata for one product."""
     source_product = bundle.source_product
     storefront_product = bundle.storefront_product
+    add_on_product_links = build_add_on_product_links(bundle)
+    accessory_product_ids = unique_preserving_order(
+        [
+            str(link.get("medusa_product_id") or "").strip()
+            for link in add_on_product_links
+            if str(link.get("kind") or "").strip().lower() == "accessory"
+            and str(link.get("medusa_product_id") or "").strip()
+        ]
+    )
+    upgrade_product_ids = unique_preserving_order(
+        [
+            str(link.get("medusa_product_id") or "").strip()
+            for link in add_on_product_links
+            if str(link.get("kind") or "").strip().lower() == "upgrade"
+            and str(link.get("medusa_product_id") or "").strip()
+        ]
+    )
     option_definitions, source_variants = resolve_variant_model(bundle)
     variant_label, sizes, size_variants = build_storefront_variant_catalog(
         option_definitions=option_definitions,
@@ -863,6 +1013,9 @@ def build_product_metadata(
         "source_description": storefront_product.get("description"),
         "source_card_variant": storefront_product.get("cardVariant", ""),
         "source_add_on_group_keys": get_effective_add_on_group_keys(bundle),
+        "source_add_on_product_links": add_on_product_links,
+        "source_accessory_product_ids": accessory_product_ids,
+        "source_upgrade_product_ids": upgrade_product_ids,
         "local_image_paths": [
             image.get("localPath")
             for image in source_product.get("images", [])

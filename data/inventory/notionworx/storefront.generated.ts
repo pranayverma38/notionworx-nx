@@ -258,8 +258,9 @@ export const storefrontProducts = [
         "id": "accessories",
         "kind": "accessory",
         "title": "Accessories",
-        "selectionMode": "multiple",
         "displayStyle": "grid",
+        "selectionMode": "multiple",
+        "items": [],
         "subgroups": [
           {
             "id": "table-cover",
@@ -270,7 +271,11 @@ export const storefrontProducts = [
                 "id": "table-cover-6ft-stretch-table-cover",
                 "kind": "accessory",
                 "title": "6ft Stretch Table Cover",
-                "hoverTitle": "6ft Stretch Table Cover",
+                "handle": "nw-addon-table-cover-6ft-stretch-table-cover",
+                "linkedMedusaProductId": "prod_01M2B6CZFB8R9K6V16CJQY3FGB",
+                "linkedMedusaVariantId": "variant_01M2B6D10RBMY1PDV985E7ZJF3",
+                "sku": "NW-ADDON-TABLE-COVER-6FT-STRETCH-TABLE-COVER",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png",
                 "hoverDescription": "Table Cover · (+ $135.00)",
                 "price": {
                   "surcharge": 135,
@@ -278,15 +283,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png"
+                "step": 1
               },
               {
                 "id": "table-cover-6ft-fitted-table-cover",
                 "kind": "accessory",
                 "title": "6ft Fitted Table Cover",
-                "hoverTitle": "6ft Fitted Table Cover",
+                "handle": "nw-addon-table-cover-6ft-fitted-table-cover",
+                "linkedMedusaProductId": "prod_01M2B6CSQV9YTD2N0GS3TDV2TH",
+                "linkedMedusaVariantId": "variant_01M2B6CV9AGV99J7RFG5MXEWHP",
+                "sku": "NW-ADDON-TABLE-COVER-6FT-FITTED-TABLE-COVER",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png",
                 "hoverDescription": "Table Cover · (+ $145.00)",
                 "price": {
                   "surcharge": 145,
@@ -294,15 +301,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png"
+                "step": 1
               },
               {
                 "id": "table-cover-6ft-draped-table-cover",
                 "kind": "accessory",
                 "title": "6ft Draped Table Cover",
-                "hoverTitle": "6ft Draped Table Cover",
+                "handle": "nw-addon-table-cover-6ft-draped-table-cover",
+                "linkedMedusaProductId": "prod_01M2B6CM1XYJ9NMH6070S4XBYC",
+                "linkedMedusaVariantId": "variant_01M2B6CNKA71NEPEGQ9VEN4ADW",
+                "sku": "NW-ADDON-TABLE-COVER-6FT-DRAPED-TABLE-COVER",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp",
                 "hoverDescription": "Table Cover · (+ $145.00)",
                 "price": {
                   "surcharge": 145,
@@ -310,9 +319,7 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp"
+                "step": 1
               }
             ]
           },
@@ -325,7 +332,11 @@ export const storefrontProducts = [
                 "id": "feather-flags-9ft-mounted-flag-w-mounting-kit",
                 "kind": "accessory",
                 "title": "9ft Mounted Flag w/ Mounting Kit",
-                "hoverTitle": "9ft Mounted Flag w/ Mounting Kit",
+                "handle": "nw-addon-feather-flags-9ft-mounted-flag-w-mounting-kit",
+                "linkedMedusaProductId": "prod_01M2B6B6Z6FAZT1F0RDNSCXHCT",
+                "linkedMedusaVariantId": "variant_01M2B6B8GNASC1MR5ABW9DWXZ3",
+                "sku": "NW-ADDON-FEATHER-FLAGS-9FT-MOUNTED-FLAG-W-MOUNTING-KIT",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png",
                 "hoverDescription": "Feather Flags · (+ $150.00)",
                 "price": {
                   "surcharge": 150,
@@ -333,15 +344,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png"
+                "step": 1
               },
               {
                 "id": "feather-flags-9ft-stand-alone-flag-w-cross-base",
                 "kind": "accessory",
                 "title": "9ft Stand Alone Flag w/ Cross Base",
-                "hoverTitle": "9ft Stand Alone Flag w/ Cross Base",
+                "handle": "nw-addon-feather-flags-9ft-stand-alone-flag-w-cross-base",
+                "linkedMedusaProductId": "prod_01M2B6BCNQB6MRYJZWGCREWM6F",
+                "linkedMedusaVariantId": "variant_01M2B6BE77P3XGQDED1QSFDC9Q",
+                "sku": "NW-ADDON-FEATHER-FLAGS-9FT-STAND-ALONE-FLAG-W-CROSS-BASE",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png",
                 "hoverDescription": "Feather Flags · (+ $140.00)",
                 "price": {
                   "surcharge": 140,
@@ -349,15 +362,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png"
+                "step": 1
               },
               {
                 "id": "feather-flags-12ft-stand-alone-flag-w-cross-base",
                 "kind": "accessory",
                 "title": "12ft Stand Alone Flag w/ Cross Base",
-                "hoverTitle": "12ft Stand Alone Flag w/ Cross Base",
+                "handle": "nw-addon-feather-flags-12ft-stand-alone-flag-w-cross-base",
+                "linkedMedusaProductId": "prod_01M2B6AVGZAPV1B8X7N3ZGD231",
+                "linkedMedusaVariantId": "variant_01M2B6AX2HVNMB86B8W9X9ZEGW",
+                "sku": "NW-ADDON-FEATHER-FLAGS-12FT-STAND-ALONE-FLAG-W-CROSS-BASE",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png",
                 "hoverDescription": "Feather Flags · (+ $150.00)",
                 "price": {
                   "surcharge": 150,
@@ -365,15 +380,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png"
+                "step": 1
               },
               {
                 "id": "feather-flags-15ft-stand-alone-flag-w-cross-base",
                 "kind": "accessory",
                 "title": "15ft Stand Alone Flag w/ Cross Base",
-                "hoverTitle": "15ft Stand Alone Flag w/ Cross Base",
+                "handle": "nw-addon-feather-flags-15ft-stand-alone-flag-w-cross-base",
+                "linkedMedusaProductId": "prod_01M2B6B18G8AN06FY87K9RMA7C",
+                "linkedMedusaVariantId": "variant_01M2B6B2T1S8QC5Q4K3PVJ69X7",
+                "sku": "NW-ADDON-FEATHER-FLAGS-15FT-STAND-ALONE-FLAG-W-CROSS-BASE",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png",
                 "hoverDescription": "Feather Flags · (+ $160.00)",
                 "price": {
                   "surcharge": 160,
@@ -381,9 +398,7 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png"
+                "step": 1
               }
             ]
           },
@@ -396,7 +411,11 @@ export const storefrontProducts = [
                 "id": "weighted-sandbags-4-pc-set",
                 "kind": "accessory",
                 "title": "4 Pc Set",
-                "hoverTitle": "4 Pc Set",
+                "handle": "nw-addon-weighted-sandbags-4-pc-set",
+                "linkedMedusaProductId": "prod_01M2B6F9SBABCW2NY5G4S5ZH7Q",
+                "linkedMedusaVariantId": "variant_01M2B6FBASJDG7H4DQAWD0GC2W",
+                "sku": "NW-ADDON-WEIGHTED-SANDBAGS-4-PC-SET",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png",
                 "hoverDescription": "Weighted Sandbags · (+ $100.00)",
                 "price": {
                   "surcharge": 100,
@@ -404,9 +423,7 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png"
+                "step": 1
               }
             ]
           }
@@ -416,8 +433,9 @@ export const storefrontProducts = [
         "id": "upgrades",
         "kind": "upgrade",
         "title": "Upgrades",
-        "selectionMode": "multiple",
         "displayStyle": "grid",
+        "selectionMode": "multiple",
+        "items": [],
         "subgroups": [
           {
             "id": "double-sided-walls",
@@ -428,7 +446,10 @@ export const storefrontProducts = [
                 "id": "double-sided-walls-double-sided-back-wall",
                 "kind": "upgrade",
                 "title": "Double Sided Back Wall",
-                "hoverTitle": "Double Sided Back Wall",
+                "handle": "nw-addon-double-sided-walls-double-sided-back-wall",
+                "linkedMedusaProductId": "prod_01M2B686DG0C1SM0HPZ4V20CDJ",
+                "linkedMedusaVariantId": "variant_01M2B687TVC6EYYEXVT3NTTNX4",
+                "sku": "NW-ADDON-DOUBLE-SIDED-WALLS-DOUBLE-SIDED-BACK-WALL",
                 "hoverDescription": "Double-Sided Walls · (+ $100.00)",
                 "price": {
                   "surcharge": 100,
@@ -799,8 +820,9 @@ export const storefrontProducts = [
         "id": "accessories",
         "kind": "accessory",
         "title": "Accessories",
-        "selectionMode": "multiple",
         "displayStyle": "grid",
+        "selectionMode": "multiple",
+        "items": [],
         "subgroups": [
           {
             "id": "table-cover",
@@ -811,7 +833,11 @@ export const storefrontProducts = [
                 "id": "table-cover-6ft-stretch-table-cover",
                 "kind": "accessory",
                 "title": "6ft Stretch Table Cover",
-                "hoverTitle": "6ft Stretch Table Cover",
+                "handle": "nw-addon-table-cover-6ft-stretch-table-cover",
+                "linkedMedusaProductId": "prod_01M2B6CZFB8R9K6V16CJQY3FGB",
+                "linkedMedusaVariantId": "variant_01M2B6D10RBMY1PDV985E7ZJF3",
+                "sku": "NW-ADDON-TABLE-COVER-6FT-STRETCH-TABLE-COVER",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png",
                 "hoverDescription": "Table Cover · (+ $135.00)",
                 "price": {
                   "surcharge": 135,
@@ -819,15 +845,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png"
+                "step": 1
               },
               {
                 "id": "table-cover-6ft-fitted-table-cover",
                 "kind": "accessory",
                 "title": "6ft Fitted Table Cover",
-                "hoverTitle": "6ft Fitted Table Cover",
+                "handle": "nw-addon-table-cover-6ft-fitted-table-cover",
+                "linkedMedusaProductId": "prod_01M2B6CSQV9YTD2N0GS3TDV2TH",
+                "linkedMedusaVariantId": "variant_01M2B6CV9AGV99J7RFG5MXEWHP",
+                "sku": "NW-ADDON-TABLE-COVER-6FT-FITTED-TABLE-COVER",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png",
                 "hoverDescription": "Table Cover · (+ $145.00)",
                 "price": {
                   "surcharge": 145,
@@ -835,15 +863,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png"
+                "step": 1
               },
               {
                 "id": "table-cover-6ft-draped-table-cover",
                 "kind": "accessory",
                 "title": "6ft Draped Table Cover",
-                "hoverTitle": "6ft Draped Table Cover",
+                "handle": "nw-addon-table-cover-6ft-draped-table-cover",
+                "linkedMedusaProductId": "prod_01M2B6CM1XYJ9NMH6070S4XBYC",
+                "linkedMedusaVariantId": "variant_01M2B6CNKA71NEPEGQ9VEN4ADW",
+                "sku": "NW-ADDON-TABLE-COVER-6FT-DRAPED-TABLE-COVER",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp",
                 "hoverDescription": "Table Cover · (+ $145.00)",
                 "price": {
                   "surcharge": 145,
@@ -851,9 +881,7 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp"
+                "step": 1
               }
             ]
           },
@@ -866,7 +894,11 @@ export const storefrontProducts = [
                 "id": "feather-flags-9ft-mounted-flag-w-mounting-kit",
                 "kind": "accessory",
                 "title": "9ft Mounted Flag w/ Mounting Kit",
-                "hoverTitle": "9ft Mounted Flag w/ Mounting Kit",
+                "handle": "nw-addon-feather-flags-9ft-mounted-flag-w-mounting-kit",
+                "linkedMedusaProductId": "prod_01M2B6B6Z6FAZT1F0RDNSCXHCT",
+                "linkedMedusaVariantId": "variant_01M2B6B8GNASC1MR5ABW9DWXZ3",
+                "sku": "NW-ADDON-FEATHER-FLAGS-9FT-MOUNTED-FLAG-W-MOUNTING-KIT",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png",
                 "hoverDescription": "Feather Flags · (+ $150.00)",
                 "price": {
                   "surcharge": 150,
@@ -874,15 +906,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png"
+                "step": 1
               },
               {
                 "id": "feather-flags-9ft-stand-alone-flag-w-cross-base",
                 "kind": "accessory",
                 "title": "9ft Stand Alone Flag w/ Cross Base",
-                "hoverTitle": "9ft Stand Alone Flag w/ Cross Base",
+                "handle": "nw-addon-feather-flags-9ft-stand-alone-flag-w-cross-base",
+                "linkedMedusaProductId": "prod_01M2B6BCNQB6MRYJZWGCREWM6F",
+                "linkedMedusaVariantId": "variant_01M2B6BE77P3XGQDED1QSFDC9Q",
+                "sku": "NW-ADDON-FEATHER-FLAGS-9FT-STAND-ALONE-FLAG-W-CROSS-BASE",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png",
                 "hoverDescription": "Feather Flags · (+ $140.00)",
                 "price": {
                   "surcharge": 140,
@@ -890,15 +924,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png"
+                "step": 1
               },
               {
                 "id": "feather-flags-12ft-stand-alone-flag-w-cross-base",
                 "kind": "accessory",
                 "title": "12ft Stand Alone Flag w/ Cross Base",
-                "hoverTitle": "12ft Stand Alone Flag w/ Cross Base",
+                "handle": "nw-addon-feather-flags-12ft-stand-alone-flag-w-cross-base",
+                "linkedMedusaProductId": "prod_01M2B6AVGZAPV1B8X7N3ZGD231",
+                "linkedMedusaVariantId": "variant_01M2B6AX2HVNMB86B8W9X9ZEGW",
+                "sku": "NW-ADDON-FEATHER-FLAGS-12FT-STAND-ALONE-FLAG-W-CROSS-BASE",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png",
                 "hoverDescription": "Feather Flags · (+ $150.00)",
                 "price": {
                   "surcharge": 150,
@@ -906,15 +942,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png"
+                "step": 1
               },
               {
                 "id": "feather-flags-15ft-stand-alone-flag-w-cross-base",
                 "kind": "accessory",
                 "title": "15ft Stand Alone Flag w/ Cross Base",
-                "hoverTitle": "15ft Stand Alone Flag w/ Cross Base",
+                "handle": "nw-addon-feather-flags-15ft-stand-alone-flag-w-cross-base",
+                "linkedMedusaProductId": "prod_01M2B6B18G8AN06FY87K9RMA7C",
+                "linkedMedusaVariantId": "variant_01M2B6B2T1S8QC5Q4K3PVJ69X7",
+                "sku": "NW-ADDON-FEATHER-FLAGS-15FT-STAND-ALONE-FLAG-W-CROSS-BASE",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png",
                 "hoverDescription": "Feather Flags · (+ $160.00)",
                 "price": {
                   "surcharge": 160,
@@ -922,9 +960,7 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png"
+                "step": 1
               }
             ]
           },
@@ -937,7 +973,11 @@ export const storefrontProducts = [
                 "id": "weighted-sandbags-4-pc-set",
                 "kind": "accessory",
                 "title": "4 Pc Set",
-                "hoverTitle": "4 Pc Set",
+                "handle": "nw-addon-weighted-sandbags-4-pc-set",
+                "linkedMedusaProductId": "prod_01M2B6F9SBABCW2NY5G4S5ZH7Q",
+                "linkedMedusaVariantId": "variant_01M2B6FBASJDG7H4DQAWD0GC2W",
+                "sku": "NW-ADDON-WEIGHTED-SANDBAGS-4-PC-SET",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png",
                 "hoverDescription": "Weighted Sandbags · (+ $100.00)",
                 "price": {
                   "surcharge": 100,
@@ -945,9 +985,7 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png"
+                "step": 1
               }
             ]
           }
@@ -957,8 +995,9 @@ export const storefrontProducts = [
         "id": "upgrades",
         "kind": "upgrade",
         "title": "Upgrades",
-        "selectionMode": "single",
         "displayStyle": "grid",
+        "selectionMode": "single",
+        "items": [],
         "subgroups": [
           {
             "id": "double-sided-walls",
@@ -969,7 +1008,10 @@ export const storefrontProducts = [
                 "id": "double-sided-walls-double-sided-15ft-back-wall",
                 "kind": "upgrade",
                 "title": "Double Sided 15ft Back Wall",
-                "hoverTitle": "Double Sided 15ft Back Wall",
+                "handle": "nw-addon-double-sided-walls-double-sided-15ft-back-wall",
+                "linkedMedusaProductId": "prod_01M2B66EKK6A3Z000YTFS500N6",
+                "linkedMedusaVariantId": "variant_01M2B66G16RJBE0BH4QBK352HP",
+                "sku": "NW-ADDON-DOUBLE-SIDED-WALLS-DOUBLE-SIDED-15FT-BACK-WALL",
                 "hoverDescription": "Double Sided Walls · (+ $130.00)",
                 "price": {
                   "surcharge": 130,
@@ -1054,8 +1096,9 @@ export const storefrontProducts = [
         "id": "accessories",
         "kind": "accessory",
         "title": "Accessories",
-        "selectionMode": "multiple",
         "displayStyle": "grid",
+        "selectionMode": "multiple",
+        "items": [],
         "subgroups": [
           {
             "id": "table-cover",
@@ -1066,7 +1109,11 @@ export const storefrontProducts = [
                 "id": "table-cover-6ft-stretch-table-cover",
                 "kind": "accessory",
                 "title": "6ft Stretch Table Cover",
-                "hoverTitle": "6ft Stretch Table Cover",
+                "handle": "nw-addon-table-cover-6ft-stretch-table-cover",
+                "linkedMedusaProductId": "prod_01M2B6CZFB8R9K6V16CJQY3FGB",
+                "linkedMedusaVariantId": "variant_01M2B6D10RBMY1PDV985E7ZJF3",
+                "sku": "NW-ADDON-TABLE-COVER-6FT-STRETCH-TABLE-COVER",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png",
                 "hoverDescription": "Table Cover · (+ $135.00)",
                 "price": {
                   "surcharge": 135,
@@ -1074,15 +1121,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png"
+                "step": 1
               },
               {
                 "id": "table-cover-6ft-fitted-table-cover",
                 "kind": "accessory",
                 "title": "6ft Fitted Table Cover",
-                "hoverTitle": "6ft Fitted Table Cover",
+                "handle": "nw-addon-table-cover-6ft-fitted-table-cover",
+                "linkedMedusaProductId": "prod_01M2B6CSQV9YTD2N0GS3TDV2TH",
+                "linkedMedusaVariantId": "variant_01M2B6CV9AGV99J7RFG5MXEWHP",
+                "sku": "NW-ADDON-TABLE-COVER-6FT-FITTED-TABLE-COVER",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png",
                 "hoverDescription": "Table Cover · (+ $145.00)",
                 "price": {
                   "surcharge": 145,
@@ -1090,15 +1139,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png"
+                "step": 1
               },
               {
                 "id": "table-cover-6ft-draped-table-cover",
                 "kind": "accessory",
                 "title": "6ft Draped Table Cover",
-                "hoverTitle": "6ft Draped Table Cover",
+                "handle": "nw-addon-table-cover-6ft-draped-table-cover",
+                "linkedMedusaProductId": "prod_01M2B6CM1XYJ9NMH6070S4XBYC",
+                "linkedMedusaVariantId": "variant_01M2B6CNKA71NEPEGQ9VEN4ADW",
+                "sku": "NW-ADDON-TABLE-COVER-6FT-DRAPED-TABLE-COVER",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp",
                 "hoverDescription": "Table Cover · (+ $145.00)",
                 "price": {
                   "surcharge": 145,
@@ -1106,9 +1157,7 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp"
+                "step": 1
               }
             ]
           },
@@ -1121,7 +1170,11 @@ export const storefrontProducts = [
                 "id": "feather-flags-9ft-mounted-flag-w-mounting-kit",
                 "kind": "accessory",
                 "title": "9ft Mounted Flag w/ Mounting Kit",
-                "hoverTitle": "9ft Mounted Flag w/ Mounting Kit",
+                "handle": "nw-addon-feather-flags-9ft-mounted-flag-w-mounting-kit",
+                "linkedMedusaProductId": "prod_01M2B6B6Z6FAZT1F0RDNSCXHCT",
+                "linkedMedusaVariantId": "variant_01M2B6B8GNASC1MR5ABW9DWXZ3",
+                "sku": "NW-ADDON-FEATHER-FLAGS-9FT-MOUNTED-FLAG-W-MOUNTING-KIT",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png",
                 "hoverDescription": "Feather Flags · (+ $150.00)",
                 "price": {
                   "surcharge": 150,
@@ -1129,15 +1182,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png"
+                "step": 1
               },
               {
                 "id": "feather-flags-9ft-stand-alone-flag-w-cross-base",
                 "kind": "accessory",
                 "title": "9ft Stand Alone Flag w/ Cross Base",
-                "hoverTitle": "9ft Stand Alone Flag w/ Cross Base",
+                "handle": "nw-addon-feather-flags-9ft-stand-alone-flag-w-cross-base",
+                "linkedMedusaProductId": "prod_01M2B6BCNQB6MRYJZWGCREWM6F",
+                "linkedMedusaVariantId": "variant_01M2B6BE77P3XGQDED1QSFDC9Q",
+                "sku": "NW-ADDON-FEATHER-FLAGS-9FT-STAND-ALONE-FLAG-W-CROSS-BASE",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png",
                 "hoverDescription": "Feather Flags · (+ $140.00)",
                 "price": {
                   "surcharge": 140,
@@ -1145,15 +1200,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png"
+                "step": 1
               },
               {
                 "id": "feather-flags-12ft-stand-alone-flag-w-cross-base",
                 "kind": "accessory",
                 "title": "12ft Stand Alone Flag w/ Cross Base",
-                "hoverTitle": "12ft Stand Alone Flag w/ Cross Base",
+                "handle": "nw-addon-feather-flags-12ft-stand-alone-flag-w-cross-base",
+                "linkedMedusaProductId": "prod_01M2B6AVGZAPV1B8X7N3ZGD231",
+                "linkedMedusaVariantId": "variant_01M2B6AX2HVNMB86B8W9X9ZEGW",
+                "sku": "NW-ADDON-FEATHER-FLAGS-12FT-STAND-ALONE-FLAG-W-CROSS-BASE",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png",
                 "hoverDescription": "Feather Flags · (+ $150.00)",
                 "price": {
                   "surcharge": 150,
@@ -1161,15 +1218,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png"
+                "step": 1
               },
               {
                 "id": "feather-flags-15ft-stand-alone-flag-w-cross-base",
                 "kind": "accessory",
                 "title": "15ft Stand Alone Flag w/ Cross Base",
-                "hoverTitle": "15ft Stand Alone Flag w/ Cross Base",
+                "handle": "nw-addon-feather-flags-15ft-stand-alone-flag-w-cross-base",
+                "linkedMedusaProductId": "prod_01M2B6B18G8AN06FY87K9RMA7C",
+                "linkedMedusaVariantId": "variant_01M2B6B2T1S8QC5Q4K3PVJ69X7",
+                "sku": "NW-ADDON-FEATHER-FLAGS-15FT-STAND-ALONE-FLAG-W-CROSS-BASE",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png",
                 "hoverDescription": "Feather Flags · (+ $160.00)",
                 "price": {
                   "surcharge": 160,
@@ -1177,9 +1236,7 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png"
+                "step": 1
               }
             ]
           },
@@ -1192,7 +1249,11 @@ export const storefrontProducts = [
                 "id": "weighted-sandbags-4-pc-set",
                 "kind": "accessory",
                 "title": "4 Pc Set",
-                "hoverTitle": "4 Pc Set",
+                "handle": "nw-addon-weighted-sandbags-4-pc-set",
+                "linkedMedusaProductId": "prod_01M2B6F9SBABCW2NY5G4S5ZH7Q",
+                "linkedMedusaVariantId": "variant_01M2B6FBASJDG7H4DQAWD0GC2W",
+                "sku": "NW-ADDON-WEIGHTED-SANDBAGS-4-PC-SET",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png",
                 "hoverDescription": "Weighted Sandbags · (+ $100.00)",
                 "price": {
                   "surcharge": 100,
@@ -1200,9 +1261,7 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png"
+                "step": 1
               }
             ]
           }
@@ -1212,8 +1271,9 @@ export const storefrontProducts = [
         "id": "upgrades",
         "kind": "upgrade",
         "title": "Upgrades",
-        "selectionMode": "single",
         "displayStyle": "grid",
+        "selectionMode": "single",
+        "items": [],
         "subgroups": [
           {
             "id": "double-sided-walls",
@@ -1224,7 +1284,10 @@ export const storefrontProducts = [
                 "id": "double-sided-walls-double-sided-20ft-back-wall",
                 "kind": "upgrade",
                 "title": "Double Sided 20ft Back Wall",
-                "hoverTitle": "Double Sided 20ft Back Wall",
+                "handle": "nw-addon-double-sided-walls-double-sided-20ft-back-wall",
+                "linkedMedusaProductId": "prod_01M2B66ST836DG87KD9Y2M6CPD",
+                "linkedMedusaVariantId": "variant_01M2B66V7KN9XAN60T38AA79MW",
+                "sku": "NW-ADDON-DOUBLE-SIDED-WALLS-DOUBLE-SIDED-20FT-BACK-WALL",
                 "hoverDescription": "Double Sided Walls · (+ $140.00)",
                 "price": {
                   "surcharge": 140,
@@ -1924,8 +1987,9 @@ export const storefrontProducts = [
         "id": "accessories",
         "kind": "accessory",
         "title": "Accessories",
-        "selectionMode": "multiple",
         "displayStyle": "grid",
+        "selectionMode": "multiple",
+        "items": [],
         "subgroups": [
           {
             "id": "table-cover",
@@ -1936,7 +2000,11 @@ export const storefrontProducts = [
                 "id": "table-cover-4ft-stretch-table-cover",
                 "kind": "accessory",
                 "title": "4ft Stretch Table Cover",
-                "hoverTitle": "4ft Stretch Table Cover",
+                "handle": "nw-addon-table-cover-4ft-stretch-table-cover",
+                "linkedMedusaProductId": "prod_01M2B6CE9VQT8Q4CNY7DDMN1H9",
+                "linkedMedusaVariantId": "variant_01M2B6CFVA2G9PX7SP2A371FZM",
+                "sku": "NW-ADDON-TABLE-COVER-4FT-STRETCH-TABLE-COVER",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616934016371.png",
                 "hoverDescription": "Table Cover · (+ $125.00)",
                 "price": {
                   "surcharge": 125,
@@ -1944,15 +2012,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616934016371.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616934016371.png"
+                "step": 1
               },
               {
                 "id": "table-cover-6ft-stretch-table-cover",
                 "kind": "accessory",
                 "title": "6ft Stretch Table Cover",
-                "hoverTitle": "6ft Stretch Table Cover",
+                "handle": "nw-addon-table-cover-6ft-stretch-table-cover",
+                "linkedMedusaProductId": "prod_01M2B6CZFB8R9K6V16CJQY3FGB",
+                "linkedMedusaVariantId": "variant_01M2B6D10RBMY1PDV985E7ZJF3",
+                "sku": "NW-ADDON-TABLE-COVER-6FT-STRETCH-TABLE-COVER",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png",
                 "hoverDescription": "Table Cover · (+ $135.00)",
                 "price": {
                   "surcharge": 135,
@@ -1960,15 +2030,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png"
+                "step": 1
               },
               {
                 "id": "table-cover-6ft-fitted-table-cover",
                 "kind": "accessory",
                 "title": "6ft Fitted Table Cover",
-                "hoverTitle": "6ft Fitted Table Cover",
+                "handle": "nw-addon-table-cover-6ft-fitted-table-cover",
+                "linkedMedusaProductId": "prod_01M2B6CSQV9YTD2N0GS3TDV2TH",
+                "linkedMedusaVariantId": "variant_01M2B6CV9AGV99J7RFG5MXEWHP",
+                "sku": "NW-ADDON-TABLE-COVER-6FT-FITTED-TABLE-COVER",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png",
                 "hoverDescription": "Table Cover · (+ $145.00)",
                 "price": {
                   "surcharge": 145,
@@ -1976,15 +2048,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png"
+                "step": 1
               },
               {
                 "id": "table-cover-6ft-draped-table-cover",
                 "kind": "accessory",
                 "title": "6ft Draped Table Cover",
-                "hoverTitle": "6ft Draped Table Cover",
+                "handle": "nw-addon-table-cover-6ft-draped-table-cover",
+                "linkedMedusaProductId": "prod_01M2B6CM1XYJ9NMH6070S4XBYC",
+                "linkedMedusaVariantId": "variant_01M2B6CNKA71NEPEGQ9VEN4ADW",
+                "sku": "NW-ADDON-TABLE-COVER-6FT-DRAPED-TABLE-COVER",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp",
                 "hoverDescription": "Table Cover · (+ $145.00)",
                 "price": {
                   "surcharge": 145,
@@ -1992,9 +2066,7 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp"
+                "step": 1
               }
             ]
           },
@@ -2007,7 +2079,11 @@ export const storefrontProducts = [
                 "id": "feather-flags-9ft-mounted-flag-w-mounting-kit",
                 "kind": "accessory",
                 "title": "9ft Mounted Flag w/ Mounting Kit",
-                "hoverTitle": "9ft Mounted Flag w/ Mounting Kit",
+                "handle": "nw-addon-feather-flags-9ft-mounted-flag-w-mounting-kit",
+                "linkedMedusaProductId": "prod_01M2B6B6Z6FAZT1F0RDNSCXHCT",
+                "linkedMedusaVariantId": "variant_01M2B6B8GNASC1MR5ABW9DWXZ3",
+                "sku": "NW-ADDON-FEATHER-FLAGS-9FT-MOUNTED-FLAG-W-MOUNTING-KIT",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png",
                 "hoverDescription": "Feather Flags · (+ $150.00)",
                 "price": {
                   "surcharge": 150,
@@ -2015,15 +2091,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png"
+                "step": 1
               },
               {
                 "id": "feather-flags-9ft-stand-alone-flag-w-cross-base",
                 "kind": "accessory",
                 "title": "9ft Stand Alone Flag w/ Cross Base",
-                "hoverTitle": "9ft Stand Alone Flag w/ Cross Base",
+                "handle": "nw-addon-feather-flags-9ft-stand-alone-flag-w-cross-base",
+                "linkedMedusaProductId": "prod_01M2B6BCNQB6MRYJZWGCREWM6F",
+                "linkedMedusaVariantId": "variant_01M2B6BE77P3XGQDED1QSFDC9Q",
+                "sku": "NW-ADDON-FEATHER-FLAGS-9FT-STAND-ALONE-FLAG-W-CROSS-BASE",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png",
                 "hoverDescription": "Feather Flags · (+ $140.00)",
                 "price": {
                   "surcharge": 140,
@@ -2031,15 +2109,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png"
+                "step": 1
               },
               {
                 "id": "feather-flags-12ft-stand-alone-flag-w-cross-base",
                 "kind": "accessory",
                 "title": "12ft Stand Alone Flag w/ Cross Base",
-                "hoverTitle": "12ft Stand Alone Flag w/ Cross Base",
+                "handle": "nw-addon-feather-flags-12ft-stand-alone-flag-w-cross-base",
+                "linkedMedusaProductId": "prod_01M2B6AVGZAPV1B8X7N3ZGD231",
+                "linkedMedusaVariantId": "variant_01M2B6AX2HVNMB86B8W9X9ZEGW",
+                "sku": "NW-ADDON-FEATHER-FLAGS-12FT-STAND-ALONE-FLAG-W-CROSS-BASE",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png",
                 "hoverDescription": "Feather Flags · (+ $150.00)",
                 "price": {
                   "surcharge": 150,
@@ -2047,15 +2127,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png"
+                "step": 1
               },
               {
                 "id": "feather-flags-15ft-stand-alone-flag-w-cross-base",
                 "kind": "accessory",
                 "title": "15ft Stand Alone Flag w/ Cross Base",
-                "hoverTitle": "15ft Stand Alone Flag w/ Cross Base",
+                "handle": "nw-addon-feather-flags-15ft-stand-alone-flag-w-cross-base",
+                "linkedMedusaProductId": "prod_01M2B6B18G8AN06FY87K9RMA7C",
+                "linkedMedusaVariantId": "variant_01M2B6B2T1S8QC5Q4K3PVJ69X7",
+                "sku": "NW-ADDON-FEATHER-FLAGS-15FT-STAND-ALONE-FLAG-W-CROSS-BASE",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png",
                 "hoverDescription": "Feather Flags · (+ $160.00)",
                 "price": {
                   "surcharge": 160,
@@ -2063,9 +2145,7 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png"
+                "step": 1
               }
             ]
           },
@@ -2078,7 +2158,11 @@ export const storefrontProducts = [
                 "id": "essentials-4-pc-set",
                 "kind": "accessory",
                 "title": "4 Pc Set",
-                "hoverTitle": "4 Pc Set",
+                "handle": "nw-addon-essentials-4-pc-set",
+                "linkedMedusaProductId": "prod_01M2B69S7GR1VKX3SJV4657H6Y",
+                "linkedMedusaVariantId": "variant_01M2B69TS1RYDYKPF5BFTNYGKQ",
+                "sku": "NW-ADDON-ESSENTIALS-4-PC-SET",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png",
                 "hoverDescription": "Essentials · (+ $100.00)",
                 "price": {
                   "surcharge": 100,
@@ -2086,15 +2170,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png"
+                "step": 1
               },
               {
                 "id": "essentials-led-lights",
                 "kind": "accessory",
                 "title": "LED Lights",
-                "hoverTitle": "LED Lights",
+                "handle": "nw-addon-essentials-led-lights",
+                "linkedMedusaProductId": "prod_01M2B6AAC2TWGWM04HKTG92YTE",
+                "linkedMedusaVariantId": "variant_01M2B6ABXNGNMPZP2EGYFZEPYS",
+                "sku": "NW-ADDON-ESSENTIALS-LED-LIGHTS",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649559175731.jpg",
                 "hoverDescription": "Essentials · (+ $219.00)",
                 "price": {
                   "surcharge": 219,
@@ -2102,9 +2188,7 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649559175731.jpg",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649559175731.jpg"
+                "step": 1
               }
             ]
           }
@@ -2114,8 +2198,9 @@ export const storefrontProducts = [
         "id": "upgrades",
         "kind": "upgrade",
         "title": "Upgrades",
-        "selectionMode": "single",
         "displayStyle": "grid",
+        "selectionMode": "single",
+        "items": [],
         "subgroups": [
           {
             "id": "vented-top",
@@ -2126,7 +2211,11 @@ export const storefrontProducts = [
                 "id": "vented-top-vent",
                 "kind": "upgrade",
                 "title": "Vent",
-                "hoverTitle": "Vent",
+                "handle": "nw-addon-vented-top-vent",
+                "linkedMedusaProductId": "prod_01M2B6DGQ5QHYPSRHFKQJ9GBNX",
+                "linkedMedusaVariantId": "variant_01M2B6DJ8PTKJKAFGB7ZZ3DYBH",
+                "sku": "NW-ADDON-VENTED-TOP-VENT",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616168711705.png",
                 "hoverDescription": "Vented Top · (+ $50.00)",
                 "price": {
                   "surcharge": 50,
@@ -2134,9 +2223,7 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616168711705.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616168711705.png"
+                "step": 1
               }
             ]
           }
@@ -2212,8 +2299,9 @@ export const storefrontProducts = [
         "id": "accessories",
         "kind": "accessory",
         "title": "Accessories",
-        "selectionMode": "multiple",
         "displayStyle": "grid",
+        "selectionMode": "multiple",
+        "items": [],
         "subgroups": [
           {
             "id": "table-cover",
@@ -2224,7 +2312,11 @@ export const storefrontProducts = [
                 "id": "table-cover-4ft-stretch-table-cover",
                 "kind": "accessory",
                 "title": "4ft Stretch Table Cover",
-                "hoverTitle": "4ft Stretch Table Cover",
+                "handle": "nw-addon-table-cover-4ft-stretch-table-cover",
+                "linkedMedusaProductId": "prod_01M2B6CE9VQT8Q4CNY7DDMN1H9",
+                "linkedMedusaVariantId": "variant_01M2B6CFVA2G9PX7SP2A371FZM",
+                "sku": "NW-ADDON-TABLE-COVER-4FT-STRETCH-TABLE-COVER",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616934016371.png",
                 "hoverDescription": "Table Cover · (+ $125.00)",
                 "price": {
                   "surcharge": 125,
@@ -2232,15 +2324,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616932765564.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616932765564.png"
+                "step": 1
               },
               {
                 "id": "table-cover-6ft-stretch-table-cover",
                 "kind": "accessory",
                 "title": "6ft Stretch Table Cover",
-                "hoverTitle": "6ft Stretch Table Cover",
+                "handle": "nw-addon-table-cover-6ft-stretch-table-cover",
+                "linkedMedusaProductId": "prod_01M2B6CZFB8R9K6V16CJQY3FGB",
+                "linkedMedusaVariantId": "variant_01M2B6D10RBMY1PDV985E7ZJF3",
+                "sku": "NW-ADDON-TABLE-COVER-6FT-STRETCH-TABLE-COVER",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png",
                 "hoverDescription": "Table Cover · (+ $135.00)",
                 "price": {
                   "surcharge": 135,
@@ -2248,15 +2342,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png"
+                "step": 1
               },
               {
                 "id": "table-cover-6ft-fitted-table-cover",
                 "kind": "accessory",
                 "title": "6ft Fitted Table Cover",
-                "hoverTitle": "6ft Fitted Table Cover",
+                "handle": "nw-addon-table-cover-6ft-fitted-table-cover",
+                "linkedMedusaProductId": "prod_01M2B6CSQV9YTD2N0GS3TDV2TH",
+                "linkedMedusaVariantId": "variant_01M2B6CV9AGV99J7RFG5MXEWHP",
+                "sku": "NW-ADDON-TABLE-COVER-6FT-FITTED-TABLE-COVER",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png",
                 "hoverDescription": "Table Cover · (+ $145.00)",
                 "price": {
                   "surcharge": 145,
@@ -2264,15 +2360,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png"
+                "step": 1
               },
               {
                 "id": "table-cover-6ft-draped-table-cover",
                 "kind": "accessory",
                 "title": "6ft Draped Table Cover",
-                "hoverTitle": "6ft Draped Table Cover",
+                "handle": "nw-addon-table-cover-6ft-draped-table-cover",
+                "linkedMedusaProductId": "prod_01M2B6CM1XYJ9NMH6070S4XBYC",
+                "linkedMedusaVariantId": "variant_01M2B6CNKA71NEPEGQ9VEN4ADW",
+                "sku": "NW-ADDON-TABLE-COVER-6FT-DRAPED-TABLE-COVER",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp",
                 "hoverDescription": "Table Cover · (+ $145.00)",
                 "price": {
                   "surcharge": 145,
@@ -2280,9 +2378,7 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp"
+                "step": 1
               }
             ]
           },
@@ -2295,7 +2391,11 @@ export const storefrontProducts = [
                 "id": "feather-flags-9ft-mounted-flag-w-mounting-kit",
                 "kind": "accessory",
                 "title": "9ft Mounted Flag w/ Mounting Kit",
-                "hoverTitle": "9ft Mounted Flag w/ Mounting Kit",
+                "handle": "nw-addon-feather-flags-9ft-mounted-flag-w-mounting-kit",
+                "linkedMedusaProductId": "prod_01M2B6B6Z6FAZT1F0RDNSCXHCT",
+                "linkedMedusaVariantId": "variant_01M2B6B8GNASC1MR5ABW9DWXZ3",
+                "sku": "NW-ADDON-FEATHER-FLAGS-9FT-MOUNTED-FLAG-W-MOUNTING-KIT",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png",
                 "hoverDescription": "Feather Flags · (+ $150.00)",
                 "price": {
                   "surcharge": 150,
@@ -2303,15 +2403,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png"
+                "step": 1
               },
               {
                 "id": "feather-flags-9ft-stand-alone-flag-w-cross-base",
                 "kind": "accessory",
                 "title": "9ft Stand Alone Flag w/ Cross Base",
-                "hoverTitle": "9ft Stand Alone Flag w/ Cross Base",
+                "handle": "nw-addon-feather-flags-9ft-stand-alone-flag-w-cross-base",
+                "linkedMedusaProductId": "prod_01M2B6BCNQB6MRYJZWGCREWM6F",
+                "linkedMedusaVariantId": "variant_01M2B6BE77P3XGQDED1QSFDC9Q",
+                "sku": "NW-ADDON-FEATHER-FLAGS-9FT-STAND-ALONE-FLAG-W-CROSS-BASE",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png",
                 "hoverDescription": "Feather Flags · (+ $140.00)",
                 "price": {
                   "surcharge": 140,
@@ -2319,15 +2421,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png"
+                "step": 1
               },
               {
                 "id": "feather-flags-12ft-stand-alone-flag-w-cross-base",
                 "kind": "accessory",
                 "title": "12ft Stand Alone Flag w/ Cross Base",
-                "hoverTitle": "12ft Stand Alone Flag w/ Cross Base",
+                "handle": "nw-addon-feather-flags-12ft-stand-alone-flag-w-cross-base",
+                "linkedMedusaProductId": "prod_01M2B6AVGZAPV1B8X7N3ZGD231",
+                "linkedMedusaVariantId": "variant_01M2B6AX2HVNMB86B8W9X9ZEGW",
+                "sku": "NW-ADDON-FEATHER-FLAGS-12FT-STAND-ALONE-FLAG-W-CROSS-BASE",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png",
                 "hoverDescription": "Feather Flags · (+ $150.00)",
                 "price": {
                   "surcharge": 150,
@@ -2335,15 +2439,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png"
+                "step": 1
               },
               {
                 "id": "feather-flags-15ft-stand-alone-flag-w-cross-base",
                 "kind": "accessory",
                 "title": "15ft Stand Alone Flag w/ Cross Base",
-                "hoverTitle": "15ft Stand Alone Flag w/ Cross Base",
+                "handle": "nw-addon-feather-flags-15ft-stand-alone-flag-w-cross-base",
+                "linkedMedusaProductId": "prod_01M2B6B18G8AN06FY87K9RMA7C",
+                "linkedMedusaVariantId": "variant_01M2B6B2T1S8QC5Q4K3PVJ69X7",
+                "sku": "NW-ADDON-FEATHER-FLAGS-15FT-STAND-ALONE-FLAG-W-CROSS-BASE",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png",
                 "hoverDescription": "Feather Flags · (+ $160.00)",
                 "price": {
                   "surcharge": 160,
@@ -2351,9 +2457,7 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png"
+                "step": 1
               }
             ]
           },
@@ -2366,7 +2470,11 @@ export const storefrontProducts = [
                 "id": "essentials-4-pc-set",
                 "kind": "accessory",
                 "title": "4 Pc Set",
-                "hoverTitle": "4 Pc Set",
+                "handle": "nw-addon-essentials-4-pc-set",
+                "linkedMedusaProductId": "prod_01M2B69S7GR1VKX3SJV4657H6Y",
+                "linkedMedusaVariantId": "variant_01M2B69TS1RYDYKPF5BFTNYGKQ",
+                "sku": "NW-ADDON-ESSENTIALS-4-PC-SET",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png",
                 "hoverDescription": "Essentials · (+ $100.00)",
                 "price": {
                   "surcharge": 100,
@@ -2374,15 +2482,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png"
+                "step": 1
               },
               {
                 "id": "essentials-led-lights",
                 "kind": "accessory",
                 "title": "LED Lights",
-                "hoverTitle": "LED Lights",
+                "handle": "nw-addon-essentials-led-lights",
+                "linkedMedusaProductId": "prod_01M2B6AAC2TWGWM04HKTG92YTE",
+                "linkedMedusaVariantId": "variant_01M2B6ABXNGNMPZP2EGYFZEPYS",
+                "sku": "NW-ADDON-ESSENTIALS-LED-LIGHTS",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649559175731.jpg",
                 "hoverDescription": "Essentials · (+ $219.00)",
                 "price": {
                   "surcharge": 219,
@@ -2390,9 +2500,7 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649558476367.jpg",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649558476367.jpg"
+                "step": 1
               }
             ]
           }
@@ -2402,8 +2510,9 @@ export const storefrontProducts = [
         "id": "upgrades",
         "kind": "upgrade",
         "title": "Upgrades",
-        "selectionMode": "single",
         "displayStyle": "grid",
+        "selectionMode": "single",
+        "items": [],
         "subgroups": [
           {
             "id": "double-sided-walls",
@@ -2414,7 +2523,10 @@ export const storefrontProducts = [
                 "id": "double-sided-walls-double-sided-5ft-back-wall",
                 "kind": "upgrade",
                 "title": "Double Sided 5ft Back Wall",
-                "hoverTitle": "Double Sided 5ft Back Wall",
+                "handle": "nw-addon-double-sided-walls-double-sided-5ft-back-wall",
+                "linkedMedusaProductId": "prod_01M2B674Z3GCY2TDE2SZFAMCY6",
+                "linkedMedusaVariantId": "variant_01M2B676CHZJXYCTBKPP754F7B",
+                "sku": "NW-ADDON-DOUBLE-SIDED-WALLS-DOUBLE-SIDED-5FT-BACK-WALL",
                 "hoverDescription": "Double Sided Walls · (+ $75.00)",
                 "price": {
                   "surcharge": 75,
@@ -2491,8 +2603,9 @@ export const storefrontProducts = [
         "id": "accessories",
         "kind": "accessory",
         "title": "Accessories",
-        "selectionMode": "multiple",
         "displayStyle": "grid",
+        "selectionMode": "multiple",
+        "items": [],
         "subgroups": [
           {
             "id": "table-cover",
@@ -2503,7 +2616,11 @@ export const storefrontProducts = [
                 "id": "table-cover-4ft-stretch-table-cover",
                 "kind": "accessory",
                 "title": "4ft Stretch Table Cover",
-                "hoverTitle": "4ft Stretch Table Cover",
+                "handle": "nw-addon-table-cover-4ft-stretch-table-cover",
+                "linkedMedusaProductId": "prod_01M2B6CE9VQT8Q4CNY7DDMN1H9",
+                "linkedMedusaVariantId": "variant_01M2B6CFVA2G9PX7SP2A371FZM",
+                "sku": "NW-ADDON-TABLE-COVER-4FT-STRETCH-TABLE-COVER",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616934016371.png",
                 "hoverDescription": "Table Cover · (+ $125.00)",
                 "price": {
                   "surcharge": 125,
@@ -2511,15 +2628,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616932361755.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616932361755.png"
+                "step": 1
               },
               {
                 "id": "table-cover-6ft-stretch-table-cover",
                 "kind": "accessory",
                 "title": "6ft Stretch Table Cover",
-                "hoverTitle": "6ft Stretch Table Cover",
+                "handle": "nw-addon-table-cover-6ft-stretch-table-cover",
+                "linkedMedusaProductId": "prod_01M2B6CZFB8R9K6V16CJQY3FGB",
+                "linkedMedusaVariantId": "variant_01M2B6D10RBMY1PDV985E7ZJF3",
+                "sku": "NW-ADDON-TABLE-COVER-6FT-STRETCH-TABLE-COVER",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png",
                 "hoverDescription": "Table Cover · (+ $135.00)",
                 "price": {
                   "surcharge": 135,
@@ -2527,15 +2646,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png"
+                "step": 1
               },
               {
                 "id": "table-cover-6ft-fitted-table-cover",
                 "kind": "accessory",
                 "title": "6ft Fitted Table Cover",
-                "hoverTitle": "6ft Fitted Table Cover",
+                "handle": "nw-addon-table-cover-6ft-fitted-table-cover",
+                "linkedMedusaProductId": "prod_01M2B6CSQV9YTD2N0GS3TDV2TH",
+                "linkedMedusaVariantId": "variant_01M2B6CV9AGV99J7RFG5MXEWHP",
+                "sku": "NW-ADDON-TABLE-COVER-6FT-FITTED-TABLE-COVER",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png",
                 "hoverDescription": "Table Cover · (+ $145.00)",
                 "price": {
                   "surcharge": 145,
@@ -2543,15 +2664,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png"
+                "step": 1
               },
               {
                 "id": "table-cover-6ft-draped-table-cover",
                 "kind": "accessory",
                 "title": "6ft Draped Table Cover",
-                "hoverTitle": "6ft Draped Table Cover",
+                "handle": "nw-addon-table-cover-6ft-draped-table-cover",
+                "linkedMedusaProductId": "prod_01M2B6CM1XYJ9NMH6070S4XBYC",
+                "linkedMedusaVariantId": "variant_01M2B6CNKA71NEPEGQ9VEN4ADW",
+                "sku": "NW-ADDON-TABLE-COVER-6FT-DRAPED-TABLE-COVER",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp",
                 "hoverDescription": "Table Cover · (+ $145.00)",
                 "price": {
                   "surcharge": 145,
@@ -2559,9 +2682,7 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp"
+                "step": 1
               }
             ]
           },
@@ -2574,7 +2695,11 @@ export const storefrontProducts = [
                 "id": "feather-flags-9ft-mounted-flag-w-mounting-kit",
                 "kind": "accessory",
                 "title": "9ft Mounted Flag w/ Mounting Kit",
-                "hoverTitle": "9ft Mounted Flag w/ Mounting Kit",
+                "handle": "nw-addon-feather-flags-9ft-mounted-flag-w-mounting-kit",
+                "linkedMedusaProductId": "prod_01M2B6B6Z6FAZT1F0RDNSCXHCT",
+                "linkedMedusaVariantId": "variant_01M2B6B8GNASC1MR5ABW9DWXZ3",
+                "sku": "NW-ADDON-FEATHER-FLAGS-9FT-MOUNTED-FLAG-W-MOUNTING-KIT",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png",
                 "hoverDescription": "Feather Flags · (+ $150.00)",
                 "price": {
                   "surcharge": 150,
@@ -2582,15 +2707,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png"
+                "step": 1
               },
               {
                 "id": "feather-flags-9ft-stand-alone-flag-w-cross-base",
                 "kind": "accessory",
                 "title": "9ft Stand Alone Flag w/ Cross Base",
-                "hoverTitle": "9ft Stand Alone Flag w/ Cross Base",
+                "handle": "nw-addon-feather-flags-9ft-stand-alone-flag-w-cross-base",
+                "linkedMedusaProductId": "prod_01M2B6BCNQB6MRYJZWGCREWM6F",
+                "linkedMedusaVariantId": "variant_01M2B6BE77P3XGQDED1QSFDC9Q",
+                "sku": "NW-ADDON-FEATHER-FLAGS-9FT-STAND-ALONE-FLAG-W-CROSS-BASE",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png",
                 "hoverDescription": "Feather Flags · (+ $140.00)",
                 "price": {
                   "surcharge": 140,
@@ -2598,15 +2725,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png"
+                "step": 1
               },
               {
                 "id": "feather-flags-12ft-stand-alone-flag-w-cross-base",
                 "kind": "accessory",
                 "title": "12ft Stand Alone Flag w/ Cross Base",
-                "hoverTitle": "12ft Stand Alone Flag w/ Cross Base",
+                "handle": "nw-addon-feather-flags-12ft-stand-alone-flag-w-cross-base",
+                "linkedMedusaProductId": "prod_01M2B6AVGZAPV1B8X7N3ZGD231",
+                "linkedMedusaVariantId": "variant_01M2B6AX2HVNMB86B8W9X9ZEGW",
+                "sku": "NW-ADDON-FEATHER-FLAGS-12FT-STAND-ALONE-FLAG-W-CROSS-BASE",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png",
                 "hoverDescription": "Feather Flags · (+ $150.00)",
                 "price": {
                   "surcharge": 150,
@@ -2614,15 +2743,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png"
+                "step": 1
               },
               {
                 "id": "feather-flags-15ft-stand-alone-flag-w-cross-base",
                 "kind": "accessory",
                 "title": "15ft Stand Alone Flag w/ Cross Base",
-                "hoverTitle": "15ft Stand Alone Flag w/ Cross Base",
+                "handle": "nw-addon-feather-flags-15ft-stand-alone-flag-w-cross-base",
+                "linkedMedusaProductId": "prod_01M2B6B18G8AN06FY87K9RMA7C",
+                "linkedMedusaVariantId": "variant_01M2B6B2T1S8QC5Q4K3PVJ69X7",
+                "sku": "NW-ADDON-FEATHER-FLAGS-15FT-STAND-ALONE-FLAG-W-CROSS-BASE",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png",
                 "hoverDescription": "Feather Flags · (+ $160.00)",
                 "price": {
                   "surcharge": 160,
@@ -2630,9 +2761,7 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png"
+                "step": 1
               }
             ]
           },
@@ -2645,7 +2774,11 @@ export const storefrontProducts = [
                 "id": "essentials-4-pc-set",
                 "kind": "accessory",
                 "title": "4 Pc Set",
-                "hoverTitle": "4 Pc Set",
+                "handle": "nw-addon-essentials-4-pc-set",
+                "linkedMedusaProductId": "prod_01M2B69S7GR1VKX3SJV4657H6Y",
+                "linkedMedusaVariantId": "variant_01M2B69TS1RYDYKPF5BFTNYGKQ",
+                "sku": "NW-ADDON-ESSENTIALS-4-PC-SET",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png",
                 "hoverDescription": "Essentials · (+ $100.00)",
                 "price": {
                   "surcharge": 100,
@@ -2653,15 +2786,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png"
+                "step": 1
               },
               {
                 "id": "essentials-led-lights",
                 "kind": "accessory",
                 "title": "LED Lights",
-                "hoverTitle": "LED Lights",
+                "handle": "nw-addon-essentials-led-lights",
+                "linkedMedusaProductId": "prod_01M2B6AAC2TWGWM04HKTG92YTE",
+                "linkedMedusaVariantId": "variant_01M2B6ABXNGNMPZP2EGYFZEPYS",
+                "sku": "NW-ADDON-ESSENTIALS-LED-LIGHTS",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649559175731.jpg",
                 "hoverDescription": "Essentials · (+ $219.00)",
                 "price": {
                   "surcharge": 219,
@@ -2669,9 +2804,7 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649558648373.jpg",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649558648373.jpg"
+                "step": 1
               }
             ]
           }
@@ -2681,8 +2814,9 @@ export const storefrontProducts = [
         "id": "upgrades",
         "kind": "upgrade",
         "title": "Upgrades",
-        "selectionMode": "single",
         "displayStyle": "grid",
+        "selectionMode": "single",
+        "items": [],
         "subgroups": [
           {
             "id": "double-sided-walls",
@@ -2693,7 +2827,10 @@ export const storefrontProducts = [
                 "id": "double-sided-walls-double-sided-5ft-back-wall",
                 "kind": "upgrade",
                 "title": "Double Sided 5ft Back Wall",
-                "hoverTitle": "Double Sided 5ft Back Wall",
+                "handle": "nw-addon-double-sided-walls-double-sided-5ft-back-wall",
+                "linkedMedusaProductId": "prod_01M2B674Z3GCY2TDE2SZFAMCY6",
+                "linkedMedusaVariantId": "variant_01M2B676CHZJXYCTBKPP754F7B",
+                "sku": "NW-ADDON-DOUBLE-SIDED-WALLS-DOUBLE-SIDED-5FT-BACK-WALL",
                 "hoverDescription": "Double Sided Walls · (+ $75.00)",
                 "price": {
                   "surcharge": 75,
@@ -2707,7 +2844,10 @@ export const storefrontProducts = [
                 "id": "double-sided-walls-double-sided-5ft-half-side-walls",
                 "kind": "upgrade",
                 "title": "Double Sided 5ft Half Side Walls",
-                "hoverTitle": "Double Sided 5ft Half Side Walls",
+                "handle": "nw-addon-double-sided-walls-double-sided-5ft-half-side-walls",
+                "linkedMedusaProductId": "prod_01M2B67G4639N995CNVRZ3F98D",
+                "linkedMedusaVariantId": "variant_01M2B67HHK0M3B5C9WP6RH0V95",
+                "sku": "NW-ADDON-DOUBLE-SIDED-WALLS-DOUBLE-SIDED-5FT-HALF-SIDE-WALLS",
                 "hoverDescription": "Double Sided Walls · (+ $100.00)",
                 "price": {
                   "surcharge": 100,
@@ -2721,7 +2861,10 @@ export const storefrontProducts = [
                 "id": "double-sided-walls-double-sided-5ft-back-wall-half-side-walls",
                 "kind": "upgrade",
                 "title": "Double Sided 5ft Back Wall & Half Side Walls",
-                "hoverTitle": "Double Sided 5ft Back Wall & Half Side Walls",
+                "handle": "nw-addon-double-sided-walls-double-sided-5ft-back-wall-half-side-walls",
+                "linkedMedusaProductId": "prod_01M2B67AJMEQN6P007CVCR1Y1Z",
+                "linkedMedusaVariantId": "variant_01M2B67BZSFA4PYQ5P97QEGN74",
+                "sku": "NW-ADDON-DOUBLE-SIDED-WALLS-DOUBLE-SIDED-5FT-BACK-WALL-HALF-SIDE-WALLS",
                 "hoverDescription": "Double Sided Walls · (+ $175.00)",
                 "price": {
                   "surcharge": 175,
@@ -2793,8 +2936,9 @@ export const storefrontProducts = [
         "id": "accessories",
         "kind": "accessory",
         "title": "Accessories",
-        "selectionMode": "multiple",
         "displayStyle": "grid",
+        "selectionMode": "multiple",
+        "items": [],
         "subgroups": [
           {
             "id": "table-cover",
@@ -2805,7 +2949,11 @@ export const storefrontProducts = [
                 "id": "table-cover-4ft-stretch-table-cover",
                 "kind": "accessory",
                 "title": "4ft Stretch Table Cover",
-                "hoverTitle": "4ft Stretch Table Cover",
+                "handle": "nw-addon-table-cover-4ft-stretch-table-cover",
+                "linkedMedusaProductId": "prod_01M2B6CE9VQT8Q4CNY7DDMN1H9",
+                "linkedMedusaVariantId": "variant_01M2B6CFVA2G9PX7SP2A371FZM",
+                "sku": "NW-ADDON-TABLE-COVER-4FT-STRETCH-TABLE-COVER",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616934016371.png",
                 "hoverDescription": "Table Cover · (+ $125.00)",
                 "price": {
                   "surcharge": 125,
@@ -2813,15 +2961,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616931959430.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616931959430.png"
+                "step": 1
               },
               {
                 "id": "table-cover-6ft-stretch-table-cover",
                 "kind": "accessory",
                 "title": "6ft Stretch Table Cover",
-                "hoverTitle": "6ft Stretch Table Cover",
+                "handle": "nw-addon-table-cover-6ft-stretch-table-cover",
+                "linkedMedusaProductId": "prod_01M2B6CZFB8R9K6V16CJQY3FGB",
+                "linkedMedusaVariantId": "variant_01M2B6D10RBMY1PDV985E7ZJF3",
+                "sku": "NW-ADDON-TABLE-COVER-6FT-STRETCH-TABLE-COVER",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png",
                 "hoverDescription": "Table Cover · (+ $135.00)",
                 "price": {
                   "surcharge": 135,
@@ -2829,15 +2979,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png"
+                "step": 1
               },
               {
                 "id": "table-cover-6ft-fitted-table-cover",
                 "kind": "accessory",
                 "title": "6ft Fitted Table Cover",
-                "hoverTitle": "6ft Fitted Table Cover",
+                "handle": "nw-addon-table-cover-6ft-fitted-table-cover",
+                "linkedMedusaProductId": "prod_01M2B6CSQV9YTD2N0GS3TDV2TH",
+                "linkedMedusaVariantId": "variant_01M2B6CV9AGV99J7RFG5MXEWHP",
+                "sku": "NW-ADDON-TABLE-COVER-6FT-FITTED-TABLE-COVER",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png",
                 "hoverDescription": "Table Cover · (+ $145.00)",
                 "price": {
                   "surcharge": 145,
@@ -2845,15 +2997,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png"
+                "step": 1
               },
               {
                 "id": "table-cover-6ft-draped-table-cover",
                 "kind": "accessory",
                 "title": "6ft Draped Table Cover",
-                "hoverTitle": "6ft Draped Table Cover",
+                "handle": "nw-addon-table-cover-6ft-draped-table-cover",
+                "linkedMedusaProductId": "prod_01M2B6CM1XYJ9NMH6070S4XBYC",
+                "linkedMedusaVariantId": "variant_01M2B6CNKA71NEPEGQ9VEN4ADW",
+                "sku": "NW-ADDON-TABLE-COVER-6FT-DRAPED-TABLE-COVER",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp",
                 "hoverDescription": "Table Cover · (+ $145.00)",
                 "price": {
                   "surcharge": 145,
@@ -2861,9 +3015,7 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp"
+                "step": 1
               }
             ]
           },
@@ -2876,7 +3028,11 @@ export const storefrontProducts = [
                 "id": "feather-flags-9ft-mounted-flag-w-mounting-kit",
                 "kind": "accessory",
                 "title": "9ft Mounted Flag w/ Mounting Kit",
-                "hoverTitle": "9ft Mounted Flag w/ Mounting Kit",
+                "handle": "nw-addon-feather-flags-9ft-mounted-flag-w-mounting-kit",
+                "linkedMedusaProductId": "prod_01M2B6B6Z6FAZT1F0RDNSCXHCT",
+                "linkedMedusaVariantId": "variant_01M2B6B8GNASC1MR5ABW9DWXZ3",
+                "sku": "NW-ADDON-FEATHER-FLAGS-9FT-MOUNTED-FLAG-W-MOUNTING-KIT",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png",
                 "hoverDescription": "Feather Flags · (+ $150.00)",
                 "price": {
                   "surcharge": 150,
@@ -2884,15 +3040,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png"
+                "step": 1
               },
               {
                 "id": "feather-flags-9ft-stand-alone-flag-w-cross-base",
                 "kind": "accessory",
                 "title": "9ft Stand Alone Flag w/ Cross Base",
-                "hoverTitle": "9ft Stand Alone Flag w/ Cross Base",
+                "handle": "nw-addon-feather-flags-9ft-stand-alone-flag-w-cross-base",
+                "linkedMedusaProductId": "prod_01M2B6BCNQB6MRYJZWGCREWM6F",
+                "linkedMedusaVariantId": "variant_01M2B6BE77P3XGQDED1QSFDC9Q",
+                "sku": "NW-ADDON-FEATHER-FLAGS-9FT-STAND-ALONE-FLAG-W-CROSS-BASE",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png",
                 "hoverDescription": "Feather Flags · (+ $140.00)",
                 "price": {
                   "surcharge": 140,
@@ -2900,15 +3058,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png"
+                "step": 1
               },
               {
                 "id": "feather-flags-12ft-stand-alone-flag-w-cross-base",
                 "kind": "accessory",
                 "title": "12ft Stand Alone Flag w/ Cross Base",
-                "hoverTitle": "12ft Stand Alone Flag w/ Cross Base",
+                "handle": "nw-addon-feather-flags-12ft-stand-alone-flag-w-cross-base",
+                "linkedMedusaProductId": "prod_01M2B6AVGZAPV1B8X7N3ZGD231",
+                "linkedMedusaVariantId": "variant_01M2B6AX2HVNMB86B8W9X9ZEGW",
+                "sku": "NW-ADDON-FEATHER-FLAGS-12FT-STAND-ALONE-FLAG-W-CROSS-BASE",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png",
                 "hoverDescription": "Feather Flags · (+ $150.00)",
                 "price": {
                   "surcharge": 150,
@@ -2916,15 +3076,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png"
+                "step": 1
               },
               {
                 "id": "feather-flags-15ft-stand-alone-flag-w-cross-base",
                 "kind": "accessory",
                 "title": "15ft Stand Alone Flag w/ Cross Base",
-                "hoverTitle": "15ft Stand Alone Flag w/ Cross Base",
+                "handle": "nw-addon-feather-flags-15ft-stand-alone-flag-w-cross-base",
+                "linkedMedusaProductId": "prod_01M2B6B18G8AN06FY87K9RMA7C",
+                "linkedMedusaVariantId": "variant_01M2B6B2T1S8QC5Q4K3PVJ69X7",
+                "sku": "NW-ADDON-FEATHER-FLAGS-15FT-STAND-ALONE-FLAG-W-CROSS-BASE",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png",
                 "hoverDescription": "Feather Flags · (+ $160.00)",
                 "price": {
                   "surcharge": 160,
@@ -2932,9 +3094,7 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png"
+                "step": 1
               }
             ]
           },
@@ -2947,7 +3107,11 @@ export const storefrontProducts = [
                 "id": "essentials-4-pc-set",
                 "kind": "accessory",
                 "title": "4 Pc Set",
-                "hoverTitle": "4 Pc Set",
+                "handle": "nw-addon-essentials-4-pc-set",
+                "linkedMedusaProductId": "prod_01M2B69S7GR1VKX3SJV4657H6Y",
+                "linkedMedusaVariantId": "variant_01M2B69TS1RYDYKPF5BFTNYGKQ",
+                "sku": "NW-ADDON-ESSENTIALS-4-PC-SET",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png",
                 "hoverDescription": "Essentials · (+ $100.00)",
                 "price": {
                   "surcharge": 100,
@@ -2955,15 +3119,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png"
+                "step": 1
               },
               {
                 "id": "essentials-led-lights",
                 "kind": "accessory",
                 "title": "LED Lights",
-                "hoverTitle": "LED Lights",
+                "handle": "nw-addon-essentials-led-lights",
+                "linkedMedusaProductId": "prod_01M2B6AAC2TWGWM04HKTG92YTE",
+                "linkedMedusaVariantId": "variant_01M2B6ABXNGNMPZP2EGYFZEPYS",
+                "sku": "NW-ADDON-ESSENTIALS-LED-LIGHTS",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649559175731.jpg",
                 "hoverDescription": "Essentials · (+ $219.00)",
                 "price": {
                   "surcharge": 219,
@@ -2971,9 +3137,7 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649558845002.jpg",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649558845002.jpg"
+                "step": 1
               }
             ]
           }
@@ -2983,8 +3147,9 @@ export const storefrontProducts = [
         "id": "upgrades",
         "kind": "upgrade",
         "title": "Upgrades",
-        "selectionMode": "single",
         "displayStyle": "grid",
+        "selectionMode": "single",
+        "items": [],
         "subgroups": [
           {
             "id": "double-sided-walls",
@@ -2995,7 +3160,10 @@ export const storefrontProducts = [
                 "id": "double-sided-walls-double-sided-5ft-back-wall",
                 "kind": "upgrade",
                 "title": "Double Sided 5ft Back Wall",
-                "hoverTitle": "Double Sided 5ft Back Wall",
+                "handle": "nw-addon-double-sided-walls-double-sided-5ft-back-wall",
+                "linkedMedusaProductId": "prod_01M2B674Z3GCY2TDE2SZFAMCY6",
+                "linkedMedusaVariantId": "variant_01M2B676CHZJXYCTBKPP754F7B",
+                "sku": "NW-ADDON-DOUBLE-SIDED-WALLS-DOUBLE-SIDED-5FT-BACK-WALL",
                 "hoverDescription": "Double Sided Walls · (+ $75.00)",
                 "price": {
                   "surcharge": 75,
@@ -3009,7 +3177,10 @@ export const storefrontProducts = [
                 "id": "double-sided-walls-double-sided-5ft-side-walls",
                 "kind": "upgrade",
                 "title": "Double Sided 5ft Side Walls",
-                "hoverTitle": "Double Sided 5ft Side Walls",
+                "handle": "nw-addon-double-sided-walls-double-sided-5ft-side-walls",
+                "linkedMedusaProductId": "prod_01M2B67NPC72GEZDWHSBV60B56",
+                "linkedMedusaVariantId": "variant_01M2B67Q3V6XDHTWJSE5Z6W6R7",
+                "sku": "NW-ADDON-DOUBLE-SIDED-WALLS-DOUBLE-SIDED-5FT-SIDE-WALLS",
                 "hoverDescription": "Double Sided Walls · (+ $150.00)",
                 "price": {
                   "surcharge": 150,
@@ -3023,7 +3194,10 @@ export const storefrontProducts = [
                 "id": "double-sided-walls-double-sided-5ft-three-full-walls",
                 "kind": "upgrade",
                 "title": "Double Sided 5ft Three Full Walls",
-                "hoverTitle": "Double Sided 5ft Three Full Walls",
+                "handle": "nw-addon-double-sided-walls-double-sided-5ft-three-full-walls",
+                "linkedMedusaProductId": "prod_01M2B67V8GRBM6APXYG77H1NFT",
+                "linkedMedusaVariantId": "variant_01M2B67WNMSEVESM5DJ1TZ24Q1",
+                "sku": "NW-ADDON-DOUBLE-SIDED-WALLS-DOUBLE-SIDED-5FT-THREE-FULL-WALLS",
                 "hoverDescription": "Double Sided Walls · (+ $225.00)",
                 "price": {
                   "surcharge": 225,
@@ -3888,8 +4062,9 @@ export const storefrontProducts = [
         "id": "accessories",
         "kind": "accessory",
         "title": "Accessories",
-        "selectionMode": "multiple",
         "displayStyle": "grid",
+        "selectionMode": "multiple",
+        "items": [],
         "subgroups": [
           {
             "id": "table-cover",
@@ -3900,7 +4075,11 @@ export const storefrontProducts = [
                 "id": "table-cover-6ft-stretch-table-cover",
                 "kind": "accessory",
                 "title": "6ft Stretch Table Cover",
-                "hoverTitle": "6ft Stretch Table Cover",
+                "handle": "nw-addon-table-cover-6ft-stretch-table-cover",
+                "linkedMedusaProductId": "prod_01M2B6CZFB8R9K6V16CJQY3FGB",
+                "linkedMedusaVariantId": "variant_01M2B6D10RBMY1PDV985E7ZJF3",
+                "sku": "NW-ADDON-TABLE-COVER-6FT-STRETCH-TABLE-COVER",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png",
                 "hoverDescription": "Table Cover · (+ $135.00)",
                 "price": {
                   "surcharge": 135,
@@ -3908,15 +4087,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png"
+                "step": 1
               },
               {
                 "id": "table-cover-6ft-fitted-table-cover",
                 "kind": "accessory",
                 "title": "6ft Fitted Table Cover",
-                "hoverTitle": "6ft Fitted Table Cover",
+                "handle": "nw-addon-table-cover-6ft-fitted-table-cover",
+                "linkedMedusaProductId": "prod_01M2B6CSQV9YTD2N0GS3TDV2TH",
+                "linkedMedusaVariantId": "variant_01M2B6CV9AGV99J7RFG5MXEWHP",
+                "sku": "NW-ADDON-TABLE-COVER-6FT-FITTED-TABLE-COVER",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png",
                 "hoverDescription": "Table Cover · (+ $145.00)",
                 "price": {
                   "surcharge": 145,
@@ -3924,15 +4105,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png"
+                "step": 1
               },
               {
                 "id": "table-cover-6ft-draped-table-cover",
                 "kind": "accessory",
                 "title": "6ft Draped Table Cover",
-                "hoverTitle": "6ft Draped Table Cover",
+                "handle": "nw-addon-table-cover-6ft-draped-table-cover",
+                "linkedMedusaProductId": "prod_01M2B6CM1XYJ9NMH6070S4XBYC",
+                "linkedMedusaVariantId": "variant_01M2B6CNKA71NEPEGQ9VEN4ADW",
+                "sku": "NW-ADDON-TABLE-COVER-6FT-DRAPED-TABLE-COVER",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp",
                 "hoverDescription": "Table Cover · (+ $145.00)",
                 "price": {
                   "surcharge": 145,
@@ -3940,9 +4123,7 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp"
+                "step": 1
               }
             ]
           },
@@ -3955,7 +4136,11 @@ export const storefrontProducts = [
                 "id": "feather-flags-9ft-mounted-flag-w-mounting-kit",
                 "kind": "accessory",
                 "title": "9ft Mounted Flag w/ Mounting Kit",
-                "hoverTitle": "9ft Mounted Flag w/ Mounting Kit",
+                "handle": "nw-addon-feather-flags-9ft-mounted-flag-w-mounting-kit",
+                "linkedMedusaProductId": "prod_01M2B6B6Z6FAZT1F0RDNSCXHCT",
+                "linkedMedusaVariantId": "variant_01M2B6B8GNASC1MR5ABW9DWXZ3",
+                "sku": "NW-ADDON-FEATHER-FLAGS-9FT-MOUNTED-FLAG-W-MOUNTING-KIT",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png",
                 "hoverDescription": "Feather Flags · (+ $150.00)",
                 "price": {
                   "surcharge": 150,
@@ -3963,15 +4148,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png"
+                "step": 1
               },
               {
                 "id": "feather-flags-9ft-stand-alone-flag-w-cross-base",
                 "kind": "accessory",
                 "title": "9ft Stand Alone Flag w/ Cross Base",
-                "hoverTitle": "9ft Stand Alone Flag w/ Cross Base",
+                "handle": "nw-addon-feather-flags-9ft-stand-alone-flag-w-cross-base",
+                "linkedMedusaProductId": "prod_01M2B6BCNQB6MRYJZWGCREWM6F",
+                "linkedMedusaVariantId": "variant_01M2B6BE77P3XGQDED1QSFDC9Q",
+                "sku": "NW-ADDON-FEATHER-FLAGS-9FT-STAND-ALONE-FLAG-W-CROSS-BASE",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png",
                 "hoverDescription": "Feather Flags · (+ $140.00)",
                 "price": {
                   "surcharge": 140,
@@ -3979,15 +4166,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png"
+                "step": 1
               },
               {
                 "id": "feather-flags-12ft-stand-alone-flag-w-cross-base",
                 "kind": "accessory",
                 "title": "12ft Stand Alone Flag w/ Cross Base",
-                "hoverTitle": "12ft Stand Alone Flag w/ Cross Base",
+                "handle": "nw-addon-feather-flags-12ft-stand-alone-flag-w-cross-base",
+                "linkedMedusaProductId": "prod_01M2B6AVGZAPV1B8X7N3ZGD231",
+                "linkedMedusaVariantId": "variant_01M2B6AX2HVNMB86B8W9X9ZEGW",
+                "sku": "NW-ADDON-FEATHER-FLAGS-12FT-STAND-ALONE-FLAG-W-CROSS-BASE",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png",
                 "hoverDescription": "Feather Flags · (+ $150.00)",
                 "price": {
                   "surcharge": 150,
@@ -3995,15 +4184,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png"
+                "step": 1
               },
               {
                 "id": "feather-flags-15ft-stand-alone-flag-w-cross-base",
                 "kind": "accessory",
                 "title": "15ft Stand Alone Flag w/ Cross Base",
-                "hoverTitle": "15ft Stand Alone Flag w/ Cross Base",
+                "handle": "nw-addon-feather-flags-15ft-stand-alone-flag-w-cross-base",
+                "linkedMedusaProductId": "prod_01M2B6B18G8AN06FY87K9RMA7C",
+                "linkedMedusaVariantId": "variant_01M2B6B2T1S8QC5Q4K3PVJ69X7",
+                "sku": "NW-ADDON-FEATHER-FLAGS-15FT-STAND-ALONE-FLAG-W-CROSS-BASE",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png",
                 "hoverDescription": "Feather Flags · (+ $160.00)",
                 "price": {
                   "surcharge": 160,
@@ -4011,9 +4202,7 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png"
+                "step": 1
               }
             ]
           },
@@ -4026,7 +4215,11 @@ export const storefrontProducts = [
                 "id": "essentials-4-pc-set",
                 "kind": "accessory",
                 "title": "4 Pc Set",
-                "hoverTitle": "4 Pc Set",
+                "handle": "nw-addon-essentials-4-pc-set",
+                "linkedMedusaProductId": "prod_01M2B69S7GR1VKX3SJV4657H6Y",
+                "linkedMedusaVariantId": "variant_01M2B69TS1RYDYKPF5BFTNYGKQ",
+                "sku": "NW-ADDON-ESSENTIALS-4-PC-SET",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png",
                 "hoverDescription": "Essentials · (+ $100.00)",
                 "price": {
                   "surcharge": 100,
@@ -4034,15 +4227,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png"
+                "step": 1
               },
               {
                 "id": "essentials-10ft-billboard",
                 "kind": "accessory",
                 "title": "10ft Billboard",
-                "hoverTitle": "10ft Billboard",
+                "handle": "nw-addon-essentials-10ft-billboard",
+                "linkedMedusaProductId": "prod_01M2B69DRX9G0FTXGP5DH3VEM2",
+                "linkedMedusaVariantId": "variant_01M2B69FADX91FKH7Z41S0EEKG",
+                "sku": "NW-ADDON-ESSENTIALS-10FT-BILLBOARD",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17631439523223.jpg",
                 "hoverDescription": "Essentials · (+ $285.00)",
                 "price": {
                   "surcharge": 285,
@@ -4050,15 +4245,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17631439523223.jpg",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17631439523223.jpg"
+                "step": 1
               },
               {
                 "id": "essentials-10ft-counter-top-w-vinyl-banner",
                 "kind": "accessory",
                 "title": "10ft Counter Top w/ Vinyl Banner",
-                "hoverTitle": "10ft Counter Top w/ Vinyl Banner",
+                "handle": "nw-addon-essentials-10ft-counter-top-w-vinyl-banner",
+                "linkedMedusaProductId": "prod_01M2B69KHDCYE1CWHMVHHWXP3B",
+                "linkedMedusaVariantId": "variant_01M2B69N2X0ADG68PAPZZPG9DC",
+                "sku": "NW-ADDON-ESSENTIALS-10FT-COUNTER-TOP-W-VINYL-BANNER",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17631440018208.jpg",
                 "hoverDescription": "Essentials · (+ $550.00)",
                 "price": {
                   "surcharge": 550,
@@ -4066,15 +4263,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17631440018208.jpg",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17631440018208.jpg"
+                "step": 1
               },
               {
                 "id": "essentials-led-lights",
                 "kind": "accessory",
                 "title": "LED Lights",
-                "hoverTitle": "LED Lights",
+                "handle": "nw-addon-essentials-led-lights",
+                "linkedMedusaProductId": "prod_01M2B6AAC2TWGWM04HKTG92YTE",
+                "linkedMedusaVariantId": "variant_01M2B6ABXNGNMPZP2EGYFZEPYS",
+                "sku": "NW-ADDON-ESSENTIALS-LED-LIGHTS",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649559175731.jpg",
                 "hoverDescription": "Essentials · (+ $219.00)",
                 "price": {
                   "surcharge": 219,
@@ -4082,9 +4281,7 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649561447437.jpg",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649561447437.jpg"
+                "step": 1
               }
             ]
           }
@@ -4094,8 +4291,9 @@ export const storefrontProducts = [
         "id": "upgrades",
         "kind": "upgrade",
         "title": "Upgrades",
-        "selectionMode": "multiple",
         "displayStyle": "grid",
+        "selectionMode": "multiple",
+        "items": [],
         "subgroups": [
           {
             "id": "full-walls-fabric-from-bottom-to-top-no-mesh",
@@ -4106,7 +4304,10 @@ export const storefrontProducts = [
                 "id": "full-walls-fabric-from-bottom-to-top-no-mesh-make-it-full-front-wall",
                 "kind": "upgrade",
                 "title": "Make it! Full Front Wall",
-                "hoverTitle": "Make it! Full Front Wall",
+                "handle": "nw-addon-full-walls-fabric-from-bottom-to-top-no-mesh-make-it-full-front-wall",
+                "linkedMedusaProductId": "prod_01M2B6BR2GXSH5885G0H7WJVA3",
+                "linkedMedusaVariantId": "variant_01M2B6BSFXRGA50T46CWYV5CFC",
+                "sku": "NW-ADDON-FULL-WALLS-FABRIC-FROM-BOTTOM-TO-TOP-NO-MESH-MAKE-IT-FULL-FRONT-WALL",
                 "hoverDescription": "Full Walls - Fabric From Bottom To Top - NO MESH · (+ $50.00)",
                 "price": {
                   "surcharge": 50,
@@ -4120,7 +4321,10 @@ export const storefrontProducts = [
                 "id": "full-walls-fabric-from-bottom-to-top-no-mesh-make-it-full-side-walls",
                 "kind": "upgrade",
                 "title": "Make It! Full Side Walls",
-                "hoverTitle": "Make It! Full Side Walls",
+                "handle": "nw-addon-full-walls-fabric-from-bottom-to-top-no-mesh-make-it-full-side-walls",
+                "linkedMedusaProductId": "prod_01M2B6C38JFY5S498XCP3V2T13",
+                "linkedMedusaVariantId": "variant_01M2B6C4NXVF8SGE7WCHCJ15QE",
+                "sku": "NW-ADDON-FULL-WALLS-FABRIC-FROM-BOTTOM-TO-TOP-NO-MESH-MAKE-IT-FULL-SIDE-WALLS",
                 "hoverDescription": "Full Walls - Fabric From Bottom To Top - NO MESH · (+ $100.00)",
                 "price": {
                   "surcharge": 100,
@@ -4134,7 +4338,10 @@ export const storefrontProducts = [
                 "id": "full-walls-fabric-from-bottom-to-top-no-mesh-make-it-full-front-wall-side-walls",
                 "kind": "upgrade",
                 "title": "Make it! Full Front Wall & Side Walls",
-                "hoverTitle": "Make it! Full Front Wall & Side Walls",
+                "handle": "nw-addon-full-walls-fabric-from-bottom-to-top-no-mesh-make-it-full-front-wall-side-walls",
+                "linkedMedusaProductId": "prod_01M2B6BXNP4F7PDN1J5C6Z74Q0",
+                "linkedMedusaVariantId": "variant_01M2B6BZ30630EBM6KHJFBM4P9",
+                "sku": "NW-ADDON-FULL-WALLS-FABRIC-FROM-BOTTOM-TO-TOP-NO-MESH-MAKE-IT-FULL-FRONT-WALL-SIDE-WALLS",
                 "hoverDescription": "Full Walls - Fabric From Bottom To Top - NO MESH · (+ $150.00)",
                 "price": {
                   "surcharge": 150,
@@ -4155,7 +4362,10 @@ export const storefrontProducts = [
                 "id": "double-sided-walls-double-sided-10ft-back-wall",
                 "kind": "upgrade",
                 "title": "Double Sided 10Ft Back Wall",
-                "hoverTitle": "Double Sided 10Ft Back Wall",
+                "handle": "nw-addon-double-sided-walls-double-sided-10ft-back-wall",
+                "linkedMedusaProductId": "prod_01M2B668XRAMC1HJJ0M0JGWS6F",
+                "linkedMedusaVariantId": "variant_01M2B66ACHJJJ5QKY1HDBJVKPF",
+                "sku": "NW-ADDON-DOUBLE-SIDED-WALLS-DOUBLE-SIDED-10FT-BACK-WALL",
                 "hoverDescription": "Double Sided Walls · (+ $100.00)",
                 "price": {
                   "surcharge": 100,
@@ -4652,8 +4862,9 @@ export const storefrontProducts = [
         "id": "accessories",
         "kind": "accessory",
         "title": "Accessories",
-        "selectionMode": "multiple",
         "displayStyle": "grid",
+        "selectionMode": "multiple",
+        "items": [],
         "subgroups": [
           {
             "id": "table-cover",
@@ -4664,7 +4875,11 @@ export const storefrontProducts = [
                 "id": "table-cover-6ft-stretch-table-cover",
                 "kind": "accessory",
                 "title": "6ft Stretch Table Cover",
-                "hoverTitle": "6ft Stretch Table Cover",
+                "handle": "nw-addon-table-cover-6ft-stretch-table-cover",
+                "linkedMedusaProductId": "prod_01M2B6CZFB8R9K6V16CJQY3FGB",
+                "linkedMedusaVariantId": "variant_01M2B6D10RBMY1PDV985E7ZJF3",
+                "sku": "NW-ADDON-TABLE-COVER-6FT-STRETCH-TABLE-COVER",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png",
                 "hoverDescription": "Table Cover · (+ $135.00)",
                 "price": {
                   "surcharge": 135,
@@ -4672,15 +4887,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png"
+                "step": 1
               },
               {
                 "id": "table-cover-6ft-fitted-table-cover",
                 "kind": "accessory",
                 "title": "6ft Fitted Table Cover",
-                "hoverTitle": "6ft Fitted Table Cover",
+                "handle": "nw-addon-table-cover-6ft-fitted-table-cover",
+                "linkedMedusaProductId": "prod_01M2B6CSQV9YTD2N0GS3TDV2TH",
+                "linkedMedusaVariantId": "variant_01M2B6CV9AGV99J7RFG5MXEWHP",
+                "sku": "NW-ADDON-TABLE-COVER-6FT-FITTED-TABLE-COVER",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png",
                 "hoverDescription": "Table Cover · (+ $145.00)",
                 "price": {
                   "surcharge": 145,
@@ -4688,15 +4905,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png"
+                "step": 1
               },
               {
                 "id": "table-cover-6ft-draped-table-cover",
                 "kind": "accessory",
                 "title": "6ft Draped Table Cover",
-                "hoverTitle": "6ft Draped Table Cover",
+                "handle": "nw-addon-table-cover-6ft-draped-table-cover",
+                "linkedMedusaProductId": "prod_01M2B6CM1XYJ9NMH6070S4XBYC",
+                "linkedMedusaVariantId": "variant_01M2B6CNKA71NEPEGQ9VEN4ADW",
+                "sku": "NW-ADDON-TABLE-COVER-6FT-DRAPED-TABLE-COVER",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp",
                 "hoverDescription": "Table Cover · (+ $145.00)",
                 "price": {
                   "surcharge": 145,
@@ -4704,9 +4923,7 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp"
+                "step": 1
               }
             ]
           },
@@ -4719,7 +4936,11 @@ export const storefrontProducts = [
                 "id": "feather-flags-9ft-mounted-flag-w-mounting-kit",
                 "kind": "accessory",
                 "title": "9ft Mounted Flag w/ Mounting Kit",
-                "hoverTitle": "9ft Mounted Flag w/ Mounting Kit",
+                "handle": "nw-addon-feather-flags-9ft-mounted-flag-w-mounting-kit",
+                "linkedMedusaProductId": "prod_01M2B6B6Z6FAZT1F0RDNSCXHCT",
+                "linkedMedusaVariantId": "variant_01M2B6B8GNASC1MR5ABW9DWXZ3",
+                "sku": "NW-ADDON-FEATHER-FLAGS-9FT-MOUNTED-FLAG-W-MOUNTING-KIT",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png",
                 "hoverDescription": "Feather Flags · (+ $150.00)",
                 "price": {
                   "surcharge": 150,
@@ -4727,15 +4948,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png"
+                "step": 1
               },
               {
                 "id": "feather-flags-9ft-stand-alone-flag-w-cross-base",
                 "kind": "accessory",
                 "title": "9ft Stand Alone Flag w/ Cross Base",
-                "hoverTitle": "9ft Stand Alone Flag w/ Cross Base",
+                "handle": "nw-addon-feather-flags-9ft-stand-alone-flag-w-cross-base",
+                "linkedMedusaProductId": "prod_01M2B6BCNQB6MRYJZWGCREWM6F",
+                "linkedMedusaVariantId": "variant_01M2B6BE77P3XGQDED1QSFDC9Q",
+                "sku": "NW-ADDON-FEATHER-FLAGS-9FT-STAND-ALONE-FLAG-W-CROSS-BASE",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png",
                 "hoverDescription": "Feather Flags · (+ $140.00)",
                 "price": {
                   "surcharge": 140,
@@ -4743,15 +4966,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png"
+                "step": 1
               },
               {
                 "id": "feather-flags-12ft-stand-alone-flag-w-cross-base",
                 "kind": "accessory",
                 "title": "12ft Stand Alone Flag w/ Cross Base",
-                "hoverTitle": "12ft Stand Alone Flag w/ Cross Base",
+                "handle": "nw-addon-feather-flags-12ft-stand-alone-flag-w-cross-base",
+                "linkedMedusaProductId": "prod_01M2B6AVGZAPV1B8X7N3ZGD231",
+                "linkedMedusaVariantId": "variant_01M2B6AX2HVNMB86B8W9X9ZEGW",
+                "sku": "NW-ADDON-FEATHER-FLAGS-12FT-STAND-ALONE-FLAG-W-CROSS-BASE",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png",
                 "hoverDescription": "Feather Flags · (+ $150.00)",
                 "price": {
                   "surcharge": 150,
@@ -4759,15 +4984,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png"
+                "step": 1
               },
               {
                 "id": "feather-flags-15ft-stand-alone-flag-w-cross-base",
                 "kind": "accessory",
                 "title": "15ft Stand Alone Flag w/ Cross Base",
-                "hoverTitle": "15ft Stand Alone Flag w/ Cross Base",
+                "handle": "nw-addon-feather-flags-15ft-stand-alone-flag-w-cross-base",
+                "linkedMedusaProductId": "prod_01M2B6B18G8AN06FY87K9RMA7C",
+                "linkedMedusaVariantId": "variant_01M2B6B2T1S8QC5Q4K3PVJ69X7",
+                "sku": "NW-ADDON-FEATHER-FLAGS-15FT-STAND-ALONE-FLAG-W-CROSS-BASE",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png",
                 "hoverDescription": "Feather Flags · (+ $160.00)",
                 "price": {
                   "surcharge": 160,
@@ -4775,9 +5002,7 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png"
+                "step": 1
               }
             ]
           },
@@ -4790,7 +5015,11 @@ export const storefrontProducts = [
                 "id": "essentials-4-pc-set",
                 "kind": "accessory",
                 "title": "4 Pc Set",
-                "hoverTitle": "4 Pc Set",
+                "handle": "nw-addon-essentials-4-pc-set",
+                "linkedMedusaProductId": "prod_01M2B69S7GR1VKX3SJV4657H6Y",
+                "linkedMedusaVariantId": "variant_01M2B69TS1RYDYKPF5BFTNYGKQ",
+                "sku": "NW-ADDON-ESSENTIALS-4-PC-SET",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png",
                 "hoverDescription": "Essentials · (+ $100.00)",
                 "price": {
                   "surcharge": 100,
@@ -4798,15 +5027,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png"
+                "step": 1
               },
               {
                 "id": "essentials-led-lights",
                 "kind": "accessory",
                 "title": "LED Lights",
-                "hoverTitle": "LED Lights",
+                "handle": "nw-addon-essentials-led-lights",
+                "linkedMedusaProductId": "prod_01M2B6AAC2TWGWM04HKTG92YTE",
+                "linkedMedusaVariantId": "variant_01M2B6ABXNGNMPZP2EGYFZEPYS",
+                "sku": "NW-ADDON-ESSENTIALS-LED-LIGHTS",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649559175731.jpg",
                 "hoverDescription": "Essentials · (+ $219.00)",
                 "price": {
                   "surcharge": 219,
@@ -4814,9 +5045,7 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649561597013.jpg",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649561597013.jpg"
+                "step": 1
               }
             ]
           }
@@ -4826,8 +5055,9 @@ export const storefrontProducts = [
         "id": "upgrades",
         "kind": "upgrade",
         "title": "Upgrades",
-        "selectionMode": "multiple",
         "displayStyle": "grid",
+        "selectionMode": "multiple",
+        "items": [],
         "subgroups": [
           {
             "id": "full-walls-fabric-from-bottom-to-top-no-mesh",
@@ -4837,12 +5067,15 @@ export const storefrontProducts = [
               {
                 "id": "full-walls-fabric-from-bottom-to-top-no-mesh-make-it-full-front-wall",
                 "kind": "upgrade",
-                "title": "Make It! Full Front Wall",
-                "hoverTitle": "Make It! Full Front Wall",
+                "title": "Make it! Full Front Wall",
+                "handle": "nw-addon-full-walls-fabric-from-bottom-to-top-no-mesh-make-it-full-front-wall",
+                "linkedMedusaProductId": "prod_01M2B6BR2GXSH5885G0H7WJVA3",
+                "linkedMedusaVariantId": "variant_01M2B6BSFXRGA50T46CWYV5CFC",
+                "sku": "NW-ADDON-FULL-WALLS-FABRIC-FROM-BOTTOM-TO-TOP-NO-MESH-MAKE-IT-FULL-FRONT-WALL",
                 "hoverDescription": "Full Walls - Fabric From Bottom To Top - NO MESH · (+ $75.00)",
                 "price": {
-                  "surcharge": 75,
-                  "label": "(+ $75.00)"
+                  "surcharge": 50,
+                  "label": "(+ $50.00)"
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
@@ -4852,7 +5085,10 @@ export const storefrontProducts = [
                 "id": "full-walls-fabric-from-bottom-to-top-no-mesh-make-it-full-side-walls",
                 "kind": "upgrade",
                 "title": "Make It! Full Side Walls",
-                "hoverTitle": "Make It! Full Side Walls",
+                "handle": "nw-addon-full-walls-fabric-from-bottom-to-top-no-mesh-make-it-full-side-walls",
+                "linkedMedusaProductId": "prod_01M2B6C38JFY5S498XCP3V2T13",
+                "linkedMedusaVariantId": "variant_01M2B6C4NXVF8SGE7WCHCJ15QE",
+                "sku": "NW-ADDON-FULL-WALLS-FABRIC-FROM-BOTTOM-TO-TOP-NO-MESH-MAKE-IT-FULL-SIDE-WALLS",
                 "hoverDescription": "Full Walls - Fabric From Bottom To Top - NO MESH · (+ $100.00)",
                 "price": {
                   "surcharge": 100,
@@ -4866,7 +5102,10 @@ export const storefrontProducts = [
                 "id": "full-walls-fabric-from-bottom-to-top-no-mesh-make-it-full-side-walls-full-front-wall",
                 "kind": "upgrade",
                 "title": "Make it! Full Side Walls & Full Front Wall",
-                "hoverTitle": "Make it! Full Side Walls & Full Front Wall",
+                "handle": "nw-addon-full-walls-fabric-from-bottom-to-top-no-mesh-make-it-full-side-walls-full-front-wall",
+                "linkedMedusaProductId": "prod_01M2B6C8WCQ8BBHP043G1DETCW",
+                "linkedMedusaVariantId": "variant_01M2B6CA7PFCCA6BKJ1433MF8T",
+                "sku": "NW-ADDON-FULL-WALLS-FABRIC-FROM-BOTTOM-TO-TOP-NO-MESH-MAKE-IT-FULL-SIDE-WALLS-FULL-FRONT-WALL",
                 "hoverDescription": "Full Walls - Fabric From Bottom To Top - NO MESH · (+ $175.00)",
                 "price": {
                   "surcharge": 175,
@@ -4887,7 +5126,10 @@ export const storefrontProducts = [
                 "id": "double-sided-walls-double-sided-15ft-back-wall",
                 "kind": "upgrade",
                 "title": "Double Sided 15ft Back Wall",
-                "hoverTitle": "Double Sided 15ft Back Wall",
+                "handle": "nw-addon-double-sided-walls-double-sided-15ft-back-wall",
+                "linkedMedusaProductId": "prod_01M2B66EKK6A3Z000YTFS500N6",
+                "linkedMedusaVariantId": "variant_01M2B66G16RJBE0BH4QBK352HP",
+                "sku": "NW-ADDON-DOUBLE-SIDED-WALLS-DOUBLE-SIDED-15FT-BACK-WALL",
                 "hoverDescription": "Double Sided Walls · (+ $130.00)",
                 "price": {
                   "surcharge": 130,
@@ -4974,8 +5216,9 @@ export const storefrontProducts = [
         "id": "accessories",
         "kind": "accessory",
         "title": "Accessories",
-        "selectionMode": "multiple",
         "displayStyle": "grid",
+        "selectionMode": "multiple",
+        "items": [],
         "subgroups": [
           {
             "id": "table-cover",
@@ -4986,7 +5229,11 @@ export const storefrontProducts = [
                 "id": "table-cover-6ft-stretch-table-cover",
                 "kind": "accessory",
                 "title": "6ft Stretch Table Cover",
-                "hoverTitle": "6ft Stretch Table Cover",
+                "handle": "nw-addon-table-cover-6ft-stretch-table-cover",
+                "linkedMedusaProductId": "prod_01M2B6CZFB8R9K6V16CJQY3FGB",
+                "linkedMedusaVariantId": "variant_01M2B6D10RBMY1PDV985E7ZJF3",
+                "sku": "NW-ADDON-TABLE-COVER-6FT-STRETCH-TABLE-COVER",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png",
                 "hoverDescription": "Table Cover · (+ $135.00)",
                 "price": {
                   "surcharge": 135,
@@ -4994,15 +5241,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png"
+                "step": 1
               },
               {
                 "id": "table-cover-6ft-fitted-table-cover",
                 "kind": "accessory",
                 "title": "6ft Fitted Table Cover",
-                "hoverTitle": "6ft Fitted Table Cover",
+                "handle": "nw-addon-table-cover-6ft-fitted-table-cover",
+                "linkedMedusaProductId": "prod_01M2B6CSQV9YTD2N0GS3TDV2TH",
+                "linkedMedusaVariantId": "variant_01M2B6CV9AGV99J7RFG5MXEWHP",
+                "sku": "NW-ADDON-TABLE-COVER-6FT-FITTED-TABLE-COVER",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png",
                 "hoverDescription": "Table Cover · (+ $145.00)",
                 "price": {
                   "surcharge": 145,
@@ -5010,15 +5259,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png"
+                "step": 1
               },
               {
                 "id": "table-cover-6ft-draped-table-cover",
                 "kind": "accessory",
                 "title": "6ft Draped Table Cover",
-                "hoverTitle": "6ft Draped Table Cover",
+                "handle": "nw-addon-table-cover-6ft-draped-table-cover",
+                "linkedMedusaProductId": "prod_01M2B6CM1XYJ9NMH6070S4XBYC",
+                "linkedMedusaVariantId": "variant_01M2B6CNKA71NEPEGQ9VEN4ADW",
+                "sku": "NW-ADDON-TABLE-COVER-6FT-DRAPED-TABLE-COVER",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp",
                 "hoverDescription": "Table Cover · (+ $145.00)",
                 "price": {
                   "surcharge": 145,
@@ -5026,9 +5277,7 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp"
+                "step": 1
               }
             ]
           },
@@ -5041,7 +5290,11 @@ export const storefrontProducts = [
                 "id": "feather-flags-9ft-mounted-flag-w-mounting-kit",
                 "kind": "accessory",
                 "title": "9ft Mounted Flag w/ Mounting Kit",
-                "hoverTitle": "9ft Mounted Flag w/ Mounting Kit",
+                "handle": "nw-addon-feather-flags-9ft-mounted-flag-w-mounting-kit",
+                "linkedMedusaProductId": "prod_01M2B6B6Z6FAZT1F0RDNSCXHCT",
+                "linkedMedusaVariantId": "variant_01M2B6B8GNASC1MR5ABW9DWXZ3",
+                "sku": "NW-ADDON-FEATHER-FLAGS-9FT-MOUNTED-FLAG-W-MOUNTING-KIT",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png",
                 "hoverDescription": "Feather Flags · (+ $150.00)",
                 "price": {
                   "surcharge": 150,
@@ -5049,15 +5302,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png"
+                "step": 1
               },
               {
                 "id": "feather-flags-9ft-stand-alone-flag-w-cross-base",
                 "kind": "accessory",
                 "title": "9ft Stand Alone Flag w/ Cross Base",
-                "hoverTitle": "9ft Stand Alone Flag w/ Cross Base",
+                "handle": "nw-addon-feather-flags-9ft-stand-alone-flag-w-cross-base",
+                "linkedMedusaProductId": "prod_01M2B6BCNQB6MRYJZWGCREWM6F",
+                "linkedMedusaVariantId": "variant_01M2B6BE77P3XGQDED1QSFDC9Q",
+                "sku": "NW-ADDON-FEATHER-FLAGS-9FT-STAND-ALONE-FLAG-W-CROSS-BASE",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png",
                 "hoverDescription": "Feather Flags · (+ $140.00)",
                 "price": {
                   "surcharge": 140,
@@ -5065,15 +5320,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png"
+                "step": 1
               },
               {
                 "id": "feather-flags-12ft-stand-alone-flag-w-cross-base",
                 "kind": "accessory",
                 "title": "12ft Stand Alone Flag w/ Cross Base",
-                "hoverTitle": "12ft Stand Alone Flag w/ Cross Base",
+                "handle": "nw-addon-feather-flags-12ft-stand-alone-flag-w-cross-base",
+                "linkedMedusaProductId": "prod_01M2B6AVGZAPV1B8X7N3ZGD231",
+                "linkedMedusaVariantId": "variant_01M2B6AX2HVNMB86B8W9X9ZEGW",
+                "sku": "NW-ADDON-FEATHER-FLAGS-12FT-STAND-ALONE-FLAG-W-CROSS-BASE",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png",
                 "hoverDescription": "Feather Flags · (+ $150.00)",
                 "price": {
                   "surcharge": 150,
@@ -5081,15 +5338,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png"
+                "step": 1
               },
               {
                 "id": "feather-flags-15ft-stand-alone-flag-w-cross-base",
                 "kind": "accessory",
                 "title": "15ft Stand Alone Flag w/ Cross Base",
-                "hoverTitle": "15ft Stand Alone Flag w/ Cross Base",
+                "handle": "nw-addon-feather-flags-15ft-stand-alone-flag-w-cross-base",
+                "linkedMedusaProductId": "prod_01M2B6B18G8AN06FY87K9RMA7C",
+                "linkedMedusaVariantId": "variant_01M2B6B2T1S8QC5Q4K3PVJ69X7",
+                "sku": "NW-ADDON-FEATHER-FLAGS-15FT-STAND-ALONE-FLAG-W-CROSS-BASE",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png",
                 "hoverDescription": "Feather Flags · (+ $160.00)",
                 "price": {
                   "surcharge": 160,
@@ -5097,9 +5356,7 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png"
+                "step": 1
               }
             ]
           },
@@ -5112,7 +5369,11 @@ export const storefrontProducts = [
                 "id": "essentials-6-pc-set",
                 "kind": "accessory",
                 "title": "6 Pc Set",
-                "hoverTitle": "6 Pc Set",
+                "handle": "nw-addon-essentials-6-pc-set",
+                "linkedMedusaProductId": "prod_01M2B69YYNTWHJWETF660CT3NE",
+                "linkedMedusaVariantId": "variant_01M2B6A0G60YCN5KWRH3PN0YGX",
+                "sku": "NW-ADDON-ESSENTIALS-6-PC-SET",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17622894256890.jpg",
                 "hoverDescription": "Essentials · (+ $150.00)",
                 "price": {
                   "surcharge": 150,
@@ -5120,15 +5381,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17622894256890.jpg",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17622894256890.jpg"
+                "step": 1
               },
               {
                 "id": "essentials-led-lights",
                 "kind": "accessory",
                 "title": "LED Lights",
-                "hoverTitle": "LED Lights",
+                "handle": "nw-addon-essentials-led-lights",
+                "linkedMedusaProductId": "prod_01M2B6AAC2TWGWM04HKTG92YTE",
+                "linkedMedusaVariantId": "variant_01M2B6ABXNGNMPZP2EGYFZEPYS",
+                "sku": "NW-ADDON-ESSENTIALS-LED-LIGHTS",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649559175731.jpg",
                 "hoverDescription": "Essentials · (+ $219.00)",
                 "price": {
                   "surcharge": 219,
@@ -5136,9 +5399,7 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649561720866.jpg",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649561720866.jpg"
+                "step": 1
               }
             ]
           }
@@ -5148,8 +5409,9 @@ export const storefrontProducts = [
         "id": "upgrades",
         "kind": "upgrade",
         "title": "Upgrades",
-        "selectionMode": "multiple",
         "displayStyle": "grid",
+        "selectionMode": "multiple",
+        "items": [],
         "subgroups": [
           {
             "id": "full-walls-fabric-from-bottom-to-top-no-mesh",
@@ -5159,12 +5421,15 @@ export const storefrontProducts = [
               {
                 "id": "full-walls-fabric-from-bottom-to-top-no-mesh-make-it-full-front-wall",
                 "kind": "upgrade",
-                "title": "Make It! Full Front Wall",
-                "hoverTitle": "Make It! Full Front Wall",
+                "title": "Make it! Full Front Wall",
+                "handle": "nw-addon-full-walls-fabric-from-bottom-to-top-no-mesh-make-it-full-front-wall",
+                "linkedMedusaProductId": "prod_01M2B6BR2GXSH5885G0H7WJVA3",
+                "linkedMedusaVariantId": "variant_01M2B6BSFXRGA50T46CWYV5CFC",
+                "sku": "NW-ADDON-FULL-WALLS-FABRIC-FROM-BOTTOM-TO-TOP-NO-MESH-MAKE-IT-FULL-FRONT-WALL",
                 "hoverDescription": "Full Walls - Fabric From Bottom To Top - NO MESH · (+ $100.00)",
                 "price": {
-                  "surcharge": 100,
-                  "label": "(+ $100.00)"
+                  "surcharge": 50,
+                  "label": "(+ $50.00)"
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
@@ -5173,8 +5438,11 @@ export const storefrontProducts = [
               {
                 "id": "full-walls-fabric-from-bottom-to-top-no-mesh-make-it-full-side-walls",
                 "kind": "upgrade",
-                "title": "Make it! Full Side Walls",
-                "hoverTitle": "Make it! Full Side Walls",
+                "title": "Make It! Full Side Walls",
+                "handle": "nw-addon-full-walls-fabric-from-bottom-to-top-no-mesh-make-it-full-side-walls",
+                "linkedMedusaProductId": "prod_01M2B6C38JFY5S498XCP3V2T13",
+                "linkedMedusaVariantId": "variant_01M2B6C4NXVF8SGE7WCHCJ15QE",
+                "sku": "NW-ADDON-FULL-WALLS-FABRIC-FROM-BOTTOM-TO-TOP-NO-MESH-MAKE-IT-FULL-SIDE-WALLS",
                 "hoverDescription": "Full Walls - Fabric From Bottom To Top - NO MESH · (+ $100.00)",
                 "price": {
                   "surcharge": 100,
@@ -5187,12 +5455,15 @@ export const storefrontProducts = [
               {
                 "id": "full-walls-fabric-from-bottom-to-top-no-mesh-make-it-full-side-walls-full-front-wall",
                 "kind": "upgrade",
-                "title": "Make It! Full Side Walls & Full Front Wall",
-                "hoverTitle": "Make It! Full Side Walls & Full Front Wall",
+                "title": "Make it! Full Side Walls & Full Front Wall",
+                "handle": "nw-addon-full-walls-fabric-from-bottom-to-top-no-mesh-make-it-full-side-walls-full-front-wall",
+                "linkedMedusaProductId": "prod_01M2B6C8WCQ8BBHP043G1DETCW",
+                "linkedMedusaVariantId": "variant_01M2B6CA7PFCCA6BKJ1433MF8T",
+                "sku": "NW-ADDON-FULL-WALLS-FABRIC-FROM-BOTTOM-TO-TOP-NO-MESH-MAKE-IT-FULL-SIDE-WALLS-FULL-FRONT-WALL",
                 "hoverDescription": "Full Walls - Fabric From Bottom To Top - NO MESH · (+ $200.00)",
                 "price": {
-                  "surcharge": 200,
-                  "label": "(+ $200.00)"
+                  "surcharge": 175,
+                  "label": "(+ $175.00)"
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
@@ -5209,7 +5480,10 @@ export const storefrontProducts = [
                 "id": "double-sided-walls-double-sided-20ft-back-wall",
                 "kind": "upgrade",
                 "title": "Double Sided 20ft Back Wall",
-                "hoverTitle": "Double Sided 20ft Back Wall",
+                "handle": "nw-addon-double-sided-walls-double-sided-20ft-back-wall",
+                "linkedMedusaProductId": "prod_01M2B66ST836DG87KD9Y2M6CPD",
+                "linkedMedusaVariantId": "variant_01M2B66V7KN9XAN60T38AA79MW",
+                "sku": "NW-ADDON-DOUBLE-SIDED-WALLS-DOUBLE-SIDED-20FT-BACK-WALL",
                 "hoverDescription": "Double Sided Walls · (+ $140.00)",
                 "price": {
                   "surcharge": 140,
@@ -5281,8 +5555,9 @@ export const storefrontProducts = [
         "id": "accessories",
         "kind": "accessory",
         "title": "Accessories",
-        "selectionMode": "multiple",
         "displayStyle": "grid",
+        "selectionMode": "multiple",
+        "items": [],
         "subgroups": [
           {
             "id": "table-cover",
@@ -5293,7 +5568,11 @@ export const storefrontProducts = [
                 "id": "table-cover-6ft-stretch-table-cover",
                 "kind": "accessory",
                 "title": "6ft Stretch Table Cover",
-                "hoverTitle": "6ft Stretch Table Cover",
+                "handle": "nw-addon-table-cover-6ft-stretch-table-cover",
+                "linkedMedusaProductId": "prod_01M2B6CZFB8R9K6V16CJQY3FGB",
+                "linkedMedusaVariantId": "variant_01M2B6D10RBMY1PDV985E7ZJF3",
+                "sku": "NW-ADDON-TABLE-COVER-6FT-STRETCH-TABLE-COVER",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png",
                 "hoverDescription": "Table Cover · (+ $135.00)",
                 "price": {
                   "surcharge": 135,
@@ -5301,15 +5580,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png"
+                "step": 1
               },
               {
                 "id": "table-cover-6ft-fitted-table-cover",
                 "kind": "accessory",
                 "title": "6ft Fitted Table Cover",
-                "hoverTitle": "6ft Fitted Table Cover",
+                "handle": "nw-addon-table-cover-6ft-fitted-table-cover",
+                "linkedMedusaProductId": "prod_01M2B6CSQV9YTD2N0GS3TDV2TH",
+                "linkedMedusaVariantId": "variant_01M2B6CV9AGV99J7RFG5MXEWHP",
+                "sku": "NW-ADDON-TABLE-COVER-6FT-FITTED-TABLE-COVER",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png",
                 "hoverDescription": "Table Cover · (+ $145.00)",
                 "price": {
                   "surcharge": 145,
@@ -5317,15 +5598,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png"
+                "step": 1
               },
               {
                 "id": "table-cover-6ft-draped-table-cover",
                 "kind": "accessory",
                 "title": "6ft Draped Table Cover",
-                "hoverTitle": "6ft Draped Table Cover",
+                "handle": "nw-addon-table-cover-6ft-draped-table-cover",
+                "linkedMedusaProductId": "prod_01M2B6CM1XYJ9NMH6070S4XBYC",
+                "linkedMedusaVariantId": "variant_01M2B6CNKA71NEPEGQ9VEN4ADW",
+                "sku": "NW-ADDON-TABLE-COVER-6FT-DRAPED-TABLE-COVER",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp",
                 "hoverDescription": "Table Cover · (+ $145.00)",
                 "price": {
                   "surcharge": 145,
@@ -5333,9 +5616,7 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp"
+                "step": 1
               }
             ]
           },
@@ -5348,7 +5629,11 @@ export const storefrontProducts = [
                 "id": "feather-flags-9ft-mounted-flag-w-mounting-kit",
                 "kind": "accessory",
                 "title": "9ft Mounted Flag w/ Mounting Kit",
-                "hoverTitle": "9ft Mounted Flag w/ Mounting Kit",
+                "handle": "nw-addon-feather-flags-9ft-mounted-flag-w-mounting-kit",
+                "linkedMedusaProductId": "prod_01M2B6B6Z6FAZT1F0RDNSCXHCT",
+                "linkedMedusaVariantId": "variant_01M2B6B8GNASC1MR5ABW9DWXZ3",
+                "sku": "NW-ADDON-FEATHER-FLAGS-9FT-MOUNTED-FLAG-W-MOUNTING-KIT",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png",
                 "hoverDescription": "Feather Flags · (+ $150.00)",
                 "price": {
                   "surcharge": 150,
@@ -5356,15 +5641,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png"
+                "step": 1
               },
               {
                 "id": "feather-flags-9ft-stand-alone-flag-w-cross-base",
                 "kind": "accessory",
                 "title": "9ft Stand Alone Flag w/ Cross Base",
-                "hoverTitle": "9ft Stand Alone Flag w/ Cross Base",
+                "handle": "nw-addon-feather-flags-9ft-stand-alone-flag-w-cross-base",
+                "linkedMedusaProductId": "prod_01M2B6BCNQB6MRYJZWGCREWM6F",
+                "linkedMedusaVariantId": "variant_01M2B6BE77P3XGQDED1QSFDC9Q",
+                "sku": "NW-ADDON-FEATHER-FLAGS-9FT-STAND-ALONE-FLAG-W-CROSS-BASE",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png",
                 "hoverDescription": "Feather Flags · (+ $140.00)",
                 "price": {
                   "surcharge": 140,
@@ -5372,15 +5659,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png"
+                "step": 1
               },
               {
                 "id": "feather-flags-12ft-stand-alone-flag-w-cross-base",
                 "kind": "accessory",
                 "title": "12ft Stand Alone Flag w/ Cross Base",
-                "hoverTitle": "12ft Stand Alone Flag w/ Cross Base",
+                "handle": "nw-addon-feather-flags-12ft-stand-alone-flag-w-cross-base",
+                "linkedMedusaProductId": "prod_01M2B6AVGZAPV1B8X7N3ZGD231",
+                "linkedMedusaVariantId": "variant_01M2B6AX2HVNMB86B8W9X9ZEGW",
+                "sku": "NW-ADDON-FEATHER-FLAGS-12FT-STAND-ALONE-FLAG-W-CROSS-BASE",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png",
                 "hoverDescription": "Feather Flags · (+ $150.00)",
                 "price": {
                   "surcharge": 150,
@@ -5388,15 +5677,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png"
+                "step": 1
               },
               {
                 "id": "feather-flags-15ft-stand-alone-flag-w-cross-base",
                 "kind": "accessory",
                 "title": "15ft Stand Alone Flag w/ Cross Base",
-                "hoverTitle": "15ft Stand Alone Flag w/ Cross Base",
+                "handle": "nw-addon-feather-flags-15ft-stand-alone-flag-w-cross-base",
+                "linkedMedusaProductId": "prod_01M2B6B18G8AN06FY87K9RMA7C",
+                "linkedMedusaVariantId": "variant_01M2B6B2T1S8QC5Q4K3PVJ69X7",
+                "sku": "NW-ADDON-FEATHER-FLAGS-15FT-STAND-ALONE-FLAG-W-CROSS-BASE",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png",
                 "hoverDescription": "Feather Flags · (+ $160.00)",
                 "price": {
                   "surcharge": 160,
@@ -5404,9 +5695,7 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png"
+                "step": 1
               }
             ]
           },
@@ -5419,7 +5708,11 @@ export const storefrontProducts = [
                 "id": "essentials-4-pc-set",
                 "kind": "accessory",
                 "title": "4 Pc Set",
-                "hoverTitle": "4 Pc Set",
+                "handle": "nw-addon-essentials-4-pc-set",
+                "linkedMedusaProductId": "prod_01M2B69S7GR1VKX3SJV4657H6Y",
+                "linkedMedusaVariantId": "variant_01M2B69TS1RYDYKPF5BFTNYGKQ",
+                "sku": "NW-ADDON-ESSENTIALS-4-PC-SET",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png",
                 "hoverDescription": "Essentials · (+ $100.00)",
                 "price": {
                   "surcharge": 100,
@@ -5427,15 +5720,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png"
+                "step": 1
               },
               {
                 "id": "essentials-led-lights",
                 "kind": "accessory",
                 "title": "LED Lights",
-                "hoverTitle": "LED Lights",
+                "handle": "nw-addon-essentials-led-lights",
+                "linkedMedusaProductId": "prod_01M2B6AAC2TWGWM04HKTG92YTE",
+                "linkedMedusaVariantId": "variant_01M2B6ABXNGNMPZP2EGYFZEPYS",
+                "sku": "NW-ADDON-ESSENTIALS-LED-LIGHTS",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649559175731.jpg",
                 "hoverDescription": "Essentials · (+ $219.00)",
                 "price": {
                   "surcharge": 219,
@@ -5443,9 +5738,7 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649560959813.jpg",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649560959813.jpg"
+                "step": 1
               }
             ]
           }
@@ -5455,8 +5748,9 @@ export const storefrontProducts = [
         "id": "upgrades",
         "kind": "upgrade",
         "title": "Upgrades",
-        "selectionMode": "multiple",
         "displayStyle": "grid",
+        "selectionMode": "multiple",
+        "items": [],
         "subgroups": [
           {
             "id": "full-walls-fabric-from-bottom-to-top-no-mesh",
@@ -5466,12 +5760,15 @@ export const storefrontProducts = [
               {
                 "id": "full-walls-fabric-from-bottom-to-top-no-mesh-make-it-full-front-wall",
                 "kind": "upgrade",
-                "title": "Make It! Full Front Wall",
-                "hoverTitle": "Make It! Full Front Wall",
+                "title": "Make it! Full Front Wall",
+                "handle": "nw-addon-full-walls-fabric-from-bottom-to-top-no-mesh-make-it-full-front-wall",
+                "linkedMedusaProductId": "prod_01M2B6BR2GXSH5885G0H7WJVA3",
+                "linkedMedusaVariantId": "variant_01M2B6BSFXRGA50T46CWYV5CFC",
+                "sku": "NW-ADDON-FULL-WALLS-FABRIC-FROM-BOTTOM-TO-TOP-NO-MESH-MAKE-IT-FULL-FRONT-WALL",
                 "hoverDescription": "Full Walls - Fabric From Bottom To Top - NO MESH · (+ $30.00)",
                 "price": {
-                  "surcharge": 30,
-                  "label": "(+ $30.00)"
+                  "surcharge": 50,
+                  "label": "(+ $50.00)"
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
@@ -5481,11 +5778,14 @@ export const storefrontProducts = [
                 "id": "full-walls-fabric-from-bottom-to-top-no-mesh-make-it-full-side-walls",
                 "kind": "upgrade",
                 "title": "Make It! Full Side Walls",
-                "hoverTitle": "Make It! Full Side Walls",
+                "handle": "nw-addon-full-walls-fabric-from-bottom-to-top-no-mesh-make-it-full-side-walls",
+                "linkedMedusaProductId": "prod_01M2B6C38JFY5S498XCP3V2T13",
+                "linkedMedusaVariantId": "variant_01M2B6C4NXVF8SGE7WCHCJ15QE",
+                "sku": "NW-ADDON-FULL-WALLS-FABRIC-FROM-BOTTOM-TO-TOP-NO-MESH-MAKE-IT-FULL-SIDE-WALLS",
                 "hoverDescription": "Full Walls - Fabric From Bottom To Top - NO MESH · (+ $60.00)",
                 "price": {
-                  "surcharge": 60,
-                  "label": "(+ $60.00)"
+                  "surcharge": 100,
+                  "label": "(+ $100.00)"
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
@@ -5494,12 +5794,15 @@ export const storefrontProducts = [
               {
                 "id": "full-walls-fabric-from-bottom-to-top-no-mesh-make-it-full-front-wall-side-walls",
                 "kind": "upgrade",
-                "title": "Make It! Full Front Wall & Side Walls",
-                "hoverTitle": "Make It! Full Front Wall & Side Walls",
+                "title": "Make it! Full Front Wall & Side Walls",
+                "handle": "nw-addon-full-walls-fabric-from-bottom-to-top-no-mesh-make-it-full-front-wall-side-walls",
+                "linkedMedusaProductId": "prod_01M2B6BXNP4F7PDN1J5C6Z74Q0",
+                "linkedMedusaVariantId": "variant_01M2B6BZ30630EBM6KHJFBM4P9",
+                "sku": "NW-ADDON-FULL-WALLS-FABRIC-FROM-BOTTOM-TO-TOP-NO-MESH-MAKE-IT-FULL-FRONT-WALL-SIDE-WALLS",
                 "hoverDescription": "Full Walls - Fabric From Bottom To Top - NO MESH · (+ $90.00)",
                 "price": {
-                  "surcharge": 90,
-                  "label": "(+ $90.00)"
+                  "surcharge": 150,
+                  "label": "(+ $150.00)"
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
@@ -5516,7 +5819,10 @@ export const storefrontProducts = [
                 "id": "double-sided-walls-double-sided-5ft-back-wall",
                 "kind": "upgrade",
                 "title": "Double Sided 5ft Back Wall",
-                "hoverTitle": "Double Sided 5ft Back Wall",
+                "handle": "nw-addon-double-sided-walls-double-sided-5ft-back-wall",
+                "linkedMedusaProductId": "prod_01M2B674Z3GCY2TDE2SZFAMCY6",
+                "linkedMedusaVariantId": "variant_01M2B676CHZJXYCTBKPP754F7B",
+                "sku": "NW-ADDON-DOUBLE-SIDED-WALLS-DOUBLE-SIDED-5FT-BACK-WALL",
                 "hoverDescription": "Double Sided Walls · (+ $75.00)",
                 "price": {
                   "surcharge": 75,
@@ -6447,8 +6753,9 @@ export const storefrontProducts = [
         "id": "accessories",
         "kind": "accessory",
         "title": "Accessories",
-        "selectionMode": "multiple",
         "displayStyle": "grid",
+        "selectionMode": "multiple",
+        "items": [],
         "subgroups": [
           {
             "id": "table-cover",
@@ -6459,7 +6766,11 @@ export const storefrontProducts = [
                 "id": "table-cover-6ft-stretch-table-cover",
                 "kind": "accessory",
                 "title": "6ft Stretch Table Cover",
-                "hoverTitle": "6ft Stretch Table Cover",
+                "handle": "nw-addon-table-cover-6ft-stretch-table-cover",
+                "linkedMedusaProductId": "prod_01M2B6CZFB8R9K6V16CJQY3FGB",
+                "linkedMedusaVariantId": "variant_01M2B6D10RBMY1PDV985E7ZJF3",
+                "sku": "NW-ADDON-TABLE-COVER-6FT-STRETCH-TABLE-COVER",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png",
                 "hoverDescription": "Table Cover · (+ $135.00)",
                 "price": {
                   "surcharge": 135,
@@ -6467,15 +6778,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png"
+                "step": 1
               },
               {
                 "id": "table-cover-6ft-fitted-table-cover",
                 "kind": "accessory",
                 "title": "6ft Fitted Table Cover",
-                "hoverTitle": "6ft Fitted Table Cover",
+                "handle": "nw-addon-table-cover-6ft-fitted-table-cover",
+                "linkedMedusaProductId": "prod_01M2B6CSQV9YTD2N0GS3TDV2TH",
+                "linkedMedusaVariantId": "variant_01M2B6CV9AGV99J7RFG5MXEWHP",
+                "sku": "NW-ADDON-TABLE-COVER-6FT-FITTED-TABLE-COVER",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png",
                 "hoverDescription": "Table Cover · (+ $145.00)",
                 "price": {
                   "surcharge": 145,
@@ -6483,15 +6796,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png"
+                "step": 1
               },
               {
                 "id": "table-cover-6ft-draped-table-cover",
                 "kind": "accessory",
                 "title": "6ft Draped Table Cover",
-                "hoverTitle": "6ft Draped Table Cover",
+                "handle": "nw-addon-table-cover-6ft-draped-table-cover",
+                "linkedMedusaProductId": "prod_01M2B6CM1XYJ9NMH6070S4XBYC",
+                "linkedMedusaVariantId": "variant_01M2B6CNKA71NEPEGQ9VEN4ADW",
+                "sku": "NW-ADDON-TABLE-COVER-6FT-DRAPED-TABLE-COVER",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp",
                 "hoverDescription": "Table Cover · (+ $145.00)",
                 "price": {
                   "surcharge": 145,
@@ -6499,9 +6814,7 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp"
+                "step": 1
               }
             ]
           },
@@ -6514,7 +6827,11 @@ export const storefrontProducts = [
                 "id": "feather-flags-9ft-mounted-flag-w-mounting-kit",
                 "kind": "accessory",
                 "title": "9ft Mounted Flag w/ Mounting Kit",
-                "hoverTitle": "9ft Mounted Flag w/ Mounting Kit",
+                "handle": "nw-addon-feather-flags-9ft-mounted-flag-w-mounting-kit",
+                "linkedMedusaProductId": "prod_01M2B6B6Z6FAZT1F0RDNSCXHCT",
+                "linkedMedusaVariantId": "variant_01M2B6B8GNASC1MR5ABW9DWXZ3",
+                "sku": "NW-ADDON-FEATHER-FLAGS-9FT-MOUNTED-FLAG-W-MOUNTING-KIT",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png",
                 "hoverDescription": "Feather Flags · (+ $150.00)",
                 "price": {
                   "surcharge": 150,
@@ -6522,15 +6839,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png"
+                "step": 1
               },
               {
                 "id": "feather-flags-9ft-stand-alone-flag-w-cross-base",
                 "kind": "accessory",
                 "title": "9ft Stand Alone Flag w/ Cross Base",
-                "hoverTitle": "9ft Stand Alone Flag w/ Cross Base",
+                "handle": "nw-addon-feather-flags-9ft-stand-alone-flag-w-cross-base",
+                "linkedMedusaProductId": "prod_01M2B6BCNQB6MRYJZWGCREWM6F",
+                "linkedMedusaVariantId": "variant_01M2B6BE77P3XGQDED1QSFDC9Q",
+                "sku": "NW-ADDON-FEATHER-FLAGS-9FT-STAND-ALONE-FLAG-W-CROSS-BASE",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png",
                 "hoverDescription": "Feather Flags · (+ $140.00)",
                 "price": {
                   "surcharge": 140,
@@ -6538,15 +6857,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png"
+                "step": 1
               },
               {
                 "id": "feather-flags-12ft-stand-alone-flag-w-cross-base",
                 "kind": "accessory",
                 "title": "12ft Stand Alone Flag w/ Cross Base",
-                "hoverTitle": "12ft Stand Alone Flag w/ Cross Base",
+                "handle": "nw-addon-feather-flags-12ft-stand-alone-flag-w-cross-base",
+                "linkedMedusaProductId": "prod_01M2B6AVGZAPV1B8X7N3ZGD231",
+                "linkedMedusaVariantId": "variant_01M2B6AX2HVNMB86B8W9X9ZEGW",
+                "sku": "NW-ADDON-FEATHER-FLAGS-12FT-STAND-ALONE-FLAG-W-CROSS-BASE",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png",
                 "hoverDescription": "Feather Flags · (+ $150.00)",
                 "price": {
                   "surcharge": 150,
@@ -6554,15 +6875,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png"
+                "step": 1
               },
               {
                 "id": "feather-flags-15ft-stand-alone-flag-w-cross-base",
                 "kind": "accessory",
                 "title": "15ft Stand Alone Flag w/ Cross Base",
-                "hoverTitle": "15ft Stand Alone Flag w/ Cross Base",
+                "handle": "nw-addon-feather-flags-15ft-stand-alone-flag-w-cross-base",
+                "linkedMedusaProductId": "prod_01M2B6B18G8AN06FY87K9RMA7C",
+                "linkedMedusaVariantId": "variant_01M2B6B2T1S8QC5Q4K3PVJ69X7",
+                "sku": "NW-ADDON-FEATHER-FLAGS-15FT-STAND-ALONE-FLAG-W-CROSS-BASE",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png",
                 "hoverDescription": "Feather Flags · (+ $160.00)",
                 "price": {
                   "surcharge": 160,
@@ -6570,9 +6893,7 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png"
+                "step": 1
               }
             ]
           },
@@ -6585,7 +6906,11 @@ export const storefrontProducts = [
                 "id": "weighted-sandbags-4-pc-set",
                 "kind": "accessory",
                 "title": "4 Pc Set",
-                "hoverTitle": "4 Pc Set",
+                "handle": "nw-addon-weighted-sandbags-4-pc-set",
+                "linkedMedusaProductId": "prod_01M2B6F9SBABCW2NY5G4S5ZH7Q",
+                "linkedMedusaVariantId": "variant_01M2B6FBASJDG7H4DQAWD0GC2W",
+                "sku": "NW-ADDON-WEIGHTED-SANDBAGS-4-PC-SET",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png",
                 "hoverDescription": "Weighted Sandbags · (+ $100.00)",
                 "price": {
                   "surcharge": 100,
@@ -6593,9 +6918,7 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png"
+                "step": 1
               }
             ]
           }
@@ -6605,8 +6928,9 @@ export const storefrontProducts = [
         "id": "upgrades",
         "kind": "upgrade",
         "title": "Upgrades",
-        "selectionMode": "multiple",
         "displayStyle": "grid",
+        "selectionMode": "multiple",
+        "items": [],
         "subgroups": [
           {
             "id": "double-sided-walls",
@@ -6617,7 +6941,10 @@ export const storefrontProducts = [
                 "id": "double-sided-walls-double-sided-half-side-walls",
                 "kind": "upgrade",
                 "title": "Double Sided Half Side Walls",
-                "hoverTitle": "Double Sided Half Side Walls",
+                "handle": "nw-addon-double-sided-walls-double-sided-half-side-walls",
+                "linkedMedusaProductId": "prod_01M2B68Q6PFQ8S9YWQFQYPG3FJ",
+                "linkedMedusaVariantId": "variant_01M2B68RMPE3NVVG74J9KKG2FG",
+                "sku": "NW-ADDON-DOUBLE-SIDED-WALLS-DOUBLE-SIDED-HALF-SIDE-WALLS",
                 "hoverDescription": "Double-Sided Walls · (+ $150.00)",
                 "price": {
                   "surcharge": 150,
@@ -6968,8 +7295,9 @@ export const storefrontProducts = [
         "id": "accessories",
         "kind": "accessory",
         "title": "Accessories",
-        "selectionMode": "multiple",
         "displayStyle": "grid",
+        "selectionMode": "multiple",
+        "items": [],
         "subgroups": [
           {
             "id": "table-cover",
@@ -6980,7 +7308,11 @@ export const storefrontProducts = [
                 "id": "table-cover-6ft-stretch-table-cover",
                 "kind": "accessory",
                 "title": "6ft Stretch Table Cover",
-                "hoverTitle": "6ft Stretch Table Cover",
+                "handle": "nw-addon-table-cover-6ft-stretch-table-cover",
+                "linkedMedusaProductId": "prod_01M2B6CZFB8R9K6V16CJQY3FGB",
+                "linkedMedusaVariantId": "variant_01M2B6D10RBMY1PDV985E7ZJF3",
+                "sku": "NW-ADDON-TABLE-COVER-6FT-STRETCH-TABLE-COVER",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png",
                 "hoverDescription": "Table Cover · (+ $135.00)",
                 "price": {
                   "surcharge": 135,
@@ -6988,18 +7320,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "table-cover-6ft-fitted-table-cover",
                 "kind": "accessory",
                 "title": "6ft Fitted Table Cover",
-                "hoverTitle": "6ft Fitted Table Cover",
+                "handle": "nw-addon-table-cover-6ft-fitted-table-cover",
+                "linkedMedusaProductId": "prod_01M2B6CSQV9YTD2N0GS3TDV2TH",
+                "linkedMedusaVariantId": "variant_01M2B6CV9AGV99J7RFG5MXEWHP",
+                "sku": "NW-ADDON-TABLE-COVER-6FT-FITTED-TABLE-COVER",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png",
                 "hoverDescription": "Table Cover · (+ $145.00)",
                 "price": {
                   "surcharge": 145,
@@ -7007,18 +7338,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "table-cover-6ft-draped-table-cover",
                 "kind": "accessory",
                 "title": "6ft Draped Table Cover",
-                "hoverTitle": "6ft Draped Table Cover",
+                "handle": "nw-addon-table-cover-6ft-draped-table-cover",
+                "linkedMedusaProductId": "prod_01M2B6CM1XYJ9NMH6070S4XBYC",
+                "linkedMedusaVariantId": "variant_01M2B6CNKA71NEPEGQ9VEN4ADW",
+                "sku": "NW-ADDON-TABLE-COVER-6FT-DRAPED-TABLE-COVER",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp",
                 "hoverDescription": "Table Cover · (+ $145.00)",
                 "price": {
                   "surcharge": 145,
@@ -7026,12 +7356,7 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               }
             ]
           },
@@ -7044,7 +7369,11 @@ export const storefrontProducts = [
                 "id": "feather-flags-9ft-mounted-flag-w-mounting-kit",
                 "kind": "accessory",
                 "title": "9ft Mounted Flag w/ Mounting Kit",
-                "hoverTitle": "9ft Mounted Flag w/ Mounting Kit",
+                "handle": "nw-addon-feather-flags-9ft-mounted-flag-w-mounting-kit",
+                "linkedMedusaProductId": "prod_01M2B6B6Z6FAZT1F0RDNSCXHCT",
+                "linkedMedusaVariantId": "variant_01M2B6B8GNASC1MR5ABW9DWXZ3",
+                "sku": "NW-ADDON-FEATHER-FLAGS-9FT-MOUNTED-FLAG-W-MOUNTING-KIT",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png",
                 "hoverDescription": "Feather Flags · (+ $150.00)",
                 "price": {
                   "surcharge": 150,
@@ -7052,18 +7381,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "feather-flags-9ft-stand-alone-flag-w-cross-base",
                 "kind": "accessory",
                 "title": "9ft Stand Alone Flag w/ Cross Base",
-                "hoverTitle": "9ft Stand Alone Flag w/ Cross Base",
+                "handle": "nw-addon-feather-flags-9ft-stand-alone-flag-w-cross-base",
+                "linkedMedusaProductId": "prod_01M2B6BCNQB6MRYJZWGCREWM6F",
+                "linkedMedusaVariantId": "variant_01M2B6BE77P3XGQDED1QSFDC9Q",
+                "sku": "NW-ADDON-FEATHER-FLAGS-9FT-STAND-ALONE-FLAG-W-CROSS-BASE",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png",
                 "hoverDescription": "Feather Flags · (+ $140.00)",
                 "price": {
                   "surcharge": 140,
@@ -7071,18 +7399,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "feather-flags-12ft-stand-alone-flag-w-cross-base",
                 "kind": "accessory",
                 "title": "12ft Stand Alone Flag w/ Cross Base",
-                "hoverTitle": "12ft Stand Alone Flag w/ Cross Base",
+                "handle": "nw-addon-feather-flags-12ft-stand-alone-flag-w-cross-base",
+                "linkedMedusaProductId": "prod_01M2B6AVGZAPV1B8X7N3ZGD231",
+                "linkedMedusaVariantId": "variant_01M2B6AX2HVNMB86B8W9X9ZEGW",
+                "sku": "NW-ADDON-FEATHER-FLAGS-12FT-STAND-ALONE-FLAG-W-CROSS-BASE",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png",
                 "hoverDescription": "Feather Flags · (+ $150.00)",
                 "price": {
                   "surcharge": 150,
@@ -7090,18 +7417,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "feather-flags-15ft-stand-alone-flag-w-cross-base",
                 "kind": "accessory",
                 "title": "15ft Stand Alone Flag w/ Cross Base",
-                "hoverTitle": "15ft Stand Alone Flag w/ Cross Base",
+                "handle": "nw-addon-feather-flags-15ft-stand-alone-flag-w-cross-base",
+                "linkedMedusaProductId": "prod_01M2B6B18G8AN06FY87K9RMA7C",
+                "linkedMedusaVariantId": "variant_01M2B6B2T1S8QC5Q4K3PVJ69X7",
+                "sku": "NW-ADDON-FEATHER-FLAGS-15FT-STAND-ALONE-FLAG-W-CROSS-BASE",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png",
                 "hoverDescription": "Feather Flags · (+ $160.00)",
                 "price": {
                   "surcharge": 160,
@@ -7109,12 +7435,7 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               }
             ]
           },
@@ -7127,7 +7448,11 @@ export const storefrontProducts = [
                 "id": "essentials-4-pc-set",
                 "kind": "accessory",
                 "title": "4 Pc Set",
-                "hoverTitle": "4 Pc Set",
+                "handle": "nw-addon-essentials-4-pc-set",
+                "linkedMedusaProductId": "prod_01M2B69S7GR1VKX3SJV4657H6Y",
+                "linkedMedusaVariantId": "variant_01M2B69TS1RYDYKPF5BFTNYGKQ",
+                "sku": "NW-ADDON-ESSENTIALS-4-PC-SET",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png",
                 "hoverDescription": "Essentials · (+ $100.00)",
                 "price": {
                   "surcharge": 100,
@@ -7135,18 +7460,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "essentials-10ft-billboard",
                 "kind": "accessory",
                 "title": "10ft Billboard",
-                "hoverTitle": "10ft Billboard",
+                "handle": "nw-addon-essentials-10ft-billboard",
+                "linkedMedusaProductId": "prod_01M2B69DRX9G0FTXGP5DH3VEM2",
+                "linkedMedusaVariantId": "variant_01M2B69FADX91FKH7Z41S0EEKG",
+                "sku": "NW-ADDON-ESSENTIALS-10FT-BILLBOARD",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17631439523223.jpg",
                 "hoverDescription": "Essentials · (+ $285.00)",
                 "price": {
                   "surcharge": 285,
@@ -7154,18 +7478,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17631441723309.jpg",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17631441723309.jpg",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "essentials-10ft-counter-top-w-vinyl-banner",
                 "kind": "accessory",
                 "title": "10ft Counter Top w/ Vinyl Banner",
-                "hoverTitle": "10ft Counter Top w/ Vinyl Banner",
+                "handle": "nw-addon-essentials-10ft-counter-top-w-vinyl-banner",
+                "linkedMedusaProductId": "prod_01M2B69KHDCYE1CWHMVHHWXP3B",
+                "linkedMedusaVariantId": "variant_01M2B69N2X0ADG68PAPZZPG9DC",
+                "sku": "NW-ADDON-ESSENTIALS-10FT-COUNTER-TOP-W-VINYL-BANNER",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17631440018208.jpg",
                 "hoverDescription": "Essentials · (+ $550.00)",
                 "price": {
                   "surcharge": 550,
@@ -7173,18 +7496,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17631441821403.jpg",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17631441821403.jpg",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "essentials-led-lights",
                 "kind": "accessory",
                 "title": "LED Lights",
-                "hoverTitle": "LED Lights",
+                "handle": "nw-addon-essentials-led-lights",
+                "linkedMedusaProductId": "prod_01M2B6AAC2TWGWM04HKTG92YTE",
+                "linkedMedusaVariantId": "variant_01M2B6ABXNGNMPZP2EGYFZEPYS",
+                "sku": "NW-ADDON-ESSENTIALS-LED-LIGHTS",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649559175731.jpg",
                 "hoverDescription": "Essentials · (+ $219.00)",
                 "price": {
                   "surcharge": 219,
@@ -7192,18 +7514,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649549326671.jpg",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649549326671.jpg",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "essentials-10ft-awning",
                 "kind": "accessory",
                 "title": "10ft Awning",
-                "hoverTitle": "10ft Awning",
+                "handle": "nw-addon-essentials-10ft-awning",
+                "linkedMedusaProductId": "prod_01M2B6981V5DC0VYTXD5H97K56",
+                "linkedMedusaVariantId": "variant_01M2B699M4XN529YYFSKGX12T7",
+                "sku": "NW-ADDON-ESSENTIALS-10FT-AWNING",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17667855253053.jpg",
                 "hoverDescription": "Essentials · (+ $235.00)",
                 "price": {
                   "surcharge": 235,
@@ -7211,12 +7532,7 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17667855253053.jpg",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17667855253053.jpg",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               }
             ]
           }
@@ -7226,8 +7542,9 @@ export const storefrontProducts = [
         "id": "upgrades",
         "kind": "upgrade",
         "title": "Upgrades",
-        "selectionMode": "single",
         "displayStyle": "grid",
+        "selectionMode": "single",
+        "items": [],
         "subgroups": [
           {
             "id": "vented-top",
@@ -7238,7 +7555,11 @@ export const storefrontProducts = [
                 "id": "vented-top-vent",
                 "kind": "upgrade",
                 "title": "Vent",
-                "hoverTitle": "Vent",
+                "handle": "nw-addon-vented-top-vent",
+                "linkedMedusaProductId": "prod_01M2B6DGQ5QHYPSRHFKQJ9GBNX",
+                "linkedMedusaVariantId": "variant_01M2B6DJ8PTKJKAFGB7ZZ3DYBH",
+                "sku": "NW-ADDON-VENTED-TOP-VENT",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616168711705.png",
                 "hoverDescription": "Vented Top · (+ $50.00)",
                 "price": {
                   "surcharge": 50,
@@ -7246,12 +7567,7 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616168711705.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616168711705.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               }
             ]
           }
@@ -7324,8 +7640,9 @@ export const storefrontProducts = [
         "id": "accessories",
         "kind": "accessory",
         "title": "Accessories",
-        "selectionMode": "multiple",
         "displayStyle": "grid",
+        "selectionMode": "multiple",
+        "items": [],
         "subgroups": [
           {
             "id": "table-cover",
@@ -7336,7 +7653,11 @@ export const storefrontProducts = [
                 "id": "table-cover-6ft-stretch-table-cover",
                 "kind": "accessory",
                 "title": "6ft Stretch Table Cover",
-                "hoverTitle": "6ft Stretch Table Cover",
+                "handle": "nw-addon-table-cover-6ft-stretch-table-cover",
+                "linkedMedusaProductId": "prod_01M2B6CZFB8R9K6V16CJQY3FGB",
+                "linkedMedusaVariantId": "variant_01M2B6D10RBMY1PDV985E7ZJF3",
+                "sku": "NW-ADDON-TABLE-COVER-6FT-STRETCH-TABLE-COVER",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png",
                 "hoverDescription": "Table Cover · (+ $135.00)",
                 "price": {
                   "surcharge": 135,
@@ -7344,18 +7665,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "table-cover-6ft-fitted-table-cover",
                 "kind": "accessory",
                 "title": "6ft Fitted Table Cover",
-                "hoverTitle": "6ft Fitted Table Cover",
+                "handle": "nw-addon-table-cover-6ft-fitted-table-cover",
+                "linkedMedusaProductId": "prod_01M2B6CSQV9YTD2N0GS3TDV2TH",
+                "linkedMedusaVariantId": "variant_01M2B6CV9AGV99J7RFG5MXEWHP",
+                "sku": "NW-ADDON-TABLE-COVER-6FT-FITTED-TABLE-COVER",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png",
                 "hoverDescription": "Table Cover · (+ $145.00)",
                 "price": {
                   "surcharge": 145,
@@ -7363,18 +7683,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "table-cover-6ft-draped-table-cover",
                 "kind": "accessory",
                 "title": "6ft Draped Table Cover",
-                "hoverTitle": "6ft Draped Table Cover",
+                "handle": "nw-addon-table-cover-6ft-draped-table-cover",
+                "linkedMedusaProductId": "prod_01M2B6CM1XYJ9NMH6070S4XBYC",
+                "linkedMedusaVariantId": "variant_01M2B6CNKA71NEPEGQ9VEN4ADW",
+                "sku": "NW-ADDON-TABLE-COVER-6FT-DRAPED-TABLE-COVER",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp",
                 "hoverDescription": "Table Cover · (+ $145.00)",
                 "price": {
                   "surcharge": 145,
@@ -7382,12 +7701,7 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               }
             ]
           },
@@ -7400,7 +7714,11 @@ export const storefrontProducts = [
                 "id": "feather-flags-9ft-mounted-flag-w-mounting-kit",
                 "kind": "accessory",
                 "title": "9ft Mounted Flag w/ Mounting Kit",
-                "hoverTitle": "9ft Mounted Flag w/ Mounting Kit",
+                "handle": "nw-addon-feather-flags-9ft-mounted-flag-w-mounting-kit",
+                "linkedMedusaProductId": "prod_01M2B6B6Z6FAZT1F0RDNSCXHCT",
+                "linkedMedusaVariantId": "variant_01M2B6B8GNASC1MR5ABW9DWXZ3",
+                "sku": "NW-ADDON-FEATHER-FLAGS-9FT-MOUNTED-FLAG-W-MOUNTING-KIT",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png",
                 "hoverDescription": "Feather Flags · (+ $150.00)",
                 "price": {
                   "surcharge": 150,
@@ -7408,18 +7726,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "feather-flags-9ft-stand-alone-flag-w-cross-base",
                 "kind": "accessory",
                 "title": "9ft Stand Alone Flag w/ Cross Base",
-                "hoverTitle": "9ft Stand Alone Flag w/ Cross Base",
+                "handle": "nw-addon-feather-flags-9ft-stand-alone-flag-w-cross-base",
+                "linkedMedusaProductId": "prod_01M2B6BCNQB6MRYJZWGCREWM6F",
+                "linkedMedusaVariantId": "variant_01M2B6BE77P3XGQDED1QSFDC9Q",
+                "sku": "NW-ADDON-FEATHER-FLAGS-9FT-STAND-ALONE-FLAG-W-CROSS-BASE",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png",
                 "hoverDescription": "Feather Flags · (+ $140.00)",
                 "price": {
                   "surcharge": 140,
@@ -7427,18 +7744,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "feather-flags-12ft-stand-alone-flag-w-cross-base",
                 "kind": "accessory",
                 "title": "12ft Stand Alone Flag w/ Cross Base",
-                "hoverTitle": "12ft Stand Alone Flag w/ Cross Base",
+                "handle": "nw-addon-feather-flags-12ft-stand-alone-flag-w-cross-base",
+                "linkedMedusaProductId": "prod_01M2B6AVGZAPV1B8X7N3ZGD231",
+                "linkedMedusaVariantId": "variant_01M2B6AX2HVNMB86B8W9X9ZEGW",
+                "sku": "NW-ADDON-FEATHER-FLAGS-12FT-STAND-ALONE-FLAG-W-CROSS-BASE",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png",
                 "hoverDescription": "Feather Flags · (+ $150.00)",
                 "price": {
                   "surcharge": 150,
@@ -7446,18 +7762,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "feather-flags-15ft-stand-alone-flag-w-cross-base",
                 "kind": "accessory",
                 "title": "15ft Stand Alone Flag w/ Cross Base",
-                "hoverTitle": "15ft Stand Alone Flag w/ Cross Base",
+                "handle": "nw-addon-feather-flags-15ft-stand-alone-flag-w-cross-base",
+                "linkedMedusaProductId": "prod_01M2B6B18G8AN06FY87K9RMA7C",
+                "linkedMedusaVariantId": "variant_01M2B6B2T1S8QC5Q4K3PVJ69X7",
+                "sku": "NW-ADDON-FEATHER-FLAGS-15FT-STAND-ALONE-FLAG-W-CROSS-BASE",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png",
                 "hoverDescription": "Feather Flags · (+ $160.00)",
                 "price": {
                   "surcharge": 160,
@@ -7465,12 +7780,7 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               }
             ]
           },
@@ -7483,7 +7793,11 @@ export const storefrontProducts = [
                 "id": "essentials-4-pc-set",
                 "kind": "accessory",
                 "title": "4 Pc Set",
-                "hoverTitle": "4 Pc Set",
+                "handle": "nw-addon-essentials-4-pc-set",
+                "linkedMedusaProductId": "prod_01M2B69S7GR1VKX3SJV4657H6Y",
+                "linkedMedusaVariantId": "variant_01M2B69TS1RYDYKPF5BFTNYGKQ",
+                "sku": "NW-ADDON-ESSENTIALS-4-PC-SET",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png",
                 "hoverDescription": "Essentials · (+ $100.00)",
                 "price": {
                   "surcharge": 100,
@@ -7491,18 +7805,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "essentials-10ft-billboard",
                 "kind": "accessory",
                 "title": "10ft Billboard",
-                "hoverTitle": "10ft Billboard",
+                "handle": "nw-addon-essentials-10ft-billboard",
+                "linkedMedusaProductId": "prod_01M2B69DRX9G0FTXGP5DH3VEM2",
+                "linkedMedusaVariantId": "variant_01M2B69FADX91FKH7Z41S0EEKG",
+                "sku": "NW-ADDON-ESSENTIALS-10FT-BILLBOARD",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17631439523223.jpg",
                 "hoverDescription": "Essentials · (+ $285.00)",
                 "price": {
                   "surcharge": 285,
@@ -7510,18 +7823,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17631441452098.jpg",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17631441452098.jpg",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "essentials-10ft-counter-top-w-vinyl-banner",
                 "kind": "accessory",
                 "title": "10ft Counter Top w/ Vinyl Banner",
-                "hoverTitle": "10ft Counter Top w/ Vinyl Banner",
+                "handle": "nw-addon-essentials-10ft-counter-top-w-vinyl-banner",
+                "linkedMedusaProductId": "prod_01M2B69KHDCYE1CWHMVHHWXP3B",
+                "linkedMedusaVariantId": "variant_01M2B69N2X0ADG68PAPZZPG9DC",
+                "sku": "NW-ADDON-ESSENTIALS-10FT-COUNTER-TOP-W-VINYL-BANNER",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17631440018208.jpg",
                 "hoverDescription": "Essentials · (+ $550.00)",
                 "price": {
                   "surcharge": 550,
@@ -7529,18 +7841,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17631441540987.jpg",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17631441540987.jpg",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "essentials-led-lights",
                 "kind": "accessory",
                 "title": "LED Lights",
-                "hoverTitle": "LED Lights ",
+                "handle": "nw-addon-essentials-led-lights",
+                "linkedMedusaProductId": "prod_01M2B6AAC2TWGWM04HKTG92YTE",
+                "linkedMedusaVariantId": "variant_01M2B6ABXNGNMPZP2EGYFZEPYS",
+                "sku": "NW-ADDON-ESSENTIALS-LED-LIGHTS",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649559175731.jpg",
                 "hoverDescription": "Essentials · (+ $219.00)",
                 "price": {
                   "surcharge": 219,
@@ -7548,19 +7859,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649546491299.jpg",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649546491299.jpg",
-                "metadata": {
-                  "sourceDisplayName": "LED Lights ",
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "essentials-10ft-awning",
                 "kind": "accessory",
                 "title": "10ft Awning",
-                "hoverTitle": "10ft Awning",
+                "handle": "nw-addon-essentials-10ft-awning",
+                "linkedMedusaProductId": "prod_01M2B6981V5DC0VYTXD5H97K56",
+                "linkedMedusaVariantId": "variant_01M2B699M4XN529YYFSKGX12T7",
+                "sku": "NW-ADDON-ESSENTIALS-10FT-AWNING",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17667855253053.jpg",
                 "hoverDescription": "Essentials · (+ $235.00)",
                 "price": {
                   "surcharge": 235,
@@ -7568,12 +7877,7 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17667855089435.jpg",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17667855089435.jpg",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               }
             ]
           }
@@ -7583,8 +7887,9 @@ export const storefrontProducts = [
         "id": "upgrades",
         "kind": "upgrade",
         "title": "Upgrades",
-        "selectionMode": "multiple",
         "displayStyle": "grid",
+        "selectionMode": "multiple",
+        "items": [],
         "subgroups": [
           {
             "id": "vented-top",
@@ -7595,7 +7900,11 @@ export const storefrontProducts = [
                 "id": "vented-top-vent",
                 "kind": "upgrade",
                 "title": "Vent",
-                "hoverTitle": "Vent",
+                "handle": "nw-addon-vented-top-vent",
+                "linkedMedusaProductId": "prod_01M2B6DGQ5QHYPSRHFKQJ9GBNX",
+                "linkedMedusaVariantId": "variant_01M2B6DJ8PTKJKAFGB7ZZ3DYBH",
+                "sku": "NW-ADDON-VENTED-TOP-VENT",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616168711705.png",
                 "hoverDescription": "Vented Top · (+ $50.00)",
                 "price": {
                   "surcharge": 50,
@@ -7603,12 +7912,7 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616168923263.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616168923263.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               }
             ]
           },
@@ -7621,7 +7925,11 @@ export const storefrontProducts = [
                 "id": "walls-back-wall",
                 "kind": "upgrade",
                 "title": "Back Wall",
-                "hoverTitle": "Back Wall",
+                "handle": "nw-addon-walls-back-wall",
+                "linkedMedusaProductId": "prod_01M2B6ERPV9QNAPHEC2EVDVG3P",
+                "linkedMedusaVariantId": "variant_01M2B6ET8BYGGS6SX95X1XQVGF",
+                "sku": "NW-ADDON-WALLS-BACK-WALL",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615484089707.jpg",
                 "hoverDescription": "Walls · (+ $100.00)",
                 "price": {
                   "surcharge": 100,
@@ -7629,18 +7937,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615484089707.jpg",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615484089707.jpg",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "walls-back-wall-half-side-walls",
                 "kind": "upgrade",
                 "title": "Back Wall & Half Side Walls",
-                "hoverTitle": "Back Wall & Half Side Walls",
+                "handle": "nw-addon-walls-back-wall-half-side-walls",
+                "linkedMedusaProductId": "prod_01M2B6EYCTGHQDSEZ6VVTH6FWP",
+                "linkedMedusaVariantId": "variant_01M2B6EZYBD26VEDG4SWBK69ZJ",
+                "sku": "NW-ADDON-WALLS-BACK-WALL-HALF-SIDE-WALLS",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615484641932.jpg",
                 "hoverDescription": "Walls · (+ $300.00)",
                 "price": {
                   "surcharge": 300,
@@ -7648,18 +7955,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615484641932.jpg",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615484641932.jpg",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "walls-three-full-walls",
                 "kind": "upgrade",
                 "title": "Three Full Walls",
-                "hoverTitle": "Three Full Walls",
+                "handle": "nw-addon-walls-three-full-walls",
+                "linkedMedusaProductId": "prod_01M2B6F4347F43R5RAFBGHT0JD",
+                "linkedMedusaVariantId": "variant_01M2B6F5MNF68M9NVGWHF7F2JJ",
+                "sku": "NW-ADDON-WALLS-THREE-FULL-WALLS",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615485325022.jpg",
                 "hoverDescription": "Walls · (+ $400.00)",
                 "price": {
                   "surcharge": 400,
@@ -7667,12 +7973,7 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615485325022.jpg",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615485325022.jpg",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               }
             ]
           }
@@ -7755,8 +8056,9 @@ export const storefrontProducts = [
         "id": "accessories",
         "kind": "accessory",
         "title": "Accessories",
-        "selectionMode": "multiple",
         "displayStyle": "grid",
+        "selectionMode": "multiple",
+        "items": [],
         "subgroups": [
           {
             "id": "table-cover",
@@ -7767,7 +8069,11 @@ export const storefrontProducts = [
                 "id": "table-cover-6ft-stretch-table-cover",
                 "kind": "accessory",
                 "title": "6ft Stretch Table Cover",
-                "hoverTitle": "6ft Stretch Table Cover",
+                "handle": "nw-addon-table-cover-6ft-stretch-table-cover",
+                "linkedMedusaProductId": "prod_01M2B6CZFB8R9K6V16CJQY3FGB",
+                "linkedMedusaVariantId": "variant_01M2B6D10RBMY1PDV985E7ZJF3",
+                "sku": "NW-ADDON-TABLE-COVER-6FT-STRETCH-TABLE-COVER",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png",
                 "hoverDescription": "Table Cover · (+ $135.00)",
                 "price": {
                   "surcharge": 135,
@@ -7775,18 +8081,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "table-cover-6ft-fitted-table-cover",
                 "kind": "accessory",
                 "title": "6ft Fitted Table Cover",
-                "hoverTitle": "6ft Fitted Table Cover",
+                "handle": "nw-addon-table-cover-6ft-fitted-table-cover",
+                "linkedMedusaProductId": "prod_01M2B6CSQV9YTD2N0GS3TDV2TH",
+                "linkedMedusaVariantId": "variant_01M2B6CV9AGV99J7RFG5MXEWHP",
+                "sku": "NW-ADDON-TABLE-COVER-6FT-FITTED-TABLE-COVER",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png",
                 "hoverDescription": "Table Cover · (+ $145.00)",
                 "price": {
                   "surcharge": 145,
@@ -7794,18 +8099,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "table-cover-6ft-draped-table-cover",
                 "kind": "accessory",
                 "title": "6ft Draped Table Cover",
-                "hoverTitle": "6ft Draped Table Cover",
+                "handle": "nw-addon-table-cover-6ft-draped-table-cover",
+                "linkedMedusaProductId": "prod_01M2B6CM1XYJ9NMH6070S4XBYC",
+                "linkedMedusaVariantId": "variant_01M2B6CNKA71NEPEGQ9VEN4ADW",
+                "sku": "NW-ADDON-TABLE-COVER-6FT-DRAPED-TABLE-COVER",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp",
                 "hoverDescription": "Table Cover · (+ $145.00)",
                 "price": {
                   "surcharge": 145,
@@ -7813,12 +8117,7 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               }
             ]
           },
@@ -7831,7 +8130,11 @@ export const storefrontProducts = [
                 "id": "feather-flags-9ft-mounted-flag-w-mounting-kit",
                 "kind": "accessory",
                 "title": "9ft Mounted Flag w/ Mounting Kit",
-                "hoverTitle": "9ft Mounted Flag w/ Mounting Kit",
+                "handle": "nw-addon-feather-flags-9ft-mounted-flag-w-mounting-kit",
+                "linkedMedusaProductId": "prod_01M2B6B6Z6FAZT1F0RDNSCXHCT",
+                "linkedMedusaVariantId": "variant_01M2B6B8GNASC1MR5ABW9DWXZ3",
+                "sku": "NW-ADDON-FEATHER-FLAGS-9FT-MOUNTED-FLAG-W-MOUNTING-KIT",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png",
                 "hoverDescription": "Feather Flags · (+ $150.00)",
                 "price": {
                   "surcharge": 150,
@@ -7839,18 +8142,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "feather-flags-9ft-stand-alone-flag-w-cross-base",
                 "kind": "accessory",
                 "title": "9ft Stand Alone Flag w/ Cross Base",
-                "hoverTitle": "9ft Stand Alone Flag w/ Cross Base",
+                "handle": "nw-addon-feather-flags-9ft-stand-alone-flag-w-cross-base",
+                "linkedMedusaProductId": "prod_01M2B6BCNQB6MRYJZWGCREWM6F",
+                "linkedMedusaVariantId": "variant_01M2B6BE77P3XGQDED1QSFDC9Q",
+                "sku": "NW-ADDON-FEATHER-FLAGS-9FT-STAND-ALONE-FLAG-W-CROSS-BASE",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png",
                 "hoverDescription": "Feather Flags · (+ $140.00)",
                 "price": {
                   "surcharge": 140,
@@ -7858,18 +8160,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "feather-flags-12ft-stand-alone-flag-w-cross-base",
                 "kind": "accessory",
                 "title": "12ft Stand Alone Flag w/ Cross Base",
-                "hoverTitle": "12ft Stand Alone Flag w/ Cross Base",
+                "handle": "nw-addon-feather-flags-12ft-stand-alone-flag-w-cross-base",
+                "linkedMedusaProductId": "prod_01M2B6AVGZAPV1B8X7N3ZGD231",
+                "linkedMedusaVariantId": "variant_01M2B6AX2HVNMB86B8W9X9ZEGW",
+                "sku": "NW-ADDON-FEATHER-FLAGS-12FT-STAND-ALONE-FLAG-W-CROSS-BASE",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png",
                 "hoverDescription": "Feather Flags · (+ $150.00)",
                 "price": {
                   "surcharge": 150,
@@ -7877,18 +8178,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "feather-flags-15ft-stand-alone-flag-w-cross-base",
                 "kind": "accessory",
                 "title": "15ft Stand Alone Flag w/ Cross Base",
-                "hoverTitle": "15ft Stand Alone Flag w/ Cross Base",
+                "handle": "nw-addon-feather-flags-15ft-stand-alone-flag-w-cross-base",
+                "linkedMedusaProductId": "prod_01M2B6B18G8AN06FY87K9RMA7C",
+                "linkedMedusaVariantId": "variant_01M2B6B2T1S8QC5Q4K3PVJ69X7",
+                "sku": "NW-ADDON-FEATHER-FLAGS-15FT-STAND-ALONE-FLAG-W-CROSS-BASE",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png",
                 "hoverDescription": "Feather Flags · (+ $160.00)",
                 "price": {
                   "surcharge": 160,
@@ -7896,12 +8196,7 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               }
             ]
           },
@@ -7914,7 +8209,11 @@ export const storefrontProducts = [
                 "id": "essentials-4-pc-set",
                 "kind": "accessory",
                 "title": "4 Pc Set",
-                "hoverTitle": "4 Pc Set",
+                "handle": "nw-addon-essentials-4-pc-set",
+                "linkedMedusaProductId": "prod_01M2B69S7GR1VKX3SJV4657H6Y",
+                "linkedMedusaVariantId": "variant_01M2B69TS1RYDYKPF5BFTNYGKQ",
+                "sku": "NW-ADDON-ESSENTIALS-4-PC-SET",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png",
                 "hoverDescription": "Essentials · (+ $100.00)",
                 "price": {
                   "surcharge": 100,
@@ -7922,18 +8221,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "essentials-10ft-billboard",
                 "kind": "accessory",
                 "title": "10ft Billboard",
-                "hoverTitle": "10ft Billboard",
+                "handle": "nw-addon-essentials-10ft-billboard",
+                "linkedMedusaProductId": "prod_01M2B69DRX9G0FTXGP5DH3VEM2",
+                "linkedMedusaVariantId": "variant_01M2B69FADX91FKH7Z41S0EEKG",
+                "sku": "NW-ADDON-ESSENTIALS-10FT-BILLBOARD",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17631439523223.jpg",
                 "hoverDescription": "Essentials · (+ $285.00)",
                 "price": {
                   "surcharge": 285,
@@ -7941,18 +8239,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17631443032464.jpg",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17631443032464.jpg",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "essentials-10ft-counter-top-w-vinyl-banner",
                 "kind": "accessory",
                 "title": "10ft Counter Top w/ Vinyl Banner",
-                "hoverTitle": "10ft Counter Top w/ Vinyl Banner",
+                "handle": "nw-addon-essentials-10ft-counter-top-w-vinyl-banner",
+                "linkedMedusaProductId": "prod_01M2B69KHDCYE1CWHMVHHWXP3B",
+                "linkedMedusaVariantId": "variant_01M2B69N2X0ADG68PAPZZPG9DC",
+                "sku": "NW-ADDON-ESSENTIALS-10FT-COUNTER-TOP-W-VINYL-BANNER",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17631440018208.jpg",
                 "hoverDescription": "Essentials · (+ $550.00)",
                 "price": {
                   "surcharge": 550,
@@ -7960,18 +8257,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17631443116222.jpg",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17631443116222.jpg",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "essentials-led-lights",
                 "kind": "accessory",
                 "title": "LED Lights",
-                "hoverTitle": "LED Lights",
+                "handle": "nw-addon-essentials-led-lights",
+                "linkedMedusaProductId": "prod_01M2B6AAC2TWGWM04HKTG92YTE",
+                "linkedMedusaVariantId": "variant_01M2B6ABXNGNMPZP2EGYFZEPYS",
+                "sku": "NW-ADDON-ESSENTIALS-LED-LIGHTS",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649559175731.jpg",
                 "hoverDescription": "Essentials · (+ $219.00)",
                 "price": {
                   "surcharge": 219,
@@ -7979,18 +8275,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649550636786.jpg",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649550636786.jpg",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "essentials-10ft-awning",
                 "kind": "accessory",
                 "title": "10ft Awning",
-                "hoverTitle": "10ft Awning",
+                "handle": "nw-addon-essentials-10ft-awning",
+                "linkedMedusaProductId": "prod_01M2B6981V5DC0VYTXD5H97K56",
+                "linkedMedusaVariantId": "variant_01M2B699M4XN529YYFSKGX12T7",
+                "sku": "NW-ADDON-ESSENTIALS-10FT-AWNING",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17667855253053.jpg",
                 "hoverDescription": "Essentials · (+ $235.00)",
                 "price": {
                   "surcharge": 235,
@@ -7998,12 +8293,7 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17667856019450.jpg",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17667856019450.jpg",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               }
             ]
           }
@@ -8013,8 +8303,9 @@ export const storefrontProducts = [
         "id": "upgrades",
         "kind": "upgrade",
         "title": "Upgrades",
-        "selectionMode": "multiple",
         "displayStyle": "grid",
+        "selectionMode": "multiple",
+        "items": [],
         "subgroups": [
           {
             "id": "vented-top",
@@ -8025,7 +8316,11 @@ export const storefrontProducts = [
                 "id": "vented-top-vent",
                 "kind": "upgrade",
                 "title": "Vent",
-                "hoverTitle": "Vent",
+                "handle": "nw-addon-vented-top-vent",
+                "linkedMedusaProductId": "prod_01M2B6DGQ5QHYPSRHFKQJ9GBNX",
+                "linkedMedusaVariantId": "variant_01M2B6DJ8PTKJKAFGB7ZZ3DYBH",
+                "sku": "NW-ADDON-VENTED-TOP-VENT",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616168711705.png",
                 "hoverDescription": "Vented Top · (+ $50.00)",
                 "price": {
                   "surcharge": 50,
@@ -8033,12 +8328,7 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616167750747.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616167750747.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               }
             ]
           },
@@ -8051,7 +8341,11 @@ export const storefrontProducts = [
                 "id": "walls-back-wall",
                 "kind": "upgrade",
                 "title": "Back Wall",
-                "hoverTitle": "Back Wall",
+                "handle": "nw-addon-walls-back-wall",
+                "linkedMedusaProductId": "prod_01M2B6ERPV9QNAPHEC2EVDVG3P",
+                "linkedMedusaVariantId": "variant_01M2B6ET8BYGGS6SX95X1XQVGF",
+                "sku": "NW-ADDON-WALLS-BACK-WALL",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615484089707.jpg",
                 "hoverDescription": "Walls · (+ $100.00)",
                 "price": {
                   "surcharge": 100,
@@ -8059,18 +8353,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615484089707.jpg",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615484089707.jpg",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "walls-back-wall-half-side-walls",
                 "kind": "upgrade",
                 "title": "Back Wall & Half Side Walls",
-                "hoverTitle": "Back Wall & Half Side Walls",
+                "handle": "nw-addon-walls-back-wall-half-side-walls",
+                "linkedMedusaProductId": "prod_01M2B6EYCTGHQDSEZ6VVTH6FWP",
+                "linkedMedusaVariantId": "variant_01M2B6EZYBD26VEDG4SWBK69ZJ",
+                "sku": "NW-ADDON-WALLS-BACK-WALL-HALF-SIDE-WALLS",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615484641932.jpg",
                 "hoverDescription": "Walls · (+ $300.00)",
                 "price": {
                   "surcharge": 300,
@@ -8078,18 +8371,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615484641932.jpg",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615484641932.jpg",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "walls-three-full-walls",
                 "kind": "upgrade",
                 "title": "Three Full Walls",
-                "hoverTitle": "Three Full Walls",
+                "handle": "nw-addon-walls-three-full-walls",
+                "linkedMedusaProductId": "prod_01M2B6F4347F43R5RAFBGHT0JD",
+                "linkedMedusaVariantId": "variant_01M2B6F5MNF68M9NVGWHF7F2JJ",
+                "sku": "NW-ADDON-WALLS-THREE-FULL-WALLS",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615485325022.jpg",
                 "hoverDescription": "Walls · (+ $400.00)",
                 "price": {
                   "surcharge": 400,
@@ -8097,12 +8389,7 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615485325022.jpg",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615485325022.jpg",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               }
             ]
           }
@@ -8210,8 +8497,9 @@ export const storefrontProducts = [
         "id": "accessories",
         "kind": "accessory",
         "title": "Accessories",
-        "selectionMode": "multiple",
         "displayStyle": "grid",
+        "selectionMode": "multiple",
+        "items": [],
         "subgroups": [
           {
             "id": "table-cover",
@@ -8222,7 +8510,11 @@ export const storefrontProducts = [
                 "id": "table-cover-6ft-stretch-table-cover",
                 "kind": "accessory",
                 "title": "6ft Stretch Table Cover",
-                "hoverTitle": "6ft Stretch Table Cover",
+                "handle": "nw-addon-table-cover-6ft-stretch-table-cover",
+                "linkedMedusaProductId": "prod_01M2B6CZFB8R9K6V16CJQY3FGB",
+                "linkedMedusaVariantId": "variant_01M2B6D10RBMY1PDV985E7ZJF3",
+                "sku": "NW-ADDON-TABLE-COVER-6FT-STRETCH-TABLE-COVER",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png",
                 "hoverDescription": "Table Cover · (+ $135.00)",
                 "price": {
                   "surcharge": 135,
@@ -8230,18 +8522,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "table-cover-6ft-fitted-table-cover",
                 "kind": "accessory",
                 "title": "6ft Fitted Table Cover",
-                "hoverTitle": "6ft Fitted Table Cover",
+                "handle": "nw-addon-table-cover-6ft-fitted-table-cover",
+                "linkedMedusaProductId": "prod_01M2B6CSQV9YTD2N0GS3TDV2TH",
+                "linkedMedusaVariantId": "variant_01M2B6CV9AGV99J7RFG5MXEWHP",
+                "sku": "NW-ADDON-TABLE-COVER-6FT-FITTED-TABLE-COVER",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png",
                 "hoverDescription": "Table Cover · (+ $145.00)",
                 "price": {
                   "surcharge": 145,
@@ -8249,18 +8540,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "table-cover-6ft-draped-table-cover",
                 "kind": "accessory",
                 "title": "6ft Draped Table Cover",
-                "hoverTitle": "6ft Draped Table Cover",
+                "handle": "nw-addon-table-cover-6ft-draped-table-cover",
+                "linkedMedusaProductId": "prod_01M2B6CM1XYJ9NMH6070S4XBYC",
+                "linkedMedusaVariantId": "variant_01M2B6CNKA71NEPEGQ9VEN4ADW",
+                "sku": "NW-ADDON-TABLE-COVER-6FT-DRAPED-TABLE-COVER",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp",
                 "hoverDescription": "Table Cover · (+ $145.00)",
                 "price": {
                   "surcharge": 145,
@@ -8268,12 +8558,7 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               }
             ]
           },
@@ -8286,7 +8571,11 @@ export const storefrontProducts = [
                 "id": "feather-flags-9ft-mounted-flag-w-mounting-kit",
                 "kind": "accessory",
                 "title": "9ft Mounted Flag w/ Mounting Kit",
-                "hoverTitle": "9ft Mounted Flag w/ Mounting Kit",
+                "handle": "nw-addon-feather-flags-9ft-mounted-flag-w-mounting-kit",
+                "linkedMedusaProductId": "prod_01M2B6B6Z6FAZT1F0RDNSCXHCT",
+                "linkedMedusaVariantId": "variant_01M2B6B8GNASC1MR5ABW9DWXZ3",
+                "sku": "NW-ADDON-FEATHER-FLAGS-9FT-MOUNTED-FLAG-W-MOUNTING-KIT",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png",
                 "hoverDescription": "Feather Flags · (+ $150.00)",
                 "price": {
                   "surcharge": 150,
@@ -8294,18 +8583,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "feather-flags-9ft-stand-alone-flag-w-cross-base",
                 "kind": "accessory",
                 "title": "9ft Stand Alone Flag w/ Cross Base",
-                "hoverTitle": "9ft Stand Alone Flag w/ Cross Base",
+                "handle": "nw-addon-feather-flags-9ft-stand-alone-flag-w-cross-base",
+                "linkedMedusaProductId": "prod_01M2B6BCNQB6MRYJZWGCREWM6F",
+                "linkedMedusaVariantId": "variant_01M2B6BE77P3XGQDED1QSFDC9Q",
+                "sku": "NW-ADDON-FEATHER-FLAGS-9FT-STAND-ALONE-FLAG-W-CROSS-BASE",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png",
                 "hoverDescription": "Feather Flags · (+ $140.00)",
                 "price": {
                   "surcharge": 140,
@@ -8313,18 +8601,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "feather-flags-12ft-stand-alone-flag-w-cross-base",
                 "kind": "accessory",
                 "title": "12ft Stand Alone Flag w/ Cross Base",
-                "hoverTitle": "12ft Stand Alone Flag w/ Cross Base",
+                "handle": "nw-addon-feather-flags-12ft-stand-alone-flag-w-cross-base",
+                "linkedMedusaProductId": "prod_01M2B6AVGZAPV1B8X7N3ZGD231",
+                "linkedMedusaVariantId": "variant_01M2B6AX2HVNMB86B8W9X9ZEGW",
+                "sku": "NW-ADDON-FEATHER-FLAGS-12FT-STAND-ALONE-FLAG-W-CROSS-BASE",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png",
                 "hoverDescription": "Feather Flags · (+ $150.00)",
                 "price": {
                   "surcharge": 150,
@@ -8332,18 +8619,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "feather-flags-15ft-stand-alone-flag-w-cross-base",
                 "kind": "accessory",
                 "title": "15ft Stand Alone Flag w/ Cross Base",
-                "hoverTitle": "15ft Stand Alone Flag w/ Cross Base",
+                "handle": "nw-addon-feather-flags-15ft-stand-alone-flag-w-cross-base",
+                "linkedMedusaProductId": "prod_01M2B6B18G8AN06FY87K9RMA7C",
+                "linkedMedusaVariantId": "variant_01M2B6B2T1S8QC5Q4K3PVJ69X7",
+                "sku": "NW-ADDON-FEATHER-FLAGS-15FT-STAND-ALONE-FLAG-W-CROSS-BASE",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png",
                 "hoverDescription": "Feather Flags · (+ $160.00)",
                 "price": {
                   "surcharge": 160,
@@ -8351,12 +8637,7 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               }
             ]
           },
@@ -8369,7 +8650,11 @@ export const storefrontProducts = [
                 "id": "essentials-4-pc-set",
                 "kind": "accessory",
                 "title": "4 Pc Set",
-                "hoverTitle": "4 Pc Set",
+                "handle": "nw-addon-essentials-4-pc-set",
+                "linkedMedusaProductId": "prod_01M2B69S7GR1VKX3SJV4657H6Y",
+                "linkedMedusaVariantId": "variant_01M2B69TS1RYDYKPF5BFTNYGKQ",
+                "sku": "NW-ADDON-ESSENTIALS-4-PC-SET",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png",
                 "hoverDescription": "Essentials · (+ $100.00)",
                 "price": {
                   "surcharge": 100,
@@ -8377,18 +8662,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "essentials-10ft-billboard",
                 "kind": "accessory",
                 "title": "10ft Billboard",
-                "hoverTitle": "10ft Billboard",
+                "handle": "nw-addon-essentials-10ft-billboard",
+                "linkedMedusaProductId": "prod_01M2B69DRX9G0FTXGP5DH3VEM2",
+                "linkedMedusaVariantId": "variant_01M2B69FADX91FKH7Z41S0EEKG",
+                "sku": "NW-ADDON-ESSENTIALS-10FT-BILLBOARD",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17631439523223.jpg",
                 "hoverDescription": "Essentials · (+ $285.00)",
                 "price": {
                   "surcharge": 285,
@@ -8396,18 +8680,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17631442017048.jpg",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17631442017048.jpg",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "essentials-10ft-counter-top-w-vinyl-banner",
                 "kind": "accessory",
                 "title": "10ft Counter Top w/ Vinyl Banner",
-                "hoverTitle": "10ft Counter Top w/ Vinyl Banner",
+                "handle": "nw-addon-essentials-10ft-counter-top-w-vinyl-banner",
+                "linkedMedusaProductId": "prod_01M2B69KHDCYE1CWHMVHHWXP3B",
+                "linkedMedusaVariantId": "variant_01M2B69N2X0ADG68PAPZZPG9DC",
+                "sku": "NW-ADDON-ESSENTIALS-10FT-COUNTER-TOP-W-VINYL-BANNER",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17631440018208.jpg",
                 "hoverDescription": "Essentials · (+ $550.00)",
                 "price": {
                   "surcharge": 550,
@@ -8415,18 +8698,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17631442087389.jpg",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17631442087389.jpg",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "essentials-led-lights",
                 "kind": "accessory",
                 "title": "LED Lights",
-                "hoverTitle": "LED Lights ",
+                "handle": "nw-addon-essentials-led-lights",
+                "linkedMedusaProductId": "prod_01M2B6AAC2TWGWM04HKTG92YTE",
+                "linkedMedusaVariantId": "variant_01M2B6ABXNGNMPZP2EGYFZEPYS",
+                "sku": "NW-ADDON-ESSENTIALS-LED-LIGHTS",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649559175731.jpg",
                 "hoverDescription": "Essentials · (+ $219.00)",
                 "price": {
                   "surcharge": 219,
@@ -8434,19 +8716,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649549611408.jpg",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649549611408.jpg",
-                "metadata": {
-                  "sourceDisplayName": "LED Lights ",
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "essentials-10ft-awning",
                 "kind": "accessory",
                 "title": "10ft Awning",
-                "hoverTitle": "10ft Awning",
+                "handle": "nw-addon-essentials-10ft-awning",
+                "linkedMedusaProductId": "prod_01M2B6981V5DC0VYTXD5H97K56",
+                "linkedMedusaVariantId": "variant_01M2B699M4XN529YYFSKGX12T7",
+                "sku": "NW-ADDON-ESSENTIALS-10FT-AWNING",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17667855253053.jpg",
                 "hoverDescription": "Essentials · (+ $235.00)",
                 "price": {
                   "surcharge": 235,
@@ -8454,12 +8734,7 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17667855406175.jpg",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17667855406175.jpg",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               }
             ]
           }
@@ -8469,8 +8744,9 @@ export const storefrontProducts = [
         "id": "upgrades",
         "kind": "upgrade",
         "title": "Upgrades",
-        "selectionMode": "multiple",
         "displayStyle": "grid",
+        "selectionMode": "multiple",
+        "items": [],
         "subgroups": [
           {
             "id": "vented-top",
@@ -8481,7 +8757,11 @@ export const storefrontProducts = [
                 "id": "vented-top-vent",
                 "kind": "upgrade",
                 "title": "Vent",
-                "hoverTitle": "Vent",
+                "handle": "nw-addon-vented-top-vent",
+                "linkedMedusaProductId": "prod_01M2B6DGQ5QHYPSRHFKQJ9GBNX",
+                "linkedMedusaVariantId": "variant_01M2B6DJ8PTKJKAFGB7ZZ3DYBH",
+                "sku": "NW-ADDON-VENTED-TOP-VENT",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616168711705.png",
                 "hoverDescription": "Vented Top · (+ $50.00)",
                 "price": {
                   "surcharge": 50,
@@ -8489,12 +8769,7 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616168500094.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616168500094.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               }
             ]
           },
@@ -8507,7 +8782,10 @@ export const storefrontProducts = [
                 "id": "double-sided-walls-double-sided-back-wall",
                 "kind": "upgrade",
                 "title": "Double Sided Back Wall",
-                "hoverTitle": "Double Sided Back Wall",
+                "handle": "nw-addon-double-sided-walls-double-sided-back-wall",
+                "linkedMedusaProductId": "prod_01M2B686DG0C1SM0HPZ4V20CDJ",
+                "linkedMedusaVariantId": "variant_01M2B687TVC6EYYEXVT3NTTNX4",
+                "sku": "NW-ADDON-DOUBLE-SIDED-WALLS-DOUBLE-SIDED-BACK-WALL",
                 "hoverDescription": "Double-Sided Walls · (+ $100.00)",
                 "price": {
                   "surcharge": 100,
@@ -8515,10 +8793,7 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "metadata": {
-                  "sourceControlType": "select"
-                }
+                "step": 1
               }
             ]
           }
@@ -8623,8 +8898,9 @@ export const storefrontProducts = [
         "id": "accessories",
         "kind": "accessory",
         "title": "Accessories",
-        "selectionMode": "multiple",
         "displayStyle": "grid",
+        "selectionMode": "multiple",
+        "items": [],
         "subgroups": [
           {
             "id": "table-cover",
@@ -8635,7 +8911,11 @@ export const storefrontProducts = [
                 "id": "table-cover-6ft-stretch-table-cover",
                 "kind": "accessory",
                 "title": "6ft Stretch Table Cover",
-                "hoverTitle": "6ft Stretch Table Cover",
+                "handle": "nw-addon-table-cover-6ft-stretch-table-cover",
+                "linkedMedusaProductId": "prod_01M2B6CZFB8R9K6V16CJQY3FGB",
+                "linkedMedusaVariantId": "variant_01M2B6D10RBMY1PDV985E7ZJF3",
+                "sku": "NW-ADDON-TABLE-COVER-6FT-STRETCH-TABLE-COVER",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png",
                 "hoverDescription": "Table Cover · (+ $135.00)",
                 "price": {
                   "surcharge": 135,
@@ -8643,18 +8923,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "table-cover-6ft-fitted-table-cover",
                 "kind": "accessory",
                 "title": "6ft Fitted Table Cover",
-                "hoverTitle": "6ft Fitted Table Cover",
+                "handle": "nw-addon-table-cover-6ft-fitted-table-cover",
+                "linkedMedusaProductId": "prod_01M2B6CSQV9YTD2N0GS3TDV2TH",
+                "linkedMedusaVariantId": "variant_01M2B6CV9AGV99J7RFG5MXEWHP",
+                "sku": "NW-ADDON-TABLE-COVER-6FT-FITTED-TABLE-COVER",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png",
                 "hoverDescription": "Table Cover · (+ $145.00)",
                 "price": {
                   "surcharge": 145,
@@ -8662,18 +8941,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "table-cover-6ft-draped-table-cover",
                 "kind": "accessory",
                 "title": "6ft Draped Table Cover",
-                "hoverTitle": "6ft Draped Table Cover",
+                "handle": "nw-addon-table-cover-6ft-draped-table-cover",
+                "linkedMedusaProductId": "prod_01M2B6CM1XYJ9NMH6070S4XBYC",
+                "linkedMedusaVariantId": "variant_01M2B6CNKA71NEPEGQ9VEN4ADW",
+                "sku": "NW-ADDON-TABLE-COVER-6FT-DRAPED-TABLE-COVER",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp",
                 "hoverDescription": "Table Cover · (+ $145.00)",
                 "price": {
                   "surcharge": 145,
@@ -8681,12 +8959,7 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               }
             ]
           },
@@ -8699,7 +8972,11 @@ export const storefrontProducts = [
                 "id": "feather-flags-9ft-mounted-flag-w-mounting-kit",
                 "kind": "accessory",
                 "title": "9ft Mounted Flag w/ Mounting Kit",
-                "hoverTitle": "9ft Mounted Flag w/ Mounting Kit",
+                "handle": "nw-addon-feather-flags-9ft-mounted-flag-w-mounting-kit",
+                "linkedMedusaProductId": "prod_01M2B6B6Z6FAZT1F0RDNSCXHCT",
+                "linkedMedusaVariantId": "variant_01M2B6B8GNASC1MR5ABW9DWXZ3",
+                "sku": "NW-ADDON-FEATHER-FLAGS-9FT-MOUNTED-FLAG-W-MOUNTING-KIT",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png",
                 "hoverDescription": "Feather Flags · (+ $150.00)",
                 "price": {
                   "surcharge": 150,
@@ -8707,18 +8984,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "feather-flags-9ft-stand-alone-flag-w-cross-base",
                 "kind": "accessory",
                 "title": "9ft Stand Alone Flag w/ Cross Base",
-                "hoverTitle": "9ft Stand Alone Flag w/ Cross Base",
+                "handle": "nw-addon-feather-flags-9ft-stand-alone-flag-w-cross-base",
+                "linkedMedusaProductId": "prod_01M2B6BCNQB6MRYJZWGCREWM6F",
+                "linkedMedusaVariantId": "variant_01M2B6BE77P3XGQDED1QSFDC9Q",
+                "sku": "NW-ADDON-FEATHER-FLAGS-9FT-STAND-ALONE-FLAG-W-CROSS-BASE",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png",
                 "hoverDescription": "Feather Flags · (+ $140.00)",
                 "price": {
                   "surcharge": 140,
@@ -8726,18 +9002,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "feather-flags-12ft-stand-alone-flag-w-cross-base",
                 "kind": "accessory",
                 "title": "12ft Stand Alone Flag w/ Cross Base",
-                "hoverTitle": "12ft Stand Alone Flag w/ Cross Base",
+                "handle": "nw-addon-feather-flags-12ft-stand-alone-flag-w-cross-base",
+                "linkedMedusaProductId": "prod_01M2B6AVGZAPV1B8X7N3ZGD231",
+                "linkedMedusaVariantId": "variant_01M2B6AX2HVNMB86B8W9X9ZEGW",
+                "sku": "NW-ADDON-FEATHER-FLAGS-12FT-STAND-ALONE-FLAG-W-CROSS-BASE",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png",
                 "hoverDescription": "Feather Flags · (+ $150.00)",
                 "price": {
                   "surcharge": 150,
@@ -8745,18 +9020,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "feather-flags-15ft-stand-alone-flag-w-cross-base",
                 "kind": "accessory",
                 "title": "15ft Stand Alone Flag w/ Cross Base",
-                "hoverTitle": "15ft Stand Alone Flag w/ Cross Base",
+                "handle": "nw-addon-feather-flags-15ft-stand-alone-flag-w-cross-base",
+                "linkedMedusaProductId": "prod_01M2B6B18G8AN06FY87K9RMA7C",
+                "linkedMedusaVariantId": "variant_01M2B6B2T1S8QC5Q4K3PVJ69X7",
+                "sku": "NW-ADDON-FEATHER-FLAGS-15FT-STAND-ALONE-FLAG-W-CROSS-BASE",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png",
                 "hoverDescription": "Feather Flags · (+ $160.00)",
                 "price": {
                   "surcharge": 160,
@@ -8764,12 +9038,7 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               }
             ]
           },
@@ -8782,7 +9051,11 @@ export const storefrontProducts = [
                 "id": "essentials-4-pc-set",
                 "kind": "accessory",
                 "title": "4 Pc Set",
-                "hoverTitle": "4 Pc Set",
+                "handle": "nw-addon-essentials-4-pc-set",
+                "linkedMedusaProductId": "prod_01M2B69S7GR1VKX3SJV4657H6Y",
+                "linkedMedusaVariantId": "variant_01M2B69TS1RYDYKPF5BFTNYGKQ",
+                "sku": "NW-ADDON-ESSENTIALS-4-PC-SET",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png",
                 "hoverDescription": "Essentials · (+ $100.00)",
                 "price": {
                   "surcharge": 100,
@@ -8790,18 +9063,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "essentials-10ft-billboard",
                 "kind": "accessory",
                 "title": "10ft Billboard",
-                "hoverTitle": "10ft Billboard",
+                "handle": "nw-addon-essentials-10ft-billboard",
+                "linkedMedusaProductId": "prod_01M2B69DRX9G0FTXGP5DH3VEM2",
+                "linkedMedusaVariantId": "variant_01M2B69FADX91FKH7Z41S0EEKG",
+                "sku": "NW-ADDON-ESSENTIALS-10FT-BILLBOARD",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17631439523223.jpg",
                 "hoverDescription": "Essentials · (+ $285.00)",
                 "price": {
                   "surcharge": 285,
@@ -8809,18 +9081,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17631442421098.jpg",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17631442421098.jpg",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "essentials-10ft-counter-top-w-vinyl-banner",
                 "kind": "accessory",
                 "title": "10ft Counter Top w/ Vinyl Banner",
-                "hoverTitle": "10ft Counter Top w/ Vinyl Banner",
+                "handle": "nw-addon-essentials-10ft-counter-top-w-vinyl-banner",
+                "linkedMedusaProductId": "prod_01M2B69KHDCYE1CWHMVHHWXP3B",
+                "linkedMedusaVariantId": "variant_01M2B69N2X0ADG68PAPZZPG9DC",
+                "sku": "NW-ADDON-ESSENTIALS-10FT-COUNTER-TOP-W-VINYL-BANNER",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17631440018208.jpg",
                 "hoverDescription": "Essentials · (+ $550.00)",
                 "price": {
                   "surcharge": 550,
@@ -8828,18 +9099,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17631442502721.jpg",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17631442502721.jpg",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "essentials-led-lights",
                 "kind": "accessory",
                 "title": "LED Lights",
-                "hoverTitle": "LED Lights",
+                "handle": "nw-addon-essentials-led-lights",
+                "linkedMedusaProductId": "prod_01M2B6AAC2TWGWM04HKTG92YTE",
+                "linkedMedusaVariantId": "variant_01M2B6ABXNGNMPZP2EGYFZEPYS",
+                "sku": "NW-ADDON-ESSENTIALS-LED-LIGHTS",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649559175731.jpg",
                 "hoverDescription": "Essentials · (+ $219.00)",
                 "price": {
                   "surcharge": 219,
@@ -8847,18 +9117,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649549854766.jpg",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649549854766.jpg",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "essentials-10ft-awning",
                 "kind": "accessory",
                 "title": "10ft Awning",
-                "hoverTitle": "10ft Awning",
+                "handle": "nw-addon-essentials-10ft-awning",
+                "linkedMedusaProductId": "prod_01M2B6981V5DC0VYTXD5H97K56",
+                "linkedMedusaVariantId": "variant_01M2B699M4XN529YYFSKGX12T7",
+                "sku": "NW-ADDON-ESSENTIALS-10FT-AWNING",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17667855253053.jpg",
                 "hoverDescription": "Essentials · (+ $235.00)",
                 "price": {
                   "surcharge": 235,
@@ -8866,12 +9135,7 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17667855553088.jpg",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17667855553088.jpg",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               }
             ]
           }
@@ -8881,8 +9145,9 @@ export const storefrontProducts = [
         "id": "upgrades",
         "kind": "upgrade",
         "title": "Upgrades",
-        "selectionMode": "multiple",
         "displayStyle": "grid",
+        "selectionMode": "multiple",
+        "items": [],
         "subgroups": [
           {
             "id": "vented-top",
@@ -8893,7 +9158,11 @@ export const storefrontProducts = [
                 "id": "vented-top-vent",
                 "kind": "upgrade",
                 "title": "Vent",
-                "hoverTitle": "Vent",
+                "handle": "nw-addon-vented-top-vent",
+                "linkedMedusaProductId": "prod_01M2B6DGQ5QHYPSRHFKQJ9GBNX",
+                "linkedMedusaVariantId": "variant_01M2B6DJ8PTKJKAFGB7ZZ3DYBH",
+                "sku": "NW-ADDON-VENTED-TOP-VENT",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616168711705.png",
                 "hoverDescription": "Vented Top · (+ $50.00)",
                 "price": {
                   "surcharge": 50,
@@ -8901,12 +9170,7 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616168217885.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616168217885.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               }
             ]
           },
@@ -8919,7 +9183,10 @@ export const storefrontProducts = [
                 "id": "double-sided-walls-double-sided-back-wall",
                 "kind": "upgrade",
                 "title": "Double Sided Back Wall",
-                "hoverTitle": "Double Sided Back Wall",
+                "handle": "nw-addon-double-sided-walls-double-sided-back-wall",
+                "linkedMedusaProductId": "prod_01M2B686DG0C1SM0HPZ4V20CDJ",
+                "linkedMedusaVariantId": "variant_01M2B687TVC6EYYEXVT3NTTNX4",
+                "sku": "NW-ADDON-DOUBLE-SIDED-WALLS-DOUBLE-SIDED-BACK-WALL",
                 "hoverDescription": "Double-Sided Walls · (+ $100.00)",
                 "price": {
                   "surcharge": 100,
@@ -8927,16 +9194,16 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "metadata": {
-                  "sourceControlType": "select"
-                }
+                "step": 1
               },
               {
                 "id": "double-sided-walls-double-sided-half-side-walls",
                 "kind": "upgrade",
                 "title": "Double Sided Half Side Walls",
-                "hoverTitle": "Double Sided Half Side Walls",
+                "handle": "nw-addon-double-sided-walls-double-sided-half-side-walls",
+                "linkedMedusaProductId": "prod_01M2B68Q6PFQ8S9YWQFQYPG3FJ",
+                "linkedMedusaVariantId": "variant_01M2B68RMPE3NVVG74J9KKG2FG",
+                "sku": "NW-ADDON-DOUBLE-SIDED-WALLS-DOUBLE-SIDED-HALF-SIDE-WALLS",
                 "hoverDescription": "Double-Sided Walls · (+ $150.00)",
                 "price": {
                   "surcharge": 150,
@@ -8944,16 +9211,16 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "metadata": {
-                  "sourceControlType": "select"
-                }
+                "step": 1
               },
               {
                 "id": "double-sided-walls-double-sided-back-half-side-walls",
                 "kind": "upgrade",
                 "title": "Double Sided Back & Half Side Walls",
-                "hoverTitle": "Double Sided Back & Half Side Walls",
+                "handle": "nw-addon-double-sided-walls-double-sided-back-half-side-walls",
+                "linkedMedusaProductId": "prod_01M2B680TXQKNSR6Q8DF0GPKFY",
+                "linkedMedusaVariantId": "variant_01M2B6828CHF0X0J98BVY9RA3J",
+                "sku": "NW-ADDON-DOUBLE-SIDED-WALLS-DOUBLE-SIDED-BACK-HALF-SIDE-WALLS",
                 "hoverDescription": "Double-Sided Walls · (+ $250.00)",
                 "price": {
                   "surcharge": 250,
@@ -8961,10 +9228,7 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "metadata": {
-                  "sourceControlType": "select"
-                }
+                "step": 1
               }
             ]
           }
@@ -9066,8 +9330,9 @@ export const storefrontProducts = [
         "id": "accessories",
         "kind": "accessory",
         "title": "Accessories",
-        "selectionMode": "multiple",
         "displayStyle": "grid",
+        "selectionMode": "multiple",
+        "items": [],
         "subgroups": [
           {
             "id": "table-cover",
@@ -9078,7 +9343,11 @@ export const storefrontProducts = [
                 "id": "table-cover-6ft-stretch-table-cover",
                 "kind": "accessory",
                 "title": "6ft Stretch Table Cover",
-                "hoverTitle": "6ft Stretch Table Cover",
+                "handle": "nw-addon-table-cover-6ft-stretch-table-cover",
+                "linkedMedusaProductId": "prod_01M2B6CZFB8R9K6V16CJQY3FGB",
+                "linkedMedusaVariantId": "variant_01M2B6D10RBMY1PDV985E7ZJF3",
+                "sku": "NW-ADDON-TABLE-COVER-6FT-STRETCH-TABLE-COVER",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png",
                 "hoverDescription": "Table Cover · (+ $135.00)",
                 "price": {
                   "surcharge": 135,
@@ -9086,18 +9355,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "table-cover-6ft-fitted-table-cover",
                 "kind": "accessory",
                 "title": "6ft Fitted Table Cover",
-                "hoverTitle": "6ft Fitted Table Cover",
+                "handle": "nw-addon-table-cover-6ft-fitted-table-cover",
+                "linkedMedusaProductId": "prod_01M2B6CSQV9YTD2N0GS3TDV2TH",
+                "linkedMedusaVariantId": "variant_01M2B6CV9AGV99J7RFG5MXEWHP",
+                "sku": "NW-ADDON-TABLE-COVER-6FT-FITTED-TABLE-COVER",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png",
                 "hoverDescription": "Table Cover · (+ $145.00)",
                 "price": {
                   "surcharge": 145,
@@ -9105,18 +9373,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "table-cover-6ft-draped-table-cover",
                 "kind": "accessory",
                 "title": "6ft Draped Table Cover",
-                "hoverTitle": "6ft Draped Table Cover",
+                "handle": "nw-addon-table-cover-6ft-draped-table-cover",
+                "linkedMedusaProductId": "prod_01M2B6CM1XYJ9NMH6070S4XBYC",
+                "linkedMedusaVariantId": "variant_01M2B6CNKA71NEPEGQ9VEN4ADW",
+                "sku": "NW-ADDON-TABLE-COVER-6FT-DRAPED-TABLE-COVER",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp",
                 "hoverDescription": "Table Cover · (+ $145.00)",
                 "price": {
                   "surcharge": 145,
@@ -9124,12 +9391,7 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               }
             ]
           },
@@ -9142,7 +9404,11 @@ export const storefrontProducts = [
                 "id": "feather-flags-9ft-mounted-flag-w-mounting-kit",
                 "kind": "accessory",
                 "title": "9ft Mounted Flag w/ Mounting Kit",
-                "hoverTitle": "9ft Mounted Flag w/ Mounting Kit",
+                "handle": "nw-addon-feather-flags-9ft-mounted-flag-w-mounting-kit",
+                "linkedMedusaProductId": "prod_01M2B6B6Z6FAZT1F0RDNSCXHCT",
+                "linkedMedusaVariantId": "variant_01M2B6B8GNASC1MR5ABW9DWXZ3",
+                "sku": "NW-ADDON-FEATHER-FLAGS-9FT-MOUNTED-FLAG-W-MOUNTING-KIT",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png",
                 "hoverDescription": "Feather Flags · (+ $150.00)",
                 "price": {
                   "surcharge": 150,
@@ -9150,18 +9416,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "feather-flags-9ft-stand-alone-flag-w-cross-base",
                 "kind": "accessory",
                 "title": "9ft Stand Alone Flag w/ Cross Base",
-                "hoverTitle": "9ft Stand Alone Flag w/ Cross Base",
+                "handle": "nw-addon-feather-flags-9ft-stand-alone-flag-w-cross-base",
+                "linkedMedusaProductId": "prod_01M2B6BCNQB6MRYJZWGCREWM6F",
+                "linkedMedusaVariantId": "variant_01M2B6BE77P3XGQDED1QSFDC9Q",
+                "sku": "NW-ADDON-FEATHER-FLAGS-9FT-STAND-ALONE-FLAG-W-CROSS-BASE",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png",
                 "hoverDescription": "Feather Flags · (+ $140.00)",
                 "price": {
                   "surcharge": 140,
@@ -9169,18 +9434,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "feather-flags-12ft-stand-alone-flag-w-cross-base",
                 "kind": "accessory",
                 "title": "12ft Stand Alone Flag w/ Cross Base",
-                "hoverTitle": "12ft Stand Alone Flag w/ Cross Base",
+                "handle": "nw-addon-feather-flags-12ft-stand-alone-flag-w-cross-base",
+                "linkedMedusaProductId": "prod_01M2B6AVGZAPV1B8X7N3ZGD231",
+                "linkedMedusaVariantId": "variant_01M2B6AX2HVNMB86B8W9X9ZEGW",
+                "sku": "NW-ADDON-FEATHER-FLAGS-12FT-STAND-ALONE-FLAG-W-CROSS-BASE",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png",
                 "hoverDescription": "Feather Flags · (+ $150.00)",
                 "price": {
                   "surcharge": 150,
@@ -9188,18 +9452,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "feather-flags-15ft-stand-alone-flag-w-cross-base",
                 "kind": "accessory",
                 "title": "15ft Stand Alone Flag w/ Cross Base",
-                "hoverTitle": "15ft Stand Alone Flag w/ Cross Base",
+                "handle": "nw-addon-feather-flags-15ft-stand-alone-flag-w-cross-base",
+                "linkedMedusaProductId": "prod_01M2B6B18G8AN06FY87K9RMA7C",
+                "linkedMedusaVariantId": "variant_01M2B6B2T1S8QC5Q4K3PVJ69X7",
+                "sku": "NW-ADDON-FEATHER-FLAGS-15FT-STAND-ALONE-FLAG-W-CROSS-BASE",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png",
                 "hoverDescription": "Feather Flags · (+ $160.00)",
                 "price": {
                   "surcharge": 160,
@@ -9207,12 +9470,7 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               }
             ]
           },
@@ -9225,7 +9483,11 @@ export const storefrontProducts = [
                 "id": "essentials-4-pc-set",
                 "kind": "accessory",
                 "title": "4 Pc Set",
-                "hoverTitle": "4 Pc Set",
+                "handle": "nw-addon-essentials-4-pc-set",
+                "linkedMedusaProductId": "prod_01M2B69S7GR1VKX3SJV4657H6Y",
+                "linkedMedusaVariantId": "variant_01M2B69TS1RYDYKPF5BFTNYGKQ",
+                "sku": "NW-ADDON-ESSENTIALS-4-PC-SET",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png",
                 "hoverDescription": "Essentials · (+ $100.00)",
                 "price": {
                   "surcharge": 100,
@@ -9233,18 +9495,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "essentials-10ft-billboard",
                 "kind": "accessory",
                 "title": "10ft Billboard",
-                "hoverTitle": "10ft Billboard",
+                "handle": "nw-addon-essentials-10ft-billboard",
+                "linkedMedusaProductId": "prod_01M2B69DRX9G0FTXGP5DH3VEM2",
+                "linkedMedusaVariantId": "variant_01M2B69FADX91FKH7Z41S0EEKG",
+                "sku": "NW-ADDON-ESSENTIALS-10FT-BILLBOARD",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17631439523223.jpg",
                 "hoverDescription": "Essentials · (+ $285.00)",
                 "price": {
                   "surcharge": 285,
@@ -9252,18 +9513,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17631442673445.jpg",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17631442673445.jpg",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "essentials-10ft-counter-top-w-vinyl-banner",
                 "kind": "accessory",
                 "title": "10ft Counter Top w/ Vinyl Banner",
-                "hoverTitle": "10ft Counter Top w/ Vinyl Banner",
+                "handle": "nw-addon-essentials-10ft-counter-top-w-vinyl-banner",
+                "linkedMedusaProductId": "prod_01M2B69KHDCYE1CWHMVHHWXP3B",
+                "linkedMedusaVariantId": "variant_01M2B69N2X0ADG68PAPZZPG9DC",
+                "sku": "NW-ADDON-ESSENTIALS-10FT-COUNTER-TOP-W-VINYL-BANNER",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17631440018208.jpg",
                 "hoverDescription": "Essentials · (+ $550.00)",
                 "price": {
                   "surcharge": 550,
@@ -9271,18 +9531,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17631442757958.jpg",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17631442757958.jpg",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "essentials-led-lights",
                 "kind": "accessory",
                 "title": "LED Lights",
-                "hoverTitle": "LED Lights",
+                "handle": "nw-addon-essentials-led-lights",
+                "linkedMedusaProductId": "prod_01M2B6AAC2TWGWM04HKTG92YTE",
+                "linkedMedusaVariantId": "variant_01M2B6ABXNGNMPZP2EGYFZEPYS",
+                "sku": "NW-ADDON-ESSENTIALS-LED-LIGHTS",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649559175731.jpg",
                 "hoverDescription": "Essentials · (+ $219.00)",
                 "price": {
                   "surcharge": 219,
@@ -9290,18 +9549,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649550386107.jpg",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649550386107.jpg",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "essentials-10ft-awning",
                 "kind": "accessory",
                 "title": "10ft Awning",
-                "hoverTitle": "10ft Awning",
+                "handle": "nw-addon-essentials-10ft-awning",
+                "linkedMedusaProductId": "prod_01M2B6981V5DC0VYTXD5H97K56",
+                "linkedMedusaVariantId": "variant_01M2B699M4XN529YYFSKGX12T7",
+                "sku": "NW-ADDON-ESSENTIALS-10FT-AWNING",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17667855253053.jpg",
                 "hoverDescription": "Essentials · (+ $235.00)",
                 "price": {
                   "surcharge": 235,
@@ -9309,12 +9567,7 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17667855822904.jpg",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17667855822904.jpg",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               }
             ]
           }
@@ -9324,8 +9577,9 @@ export const storefrontProducts = [
         "id": "upgrades",
         "kind": "upgrade",
         "title": "Upgrades",
-        "selectionMode": "multiple",
         "displayStyle": "grid",
+        "selectionMode": "multiple",
+        "items": [],
         "subgroups": [
           {
             "id": "vented-top",
@@ -9336,7 +9590,11 @@ export const storefrontProducts = [
                 "id": "vented-top-vent",
                 "kind": "upgrade",
                 "title": "Vent",
-                "hoverTitle": "Vent",
+                "handle": "nw-addon-vented-top-vent",
+                "linkedMedusaProductId": "prod_01M2B6DGQ5QHYPSRHFKQJ9GBNX",
+                "linkedMedusaVariantId": "variant_01M2B6DJ8PTKJKAFGB7ZZ3DYBH",
+                "sku": "NW-ADDON-VENTED-TOP-VENT",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616168711705.png",
                 "hoverDescription": "Vented Top · (+ $50.00)",
                 "price": {
                   "surcharge": 50,
@@ -9344,12 +9602,7 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616167930581.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616167930581.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               }
             ]
           },
@@ -9362,7 +9615,10 @@ export const storefrontProducts = [
                 "id": "double-sided-walls-double-sided-back-wall",
                 "kind": "upgrade",
                 "title": "Double Sided Back Wall",
-                "hoverTitle": "Double Sided Back Wall",
+                "handle": "nw-addon-double-sided-walls-double-sided-back-wall",
+                "linkedMedusaProductId": "prod_01M2B686DG0C1SM0HPZ4V20CDJ",
+                "linkedMedusaVariantId": "variant_01M2B687TVC6EYYEXVT3NTTNX4",
+                "sku": "NW-ADDON-DOUBLE-SIDED-WALLS-DOUBLE-SIDED-BACK-WALL",
                 "hoverDescription": "Double-Sided Walls · (+ $100.00)",
                 "price": {
                   "surcharge": 100,
@@ -9370,16 +9626,16 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "metadata": {
-                  "sourceControlType": "select"
-                }
+                "step": 1
               },
               {
                 "id": "double-sided-walls-double-sided-full-side-walls",
                 "kind": "upgrade",
                 "title": "Double Sided Full Side Walls",
-                "hoverTitle": "Double Sided Full Side Walls",
+                "handle": "nw-addon-double-sided-walls-double-sided-full-side-walls",
+                "linkedMedusaProductId": "prod_01M2B68HHYT9JTM3CN8P3M09XF",
+                "linkedMedusaVariantId": "variant_01M2B68JZFHDC2DP6KYYVCAA9V",
+                "sku": "NW-ADDON-DOUBLE-SIDED-WALLS-DOUBLE-SIDED-FULL-SIDE-WALLS",
                 "hoverDescription": "Double-Sided Walls · (+ $200.00)",
                 "price": {
                   "surcharge": 200,
@@ -9387,16 +9643,16 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "metadata": {
-                  "sourceControlType": "select"
-                }
+                "step": 1
               },
               {
                 "id": "double-sided-walls-double-sided-three-full-walls",
                 "kind": "upgrade",
                 "title": "Double Sided Three Full Walls",
-                "hoverTitle": "Double Sided Three Full Walls ",
+                "handle": "nw-addon-double-sided-walls-double-sided-three-full-walls",
+                "linkedMedusaProductId": "prod_01M2B692CM3QXG50JZYBHQ9Z33",
+                "linkedMedusaVariantId": "variant_01M2B693T0D8V3PR6H7KZF2BKT",
+                "sku": "NW-ADDON-DOUBLE-SIDED-WALLS-DOUBLE-SIDED-THREE-FULL-WALLS",
                 "hoverDescription": "Double-Sided Walls · (+ $300.00)",
                 "price": {
                   "surcharge": 300,
@@ -9404,11 +9660,7 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "metadata": {
-                  "sourceDisplayName": "Double Sided Three Full Walls ",
-                  "sourceControlType": "select"
-                }
+                "step": 1
               }
             ]
           }
@@ -9472,8 +9724,9 @@ export const storefrontProducts = [
         "id": "accessories",
         "kind": "accessory",
         "title": "Accessories",
-        "selectionMode": "multiple",
         "displayStyle": "grid",
+        "selectionMode": "multiple",
+        "items": [],
         "subgroups": [
           {
             "id": "table-cover",
@@ -9484,7 +9737,11 @@ export const storefrontProducts = [
                 "id": "table-cover-6ft-stretch-table-cover",
                 "kind": "accessory",
                 "title": "6ft Stretch Table Cover",
-                "hoverTitle": "6ft Stretch Table Cover",
+                "handle": "nw-addon-table-cover-6ft-stretch-table-cover",
+                "linkedMedusaProductId": "prod_01M2B6CZFB8R9K6V16CJQY3FGB",
+                "linkedMedusaVariantId": "variant_01M2B6D10RBMY1PDV985E7ZJF3",
+                "sku": "NW-ADDON-TABLE-COVER-6FT-STRETCH-TABLE-COVER",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png",
                 "hoverDescription": "Table Cover · (+ $135.00)",
                 "price": {
                   "surcharge": 135,
@@ -9492,18 +9749,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "table-cover-6ft-fitted-table-cover",
                 "kind": "accessory",
                 "title": "6ft Fitted Table Cover",
-                "hoverTitle": "6ft Fitted Table Cover",
+                "handle": "nw-addon-table-cover-6ft-fitted-table-cover",
+                "linkedMedusaProductId": "prod_01M2B6CSQV9YTD2N0GS3TDV2TH",
+                "linkedMedusaVariantId": "variant_01M2B6CV9AGV99J7RFG5MXEWHP",
+                "sku": "NW-ADDON-TABLE-COVER-6FT-FITTED-TABLE-COVER",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png",
                 "hoverDescription": "Table Cover · (+ $145.00)",
                 "price": {
                   "surcharge": 145,
@@ -9511,18 +9767,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "table-cover-6ft-draped-table-cover",
                 "kind": "accessory",
                 "title": "6ft Draped Table Cover",
-                "hoverTitle": "6ft Draped Table Cover",
+                "handle": "nw-addon-table-cover-6ft-draped-table-cover",
+                "linkedMedusaProductId": "prod_01M2B6CM1XYJ9NMH6070S4XBYC",
+                "linkedMedusaVariantId": "variant_01M2B6CNKA71NEPEGQ9VEN4ADW",
+                "sku": "NW-ADDON-TABLE-COVER-6FT-DRAPED-TABLE-COVER",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp",
                 "hoverDescription": "Table Cover · (+ $145.00)",
                 "price": {
                   "surcharge": 145,
@@ -9530,12 +9785,7 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               }
             ]
           },
@@ -9548,7 +9798,11 @@ export const storefrontProducts = [
                 "id": "feather-flags-9ft-mounted-flag-w-mounting-kit",
                 "kind": "accessory",
                 "title": "9ft Mounted Flag w/ Mounting Kit",
-                "hoverTitle": "9ft Mounted Flag w/ Mounting Kit",
+                "handle": "nw-addon-feather-flags-9ft-mounted-flag-w-mounting-kit",
+                "linkedMedusaProductId": "prod_01M2B6B6Z6FAZT1F0RDNSCXHCT",
+                "linkedMedusaVariantId": "variant_01M2B6B8GNASC1MR5ABW9DWXZ3",
+                "sku": "NW-ADDON-FEATHER-FLAGS-9FT-MOUNTED-FLAG-W-MOUNTING-KIT",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png",
                 "hoverDescription": "Feather Flags · (+ $150.00)",
                 "price": {
                   "surcharge": 150,
@@ -9556,18 +9810,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "feather-flags-9ft-stand-alone-flag-w-cross-base",
                 "kind": "accessory",
                 "title": "9ft Stand Alone Flag w/ Cross Base",
-                "hoverTitle": "9ft Stand Alone Flag w/ Cross Base",
+                "handle": "nw-addon-feather-flags-9ft-stand-alone-flag-w-cross-base",
+                "linkedMedusaProductId": "prod_01M2B6BCNQB6MRYJZWGCREWM6F",
+                "linkedMedusaVariantId": "variant_01M2B6BE77P3XGQDED1QSFDC9Q",
+                "sku": "NW-ADDON-FEATHER-FLAGS-9FT-STAND-ALONE-FLAG-W-CROSS-BASE",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png",
                 "hoverDescription": "Feather Flags · (+ $140.00)",
                 "price": {
                   "surcharge": 140,
@@ -9575,18 +9828,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "feather-flags-12ft-stand-alone-flag-w-cross-base",
                 "kind": "accessory",
                 "title": "12ft Stand Alone Flag w/ Cross Base",
-                "hoverTitle": "12ft Stand Alone Flag w/ Cross Base",
+                "handle": "nw-addon-feather-flags-12ft-stand-alone-flag-w-cross-base",
+                "linkedMedusaProductId": "prod_01M2B6AVGZAPV1B8X7N3ZGD231",
+                "linkedMedusaVariantId": "variant_01M2B6AX2HVNMB86B8W9X9ZEGW",
+                "sku": "NW-ADDON-FEATHER-FLAGS-12FT-STAND-ALONE-FLAG-W-CROSS-BASE",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png",
                 "hoverDescription": "Feather Flags · (+ $150.00)",
                 "price": {
                   "surcharge": 150,
@@ -9594,18 +9846,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "feather-flags-15ft-stand-alone-flag-w-cross-base",
                 "kind": "accessory",
                 "title": "15ft Stand Alone Flag w/ Cross Base",
-                "hoverTitle": "15ft Stand Alone Flag w/ Cross Base",
+                "handle": "nw-addon-feather-flags-15ft-stand-alone-flag-w-cross-base",
+                "linkedMedusaProductId": "prod_01M2B6B18G8AN06FY87K9RMA7C",
+                "linkedMedusaVariantId": "variant_01M2B6B2T1S8QC5Q4K3PVJ69X7",
+                "sku": "NW-ADDON-FEATHER-FLAGS-15FT-STAND-ALONE-FLAG-W-CROSS-BASE",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png",
                 "hoverDescription": "Feather Flags · (+ $160.00)",
                 "price": {
                   "surcharge": 160,
@@ -9613,25 +9864,24 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               }
             ]
           },
           {
             "id": "essentials",
-            "title": "Essentials ",
+            "title": "Essentials",
             "selectionMode": "single",
             "items": [
               {
                 "id": "essentials-4-pc-set",
                 "kind": "accessory",
                 "title": "4 Pc Set",
-                "hoverTitle": "4 Pc Set",
+                "handle": "nw-addon-essentials-4-pc-set",
+                "linkedMedusaProductId": "prod_01M2B69S7GR1VKX3SJV4657H6Y",
+                "linkedMedusaVariantId": "variant_01M2B69TS1RYDYKPF5BFTNYGKQ",
+                "sku": "NW-ADDON-ESSENTIALS-4-PC-SET",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png",
                 "hoverDescription": "Essentials  · (+ $100.00)",
                 "price": {
                   "surcharge": 100,
@@ -9639,18 +9889,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "essentials-led-lights",
                 "kind": "accessory",
                 "title": "LED Lights",
-                "hoverTitle": "LED Lights",
+                "handle": "nw-addon-essentials-led-lights",
+                "linkedMedusaProductId": "prod_01M2B6AAC2TWGWM04HKTG92YTE",
+                "linkedMedusaVariantId": "variant_01M2B6ABXNGNMPZP2EGYFZEPYS",
+                "sku": "NW-ADDON-ESSENTIALS-LED-LIGHTS",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649559175731.jpg",
                 "hoverDescription": "Essentials  · (+ $219.00)",
                 "price": {
                   "surcharge": 219,
@@ -9658,12 +9907,7 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649551263796.jpg",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649551263796.jpg",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               }
             ]
           }
@@ -9673,8 +9917,9 @@ export const storefrontProducts = [
         "id": "upgrades",
         "kind": "upgrade",
         "title": "Upgrades",
-        "selectionMode": "multiple",
         "displayStyle": "grid",
+        "selectionMode": "multiple",
+        "items": [],
         "subgroups": [
           {
             "id": "walls",
@@ -9685,7 +9930,11 @@ export const storefrontProducts = [
                 "id": "walls-15ft-back-wall",
                 "kind": "upgrade",
                 "title": "15ft Back Wall",
-                "hoverTitle": "15ft Back Wall",
+                "handle": "nw-addon-walls-15ft-back-wall",
+                "linkedMedusaProductId": "prod_01M2B6DPDCNXPNC5P29HV8PGNP",
+                "linkedMedusaVariantId": "variant_01M2B6DQYWM4TQMX4KXT89Z2SK",
+                "sku": "NW-ADDON-WALLS-15FT-BACK-WALL",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616313236087.jpg",
                 "hoverDescription": "Walls · (+ $200.00)",
                 "price": {
                   "surcharge": 200,
@@ -9693,18 +9942,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616313236087.jpg",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616313236087.jpg",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "walls-15ft-back-wall-half-side-walls",
                 "kind": "upgrade",
                 "title": "15ft Back Wall & Half Side Walls",
-                "hoverTitle": "15ft Back Wall & Half Side Walls ",
+                "handle": "nw-addon-walls-15ft-back-wall-half-side-walls",
+                "linkedMedusaProductId": "prod_01M2B6DW3XT5RZY3W499CN78A8",
+                "linkedMedusaVariantId": "variant_01M2B6DXNBG859KG7KCGXS9SBR",
+                "sku": "NW-ADDON-WALLS-15FT-BACK-WALL-HALF-SIDE-WALLS",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616314079234.jpg",
                 "hoverDescription": "Walls · (+ $300.00)",
                 "price": {
                   "surcharge": 300,
@@ -9712,19 +9960,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616314079234.jpg",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616314079234.jpg",
-                "metadata": {
-                  "sourceDisplayName": "15ft Back Wall & Half Side Walls ",
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "walls-15ft-three-full-walls",
                 "kind": "upgrade",
                 "title": "15ft Three Full Walls",
-                "hoverTitle": "15ft Three Full Walls",
+                "handle": "nw-addon-walls-15ft-three-full-walls",
+                "linkedMedusaProductId": "prod_01M2B6E1VN1AHNNHE42TRKCA51",
+                "linkedMedusaVariantId": "variant_01M2B6E3D6TPYSE0ZXBQZWK0HC",
+                "sku": "NW-ADDON-WALLS-15FT-THREE-FULL-WALLS",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616314939467.jpg",
                 "hoverDescription": "Walls · (+ $400.00)",
                 "price": {
                   "surcharge": 400,
@@ -9732,12 +9978,7 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616314939467.jpg",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616314939467.jpg",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               }
             ]
           }
@@ -9810,8 +10051,9 @@ export const storefrontProducts = [
         "id": "accessories",
         "kind": "accessory",
         "title": "Accessories",
-        "selectionMode": "multiple",
         "displayStyle": "grid",
+        "selectionMode": "multiple",
+        "items": [],
         "subgroups": [
           {
             "id": "table-cover",
@@ -9822,7 +10064,11 @@ export const storefrontProducts = [
                 "id": "table-cover-6ft-stretch-table-cover",
                 "kind": "accessory",
                 "title": "6ft Stretch Table Cover",
-                "hoverTitle": "6ft Stretch Table Cover",
+                "handle": "nw-addon-table-cover-6ft-stretch-table-cover",
+                "linkedMedusaProductId": "prod_01M2B6CZFB8R9K6V16CJQY3FGB",
+                "linkedMedusaVariantId": "variant_01M2B6D10RBMY1PDV985E7ZJF3",
+                "sku": "NW-ADDON-TABLE-COVER-6FT-STRETCH-TABLE-COVER",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png",
                 "hoverDescription": "Table Cover · (+ $135.00)",
                 "price": {
                   "surcharge": 135,
@@ -9830,18 +10076,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "table-cover-6ft-fitted-table-cover",
                 "kind": "accessory",
                 "title": "6ft Fitted Table Cover",
-                "hoverTitle": "6ft Fitted Table Cover",
+                "handle": "nw-addon-table-cover-6ft-fitted-table-cover",
+                "linkedMedusaProductId": "prod_01M2B6CSQV9YTD2N0GS3TDV2TH",
+                "linkedMedusaVariantId": "variant_01M2B6CV9AGV99J7RFG5MXEWHP",
+                "sku": "NW-ADDON-TABLE-COVER-6FT-FITTED-TABLE-COVER",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png",
                 "hoverDescription": "Table Cover · (+ $145.00)",
                 "price": {
                   "surcharge": 145,
@@ -9849,18 +10094,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "table-cover-6ft-draped-table-cover",
                 "kind": "accessory",
                 "title": "6ft Draped Table Cover",
-                "hoverTitle": "6ft Draped Table Cover",
+                "handle": "nw-addon-table-cover-6ft-draped-table-cover",
+                "linkedMedusaProductId": "prod_01M2B6CM1XYJ9NMH6070S4XBYC",
+                "linkedMedusaVariantId": "variant_01M2B6CNKA71NEPEGQ9VEN4ADW",
+                "sku": "NW-ADDON-TABLE-COVER-6FT-DRAPED-TABLE-COVER",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp",
                 "hoverDescription": "Table Cover · (+ $145.00)",
                 "price": {
                   "surcharge": 145,
@@ -9868,12 +10112,7 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               }
             ]
           },
@@ -9886,7 +10125,11 @@ export const storefrontProducts = [
                 "id": "feather-flags-9ft-mounted-flag-w-mounting-kit",
                 "kind": "accessory",
                 "title": "9ft Mounted Flag w/ Mounting Kit",
-                "hoverTitle": "9ft Mounted Flag w/ Mounting Kit",
+                "handle": "nw-addon-feather-flags-9ft-mounted-flag-w-mounting-kit",
+                "linkedMedusaProductId": "prod_01M2B6B6Z6FAZT1F0RDNSCXHCT",
+                "linkedMedusaVariantId": "variant_01M2B6B8GNASC1MR5ABW9DWXZ3",
+                "sku": "NW-ADDON-FEATHER-FLAGS-9FT-MOUNTED-FLAG-W-MOUNTING-KIT",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png",
                 "hoverDescription": "Feather Flags · (+ $150.00)",
                 "price": {
                   "surcharge": 150,
@@ -9894,18 +10137,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "feather-flags-9ft-stand-alone-flag-w-cross-base",
                 "kind": "accessory",
                 "title": "9ft Stand Alone Flag w/ Cross Base",
-                "hoverTitle": "9ft Stand Alone Flag w/ Cross Base",
+                "handle": "nw-addon-feather-flags-9ft-stand-alone-flag-w-cross-base",
+                "linkedMedusaProductId": "prod_01M2B6BCNQB6MRYJZWGCREWM6F",
+                "linkedMedusaVariantId": "variant_01M2B6BE77P3XGQDED1QSFDC9Q",
+                "sku": "NW-ADDON-FEATHER-FLAGS-9FT-STAND-ALONE-FLAG-W-CROSS-BASE",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png",
                 "hoverDescription": "Feather Flags · (+ $140.00)",
                 "price": {
                   "surcharge": 140,
@@ -9913,18 +10155,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "feather-flags-12ft-stand-alone-flag-w-cross-base",
                 "kind": "accessory",
                 "title": "12ft Stand Alone Flag w/ Cross Base",
-                "hoverTitle": "12ft Stand Alone Flag w/ Cross Base",
+                "handle": "nw-addon-feather-flags-12ft-stand-alone-flag-w-cross-base",
+                "linkedMedusaProductId": "prod_01M2B6AVGZAPV1B8X7N3ZGD231",
+                "linkedMedusaVariantId": "variant_01M2B6AX2HVNMB86B8W9X9ZEGW",
+                "sku": "NW-ADDON-FEATHER-FLAGS-12FT-STAND-ALONE-FLAG-W-CROSS-BASE",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png",
                 "hoverDescription": "Feather Flags · (+ $150.00)",
                 "price": {
                   "surcharge": 150,
@@ -9932,18 +10173,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "feather-flags-15ft-stand-alone-flag-w-cross-base",
                 "kind": "accessory",
                 "title": "15ft Stand Alone Flag w/ Cross Base",
-                "hoverTitle": "15ft Stand Alone Flag w/ Cross Base",
+                "handle": "nw-addon-feather-flags-15ft-stand-alone-flag-w-cross-base",
+                "linkedMedusaProductId": "prod_01M2B6B18G8AN06FY87K9RMA7C",
+                "linkedMedusaVariantId": "variant_01M2B6B2T1S8QC5Q4K3PVJ69X7",
+                "sku": "NW-ADDON-FEATHER-FLAGS-15FT-STAND-ALONE-FLAG-W-CROSS-BASE",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png",
                 "hoverDescription": "Feather Flags · (+ $160.00)",
                 "price": {
                   "surcharge": 160,
@@ -9951,25 +10191,24 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               }
             ]
           },
           {
             "id": "essentials",
-            "title": "Essentials ",
+            "title": "Essentials",
             "selectionMode": "single",
             "items": [
               {
                 "id": "essentials-4-pc-set",
                 "kind": "accessory",
                 "title": "4 Pc Set",
-                "hoverTitle": "4 Pc Set",
+                "handle": "nw-addon-essentials-4-pc-set",
+                "linkedMedusaProductId": "prod_01M2B69S7GR1VKX3SJV4657H6Y",
+                "linkedMedusaVariantId": "variant_01M2B69TS1RYDYKPF5BFTNYGKQ",
+                "sku": "NW-ADDON-ESSENTIALS-4-PC-SET",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png",
                 "hoverDescription": "Essentials  · (+ $100.00)",
                 "price": {
                   "surcharge": 100,
@@ -9977,18 +10216,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "essentials-led-lights",
                 "kind": "accessory",
                 "title": "LED Lights",
-                "hoverTitle": "LED Lights",
+                "handle": "nw-addon-essentials-led-lights",
+                "linkedMedusaProductId": "prod_01M2B6AAC2TWGWM04HKTG92YTE",
+                "linkedMedusaVariantId": "variant_01M2B6ABXNGNMPZP2EGYFZEPYS",
+                "sku": "NW-ADDON-ESSENTIALS-LED-LIGHTS",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649559175731.jpg",
                 "hoverDescription": "Essentials  · (+ $219.00)",
                 "price": {
                   "surcharge": 219,
@@ -9996,12 +10234,7 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649551021882.jpg",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649551021882.jpg",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               }
             ]
           }
@@ -10011,8 +10244,9 @@ export const storefrontProducts = [
         "id": "upgrades",
         "kind": "upgrade",
         "title": "Upgrades",
-        "selectionMode": "single",
         "displayStyle": "grid",
+        "selectionMode": "single",
+        "items": [],
         "subgroups": [
           {
             "id": "vented-top",
@@ -10023,7 +10257,11 @@ export const storefrontProducts = [
                 "id": "vented-top-vent",
                 "kind": "upgrade",
                 "title": "Vent",
-                "hoverTitle": "Vent",
+                "handle": "nw-addon-vented-top-vent",
+                "linkedMedusaProductId": "prod_01M2B6DGQ5QHYPSRHFKQJ9GBNX",
+                "linkedMedusaVariantId": "variant_01M2B6DJ8PTKJKAFGB7ZZ3DYBH",
+                "sku": "NW-ADDON-VENTED-TOP-VENT",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616168711705.png",
                 "hoverDescription": "Vented Top · (+ $50.00)",
                 "price": {
                   "surcharge": 50,
@@ -10031,12 +10269,7 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616168711705.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616168711705.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               }
             ]
           }
@@ -10119,8 +10352,9 @@ export const storefrontProducts = [
         "id": "accessories",
         "kind": "accessory",
         "title": "Accessories",
-        "selectionMode": "multiple",
         "displayStyle": "grid",
+        "selectionMode": "multiple",
+        "items": [],
         "subgroups": [
           {
             "id": "table-cover",
@@ -10131,7 +10365,11 @@ export const storefrontProducts = [
                 "id": "table-cover-6ft-stretch-table-cover",
                 "kind": "accessory",
                 "title": "6ft Stretch Table Cover",
-                "hoverTitle": "6ft Stretch Table Cover",
+                "handle": "nw-addon-table-cover-6ft-stretch-table-cover",
+                "linkedMedusaProductId": "prod_01M2B6CZFB8R9K6V16CJQY3FGB",
+                "linkedMedusaVariantId": "variant_01M2B6D10RBMY1PDV985E7ZJF3",
+                "sku": "NW-ADDON-TABLE-COVER-6FT-STRETCH-TABLE-COVER",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png",
                 "hoverDescription": "Table Cover · (+ $135.00)",
                 "price": {
                   "surcharge": 135,
@@ -10139,18 +10377,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "table-cover-6ft-fitted-table-cover",
                 "kind": "accessory",
                 "title": "6ft Fitted Table Cover",
-                "hoverTitle": "6ft Fitted Table Cover",
+                "handle": "nw-addon-table-cover-6ft-fitted-table-cover",
+                "linkedMedusaProductId": "prod_01M2B6CSQV9YTD2N0GS3TDV2TH",
+                "linkedMedusaVariantId": "variant_01M2B6CV9AGV99J7RFG5MXEWHP",
+                "sku": "NW-ADDON-TABLE-COVER-6FT-FITTED-TABLE-COVER",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png",
                 "hoverDescription": "Table Cover · (+ $145.00)",
                 "price": {
                   "surcharge": 145,
@@ -10158,18 +10395,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "table-cover-6ft-draped-table-cover",
                 "kind": "accessory",
                 "title": "6ft Draped Table Cover",
-                "hoverTitle": "6ft Draped Table Cover",
+                "handle": "nw-addon-table-cover-6ft-draped-table-cover",
+                "linkedMedusaProductId": "prod_01M2B6CM1XYJ9NMH6070S4XBYC",
+                "linkedMedusaVariantId": "variant_01M2B6CNKA71NEPEGQ9VEN4ADW",
+                "sku": "NW-ADDON-TABLE-COVER-6FT-DRAPED-TABLE-COVER",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp",
                 "hoverDescription": "Table Cover · (+ $145.00)",
                 "price": {
                   "surcharge": 145,
@@ -10177,12 +10413,7 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               }
             ]
           },
@@ -10195,7 +10426,11 @@ export const storefrontProducts = [
                 "id": "feather-flags-9ft-mounted-flag-w-mounting-kit",
                 "kind": "accessory",
                 "title": "9ft Mounted Flag w/ Mounting Kit",
-                "hoverTitle": "9ft Mounted Flag w/ Mounting Kit",
+                "handle": "nw-addon-feather-flags-9ft-mounted-flag-w-mounting-kit",
+                "linkedMedusaProductId": "prod_01M2B6B6Z6FAZT1F0RDNSCXHCT",
+                "linkedMedusaVariantId": "variant_01M2B6B8GNASC1MR5ABW9DWXZ3",
+                "sku": "NW-ADDON-FEATHER-FLAGS-9FT-MOUNTED-FLAG-W-MOUNTING-KIT",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png",
                 "hoverDescription": "Feather Flags · (+ $150.00)",
                 "price": {
                   "surcharge": 150,
@@ -10203,18 +10438,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "feather-flags-9ft-stand-alone-flag-w-cross-base",
                 "kind": "accessory",
                 "title": "9ft Stand Alone Flag w/ Cross Base",
-                "hoverTitle": "9ft Stand Alone Flag w/ Cross Base",
+                "handle": "nw-addon-feather-flags-9ft-stand-alone-flag-w-cross-base",
+                "linkedMedusaProductId": "prod_01M2B6BCNQB6MRYJZWGCREWM6F",
+                "linkedMedusaVariantId": "variant_01M2B6BE77P3XGQDED1QSFDC9Q",
+                "sku": "NW-ADDON-FEATHER-FLAGS-9FT-STAND-ALONE-FLAG-W-CROSS-BASE",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png",
                 "hoverDescription": "Feather Flags · (+ $140.00)",
                 "price": {
                   "surcharge": 140,
@@ -10222,18 +10456,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "feather-flags-12ft-stand-alone-flag-w-cross-base",
                 "kind": "accessory",
                 "title": "12ft Stand Alone Flag w/ Cross Base",
-                "hoverTitle": "12ft Stand Alone Flag w/ Cross Base",
+                "handle": "nw-addon-feather-flags-12ft-stand-alone-flag-w-cross-base",
+                "linkedMedusaProductId": "prod_01M2B6AVGZAPV1B8X7N3ZGD231",
+                "linkedMedusaVariantId": "variant_01M2B6AX2HVNMB86B8W9X9ZEGW",
+                "sku": "NW-ADDON-FEATHER-FLAGS-12FT-STAND-ALONE-FLAG-W-CROSS-BASE",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png",
                 "hoverDescription": "Feather Flags · (+ $150.00)",
                 "price": {
                   "surcharge": 150,
@@ -10241,18 +10474,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "feather-flags-15ft-stand-alone-flag-w-cross-base",
                 "kind": "accessory",
                 "title": "15ft Stand Alone Flag w/ Cross Base",
-                "hoverTitle": "15ft Stand Alone Flag w/ Cross Base",
+                "handle": "nw-addon-feather-flags-15ft-stand-alone-flag-w-cross-base",
+                "linkedMedusaProductId": "prod_01M2B6B18G8AN06FY87K9RMA7C",
+                "linkedMedusaVariantId": "variant_01M2B6B2T1S8QC5Q4K3PVJ69X7",
+                "sku": "NW-ADDON-FEATHER-FLAGS-15FT-STAND-ALONE-FLAG-W-CROSS-BASE",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png",
                 "hoverDescription": "Feather Flags · (+ $160.00)",
                 "price": {
                   "surcharge": 160,
@@ -10260,25 +10492,24 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               }
             ]
           },
           {
             "id": "essentials",
-            "title": "Essentials ",
+            "title": "Essentials",
             "selectionMode": "single",
             "items": [
               {
                 "id": "essentials-4-pc-set",
                 "kind": "accessory",
                 "title": "4 Pc Set",
-                "hoverTitle": "4 Pc Set",
+                "handle": "nw-addon-essentials-4-pc-set",
+                "linkedMedusaProductId": "prod_01M2B69S7GR1VKX3SJV4657H6Y",
+                "linkedMedusaVariantId": "variant_01M2B69TS1RYDYKPF5BFTNYGKQ",
+                "sku": "NW-ADDON-ESSENTIALS-4-PC-SET",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png",
                 "hoverDescription": "Essentials  · (+ $100.00)",
                 "price": {
                   "surcharge": 100,
@@ -10286,18 +10517,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "essentials-led-lights",
                 "kind": "accessory",
                 "title": "LED Lights",
-                "hoverTitle": "LED Lights",
+                "handle": "nw-addon-essentials-led-lights",
+                "linkedMedusaProductId": "prod_01M2B6AAC2TWGWM04HKTG92YTE",
+                "linkedMedusaVariantId": "variant_01M2B6ABXNGNMPZP2EGYFZEPYS",
+                "sku": "NW-ADDON-ESSENTIALS-LED-LIGHTS",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649559175731.jpg",
                 "hoverDescription": "Essentials  · (+ $219.00)",
                 "price": {
                   "surcharge": 219,
@@ -10305,12 +10535,7 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649553507975.jpg",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649553507975.jpg",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               }
             ]
           }
@@ -10320,8 +10545,9 @@ export const storefrontProducts = [
         "id": "upgrades",
         "kind": "upgrade",
         "title": "Upgrades",
-        "selectionMode": "multiple",
         "displayStyle": "grid",
+        "selectionMode": "multiple",
+        "items": [],
         "subgroups": [
           {
             "id": "walls",
@@ -10332,7 +10558,11 @@ export const storefrontProducts = [
                 "id": "walls-15ft-back-wall",
                 "kind": "upgrade",
                 "title": "15ft Back Wall",
-                "hoverTitle": "15ft Back Wall",
+                "handle": "nw-addon-walls-15ft-back-wall",
+                "linkedMedusaProductId": "prod_01M2B6DPDCNXPNC5P29HV8PGNP",
+                "linkedMedusaVariantId": "variant_01M2B6DQYWM4TQMX4KXT89Z2SK",
+                "sku": "NW-ADDON-WALLS-15FT-BACK-WALL",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616313236087.jpg",
                 "hoverDescription": "Walls · (+ $200.00)",
                 "price": {
                   "surcharge": 200,
@@ -10340,18 +10570,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616313236087.jpg",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616313236087.jpg",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "walls-15ft-back-wall-half-side-walls",
                 "kind": "upgrade",
                 "title": "15ft Back Wall & Half Side Walls",
-                "hoverTitle": "15ft Back Wall & Half Side Walls ",
+                "handle": "nw-addon-walls-15ft-back-wall-half-side-walls",
+                "linkedMedusaProductId": "prod_01M2B6DW3XT5RZY3W499CN78A8",
+                "linkedMedusaVariantId": "variant_01M2B6DXNBG859KG7KCGXS9SBR",
+                "sku": "NW-ADDON-WALLS-15FT-BACK-WALL-HALF-SIDE-WALLS",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616314079234.jpg",
                 "hoverDescription": "Walls · (+ $300.00)",
                 "price": {
                   "surcharge": 300,
@@ -10359,19 +10588,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616314079234.jpg",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616314079234.jpg",
-                "metadata": {
-                  "sourceDisplayName": "15ft Back Wall & Half Side Walls ",
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "walls-15ft-three-full-walls",
                 "kind": "upgrade",
                 "title": "15ft Three Full Walls",
-                "hoverTitle": "15ft Three Full Walls",
+                "handle": "nw-addon-walls-15ft-three-full-walls",
+                "linkedMedusaProductId": "prod_01M2B6E1VN1AHNNHE42TRKCA51",
+                "linkedMedusaVariantId": "variant_01M2B6E3D6TPYSE0ZXBQZWK0HC",
+                "sku": "NW-ADDON-WALLS-15FT-THREE-FULL-WALLS",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616314939467.jpg",
                 "hoverDescription": "Walls · (+ $400.00)",
                 "price": {
                   "surcharge": 400,
@@ -10379,12 +10606,7 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616314939467.jpg",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616314939467.jpg",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               }
             ]
           }
@@ -10467,8 +10689,9 @@ export const storefrontProducts = [
         "id": "accessories",
         "kind": "accessory",
         "title": "Accessories",
-        "selectionMode": "multiple",
         "displayStyle": "grid",
+        "selectionMode": "multiple",
+        "items": [],
         "subgroups": [
           {
             "id": "table-cover",
@@ -10479,7 +10702,11 @@ export const storefrontProducts = [
                 "id": "table-cover-6ft-stretch-table-cover",
                 "kind": "accessory",
                 "title": "6ft Stretch Table Cover",
-                "hoverTitle": "6ft Stretch Table Cover",
+                "handle": "nw-addon-table-cover-6ft-stretch-table-cover",
+                "linkedMedusaProductId": "prod_01M2B6CZFB8R9K6V16CJQY3FGB",
+                "linkedMedusaVariantId": "variant_01M2B6D10RBMY1PDV985E7ZJF3",
+                "sku": "NW-ADDON-TABLE-COVER-6FT-STRETCH-TABLE-COVER",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png",
                 "hoverDescription": "Table Cover · (+ $135.00)",
                 "price": {
                   "surcharge": 135,
@@ -10487,18 +10714,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "table-cover-6ft-fitted-table-cover",
                 "kind": "accessory",
                 "title": "6ft Fitted Table Cover",
-                "hoverTitle": "6ft Fitted Table Cover",
+                "handle": "nw-addon-table-cover-6ft-fitted-table-cover",
+                "linkedMedusaProductId": "prod_01M2B6CSQV9YTD2N0GS3TDV2TH",
+                "linkedMedusaVariantId": "variant_01M2B6CV9AGV99J7RFG5MXEWHP",
+                "sku": "NW-ADDON-TABLE-COVER-6FT-FITTED-TABLE-COVER",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png",
                 "hoverDescription": "Table Cover · (+ $145.00)",
                 "price": {
                   "surcharge": 145,
@@ -10506,18 +10732,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "table-cover-6ft-draped-table-cover",
                 "kind": "accessory",
                 "title": "6ft Draped Table Cover",
-                "hoverTitle": "6ft Draped Table Cover",
+                "handle": "nw-addon-table-cover-6ft-draped-table-cover",
+                "linkedMedusaProductId": "prod_01M2B6CM1XYJ9NMH6070S4XBYC",
+                "linkedMedusaVariantId": "variant_01M2B6CNKA71NEPEGQ9VEN4ADW",
+                "sku": "NW-ADDON-TABLE-COVER-6FT-DRAPED-TABLE-COVER",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp",
                 "hoverDescription": "Table Cover · (+ $145.00)",
                 "price": {
                   "surcharge": 145,
@@ -10525,12 +10750,7 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               }
             ]
           },
@@ -10543,7 +10763,11 @@ export const storefrontProducts = [
                 "id": "feather-flags-9ft-mounted-flag-w-mounting-kit",
                 "kind": "accessory",
                 "title": "9ft Mounted Flag w/ Mounting Kit",
-                "hoverTitle": "9ft Mounted Flag w/ Mounting Kit",
+                "handle": "nw-addon-feather-flags-9ft-mounted-flag-w-mounting-kit",
+                "linkedMedusaProductId": "prod_01M2B6B6Z6FAZT1F0RDNSCXHCT",
+                "linkedMedusaVariantId": "variant_01M2B6B8GNASC1MR5ABW9DWXZ3",
+                "sku": "NW-ADDON-FEATHER-FLAGS-9FT-MOUNTED-FLAG-W-MOUNTING-KIT",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png",
                 "hoverDescription": "Feather Flags · (+ $150.00)",
                 "price": {
                   "surcharge": 150,
@@ -10551,18 +10775,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "feather-flags-9ft-stand-alone-flag-w-cross-base",
                 "kind": "accessory",
                 "title": "9ft Stand Alone Flag w/ Cross Base",
-                "hoverTitle": "9ft Stand Alone Flag w/ Cross Base",
+                "handle": "nw-addon-feather-flags-9ft-stand-alone-flag-w-cross-base",
+                "linkedMedusaProductId": "prod_01M2B6BCNQB6MRYJZWGCREWM6F",
+                "linkedMedusaVariantId": "variant_01M2B6BE77P3XGQDED1QSFDC9Q",
+                "sku": "NW-ADDON-FEATHER-FLAGS-9FT-STAND-ALONE-FLAG-W-CROSS-BASE",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png",
                 "hoverDescription": "Feather Flags · (+ $140.00)",
                 "price": {
                   "surcharge": 140,
@@ -10570,18 +10793,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "feather-flags-12ft-stand-alone-flag-w-cross-base",
                 "kind": "accessory",
                 "title": "12ft Stand Alone Flag w/ Cross Base",
-                "hoverTitle": "12ft Stand Alone Flag w/ Cross Base",
+                "handle": "nw-addon-feather-flags-12ft-stand-alone-flag-w-cross-base",
+                "linkedMedusaProductId": "prod_01M2B6AVGZAPV1B8X7N3ZGD231",
+                "linkedMedusaVariantId": "variant_01M2B6AX2HVNMB86B8W9X9ZEGW",
+                "sku": "NW-ADDON-FEATHER-FLAGS-12FT-STAND-ALONE-FLAG-W-CROSS-BASE",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png",
                 "hoverDescription": "Feather Flags · (+ $150.00)",
                 "price": {
                   "surcharge": 150,
@@ -10589,18 +10811,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "feather-flags-15ft-stand-alone-flag-w-cross-base",
                 "kind": "accessory",
                 "title": "15ft Stand Alone Flag w/ Cross Base",
-                "hoverTitle": "15ft Stand Alone Flag w/ Cross Base",
+                "handle": "nw-addon-feather-flags-15ft-stand-alone-flag-w-cross-base",
+                "linkedMedusaProductId": "prod_01M2B6B18G8AN06FY87K9RMA7C",
+                "linkedMedusaVariantId": "variant_01M2B6B2T1S8QC5Q4K3PVJ69X7",
+                "sku": "NW-ADDON-FEATHER-FLAGS-15FT-STAND-ALONE-FLAG-W-CROSS-BASE",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png",
                 "hoverDescription": "Feather Flags · (+ $160.00)",
                 "price": {
                   "surcharge": 160,
@@ -10608,25 +10829,24 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               }
             ]
           },
           {
             "id": "essentials",
-            "title": "Essentials ",
+            "title": "Essentials",
             "selectionMode": "single",
             "items": [
               {
                 "id": "essentials-4-pc-set",
                 "kind": "accessory",
                 "title": "4 Pc Set",
-                "hoverTitle": "4 Pc Set",
+                "handle": "nw-addon-essentials-4-pc-set",
+                "linkedMedusaProductId": "prod_01M2B69S7GR1VKX3SJV4657H6Y",
+                "linkedMedusaVariantId": "variant_01M2B69TS1RYDYKPF5BFTNYGKQ",
+                "sku": "NW-ADDON-ESSENTIALS-4-PC-SET",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png",
                 "hoverDescription": "Essentials  · (+ $100.00)",
                 "price": {
                   "surcharge": 100,
@@ -10634,18 +10854,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "essentials-led-lights",
                 "kind": "accessory",
                 "title": "LED Lights",
-                "hoverTitle": "LED Lights",
+                "handle": "nw-addon-essentials-led-lights",
+                "linkedMedusaProductId": "prod_01M2B6AAC2TWGWM04HKTG92YTE",
+                "linkedMedusaVariantId": "variant_01M2B6ABXNGNMPZP2EGYFZEPYS",
+                "sku": "NW-ADDON-ESSENTIALS-LED-LIGHTS",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649559175731.jpg",
                 "hoverDescription": "Essentials  · (+ $219.00)",
                 "price": {
                   "surcharge": 219,
@@ -10653,12 +10872,7 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649551442752.jpg",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649551442752.jpg",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               }
             ]
           }
@@ -10668,8 +10882,9 @@ export const storefrontProducts = [
         "id": "upgrades",
         "kind": "upgrade",
         "title": "Upgrades",
-        "selectionMode": "single",
         "displayStyle": "grid",
+        "selectionMode": "single",
+        "items": [],
         "subgroups": [
           {
             "id": "double-sided-walls",
@@ -10680,7 +10895,10 @@ export const storefrontProducts = [
                 "id": "double-sided-walls-double-sided-15ft-back-wall",
                 "kind": "upgrade",
                 "title": "Double Sided 15ft Back Wall",
-                "hoverTitle": "Double Sided 15ft Back Wall",
+                "handle": "nw-addon-double-sided-walls-double-sided-15ft-back-wall",
+                "linkedMedusaProductId": "prod_01M2B66EKK6A3Z000YTFS500N6",
+                "linkedMedusaVariantId": "variant_01M2B66G16RJBE0BH4QBK352HP",
+                "sku": "NW-ADDON-DOUBLE-SIDED-WALLS-DOUBLE-SIDED-15FT-BACK-WALL",
                 "hoverDescription": "Double Sided Walls · (+ $130.00)",
                 "price": {
                   "surcharge": 130,
@@ -10688,10 +10906,7 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "metadata": {
-                  "sourceControlType": "select"
-                }
+                "step": 1
               }
             ]
           }
@@ -10774,8 +10989,9 @@ export const storefrontProducts = [
         "id": "accessories",
         "kind": "accessory",
         "title": "Accessories",
-        "selectionMode": "multiple",
         "displayStyle": "grid",
+        "selectionMode": "multiple",
+        "items": [],
         "subgroups": [
           {
             "id": "table-cover",
@@ -10786,7 +11002,11 @@ export const storefrontProducts = [
                 "id": "table-cover-6ft-stretch-table-cover",
                 "kind": "accessory",
                 "title": "6ft Stretch Table Cover",
-                "hoverTitle": "6ft Stretch Table Cover",
+                "handle": "nw-addon-table-cover-6ft-stretch-table-cover",
+                "linkedMedusaProductId": "prod_01M2B6CZFB8R9K6V16CJQY3FGB",
+                "linkedMedusaVariantId": "variant_01M2B6D10RBMY1PDV985E7ZJF3",
+                "sku": "NW-ADDON-TABLE-COVER-6FT-STRETCH-TABLE-COVER",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png",
                 "hoverDescription": "Table Cover · (+ $135.00)",
                 "price": {
                   "surcharge": 135,
@@ -10794,18 +11014,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "table-cover-6ft-fitted-table-cover",
                 "kind": "accessory",
                 "title": "6ft Fitted Table Cover",
-                "hoverTitle": "6ft Fitted Table Cover",
+                "handle": "nw-addon-table-cover-6ft-fitted-table-cover",
+                "linkedMedusaProductId": "prod_01M2B6CSQV9YTD2N0GS3TDV2TH",
+                "linkedMedusaVariantId": "variant_01M2B6CV9AGV99J7RFG5MXEWHP",
+                "sku": "NW-ADDON-TABLE-COVER-6FT-FITTED-TABLE-COVER",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png",
                 "hoverDescription": "Table Cover · (+ $145.00)",
                 "price": {
                   "surcharge": 145,
@@ -10813,18 +11032,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "table-cover-6ft-draped-table-cover",
                 "kind": "accessory",
                 "title": "6ft Draped Table Cover",
-                "hoverTitle": "6ft Draped Table Cover",
+                "handle": "nw-addon-table-cover-6ft-draped-table-cover",
+                "linkedMedusaProductId": "prod_01M2B6CM1XYJ9NMH6070S4XBYC",
+                "linkedMedusaVariantId": "variant_01M2B6CNKA71NEPEGQ9VEN4ADW",
+                "sku": "NW-ADDON-TABLE-COVER-6FT-DRAPED-TABLE-COVER",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp",
                 "hoverDescription": "Table Cover · (+ $145.00)",
                 "price": {
                   "surcharge": 145,
@@ -10832,12 +11050,7 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               }
             ]
           },
@@ -10850,7 +11063,11 @@ export const storefrontProducts = [
                 "id": "feather-flags-9ft-mounted-flag-w-mounting-kit",
                 "kind": "accessory",
                 "title": "9ft Mounted Flag w/ Mounting Kit",
-                "hoverTitle": "9ft Mounted Flag w/ Mounting Kit",
+                "handle": "nw-addon-feather-flags-9ft-mounted-flag-w-mounting-kit",
+                "linkedMedusaProductId": "prod_01M2B6B6Z6FAZT1F0RDNSCXHCT",
+                "linkedMedusaVariantId": "variant_01M2B6B8GNASC1MR5ABW9DWXZ3",
+                "sku": "NW-ADDON-FEATHER-FLAGS-9FT-MOUNTED-FLAG-W-MOUNTING-KIT",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png",
                 "hoverDescription": "Feather Flags · (+ $150.00)",
                 "price": {
                   "surcharge": 150,
@@ -10858,18 +11075,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "feather-flags-9ft-stand-alone-flag-w-cross-base",
                 "kind": "accessory",
                 "title": "9ft Stand Alone Flag w/ Cross Base",
-                "hoverTitle": "9ft Stand Alone Flag w/ Cross Base",
+                "handle": "nw-addon-feather-flags-9ft-stand-alone-flag-w-cross-base",
+                "linkedMedusaProductId": "prod_01M2B6BCNQB6MRYJZWGCREWM6F",
+                "linkedMedusaVariantId": "variant_01M2B6BE77P3XGQDED1QSFDC9Q",
+                "sku": "NW-ADDON-FEATHER-FLAGS-9FT-STAND-ALONE-FLAG-W-CROSS-BASE",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png",
                 "hoverDescription": "Feather Flags · (+ $140.00)",
                 "price": {
                   "surcharge": 140,
@@ -10877,18 +11093,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "feather-flags-12ft-stand-alone-flag-w-cross-base",
                 "kind": "accessory",
                 "title": "12ft Stand Alone Flag w/ Cross Base",
-                "hoverTitle": "12ft Stand Alone Flag w/ Cross Base",
+                "handle": "nw-addon-feather-flags-12ft-stand-alone-flag-w-cross-base",
+                "linkedMedusaProductId": "prod_01M2B6AVGZAPV1B8X7N3ZGD231",
+                "linkedMedusaVariantId": "variant_01M2B6AX2HVNMB86B8W9X9ZEGW",
+                "sku": "NW-ADDON-FEATHER-FLAGS-12FT-STAND-ALONE-FLAG-W-CROSS-BASE",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png",
                 "hoverDescription": "Feather Flags · (+ $150.00)",
                 "price": {
                   "surcharge": 150,
@@ -10896,18 +11111,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "feather-flags-15ft-stand-alone-flag-w-cross-base",
                 "kind": "accessory",
                 "title": "15ft Stand Alone Flag w/ Cross Base",
-                "hoverTitle": "15ft Stand Alone Flag w/ Cross Base",
+                "handle": "nw-addon-feather-flags-15ft-stand-alone-flag-w-cross-base",
+                "linkedMedusaProductId": "prod_01M2B6B18G8AN06FY87K9RMA7C",
+                "linkedMedusaVariantId": "variant_01M2B6B2T1S8QC5Q4K3PVJ69X7",
+                "sku": "NW-ADDON-FEATHER-FLAGS-15FT-STAND-ALONE-FLAG-W-CROSS-BASE",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png",
                 "hoverDescription": "Feather Flags · (+ $160.00)",
                 "price": {
                   "surcharge": 160,
@@ -10915,25 +11129,24 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               }
             ]
           },
           {
             "id": "essentials",
-            "title": "Essentials ",
+            "title": "Essentials",
             "selectionMode": "single",
             "items": [
               {
                 "id": "essentials-4-pc-set",
                 "kind": "accessory",
                 "title": "4 Pc Set",
-                "hoverTitle": "4 Pc Set",
+                "handle": "nw-addon-essentials-4-pc-set",
+                "linkedMedusaProductId": "prod_01M2B69S7GR1VKX3SJV4657H6Y",
+                "linkedMedusaVariantId": "variant_01M2B69TS1RYDYKPF5BFTNYGKQ",
+                "sku": "NW-ADDON-ESSENTIALS-4-PC-SET",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png",
                 "hoverDescription": "Essentials  · (+ $100.00)",
                 "price": {
                   "surcharge": 100,
@@ -10941,18 +11154,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "essentials-led-lights",
                 "kind": "accessory",
                 "title": "LED Lights",
-                "hoverTitle": "LED Lights",
+                "handle": "nw-addon-essentials-led-lights",
+                "linkedMedusaProductId": "prod_01M2B6AAC2TWGWM04HKTG92YTE",
+                "linkedMedusaVariantId": "variant_01M2B6ABXNGNMPZP2EGYFZEPYS",
+                "sku": "NW-ADDON-ESSENTIALS-LED-LIGHTS",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649559175731.jpg",
                 "hoverDescription": "Essentials  · (+ $219.00)",
                 "price": {
                   "surcharge": 219,
@@ -10960,12 +11172,7 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649551876810.jpg",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649551876810.jpg",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               }
             ]
           }
@@ -10975,8 +11182,9 @@ export const storefrontProducts = [
         "id": "upgrades",
         "kind": "upgrade",
         "title": "Upgrades",
-        "selectionMode": "single",
         "displayStyle": "grid",
+        "selectionMode": "single",
+        "items": [],
         "subgroups": [
           {
             "id": "double-sided-walls",
@@ -10987,7 +11195,10 @@ export const storefrontProducts = [
                 "id": "double-sided-walls-double-sided-15ft-back-wall",
                 "kind": "upgrade",
                 "title": "Double Sided 15ft Back Wall",
-                "hoverTitle": "Double Sided 15ft Back Wall",
+                "handle": "nw-addon-double-sided-walls-double-sided-15ft-back-wall",
+                "linkedMedusaProductId": "prod_01M2B66EKK6A3Z000YTFS500N6",
+                "linkedMedusaVariantId": "variant_01M2B66G16RJBE0BH4QBK352HP",
+                "sku": "NW-ADDON-DOUBLE-SIDED-WALLS-DOUBLE-SIDED-15FT-BACK-WALL",
                 "hoverDescription": "Double Sided Walls · (+ $130.00)",
                 "price": {
                   "surcharge": 130,
@@ -10995,16 +11206,16 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "metadata": {
-                  "sourceControlType": "select"
-                }
+                "step": 1
               },
               {
                 "id": "double-sided-walls-double-sided-half-side-walls",
                 "kind": "upgrade",
                 "title": "Double Sided Half Side Walls",
-                "hoverTitle": "Double Sided Half Side Walls",
+                "handle": "nw-addon-double-sided-walls-double-sided-half-side-walls",
+                "linkedMedusaProductId": "prod_01M2B68Q6PFQ8S9YWQFQYPG3FJ",
+                "linkedMedusaVariantId": "variant_01M2B68RMPE3NVVG74J9KKG2FG",
+                "sku": "NW-ADDON-DOUBLE-SIDED-WALLS-DOUBLE-SIDED-HALF-SIDE-WALLS",
                 "hoverDescription": "Double Sided Walls · (+ $150.00)",
                 "price": {
                   "surcharge": 150,
@@ -11012,16 +11223,16 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "metadata": {
-                  "sourceControlType": "select"
-                }
+                "step": 1
               },
               {
                 "id": "double-sided-walls-double-sided-15ft-back-wall-half-side-walls",
                 "kind": "upgrade",
                 "title": "Double Sided 15ft Back Wall & Half Side Walls",
-                "hoverTitle": "Double Sided 15ft Back Wall & Half Side Walls",
+                "handle": "nw-addon-double-sided-walls-double-sided-15ft-back-wall-half-side-walls",
+                "linkedMedusaProductId": "prod_01M2B66M6Z1KGGY1F1290RP0WZ",
+                "linkedMedusaVariantId": "variant_01M2B66NMD74HMDF7KVM32C9W9",
+                "sku": "NW-ADDON-DOUBLE-SIDED-WALLS-DOUBLE-SIDED-15FT-BACK-WALL-HALF-SIDE-WALLS",
                 "hoverDescription": "Double Sided Walls · (+ $150.00)",
                 "price": {
                   "surcharge": 150,
@@ -11029,10 +11240,7 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "metadata": {
-                  "sourceControlType": "select"
-                }
+                "step": 1
               }
             ]
           }
@@ -11111,8 +11319,9 @@ export const storefrontProducts = [
         "id": "accessories",
         "kind": "accessory",
         "title": "Accessories",
-        "selectionMode": "multiple",
         "displayStyle": "grid",
+        "selectionMode": "multiple",
+        "items": [],
         "subgroups": [
           {
             "id": "table-cover",
@@ -11123,7 +11332,11 @@ export const storefrontProducts = [
                 "id": "table-cover-6ft-stretch-table-cover",
                 "kind": "accessory",
                 "title": "6ft Stretch Table Cover",
-                "hoverTitle": "6ft Stretch Table Cover",
+                "handle": "nw-addon-table-cover-6ft-stretch-table-cover",
+                "linkedMedusaProductId": "prod_01M2B6CZFB8R9K6V16CJQY3FGB",
+                "linkedMedusaVariantId": "variant_01M2B6D10RBMY1PDV985E7ZJF3",
+                "sku": "NW-ADDON-TABLE-COVER-6FT-STRETCH-TABLE-COVER",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png",
                 "hoverDescription": "Table Cover · (+ $135.00)",
                 "price": {
                   "surcharge": 135,
@@ -11131,18 +11344,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "table-cover-6ft-fitted-table-cover",
                 "kind": "accessory",
                 "title": "6ft Fitted Table Cover",
-                "hoverTitle": "6ft Fitted Table Cover",
+                "handle": "nw-addon-table-cover-6ft-fitted-table-cover",
+                "linkedMedusaProductId": "prod_01M2B6CSQV9YTD2N0GS3TDV2TH",
+                "linkedMedusaVariantId": "variant_01M2B6CV9AGV99J7RFG5MXEWHP",
+                "sku": "NW-ADDON-TABLE-COVER-6FT-FITTED-TABLE-COVER",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png",
                 "hoverDescription": "Table Cover · (+ $145.00)",
                 "price": {
                   "surcharge": 145,
@@ -11150,18 +11362,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "table-cover-6ft-draped-table-cover",
                 "kind": "accessory",
                 "title": "6ft Draped Table Cover",
-                "hoverTitle": "6ft Draped Table Cover",
+                "handle": "nw-addon-table-cover-6ft-draped-table-cover",
+                "linkedMedusaProductId": "prod_01M2B6CM1XYJ9NMH6070S4XBYC",
+                "linkedMedusaVariantId": "variant_01M2B6CNKA71NEPEGQ9VEN4ADW",
+                "sku": "NW-ADDON-TABLE-COVER-6FT-DRAPED-TABLE-COVER",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp",
                 "hoverDescription": "Table Cover · (+ $145.00)",
                 "price": {
                   "surcharge": 145,
@@ -11169,12 +11380,7 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               }
             ]
           },
@@ -11187,7 +11393,11 @@ export const storefrontProducts = [
                 "id": "feather-flags-9ft-mounted-flag-w-mounting-kit",
                 "kind": "accessory",
                 "title": "9ft Mounted Flag w/ Mounting Kit",
-                "hoverTitle": "9ft Mounted Flag w/ Mounting Kit",
+                "handle": "nw-addon-feather-flags-9ft-mounted-flag-w-mounting-kit",
+                "linkedMedusaProductId": "prod_01M2B6B6Z6FAZT1F0RDNSCXHCT",
+                "linkedMedusaVariantId": "variant_01M2B6B8GNASC1MR5ABW9DWXZ3",
+                "sku": "NW-ADDON-FEATHER-FLAGS-9FT-MOUNTED-FLAG-W-MOUNTING-KIT",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png",
                 "hoverDescription": "Feather Flags · (+ $150.00)",
                 "price": {
                   "surcharge": 150,
@@ -11195,18 +11405,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "feather-flags-9ft-stand-alone-flag-w-cross-base",
                 "kind": "accessory",
                 "title": "9ft Stand Alone Flag w/ Cross Base",
-                "hoverTitle": "9ft Stand Alone Flag w/ Cross Base",
+                "handle": "nw-addon-feather-flags-9ft-stand-alone-flag-w-cross-base",
+                "linkedMedusaProductId": "prod_01M2B6BCNQB6MRYJZWGCREWM6F",
+                "linkedMedusaVariantId": "variant_01M2B6BE77P3XGQDED1QSFDC9Q",
+                "sku": "NW-ADDON-FEATHER-FLAGS-9FT-STAND-ALONE-FLAG-W-CROSS-BASE",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png",
                 "hoverDescription": "Feather Flags · (+ $140.00)",
                 "price": {
                   "surcharge": 140,
@@ -11214,18 +11423,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "feather-flags-12ft-stand-alone-flag-w-cross-base",
                 "kind": "accessory",
                 "title": "12ft Stand Alone Flag w/ Cross Base",
-                "hoverTitle": "12ft Stand Alone Flag w/ Cross Base",
+                "handle": "nw-addon-feather-flags-12ft-stand-alone-flag-w-cross-base",
+                "linkedMedusaProductId": "prod_01M2B6AVGZAPV1B8X7N3ZGD231",
+                "linkedMedusaVariantId": "variant_01M2B6AX2HVNMB86B8W9X9ZEGW",
+                "sku": "NW-ADDON-FEATHER-FLAGS-12FT-STAND-ALONE-FLAG-W-CROSS-BASE",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png",
                 "hoverDescription": "Feather Flags · (+ $150.00)",
                 "price": {
                   "surcharge": 150,
@@ -11233,18 +11441,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "feather-flags-15ft-stand-alone-flag-w-cross-base",
                 "kind": "accessory",
                 "title": "15ft Stand Alone Flag w/ Cross Base",
-                "hoverTitle": "15ft Stand Alone Flag w/ Cross Base",
+                "handle": "nw-addon-feather-flags-15ft-stand-alone-flag-w-cross-base",
+                "linkedMedusaProductId": "prod_01M2B6B18G8AN06FY87K9RMA7C",
+                "linkedMedusaVariantId": "variant_01M2B6B2T1S8QC5Q4K3PVJ69X7",
+                "sku": "NW-ADDON-FEATHER-FLAGS-15FT-STAND-ALONE-FLAG-W-CROSS-BASE",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png",
                 "hoverDescription": "Feather Flags · (+ $160.00)",
                 "price": {
                   "surcharge": 160,
@@ -11252,25 +11459,24 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               }
             ]
           },
           {
             "id": "essentials",
-            "title": "Essentials ",
+            "title": "Essentials",
             "selectionMode": "single",
             "items": [
               {
                 "id": "essentials-4-pc-set",
                 "kind": "accessory",
                 "title": "4 Pc Set",
-                "hoverTitle": "4 Pc Set",
+                "handle": "nw-addon-essentials-4-pc-set",
+                "linkedMedusaProductId": "prod_01M2B69S7GR1VKX3SJV4657H6Y",
+                "linkedMedusaVariantId": "variant_01M2B69TS1RYDYKPF5BFTNYGKQ",
+                "sku": "NW-ADDON-ESSENTIALS-4-PC-SET",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png",
                 "hoverDescription": "Essentials  · (+ $100.00)",
                 "price": {
                   "surcharge": 100,
@@ -11278,18 +11484,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "essentials-led-lights",
                 "kind": "accessory",
                 "title": "LED Lights",
-                "hoverTitle": "LED Lights",
+                "handle": "nw-addon-essentials-led-lights",
+                "linkedMedusaProductId": "prod_01M2B6AAC2TWGWM04HKTG92YTE",
+                "linkedMedusaVariantId": "variant_01M2B6ABXNGNMPZP2EGYFZEPYS",
+                "sku": "NW-ADDON-ESSENTIALS-LED-LIGHTS",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649559175731.jpg",
                 "hoverDescription": "Essentials  · (+ $219.00)",
                 "price": {
                   "surcharge": 219,
@@ -11297,12 +11502,7 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649552079707.jpg",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649552079707.jpg",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               }
             ]
           }
@@ -11312,8 +11512,9 @@ export const storefrontProducts = [
         "id": "upgrades",
         "kind": "upgrade",
         "title": "Upgrades",
-        "selectionMode": "single",
         "displayStyle": "grid",
+        "selectionMode": "single",
+        "items": [],
         "subgroups": [
           {
             "id": "double-sided-walls",
@@ -11324,7 +11525,10 @@ export const storefrontProducts = [
                 "id": "double-sided-walls-double-sided-15ft-back-wall",
                 "kind": "upgrade",
                 "title": "Double Sided 15ft Back Wall",
-                "hoverTitle": "Double Sided 15ft Back Wall",
+                "handle": "nw-addon-double-sided-walls-double-sided-15ft-back-wall",
+                "linkedMedusaProductId": "prod_01M2B66EKK6A3Z000YTFS500N6",
+                "linkedMedusaVariantId": "variant_01M2B66G16RJBE0BH4QBK352HP",
+                "sku": "NW-ADDON-DOUBLE-SIDED-WALLS-DOUBLE-SIDED-15FT-BACK-WALL",
                 "hoverDescription": "Double Sided Walls · (+ $130.00)",
                 "price": {
                   "surcharge": 130,
@@ -11332,16 +11536,16 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "metadata": {
-                  "sourceControlType": "select"
-                }
+                "step": 1
               },
               {
                 "id": "double-sided-walls-double-sided-full-side-wall",
                 "kind": "upgrade",
                 "title": "Double Sided Full Side Wall",
-                "hoverTitle": "Double Sided Full Side Wall",
+                "handle": "nw-addon-double-sided-walls-double-sided-full-side-wall",
+                "linkedMedusaProductId": "prod_01M2B68BZNEYK8NJJRZWPWXB5E",
+                "linkedMedusaVariantId": "variant_01M2B68DD1EGXC5A9ZYRWKFS64",
+                "sku": "NW-ADDON-DOUBLE-SIDED-WALLS-DOUBLE-SIDED-FULL-SIDE-WALL",
                 "hoverDescription": "Double Sided Walls · (+ $200.00)",
                 "price": {
                   "surcharge": 200,
@@ -11349,27 +11553,24 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "metadata": {
-                  "sourceControlType": "select"
-                }
+                "step": 1
               },
               {
                 "id": "double-sided-walls-double-sided-three-full-walls",
                 "kind": "upgrade",
                 "title": "Double Sided Three Full Walls",
-                "hoverTitle": "Double Sided Three Full Walls",
+                "handle": "nw-addon-double-sided-walls-double-sided-three-full-walls",
+                "linkedMedusaProductId": "prod_01M2B692CM3QXG50JZYBHQ9Z33",
+                "linkedMedusaVariantId": "variant_01M2B693T0D8V3PR6H7KZF2BKT",
+                "sku": "NW-ADDON-DOUBLE-SIDED-WALLS-DOUBLE-SIDED-THREE-FULL-WALLS",
                 "hoverDescription": "Double Sided Walls · (+ $330.00)",
                 "price": {
-                  "surcharge": 330,
-                  "label": "(+ $330.00)"
+                  "surcharge": 300,
+                  "label": "(+ $300.00)"
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "metadata": {
-                  "sourceControlType": "select"
-                }
+                "step": 1
               }
             ]
           }
@@ -11455,8 +11656,9 @@ export const storefrontProducts = [
         "id": "accessories",
         "kind": "accessory",
         "title": "Accessories",
-        "selectionMode": "multiple",
         "displayStyle": "grid",
+        "selectionMode": "multiple",
+        "items": [],
         "subgroups": [
           {
             "id": "table-cover",
@@ -11467,7 +11669,11 @@ export const storefrontProducts = [
                 "id": "table-cover-6ft-stretch-table-cover",
                 "kind": "accessory",
                 "title": "6ft Stretch Table Cover",
-                "hoverTitle": "6ft Stretch Table Cover",
+                "handle": "nw-addon-table-cover-6ft-stretch-table-cover",
+                "linkedMedusaProductId": "prod_01M2B6CZFB8R9K6V16CJQY3FGB",
+                "linkedMedusaVariantId": "variant_01M2B6D10RBMY1PDV985E7ZJF3",
+                "sku": "NW-ADDON-TABLE-COVER-6FT-STRETCH-TABLE-COVER",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png",
                 "hoverDescription": "Table Cover · (+ $135.00)",
                 "price": {
                   "surcharge": 135,
@@ -11475,18 +11681,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "table-cover-6ft-fitted-table-cover",
                 "kind": "accessory",
                 "title": "6ft Fitted Table Cover",
-                "hoverTitle": "6ft Fitted Table Cover",
+                "handle": "nw-addon-table-cover-6ft-fitted-table-cover",
+                "linkedMedusaProductId": "prod_01M2B6CSQV9YTD2N0GS3TDV2TH",
+                "linkedMedusaVariantId": "variant_01M2B6CV9AGV99J7RFG5MXEWHP",
+                "sku": "NW-ADDON-TABLE-COVER-6FT-FITTED-TABLE-COVER",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png",
                 "hoverDescription": "Table Cover · (+ $145.00)",
                 "price": {
                   "surcharge": 145,
@@ -11494,18 +11699,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "table-cover-6ft-draped-table-cover",
                 "kind": "accessory",
                 "title": "6ft Draped Table Cover",
-                "hoverTitle": "6ft Draped Table Cover",
+                "handle": "nw-addon-table-cover-6ft-draped-table-cover",
+                "linkedMedusaProductId": "prod_01M2B6CM1XYJ9NMH6070S4XBYC",
+                "linkedMedusaVariantId": "variant_01M2B6CNKA71NEPEGQ9VEN4ADW",
+                "sku": "NW-ADDON-TABLE-COVER-6FT-DRAPED-TABLE-COVER",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp",
                 "hoverDescription": "Table Cover · (+ $145.00)",
                 "price": {
                   "surcharge": 145,
@@ -11513,12 +11717,7 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               }
             ]
           },
@@ -11531,7 +11730,11 @@ export const storefrontProducts = [
                 "id": "feather-flags-9ft-mounted-flag-w-mounting-kit",
                 "kind": "accessory",
                 "title": "9ft Mounted Flag w/ Mounting Kit",
-                "hoverTitle": "9ft Mounted Flag w/ Mounting Kit",
+                "handle": "nw-addon-feather-flags-9ft-mounted-flag-w-mounting-kit",
+                "linkedMedusaProductId": "prod_01M2B6B6Z6FAZT1F0RDNSCXHCT",
+                "linkedMedusaVariantId": "variant_01M2B6B8GNASC1MR5ABW9DWXZ3",
+                "sku": "NW-ADDON-FEATHER-FLAGS-9FT-MOUNTED-FLAG-W-MOUNTING-KIT",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png",
                 "hoverDescription": "Feather Flags · (+ $150.00)",
                 "price": {
                   "surcharge": 150,
@@ -11539,18 +11742,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "feather-flags-9ft-stand-alone-flag-w-cross-base",
                 "kind": "accessory",
                 "title": "9ft Stand Alone Flag w/ Cross Base",
-                "hoverTitle": "9ft Stand Alone Flag w/ Cross Base",
+                "handle": "nw-addon-feather-flags-9ft-stand-alone-flag-w-cross-base",
+                "linkedMedusaProductId": "prod_01M2B6BCNQB6MRYJZWGCREWM6F",
+                "linkedMedusaVariantId": "variant_01M2B6BE77P3XGQDED1QSFDC9Q",
+                "sku": "NW-ADDON-FEATHER-FLAGS-9FT-STAND-ALONE-FLAG-W-CROSS-BASE",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png",
                 "hoverDescription": "Feather Flags · (+ $140.00)",
                 "price": {
                   "surcharge": 140,
@@ -11558,18 +11760,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "feather-flags-12ft-stand-alone-flag-w-cross-base",
                 "kind": "accessory",
                 "title": "12ft Stand Alone Flag w/ Cross Base",
-                "hoverTitle": "12ft Stand Alone Flag w/ Cross Base",
+                "handle": "nw-addon-feather-flags-12ft-stand-alone-flag-w-cross-base",
+                "linkedMedusaProductId": "prod_01M2B6AVGZAPV1B8X7N3ZGD231",
+                "linkedMedusaVariantId": "variant_01M2B6AX2HVNMB86B8W9X9ZEGW",
+                "sku": "NW-ADDON-FEATHER-FLAGS-12FT-STAND-ALONE-FLAG-W-CROSS-BASE",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png",
                 "hoverDescription": "Feather Flags · (+ $150.00)",
                 "price": {
                   "surcharge": 150,
@@ -11577,18 +11778,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "feather-flags-15ft-stand-alone-flag-w-cross-base",
                 "kind": "accessory",
                 "title": "15ft Stand Alone Flag w/ Cross Base",
-                "hoverTitle": "15ft Stand Alone Flag w/ Cross Base",
+                "handle": "nw-addon-feather-flags-15ft-stand-alone-flag-w-cross-base",
+                "linkedMedusaProductId": "prod_01M2B6B18G8AN06FY87K9RMA7C",
+                "linkedMedusaVariantId": "variant_01M2B6B2T1S8QC5Q4K3PVJ69X7",
+                "sku": "NW-ADDON-FEATHER-FLAGS-15FT-STAND-ALONE-FLAG-W-CROSS-BASE",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png",
                 "hoverDescription": "Feather Flags · (+ $160.00)",
                 "price": {
                   "surcharge": 160,
@@ -11596,25 +11796,24 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               }
             ]
           },
           {
             "id": "essentials",
-            "title": "Essentials ",
+            "title": "Essentials",
             "selectionMode": "single",
             "items": [
               {
                 "id": "essentials-6-pc-set",
                 "kind": "accessory",
                 "title": "6 Pc Set",
-                "hoverTitle": "6 Pc Set",
+                "handle": "nw-addon-essentials-6-pc-set",
+                "linkedMedusaProductId": "prod_01M2B69YYNTWHJWETF660CT3NE",
+                "linkedMedusaVariantId": "variant_01M2B6A0G60YCN5KWRH3PN0YGX",
+                "sku": "NW-ADDON-ESSENTIALS-6-PC-SET",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17622894256890.jpg",
                 "hoverDescription": "Essentials  · (+ $150.00)",
                 "price": {
                   "surcharge": 150,
@@ -11622,18 +11821,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17622022406433.jpg",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17622022406433.jpg",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "essentials-led-lights",
                 "kind": "accessory",
                 "title": "LED Lights",
-                "hoverTitle": "LED Lights",
+                "handle": "nw-addon-essentials-led-lights",
+                "linkedMedusaProductId": "prod_01M2B6AAC2TWGWM04HKTG92YTE",
+                "linkedMedusaVariantId": "variant_01M2B6ABXNGNMPZP2EGYFZEPYS",
+                "sku": "NW-ADDON-ESSENTIALS-LED-LIGHTS",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649559175731.jpg",
                 "hoverDescription": "Essentials  · (+ $219.00)",
                 "price": {
                   "surcharge": 219,
@@ -11641,12 +11839,7 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649553954571.jpg",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649553954571.jpg",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               }
             ]
           }
@@ -11656,8 +11849,9 @@ export const storefrontProducts = [
         "id": "upgrades",
         "kind": "upgrade",
         "title": "Upgrades",
-        "selectionMode": "single",
         "displayStyle": "grid",
+        "selectionMode": "single",
+        "items": [],
         "subgroups": [
           {
             "id": "double-sided-walls",
@@ -11668,18 +11862,18 @@ export const storefrontProducts = [
                 "id": "double-sided-walls-double-sided-back-wall",
                 "kind": "upgrade",
                 "title": "Double Sided Back Wall",
-                "hoverTitle": "Double Sided Back Wall",
+                "handle": "nw-addon-double-sided-walls-double-sided-back-wall",
+                "linkedMedusaProductId": "prod_01M2B686DG0C1SM0HPZ4V20CDJ",
+                "linkedMedusaVariantId": "variant_01M2B687TVC6EYYEXVT3NTTNX4",
+                "sku": "NW-ADDON-DOUBLE-SIDED-WALLS-DOUBLE-SIDED-BACK-WALL",
                 "hoverDescription": "Double Sided Walls · (+ $140.00)",
                 "price": {
-                  "surcharge": 140,
-                  "label": "(+ $140.00)"
+                  "surcharge": 100,
+                  "label": "(+ $100.00)"
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "metadata": {
-                  "sourceControlType": "select"
-                }
+                "step": 1
               }
             ]
           }
@@ -11762,8 +11956,9 @@ export const storefrontProducts = [
         "id": "accessories",
         "kind": "accessory",
         "title": "Accessories",
-        "selectionMode": "multiple",
         "displayStyle": "grid",
+        "selectionMode": "multiple",
+        "items": [],
         "subgroups": [
           {
             "id": "table-cover",
@@ -11774,7 +11969,11 @@ export const storefrontProducts = [
                 "id": "table-cover-6ft-stretch-table-cover",
                 "kind": "accessory",
                 "title": "6ft Stretch Table Cover",
-                "hoverTitle": "6ft Stretch Table Cover",
+                "handle": "nw-addon-table-cover-6ft-stretch-table-cover",
+                "linkedMedusaProductId": "prod_01M2B6CZFB8R9K6V16CJQY3FGB",
+                "linkedMedusaVariantId": "variant_01M2B6D10RBMY1PDV985E7ZJF3",
+                "sku": "NW-ADDON-TABLE-COVER-6FT-STRETCH-TABLE-COVER",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png",
                 "hoverDescription": "Table Cover · (+ $135.00)",
                 "price": {
                   "surcharge": 135,
@@ -11782,18 +11981,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "table-cover-6ft-fitted-table-cover",
                 "kind": "accessory",
                 "title": "6ft Fitted Table Cover",
-                "hoverTitle": "6ft Fitted Table Cover",
+                "handle": "nw-addon-table-cover-6ft-fitted-table-cover",
+                "linkedMedusaProductId": "prod_01M2B6CSQV9YTD2N0GS3TDV2TH",
+                "linkedMedusaVariantId": "variant_01M2B6CV9AGV99J7RFG5MXEWHP",
+                "sku": "NW-ADDON-TABLE-COVER-6FT-FITTED-TABLE-COVER",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png",
                 "hoverDescription": "Table Cover · (+ $145.00)",
                 "price": {
                   "surcharge": 145,
@@ -11801,18 +11999,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "table-cover-6ft-draped-table-cover",
                 "kind": "accessory",
                 "title": "6ft Draped Table Cover",
-                "hoverTitle": "6ft Draped Table Cover",
+                "handle": "nw-addon-table-cover-6ft-draped-table-cover",
+                "linkedMedusaProductId": "prod_01M2B6CM1XYJ9NMH6070S4XBYC",
+                "linkedMedusaVariantId": "variant_01M2B6CNKA71NEPEGQ9VEN4ADW",
+                "sku": "NW-ADDON-TABLE-COVER-6FT-DRAPED-TABLE-COVER",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp",
                 "hoverDescription": "Table Cover · (+ $145.00)",
                 "price": {
                   "surcharge": 145,
@@ -11820,12 +12017,7 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               }
             ]
           },
@@ -11838,7 +12030,11 @@ export const storefrontProducts = [
                 "id": "feather-flags-9ft-mounted-flag-w-mounting-kit",
                 "kind": "accessory",
                 "title": "9ft Mounted Flag w/ Mounting Kit",
-                "hoverTitle": "9ft Mounted Flag w/ Mounting Kit",
+                "handle": "nw-addon-feather-flags-9ft-mounted-flag-w-mounting-kit",
+                "linkedMedusaProductId": "prod_01M2B6B6Z6FAZT1F0RDNSCXHCT",
+                "linkedMedusaVariantId": "variant_01M2B6B8GNASC1MR5ABW9DWXZ3",
+                "sku": "NW-ADDON-FEATHER-FLAGS-9FT-MOUNTED-FLAG-W-MOUNTING-KIT",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png",
                 "hoverDescription": "Feather Flags · (+ $150.00)",
                 "price": {
                   "surcharge": 150,
@@ -11846,18 +12042,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "feather-flags-9ft-stand-alone-flag-w-cross-base",
                 "kind": "accessory",
                 "title": "9ft Stand Alone Flag w/ Cross Base",
-                "hoverTitle": "9ft Stand Alone Flag w/ Cross Base",
+                "handle": "nw-addon-feather-flags-9ft-stand-alone-flag-w-cross-base",
+                "linkedMedusaProductId": "prod_01M2B6BCNQB6MRYJZWGCREWM6F",
+                "linkedMedusaVariantId": "variant_01M2B6BE77P3XGQDED1QSFDC9Q",
+                "sku": "NW-ADDON-FEATHER-FLAGS-9FT-STAND-ALONE-FLAG-W-CROSS-BASE",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png",
                 "hoverDescription": "Feather Flags · (+ $140.00)",
                 "price": {
                   "surcharge": 140,
@@ -11865,18 +12060,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "feather-flags-12ft-stand-alone-flag-w-cross-base",
                 "kind": "accessory",
                 "title": "12ft Stand Alone Flag w/ Cross Base",
-                "hoverTitle": "12ft Stand Alone Flag w/ Cross Base",
+                "handle": "nw-addon-feather-flags-12ft-stand-alone-flag-w-cross-base",
+                "linkedMedusaProductId": "prod_01M2B6AVGZAPV1B8X7N3ZGD231",
+                "linkedMedusaVariantId": "variant_01M2B6AX2HVNMB86B8W9X9ZEGW",
+                "sku": "NW-ADDON-FEATHER-FLAGS-12FT-STAND-ALONE-FLAG-W-CROSS-BASE",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png",
                 "hoverDescription": "Feather Flags · (+ $150.00)",
                 "price": {
                   "surcharge": 150,
@@ -11884,18 +12078,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "feather-flags-15ft-stand-alone-flag-w-cross-base",
                 "kind": "accessory",
                 "title": "15ft Stand Alone Flag w/ Cross Base",
-                "hoverTitle": "15ft Stand Alone Flag w/ Cross Base",
+                "handle": "nw-addon-feather-flags-15ft-stand-alone-flag-w-cross-base",
+                "linkedMedusaProductId": "prod_01M2B6B18G8AN06FY87K9RMA7C",
+                "linkedMedusaVariantId": "variant_01M2B6B2T1S8QC5Q4K3PVJ69X7",
+                "sku": "NW-ADDON-FEATHER-FLAGS-15FT-STAND-ALONE-FLAG-W-CROSS-BASE",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png",
                 "hoverDescription": "Feather Flags · (+ $160.00)",
                 "price": {
                   "surcharge": 160,
@@ -11903,12 +12096,7 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               }
             ]
           },
@@ -11921,7 +12109,11 @@ export const storefrontProducts = [
                 "id": "essentials-6-pc-set",
                 "kind": "accessory",
                 "title": "6 Pc Set",
-                "hoverTitle": "6 Pc Set",
+                "handle": "nw-addon-essentials-6-pc-set",
+                "linkedMedusaProductId": "prod_01M2B69YYNTWHJWETF660CT3NE",
+                "linkedMedusaVariantId": "variant_01M2B6A0G60YCN5KWRH3PN0YGX",
+                "sku": "NW-ADDON-ESSENTIALS-6-PC-SET",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17622894256890.jpg",
                 "hoverDescription": "Essentials · (+ $150.00)",
                 "price": {
                   "surcharge": 150,
@@ -11929,18 +12121,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17622021081905.jpg",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17622021081905.jpg",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "essentials-led-lights",
                 "kind": "accessory",
                 "title": "LED Lights",
-                "hoverTitle": "LED Lights",
+                "handle": "nw-addon-essentials-led-lights",
+                "linkedMedusaProductId": "prod_01M2B6AAC2TWGWM04HKTG92YTE",
+                "linkedMedusaVariantId": "variant_01M2B6ABXNGNMPZP2EGYFZEPYS",
+                "sku": "NW-ADDON-ESSENTIALS-LED-LIGHTS",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649559175731.jpg",
                 "hoverDescription": "Essentials · (+ $219.00)",
                 "price": {
                   "surcharge": 219,
@@ -11948,12 +12139,7 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649557284946.jpg",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649557284946.jpg",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               }
             ]
           }
@@ -11963,8 +12149,9 @@ export const storefrontProducts = [
         "id": "upgrades",
         "kind": "upgrade",
         "title": "Upgrades",
-        "selectionMode": "single",
         "displayStyle": "grid",
+        "selectionMode": "single",
+        "items": [],
         "subgroups": [
           {
             "id": "double-sided-walls",
@@ -11975,7 +12162,10 @@ export const storefrontProducts = [
                 "id": "double-sided-walls-double-sided-20ft-back-wall",
                 "kind": "upgrade",
                 "title": "Double Sided 20ft Back Wall",
-                "hoverTitle": "Double Sided 20ft Back Wall",
+                "handle": "nw-addon-double-sided-walls-double-sided-20ft-back-wall",
+                "linkedMedusaProductId": "prod_01M2B66ST836DG87KD9Y2M6CPD",
+                "linkedMedusaVariantId": "variant_01M2B66V7KN9XAN60T38AA79MW",
+                "sku": "NW-ADDON-DOUBLE-SIDED-WALLS-DOUBLE-SIDED-20FT-BACK-WALL",
                 "hoverDescription": "Double Sided Walls · (+ $140.00)",
                 "price": {
                   "surcharge": 140,
@@ -11983,16 +12173,16 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "metadata": {
-                  "sourceControlType": "select"
-                }
+                "step": 1
               },
               {
                 "id": "double-sided-walls-double-sided-half-side-walls",
                 "kind": "upgrade",
                 "title": "Double Sided Half Side Walls",
-                "hoverTitle": "Double Sided Half Side Walls",
+                "handle": "nw-addon-double-sided-walls-double-sided-half-side-walls",
+                "linkedMedusaProductId": "prod_01M2B68Q6PFQ8S9YWQFQYPG3FJ",
+                "linkedMedusaVariantId": "variant_01M2B68RMPE3NVVG74J9KKG2FG",
+                "sku": "NW-ADDON-DOUBLE-SIDED-WALLS-DOUBLE-SIDED-HALF-SIDE-WALLS",
                 "hoverDescription": "Double Sided Walls · (+ $150.00)",
                 "price": {
                   "surcharge": 150,
@@ -12000,16 +12190,16 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "metadata": {
-                  "sourceControlType": "select"
-                }
+                "step": 1
               },
               {
                 "id": "double-sided-walls-double-sided-20ft-back-wall-half-side-walls",
                 "kind": "upgrade",
                 "title": "Double Sided 20ft Back Wall & Half Side Walls",
-                "hoverTitle": "Double Sided 20ft Back Wall & Half Side Walls",
+                "handle": "nw-addon-double-sided-walls-double-sided-20ft-back-wall-half-side-walls",
+                "linkedMedusaProductId": "prod_01M2B66ZD9GK0B6RRC8V9ANKPZ",
+                "linkedMedusaVariantId": "variant_01M2B670TK7B3E8TCFPSCV2ZY6",
+                "sku": "NW-ADDON-DOUBLE-SIDED-WALLS-DOUBLE-SIDED-20FT-BACK-WALL-HALF-SIDE-WALLS",
                 "hoverDescription": "Double Sided Walls · (+ $290.00)",
                 "price": {
                   "surcharge": 290,
@@ -12017,10 +12207,7 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "metadata": {
-                  "sourceControlType": "select"
-                }
+                "step": 1
               }
             ]
           }
@@ -12105,8 +12292,9 @@ export const storefrontProducts = [
         "id": "accessories",
         "kind": "accessory",
         "title": "Accessories",
-        "selectionMode": "multiple",
         "displayStyle": "grid",
+        "selectionMode": "multiple",
+        "items": [],
         "subgroups": [
           {
             "id": "table-cover",
@@ -12117,7 +12305,11 @@ export const storefrontProducts = [
                 "id": "table-cover-6ft-stretch-table-cover",
                 "kind": "accessory",
                 "title": "6ft Stretch Table Cover",
-                "hoverTitle": "6ft Stretch Table Cover",
+                "handle": "nw-addon-table-cover-6ft-stretch-table-cover",
+                "linkedMedusaProductId": "prod_01M2B6CZFB8R9K6V16CJQY3FGB",
+                "linkedMedusaVariantId": "variant_01M2B6D10RBMY1PDV985E7ZJF3",
+                "sku": "NW-ADDON-TABLE-COVER-6FT-STRETCH-TABLE-COVER",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png",
                 "hoverDescription": "Table Cover · (+ $135.00)",
                 "price": {
                   "surcharge": 135,
@@ -12125,18 +12317,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "table-cover-6ft-fitted-table-cover",
                 "kind": "accessory",
                 "title": "6ft Fitted Table Cover",
-                "hoverTitle": "6ft Fitted Table Cover",
+                "handle": "nw-addon-table-cover-6ft-fitted-table-cover",
+                "linkedMedusaProductId": "prod_01M2B6CSQV9YTD2N0GS3TDV2TH",
+                "linkedMedusaVariantId": "variant_01M2B6CV9AGV99J7RFG5MXEWHP",
+                "sku": "NW-ADDON-TABLE-COVER-6FT-FITTED-TABLE-COVER",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png",
                 "hoverDescription": "Table Cover · (+ $145.00)",
                 "price": {
                   "surcharge": 145,
@@ -12144,18 +12335,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "table-cover-6ft-draped-table-cover",
                 "kind": "accessory",
                 "title": "6ft Draped Table Cover",
-                "hoverTitle": "6ft Draped Table Cover",
+                "handle": "nw-addon-table-cover-6ft-draped-table-cover",
+                "linkedMedusaProductId": "prod_01M2B6CM1XYJ9NMH6070S4XBYC",
+                "linkedMedusaVariantId": "variant_01M2B6CNKA71NEPEGQ9VEN4ADW",
+                "sku": "NW-ADDON-TABLE-COVER-6FT-DRAPED-TABLE-COVER",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp",
                 "hoverDescription": "Table Cover · (+ $145.00)",
                 "price": {
                   "surcharge": 145,
@@ -12163,12 +12353,7 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               }
             ]
           },
@@ -12181,7 +12366,11 @@ export const storefrontProducts = [
                 "id": "feather-flags-9ft-mounted-flag-w-mounting-kit",
                 "kind": "accessory",
                 "title": "9ft Mounted Flag w/ Mounting Kit",
-                "hoverTitle": "9ft Mounted Flag w/ Mounting Kit",
+                "handle": "nw-addon-feather-flags-9ft-mounted-flag-w-mounting-kit",
+                "linkedMedusaProductId": "prod_01M2B6B6Z6FAZT1F0RDNSCXHCT",
+                "linkedMedusaVariantId": "variant_01M2B6B8GNASC1MR5ABW9DWXZ3",
+                "sku": "NW-ADDON-FEATHER-FLAGS-9FT-MOUNTED-FLAG-W-MOUNTING-KIT",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png",
                 "hoverDescription": "Feather Flags · (+ $150.00)",
                 "price": {
                   "surcharge": 150,
@@ -12189,18 +12378,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "feather-flags-9ft-stand-alone-flag-w-cross-base",
                 "kind": "accessory",
                 "title": "9ft Stand Alone Flag w/ Cross Base",
-                "hoverTitle": "9ft Stand Alone Flag w/ Cross Base",
+                "handle": "nw-addon-feather-flags-9ft-stand-alone-flag-w-cross-base",
+                "linkedMedusaProductId": "prod_01M2B6BCNQB6MRYJZWGCREWM6F",
+                "linkedMedusaVariantId": "variant_01M2B6BE77P3XGQDED1QSFDC9Q",
+                "sku": "NW-ADDON-FEATHER-FLAGS-9FT-STAND-ALONE-FLAG-W-CROSS-BASE",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png",
                 "hoverDescription": "Feather Flags · (+ $140.00)",
                 "price": {
                   "surcharge": 140,
@@ -12208,18 +12396,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "feather-flags-12ft-stand-alone-flag-w-cross-base",
                 "kind": "accessory",
                 "title": "12ft Stand Alone Flag w/ Cross Base",
-                "hoverTitle": "12ft Stand Alone Flag w/ Cross Base",
+                "handle": "nw-addon-feather-flags-12ft-stand-alone-flag-w-cross-base",
+                "linkedMedusaProductId": "prod_01M2B6AVGZAPV1B8X7N3ZGD231",
+                "linkedMedusaVariantId": "variant_01M2B6AX2HVNMB86B8W9X9ZEGW",
+                "sku": "NW-ADDON-FEATHER-FLAGS-12FT-STAND-ALONE-FLAG-W-CROSS-BASE",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png",
                 "hoverDescription": "Feather Flags · (+ $150.00)",
                 "price": {
                   "surcharge": 150,
@@ -12227,18 +12414,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "feather-flags-15ft-stand-alone-flag-w-cross-base",
                 "kind": "accessory",
                 "title": "15ft Stand Alone Flag w/ Cross Base",
-                "hoverTitle": "15ft Stand Alone Flag w/ Cross Base",
+                "handle": "nw-addon-feather-flags-15ft-stand-alone-flag-w-cross-base",
+                "linkedMedusaProductId": "prod_01M2B6B18G8AN06FY87K9RMA7C",
+                "linkedMedusaVariantId": "variant_01M2B6B2T1S8QC5Q4K3PVJ69X7",
+                "sku": "NW-ADDON-FEATHER-FLAGS-15FT-STAND-ALONE-FLAG-W-CROSS-BASE",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png",
                 "hoverDescription": "Feather Flags · (+ $160.00)",
                 "price": {
                   "surcharge": 160,
@@ -12246,25 +12432,24 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               }
             ]
           },
           {
             "id": "essentials",
-            "title": "Essentials ",
+            "title": "Essentials",
             "selectionMode": "single",
             "items": [
               {
                 "id": "essentials-6-pc-set",
                 "kind": "accessory",
                 "title": "6 Pc Set",
-                "hoverTitle": "6 Pc Set",
+                "handle": "nw-addon-essentials-6-pc-set",
+                "linkedMedusaProductId": "prod_01M2B69YYNTWHJWETF660CT3NE",
+                "linkedMedusaVariantId": "variant_01M2B6A0G60YCN5KWRH3PN0YGX",
+                "sku": "NW-ADDON-ESSENTIALS-6-PC-SET",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17622894256890.jpg",
                 "hoverDescription": "Essentials  · (+ $150.00)",
                 "price": {
                   "surcharge": 150,
@@ -12272,18 +12457,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17622019768541.jpg",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17622019768541.jpg",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "essentials-led-lights",
                 "kind": "accessory",
-                "title": "LED LIghts",
-                "hoverTitle": "LED LIghts",
+                "title": "LED Lights",
+                "handle": "nw-addon-essentials-led-lights",
+                "linkedMedusaProductId": "prod_01M2B6AAC2TWGWM04HKTG92YTE",
+                "linkedMedusaVariantId": "variant_01M2B6ABXNGNMPZP2EGYFZEPYS",
+                "sku": "NW-ADDON-ESSENTIALS-LED-LIGHTS",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649559175731.jpg",
                 "hoverDescription": "Essentials  · (+ $219.00)",
                 "price": {
                   "surcharge": 219,
@@ -12291,12 +12475,7 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649557504046.jpg",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649557504046.jpg",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               }
             ]
           }
@@ -12306,8 +12485,9 @@ export const storefrontProducts = [
         "id": "upgrades",
         "kind": "upgrade",
         "title": "Upgrades",
-        "selectionMode": "single",
         "displayStyle": "grid",
+        "selectionMode": "single",
+        "items": [],
         "subgroups": [
           {
             "id": "double-sided-walls",
@@ -12318,7 +12498,10 @@ export const storefrontProducts = [
                 "id": "double-sided-walls-double-sided-20ft-back-wall",
                 "kind": "upgrade",
                 "title": "Double Sided 20ft Back Wall",
-                "hoverTitle": "Double Sided 20ft Back Wall",
+                "handle": "nw-addon-double-sided-walls-double-sided-20ft-back-wall",
+                "linkedMedusaProductId": "prod_01M2B66ST836DG87KD9Y2M6CPD",
+                "linkedMedusaVariantId": "variant_01M2B66V7KN9XAN60T38AA79MW",
+                "sku": "NW-ADDON-DOUBLE-SIDED-WALLS-DOUBLE-SIDED-20FT-BACK-WALL",
                 "hoverDescription": "Double Sided Walls · (+ $140.00)",
                 "price": {
                   "surcharge": 140,
@@ -12326,16 +12509,16 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "metadata": {
-                  "sourceControlType": "select"
-                }
+                "step": 1
               },
               {
                 "id": "double-sided-walls-double-sided-side-walls",
                 "kind": "upgrade",
                 "title": "Double Sided Side Walls",
-                "hoverTitle": "Double Sided Side Walls",
+                "handle": "nw-addon-double-sided-walls-double-sided-side-walls",
+                "linkedMedusaProductId": "prod_01M2B68WSCSX90MXM74K396CGS",
+                "linkedMedusaVariantId": "variant_01M2B68Y71DMR23M62R54931P6",
+                "sku": "NW-ADDON-DOUBLE-SIDED-WALLS-DOUBLE-SIDED-SIDE-WALLS",
                 "hoverDescription": "Double Sided Walls · (+ $200.00)",
                 "price": {
                   "surcharge": 200,
@@ -12343,27 +12526,24 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "metadata": {
-                  "sourceControlType": "select"
-                }
+                "step": 1
               },
               {
                 "id": "double-sided-walls-double-sided-three-full-walls",
                 "kind": "upgrade",
                 "title": "Double Sided Three Full Walls",
-                "hoverTitle": "Double Sided Three Full Walls",
+                "handle": "nw-addon-double-sided-walls-double-sided-three-full-walls",
+                "linkedMedusaProductId": "prod_01M2B692CM3QXG50JZYBHQ9Z33",
+                "linkedMedusaVariantId": "variant_01M2B693T0D8V3PR6H7KZF2BKT",
+                "sku": "NW-ADDON-DOUBLE-SIDED-WALLS-DOUBLE-SIDED-THREE-FULL-WALLS",
                 "hoverDescription": "Double Sided Walls · (+ $340.00)",
                 "price": {
-                  "surcharge": 340,
-                  "label": "(+ $340.00)"
+                  "surcharge": 300,
+                  "label": "(+ $300.00)"
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "metadata": {
-                  "sourceControlType": "select"
-                }
+                "step": 1
               }
             ]
           }
@@ -12430,8 +12610,9 @@ export const storefrontProducts = [
         "id": "accessories",
         "kind": "accessory",
         "title": "Accessories",
-        "selectionMode": "multiple",
         "displayStyle": "grid",
+        "selectionMode": "multiple",
+        "items": [],
         "subgroups": [
           {
             "id": "table-cover",
@@ -12442,7 +12623,11 @@ export const storefrontProducts = [
                 "id": "table-cover-6ft-stretch-table-cover",
                 "kind": "accessory",
                 "title": "6ft Stretch Table Cover",
-                "hoverTitle": "6ft Stretch Table Cover",
+                "handle": "nw-addon-table-cover-6ft-stretch-table-cover",
+                "linkedMedusaProductId": "prod_01M2B6CZFB8R9K6V16CJQY3FGB",
+                "linkedMedusaVariantId": "variant_01M2B6D10RBMY1PDV985E7ZJF3",
+                "sku": "NW-ADDON-TABLE-COVER-6FT-STRETCH-TABLE-COVER",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png",
                 "hoverDescription": "Table Cover · (+ $135.00)",
                 "price": {
                   "surcharge": 135,
@@ -12450,18 +12635,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "table-cover-6ft-fitted-table-cover",
                 "kind": "accessory",
                 "title": "6ft Fitted Table Cover",
-                "hoverTitle": "6ft Fitted Table Cover",
+                "handle": "nw-addon-table-cover-6ft-fitted-table-cover",
+                "linkedMedusaProductId": "prod_01M2B6CSQV9YTD2N0GS3TDV2TH",
+                "linkedMedusaVariantId": "variant_01M2B6CV9AGV99J7RFG5MXEWHP",
+                "sku": "NW-ADDON-TABLE-COVER-6FT-FITTED-TABLE-COVER",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png",
                 "hoverDescription": "Table Cover · (+ $145.00)",
                 "price": {
                   "surcharge": 145,
@@ -12469,18 +12653,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "table-cover-6ft-draped-table-cover",
                 "kind": "accessory",
                 "title": "6ft Draped Table Cover",
-                "hoverTitle": "6ft Draped Table Cover",
+                "handle": "nw-addon-table-cover-6ft-draped-table-cover",
+                "linkedMedusaProductId": "prod_01M2B6CM1XYJ9NMH6070S4XBYC",
+                "linkedMedusaVariantId": "variant_01M2B6CNKA71NEPEGQ9VEN4ADW",
+                "sku": "NW-ADDON-TABLE-COVER-6FT-DRAPED-TABLE-COVER",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp",
                 "hoverDescription": "Table Cover · (+ $145.00)",
                 "price": {
                   "surcharge": 145,
@@ -12488,12 +12671,7 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               }
             ]
           },
@@ -12506,7 +12684,11 @@ export const storefrontProducts = [
                 "id": "feather-flags-9ft-mounted-flag-w-mounting-kit",
                 "kind": "accessory",
                 "title": "9ft Mounted Flag w/ Mounting Kit",
-                "hoverTitle": "9ft Mounted Flag w/ Mounting Kit",
+                "handle": "nw-addon-feather-flags-9ft-mounted-flag-w-mounting-kit",
+                "linkedMedusaProductId": "prod_01M2B6B6Z6FAZT1F0RDNSCXHCT",
+                "linkedMedusaVariantId": "variant_01M2B6B8GNASC1MR5ABW9DWXZ3",
+                "sku": "NW-ADDON-FEATHER-FLAGS-9FT-MOUNTED-FLAG-W-MOUNTING-KIT",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png",
                 "hoverDescription": "Feather Flags · (+ $150.00)",
                 "price": {
                   "surcharge": 150,
@@ -12514,18 +12696,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "feather-flags-9ft-stand-alone-flag-w-cross-base",
                 "kind": "accessory",
                 "title": "9ft Stand Alone Flag w/ Cross Base",
-                "hoverTitle": "9ft Stand Alone Flag w/ Cross Base",
+                "handle": "nw-addon-feather-flags-9ft-stand-alone-flag-w-cross-base",
+                "linkedMedusaProductId": "prod_01M2B6BCNQB6MRYJZWGCREWM6F",
+                "linkedMedusaVariantId": "variant_01M2B6BE77P3XGQDED1QSFDC9Q",
+                "sku": "NW-ADDON-FEATHER-FLAGS-9FT-STAND-ALONE-FLAG-W-CROSS-BASE",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png",
                 "hoverDescription": "Feather Flags · (+ $140.00)",
                 "price": {
                   "surcharge": 140,
@@ -12533,18 +12714,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "feather-flags-12ft-stand-alone-flag-w-cross-base",
                 "kind": "accessory",
                 "title": "12ft Stand Alone Flag w/ Cross Base",
-                "hoverTitle": "12ft Stand Alone Flag w/ Cross Base",
+                "handle": "nw-addon-feather-flags-12ft-stand-alone-flag-w-cross-base",
+                "linkedMedusaProductId": "prod_01M2B6AVGZAPV1B8X7N3ZGD231",
+                "linkedMedusaVariantId": "variant_01M2B6AX2HVNMB86B8W9X9ZEGW",
+                "sku": "NW-ADDON-FEATHER-FLAGS-12FT-STAND-ALONE-FLAG-W-CROSS-BASE",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png",
                 "hoverDescription": "Feather Flags · (+ $150.00)",
                 "price": {
                   "surcharge": 150,
@@ -12552,18 +12732,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "feather-flags-15ft-stand-alone-flag-w-cross-base",
                 "kind": "accessory",
                 "title": "15ft Stand Alone Flag w/ Cross Base",
-                "hoverTitle": "15ft Stand Alone Flag w/ Cross Base",
+                "handle": "nw-addon-feather-flags-15ft-stand-alone-flag-w-cross-base",
+                "linkedMedusaProductId": "prod_01M2B6B18G8AN06FY87K9RMA7C",
+                "linkedMedusaVariantId": "variant_01M2B6B2T1S8QC5Q4K3PVJ69X7",
+                "sku": "NW-ADDON-FEATHER-FLAGS-15FT-STAND-ALONE-FLAG-W-CROSS-BASE",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png",
                 "hoverDescription": "Feather Flags · (+ $160.00)",
                 "price": {
                   "surcharge": 160,
@@ -12571,25 +12750,24 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               }
             ]
           },
           {
             "id": "essentials",
-            "title": "Essentials ",
+            "title": "Essentials",
             "selectionMode": "single",
             "items": [
               {
                 "id": "essentials-6-pc-set",
                 "kind": "accessory",
                 "title": "6 Pc Set",
-                "hoverTitle": "6 Pc Set",
+                "handle": "nw-addon-essentials-6-pc-set",
+                "linkedMedusaProductId": "prod_01M2B69YYNTWHJWETF660CT3NE",
+                "linkedMedusaVariantId": "variant_01M2B6A0G60YCN5KWRH3PN0YGX",
+                "sku": "NW-ADDON-ESSENTIALS-6-PC-SET",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17622894256890.jpg",
                 "hoverDescription": "Essentials  · (+ $150.00)",
                 "price": {
                   "surcharge": 150,
@@ -12597,18 +12775,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17622023528518.jpg",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17622023528518.jpg",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "essentials-led-lights",
                 "kind": "accessory",
                 "title": "LED Lights",
-                "hoverTitle": "LED Lights",
+                "handle": "nw-addon-essentials-led-lights",
+                "linkedMedusaProductId": "prod_01M2B6AAC2TWGWM04HKTG92YTE",
+                "linkedMedusaVariantId": "variant_01M2B6ABXNGNMPZP2EGYFZEPYS",
+                "sku": "NW-ADDON-ESSENTIALS-LED-LIGHTS",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649559175731.jpg",
                 "hoverDescription": "Essentials  · (+ $219.00)",
                 "price": {
                   "surcharge": 219,
@@ -12616,12 +12793,7 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649555127976.jpg",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649555127976.jpg",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               }
             ]
           }
@@ -12631,8 +12803,9 @@ export const storefrontProducts = [
         "id": "upgrades",
         "kind": "upgrade",
         "title": "Upgrades",
-        "selectionMode": "multiple",
         "displayStyle": "grid",
+        "selectionMode": "multiple",
+        "items": [],
         "subgroups": [
           {
             "id": "walls",
@@ -12643,7 +12816,11 @@ export const storefrontProducts = [
                 "id": "walls-20ft-back-wall",
                 "kind": "upgrade",
                 "title": "20ft Back Wall",
-                "hoverTitle": "20ft Back Wall",
+                "handle": "nw-addon-walls-20ft-back-wall",
+                "linkedMedusaProductId": "prod_01M2B6E7J4FGZ7F5D88EGZ0RBM",
+                "linkedMedusaVariantId": "variant_01M2B6E93JQNQQFP0V3S3GNJG5",
+                "sku": "NW-ADDON-WALLS-20FT-BACK-WALL",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616360743952.jpg",
                 "hoverDescription": "Walls · (+ $255.00)",
                 "price": {
                   "surcharge": 255,
@@ -12651,18 +12828,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616360743952.jpg",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616360743952.jpg",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "walls-20ft-back-wall-half-side-walls",
                 "kind": "upgrade",
                 "title": "20ft Back Wall & Half Side Walls",
-                "hoverTitle": "20ft Back Wall & Half Side Walls",
+                "handle": "nw-addon-walls-20ft-back-wall-half-side-walls",
+                "linkedMedusaProductId": "prod_01M2B6ED8H4H18B9XWXTMCZYPR",
+                "linkedMedusaVariantId": "variant_01M2B6EET95PMM31FD2K3AZHBR",
+                "sku": "NW-ADDON-WALLS-20FT-BACK-WALL-HALF-SIDE-WALLS",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616360803119.jpg",
                 "hoverDescription": "Walls · (+ $520.00)",
                 "price": {
                   "surcharge": 520,
@@ -12670,18 +12846,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616360803119.jpg",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616360803119.jpg",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "walls-20ft-three-full-walls",
                 "kind": "upgrade",
                 "title": "20ft Three Full Walls",
-                "hoverTitle": "20ft Three Full Walls",
+                "handle": "nw-addon-walls-20ft-three-full-walls",
+                "linkedMedusaProductId": "prod_01M2B6EK0C52J9TVF50M1YXXGD",
+                "linkedMedusaVariantId": "variant_01M2B6EMHWWFBEB1C3EN5PG8NN",
+                "sku": "NW-ADDON-WALLS-20FT-THREE-FULL-WALLS",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616360875845.jpg",
                 "hoverDescription": "Walls · (+ $455.00)",
                 "price": {
                   "surcharge": 455,
@@ -12689,12 +12864,7 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616360875845.jpg",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616360875845.jpg",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               }
             ]
           }
@@ -12777,8 +12947,9 @@ export const storefrontProducts = [
         "id": "accessories",
         "kind": "accessory",
         "title": "Accessories",
-        "selectionMode": "multiple",
         "displayStyle": "grid",
+        "selectionMode": "multiple",
+        "items": [],
         "subgroups": [
           {
             "id": "table-cover",
@@ -12789,7 +12960,11 @@ export const storefrontProducts = [
                 "id": "table-cover-6ft-stretch-table-cover",
                 "kind": "accessory",
                 "title": "6ft Stretch Table Cover",
-                "hoverTitle": "6ft Stretch Table Cover",
+                "handle": "nw-addon-table-cover-6ft-stretch-table-cover",
+                "linkedMedusaProductId": "prod_01M2B6CZFB8R9K6V16CJQY3FGB",
+                "linkedMedusaVariantId": "variant_01M2B6D10RBMY1PDV985E7ZJF3",
+                "sku": "NW-ADDON-TABLE-COVER-6FT-STRETCH-TABLE-COVER",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png",
                 "hoverDescription": "Table Cover · (+ $135.00)",
                 "price": {
                   "surcharge": 135,
@@ -12797,18 +12972,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "table-cover-6ft-fitted-table-cover",
                 "kind": "accessory",
                 "title": "6ft Fitted Table Cover",
-                "hoverTitle": "6ft Fitted Table Cover",
+                "handle": "nw-addon-table-cover-6ft-fitted-table-cover",
+                "linkedMedusaProductId": "prod_01M2B6CSQV9YTD2N0GS3TDV2TH",
+                "linkedMedusaVariantId": "variant_01M2B6CV9AGV99J7RFG5MXEWHP",
+                "sku": "NW-ADDON-TABLE-COVER-6FT-FITTED-TABLE-COVER",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png",
                 "hoverDescription": "Table Cover · (+ $145.00)",
                 "price": {
                   "surcharge": 145,
@@ -12816,18 +12990,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "table-cover-6ft-draped-table-cover",
                 "kind": "accessory",
                 "title": "6ft Draped Table Cover",
-                "hoverTitle": "6ft Draped Table Cover",
+                "handle": "nw-addon-table-cover-6ft-draped-table-cover",
+                "linkedMedusaProductId": "prod_01M2B6CM1XYJ9NMH6070S4XBYC",
+                "linkedMedusaVariantId": "variant_01M2B6CNKA71NEPEGQ9VEN4ADW",
+                "sku": "NW-ADDON-TABLE-COVER-6FT-DRAPED-TABLE-COVER",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp",
                 "hoverDescription": "Table Cover · (+ $145.00)",
                 "price": {
                   "surcharge": 145,
@@ -12835,12 +13008,7 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               }
             ]
           },
@@ -12853,7 +13021,11 @@ export const storefrontProducts = [
                 "id": "feather-flags-9ft-mounted-flag-w-mounting-kit",
                 "kind": "accessory",
                 "title": "9ft Mounted Flag w/ Mounting Kit",
-                "hoverTitle": "9ft Mounted Flag w/ Mounting Kit",
+                "handle": "nw-addon-feather-flags-9ft-mounted-flag-w-mounting-kit",
+                "linkedMedusaProductId": "prod_01M2B6B6Z6FAZT1F0RDNSCXHCT",
+                "linkedMedusaVariantId": "variant_01M2B6B8GNASC1MR5ABW9DWXZ3",
+                "sku": "NW-ADDON-FEATHER-FLAGS-9FT-MOUNTED-FLAG-W-MOUNTING-KIT",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png",
                 "hoverDescription": "Feather Flags · (+ $150.00)",
                 "price": {
                   "surcharge": 150,
@@ -12861,18 +13033,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "feather-flags-9ft-stand-alone-flag-w-cross-base",
                 "kind": "accessory",
                 "title": "9ft Stand Alone Flag w/ Cross Base",
-                "hoverTitle": "9ft Stand Alone Flag w/ Cross Base",
+                "handle": "nw-addon-feather-flags-9ft-stand-alone-flag-w-cross-base",
+                "linkedMedusaProductId": "prod_01M2B6BCNQB6MRYJZWGCREWM6F",
+                "linkedMedusaVariantId": "variant_01M2B6BE77P3XGQDED1QSFDC9Q",
+                "sku": "NW-ADDON-FEATHER-FLAGS-9FT-STAND-ALONE-FLAG-W-CROSS-BASE",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png",
                 "hoverDescription": "Feather Flags · (+ $140.00)",
                 "price": {
                   "surcharge": 140,
@@ -12880,18 +13051,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "feather-flags-12ft-stand-alone-flag-w-cross-base",
                 "kind": "accessory",
                 "title": "12ft Stand Alone Flag w/ Cross Base",
-                "hoverTitle": "12ft Stand Alone Flag w/ Cross Base",
+                "handle": "nw-addon-feather-flags-12ft-stand-alone-flag-w-cross-base",
+                "linkedMedusaProductId": "prod_01M2B6AVGZAPV1B8X7N3ZGD231",
+                "linkedMedusaVariantId": "variant_01M2B6AX2HVNMB86B8W9X9ZEGW",
+                "sku": "NW-ADDON-FEATHER-FLAGS-12FT-STAND-ALONE-FLAG-W-CROSS-BASE",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png",
                 "hoverDescription": "Feather Flags · (+ $150.00)",
                 "price": {
                   "surcharge": 150,
@@ -12899,18 +13069,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "feather-flags-15ft-stand-alone-flag-w-cross-base",
                 "kind": "accessory",
                 "title": "15ft Stand Alone Flag w/ Cross Base",
-                "hoverTitle": "15ft Stand Alone Flag w/ Cross Base",
+                "handle": "nw-addon-feather-flags-15ft-stand-alone-flag-w-cross-base",
+                "linkedMedusaProductId": "prod_01M2B6B18G8AN06FY87K9RMA7C",
+                "linkedMedusaVariantId": "variant_01M2B6B2T1S8QC5Q4K3PVJ69X7",
+                "sku": "NW-ADDON-FEATHER-FLAGS-15FT-STAND-ALONE-FLAG-W-CROSS-BASE",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png",
                 "hoverDescription": "Feather Flags · (+ $160.00)",
                 "price": {
                   "surcharge": 160,
@@ -12918,25 +13087,24 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               }
             ]
           },
           {
             "id": "essentials",
-            "title": "Essentials ",
+            "title": "Essentials",
             "selectionMode": "single",
             "items": [
               {
                 "id": "essentials-4-pc-set",
                 "kind": "accessory",
                 "title": "4 Pc Set",
-                "hoverTitle": "4 Pc Set",
+                "handle": "nw-addon-essentials-4-pc-set",
+                "linkedMedusaProductId": "prod_01M2B69S7GR1VKX3SJV4657H6Y",
+                "linkedMedusaVariantId": "variant_01M2B69TS1RYDYKPF5BFTNYGKQ",
+                "sku": "NW-ADDON-ESSENTIALS-4-PC-SET",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png",
                 "hoverDescription": "Essentials  · (+ $100.00)",
                 "price": {
                   "surcharge": 100,
@@ -12944,18 +13112,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "essentials-led-lights",
                 "kind": "accessory",
                 "title": "LED Lights",
-                "hoverTitle": "LED Lights ",
+                "handle": "nw-addon-essentials-led-lights",
+                "linkedMedusaProductId": "prod_01M2B6AAC2TWGWM04HKTG92YTE",
+                "linkedMedusaVariantId": "variant_01M2B6ABXNGNMPZP2EGYFZEPYS",
+                "sku": "NW-ADDON-ESSENTIALS-LED-LIGHTS",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649559175731.jpg",
                 "hoverDescription": "Essentials  · (+ $219.00)",
                 "price": {
                   "surcharge": 219,
@@ -12963,13 +13130,7 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649557654019.jpg",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649557654019.jpg",
-                "metadata": {
-                  "sourceDisplayName": "LED Lights ",
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               }
             ]
           }
@@ -12979,8 +13140,9 @@ export const storefrontProducts = [
         "id": "upgrades",
         "kind": "upgrade",
         "title": "Upgrades",
-        "selectionMode": "multiple",
         "displayStyle": "grid",
+        "selectionMode": "multiple",
+        "items": [],
         "subgroups": [
           {
             "id": "walls",
@@ -12991,7 +13153,11 @@ export const storefrontProducts = [
                 "id": "walls-20ft-back-wall",
                 "kind": "upgrade",
                 "title": "20ft Back Wall",
-                "hoverTitle": "20ft Back Wall",
+                "handle": "nw-addon-walls-20ft-back-wall",
+                "linkedMedusaProductId": "prod_01M2B6E7J4FGZ7F5D88EGZ0RBM",
+                "linkedMedusaVariantId": "variant_01M2B6E93JQNQQFP0V3S3GNJG5",
+                "sku": "NW-ADDON-WALLS-20FT-BACK-WALL",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616360743952.jpg",
                 "hoverDescription": "Walls · (+ $255.00)",
                 "price": {
                   "surcharge": 255,
@@ -12999,18 +13165,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616360743952.jpg",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616360743952.jpg",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "walls-20ft-back-wall-half-side-walls",
                 "kind": "upgrade",
                 "title": "20ft Back Wall & Half Side Walls",
-                "hoverTitle": "20ft Back Wall & Half Side Walls",
+                "handle": "nw-addon-walls-20ft-back-wall-half-side-walls",
+                "linkedMedusaProductId": "prod_01M2B6ED8H4H18B9XWXTMCZYPR",
+                "linkedMedusaVariantId": "variant_01M2B6EET95PMM31FD2K3AZHBR",
+                "sku": "NW-ADDON-WALLS-20FT-BACK-WALL-HALF-SIDE-WALLS",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616360803119.jpg",
                 "hoverDescription": "Walls · (+ $520.00)",
                 "price": {
                   "surcharge": 520,
@@ -13018,18 +13183,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616360803119.jpg",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616360803119.jpg",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "walls-20ft-three-full-walls",
                 "kind": "upgrade",
                 "title": "20ft Three Full Walls",
-                "hoverTitle": "20ft Three Full Walls",
+                "handle": "nw-addon-walls-20ft-three-full-walls",
+                "linkedMedusaProductId": "prod_01M2B6EK0C52J9TVF50M1YXXGD",
+                "linkedMedusaVariantId": "variant_01M2B6EMHWWFBEB1C3EN5PG8NN",
+                "sku": "NW-ADDON-WALLS-20FT-THREE-FULL-WALLS",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616360875845.jpg",
                 "hoverDescription": "Walls · (+ $455.00)",
                 "price": {
                   "surcharge": 455,
@@ -13037,12 +13201,7 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616360875845.jpg",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616360875845.jpg",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               }
             ]
           }
@@ -13121,8 +13280,9 @@ export const storefrontProducts = [
         "id": "accessories",
         "kind": "accessory",
         "title": "Accessories",
-        "selectionMode": "multiple",
         "displayStyle": "grid",
+        "selectionMode": "multiple",
+        "items": [],
         "subgroups": [
           {
             "id": "table-cover",
@@ -13133,7 +13293,11 @@ export const storefrontProducts = [
                 "id": "table-cover-6ft-stretch-table-cover",
                 "kind": "accessory",
                 "title": "6ft Stretch Table Cover",
-                "hoverTitle": "6ft Stretch Table Cover",
+                "handle": "nw-addon-table-cover-6ft-stretch-table-cover",
+                "linkedMedusaProductId": "prod_01M2B6CZFB8R9K6V16CJQY3FGB",
+                "linkedMedusaVariantId": "variant_01M2B6D10RBMY1PDV985E7ZJF3",
+                "sku": "NW-ADDON-TABLE-COVER-6FT-STRETCH-TABLE-COVER",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png",
                 "hoverDescription": "Table Cover · (+ $135.00)",
                 "price": {
                   "surcharge": 135,
@@ -13141,18 +13305,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466140279.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "table-cover-6ft-fitted-table-cover",
                 "kind": "accessory",
                 "title": "6ft Fitted Table Cover",
-                "hoverTitle": "6ft Fitted Table Cover",
+                "handle": "nw-addon-table-cover-6ft-fitted-table-cover",
+                "linkedMedusaProductId": "prod_01M2B6CSQV9YTD2N0GS3TDV2TH",
+                "linkedMedusaVariantId": "variant_01M2B6CV9AGV99J7RFG5MXEWHP",
+                "sku": "NW-ADDON-TABLE-COVER-6FT-FITTED-TABLE-COVER",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png",
                 "hoverDescription": "Table Cover · (+ $145.00)",
                 "price": {
                   "surcharge": 145,
@@ -13160,18 +13323,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466208291.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "table-cover-6ft-draped-table-cover",
                 "kind": "accessory",
                 "title": "6ft Draped Table Cover",
-                "hoverTitle": "6ft Draped Table Cover",
+                "handle": "nw-addon-table-cover-6ft-draped-table-cover",
+                "linkedMedusaProductId": "prod_01M2B6CM1XYJ9NMH6070S4XBYC",
+                "linkedMedusaVariantId": "variant_01M2B6CNKA71NEPEGQ9VEN4ADW",
+                "sku": "NW-ADDON-TABLE-COVER-6FT-DRAPED-TABLE-COVER",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp",
                 "hoverDescription": "Table Cover · (+ $145.00)",
                 "price": {
                   "surcharge": 145,
@@ -13179,12 +13341,7 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615466330514.webp",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               }
             ]
           },
@@ -13197,7 +13354,11 @@ export const storefrontProducts = [
                 "id": "feather-flags-9ft-mounted-flag-w-mounting-kit",
                 "kind": "accessory",
                 "title": "9ft Mounted Flag w/ Mounting Kit",
-                "hoverTitle": "9ft Mounted Flag w/ Mounting Kit",
+                "handle": "nw-addon-feather-flags-9ft-mounted-flag-w-mounting-kit",
+                "linkedMedusaProductId": "prod_01M2B6B6Z6FAZT1F0RDNSCXHCT",
+                "linkedMedusaVariantId": "variant_01M2B6B8GNASC1MR5ABW9DWXZ3",
+                "sku": "NW-ADDON-FEATHER-FLAGS-9FT-MOUNTED-FLAG-W-MOUNTING-KIT",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png",
                 "hoverDescription": "Feather Flags · (+ $150.00)",
                 "price": {
                   "surcharge": 150,
@@ -13205,18 +13366,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615321755542.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "feather-flags-9ft-stand-alone-flag-w-cross-base",
                 "kind": "accessory",
                 "title": "9ft Stand Alone Flag w/ Cross Base",
-                "hoverTitle": "9ft Stand Alone Flag w/ Cross Base",
+                "handle": "nw-addon-feather-flags-9ft-stand-alone-flag-w-cross-base",
+                "linkedMedusaProductId": "prod_01M2B6BCNQB6MRYJZWGCREWM6F",
+                "linkedMedusaVariantId": "variant_01M2B6BE77P3XGQDED1QSFDC9Q",
+                "sku": "NW-ADDON-FEATHER-FLAGS-9FT-STAND-ALONE-FLAG-W-CROSS-BASE",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png",
                 "hoverDescription": "Feather Flags · (+ $140.00)",
                 "price": {
                   "surcharge": 140,
@@ -13224,18 +13384,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615312953616.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "feather-flags-12ft-stand-alone-flag-w-cross-base",
                 "kind": "accessory",
                 "title": "12ft Stand Alone Flag w/ Cross Base",
-                "hoverTitle": "12ft Stand Alone Flag w/ Cross Base",
+                "handle": "nw-addon-feather-flags-12ft-stand-alone-flag-w-cross-base",
+                "linkedMedusaProductId": "prod_01M2B6AVGZAPV1B8X7N3ZGD231",
+                "linkedMedusaVariantId": "variant_01M2B6AX2HVNMB86B8W9X9ZEGW",
+                "sku": "NW-ADDON-FEATHER-FLAGS-12FT-STAND-ALONE-FLAG-W-CROSS-BASE",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png",
                 "hoverDescription": "Feather Flags · (+ $150.00)",
                 "price": {
                   "surcharge": 150,
@@ -13243,18 +13402,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313038547.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "feather-flags-15ft-stand-alone-flag-w-cross-base",
                 "kind": "accessory",
                 "title": "15ft Stand Alone Flag w/ Cross Base",
-                "hoverTitle": "15ft Stand Alone Flag w/ Cross Base",
+                "handle": "nw-addon-feather-flags-15ft-stand-alone-flag-w-cross-base",
+                "linkedMedusaProductId": "prod_01M2B6B18G8AN06FY87K9RMA7C",
+                "linkedMedusaVariantId": "variant_01M2B6B2T1S8QC5Q4K3PVJ69X7",
+                "sku": "NW-ADDON-FEATHER-FLAGS-15FT-STAND-ALONE-FLAG-W-CROSS-BASE",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png",
                 "hoverDescription": "Feather Flags · (+ $160.00)",
                 "price": {
                   "surcharge": 160,
@@ -13262,25 +13420,24 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615313107482.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               }
             ]
           },
           {
             "id": "essentials",
-            "title": "Essentials ",
+            "title": "Essentials",
             "selectionMode": "single",
             "items": [
               {
                 "id": "essentials-6-pc-set",
                 "kind": "accessory",
                 "title": "6 Pc Set",
-                "hoverTitle": "6 Pc Set",
+                "handle": "nw-addon-essentials-6-pc-set",
+                "linkedMedusaProductId": "prod_01M2B69YYNTWHJWETF660CT3NE",
+                "linkedMedusaVariantId": "variant_01M2B6A0G60YCN5KWRH3PN0YGX",
+                "sku": "NW-ADDON-ESSENTIALS-6-PC-SET",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17622894256890.jpg",
                 "hoverDescription": "Essentials  · (+ $150.00)",
                 "price": {
                   "surcharge": 150,
@@ -13288,18 +13445,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17622025747516.jpg",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17622025747516.jpg",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "essentials-led-light",
                 "kind": "accessory",
                 "title": "LED Light",
-                "hoverTitle": "LED Light",
+                "handle": "nw-addon-essentials-led-light",
+                "linkedMedusaProductId": "prod_01M2B6A4NCKCQW2EAM7E90WF9B",
+                "linkedMedusaVariantId": "variant_01M2B6A66W9EPD3A0WGEGY12GW",
+                "sku": "NW-ADDON-ESSENTIALS-LED-LIGHT",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649560519154.jpg",
                 "hoverDescription": "Essentials  · (+ $219.00)",
                 "price": {
                   "surcharge": 219,
@@ -13307,12 +13463,7 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649560519154.jpg",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649560519154.jpg",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               }
             ]
           }
@@ -13322,8 +13473,9 @@ export const storefrontProducts = [
         "id": "upgrades",
         "kind": "upgrade",
         "title": "Upgrades",
-        "selectionMode": "single",
         "displayStyle": "grid",
+        "selectionMode": "single",
+        "items": [],
         "subgroups": [
           {
             "id": "vented-top",
@@ -13334,7 +13486,11 @@ export const storefrontProducts = [
                 "id": "vented-top-vent",
                 "kind": "upgrade",
                 "title": "Vent",
-                "hoverTitle": "Vent",
+                "handle": "nw-addon-vented-top-vent",
+                "linkedMedusaProductId": "prod_01M2B6DGQ5QHYPSRHFKQJ9GBNX",
+                "linkedMedusaVariantId": "variant_01M2B6DJ8PTKJKAFGB7ZZ3DYBH",
+                "sku": "NW-ADDON-VENTED-TOP-VENT",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616168711705.png",
                 "hoverDescription": "Vented Top · (+ $50.00)",
                 "price": {
                   "surcharge": 50,
@@ -13342,12 +13498,7 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616168711705.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616168711705.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               }
             ]
           }
@@ -15880,8 +16031,9 @@ export const storefrontProducts = [
         "id": "accessories",
         "kind": "accessory",
         "title": "Accessories",
-        "selectionMode": "multiple",
         "displayStyle": "grid",
+        "selectionMode": "multiple",
+        "items": [],
         "subgroups": [
           {
             "id": "table-cover",
@@ -15892,39 +16044,37 @@ export const storefrontProducts = [
                 "id": "table-cover-make-it-6ft-fitted-for",
                 "kind": "accessory",
                 "title": "Make It! 6ft Fitted For",
-                "hoverTitle": "Make It! 6ft Fitted For",
+                "handle": "nw-addon-table-cover-make-it-6ft-fitted-for",
+                "linkedMedusaProductId": "prod_01M2B6DAZ7AJV0GZWPT1VZWEZR",
+                "linkedMedusaVariantId": "variant_01M2B6DCGR60CAD9VBV7KCK7QG",
+                "sku": "NW-ADDON-TABLE-COVER-MAKE-IT-6FT-FITTED-FOR",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17621993281752.png",
                 "hoverDescription": "Table Cover · (+ $10.00)",
                 "price": {
-                  "surcharge": 10,
-                  "label": "(+ $10.00)"
+                  "surcharge": 1000,
+                  "label": "(+ $1000.00)"
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17621993281752.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17621993281752.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "table-cover-make-it-6ft-draped-for",
                 "kind": "accessory",
                 "title": "Make It! 6ft Draped For",
-                "hoverTitle": "Make It! 6ft Draped For",
+                "handle": "nw-addon-table-cover-make-it-6ft-draped-for",
+                "linkedMedusaProductId": "prod_01M2B6D572AAXMSXD7PJHGV6SQ",
+                "linkedMedusaVariantId": "variant_01M2B6D6RND085W9QXC8H21R3M",
+                "sku": "NW-ADDON-TABLE-COVER-MAKE-IT-6FT-DRAPED-FOR",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17621993467457.webp",
                 "hoverDescription": "Table Cover · (+ $10.00)",
                 "price": {
-                  "surcharge": 10,
-                  "label": "(+ $10.00)"
+                  "surcharge": 1000,
+                  "label": "(+ $1000.00)"
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17621993467457.webp",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17621993467457.webp",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               }
             ]
           },
@@ -15937,7 +16087,11 @@ export const storefrontProducts = [
                 "id": "feather-flags-make-it-15ft-stand-alone-flag-w-cross-base",
                 "kind": "accessory",
                 "title": "Make It! 15ft Stand Alone Flag w/ Cross Base",
-                "hoverTitle": "Make It! 15ft Stand Alone Flag w/ Cross Base",
+                "handle": "nw-addon-feather-flags-make-it-15ft-stand-alone-flag-w-cross-base",
+                "linkedMedusaProductId": "prod_01M2B6BJC5ZA93S7624K1JNYNT",
+                "linkedMedusaVariantId": "variant_01M2B6BKXNKV6KW6F6YNVD79M3",
+                "sku": "NW-ADDON-FEATHER-FLAGS-MAKE-IT-15FT-STAND-ALONE-FLAG-W-CROSS-BASE",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17621997921346.png",
                 "hoverDescription": "Feather Flags · (+ $20.00)",
                 "price": {
                   "surcharge": 20,
@@ -15945,12 +16099,7 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17621997921346.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17621997921346.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               }
             ]
           },
@@ -15963,7 +16112,11 @@ export const storefrontProducts = [
                 "id": "essentials-4-pc-set",
                 "kind": "accessory",
                 "title": "4 Pc Set",
-                "hoverTitle": "4 Pc Set",
+                "handle": "nw-addon-essentials-4-pc-set",
+                "linkedMedusaProductId": "prod_01M2B69S7GR1VKX3SJV4657H6Y",
+                "linkedMedusaVariantId": "variant_01M2B69TS1RYDYKPF5BFTNYGKQ",
+                "sku": "NW-ADDON-ESSENTIALS-4-PC-SET",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png",
                 "hoverDescription": "Essentials · (+ $100.00)",
                 "price": {
                   "surcharge": 100,
@@ -15971,18 +16124,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "essentials-10ft-billboard",
                 "kind": "accessory",
                 "title": "10ft Billboard",
-                "hoverTitle": "10ft Billboard",
+                "handle": "nw-addon-essentials-10ft-billboard",
+                "linkedMedusaProductId": "prod_01M2B69DRX9G0FTXGP5DH3VEM2",
+                "linkedMedusaVariantId": "variant_01M2B69FADX91FKH7Z41S0EEKG",
+                "sku": "NW-ADDON-ESSENTIALS-10FT-BILLBOARD",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17631439523223.jpg",
                 "hoverDescription": "Essentials · (+ $285.00)",
                 "price": {
                   "surcharge": 285,
@@ -15990,18 +16142,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17631441145412.jpg",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17631441145412.jpg",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "essentials-10ft-counter-top-w-vinyl-banner",
                 "kind": "accessory",
                 "title": "10ft Counter Top w/ Vinyl Banner",
-                "hoverTitle": "10ft Counter Top w/ Vinyl Banner",
+                "handle": "nw-addon-essentials-10ft-counter-top-w-vinyl-banner",
+                "linkedMedusaProductId": "prod_01M2B69KHDCYE1CWHMVHHWXP3B",
+                "linkedMedusaVariantId": "variant_01M2B69N2X0ADG68PAPZZPG9DC",
+                "sku": "NW-ADDON-ESSENTIALS-10FT-COUNTER-TOP-W-VINYL-BANNER",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17631440018208.jpg",
                 "hoverDescription": "Essentials · (+ $550.00)",
                 "price": {
                   "surcharge": 550,
@@ -16009,18 +16160,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17631441221898.jpg",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17631441221898.jpg",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "essentials-led-ligths",
                 "kind": "accessory",
                 "title": "LED Ligths",
-                "hoverTitle": "LED Ligths",
+                "handle": "nw-addon-essentials-led-ligths",
+                "linkedMedusaProductId": "prod_01M2B6AG2P1TF0TG66SFKQAHK3",
+                "linkedMedusaVariantId": "variant_01M2B6AHMAKE2WN6WCA8RGXQ8E",
+                "sku": "NW-ADDON-ESSENTIALS-LED-LIGTHS",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649559669405.jpg",
                 "hoverDescription": "Essentials · (+ $219.00)",
                 "price": {
                   "surcharge": 219,
@@ -16028,18 +16178,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649559669405.jpg",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649559669405.jpg",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "essentials-10ft-awning",
                 "kind": "accessory",
                 "title": "10ft Awning",
-                "hoverTitle": "10ft Awning",
+                "handle": "nw-addon-essentials-10ft-awning",
+                "linkedMedusaProductId": "prod_01M2B6981V5DC0VYTXD5H97K56",
+                "linkedMedusaVariantId": "variant_01M2B699M4XN529YYFSKGX12T7",
+                "sku": "NW-ADDON-ESSENTIALS-10FT-AWNING",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17667855253053.jpg",
                 "hoverDescription": "Essentials · (+ $235.00)",
                 "price": {
                   "surcharge": 235,
@@ -16047,12 +16196,7 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17667856759440.jpg",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17667856759440.jpg",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               }
             ]
           }
@@ -16062,8 +16206,9 @@ export const storefrontProducts = [
         "id": "upgrades",
         "kind": "upgrade",
         "title": "Upgrades",
-        "selectionMode": "multiple",
         "displayStyle": "grid",
+        "selectionMode": "multiple",
+        "items": [],
         "subgroups": [
           {
             "id": "vented-top",
@@ -16074,7 +16219,11 @@ export const storefrontProducts = [
                 "id": "vented-top-vent",
                 "kind": "upgrade",
                 "title": "Vent",
-                "hoverTitle": "Vent",
+                "handle": "nw-addon-vented-top-vent",
+                "linkedMedusaProductId": "prod_01M2B6DGQ5QHYPSRHFKQJ9GBNX",
+                "linkedMedusaVariantId": "variant_01M2B6DJ8PTKJKAFGB7ZZ3DYBH",
+                "sku": "NW-ADDON-VENTED-TOP-VENT",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616168711705.png",
                 "hoverDescription": "Vented Top · (+ $50.00)",
                 "price": {
                   "surcharge": 50,
@@ -16082,12 +16231,7 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616168217885.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616168217885.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               }
             ]
           },
@@ -16100,7 +16244,10 @@ export const storefrontProducts = [
                 "id": "double-sided-walls-double-sided-back-wall",
                 "kind": "upgrade",
                 "title": "Double Sided Back Wall",
-                "hoverTitle": "Double Sided Back Wall",
+                "handle": "nw-addon-double-sided-walls-double-sided-back-wall",
+                "linkedMedusaProductId": "prod_01M2B686DG0C1SM0HPZ4V20CDJ",
+                "linkedMedusaVariantId": "variant_01M2B687TVC6EYYEXVT3NTTNX4",
+                "sku": "NW-ADDON-DOUBLE-SIDED-WALLS-DOUBLE-SIDED-BACK-WALL",
                 "hoverDescription": "Double-Sided Walls · (+ $100.00)",
                 "price": {
                   "surcharge": 100,
@@ -16108,16 +16255,16 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "metadata": {
-                  "sourceControlType": "select"
-                }
+                "step": 1
               },
               {
                 "id": "double-sided-walls-double-sided-half-side-walls",
                 "kind": "upgrade",
                 "title": "Double Sided Half Side Walls",
-                "hoverTitle": "Double Sided Half Side Walls",
+                "handle": "nw-addon-double-sided-walls-double-sided-half-side-walls",
+                "linkedMedusaProductId": "prod_01M2B68Q6PFQ8S9YWQFQYPG3FJ",
+                "linkedMedusaVariantId": "variant_01M2B68RMPE3NVVG74J9KKG2FG",
+                "sku": "NW-ADDON-DOUBLE-SIDED-WALLS-DOUBLE-SIDED-HALF-SIDE-WALLS",
                 "hoverDescription": "Double-Sided Walls · (+ $150.00)",
                 "price": {
                   "surcharge": 150,
@@ -16125,16 +16272,16 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "metadata": {
-                  "sourceControlType": "select"
-                }
+                "step": 1
               },
               {
                 "id": "double-sided-walls-double-sided-back-half-side-walls",
                 "kind": "upgrade",
                 "title": "Double Sided Back & Half Side Walls",
-                "hoverTitle": "Double Sided Back & Half Side Walls",
+                "handle": "nw-addon-double-sided-walls-double-sided-back-half-side-walls",
+                "linkedMedusaProductId": "prod_01M2B680TXQKNSR6Q8DF0GPKFY",
+                "linkedMedusaVariantId": "variant_01M2B6828CHF0X0J98BVY9RA3J",
+                "sku": "NW-ADDON-DOUBLE-SIDED-WALLS-DOUBLE-SIDED-BACK-HALF-SIDE-WALLS",
                 "hoverDescription": "Double-Sided Walls · (+ $250.00)",
                 "price": {
                   "surcharge": 250,
@@ -16142,10 +16289,7 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "metadata": {
-                  "sourceControlType": "select"
-                }
+                "step": 1
               }
             ]
           }
@@ -16251,8 +16395,9 @@ export const storefrontProducts = [
         "id": "accessories",
         "kind": "accessory",
         "title": "Accessories",
-        "selectionMode": "multiple",
         "displayStyle": "grid",
+        "selectionMode": "multiple",
+        "items": [],
         "subgroups": [
           {
             "id": "table-cover",
@@ -16263,39 +16408,37 @@ export const storefrontProducts = [
                 "id": "table-cover-make-it-6ft-fitted-for",
                 "kind": "accessory",
                 "title": "Make It! 6ft Fitted For",
-                "hoverTitle": "Make It! 6ft Fitted For",
+                "handle": "nw-addon-table-cover-make-it-6ft-fitted-for",
+                "linkedMedusaProductId": "prod_01M2B6DAZ7AJV0GZWPT1VZWEZR",
+                "linkedMedusaVariantId": "variant_01M2B6DCGR60CAD9VBV7KCK7QG",
+                "sku": "NW-ADDON-TABLE-COVER-MAKE-IT-6FT-FITTED-FOR",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17621993281752.png",
                 "hoverDescription": "Table Cover · (+ $10.00)",
                 "price": {
-                  "surcharge": 10,
-                  "label": "(+ $10.00)"
+                  "surcharge": 1000,
+                  "label": "(+ $1000.00)"
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17621993281752.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17621993281752.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "table-cover-make-it-6ft-draped-for",
                 "kind": "accessory",
                 "title": "Make It! 6ft Draped For",
-                "hoverTitle": "Make It! 6ft Draped For",
+                "handle": "nw-addon-table-cover-make-it-6ft-draped-for",
+                "linkedMedusaProductId": "prod_01M2B6D572AAXMSXD7PJHGV6SQ",
+                "linkedMedusaVariantId": "variant_01M2B6D6RND085W9QXC8H21R3M",
+                "sku": "NW-ADDON-TABLE-COVER-MAKE-IT-6FT-DRAPED-FOR",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17621993467457.webp",
                 "hoverDescription": "Table Cover · (+ $10.00)",
                 "price": {
-                  "surcharge": 10,
-                  "label": "(+ $10.00)"
+                  "surcharge": 1000,
+                  "label": "(+ $1000.00)"
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17621993467457.webp",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17621993467457.webp",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               }
             ]
           },
@@ -16308,7 +16451,11 @@ export const storefrontProducts = [
                 "id": "feather-flags-make-it-15ft-stand-alone-flag-w-cross-base",
                 "kind": "accessory",
                 "title": "Make It! 15ft Stand Alone Flag w/ Cross Base",
-                "hoverTitle": "Make It! 15ft Stand Alone Flag w/ Cross Base",
+                "handle": "nw-addon-feather-flags-make-it-15ft-stand-alone-flag-w-cross-base",
+                "linkedMedusaProductId": "prod_01M2B6BJC5ZA93S7624K1JNYNT",
+                "linkedMedusaVariantId": "variant_01M2B6BKXNKV6KW6F6YNVD79M3",
+                "sku": "NW-ADDON-FEATHER-FLAGS-MAKE-IT-15FT-STAND-ALONE-FLAG-W-CROSS-BASE",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17621997921346.png",
                 "hoverDescription": "Feather Flags · (+ $20.00)",
                 "price": {
                   "surcharge": 20,
@@ -16316,12 +16463,7 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17621997921346.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17621997921346.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               }
             ]
           },
@@ -16334,7 +16476,11 @@ export const storefrontProducts = [
                 "id": "essentials-4-pc-set",
                 "kind": "accessory",
                 "title": "4 Pc Set",
-                "hoverTitle": "4 Pc Set",
+                "handle": "nw-addon-essentials-4-pc-set",
+                "linkedMedusaProductId": "prod_01M2B69S7GR1VKX3SJV4657H6Y",
+                "linkedMedusaVariantId": "variant_01M2B69TS1RYDYKPF5BFTNYGKQ",
+                "sku": "NW-ADDON-ESSENTIALS-4-PC-SET",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png",
                 "hoverDescription": "Essentials · (+ $100.00)",
                 "price": {
                   "surcharge": 100,
@@ -16342,18 +16488,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "essentials-10ft-billboard",
                 "kind": "accessory",
                 "title": "10ft Billboard",
-                "hoverTitle": "10ft Billboard",
+                "handle": "nw-addon-essentials-10ft-billboard",
+                "linkedMedusaProductId": "prod_01M2B69DRX9G0FTXGP5DH3VEM2",
+                "linkedMedusaVariantId": "variant_01M2B69FADX91FKH7Z41S0EEKG",
+                "sku": "NW-ADDON-ESSENTIALS-10FT-BILLBOARD",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17631439523223.jpg",
                 "hoverDescription": "Essentials · (+ $285.00)",
                 "price": {
                   "surcharge": 285,
@@ -16361,18 +16506,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17631440859014.jpg",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17631440859014.jpg",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "essentials-10ft-counter-top-w-vinyl-banner",
                 "kind": "accessory",
                 "title": "10ft Counter Top w/ Vinyl Banner",
-                "hoverTitle": "10ft Counter Top w/ Vinyl Banner",
+                "handle": "nw-addon-essentials-10ft-counter-top-w-vinyl-banner",
+                "linkedMedusaProductId": "prod_01M2B69KHDCYE1CWHMVHHWXP3B",
+                "linkedMedusaVariantId": "variant_01M2B69N2X0ADG68PAPZZPG9DC",
+                "sku": "NW-ADDON-ESSENTIALS-10FT-COUNTER-TOP-W-VINYL-BANNER",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17631440018208.jpg",
                 "hoverDescription": "Essentials · (+ $550.00)",
                 "price": {
                   "surcharge": 550,
@@ -16380,18 +16524,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17631440933572.jpg",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17631440933572.jpg",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "essentials-led-lights",
                 "kind": "accessory",
                 "title": "LED Lights",
-                "hoverTitle": "LED Lights",
+                "handle": "nw-addon-essentials-led-lights",
+                "linkedMedusaProductId": "prod_01M2B6AAC2TWGWM04HKTG92YTE",
+                "linkedMedusaVariantId": "variant_01M2B6ABXNGNMPZP2EGYFZEPYS",
+                "sku": "NW-ADDON-ESSENTIALS-LED-LIGHTS",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649559175731.jpg",
                 "hoverDescription": "Essentials · (+ $219.00)",
                 "price": {
                   "surcharge": 219,
@@ -16399,18 +16542,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649559858310.jpg",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649559858310.jpg",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "essentials-10ft-awning",
                 "kind": "accessory",
                 "title": "10ft Awning",
-                "hoverTitle": "10ft Awning",
+                "handle": "nw-addon-essentials-10ft-awning",
+                "linkedMedusaProductId": "prod_01M2B6981V5DC0VYTXD5H97K56",
+                "linkedMedusaVariantId": "variant_01M2B699M4XN529YYFSKGX12T7",
+                "sku": "NW-ADDON-ESSENTIALS-10FT-AWNING",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17667855253053.jpg",
                 "hoverDescription": "Essentials · (+ $235.00)",
                 "price": {
                   "surcharge": 235,
@@ -16418,12 +16560,7 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17667856937831.jpg",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17667856937831.jpg",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               }
             ]
           }
@@ -16433,8 +16570,9 @@ export const storefrontProducts = [
         "id": "upgrades",
         "kind": "upgrade",
         "title": "Upgrades",
-        "selectionMode": "multiple",
         "displayStyle": "grid",
+        "selectionMode": "multiple",
+        "items": [],
         "subgroups": [
           {
             "id": "vented-top",
@@ -16445,7 +16583,11 @@ export const storefrontProducts = [
                 "id": "vented-top-vent",
                 "kind": "upgrade",
                 "title": "Vent",
-                "hoverTitle": "Vent",
+                "handle": "nw-addon-vented-top-vent",
+                "linkedMedusaProductId": "prod_01M2B6DGQ5QHYPSRHFKQJ9GBNX",
+                "linkedMedusaVariantId": "variant_01M2B6DJ8PTKJKAFGB7ZZ3DYBH",
+                "sku": "NW-ADDON-VENTED-TOP-VENT",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616168711705.png",
                 "hoverDescription": "Vented Top · (+ $50.00)",
                 "price": {
                   "surcharge": 50,
@@ -16453,12 +16595,7 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616168217885.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616168217885.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               }
             ]
           },
@@ -16471,7 +16608,10 @@ export const storefrontProducts = [
                 "id": "double-sided-walls-double-sided-back-wall",
                 "kind": "upgrade",
                 "title": "Double Sided Back Wall",
-                "hoverTitle": "Double Sided Back Wall",
+                "handle": "nw-addon-double-sided-walls-double-sided-back-wall",
+                "linkedMedusaProductId": "prod_01M2B686DG0C1SM0HPZ4V20CDJ",
+                "linkedMedusaVariantId": "variant_01M2B687TVC6EYYEXVT3NTTNX4",
+                "sku": "NW-ADDON-DOUBLE-SIDED-WALLS-DOUBLE-SIDED-BACK-WALL",
                 "hoverDescription": "Double-Sided Walls · (+ $100.00)",
                 "price": {
                   "surcharge": 100,
@@ -16479,16 +16619,16 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "metadata": {
-                  "sourceControlType": "select"
-                }
+                "step": 1
               },
               {
                 "id": "double-sided-walls-double-sided-half-side-walls",
                 "kind": "upgrade",
                 "title": "Double Sided Half Side Walls",
-                "hoverTitle": "Double Sided Half Side Walls",
+                "handle": "nw-addon-double-sided-walls-double-sided-half-side-walls",
+                "linkedMedusaProductId": "prod_01M2B68Q6PFQ8S9YWQFQYPG3FJ",
+                "linkedMedusaVariantId": "variant_01M2B68RMPE3NVVG74J9KKG2FG",
+                "sku": "NW-ADDON-DOUBLE-SIDED-WALLS-DOUBLE-SIDED-HALF-SIDE-WALLS",
                 "hoverDescription": "Double-Sided Walls · (+ $150.00)",
                 "price": {
                   "surcharge": 150,
@@ -16496,16 +16636,16 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "metadata": {
-                  "sourceControlType": "select"
-                }
+                "step": 1
               },
               {
                 "id": "double-sided-walls-double-sided-back-half-side-walls",
                 "kind": "upgrade",
                 "title": "Double Sided Back & Half Side Walls",
-                "hoverTitle": "Double Sided Back & Half Side Walls",
+                "handle": "nw-addon-double-sided-walls-double-sided-back-half-side-walls",
+                "linkedMedusaProductId": "prod_01M2B680TXQKNSR6Q8DF0GPKFY",
+                "linkedMedusaVariantId": "variant_01M2B6828CHF0X0J98BVY9RA3J",
+                "sku": "NW-ADDON-DOUBLE-SIDED-WALLS-DOUBLE-SIDED-BACK-HALF-SIDE-WALLS",
                 "hoverDescription": "Double-Sided Walls · (+ $250.00)",
                 "price": {
                   "surcharge": 250,
@@ -16513,10 +16653,7 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "metadata": {
-                  "sourceControlType": "select"
-                }
+                "step": 1
               }
             ]
           }
@@ -16595,8 +16732,9 @@ export const storefrontProducts = [
         "id": "accessories",
         "kind": "accessory",
         "title": "Accessories",
-        "selectionMode": "multiple",
         "displayStyle": "grid",
+        "selectionMode": "multiple",
+        "items": [],
         "subgroups": [
           {
             "id": "table-cover",
@@ -16607,39 +16745,37 @@ export const storefrontProducts = [
                 "id": "table-cover-make-it-6ft-fitted-for",
                 "kind": "accessory",
                 "title": "Make It! 6ft Fitted For",
-                "hoverTitle": "Make It! 6ft Fitted For",
+                "handle": "nw-addon-table-cover-make-it-6ft-fitted-for",
+                "linkedMedusaProductId": "prod_01M2B6DAZ7AJV0GZWPT1VZWEZR",
+                "linkedMedusaVariantId": "variant_01M2B6DCGR60CAD9VBV7KCK7QG",
+                "sku": "NW-ADDON-TABLE-COVER-MAKE-IT-6FT-FITTED-FOR",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17621993281752.png",
                 "hoverDescription": "Table Cover · (+ $10.00)",
                 "price": {
-                  "surcharge": 10,
-                  "label": "(+ $10.00)"
+                  "surcharge": 1000,
+                  "label": "(+ $1000.00)"
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17621993281752.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17621993281752.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "table-cover-make-it-6ft-draped-for",
                 "kind": "accessory",
                 "title": "Make It! 6ft Draped For",
-                "hoverTitle": "Make It! 6ft Draped For",
+                "handle": "nw-addon-table-cover-make-it-6ft-draped-for",
+                "linkedMedusaProductId": "prod_01M2B6D572AAXMSXD7PJHGV6SQ",
+                "linkedMedusaVariantId": "variant_01M2B6D6RND085W9QXC8H21R3M",
+                "sku": "NW-ADDON-TABLE-COVER-MAKE-IT-6FT-DRAPED-FOR",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17621993467457.webp",
                 "hoverDescription": "Table Cover · (+ $10.00)",
                 "price": {
-                  "surcharge": 10,
-                  "label": "(+ $10.00)"
+                  "surcharge": 1000,
+                  "label": "(+ $1000.00)"
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17621993467457.webp",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17621993467457.webp",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               }
             ]
           },
@@ -16652,7 +16788,11 @@ export const storefrontProducts = [
                 "id": "feather-flags-make-it-15ft-stand-alone-flag-w-cross-base",
                 "kind": "accessory",
                 "title": "Make It! 15ft Stand Alone Flag w/ Cross Base",
-                "hoverTitle": "Make It! 15ft Stand Alone Flag w/ Cross Base",
+                "handle": "nw-addon-feather-flags-make-it-15ft-stand-alone-flag-w-cross-base",
+                "linkedMedusaProductId": "prod_01M2B6BJC5ZA93S7624K1JNYNT",
+                "linkedMedusaVariantId": "variant_01M2B6BKXNKV6KW6F6YNVD79M3",
+                "sku": "NW-ADDON-FEATHER-FLAGS-MAKE-IT-15FT-STAND-ALONE-FLAG-W-CROSS-BASE",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17621997921346.png",
                 "hoverDescription": "Feather Flags · (+ $20.00)",
                 "price": {
                   "surcharge": 20,
@@ -16660,12 +16800,7 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17621997921346.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17621997921346.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               }
             ]
           },
@@ -16678,7 +16813,11 @@ export const storefrontProducts = [
                 "id": "essentials-4-pc-set",
                 "kind": "accessory",
                 "title": "4 Pc Set",
-                "hoverTitle": "4 Pc Set",
+                "handle": "nw-addon-essentials-4-pc-set",
+                "linkedMedusaProductId": "prod_01M2B69S7GR1VKX3SJV4657H6Y",
+                "linkedMedusaVariantId": "variant_01M2B69TS1RYDYKPF5BFTNYGKQ",
+                "sku": "NW-ADDON-ESSENTIALS-4-PC-SET",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png",
                 "hoverDescription": "Essentials · (+ $100.00)",
                 "price": {
                   "surcharge": 100,
@@ -16686,18 +16825,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17615325538330.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "essentials-led-lights",
                 "kind": "accessory",
                 "title": "LED Lights",
-                "hoverTitle": "LED Lights",
+                "handle": "nw-addon-essentials-led-lights",
+                "linkedMedusaProductId": "prod_01M2B6AAC2TWGWM04HKTG92YTE",
+                "linkedMedusaVariantId": "variant_01M2B6ABXNGNMPZP2EGYFZEPYS",
+                "sku": "NW-ADDON-ESSENTIALS-LED-LIGHTS",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649559175731.jpg",
                 "hoverDescription": "Essentials · (+ $219.00)",
                 "price": {
                   "surcharge": 219,
@@ -16705,12 +16843,7 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649560043396.jpg",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649560043396.jpg",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               }
             ]
           }
@@ -16720,8 +16853,9 @@ export const storefrontProducts = [
         "id": "upgrades",
         "kind": "upgrade",
         "title": "Upgrades",
-        "selectionMode": "multiple",
         "displayStyle": "grid",
+        "selectionMode": "multiple",
+        "items": [],
         "subgroups": [
           {
             "id": "vented-top",
@@ -16732,7 +16866,11 @@ export const storefrontProducts = [
                 "id": "vented-top-vent",
                 "kind": "upgrade",
                 "title": "Vent",
-                "hoverTitle": "Vent",
+                "handle": "nw-addon-vented-top-vent",
+                "linkedMedusaProductId": "prod_01M2B6DGQ5QHYPSRHFKQJ9GBNX",
+                "linkedMedusaVariantId": "variant_01M2B6DJ8PTKJKAFGB7ZZ3DYBH",
+                "sku": "NW-ADDON-VENTED-TOP-VENT",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616168711705.png",
                 "hoverDescription": "Vented Top · (+ $50.00)",
                 "price": {
                   "surcharge": 50,
@@ -16740,12 +16878,7 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616168217885.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616168217885.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               }
             ]
           },
@@ -16758,7 +16891,10 @@ export const storefrontProducts = [
                 "id": "double-sided-walls-double-sided-15ft-back-wall",
                 "kind": "upgrade",
                 "title": "Double Sided 15ft Back Wall",
-                "hoverTitle": "Double Sided 15ft Back Wall",
+                "handle": "nw-addon-double-sided-walls-double-sided-15ft-back-wall",
+                "linkedMedusaProductId": "prod_01M2B66EKK6A3Z000YTFS500N6",
+                "linkedMedusaVariantId": "variant_01M2B66G16RJBE0BH4QBK352HP",
+                "sku": "NW-ADDON-DOUBLE-SIDED-WALLS-DOUBLE-SIDED-15FT-BACK-WALL",
                 "hoverDescription": "Double Sided Walls · (+ $130.00)",
                 "price": {
                   "surcharge": 130,
@@ -16766,16 +16902,16 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "metadata": {
-                  "sourceControlType": "select"
-                }
+                "step": 1
               },
               {
                 "id": "double-sided-walls-double-sided-half-side-walls",
                 "kind": "upgrade",
                 "title": "Double Sided Half Side Walls",
-                "hoverTitle": "Double Sided Half Side Walls",
+                "handle": "nw-addon-double-sided-walls-double-sided-half-side-walls",
+                "linkedMedusaProductId": "prod_01M2B68Q6PFQ8S9YWQFQYPG3FJ",
+                "linkedMedusaVariantId": "variant_01M2B68RMPE3NVVG74J9KKG2FG",
+                "sku": "NW-ADDON-DOUBLE-SIDED-WALLS-DOUBLE-SIDED-HALF-SIDE-WALLS",
                 "hoverDescription": "Double Sided Walls · (+ $150.00)",
                 "price": {
                   "surcharge": 150,
@@ -16783,27 +16919,24 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "metadata": {
-                  "sourceControlType": "select"
-                }
+                "step": 1
               },
               {
                 "id": "double-sided-walls-double-sided-15ft-back-wall-half-side-walls",
                 "kind": "upgrade",
                 "title": "Double Sided 15ft Back Wall & Half Side Walls",
-                "hoverTitle": "Double Sided 15ft Back Wall & Half Side Walls",
+                "handle": "nw-addon-double-sided-walls-double-sided-15ft-back-wall-half-side-walls",
+                "linkedMedusaProductId": "prod_01M2B66M6Z1KGGY1F1290RP0WZ",
+                "linkedMedusaVariantId": "variant_01M2B66NMD74HMDF7KVM32C9W9",
+                "sku": "NW-ADDON-DOUBLE-SIDED-WALLS-DOUBLE-SIDED-15FT-BACK-WALL-HALF-SIDE-WALLS",
                 "hoverDescription": "Double Sided Walls · (+ $280.00)",
                 "price": {
-                  "surcharge": 280,
-                  "label": "(+ $280.00)"
+                  "surcharge": 150,
+                  "label": "(+ $150.00)"
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "metadata": {
-                  "sourceControlType": "select"
-                }
+                "step": 1
               }
             ]
           }
@@ -16882,8 +17015,9 @@ export const storefrontProducts = [
         "id": "accessories",
         "kind": "accessory",
         "title": "Accessories",
-        "selectionMode": "multiple",
         "displayStyle": "grid",
+        "selectionMode": "multiple",
+        "items": [],
         "subgroups": [
           {
             "id": "table-cover",
@@ -16894,39 +17028,37 @@ export const storefrontProducts = [
                 "id": "table-cover-make-it-6ft-fitted-for",
                 "kind": "accessory",
                 "title": "Make It! 6ft Fitted For",
-                "hoverTitle": "Make It! 6ft Fitted For",
+                "handle": "nw-addon-table-cover-make-it-6ft-fitted-for",
+                "linkedMedusaProductId": "prod_01M2B6DAZ7AJV0GZWPT1VZWEZR",
+                "linkedMedusaVariantId": "variant_01M2B6DCGR60CAD9VBV7KCK7QG",
+                "sku": "NW-ADDON-TABLE-COVER-MAKE-IT-6FT-FITTED-FOR",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17621993281752.png",
                 "hoverDescription": "Table Cover · (+ $10.00)",
                 "price": {
-                  "surcharge": 10,
-                  "label": "(+ $10.00)"
+                  "surcharge": 1000,
+                  "label": "(+ $1000.00)"
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17621993281752.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17621993281752.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "table-cover-make-it-6ft-draped-for",
                 "kind": "accessory",
                 "title": "Make It! 6ft Draped For",
-                "hoverTitle": "Make It! 6ft Draped For",
+                "handle": "nw-addon-table-cover-make-it-6ft-draped-for",
+                "linkedMedusaProductId": "prod_01M2B6D572AAXMSXD7PJHGV6SQ",
+                "linkedMedusaVariantId": "variant_01M2B6D6RND085W9QXC8H21R3M",
+                "sku": "NW-ADDON-TABLE-COVER-MAKE-IT-6FT-DRAPED-FOR",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17621993467457.webp",
                 "hoverDescription": "Table Cover · (+ $10.00)",
                 "price": {
-                  "surcharge": 10,
-                  "label": "(+ $10.00)"
+                  "surcharge": 1000,
+                  "label": "(+ $1000.00)"
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17621993467457.webp",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17621993467457.webp",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               }
             ]
           },
@@ -16939,7 +17071,11 @@ export const storefrontProducts = [
                 "id": "feather-flags-make-it-15ft-stand-alone-flag-w-cross-base",
                 "kind": "accessory",
                 "title": "Make It! 15ft Stand Alone Flag w/ Cross Base",
-                "hoverTitle": "Make It! 15ft Stand Alone Flag w/ Cross Base",
+                "handle": "nw-addon-feather-flags-make-it-15ft-stand-alone-flag-w-cross-base",
+                "linkedMedusaProductId": "prod_01M2B6BJC5ZA93S7624K1JNYNT",
+                "linkedMedusaVariantId": "variant_01M2B6BKXNKV6KW6F6YNVD79M3",
+                "sku": "NW-ADDON-FEATHER-FLAGS-MAKE-IT-15FT-STAND-ALONE-FLAG-W-CROSS-BASE",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17621997921346.png",
                 "hoverDescription": "Feather Flags · (+ $20.00)",
                 "price": {
                   "surcharge": 20,
@@ -16947,12 +17083,7 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17621997921346.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17621997921346.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               }
             ]
           },
@@ -16965,7 +17096,11 @@ export const storefrontProducts = [
                 "id": "essentials-set-of-6-sandbags",
                 "kind": "accessory",
                 "title": "Set of 6 Sandbags",
-                "hoverTitle": "Set of 6 Sandbags",
+                "handle": "nw-addon-essentials-set-of-6-sandbags",
+                "linkedMedusaProductId": "prod_01M2B6ANSFESW4ZCD6RFQQZGYC",
+                "linkedMedusaVariantId": "variant_01M2B6AQAY9SNGTWFVBZMAWX13",
+                "sku": "NW-ADDON-ESSENTIALS-SET-OF-6-SANDBAGS",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17622013249179.jpg",
                 "hoverDescription": "Essentials · (+ $150.00)",
                 "price": {
                   "surcharge": 150,
@@ -16973,18 +17108,17 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17622013249179.jpg",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17622013249179.jpg",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               },
               {
                 "id": "essentials-led-lights",
                 "kind": "accessory",
                 "title": "LED Lights",
-                "hoverTitle": "LED Lights",
+                "handle": "nw-addon-essentials-led-lights",
+                "linkedMedusaProductId": "prod_01M2B6AAC2TWGWM04HKTG92YTE",
+                "linkedMedusaVariantId": "variant_01M2B6ABXNGNMPZP2EGYFZEPYS",
+                "sku": "NW-ADDON-ESSENTIALS-LED-LIGHTS",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649559175731.jpg",
                 "hoverDescription": "Essentials · (+ $219.00)",
                 "price": {
                   "surcharge": 219,
@@ -16992,12 +17126,7 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649560171625.jpg",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17649560171625.jpg",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               }
             ]
           }
@@ -17007,8 +17136,9 @@ export const storefrontProducts = [
         "id": "upgrades",
         "kind": "upgrade",
         "title": "Upgrades",
-        "selectionMode": "multiple",
         "displayStyle": "grid",
+        "selectionMode": "multiple",
+        "items": [],
         "subgroups": [
           {
             "id": "vented-top",
@@ -17019,7 +17149,11 @@ export const storefrontProducts = [
                 "id": "vented-top-vent",
                 "kind": "upgrade",
                 "title": "Vent",
-                "hoverTitle": "Vent",
+                "handle": "nw-addon-vented-top-vent",
+                "linkedMedusaProductId": "prod_01M2B6DGQ5QHYPSRHFKQJ9GBNX",
+                "linkedMedusaVariantId": "variant_01M2B6DJ8PTKJKAFGB7ZZ3DYBH",
+                "sku": "NW-ADDON-VENTED-TOP-VENT",
+                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616168711705.png",
                 "hoverDescription": "Vented Top · (+ $50.00)",
                 "price": {
                   "surcharge": 50,
@@ -17027,12 +17161,7 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "image": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616168217885.png",
-                "imageHover": "https://notionworxcanopy.com/cdn/shop/files/swatch-17616168217885.png",
-                "metadata": {
-                  "sourceControlType": "image-swatches"
-                }
+                "step": 1
               }
             ]
           },
@@ -17045,7 +17174,10 @@ export const storefrontProducts = [
                 "id": "double-sided-walls-double-sided-20ft-back-wall",
                 "kind": "upgrade",
                 "title": "Double Sided 20ft Back Wall",
-                "hoverTitle": "Double Sided 20ft Back Wall",
+                "handle": "nw-addon-double-sided-walls-double-sided-20ft-back-wall",
+                "linkedMedusaProductId": "prod_01M2B66ST836DG87KD9Y2M6CPD",
+                "linkedMedusaVariantId": "variant_01M2B66V7KN9XAN60T38AA79MW",
+                "sku": "NW-ADDON-DOUBLE-SIDED-WALLS-DOUBLE-SIDED-20FT-BACK-WALL",
                 "hoverDescription": "Double Sided Walls · (+ $140.00)",
                 "price": {
                   "surcharge": 140,
@@ -17053,16 +17185,16 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "metadata": {
-                  "sourceControlType": "select"
-                }
+                "step": 1
               },
               {
                 "id": "double-sided-walls-double-sided-half-side-walls",
                 "kind": "upgrade",
                 "title": "Double Sided Half Side Walls",
-                "hoverTitle": "Double Sided Half Side Walls",
+                "handle": "nw-addon-double-sided-walls-double-sided-half-side-walls",
+                "linkedMedusaProductId": "prod_01M2B68Q6PFQ8S9YWQFQYPG3FJ",
+                "linkedMedusaVariantId": "variant_01M2B68RMPE3NVVG74J9KKG2FG",
+                "sku": "NW-ADDON-DOUBLE-SIDED-WALLS-DOUBLE-SIDED-HALF-SIDE-WALLS",
                 "hoverDescription": "Double Sided Walls · (+ $150.00)",
                 "price": {
                   "surcharge": 150,
@@ -17070,16 +17202,16 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "metadata": {
-                  "sourceControlType": "select"
-                }
+                "step": 1
               },
               {
                 "id": "double-sided-walls-double-sided-20ft-back-wall-half-side-walls",
                 "kind": "upgrade",
                 "title": "Double Sided 20ft Back Wall & Half Side Walls",
-                "hoverTitle": "Double Sided 20ft Back Wall & Half Side Walls",
+                "handle": "nw-addon-double-sided-walls-double-sided-20ft-back-wall-half-side-walls",
+                "linkedMedusaProductId": "prod_01M2B66ZD9GK0B6RRC8V9ANKPZ",
+                "linkedMedusaVariantId": "variant_01M2B670TK7B3E8TCFPSCV2ZY6",
+                "sku": "NW-ADDON-DOUBLE-SIDED-WALLS-DOUBLE-SIDED-20FT-BACK-WALL-HALF-SIDE-WALLS",
                 "hoverDescription": "Double Sided Walls · (+ $290.00)",
                 "price": {
                   "surcharge": 290,
@@ -17087,10 +17219,7 @@ export const storefrontProducts = [
                 },
                 "allowsQuantity": true,
                 "minQuantity": 1,
-                "step": 1,
-                "metadata": {
-                  "sourceControlType": "select"
-                }
+                "step": 1
               }
             ]
           }
@@ -22184,7 +22313,7 @@ export const storefrontProducts = [
       }
     ],
     "name": "rtsyt",
-    "price": 456,
+    "price": 667,
     "cardVariant": "",
     "filterBrands": [
       "Notion Worx"

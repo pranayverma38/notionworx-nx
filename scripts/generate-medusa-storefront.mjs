@@ -10,10 +10,6 @@ const outputPath = path.join(
   repoRoot,
   "data/inventory/notionworx/storefront.generated.ts",
 );
-const sharedProductAddOnCatalogPath = path.join(
-  repoRoot,
-  "data/inventory/notionworx/product-addons.shared.generated.json",
-);
 const manifestPath = path.join(
   repoRoot,
   "data/inventory/notionworx/manifest.json",
@@ -90,6 +86,101 @@ function readMetadataStringArray(metadata, keys) {
   return [];
 }
 
+function readMetadataBoolean(metadata, keys) {
+  for (const key of keys) {
+    const value = metadata?.[key];
+    if (typeof value === "boolean") {
+      return value;
+    }
+    if (typeof value === "string") {
+      const normalized = value.trim().toLowerCase();
+      if (normalized === "true") {
+        return true;
+      }
+      if (normalized === "false") {
+        return false;
+      }
+    }
+  }
+  return undefined;
+}
+
+function readMetadataRecordArrayByKeys(metadata, keys) {
+  for (const key of keys) {
+    const value = metadata?.[key];
+    if (Array.isArray(value)) {
+      return value.filter((entry) => entry && typeof entry === "object" && !Array.isArray(entry));
+    }
+  }
+  return [];
+}
+
+function buildFallbackAddOnLinksFromProductIds(metadata, addOnProductsById) {
+  const buildLinksForKind = (kind, keys) =>
+    readMetadataStringArray(metadata, keys).flatMap((productId) => {
+      const linkedProduct = addOnProductsById.get(productId);
+      if (!linkedProduct) {
+        return [];
+      }
+
+      const linkedMetadata = linkedProduct.metadata ?? {};
+      const subgroupTitle =
+        readMetadataStringArray(linkedMetadata, [
+          "source_add_on_subgroup_titles",
+          "sourceAddOnSubgroupTitles",
+        ])[0] || undefined;
+      const optionId =
+        readMetadataString(linkedMetadata, [
+          "source_add_on_option_id",
+          "sourceAddOnOptionId",
+        ]) ||
+        normalizeString(linkedProduct.handle) ||
+        productId;
+
+      return [
+        {
+          kind,
+          group_id: kind === "upgrade" ? "upgrades" : "accessories",
+          group_title: kind === "upgrade" ? "Upgrades" : "Accessories",
+          subgroup_title: subgroupTitle,
+          add_on_id: optionId,
+          title: normalizeString(linkedProduct.title) || undefined,
+          handle: normalizeString(linkedProduct.handle) || undefined,
+          sku: normalizeString(linkedProduct?.variants?.[0]?.sku) || undefined,
+          medusa_product_id: productId,
+          medusa_variant_id: normalizeString(linkedProduct?.variants?.[0]?.id) || undefined,
+          allows_quantity: readMetadataBoolean(linkedMetadata, [
+            "source_add_on_allows_quantity",
+            "sourceAddOnAllowsQuantity",
+          ]),
+          min_quantity: readMetadataNumber(linkedMetadata, [
+            "source_add_on_min_quantity",
+            "sourceAddOnMinQuantity",
+          ]),
+          step: readMetadataNumber(linkedMetadata, [
+            "source_add_on_step",
+            "sourceAddOnStep",
+          ]),
+          surcharge: readMetadataNumber(linkedMetadata, [
+            "source_add_on_price_surcharge",
+            "sourceAddOnPriceSurcharge",
+          ]),
+        },
+      ];
+    });
+
+  return [
+    ...buildLinksForKind("accessory", [
+      "source_accessory_product_ids",
+      "sourceAccessoryProductIds",
+    ]),
+    ...buildLinksForKind("upgrade", [
+      "source_upgrade_product_ids",
+      "sourceUpgradeProductIds",
+    ]),
+  ];
+}
+
 function firstNonEmptyArray(...candidates) {
   for (const candidate of candidates) {
     if (Array.isArray(candidate) && candidate.length > 0) {
@@ -124,6 +215,273 @@ function readPriceAmount(value) {
 
 function firstDefined(values) {
   return values.find((value) => value != null);
+}
+
+function buildAddOnProductLinkKey(groupId, addOnId, subgroupId) {
+  return `${groupId}::${subgroupId || ""}::${addOnId}`;
+}
+
+function readAddOnLinkString(record, keys) {
+  for (const key of keys) {
+    const value = record?.[key];
+    if (typeof value === "string" && value.trim()) {
+      return value.trim();
+    }
+  }
+  return undefined;
+}
+
+function readAddOnLinkNumber(record, keys) {
+  for (const key of keys) {
+    const value = record?.[key];
+    if (typeof value === "number" && Number.isFinite(value)) {
+      return value;
+    }
+    if (typeof value === "string" && value.trim()) {
+      const parsed = Number(value);
+      if (Number.isFinite(parsed)) {
+        return parsed;
+      }
+    }
+  }
+  return undefined;
+}
+
+function readAddOnLinkBoolean(record, keys) {
+  for (const key of keys) {
+    const value = record?.[key];
+    if (typeof value === "boolean") {
+      return value;
+    }
+    if (typeof value === "string") {
+      const normalized = value.trim().toLowerCase();
+      if (normalized === "true") {
+        return true;
+      }
+      if (normalized === "false") {
+        return false;
+      }
+    }
+  }
+  return undefined;
+}
+
+function normalizeAddOnSelectionMode(value) {
+  const normalized = normalizeString(value).toLowerCase();
+  return normalized === "single" || normalized === "multiple" ? normalized : undefined;
+}
+
+function isStandaloneAddOnProduct(product) {
+  const metadata = product?.metadata ?? {};
+  return (
+    readMetadataBoolean(metadata, ["is_add_on_product", "isAddOnProduct"]) === true ||
+    readMetadataString(metadata, ["source"]) === "notionworx-shared-addon" ||
+    Boolean(readMetadataString(metadata, ["source_add_on_option_id", "sourceAddOnOptionId"]))
+  );
+}
+
+function resolveLinkedAddOnProduct(link, addOnProductsById, addOnProductsByHandle) {
+  const medusaProductId = readAddOnLinkString(link, ["medusa_product_id", "medusaProductId"]);
+  if (medusaProductId && addOnProductsById.has(medusaProductId)) {
+    return addOnProductsById.get(medusaProductId);
+  }
+  const handle = readAddOnLinkString(link, ["handle"]);
+  if (handle && addOnProductsByHandle.has(handle)) {
+    return addOnProductsByHandle.get(handle);
+  }
+  return undefined;
+}
+
+function buildAddOnOptionFromLink(link, addOnProductsById, addOnProductsByHandle) {
+  const linkedProduct = resolveLinkedAddOnProduct(link, addOnProductsById, addOnProductsByHandle);
+  const linkedMetadata = linkedProduct?.metadata ?? {};
+  const linkedVariant = linkedProduct?.variants?.[0];
+  const linkedMedusaProductId =
+    normalizeString(linkedProduct?.id) ||
+    readAddOnLinkString(link, ["medusa_product_id", "medusaProductId"]);
+  const linkedMedusaVariantId =
+    normalizeString(linkedVariant?.id) ||
+    readAddOnLinkString(link, ["medusa_variant_id", "medusaVariantId"]);
+  const handle = normalizeString(linkedProduct?.handle) || readAddOnLinkString(link, ["handle"]);
+  const title = normalizeString(linkedProduct?.title) || readAddOnLinkString(link, ["title"]);
+  const addOnId = readAddOnLinkString(link, ["add_on_id", "addOnId"]) || handle;
+  if (!addOnId || !title) {
+    return null;
+  }
+
+  const price =
+    readPriceAmount(linkedVariant?.prices?.[0]?.amount) ||
+    readAddOnLinkNumber(link, ["surcharge"]) ||
+    readMetadataNumber(linkedMetadata, [
+      "source_add_on_price_surcharge",
+      "sourceAddOnPriceSurcharge",
+    ]);
+  if (typeof price !== "number") {
+    return null;
+  }
+
+  const subgroupTitle = readAddOnLinkString(link, ["subgroup_title", "subgroupTitle"]);
+  const groupTitle = readAddOnLinkString(link, ["group_title", "groupTitle"]);
+  const hoverDescription =
+    readAddOnLinkString(link, ["hover_description", "hoverDescription"]) ||
+    [subgroupTitle || groupTitle, `(+ $${price.toFixed(2)})`].filter(Boolean).join(" · ");
+  const linkedSourceProductId = readAddOnLinkNumber(link, [
+    "linked_source_product_id",
+    "linkedSourceProductId",
+  ]);
+  const linkedStorefrontProductId = readAddOnLinkNumber(link, [
+    "linked_storefront_product_id",
+    "linkedStorefrontProductId",
+  ]);
+  const allowsQuantity =
+    readAddOnLinkBoolean(link, ["allows_quantity", "allowsQuantity"]) ??
+    readMetadataBoolean(linkedMetadata, [
+      "source_add_on_allows_quantity",
+      "sourceAddOnAllowsQuantity",
+    ]);
+  const minQuantity =
+    readAddOnLinkNumber(link, ["min_quantity", "minQuantity"]) ??
+    readMetadataNumber(linkedMetadata, ["source_add_on_min_quantity", "sourceAddOnMinQuantity"]);
+  const maxQuantity = readAddOnLinkNumber(link, ["max_quantity", "maxQuantity"]);
+  const step =
+    readAddOnLinkNumber(link, ["step"]) ??
+    readMetadataNumber(linkedMetadata, ["source_add_on_step", "sourceAddOnStep"]);
+
+  return {
+    id: addOnId,
+    kind:
+      normalizeString(readAddOnLinkString(link, ["kind"])).toLowerCase() === "upgrade"
+        ? "upgrade"
+        : "accessory",
+    title,
+    ...(handle ? { handle } : {}),
+    ...(linkedMedusaProductId ? { linkedMedusaProductId } : {}),
+    ...(linkedMedusaVariantId ? { linkedMedusaVariantId } : {}),
+    ...(typeof linkedSourceProductId === "number" ? { linkedSourceProductId } : {}),
+    ...(typeof linkedStorefrontProductId === "number"
+      ? { linkedStorefrontProductId }
+      : {}),
+    ...(normalizeString(linkedVariant?.sku) ? { sku: normalizeString(linkedVariant?.sku) } : {}),
+    ...(normalizeImageUrl(linkedProduct?.thumbnail) ? { image: normalizeImageUrl(linkedProduct?.thumbnail) } : {}),
+    ...(hoverDescription ? { hoverDescription } : {}),
+    price: {
+      surcharge: price,
+      label: `(+ $${price.toFixed(2)})`,
+    },
+    ...(typeof allowsQuantity === "boolean" ? { allowsQuantity } : {}),
+    ...(typeof minQuantity === "number" ? { minQuantity } : {}),
+    ...(typeof maxQuantity === "number" ? { maxQuantity } : {}),
+    ...(typeof step === "number" ? { step } : {}),
+  };
+}
+
+function buildAddOnGroupsFromLinks(metadata, addOnProductsById, addOnProductsByHandle) {
+  const explicitLinks = readMetadataRecordArrayByKeys(metadata, [
+    "source_add_on_product_links",
+    "sourceAddOnProductLinks",
+  ]);
+  const links =
+    explicitLinks.length > 0
+      ? explicitLinks
+      : buildFallbackAddOnLinksFromProductIds(metadata, addOnProductsById);
+  if (!links.length) {
+    return undefined;
+  }
+
+  const groups = new Map();
+  for (const link of links) {
+    const kind =
+      normalizeString(readAddOnLinkString(link, ["kind"])).toLowerCase() === "upgrade"
+        ? "upgrade"
+        : "accessory";
+    const groupId = readAddOnLinkString(link, ["group_id", "groupId"]) || kind;
+    const groupTitle =
+      readAddOnLinkString(link, ["group_title", "groupTitle"]) ||
+      (kind === "upgrade" ? "Upgrades" : "Accessories");
+    const groupKey = `${kind}:${groupId}`;
+    const option = buildAddOnOptionFromLink(link, addOnProductsById, addOnProductsByHandle);
+    if (!option) {
+      continue;
+    }
+
+    if (!groups.has(groupKey)) {
+      groups.set(groupKey, {
+        id: groupId,
+        kind,
+        title: groupTitle,
+        displayStyle: "grid",
+        ...(normalizeAddOnSelectionMode(
+          readAddOnLinkString(link, ["group_selection_mode", "groupSelectionMode"]),
+        )
+          ? {
+              selectionMode: normalizeAddOnSelectionMode(
+                readAddOnLinkString(link, ["group_selection_mode", "groupSelectionMode"]),
+              ),
+            }
+          : {}),
+        ...(typeof readAddOnLinkNumber(link, ["group_max_selections", "groupMaxSelections"]) ===
+        "number"
+          ? {
+              maxSelections: readAddOnLinkNumber(link, [
+                "group_max_selections",
+                "groupMaxSelections",
+              ]),
+            }
+          : {}),
+        items: [],
+        subgroups: [],
+        _subgroupsByKey: new Map(),
+      });
+    }
+
+    const group = groups.get(groupKey);
+    const subgroupId = readAddOnLinkString(link, ["subgroup_id", "subgroupId"]);
+    const subgroupTitle = readAddOnLinkString(link, ["subgroup_title", "subgroupTitle"]);
+    if (subgroupId || subgroupTitle) {
+      const subgroupKey = subgroupId || subgroupTitle || option.id;
+      if (!group._subgroupsByKey.has(subgroupKey)) {
+        const subgroup = {
+          id: subgroupId || subgroupKey,
+          title: subgroupTitle || groupTitle,
+          ...(normalizeAddOnSelectionMode(
+            readAddOnLinkString(link, ["subgroup_selection_mode", "subgroupSelectionMode"]),
+          )
+            ? {
+                selectionMode: normalizeAddOnSelectionMode(
+                  readAddOnLinkString(link, ["subgroup_selection_mode", "subgroupSelectionMode"]),
+                ),
+              }
+            : {}),
+          ...(typeof readAddOnLinkNumber(link, [
+            "subgroup_max_selections",
+            "subgroupMaxSelections",
+          ]) === "number"
+            ? {
+                maxSelections: readAddOnLinkNumber(link, [
+                  "subgroup_max_selections",
+                  "subgroupMaxSelections",
+                ]),
+              }
+            : {}),
+          items: [],
+        };
+        group._subgroupsByKey.set(subgroupKey, subgroup);
+        group.subgroups.push(subgroup);
+      }
+      group._subgroupsByKey.get(subgroupKey).items.push(option);
+      continue;
+    }
+
+    group.items.push(option);
+  }
+
+  return [...groups.values()]
+    .map(({ _subgroupsByKey, ...group }) => ({
+      ...group,
+      ...(group.items.length ? { items: group.items } : {}),
+      ...(group.subgroups.length ? { subgroups: group.subgroups } : {}),
+    }))
+    .filter((group) => (group.items?.length || 0) > 0 || (group.subgroups?.length || 0) > 0);
 }
 
 function isDefaultVariantValue(value) {
@@ -192,7 +550,7 @@ function buildSizeVariants(metadata, variants) {
   }));
 }
 
-function buildProduct(product, sharedAddOnCatalog, orderIndexByHandle) {
+function buildProduct(product, addOnProductsById, addOnProductsByHandle, orderIndexByHandle) {
   const metadata = product.metadata ?? {};
   const handle =
     readMetadataString(metadata, ["source_handle", "sourceHandle"]) ??
@@ -251,13 +609,11 @@ function buildProduct(product, sharedAddOnCatalog, orderIndexByHandle) {
   const descriptionText =
     readMetadataString(metadata, ["description_text", "descriptionText"]) ??
     normalizeString(product.description);
-  const addOnGroupKeys =
-    readMetadataStringArray(metadata, ["source_add_on_group_keys", "sourceAddOnGroupKeys"]) ||
-    sharedAddOnCatalog.products?.[handle] ||
-    [];
-  const addOnGroups = addOnGroupKeys
-    .map((key) => sharedAddOnCatalog.groups?.[key])
-    .filter(Boolean);
+  const addOnGroups = buildAddOnGroupsFromLinks(
+    metadata,
+    addOnProductsById,
+    addOnProductsByHandle,
+  );
   const sourceVariants =
     readMetadataRecordArray(metadata, "source_variants") ||
     readMetadataRecordArray(primaryVariant?.metadata, "source_variants");
@@ -376,7 +732,7 @@ function buildProduct(product, sharedAddOnCatalog, orderIndexByHandle) {
         }
       : {}),
     ...(sku ? { sku } : {}),
-    ...(addOnGroups.length > 0 ? { addOnGroups } : {}),
+    ...(addOnGroups?.length ? { addOnGroups } : {}),
     badgeLabel: filterCategory[0] ?? undefined,
     badgeSubtext: `${imageUrls.length} product image${imageUrls.length === 1 ? "" : "s"} available`,
   };
@@ -476,7 +832,17 @@ async function main() {
   );
 
   const manifest = readJson(manifestPath);
-  const sharedAddOnCatalog = readJson(sharedProductAddOnCatalogPath);
+  const addOnProducts = products.filter((product) => isStandaloneAddOnProduct(product));
+  const addOnProductsById = new Map(
+    addOnProducts
+      .filter((product) => normalizeString(product.id))
+      .map((product) => [normalizeString(product.id), product]),
+  );
+  const addOnProductsByHandle = new Map(
+    addOnProducts
+      .filter((product) => normalizeString(product.handle))
+      .map((product) => [normalizeString(product.handle), product]),
+  );
   const orderIndexByHandle = new Map(
     (manifest.products ?? [])
       .filter((record) => typeof record.handle === "string" && record.handle.trim())
@@ -484,7 +850,10 @@ async function main() {
   );
 
   const storefrontProducts = products
-    .map((product) => buildProduct(product, sharedAddOnCatalog, orderIndexByHandle))
+    .filter((product) => !isStandaloneAddOnProduct(product))
+    .map((product) =>
+      buildProduct(product, addOnProductsById, addOnProductsByHandle, orderIndexByHandle),
+    )
     .filter(Boolean)
     .sort((left, right) => {
       const leftIndex = orderIndexByHandle.get(left.sourceHandle) ?? Number.MAX_SAFE_INTEGER;

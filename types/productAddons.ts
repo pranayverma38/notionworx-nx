@@ -16,6 +16,8 @@ export interface ProductAddOnOption {
   title: string;
   shortTitle?: string;
   handle?: string;
+  linkedMedusaProductId?: string;
+  linkedMedusaVariantId?: string;
   linkedStorefrontProductId?: number;
   linkedSourceProductId?: number;
   sku?: string;

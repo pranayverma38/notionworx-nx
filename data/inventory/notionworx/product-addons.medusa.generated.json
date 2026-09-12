@@ -1,0 +1,476 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-12T16:44:16.315873Z",
+  "optionCount": 52,
+  "parentProductCount": 34,
+  "options": {
+    "double-sided-walls-double-sided-10ft-back-wall": {
+      "id": "prod_01M2B668XRAMC1HJJ0M0JGWS6F",
+      "variant_id": "variant_01M2B66ACHJJJ5QKY1HDBJVKPF",
+      "handle": "nw-addon-double-sided-walls-double-sided-10ft-back-wall",
+      "sku": "NW-ADDON-DOUBLE-SIDED-WALLS-DOUBLE-SIDED-10FT-BACK-WALL",
+      "kind": "upgrade",
+      "title": "Double Sided 10Ft Back Wall",
+      "price": 100.0
+    },
+    "double-sided-walls-double-sided-15ft-back-wall": {
+      "id": "prod_01M2B66EKK6A3Z000YTFS500N6",
+      "variant_id": "variant_01M2B66G16RJBE0BH4QBK352HP",
+      "handle": "nw-addon-double-sided-walls-double-sided-15ft-back-wall",
+      "sku": "NW-ADDON-DOUBLE-SIDED-WALLS-DOUBLE-SIDED-15FT-BACK-WALL",
+      "kind": "upgrade",
+      "title": "Double Sided 15ft Back Wall",
+      "price": 130.0
+    },
+    "double-sided-walls-double-sided-15ft-back-wall-half-side-walls": {
+      "id": "prod_01M2B66M6Z1KGGY1F1290RP0WZ",
+      "variant_id": "variant_01M2B66NMD74HMDF7KVM32C9W9",
+      "handle": "nw-addon-double-sided-walls-double-sided-15ft-back-wall-half-side-walls",
+      "sku": "NW-ADDON-DOUBLE-SIDED-WALLS-DOUBLE-SIDED-15FT-BACK-WALL-HALF-SIDE-WALLS",
+      "kind": "upgrade",
+      "title": "Double Sided 15ft Back Wall & Half Side Walls",
+      "price": 150.0
+    },
+    "double-sided-walls-double-sided-20ft-back-wall": {
+      "id": "prod_01M2B66ST836DG87KD9Y2M6CPD",
+      "variant_id": "variant_01M2B66V7KN9XAN60T38AA79MW",
+      "handle": "nw-addon-double-sided-walls-double-sided-20ft-back-wall",
+      "sku": "NW-ADDON-DOUBLE-SIDED-WALLS-DOUBLE-SIDED-20FT-BACK-WALL",
+      "kind": "upgrade",
+      "title": "Double Sided 20ft Back Wall",
+      "price": 140.0
+    },
+    "double-sided-walls-double-sided-20ft-back-wall-half-side-walls": {
+      "id": "prod_01M2B66ZD9GK0B6RRC8V9ANKPZ",
+      "variant_id": "variant_01M2B670TK7B3E8TCFPSCV2ZY6",
+      "handle": "nw-addon-double-sided-walls-double-sided-20ft-back-wall-half-side-walls",
+      "sku": "NW-ADDON-DOUBLE-SIDED-WALLS-DOUBLE-SIDED-20FT-BACK-WALL-HALF-SIDE-WALLS",
+      "kind": "upgrade",
+      "title": "Double Sided 20ft Back Wall & Half Side Walls",
+      "price": 290.0
+    },
+    "double-sided-walls-double-sided-5ft-back-wall": {
+      "id": "prod_01M2B674Z3GCY2TDE2SZFAMCY6",
+      "variant_id": "variant_01M2B676CHZJXYCTBKPP754F7B",
+      "handle": "nw-addon-double-sided-walls-double-sided-5ft-back-wall",
+      "sku": "NW-ADDON-DOUBLE-SIDED-WALLS-DOUBLE-SIDED-5FT-BACK-WALL",
+      "kind": "upgrade",
+      "title": "Double Sided 5ft Back Wall",
+      "price": 75.0
+    },
+    "double-sided-walls-double-sided-5ft-back-wall-half-side-walls": {
+      "id": "prod_01M2B67AJMEQN6P007CVCR1Y1Z",
+      "variant_id": "variant_01M2B67BZSFA4PYQ5P97QEGN74",
+      "handle": "nw-addon-double-sided-walls-double-sided-5ft-back-wall-half-side-walls",
+      "sku": "NW-ADDON-DOUBLE-SIDED-WALLS-DOUBLE-SIDED-5FT-BACK-WALL-HALF-SIDE-WALLS",
+      "kind": "upgrade",
+      "title": "Double Sided 5ft Back Wall & Half Side Walls",
+      "price": 175.0
+    },
+    "double-sided-walls-double-sided-5ft-half-side-walls": {
+      "id": "prod_01M2B67G4639N995CNVRZ3F98D",
+      "variant_id": "variant_01M2B67HHK0M3B5C9WP6RH0V95",
+      "handle": "nw-addon-double-sided-walls-double-sided-5ft-half-side-walls",
+      "sku": "NW-ADDON-DOUBLE-SIDED-WALLS-DOUBLE-SIDED-5FT-HALF-SIDE-WALLS",
+      "kind": "upgrade",
+      "title": "Double Sided 5ft Half Side Walls",
+      "price": 100.0
+    },
+    "double-sided-walls-double-sided-5ft-side-walls": {
+      "id": "prod_01M2B67NPC72GEZDWHSBV60B56",
+      "variant_id": "variant_01M2B67Q3V6XDHTWJSE5Z6W6R7",
+      "handle": "nw-addon-double-sided-walls-double-sided-5ft-side-walls",
+      "sku": "NW-ADDON-DOUBLE-SIDED-WALLS-DOUBLE-SIDED-5FT-SIDE-WALLS",
+      "kind": "upgrade",
+      "title": "Double Sided 5ft Side Walls",
+      "price": 150.0
+    },
+    "double-sided-walls-double-sided-5ft-three-full-walls": {
+      "id": "prod_01M2B67V8GRBM6APXYG77H1NFT",
+      "variant_id": "variant_01M2B67WNMSEVESM5DJ1TZ24Q1",
+      "handle": "nw-addon-double-sided-walls-double-sided-5ft-three-full-walls",
+      "sku": "NW-ADDON-DOUBLE-SIDED-WALLS-DOUBLE-SIDED-5FT-THREE-FULL-WALLS",
+      "kind": "upgrade",
+      "title": "Double Sided 5ft Three Full Walls",
+      "price": 225.0
+    },
+    "double-sided-walls-double-sided-back-half-side-walls": {
+      "id": "prod_01M2B680TXQKNSR6Q8DF0GPKFY",
+      "variant_id": "variant_01M2B6828CHF0X0J98BVY9RA3J",
+      "handle": "nw-addon-double-sided-walls-double-sided-back-half-side-walls",
+      "sku": "NW-ADDON-DOUBLE-SIDED-WALLS-DOUBLE-SIDED-BACK-HALF-SIDE-WALLS",
+      "kind": "upgrade",
+      "title": "Double Sided Back & Half Side Walls",
+      "price": 250.0
+    },
+    "double-sided-walls-double-sided-back-wall": {
+      "id": "prod_01M2B686DG0C1SM0HPZ4V20CDJ",
+      "variant_id": "variant_01M2B687TVC6EYYEXVT3NTTNX4",
+      "handle": "nw-addon-double-sided-walls-double-sided-back-wall",
+      "sku": "NW-ADDON-DOUBLE-SIDED-WALLS-DOUBLE-SIDED-BACK-WALL",
+      "kind": "upgrade",
+      "title": "Double Sided Back Wall",
+      "price": 100.0
+    },
+    "double-sided-walls-double-sided-full-side-wall": {
+      "id": "prod_01M2B68BZNEYK8NJJRZWPWXB5E",
+      "variant_id": "variant_01M2B68DD1EGXC5A9ZYRWKFS64",
+      "handle": "nw-addon-double-sided-walls-double-sided-full-side-wall",
+      "sku": "NW-ADDON-DOUBLE-SIDED-WALLS-DOUBLE-SIDED-FULL-SIDE-WALL",
+      "kind": "upgrade",
+      "title": "Double Sided Full Side Wall",
+      "price": 200.0
+    },
+    "double-sided-walls-double-sided-full-side-walls": {
+      "id": "prod_01M2B68HHYT9JTM3CN8P3M09XF",
+      "variant_id": "variant_01M2B68JZFHDC2DP6KYYVCAA9V",
+      "handle": "nw-addon-double-sided-walls-double-sided-full-side-walls",
+      "sku": "NW-ADDON-DOUBLE-SIDED-WALLS-DOUBLE-SIDED-FULL-SIDE-WALLS",
+      "kind": "upgrade",
+      "title": "Double Sided Full Side Walls",
+      "price": 200.0
+    },
+    "double-sided-walls-double-sided-half-side-walls": {
+      "id": "prod_01M2B68Q6PFQ8S9YWQFQYPG3FJ",
+      "variant_id": "variant_01M2B68RMPE3NVVG74J9KKG2FG",
+      "handle": "nw-addon-double-sided-walls-double-sided-half-side-walls",
+      "sku": "NW-ADDON-DOUBLE-SIDED-WALLS-DOUBLE-SIDED-HALF-SIDE-WALLS",
+      "kind": "upgrade",
+      "title": "Double Sided Half Side Walls",
+      "price": 150.0
+    },
+    "double-sided-walls-double-sided-side-walls": {
+      "id": "prod_01M2B68WSCSX90MXM74K396CGS",
+      "variant_id": "variant_01M2B68Y71DMR23M62R54931P6",
+      "handle": "nw-addon-double-sided-walls-double-sided-side-walls",
+      "sku": "NW-ADDON-DOUBLE-SIDED-WALLS-DOUBLE-SIDED-SIDE-WALLS",
+      "kind": "upgrade",
+      "title": "Double Sided Side Walls",
+      "price": 200.0
+    },
+    "double-sided-walls-double-sided-three-full-walls": {
+      "id": "prod_01M2B692CM3QXG50JZYBHQ9Z33",
+      "variant_id": "variant_01M2B693T0D8V3PR6H7KZF2BKT",
+      "handle": "nw-addon-double-sided-walls-double-sided-three-full-walls",
+      "sku": "NW-ADDON-DOUBLE-SIDED-WALLS-DOUBLE-SIDED-THREE-FULL-WALLS",
+      "kind": "upgrade",
+      "title": "Double Sided Three Full Walls",
+      "price": 300.0
+    },
+    "essentials-10ft-awning": {
+      "id": "prod_01M2B6981V5DC0VYTXD5H97K56",
+      "variant_id": "variant_01M2B699M4XN529YYFSKGX12T7",
+      "handle": "nw-addon-essentials-10ft-awning",
+      "sku": "NW-ADDON-ESSENTIALS-10FT-AWNING",
+      "kind": "accessory",
+      "title": "10ft Awning",
+      "price": 235.0
+    },
+    "essentials-10ft-billboard": {
+      "id": "prod_01M2B69DRX9G0FTXGP5DH3VEM2",
+      "variant_id": "variant_01M2B69FADX91FKH7Z41S0EEKG",
+      "handle": "nw-addon-essentials-10ft-billboard",
+      "sku": "NW-ADDON-ESSENTIALS-10FT-BILLBOARD",
+      "kind": "accessory",
+      "title": "10ft Billboard",
+      "price": 285.0
+    },
+    "essentials-10ft-counter-top-w-vinyl-banner": {
+      "id": "prod_01M2B69KHDCYE1CWHMVHHWXP3B",
+      "variant_id": "variant_01M2B69N2X0ADG68PAPZZPG9DC",
+      "handle": "nw-addon-essentials-10ft-counter-top-w-vinyl-banner",
+      "sku": "NW-ADDON-ESSENTIALS-10FT-COUNTER-TOP-W-VINYL-BANNER",
+      "kind": "accessory",
+      "title": "10ft Counter Top w/ Vinyl Banner",
+      "price": 550.0
+    },
+    "essentials-4-pc-set": {
+      "id": "prod_01M2B69S7GR1VKX3SJV4657H6Y",
+      "variant_id": "variant_01M2B69TS1RYDYKPF5BFTNYGKQ",
+      "handle": "nw-addon-essentials-4-pc-set",
+      "sku": "NW-ADDON-ESSENTIALS-4-PC-SET",
+      "kind": "accessory",
+      "title": "4 Pc Set",
+      "price": 100.0
+    },
+    "essentials-6-pc-set": {
+      "id": "prod_01M2B69YYNTWHJWETF660CT3NE",
+      "variant_id": "variant_01M2B6A0G60YCN5KWRH3PN0YGX",
+      "handle": "nw-addon-essentials-6-pc-set",
+      "sku": "NW-ADDON-ESSENTIALS-6-PC-SET",
+      "kind": "accessory",
+      "title": "6 Pc Set",
+      "price": 150.0
+    },
+    "essentials-led-light": {
+      "id": "prod_01M2B6A4NCKCQW2EAM7E90WF9B",
+      "variant_id": "variant_01M2B6A66W9EPD3A0WGEGY12GW",
+      "handle": "nw-addon-essentials-led-light",
+      "sku": "NW-ADDON-ESSENTIALS-LED-LIGHT",
+      "kind": "accessory",
+      "title": "LED Light",
+      "price": 219.0
+    },
+    "essentials-led-lights": {
+      "id": "prod_01M2B6AAC2TWGWM04HKTG92YTE",
+      "variant_id": "variant_01M2B6ABXNGNMPZP2EGYFZEPYS",
+      "handle": "nw-addon-essentials-led-lights",
+      "sku": "NW-ADDON-ESSENTIALS-LED-LIGHTS",
+      "kind": "accessory",
+      "title": "LED Lights",
+      "price": 219.0
+    },
+    "essentials-led-ligths": {
+      "id": "prod_01M2B6AG2P1TF0TG66SFKQAHK3",
+      "variant_id": "variant_01M2B6AHMAKE2WN6WCA8RGXQ8E",
+      "handle": "nw-addon-essentials-led-ligths",
+      "sku": "NW-ADDON-ESSENTIALS-LED-LIGTHS",
+      "kind": "accessory",
+      "title": "LED Ligths",
+      "price": 219.0
+    },
+    "essentials-set-of-6-sandbags": {
+      "id": "prod_01M2B6ANSFESW4ZCD6RFQQZGYC",
+      "variant_id": "variant_01M2B6AQAY9SNGTWFVBZMAWX13",
+      "handle": "nw-addon-essentials-set-of-6-sandbags",
+      "sku": "NW-ADDON-ESSENTIALS-SET-OF-6-SANDBAGS",
+      "kind": "accessory",
+      "title": "Set of 6 Sandbags",
+      "price": 150.0
+    },
+    "feather-flags-12ft-stand-alone-flag-w-cross-base": {
+      "id": "prod_01M2B6AVGZAPV1B8X7N3ZGD231",
+      "variant_id": "variant_01M2B6AX2HVNMB86B8W9X9ZEGW",
+      "handle": "nw-addon-feather-flags-12ft-stand-alone-flag-w-cross-base",
+      "sku": "NW-ADDON-FEATHER-FLAGS-12FT-STAND-ALONE-FLAG-W-CROSS-BASE",
+      "kind": "accessory",
+      "title": "12ft Stand Alone Flag w/ Cross Base",
+      "price": 150.0
+    },
+    "feather-flags-15ft-stand-alone-flag-w-cross-base": {
+      "id": "prod_01M2B6B18G8AN06FY87K9RMA7C",
+      "variant_id": "variant_01M2B6B2T1S8QC5Q4K3PVJ69X7",
+      "handle": "nw-addon-feather-flags-15ft-stand-alone-flag-w-cross-base",
+      "sku": "NW-ADDON-FEATHER-FLAGS-15FT-STAND-ALONE-FLAG-W-CROSS-BASE",
+      "kind": "accessory",
+      "title": "15ft Stand Alone Flag w/ Cross Base",
+      "price": 160.0
+    },
+    "feather-flags-9ft-mounted-flag-w-mounting-kit": {
+      "id": "prod_01M2B6B6Z6FAZT1F0RDNSCXHCT",
+      "variant_id": "variant_01M2B6B8GNASC1MR5ABW9DWXZ3",
+      "handle": "nw-addon-feather-flags-9ft-mounted-flag-w-mounting-kit",
+      "sku": "NW-ADDON-FEATHER-FLAGS-9FT-MOUNTED-FLAG-W-MOUNTING-KIT",
+      "kind": "accessory",
+      "title": "9ft Mounted Flag w/ Mounting Kit",
+      "price": 150.0
+    },
+    "feather-flags-9ft-stand-alone-flag-w-cross-base": {
+      "id": "prod_01M2B6BCNQB6MRYJZWGCREWM6F",
+      "variant_id": "variant_01M2B6BE77P3XGQDED1QSFDC9Q",
+      "handle": "nw-addon-feather-flags-9ft-stand-alone-flag-w-cross-base",
+      "sku": "NW-ADDON-FEATHER-FLAGS-9FT-STAND-ALONE-FLAG-W-CROSS-BASE",
+      "kind": "accessory",
+      "title": "9ft Stand Alone Flag w/ Cross Base",
+      "price": 140.0
+    },
+    "feather-flags-make-it-15ft-stand-alone-flag-w-cross-base": {
+      "id": "prod_01M2B6BJC5ZA93S7624K1JNYNT",
+      "variant_id": "variant_01M2B6BKXNKV6KW6F6YNVD79M3",
+      "handle": "nw-addon-feather-flags-make-it-15ft-stand-alone-flag-w-cross-base",
+      "sku": "NW-ADDON-FEATHER-FLAGS-MAKE-IT-15FT-STAND-ALONE-FLAG-W-CROSS-BASE",
+      "kind": "accessory",
+      "title": "Make It! 15ft Stand Alone Flag w/ Cross Base",
+      "price": 20.0
+    },
+    "full-walls-fabric-from-bottom-to-top-no-mesh-make-it-full-front-wall": {
+      "id": "prod_01M2B6BR2GXSH5885G0H7WJVA3",
+      "variant_id": "variant_01M2B6BSFXRGA50T46CWYV5CFC",
+      "handle": "nw-addon-full-walls-fabric-from-bottom-to-top-no-mesh-make-it-full-front-wall",
+      "sku": "NW-ADDON-FULL-WALLS-FABRIC-FROM-BOTTOM-TO-TOP-NO-MESH-MAKE-IT-FULL-FRONT-WALL",
+      "kind": "upgrade",
+      "title": "Make it! Full Front Wall",
+      "price": 50.0
+    },
+    "full-walls-fabric-from-bottom-to-top-no-mesh-make-it-full-front-wall-side-walls": {
+      "id": "prod_01M2B6BXNP4F7PDN1J5C6Z74Q0",
+      "variant_id": "variant_01M2B6BZ30630EBM6KHJFBM4P9",
+      "handle": "nw-addon-full-walls-fabric-from-bottom-to-top-no-mesh-make-it-full-front-wall-side-walls",
+      "sku": "NW-ADDON-FULL-WALLS-FABRIC-FROM-BOTTOM-TO-TOP-NO-MESH-MAKE-IT-FULL-FRONT-WALL-SIDE-WALLS",
+      "kind": "upgrade",
+      "title": "Make it! Full Front Wall & Side Walls",
+      "price": 150.0
+    },
+    "full-walls-fabric-from-bottom-to-top-no-mesh-make-it-full-side-walls": {
+      "id": "prod_01M2B6C38JFY5S498XCP3V2T13",
+      "variant_id": "variant_01M2B6C4NXVF8SGE7WCHCJ15QE",
+      "handle": "nw-addon-full-walls-fabric-from-bottom-to-top-no-mesh-make-it-full-side-walls",
+      "sku": "NW-ADDON-FULL-WALLS-FABRIC-FROM-BOTTOM-TO-TOP-NO-MESH-MAKE-IT-FULL-SIDE-WALLS",
+      "kind": "upgrade",
+      "title": "Make It! Full Side Walls",
+      "price": 100.0
+    },
+    "full-walls-fabric-from-bottom-to-top-no-mesh-make-it-full-side-walls-full-front-wall": {
+      "id": "prod_01M2B6C8WCQ8BBHP043G1DETCW",
+      "variant_id": "variant_01M2B6CA7PFCCA6BKJ1433MF8T",
+      "handle": "nw-addon-full-walls-fabric-from-bottom-to-top-no-mesh-make-it-full-side-walls-full-front-wall",
+      "sku": "NW-ADDON-FULL-WALLS-FABRIC-FROM-BOTTOM-TO-TOP-NO-MESH-MAKE-IT-FULL-SIDE-WALLS-FULL-FRONT-WALL",
+      "kind": "upgrade",
+      "title": "Make it! Full Side Walls & Full Front Wall",
+      "price": 175.0
+    },
+    "table-cover-4ft-stretch-table-cover": {
+      "id": "prod_01M2B6CE9VQT8Q4CNY7DDMN1H9",
+      "variant_id": "variant_01M2B6CFVA2G9PX7SP2A371FZM",
+      "handle": "nw-addon-table-cover-4ft-stretch-table-cover",
+      "sku": "NW-ADDON-TABLE-COVER-4FT-STRETCH-TABLE-COVER",
+      "kind": "accessory",
+      "title": "4ft Stretch Table Cover",
+      "price": 125.0
+    },
+    "table-cover-6ft-draped-table-cover": {
+      "id": "prod_01M2B6CM1XYJ9NMH6070S4XBYC",
+      "variant_id": "variant_01M2B6CNKA71NEPEGQ9VEN4ADW",
+      "handle": "nw-addon-table-cover-6ft-draped-table-cover",
+      "sku": "NW-ADDON-TABLE-COVER-6FT-DRAPED-TABLE-COVER",
+      "kind": "accessory",
+      "title": "6ft Draped Table Cover",
+      "price": 145.0
+    },
+    "table-cover-6ft-fitted-table-cover": {
+      "id": "prod_01M2B6CSQV9YTD2N0GS3TDV2TH",
+      "variant_id": "variant_01M2B6CV9AGV99J7RFG5MXEWHP",
+      "handle": "nw-addon-table-cover-6ft-fitted-table-cover",
+      "sku": "NW-ADDON-TABLE-COVER-6FT-FITTED-TABLE-COVER",
+      "kind": "accessory",
+      "title": "6ft Fitted Table Cover",
+      "price": 145.0
+    },
+    "table-cover-6ft-stretch-table-cover": {
+      "id": "prod_01M2B6CZFB8R9K6V16CJQY3FGB",
+      "variant_id": "variant_01M2B6D10RBMY1PDV985E7ZJF3",
+      "handle": "nw-addon-table-cover-6ft-stretch-table-cover",
+      "sku": "NW-ADDON-TABLE-COVER-6FT-STRETCH-TABLE-COVER",
+      "kind": "accessory",
+      "title": "6ft Stretch Table Cover",
+      "price": 135.0
+    },
+    "table-cover-make-it-6ft-draped-for": {
+      "id": "prod_01M2B6D572AAXMSXD7PJHGV6SQ",
+      "variant_id": "variant_01M2B6D6RND085W9QXC8H21R3M",
+      "handle": "nw-addon-table-cover-make-it-6ft-draped-for",
+      "sku": "NW-ADDON-TABLE-COVER-MAKE-IT-6FT-DRAPED-FOR",
+      "kind": "accessory",
+      "title": "Make It! 6ft Draped For",
+      "price": 10.0
+    },
+    "table-cover-make-it-6ft-fitted-for": {
+      "id": "prod_01M2B6DAZ7AJV0GZWPT1VZWEZR",
+      "variant_id": "variant_01M2B6DCGR60CAD9VBV7KCK7QG",
+      "handle": "nw-addon-table-cover-make-it-6ft-fitted-for",
+      "sku": "NW-ADDON-TABLE-COVER-MAKE-IT-6FT-FITTED-FOR",
+      "kind": "accessory",
+      "title": "Make It! 6ft Fitted For",
+      "price": 10.0
+    },
+    "vented-top-vent": {
+      "id": "prod_01M2B6DGQ5QHYPSRHFKQJ9GBNX",
+      "variant_id": "variant_01M2B6DJ8PTKJKAFGB7ZZ3DYBH",
+      "handle": "nw-addon-vented-top-vent",
+      "sku": "NW-ADDON-VENTED-TOP-VENT",
+      "kind": "upgrade",
+      "title": "Vent",
+      "price": 50.0
+    },
+    "walls-15ft-back-wall": {
+      "id": "prod_01M2B6DPDCNXPNC5P29HV8PGNP",
+      "variant_id": "variant_01M2B6DQYWM4TQMX4KXT89Z2SK",
+      "handle": "nw-addon-walls-15ft-back-wall",
+      "sku": "NW-ADDON-WALLS-15FT-BACK-WALL",
+      "kind": "upgrade",
+      "title": "15ft Back Wall",
+      "price": 200.0
+    },
+    "walls-15ft-back-wall-half-side-walls": {
+      "id": "prod_01M2B6DW3XT5RZY3W499CN78A8",
+      "variant_id": "variant_01M2B6DXNBG859KG7KCGXS9SBR",
+      "handle": "nw-addon-walls-15ft-back-wall-half-side-walls",
+      "sku": "NW-ADDON-WALLS-15FT-BACK-WALL-HALF-SIDE-WALLS",
+      "kind": "upgrade",
+      "title": "15ft Back Wall & Half Side Walls",
+      "price": 300.0
+    },
+    "walls-15ft-three-full-walls": {
+      "id": "prod_01M2B6E1VN1AHNNHE42TRKCA51",
+      "variant_id": "variant_01M2B6E3D6TPYSE0ZXBQZWK0HC",
+      "handle": "nw-addon-walls-15ft-three-full-walls",
+      "sku": "NW-ADDON-WALLS-15FT-THREE-FULL-WALLS",
+      "kind": "upgrade",
+      "title": "15ft Three Full Walls",
+      "price": 400.0
+    },
+    "walls-20ft-back-wall": {
+      "id": "prod_01M2B6E7J4FGZ7F5D88EGZ0RBM",
+      "variant_id": "variant_01M2B6E93JQNQQFP0V3S3GNJG5",
+      "handle": "nw-addon-walls-20ft-back-wall",
+      "sku": "NW-ADDON-WALLS-20FT-BACK-WALL",
+      "kind": "upgrade",
+      "title": "20ft Back Wall",
+      "price": 255.0
+    },
+    "walls-20ft-back-wall-half-side-walls": {
+      "id": "prod_01M2B6ED8H4H18B9XWXTMCZYPR",
+      "variant_id": "variant_01M2B6EET95PMM31FD2K3AZHBR",
+      "handle": "nw-addon-walls-20ft-back-wall-half-side-walls",
+      "sku": "NW-ADDON-WALLS-20FT-BACK-WALL-HALF-SIDE-WALLS",
+      "kind": "upgrade",
+      "title": "20ft Back Wall & Half Side Walls",
+      "price": 520.0
+    },
+    "walls-20ft-three-full-walls": {
+      "id": "prod_01M2B6EK0C52J9TVF50M1YXXGD",
+      "variant_id": "variant_01M2B6EMHWWFBEB1C3EN5PG8NN",
+      "handle": "nw-addon-walls-20ft-three-full-walls",
+      "sku": "NW-ADDON-WALLS-20FT-THREE-FULL-WALLS",
+      "kind": "upgrade",
+      "title": "20ft Three Full Walls",
+      "price": 455.0
+    },
+    "walls-back-wall": {
+      "id": "prod_01M2B6ERPV9QNAPHEC2EVDVG3P",
+      "variant_id": "variant_01M2B6ET8BYGGS6SX95X1XQVGF",
+      "handle": "nw-addon-walls-back-wall",
+      "sku": "NW-ADDON-WALLS-BACK-WALL",
+      "kind": "upgrade",
+      "title": "Back Wall",
+      "price": 100.0
+    },
+    "walls-back-wall-half-side-walls": {
+      "id": "prod_01M2B6EYCTGHQDSEZ6VVTH6FWP",
+      "variant_id": "variant_01M2B6EZYBD26VEDG4SWBK69ZJ",
+      "handle": "nw-addon-walls-back-wall-half-side-walls",
+      "sku": "NW-ADDON-WALLS-BACK-WALL-HALF-SIDE-WALLS",
+      "kind": "upgrade",
+      "title": "Back Wall & Half Side Walls",
+      "price": 300.0
+    },
+    "walls-three-full-walls": {
+      "id": "prod_01M2B6F4347F43R5RAFBGHT0JD",
+      "variant_id": "variant_01M2B6F5MNF68M9NVGWHF7F2JJ",
+      "handle": "nw-addon-walls-three-full-walls",
+      "sku": "NW-ADDON-WALLS-THREE-FULL-WALLS",
+      "kind": "upgrade",
+      "title": "Three Full Walls",
+      "price": 400.0
+    },
+    "weighted-sandbags-4-pc-set": {
+      "id": "prod_01M2B6F9SBABCW2NY5G4S5ZH7Q",
+      "variant_id": "variant_01M2B6FBASJDG7H4DQAWD0GC2W",
+      "handle": "nw-addon-weighted-sandbags-4-pc-set",
+      "sku": "NW-ADDON-WEIGHTED-SANDBAGS-4-PC-SET",
+      "kind": "accessory",
+      "title": "4 Pc Set",
+      "price": 100.0
+    }
+  }
+}

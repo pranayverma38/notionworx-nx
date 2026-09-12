@@ -6,13 +6,8 @@ import { cache } from "react";
 
 import { categoriesCollection } from "@/data/categories";
 import { products as localProducts } from "@/data/products/products";
-import {
-  getSharedProductAddOnGroupsByHandle,
-  getSharedProductAddOnGroupsByKeys,
-  getSharedProductAddOnKeysByHandle,
-} from "@/lib/notionworx-shared-addons";
 import type { Category } from "@/types/categories";
-import type { ProductAddOnGroup } from "@/types/productAddons";
+import type { ProductAddOnGroup, ProductAddOnOption } from "@/types/productAddons";
 import type {
   ProductCardItem,
   ProductSingleImage,
@@ -129,6 +124,11 @@ type MedusaRegionsResponse = {
   regions?: Array<{ id?: string }>;
 };
 
+type MedusaProductIndex = {
+  byId: Map<string, MedusaProduct>;
+  byHandle: Map<string, MedusaProduct>;
+};
+
 function getMedusaConfig() {
   const backendUrl =
     process.env.MEDUSA_BACKEND_URL?.trim().replace(/\/+$/, "") ?? "";
@@ -192,6 +192,29 @@ function readMetadataString(
     const value = metadata[key];
     if (typeof value === "string" && value.trim().length > 0) {
       return value.trim();
+    }
+  }
+
+  return undefined;
+}
+
+function readMetadataBoolean(
+  metadata: JsonRecord | null | undefined,
+  keys: string[],
+): boolean | undefined {
+  for (const key of keys) {
+    const value = metadata?.[key];
+    if (typeof value === "boolean") {
+      return value;
+    }
+    if (typeof value === "string") {
+      const normalized = value.trim().toLowerCase();
+      if (normalized === "true") {
+        return true;
+      }
+      if (normalized === "false") {
+        return false;
+      }
     }
   }
 
@@ -653,6 +676,434 @@ function isFrameTypeAddOnGroup(group: ProductAddOnGroup): boolean {
   });
 }
 
+type AddOnProductLinkRecord = {
+  add_on_id?: string;
+  addOnId?: string;
+  group_id?: string;
+  groupId?: string;
+  subgroup_id?: string;
+  subgroupId?: string;
+  handle?: string;
+  sku?: string;
+  medusa_product_id?: string;
+  medusaProductId?: string;
+  medusa_variant_id?: string;
+  medusaVariantId?: string;
+  linked_source_product_id?: number;
+  linkedSourceProductId?: number;
+  linked_storefront_product_id?: number;
+  linkedStorefrontProductId?: number;
+  group_selection_mode?: string;
+  groupSelectionMode?: string;
+  group_max_selections?: number;
+  groupMaxSelections?: number;
+  subgroup_selection_mode?: string;
+  subgroupSelectionMode?: string;
+  subgroup_max_selections?: number;
+  subgroupMaxSelections?: number;
+  hover_title?: string;
+  hoverTitle?: string;
+  hover_description?: string;
+  hoverDescription?: string;
+  allows_quantity?: boolean;
+  allowsQuantity?: boolean;
+  min_quantity?: number;
+  minQuantity?: number;
+  max_quantity?: number;
+  maxQuantity?: number;
+  step?: number;
+};
+
+function readAddOnLinkString(
+  record: AddOnProductLinkRecord,
+  keys: string[],
+): string | undefined {
+  for (const key of keys) {
+    const value = record[key as keyof AddOnProductLinkRecord];
+    if (typeof value === "string" && value.trim()) {
+      return value.trim();
+    }
+  }
+
+  return undefined;
+}
+
+function readAddOnLinkNumber(
+  record: AddOnProductLinkRecord,
+  keys: string[],
+): number | undefined {
+  for (const key of keys) {
+    const value = record[key as keyof AddOnProductLinkRecord];
+    if (typeof value === "number" && Number.isFinite(value)) {
+      return value;
+    }
+    if (typeof value === "string" && value.trim()) {
+      const parsed = Number(value);
+      if (Number.isFinite(parsed)) {
+        return parsed;
+      }
+    }
+  }
+
+  return undefined;
+}
+
+function readAddOnLinkBoolean(
+  record: AddOnProductLinkRecord,
+  keys: string[],
+): boolean | undefined {
+  for (const key of keys) {
+    const value = record[key as keyof AddOnProductLinkRecord];
+    if (typeof value === "boolean") {
+      return value;
+    }
+    if (typeof value === "string") {
+      const normalized = value.trim().toLowerCase();
+      if (normalized === "true") {
+        return true;
+      }
+      if (normalized === "false") {
+        return false;
+      }
+    }
+  }
+
+  return undefined;
+}
+
+function buildAddOnProductLinkKey(
+  groupId: string,
+  addOnId: string,
+  subgroupId?: string,
+): string {
+  return `${groupId}::${subgroupId ?? ""}::${addOnId}`;
+}
+
+function readAddOnProductLinks(metadata: JsonRecord | null | undefined): AddOnProductLinkRecord[] {
+  return [
+    ...readMetadataRecordArray(metadata, "source_add_on_product_links"),
+    ...readMetadataRecordArray(metadata, "sourceAddOnProductLinks"),
+  ] as AddOnProductLinkRecord[];
+}
+
+function buildFallbackAddOnLinksFromProductIds(
+  metadata: JsonRecord | null | undefined,
+  addOnProducts: MedusaProductIndex,
+): AddOnProductLinkRecord[] {
+  const buildLinksForKind = (
+    kind: "accessory" | "upgrade",
+    keys: string[],
+  ): AddOnProductLinkRecord[] =>
+    readMetadataStringArray(metadata, keys).flatMap((productId) => {
+      const linkedProduct = addOnProducts.byId.get(productId);
+      if (!linkedProduct) {
+        return [];
+      }
+
+      const linkedMetadata = linkedProduct.metadata;
+      const subgroupTitle = readMetadataStringArray(linkedMetadata, [
+        "source_add_on_subgroup_titles",
+        "sourceAddOnSubgroupTitles",
+      ])[0];
+      const optionId =
+        readMetadataString(linkedMetadata, [
+          "source_add_on_option_id",
+          "sourceAddOnOptionId",
+        ]) ??
+        linkedProduct.handle?.trim() ??
+        productId;
+
+      return [
+        {
+          kind,
+          group_id: kind === "upgrade" ? "upgrades" : "accessories",
+          group_title: kind === "upgrade" ? "Upgrades" : "Accessories",
+          subgroup_title: subgroupTitle,
+          add_on_id: optionId,
+          title: linkedProduct.title?.trim(),
+          handle: linkedProduct.handle?.trim(),
+          sku: linkedProduct.variants?.[0]?.sku?.trim() ?? undefined,
+          medusa_product_id: productId,
+          medusa_variant_id: linkedProduct.variants?.[0]?.id?.trim() ?? undefined,
+          allows_quantity: readMetadataBoolean(linkedMetadata, [
+            "source_add_on_allows_quantity",
+            "sourceAddOnAllowsQuantity",
+          ]),
+          min_quantity: readMetadataNumber(linkedMetadata, [
+            "source_add_on_min_quantity",
+            "sourceAddOnMinQuantity",
+          ]),
+          step: readMetadataNumber(linkedMetadata, [
+            "source_add_on_step",
+            "sourceAddOnStep",
+          ]),
+          surcharge: readMetadataNumber(linkedMetadata, [
+            "source_add_on_price_surcharge",
+            "sourceAddOnPriceSurcharge",
+          ]),
+        },
+      ];
+    });
+
+  return [
+    ...buildLinksForKind("accessory", [
+      "source_accessory_product_ids",
+      "sourceAccessoryProductIds",
+    ]),
+    ...buildLinksForKind("upgrade", [
+      "source_upgrade_product_ids",
+      "sourceUpgradeProductIds",
+    ]),
+  ];
+}
+
+function normalizeAddOnSelectionMode(value?: string): "single" | "multiple" | undefined {
+  const normalized = value?.trim().toLowerCase();
+  if (normalized === "single" || normalized === "multiple") {
+    return normalized;
+  }
+  return undefined;
+}
+
+function readPrimaryProductImage(product?: MedusaProduct): string | undefined {
+  if (!product) {
+    return undefined;
+  }
+
+  return pickImageUrls(product)[0];
+}
+
+function isStandaloneAddOnProduct(product: MedusaProduct): boolean {
+  const metadata = product.metadata;
+  return (
+    readMetadataBoolean(metadata, ["is_add_on_product", "isAddOnProduct"]) === true ||
+    readMetadataString(metadata, ["source"]) === "notionworx-shared-addon" ||
+    Boolean(readMetadataString(metadata, ["source_add_on_option_id", "sourceAddOnOptionId"]))
+  );
+}
+
+function resolveLinkedAddOnProduct(
+  link: AddOnProductLinkRecord,
+  addOnProducts: MedusaProductIndex,
+): MedusaProduct | undefined {
+  const medusaProductId = readAddOnLinkString(link, [
+    "medusa_product_id",
+    "medusaProductId",
+  ]);
+  if (medusaProductId && addOnProducts.byId.has(medusaProductId)) {
+    return addOnProducts.byId.get(medusaProductId);
+  }
+
+  const handle = readAddOnLinkString(link, ["handle"]);
+  if (handle && addOnProducts.byHandle.has(handle)) {
+    return addOnProducts.byHandle.get(handle);
+  }
+
+  return undefined;
+}
+
+function buildAddOnOptionFromLink(
+  link: AddOnProductLinkRecord,
+  addOnProducts: MedusaProductIndex,
+): ProductAddOnOption | null {
+  const linkedProduct = resolveLinkedAddOnProduct(link, addOnProducts);
+  const linkedMetadata = linkedProduct?.metadata;
+  const linkedVariant = linkedProduct ? getPrimaryVariant(linkedProduct.variants ?? []) : undefined;
+  const linkedMedusaProductId =
+    linkedProduct?.id?.trim() ??
+    readAddOnLinkString(link, ["medusa_product_id", "medusaProductId"]);
+  const linkedMedusaVariantId =
+    linkedVariant?.id?.trim() ??
+    readAddOnLinkString(link, ["medusa_variant_id", "medusaVariantId"]);
+  const handle =
+    linkedProduct?.handle?.trim() ?? readAddOnLinkString(link, ["handle"]);
+  const title =
+    linkedProduct?.title?.trim() ?? readAddOnLinkString(link, ["title"]);
+  const addOnId = readAddOnLinkString(link, ["add_on_id", "addOnId"]) ?? handle;
+  if (!addOnId || !title) {
+    return null;
+  }
+
+  const price =
+    extractVariantPrice(linkedVariant) ??
+    readAddOnLinkNumber(link, ["surcharge"]) ??
+    readMetadataNumber(linkedMetadata, [
+      "source_add_on_price_surcharge",
+      "sourceAddOnPriceSurcharge",
+    ]);
+  if (typeof price !== "number") {
+    return null;
+  }
+
+  const subgroupTitle = readAddOnLinkString(link, ["subgroup_title", "subgroupTitle"]);
+  const groupTitle = readAddOnLinkString(link, ["group_title", "groupTitle"]);
+  const hoverDescription =
+    readAddOnLinkString(link, ["hover_description", "hoverDescription"]) ??
+    [subgroupTitle ?? groupTitle, `(+ $${price.toFixed(2)})`].filter(Boolean).join(" · ");
+  const linkedSourceProductId = readAddOnLinkNumber(link, [
+    "linked_source_product_id",
+    "linkedSourceProductId",
+  ]);
+  const linkedStorefrontProductId = readAddOnLinkNumber(link, [
+    "linked_storefront_product_id",
+    "linkedStorefrontProductId",
+  ]);
+  const allowsQuantity =
+    readAddOnLinkBoolean(link, ["allows_quantity", "allowsQuantity"]) ??
+    readMetadataBoolean(linkedMetadata, [
+      "source_add_on_allows_quantity",
+      "sourceAddOnAllowsQuantity",
+    ]);
+  const minQuantity =
+    readAddOnLinkNumber(link, ["min_quantity", "minQuantity"]) ??
+    readMetadataNumber(linkedMetadata, [
+      "source_add_on_min_quantity",
+      "sourceAddOnMinQuantity",
+    ]);
+  const maxQuantity =
+    readAddOnLinkNumber(link, ["max_quantity", "maxQuantity"]);
+  const step =
+    readAddOnLinkNumber(link, ["step"]) ??
+    readMetadataNumber(linkedMetadata, ["source_add_on_step", "sourceAddOnStep"]);
+
+  return {
+    id: addOnId,
+    kind:
+      normalizeCollectionName(
+        readAddOnLinkString(link, ["kind"]) ??
+          readMetadataString(linkedMetadata, ["source_add_on_kind", "sourceAddOnKind"]),
+      ) === "UPGRADE"
+        ? "upgrade"
+        : "accessory",
+    title,
+    ...(handle ? { handle } : {}),
+    ...(linkedMedusaProductId ? { linkedMedusaProductId } : {}),
+    ...(linkedMedusaVariantId ? { linkedMedusaVariantId } : {}),
+    ...(typeof linkedSourceProductId === "number" ? { linkedSourceProductId } : {}),
+    ...(typeof linkedStorefrontProductId === "number"
+      ? { linkedStorefrontProductId }
+      : {}),
+    ...(linkedVariant?.sku?.trim() ? { sku: linkedVariant.sku.trim() } : {}),
+    ...(readPrimaryProductImage(linkedProduct) ? { image: readPrimaryProductImage(linkedProduct) } : {}),
+    ...(hoverDescription ? { hoverDescription } : {}),
+    price: {
+      surcharge: price,
+      label: `(+ $${price.toFixed(2)})`,
+    },
+    ...(typeof allowsQuantity === "boolean" ? { allowsQuantity } : {}),
+    ...(typeof minQuantity === "number" ? { minQuantity } : {}),
+    ...(typeof maxQuantity === "number" ? { maxQuantity } : {}),
+    ...(typeof step === "number" ? { step } : {}),
+  };
+}
+
+function buildAddOnGroupsFromLinks(
+  metadata: JsonRecord | null | undefined,
+  addOnProducts: MedusaProductIndex,
+): ProductAddOnGroup[] | undefined {
+  const explicitLinks = readAddOnProductLinks(metadata);
+  const links =
+    explicitLinks.length > 0
+      ? explicitLinks
+      : buildFallbackAddOnLinksFromProductIds(metadata, addOnProducts);
+  if (!links.length) {
+    return undefined;
+  }
+
+  type MutableSubgroup = NonNullable<ProductAddOnGroup["subgroups"]>[number];
+  type MutableGroup = ProductAddOnGroup & {
+    items: ProductAddOnOption[];
+    subgroups: MutableSubgroup[];
+    _subgroupsByKey: Map<string, MutableSubgroup>;
+  };
+
+  const groups = new Map<string, MutableGroup>();
+
+  for (const link of links) {
+    const kind =
+      normalizeCollectionName(readAddOnLinkString(link, ["kind"])) === "UPGRADE"
+        ? "upgrade"
+        : "accessory";
+    const groupId = readAddOnLinkString(link, ["group_id", "groupId"]) ?? kind;
+    const groupTitle =
+      readAddOnLinkString(link, ["group_title", "groupTitle"]) ??
+      (kind === "upgrade" ? "Upgrades" : "Accessories");
+    const groupKey = `${kind}:${groupId}`;
+    const groupSelectionMode = normalizeAddOnSelectionMode(
+      readAddOnLinkString(link, ["group_selection_mode", "groupSelectionMode"]),
+    );
+    const groupMaxSelections = readAddOnLinkNumber(link, [
+      "group_max_selections",
+      "groupMaxSelections",
+    ]);
+    const option = buildAddOnOptionFromLink(link, addOnProducts);
+    if (!option) {
+      continue;
+    }
+
+    if (!groups.has(groupKey)) {
+      groups.set(groupKey, {
+        id: groupId,
+        kind,
+        title: groupTitle,
+        displayStyle: "grid",
+        ...(groupSelectionMode ? { selectionMode: groupSelectionMode } : {}),
+        ...(typeof groupMaxSelections === "number"
+          ? { maxSelections: groupMaxSelections }
+          : {}),
+        items: [],
+        subgroups: [],
+        _subgroupsByKey: new Map<string, MutableSubgroup>(),
+      });
+    }
+
+    const group = groups.get(groupKey)!;
+    const subgroupId = readAddOnLinkString(link, ["subgroup_id", "subgroupId"]);
+    const subgroupTitle = readAddOnLinkString(link, ["subgroup_title", "subgroupTitle"]);
+    if (subgroupId || subgroupTitle) {
+      const subgroupKey = subgroupId ?? subgroupTitle ?? option.id;
+      if (!group._subgroupsByKey.has(subgroupKey)) {
+        const subgroupSelectionMode = normalizeAddOnSelectionMode(
+          readAddOnLinkString(link, ["subgroup_selection_mode", "subgroupSelectionMode"]),
+        );
+        const subgroupMaxSelections = readAddOnLinkNumber(link, [
+          "subgroup_max_selections",
+          "subgroupMaxSelections",
+        ]);
+        const subgroup: MutableSubgroup = {
+          id: subgroupId ?? subgroupKey,
+          title: subgroupTitle ?? groupTitle,
+          ...(subgroupSelectionMode ? { selectionMode: subgroupSelectionMode } : {}),
+          ...(typeof subgroupMaxSelections === "number"
+            ? { maxSelections: subgroupMaxSelections }
+            : {}),
+          items: [],
+        };
+        group._subgroupsByKey.set(subgroupKey, subgroup);
+        group.subgroups.push(subgroup);
+      }
+
+      group._subgroupsByKey.get(subgroupKey)!.items.push(option);
+      continue;
+    }
+
+    group.items.push(option);
+  }
+
+  const finalizedGroups = [...groups.values()]
+    .map(({ _subgroupsByKey: _subgroupsByKey, ...group }) => ({
+      ...group,
+      ...(group.items.length ? { items: group.items } : {}),
+      ...(group.subgroups.length ? { subgroups: group.subgroups } : {}),
+    }))
+    .filter(
+      (group) =>
+        (group.items?.length ?? 0) > 0 || (group.subgroups?.length ?? 0) > 0,
+    );
+
+  return finalizedGroups.length ? finalizedGroups : undefined;
+}
+
 function getMeaningfulOptionTitles(
   product: MedusaProduct,
   sourceOptions: JsonRecord[],
@@ -920,6 +1371,10 @@ function getPrimaryVariant(variants: MedusaVariant[]): MedusaVariant | undefined
 function mapMedusaProductToStorefrontProduct(
   product: MedusaProduct,
   fallbackCategoryName?: string,
+  addOnProducts: MedusaProductIndex = {
+    byId: new Map<string, MedusaProduct>(),
+    byHandle: new Map<string, MedusaProduct>(),
+  },
 ): ShopProduct | null {
   const medusaId = product.id?.trim();
   const handle = product.handle?.trim();
@@ -1031,17 +1486,7 @@ function mapMedusaProductToStorefrontProduct(
     const normalized = variant.sku.trim();
     return normalized.length > 0 && normalized.toLowerCase() !== "none";
   })?.sku;
-  const metadataAddOnGroupKeys = readMetadataStringArray(metadata, [
-    "source_add_on_group_keys",
-    "sourceAddOnGroupKeys",
-  ]);
-  const addOnGroupKeys =
-    metadataAddOnGroupKeys.length > 0
-      ? metadataAddOnGroupKeys
-      : getSharedProductAddOnKeysByHandle(handle);
-  const rawAddOnGroups =
-    getSharedProductAddOnGroupsByKeys(addOnGroupKeys) ??
-    getSharedProductAddOnGroupsByHandle(handle);
+  const rawAddOnGroups = buildAddOnGroupsFromLinks(metadata, addOnProducts);
   const addOnGroups =
     variantLabel?.trim().toLowerCase() === "frame type"
       ? rawAddOnGroups?.filter((group) => !isFrameTypeAddOnGroup(group))
@@ -1223,16 +1668,14 @@ const getMedusaMigratedCollections = cache(
       );
       const uniqueProducts = new Map<string, ShopProduct>();
       const productsByCategoryKey = new Map<string, Map<string, ShopProduct>>();
-
-      for (const sourceProduct of sourceProducts) {
+      const mergedProducts = sourceProducts.map((sourceProduct) => {
         const adminProduct =
-          (sourceProduct.id
-            ? adminProductsById.get(sourceProduct.id.trim())
-            : undefined) ??
+          (sourceProduct.id ? adminProductsById.get(sourceProduct.id.trim()) : undefined) ??
           (sourceProduct.handle
             ? adminProductsByHandle.get(sourceProduct.handle.trim())
             : undefined);
-        const mergedProduct: MedusaProduct = {
+
+        return {
           ...sourceProduct,
           ...(adminProduct?.metadata != null
             ? { metadata: adminProduct.metadata }
@@ -1240,7 +1683,36 @@ const getMedusaMigratedCollections = cache(
           ...(adminProduct?.categories != null
             ? { categories: adminProduct.categories }
             : {}),
-        };
+        } satisfies MedusaProduct;
+      });
+      const addOnProducts: MedusaProductIndex = {
+        byId: new Map(
+          mergedProducts
+            .filter(
+              (product): product is MedusaProduct & { id: string } =>
+                isStandaloneAddOnProduct(product) &&
+                typeof product.id === "string" &&
+                product.id.trim().length > 0,
+            )
+            .map((product) => [product.id.trim(), product]),
+        ),
+        byHandle: new Map(
+          mergedProducts
+            .filter(
+              (product): product is MedusaProduct & { handle: string } =>
+                isStandaloneAddOnProduct(product) &&
+                typeof product.handle === "string" &&
+                product.handle.trim().length > 0,
+            )
+            .map((product) => [product.handle.trim(), product]),
+        ),
+      };
+
+      for (const mergedProduct of mergedProducts) {
+        if (isStandaloneAddOnProduct(mergedProduct)) {
+          continue;
+        }
+
         const categoryEntries = getProductCategoryEntries(mergedProduct);
 
         for (const categoryEntry of categoryEntries) {
@@ -1259,6 +1731,7 @@ const getMedusaMigratedCollections = cache(
         const mappedProduct = mapMedusaProductToStorefrontProduct(
           mergedProduct,
           categoryEntries[0]?.name,
+          addOnProducts,
         );
 
         if (!mappedProduct) {
