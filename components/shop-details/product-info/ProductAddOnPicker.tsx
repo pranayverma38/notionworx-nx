@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { useMemo, useState } from "react";
+import { type ReactNode, useMemo, useState } from "react";
 
 import { useProduct } from "@/context/ProductContext";
 import type {
@@ -89,64 +89,67 @@ export function ProductAddOnPicker() {
               subgroup.selectionMode === "multiple" && subgroup.items.length > 1;
 
             if (prefersFlatGrid) {
+              const selectionSummary = getCategorySelectionSummary(
+                subgroup.items,
+                addOnSelections,
+                group.id,
+                subgroup.id,
+              );
+
               return (
-                <div
+                <CollapsibleAddOnSection
                   key={`${group.id}:${subgroup.id}`}
-                  className="product-addons__subgroup"
+                  title={subgroup.title}
+                  description={subgroup.description}
+                  summary={selectionSummary}
                 >
-                  <div className="product-addons__subgroup-header">
-                    <h6 className="product-addons__subgroup-title">{subgroup.title}</h6>
+                  <div className="product-addons__subgroup-content">
                     <span className="product-addons__subgroup-hint">
                       Choose one or more
                     </span>
-                    {subgroup.description ? (
-                      <p className="product-addons__subgroup-description">
-                        {subgroup.description}
-                      </p>
-                    ) : null}
-                  </div>
 
-                  <div className="product-addons__options-grid">
-                    {subgroup.items.map((option) => {
-                      const selection = findSelection(
-                        addOnSelections,
-                        group.id,
-                        option.id,
-                        subgroup.id,
-                      );
-                      const isSelected = selectedKeys.has(
-                        buildSelectionKey(group.id, option.id, subgroup.id),
-                      );
+                    <div className="product-addons__options-grid">
+                      {subgroup.items.map((option) => {
+                        const selection = findSelection(
+                          addOnSelections,
+                          group.id,
+                          option.id,
+                          subgroup.id,
+                        );
+                        const isSelected = selectedKeys.has(
+                          buildSelectionKey(group.id, option.id, subgroup.id),
+                        );
 
-                      return (
-                        <AddOnOptionCard
-                          key={`${group.id}:${subgroup.id}:${option.id}`}
-                          group={group}
-                          subgroup={subgroup}
-                          option={option}
-                          isSelected={isSelected}
-                          quantity={selection?.quantity ?? 1}
-                          onToggle={() =>
-                            setAddOnSelections((previousSelections) =>
-                              toggleSelection(previousSelections, group, option, subgroup),
-                            )
-                          }
-                          onQuantityChange={(nextQuantity) =>
-                            setAddOnSelections((previousSelections) =>
-                              updateSelectionQuantity(
-                                previousSelections,
-                                group.id,
-                                option.id,
-                                subgroup.id,
-                                nextQuantity,
-                              ),
-                            )
-                          }
-                        />
-                      );
-                    })}
+                        return (
+                          <AddOnOptionCard
+                            key={`${group.id}:${subgroup.id}:${option.id}`}
+                            group={group}
+                            subgroup={subgroup}
+                            option={option}
+                            isSelected={isSelected}
+                            quantity={selection?.quantity ?? 1}
+                            onToggle={() =>
+                              setAddOnSelections((previousSelections) =>
+                                toggleSelection(previousSelections, group, option, subgroup),
+                              )
+                            }
+                            onQuantityChange={(nextQuantity) =>
+                              setAddOnSelections((previousSelections) =>
+                                updateSelectionQuantity(
+                                  previousSelections,
+                                  group.id,
+                                  option.id,
+                                  subgroup.id,
+                                  nextQuantity,
+                                ),
+                              )
+                            }
+                          />
+                        );
+                      })}
+                    </div>
                   </div>
-                </div>
+                </CollapsibleAddOnSection>
               );
             }
 
@@ -232,6 +235,50 @@ type GuidedConfiguratorModel =
       allChoices: GuidedOption[];
     };
 
+function CollapsibleAddOnSection({
+  title,
+  description,
+  summary,
+  children,
+}: {
+  title: string;
+  description?: string;
+  summary?: string;
+  children: ReactNode;
+}) {
+  const [isOpen, setIsOpen] = useState(false);
+
+  return (
+    <div className={`product-addons__accordion${isOpen ? " is-open" : ""}`}>
+      <button
+        type="button"
+        className="product-addons__accordion-toggle"
+        aria-expanded={isOpen}
+        onClick={() => setIsOpen((currentState) => !currentState)}
+      >
+        <div className="product-addons__accordion-heading">
+          <div className="product-addons__accordion-copy">
+            <h6 className="product-addons__accordion-title">{title}</h6>
+            {description?.trim() ? (
+              <p className="product-addons__accordion-description">{description}</p>
+            ) : null}
+            {summary ? (
+              <p className="product-addons__accordion-summary">
+                <span>Selected:</span> {summary}
+              </p>
+            ) : null}
+          </div>
+          <span className="product-addons__accordion-chevron" aria-hidden />
+        </div>
+      </button>
+
+      <div className="product-addons__accordion-panel">
+        <div className="product-addons__accordion-panel-inner">{children}</div>
+      </div>
+    </div>
+  );
+}
+
 function GuidedAddOnConfigurator({
   group,
   subgroup,
@@ -276,147 +323,143 @@ function GuidedAddOnConfigurator({
   const selectedQuantity = currentSelection?.quantity ?? 1;
   const selectedChoiceLabel =
     selectedChoice?.choiceLabel ?? selectedChoice?.option.title ?? "";
+  const selectionSummary = selectedChoice
+    ? `${
+        model.kind === "size-and-choice" && selectedChoice.sizeLabel
+          ? `${selectedChoice.sizeLabel} · ${selectedChoiceLabel}`
+          : selectedChoiceLabel
+      }${selectedQuantity > 1 ? ` · Qty ${selectedQuantity}` : ""}`
+    : undefined;
+  const introCopy = description?.trim() || getConfiguratorIntroCopy(title, options.length);
 
   return (
-    <div className="product-addons__journey">
-      <div className="product-addons__journey-step">
-        <div className="product-addons__journey-body">
-          <div className="product-addons__journey-heading">
-            <div className="product-addons__journey-heading-main">
-              <h6 className="product-addons__journey-title">{title}</h6>
-              <p className="product-addons__journey-copy">
-                {description?.trim() || getConfiguratorIntroCopy(title, options.length)}
-              </p>
-              {selectedChoice ? (
-                <p className="product-addons__journey-selection-text">
-                  <span>Selected:</span>{" "}
-                  {model.kind === "size-and-choice" && selectedChoice.sizeLabel
-                    ? `${selectedChoice.sizeLabel} · ${selectedChoiceLabel}`
-                    : selectedChoiceLabel}
-                  {selectedQuantity > 1 ? ` · Qty ${selectedQuantity}` : ""}
+    <CollapsibleAddOnSection
+      title={title}
+      description={introCopy}
+      summary={selectionSummary}
+    >
+      <div className="product-addons__journey">
+        <div className="product-addons__journey-step">
+          <div className="product-addons__journey-body">
+            {model.kind === "size-and-choice" ? (
+              <div className="product-addons__journey-panel">
+                <p className="product-addons__journey-prompt">
+                  {getSizePromptCopy(title)}
                 </p>
-              ) : null}
-            </div>
-          </div>
+                <div className="product-addons__choice-strip" role="list">
+                  {model.sizes.map((size) => {
+                    const isActive = resolvedSizeKey === size.key;
 
-          {model.kind === "size-and-choice" ? (
+                    return (
+                      <button
+                        key={size.key}
+                        type="button"
+                        className={`product-addons__choice-chip${isActive ? " is-active" : ""}`}
+                        onClick={() => {
+                          setPreferredSizeKey(size.key);
+                          if (selectedChoice?.sizeKey && selectedChoice.sizeKey !== size.key) {
+                            setAddOnSelections((previousSelections) =>
+                              clearSelection(previousSelections, group.id, subgroup?.id),
+                            );
+                          }
+                        }}
+                        aria-pressed={isActive}
+                      >
+                        {size.label}
+                      </button>
+                    );
+                  })}
+                </div>
+              </div>
+            ) : null}
+
             <div className="product-addons__journey-panel">
               <p className="product-addons__journey-prompt">
-                {getSizePromptCopy(title)}
+                {getChoicePromptCopy(title)}
               </p>
-              <div className="product-addons__choice-strip" role="list">
-                {model.sizes.map((size) => {
-                  const isActive = resolvedSizeKey === size.key;
-
-                  return (
-                    <button
-                      key={size.key}
-                      type="button"
-                      className={`product-addons__choice-chip${isActive ? " is-active" : ""}`}
-                      onClick={() => {
-                        setPreferredSizeKey(size.key);
-                        if (selectedChoice?.sizeKey && selectedChoice.sizeKey !== size.key) {
-                          setAddOnSelections((previousSelections) =>
-                            clearSelection(previousSelections, group.id, subgroup?.id),
-                          );
-                        }
-                      }}
-                      aria-pressed={isActive}
-                    >
-                      {size.label}
-                    </button>
-                  );
-                })}
+              <div className="product-addons__journey-grid">
+                {visibleChoices.map((choice) => (
+                  <GuidedOptionCard
+                    key={`${group.id}:${subgroup?.id ?? "direct"}:${choice.option.id}`}
+                    option={choice.option}
+                    label={choice.choiceLabel}
+                    hint={choice.choiceHint}
+                    isSelected={selectedChoice?.option.id === choice.option.id}
+                    onSelect={() =>
+                      setAddOnSelections((previousSelections) =>
+                        selectedChoice?.option.id === choice.option.id
+                          ? clearSelection(previousSelections, group.id, subgroup?.id)
+                          : selectSingleSelection(
+                              previousSelections,
+                              group,
+                              choice.option,
+                              subgroup,
+                            ),
+                      )
+                    }
+                  />
+                ))}
               </div>
             </div>
-          ) : null}
 
-          <div className="product-addons__journey-panel">
-            <p className="product-addons__journey-prompt">
-              {getChoicePromptCopy(title)}
-            </p>
-            <div className="product-addons__journey-grid">
-              {visibleChoices.map((choice) => (
-                <GuidedOptionCard
-                  key={`${group.id}:${subgroup?.id ?? "direct"}:${choice.option.id}`}
-                  option={choice.option}
-                  label={choice.choiceLabel}
-                  hint={choice.choiceHint}
-                  isSelected={selectedChoice?.option.id === choice.option.id}
-                  onSelect={() =>
-                    setAddOnSelections((previousSelections) =>
-                      selectedChoice?.option.id === choice.option.id
-                        ? clearSelection(previousSelections, group.id, subgroup?.id)
-                        : selectSingleSelection(
-                            previousSelections,
-                            group,
-                            choice.option,
-                            subgroup,
-                          ),
-                    )
-                  }
-                />
-              ))}
-            </div>
-          </div>
-
-          {selectedChoice ? (
-            <div className="product-addons__journey-footer">
-              {selectedChoice.option.allowsQuantity !== false ? (
-                <div className="product-addons__journey-quantity">
-                  <div className="product-addons__journey-quantity-row">
-                    <p className="product-addons__journey-prompt">
-                      {getQuantityPromptCopy(title)}
-                    </p>
-                    <div className="product-addon-card__quantity-stepper">
-                      <button
-                        type="button"
-                        onClick={() =>
-                          setAddOnSelections((previousSelections) =>
-                            updateSelectionQuantity(
-                              previousSelections,
-                              group.id,
-                              selectedChoice.option.id,
-                              subgroup?.id,
-                              selectedQuantity - 1,
-                            ),
-                          )
-                        }
-                        className="product-addon-card__quantity-button"
-                        aria-label={`Decrease ${selectedChoice.option.title} quantity`}
-                      >
-                        -
-                      </button>
-                      <span className="product-addon-card__quantity-value">
-                        {selectedQuantity}
-                      </span>
-                      <button
-                        type="button"
-                        onClick={() =>
-                          setAddOnSelections((previousSelections) =>
-                            updateSelectionQuantity(
-                              previousSelections,
-                              group.id,
-                              selectedChoice.option.id,
-                              subgroup?.id,
-                              selectedQuantity + 1,
-                            ),
-                          )
-                        }
-                        className="product-addon-card__quantity-button"
-                        aria-label={`Increase ${selectedChoice.option.title} quantity`}
-                      >
-                        +
-                      </button>
+            {selectedChoice ? (
+              <div className="product-addons__journey-footer">
+                {selectedChoice.option.allowsQuantity !== false ? (
+                  <div className="product-addons__journey-quantity">
+                    <div className="product-addons__journey-quantity-row">
+                      <p className="product-addons__journey-prompt">
+                        {getQuantityPromptCopy(title)}
+                      </p>
+                      <div className="product-addon-card__quantity-stepper">
+                        <button
+                          type="button"
+                          onClick={() =>
+                            setAddOnSelections((previousSelections) =>
+                              updateSelectionQuantity(
+                                previousSelections,
+                                group.id,
+                                selectedChoice.option.id,
+                                subgroup?.id,
+                                selectedQuantity - 1,
+                              ),
+                            )
+                          }
+                          className="product-addon-card__quantity-button"
+                          aria-label={`Decrease ${selectedChoice.option.title} quantity`}
+                        >
+                          -
+                        </button>
+                        <span className="product-addon-card__quantity-value">
+                          {selectedQuantity}
+                        </span>
+                        <button
+                          type="button"
+                          onClick={() =>
+                            setAddOnSelections((previousSelections) =>
+                              updateSelectionQuantity(
+                                previousSelections,
+                                group.id,
+                                selectedChoice.option.id,
+                                subgroup?.id,
+                                selectedQuantity + 1,
+                              ),
+                            )
+                          }
+                          className="product-addon-card__quantity-button"
+                          aria-label={`Increase ${selectedChoice.option.title} quantity`}
+                        >
+                          +
+                        </button>
+                      </div>
                     </div>
                   </div>
-                </div>
-              ) : null}
-            </div>
-          ) : null}
+                ) : null}
+              </div>
+            ) : null}
+          </div>
         </div>
       </div>
-    </div>
+    </CollapsibleAddOnSection>
   );
 }
 
@@ -562,6 +605,40 @@ function getGroupSelectionSummary(
   }
 
   return `${matchingSelections.length} ${matchingSelections.length === 1 ? "pick" : "picks"} ready`;
+}
+
+function getCategorySelectionSummary(
+  options: ProductAddOnOption[],
+  selections: ProductAddOnSelection[],
+  groupId: string,
+  subgroupId?: string,
+): string | undefined {
+  const matchingSelections = options
+    .map((option) => {
+      const selection = findSelection(selections, groupId, option.id, subgroupId);
+
+      return selection ? { option, quantity: selection.quantity } : null;
+    })
+    .filter(Boolean) as Array<{ option: ProductAddOnOption; quantity: number }>;
+
+  if (!matchingSelections.length) {
+    return undefined;
+  }
+
+  if (matchingSelections.length === 1) {
+    const [{ option, quantity }] = matchingSelections;
+
+    return `${option.hoverTitle || option.title}${quantity > 1 ? ` · Qty ${quantity}` : ""}`;
+  }
+
+  const totalQuantity = matchingSelections.reduce(
+    (runningTotal, selection) => runningTotal + selection.quantity,
+    0,
+  );
+
+  return `${matchingSelections.length} selected${
+    totalQuantity > matchingSelections.length ? ` · Qty ${totalQuantity}` : ""
+  }`;
 }
 
 function buildGuidedConfiguratorModel(
